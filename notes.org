@@ -79,7 +79,7 @@ Model the domain and types before thinking about how to wriet computations.
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Actual type
-[[Datatype]] recieved by execution
+[[Datatype]] recieved by execution.
 ** Ad hoc polymorphism
 Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
 Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
@@ -95,9 +95,9 @@ Lambda function without the name to bind to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
-Is an input value to a function
+Is an input value to a function.
 ** Arity
-Number of parameters of the function
+Number of parameters of the function.
 - nullary - f()
 - unary   - f(x)
 - binary  - f(x,y)
@@ -120,7 +120,7 @@ data BinaryTree a =
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
-** Bottom
+** Bottom value
 '_' fits *.
 
 Is a non-value used to denote the program cannot return a values.
@@ -223,7 +223,7 @@ A) Has function as an argument.
 B) Evaluates to function.
 ** HOF
 See: [[Higher-order function]]
-** Identity
+** Identity function
 Return itself.
 (\x.x)
 id :: a -> a
@@ -277,8 +277,7 @@ Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
 Does not cover all cases.
-Unsafe.
-Causes trouble.
+Unsafe and causes trouble.
 ** Pointfree
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
