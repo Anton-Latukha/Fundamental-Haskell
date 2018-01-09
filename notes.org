@@ -81,7 +81,7 @@ Generalization of process from concrete instance of a problem mainly by introduc
 ** Actual type
 [[Datatype]] recieved by execution.
 ** Ad hoc polymorphism
-Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
+Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
 Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
 So it is a dispatch mechanism, that is how polymorphism achieved.
 ** Algebraic datatype
