@@ -375,9 +375,9 @@ Refer to an unspecified type in Haskell type signature.
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Typeclass inheritance
 [[Typeclass]] has a [[Superclass][superclass]]
-** Typeclass instance
-Unique [[Typeclass][typeclass]]-[[Datatype][type]] pairing.
-Defines type-typeclass methods.
+** Type instance
+Unique [[Typeclass][typeclass]]->[[Datatype][type]] pairing.
+Defines typeclass->type methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
