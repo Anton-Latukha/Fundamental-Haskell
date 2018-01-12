@@ -398,6 +398,10 @@ $\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$,
 Etymology:
 Joined by a common purpose.
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
+** Monoid
+Binary associative operation with an identity.
+Semigroup with identity.
+
 * Investigate
 ** Control.monad
    
