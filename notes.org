@@ -402,6 +402,11 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 Binary associative operation with an identity.
 Semigroup with identity.
 
+class Monoid m where
+mempty :: m
+mappend :: m -> m -> m
+mconcat :: [m] -> m
+mconcat = foldr mappend mempty
 * Investigate
 ** Control.monad
    
