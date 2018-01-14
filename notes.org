@@ -407,6 +407,8 @@ mempty :: m
 mappend :: m -> m -> m
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
+*** Abelian or commutative monoid
+Very helpful at concurrent or distributed processing.
 * Investigate
 ** Control.monad
    
