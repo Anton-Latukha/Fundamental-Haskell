@@ -417,6 +417,8 @@ mappend x mempty = x
 -- associativity
 mappend x (mappend y z) = mappend (mappend x y) z
 mconcat = foldr mappend mempty
+** Binary
+Two of something.
 * Investigate
 ** Control.monad
    
