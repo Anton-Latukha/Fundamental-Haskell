@@ -419,6 +419,9 @@ mappend x (mappend y z) = mappend (mappend x y) z
 mconcat = foldr mappend mempty
 ** Binary
 Two of something.
+** Operation
+As also called [[Function][function]].
+Used in mathematics. Word often used for [[Infix][infix]] operations.
 * Investigate
 ** Control.monad
    
