@@ -422,6 +422,16 @@ Two of something.
 ** Operation
 As also called [[Function][function]].
 Used in mathematics. Word often used for [[Infix][infix]] operations.
+** Identity
+*** Two-sided identity of a [[Predicate][predicate]]
+$P()$ is [[Commutative][commutative]].
+$\exist e \in S, \forall a \in S : P(e,a)=P(a,e)=a$
+*** Left identity of a [[Predicate][predicate]]
+$\exist e \in S, \forall a \in S : P(e,a)=a$
+*** Right identity of a [[Predicate][predicate]]
+$\exist e \in S, \forall a \in S : P(a,e)=a$
+
+Identity only possible with morphism.
 * Investigate
 ** Control.monad
    
