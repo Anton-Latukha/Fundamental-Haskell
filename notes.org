@@ -432,6 +432,10 @@ $\exist e \in S, \forall a \in S : P(e,a)=a$
 $\exist e \in S, \forall a \in S : P(a,e)=a$
 
 Identity only possible with morphism.
+** Predicate
+[[Assertion]] includes variable.
+Notation: $P(x)$
+[[Application]] of [[Argument][argument]] results in true or false predicate.
 * Investigate
 ** Control.monad
    
