@@ -454,6 +454,13 @@ Put the instance in the same module as the type so that the type cannot be impor
 Put the instance in the same module as the typeclass definition so that the typeclass cannot be imported without its instances.
 3. Neither the type nor the typeclass are yours?
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define typeclass instances. There are means of making this less annoying which we’ll discuss later.
+** Semigroup
+$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
+
+A set (S) with an operation (P) and [[Associative law][associative law]] - Semigroup.
+
+Defined in Haskell as:
+
 * Investigate
 ** Control.monad
    
