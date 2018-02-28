@@ -436,6 +436,8 @@ Identity only possible with morphism.
 [[Assertion]] includes variable.
 Notation: $P(x)$
 [[Application]] of [[Argument][argument]] results in true or false predicate.
+** Assertion
+Утверждение.
 * Investigate
 ** Control.monad
    
