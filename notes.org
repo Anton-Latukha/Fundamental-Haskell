@@ -461,6 +461,8 @@ A set (S) with an operation (P) and [[Associative law][associative law]] - Semig
 
 Defined in Haskell as:
 
+class Semigroup a where
+(<>) :: a -> a -> a
 * Investigate
 ** Control.monad
    
