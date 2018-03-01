@@ -438,6 +438,8 @@ Notation: $P(x)$
 [[Application]] of [[Argument][argument]] results in true or false predicate.
 ** Assertion
 Утверждение.
+** Commutative Law
+$\forall (a,b) \in S : P(a,b)=P(b,a)$
 * Investigate
 ** Control.monad
    
