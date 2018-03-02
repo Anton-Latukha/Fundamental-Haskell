@@ -440,6 +440,10 @@ Notation: $P(x)$
 Утверждение.
 ** Commutative Law
 $\forall (a,b) \in S : P(a,b)=P(b,a)$
+** Conjunction
+AND
+** Disjunction
+OR
 * Investigate
 ** Control.monad
    
