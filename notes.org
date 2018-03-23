@@ -24,3 +24,21 @@ ord (Char -> Int)
 chr (Int -> Char)
 isUpper (Char -> Bool)
 toUpper (Char -> Char)
+* Debugger
+
+Provides:
+  * set a breakpoints
+  * observe step-by-step evaluation
+  * tracing mode
+
+** Commands
+:list
+
+** Breakpoints 
+:break 2
+  :show breaks
+  :delete 0
+:continue
+
+** Step-by-step
+:step main
