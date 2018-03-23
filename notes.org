@@ -1,0 +1,18 @@
+** Functions
+enumFromTo
+enumFromThenTo
+compare
+reverse
+show :: Show a => a -> String
+div - always makes rounding down, to infinity
+
+divMod - returns a tuple containing the result of integral division and modulo 
+flip
+sequence - Evaluate each monadic action in the structure from left to right, and collect the results.
+Data.List intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
+concat - [ [a] ] -> [a]
+:sprint - show variables to see what has been evaluated already.
+elem x xs - is element a part of array
+zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list runs out.
+zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
+Data.Char - ord (Char -> Int) chr (Int -> Char), isUpper (Char -> Bool), toUpper (Char -> Char)
