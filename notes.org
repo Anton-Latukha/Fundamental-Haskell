@@ -7,6 +7,8 @@ show :: Show a => a -> String
 flip
 sequence - Evaluate each monadic action in the structure from left to right, and collect the results.
 :sprint - show variables to see what has been evaluated already.
+minBound - smaller bound
+maxBound - larger bound
 *** Ord
 compare
 *** Calc
