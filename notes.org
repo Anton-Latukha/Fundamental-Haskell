@@ -157,7 +157,9 @@ Nullary constructor
 ** Constrain
 See: [[Ad hoc polymorphism]]
 ** Construct
+#+BEGIN_SRC haskell
 (:) :: a -> [a] -> [a]
+#+END_SRC
 ** Constructor
 1. [[Type constructor]]
 2. [[Data onstructor]]
@@ -206,9 +208,11 @@ Function is an [[Operation][operation]].
 ** Function body
 [[Expression]] that haracterizes the process.
 ** Function composition
+#+BEGIN_SRC haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
 
 a -> (a -> b) -> (b -> c) -> c
+#+END_SRC
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
@@ -228,7 +232,9 @@ See: [[Higher-order function]]
 ** Identity function
 Return itself.
 (\x.x)
+#+BEGIN_SRC haskell
 id :: a -> a
+#+END_SRC
 ** Infix
 Operaton in-between variables.
 ** Inhabit
@@ -402,14 +408,17 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 Binary associative operation with an identity.
 Semigroup with identity.
 
+#+BEGIN_SRC haskell
 class Monoid m where
 mempty :: m
 mappend :: m -> m -> m
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
+#+END_SRC
 *** Abelian or commutative monoid
 Very helpful at concurrent or distributed processing.
 *** Monoid laws
+#+BEGIN_SRC haskell
 -- left identity
 mappend mempty x = x
 -- right identity
@@ -417,6 +426,7 @@ mappend x mempty = x
 -- associativity
 mappend x (mappend y z) = mappend (mappend x y) z
 mconcat = foldr mappend mempty
+#+END_SRC
 ** Binary
 Two of something.
 ** Operation
@@ -461,8 +471,11 @@ A set (S) with an operation (P) and [[Associative law][associative law]] - Semig
 
 Defined in Haskell as:
 
+#+BEGIN_SRC haskell
 class Semigroup a where
 (<>) :: a -> a -> a
+#+END_SRC
+
 ** Magma
 Set with a single binary operation.
 
