@@ -463,6 +463,10 @@ Defined in Haskell as:
 
 class Semigroup a where
 (<>) :: a -> a -> a
+** Magma
+Set with a single binary operation.
+
+The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 * Investigate
 ** Control.monad
    
