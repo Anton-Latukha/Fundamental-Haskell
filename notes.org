@@ -467,6 +467,8 @@ class Semigroup a where
 Set with a single binary operation.
 
 The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+** Binary operation
+$\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 * Investigate
 ** Control.monad
    
