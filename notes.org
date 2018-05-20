@@ -471,4 +471,7 @@ The category of magmas, denoted $Mag$, has as objects sets with a binary operati
 $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 * Investigate
 ** Control.monad
-   
+* Citations:
+"One of the finer points of the Haskell community has been
+its propensity for recognizing abstract patterns in code which
+have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
