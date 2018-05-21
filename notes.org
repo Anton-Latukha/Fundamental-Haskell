@@ -475,3 +475,14 @@ $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
+* TeX examples
+
+$\displaystyle L(f,P)=\sum_{i=0}^{n-1} inf_{t\in[x_i,x_{i+1}]}f(t)(x_{i+1}-x_{i})$,
+
+\begin{equation}
+x=\sqrt{b}
+\end{equation}
+
+If $a^2=b$ and \( b=2 \), then the solution must be
+either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
+
