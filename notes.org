@@ -21,6 +21,7 @@ zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list
 zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
 ** Data.List
 intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
+nub - remove duplicates from the list
 ** Data.Char
 ord (Char -> Int)
 chr (Int -> Char)
@@ -44,3 +45,44 @@ Provides:
 
 ** Step-by-step
 :step main
+* FunFunc
+cycle :: [a] -> [a] - indefinitely cycle s list
+repeat - indefinit lis from value
+elemIndex e l - return first index, returns Maybe
+fromMaybe (default if Nothing) e ::Maybe a -> a
+lookup :: Eq a => a -> [(a, b)] -> Maybe b
+* Definitions
+** Reduction
+** Expression
+** (functions are) First-class
+** Purity
+** Referential transparency
+** Argument
+Is an input value to a function
+** Parameter
+** Function head
+** Function body
+** Bind
+Making parameter of the function = applied argument to the function
+** Catamorphism:
+(from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
+
+In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+** Anonymous function
+** Abstraction
+Generalization of process from concrete instance of a problem mainly by introduction of names.
+** Type
+** Alpha equivalence
+If names in expressions are different but form of process is literally the same - that means that names are synonyms and expression are alpha equivalent.
+** Beta reduction
+Applying [[Function][function]] to an [[Argument][argument]].
+** Identity
+Return itself.
+(\x.x)
+id :: a -> a
+** Left associative
+Same level [[Exression][expression]] parts in reality follow grouping from left to right.
+(\x.x)(\y.y)z = ((\x.x)(\y.y))z
+** Free variables
+Variables in the fuction that is not bound by the head.
+They live empty and fuction as so is not fully applied.
