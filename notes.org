@@ -135,3 +135,9 @@ A name for [[Expression][expression]].
 
 Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
+** Currying
+Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
+** Normal form
+In context: [[Beta normal form]]
+** Infix
+Operaton in-between variables.
