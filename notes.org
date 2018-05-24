@@ -183,3 +183,23 @@ There are mainly three levels of Haskell code.
 - [[Type level]]: part that works with [[Datatype][datatypes]]
 - [[Term level]]: logical execution part of the code
 - Compiled level: level when code compiles/compiled
+** Tuple
+Datatype that stores multiple values withing a single value.
+Tuples by [[Arity][arity]]:
+- pair, two-tuples     - 2
+- thriple, three-tuple - 3
+** Arity
+Number of parameters of the function
+- nullary - f()
+- unary   - f(x)
+- binary  - f(x,y)
+- ternary - f(x,y,z)
+- n-ary   - f(x,y,z..)
+** Variadic
+Assepting a vatiable number of [[Argument][arguments]]
+** Sum datatype
+Logical disjunction.
+A datatype that consists of OR areas.
+** Product datatype
+Logical conjunction.
+A datatype that consists of AND areas
