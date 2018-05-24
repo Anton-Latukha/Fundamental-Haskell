@@ -103,6 +103,7 @@ Same level [[Exression][expression]] parts in reality follow grouping from left 
 ** Parameter
 Or Formal Parameter - named varible of a [[Function][function]].
 ** Purity
+[[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Reduction
 See [[Beta Reduction]]
 ** Referential transparency
@@ -111,6 +112,7 @@ Function returns the same output given the same values to evaluate.
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
 Such [[Functions][functions]] are called [[Pure][pure]].
 ** Type
+See [[Datatype]]
 ** Variable
 A name for [[Expression][expression]].
 
@@ -118,3 +120,9 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Datatype
 Data type, type.
+** Combinator
+Higher-order [[Function][function]] that uses only function application and earlier defined combinators to define a result from its arguments.
+
+Narrow meaning: A function or definition with no free variables.
+
+Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
