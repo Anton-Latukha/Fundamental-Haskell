@@ -58,7 +58,7 @@ Generalization of process from concrete instance of a problem mainly by introduc
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anonymous function
 ** Application
-For FP see [[Bind]].
+For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
 Is an input value to a function
 ** Beta reduction
@@ -121,6 +121,8 @@ Except when you hack it with explicit [[Function][funtions]].
 ** Datatype
 Data type, type.
 ** Combinator
+Lambda term without free variables.
+
 Higher-order [[Function][function]] that uses only function application and earlier defined combinators to define a result from its arguments.
 
 Narrow meaning: A function or definition with no free variables.
