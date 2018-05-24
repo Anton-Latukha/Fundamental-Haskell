@@ -57,30 +57,43 @@ Generalization of process from concrete instance of a problem mainly by introduc
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anonymous function
+In Haskell it is a Lambda function expression without the name to bind to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
 Is an input value to a function
-** Beta reduction
-Applying [[Function][function]] to an [[Argument][argument]].
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible
+** Beta reduction
+Applying [[Function][function]] to an [[Argument][argument]].
 ** Bind
 Parameter of the function = argument that applied to the function
 ** Catamorphism
 (from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+** Combinator
+Lambda term without free variables.
+
+Higher-order [[Function][function]] that uses only function application and earlier defined combinators to define a result from its arguments.
+
+Narrow meaning: A function or definition with no free variables.
+
+Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+** Datatype
+Data type, type.
+** Declaration
+Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Evaluation
 For FP see [[Bind]].
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
-** Free variables
-Variables in the fuction that is not bound by the head.
-They live empty and fuction as so is not fully applied.
 ** First-class
 1. Can be used as [[Value][value]].
 2. Passed as an [[Argument][argument]].
+** Free variables
+Variables in the fuction that is not bound by the head.
+They live empty and fuction as so is not fully applied.
 ** Function
 The idealization of how a varying quantity depends on another quantity.
 
@@ -104,6 +117,8 @@ Same level [[Exression][expression]] parts in reality follow grouping from left 
 Or Formal Parameter - named varible of a [[Function][function]].
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
+** Redex
+[[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction
 See [[Beta Reduction]]
 ** Referential transparency
@@ -111,6 +126,8 @@ Function returns the same output given the same values to evaluate.
 
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
 Such [[Functions][functions]] are called [[Pure][pure]].
+** REPL
+Interactive CLI. Read-eval-print loop.
 ** Type
 See [[Datatype]]
 ** Variable
@@ -118,13 +135,3 @@ A name for [[Expression][expression]].
 
 Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
-** Datatype
-Data type, type.
-** Combinator
-Lambda term without free variables.
-
-Higher-order [[Function][function]] that uses only function application and earlier defined combinators to define a result from its arguments.
-
-Narrow meaning: A function or definition with no free variables.
-
-Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
