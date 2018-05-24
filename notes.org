@@ -159,7 +159,27 @@ Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abst
 ** Ad hoc polymorphism
 Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
 Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
+So it is a dispatch mechanism, that is how polymorphism achieved.
 ** Parametric polymorphism
 Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
 ** Typeclass
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+** Unsafe
+[[Function]] that does not cover some edge case.
+** Inhabit
+What [[Values][values]] inhabit [[Datatype][datatype]]
+** Local
+[[Scope]] applies only in an area
+** Data declaration
+Are how [[Datatype][datatype]] is defined.
+** Data constructors
+Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
+** Type level
+See: [[Level of code]]
+** Term level
+See: [[Level of code]]
+** Level of code
+There are mainly three levels of Haskell code.
+- [[Type level]]: part that works with [[Datatype][datatypes]]
+- [[Term level]]: logical execution part of the code
+- Compiled level: level when code compiles/compiled
