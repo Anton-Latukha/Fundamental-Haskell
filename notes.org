@@ -171,8 +171,10 @@ What [[Values][values]] inhabit [[Datatype][datatype]]
 ** Local
 [[Scope]] applies only in an area
 ** Data declaration
-Are how [[Datatype][datatype]] is defined.
-** Data constructors
+[[Datatype]] definition
+** Type constructor
+Name of [[Datatype][datatype]]
+** Data constructor
 Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
 ** Type level
 See: [[Level of code]]
