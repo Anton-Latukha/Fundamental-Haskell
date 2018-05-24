@@ -141,3 +141,16 @@ Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] 
 In context: [[Beta normal form]]
 ** Infix
 Operaton in-between variables.
+** Modulus
+Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+** Syntatic sugar
+Artificial way to make the language easier to read and write.
+** Sectioning
+Writing [[Function][function]] in a parentheses. Allows to pass around partially applied functions.
+** Scope
+Area where [[Bind][bind]] is accessible.
+** Operator
+[[Infix]] [[Function][function]].
+** Type alias
+** Concatenate
+Link together sequences.
