@@ -154,3 +154,12 @@ Area where [[Bind][bind]] is accessible.
 ** Type alias
 ** Concatenate
 Link together sequences.
+** Polymorphism
+Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
+** Ad hoc polymorphism
+Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
+Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
+** Parametric polymorphism
+Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
+** Typeclass
+Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
