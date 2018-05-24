@@ -52,44 +52,69 @@ elemIndex e l - return first index, returns Maybe
 fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
 * Definitions
-** Reduction
+** Abstraction
+Generalization of process from concrete instance of a problem mainly by introduction of names.
+** Alpha equivalence
+If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
+** Anonymous function
+** Application
+For FP see [[Bind]].
+** Argument
+Is an input value to a function
+** Beta reduction
+Applying [[Function][function]] to an [[Argument][argument]].
+** Beta normal form
+No [[Beta reduction][beta reduction]] is possible
+** Bind
+Parameter of the function = argument that applied to the function
+** Catamorphism
+(from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
+
+In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 ** Evaluation
+For FP see [[Bind]].
 ** Expression
-** (functions are) First-class
-1. Can be used as value.
-2. Passed as a [[Argument][argument]].
+Finite combination of a symbols that is well-formed according to rules that depend on the context.
+** Free variables
+Variables in the fuction that is not bound by the head.
+They live empty and fuction as so is not fully applied.
+** First-class
+1. Can be used as [[Value][value]].
+2. Passed as an [[Argument][argument]].
+** Function
+The idealization of how a varying quantity depends on another quantity.
+
+A function f from a set X to a set Y is defined by a set G of ordered pairs (x, y), such that x ∈ X, y ∈ Y, and every element of X is the first component of exactly one ordered pair in G.[4] In other words, for every x in X there is exactly one element y, such that the ordered pair (x, y) belongs to the set of pairs defining the function f.
+** Function body
+[[Expression]] that haracterizes the process.
+** Function head
+Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
+AKA: f(x)
+** Identity
+Return itself.
+(\x.x)
+id :: a -> a
+** Lambda calculus
+Universal model of computation that can be used to simulate any Turing machine.
+Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
+** Left associative
+Same level [[Exression][expression]] parts in reality follow grouping from left to right.
+(\x.x)(\y.y)z = ((\x.x)(\y.y))z
+** Parameter
+Or Formal Parameter - named varible of a [[Function][function]].
 ** Purity
+** Reduction
+See [[Beta Reduction]]
 ** Referential transparency
 Function returns the same output given the same values to evaluate.
 
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
 Such [[Functions][functions]] are called [[Pure][pure]].
-** Argument
-Is an input value to a function
-** Parameter
-** Function head
-** Function body
-** Bind
-Making parameter of the function = applied argument to the function
-** Catamorphism:
-(from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
-
-In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
-** Anonymous function
-** Abstraction
-Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Type
-** Alpha equivalence
-If names in expressions are different but form of process is literally the same - that means that names are synonyms and expression are alpha equivalent.
-** Beta reduction
-Applying [[Function][function]] to an [[Argument][argument]].
-** Identity
-Return itself.
-(\x.x)
-id :: a -> a
-** Left associative
-Same level [[Exression][expression]] parts in reality follow grouping from left to right.
-(\x.x)(\y.y)z = ((\x.x)(\y.y))z
-** Free variables
-Variables in the fuction that is not bound by the head.
-They live empty and fuction as so is not fully applied.
+** Variable
+A name for [[Expression][expression]].
+
+Haskell has immutable variables.
+Except when you hack it with explicit [[Function][funtions]].
+** Datatype
+Data type, type.
