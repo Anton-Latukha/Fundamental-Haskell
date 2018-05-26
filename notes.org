@@ -53,7 +53,14 @@ fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
 * Good code
 Use datatype aliases to deferentiate logic of values.
+
+Unconstrained means most flexible, but the most useless.
+The more constrained system has more usefulness.
+
 *** Read Conventions of variables (page 176)
+*** Polymorphism 
+Parametric polymorphism is broader then constrained polymorphism
+*** Damas–Hindley–Milner type system
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -147,9 +154,9 @@ Operaton in-between variables.
 ** Modulus
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
 ** Syntatic sugar
-Artificial way to make the language easier to read and write.
+Artificial way to make language easier to read and write.
 ** Sectioning
-Writing [[Function][function]] in a parentheses. Allows to pass around partially applied functions.
+Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Scope
 Area where [[Bind][bind]] is accessible.
 ** Operator
@@ -220,3 +227,21 @@ Static typechecking occurs at [[Level of code][compile time]]
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
+** Higher-order function
+Function arity > 1.
+
+Function returns function.
+** Undefined
+Value helps to do typechecking
+** Monomorphic
+Made of one form.
+** Bottom
+'_' fits *.
+** Type inference
+Automatic detection expression datatype.
+** Principal type
+The most generic [[Datatype][datatype]] that still typechecks.
+** Type variable
+Refer to an unspecified type in Haskell type signature.
+** Module
+Importable organization unit.
