@@ -51,6 +51,9 @@ repeat - indefinit lis from value
 elemIndex e l - return first index, returns Maybe
 fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
+* Good code
+Use datatype aliases to deferentiate logic of values.
+*** Read Conventions of variables (page 176)
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -205,3 +208,5 @@ A datatype that consists of OR areas.
 ** Product datatype
 Logical conjunction.
 A datatype that consists of AND areas
+** Constrain
+See: [[Ad hoc polymorphism]]
