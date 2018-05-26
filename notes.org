@@ -64,6 +64,12 @@ Parametric polymorphism is broader then constrained polymorphism
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
+** Actual type
+[[Datatype]] recieved by execution
+** Ad hoc polymorphism
+Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
+Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
+So it is a dispatch mechanism, that is how polymorphism achieved.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anonymous function
@@ -72,12 +78,21 @@ In Haskell it is a Lambda function expression without the name to bind to.
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
 Is an input value to a function
+** Arity
+Number of parameters of the function
+- nullary - f()
+- unary   - f(x)
+- binary  - f(x,y)
+- ternary - f(x,y,z)
+- n-ary   - f(x,y,z..)
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Bind
 Parameter of the function = argument that applied to the function
+** Bottom
+'_' fits *.
 ** Catamorphism
 (from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
 
@@ -90,12 +105,24 @@ Higher-order [[Function][function]] that uses only function application and earl
 Narrow meaning: A function or definition with no free variables.
 
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+** Concatenate
+Link together sequences.
+** Constrain
+See: [[Ad hoc polymorphism]]
+** Currying
+Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
+** Data constructor
+Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
+** Data declaration
+[[Datatype]] definition
 ** Datatype
 Data type, type.
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Evaluation
 For FP see [[Bind]].
+** Expected type
+[[Datatype]] infered from the text of the code
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class
@@ -113,18 +140,56 @@ A function f from a set X to a set Y is defined by a set G of ordered pairs (x, 
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
+** Higher-order function
+Function arity > 1.
+
+Function returns function.
 ** Identity
 Return itself.
 (\x.x)
 id :: a -> a
+** Infix
+Operaton in-between variables.
+** Inhabit
+What [[Values][values]] inhabit [[Datatype][datatype]]
+** Interface
+Point of mutual meeting. Code behind interface determines how data is consumed.
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
 ** Left associative
 Same level [[Exression][expression]] parts in reality follow grouping from left to right.
 (\x.x)(\y.y)z = ((\x.x)(\y.y))z
+** Level of code
+There are mainly three levels of Haskell code.
+- [[Type level]]: part that works with [[Datatype][datatypes]]
+- [[Term level]]: logical execution part of the code
+- Compile level: level when code compiles/compiled
+** Local
+[[Scope]] applies only in an area
+** Module
+Importable organization unit.
+** Modulus
+Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+** Monomorphic
+Made of one form.
+** Normal form
+In context: [[Beta normal form]]
+** Operator
+[[Infix]] [[Function][function]].
 ** Parameter
 Or Formal Parameter - named varible of a [[Function][function]].
+** Parametric polymorphism
+Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
+** Partial application
+Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
+** Polymorphism
+Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
+** Principal type
+The most generic [[Datatype][datatype]] that still typechecks.
+** Product datatype
+Logical conjunction.
+A datatype that consists of AND areas
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Redex
@@ -138,110 +203,47 @@ Function returns the same output given the same values to evaluate.
 Such [[Functions][functions]] are called [[Pure][pure]].
 ** REPL
 Interactive CLI. Read-eval-print loop.
-** Type
-See [[Datatype]]
-** Variable
-A name for [[Expression][expression]].
-
-Haskell has immutable variables.
-Except when you hack it with explicit [[Function][funtions]].
-** Currying
-Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
-** Normal form
-In context: [[Beta normal form]]
-** Infix
-Operaton in-between variables.
-** Modulus
-Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
-** Syntatic sugar
-Artificial way to make language easier to read and write.
-** Sectioning
-Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Scope
 Area where [[Bind][bind]] is accessible.
-** Operator
-[[Infix]] [[Function][function]].
-** Type alias
-** Concatenate
-Link together sequences.
-** Polymorphism
-Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
-** Ad hoc polymorphism
-Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
-Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
-So it is a dispatch mechanism, that is how polymorphism achieved.
-** Parametric polymorphism
-Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
-** Typeclass
-Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
-** Unsafe
-[[Function]] that does not cover some edge case.
-** Inhabit
-What [[Values][values]] inhabit [[Datatype][datatype]]
-** Local
-[[Scope]] applies only in an area
-** Data declaration
-[[Datatype]] definition
-** Type constructor
-Name of [[Datatype][datatype]]
-** Data constructor
-Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
-** Type level
-See: [[Level of code]]
+** Sectioning
+Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
+** Static typing
+Static typechecking occurs at [[Level of code][compile time]]
+** Sum datatype
+Logical disjunction.
+A datatype that consists of OR areas.
+** Syntatic sugar
+Artificial way to make language easier to read and write.
 ** Term level
 See: [[Level of code]]
-** Level of code
-There are mainly three levels of Haskell code.
-- [[Type level]]: part that works with [[Datatype][datatypes]]
-- [[Term level]]: logical execution part of the code
-- Compile level: level when code compiles/compiled
 ** Tuple
 Datatype that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
 - pair, two-tuples     - 2
 - thriple, three-tuple - 3
-** Arity
-Number of parameters of the function
-- nullary - f()
-- unary   - f(x)
-- binary  - f(x,y)
-- ternary - f(x,y,z)
-- n-ary   - f(x,y,z..)
-** Variadic
-Assepting a vatiable number of [[Argument][arguments]]
-** Sum datatype
-Logical disjunction.
-A datatype that consists of OR areas.
-** Product datatype
-Logical conjunction.
-A datatype that consists of AND areas
-** Constrain
-See: [[Ad hoc polymorphism]]
-** Static typing
-Static typechecking occurs at [[Level of code][compile time]]
-** Actual type
-[[Datatype]] recieved by execution
-** Expected type
-[[Datatype]] infered from the text of the code
-** Partial application
-Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
-** Uncurry
-Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
-** Higher-order function
-Function arity > 1.
-
-Function returns function.
-** Undefined
-Value helps to do typechecking
-** Monomorphic
-Made of one form.
-** Bottom
-'_' fits *.
+** Type
+See [[Datatype]]
+** Type alias
+** Type constructor
+Name of [[Datatype][datatype]]
 ** Type inference
 Automatic detection expression datatype.
-** Principal type
-The most generic [[Datatype][datatype]] that still typechecks.
+** Type level
+See: [[Level of code]]
 ** Type variable
 Refer to an unspecified type in Haskell type signature.
-** Module
-Importable organization unit.
+** Typeclass
+Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+** Uncurry
+Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
+** Undefined
+Value helps to do typechecking
+** Unsafe
+[[Function]] that does not cover some edge case.
+** Variable
+A name for [[Expression][expression]].
+
+Haskell has immutable variables.
+Except when you hack it with explicit [[Function][funtions]].
+** Variadic
+Assepting a vatiable number of [[Argument][arguments]]
