@@ -187,7 +187,7 @@ See: [[Level of code]]
 There are mainly three levels of Haskell code.
 - [[Type level]]: part that works with [[Datatype][datatypes]]
 - [[Term level]]: logical execution part of the code
-- Compiled level: level when code compiles/compiled
+- Compile level: level when code compiles/compiled
 ** Tuple
 Datatype that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
@@ -210,3 +210,13 @@ Logical conjunction.
 A datatype that consists of AND areas
 ** Constrain
 See: [[Ad hoc polymorphism]]
+** Static typing
+Static typechecking occurs at [[Level of code][compile time]]
+** Actual type
+[[Datatype]] recieved by execution
+** Expected type
+[[Datatype]] infered from the text of the code
+** Partial application
+Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
+** Uncurry
+Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
