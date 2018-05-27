@@ -61,6 +61,9 @@ The more constrained system has more usefulness.
 *** Polymorphism 
 Parametric polymorphism is broader then constrained polymorphism
 *** Damas–Hindley–Milner type system
+*** Print
+print :: Show a => a -> IO ()
+print a = putStrLn (show a)
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -90,6 +93,7 @@ No [[Beta reduction][beta reduction]] is possible
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Bind
+Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom
@@ -289,3 +293,7 @@ See: [[Higher-order function]]
 (.) :: (b -> c) -> (a -> b) -> a -> c
 
 a -> (a -> b) -> (b -> c) -> c
+** Pointfree
+Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
+** Compose
+See: [[Function composition]]
