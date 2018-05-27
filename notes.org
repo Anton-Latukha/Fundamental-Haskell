@@ -73,7 +73,7 @@ So it is a dispatch mechanism, that is how polymorphism achieved.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anonymous function
-In Haskell it is a Lambda function expression without the name to bind to.
+Lambda function without the name to bind to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
@@ -91,6 +91,7 @@ No [[Beta reduction][beta reduction]] is possible
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Bind
 Parameter of the function = argument that applied to the function
+Variables = values.
 ** Bottom
 '_' fits *.
 ** Catamorphism
@@ -143,7 +144,10 @@ AKA: f(x)
 ** Higher-order function
 Function arity > 1.
 
-Function returns function.
+----
+
+A) Has function as an argument.
+B) Evaluates to function.
 ** Identity
 Return itself.
 (\x.x)
@@ -264,4 +268,24 @@ Defines type-typeclass methods.
 ** Dispatch
 Send, transmission, reference.
 ** Concrete type
+** Typeclass inheritance
+[[Typeclass]] has a [[Superclass][superclass]]
+** Effect
+Observable action.
+** IO
+Type for values whose evaluations has a posibility to cause side effects.
+** Derived instance
+Typeclasses such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
+** Shadowing
+Global scope variable overriden by variable in local scope.
+** Lexical scope
+Scope search sourcecode blocks structure determined.
+** Statement
+Declarative sentence that is true or false.
+Gonzales: "What code does."
+** HOF
+See: [[Higher-order function]]
+** Function composition
+(.) :: (b -> c) -> (a -> b) -> a -> c
 
+a -> (a -> b) -> (b -> c) -> c
