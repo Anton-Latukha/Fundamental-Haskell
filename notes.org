@@ -183,6 +183,10 @@ Or Formal Parameter - named varible of a [[Function][function]].
 Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
+** Partial function
+Does not cover all cases.
+Unsafe.
+Causes trouble.
 ** Polymorphism
 Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
 ** Principal type
@@ -219,6 +223,7 @@ See: [[Level of code]]
 ** Tuple
 Datatype that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
+- empty, [[Unit][unit]]          - 0
 - pair, two-tuples     - 2
 - thriple, three-tuple - 3
 ** Type
@@ -247,3 +252,16 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Variadic
 Assepting a vatiable number of [[Argument][arguments]]
+** Superclass
+Broader parent class.
+** Unit
+Value, [[Datatype][type]]. Represents nothing. Empty [[Tuple][tuple]]
+** Nothing
+Any Haskell expression can't return nothing.
+** Typeclass instance
+Unique [[Typeclass][typeclass]]-[[Datatype][type]] pairing.
+Defines type-typeclass methods.
+** Dispatch
+Send, transmission, reference.
+** Concrete type
+
