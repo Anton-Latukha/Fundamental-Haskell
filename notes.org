@@ -141,6 +141,8 @@ See: [[Ad hoc polymorphism]]
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
 ** Data constructor
 Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
+
+Constant value - nullary data constructor
 ** Data declaration
 [[Datatype]] definition
 ** Datatype
@@ -310,6 +312,8 @@ See [[Datatype]]
 ** Type alias
 ** Type constructor
 Name of [[Datatype][datatype]]
+
+Nullary type constructor is [[Type constant]]
 ** Type inference
 Automatic detection expression datatype.
 ** Type level
@@ -347,3 +351,17 @@ Tail calls are recursive invocantions of itself.
 ** Algebraic datatype
 Composite type formed by combining other types.
 ** Constructor
+1. [[Type constructor]]
+2. [[Data onstructor]]
+
+Also see: [[Constant]]
+** Type constant
+See: [[Constant]]
+** Data constant
+See: [[Constant]]
+** Constant
+Nullary constructor
+** Kind
+Kind -> Type -> Data
+** Cardinality
+
