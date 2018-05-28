@@ -66,6 +66,7 @@ Parametric polymorphism is broader then constrained polymorphism
 *** Print
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
+*** Read code evaluation (488 on-ward)
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
