@@ -91,6 +91,8 @@ Number of parameters of the function
 - binary  - f(x,y)
 - ternary - f(x,y,z)
 - n-ary   - f(x,y,z..)
+** Base case
+A part of a [[Recursion][recursive]] [[Function][function]] that produces result trivially.
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible
 ** Beta reduction
@@ -115,10 +117,19 @@ Higher-order [[Function][function]] that uses only function application and earl
 Narrow meaning: A function or definition with no free variables.
 
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+** Compose
+See: [[Function composition]]
 ** Concatenate
 Link together sequences.
+** Concrete type
+** Cons
+See: Construct
+** Cons cell
+Conceptual space that values may inhabit.
 ** Constrain
 See: [[Ad hoc polymorphism]]
+** Construct
+(:) :: a -> [a] -> [a]
 ** Currying
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
 ** Data constructor
@@ -129,6 +140,12 @@ Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
 Data type, type.
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
+** Derived instance
+Typeclasses such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
+** Dispatch
+Send, transmission, reference.
+** Effect
+Observable action.
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
@@ -147,6 +164,10 @@ The idealization of how a varying quantity depends on another quantity.
 A function f from a set X to a set Y is defined by a set G of ordered pairs (x, y), such that x ∈ X, y ∈ Y, and every element of X is the first component of exactly one ordered pair in G.[4] In other words, for every x in X there is exactly one element y, such that the ordered pair (x, y) belongs to the set of pairs defining the function f.
 ** Function body
 [[Expression]] that haracterizes the process.
+** Function composition
+(.) :: (b -> c) -> (a -> b) -> a -> c
+
+a -> (a -> b) -> (b -> c) -> c
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
@@ -157,6 +178,8 @@ Function arity > 1.
 
 A) Has function as an argument.
 B) Evaluates to function.
+** HOF
+See: [[Higher-order function]]
 ** Identity
 Return itself.
 (\x.x)
@@ -167,6 +190,8 @@ Operaton in-between variables.
 What [[Values][values]] inhabit [[Datatype][datatype]]
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
+** IO
+Type for values whose evaluations has a posibility to cause side effects.
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
@@ -178,6 +203,8 @@ There are mainly three levels of Haskell code.
 - [[Type level]]: part that works with [[Datatype][datatypes]]
 - [[Term level]]: logical execution part of the code
 - Compile level: level when code compiles/compiled
+** Lexical scope
+Scope search sourcecode blocks structure determined.
 ** Local
 [[Scope]] applies only in an area
 ** Module
@@ -188,6 +215,8 @@ Modular arithmetic is a system of arithmetic for integers where number wraps aro
 Made of one form.
 ** Normal form
 In context: [[Beta normal form]]
+** Nothing
+Any Haskell expression can't return nothing.
 ** Operator
 [[Infix]] [[Function][function]].
 ** Parameter
@@ -200,6 +229,8 @@ Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]
 Does not cover all cases.
 Unsafe.
 Causes trouble.
+** Pointfree
+Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
 Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
 ** Principal type
@@ -209,6 +240,8 @@ Logical conjunction.
 A datatype that consists of AND areas
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
+** Recursion
+Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex
 [[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction
@@ -224,11 +257,37 @@ Interactive CLI. Read-eval-print loop.
 Area where [[Bind][bind]] is accessible.
 ** Sectioning
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
+** Shadowing
+Global scope variable overriden by variable in local scope.
+** Spine
+  :
+ / \
+1   :
+   / \
+  2   :
+     / \
+    3  []
+
+1:2:3:[]
+
+  :
+ / \
+_   :
+   / \
+  _   :
+     / \
+    _  []
+
+** Statement
+Declarative sentence that is true or false.
+Gonzales: "What code does."
 ** Static typing
 Static typechecking occurs at [[Level of code][compile time]]
 ** Sum datatype
 Logical disjunction.
 A datatype that consists of OR areas.
+** Superclass
+Broader parent class.
 ** Syntatic sugar
 Artificial way to make language easier to read and write.
 ** Term level
@@ -252,10 +311,17 @@ See: [[Level of code]]
 Refer to an unspecified type in Haskell type signature.
 ** Typeclass
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+** Typeclass inheritance
+[[Typeclass]] has a [[Superclass][superclass]]
+** Typeclass instance
+Unique [[Typeclass][typeclass]]-[[Datatype][type]] pairing.
+Defines type-typeclass methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
 Value helps to do typechecking
+** Unit
+Value, [[Datatype][type]]. Represents nothing. Empty [[Tuple][tuple]]
 ** Unsafe
 [[Function]] that does not cover some edge case.
 ** Variable
@@ -265,69 +331,3 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Variadic
 Assepting a vatiable number of [[Argument][arguments]]
-** Superclass
-Broader parent class.
-** Unit
-Value, [[Datatype][type]]. Represents nothing. Empty [[Tuple][tuple]]
-** Nothing
-Any Haskell expression can't return nothing.
-** Typeclass instance
-Unique [[Typeclass][typeclass]]-[[Datatype][type]] pairing.
-Defines type-typeclass methods.
-** Dispatch
-Send, transmission, reference.
-** Concrete type
-** Typeclass inheritance
-[[Typeclass]] has a [[Superclass][superclass]]
-** Effect
-Observable action.
-** IO
-Type for values whose evaluations has a posibility to cause side effects.
-** Derived instance
-Typeclasses such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
-** Shadowing
-Global scope variable overriden by variable in local scope.
-** Lexical scope
-Scope search sourcecode blocks structure determined.
-** Statement
-Declarative sentence that is true or false.
-Gonzales: "What code does."
-** HOF
-See: [[Higher-order function]]
-** Function composition
-(.) :: (b -> c) -> (a -> b) -> a -> c
-
-a -> (a -> b) -> (b -> c) -> c
-** Pointfree
-Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
-** Compose
-See: [[Function composition]]
-** Recursion
-Repeated function application allow computing results that may require indefinite amount of work.
-** Base case
-A part of a [[Recursion][recursive]] [[Function][function]] that produces result trivially.
-** Cons
-See: Construct
-** Construct
-(:) :: a -> [a] -> [a]
-** Cons cell
-Conceptual space that values may inhabit.
-** Spine
-  :
- / \
-1   :
-   / \
-  2   :
-     / \
-    3  []
-
-1:2:3:[]
-
-  :
- / \
-_   :
-   / \
-  _   :
-     / \
-    _  []
-
