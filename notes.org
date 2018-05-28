@@ -45,6 +45,8 @@ Provides:
 
 ** Step-by-step
 :step main
+** What been evaluated already
+:sprint name
 * FunFunc
 cycle :: [a] -> [a] - indefinitely cycle s list
 repeat - indefinit lis from value
@@ -98,6 +100,8 @@ Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom
 '_' fits *.
+
+Is a non-value used to denote the program cannot return a values.
 ** Catamorphism
 (from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
 
@@ -297,3 +301,32 @@ a -> (a -> b) -> (b -> c) -> c
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Compose
 See: [[Function composition]]
+** Recursion
+Repeated function application allow computing results that may require indefinite amount of work.
+** Base case
+A part of a [[Recursion][recursive]] [[Function][function]] that produces result trivially.
+** Cons
+See: Construct
+** Construct
+(:) :: a -> [a] -> [a]
+** Cons cell
+Conceptual space that values may inhabit.
+** Spine
+  :
+ / \
+1   :
+   / \
+  2   :
+     / \
+    3  []
+
+1:2:3:[]
+
+  :
+ / \
+_   :
+   / \
+  _   :
+     / \
+    _  []
+
