@@ -67,6 +67,13 @@ Parametric polymorphism is broader then constrained polymorphism
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
 *** Read code evaluation (488 on-ward)
+*** Fold
+foldr spine recursion intermediated by the folding
+foldl spine folding is unconditional, then solding starts.
+
+So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
+*** Computation model
+Model the domain and types before thinking about how to wriet computations.
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -331,3 +338,12 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Variadic
 Assepting a vatiable number of [[Argument][arguments]]
+** Fold
+Higher-order function ruturns accumulated result from recursive data structure applying a function.
+** Tail call
+Final result of the function
+** Tail recursion
+Tail calls are recursive invocantions of itself.
+** Algebraic datatype
+Composite type formed by combining other types.
+** Constructor
