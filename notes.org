@@ -74,6 +74,7 @@ foldl spine folding is unconditional, then solding starts.
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
 *** Computation model
 Model the domain and types before thinking about how to wriet computations.
+*** Make bottoms only local
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -371,3 +372,20 @@ Number of possible implementations for a given type signature.
 
 On sum - add cardinalities.
 On product - multiply cardinalities.
+** Higher-kinded datatype
+Any combination of * and ->
+
+** Binary tree
+data BinaryTree a =
+    [[Leaf]]
+  | [[Node]] (BinaryTree a) a (BinaryTree a)
+  deriving (Eq, Ord, Show)
+** Leaf
+ _
+** Node
+ *
+/ \
+** As-pattern
+f list@(x, xs) =
+** Smart constructor
+Place extra constraints on the construction of values.
