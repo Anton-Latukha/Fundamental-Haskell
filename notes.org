@@ -375,6 +375,7 @@ On product - multiply cardinalities.
 ** Higher-kinded datatype
 Any combination of * and ->
 
+Type that take more types as arguments.
 ** Binary tree
 data BinaryTree a =
     [[Leaf]]
@@ -389,3 +390,5 @@ data BinaryTree a =
 f list@(x, xs) =
 ** Smart constructor
 Place extra constraints on the construction of values.
+** Anamorphism
+Morphism from a coalgebra to the final coalgebra for that endofunctor
