@@ -310,6 +310,7 @@ Tuples by [[Arity][arity]]:
 ** Type
 See [[Datatype]]
 ** Type alias
+Create type constructor, not data constructor
 ** Type constructor
 Name of [[Datatype][datatype]]
 
@@ -364,4 +365,9 @@ Nullary constructor
 ** Kind
 Kind -> Type -> Data
 ** Cardinality
+Number of elements.
 
+Number of possible implementations for a given type signature.
+
+On sum - add cardinalities.
+On product - multiply cardinalities.
