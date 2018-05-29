@@ -84,8 +84,12 @@ Generalization of process from concrete instance of a problem mainly by introduc
 Artificial [[Polymorphism]] that depending on incoming [[Datatype][datatype]] has different behaviour.
 Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
 So it is a dispatch mechanism, that is how polymorphism achieved.
+** Algebraic datatype
+Composite type formed by combining other types.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
+** Anamorphism
+Morphism from a coalgebra to the final coalgebra for that endofunctor
 ** Anonymous function
 Lambda function without the name to bind to.
 ** Application
@@ -99,12 +103,19 @@ Number of parameters of the function
 - binary  - f(x,y)
 - ternary - f(x,y,z)
 - n-ary   - f(x,y,z..)
+** As-pattern
+f list@(x, xs) =
 ** Base case
 A part of a [[Recursion][recursive]] [[Function][function]] that produces result trivially.
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
+** Binary tree
+data BinaryTree a =
+    [[Leaf]]
+  | [[Node]] (BinaryTree a) a (BinaryTree a)
+  deriving (Eq, Ord, Show)
 ** Bind
 Eq between two objects.
 Parameter of the function = argument that applied to the function
@@ -113,6 +124,13 @@ Variables = values.
 '_' fits *.
 
 Is a non-value used to denote the program cannot return a values.
+** Cardinality
+Number of elements.
+
+Number of possible implementations for a given type signature.
+
+On sum - add cardinalities.
+On product - multiply cardinalities.
 ** Catamorphism
 (from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
 
@@ -134,12 +152,21 @@ Link together sequences.
 See: Construct
 ** Cons cell
 Conceptual space that values may inhabit.
+** Constant
+Nullary constructor
 ** Constrain
 See: [[Ad hoc polymorphism]]
 ** Construct
 (:) :: a -> [a] -> [a]
+** Constructor
+1. [[Type constructor]]
+2. [[Data onstructor]]
+
+Also see: [[Constant]]
 ** Currying
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
+** Data constant
+See: [[Constant]]
 ** Data constructor
 Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
 
@@ -165,6 +192,8 @@ Finite combination of a symbols that is well-formed according to rules that depe
 ** First-class
 1. Can be used as [[Value][value]].
 2. Passed as an [[Argument][argument]].
+** Fold
+Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variables
 Variables in the fuction that is not bound by the head.
 They live empty and fuction as so is not fully applied.
@@ -181,6 +210,10 @@ a -> (a -> b) -> (b -> c) -> c
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
+** Higher-kinded datatype
+Any combination of * and ->
+
+Type that take more types as arguments.
 ** Higher-order function
 Function arity > 1.
 
@@ -202,9 +235,13 @@ What [[Values][values]] inhabit [[Datatype][datatype]]
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
 Type for values whose evaluations has a posibility to cause side effects.
+** Kind
+Kind -> Type -> Data
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
+** Leaf
+ _
 ** Left associative
 Same level [[Exression][expression]] parts in reality follow grouping from left to right.
 (\x.x)(\y.y)z = ((\x.x)(\y.y))z
@@ -223,6 +260,9 @@ Importable organization unit.
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
 ** Monomorphic
 Made of one form.
+** Node
+ *
+/ \
 ** Normal form
 In context: [[Beta normal form]]
 ** Nothing
@@ -269,6 +309,8 @@ Area where [[Bind][bind]] is accessible.
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Shadowing
 Global scope variable overriden by variable in local scope.
+** Smart constructor
+Place extra constraints on the construction of values.
 ** Spine
   :
  / \
@@ -300,6 +342,10 @@ A datatype that consists of OR areas.
 Broader parent class.
 ** Syntatic sugar
 Artificial way to make language easier to read and write.
+** Tail call
+Final result of the function
+** Tail recursion
+Tail calls are recursive invocantions of itself.
 ** Term level
 See: [[Level of code]]
 ** Tuple
@@ -312,6 +358,8 @@ Tuples by [[Arity][arity]]:
 See [[Datatype]]
 ** Type alias
 Create type constructor, not data constructor
+** Type constant
+See: [[Constant]]
 ** Type constructor
 Name of [[Datatype][datatype]]
 
@@ -344,51 +392,3 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Variadic
 Assepting a vatiable number of [[Argument][arguments]]
-** Fold
-Higher-order function ruturns accumulated result from recursive data structure applying a function.
-** Tail call
-Final result of the function
-** Tail recursion
-Tail calls are recursive invocantions of itself.
-** Algebraic datatype
-Composite type formed by combining other types.
-** Constructor
-1. [[Type constructor]]
-2. [[Data onstructor]]
-
-Also see: [[Constant]]
-** Type constant
-See: [[Constant]]
-** Data constant
-See: [[Constant]]
-** Constant
-Nullary constructor
-** Kind
-Kind -> Type -> Data
-** Cardinality
-Number of elements.
-
-Number of possible implementations for a given type signature.
-
-On sum - add cardinalities.
-On product - multiply cardinalities.
-** Higher-kinded datatype
-Any combination of * and ->
-
-Type that take more types as arguments.
-** Binary tree
-data BinaryTree a =
-    [[Leaf]]
-  | [[Node]] (BinaryTree a) a (BinaryTree a)
-  deriving (Eq, Ord, Show)
-** Leaf
- _
-** Node
- *
-/ \
-** As-pattern
-f list@(x, xs) =
-** Smart constructor
-Place extra constraints on the construction of values.
-** Anamorphism
-Morphism from a coalgebra to the final coalgebra for that endofunctor
