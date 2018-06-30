@@ -392,3 +392,6 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funtions]].
 ** Variadic
 Assepting a vatiable number of [[Argument][arguments]]
+* Investigate
+** Control.monad
+   
