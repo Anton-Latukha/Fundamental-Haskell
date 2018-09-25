@@ -75,6 +75,10 @@ So foldr can terminate at any point, while foldl unconditionally recurses across
 *** Computation model
 Model the domain and types before thinking about how to wriet computations.
 *** Make bottoms only local
+*** Newtype wrap is ideally transparent for compiler and does not change performance
+*** Instances of types/typeclasses must go with code you write
+*** Functions can be abstracted as arguments
+*** Infix operators can be bind to arguments
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
