@@ -117,6 +117,10 @@ fmap :: Functor g => (x -> y) -> g x -> g y
                                       -> (x -> y) -> f.g (x) -> f.g. (y)
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+END_SRC
+*** Paramenter order
+In functions parameter order is important.
+It is best to use first the most reusable parameters.
+And as last one the one that can be the most variable, that is important to chain.
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
