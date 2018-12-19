@@ -88,6 +88,18 @@ Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
 *** Principle of Separation of concerns
+*** Function composition
+In Haskell inline composition requires:
+#+BEGIN_SRC haskell
+h.g.f $ i
+#+END_SRC
+Function application has a higher priority than composition. That is why parentheses over argument are needed.
+This precedence allows idiomatically compose partially applied functions.
+
+But it is a way better then:
+#+BEGIN_SRC haskell
+h (g (f i))
+#+END_SRC
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
