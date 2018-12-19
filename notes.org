@@ -268,6 +268,11 @@ Inverse function - often partially exists (partial function).
 
 a -> (a -> b) -> (b -> c) -> c
 #+END_SRC
+
+In Haskell inline composition requires:
+#+BEGIN_SRC haskell
+h.g.f $ i
+#+END_SRC
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
