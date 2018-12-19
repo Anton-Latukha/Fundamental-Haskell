@@ -250,7 +250,16 @@ Idealization of how a varying quantity depends on another quantity.
 
 $x \in X, y \in Y : f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y)$
 
-Function is an [[Operation][operation]].
+Directionality and property of invariability emerge from one another.
+
+ *      ->   *
+domain func codomain
+
+Function is a mathematical [[Operation][operation]].
+
+Function = Total function = Pure function. Function theoretically posible to momoized.
+[[Partial function]].
+Inverse function - often partially exists (partial function).
 ** Function body
 [[Expression]] that haracterizes the process.
 ** Function composition
