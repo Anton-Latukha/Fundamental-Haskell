@@ -87,6 +87,7 @@ Model the domain and types before thinking about how to wriet computations.
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
+*** Principle of Separation of concerns
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
