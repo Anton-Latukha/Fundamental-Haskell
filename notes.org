@@ -100,6 +100,23 @@ But it is a way better then:
 #+BEGIN_SRC haskell
 h (g (f i))
 #+END_SRC
+*** Functor application
+Function application on n levels beneath:
+#+BEGIN_SRC haskell
+(fmap.fmap) function twoLevelStructure
+#+END_SRC
+
+How fmap.fmap typechecks:
+#+BEGIN_SRC haskell
+(.) :: (b -> c) -> (a -> b) -> a -> c
+fmap :: Functor f => (m -> n) -> f m -> f n
+fmap :: Functor g => (x -> y) -> g x -> g y
+
+(.) :: (Functor f, Functor g) => ((g x -> g y) -> f.g (x) -> f.g (y))
+                                      -> ((x -> y) -> g x -> g y)
+                                      -> (x -> y) -> f.g (x) -> f.g. (y)
+fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
+#+END_SRC
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
