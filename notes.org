@@ -248,7 +248,7 @@ They live empty and fuction as so is not fully applied.
 ** Function
 Idealization of how a varying quantity depends on another quantity.
 
-A function f from a set X to a set Y is defined by a set G of ordered pairs (x, y), such that x ∈ X, y ∈ Y, and every element of X is the first component of exactly one ordered pair in G.[4] In other words, for every x in X there is exactly one element y, such that the ordered pair (x, y) belongs to the set of pairs defining the function f.
+$x \in X, y \in Y : f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y)$
 
 Function is an [[Operation][operation]].
 ** Function body
