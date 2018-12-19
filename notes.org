@@ -27,6 +27,10 @@ ord (Char -> Int)
 chr (Int -> Char)
 isUpper (Char -> Bool)
 toUpper (Char -> Char)
+** QuickCheck
+quickCheck :: Testable prop => prop -> IO ()
+
+quickCheck . verbose - run verbose mode
 * Debugger
 
 Provides:
