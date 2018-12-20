@@ -530,7 +530,9 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 ** Semigroup
 $\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
 
-A set (S) with an operation (P) and [[Associative law][associative law]] - Semigroup.
+Semigroup - a set (S) with a binary operation (P) and [[Associative law][associative law]].
+Semigroup is closed (forms a closed set).
+A [[Magma]] with associative law.
 
 Defined in Haskell as:
 
