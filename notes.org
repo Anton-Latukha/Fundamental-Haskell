@@ -350,6 +350,7 @@ Unsafe and causes trouble.
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
 Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
+Antonym - [[Monomorphism]].
 ** Principal type
 The most generic [[Datatype][datatype]] that still typechecks.
 ** Product datatype
