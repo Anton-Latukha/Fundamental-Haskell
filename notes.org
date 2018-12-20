@@ -510,6 +510,7 @@ Identity only possible with morphism.
 Notation: $P(x)$
 [[Application]] of [[Argument][argument]] results in true or false predicate.
 ** Assertion
+Statement.
 Утверждение.
 ** Commutative Law
 $\forall (a,b) \in S : P(a,b)=P(b,a)$
@@ -547,6 +548,16 @@ Set with a single binary operation.
 The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** Binary operation
 $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
+** data declaration
+Data type declaration is the most general and versatile form to create a new datatype.
+Form:
+#+BEGIN_SRC haskell
+data [context =>] type typeVars1..n
+  = con1  c1t1..i
+  | ...
+  | conm  cmt1..q
+  [deriving]
+#+END_SRC haskell
 * Investigate
 ** Control.monad
 * Citations:
