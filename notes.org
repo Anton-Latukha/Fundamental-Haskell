@@ -436,7 +436,7 @@ Name of [[Datatype][datatype]]
 
 Nullary type constructor is [[Type constant]]
 ** Type inference
-Automatic detection expression datatype.
+Automatic [[Datatype][datatype]] detection of [[Expresion][expression]].
 ** Type level
 See: [[Level of code]]
 ** Type variable
