@@ -423,6 +423,7 @@ Tuples by [[Arity][arity]]:
 - pair, two-tuples     - 2
 - thriple, three-tuple - 3
 ** Type
+Type - [[Set][set]] of values.
 See [[Datatype]]
 ** Type alias
 Create type constructor, not data constructor
