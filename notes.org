@@ -426,7 +426,9 @@ Tuples by [[Arity][arity]]:
 Type - [[Set][set]] of values.
 See [[Datatype]]
 ** Type alias
-Create type constructor, not data constructor
+Create type constructor, not data constructor.
+** Set
+Well-defined collection of distinct objects.
 ** Type constant
 See: [[Constant]]
 ** Type constructor
