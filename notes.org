@@ -460,7 +460,7 @@ Value, [[Datatype][type]]. Represents nothing. Empty [[Tuple][tuple]]
 A name for [[Expression][expression]].
 
 Haskell has immutable variables.
-Except when you hack it with explicit [[Function][funtions]].
+Except when you hack it with explicit [[Function][funсtions]].
 ** Variadic
 Assepting a variable number of [[Argument][arguments]].
 ** Associative law
@@ -469,8 +469,7 @@ Etymology:
 Joined by a common purpose.
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Monoid
-Binary associative operation with an identity.
-Semigroup with identity.
+[[Semigroup]] that has [[Identity]] value.
 
 #+BEGIN_SRC haskell
 class Monoid m where
