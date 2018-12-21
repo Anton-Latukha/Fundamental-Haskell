@@ -582,6 +582,9 @@ newtype Book = Book (Int, Int)
 Integer Integer
 ** Gen type
 Generator. List it returns gets infinitely cycled.
+** Arbitrary typeclass
+[[Typeclass]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+Useful function is arbitrary - that autoassumes/generates values.
 * Investigate
 ** Control.monad
 * Citations:
