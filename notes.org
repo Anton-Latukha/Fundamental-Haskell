@@ -585,6 +585,8 @@ Generator. List it returns gets infinitely cycled.
 ** Arbitrary typeclass
 [[Typeclass]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autoassumes/generates values.
+** Arbitrary function
+Depends on type and generates values of the type.
 * Investigate
 ** Control.monad
 * Citations:
