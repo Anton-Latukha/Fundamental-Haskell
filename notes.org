@@ -558,6 +558,13 @@ data [context =>] type typeVars1..n
   | conm  cmt1..q
   [deriving]
 #+END_SRC haskell
+** type declaration
+Synonim for existing type. Uses the same data constructor.
+#+BEGIN_SRC haskell
+type FirstName = String
+#+END_SRC haskell
+Used to distinct one entities from other entities, while they have the same type.
+Also main type functions can operate on a new type.
 * Investigate
 ** Control.monad
 * Citations:
