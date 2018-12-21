@@ -587,6 +587,16 @@ Generator. List it returns gets infinitely cycled.
 Useful function is arbitrary - that autoassumes/generates values.
 ** Arbitrary function
 Depends on type and generates values of the type.
+** NonEmpty list datatype
+Data.List.NonEmpty
+Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
+
+#+BEGIN_SRC haskell
+data NonEmpty a = a :| [a]
+  deriving (Eq, Ord, Show)
+#+END_SRC haskell
+
+:| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 * Investigate
 ** Control.monad
 * Citations:
