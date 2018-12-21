@@ -608,6 +608,8 @@ Category (/C/) consists of:
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 ** Semantics
 Philosophical study of meaning.
+** Principle of compositionality
+The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
 * Investigate
 ** Control.monad
 * Citations:
