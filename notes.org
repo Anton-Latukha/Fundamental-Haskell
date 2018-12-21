@@ -580,6 +580,8 @@ newtype Book = Book (Int, Int)
       (,)
       / \
 Integer Integer
+** Gen type
+Generator. List it returns gets infinitely cycled.
 * Investigate
 ** Control.monad
 * Citations:
