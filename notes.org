@@ -610,6 +610,11 @@ From these axioms, one can prove that there is exactly one identity morphism for
 Philosophical study of meaning.
 ** Principle of compositionality
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
+** Operational semantics
+Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
+
+Good to solve in-point localized tasks.
+Process of abstraction.
 * Investigate
 ** Control.monad
 * Citations:
