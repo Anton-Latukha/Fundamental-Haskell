@@ -565,6 +565,21 @@ type FirstName = String
 #+END_SRC haskell
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
+** newtype declaration
+Creates a new type from old type using a new constructor.
+#+BEGIN_SRC haskell
+newtype FirstName = FirstName String
+#+END_SRC haskell
+
+Data will have exactly the same representation at runtime, as the type that is wrapped.
+
+#+BEGIN_SRC haskell
+newtype Book = Book (Int, Int)
+#+END_SRC haskell
+
+      (,)
+      / \
+Integer Integer
 * Investigate
 ** Control.monad
 * Citations:
