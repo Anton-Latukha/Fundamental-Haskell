@@ -726,6 +726,9 @@ Pragma in Haskell have form:
 #+END_SRC
 ** Pragma option
 Values supplied to the [[Pragma]] directive.
+** Language option
+Language option - control what variations of the language are permitted.
+It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
 * Investigate
 ** Control.monad
 * Citations:
