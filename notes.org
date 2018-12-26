@@ -682,11 +682,11 @@ Functor is a typeclass for function application "over/through" ignored/untouched
 Functor abides [[Functor Laws]].
 ** Functor Laws
 Type instance of functor should abide this laws:
-1. Identity
+1. Identity law
 #+BEGIN_SRC haskell
 fmap id == id
 #+END_SRC
-2. Composition
+2. Composition law
 #+BEGIN_SRC haskell
 fmap (f.g) == fmap f . fmap g
 #+END_SRC
@@ -718,6 +718,12 @@ Also 1-tuple.
 Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
 ** Terminal object
 Terminal object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (X \to I)$.
+** Pragma
+Pragma - instruction to the compiler placed in the source code that specifies how a compiler should process the code.
+Pragma in Haskell have form:
+#+BEGIN_SRC haskell
+{-# PRAGMA options #-}
+#+END_SRC
 * Investigate
 ** Control.monad
 * Citations:
@@ -725,7 +731,6 @@ Terminal object - is an object I in category C: $\exists I \in C: \forall X \in 
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
 * TeX examples
-
 $\displaystyle L(f,P)=\sum_{i=0}^{n-1} inf_{t\in[x_i,x_{i+1}]}f(t)(x_{i+1}-x_{i})$,
 
 \begin{equation}
