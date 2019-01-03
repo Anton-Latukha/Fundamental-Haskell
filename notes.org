@@ -627,6 +627,8 @@ Good for examining interconnections.
 Empirical process.
 ** SET category
 Category in which objects are sets.
+** Relation
+Is not directed and not limited.
 * Investigate
 ** Control.monad
 * Citations:
