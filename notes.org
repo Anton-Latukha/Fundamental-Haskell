@@ -629,6 +629,9 @@ Empirical process.
 Category in which objects are sets.
 ** Relation
 Is not directed and not limited.
+** Cartesian product
+${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
+Any function is a subset of Cartesian product.
 * Investigate
 ** Control.monad
 * Citations:
