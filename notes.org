@@ -632,6 +632,9 @@ Is not directed and not limited.
 ** Cartesian product
 ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
 Any function is a subset of Cartesian product.
+** Fundamental theorem of algebra
+Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
+Also derives that the field of complex numbers is algebraically closed.
 * Investigate
 ** Control.monad
 * Citations:
