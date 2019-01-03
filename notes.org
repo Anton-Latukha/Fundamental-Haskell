@@ -635,6 +635,13 @@ Any function is a subset of Cartesian product.
 ** Fundamental theorem of algebra
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
+** Isomorphism
+AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
+$f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
+
+2 reasons for non-isomorphic function:
+- function at least ones collapses a values of domain into one value in codomain
+- image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 * Investigate
 ** Control.monad
 * Citations:
