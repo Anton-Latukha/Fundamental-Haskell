@@ -625,6 +625,8 @@ Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
 Empirical process.
+** SET category
+Category in which objects are sets.
 * Investigate
 ** Control.monad
 * Citations:
