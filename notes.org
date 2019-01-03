@@ -615,6 +615,11 @@ Properties, such as correctness, safety or security, are verified by constructin
 
 Good to solve in-point localized tasks.
 Process of abstraction.
+** Denotational semantics
+Constructing mathematical objects (called denotations) that describe the meanings.
+
+Good to achive more broad approach/meaning.
+Process of modelling.
 * Investigate
 ** Control.monad
 * Citations:
