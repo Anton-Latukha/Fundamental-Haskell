@@ -620,6 +620,11 @@ Constructing mathematical objects (called denotations) that describe the meaning
 
 Good to achive more broad approach/meaning.
 Process of modelling.
+** Axiomatic semantics
+Describing effect of operation on assertions about the overall state.
+
+Good for examining interconnections.
+Empirical process.
 * Investigate
 ** Control.monad
 * Citations:
