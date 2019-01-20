@@ -654,6 +654,11 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 ** Idempotence
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines. 
+** Monomorphism
+Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
+Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
+It is injective.
+It always has a inverse morphism.
 * Investigate
 ** Control.monad
 * Citations:
