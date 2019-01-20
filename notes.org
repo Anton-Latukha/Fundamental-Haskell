@@ -646,6 +646,11 @@ $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = i
 [[Function]]
 ** IO ()
 Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
+** CoArbitrary
+Pseudogenerates a function basing on resulting type.
+#+BEGIN_SRC haskell
+coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
+#+END_SRC
 * Investigate
 ** Control.monad
 * Citations:
