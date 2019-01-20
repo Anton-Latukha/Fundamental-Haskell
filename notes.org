@@ -659,6 +659,10 @@ Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
 Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
 It is injective.
 It always has a inverse morphism.
+** Epimorphism
+Image of a function /f/ is fully used - epimorphism.
+Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+It is surjective.
 * Investigate
 ** Control.monad
 * Citations:
