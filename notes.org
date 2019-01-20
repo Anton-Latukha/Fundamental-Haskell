@@ -644,6 +644,8 @@ $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = i
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 ** Morphism
 [[Function]]
+** IO ()
+Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
 * Investigate
 ** Control.monad
 * Citations:
