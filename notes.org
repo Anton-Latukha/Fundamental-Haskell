@@ -651,6 +651,9 @@ Pseudogenerates a function basing on resulting type.
 #+BEGIN_SRC haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+END_SRC
+** Idempotence
+After the initial application operation can be applied multiple times without changing the result.
+Example: Start and Stop buttons on machines. 
 * Investigate
 ** Control.monad
 * Citations:
