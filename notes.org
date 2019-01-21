@@ -666,6 +666,8 @@ It is surjective.
 ** Closed set
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
+** Closed-form expression
+Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 * Investigate
 ** Control.monad
 * Citations:
