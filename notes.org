@@ -663,6 +663,9 @@ It always has a inverse morphism.
 Image of a function /f/ is fully used - epimorphism.
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
 It is surjective.
+** Closed set
+Closed set - a set whose complement is an open set.
+Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
 * Investigate
 ** Control.monad
 * Citations:
