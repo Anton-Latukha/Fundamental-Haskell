@@ -670,6 +670,9 @@ Closed set is a form of [[Closed-form expression]]. Set can be closed in under a
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 ** Closure
 Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
+** Algebra
+1) Abstract algebra - the study of number systems and operations within them.
+2) Algebra - vector space over a field with a multiplication.
 * Investigate
 ** Control.monad
 * Citations:
