@@ -693,6 +693,9 @@ fmap (f.g) == fmap f . fmap g
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 ** Lift
 Lift is to do a function application through the data structure.
+** Idiom
+Idiom - something having a meaning that cannot be derived from the conjoined meanings.
+Meaning can be special for language speakers or human with particular knowledge.
 * Investigate
 ** Control.monad
 * Citations:
