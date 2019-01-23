@@ -673,6 +673,13 @@ Set has closure under an operation if performance of that operation on members o
 ** Algebra
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
+** Functor
+#+BEGIN_SRC haskell
+class Functor f where
+  fmap :: (a -> b) -> f a -> f b
+#+END_SRC
+Functor is a typeclass for function application "over/through" ignored/untouched structure f.
+Functor abides [[Functor Laws]].
 * Investigate
 ** Control.monad
 * Citations:
