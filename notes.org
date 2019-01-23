@@ -680,6 +680,17 @@ class Functor f where
 #+END_SRC
 Functor is a typeclass for function application "over/through" ignored/untouched structure f.
 Functor abides [[Functor Laws]].
+** Functor Laws
+Type instance of functor should abide this laws:
+1. Identity
+#+BEGIN_SRC haskell
+fmap id == id
+#+END_SRC
+2. Composition
+#+BEGIN_SRC haskell
+fmap (f.g) == fmap f . fmap g
+#+END_SRC
+In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 * Investigate
 ** Control.monad
 * Citations:
