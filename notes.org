@@ -703,6 +703,8 @@ Function application is applying the function to an argument from its domain to 
 ** Function range
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see [[Function image]].
+** Combinator
+A function or definition with no free variables.
 * Investigate
 ** Control.monad
 * Citations:
