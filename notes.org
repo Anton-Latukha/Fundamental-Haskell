@@ -705,6 +705,8 @@ The range of a function refers to either the codomain or the image of the functi
 So, see [[Function image]].
 ** Combinator
 A function or definition with no free variables.
+** Codomain
+Codomain - target set of a function in $X \to Y$.
 * Investigate
 ** Control.monad
 * Citations:
