@@ -707,6 +707,10 @@ So, see [[Function image]].
 A function or definition with no free variables.
 ** Codomain
 Codomain - target set of a function in $X \to Y$.
+** Hindley–Milner (HM) type system
+Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
+Where types marked as polymorphic variables, and overall type inference is possible all over the code.
+Also known as Damas–Milner or Damas–Hindley–Milner system.
 * Investigate
 ** Control.monad
 * Citations:
