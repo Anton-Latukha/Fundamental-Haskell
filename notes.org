@@ -698,6 +698,8 @@ Idiom - something having a meaning that cannot be derived from the conjoined mea
 Meaning can be special for language speakers or human with particular knowledge.
 ** Idiomatic
 See [[Idiom]].
+** Function application
+Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 * Investigate
 ** Control.monad
 * Citations:
