@@ -716,6 +716,8 @@ Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 ** Initial object
 Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
+** Terminal object
+Terminal object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (X \to I)$.
 * Investigate
 ** Control.monad
 * Citations:
