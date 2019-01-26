@@ -714,6 +714,8 @@ Also known as Damas–Milner or Damas–Hindley–Milner system.
 ** Singleton
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
+** Initial object
+Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
 * Investigate
 ** Control.monad
 * Citations:
