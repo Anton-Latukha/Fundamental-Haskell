@@ -724,6 +724,8 @@ Pragma in Haskell have form:
 #+BEGIN_SRC haskell
 {-# PRAGMA options #-}
 #+END_SRC
+** Pragma option
+Values supplied to the [[Pragma]] directive.
 * Investigate
 ** Control.monad
 * Citations:
