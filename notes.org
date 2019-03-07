@@ -751,4 +751,7 @@ x=\sqrt{b}
 
 If $a^2=b$ and \( b=2 \), then the solution must be
 either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
+* Tools
+** Search over the Haskell packages code: Codesearch from Aelve
+https://codesearch.aelve.com/
 
