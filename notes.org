@@ -734,6 +734,8 @@ It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/h
 ** Identity morphism
 Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
 Composed with other morphism gives same morphism.
+** Shrinking
+Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 * Investigate
 ** Control.monad
 * Citations:
