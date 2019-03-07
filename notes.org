@@ -731,6 +731,9 @@ Values supplied to the [[Pragma]] directive.
 ** Language option
 Language option - control what variations of the language are permitted.
 It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
+** Identity morphism
+Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
+Composed with other morphism gives same morphism.
 * Investigate
 ** Control.monad
 * Citations:
