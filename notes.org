@@ -602,7 +602,7 @@ Category (/C/) consists of:
   1. Objects - ob(/C/). Sets.
   2. Morphisms - C(a,b), hom(a,b). Mappings, total functions.
   3. Binary operation "Composition of morphisms": $\forall a, b, c: C(a, b) \circ C(b, c) \to C(a, c)$
-  4. Axion of [[Associative law][Associativity]]: $f_{a \to b}, g_{b \to c}, h_{c \to d} : h \circ (g \circ f) = (h \circ g) \circ f$.
+  4. Axiom of [[Associative law][Associativity]]: $f_{a \to b}, g_{b \to c}, h_{c \to d} : h \circ (g \circ f) = (h \circ g) \circ f$.
   5. Axiom of two sided [[Identity]] of morphisms: $\forall x  \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b}  :  id_x \circ f_{a \to x} = f_{a \to x}, g_{x \to b} \circ id_x = g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
@@ -674,6 +674,8 @@ Set has closure under an operation if performance of that operation on members o
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
 ** Functor
+Functor is a map between categories.
+
 #+BEGIN_SRC haskell
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
