@@ -64,7 +64,7 @@ Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
 
 *** Read Conventions of variables (page 176)
-*** Polymorphism 
+*** Wideness of polymorphism
 Parametric polymorphism is broader then constrained polymorphism
 *** Damas–Hindley–Milner type system
 *** Print
@@ -462,7 +462,7 @@ A name for [[Expression][expression]].
 Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funсtions]].
 ** Variadic
-Assepting a variable number of [[Argument][arguments]].
+Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
 ** Associative law
 $\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$,
 Etymology:
