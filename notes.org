@@ -342,7 +342,9 @@ Any Haskell expression can't return nothing.
 ** Parameter
 Or Formal Parameter - named varible of a [[Function][function]].
 ** Parametric polymorphism
-Achieved by [[Abstraction][abstracting]] using [[Parametep][parameter]].
+Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
+
+/In most languages named as 'Generics' (generic programming)./
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
