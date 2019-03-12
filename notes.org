@@ -129,7 +129,9 @@ Generalization of process from concrete instance of a problem mainly by introduc
 ** Ad hoc polymorphism
 Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
 Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
-So it is a dispatch mechanism, that is how polymorphism achieved.
+It is interface dispatch mechanism.
+
+/Commonly known as overloading./
 ** Algebraic datatype
 Composite type formed by combining other types.
 ** Alpha equivalence
