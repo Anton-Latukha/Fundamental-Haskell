@@ -355,6 +355,16 @@ Point-free style, or Tacit programming is a paradigm in which function definitio
 ** Polymorphism
 Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
 Antonym - [[Monomorphism]].
+
+There is:
+ * [[Parametric polymorphism]]
+ * [[Ad hoc polymorphism]]
+ * [[Subtype polymorphism]]
+ * [[Row polymorphism]]
+ * [[Kind polymorphism]]
+ * [[Higher-rank polymorphism]]
+ * [[Linear polymorphism]]
+ * [[Levity polymorphism]]
 ** Principal type
 The most generic [[Datatype][datatype]] that still typechecks.
 ** Product datatype
