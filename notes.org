@@ -759,6 +759,11 @@ either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
 * Tools
 ** Search over the Haskell packages code: Codesearch from Aelve
 https://codesearch.aelve.com/
+* Libs
+** Parsers - megaparsec
+** CLIs - optparse-applicative
+** HTML - Lucid
+** Web applications - Servant
 * Misc
 ** Notes on Pejton Jones "Linear Haskell: Practical Linearity in a Higher-Order Polymorphic Language"
 *** Polimorphisms in Haskell:
