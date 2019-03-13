@@ -839,6 +839,11 @@ data Proxy a = ProxyValue
 let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
+** Structural type
+Is a type in the real mathematical sence, in the Structural Type System.
+The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
+Like in Haskell.
+In most languages typing is not structural - but name-based.
 * Investigate
 ** Control.monad
 * Citations:
