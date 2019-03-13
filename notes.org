@@ -819,6 +819,18 @@ For exampe - if fold over a dynamic array:
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 ** Levity polymprphism
 Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
+** Let-bound polymorphism
+It is property chosen for Haskell type system.
+Haskell is based on Hindley-Milner type system, it is let-bound.
+It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
+So:
+#+begin_src haskell
+foo :: (Int, Char)
+foo = (\f -> (f 1, f 'a')) id
+#+end_src
+Is illigal in Haskell.
+
+Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 * Investigate
 ** Control.monad
 * Citations:
