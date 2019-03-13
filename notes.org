@@ -126,12 +126,6 @@ And as last one the one that can be the most variable, that is important to chai
 Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Actual type
 [[Datatype]] recieved by execution.
-** Ad hoc polymorphism
-Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
-Achieved by creating a [[Type class][type class]] [[Function][functions]].
-It is interface dispatch mechanism.
-
-/Commonly known as overloading./
 ** Algebraic datatype
 Composite type formed by combining other types.
 ** Alpha equivalence
@@ -341,10 +335,6 @@ Any Haskell expression can't return nothing.
 [[Infix]] [[Function][function]].
 ** Parameter
 Or Formal Parameter - named varible of a [[Function][function]].
-** Parametric polymorphism
-Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
-
-/In most languages named as 'Generics' (generic programming)./
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
@@ -357,14 +347,94 @@ Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abst
 Antonym - [[Monomorphism]].
 
 There is:
- * [[Parametric polymorphism]]
- * [[Ad hoc polymorphism]]
- * [[Subtype polymorphism]]
- * [[Row polymorphism]]
- * [[Kind polymorphism]]
- * [[Higher-rank polymorphism]]
- * [[Linear polymorphism]]
- * [[Levity polymorphism]]
+*** Parametric polymorphism
+Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
+
+/In most languages named as 'Generics' (generic programming)./
+*** Ad hoc polymorphism
+Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
+Achieved by creating a [[Type class][type class]] [[Function][functions]].
+It is interface dispatch mechanism.
+
+/Commonly known as overloading./
+*** Constrained polymorphism
+Constrained [[Parametric polymorphism]].
+*** Subtype polymorphism
+Allows to declare usage of a Type and all of its Subtypes.
+T - Type
+S - Subtype of Type
+<: - subtype of
+$S <: T = S \le T$
+
+Subtyping is:
+If it can be done to T, and there is subtype S - then it also can be done to S.
+$S <:T, f^{T \to X} \Rightarrow f^{S \to X}$
+*** Row polymorphism
+# NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
+Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
+#+begin_src haskell
+printX :: { x :: Int | r } -> String
+printX rec = show rec.x
+
+printY :: { y :: Int | r } -> String
+printY rec = show rec.y
+
+-- type is inferred as `{x :: Int, y :: Int | r } -> String`
+printBoth rec = printX rec ++ printY rec
+#+end_src
+*** Kind polymorphism
+That the type can be defined once, and because its partially defined type - and resulting type would depent on type that was binded.
+
+Example is the [[Proxy type]]:
+#+begin_src haskell
+data Proxy a = ProxyValue
+
+let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
+let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+#+end_src
+*** Higher-rank polymorphism
+Means that polymorphic types can apper within other type (type of funtion).
+There is a cases where higher-rank polymorphism than a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
+#+begin_src haskell
+-- ad-hoc polymorphism
+f1 :: forall a. MyType Class a => a -> String
+f1 = -- ...
+
+-- higher-rank polymorphism
+f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
+f2 = -- ...
+#+end_src
+By moving `forall` inside the function - we can achive higher-rank polymorphism.
+
+From: https://news.ycombinator.com/item?id=8130861
+#+begin_src text
+Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
+#+end_src
+
+Useful example aslo a [[ST-Trick monad]].
+*** Linearity polymorphism
+Leverages a [[Linear type][linear types]].
+For exampe - if fold over a dynamic array:
+  1) In basic Haskell - array would be copied at every step.
+  2) Use low-level unsafe functions.
+  3) With Linear type function we guarantee that the array would be used only at one place at a time.
+
+So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
+
+*** Levity polymorphism
+Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
+*** Let-bound polymorphism
+It is property chosen for Haskell type system.
+Haskell is based on Hindley-Milner type system, it is let-bound.
+It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
+So:
+#+begin_src haskell
+foo :: (Int, Char)
+foo = (\f -> (f 1, f 'a')) id
+#+end_src
+Is illigal in Haskell.
+
+Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 ** Principal type
 The most generic [[Datatype][datatype]] that still typechecks.
 ** Product datatype
@@ -755,82 +825,6 @@ Process of reducing coplexity in the test case - re-run with smaller values and 
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
-** Constrained polymorphism
-Constrained [[Parametric polymorphism]].
-** Subtype polymorphism
-Allows to declare usage of a Type and all of its Subtypes.
-T - Type
-S - Subtype of Type
-<: - subtype of
-$S <: T = S \le T$
-
-Subtyping is:
-If it can be done to T, and there is subtype S - then it also can be done to S.
-$S <:T, f^{T \to X} \Rightarrow f^{S \to X}$
-** Row polymorphism
-# NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
-Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
-#+begin_src haskell
-printX :: { x :: Int | r } -> String
-printX rec = show rec.x
-
-printY :: { y :: Int | r } -> String
-printY rec = show rec.y
-
--- type is inferred as `{x :: Int, y :: Int | r } -> String`
-printBoth rec = printX rec ++ printY rec
-#+end_src
-** Kind polymorphism
-That the type can be defined once, and because its partially defined type - and resulting type would depent on type that was binded.
-Example is the [[Proxy type]]:
-#+begin_src haskell
-data Proxy a = ProxyValue
-
-let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
-let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
-#+end_src
-** Higher-rank polymorphism
-Means that polymorphic types can apper within other type (type of funtion).
-There is a cases where higher-rank polymorphism than a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
-#+begin_src haskell
--- ad-hoc polymorphism
-f1 :: forall a. MyType Class a => a -> String
-f1 = -- ...
-
--- higher-rank polymorphism
-f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
-f2 = -- ...
-#+end_src
-By moving `forall` inside the function - we can achive higher-rank polymorphism.
-
-From: https://news.ycombinator.com/item?id=8130861
-#+begin_src text
-Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
-#+end_src
-
-Useful example aslo a [[ST-Trick monad]].
-** Linearity polymorphism
-Leverages a [[Linear type][linear types]].
-For exampe - if fold over a dynamic array:
- 1) In basic Haskell - array would be copied at every step.
- 2) Use low-level unsafe functions.
- 3) With Linear type function we guarantee that the array would be used only at one place at a time.
-
-So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
-** Levity polymprphism
-Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
-** Let-bound polymorphism
-It is property chosen for Haskell type system.
-Haskell is based on Hindley-Milner type system, it is let-bound.
-It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
-So:
-#+begin_src haskell
-foo :: (Int, Char)
-foo = (\f -> (f 1, f 'a')) id
-#+end_src
-Is illigal in Haskell.
-
-Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 ** Proxy type
 Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
 #+begin_src haskell
