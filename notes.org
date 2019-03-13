@@ -809,6 +809,14 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 #+end_src
 
 Useful example aslo a [[ST-Trick monad]].
+** Linearity polymorphism
+Leverages a [[Linear type][linear types]].
+For exampe - if fold over a dynamic array:
+ 1) In basic Haskell - array would be copied at every step.
+ 2) Use low-level unsafe functions.
+ 3) With Linear type function we guarantee that the array would be used only at one place at a time.
+
+So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 * Investigate
 ** Control.monad
 * Citations:
