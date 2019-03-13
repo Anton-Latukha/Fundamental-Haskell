@@ -831,6 +831,14 @@ foo = (\f -> (f 1, f 'a')) id
 Is illigal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
+** Proxy type
+Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
+#+begin_src haskell
+data Proxy a = ProxyValue
+
+let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
+let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+#+end_src
 * Investigate
 ** Control.monad
 * Citations:
