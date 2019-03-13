@@ -58,7 +58,7 @@ elemIndex e l - return first index, returns Maybe
 fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
 * Good code
-Use datatype aliases to deferentiate logic of values.
+Use data type aliases to deferentiate logic of values.
 
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
@@ -125,8 +125,8 @@ And as last one the one that can be the most variable, that is important to chai
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Actual type
-[[Datatype]] recieved by execution.
-** Algebraic datatype
+[[Data Type]] recieved by execution.
+** Algebraic data type
 Composite type formed by combining other types.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
@@ -216,17 +216,17 @@ Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] 
 ** Data constant
 See: [[Constant]]
 ** Data constructor
-Values that [[Inhabit][inhabit]] [[Datatype][datatype]]
+Values that [[Inhabit][inhabit]] [[Data Type][data type]]
 
 Constant value - nullary data constructor
 ** Data declaration
-[[Datatype]] definition
-** Datatype
+[[Data Type]] definition
+** Data Type
 Data type, type.
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Derived instance
-Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
+Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
 ** Dispatch
 Send, transmission, reference.
 ** Effect
@@ -234,7 +234,7 @@ Observable action.
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
-[[Datatype]] infered from the text of the code
+[[Data Type]] infered from the text of the code
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class
@@ -277,7 +277,7 @@ h.g.f $ i
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
-** Higher-kinded datatype
+** Higher-kinded data type
 Any combination of * and ->
 
 Type that take more types as arguments.
@@ -299,7 +299,7 @@ id :: a -> a
 ** Infix
 Operaton in-between variables.
 ** Inhabit
-What [[Values][values]] inhabit [[Datatype][datatype]]
+What [[Values][values]] inhabit [[Data Type][data type]]
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
@@ -316,7 +316,7 @@ Same level [[Exression][expression]] parts in reality follow grouping from left 
 (\x.x)(\y.y)z = ((\x.x)(\y.y))z
 ** Level of code
 There are mainly three levels of Haskell code.
-- [[Type level]]: part that works with [[Datatype][datatypes]]
+- [[Type level]]: part that works with [[Data Type][data types]]
 - [[Term level]]: logical execution part of the code
 - Compile level: level when code compiles/compiled
 ** Lexical scope
@@ -348,7 +348,7 @@ Unsafe and causes trouble.
 ** Pointfree
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
-Interface to entities of different [[Datatypes][datatypes]] by quality of [[Abstraction][abstraction]].
+Interface to entities of different [[Data Types][data types]] by quality of [[Abstraction][abstraction]].
 Antonym - [[Monomorphism]].
 
 There is:
@@ -357,7 +357,7 @@ Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
 
 /In most languages named as 'Generics' (generic programming)./
 *** Ad hoc polymorphism
-Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
+Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data Type][data type]].
 Achieved by creating a [[Type class][type class]] [[Function][functions]].
 It is interface dispatch mechanism.
 
@@ -441,10 +441,10 @@ Is illigal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 ** Principal type
-The most generic [[Datatype][datatype]] that still typechecks.
-** Product datatype
+The most generic [[Data Type][data type]] that still typechecks.
+** Product data type
 Logical conjunction.
-A datatype that consists of AND areas
+A data type that consists of AND areas.
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Recursion
@@ -495,9 +495,9 @@ Declarative sentence that is true or false.
 Gonzales: "What code does."
 ** Static typing
 Static typechecking occurs at [[Level of code][compile time]]
-** Sum datatype
+** Sum data type
 Logical disjunction.
-A datatype that consists of OR areas.
+A data type that consists of OR areas.
 ** Superclass
 Broader parent class.
 ** Syntatic sugar
@@ -509,14 +509,14 @@ Tail calls are recursive invocantions of itself.
 ** Term level
 See: [[Level of code]]
 ** Tuple
-Datatype that stores multiple values withing a single value.
+Data Type that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
   * empty, [[Unit][unit]]          - 0
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
 ** Type
 Type - [[Set][set]] of values.
-See [[Datatype]]
+See [[Data Type]]
 ** Type alias
 Create type constructor, not data constructor.
 ** Set
@@ -524,11 +524,11 @@ Well-defined collection of distinct objects.
 ** Type constant
 See: [[Constant]]
 ** Type constructor
-Name of [[Datatype][datatype]]
+Name of [[Data Type][data type]]
 
 Nullary type constructor is [[Type constant]]
 ** Type inference
-Automatic [[Datatype][datatype]] detection of [[Expresion][expression]].
+Automatic [[Data Type][data type]] detection of [[Expresion][expression]].
 ** Type level
 See: [[Level of code]]
 ** Type variable
@@ -538,14 +538,14 @@ Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polym
 ** Type class inheritance
 [[Type class]] has a [[Superclass][superclass]]
 ** Type instance
-Unique [[Type class][type class]]->[[Datatype][type]] pairing.
+Unique [[Type class][type class]]->[[Data Type][type]] pairing.
 Defines type class->type methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
 Value helps to do typechecking
 ** Unit
-Value, [[Datatype][type]]. Represents nothing. Empty [[Tuple][tuple]]
+Value, [[Data Type][type]]. Represents nothing. Empty [[Tuple][tuple]]
 ** Unsafe
 [[Function]] that does not cover some edge case.
 ** Variable
@@ -642,7 +642,7 @@ The category of magmas, denoted $Mag$, has as objects sets with a binary operati
 ** Binary operation
 $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 ** data declaration
-Data type declaration is the most general and versatile form to create a new datatype.
+Data type declaration is the most general and versatile form to create a new data type.
 Form:
 #+begin_src haskell
 data [context =>] type typeVars1..n
@@ -681,7 +681,7 @@ Generator. List it returns gets infinitely cycled.
 Useful function is arbitrary - that autoassumes/generates values.
 ** Arbitrary function
 Depends on type and generates values of the type.
-** NonEmpty list datatype
+** NonEmpty list data type
 Data.List.NonEmpty
 Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
 
