@@ -755,6 +755,8 @@ Process of reducing coplexity in the test case - re-run with smaller values and 
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
+** Constrained polymorphism
+Constrained [[Parametric polymorphism]].
 * Investigate
 ** Control.monad
 * Citations:
