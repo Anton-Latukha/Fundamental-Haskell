@@ -757,6 +757,16 @@ $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
 ** Constrained polymorphism
 Constrained [[Parametric polymorphism]].
+** Subtype polymorphism
+Allows to declare usage of a Type and all of its Subtypes.
+T - Type
+S - Subtype of Type
+<: - subtype of
+$S <: T = S \le T$
+
+Subtyping is:
+If it can be done to T, and there is subtype S - then it also can be done to S.
+$S <:T, f^{T \to X} \Rightarrow f^{S \to X}$
 * Investigate
 ** Control.monad
 * Citations:
