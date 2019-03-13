@@ -789,6 +789,26 @@ data Proxy a = ProxyValue
 let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
+** Higher-rank polymorphism
+Means that polymorphic types can apper within other type (type of funtion).
+There is a cases where higher-rank polymorphism than a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
+#+begin_src haskell
+-- ad-hoc polymorphism
+f1 :: forall a. MyType Class a => a -> String
+f1 = -- ...
+
+-- higher-rank polymorphism
+f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
+f2 = -- ...
+#+end_src
+By moving `forall` inside the function - we can achive higher-rank polymorphism.
+
+From: https://news.ycombinator.com/item?id=8130861
+#+begin_src text
+Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
+#+end_src
+
+Useful example aslo a [[ST-Trick monad]].
 * Investigate
 ** Control.monad
 * Citations:
