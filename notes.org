@@ -817,6 +817,8 @@ For exampe - if fold over a dynamic array:
  3) With Linear type function we guarantee that the array would be used only at one place at a time.
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
+** Levity polymprphism
+Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
 * Investigate
 ** Control.monad
 * Citations:
