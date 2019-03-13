@@ -852,6 +852,9 @@ There are 3 general linear type groups:
  * 1< - all other data, that can be duplicated multiple times.
 
 Linear types are great to control/minimize resource usage.
+** Unlifted type
+Type that directly exist on the hardware. The type abstraction can be completely removed.
+With unlifted types Haskel type system directly manages data in the hardware.
 * Investigate
 ** Control.monad
 * Citations:
