@@ -767,6 +767,19 @@ $S <: T = S \le T$
 Subtyping is:
 If it can be done to T, and there is subtype S - then it also can be done to S.
 $S <:T, f^{T \to X} \Rightarrow f^{S \to X}$
+** Row polymorphism
+# NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
+Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
+#+begin_src haskell
+printX :: { x :: Int | r } -> String
+printX rec = show rec.x
+
+printY :: { y :: Int | r } -> String
+printY rec = show rec.y
+
+-- type is inferred as `{x :: Int, y :: Int | r } -> String`
+printBoth rec = printX rec ++ printY rec
+#+end_src
 * Investigate
 ** Control.monad
 * Citations:
