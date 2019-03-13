@@ -90,24 +90,24 @@ Sum types require to implement generators with separate constructors, and pickin
 *** Principle of Separation of concerns
 *** Function composition
 In Haskell inline composition requires:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 h.g.f $ i
-#+END_SRC
+#+end_src
 Function application has a higher priority than composition. That is why parentheses over argument are needed.
 This precedence allows idiomatically compose partially applied functions.
 
 But it is a way better then:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 h (g (f i))
-#+END_SRC
+#+end_src
 *** Functor application
 Function application on n levels beneath:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 (fmap.fmap) function twoLevelStructure
-#+END_SRC
+#+end_src
 
 How fmap.fmap typechecks:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
 fmap :: Functor f => (m -> n) -> f m -> f n
 fmap :: Functor g => (x -> y) -> g x -> g y
@@ -116,7 +116,7 @@ fmap :: Functor g => (x -> y) -> g x -> g y
                                       -> ((x -> y) -> g x -> g y)
                                       -> (x -> y) -> f.g (x) -> f.g. (y)
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
-#+END_SRC
+#+end_src
 *** Paramenter order
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
@@ -140,11 +140,11 @@ For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 Is an input value to a function.
 ** Arity
 Number of parameters of the function.
-- nullary - f()
-- unary   - f(x)
-- binary  - f(x,y)
-- ternary - f(x,y,z)
-- n-ary   - f(x,y,z..)
+  * nullary - f()
+  * unary   - f(x)
+  * binary  - f(x,y)
+  * ternary - f(x,y,z)
+  * n-ary   - f(x,y,z..)
 ** As-pattern
 f list@(x, xs) =
 ** Base case
@@ -154,16 +154,20 @@ No [[Beta reduction][beta reduction]] is possible
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Binary tree
+#+begin_src haskell
 data BinaryTree a =
     [[Leaf]]
   | [[Node]] (BinaryTree a) a (BinaryTree a)
   deriving (Eq, Ord, Show)
+#+end_src
 ** Bind
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom value
-'_' fits *.
+#+begin_src haskell
+-- _ fits *.
+#+end_src
 
 Is a non-value used to denote the program cannot return a values.
 ** Cardinality
@@ -199,9 +203,9 @@ Nullary constructor
 ** Constrain
 See: [[Ad hoc polymorphism]]
 ** Construct
-#+BEGIN_SRC haskell
+#+begin_src haskell
 (:) :: a -> [a] -> [a]
-#+END_SRC
+#+end_src
 ** Constructor
 1. [[Type constructor]]
 2. [[Data onstructor]]
@@ -247,9 +251,10 @@ Idealization of how a varying quantity depends on another quantity.
 $x \in X, y \in Y : f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y)$
 
 Directionality and property of invariability emerge from one another.
-
- *      ->   *
-domain func codomain
+#+begin_src haskell
+   *      ->   *
+-- domain func codomain
+#+end_src
 
 Function is a mathematical [[Operation][operation]].
 
@@ -259,16 +264,16 @@ Inverse function - often partially exists (partial function).
 ** Function body
 [[Expression]] that haracterizes the process.
 ** Function composition
-#+BEGIN_SRC haskell
+#+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
 
 a -> (a -> b) -> (b -> c) -> c
-#+END_SRC
+#+end_src
 
 In Haskell inline composition requires:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 h.g.f $ i
-#+END_SRC
+#+end_src
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
@@ -288,9 +293,9 @@ See: [[Higher-order function]]
 ** Identity function
 Return itself.
 (\x.x)
-#+BEGIN_SRC haskell
+#+begin_src haskell
 id :: a -> a
-#+END_SRC
+#+end_src
 ** Infix
 Operaton in-between variables.
 ** Inhabit
@@ -464,6 +469,8 @@ Global scope variable overriden by variable in local scope.
 ** Smart constructor
 Place extra constraints on the construction of values.
 ** Spine
+#+begin_src text
+
   :
  / \
 1   :
@@ -482,6 +489,7 @@ _   :
      / \
     _  []
 
+#+end_src
 ** Statement
 Declarative sentence that is true or false.
 Gonzales: "What code does."
@@ -503,9 +511,9 @@ See: [[Level of code]]
 ** Tuple
 Datatype that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
-- empty, [[Unit][unit]]          - 0
-- pair, two-tuples     - 2
-- thriple, three-tuple - 3
+  * empty, [[Unit][unit]]          - 0
+  * pair, two-tuples     - 2
+  * thriple, three-tuple - 3
 ** Type
 Type - [[Set][set]] of values.
 See [[Datatype]]
@@ -555,17 +563,17 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 ** Monoid
 [[Semigroup]] that has [[Identity]] value.
 
-#+BEGIN_SRC haskell
+#+begin_src haskell
 class Monoid m where
 mempty :: m
 mappend :: m -> m -> m
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
-#+END_SRC
+#+end_src
 *** Abelian or commutative monoid
 Very helpful at concurrent or distributed processing.
 *** Monoid laws
-#+BEGIN_SRC haskell
+#+begin_src haskell
 -- left identity
 mappend mempty x = x
 -- right identity
@@ -573,7 +581,7 @@ mappend x mempty = x
 -- associativity
 mappend x (mappend y z) = mappend (mappend x y) z
 mconcat = foldr mappend mempty
-#+END_SRC
+#+end_src
 ** Binary
 Two of something.
 ** Operation
@@ -622,10 +630,10 @@ A [[Magma]] with associative law.
 
 Defined in Haskell as:
 
-#+BEGIN_SRC haskell
+#+begin_src haskell
 class Semigroup a where
 (<>) :: a -> a -> a
-#+END_SRC
+#+end_src
 
 ** Magma
 Set with a single binary operation.
@@ -636,35 +644,36 @@ $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 ** data declaration
 Data type declaration is the most general and versatile form to create a new datatype.
 Form:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 data [context =>] type typeVars1..n
   = con1  c1t1..i
   | ...
   | conm  cmt1..q
   [deriving]
-#+END_SRC haskell
+#+end_src haskell
 ** type declaration
 Synonim for existing type. Uses the same data constructor.
-#+BEGIN_SRC haskell
+#+begin_src haskell
 type FirstName = String
-#+END_SRC haskell
+#+end_src haskell
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
 ** newtype declaration
 Creates a new type from old type using a new constructor.
-#+BEGIN_SRC haskell
+#+begin_src haskell
 newtype FirstName = FirstName String
-#+END_SRC haskell
+#+end_src haskell
 
 Data will have exactly the same representation at runtime, as the type that is wrapped.
 
-#+BEGIN_SRC haskell
+#+begin_src haskell
 newtype Book = Book (Int, Int)
-#+END_SRC haskell
-
+#+end_src haskell
+#+begin_src text
       (,)
       / \
 Integer Integer
+#+end_src
 ** Gen type
 Generator. List it returns gets infinitely cycled.
 ** Arbitrary type class
@@ -676,10 +685,10 @@ Depends on type and generates values of the type.
 Data.List.NonEmpty
 Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
 
-#+BEGIN_SRC haskell
+#+begin_src haskell
 data NonEmpty a = a :| [a]
   deriving (Eq, Ord, Show)
-#+END_SRC haskell
+#+end_src haskell
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 ** Category
@@ -733,9 +742,9 @@ $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = i
 Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
 ** CoArbitrary
 Pseudogenerates a function basing on resulting type.
-#+BEGIN_SRC haskell
+#+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
-#+END_SRC
+#+end_src
 ** Idempotence
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines. 
@@ -761,22 +770,22 @@ Set has closure under an operation if performance of that operation on members o
 ** Functor
 Functor is a map between categories.
 
-#+BEGIN_SRC haskell
+#+begin_src haskell
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
-#+END_SRC
+#+end_src
 Functor is a type class for function application "over/through" ignored/untouched structure f.
 Functor abides [[Functor Laws]].
 ** Functor Laws
 Type instance of functor should abide this laws:
 1. Identity law
-#+BEGIN_SRC haskell
+#+begin_src haskell
 fmap id == id
-#+END_SRC
+#+end_src
 2. Composition law
-#+BEGIN_SRC haskell
+#+begin_src haskell
 fmap (f.g) == fmap f . fmap g
-#+END_SRC
+#+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 ** Lift
 Lift is to do a function application through the data structure.
@@ -808,9 +817,9 @@ Terminal object - is an object I in category C: $\exists I \in C: \forall X \in 
 ** Pragma
 Pragma - instruction to the compiler placed in the source code that specifies how a compiler should process the code.
 Pragma in Haskell have form:
-#+BEGIN_SRC haskell
+#+begin_src haskell
 {-# PRAGMA options #-}
-#+END_SRC
+#+end_src
 ** Pragma option
 Values supplied to the [[Pragma]] directive.
 ** Language option
@@ -875,11 +884,14 @@ https://codesearch.aelve.com/
 * Misc
 ** Notes on Pejton Jones "Linear Haskell: Practical Linearity in a Higher-Order Polymorphic Language"
 *** Polimorphisms in Haskell:
- parametric
- constrained
- kind
- levity
- linear
+parametric
+constrained
+kind
+levity
+linear
+
+
+first class
 
 
  first class
