@@ -844,6 +844,14 @@ Is a type in the real mathematical sence, in the Structural Type System.
 The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
 Like in Haskell.
 In most languages typing is not structural - but name-based.
+** Linear type
+Type system and algebra that also track the multiplicity of data.
+There are 3 general linear type groups:
+ * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` ins ST-Trick.
+ * 1 - data that is not duplicated
+ * 1< - all other data, that can be duplicated multiple times.
+
+Linear types are great to control/minimize resource usage.
 * Investigate
 ** Control.monad
 * Citations:
