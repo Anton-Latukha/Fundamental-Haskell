@@ -80,7 +80,7 @@ So foldr can terminate at any point, while foldl unconditionally recurses across
 Model the domain and types before thinking about how to wriet computations.
 *** Make bottoms only local
 *** Newtype wrap is ideally transparent for compiler and does not change performance
-*** Instances of types/typeclasses must go with code you write
+*** Instances of types/type classes must go with code you write
 *** Functions can be abstracted as arguments
 *** Infix operators can be bind to arguments
 *** Arbitrary
@@ -128,7 +128,7 @@ Generalization of process from concrete instance of a problem mainly by introduc
 [[Datatype]] recieved by execution.
 ** Ad hoc polymorphism
 Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Datatype][datatype]].
-Achieved by creating a [[Typeclass][typeclass]] [[Function][functions]].
+Achieved by creating a [[Type class][type class]] [[Function][functions]].
 It is interface dispatch mechanism.
 
 /Commonly known as overloading./
@@ -228,7 +228,7 @@ Data type, type.
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Derived instance
-Typeclasses such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
+Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of datatype.
 ** Dispatch
 Send, transmission, reference.
 ** Effect
@@ -455,13 +455,13 @@ Automatic [[Datatype][datatype]] detection of [[Expresion][expression]].
 See: [[Level of code]]
 ** Type variable
 Refer to an unspecified type in Haskell type signature.
-** Typeclass
+** Type class
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
-** Typeclass inheritance
-[[Typeclass]] has a [[Superclass][superclass]]
+** Type class inheritance
+[[Type class]] has a [[Superclass][superclass]]
 ** Type instance
-Unique [[Typeclass][typeclass]]->[[Datatype][type]] pairing.
-Defines typeclass->type methods.
+Unique [[Type class][type class]]->[[Datatype][type]] pairing.
+Defines type class->type methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
@@ -534,15 +534,15 @@ AND
 ** Disjunction
 OR
 ** Orphan type instance
-[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Typeclass][typeclass]] or on [[type]] level.
+[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on [[type]] level.
 
 Solution for addressing orphan instances:
-1. You defined the type but not the typeclass?
+1. You defined the type but not the type class?
 Put the instance in the same module as the type so that the type cannot be imported without its instances.
-2. You defined the typeclass but not the type?
-Put the instance in the same module as the typeclass definition so that the typeclass cannot be imported without its instances.
-3. Neither the type nor the typeclass are yours?
-Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define typeclass instances. There are means of making this less annoying which we’ll discuss later.
+2. You defined the type class but not the type?
+Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
+3. Neither the type nor the type class are yours?
+Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
 ** Semigroup
 $\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
 
@@ -597,8 +597,8 @@ newtype Book = Book (Int, Int)
 Integer Integer
 ** Gen type
 Generator. List it returns gets infinitely cycled.
-** Arbitrary typeclass
-[[Typeclass]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+** Arbitrary type class
+[[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autoassumes/generates values.
 ** Arbitrary function
 Depends on type and generates values of the type.
@@ -695,7 +695,7 @@ Functor is a map between categories.
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+END_SRC
-Functor is a typeclass for function application "over/through" ignored/untouched structure f.
+Functor is a type class for function application "over/through" ignored/untouched structure f.
 Functor abides [[Functor Laws]].
 ** Functor Laws
 Type instance of functor should abide this laws:
