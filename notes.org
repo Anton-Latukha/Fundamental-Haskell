@@ -780,6 +780,15 @@ printY rec = show rec.y
 -- type is inferred as `{x :: Int, y :: Int | r } -> String`
 printBoth rec = printX rec ++ printY rec
 #+end_src
+** Kind polymorphism
+That the type can be defined once, and because its partially defined type - and resulting type would depent on type that was binded.
+Example is the [[Proxy type]]:
+#+begin_src haskell
+data Proxy a = ProxyValue
+
+let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
+let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+#+end_src
 * Investigate
 ** Control.monad
 * Citations:
