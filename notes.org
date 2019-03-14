@@ -870,6 +870,13 @@ Linear types are great to control/minimize resource usage.
 ** Unlifted type
 Type that directly exist on the hardware. The type abstraction can be completely removed.
 With unlifted types Haskel type system directly manages data in the hardware.
+** Lambda cube
+λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
+
+Each dimension of the cube corresponds to a new way of making objects depend on other objects:
+  * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
+  * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
+  * ([[Type class]]) - types depending on types, corresponding to type operators.
 * Investigate
 ** Control.monad
 * Citations:
