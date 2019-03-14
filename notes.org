@@ -126,8 +126,6 @@ And as last one the one that can be the most variable, that is important to chai
 Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Actual type
 [[Data Type]] recieved by execution.
-** Algebraic data type
-Composite type formed by combining other types.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anamorphism
@@ -221,8 +219,20 @@ Values that [[Inhabit][inhabit]] [[Data Type][data type]]
 Constant value - nullary data constructor
 ** Data declaration
 [[Data Type]] definition
-** Data Type
+** Data type
 Data type, type.
+*** Algebraic data type
+Composite type formed by combining other types.
+*** Higher-kinded data type
+Any combination of * and ->
+
+Type that take more types as arguments.
+*** Product data type
+Logical conjunction.
+A data type that consists of AND areas.
+*** Sum data type
+Logical disjunction.
+A data type that consists of OR areas.
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Derived instance
@@ -263,24 +273,9 @@ Function = Total function = Pure function. Function theoretically posible to mom
 Inverse function - often partially exists (partial function).
 ** Function body
 [[Expression]] that haracterizes the process.
-** Function composition
-#+begin_src haskell
-(.) :: (b -> c) -> (a -> b) -> a -> c
-
-a -> (a -> b) -> (b -> c) -> c
-#+end_src
-
-In Haskell inline composition requires:
-#+begin_src haskell
-h.g.f $ i
-#+end_src
 ** Function head
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
-** Higher-kinded data type
-Any combination of * and ->
-
-Type that take more types as arguments.
 ** Higher-order function
 Function arity > 1.
 
@@ -295,6 +290,20 @@ Return itself.
 (\x.x)
 #+begin_src haskell
 id :: a -> a
+#+end_src
+** Partial function
+Does not cover all cases.
+Unsafe and causes trouble.
+** Function composition
+#+begin_src haskell
+(.) :: (b -> c) -> (a -> b) -> a -> c
+
+a -> (a -> b) -> (b -> c) -> c
+#+end_src
+
+In Haskell inline composition requires:
+#+begin_src haskell
+h.g.f $ i
 #+end_src
 ** Infix
 Operaton in-between variables.
@@ -342,9 +351,6 @@ Any Haskell expression can't return nothing.
 Or Formal Parameter - named varible of a [[Function][function]].
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
-** Partial function
-Does not cover all cases.
-Unsafe and causes trouble.
 ** Pointfree
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
@@ -463,9 +469,6 @@ Non-self-referencing definition.
 /Antonym - [[Impredicative]]./
 ** Principal type
 The most generic [[Data Type][data type]] that still typechecks.
-** Product data type
-Logical conjunction.
-A data type that consists of AND areas.
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Recursion
@@ -516,9 +519,6 @@ Declarative sentence that is true or false.
 Gonzales: "What code does."
 ** Static typing
 Static typechecking occurs at [[Level of code][compile time]]
-** Sum data type
-Logical disjunction.
-A data type that consists of OR areas.
 ** Superclass
 Broader parent class.
 ** Syntatic sugar
