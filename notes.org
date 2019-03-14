@@ -356,14 +356,35 @@ There is:
 Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
 
 /In most languages named as 'Generics' (generic programming)./
+**** First-class polymorphism
+More default term: [[Impredicative polymorphism]].
+**** Impredicative polymorphism
+The most powerful form of [[Parametric polymorphism]].
+First see [[Impredicative]].
+
+Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
+$T \in T, T = \forall X. X \to X: T \in X$
+This approach has Russell's paradox (and its form - Girard's paradox).
+**** Let-bound polymorphism
+It is property chosen for Haskell type system.
+Haskell is based on Hindley-Milner type system, it is let-bound.
+It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
+So:
+#+begin_src haskell
+foo :: (Int, Char)
+foo = (\f -> (f 1, f 'a')) id
+#+end_src
+Is illigal in Haskell.
+
+Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
+**** Constrained polymorphism
+Constrained [[Parametric polymorphism]].
 *** Ad hoc polymorphism
 Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data Type][data type]].
 Achieved by creating a [[Type class][type class]] [[Function][functions]].
 It is interface dispatch mechanism.
 
 /Commonly known as overloading./
-*** Constrained polymorphism
-Constrained [[Parametric polymorphism]].
 *** Subtype polymorphism
 Allows to declare usage of a Type and all of its Subtypes.
 T - Type
@@ -428,27 +449,6 @@ So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initi
 
 *** Levity polymorphism
 Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
-*** Let-bound polymorphism
-It is property chosen for Haskell type system.
-Haskell is based on Hindley-Milner type system, it is let-bound.
-It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
-So:
-#+begin_src haskell
-foo :: (Int, Char)
-foo = (\f -> (f 1, f 'a')) id
-#+end_src
-Is illigal in Haskell.
-
-Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
-*** First-class polymorphism
-More default term: [[Impredicative polymorphism]].
-*** Impredicative polymorphism
-The most powerful form of [[Parametric polymorphism]].
-First see [[Impredicative]].
-
-Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
-$T \in T, T = \forall X. X \to X: T \in X$
-This approach has Russell's paradox (and its form - Girard's paradox).
 ** Impredicative
 Self-referencing definition.
 
