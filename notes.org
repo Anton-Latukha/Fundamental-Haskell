@@ -125,7 +125,7 @@ And as last one the one that can be the most variable, that is important to chai
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
 ** Actual type
-[[Data Type]] recieved by execution.
+[[Data type]] recieved by execution.
 ** Alpha equivalence
 If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
 ** Anamorphism
@@ -193,9 +193,9 @@ See: [[Function composition]]
 Link together sequences.
 ** Concrete type
 ** Cons
-See: Construct
+Short for [[Construct]].
 ** Cons cell
-Conceptual space that values may inhabit.
+Cell that values may inhabit.
 ** Constant
 Nullary constructor
 ** Constrain
@@ -214,11 +214,11 @@ Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] 
 ** Data constant
 See: [[Constant]]
 ** Data constructor
-Values that [[Inhabit][inhabit]] [[Data Type][data type]]
+One instance that [[Inhabit][inhabit]] [[Data type][data type]].
 
-Constant value - nullary data constructor
+Constant value - nullary data constructor.
 ** Data declaration
-[[Data Type]] definition
+[[Data type]] definition.
 ** Data type
 Data type, type.
 *** Algebraic data type
@@ -244,7 +244,7 @@ Observable action.
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
-[[Data Type]] infered from the text of the code
+[[Data type]] infered from the text of the code.
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class
@@ -308,7 +308,7 @@ h.g.f $ i
 ** Infix
 Operaton in-between variables.
 ** Inhabit
-What [[Values][values]] inhabit [[Data Type][data type]]
+What [[Values][values]] inhabit [[Data type][data type]]
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
@@ -325,7 +325,7 @@ Same level [[Exression][expression]] parts in reality follow grouping from left 
 (\x.x)(\y.y)z = ((\x.x)(\y.y))z
 ** Level of code
 There are mainly three levels of Haskell code.
-- [[Type level]]: part that works with [[Data Type][data types]]
+- [[Type level]]: part that works with [[Data type][data types]]
 - [[Term level]]: logical execution part of the code
 - Compile level: level when code compiles/compiled
 ** Lexical scope
@@ -468,7 +468,7 @@ Non-self-referencing definition.
 
 /Antonym - [[Impredicative]]./
 ** Principal type
-The most generic [[Data Type][data type]] that still typechecks.
+The most generic [[Data type][data type]] that still typechecks.
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Recursion
@@ -530,14 +530,14 @@ Tail calls are recursive invocantions of itself.
 ** Term level
 See: [[Level of code]]
 ** Tuple
-Data Type that stores multiple values withing a single value.
+Data type that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
   * empty, [[Unit][unit]]          - 0
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
 ** Type
 Type - [[Set][set]] of values.
-See [[Data Type]]
+See [[Data type]]
 ** Type alias
 Create type constructor, not data constructor.
 ** Set
@@ -545,11 +545,11 @@ Well-defined collection of distinct objects.
 ** Type constant
 See: [[Constant]]
 ** Type constructor
-Name of [[Data Type][data type]]
+Name of [[Data type][data type]]
 
 Nullary type constructor is [[Type constant]]
 ** Type inference
-Automatic [[Data Type][data type]] detection of [[Expresion][expression]].
+Automatic [[Data type][data type]] detection of [[Expresion][expression]].
 ** Type level
 See: [[Level of code]]
 ** Type variable
@@ -559,14 +559,14 @@ Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polym
 ** Type class inheritance
 [[Type class]] has a [[Superclass][superclass]]
 ** Type instance
-Unique [[Type class][type class]]->[[Data Type][type]] pairing.
+Unique [[Type class][type class]]->[[Data type][type]] pairing.
 Defines type class->type methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
 Value helps to do typechecking
 ** Unit
-Value, [[Data Type][type]]. Represents nothing. Empty [[Tuple][tuple]]
+Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
 ** Unsafe
 [[Function]] that does not cover some edge case.
 ** Variable
@@ -626,7 +626,7 @@ Notation: $P(x)$
 ** Assertion
 Statement.
 Утверждение.
-** Commutative Law
+** Commutative law
 $\forall (a,b) \in S : P(a,b)=P(b,a)$
 ** Conjunction
 AND
@@ -663,7 +663,7 @@ The category of magmas, denoted $Mag$, has as objects sets with a binary operati
 ** Binary operation
 $\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 ** data declaration
-Data type declaration is the most general and versatile form to create a new data type.
+[[Data type]] declaration is the most general and versatile form to create a new data type.
 Form:
 #+begin_src haskell
 data [context =>] type typeVars1..n
@@ -796,8 +796,8 @@ class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
 Functor is a type class for function application "over/through" ignored/untouched structure f.
-Functor abides [[Functor Laws]].
-** Functor Laws
+Functor abides [[Functor laws]].
+** Functor laws
 Type instance of functor should abide this laws:
 1. Identity law
 #+begin_src haskell
