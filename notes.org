@@ -354,23 +354,22 @@ Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]
 ** Pointfree
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
-Interface to entities of different [[Data Types][data types]] by quality of [[Abstraction][abstraction]].
-Antonym - [[Monomorphism]].
+At once several forms.
 
-There is:
+To [[Abstraction][abstract]] over [[Data types][data types]].
+
+
+/Antonym - [[Monomorphism]]./
+
+Types:
+*** Levity polymorphism
+Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][unlifted types]].
 *** Parametric polymorphism
-Achieved by [[Abstraction][abstracting]] using [[Parameter][parameter]].
+[[Abstraction][Abstracting]] over [[Data type][data types]] by [[Parameter][parameter]].
 
 /In most languages named as 'Generics' (generic programming)./
-**** First-class polymorphism
-More default term: [[Impredicative polymorphism]].
-**** Impredicative polymorphism
-The most powerful form of [[Parametric polymorphism]].
-First see [[Impredicative]].
 
-Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
-$T \in T, T = \forall X. X \to X: T \in X$
-This approach has Russell's paradox (and its form - Girard's paradox).
+Types:
 **** Let-bound polymorphism
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
@@ -385,10 +384,19 @@ Is illigal in Haskell.
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 **** Constrained polymorphism
 Constrained [[Parametric polymorphism]].
+**** First-class polymorphism
+More default term: [[Impredicative polymorphism]].
+**** Impredicative polymorphism
+The most powerful form of [[Parametric polymorphism]].
+First see [[Impredicative]].
+
+Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
+$T \in T, T = \forall X. X \to X: T \in X$
+This approach has Russell's paradox (and its form - Girard's paradox).
 *** Ad hoc polymorphism
-Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data Type][data type]].
+Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data type][data type]].
 Achieved by creating a [[Type class][type class]] [[Function][functions]].
-It is interface dispatch mechanism.
+It is interface dispatch mechanism by data types.
 
 /Commonly known as overloading./
 *** Subtype polymorphism
@@ -415,18 +423,25 @@ printY rec = show rec.y
 printBoth rec = printX rec ++ printY rec
 #+end_src
 *** Kind polymorphism
-That the type can be defined once, and because its partially defined type - and resulting type would depent on type that was binded.
+Achieved using a phantom type argument in the data type declaration.
+#+begin_src haskell
+;;         * -> *
+data Proxy a = ProxyValue
+#+end_src
+Then, by default the data type can be inhabited and fully work being partially defined.
+But multiple instances of kind polymorphic type can be distinguished by their particular type.
 
 Example is the [[Proxy type]]:
 #+begin_src haskell
 data Proxy a = ProxyValue
 
-let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
-let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+let proxy1 = (ProxyValue :: Proxy Int) -- * :: Proxy Int
+let proxy2 = (ProxyValue :: Proxy a)   -- * -> * :: Proxy a
 #+end_src
+
 *** Higher-rank polymorphism
-Means that polymorphic types can apper within other type (type of funtion).
-There is a cases where higher-rank polymorphism than a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
+Means that polymorphic types can apper within other types (types of funtion).
+There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
 #+begin_src haskell
 -- ad-hoc polymorphism
 f1 :: forall a. MyType Class a => a -> String
@@ -445,16 +460,13 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 
 Useful example aslo a [[ST-Trick monad]].
 *** Linearity polymorphism
-Leverages a [[Linear type][linear types]].
+Leverages [[Linear type][linear types]].
 For exampe - if fold over a dynamic array:
   1) In basic Haskell - array would be copied at every step.
   2) Use low-level unsafe functions.
   3) With Linear type function we guarantee that the array would be used only at one place at a time.
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
-
-*** Levity polymorphism
-Levity polymprphism is when functions polymorphly work with lifted and [[Unlifted type][unlifted types]].
 ** Impredicative
 Self-referencing definition.
 
