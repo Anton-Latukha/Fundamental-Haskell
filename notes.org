@@ -440,6 +440,18 @@ foo = (\f -> (f 1, f 'a')) id
 Is illigal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
+** Impredicative
+Self-referencing definition.
+
+---
+
+/Antonym - [[Predicative]]./
+** Predicative
+Non-self-referencing definition.
+
+---
+
+/Antonym - [[Impredicative]]./
 ** Principal type
 The most generic [[Data Type][data type]] that still typechecks.
 ** Product data type
