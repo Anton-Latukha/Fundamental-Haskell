@@ -230,8 +230,7 @@ Type that take more types as arguments.
 *** Product data type
 [[Algebraic data type]] formed by logical [[Conjuction][conjunction]] (AND ' ').
 *** Sum data type
-Logical disjunction.
-A data type that consists of OR areas.
+[[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Derived instance
