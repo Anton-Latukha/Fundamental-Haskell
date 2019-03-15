@@ -778,6 +778,29 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
 μορφή - /morphe/ - form.
 
 Homomorphism is a structure-preserving map between two algebraic structures of the same type.
+* Give definitions
+** Kleisli category
+** Free object
+** Hom-set
+** Thin category
+** Partial order
+** Total order
+** Preorder
+** Tensor
+** Monoidal functor
+** Identity type
+** Constant type
+** Arbitrary
+** Gen
+** Context
+aka
+#+begin_src haskell
+Eq a => a -> Set a -> Set a
+#+end_src
+** ST-Trick monad
+ST is like a lexical scope, where all the variables/state disappear when the function returns
+https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
+https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
