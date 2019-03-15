@@ -773,6 +773,11 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
   * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
+** Homomorphism
+ὁμός - /homos/ - same,
+μορφή - /morphe/ - form.
+
+Homomorphism is a structure-preserving map between two algebraic structures of the same type.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
