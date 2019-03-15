@@ -922,16 +922,7 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
-** Notes on Pejton Jones "Linear Haskell: Practical Linearity in a Higher-Order Polymorphic Language"
-*** Polimorphisms in Haskell:
-parametric
-constrained
-kind
-levity
-linear
 
 
-first class
 
 
- first class
