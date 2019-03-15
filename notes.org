@@ -31,26 +31,6 @@ toUpper (Char -> Char)
 quickCheck :: Testable prop => prop -> IO ()
 
 quickCheck . verbose - run verbose mode
-* Debugger
-
-Provides:
-  * set a breakpoints
-  * observe step-by-step evaluation
-  * tracing mode
-
-** Commands
-:list
-
-** Breakpoints 
-:break 2
-  :show breaks
-  :delete 0
-:continue
-
-** Step-by-step
-:step main
-** What been evaluated already
-:sprint name
 * FunFunc
 cycle :: [a] -> [a] - indefinitely cycle s list
 repeat - indefinit lis from value
@@ -904,6 +884,26 @@ its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
 
 
+* Debugger
+
+Provides:
+  * set a breakpoints
+  * observe step-by-step evaluation
+  * tracing mode
+
+** Commands
+:list
+
+** Breakpoints
+:break 2
+  :show breaks
+  :delete 0
+:continue
+
+** Step-by-step
+:step main
+** What been evaluated already
+:sprint name
 * Tools
 ** Search over the Haskell packages code: Codesearch from Aelve
 https://codesearch.aelve.com/
