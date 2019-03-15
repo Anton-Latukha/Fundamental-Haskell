@@ -1,106 +1,3 @@
-* Functions to remember
-** Prelude
-enumFromTo
-enumFromThenTo
-reverse
-show :: Show a => a -> String
-flip
-sequence - Evaluate each monadic action in the structure from left to right, and collect the results.
-:sprint - show variables to see what has been evaluated already.
-minBound - smaller bound
-maxBound - larger bound
-*** Ord
-compare
-*** Calc
-div - always makes rounding down, to infinity
-divMod - returns a tuple containing the result of integral division and modulo 
-*** List operations
-concat - [ [a] ] -> [a]
-elem x xs - is element a part of a list
-zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list runs out.
-zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
-** Data.List
-intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
-nub - remove duplicates from the list
-** Data.Char
-ord (Char -> Int)
-chr (Int -> Char)
-isUpper (Char -> Bool)
-toUpper (Char -> Char)
-** QuickCheck
-quickCheck :: Testable prop => prop -> IO ()
-
-quickCheck . verbose - run verbose mode
-* FunFunc
-cycle :: [a] -> [a] - indefinitely cycle s list
-repeat - indefinit lis from value
-elemIndex e l - return first index, returns Maybe
-fromMaybe (default if Nothing) e ::Maybe a -> a
-lookup :: Eq a => a -> [(a, b)] -> Maybe b
-* Good code
-Use data type aliases to deferentiate logic of values.
-
-Unconstrained means most flexible, but the most useless.
-The more constrained system has more usefulness.
-
-*** Read Conventions of variables (page 176)
-*** Wideness of polymorphism
-Parametric polymorphism is broader then constrained polymorphism
-*** Damas–Hindley–Milner type system
-*** Print
-print :: Show a => a -> IO ()
-print a = putStrLn (show a)
-*** Read code evaluation (488 on-ward)
-*** Fold
-foldr spine recursion intermediated by the folding
-foldl spine folding is unconditional, then solding starts.
-
-So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
-*** Computation model
-Model the domain and types before thinking about how to wriet computations.
-*** Make bottoms only local
-*** Newtype wrap is ideally transparent for compiler and does not change performance
-*** Instances of types/type classes must go with code you write
-*** Functions can be abstracted as arguments
-*** Infix operators can be bind to arguments
-*** Arbitrary
-Product types can be tested as a product of random generators.
-Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
-
-*** Principle of Separation of concerns
-*** Function composition
-In Haskell inline composition requires:
-#+begin_src haskell
-h.g.f $ i
-#+end_src
-Function application has a higher priority than composition. That is why parentheses over argument are needed.
-This precedence allows idiomatically compose partially applied functions.
-
-But it is a way better then:
-#+begin_src haskell
-h (g (f i))
-#+end_src
-*** Functor application
-Function application on n levels beneath:
-#+begin_src haskell
-(fmap.fmap) function twoLevelStructure
-#+end_src
-
-How fmap.fmap typechecks:
-#+begin_src haskell
-(.) :: (b -> c) -> (a -> b) -> a -> c
-fmap :: Functor f => (m -> n) -> f m -> f n
-fmap :: Functor g => (x -> y) -> g x -> g y
-
-(.) :: (Functor f, Functor g) => ((g x -> g y) -> f.g (x) -> f.g (y))
-                                      -> ((x -> y) -> g x -> g y)
-                                      -> (x -> y) -> f.g (x) -> f.g. (y)
-fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
-#+end_src
-*** Paramenter order
-In functions parameter order is important.
-It is best to use first the most reusable parameters.
-And as last one the one that can be the most variable, that is important to chain.
 * Definitions
 ** Abstraction
 Generalization of process from concrete instance of a problem mainly by introduction of names.
@@ -876,14 +773,114 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
   * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
-* Investigate
-** Control.monad
-* Citations:
+* Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
+* Good code
+Use data type aliases to deferentiate logic of values.
 
+Unconstrained means most flexible, but the most useless.
+The more constrained system has more usefulness.
 
+*** Read Conventions of variables (page 176)
+*** Wideness of polymorphism
+Parametric polymorphism is broader then constrained polymorphism
+*** Damas–Hindley–Milner type system
+*** Print
+print :: Show a => a -> IO ()
+print a = putStrLn (show a)
+*** Read code evaluation (488 on-ward)
+*** Fold
+foldr spine recursion intermediated by the folding
+foldl spine folding is unconditional, then solding starts.
+
+So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
+*** Computation model
+Model the domain and types before thinking about how to wriet computations.
+*** Make bottoms only local
+*** Newtype wrap is ideally transparent for compiler and does not change performance
+*** Instances of types/type classes must go with code you write
+*** Functions can be abstracted as arguments
+*** Infix operators can be bind to arguments
+*** Arbitrary
+Product types can be tested as a product of random generators.
+Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
+
+*** Principle of Separation of concerns
+*** Function composition
+In Haskell inline composition requires:
+#+begin_src haskell
+h.g.f $ i
+#+end_src
+Function application has a higher priority than composition. That is why parentheses over argument are needed.
+This precedence allows idiomatically compose partially applied functions.
+
+But it is a way better then:
+#+begin_src haskell
+h (g (f i))
+#+end_src
+*** Functor application
+Function application on n levels beneath:
+#+begin_src haskell
+(fmap.fmap) function twoLevelStructure
+#+end_src
+
+How fmap.fmap typechecks:
+#+begin_src haskell
+(.) :: (b -> c) -> (a -> b) -> a -> c
+fmap :: Functor f => (m -> n) -> f m -> f n
+fmap :: Functor g => (x -> y) -> g x -> g y
+
+(.) :: (Functor f, Functor g) => ((g x -> g y) -> f.g (x) -> f.g (y))
+                                      -> ((x -> y) -> g x -> g y)
+                                      -> (x -> y) -> f.g (x) -> f.g. (y)
+fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
+#+end_src
+*** Parameter order
+In functions parameter order is important.
+It is best to use first the most reusable parameters.
+And as last one the one that can be the most variable, that is important to chain.
+* Useful functions to remember
+** Prelude
+enumFromTo
+enumFromThenTo
+reverse
+show :: Show a => a -> String
+flip
+sequence - Evaluate each monadic action in the structure from left to right, and collect the results.
+:sprint - show variables to see what has been evaluated already.
+minBound - smaller bound
+maxBound - larger bound
+cycle :: [a] -> [a] - indefinitely cycle s list
+repeat - indefinit lis from value
+elemIndex e l - return first index, returns Maybe
+fromMaybe (default if Nothing) e ::Maybe a -> a
+lookup :: Eq a => a -> [(a, b)] -> Maybe b
+*** Ord
+compare
+*** Calc
+div - always makes rounding down, to infinity
+divMod - returns a tuple containing the result of integral division and modulo
+*** List operations
+concat - [ [a] ] -> [a]
+elem x xs - is element a part of a list
+zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list runs out.
+zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
+** Data.List
+intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
+nub - remove duplicates from the list
+** Data.Char
+ord (Char -> Int)
+chr (Int -> Char)
+isUpper (Char -> Bool)
+toUpper (Char -> Char)
+** QuickCheck
+quickCheck :: Testable prop => prop -> IO ()
+
+quickCheck . verbose - run verbose mode
+* Investigate
+** Control.monad
 * Debugger
 
 Provides:
