@@ -228,8 +228,7 @@ Any combination of * and ->
 
 Type that take more types as arguments.
 *** Product data type
-Logical conjunction.
-A data type that consists of AND areas.
+[[Algebraic data type]] formed by logical [[Conjuction][conjunction]] (AND ' ').
 *** Sum data type
 Logical disjunction.
 A data type that consists of OR areas.
