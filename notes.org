@@ -1,31 +1,35 @@
 * Definitions
 ** Abstraction
-Generalization of process from concrete instance of a problem mainly by introduction of names.
+Generalization of process.
+It is great did to name an abstraction.
 ** Actual type
-[[Data type]] recieved by execution.
+[[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Alpha equivalence
-If names of parameters in [[Expression][expressions]] accordingly different, but process is literally the same - that means that names are synonyms and [[Expression][expression]] are alpha equivalent.
+Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Anamorphism
-Morphism from a coalgebra to the final coalgebra for that endofunctor
+[[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
+Is a [[function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
 ** Anonymous function
-Lambda function without the name to bind to.
+[[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
 ** Argument
-Is an input value to a function.
+Is an input value to a [[Function][function]].
 ** Arity
-Number of parameters of the function.
+Number of [[Parameter][parameters]] of the [[Function][function]].
   * nullary - f()
   * unary   - f(x)
   * binary  - f(x,y)
   * ternary - f(x,y,z)
   * n-ary   - f(x,y,z..)
 ** As-pattern
-f list@(x, xs) =
+#+begin_src haskell
+f list@(x, xs) = ...
+#+end_src
 ** Base case
-A part of a [[Recursion][recursive]] [[Function][function]] that produces result trivially.
+A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
 ** Beta normal form
-No [[Beta reduction][beta reduction]] is possible
+No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Binary tree
@@ -53,7 +57,7 @@ Number of possible implementations for a given type signature.
 On sum - add cardinalities.
 On product - multiply cardinalities.
 ** Catamorphism
-(from the Greek: κατά "downwards" and μορφή "form, shape") denotes the unique homomorphism from an initial algebra into some other algebra.
+(from the Greek: κατά "downwards", μορφή "form") denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 ** Combinator
@@ -119,7 +123,7 @@ Observable action.
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
-[[Data type]] infered from the text of the code.
+[[Data type]] [[Type inference][inferred]] from the text of the code.
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class
@@ -248,7 +252,7 @@ Types:
 **** Let-bound polymorphism
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
-It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
+It means that to have strict [[Type inference][type inference]] - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
 So:
 #+begin_src haskell
 foo :: (Int, Char)
@@ -806,14 +810,14 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
 * Good code
+** Type aliasing
 Use data type aliases to deferentiate logic of values.
-
+** Type wideness
+Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
 
 *** Read Conventions of variables (page 176)
-*** Wideness of polymorphism
-Parametric polymorphism is broader then constrained polymorphism
 *** Damas–Hindley–Milner type system
 *** Print
 print :: Show a => a -> IO ()
