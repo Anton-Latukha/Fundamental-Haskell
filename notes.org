@@ -816,43 +816,41 @@ Use data type aliases to deferentiate logic of values.
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
-
-*** Read Conventions of variables (page 176)
-*** Damas–Hindley–Milner type system
-*** Print
+** Read Conventions of variables (page 176)
+** Print
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
-*** Read code evaluation (488 on-ward)
-*** Fold
+** Read code evaluation (488 on-ward)
+** Fold
 foldr spine recursion intermediated by the folding
 foldl spine folding is unconditional, then solding starts.
 
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
-*** Computation model
-Model the domain and types before thinking about how to wriet computations.
-*** Make bottoms only local
-*** Newtype wrap is ideally transparent for compiler and does not change performance
-*** Instances of types/type classes must go with code you write
-*** Functions can be abstracted as arguments
-*** Infix operators can be bind to arguments
-*** Arbitrary
+** Computation model
+Model the domain and types before thinking about how to write computations.
+** Make bottoms only local
+** Newtype wrap is ideally transparent for compiler and does not change performance
+** Instances of types/type classes must go with code you write
+** Functions can be abstracted as arguments
+** Infix operators can be bind to arguments
+** Arbitrary
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
-*** Principle of Separation of concerns
-*** Function composition
+** Principle of Separation of concerns
+** Function composition
 In Haskell inline composition requires:
 #+begin_src haskell
-h.g.f $ i
+  h.g.f $ i
 #+end_src
 Function application has a higher priority than composition. That is why parentheses over argument are needed.
 This precedence allows idiomatically compose partially applied functions.
 
 But it is a way better then:
 #+begin_src haskell
-h (g (f i))
+  h (g (f i))
 #+end_src
-*** Functor application
+** Functor application
 Function application on n levels beneath:
 #+begin_src haskell
 (fmap.fmap) function twoLevelStructure
@@ -864,12 +862,13 @@ How fmap.fmap typechecks:
 fmap :: Functor f => (m -> n) -> f m -> f n
 fmap :: Functor g => (x -> y) -> g x -> g y
 
-(.) :: (Functor f, Functor g) => ((g x -> g y) -> f.g (x) -> f.g (y))
-                                      -> ((x -> y) -> g x -> g y)
-                                      -> (x -> y) -> f.g (x) -> f.g. (y)
+(.) :: (Functor f, Functor g)
+  => ((g x -> g y) -> f.g (x) -> f.g (y))
+  -> ((x -> y) -> g x -> g y)
+  -> (x -> y) -> f.g (x) -> f.g. (y)
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+end_src
-*** Parameter order
+** Parameter order
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
