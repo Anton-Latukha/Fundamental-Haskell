@@ -876,6 +876,14 @@ And as last one the one that can be the most variable, that is important to chai
 There can be more then one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
+** Creative process
+*** Pick phylosophy principles one to three the more - the harder the implementation
+*** Draw the most blurred representation
+*** Deduce abstractions and write remotely what they are
+*** Model of computation
+**** Model the domain
+**** Model the types
+**** Think how to write computations
 * Useful functions to remember
 ** Prelude
 enumFromTo
