@@ -872,6 +872,10 @@ fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
+** Applicative monoid
+There can be more then one valid Monoid for a data type. &&
+There can be more than one valid Applicative instance for a data type. ->
+There can be differnt Applicatives with different Monoid implementations.
 * Useful functions to remember
 ** Prelude
 enumFromTo
