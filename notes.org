@@ -953,6 +953,9 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
+** Shift operator Differential operator
+Shift operator defined by Lagrange through Differential operator.
+$\displaystyle T^{t}=e^{t{\frac {d}{dx}}}$
 
 
 
