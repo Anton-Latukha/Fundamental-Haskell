@@ -824,6 +824,26 @@ Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separ
 Structure goes through Monoidal process.
 
 [[Data type]]s can have several applicative implementations.
+*** Applicative laws
+**** Identity law
+#+begin_src haskell
+pure id <*> v = v
+#+end_src
+**** Composition law
+Function composition works regularly.
+#+begin_src haskell
+pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
+#+end_src
+**** Homomorphism law
+Applying the function doesn't change the structure around values.
+#+begin_src haskell
+pure f <*> pure x = pure (f x)
+#+end_src
+**** Interchange law
+On condition that internal order of evaluation is preserved - order of operands is not relevant.
+#+begin_src haskell
+u <*> pure y = pure ($ y) <*> u
+#+end_src
 
 ** Idiom
 See [[Applicative functor]].
