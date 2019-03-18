@@ -614,23 +614,23 @@ Category (/C/) consists of:
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 ** Semantics
 Philosophical study of meaning.
-** Principle of compositionality
-The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
-** Operational semantics
+*** Operational semantics
 Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
 
 Good to solve in-point localized tasks.
 Process of abstraction.
-** Denotational semantics
-Constructing mathematical objects (called denotations) that describe the meanings.
+*** Denotational semantics
+Constructing mathematical objects (called denotations), that describe the meanings.
 
 Good to achive more broad approach/meaning.
-Process of modelling.
-** Axiomatic semantics
+Also see [[Abstraction]].
+*** Axiomatic semantics
 Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
 Empirical process.
+** Principle of compositionality
+The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
 ** SET category
 Category in which objects are sets.
 ** Relation
@@ -791,7 +791,6 @@ Homomorphism is a structure-preserving map between two algebraic structures of t
 ** Total order
 ** Preorder
 ** Tensor
-** Monoidal functor
 ** Identity type
 ** Constant type
 ** Arbitrary
@@ -805,6 +804,10 @@ Eq a => a -> Set a -> Set a
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
 https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+** Monoidal functor
+** Lax monoidal functor
+** Tensorial strength
+** Strong monad
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
