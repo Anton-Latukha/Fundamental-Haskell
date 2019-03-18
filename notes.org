@@ -808,6 +808,25 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** Lax monoidal functor
 ** Tensorial strength
 ** Strong monad
+** Applicative functor
+Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
+See [[Applicative]].
+** Applicative
+See [[Applicative functor]] for [[Category theory]] description.
+Sequencing functorial computations.
+
+#+begin_src haskell
+(<*>) :: f (a -> b) -> f a -> f b
+#+end_src
+
+Requires [[Functor]] to exist.
+Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separate from what happens inside it.
+Structure goes through Monoidal process.
+
+[[Data type]]s can have several applicative implementations.
+
+** Idiom
+See [[Applicative functor]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
