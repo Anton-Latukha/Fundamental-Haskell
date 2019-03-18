@@ -863,6 +863,11 @@ See [[Calculus of constructions]].
 Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
+** Dependent type
+Type and variable have rules regarding values.
+
+A value of a variable has a role on the resulting Type.
+Or Type has rule for values.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
