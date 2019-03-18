@@ -849,6 +849,10 @@ u <*> pure y = pure ($ y) <*> u
 
 ** Idiom
 See [[Applicative functor]].
+** Algebra
+"al-jabr" - assemble parts.
+
+A system of algebra based on given axioms.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
