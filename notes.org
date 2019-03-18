@@ -857,6 +857,12 @@ A system of algebra based on given axioms.
 See [[Curry–Howard correspondence]].
 ** Curry–Howard correspondence
 Computer programs are mathematical proofs.
+** CoC
+See [[Calculus of constructions]].
+** Calculus of constructions
+Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
+Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
+Directly relates to Coq programming language.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
