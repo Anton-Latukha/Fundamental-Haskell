@@ -853,6 +853,10 @@ See [[Applicative functor]].
 "al-jabr" - assemble parts.
 
 A system of algebra based on given axioms.
+** Curry–Howard isomorphism
+See [[Curry–Howard correspondence]].
+** Curry–Howard correspondence
+Computer programs are mathematical proofs.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
