@@ -847,6 +847,23 @@ On condition that internal order of evaluation is preserved - order of operands 
 u <*> pure y = pure ($ y) <*> u
 #+end_src
 
+*** Special applicatives
+**** Identity applicative
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Identity
+type Id = Identity
+instance Applicative Id
+  where
+    pure :: a -> Id a
+    (<*>) :: Id (a -> b) -> Id a -> Id b
+
+mkId = Identity
+xs = [1, 2, 3]
+
+const <$> mkId xs <*> mkId xs'
+-- [1,2,3]
+#+end_src
 ** Idiom
 See [[Applicative functor]].
 ** Algebra
