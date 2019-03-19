@@ -5,6 +5,11 @@ It is great did to name an abstraction.
 ** Actual type
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra
+"al-jabr" - assemble parts.
+A system of algebra based on given axioms.
+
+---
+
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
 ** Alpha equivalence
@@ -16,6 +21,94 @@ Is a [[function]] that generates a sequence by repeated [[Application][applicati
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
+** Applicative
+See [[Applicative functor]] for [[Category theory]] description.
+Sequencing functorial computations.
+
+#+begin_src haskell
+(<*>) :: f (a -> b) -> f a -> f b
+#+end_src
+
+Requires [[Functor]] to exist.
+Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separate from what happens inside it.
+Structure goes through Monoidal process.
+
+[[Data type]]s can have several applicative implementations.
+*** Applicative laws
+**** Identity law
+#+begin_src haskell
+pure id <*> v = v
+#+end_src
+**** Composition law
+Function composition works regularly.
+#+begin_src haskell
+pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
+#+end_src
+**** Homomorphism law
+Applying the function doesn't change the structure around values.
+#+begin_src haskell
+pure f <*> pure x = pure (f x)
+#+end_src
+**** Interchange law
+On condition that internal order of evaluation is preserved - order of operands is not relevant.
+#+begin_src haskell
+u <*> pure y = pure ($ y) <*> u
+#+end_src
+
+*** Special applicatives
+**** Identity applicative
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Identity
+type Id = Identity
+instance Applicative Id
+  where
+    pure :: a -> Id a
+    (<*>) :: Id (a -> b) -> Id a -> Id b
+
+mkId = Identity
+xs = [1, 2, 3]
+
+const <$> mkId xs <*> mkId xs'
+-- [1,2,3]
+#+end_src
+**** Constant applicative
+It holds only to one value. The function does not exist and `b` is phantom.
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Constant e
+type C = Constant
+instance Applicative C
+  where
+    pure :: a -> C e a
+    (<*>) :: C e (a -> b) -> C e a -> C e b
+
+pure 1
+-- 1
+pure 1 :: Constant String Int
+-- Constant {getConstant = ""}
+#+end_src
+
+**** Maybe applicative
+"There also can be no function at all."
+
+If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
+#+begin_src haskell
+-- f ~ Maybe
+type M = Maybe
+pure :: a -> M a
+(<*>) :: M (a -> b) -> M a -> M b
+#+end_src
+**** Either applicative
+`pure` is `Right`.
+Defaults to `Left`.
+And if there is two Left's - to Left of the first argument.
+**** Validation applicative
+The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
+For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
+** Applicative functor
+Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
+See [[Applicative]].
 ** Arbitrary function
 Depends on type and generates values of the type.
 ** Arbitrary type class
@@ -69,6 +162,10 @@ Variables = values.
 #+end_src
 
 Is a non-value used to denote the program cannot return a values.
+** Calculus of constructions
+Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
+Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
+Directly relates to Coq programming language.
 ** Cardinality
 Number of elements.
 
@@ -99,11 +196,16 @@ Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
 ** Closure
 Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
+** Coalgebra
+Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
+Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 ** CoArbitrary
 Pseudogenerates a function basing on resulting type.
 #+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
+** CoC
+See [[Calculus of constructions]].
 ** Codomain
 Codomain - target set of a function in $X \to Y$.
 ** Combinator
@@ -142,6 +244,10 @@ See: [[Ad hoc polymorphism]]
 2. [[Data onstructor]]
 
 Also see: [[Constant]]
+** Curry–Howard correspondence
+Computer programs are mathematical proofs.
+** Curry–Howard isomorphism
+See [[Curry–Howard correspondence]].
 ** Currying
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
 ** Data constant
@@ -176,6 +282,11 @@ Type that take more types as arguments.
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
+** Dependent type
+Type and variable have rules regarding values.
+
+A value of a variable has a role on the resulting Type.
+Or Type has rule for values.
 ** Derived instance
 Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
 ** Disjunction
@@ -186,6 +297,8 @@ Send, transmission, reference.
 Source set of a function in $X \to Y$.
 ** Effect
 Observable action.
+** Endofunctor
+Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
@@ -262,6 +375,8 @@ Any non-constant single-variable polynomial with complex coefficients has at lea
 Also derives that the field of complex numbers is algebraically closed.
 ** Gen type
 Generator. List it returns gets infinitely cycled.
+** Girard–Reynolds polymorphic lambda calculus
+See [[System F]].
 ** Higher-order function
 Function arity > 1.
 
@@ -298,6 +413,8 @@ id :: a -> a
 ** Idiom
 Idiom - something having a meaning that cannot be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
+** Idiom
+See [[Applicative functor]].
 ** Idiomatic
 See [[Idiom]].
 ** Impredicative
@@ -330,6 +447,8 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
   * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
+** Lambda function
+Function of [[Lambda calculus]].
 ** Language option
 Language option - control what variations of the language are permitted.
 It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
@@ -448,6 +567,8 @@ data NonEmpty a = a :| [a]
 In context: [[Beta normal form]]
 ** Nothing
 Any Haskell expression can't return nothing.
+** Open formula
+[[Function]] with [[Arity][arity]].
 ** Operation
 As also called [[Function][function]].
 Used in mathematics. Word often used for [[Infix][infix]] operations.
@@ -618,6 +739,10 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
+** Quantifier
+Specifies the quantity of specimens.
+
+Two most common quantifiers $\forall$ and $\exists$.
 ** Recursion
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex
@@ -717,6 +842,9 @@ In most languages typing is not structural - but name-based.
 Broader parent class.
 ** Syntatic sugar
 Artificial way to make language easier to read and write.
+** System F
+Formalizes the notion of parametric polymorphism in programming languages.
+Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
 ** Tail call
 Final result of the function
 ** Tail recursion
@@ -810,133 +938,6 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** Lax monoidal functor
 ** Tensorial strength
 ** Strong monad
-** Applicative functor
-Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
-See [[Applicative]].
-** Applicative
-See [[Applicative functor]] for [[Category theory]] description.
-Sequencing functorial computations.
-
-#+begin_src haskell
-(<*>) :: f (a -> b) -> f a -> f b
-#+end_src
-
-Requires [[Functor]] to exist.
-Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separate from what happens inside it.
-Structure goes through Monoidal process.
-
-[[Data type]]s can have several applicative implementations.
-*** Applicative laws
-**** Identity law
-#+begin_src haskell
-pure id <*> v = v
-#+end_src
-**** Composition law
-Function composition works regularly.
-#+begin_src haskell
-pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
-#+end_src
-**** Homomorphism law
-Applying the function doesn't change the structure around values.
-#+begin_src haskell
-pure f <*> pure x = pure (f x)
-#+end_src
-**** Interchange law
-On condition that internal order of evaluation is preserved - order of operands is not relevant.
-#+begin_src haskell
-u <*> pure y = pure ($ y) <*> u
-#+end_src
-
-*** Special applicatives
-**** Identity applicative
-#+begin_src haskell
--- Applicative f =>
--- f ~ Identity
-type Id = Identity
-instance Applicative Id
-  where
-    pure :: a -> Id a
-    (<*>) :: Id (a -> b) -> Id a -> Id b
-
-mkId = Identity
-xs = [1, 2, 3]
-
-const <$> mkId xs <*> mkId xs'
--- [1,2,3]
-#+end_src
-**** Constant applicative
-It holds only to one value. The function does not exist and `b` is phantom.
-#+begin_src haskell
--- Applicative f =>
--- f ~ Constant e
-type C = Constant
-instance Applicative C
-  where
-    pure :: a -> C e a
-    (<*>) :: C e (a -> b) -> C e a -> C e b
-
-pure 1
--- 1
-pure 1 :: Constant String Int
--- Constant {getConstant = ""}
-#+end_src
-
-**** Maybe applicative
-"There also can be no function at all."
-
-If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
-#+begin_src haskell
--- f ~ Maybe
-type M = Maybe
-pure :: a -> M a
-(<*>) :: M (a -> b) -> M a -> M b
-#+end_src
-**** Either applicative
-`pure` is `Right`.
-Defaults to `Left`.
-And if there is two Left's - to Left of the first argument.
-**** Validation applicative
-The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
-For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
-** Idiom
-See [[Applicative functor]].
-** Algebra
-"al-jabr" - assemble parts.
-
-A system of algebra based on given axioms.
-** Curry–Howard isomorphism
-See [[Curry–Howard correspondence]].
-** Curry–Howard correspondence
-Computer programs are mathematical proofs.
-** CoC
-See [[Calculus of constructions]].
-** Calculus of constructions
-Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
-Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
-Directly relates to Coq programming language.
-** Dependent type
-Type and variable have rules regarding values.
-
-A value of a variable has a role on the resulting Type.
-Or Type has rule for values.
-** Girard–Reynolds polymorphic lambda calculus
-See [[System F]].
-** System F
-Formalizes the notion of parametric polymorphism in programming languages.
-Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
-** Quantifier
-Specifies the quantity of specimens.
-
-Two most common quantifiers $\forall$ and $\exists$.
-** Open formula
-[[Function]] with [[Arity][arity]].
-** Coalgebra
-Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
-Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
-** Endofunctor
-Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
-** Lambda function
-Function of [[Lambda calculus]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
