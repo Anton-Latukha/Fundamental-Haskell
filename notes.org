@@ -930,6 +930,9 @@ Specifies the quantity of specimens.
 Two most common quantifiers $\forall$ and $\exists$.
 ** Open formula
 [[Function]] with [[Arity][arity]].
+** Coalgebra
+Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
+Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
