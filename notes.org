@@ -864,6 +864,23 @@ xs = [1, 2, 3]
 const <$> mkId xs <*> mkId xs'
 -- [1,2,3]
 #+end_src
+**** Constant applicative
+It holds only to one value. The function does not exist and `b` is phantom.
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Constant e
+type C = Constant
+instance Applicative C
+  where
+    pure :: a -> C e a
+    (<*>) :: C e (a -> b) -> C e a -> C e b
+
+pure 1
+-- 1
+pure 1 :: Constant String Int
+-- Constant {getConstant = ""}
+#+end_src
+
 ** Idiom
 See [[Applicative functor]].
 ** Algebra
