@@ -215,8 +215,6 @@ Scope search sourcecode blocks structure determined.
 Importable organization unit.
 ** Modulus
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
-** Monomorphic
-Made of one form.
 ** Node
  *
 / \
@@ -641,15 +639,34 @@ Any function is a subset of Cartesian product.
 ** Fundamental theorem of algebra
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
-** Isomorphism
+** Morphism
+[[Function]]
+*** Identity morphism
+Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
+Composed with other morphism gives same morphism.
+*** Isomorphism
 AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
 $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
 
 2 reasons for non-isomorphic function:
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
-** Morphism
-[[Function]]
+*** Homomorphism
+ὁμός - /homos/ - same,
+μορφή - /morphe/ - form.
+
+Homomorphism is a structure-preserving map between two algebraic structures of the same type.
+*** Monomorphism
+Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
+Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
+It is injective.
+It always has a inverse morphism.
+*** Monomorphic
+Made of one form.
+*** Epimorphism
+Image of a function /f/ is fully used - epimorphism.
+Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+It is surjective.
 ** IO ()
 Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
 ** CoArbitrary
@@ -660,15 +677,6 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 ** Idempotence
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines. 
-** Monomorphism
-Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
-Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
-It is injective.
-It always has a inverse morphism.
-** Epimorphism
-Image of a function /f/ is fully used - epimorphism.
-Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-It is surjective.
 ** Closed set
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
@@ -739,9 +747,6 @@ Values supplied to the [[Pragma]] directive.
 ** Language option
 Language option - control what variations of the language are permitted.
 It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
-** Identity morphism
-Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
-Composed with other morphism gives same morphism.
 ** Shrinking
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 ** Zero
@@ -779,11 +784,6 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
   * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
-** Homomorphism
-ὁμός - /homos/ - same,
-μορφή - /morphe/ - form.
-
-Homomorphism is a structure-preserving map between two algebraic structures of the same type.
 * Give definitions
 ** Kleisli category
 ** Free object
