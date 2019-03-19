@@ -935,6 +935,8 @@ Structures that are dual (in the category-theoretic sense of reversing arrows) t
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 ** Endofunctor
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
+** Lambda function
+Function of [[Lambda calculus]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
