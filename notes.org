@@ -4,6 +4,9 @@ Generalization of process.
 It is great did to name an abstraction.
 ** Actual type
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
+** Algebra
+1) Abstract algebra - the study of number systems and operations within them.
+2) Algebra - vector space over a field with a multiplication.
 ** Alpha equivalence
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Anamorphism
@@ -13,6 +16,11 @@ Is a [[function]] that generates a sequence by repeated [[Application][applicati
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
+** Arbitrary function
+Depends on type and generates values of the type.
+** Arbitrary type class
+[[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+Useful function is arbitrary - that autoassumes/generates values.
 ** Argument
 Is an input value to a [[Function][function]].
 ** Arity
@@ -26,12 +34,24 @@ Number of [[Parameter][parameters]] of the [[Function][function]].
 #+begin_src haskell
 f list@(x, xs) = ...
 #+end_src
+** Assertion
+Statement.
+Утверждение.
+** Associative law
+$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$,
+Etymology:
+Joined by a common purpose.
+Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
+** Binary
+Two of something.
+** Binary operation
+$\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
 ** Binary tree
 #+begin_src haskell
 data BinaryTree a =
@@ -56,10 +76,36 @@ Number of possible implementations for a given type signature.
 
 On sum - add cardinalities.
 On product - multiply cardinalities.
+** Cartesian product
+${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
+Any function is a subset of Cartesian product.
 ** Catamorphism
 (from the Greek: κατά "downwards", μορφή "form") denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+** Category
+Category (/C/) consists of:
+  1. Objects - ob(/C/). Sets.
+  2. Morphisms - C(a,b), hom(a,b). Mappings, total functions.
+  3. Binary operation "Composition of morphisms": $\forall a, b, c: C(a, b) \circ C(b, c) \to C(a, c)$
+  4. Axiom of [[Associative law][Associativity]]: $f_{a \to b}, g_{b \to c}, h_{c \to d} : h \circ (g \circ f) = (h \circ g) \circ f$.
+  5. Axiom of two sided [[Identity]] of morphisms: $\forall x  \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b}  :  id_x \circ f_{a \to x} = f_{a \to x}, g_{x \to b} \circ id_x = g_{x \to b}$ (both left and right identity)
+
+From these axioms, one can prove that there is exactly one identity morphism for every object.
+** Closed-form expression
+Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
+** Closed set
+Closed set - a set whose complement is an open set.
+Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
+** Closure
+Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
+** CoArbitrary
+Pseudogenerates a function basing on resulting type.
+#+begin_src haskell
+coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
+#+end_src
+** Codomain
+Codomain - target set of a function in $X \to Y$.
 ** Combinator
 Lambda term without free variables.
 
@@ -68,11 +114,17 @@ Higher-order [[Function][function]] that uses only function application and earl
 Narrow meaning: A function or definition with no free variables.
 
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+** Combinator
+A function or definition with no free variables.
+** Commutative law
+$\forall (a,b) \in S : P(a,b)=P(b,a)$
 ** Compose
 See: [[Function composition]]
 ** Concatenate
 Link together sequences.
 ** Concrete type
+** Conjunction
+AND
 ** Cons
 Short for [[Construct]].
 ** Cons cell
@@ -100,6 +152,16 @@ One instance that [[Inhabit][inhabit]] [[Data type][data type]].
 Constant value - nullary data constructor.
 ** Data declaration
 [[Data type]] definition.
+** data declaration
+[[Data type]] declaration is the most general and versatile form to create a new data type.
+Form:
+#+begin_src haskell
+data [context =>] type typeVars1..n
+  = con1  c1t1..i
+  | ...
+  | conm  cmt1..q
+  [deriving]
+#+end_src haskell
 ** Data type
 Data type, type.
 *** Algebraic data type
@@ -116,8 +178,12 @@ Type that take more types as arguments.
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Derived instance
 Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
+** Disjunction
+OR
 ** Dispatch
 Send, transmission, reference.
+** Domain
+Source set of a function in $X \to Y$.
 ** Effect
 Observable action.
 ** Evaluation
@@ -150,29 +216,10 @@ Function is a mathematical [[Operation][operation]].
 Function = Total function = Pure function. Function theoretically posible to momoized.
 [[Partial function]].
 Inverse function - often partially exists (partial function).
+** Function application
+Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
 [[Expression]] that haracterizes the process.
-** Function head
-Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
-AKA: f(x)
-** Higher-order function
-Function arity > 1.
-
-----
-
-A) Has function as an argument.
-B) Evaluates to function.
-** HOF
-See: [[Higher-order function]]
-** Identity function
-Return itself.
-(\x.x)
-#+begin_src haskell
-id :: a -> a
-#+end_src
-** Partial function
-Does not cover all cases.
-Unsafe and causes trouble.
 ** Function composition
 #+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
@@ -184,19 +231,108 @@ In Haskell inline composition requires:
 #+begin_src haskell
 h.g.f $ i
 #+end_src
+** Function head
+Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
+AKA: f(x)
+** Function range
+The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
+So, see [[Function image]].
+** Functor
+Functor is a map between categories.
+
+#+begin_src haskell
+class Functor f where
+  fmap :: (a -> b) -> f a -> f b
+#+end_src
+Functor is a type class for function application "over/through" ignored/untouched structure f.
+Functor abides [[Functor laws]].
+** Functor laws
+Type instance of functor should abide this laws:
+1. Identity law
+#+begin_src haskell
+fmap id == id
+#+end_src
+2. Composition law
+#+begin_src haskell
+fmap (f.g) == fmap f . fmap g
+#+end_src
+In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+** Fundamental theorem of algebra
+Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
+Also derives that the field of complex numbers is algebraically closed.
+** Gen type
+Generator. List it returns gets infinitely cycled.
+** Higher-order function
+Function arity > 1.
+
+----
+
+A) Has function as an argument.
+B) Evaluates to function.
+** Hindley–Milner type system
+Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
+Where types marked as polymorphic variables, and overall type inference is possible all over the code.
+Also known as Damas–Milner or Damas–Hindley–Milner system.
+** HOF
+See: [[Higher-order function]]
+** Idempotence
+After the initial application operation can be applied multiple times without changing the result.
+Example: Start and Stop buttons on machines.
+** Identity
+*** Two-sided identity of a [[Predicate][predicate]]
+$P()$ is [[Commutative][commutative]].
+$\exist e \in S, \forall a \in S : P(e,a)=P(a,e)=a$
+*** Left identity of a [[Predicate][predicate]]
+$\exist e \in S, \forall a \in S : P(e,a)=a$
+*** Right identity of a [[Predicate][predicate]]
+$\exist e \in S, \forall a \in S : P(a,e)=a$
+
+Identity only possible with morphism.
+There is also a distinct [[Zero]] value.
+** Identity function
+Return itself.
+(\x.x)
+#+begin_src haskell
+id :: a -> a
+#+end_src
+** Idiom
+Idiom - something having a meaning that cannot be derived from the conjoined meanings.
+Meaning can be special for language speakers or human with particular knowledge.
+** Idiomatic
+See [[Idiom]].
+** Impredicative
+Self-referencing definition.
+
+---
+
+/Antonym - [[Predicative]]./
 ** Infix
 Operaton in-between variables.
 ** Inhabit
 What [[Values][values]] inhabit [[Data type][data type]]
+** Initial object
+Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
 Type for values whose evaluations has a posibility to cause side effects.
+** IO ()
+Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
 ** Kind
 Kind -> Type -> Data
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
+** Lambda cube
+λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
+
+Each dimension of the cube corresponds to a new way of making objects depend on other objects:
+  * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
+  * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
+  * ([[Type class]]) - types depending on types, corresponding to type operators.
+** Language option
+Language option - control what variations of the language are permitted.
+It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
 ** Leaf
  _
 ** Left associative
@@ -209,25 +345,131 @@ There are mainly three levels of Haskell code.
 - Compile level: level when code compiles/compiled
 ** Lexical scope
 Scope search sourcecode blocks structure determined.
+** Lift
+Lift is to do a function application through the data structure.
+** Linear type
+Type system and algebra that also track the multiplicity of data.
+There are 3 general linear type groups:
+ * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` ins ST-Trick.
+ * 1 - data that is not duplicated
+ * 1< - all other data, that can be duplicated multiple times.
+
+Linear types are great to control/minimize resource usage.
 ** Local
 [[Scope]] applies only in an area
+** Magma
+Set with a single binary operation.
+
+The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** Module
 Importable organization unit.
 ** Modulus
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+** Monoid
+[[Semigroup]] that has [[Identity]] value.
+
+#+begin_src haskell
+class Monoid m where
+mempty :: m
+mappend :: m -> m -> m
+mconcat :: [m] -> m
+mconcat = foldr mappend mempty
+#+end_src
+*** Abelian or commutative monoid
+Very helpful at concurrent or distributed processing.
+*** Monoid laws
+#+begin_src haskell
+-- Left identity
+mempty <> x = x
+-- Right identity
+x <> mempty = x
+-- Associativity
+x <> mempty = x (y <> z) = (x <> y) <> z
+mconcat = foldr (mempty <>)
+#+end_src
+** Morphism
+[[Function]]
+*** Identity morphism
+Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
+Composed with other morphism gives same morphism.
+*** Isomorphism
+AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
+$f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
+
+2 reasons for non-isomorphic function:
+- function at least ones collapses a values of domain into one value in codomain
+- image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
+*** Homomorphism
+ὁμός - /homos/ - same,
+μορφή - /morphe/ - form.
+
+Homomorphism is a structure-preserving map between two algebraic structures of the same type.
+*** Monomorphism
+Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
+Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
+It is injective.
+It always has a inverse morphism.
+*** Monomorphic
+Made of one form.
+*** Epimorphism
+Image of a function /f/ is fully used - epimorphism.
+Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+It is surjective.
+** newtype declaration
+Creates a new type from old type using a new constructor.
+#+begin_src haskell
+newtype FirstName = FirstName String
+#+end_src haskell
+
+Data will have exactly the same representation at runtime, as the type that is wrapped.
+
+#+begin_src haskell
+newtype Book = Book (Int, Int)
+#+end_src haskell
+#+begin_src text
+      (,)
+      / \
+Integer Integer
+#+end_src
 ** Node
  *
 / \
+** NonEmpty list data type
+Data.List.NonEmpty
+Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
+
+#+begin_src haskell
+data NonEmpty a = a :| [a]
+  deriving (Eq, Ord, Show)
+#+end_src haskell
+
+:| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 ** Normal form
 In context: [[Beta normal form]]
 ** Nothing
 Any Haskell expression can't return nothing.
+** Operation
+As also called [[Function][function]].
+Used in mathematics. Word often used for [[Infix][infix]] operations.
 ** Operator
 [[Infix]] [[Function][function]].
+** Orphan type instance
+[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on [[type]] level.
+
+Solution for addressing orphan instances:
+1. You defined the type but not the type class?
+Put the instance in the same module as the type so that the type cannot be imported without its instances.
+2. You defined the type class but not the type?
+Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
+3. Neither the type nor the type class are yours?
+Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
 ** Parameter
 Or Formal Parameter - named varible of a [[Function][function]].
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
+** Partial function
+Does not cover all cases.
+Unsafe and causes trouble.
 ** Pointfree
 Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
 ** Polymorphism
@@ -344,12 +586,18 @@ For exampe - if fold over a dynamic array:
   3) With Linear type function we guarantee that the array would be used only at one place at a time.
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
-** Impredicative
-Self-referencing definition.
-
----
-
-/Antonym - [[Predicative]]./
+** Pragma
+Pragma - instruction to the compiler placed in the source code that specifies how a compiler should process the code.
+Pragma in Haskell have form:
+#+begin_src haskell
+{-# PRAGMA options #-}
+#+end_src
+** Pragma option
+Values supplied to the [[Pragma]] directive.
+** Predicate
+[[Assertion]] includes variable.
+Notation: $P(x)$
+[[Application]] of [[Argument][argument]] results in true or false predicate.
 ** Predicative
 Non-self-referencing definition.
 
@@ -358,6 +606,16 @@ Non-self-referencing definition.
 /Antonym - [[Impredicative]]./
 ** Principal type
 The most generic [[Data type][data type]] that still typechecks.
+** Principle of compositionality
+The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
+** Proxy type
+Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
+#+begin_src haskell
+data Proxy a = ProxyValue
+
+let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
+let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+#+end_src
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Recursion
@@ -371,14 +629,56 @@ Function returns the same output given the same values to evaluate.
 
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
 Such [[Functions][functions]] are called [[Pure][pure]].
+** Relation
+Is not directed and not limited.
 ** REPL
 Interactive CLI. Read-eval-print loop.
 ** Scope
 Area where [[Bind][bind]] is accessible.
 ** Sectioning
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
+** Semantics
+Philosophical study of meaning.
+*** Operational semantics
+Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
+
+Good to solve in-point localized tasks.
+Process of abstraction.
+*** Denotational semantics
+Constructing mathematical objects (called denotations), that describe the meanings.
+
+Good to achive more broad approach/meaning.
+Also see [[Abstraction]].
+*** Axiomatic semantics
+Describing effect of operation on assertions about the overall state.
+
+Good for examining interconnections.
+Empirical process.
+** Semigroup
+$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
+
+Semigroup - a set (S) with a binary operation (P) and [[Associative law][associative law]].
+Semigroup is closed (forms a closed set).
+A [[Magma]] with associative law.
+
+Defined in Haskell as:
+
+#+begin_src haskell
+class Semigroup a where
+(<>) :: a -> a -> a
+#+end_src
+
+** Set
+Well-defined collection of distinct objects.
+** SET category
+Category in which objects are sets.
 ** Shadowing
 Global scope variable overriden by variable in local scope.
+** Shrinking
+Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
+** Singleton
+Singleton - unit set - set with exactly one element.
+Also 1-tuple.
 ** Smart constructor
 Place extra constraints on the construction of values.
 ** Spine
@@ -408,6 +708,11 @@ Declarative sentence that is true or false.
 Gonzales: "What code does."
 ** Static typing
 Static typechecking occurs at [[Level of code][compile time]]
+** Structural type
+Is a type in the real mathematical sence, in the Structural Type System.
+The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
+Like in Haskell.
+In most languages typing is not structural - but name-based.
 ** Superclass
 Broader parent class.
 ** Syntatic sugar
@@ -416,6 +721,8 @@ Artificial way to make language easier to read and write.
 Final result of the function
 ** Tail recursion
 Tail calls are recursive invocantions of itself.
+** Terminal object
+Terminal object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (X \to I)$.
 ** Term level
 See: [[Level of code]]
 ** Tuple
@@ -429,33 +736,41 @@ Type - [[Set][set]] of values.
 See [[Data type]]
 ** Type alias
 Create type constructor, not data constructor.
-** Set
-Well-defined collection of distinct objects.
+** Type class
+Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+** Type class inheritance
+[[Type class]] has a [[Superclass][superclass]]
 ** Type constant
 See: [[Constant]]
 ** Type constructor
 Name of [[Data type][data type]]
 
 Nullary type constructor is [[Type constant]]
+** type declaration
+Synonim for existing type. Uses the same data constructor.
+#+begin_src haskell
+type FirstName = String
+#+end_src haskell
+Used to distinct one entities from other entities, while they have the same type.
+Also main type functions can operate on a new type.
 ** Type inference
 Automatic [[Data type][data type]] detection of [[Expresion][expression]].
+** Type instance
+Unique [[Type class][type class]]->[[Data type][type]] pairing.
+Defines type class->type methods.
 ** Type level
 See: [[Level of code]]
 ** Type variable
 Refer to an unspecified type in Haskell type signature.
-** Type class
-Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
-** Type class inheritance
-[[Type class]] has a [[Superclass][superclass]]
-** Type instance
-Unique [[Type class][type class]]->[[Data type][type]] pairing.
-Defines type class->type methods.
 ** Uncurry
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined
 Value helps to do typechecking
 ** Unit
 Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
+** Unlifted type
+Type that directly exist on the hardware. The type abstraction can be completely removed.
+With unlifted types Haskel type system directly manages data in the hardware.
 ** Unsafe
 [[Function]] that does not cover some edge case.
 ** Variable
@@ -465,325 +780,10 @@ Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funсtions]].
 ** Variadic
 Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
-** Associative law
-$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$,
-Etymology:
-Joined by a common purpose.
-Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
-** Monoid
-[[Semigroup]] that has [[Identity]] value.
-
-#+begin_src haskell
-class Monoid m where
-mempty :: m
-mappend :: m -> m -> m
-mconcat :: [m] -> m
-mconcat = foldr mappend mempty
-#+end_src
-*** Abelian or commutative monoid
-Very helpful at concurrent or distributed processing.
-*** Monoid laws
-#+begin_src haskell
--- Left identity
-mempty <> x = x
--- Right identity
-x <> mempty = x
--- Associativity
-x <> mempty = x (y <> z) = (x <> y) <> z
-mconcat = foldr (mempty <>)
-#+end_src
-** Binary
-Two of something.
-** Operation
-As also called [[Function][function]].
-Used in mathematics. Word often used for [[Infix][infix]] operations.
-** Identity
-*** Two-sided identity of a [[Predicate][predicate]]
-$P()$ is [[Commutative][commutative]].
-$\exist e \in S, \forall a \in S : P(e,a)=P(a,e)=a$
-*** Left identity of a [[Predicate][predicate]]
-$\exist e \in S, \forall a \in S : P(e,a)=a$
-*** Right identity of a [[Predicate][predicate]]
-$\exist e \in S, \forall a \in S : P(a,e)=a$
-
-Identity only possible with morphism.
-There is also a distinct [[Zero]] value.
-** Predicate
-[[Assertion]] includes variable.
-Notation: $P(x)$
-[[Application]] of [[Argument][argument]] results in true or false predicate.
-** Assertion
-Statement.
-Утверждение.
-** Commutative law
-$\forall (a,b) \in S : P(a,b)=P(b,a)$
-** Conjunction
-AND
-** Disjunction
-OR
-** Orphan type instance
-[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on [[type]] level.
-
-Solution for addressing orphan instances:
-1. You defined the type but not the type class?
-Put the instance in the same module as the type so that the type cannot be imported without its instances.
-2. You defined the type class but not the type?
-Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
-3. Neither the type nor the type class are yours?
-Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
-** Semigroup
-$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
-
-Semigroup - a set (S) with a binary operation (P) and [[Associative law][associative law]].
-Semigroup is closed (forms a closed set).
-A [[Magma]] with associative law.
-
-Defined in Haskell as:
-
-#+begin_src haskell
-class Semigroup a where
-(<>) :: a -> a -> a
-#+end_src
-
-** Magma
-Set with a single binary operation.
-
-The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
-** Binary operation
-$\forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S$
-** data declaration
-[[Data type]] declaration is the most general and versatile form to create a new data type.
-Form:
-#+begin_src haskell
-data [context =>] type typeVars1..n
-  = con1  c1t1..i
-  | ...
-  | conm  cmt1..q
-  [deriving]
-#+end_src haskell
-** type declaration
-Synonim for existing type. Uses the same data constructor.
-#+begin_src haskell
-type FirstName = String
-#+end_src haskell
-Used to distinct one entities from other entities, while they have the same type.
-Also main type functions can operate on a new type.
-** newtype declaration
-Creates a new type from old type using a new constructor.
-#+begin_src haskell
-newtype FirstName = FirstName String
-#+end_src haskell
-
-Data will have exactly the same representation at runtime, as the type that is wrapped.
-
-#+begin_src haskell
-newtype Book = Book (Int, Int)
-#+end_src haskell
-#+begin_src text
-      (,)
-      / \
-Integer Integer
-#+end_src
-** Gen type
-Generator. List it returns gets infinitely cycled.
-** Arbitrary type class
-[[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
-Useful function is arbitrary - that autoassumes/generates values.
-** Arbitrary function
-Depends on type and generates values of the type.
-** NonEmpty list data type
-Data.List.NonEmpty
-Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
-
-#+begin_src haskell
-data NonEmpty a = a :| [a]
-  deriving (Eq, Ord, Show)
-#+end_src haskell
-
-:| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
-** Category
-Category (/C/) consists of:
-  1. Objects - ob(/C/). Sets.
-  2. Morphisms - C(a,b), hom(a,b). Mappings, total functions.
-  3. Binary operation "Composition of morphisms": $\forall a, b, c: C(a, b) \circ C(b, c) \to C(a, c)$
-  4. Axiom of [[Associative law][Associativity]]: $f_{a \to b}, g_{b \to c}, h_{c \to d} : h \circ (g \circ f) = (h \circ g) \circ f$.
-  5. Axiom of two sided [[Identity]] of morphisms: $\forall x  \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b}  :  id_x \circ f_{a \to x} = f_{a \to x}, g_{x \to b} \circ id_x = g_{x \to b}$ (both left and right identity)
-
-From these axioms, one can prove that there is exactly one identity morphism for every object.
-** Semantics
-Philosophical study of meaning.
-*** Operational semantics
-Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
-
-Good to solve in-point localized tasks.
-Process of abstraction.
-*** Denotational semantics
-Constructing mathematical objects (called denotations), that describe the meanings.
-
-Good to achive more broad approach/meaning.
-Also see [[Abstraction]].
-*** Axiomatic semantics
-Describing effect of operation on assertions about the overall state.
-
-Good for examining interconnections.
-Empirical process.
-** Principle of compositionality
-The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
-** SET category
-Category in which objects are sets.
-** Relation
-Is not directed and not limited.
-** Cartesian product
-${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
-Any function is a subset of Cartesian product.
-** Fundamental theorem of algebra
-Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
-Also derives that the field of complex numbers is algebraically closed.
-** Morphism
-[[Function]]
-*** Identity morphism
-Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
-Composed with other morphism gives same morphism.
-*** Isomorphism
-AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
-$f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
-
-2 reasons for non-isomorphic function:
-- function at least ones collapses a values of domain into one value in codomain
-- image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
-*** Homomorphism
-ὁμός - /homos/ - same,
-μορφή - /morphe/ - form.
-
-Homomorphism is a structure-preserving map between two algebraic structures of the same type.
-*** Monomorphism
-Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
-Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
-It is injective.
-It always has a inverse morphism.
-*** Monomorphic
-Made of one form.
-*** Epimorphism
-Image of a function /f/ is fully used - epimorphism.
-Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-It is surjective.
-** IO ()
-Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
-** CoArbitrary
-Pseudogenerates a function basing on resulting type.
-#+begin_src haskell
-coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
-#+end_src
-** Idempotence
-After the initial application operation can be applied multiple times without changing the result.
-Example: Start and Stop buttons on machines. 
-** Closed set
-Closed set - a set whose complement is an open set.
-Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
-** Closed-form expression
-Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
-** Closure
-Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
-** Algebra
-1) Abstract algebra - the study of number systems and operations within them.
-2) Algebra - vector space over a field with a multiplication.
-** Functor
-Functor is a map between categories.
-
-#+begin_src haskell
-class Functor f where
-  fmap :: (a -> b) -> f a -> f b
-#+end_src
-Functor is a type class for function application "over/through" ignored/untouched structure f.
-Functor abides [[Functor laws]].
-** Functor laws
-Type instance of functor should abide this laws:
-1. Identity law
-#+begin_src haskell
-fmap id == id
-#+end_src
-2. Composition law
-#+begin_src haskell
-fmap (f.g) == fmap f . fmap g
-#+end_src
-In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
-** Lift
-Lift is to do a function application through the data structure.
-** Idiom
-Idiom - something having a meaning that cannot be derived from the conjoined meanings.
-Meaning can be special for language speakers or human with particular knowledge.
-** Idiomatic
-See [[Idiom]].
-** Function application
-Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
-** Function range
-The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
-So, see [[Function image]].
-** Combinator
-A function or definition with no free variables.
-** Domain
-Source set of a function in $X \to Y$.
-** Codomain
-Codomain - target set of a function in $X \to Y$.
-** Hindley–Milner type system
-Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
-Where types marked as polymorphic variables, and overall type inference is possible all over the code.
-Also known as Damas–Milner or Damas–Hindley–Milner system.
-** Singleton
-Singleton - unit set - set with exactly one element.
-Also 1-tuple.
-** Initial object
-Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
-** Terminal object
-Terminal object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (X \to I)$.
-** Pragma
-Pragma - instruction to the compiler placed in the source code that specifies how a compiler should process the code.
-Pragma in Haskell have form:
-#+begin_src haskell
-{-# PRAGMA options #-}
-#+end_src
-** Pragma option
-Values supplied to the [[Pragma]] directive.
-** Language option
-Language option - control what variations of the language are permitted.
-It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
-** Shrinking
-Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 ** Zero
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
-** Proxy type
-Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
-#+begin_src haskell
-data Proxy a = ProxyValue
-
-let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
-let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
-#+end_src
-** Structural type
-Is a type in the real mathematical sence, in the Structural Type System.
-The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
-Like in Haskell.
-In most languages typing is not structural - but name-based.
-** Linear type
-Type system and algebra that also track the multiplicity of data.
-There are 3 general linear type groups:
- * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` ins ST-Trick.
- * 1 - data that is not duplicated
- * 1< - all other data, that can be duplicated multiple times.
-
-Linear types are great to control/minimize resource usage.
-** Unlifted type
-Type that directly exist on the hardware. The type abstraction can be completely removed.
-With unlifted types Haskel type system directly manages data in the hardware.
-** Lambda cube
-λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
-
-Each dimension of the cube corresponds to a new way of making objects depend on other objects:
-  * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
-  * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
-  * ([[Type class]]) - types depending on types, corresponding to type operators.
 * Give definitions
 ** Kleisli category
 ** Free object
