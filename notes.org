@@ -891,6 +891,10 @@ type M = Maybe
 pure :: a -> M a
 (<*>) :: M (a -> b) -> M a -> M b
 #+end_src
+**** Either applicative
+`pure` is `Right`.
+Defaults to `Left`.
+And if there is two Left's - to Left of the first argument.
 ** Idiom
 See [[Applicative functor]].
 ** Algebra
