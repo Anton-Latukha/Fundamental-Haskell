@@ -881,6 +881,16 @@ pure 1 :: Constant String Int
 -- Constant {getConstant = ""}
 #+end_src
 
+**** Maybe applicative
+"There also can be no function at all."
+
+If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
+#+begin_src haskell
+-- f ~ Maybe
+type M = Maybe
+pure :: a -> M a
+(<*>) :: M (a -> b) -> M a -> M b
+#+end_src
 ** Idiom
 See [[Applicative functor]].
 ** Algebra
