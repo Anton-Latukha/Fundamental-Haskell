@@ -484,13 +484,13 @@ mconcat = foldr mappend mempty
 Very helpful at concurrent or distributed processing.
 *** Monoid laws
 #+begin_src haskell
--- left identity
-mappend mempty x = x
--- right identity
-mappend x mempty = x
--- associativity
-mappend x (mappend y z) = mappend (mappend x y) z
-mconcat = foldr mappend mempty
+-- Left identity
+mempty <> x = x
+-- Right identity
+x <> mempty = x
+-- Associativity
+x <> mempty = x (y <> z) = (x <> y) <> z
+mconcat = foldr (mempty <>)
 #+end_src
 ** Binary
 Two of something.
