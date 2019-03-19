@@ -928,6 +928,8 @@ Differs from the simply typed lambda calculus by the introduction of universal [
 Specifies the quantity of specimens.
 
 Two most common quantifiers $\forall$ and $\exists$.
+** Open formula
+[[Function]] with [[Arity][arity]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
