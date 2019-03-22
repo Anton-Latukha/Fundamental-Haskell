@@ -1116,6 +1116,29 @@ https://codesearch.aelve.com/
 Shift operator defined by Lagrange through Differential operator.
 $\displaystyle T^{t}=e^{t{\frac {d}{dx}}}$
 
+** IO
+Haskell standard uses monad for constructing and transforming IO actions.
+IO actions can be evaluated multiple times.
+
+IO data type has unpure imperative actions inside. Haskell is pure [[Lambda calculus]], and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
+
+IO collects effects sequences one after another:
+#+begin_src haskell
+:{
+twoBinds :: IO ()
+twoBinds =
+  putStrLn "First:" >>
+  getLine >>=
+  \a ->
+  putStrLn "Second:" >>
+  getLine >>=
+  \b ->
+  putStrLn ("\nFirst: "
+    ++ a ++ ".\nSecond "
+    ++ b ++ ".")
+main = twoBinds
+:}
+#+end_src
 
 
 
