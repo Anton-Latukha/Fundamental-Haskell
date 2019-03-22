@@ -1171,7 +1171,8 @@ return == pure
 #+begin_src haskell
 join :: Monad m => m (m a) -> m a
 #+end_src
-In a sence it is a genneralization of `concat`.
-Special is the ability to flatten two layers of structure into one.
+Flattens two layers of structure into one.
+Join is a generalization of `concat`.
+
 
 
