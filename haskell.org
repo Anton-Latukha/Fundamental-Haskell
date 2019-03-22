@@ -1167,5 +1167,11 @@ return == pure
 >>= :: Monad f => f a -> (a -> f b) -> f b
 #+end_src
 
+**** Join, join.fmap == (=<<)
+#+begin_src haskell
+join :: Monad m => m (m a) -> m a
+#+end_src
+In a sence it is a genneralization of `concat`.
+Special is the ability to flatten two layers of structure into one.
 
 
