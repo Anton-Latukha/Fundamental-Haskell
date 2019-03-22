@@ -1139,6 +1139,15 @@ twoBinds =
 main = twoBinds
 :}
 #+end_src
+** Monad
+Monads are applicative functors.
+*** Functor -> Applicative -> Monad progression
+#+begin_src haskell
+<$> ::     Functor f =>    (a -> b)   -> f a -> f b
+<*> :: Applicative f =>   f (a -> b)  -> f a  -> f b
+flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
+#+end_src
+
 
 
 
