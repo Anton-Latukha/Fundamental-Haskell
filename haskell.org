@@ -1148,6 +1148,14 @@ Monads are applicative functors.
 flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
 #+end_src
 
+*** Monad type class
+#+begin_src haskell
+class Applicative m => Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b
+  (>>) :: m a -> m b -> m b
+  return :: a -> m a
+#+end_src
+
 
 
 
