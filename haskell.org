@@ -1162,5 +1162,10 @@ class Applicative m => Monad m where
 return == pure
 #+end_src
 
+**** Bind (>>=)
+#+begin_src haskell
+>>= :: Monad f => f a -> (a -> f b) -> f b
+#+end_src
+
 
 
