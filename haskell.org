@@ -933,6 +933,8 @@ See [[Application memory]].
 See [[Application memory]].
 ** Monoidal functor
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
+** Tensor
+Object between planes that can translate objects from one plane into another.
 * Give definitions
 ** Kleisli category
 ** Free object
