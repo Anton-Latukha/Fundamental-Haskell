@@ -935,6 +935,10 @@ See [[Application memory]].
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 ** Tensor
 Object between planes that can translate objects from one plane into another.
+** Ambigram
+Object which from different points of view has different projections.
+
+While this word has two contradictory meaning, one was chosen.
 * Give definitions
 ** Kleisli category
 ** Free object
@@ -957,7 +961,6 @@ Eq a => a -> Set a -> Set a
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
 https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
-** Monoidal functor
 ** Lax monoidal functor
 ** Tensorial strength
 ** Strong monad
