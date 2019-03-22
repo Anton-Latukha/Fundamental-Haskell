@@ -931,6 +931,8 @@ When stacked Stack frames exceed the Stack size - stack overflow happens.
 See [[Application memory]].
 *** Stack
 See [[Application memory]].
+** Monoidal functor
+Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 * Give definitions
 ** Kleisli category
 ** Free object
