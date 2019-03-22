@@ -917,6 +917,20 @@ Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
+** Application memory
+| Storage of                        | Block name    |
+|-----------------------------------+---------------|
+| All not currently processing data | Heap          |
+| Function call, local variables    | Stack         |
+| Static and global variables       | Static/Global |
+| Instructions                      | Binary code   |
+
+When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
+When stacked Stack frames exceed the Stack size - stack overflow happens.
+*** Heap
+See [[Application memory]].
+*** Stack
+See [[Application memory]].
 * Give definitions
 ** Kleisli category
 ** Free object
