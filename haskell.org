@@ -1141,6 +1141,8 @@ main = twoBinds
 #+end_src
 ** Monad
 Monads are applicative functors.
+
+Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
 *** Functor -> Applicative -> Monad progression
 #+begin_src haskell
 <$> ::     Functor f =>    (a -> b)   -> f a -> f b
@@ -1161,12 +1163,12 @@ class Applicative m => Monad m where
 #+begin_src haskell
 return == pure
 #+end_src
-
+[[Nonstrict]].
 **** Bind (>>=)
 #+begin_src haskell
 >>= :: Monad f => f a -> (a -> f b) -> f b
 #+end_src
-
+[[Nonstrict]].
 **** Join, join.fmap == (=<<)
 #+begin_src haskell
 join :: Monad m => m (m a) -> m a
@@ -1174,5 +1176,10 @@ join :: Monad m => m (m a) -> m a
 Flattens two layers of structure into one.
 Join is a generalization of `concat`.
 
-
+***** join.fmap == (=<<)
+#+begin_src haskell
+-- b = f b
+join.fmap :: Monad f => (a -> f b) -> f a -> f b
+flip >>=  :: Monad f => (a -> f b) -> f a -> f b
+#+end_src
 
