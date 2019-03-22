@@ -1,7 +1,7 @@
 * Definitions
 ** Abstraction
 Generalization of process.
-It is great did to name an abstraction.
+It is great did to name an abstraction ([[Denotational semantics]]).
 ** Actual type
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra
@@ -176,10 +176,6 @@ On product - multiply cardinalities.
 ** Cartesian product
 ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
 Any function is a subset of Cartesian product.
-** Catamorphism
-(from the Greek: κατά "downwards", μορφή "form") denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
-
-In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 ** Category
 Category (/C/) consists of:
   1. Objects - ob(/C/). Sets.
@@ -227,6 +223,9 @@ Link together sequences.
 ** Concrete type
 ** Conjunction
 AND
+#+begin_src haskell
+ * *
+#+end_src
 ** Cons
 Short for [[Construct]].
 ** Cons cell
@@ -523,6 +522,10 @@ $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = i
 μορφή - /morphe/ - form.
 
 Homomorphism is a structure-preserving map between two algebraic structures of the same type.
+*** Catamorphism
+(from the Greek: κατά "downwards", μορφή "form") denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
+
+In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 *** Monomorphism
 Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
 Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
@@ -551,8 +554,10 @@ newtype Book = Book (Int, Int)
 Integer Integer
 #+end_src
 ** Node
+#+begin_src text
  *
 / \
+#+end_src
 ** NonEmpty list data type
 Data.List.NonEmpty
 Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
