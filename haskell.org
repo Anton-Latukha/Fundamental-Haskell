@@ -132,7 +132,7 @@ f list@(x, xs) = ...
 Statement.
 Утверждение.
 ** Associative law
-$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$,
+$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Joined by a common purpose.
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
@@ -180,10 +180,10 @@ Any function is a subset of Cartesian product.
 ** Category
 Category (/C/) consists of:
   1. Objects - ob(/C/). Sets.
-  2. Morphisms - C(a,b), hom(a,b). Mappings, total functions.
-  3. Binary operation "Composition of morphisms": $\forall a, b, c: C(a, b) \circ C(b, c) \to C(a, c)$
-  4. Axiom of [[Associative law][Associativity]]: $f_{a \to b}, g_{b \to c}, h_{c \to d} : h \circ (g \circ f) = (h \circ g) \circ f$.
-  5. Axiom of two sided [[Identity]] of morphisms: $\forall x  \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b}  :  id_x \circ f_{a \to x} = f_{a \to x}, g_{x \to b} \circ id_x = g_{x \to b}$ (both left and right identity)
+  2. [[Morphism]]s - C(a,b), [[Hom-set][hom(a,b)]]. Mappings, total functions.
+  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$
+  4. Axiom of [[Associative law][Associativity]]: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
+  5. Axiom of two sided [[Identity]] of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 ** Closed-form expression
@@ -216,7 +216,7 @@ Informal broad meaning: referring to the style of organizing libraries centered 
 ** Combinator
 A function or definition with no free variables.
 ** Commutative law
-$\forall (a,b) \in S : P(a,b)=P(b,a)$
+$$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 ** Compose
 See: [[Function composition]]
 ** Concatenate
@@ -294,7 +294,7 @@ OR
 ** Dispatch
 Send, transmission, reference.
 ** Domain
-Source set of a function in $X \to Y$.
+Source set of a function in $$ X \to Y $$.
 ** Effect
 Observable action.
 ** Endofunctor
@@ -316,12 +316,12 @@ They live empty and fuction as so is not fully applied.
 ** Function
 Idealization of how a varying quantity depends on another quantity.
 
-$x \in X, y \in Y : f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y)$
+$$ x \in X, y \in Y : \; f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y) $$
 
 Directionality and property of invariability emerge from one another.
 #+begin_src haskell
-   *      ->   *
 -- domain func codomain
+   *      ->   *
 #+end_src
 
 Function is a mathematical [[Operation][operation]].
@@ -395,12 +395,12 @@ After the initial application operation can be applied multiple times without ch
 Example: Start and Stop buttons on machines.
 ** Identity
 *** Two-sided identity of a [[Predicate][predicate]]
-$P()$ is [[Commutative][commutative]].
-$\exist e \in S, \forall a \in S : P(e,a)=P(a,e)=a$
+$$ P() $$ is [[Commutative][commutative]].
+$$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 *** Left identity of a [[Predicate][predicate]]
-$\exist e \in S, \forall a \in S : P(e,a)=a$
+$$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
 *** Right identity of a [[Predicate][predicate]]
-$\exist e \in S, \forall a \in S : P(a,e)=a$
+$$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
 
 Identity only possible with morphism.
 There is also a distinct [[Zero]] value.
@@ -428,7 +428,7 @@ Operaton in-between variables.
 ** Inhabit
 What [[Values][values]] inhabit [[Data type][data type]]
 ** Initial object
-Initial object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (I \to X)$.
+Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
@@ -456,7 +456,7 @@ It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/h
  _
 ** Left associative
 Same level [[Exression][expression]] parts in reality follow grouping from left to right.
-(\x.x)(\y.y)z = ((\x.x)(\y.y))z
+$$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 ** Level of code
 There are mainly three levels of Haskell code.
 - [[Type level]]: part that works with [[Data type][data types]]
@@ -479,7 +479,7 @@ Linear types are great to control/minimize resource usage.
 ** Magma
 Set with a single binary operation.
 
-The category of magmas, denoted $Mag$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** Module
 Importable organization unit.
 ** Modulus
@@ -509,7 +509,7 @@ mconcat = foldr (mempty <>)
 ** Morphism
 [[Function]]
 *** Identity morphism
-Identity morphism - or simply identity: $x \in C : id_{x}=1_{x} : x \to x$
+Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
 *** Isomorphism
 AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
@@ -637,7 +637,7 @@ The most powerful form of [[Parametric polymorphism]].
 First see [[Impredicative]].
 
 Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
-$T \in T, T = \forall X. X \to X: T \in X$
+$$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
 *** Ad hoc polymorphism
 Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data type][data type]].
@@ -650,11 +650,11 @@ Allows to declare usage of a Type and all of its Subtypes.
 T - Type
 S - Subtype of Type
 <: - subtype of
-$S <: T = S \le T$
+$$ S <: T = S \le T $$
 
 Subtyping is:
 If it can be done to T, and there is subtype S - then it also can be done to S.
-$S <:T, f^{T \to X} \Rightarrow f^{S \to X}$
+$$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
 *** Row polymorphism
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
 Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
@@ -723,7 +723,7 @@ Pragma in Haskell have form:
 Values supplied to the [[Pragma]] directive.
 ** Predicate
 [[Assertion]] includes variable.
-Notation: $P(x)$
+Notation: $$ P(x) $$
 [[Application]] of [[Argument][argument]] results in true or false predicate.
 ** Predicative
 Non-self-referencing definition.
@@ -748,7 +748,7 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 ** Quantifier
 Specifies the quantity of specimens.
 
-Two most common quantifiers $\forall$ and $\exists$.
+Two most common quantifiers $$ \forall $$ and $$ \exists $$.
 ** Recursion
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex
@@ -786,14 +786,12 @@ Describing effect of operation on assertions about the overall state.
 Good for examining interconnections.
 Empirical process.
 ** Semigroup
-$\forall (a,b,c) \in S : P(a,P(b,c))=P(P(a,b),c)$
+$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
 
-Semigroup - a set (S) with a binary operation (P) and [[Associative law][associative law]].
+Semigroup - [[Magma]] with [[Associative law][associative law]].
 Semigroup is closed (forms a closed set).
-A [[Magma]] with associative law.
 
 Defined in Haskell as:
-
 #+begin_src haskell
 class Semigroup a where
 (<>) :: a -> a -> a
@@ -856,7 +854,7 @@ Final result of the function
 ** Tail recursion
 Tail calls are recursive invocantions of itself.
 ** Terminal object
-Terminal object - is an object I in category C: $\exists I \in C: \forall X \in C, \exists ! (X \to I)$.
+Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
 ** Term level
 See: [[Level of code]]
 ** Tuple
@@ -1044,8 +1042,10 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Model the domain
 **** Model the types
 **** Think how to write computations
+*** Create
 * Useful functions to remember
 ** Prelude
+#+begin_src haskell
 enumFromTo
 enumFromThenTo
 reverse
@@ -1060,30 +1060,39 @@ repeat - indefinit lis from value
 elemIndex e l - return first index, returns Maybe
 fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
+#+end_src
 *** Ord
 compare
 *** Calc
 div - always makes rounding down, to infinity
 divMod - returns a tuple containing the result of integral division and modulo
 *** List operations
+#+begin_src haskell
 concat - [ [a] ] -> [a]
 elem x xs - is element a part of a list
 zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list runs out.
 zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
+#+end_src
 ** Data.List
+#+begin_src haskell
 intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
 nub - remove duplicates from the list
+#+end_src
 ** Data.Char
+#+begin_src haskell
 ord (Char -> Int)
 chr (Int -> Char)
 isUpper (Char -> Bool)
 toUpper (Char -> Char)
+#+end_src
 ** QuickCheck
+#+begin_src haskell
 quickCheck :: Testable prop => prop -> IO ()
 
 quickCheck . verbose - run verbose mode
+#+end_src
 * Investigate
-** Control.monad
+** Control.Monad
 * Debugger
 
 Provides:
