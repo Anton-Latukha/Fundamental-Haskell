@@ -389,6 +389,8 @@ $$ \newcommand*{\twoheadrightarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoh
 See [[Bijection]].
 *** Bijective function
 See [[Bijection]].
+** Permutation
+[[Bijective]] [[function]] from [[Domain][domain]] to itself.
 ** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
