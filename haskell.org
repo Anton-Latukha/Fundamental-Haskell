@@ -657,17 +657,6 @@ Epimorphism is a [[Monoid]], because of [[Catogoty]] [[Composition]].
 Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
-*** Monomorphism
-Initial set of /f/ is fully one-to-one (uniquely) mapped into the image of /f/.
-Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
-It is injective.
-It always has a inverse morphism.
-*** Monomorphic
-Made of one form.
-*** Epimorphism
-Image of a function /f/ is fully used - epimorphism.
-Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-It is surjective.
 ** newtype declaration
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
@@ -1068,10 +1057,14 @@ Object between planes that can translate objects from one plane into another.
 Object which from different points of view has different projections.
 
 While this word has two contradictory meaning, one was chosen.
+** Hom-set
+Collection of all [[Morphism][morphisms]] from X to Y.
+
+Denotation:
+$$ hom(X,Y) $$
 * Give definitions
 ** Kleisli category
 ** Free object
-** Hom-set
 ** Thin category
 ** Partial order
 ** Total order
