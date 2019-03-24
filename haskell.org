@@ -648,8 +648,13 @@ See [[Isomorphism]].
 
 Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
 Epimorphism is a [[Monoid]], because of [[Catogoty]] [[Composition]].
+**** Automorphism
+[[Endomorphism]] that is [[Isomorphism]].
 *** Catamorphism
-(from the Greek: κατά "downwards", μορφή "form") denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
+κατά /kata/ downward
+μορφή /morphe/ form
+
+Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 *** Monomorphism
