@@ -217,6 +217,8 @@ Informal broad meaning: referring to the style of organizing libraries centered 
 A function or definition with no free variables.
 ** Commutative law
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
+** Composition
+Axiom of [[Category]].
 ** Compose
 See: [[Function composition]]
 ** Concatenate
@@ -314,7 +316,7 @@ Higher-order function ruturns accumulated result from recursive data structure a
 Variables in the fuction that is not bound by the head.
 They live empty and fuction as so is not fully applied.
 ** Function
-Idealization of how a varying quantity depends on another quantity.
+A varying quantity depends on another quantity.
 
 $$ x \in X, y \in Y : \; f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y) $$
 
