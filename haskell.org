@@ -614,6 +614,20 @@ $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from g
 Thus it is left canselable.
 **** Monomorphic
 See [[Monomorphism]].
+*** Epimorphism
+επι /epi/ on, over
+μορφή /morphe/ form
+
+Image fully uses codomain - epimorphism.
+It is surjective.
+
+$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from [[Homomorphism]] context
+$$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general [[Morphism]] context
+Thus it is right canselable.
+
+Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+**** Epimorphic
+See [[Epimorphism]].
 *** Isomorphism
 AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
 $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
