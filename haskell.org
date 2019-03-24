@@ -569,7 +569,13 @@ x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
 #+end_src
 ** Morphism
-[[Function]]
+μορφή /morphe/ form
+Map between two objects in an abstract [[Category][category]].
+
+Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of [[Homomorphism]] ($$ f(x*y) \equiv f(x) * f(y) $$).
+Under morphism almost always mean homomorphism-like properties.
+
+If some morphism corresponds to function requirements - than it is a [[Function]].
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
