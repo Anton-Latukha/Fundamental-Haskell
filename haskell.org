@@ -600,6 +600,20 @@ Homomorphism preserves operations, as such:
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
+*** Monomorphism
+μονο /mono/ only
+μορφή /morphe/ form
+
+Initial set of /f/ is fully uniquely mapped onto the image of /f/.
+Left is mono (uniquely) mapped to the right, so left [[Domain][domain]] can be equal or less to the right [[Codomain][codomain]].
+It is [[Injection][injective]].
+It always has a inverse morphism.
+
+$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from [[Homomorphism]] context
+$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
+Thus it is left canselable.
+**** Monomorphic
+See [[Monomorphism]].
 *** Isomorphism
 AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
 $f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
