@@ -331,6 +331,26 @@ Function is a mathematical [[Operation][operation]].
 Function = Total function = Pure function. Function theoretically posible to momoized.
 [[Partial function]].
 Inverse function - often partially exists (partial function).
+** Injection
+[[Function]] one-to-one injects from domain to codomain.
+Keeps distinct pairing of elements of domain and image.
+Every element in image coresponds to one element in domain.
+
+$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
+
+Denotion:
+#+begin_src text
+↣
+>->
+f : X ↣ Y
+#+end_src
+$f : X \rightarrowtail Y$
+
+Corresponds to [[Monomorphism]].
+*** Injective
+See [[Injection]].
+*** Injective function
+See [[Injection]].
 ** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
