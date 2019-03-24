@@ -1,3 +1,4 @@
+#+STARTUP: latexpreview
 * Definitions
 ** Abstraction
 Generalization of process.
