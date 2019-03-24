@@ -629,10 +629,15 @@ Left is epi to the right. So left is bigger or equal then the right. And right i
 **** Epimorphic
 See [[Epimorphism]].
 *** Isomorphism
-AKA bijective [[Morphism][morphism]]. Morphism that has inverse morphism.
-$f^{-1, b \to a} \circ f^{a \to b} = id_a, f^{a \to b} \circ f^{-1, b \to a} = id_b$
+ἴσος /isos/ equal
+μορφή /morphe/ form
 
-2 reasons for non-isomorphic function:
+Morphism that has inverse morphism.
+[[Bijection][Bijective]] [[Homomorphis][homomorphism]] is also isomorphism.
+
+$$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv id^b $$
+
+2 reasons for non-isomorphism:
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 *** Homomorphism
