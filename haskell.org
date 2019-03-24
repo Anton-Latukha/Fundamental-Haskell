@@ -576,6 +576,27 @@ Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of [[Homom
 Under morphism almost always mean homomorphism-like properties.
 
 If some morphism corresponds to function requirements - than it is a [[Function]].
+*** Homomorphism
+ὁμός /homos/ same (chosem by initial Anglish mistranslation "similar")
+μορφή /morphe/ form
+similar form
+
+Homomorphism is a map between two algebraic structures of the same type, that preserves the operation of the structures.
+This means a map $$ f:A\to B $$ between two sets $$ A, B $$ equipped with the same structure such that, if $$ ∗ $$ is an operation of the structure (supposed here, for simplification, to be a binary operation), then $$ f(x*y)=f(x)*f(y) $$.
+
+The concept of homomorphism has been generalized under the name of [[Morphism][morphism]] to many other structures that either do not have an underlying set, or are not algebraic.
+
+Homomorphisms send identities to identities and inverses to inverses.
+Homomorphism preserves operations, as such:
+'*' homomorphism - map between '*' and preserves '*' operations
+  (which can be):
+  * semigroup
+  * monoid
+  * groups
+  * ring
+  * linear map
+  * module
+  * algebra
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
