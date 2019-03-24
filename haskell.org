@@ -351,6 +351,24 @@ Corresponds to [[Monomorphism]].
 See [[Injection]].
 *** Injective function
 See [[Injection]].
+** Surjection
+[[Function]] uses codomain fully.
+
+$$ \forall y \in Y, \exists x \in X $$
+
+Denotation:
+#+begin_src text
+↠
+->>
+f : X ↠ Y
+#+end_src
+$$ f : X \twoheadrightarrow Y $$
+
+Corresponds to [[Epimorphism]].
+*** Surjective
+See [[Surjection]].
+*** Surjective function
+See [[Surjection]].
 ** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
