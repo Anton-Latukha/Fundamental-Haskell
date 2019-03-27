@@ -184,7 +184,7 @@ ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b
 Any function is a subset of Cartesian product.
 ** Category
 Category (/C/) consists of the [[Basis]]:
-  1. Objects - ob(/C/). A node. Object of some type. Often sets.
+  1. Objects - ob(/C/). A node. Object of some type. Often sets, than it is [[SET category]].
   2. [[Morphism]]s - C(a,b), [[Hom-set][hom(a,b)]]. Mappings, total functions.
   3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$
   4. Axiom of [[Associative law][Associativity]]: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
@@ -934,7 +934,7 @@ class Semigroup a where
 ** Set
 Well-defined collection of distinct objects.
 ** SET category
-Category in which objects are sets.
+[[Category]] in which [[Object][objects]] are sets.
 ** Shadowing
 Global scope variable overriden by variable in local scope.
 ** Shrinking
@@ -1094,7 +1094,7 @@ $$ Hom(A,-) : C \to Set $$
 Hom-bifunctor:
 $$ Hom(-,-):C^{op} \times C \to Set $$
 ** Covariant
-The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
+The property of [[Basis]], in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
 
 Denotation:
 Components for covariant basis denoted in the upper indices:
@@ -1160,6 +1160,11 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** Lax monoidal functor
 ** Tensorial strength
 ** Strong monad
+** Testing
+*** Write tasts algorithm
+1. Pick the right language/stack to implement features.
+2. How expensive breakage can be.
+3. Pick the right tools to test this.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
