@@ -1137,29 +1137,6 @@ Last one is partial.
 $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
-* Give definitions
-** Kleisli category
-** Free object
-** Thin category
-** Partial order
-** Total order
-** Preorder
-** Identity type
-** Constant type
-** Arbitrary
-** Gen
-** Context
-aka
-#+begin_src haskell
-Eq a => a -> Set a -> Set a
-#+end_src
-** ST-Trick monad
-ST is like a lexical scope, where all the variables/state disappear when the function returns
-https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
-https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
-** Lax monoidal functor
-** Tensorial strength
-** Strong monad
 ** Testing
 *** Write tasts algorithm
 1. Pick the right language/stack to implement features.
@@ -1215,6 +1192,29 @@ Mostly Monads used for sequencing actions (that looks like imperative programmin
 flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
 #+end_src
 This is [[Natural transformation]]s.
+* Give definitions
+** Kleisli category
+** Free object
+** Thin category
+** Partial order
+** Total order
+** Preorder
+** Identity type
+** Constant type
+** Arbitrary
+** Gen
+** Context
+aka
+#+begin_src haskell
+Eq a => a -> Set a -> Set a
+#+end_src
+** ST-Trick monad
+ST is like a lexical scope, where all the variables/state disappear when the function returns
+https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
+https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+** Lax monoidal functor
+** Tensorial strength
+** Strong monad
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
