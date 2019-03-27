@@ -1084,6 +1084,8 @@ $$ H_A &=& \mathrm{Hom}(-, A) $$
 $$ h_A &=& {\cal C}(-, A) $$
 $$ Hom(A,-) : C \to Set $$
 
+Hom-bifunctor:
+$$ Hom(-,-):C^{op} \times C \to Set $$
 * Give definitions
 ** Kleisli category
 ** Free object
