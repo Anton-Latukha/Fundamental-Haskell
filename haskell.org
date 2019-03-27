@@ -994,7 +994,7 @@ Tuples by [[Arity][arity]]:
 Type - [[Set][set]] of values.
 See [[Data type]]
 ** Type alias
-Create type constructor, not data constructor.
+Create new type constructor, and use all data structure of base type.
 ** Type class
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Type class inheritance
