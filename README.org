@@ -1185,6 +1185,8 @@ A [[Monoid]] in [[Endofunctor category]].
 Monads are applicative functors (lax monoidal.
 
 Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
+
+Monadic internals are Haskell data types, so they can be consumed any number of times.
 *** Functor -> Applicative -> Monad progression
 #+begin_src haskell
 <$> ::     Functor f =>    (a -> b)   -> f a -> f b
@@ -1206,6 +1208,37 @@ class Applicative m => Monad m where
 return == pure
 #+end_src
 [[Nonstrict]].
+**** Bind
+#+begin_src haskell
+>>= :: Monad f => f a -> (a -> f b) -> f b
+#+end_src
+[[Nonstrict]].
+
+The most ubiqutous way to >>= something is to use [[Lambda function]]:
+#+begin_src haskell
+getLine >>= \name -> putStrLn "age pls:"
+#+end_src
+
+Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
+And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
+#+begin_src haskell
+printOneOf ∷ Bool → IO ()
+printOneOf False = putStr "1"
+printOneOf  True = putStr "2"
+
+quant ∷ (Bool → IO b) → IO b
+quant = (>>=) (randomRIO (False, True))
+
+recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
+recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
+
+main ∷ IO ()
+main = recursePrintOneOf (quant) $ printOneOf
+#+end_src
+***** (>>=)
+See [[Bind]]
+
+
 * Give definitions
 ** Kleisli category
 ** Free object
