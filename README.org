@@ -1252,6 +1252,13 @@ join.fmap :: Monad f => (a -> f b) -> f a -> f b
 flip >>=  :: Monad f => (a -> f b) -> f a -> f b
 #+end_src
 
+**** Sequencing operator (>>) == (*>):
+Discards any resulting value of the action and sequence next action.
+#+begin_src haskell
+(>>) :: m a -> m b -> m b
+(*>) :: f a -> f b -> f b
+#+end_src
+Applicative has a similar operator.
 
 * Give definitions
 ** Kleisli category
