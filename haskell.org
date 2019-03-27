@@ -1060,7 +1060,11 @@ See [[Application memory]].
 ** Monoidal functor
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 ** Tensor
-Object between planes that can translate objects from one plane into another.
+Object existing out of planes, thus it can translate objects from one plane into another.
+They can be tried to be described with knowledge existing inside planes, but representation would always be partial, aka [[Ambigram]].
+Tensor of rank 1 is a vector.
+
+Tensors can be seen as [[Functor]]s.
 ** Ambigram
 Object which from different points of view has different projections.
 
