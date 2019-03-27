@@ -138,6 +138,11 @@ Joined by a common purpose.
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
+** Basis
+$$ \beta\alpha\sigma\iota\varsigma $$ - stepping
+
+The initial point, unreducible axioms and terms that spawn a theory.
+AKA see [[Category theory]], or Euclidian geometry basis.
 ** Beta normal form
 No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction
