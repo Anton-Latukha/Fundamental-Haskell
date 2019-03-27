@@ -1290,6 +1290,15 @@ With Type Applicative every condition fails/succseeds independently.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 ** Endofunctor category
 From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
+** Abelian category
+Is which:
+  * has a zero object,
+  * has all binary biproducts,
+  * has all kernels and cokernels,
+  * (it has all pullbacks and pushouts)
+  * all monomorphisms and epimorphisms are normal.
+Abelian categories are very stable categories; for example they are regular and they satisfy the snake lemma.
+The class of Abelian categories is closed under several categorical constructions.
 * Give definitions
 ** Kleisli category
 ** Free object
