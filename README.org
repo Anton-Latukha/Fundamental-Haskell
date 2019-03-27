@@ -1200,6 +1200,12 @@ class Applicative m => Monad m where
   return :: a -> m a
 #+end_src
 
+*** Monad functions
+**** Return == pure
+#+begin_src haskell
+return == pure
+#+end_src
+[[Nonstrict]].
 * Give definitions
 ** Kleisli category
 ** Free object
