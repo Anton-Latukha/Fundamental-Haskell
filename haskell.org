@@ -1096,6 +1096,19 @@ $$ V_{i} = x $$
 More inline term is [[Covariant cofunctor]]
 ** Covariant cofunctor
 See [[Covariant]].
+** Contravariant
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a [[Tensor]]s in this basisis.
+
+Denotation:
+Components for contravariant basis denoted in the upper indices:
+$$ V^{i} = x $$
+
+The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
+
+** Contravariant functor
+More inline term is [[Contravariant cofunctor]]
+** Contravariant cofunctor
+See [[Contravariant]].
 * Give definitions
 ** Kleisli category
 ** Free object
