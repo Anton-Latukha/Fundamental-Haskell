@@ -1117,6 +1117,11 @@ $$ \iff $$
 Natural transformation provides a way of transforming one [[Functor]] into another while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
 Natural transformation is a "morphism of functors", especially in functor categories.
 
+** Shift operator
+Shift operator defined by Lagrange through Differential operator.
+$$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
+*** Shift
+See [[Shift operator]]
 * Give definitions
 ** Kleisli category
 ** Free object
@@ -1124,7 +1129,6 @@ Natural transformation is a "morphism of functors", especially in functor catego
 ** Partial order
 ** Total order
 ** Preorder
-** Tensor
 ** Identity type
 ** Constant type
 ** Arbitrary
@@ -1300,6 +1304,3 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
-** Shift operator Differential operator
-Shift operator defined by Lagrange through Differential operator.
-$\displaystyle T^{t}=e^{t{\frac {d}{dx}}}$
