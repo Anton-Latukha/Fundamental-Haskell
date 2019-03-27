@@ -1192,6 +1192,14 @@ Mostly Monads used for sequencing actions (that looks like imperative programmin
 flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
 #+end_src
 This is [[Natural transformation]]s.
+*** Monad type class
+#+begin_src haskell
+class Applicative m => Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b
+  (>>) :: m a -> m b -> m b
+  return :: a -> m a
+#+end_src
+
 * Give definitions
 ** Kleisli category
 ** Free object
