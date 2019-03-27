@@ -1268,7 +1268,23 @@ ap -> <*>
 liftM -> liftA -> <$>
 >> -> *>
 #+end_src
+**** Basic case when Applicative can be used
+Can be rewriten in [[Applicative[[:
+#+begin_src haskell
+func = do
+  a <- f
+  b <- g
+pure (a, b)
+#+end_src
 
+Can't be rewritten in [[Applicative]]:
+#+begin_src haskell
+somethingdoSomething' n = do
+a <- f n
+b <- g a
+pure (a, b)
+#+end_src
+(f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
 * Give definitions
 ** Kleisli category
 ** Free object
