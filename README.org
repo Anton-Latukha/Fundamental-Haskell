@@ -1122,6 +1122,14 @@ Shift operator defined by Lagrange through Differential operator.
 $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
 *** Shift
 See [[Shift operator]]
+** Differential operator
+Denotation.
+$$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
+Last one is partial.
+
+$$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
+*** Differential
+See [[Differential operator]]
 * Give definitions
 ** Kleisli category
 ** Free object
