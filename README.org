@@ -1259,6 +1259,15 @@ Discards any resulting value of the action and sequence next action.
 (*>) :: f a -> f b -> f b
 #+end_src
 Applicative has a similar operator.
+*** Monad OR Applicative
+**** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
+If you wrote code and really needed only those - move that code to Applicative.
+#+begin_src haskell
+return -> pure
+ap -> <*>
+liftM -> liftA -> <$>
+>> -> *>
+#+end_src
 
 * Give definitions
 ** Kleisli category
