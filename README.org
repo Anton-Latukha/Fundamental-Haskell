@@ -1208,6 +1208,13 @@ A [[Monoid]] in [[Endofunctor category]].
 Monads are applicative functors (lax monoidal.
 
 Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
+*** Functor -> Applicative -> Monad progression
+#+begin_src haskell
+<$> ::     Functor f =>    (a -> b)   -> f a -> f b
+<*> :: Applicative f =>   f (a -> b)  -> f a  -> f b
+flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
+#+end_src
+This is [[Natural transformation]]s.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
