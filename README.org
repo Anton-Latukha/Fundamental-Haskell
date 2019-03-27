@@ -1285,6 +1285,11 @@ b <- g a
 pure (a, b)
 #+end_src
 (f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
+**** Applicative block vs Monad block
+With Type Applicative every condition fails/succseeds independently.
+With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
+** Endofunctor category
+From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
 * Give definitions
 ** Kleisli category
 ** Free object
