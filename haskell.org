@@ -1074,6 +1074,16 @@ Collection of all [[Morphism][morphisms]] from X to Y.
 
 Denotation:
 $$ hom(X,Y) $$
+*** Hom-functor
+For C (locally small category), its hom-functor is the functor $$ hom:C^{op} \times C \to Set $$,
+from the product category of the category C wit its opposite category to the category Set of sets.
+
+Denotation:
+variants:
+$$ H_A &=& \mathrm{Hom}(-, A) $$
+$$ h_A &=& {\cal C}(-, A) $$
+$$ Hom(A,-) : C \to Set $$
+
 * Give definitions
 ** Kleisli category
 ** Free object
