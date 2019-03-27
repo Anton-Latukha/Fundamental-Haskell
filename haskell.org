@@ -1109,6 +1109,14 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 More inline term is [[Contravariant cofunctor]]
 ** Contravariant cofunctor
 See [[Contravariant]].
+** Iff
+If and only if, exectly when, just.
+Denotation:
+$$ \iff $$
+** Natural transformation
+Natural transformation provides a way of transforming one [[Functor]] into another while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
+Natural transformation is a "morphism of functors", especially in functor categories.
+
 * Give definitions
 ** Kleisli category
 ** Free object
