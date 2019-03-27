@@ -1066,7 +1066,7 @@ Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
 ** Ambigram
-Object which from different points of view has different projections.
+Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
 
 While this word has two contradictory meaning, one was chosen.
 ** Hom-set
