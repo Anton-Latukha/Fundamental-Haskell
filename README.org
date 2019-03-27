@@ -1177,6 +1177,13 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
 `quickCheck` runs the loop and tests.
+** IO
+Haskell standard uses monad for constructing and transforming IO actions.
+IO actions can be evaluated multiple times.
+
+IO data type has unpure imperative actions inside. Haskell is pure [[Lambda calculus]], and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
+
+IO collects effects sequences one after another:
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
