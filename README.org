@@ -1274,8 +1274,10 @@ The way to express ordering in lambda calculus is to nest.
 ***** join.fmap == (=<<)
 #+begin_src haskell
 -- b = f b
-join.fmap :: Monad f => (a -> f b) -> f a -> f b
-flip >>=  :: Monad f => (a -> f b) -> f a -> f b
+fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
+join      :: Monad f =>                      f (f a) -> f a
+join.fmap :: Monad f => (a -> f b) -> f a            -> f b
+flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
 #+end_src
 
 **** Sequencing operator (>>) == (*>):
