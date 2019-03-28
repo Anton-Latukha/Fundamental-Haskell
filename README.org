@@ -1297,7 +1297,7 @@ liftM -> liftA -> <$>
 >> -> *>
 #+end_src
 **** Basic case when Applicative can be used
-Can be rewriten in [[Applicative[[:
+Can be rewriten in [[Applicative]]:
 #+begin_src haskell
 func = do
   a <- f
