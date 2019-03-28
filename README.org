@@ -107,6 +107,14 @@ And if there is two Left's - to Left of the first argument.
 **** Validation applicative
 The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
 For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
+*** Applicative functions
+**** liftA*
+***** liftA
+Essentially a [[fmap]].
+#+begin_src haskell
+:type liftA
+liftA :: Applicative f => (a -> b) -> f a -> f b
+#+end_src
 ** Applicative functor
 Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
 See [[Applicative]].
