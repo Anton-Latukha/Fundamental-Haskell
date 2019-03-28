@@ -115,6 +115,12 @@ Essentially a [[fmap]].
 :type liftA
 liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
+***** liftA2
+Lifts [[Binary][binary]] [[Function][function]] across two [[Applicative]]s [[Functor][functor]]s.
+#+begin_src haskell
+:type liftA2
+liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
+#+end_src
 ** Applicative functor
 Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
 See [[Applicative]].
