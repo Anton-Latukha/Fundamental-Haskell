@@ -1,4 +1,5 @@
 #+STARTUP: latexpreview
+#+STARTUP: entitiespretty
 * Definitions
 ** Abstraction
 Generalization of process.
@@ -785,7 +786,7 @@ So:
 foo :: (Int, Char)
 foo = (\f -> (f 1, f 'a')) id
 #+end_src
-Is illigal in Haskell.
+Is illegal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 **** Constrained polymorphism
