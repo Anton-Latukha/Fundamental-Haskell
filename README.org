@@ -804,7 +804,12 @@ Put the instance in the same module as the type class definition so that the typ
 3. Neither the type nor the type class are yours?
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
 ** Parameter
+παρά /para/ subsidiary
+μέτρον /metron/ measure
+
 Or Formal Parameter - named varible of a [[Function][function]].
+Is variable defined in function definition.
+Contrary to the [[Argument]] wich is a supplied value to a function.
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
