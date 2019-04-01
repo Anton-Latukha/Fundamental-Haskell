@@ -825,8 +825,30 @@ Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]
 ** Partial function
 Does not cover all cases.
 Unsafe and causes trouble.
-** Pointfree
-Point-free style, or Tacit programming is a paradigm in which function definition does not notate arguments. Instead definitions merely compose other functions.
+** Point-free
+/Use Tacit very carefully - it hides types and harder to change code where it is used./
+/Use just anough Tacit to communicate better. Mostly only partial point-free communicates better./
+
+Point-free style, is a paradigm in which functions only describe the [[Morphism]] itself.
+If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
+#+begin_src haskell
+\x -> g (f x)
+\x -> g $ f x
+\x -> g . f $ x
+\x -> g . f -- eta-recution
+
+\x1 x2 -> g (f x1 x2)
+\x1 x2 -> g $ f x1 x2
+\x1 x2 -> g . f x1 $ x2
+\x1    -> g . f x1
+#+end_src
+*** Synonims
+**** Pointfree
+See [[Point-free]]
+**** Tacit
+See [[Point-free]]
+**** Tacit programming
+See [[Point-free]]
 ** Polymorphism
 At once several forms.
 
