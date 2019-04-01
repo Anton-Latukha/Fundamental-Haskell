@@ -855,6 +855,20 @@ See [[\eta-abstraction]]
 See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
+*** (.).(.)
+#+begin_src haskell
+(.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
+#+end_src
+
+Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. During composition allows to apply two arguments to a binary function.
+#+begin_src haskell
+\f g x y -> f (g x y)
+#+end_src
+**** .) .
+**** Sectioning
+See [[(.).(.)]]
+**** Blackbird
+See [[(.).(.)]]
 *** Synonims
 **** Pointfree
 See [[Point-free]]
