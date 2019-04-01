@@ -810,6 +810,11 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
+** Abstraction
+abs away from, off (in absentia)
+tractus draw, haul, drag
+
+Purified generalization, conclusion.
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
