@@ -566,6 +566,13 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
 *** Lambda term
 See [[Lambda calculus]]
+** Lambda abstraction
+[[Lambda term]] that has a head and body and is applied to an argument.
+$$ \lambda x.x+1 $$
+#+begin_src haskell
+\x -> x + 1
+^^
+#+end_src
 ** Lambda cube
 λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
 
