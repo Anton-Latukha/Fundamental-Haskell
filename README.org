@@ -581,7 +581,22 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
 ** Lambda function
-Function of [[Lambda calculus]].
+[[Function]] of [[Lambda calculus]].
+$$ \lambda x y.x^2 + y^3 $$
+ ^^ ^    ^
+ || |     \__variable
+ ||  \__variable
+ || (_____)
+ ||     \___BODY
+ ||
+ | \__parameter
+  \___parameter
+(___)
+   \____HEAD
+*** Lambda expression
+See [[Lambda function]]
+*** Anonymous function
+See [[Lambda function]]
 ** Language option
 Language option - control what variations of the language are permitted.
 It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
