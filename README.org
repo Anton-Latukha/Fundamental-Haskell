@@ -842,6 +842,19 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 \x1 x2 -> g . f x1 $ x2
 \x1    -> g . f x1
 #+end_src
+*** \eta-abstraction
+$$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
+**** Synonims
+***** \eta-reduction
+See [[\eta-abstraction]]
+***** \eta-conversion
+See [[\eta-abstraction]]
+***** eta-abstraction
+See [[\eta-abstraction]]
+***** eta-reduction
+See [[\eta-abstraction]]
+***** eta-conversion
+See [[\eta-abstraction]]
 *** Synonims
 **** Pointfree
 See [[Point-free]]
