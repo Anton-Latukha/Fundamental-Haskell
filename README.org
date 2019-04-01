@@ -558,7 +558,14 @@ Pure programming language uses `IO ()` for functions that for the same circumsta
 Kind -> Type -> Data
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
-Based on [[Function][function]] [[Abstraction][abstraction]] and application using variable [[Bind][binding]] and substitution.
+Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function application][application]] by substituting variables and [[Bind][binding]] values.
+
+/*/ has [[Lambda term][lambda terms]]:
+   * variable ($$ x $$)
+   * [[Functional application][application]] ($$ (ts) $$)
+   * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
+*** Lambda term
+See [[Lambda calculus]]
 ** Lambda cube
 λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
 
