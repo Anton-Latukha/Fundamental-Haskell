@@ -869,6 +869,8 @@ Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. Durin
 See [[(.).(.)]]
 **** Blackbird
 See [[(.).(.)]]
+*** Point-free becomes better in multi-dimentional data
+BigData and OLAP analysis.
 *** Synonims
 **** Pointfree
 See [[Point-free]]
