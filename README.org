@@ -145,7 +145,7 @@ Depends on type and generates values of the type.
 [[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autoassumes/generates values.
 ** Argument
-Is an input value to a [[Function][function]].
+Is an input value to a [[Function][function]] [[Parameter][parameter]].
 ** Arity
 Number of [[Parameter][parameters]] of the [[Function][function]].
   * nullary - f()
@@ -242,12 +242,16 @@ See [[Calculus of constructions]].
 ** Codomain
 Codomain - target set of a function in $X \to Y$.
 ** Combinator
-Lambda term without free variables.
-
-Higher-order [[Function][function]] that uses only function application and earlier defined combinators to define a result from its arguments.
-
-Narrow meaning: A function or definition with no free variables.
-
+[[Function]] without free variables.
+[[Higher-order function]] that use only [[Function application][function application]] and other combinators.
+#+begin_src haskell
+\f g x -> f (g x)
+\f g x y -> f (g x y)
+#+end_src
+Not comibnators:
+#+begin_src haskell
+\xs -> sum xs
+#+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** Combinator
 A function or definition with no free variables.
