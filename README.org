@@ -497,12 +497,12 @@ Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus
 See [[System F]].
 ** Higher-order function
-Function arity > 1.
+[[Function]] [[Arity][arity]] > 1.
 
 ----
 
-A) Has function as an argument.
-B) Evaluates to function.
+Has function as a [[Parameter][parameter]].
+Evaluates to function.
 ** Hindley–Milner type system
 Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
