@@ -253,8 +253,16 @@ Not comibnators:
 \xs -> sum xs
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
-** Combinator
-A function or definition with no free variables.
+** \Psi-combinator
+Applies function to two different structures, then chains binary function and returns a result.
+#+begin_src haskell
+import Data.Function (on)
+on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
+#+end_src
+*** Psi-combinator
+See: [[\Psi-combinator]]
+*** On-combinator
+See: [[\Psi-combinator]]
 ** Commutative law
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 ** Composition
