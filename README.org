@@ -1,5 +1,7 @@
 #+STARTUP: latexpreview
 #+STARTUP: entitiespretty
+#+OPTIONS: toc:10
+#+TOC: headlines 10
 * Definitions
 ** Abstraction
 Generalization of process.
