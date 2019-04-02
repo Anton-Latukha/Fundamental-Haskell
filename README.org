@@ -643,18 +643,28 @@ mappend :: m -> m -> m
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
 #+end_src
-*** Abelian or commutative monoid
-Very helpful at concurrent or distributed processing.
 *** Monoid laws
+Left identity:
 #+begin_src haskell
--- Left identity
 mempty <> x = x
--- Right identity
+#+end_src
+
+Right identity:
+#+begin_src haskell
 x <> mempty = x
--- Associativity
+#+end_src
+
+Associativity:
+#+begin_src haskell
 x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
 #+end_src
+*** Commutative monoid
+Commutative law:
+$$ x \circ y = y \circ x $$
+Very helpful at concurrent or distributed processing.
+**** Abelian monoid
+See [[Commutative monoid]]
 ** Morphism
 μορφή /morphe/ form
 Map between two objects in an abstract [[Category][category]].
