@@ -1348,6 +1348,8 @@ arbitrary :: Arbitrary a => Gen a
 suchThat :: Gen a -> (a -> Bool) -> Gen a
 elements :: [a] -> Gen a
 #+end_src
+**** Reusing test code
+Often it is convinient to abstract testing of same function properties:
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
