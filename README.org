@@ -870,6 +870,19 @@ With Type Monad computation can return value that dependent from the previous co
 Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 *** Either monad
 Drops sequencing computation as soon as Left arrives.
+*** Monad laws
+**** Left identity law
+#+begin_src haskell
+return x >>= f == f x
+#+end_src
+**** Right identity law
+#+begin_src haskell
+m >>= return == m
+#+end_src
+**** Associativity law
+#+begin_src haskell
+(m >>= f) >>= g == m >>= (\x -> f x >>= g)
+#+end_src
 ** Monkey patch
 /From [[Guerrilla patch]]./
 
