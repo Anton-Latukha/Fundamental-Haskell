@@ -1,11 +1,23 @@
 #+STARTUP: latexpreview
 #+STARTUP: entitiespretty
-#+OPTIONS: toc:10
-#+TOC: headlines 10
 * Definitions
+** Abelian category
+Is which:
+  * has a zero object,
+  * has all binary biproducts,
+  * has all kernels and cokernels,
+  * (it has all pullbacks and pushouts)
+  * all monomorphisms and epimorphisms are normal.
+Abelian categories are very stable categories; for example they are regular and they satisfy the snake lemma.
+The class of Abelian categories is closed under several categorical constructions.
 ** Abstraction
 Generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
+** Abstraction
+abs away from, off (in absentia)
+tractus draw, haul, drag
+
+Purified generalization, conclusion.
 ** Actual type
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra
@@ -18,6 +30,10 @@ A system of algebra based on given axioms.
 2) Algebra - vector space over a field with a multiplication.
 ** Alpha equivalence
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
+** Ambigram
+Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
+
+While this word has two contradictory meaning, one was chosen.
 ** Anamorphism
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
@@ -25,6 +41,20 @@ Is a [[function]] that generates a sequence by repeated [[Application][applicati
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
+** Application memory
+| Storage of                        | Block name    |
+|-----------------------------------+---------------|
+| All not currently processing data | Heap          |
+| Function call, local variables    | Stack         |
+| Static and global variables       | Static/Global |
+| Instructions                      | Binary code   |
+
+When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
+When stacked Stack frames exceed the Stack size - stack overflow happens.
+*** Heap
+See [[Application memory]].
+*** Stack
+See [[Application memory]].
 ** Applicative
 See [[Applicative functor]] for [[Category theory]] description.
 Sequencing functorial computations.
@@ -147,6 +177,11 @@ Depends on type and generates values of the type.
 Useful function is arbitrary - that autoassumes/generates values.
 ** Argument
 Is an input value to a [[Function][function]] [[Parameter][parameter]].
+** Argument
+arguere to make clear, to shine
+argument evidence, proof
+
+Independed variable of a function. Topic that the fuction would deal with.
 ** Arity
 Number of [[Parameter][parameters]] of the [[Function][function]].
   * nullary - f()
@@ -177,6 +212,26 @@ AKA see [[Category theory]], or Euclidian geometry basis.
 No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
+** Bijection
+[[Function]] complete one-to-one pairing of elements of domain and codomain (image).
+It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
+
+For bijection inverse always exists.
+
+Bijective operation holds the equivalence of domain and codomain.
+
+Denotation:
+#+begin_src text
+⤖
+>->>
+f : X ⤖ Y
+#+end_src
+LaTeX needed to combine symbols:
+$$ \newcommand*{\twoheadrightarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrightarrowtail Y $$
+*** Bijective
+See [[Bijection]].
+*** Bijective function
+See [[Bijection]].
 ** Binary
 Two of something.
 ** Binary operation
@@ -202,6 +257,8 @@ Is a non-value used to denote the program cannot return a values.
 Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
+*** CoC
+See [[Calculus of constructions]].
 ** Cardinality
 Number of elements.
 
@@ -212,6 +269,24 @@ On product - multiply cardinalities.
 ** Cartesian product
 ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
 Any function is a subset of Cartesian product.
+** Case
+#+begin_src haskell
+case x of
+    | pattern1  -> ex1
+    | pattern2  -> ex2
+    | pattern3  -> ex3
+    | otherwise -> exDefault
+#+end_src
+
+Syntatic sugar with guards allows usage of expressions:
+#+begin_src haskell
+case () of _
+             | expr1     -> ex1
+             | expr2     -> ex2
+             | expr3     -> ex3
+             | otherwise -> exDefault
+#+end_src
+
 ** Category
 Category (/C/) consists of the [[Basis]]:
   1. Objects - ob(/C/). A node. Object of some type. Often sets, than it is [[SET category]].
@@ -238,8 +313,6 @@ Pseudogenerates a function basing on resulting type.
 #+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
-** CoC
-See [[Calculus of constructions]].
 ** Codomain
 Codomain - target set of a function in $X \to Y$.
 ** Combinator
@@ -254,22 +327,12 @@ Not comibnators:
 \xs -> sum xs
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
-** \Psi-combinator
-Applies function to two different structures, then chains binary function and returns a result.
-#+begin_src haskell
-import Data.Function (on)
-on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
-#+end_src
-*** Psi-combinator
-See: [[\Psi-combinator]]
-*** On-combinator
-See: [[\Psi-combinator]]
 ** Commutative law
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
-** Composition
-Axiom of [[Category]].
 ** Compose
 See: [[Function composition]]
+** Composition
+Axiom of [[Category]].
 ** Concatenate
 Link together sequences.
 ** Concrete type
@@ -278,8 +341,6 @@ AND
 #+begin_src haskell
  * *
 #+end_src
-** Cons
-Short for [[Construct]].
 ** Cons cell
 Cell that values may inhabit.
 ** Constant
@@ -290,14 +351,39 @@ See: [[Ad hoc polymorphism]]
 #+begin_src haskell
 (:) :: a -> [a] -> [a]
 #+end_src
+*** Cons
+Short for [[Construct]].
 ** Constructor
 1. [[Type constructor]]
 2. [[Data onstructor]]
 
 Also see: [[Constant]]
+** Contravariant
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a [[Tensor]]s in this basisis.
+
+Denotation:
+Components for contravariant basis denoted in the upper indices:
+$$ V^{i} = x $$
+
+The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
+
+*** Contravariant cofunctor
+See [[Contravariant]].
+*** Contravariant functor
+More inline term is [[Contravariant cofunctor]]
+** Covariant
+The property of [[Basis]], in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
+
+Denotation:
+Components for covariant basis denoted in the upper indices:
+$$ V_{i} = x $$
+** Covariant cofunctor
+See [[Covariant]].
+** Covariant functor
+More inline term is [[Covariant cofunctor]]
 ** Curry–Howard correspondence
 Computer programs are mathematical proofs.
-** Curry–Howard isomorphism
+*** Curry–Howard isomorphism
 See [[Curry–Howard correspondence]].
 ** Currying
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
@@ -340,6 +426,14 @@ A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
 ** Derived instance
 Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
+** Differential operator
+Denotation.
+$$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
+Last one is partial.
+
+$$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
+*** Differential
+See [[Differential operator]]
 ** Disjunction
 OR
 ** Dispatch
@@ -350,6 +444,8 @@ Source set of a function in $$ X \to Y $$.
 Observable action.
 ** Endofunctor
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
+** Endofunctor category
+From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
 ** Evaluation
 For FP see [[Bind]].
 ** Expected type
@@ -389,66 +485,6 @@ Function is a mathematical [[Operation][operation]].
 Function = Total function = Pure function. Function theoretically posible to momoized.
 [[Partial function]].
 Inverse function - often partially exists (partial function).
-** Injection
-[[Function]] one-to-one injects from domain to codomain.
-Keeps distinct pairing of elements of domain and image.
-Every element in image coresponds to one element in domain.
-
-$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
-
-Denotion:
-#+begin_src text
-↣
->->
-f : X ↣ Y
-#+end_src
-$f : X \rightarrowtail Y$
-
-Corresponds to [[Monomorphism]].
-*** Injective
-See [[Injection]].
-*** Injective function
-See [[Injection]].
-** Surjection
-[[Function]] uses codomain fully.
-
-$$ \forall y \in Y, \exists x \in X $$
-
-Denotation:
-#+begin_src text
-↠
-->>
-f : X ↠ Y
-#+end_src
-$$ f : X \twoheadrightarrow Y $$
-
-Corresponds to [[Epimorphism]].
-*** Surjective
-See [[Surjection]].
-*** Surjective function
-See [[Surjection]].
-** Bijection
-[[Function]] complete one-to-one pairing of elements of domain and codomain (image).
-It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
-
-For bijection inverse always exists.
-
-Bijective operation holds the equivalence of domain and codomain.
-
-Denotation:
-#+begin_src text
-⤖
->->>
-f : X ⤖ Y
-#+end_src
-LaTeX needed to combine symbols:
-$$ \newcommand*{\twoheadrightarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrightarrowtail Y $$
-*** Bijective
-See [[Bijection]].
-*** Bijective function
-See [[Bijection]].
-** Permutation
-[[Bijective]] [[function]] from [[Domain][domain]] to itself.
 ** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
@@ -497,6 +533,9 @@ Also derives that the field of complex numbers is algebraically closed.
 Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus
 See [[System F]].
+** Guerrilla patch
+/*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
+[[Monkey patch]] is derivative term.
 ** Higher-order function
 [[Function]] [[Arity][arity]] > 1.
 
@@ -510,6 +549,23 @@ Where types marked as polymorphic variables, and overall type inference is possi
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 ** HOF
 See: [[Higher-order function]]
+** Hom-set
+Collection of all [[Morphism][morphisms]] from X to Y.
+
+Denotation:
+$$ hom(X,Y) $$
+*** Hom-functor
+For C (locally small category), its hom-functor is the functor $$ hom:C^{op} \times C \to Set $$,
+from the product category of the category C wit its opposite category to the category Set of sets.
+
+Denotation:
+variants:
+$$ H_A &=& \mathrm{Hom}(-, A) $$
+$$ h_A &=& {\cal C}(-, A) $$
+$$ Hom(A,-) : C \to Set $$
+
+Hom-bifunctor:
+$$ Hom(-,-):C^{op} \times C \to Set $$
 ** Idempotence
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
@@ -537,6 +593,10 @@ Meaning can be special for language speakers or human with particular knowledge.
 For different meaning - it is [[Applicative functor]].
 ** Idiomatic
 See [[Idiom]].
+** Iff
+If and only if, exectly when, just.
+Denotation:
+$$ \iff $$
 ** Impredicative
 Self-referencing definition.
 
@@ -549,14 +609,69 @@ Operaton in-between variables.
 What [[Values][values]] inhabit [[Data type][data type]]
 ** Initial object
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
+** Injection
+[[Function]] one-to-one injects from domain to codomain.
+Keeps distinct pairing of elements of domain and image.
+Every element in image coresponds to one element in domain.
+
+$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
+
+Denotion:
+#+begin_src text
+↣
+>->
+f : X ↣ Y
+#+end_src
+$f : X \rightarrowtail Y$
+
+Corresponds to [[Monomorphism]].
+*** Injective
+See [[Injection]].
+*** Injective function
+See [[Injection]].
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
-Type for values whose evaluations has a posibility to cause side effects.
-** IO ()
-Pure programming language uses `IO ()` for functions that for the same circumstances in the code space - can return a different result.
+Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
+Haskell standard uses monad for constructing and transforming IO actions.
+IO actions can be evaluated multiple times.
+
+IO data type has unpure imperative actions inside. Haskell is pure [[Lambda calculus]], and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
+
+IO collects effects sequences one after another:
+#+begin_src haskell
+:{
+twoBinds :: IO ()
+twoBinds =
+  putStrLn "First:" >>
+  getLine >>=
+  \a ->
+  putStrLn "Second:" >>
+  getLine >>=
+  \b ->
+  putStrLn ("\nFirst: "
+    ++ a ++ ".\nSecond "
+    ++ b ++ ".")
+main = twoBinds
+:}
+#+end_src
+** Kernel
+Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
+It is a number of elements that collide and fail injectivity, thou Kernel [x | x <- 0 || x >= 2].
+
+Denotation:
+$$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
+*** Kernel homomorphism
+Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
 ** Kind
 Kind -> Type -> Data
+** Lambda abstraction
+[[Lambda term]] that has a head and body and is applied to an argument.
+$$ \lambda x.x+1 $$
+#+begin_src haskell
+\x -> x + 1
+^^
+#+end_src
 ** Lambda calculus
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function application][application]] by substituting variables and [[Bind][binding]] values.
@@ -567,13 +682,6 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
 *** Lambda term
 See [[Lambda calculus]]
-** Lambda abstraction
-[[Lambda term]] that has a head and body and is applied to an argument.
-$$ \lambda x.x+1 $$
-#+begin_src haskell
-\x -> x + 1
-^^
-#+end_src
 ** Lambda cube
 λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
 
@@ -633,6 +741,136 @@ The category of magmas, denoted $$ Mag $$, has as objects sets with a binary ope
 Importable organization unit.
 ** Modulus
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+** Monad
+μόνος /monos/ sole
+μονάδα /monáda/ unit
+
+A [[Monoid]] in [[Endofunctor category]].
+Monads are [[Applicative functor][applicative functors]] with natural transformation.
+
+Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
+
+Monadic internals are Haskell data types, so they can be consumed any number of times.
+
+Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
+
+Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
+#+begin_src haskell
+import Control.Monad (ap)
+
+(<*>) == ap
+#+end_src
+*** Functor -> Applicative -> Monad progression
+#+begin_src haskell
+<$> ::     Functor f =>    (a -> b)   -> f a -> f b
+<*> :: Applicative f =>   f (a -> b)  -> f a  -> f b
+flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
+#+end_src
+This is [[Natural transformation]]s.
+*** Monad type class
+#+begin_src haskell
+class Applicative m => Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b
+  (>>) :: m a -> m b -> m b
+  return :: a -> m a
+#+end_src
+
+*** Monad functions
+**** Return == pure
+#+begin_src haskell
+return == pure
+#+end_src
+[[Nonstrict]].
+**** Bind
+#+begin_src haskell
+>>= :: Monad f => f a -> (a -> f b) -> f b
+#+end_src
+[[Nonstrict]].
+
+The most ubiqutous way to >>= something is to use [[Lambda function]]:
+#+begin_src haskell
+getLine >>= \name -> putStrLn "age pls:"
+#+end_src
+
+Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
+And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
+#+begin_src haskell
+printOneOf ∷ Bool → IO ()
+printOneOf False = putStr "1"
+printOneOf  True = putStr "2"
+
+quant ∷ (Bool → IO b) → IO b
+quant = (>>=) (randomRIO (False, True))
+
+recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
+recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
+
+main ∷ IO ()
+main = recursePrintOneOf (quant) $ printOneOf
+#+end_src
+***** (>>=)
+See [[Bind]]
+**** Join
+#+begin_src haskell
+join :: Monad m => m (m a) -> m a
+#+end_src
+Flattens two layers of structure into one.
+Join is a generalization of `concat`.
+
+The way to express ordering in lambda calculus is to nest.
+***** join.fmap == (=<<)
+#+begin_src haskell
+-- b = f b
+fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
+join      :: Monad f =>                      f (f a) -> f a
+join.fmap :: Monad f => (a -> f b) -> f a            -> f b
+flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
+#+end_src
+
+**** Sequencing operator (>>) == (*>):
+Discards any resulting value of the action and sequence next action.
+#+begin_src haskell
+(>>) :: m a -> m b -> m b
+(*>) :: f a -> f b -> f b
+#+end_src
+Applicative has a similar operator.
+*** Monad OR Applicative
+**** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
+If you wrote code and really needed only those - move that code to Applicative.
+#+begin_src haskell
+return -> pure
+ap -> <*>
+liftM -> liftA -> <$>
+>> -> *>
+#+end_src
+**** Basic case when Applicative can be used
+Can be rewriten in [[Applicative]]:
+#+begin_src haskell
+func = do
+  a <- f
+  b <- g
+pure (a, b)
+#+end_src
+
+Can't be rewritten in [[Applicative]]:
+#+begin_src haskell
+somethingdoSomething' n = do
+a <- f n
+b <- g a
+pure (a, b)
+#+end_src
+(f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
+**** Applicative block vs Monad block
+With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
+With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
+*** Maybe monad
+Drops the chain of computation and returns Nothing as soon as Nothing arrives.
+*** Either monad
+Drops sequencing computation as soon as Left arrives.
+** Monkey patch
+/From [[Guerrilla patch]]./
+
+/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
 ** Monoid
 [[Semigroup]] that has [[Identity]] value.
 
@@ -665,6 +903,8 @@ $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 **** Abelian monoid
 See [[Commutative monoid]]
+** Monoidal functor
+Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 ** Morphism
 μορφή /morphe/ form
 Map between two objects in an abstract [[Category][category]].
@@ -754,14 +994,10 @@ Epimorphism is a [[Monoid]], because of [[Catogoty]] [[Composition]].
 Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
-** Kernel
-Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
-It is a number of elements that collide and fail injectivity, thou Kernel [x | x <- 0 || x >= 2].
+** Natural transformation
+Natural transformation provides a way of transforming one [[Functor]] into another while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
+Natural transformation is a "morphism of functors", especially in functor categories.
 
-Denotation:
-$$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
-*** Kernel homomorphism
-Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
 ** newtype declaration
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
@@ -821,21 +1057,13 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
-** Abstraction
-abs away from, off (in absentia)
-tractus draw, haul, drag
-
-Purified generalization, conclusion.
-** Argument
-arguere to make clear, to shine
-argument evidence, proof
-
-Independed variable of a function. Topic that the fuction would deal with.
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
 Does not cover all cases.
 Unsafe and causes trouble.
+** Permutation
+[[Bijective]] [[function]] from [[Domain][domain]] to itself.
 ** Point-free
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just anough Tacit to communicate better. Mostly only partial point-free communicates better./
@@ -1021,6 +1249,64 @@ Pragma in Haskell have form:
 #+begin_src haskell
 {-# PRAGMA options #-}
 #+end_src
+** Pragma
+*** LANGUAGE pragma
+**** LANGUAGE options
+***** Useful by default
+#+begin_src haskell
+import EmptyCase
+import FlexibleContexts
+import FlexibleInstances
+import InstanceSigs
+import MultiParamTypeClasses
+#+end_src
+***** GeneralisedNewtypeDeriving
+Allows `deriving` to inherit any instances of representation type.
+#+begin_src haskell
+newtype Dollars = Dollars Int
+  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
+#+end_src
+This is all instances `Int` has.
+
+In Haskell98 only Eq, Ord, Enum could been inherited.
+***** TypeApplications
+Allows to use visible type application in expressions.
+A visible type application is preceded with an @ sign.
+
+#+begin_src haskell
+:type pure @[]
+pure @[] :: a -> [a]
+
+:type (<*>) @[]
+(<*>) @[] :: [a -> b] -> [a] -> [b]
+
+--
+
+instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
+
+λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
+    12
+#+end_src
+***** FlexibleInstances
+**** How to make a GHC LANGUAGE extension
+In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
+#+begin_src haskell
+data Extension
+  = Cpp
+  | OverlappingInstances
+  ...
+  | Foo
+#+end_src
+
+`/main/DynFlags.hs` extend `xFlagsDeps`:
+#+begin_src haskell
+xFlagsDeps = [
+  flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
+  ...
+  flagSpec "Foo"                 LangExt.Foo
+]
+#+end_src
+It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
 ** Pragma option
 Values supplied to the [[Pragma]] directive.
 ** Predicate
@@ -1045,6 +1331,16 @@ data Proxy a = ProxyValue
 let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
+** \Psi-combinator
+Applies function to two different structures, then chains binary function and returns a result.
+#+begin_src haskell
+import Data.Function (on)
+on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
+#+end_src
+*** Psi-combinator
+See: [[\Psi-combinator]]
+*** On-combinator
+See: [[\Psi-combinator]]
 ** Purity
 [[Referantial transparency][Referential transparent]] [[Function][function]]
 ** Quantifier
@@ -1105,6 +1401,11 @@ Well-defined collection of distinct objects.
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing
 Global scope variable overriden by variable in local scope.
+** Shift operator
+Shift operator defined by Lagrange through Differential operator.
+$$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
+*** Shift
+See [[Shift operator]]
 ** Shrinking
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 ** Singleton
@@ -1146,6 +1447,24 @@ Like in Haskell.
 In most languages typing is not structural - but name-based.
 ** Superclass
 Broader parent class.
+** Surjection
+[[Function]] uses codomain fully.
+
+$$ \forall y \in Y, \exists x \in X $$
+
+Denotation:
+#+begin_src text
+↠
+->>
+f : X ↠ Y
+#+end_src
+$$ f : X \twoheadrightarrow Y $$
+
+Corresponds to [[Epimorphism]].
+*** Surjective
+See [[Surjection]].
+*** Surjective function
+See [[Surjection]].
 ** Syntatic sugar
 Artificial way to make language easier to read and write.
 ** System F
@@ -1155,156 +1474,16 @@ Differs from the simply typed lambda calculus by the introduction of universal [
 Final result of the function
 ** Tail recursion
 Tail calls are recursive invocantions of itself.
-** Terminal object
-Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
-** Term level
-See: [[Level of code]]
-** Tuple
-Data type that stores multiple values withing a single value.
-Tuples by [[Arity][arity]]:
-  * empty, [[Unit][unit]]          - 0
-  * pair, two-tuples     - 2
-  * thriple, three-tuple - 3
-** Type
-Type - [[Set][set]] of values.
-See [[Data type]]
-** Type alias
-Create new type constructor, and use all data structure of base type.
-** Type class
-Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
-** Type class inheritance
-[[Type class]] has a [[Superclass][superclass]].
-** Type constant
-See: [[Constant]]
-** Type constructor
-Name of [[Data type][data type]]
-
-Nullary type constructor is [[Type constant]]
-** type declaration
-Synonim for existing type. Uses the same data constructor.
-#+begin_src haskell
-type FirstName = String
-#+end_src haskell
-Used to distinct one entities from other entities, while they have the same type.
-Also main type functions can operate on a new type.
-** Type inference
-Automatic [[Data type][data type]] detection of [[Expresion][expression]].
-** Type instance
-Unique [[Type class][type class]]->[[Data type][type]] pairing.
-Defines type class->type methods.
-** Type level
-See: [[Level of code]]
-** Type variable
-Refer to an unspecified type in Haskell type signature.
-** Uncurry
-Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
-** Undefined
-Value helps to do typechecking
-** Unit
-Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
-** Unlifted type
-Type that directly exist on the hardware. The type abstraction can be completely removed.
-With unlifted types Haskel type system directly manages data in the hardware.
-** Unsafe
-[[Function]] that does not cover some edge case.
-** Variable
-A name for [[Expression][expression]].
-
-Haskell has immutable variables.
-Except when you hack it with explicit [[Function][funсtions]].
-** Variadic
-Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
-** Zero
-Zero is the value operation with which always gives Zero value.
-$n, zero \in C : \forall n, zero*n=zero$
-There is also distinct [[Identity]] value.
-** Application memory
-| Storage of                        | Block name    |
-|-----------------------------------+---------------|
-| All not currently processing data | Heap          |
-| Function call, local variables    | Stack         |
-| Static and global variables       | Static/Global |
-| Instructions                      | Binary code   |
-
-When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
-When stacked Stack frames exceed the Stack size - stack overflow happens.
-*** Heap
-See [[Application memory]].
-*** Stack
-See [[Application memory]].
-** Monoidal functor
-Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 ** Tensor
 Object existing out of planes, thus it can translate objects from one plane into another.
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial, aka [[Ambigram]].
 Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
-** Ambigram
-Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
-
-While this word has two contradictory meaning, one was chosen.
-** Hom-set
-Collection of all [[Morphism][morphisms]] from X to Y.
-
-Denotation:
-$$ hom(X,Y) $$
-*** Hom-functor
-For C (locally small category), its hom-functor is the functor $$ hom:C^{op} \times C \to Set $$,
-from the product category of the category C wit its opposite category to the category Set of sets.
-
-Denotation:
-variants:
-$$ H_A &=& \mathrm{Hom}(-, A) $$
-$$ h_A &=& {\cal C}(-, A) $$
-$$ Hom(A,-) : C \to Set $$
-
-Hom-bifunctor:
-$$ Hom(-,-):C^{op} \times C \to Set $$
-** Covariant
-The property of [[Basis]], in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
-
-Denotation:
-Components for covariant basis denoted in the upper indices:
-$$ V_{i} = x $$
-** Covariant functor
-More inline term is [[Covariant cofunctor]]
-** Covariant cofunctor
-See [[Covariant]].
-** Contravariant
-The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a [[Tensor]]s in this basisis.
-
-Denotation:
-Components for contravariant basis denoted in the upper indices:
-$$ V^{i} = x $$
-
-The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
-
-** Contravariant functor
-More inline term is [[Contravariant cofunctor]]
-** Contravariant cofunctor
-See [[Contravariant]].
-** Iff
-If and only if, exectly when, just.
-Denotation:
-$$ \iff $$
-** Natural transformation
-Natural transformation provides a way of transforming one [[Functor]] into another while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
-Natural transformation is a "morphism of functors", especially in functor categories.
-
-** Shift operator
-Shift operator defined by Lagrange through Differential operator.
-$$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
-*** Shift
-See [[Shift operator]]
-** Differential operator
-Denotation.
-$$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
-Last one is partial.
-
-$$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
-*** Differential
-See [[Differential operator]]
+** Terminal object
+Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
+** Term level
+See: [[Level of code]]
 ** Testing
 *** Property testing
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
@@ -1397,191 +1576,65 @@ Generator `arbitrary`, gets the seed, and generates.
 1. Pick the right language/stack to implement features.
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
-** IO
-Haskell standard uses monad for constructing and transforming IO actions.
-IO actions can be evaluated multiple times.
+** Tuple
+Data type that stores multiple values withing a single value.
+Tuples by [[Arity][arity]]:
+  * empty, [[Unit][unit]]          - 0
+  * pair, two-tuples     - 2
+  * thriple, three-tuple - 3
+** Type
+Type - [[Set][set]] of values.
+See [[Data type]]
+** Type alias
+Create new type constructor, and use all data structure of base type.
+** Type class
+Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+** Type class inheritance
+[[Type class]] has a [[Superclass][superclass]].
+** Type constant
+See: [[Constant]]
+** Type constructor
+Name of [[Data type][data type]]
 
-IO data type has unpure imperative actions inside. Haskell is pure [[Lambda calculus]], and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
-
-IO collects effects sequences one after another:
+Nullary type constructor is [[Type constant]]
+** type declaration
+Synonim for existing type. Uses the same data constructor.
 #+begin_src haskell
-:{
-twoBinds :: IO ()
-twoBinds =
-  putStrLn "First:" >>
-  getLine >>=
-  \a ->
-  putStrLn "Second:" >>
-  getLine >>=
-  \b ->
-  putStrLn ("\nFirst: "
-    ++ a ++ ".\nSecond "
-    ++ b ++ ".")
-main = twoBinds
-:}
-#+end_src
-** Monad
-μόνος /monos/ sole
-μονάδα /monáda/ unit
+type FirstName = String
+#+end_src haskell
+Used to distinct one entities from other entities, while they have the same type.
+Also main type functions can operate on a new type.
+** Type inference
+Automatic [[Data type][data type]] detection of [[Expresion][expression]].
+** Type instance
+Unique [[Type class][type class]]->[[Data type][type]] pairing.
+Defines type class->type methods.
+** Type level
+See: [[Level of code]]
+** Type variable
+Refer to an unspecified type in Haskell type signature.
+** Uncurry
+Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
+** Undefined
+Value helps to do typechecking
+** Unit
+Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
+** Unlifted type
+Type that directly exist on the hardware. The type abstraction can be completely removed.
+With unlifted types Haskel type system directly manages data in the hardware.
+** Unsafe
+[[Function]] that does not cover some edge case.
+** Variable
+A name for [[Expression][expression]].
 
-A [[Monoid]] in [[Endofunctor category]].
-Monads are [[Applicative functor][applicative functors]] with natural transformation.
-
-Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
-
-Monadic internals are Haskell data types, so they can be consumed any number of times.
-
-Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
-
-Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
-#+begin_src haskell
-import Control.Monad (ap)
-
-(<*>) == ap
-#+end_src
-*** Functor -> Applicative -> Monad progression
-#+begin_src haskell
-<$> ::     Functor f =>    (a -> b)   -> f a -> f b
-<*> :: Applicative f =>   f (a -> b)  -> f a  -> f b
-flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
-#+end_src
-This is [[Natural transformation]]s.
-*** Monad type class
-#+begin_src haskell
-class Applicative m => Monad m where
-  (>>=) :: m a -> (a -> m b) -> m b
-  (>>) :: m a -> m b -> m b
-  return :: a -> m a
-#+end_src
-
-*** Monad functions
-**** Return == pure
-#+begin_src haskell
-return == pure
-#+end_src
-[[Nonstrict]].
-**** Bind
-#+begin_src haskell
->>= :: Monad f => f a -> (a -> f b) -> f b
-#+end_src
-[[Nonstrict]].
-
-The most ubiqutous way to >>= something is to use [[Lambda function]]:
-#+begin_src haskell
-getLine >>= \name -> putStrLn "age pls:"
-#+end_src
-
-Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
-And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
-#+begin_src haskell
-printOneOf ∷ Bool → IO ()
-printOneOf False = putStr "1"
-printOneOf  True = putStr "2"
-
-quant ∷ (Bool → IO b) → IO b
-quant = (>>=) (randomRIO (False, True))
-
-recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
-recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
-
-main ∷ IO ()
-main = recursePrintOneOf (quant) $ printOneOf
-#+end_src
-***** (>>=)
-See [[Bind]]
-**** Join
-#+begin_src haskell
-join :: Monad m => m (m a) -> m a
-#+end_src
-Flattens two layers of structure into one.
-Join is a generalization of `concat`.
-
-The way to express ordering in lambda calculus is to nest.
-***** join.fmap == (=<<)
-#+begin_src haskell
--- b = f b
-fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
-join      :: Monad f =>                      f (f a) -> f a
-join.fmap :: Monad f => (a -> f b) -> f a            -> f b
-flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
-#+end_src
-
-**** Sequencing operator (>>) == (*>):
-Discards any resulting value of the action and sequence next action.
-#+begin_src haskell
-(>>) :: m a -> m b -> m b
-(*>) :: f a -> f b -> f b
-#+end_src
-Applicative has a similar operator.
-*** Monad OR Applicative
-**** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
-If you wrote code and really needed only those - move that code to Applicative.
-#+begin_src haskell
-return -> pure
-ap -> <*>
-liftM -> liftA -> <$>
->> -> *>
-#+end_src
-**** Basic case when Applicative can be used
-Can be rewriten in [[Applicative]]:
-#+begin_src haskell
-func = do
-  a <- f
-  b <- g
-pure (a, b)
-#+end_src
-
-Can't be rewritten in [[Applicative]]:
-#+begin_src haskell
-somethingdoSomething' n = do
-a <- f n
-b <- g a
-pure (a, b)
-#+end_src
-(f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
-**** Applicative block vs Monad block
-With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
-With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
-*** Maybe monad
-Drops the chain of computation and returns Nothing as soon as Nothing arrives.
-*** Either monad
-Drops sequencing computation as soon as Left arrives.
-** Endofunctor category
-From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
-** Abelian category
-Is which:
-  * has a zero object,
-  * has all binary biproducts,
-  * has all kernels and cokernels,
-  * (it has all pullbacks and pushouts)
-  * all monomorphisms and epimorphisms are normal.
-Abelian categories are very stable categories; for example they are regular and they satisfy the snake lemma.
-The class of Abelian categories is closed under several categorical constructions.
-** Guerrilla patch
-/*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
-[[Monkey patch]] is derivative term.
-** Monkey patch
-/From [[Guerrilla patch]]./
-
-/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
-** Case
-#+begin_src haskell
-case x of
-    | pattern1  -> ex1
-    | pattern2  -> ex2
-    | pattern3  -> ex3
-    | otherwise -> exDefault
-#+end_src
-
-Syntatic sugar with guards allows usage of expressions:
-#+begin_src haskell
-case () of _
-             | expr1     -> ex1
-             | expr2     -> ex2
-             | expr3     -> ex3
-             | otherwise -> exDefault
-#+end_src
-
+Haskell has immutable variables.
+Except when you hack it with explicit [[Function][funсtions]].
+** Variadic
+Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
+** Zero
+Zero is the value operation with which always gives Zero value.
+$n, zero \in C : \forall n, zero*n=zero$
+There is also distinct [[Identity]] value.
 * Give definitions
 ** Kleisli category
 ** Free object
@@ -1764,60 +1817,3 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
-** Pragma
-*** LANGUAGE pragma
-**** LANGUAGE options
-***** Useful by default
-#+begin_src haskell
-import EmptyCase
-import FlexibleContexts
-import FlexibleInstances
-import InstanceSigs
-import MultiParamTypeClasses
-#+end_src
-***** GeneralisedNewtypeDeriving
-Allows `deriving` to inherit any instances of representation type.
-#+begin_src haskell
-newtype Dollars = Dollars Int
-  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
-#+end_src
-This is all instances `Int` has.
-
-In Haskell98 only Eq, Ord, Enum could been inherited.
-***** TypeApplications
-Allows to use visible type application in expressions.
-A visible type application is preceded with an @ sign.
-
-#+begin_src haskell
-:type pure @[]
-pure @[] :: a -> [a]
-
-:type (<*>) @[]
-(<*>) @[] :: [a -> b] -> [a] -> [b]
-
---
-
-instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
-
-λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
-    12
-#+end_src
-**** How to make a GHC LANGUAGE extension
-In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
-#+begin_src haskell
-data Extension
-  = Cpp
-  | OverlappingInstances
-  ...
-  | Foo
-#+end_src
-
-`/main/DynFlags.hs` extend `xFlagsDeps`:
-#+begin_src haskell
-xFlagsDeps = [
-  flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
-  ...
-  flagSpec "Foo"                 LangExt.Foo
-]
-#+end_src
-It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
