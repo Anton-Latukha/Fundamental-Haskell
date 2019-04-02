@@ -35,7 +35,7 @@ Object which from different points of view has different projections. Thou from 
 While this word has two contradictory meaning, one was chosen.
 ** Anamorphism
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
-Is a [[function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
+Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
 ** Anonymous function
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
@@ -296,6 +296,8 @@ Category (/C/) consists of the [[Basis]]:
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** Object
 See [[Category]]
+*** Category theory
+See [[Category]]
 ** Closed-form expression
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 ** Closed set
@@ -353,7 +355,7 @@ See: [[Ad hoc polymorphism]]
 Short for [[Construct]].
 ** Constructor
 1. [[Type constructor]]
-2. [[Data onstructor]]
+2. [[Data constructor]]
 
 Also see: [[Constant]]
 ** Contravariant
@@ -412,7 +414,7 @@ Any combination of * and ->
 
 Type that take more types as arguments.
 *** Product data type
-[[Algebraic data type]] formed by logical [[Conjuction][conjunction]] (AND ' ').
+[[Algebraic data type]] formed by logical [[Conjunction][conjunction]] (AND ' ').
 *** Sum data type
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration
@@ -451,12 +453,13 @@ For FP see [[Bind]].
 ** Expression
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class
-1. Can be used as [[Value][value]].
+1. Can be used as value.
 2. Passed as an [[Argument][argument]].
+From 1&2 -> can include itself.
 ** Fold
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
-** Free variables
-Variables in the fuction that is not bound by the head.
+** Free variable
+Variable in the fuction that is not bound by the head.
 They live empty and fuction as so is not fully applied.
 ** Function
 A varying quantity depends on another quantity.
@@ -469,11 +472,11 @@ Directionality and property of invariability emerge from one another.
    *      ->   *
 #+end_src
 
-$$ y(x) = (ax^{2} + 2x + 3 | a = 5) $$
+$$ y(x) = (yx^{2} + bx + 3 | b = 5) $$
 ^ ^     ^^    ^    ^
-| |     ||     \____\__Constants
-| |     | \_[[Free variable][Free_variable]]
-| |     \__Variable
+| |     ||     \_Var \__Constants
+| |     | \__Bound__variable
+| |     \_[[Free variable][Free variable]]
 |  \_[[Parameter][Parameter]]
  \__Name__of__the__function
 
@@ -513,6 +516,8 @@ class Functor f where
 #+end_src
 Functor is a type class for function application "over/through" ignored/untouched structure f.
 Functor abides [[Functor laws]].
+*** fmap
+See: [[Functor]]
 ** Functor laws
 Type instance of functor should abide this laws:
 1. Identity law
