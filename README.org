@@ -1358,6 +1358,10 @@ Often it is convinient to abstract testing of same function properties:
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> Bool) -> Property
 #+end_src
+***** Equivalence
+#+begin_src haskell
+:: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
+#+end_src
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
