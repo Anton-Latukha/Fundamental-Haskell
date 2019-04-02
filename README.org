@@ -1764,8 +1764,10 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
-** Useful LANGUAGE options
-*** Useful by default
+** Pragma
+*** LANGUAGE pragma
+**** LANGUAGE options
+***** Useful by default
 #+begin_src haskell
 import EmptyCase
 import FlexibleContexts
@@ -1773,3 +1775,12 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
+***** GeneralisedNewtypeDeriving
+Allows `deriving` to inherit any instances of representation type.
+#+begin_src haskell
+newtype Dollars = Dollars Int
+  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
+#+end_src
+This is all instances `Int` has.
+
+In Haskell98 only Eq, Ord, Enum could been inherited.
