@@ -1324,6 +1324,22 @@ In property testing you need to think additionally about [[Generator][generator]
 | Special subset of values | Exhaustive specialised property test | Randomised specialised property test |                           |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 *** QuickCheck simple description
+**** Generator
+#+begin_src text
+Seed
+|
+v
+Gen A -> A
+^
+|
+Size
+#+end_src
+
+Seed allows reproducibility.
+There is anyway a need to have some seed.
+Size allows setting upper bound on size of generated value. Think about infinity of list.
+
+After failed test - shrinking tests value parts of contrexample, finds a part that still fails, and recurses shrinking.
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
