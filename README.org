@@ -110,6 +110,7 @@ And if there is two Left's - to Left of the first argument.
 **** Validation applicative
 The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
 For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
+Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
 *** Applicative functions
 **** liftA*
 ***** liftA
