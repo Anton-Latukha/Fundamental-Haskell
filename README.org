@@ -1540,7 +1540,7 @@ pure (a, b)
 #+end_src
 (f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
 **** Applicative block vs Monad block
-With Type Applicative every condition fails/succseeds independently.
+With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 ** Endofunctor category
 From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
