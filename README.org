@@ -1340,6 +1340,14 @@ There is anyway a need to have some seed.
 Size allows setting upper bound on size of generated value. Think about infinity of list.
 
 After failed test - shrinking tests value parts of contrexample, finds a part that still fails, and recurses shrinking.
+***** Custom generator
+When sertain theorem only works for a specific set of values - the according generator needs to be produced.
+
+#+begin_src haskell
+arbitrary :: Arbitrary a => Gen a
+suchThat :: Gen a -> (a -> Bool) -> Gen a
+elements :: [a] -> Gen a
+#+end_src
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
