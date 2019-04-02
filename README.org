@@ -1802,3 +1802,22 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
     12
 #+end_src
+**** How to make a GHC LANGUAGE extension
+In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
+#+begin_src haskell
+data Extension
+  = Cpp
+  | OverlappingInstances
+  ...
+  | Foo
+#+end_src
+
+`/main/DynFlags.hs` extend `xFlagsDeps`:
+#+begin_src haskell
+xFlagsDeps = [
+  flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
+  ...
+  flagSpec "Foo"                 LangExt.Foo
+]
+#+end_src
+It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
