@@ -1350,6 +1350,32 @@ elements :: [a] -> Gen a
 #+end_src
 **** Reusing test code
 Often it is convinient to abstract testing of same function properties:
+
+It can be done with (aka TestSuite [[Combinator][combinator]]):
+#+begin_src haskell
+-- Definition
+{-# LANGUAGE ScopedTypeVariables #-}
+{-# LANGUAGE AllowAmbiguousTypes #-}
+eqSpec :: forall a. Arbitrary a => Spec
+
+-- Usage
+{-# LANGUAGE TypeApplications #-}
+spec :: Spec
+spec = do
+  eqSpec @Int
+#+end_src
+
+#+begin_src haskell
+Eq Int
+  (==) :: Int -> Int -> Bool
+    is reflexive
+    is symetric
+    is transitive
+    is equivalent to (\ a b -> not $ a /= b)
+  (/=) :: Int -> Int -> Bool
+    is antireflexive
+    is equivalent to (\ a b -> not $ a == b)
+#+end_src
 ***** Commutativity
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> a) -> Property
