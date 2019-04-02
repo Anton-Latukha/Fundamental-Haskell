@@ -1388,6 +1388,11 @@ Eq Int
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
 #+end_src
+***** Inverse
+#+begin_src haskell
+:: (Arbitrary a, Eq b) => (a -> b) -> (b -> a) -> Property
+#+end_src
+
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
