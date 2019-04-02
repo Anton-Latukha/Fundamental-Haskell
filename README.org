@@ -5,23 +5,22 @@
 Is which:
   * has a zero object,
   * has all binary biproducts,
-  * has all kernels and cokernels,
+  * has all [[Kernel][kernel]]s and cokernels,
   * (it has all pullbacks and pushouts)
-  * all monomorphisms and epimorphisms are normal.
-Abelian categories are very stable categories; for example they are regular and they satisfy the snake lemma.
+  * all [[Monomorphism][monomorphism]]s and [[Epimorphism][epimorphism]]s are normal.
+Abelian [[Category][category]] are very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
-** Abstraction
-Generalization of process.
-It is great did to name an abstraction ([[Denotational semantics]]).
 ** Abstraction
 abs away from, off (in absentia)
 tractus draw, haul, drag
 
-Purified generalization, conclusion.
+
+Purified generalization of process.
+It is great did to name an abstraction ([[Denotational semantics]]).
 ** Actual type
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra
-"al-jabr" - assemble parts.
+al-jabr - assemble parts.
 A system of algebra based on given axioms.
 
 ---
@@ -40,7 +39,7 @@ Is a [[function]] that generates a sequence by repeated [[Application][applicati
 ** Anonymous function
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
-For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen
+For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 ** Application memory
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
@@ -171,17 +170,16 @@ liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 
 Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
 See [[Applicative]].
 ** Arbitrary function
-Depends on type and generates values of the type.
+Depends on type and generates values of that type.
 ** Arbitrary type class
 [[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
-Useful function is arbitrary - that autoassumes/generates values.
-** Argument
-Is an input value to a [[Function][function]] [[Parameter][parameter]].
+Useful function is [[Arbitrary function][arbitrary]] - that autoassumes/generates values.
 ** Argument
 arguere to make clear, to shine
 argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
+Is an input value to a [[Function][function]] [[Parameter][parameter]].
 ** Arity
 Number of [[Parameter][parameters]] of the [[Function][function]].
   * nullary - f()
@@ -197,9 +195,9 @@ f list@(x, xs) = ...
 Statement.
 Утверждение.
 ** Associative law
+Joined by a common purpose.
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
-Joined by a common purpose.
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
