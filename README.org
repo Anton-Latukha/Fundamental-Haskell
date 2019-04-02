@@ -1311,6 +1311,9 @@ See [[Differential operator]]
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
 *** Property testing types
+*** Property testing
+Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
+And tests cases come from [[Generator][generator]].
 **** Property
 Property corresponds to the according law.
 In property testing you need to think additionally about [[Generator][generator]]s and [[Shrinking][shrinking]].
