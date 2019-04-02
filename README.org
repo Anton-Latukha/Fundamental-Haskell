@@ -1559,6 +1559,11 @@ Abelian categories are very stable categories; for example they are regular and 
 The class of Abelian categories is closed under several categorical constructions.
 ** Guerrilla patch
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
+[[Monkey patch]] is derivative term.
+** Monkey patch
+/From [[Guerrilla patch]]./
+
+/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
 * Give definitions
 ** Kleisli category
 ** Free object
