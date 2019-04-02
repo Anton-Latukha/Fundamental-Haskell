@@ -1306,10 +1306,6 @@ $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
 ** Testing
-*** Write tasts algorithm
-1. Pick the right language/stack to implement features.
-2. How expensive breakage can be.
-3. Pick the right tools to test this.
 *** Property testing types
 *** Property testing
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
@@ -1323,7 +1319,6 @@ In property testing you need to think additionally about [[Generator][generator]
 | Whole set of values      | Exhaustive property test             | Randomised property test             |                           |
 | Special subset of values | Exhaustive specialised property test | Randomised specialised property test |                           |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
-*** QuickCheck simple description
 **** Generator
 #+begin_src text
 Seed
@@ -1393,10 +1388,15 @@ Eq Int
 :: (Arbitrary a, Eq b) => (a -> b) -> (b -> a) -> Property
 #+end_src
 
+**** QuickCheck
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
 `quickCheck` runs the loop and tests.
+*** Write tests algorithm
+1. Pick the right language/stack to implement features.
+2. How expensive breakage can be.
+3. Pick the right tools to test this.
 ** IO
 Haskell standard uses monad for constructing and transforming IO actions.
 IO actions can be evaluated multiple times.
