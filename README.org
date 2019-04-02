@@ -225,7 +225,7 @@ Denotation:
 f : X ⤖ Y
 #+end_src
 LaTeX needed to combine symbols:
-$$ \newcommand*{\twoheadrightarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrightarrowtail Y $$
+$$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
 *** Bijective
 See [[Bijection]].
 *** Bijective function
