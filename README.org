@@ -1306,13 +1306,13 @@ $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
 ** Testing
-*** Property testing types
 *** Property testing
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
 And tests cases come from [[Generator][generator]].
 **** Property
 Property corresponds to the according law.
 In property testing you need to think additionally about [[Generator][generator]]s and [[Shrinking][shrinking]].
+**** Property testing types
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
