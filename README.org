@@ -1425,11 +1425,20 @@ main = twoBinds
 μονάδα /monáda/ unit
 
 A [[Monoid]] in [[Endofunctor category]].
-Monads are applicative functors (lax monoidal.
+Monads are [[Applicative functor][applicative functors]] with natural transformation.
 
 Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
 
 Monadic internals are Haskell data types, so they can be consumed any number of times.
+
+Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
+
+Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
+#+begin_src haskell
+import Control.Monad (ap)
+
+(<*>) == ap
+#+end_src
 *** Functor -> Applicative -> Monad progression
 #+begin_src haskell
 <$> ::     Functor f =>    (a -> b)   -> f a -> f b
