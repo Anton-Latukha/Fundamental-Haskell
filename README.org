@@ -889,6 +889,13 @@ See [[Point-free]]
 See [[Point-free]]
 **** Tacit programming
 See [[Point-free]]
+*** Swing
+#+begin_src haskell
+swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
+swing = flip . (. flip id)
+swing f = flip (f . runCont . return)
+swing f c a = f ($ a) c
+#+end_src
 ** Polymorphism
 At once several forms.
 
