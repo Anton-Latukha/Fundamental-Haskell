@@ -1764,3 +1764,12 @@ https://codesearch.aelve.com/
 ** HTML - Lucid
 ** Web applications - Servant
 * Misc
+** Useful LANGUAGE options
+*** Useful by default
+#+begin_src haskell
+import EmptyCase
+import FlexibleContexts
+import FlexibleInstances
+import InstanceSigs
+import MultiParamTypeClasses
+#+end_src
