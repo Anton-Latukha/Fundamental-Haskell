@@ -1557,6 +1557,8 @@ Is which:
   * all monomorphisms and epimorphisms are normal.
 Abelian categories are very stable categories; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
+** Guerrilla patch
+/*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 * Give definitions
 ** Kleisli category
 ** Free object
