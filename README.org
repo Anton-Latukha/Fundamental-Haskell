@@ -1564,6 +1564,24 @@ The class of Abelian categories is closed under several categorical construction
 /From [[Guerrilla patch]]./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
+** Case
+#+begin_src haskell
+case x of
+    | pattern1  -> ex1
+    | pattern2  -> ex2
+    | pattern3  -> ex3
+    | otherwise -> exDefault
+#+end_src
+
+Syntatic sugar with guards allows usage of expressions:
+#+begin_src haskell
+case () of _
+             | expr1     -> ex1
+             | expr2     -> ex2
+             | expr3     -> ex3
+             | otherwise -> exDefault
+#+end_src
+
 * Give definitions
 ** Kleisli category
 ** Free object
