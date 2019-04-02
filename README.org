@@ -472,7 +472,7 @@ Directionality and property of invariability emerge from one another.
    *      ->   *
 #+end_src
 
-$$ y(x) = (yx^{2} + bx + 3 | b = 5) $$
+$$ y(x) = (zx^{2} + bx + 3 | b = 5) $$
 ^ ^     ^^    ^    ^
 | |     ||     \_Var \__Constants
 | |     | \__Bound__variable
@@ -516,9 +516,7 @@ class Functor f where
 #+end_src
 Functor is a type class for function application "over/through" ignored/untouched structure f.
 Functor abides [[Functor laws]].
-*** fmap
-See: [[Functor]]
-** Functor laws
+*** Functor laws
 Type instance of functor should abide this laws:
 1. Identity law
 #+begin_src haskell
@@ -529,6 +527,8 @@ fmap id == id
 fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+*** fmap
+See: [[Functor]]
 ** Fundamental theorem of algebra
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
