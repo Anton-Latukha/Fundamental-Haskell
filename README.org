@@ -896,6 +896,11 @@ swing = flip . (. flip id)
 swing f = flip (f . runCont . return)
 swing f c a = f ($ a) c
 #+end_src
+*** Squish
+#+begin_src haskell
+f >>= a . b . c =<< g
+#+end_src
+
 ** Polymorphism
 At once several forms.
 
