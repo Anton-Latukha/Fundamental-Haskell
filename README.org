@@ -1350,6 +1350,10 @@ elements :: [a] -> Gen a
 #+end_src
 **** Reusing test code
 Often it is convinient to abstract testing of same function properties:
+***** Commutativity
+#+begin_src haskell
+:: Arbitrary a => (a -> a -> a) -> Property
+#+end_src
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
