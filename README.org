@@ -1784,3 +1784,21 @@ newtype Dollars = Dollars Int
 This is all instances `Int` has.
 
 In Haskell98 only Eq, Ord, Enum could been inherited.
+***** TypeApplications
+Allows to use visible type application in expressions.
+A visible type application is preceded with an @ sign.
+
+#+begin_src haskell
+:type pure @[]
+pure @[] :: a -> [a]
+
+:type (<*>) @[]
+(<*>) @[] :: [a -> b] -> [a] -> [b]
+
+--
+
+instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
+
+λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
+    12
+#+end_src
