@@ -1285,12 +1285,11 @@ For exampe - if fold over a dynamic array:
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 ** Pragma
-Pragma - instruction to the compiler placed in the source code that specifies how a compiler should process the code.
+Pragma - instruction to the compiler that specifies how a compiler should process the code.
 Pragma in Haskell have form:
 #+begin_src haskell
 {-# PRAGMA options #-}
 #+end_src
-** Pragma
 *** LANGUAGE pragma
 **** LANGUAGE options
 ***** Useful by default
@@ -1348,7 +1347,7 @@ xFlagsDeps = [
 ]
 #+end_src
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
-** Pragma option
+*** Pragma option
 Values supplied to the [[Pragma]] directive.
 ** Predicate
 [[Assertion]] includes variable.
