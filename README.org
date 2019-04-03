@@ -208,26 +208,6 @@ AKA see [[Category theory]], or Euclidian geometry basis.
 No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction
 Applying [[Function][function]] to an [[Argument][argument]].
-** Bijection
-[[Function]] complete one-to-one pairing of elements of domain and codomain (image).
-It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
-
-For bijection inverse always exists.
-
-Bijective operation holds the equivalence of domain and codomain.
-
-Denotation:
-#+begin_src text
-⤖
->->>
-f : X ⤖ Y
-#+end_src
-LaTeX needed to combine symbols:
-$$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
-*** Bijective
-See [[Bijection]].
-*** Bijective function
-See [[Bijection]].
 ** Binary
 Two of something.
 ** Binary operation
@@ -505,6 +485,26 @@ AKA: f(x)
 ** Function range
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see [[Function image]].
+*** Bijection
+[[Function]] complete one-to-one pairing of elements of domain and codomain (image).
+It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
+
+For bijection inverse always exists.
+
+Bijective operation holds the equivalence of domain and codomain.
+
+Denotation:
+#+begin_src text
+⤖
+>->>
+f : X ⤖ Y
+#+end_src
+LaTeX needed to combine symbols:
+$$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
+**** Bijective
+See [[Bijection]].
+**** Bijective function
+See [[Bijection]].
 ** Functor
 Functor is a map between categories.
 
@@ -1801,6 +1801,7 @@ quickCheck :: Testable prop => prop -> IO ()
 
 quickCheck . verbose - run verbose mode
 #+end_src
+
 * Investigate
 ** Control.Monad
 * Debugger
