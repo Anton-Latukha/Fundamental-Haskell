@@ -485,6 +485,26 @@ Function application is applying the function to an argument from its domain to 
 *** Function range
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see [[Function image]].
+*** Injection
+[[Function]] one-to-one injects from domain to codomain.
+Keeps distinct pairing of elements of domain and image.
+Every element in image coresponds to one element in domain.
+
+$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
+
+Denotion:
+#+begin_src text
+↣
+>->
+f : X ↣ Y
+#+end_src
+$f : X \rightarrowtail Y$
+
+Corresponds to [[Monomorphism]].
+**** Injective
+See [[Injection]].
+**** Injective function
+See [[Injection]].
 *** Bijection
 [[Function]] complete one-to-one pairing of elements of domain and codomain (image).
 It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
@@ -610,26 +630,6 @@ Operaton in-between variables.
 What [[Values][values]] inhabit [[Data type][data type]]
 ** Initial object
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
-** Injection
-[[Function]] one-to-one injects from domain to codomain.
-Keeps distinct pairing of elements of domain and image.
-Every element in image coresponds to one element in domain.
-
-$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
-
-Denotion:
-#+begin_src text
-↣
->->
-f : X ↣ Y
-#+end_src
-$f : X \rightarrowtail Y$
-
-Corresponds to [[Monomorphism]].
-*** Injective
-See [[Injection]].
-*** Injective function
-See [[Injection]].
 ** Interface
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO
