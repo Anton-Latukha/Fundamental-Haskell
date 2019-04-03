@@ -559,6 +559,9 @@ Haskell Functor [[Type class]] corresponds to mathematical Powerset functor.
 | $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        |
 | $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |
 Where $$ \eta,\mu $$ are [[Natural transformation]]s.
+
+For functor instance to work [[Higher-kinded data type]]s type must be [[Functional application][applied]] until it has kind =( * -> * )=, and after functors can be [[Functional composition][composed]] to [[Lift][lift]] through layers of structure.
+
 Functor abides [[Functor laws]].
 *** Functor laws
 Type instance of functor should abide this laws:
