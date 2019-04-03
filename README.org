@@ -1101,7 +1101,7 @@ Contrary to the [[Argument]] wich is a supplied value to a function.
 ** Partial application
 Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
 ** Partial function
-Does not cover all cases.
+One that does not cover all [[Domain]].
 Unsafe and causes trouble.
 ** Permutation
 [[Bijective]] [[function]] from [[Domain][domain]] to itself.
