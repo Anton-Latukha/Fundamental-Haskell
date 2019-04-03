@@ -505,6 +505,24 @@ Corresponds to [[Monomorphism]].
 See [[Injection]].
 **** Injective function
 See [[Injection]].
+*** Surjection
+[[Function]] uses codomain fully.
+
+$$ \forall y \in Y, \exists x \in X $$
+
+Denotation:
+#+begin_src text
+↠
+->>
+f : X ↠ Y
+#+end_src
+$$ f : X \twoheadrightarrow Y $$
+
+Corresponds to [[Epimorphism]].
+**** Surjective
+See [[Surjection]].
+**** Surjective function
+See [[Surjection]].
 *** Bijection
 [[Function]] complete one-to-one pairing of elements of domain and codomain (image).
 It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
@@ -1462,24 +1480,6 @@ Like in Haskell.
 In most languages typing is not structural - but name-based.
 ** Superclass
 Broader parent class.
-** Surjection
-[[Function]] uses codomain fully.
-
-$$ \forall y \in Y, \exists x \in X $$
-
-Denotation:
-#+begin_src text
-↠
-->>
-f : X ↠ Y
-#+end_src
-$$ f : X \twoheadrightarrow Y $$
-
-Corresponds to [[Epimorphism]].
-*** Surjective
-See [[Surjection]].
-*** Surjective function
-See [[Surjection]].
 ** Syntatic sugar
 Artificial way to make language easier to read and write.
 ** System F
