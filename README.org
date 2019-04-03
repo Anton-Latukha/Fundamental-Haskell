@@ -921,6 +921,8 @@ m >>= return == m
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\x -> f x >>= g)
 #+end_src
+*** Comonad
+[[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** Monkey patch
 /From [[Guerrilla patch]]./
 
