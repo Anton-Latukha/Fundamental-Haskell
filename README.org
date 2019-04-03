@@ -438,7 +438,7 @@ From 1&2 -> can include itself.
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variable
 Variable in the fuction that is not bound by the head.
-They live empty and fuction as so is not fully applied.
+On application to the head - they are note bound to values, so fuction stays [[partial application][partially applied]].
 ** Function
 A varying quantity depends on another quantity.
 
