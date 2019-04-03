@@ -758,7 +758,9 @@ There are 3 general linear type groups:
 
 Linear types are great to control/minimize resource usage.
 ** Local
-[[Scope]] applies only in an area
+[[Scope]] applies only in an area.
+*** Local scope
+See: [[Local]]
 ** Magma
 Set with a single binary operation.
 
