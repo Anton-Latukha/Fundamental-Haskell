@@ -551,6 +551,14 @@ class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
 Functor in Haskell is a [[Type class][type class]] presents of which allows [[Function application][function application]] "over/through" type structure layers (denoted /f/ of /m/). [[IO]] is also such structure.
+
+Haskell Functor [[Type class]] corresponds to mathematical Powerset functor.
+| Mathematics                | Math definition                  | Haskell                               |
+|----------------------------+----------------------------------+---------------------------------------|
+| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b |
+| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        |
+| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |
+Where $$ \eta,\mu $$ are [[Natural transformation]]s.
 Functor abides [[Functor laws]].
 *** Functor laws
 Type instance of functor should abide this laws:
