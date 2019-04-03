@@ -36,8 +36,6 @@ While this word has two contradictory meaning, one was chosen.
 ** Anamorphism
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
-** Anonymous function
-[[Lambda function]] without the name to [[Bind][bind]] to.
 ** Application
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 ** Application memory
@@ -345,7 +343,7 @@ AND
 Cell that values may inhabit.
 ** Constant
 Nullary constructor
-** Constrain
+** Constraint
 See: [[Ad hoc polymorphism]]
 ** Construct
 #+begin_src haskell
@@ -712,6 +710,7 @@ See [[Lambda function]]
 ** Language option
 Language option - control what variations of the language are permitted.
 It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
+[[Lambda function]] without the name to [[Bind][bind]] to.
 ** Leaf
  _
 ** Left associative
