@@ -1457,6 +1457,7 @@ Also 1-tuple.
 Place extra [[Constraints][constraints]] on the construction of values.
 ** Spine
 #+begin_src text
+Array:
 
   :
  / \
@@ -1468,6 +1469,7 @@ Place extra [[Constraints][constraints]] on the construction of values.
 
 1:2:3:[]
 
+Spine:
   :
  / \
 _   :
