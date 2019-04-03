@@ -724,10 +724,6 @@ $$ \lambda x y.x^2 + y^3 $$
 *** Lambda expression
 See [[Lambda function]]
 *** Anonymous function
-See [[Lambda function]]
-** Language option
-Language option - control what variations of the language are permitted.
-It has a set of allowed values: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied to Language [[Pragma]].
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Leaf
  _
@@ -745,6 +741,9 @@ There are mainly three levels of Haskell code.
 **** Compilation level
 *** Runtime level
 [[Level of code]] when binary code executes in machine.
+*** Synonims
+**** Code level
+See [[Level of code]]
 ** Lexical scope
 Scope search sourcecode blocks structure determined.
 ** Lift
@@ -1483,9 +1482,9 @@ _   :
 Declarative sentence that is true or false.
 Gonzales: "What code does."
 ** Static typing
-Static typechecking occurs at [[Level of code][compile time]]
+Static typechecking occurs at [[Compile level][compile level]].
 ** Structural type
-Is a type in the real mathematical sence, in the Structural Type System.
+Is a [[Type][type]] in the real mathematical sence, in the Structural Type System.
 The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
 Like in Haskell.
 In most languages typing is not structural - but name-based.
@@ -1508,8 +1507,6 @@ Tensor of rank 1 is a vector.
 Tensors can be seen as [[Functor]]s.
 ** Terminal object
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
-** Term level
-See: [[Level of code]]
 ** Testing
 *** Property testing
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
@@ -1635,8 +1632,6 @@ Automatic [[Data type][data type]] detection of [[Expresion][expression]].
 ** Type instance
 Unique [[Type class][type class]]->[[Data type][type]] pairing.
 Defines type class->type methods.
-** Type level
-See: [[Level of code]]
 ** Type variable
 Refer to an unspecified type in Haskell type signature.
 ** Uncurry
