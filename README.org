@@ -464,8 +464,6 @@ Function is a mathematical [[Operation][operation]].
 Function = Total function = Pure function. Function theoretically posible to momoized.
 [[Partial function]].
 Inverse function - often partially exists (partial function).
-** Function application
-Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 ** Function body
 [[Expression]] that haracterizes the process.
 ** Function composition
@@ -483,6 +481,8 @@ h.g.f $ i
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
 ** Function range
+*** Function application
+Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see [[Function image]].
 *** Bijection
