@@ -267,7 +267,7 @@ case () of _
 Category (/C/) consists of the [[Basis]]:
   1. Objects - ob(/C/). A node. Object of some type. Often sets, than it is [[SET category]].
   2. [[Morphism]]s - C(a,b), [[Hom-set][hom(a,b)]]. Mappings, total functions.
-  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$
+  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$. In other words morpisms correspond to [[Principle of compositionality]].
   4. Axiom of [[Associative law][Associativity]]: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
   5. Axiom of two sided [[Identity]] of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
