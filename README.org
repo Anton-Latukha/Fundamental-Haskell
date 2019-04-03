@@ -465,6 +465,9 @@ Function = Total function = Pure function. Function theoretically posible to mom
 [[Partial function]].
 Inverse function - often partially exists (partial function).
 ** Function body
+*** Function head
+Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
+AKA: f(x)
 [[Expression]] that haracterizes the process.
 ** Function composition
 #+begin_src haskell
@@ -477,9 +480,6 @@ In Haskell inline composition requires:
 #+begin_src haskell
 h.g.f $ i
 #+end_src
-** Function head
-Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
-AKA: f(x)
 ** Function range
 *** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
