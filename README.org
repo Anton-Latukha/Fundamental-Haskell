@@ -736,9 +736,15 @@ Same level [[Exression][expression]] parts in reality follow grouping from left 
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 ** Level of code
 There are mainly three levels of Haskell code.
-- [[Type level]]: part that works with [[Data type][data types]]
-- [[Term level]]: logical execution part of the code
-- Compile level: level when code compiles/compiled
+*** Term level
+[[Level of code]] that works with [[Data type][data types]]
+*** Type level
+[[Level of code]] that does logical execution.
+*** Compile level
+[[Level of code]] when code compiles/compiled.
+**** Compilation level
+*** Runtime level
+[[Level of code]] when binary code executes in machine.
 ** Lexical scope
 Scope search sourcecode blocks structure determined.
 ** Lift
