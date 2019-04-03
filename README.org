@@ -553,6 +553,7 @@ class Functor f where
 Functor in Haskell is a [[Type class][type class]] presents of which allows [[Function application][function application]] "over/through" type structure layers (denoted /f/ of /m/). [[IO]] is also such structure.
 
 Haskell Functor [[Type class]] corresponds to mathematical Powerset functor.
+Powerset functor is unique to the [[Category][category]] ([[Type][data type]]).
 | Mathematics                | Math definition                  | Haskell                               |
 |----------------------------+----------------------------------+---------------------------------------|
 | $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b |
@@ -561,6 +562,8 @@ Haskell Functor [[Type class]] corresponds to mathematical Powerset functor.
 Where $$ \eta,\mu $$ are [[Natural transformation]]s.
 
 For functor instance to work [[Higher-kinded data type]]s type must be [[Functional application][applied]] until it has kind =( * -> * )=, and after functors can be [[Functional composition][composed]] to [[Lift][lift]] through layers of structure.
+
+Functor can be used to filter-out error cases (Nothing & Left cases) in [[Maybe]], [[Either]] and related types.
 
 Functor abides [[Functor laws]].
 *** Functor laws
