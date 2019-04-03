@@ -574,7 +574,12 @@ fmap id == id
 fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
-*** fmap
+*** Lift
+Lift is to do a function application through the data structure.
+*** Synonims
+**** Powerset functor
+See: [[Functor]]
+**** fmap
 See: [[Functor]]
 ** Fundamental theorem of algebra
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -757,8 +762,6 @@ There are mainly three levels of Haskell code.
 See [[Level of code]]
 ** Lexical scope
 Scope search sourcecode blocks structure determined.
-** Lift
-Lift is to do a function application through the data structure.
 ** Linear type
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
