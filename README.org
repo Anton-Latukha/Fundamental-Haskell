@@ -1403,7 +1403,7 @@ Is not directed and not limited.
 ** REPL
 Interactive CLI. Read-eval-print loop.
 ** Scope
-Area where [[Bind][bind]] is accessible.
+Area where [[Bind][bind]]s are accessible.
 ** Sectioning
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Semantics
@@ -1440,7 +1440,7 @@ Well-defined collection of distinct objects.
 ** SET category
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing
-Global scope variable overriden by variable in local scope.
+Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
 ** Shift operator
 Shift operator defined by Lagrange through Differential operator.
 $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
