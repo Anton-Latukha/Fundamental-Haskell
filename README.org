@@ -1452,7 +1452,7 @@ Process of reducing coplexity in the test case - re-run with smaller values and 
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 ** Smart constructor
-Place extra constraints on the construction of values.
+Place extra [[Constraints][constraints]] on the construction of values.
 ** Spine
 #+begin_src text
 
