@@ -550,7 +550,7 @@ Functor is a map between categories.
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
-Functor is a type class for function application "over/through" ignored/untouched structure f.
+Functor in Haskell is a [[Type class][type class]] presents of which allows [[Function application][function application]] "over/through" type structure layers (denoted /f/ of /m/). [[IO]] is also such structure.
 Functor abides [[Functor laws]].
 *** Functor laws
 Type instance of functor should abide this laws:
