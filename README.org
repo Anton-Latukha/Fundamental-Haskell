@@ -1333,7 +1333,7 @@ Pragma in Haskell have form:
 *** LANGUAGE pragma
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
-**** LANGUAGE options
+**** LANGUAGE option
 ***** Useful by default
 #+begin_src haskell
 import EmptyCase
