@@ -926,8 +926,15 @@ Explanation:
 Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
 **** Right identity law
 #+begin_src haskell
-m >>= return == m
+f >>= return == f
 #+end_src
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f => f a  -> (a -> f b) -> f b
+                  f   >>=    pure    == f
+#+end_src
+[[Tacit]] description of [[Monad][monad]] as [[Endofunctor][endofunctor]].
 **** Associativity law
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\x -> f x >>= g)
