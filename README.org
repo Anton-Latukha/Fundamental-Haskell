@@ -917,6 +917,13 @@ Drops sequencing computation as soon as Left arrives.
 #+begin_src haskell
 return x >>= f == f x
 #+end_src
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f =>    f a  -> (a -> f b) -> f b
+                  pure x >>=     f      == f x
+#+end_src
+Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
 **** Right identity law
 #+begin_src haskell
 m >>= return == m
