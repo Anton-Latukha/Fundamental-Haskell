@@ -912,6 +912,7 @@ Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 *** Either monad
 Drops sequencing computation as soon as Left arrives.
 *** Monad laws
+[[Pure]] ([[Return]]) should only put [[Argument][argument]] into structure.
 **** Left identity law
 #+begin_src haskell
 return x >>= f == f x
