@@ -1074,6 +1074,9 @@ Roughly  /*/ is:
 trans :: forall a. F a -> G a
 #+end_src
 
+/*/ provides a way of transforming one [[Functor]] into another, while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
+/*/ is a "morphism of functors", especially in functor categories.
+
 ** newtype declaration
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
