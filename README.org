@@ -579,6 +579,8 @@ fmap (f.g) == fmap f . fmap g
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 *** Lift
 Lift is to do a [[Function application][function application]] through the data structure.
+*** Forgetful functor
+[[Functor]] that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
 *** Synonims
 **** Powerset functor
 See: [[Functor]]
@@ -1702,8 +1704,6 @@ Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
-** Forgetful functor
-[[Functor]]  that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
 * Give definitions
 ** Kleisli category
 ** Free object
