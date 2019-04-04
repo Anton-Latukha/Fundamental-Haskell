@@ -1780,6 +1780,10 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** Lax monoidal functor
 ** Tensorial strength
 ** Strong monad
+** Either
+Allows to separate and preserve information about happened, ex. error handling.
+*** Either data type
+See [[Either]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
