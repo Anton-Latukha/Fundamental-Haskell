@@ -820,7 +820,7 @@ class Applicative m => Monad m where
 #+end_src
 
 *** Monad functions
-**** Return == pure
+**** Return
 #+begin_src haskell
 return == pure
 #+end_src
