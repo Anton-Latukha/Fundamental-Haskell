@@ -1069,8 +1069,10 @@ Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into s
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 ** Natural transformation
-Natural transformation provides a way of transforming one [[Functor]] into another while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
-Natural transformation is a "morphism of functors", especially in functor categories.
+Roughly  /*/ is:
+#+begin_src haskell
+trans :: forall a. F a -> G a
+#+end_src
 
 ** newtype declaration
 Creates a new type from old type using a new constructor.
