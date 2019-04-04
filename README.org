@@ -1702,6 +1702,8 @@ Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
+** Forgetful functor
+[[Functor]]  that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
 * Give definitions
 ** Kleisli category
 ** Free object
