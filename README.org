@@ -1435,7 +1435,7 @@ See: [[\Psi-combinator]]
 ** Quantifier
 Specifies the quantity of specimens.
 
-Two most common quantifiers $$ \forall $$ and $$ \exists $$.
+Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exist).
 ** Recursion
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex
