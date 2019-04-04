@@ -1436,6 +1436,13 @@ See: [[\Psi-combinator]]
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exist).
+*** Forall quantifier
+Permits to not [[Type inference][infer]] the type, but to use any that fits. The variant depends on the [[LANGUAGE option]] used:
+[[ScopedTypeVariables]]
+[[RankNTypes
+]][[ExistentialQuantification]]
+**** Forall
+See [[Forall quantifier]]
 ** Recursion
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex
