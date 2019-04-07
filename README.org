@@ -1757,6 +1757,11 @@ Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
+** Bound
+To have a bound.
+Haskell [[Data type][types]] has a [[Type class][type class]] which means the according types have lowest and maximum values, so they have a bounded range of values.
+*** Bounded
+See [[Bound]]
 * Give definitions
 ** Kleisli category
 ** Free object
