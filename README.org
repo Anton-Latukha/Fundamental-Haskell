@@ -1874,6 +1874,8 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 ** About operators (<$) (*>) (<*) (>>)
 Where character is not present - discards the according value.
+** About operators mapM_ sequence_
+Trailing /_/ means ignoring the result.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
