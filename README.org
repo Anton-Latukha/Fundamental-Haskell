@@ -1872,6 +1872,8 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Model the types
 **** Think how to write computations
 *** Create
+** About operators (<$) (*>) (<*) (>>)
+Where character is not present - discards the according value.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
