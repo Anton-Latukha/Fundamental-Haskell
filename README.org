@@ -1789,6 +1789,9 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 Allows to separate and preserve information about happened, ex. error handling.
 *** Either data type
 See [[Either]]
+** Weak head normal form
+*** WHNF
+See [[Weak head normal form]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
