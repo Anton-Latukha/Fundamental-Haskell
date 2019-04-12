@@ -1,5 +1,5 @@
-#+STARTUP: latexpreview
-#+STARTUP: entitiespretty
+#+startup: latexpreview
+#+startup: entitiespretty
 * Definitions
 ** Abelian category
 Is which:
@@ -307,6 +307,8 @@ Not comibnators:
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** Commutative law
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
+*** Commutative
+See Commutative law
 ** Compose
 See: [[Function composition]]
 ** Composition
@@ -382,7 +384,7 @@ data [context =>] type typeVars1..n
   | ...
   | conm  cmt1..q
   [deriving]
-#+end_src haskell
+#+end_src
 ** Data type
 Data type, type.
 *** Algebraic data type
@@ -438,7 +440,7 @@ From 1&2 -> can include itself.
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variable
 Variable in the fuction that is not bound by the head.
-On application to the head - they are note bound to values, so fuction stays [[partial application][partially applied]].
+On application to the head - they are note bound to values, so fuction stays [[Partial application][partially applied]].
 ** Function
 A varying quantity depends on another quantity.
 
@@ -561,7 +563,7 @@ Powerset functor is unique to the [[Category][category]] ([[Type][data type]]).
 | $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |
 Where $$ \eta,\mu $$ are [[Natural transformation]]s.
 
-For functor instance to work [[Higher-kinded data type]]s type must be [[Functional application][applied]] until it has kind =( * -> * )=, and after functors can be [[Functional composition][composed]] to [[Lift][lift]] through layers of structure.
+For functor instance to work [[Higher-kinded data type]]s type must be [[Function application][applied]] until it has kind =( * -> * )=, and after functors can be [[Function composition][composed]] to [[Lift][lift]] through layers of structure.
 
 Functor can be used to filter-out error cases (Nothing & Left cases) in [[Maybe]], [[Either]] and related types.
 
@@ -666,7 +668,7 @@ Self-referencing definition.
 ** Infix
 Operaton in-between variables.
 ** Inhabit
-What [[Values][values]] inhabit [[Data type][data type]]
+What [[Value][values]] inhabit [[Data type][data type]]
 ** Initial object
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 ** Interface
@@ -718,7 +720,7 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
 
 /*/ has [[Lambda term][lambda terms]]:
    * variable ($$ x $$)
-   * [[Functional application][application]] ($$ (ts) $$)
+   * [[Function application][application]] ($$ (ts) $$)
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
 *** Lambda term
 See [[Lambda calculus]]
@@ -727,7 +729,7 @@ See [[Lambda calculus]]
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
-  * ([[Higher-order polymorphism]]) - types depending on terms, corresponding to dependent types.
+  * ([[Higher-rank polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
 ** Lambda function
 [[Function]] of [[Lambda calculus]].
@@ -749,7 +751,7 @@ See [[Lambda function]]
 ** Leaf
  _
 ** Left associative
-Same level [[Exression][expression]] parts in reality follow grouping from left to right.
+Same level [[Expression][expression]] parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 ** Level of code
 There are mainly three levels of Haskell code.
@@ -1060,7 +1062,7 @@ See [[Isomorphism]].
 μορφή /morphe/ form
 
 Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
-Epimorphism is a [[Monoid]], because of [[Catogoty]] [[Composition]].
+Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 **** Automorphism
 [[Endomorphism]] that is [[Isomorphism]].
 *** Catamorphism
@@ -1083,13 +1085,13 @@ trans :: forall a. F a -> G a
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
 newtype FirstName = FirstName String
-#+end_src haskell
+#+end_src
 
 Data will have exactly the same representation at runtime, as the type that is wrapped.
 
 #+begin_src haskell
 newtype Book = Book (Int, Int)
-#+end_src haskell
+#+end_src
 #+begin_src text
       (,)
       / \
@@ -1107,7 +1109,7 @@ Has a Semigroup instance but can't have a Monoid instance. It never can be an em
 #+begin_src haskell
 data NonEmpty a = a :| [a]
   deriving (Eq, Ord, Show)
-#+end_src haskell
+#+end_src
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 ** Normal form
@@ -1122,7 +1124,7 @@ Used in mathematics. Word often used for [[Infix][infix]] operations.
 ** Operator
 [[Infix]] [[Function][function]].
 ** Orphan type instance
-[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on [[type]] level.
+[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on the [[Type][type]] level.
 
 Solution for addressing orphan instances:
 1. You defined the type but not the type class?
@@ -1139,12 +1141,12 @@ Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
 ** Partial application
-Part of [[Function][function]] [[parameter][parameters]] [[Application][applied]].
+Part of [[Function][function]] [[Parameter][parameters]] [[Application][applied]].
 ** Partial function
 One that does not cover all [[Domain]].
 Unsafe and causes trouble.
 ** Permutation
-[[Bijective]] [[function]] from [[Domain][domain]] to itself.
+[[Bijective]] [[Function]] from [[Domain][domain]] to itself.
 ** Point-free
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just anough Tacit to communicate better. Mostly only partial point-free communicates better./
@@ -1213,7 +1215,7 @@ f >>= a . b . c =<< g
 ** Polymorphism
 At once several forms.
 
-To [[Abstraction][abstract]] over [[Data types][data types]].
+To [[Abstraction][abstract]] over [[Data type][data types]].
 
 
 /Antonym - [[Monomorphism]]./
@@ -1431,7 +1433,7 @@ See: [[\Psi-combinator]]
 *** On-combinator
 See: [[\Psi-combinator]]
 ** Purity
-[[Referantial transparency][Referential transparent]] [[Function][function]]
+[[Referential transparency][Referential transparent]] [[Function][function]]
 ** Quantifier
 Specifies the quantity of specimens.
 
@@ -1439,8 +1441,8 @@ Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exist)
 *** Forall quantifier
 Permits to not [[Type inference][infer]] the type, but to use any that fits. The variant depends on the [[LANGUAGE option]] used:
 [[ScopedTypeVariables]]
-[[RankNTypes
-]][[ExistentialQuantification]]
+[[RankNTypes]]
+[[ExistentialQuantification]]
 **** Forall
 See [[Forall quantifier]]
 ** Recursion
@@ -1448,12 +1450,12 @@ Repeated function application allow computing results that may require indefinit
 ** Redex
 [[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction
-See [[Beta Reduction]]
+See [[Beta reduction]]
 ** Referential transparency
 Function returns the same output given the same values to evaluate.
 
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
-Such [[Functions][functions]] are called [[Pure][pure]].
+Such [[Function][functions]] are called [[Pure][pure]].
 ** Relation
 Is not directed and not limited.
 ** REPL
@@ -1508,7 +1510,7 @@ Process of reducing coplexity in the test case - re-run with smaller values and 
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 ** Smart constructor
-Place extra [[Constraints][constraints]] on the construction of values.
+Place extra [[Constraint][constraints]] on the construction of values.
 ** Spine
 #+begin_src text
 Array:
@@ -1725,11 +1727,11 @@ Nullary type constructor is [[Type constant]]
 Synonim for existing type. Uses the same data constructor.
 #+begin_src haskell
 type FirstName = String
-#+end_src haskell
+#+end_src
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
 ** Type inference
-Automatic [[Data type][data type]] detection of [[Expresion][expression]].
+Automatic [[Data type][data type]] detection of [[Expression][expression]].
 ** Type instance
 Unique [[Type class][type class]]->[[Data type][type]] pairing.
 Defines type class->type methods.
