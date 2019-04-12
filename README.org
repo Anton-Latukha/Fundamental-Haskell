@@ -1794,6 +1794,13 @@ See [[Either]]
 ** Weak head normal form
 *** WHNF
 See [[Weak head normal form]]
+** Function image
+*** Image
+See [[Function image]]
+** Maybe
+** Homomorphis
+** RankNTypes
+** ExistentialQuantification
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
