@@ -30,6 +30,9 @@ A system of algebra based on given axioms.
 ** Alpha equivalence
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Ambigram
+ambi both
+γράμμα /grámma/ written character
+
 Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
 
 While this word has two contradictory meaning, one was chosen.
