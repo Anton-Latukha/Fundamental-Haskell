@@ -35,7 +35,11 @@ ambi both
 
 Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
 
-While this word has two contradictory meaning, one was chosen.
+While this word has two contradictory diametrically opposite meanings, one was chosen.
+
+But it has... Both.
+
+/TODO: Probably better for the merit of difference about different meaning refere to [[Tensor]] as object with many meanings./
 ** Anamorphism
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
