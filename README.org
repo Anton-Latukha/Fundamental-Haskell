@@ -1884,6 +1884,9 @@ Dump desugarer output.
 **** GHC desugar
 See: [[-ddump-ds]].
 ** GHC optimize keys
+*** -foptimal-applicative-do
+$$ O(n^3) $$
+Always finds optimal reduction into <*> for ApplicativeDo do notation.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
