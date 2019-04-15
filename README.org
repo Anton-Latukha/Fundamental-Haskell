@@ -1903,6 +1903,9 @@ Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
 class Collection c a where
 #+end_src
+*** ConstrainedClassMethods
+Enable the definition of further constraints on individual class methods.
+
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
