@@ -1882,6 +1882,8 @@ instance C (Maybe Int) where ...
 #+end_src
 *** TypeSynonymInstances
 Allow definition of type class instances for type synonyms.
+*** GeneralizedNewtypeDeriving
+Enable GHC’s =newtype= cunning generalised deriving mechanism.
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
