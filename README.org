@@ -1854,6 +1854,10 @@ Kind Constraint are:
 *** ImplicitParams
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell
+*** DeriveFunctor
+Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
+Since there is only one possible [[Functor][functor]] for any [[Data type][type] - it is possible to check that it is derived right.
+Allows does not care about writing Functor instances.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
