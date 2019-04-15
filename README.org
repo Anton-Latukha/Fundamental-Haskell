@@ -1356,6 +1356,13 @@ newtype Dollars = Dollars Int
 This is all instances `Int` has.
 
 In Haskell98 only Eq, Ord, Enum could been inherited.
+***** ScopedTypeVariables
+Allows specify types for code inside where clauses.
+#+begin_src haskell
+where
+  val :: b
+  val = ...expr
+#+end_src
 ***** TypeApplications
 Allows to use visible type application in expressions.
 A visible type application is preceded with an @ sign.
@@ -1375,13 +1382,6 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
     12
 #+end_src
 ***** FlexibleInstances
-***** ScopedTypeVariables
-Allows specify types for code inside where clauses.
-#+begin_src haskell
-where
-  val :: b
-  val = ...expr
-#+end_src
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
