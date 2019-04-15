@@ -1870,6 +1870,12 @@ class C a => D a where ...
 $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
+*** FlexibleInstances
+Allow definition of type class instances with arbitrary nested types in the instance head.
+Implies [[TypeSynonymInstances]].
+#+begin_src haskell
+instance C (Maybe Int) where ...
+#+end_src
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
