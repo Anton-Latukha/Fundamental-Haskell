@@ -1808,6 +1808,27 @@ See [[Function image]]
 *** AllowAmbiguousTypes
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
+*** ApplicativeDo
+Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
+
+For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
+
+#+begin_src haskell
+    pure E
+    pure $ E
+    return E
+    return $ E
+#+end_src
+
+When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =[[-foptimal-applicative-do]]=.
+
+Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
+  * Allows use of do-notation with types that are an instance of Applicative and Functor
+  * In some monads, using the applicative operators is more efficient than monadic bind. For example, it may enable more parallelism.
+
+The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
+
+It is possible to see the actual translation by using =[[-ddump-ds]]=.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
