@@ -1805,6 +1805,9 @@ See [[Function image]]
 *** RankNTypes
 *** ExistentialQuantification
 *** FlexibleInstances
+*** AllowAmbiguousTypes
+Allow type signatures which appear that they would result in an unusable binding.
+However GHC will still check and complain about a functions that can never be called.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
