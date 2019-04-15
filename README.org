@@ -1381,7 +1381,6 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
     12
 #+end_src
-***** FlexibleInstances
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
@@ -1802,8 +1801,10 @@ See [[Weak head normal form]]
 See [[Function image]]
 ** Maybe
 ** Homomorphis
-** RankNTypes
-** ExistentialQuantification
+** LANGUAGE pragma options
+*** RankNTypes
+*** ExistentialQuantification
+*** FlexibleInstances
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
