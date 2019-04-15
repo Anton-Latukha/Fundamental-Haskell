@@ -1884,6 +1884,19 @@ instance C (Maybe Int) where ...
 Allow definition of type class instances for type synonyms.
 *** GeneralizedNewtypeDeriving
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
+*** LambdaCase
+Enables expressions of the form:
+#+begin_src haskell
+\case { p1 -> e1; ...; pN -> eN }
+
+-- OR
+
+\case
+  p1 -> e1
+  ...
+  pN -> eN
+#+end_src
+
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
