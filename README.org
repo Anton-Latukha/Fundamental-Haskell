@@ -1858,6 +1858,18 @@ Sure thing this one can be puzzling as hell inside Haskell
 Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
 Since there is only one possible [[Functor][functor]] for any [[Data type][type] - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
+*** FlexibleContexts
+Ability to use complex constraints in class declaration contexts.
+The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
+#+begin_src haskell
+class C a where
+  op :: D b => a -> b -> b
+
+class C a => D a where ...
+#+end_src
+$$ C :> D $$, so in C we can talk about D.
+
+Synergizes with [[ConstraintKinds]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
