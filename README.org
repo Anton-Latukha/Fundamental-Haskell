@@ -1831,6 +1831,26 @@ The only way it shows up at the source level is that you can have a =do= express
 It is possible to see the actual translation by using =[[-ddump-ds]]=.
 *** CPP
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
+*** ConstraintKinds
+Constraints are just handled as types of a particular kind (Constraint).
+Any type of the kind Constraints can be used as a constraint.
+Kind Constraint are:
+  * Anything which is already allowed in code as a constraint without *this flag. Saturated applications to type classes, implicit parameter and equality constraints.
+  * [[Tuple]]s, all of whose component types have kind Constraint.
+  #+begin_src haskell
+  type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
+  #+end_src
+  * Anything form of which is not yet known, but the user has declared for it to have kind Constraint (for which they need to import it from GHC.Exts):
+  #+begin_src haskell
+  Foo (f :: Type -> Constraint) = forall b. f b => b -> b -- is allowed
+  -- as well as examples involving type families:
+  type family Typ a b :: Constraint
+  type instance Typ Int  b = Show b
+  type instance Typ Bool b = Num b
+
+  func :: Typ a b => a -> b -> b
+  func = ...
+  #+end_src
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
