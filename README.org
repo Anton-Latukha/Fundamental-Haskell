@@ -1880,8 +1880,11 @@ Implies [[TypeSynonymInstances]].
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
+*** GeneralizedNewTypeClasses
 *** TypeSynonymInstances
 Allow definition of type class instances for type synonyms.
+*** TypeFamilies
+*** GADTs
 *** GeneralizedNewtypeDeriving
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
 *** LambdaCase
@@ -1913,6 +1916,7 @@ if | guard1 -> expr1
    | ...
    | guardN -> exprN
 #+end_src
+*** OverloadedStrings
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
@@ -1926,6 +1930,11 @@ Always finds optimal reduction into <*> for ApplicativeDo do notation.
 Right-hand side of the expression.
 ** LHS
 Left-hand side of the expression.
+** Type family
+** Generalised algebraic data types
+LANGUAGE [[GADTs]]
+*** GADT
+See [[Generalised algebraic data types]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
@@ -2010,6 +2019,34 @@ There can be differnt Applicatives with different Monoid implementations.
 Where character is not present - discards the according value.
 ** About operators mapM_ sequence_
 Trailing /_/ means ignoring the result.
+** Guideliles
+*** Wiki.haskell
+**** Documentation
+***** Comments write in application terms, not technical.
+***** Tell what code needs to do not how it does.
+**** Haddoc
+***** Put haddock comments to ever exposed data type and function.
+***** Haddock header
+#+begin_src haskell
+{- |
+Module      :  <File name or $Header$ to be replaced automatically>
+Description :  <optional short text displayed on contents page>
+Copyright   :  (c) <Authors or Affiliations>
+License     :  <license>
+
+Maintainer  :  <email>
+Stability   :  unstable | experimental | provisional | stable | frozen
+Portability :  portable | non-portable (<reason>)
+
+<module description starting at first column>
+-}
+#+end_src
+**** Code
+***** Try to stay closer to portable (Haskell98) code
+***** Try make lines no longer 80 chars
+***** Last char in file should be newline
+***** Symbolic infix identifiers is only library writer right
+***** Every function does one thing.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
