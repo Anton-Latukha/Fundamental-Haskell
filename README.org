@@ -1906,6 +1906,13 @@ class Collection c a where
 *** ConstrainedClassMethods
 Enable the definition of further constraints on individual class methods.
 
+*** MultiWayIf
+Enable multi-way-if syntax.
+#+begin_src haskell
+if | guard1 -> expr1
+   | ...
+   | guardN -> exprN
+#+end_src
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
