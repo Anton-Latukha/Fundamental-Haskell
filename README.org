@@ -1829,6 +1829,8 @@ Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
 The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
 
 It is possible to see the actual translation by using =[[-ddump-ds]]=.
+*** CPP
+Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
