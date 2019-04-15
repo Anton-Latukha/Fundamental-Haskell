@@ -1897,6 +1897,12 @@ Enables expressions of the form:
   pN -> eN
 #+end_src
 
+*** MultiParamTypeClasses
+Implies: [[ConstrainedClassMethods]]
+Enable the definitions of typeclasses with more than one parameter.
+#+begin_src haskell
+class Collection c a where
+#+end_src
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
