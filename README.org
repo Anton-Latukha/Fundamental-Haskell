@@ -1889,6 +1889,8 @@ $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 ** RHS
 Right-hand side of the expression.
+** LHS
+Left-hand side of the expression.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
