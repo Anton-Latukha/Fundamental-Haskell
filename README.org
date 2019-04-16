@@ -1919,6 +1919,16 @@ if | guard1 -> expr1
    | guardN -> exprN
 #+end_src
 *** OverloadedStrings
+Enable overloaded string literals (string literals become desugared via the IsString class).
+Now string literal has type:
+#+begin_src haskell
+(IsString a) => a
+#+end_src
+
+The usual string syntax can be used, e.g., for ByteString, Text, and other variations of string like types.
+Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
+
+To use class IsString - import it from GHC.Ext
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
