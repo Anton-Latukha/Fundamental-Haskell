@@ -1980,6 +1980,8 @@ Studies algebraic structures.
 ** Reflexivity
 $$ \forall x \in X, \exists R : x R x $$
 [[Order theory]]: $$ a \le a $$
+
+/*/ - each element is comparable to itself.
 *** Reflexive
 See [[Reflexivity]]
 *** Reflexive relation
