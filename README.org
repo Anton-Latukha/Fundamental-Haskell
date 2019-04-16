@@ -1996,6 +1996,13 @@ $$ a = b, b = c \Rightarrow a = c $$ - [[Transitive]]
 See [[Equivalence]]
 *** Equivalent relation
 See [[Equivalence]]
+** Antisymmetry
+$$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
+Antisymmetry does not say anything about $$ R(a,a) $$.
+*** Antisymmetric
+See [[Antisymmetry]]
+*** Antisymmetric relation
+See [[Antisymmetry]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
