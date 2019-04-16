@@ -2059,6 +2059,8 @@ Portability :  portable | non-portable (<reason>)
 ***** Last char in file should be newline
 ***** Symbolic infix identifiers is only library writer right
 ***** Every function does one thing.
+** Use Typed holes to progress the code
+[[Typed hole]]s help build code in complex situations.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
