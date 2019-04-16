@@ -2012,6 +2012,8 @@ See [[Equivalence]]
 ** Antisymmetry
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
+
+/*/ - no two different elements precede each other.
 *** Antisymmetric
 See [[Antisymmetry]]
 *** Antisymmetric relation
