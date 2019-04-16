@@ -2003,6 +2003,15 @@ Antisymmetry does not say anything about $$ R(a,a) $$.
 See [[Antisymmetry]]
 *** Antisymmetric relation
 See [[Antisymmetry]]
+** Asymmetry
+$$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
+/*/ $$ \iff $$ [[Antisymmetric]] \land irreflexive.
+Asymmetry \ne "not symmetric"
+Only empty relation is [[Symmeric][simmetric]] \land [[Asymmetric][asymmetric]]
+*** Asymmetric
+See [[Asymmetry]]
+*** Asymmetric relation
+See [[Asymmetry]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
