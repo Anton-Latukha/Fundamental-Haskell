@@ -1996,9 +1996,11 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 See [[Symmetry]]
 *** Simmetric relation
 ** Equivalence
-$$ a = a $$ - [[Reflexive]]
-$$ a = a \iff b = a $$ - [[Symmetric]]
-$$ a = b, b = c \Rightarrow a = c $$ - [[Transitive]]
+| [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
+|----------------------------+----------------------------------+-------------------------------------------------|
+| $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
+| $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
+
 *** Equivalent
 See [[Equivalence]]
 *** Equivalent relation
