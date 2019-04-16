@@ -1973,6 +1973,8 @@ Abstract structure that consists of partially ordered set, where every two eleme
 R^{X \to X} : [[Reflexive]] & [[Transitive]]:
 $$ aRa $$
 $$ aRb, bRc \Rightarrow aRc $$
+***** Total preorder
+$$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
 ** Universal algebra
 Studies algebraic structures.
 ** Reflexivity
