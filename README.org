@@ -1189,7 +1189,7 @@ See [[\eta-abstraction]]
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
 
-Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. During composition allows to apply two arguments to a binary function.
+[[Composition]] of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. During composition allows to apply two arguments to a binary function.
 #+begin_src haskell
 \f g x y -> f (g x y)
 #+end_src
@@ -1420,6 +1420,7 @@ Non-self-referencing definition.
 The most generic [[Data type][data type]] that still typechecks.
 ** Principle of compositionality
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
+Phrases are [[Composition][composable]] expressions.
 ** Proxy type
 Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
 #+begin_src haskell
@@ -1478,10 +1479,12 @@ Properties, such as correctness, safety or security, are verified by constructin
 Good to solve in-point localized tasks.
 Process of abstraction.
 *** Denotational semantics
-Constructing mathematical objects (called denotations), that describe the meanings.
+Constructing mathematical objects (called denotations), that describe the meanings. It is an abstractions that are ment, laying above the code, allow to implement and reason about the code. Sometimes /*/ can be directly represented in the implementation, but it is not strict requirement.
 
 Good to achive more broad approach/meaning.
 Also see [[Abstraction]].
+
+/*/ are [[Composition][composable]].
 *** Axiomatic semantics
 Describing effect of operation on assertions about the overall state.
 
