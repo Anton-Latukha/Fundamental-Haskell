@@ -1962,6 +1962,9 @@ LANGUAGE [[GADTs]]
 See [[Generalised algebraic data types]]
 ** Order theory
 Investigates in thepth the intuitive notion of order using binary relations.
+*** Domain theory
+Formalizes approximation and convergense.
+Has close relation to [[Topology]].
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
