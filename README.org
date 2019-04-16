@@ -1983,6 +1983,11 @@ $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 See [[Transitivity]]
 *** Transitive relation
 See [[Transitivity]]
+** Symmerty
+$$ \forall a,b \in X : (aRb \iff bRa) $$
+*** Simmetric
+See [[Symmetry]]
+*** Simmetric relation
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
