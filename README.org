@@ -1988,6 +1988,8 @@ See [[Reflexivity]]
 See [[Reflexivity]]
 ** Transitivity
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
+
+/*/ - the start of a chain of precedence relations must precede the end of the chain.
 *** Transitive
 See [[Transitivity]]
 *** Transitive relation
