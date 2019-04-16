@@ -1988,6 +1988,14 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 *** Simmetric
 See [[Symmetry]]
 *** Simmetric relation
+** Equivalence
+$$ a = a $$ - [[Reflexive]]
+$$ a = a \iff b = a $$ - [[Symmetric]]
+$$ a = b, b = c \Rightarrow a = c $$ - [[Transitive]]
+*** Equivalent
+See [[Equivalence]]
+*** Equivalent relation
+See [[Equivalence]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
