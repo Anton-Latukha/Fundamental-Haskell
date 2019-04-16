@@ -1770,6 +1770,8 @@ To have a bound.
 Haskell [[Data type][types]] has a [[Type class][type class]] which means the according types have lowest and maximum values, so they have a bounded range of values.
 *** Bounded
 See [[Bound]]
+*** Typed hole
+In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
 * Give definitions
 ** Kleisli category
 ** Free object
