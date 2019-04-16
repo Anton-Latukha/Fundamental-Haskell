@@ -1929,6 +1929,13 @@ The usual string syntax can be used, e.g., for ByteString, Text, and other varia
 Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
 
 To use class IsString - import it from GHC.Ext
+*** PartialTypeSignatures
+Partial type signature containins wildcards, placeholders (=_=, =_name=).
+Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
+
+As untuped expression, partly typed can not polymorphicly recurse.
+
+[[-Wno-partial-type-signatures]] supresses infer warnings.
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
