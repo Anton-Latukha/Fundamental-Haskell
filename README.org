@@ -1975,6 +1975,8 @@ $$ aRa $$
 $$ aRb, bRc \Rightarrow aRc $$
 ***** Total preorder
 $$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
+**** Partial ordering
+A binary relation must be [[Reflexive][reflexive]], [[Antisymmery][antisymmetic]] and [[Transitive][transitive]]
 ** Universal algebra
 Studies algebraic structures.
 ** Reflexivity
