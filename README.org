@@ -1977,6 +1977,12 @@ $$ \forall x \in X, \exists R : x R x $$
 See [[Reflexivity]]
 *** Reflexive relation
 See [[Reflexivity]]
+** Transitivity
+$$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
+*** Transitive
+See [[Transitivity]]
+*** Transitive relation
+See [[Transitivity]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
