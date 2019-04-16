@@ -1970,6 +1970,13 @@ Abstract structure that consists of partially ordered set, where every two eleme
 /*/ order-thoretic & algebraic.
 ** Universal algebra
 Studies algebraic structures.
+** Reflexivity
+$$ \forall x \in X, \exists R : x R x $$
+[[Order theory]]: $$ a \le a $$
+*** Reflexive
+See [[Reflexivity]]
+*** Reflexive relation
+See [[Reflexivity]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
