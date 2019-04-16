@@ -1945,6 +1945,9 @@ See: [[-ddump-ds]].
 *** -foptimal-applicative-do
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
+** GHC check keys
+*** -Wno-partial-type-signatures
+Supresses [[PartialTypeSignatures]] wildcard infer warning.
 ** RHS
 Right-hand side of the expression.
 ** LHS
