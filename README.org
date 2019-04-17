@@ -1639,19 +1639,22 @@ Eq Int
     is antireflexive
     is equivalent to (\ a b -> not $ a == b)
 #+end_src
-***** Commutativity
+***** Commutative property
+[[Commutativity]]
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> a) -> Property
 #+end_src
-***** Symmetry
+***** Symmetry property
+[[Symmetry]]
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> Bool) -> Property
 #+end_src
-***** Equivalence
+***** Equivalence property
+[[Equivalence]]
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
 #+end_src
-***** Inverse
+***** Inverse property
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (b -> a) -> Property
 #+end_src
