@@ -2032,7 +2032,7 @@ See [[Antisymmetry]]
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land irreflexive.
 Asymmetry \ne "not symmetric"
-Only empty relation is [[Symmeric][simmetric]] \land [[Asymmetric][asymmetric]]
+[[Symmeric][Simmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
 *** Asymmetric
 See [[Asymmetry]]
 *** Asymmetric relation
