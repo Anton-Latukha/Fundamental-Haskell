@@ -1976,7 +1976,15 @@ $$ aRb, bRc \Rightarrow aRc $$
 ***** Total preorder
 $$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
 **** Partial ordering
-A binary relation must be [[Reflexive][reflexive]], [[Antisymmery][antisymmetic]] and [[Transitive][transitive]]
+A binary relation must be [[Reflexive][reflexive]], [[Antisymmery][antisymmetic]] and [[Transitive][transitive]].
+
+Partial - not every elempents between them need to be comparable.
+
+Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
+***** Partially ordered set
+See [[Partial ordering]]
+***** Poset
+See [[Partially ordered set]]
 ** Universal algebra
 Studies algebraic structures.
 ** Reflexivity
