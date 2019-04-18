@@ -1823,7 +1823,6 @@ See [[Function image]]
 ** Maybe
 ** Homomorphis
 ** LANGUAGE pragma options
-*** RankNTypes
 *** ExistentialQuantification
 *** FlexibleInstances
 *** AllowAmbiguousTypes
@@ -1951,6 +1950,11 @@ Allows programmer to which parts of a type to annotate and which to infer. Also 
 As untuped expression, partly typed can not polymorphicly recurse.
 
 [[-Wno-partial-type-signatures]] supresses infer warnings.
+*** RankNTypes
+Enable types of arbitrary rank.
+See [[Type rank]].
+
+Implies [[ExplcitForAll]].
 *** ExplicitForAll
 Allow explicit forall quantificator in places where it is implicit by Haskell.
 ** Type rank
