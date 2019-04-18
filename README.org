@@ -1586,10 +1586,10 @@ This means a map $$ f:A\to B $$ between two sets $$ A, B $$ equipped with the sa
 
 The concept of homomorphism has been generalized under the name of [[Morphism][morphism]] to many other structures that either do not have an underlying set, or are not algebraic.
 
-Homomorphisms send identities to identities and inverses to inverses.
+Homomorphisms send [[Identity morphism][identities]] to identities and inverses to inverses.
 Homomorphism preserves operations, as such:
-'*' homomorphism - map between '*' and preserves '*' operations
-  (which can be):
+=*= homomorphism - map between =*= and preserves =*= operations
+  case =*= of:
   * semigroup
   * monoid
   * groups
@@ -1597,6 +1597,9 @@ Homomorphism preserves operations, as such:
   * linear map
   * module
   * algebra
+**** *
+***** Homomorphic
+See [[Homomorphism]]
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
