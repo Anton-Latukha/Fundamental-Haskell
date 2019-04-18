@@ -1991,9 +1991,9 @@ Generalization of [[Equivalence][equivalence relations]] and [[Partial order][pa
 /*/ [[Antisymmetric]] \Rightarrow [[Partial ordering]].
 /*/ [[Symmetric]] \Rightarrow [[Equivalence]].
 ***** Total preorder
-$$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
+$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
 **** Partial ordering
-A binary relation must be [[Reflexive][reflexive]], [[Antisymmery][antisymmetic]] and [[Transitive][transitive]].
+A binary relation must be [[Reflexive][reflexive]], [[Antisymmetry][antisymmetic]] and [[Transitive][transitive]].
 
 Partial - not every elempents between them need to be comparable.
 
@@ -2005,7 +2005,7 @@ See [[Partially ordered set]]
 ** Universal algebra
 Studies algebraic structures.
 ** Reflexivity
-$$ \forall x \in X, \exists R : x R x $$
+$$ R^{X \to X}, \forall x \in X : x R x $$
 [[Order theory]]: $$ a \le a $$
 
 /*/ - each element is comparable to itself.
@@ -2021,11 +2021,11 @@ $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 See [[Transitivity]]
 *** Transitive relation
 See [[Transitivity]]
-** Symmerty
+** Symmetry
 $$ \forall a,b \in X : (aRb \iff bRa) $$
-*** Simmetric
+*** Symmetric
 See [[Symmetry]]
-*** Simmetric relation
+*** Symmetric relation
 ** Equivalence
 | [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
 |----------------------------+----------------------------------+-------------------------------------------------|
@@ -2049,7 +2049,7 @@ See [[Antisymmetry]]
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land irreflexive.
 Asymmetry \ne "not symmetric"
-[[Symmeric][Simmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
+[[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
 *** Asymmetric
 See [[Asymmetry]]
 *** Asymmetric relation
