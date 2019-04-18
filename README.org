@@ -2689,6 +2689,8 @@ $$ R^{X \to X}, \forall x \in X : x R x $$
 [[Order theory]]: $$ a \le a $$
 
 /*/ - each element is comparable to itself.
+
+Corresponds to [[Identity]] and [[Automorphism]].
 *** *
 **** Reflexive
 See [[Reflexivity]]
