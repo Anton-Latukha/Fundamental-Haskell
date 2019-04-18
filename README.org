@@ -2491,20 +2491,32 @@ Allow explicit forall quantificator in places where it is implicit by Haskell.
 [[Weak ordering]] of types.
 
 The rank of [[Type polymorphism][polymorphic type]] shows at what level of nesting =forall= quantifier appears.
+Count-in only quantifiers that appear to the left of arrows.
 #+begin_src haskell
 f1 :: forall a b. a -> b -> a    ==    fi :: a -> b -> c
 g1 :: forall a b. (Ord a, Eq b) => a -> b -> a    ==    g1 :: (Ord a, Eq b) => a -> b -> a
-
-f2 :: (forall a. a->a) -> Int -> Int
-g2 :: (forall a. Eq a => [a] -> a -> Bool) -> Int -> Int
-
-f3 :: ((forall a. a->a) -> Int) -> Bool -> Bool
-
-f4 :: Int -> (forall a. a -> a)
 #+end_src
 f1, g1 - rank-1 types. Haskell itself implicitly adds universal quantification.
+
+#+begin_src haskell
+f2 :: (forall a. a->a) -> Int -> Int
+g2 :: (forall a. Eq a => [a] -> a -> Bool) -> Int -> Int
+#+end_src
 f2, g2 - rank-2 types. Quantificator is on the left side of a \to. Quantificator shows that type on the left can be overloaded.
+
+#+begin_src haskell
+f3 :: ((forall a. a->a) -> Int) -> Bool -> Bool
+#+end_src
 f3 - rannk3-type. Has rank-2 types on the left of a \to.
+
+#+begin_src haskell
+f :: Int -> (forall a. a -> a)
+g :: Int -> Ord a => a -> a
+#+end_src
+f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in [[RankNTypes]].
+
+Type inference in Rank-2 is possible, but but not higher.
+
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
