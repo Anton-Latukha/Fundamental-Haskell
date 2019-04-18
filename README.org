@@ -1237,6 +1237,12 @@ Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][
 /In most languages named as 'Generics' (generic programming)./
 
 Types:
+**** Rank-1 polymorphism
+[[Parametric polymorphism]] in [[Type rank][rank-1 types]] by type variables.
+***** Prenex
+See [[Rank-1 polymorphism]]
+***** Prenex polymorpism
+See [[Rank-1 polymorphism]]
 **** Let-bound polymorphism
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
