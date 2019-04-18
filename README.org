@@ -456,6 +456,7 @@
     - [[#rankntypes][RankNTypes]]
     - [[#explicitforall][ExplicitForAll]]
     - [[#scopedtypevariables-1][ScopedTypeVariables]]
+    - [[#tuplesections][TupleSections]]
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
@@ -2444,6 +2445,7 @@ aka
 #+begin_src haskell
 Eq a => a -> Set a -> Set a
 #+end_src
+
 ** ST-Trick monad
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
@@ -2620,6 +2622,12 @@ When there are internall type signatures provided in the code block (=where=, =l
 For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
 
 Implies [[ExplicitForAll]].
+*** TupleSections
+Allow tuple section syntax:
+#+begin_src haskell
+(, True)
+(, "I", , , "Love", , 1337)
+#+end_src
 ** Type rank
 [[Weak ordering]] of types.
 
