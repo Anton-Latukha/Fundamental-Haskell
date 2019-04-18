@@ -1951,6 +1951,8 @@ Allows programmer to which parts of a type to annotate and which to infer. Also 
 As untuped expression, partly typed can not polymorphicly recurse.
 
 [[-Wno-partial-type-signatures]] supresses infer warnings.
+*** ExplicitForAll
+Allow explicit forall quantificator in places where it is implicit by Haskell.
 ** Type rank
 [[Weak ordering]] of types.
 
