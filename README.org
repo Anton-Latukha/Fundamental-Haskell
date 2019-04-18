@@ -2564,6 +2564,15 @@ It can synergyze with [[ScopedTypeVariables]].
 *** ExplicitForAll
 Allow explicit forall quantificator in places where it is implicit by Haskell.
 *** ScopedTypeVariables
+By default type variables do not have a scope except inside type signatures where they are used.
+
+When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
+
+/*/ option provides the [[Lexical scope][lexical scope]] inside the code block for [[Type variable][type variables]] that have [[Forall quantifier][forall quantifier]]. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
+
+For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
+
+Implies [[ExplicitForAll]].
 ** Type rank
 [[Weak ordering]] of types.
 
