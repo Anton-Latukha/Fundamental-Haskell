@@ -1352,7 +1352,10 @@ There are mainly three levels of Haskell code.
 **** Code level
 See [[Level of code]]
 ** Lexical scope
-Scope search sourcecode blocks structure determined.
+Scope bound by the structure of source code where the named entity is defined.
+*** *
+**** Static scope
+See [[Lexical scope]]
 ** Linear type
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
