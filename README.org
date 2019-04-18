@@ -2013,6 +2013,16 @@ $$ R^{X \to X}, \forall x \in X : x R x $$
 See [[Reflexivity]]
 *** Reflexive relation
 See [[Reflexivity]]
+** Irreflexivity
+$$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
+*** Anti-reflexive
+See [[Irreflexivity]]
+*** Anti-reflexive relation
+See [[Irreflexivity]]
+*** Irreflexive
+See [[Irreflexivity]]
+*** Irreflexive relation
+See [[Irreflexivity]]
 ** Transitivity
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
@@ -2047,7 +2057,7 @@ See [[Antisymmetry]]
 See [[Antisymmetry]]
 ** Asymmetry
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
-/*/ $$ \iff $$ [[Antisymmetric]] \land irreflexive.
+/*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
 Asymmetry \ne "not symmetric"
 [[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
 *** Asymmetric
