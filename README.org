@@ -432,8 +432,6 @@
   - [[#maybe][Maybe]]
   - [[#homomorphis][Homomorphis]]
   - [[#language-pragma-options][LANGUAGE pragma options]]
-    - [[#existentialquantification][ExistentialQuantification]]
-    - [[#flexibleinstances][FlexibleInstances]]
     - [[#allowambiguoustypes][AllowAmbiguousTypes]]
     - [[#applicativedo][ApplicativeDo]]
     - [[#cpp][CPP]]
@@ -441,11 +439,7 @@
     - [[#implicitparams][ImplicitParams]]
     - [[#derivefunctor][DeriveFunctor]]
     - [[#flexiblecontexts][FlexibleContexts]]
-    - [[#flexibleinstances-1][FlexibleInstances]]
-    - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
-    - [[#typesynonyminstances][TypeSynonymInstances]]
-    - [[#typefamilies][TypeFamilies]]
-    - [[#gadts][GADTs]]
+    - [[#flexibleinstances][FlexibleInstances]]
     - [[#generalizednewtypederiving][GeneralizedNewtypeDeriving]]
     - [[#lambdacase][LambdaCase]]
     - [[#multiparamtypeclasses][MultiParamTypeClasses]]
@@ -457,6 +451,13 @@
     - [[#explicitforall][ExplicitForAll]]
     - [[#scopedtypevariables-1][ScopedTypeVariables]]
     - [[#tuplesections][TupleSections]]
+    - [[#typefamilies][TypeFamilies]]
+    - [[#typesynonyminstances][TypeSynonymInstances]]
+  - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
+    - [[#existentialquantification][ExistentialQuantification]]
+    - [[#gadts][GADTs]]
+    - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
+    - [[#flexibleinstances-1][FlexibleInstances]]
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
@@ -2468,8 +2469,6 @@ See [[Function image]]
 ** Maybe
 ** Homomorphis
 ** LANGUAGE pragma options
-*** ExistentialQuantification
-*** FlexibleInstances
 *** AllowAmbiguousTypes
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
@@ -2541,11 +2540,6 @@ Allow definition of type class instances with arbitrary nested types in the inst
 instance C (Maybe Int) where ...
 #+end_src
 Implies [[TypeSynonymInstances]].
-*** GeneralizedNewTypeClasses
-*** TypeSynonymInstances
-Allow definition of type class instances for type synonyms.
-*** TypeFamilies
-*** GADTs
 *** GeneralizedNewtypeDeriving
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
 *** LambdaCase
@@ -2628,6 +2622,14 @@ Allow tuple section syntax:
 (, True)
 (, "I", , , "Love", , 1337)
 #+end_src
+*** TypeFamilies
+*** TypeSynonymInstances
+Allow definition of type class instances for type synonyms.
+** Define LANGUAGE pragma options
+*** ExistentialQuantification
+*** GADTs
+*** GeneralizedNewTypeClasses
+*** FlexibleInstances
 ** Type rank
 [[Weak ordering]] of types.
 
