@@ -1356,6 +1356,8 @@ Scope bound by the structure of source code where the named entity is defined.
 *** *
 **** Static scope
 See [[Lexical scope]]
+** Dynamic scope
+The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
 ** Linear type
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
