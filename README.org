@@ -2790,6 +2790,8 @@ Equivalent, interconvertable with ni loss of information.
 **** Crypromorphic
 See [[Cryptomorphism]]
 ** Lexically scoped type variables
+Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
+
 Implemented in [[ScopedTypeVariables]]
 * Citations
 "One of the finer points of the Haskell community has been
