@@ -658,21 +658,21 @@ Structure goes through Monoidal process.
 
 [[Data type]]s can have several applicative implementations.
 *** Applicative laws
-**** Identity law
+**** Applicative identity law
 #+begin_src haskell
 pure id <*> v = v
 #+end_src
-**** Composition law
+**** Applicative composition law
 Function composition works regularly.
 #+begin_src haskell
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
-**** Homomorphism law
+**** Applicative homomorphism law
 Applying the function doesn't change the structure around values.
 #+begin_src haskell
 pure f <*> pure x = pure (f x)
 #+end_src
-**** Interchange law
+**** Applicative interchange law
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
 #+begin_src haskell
 u <*> pure y = pure ($ y) <*> u
@@ -1171,11 +1171,11 @@ Functor can be used to filter-out error cases (Nothing & Left cases) in [[Maybe]
 Functor abides [[Functor laws]].
 *** Functor laws
 Type instance of functor should abide this laws:
-1. Identity law
+**** Functor identity law
 #+begin_src haskell
 fmap id == id
 #+end_src
-2. Composition law
+**** Functor composition law
 #+begin_src haskell
 fmap (f.g) == fmap f . fmap g
 #+end_src
@@ -1238,7 +1238,8 @@ Idiom - something having a meaning that cannot be derived from the conjoined mea
 Meaning can be special for language speakers or human with particular knowledge.
 
 For different meaning - it is [[Applicative functor]].
-** Idiomatic
+*** *
+**** Idiomatic
 See [[Idiom]].
 ** Iff
 If and only if, exectly when, just.
@@ -1509,7 +1510,7 @@ Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 Drops sequencing computation as soon as Left arrives.
 *** Monad laws
 [[Pure]] ([[Return]]) should only put [[Argument][argument]] into structure.
-**** Left identity law
+**** Monad left identity law
 #+begin_src haskell
 return x >>= f == f x
 #+end_src
@@ -1520,7 +1521,7 @@ Explanation:
                   pure x >>=     f      == f x
 #+end_src
 Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
-**** Right identity law
+**** Monad right identity law
 #+begin_src haskell
 f >>= return == f
 #+end_src
@@ -1531,7 +1532,7 @@ Explanation:
                   f   >>=    pure    == f
 #+end_src
 [[Tacit]] description of [[Monad][monad]] as [[Endofunctor][endofunctor]].
-**** Associativity law
+**** Monad associativity law
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\x -> f x >>= g)
 #+end_src
@@ -1552,17 +1553,17 @@ mconcat :: [m] -> m
 mconcat = foldr mappend mempty
 #+end_src
 *** Monoid laws
-Left identity:
+**** Monoid left identity law
 #+begin_src haskell
 mempty <> x = x
 #+end_src
 
-Right identity:
+**** Monoid right identity law
 #+begin_src haskell
 x <> mempty = x
 #+end_src
 
-Associativity:
+**** Monoid associativity law
 #+begin_src haskell
 x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
@@ -1571,7 +1572,8 @@ mconcat = foldr (mempty <>)
 Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
-**** Abelian monoid
+**** *
+***** Abelian monoid
 See [[Commutative monoid]]
 ** Monoidal functor
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
