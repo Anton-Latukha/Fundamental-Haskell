@@ -221,8 +221,8 @@ Two of something.
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 ** Binary tree
 #+begin_src haskell
-data BinaryTree a =
-    [[Leaf]]
+data BinaryTree a
+  = [[Leaf]]
   | [[Node]] (BinaryTree a) a (BinaryTree a)
   deriving (Eq, Ord, Show)
 #+end_src
@@ -1184,7 +1184,7 @@ See [[\eta-abstraction]]
 See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
-*** (.).(.)
+*** Blackbird
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
@@ -1194,10 +1194,11 @@ See [[\eta-abstraction]]
 \f g x y -> f (g x y)
 #+end_src
 **** .) .
+See [[Blackbird]]
 **** Sectioning
-See [[(.).(.)]]
-**** Blackbird
-See [[(.).(.)]]
+See [[Blackbird]]
+**** (.).(.)
+See [[Blackbird]]
 *** Point-free becomes better in multi-dimentional data
 BigData and OLAP analysis.
 *** Synonims
