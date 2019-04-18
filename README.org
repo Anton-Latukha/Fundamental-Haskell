@@ -411,6 +411,7 @@
     - [[#partialtypesignatures][PartialTypeSignatures]]
     - [[#rankntypes][RankNTypes]]
     - [[#explicitforall][ExplicitForAll]]
+    - [[#scopedtypevariables-1][ScopedTypeVariables]]
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
@@ -460,6 +461,7 @@
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
     - [[#crypromorphic][Crypromorphic]]
+  - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#type-aliasing][Type aliasing]]
@@ -2497,6 +2499,7 @@ Allows =forall= quantifier:
 It can synergyze with [[ScopedTypeVariables]].
 *** ExplicitForAll
 Allow explicit forall quantificator in places where it is implicit by Haskell.
+*** ScopedTypeVariables
 ** Type rank
 [[Weak ordering]] of types.
 
@@ -2640,10 +2643,13 @@ Asymmetry \ne "not symmetric"
 See [[Asymmetry]]
 *** Asymmetric relation
 See [[Asymmetry]]
+** Commutativity
 ** Cryptomorphism
 Equivalent, interconvertable with ni loss of information.
 *** Crypromorphic
 See [[Cryptomorphism]]
+** Lexically scoped type variables
+Implemented in [[ScopedTypeVariables]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
