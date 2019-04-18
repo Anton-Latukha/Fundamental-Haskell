@@ -1603,6 +1603,8 @@ See [[Homomorphism]]
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
+
+Corresponds to [[Reflexivity]] and [[Automorphism]].
 **** Identity
 Identity only possible with morphism. See [[Identity morphism]].
 
@@ -1632,7 +1634,8 @@ It always has a inverse morphism.
 $$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from [[Homomorphism]] context
 $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
 Thus it is left canselable.
-**** Monomorphic
+**** *
+***** Monomorphic
 See [[Monomorphism]].
 *** Epimorphism
 επι /epi/ on, over
@@ -1646,7 +1649,8 @@ $$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from gene
 Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-**** Epimorphic
+**** *
+***** Epimorphic
 See [[Epimorphism]].
 *** Isomorphism
 ἴσος /isos/ equal
@@ -1660,7 +1664,8 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
 2 reasons for non-isomorphism:
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
-**** Isomorphic
+**** *
+***** Isomorphic
 See [[Isomorphism]].
 *** Endomorphism
 ενδο /endo/ internal
@@ -1670,6 +1675,11 @@ Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
 Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 **** Automorphism
 [[Endomorphism]] that is [[Isomorphism]].
+
+Corresponds to [[Identity]] and [[Reflexivity]].
+**** *
+***** Endomorphic
+See [[Endomorphism]]
 *** Catamorphism
 κατά /kata/ downward
 μορφή /morphe/ form
@@ -1677,6 +1687,9 @@ Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+**** *
+***** Catamorphic
+See [[Catamorphism]]
 ** Natural transformation
 Roughly  /*/ is:
 #+begin_src haskell
