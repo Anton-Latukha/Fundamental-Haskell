@@ -251,10 +251,12 @@
         - [[#isomorphic][Isomorphic]]
     - [[#endomorphism][Endomorphism]]
       - [[#automorphism][Automorphism]]
-      - [[#-23][*]]
+        - [[#-23][*]]
+          - [[#automorphic][Automorphic]]
+      - [[#-24][*]]
         - [[#endomorphic][Endomorphic]]
     - [[#catamorphism][Catamorphism]]
-      - [[#-24][*]]
+      - [[#-25][*]]
         - [[#catamorphic][Catamorphic]]
   - [[#natural-transformation][Natural transformation]]
   - [[#newtype-declaration][newtype declaration]]
@@ -272,21 +274,21 @@
   - [[#permutation][Permutation]]
   - [[#point-free][Point-free]]
     - [[#eta-abstraction][\eta-abstraction]]
-      - [[#-25][*]]
+      - [[#-26][*]]
         - [[#eta-reduction][\eta-reduction]]
         - [[#eta-conversion][\eta-conversion]]
         - [[#eta-abstraction-1][eta-abstraction]]
         - [[#eta-reduction-1][eta-reduction]]
         - [[#eta-conversion-1][eta-conversion]]
     - [[#blackbird][Blackbird]]
-      - [[#-26][*]]
+      - [[#-27][*]]
         - [[#-][.) .]]
         - [[#sectioning][Sectioning]]
-        - [[#-27][(.).(.)]]
+        - [[#-28][(.).(.)]]
     - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
-    - [[#-28][*]]
+    - [[#-29][*]]
       - [[#pointfree][Pointfree]]
       - [[#tacit][Tacit]]
       - [[#tacit-programming][Tacit programming]]
@@ -294,17 +296,17 @@
     - [[#levity-polymorphism][Levity polymorphism]]
     - [[#parametric-polymorphism][Parametric polymorphism]]
       - [[#rank-1-polymorphism][Rank-1 polymorphism]]
-        - [[#-29][*]]
+        - [[#-30][*]]
           - [[#prenex][Prenex]]
           - [[#prenex-polymorpism][Prenex polymorpism]]
       - [[#let-bound-polymorphism][Let-bound polymorphism]]
       - [[#constrained-polymorphism][Constrained polymorphism]]
         - [[#ad-hoc-polymorphism][Ad hoc polymorphism]]
       - [[#impredicative-polymorphism][Impredicative polymorphism]]
-        - [[#-30][*]]
+        - [[#-31][*]]
           - [[#first-class-polymorphism][First-class polymorphism]]
       - [[#higher-rank-polymorphism][Higher-rank polymorphism]]
-        - [[#-31][*]]
+        - [[#-32][*]]
           - [[#rank-n-polymorphism][Rank-n polymorphism]]
     - [[#subtype-polymorphism][Subtype polymorphism]]
     - [[#row-polymorphism][Row polymorphism]]
@@ -325,13 +327,13 @@
   - [[#principle-of-compositionality][Principle of compositionality]]
   - [[#proxy-type][Proxy type]]
   - [[#psi-combinator][\Psi-combinator]]
-    - [[#-32][*]]
+    - [[#-33][*]]
       - [[#psi-combinator-1][Psi-combinator]]
       - [[#on-combinator][On-combinator]]
   - [[#purity][Purity]]
   - [[#quantifier][Quantifier]]
     - [[#forall-quantifier][Forall quantifier]]
-      - [[#-33][*]]
+      - [[#-34][*]]
         - [[#forall][Forall]]
   - [[#recursion][Recursion]]
   - [[#redex][Redex]]
@@ -350,7 +352,7 @@
   - [[#set-category][SET category]]
   - [[#shadowing][Shadowing]]
   - [[#shift-operator][Shift operator]]
-    - [[#-34][*]]
+    - [[#-35][*]]
       - [[#shift][Shift]]
   - [[#shrinking][Shrinking]]
   - [[#singleton][Singleton]]
@@ -400,7 +402,7 @@
   - [[#variadic][Variadic]]
   - [[#zero][Zero]]
   - [[#bound][Bound]]
-    - [[#-35][*]]
+    - [[#-36][*]]
       - [[#bounded][Bounded]]
   - [[#typed-hole][Typed hole]]
 - [[#give-definitions][Give definitions]]
@@ -420,10 +422,10 @@
   - [[#tensorial-strength][Tensorial strength]]
   - [[#strong-monad][Strong monad]]
   - [[#either][Either]]
-    - [[#-36][*]]
+    - [[#-37][*]]
       - [[#either-data-type][Either data type]]
   - [[#weak-head-normal-form][Weak head normal form]]
-    - [[#-37][*]]
+    - [[#-38][*]]
       - [[#whnf][WHNF]]
   - [[#function-image][Function image]]
     - [[#image][Image]]
@@ -457,7 +459,7 @@
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
-      - [[#-38][*]]
+      - [[#-39][*]]
         - [[#ghc-desugar][GHC desugar]]
   - [[#ghc-optimize-keys][GHC optimize keys]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
@@ -467,7 +469,7 @@
   - [[#lhs][LHS]]
   - [[#type-family][Type family]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
-    - [[#-39][*]]
+    - [[#-40][*]]
       - [[#gadt][GADT]]
   - [[#order-theory][Order theory]]
     - [[#domain-theory][Domain theory]]
@@ -476,43 +478,44 @@
       - [[#preorder-1][Preorder]]
         - [[#total-preorder][Total preorder]]
       - [[#partial-ordering][Partial ordering]]
-        - [[#-40][*]]
+        - [[#-41][*]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
   - [[#reflexivity][Reflexivity]]
-    - [[#-41][*]]
+    - [[#-42][*]]
       - [[#reflexive][Reflexive]]
       - [[#reflexive-relation][Reflexive relation]]
   - [[#irreflexivity][Irreflexivity]]
-    - [[#-42][*]]
+    - [[#-43][*]]
       - [[#anti-reflexive][Anti-reflexive]]
       - [[#anti-reflexive-relation][Anti-reflexive relation]]
       - [[#irreflexive][Irreflexive]]
       - [[#irreflexive-relation][Irreflexive relation]]
   - [[#transitivity][Transitivity]]
-    - [[#-43][*]]
+    - [[#-44][*]]
       - [[#transitive][Transitive]]
       - [[#transitive-relation][Transitive relation]]
   - [[#symmetry][Symmetry]]
-    - [[#-44][*]]
+    - [[#-45][*]]
       - [[#symmetric][Symmetric]]
       - [[#symmetric-relation][Symmetric relation]]
   - [[#equivalence][Equivalence]]
-    - [[#-45][*]]
+    - [[#-46][*]]
       - [[#equivalent][Equivalent]]
       - [[#equivalent-relation][Equivalent relation]]
   - [[#antisymmetry][Antisymmetry]]
-    - [[#-46][*]]
+    - [[#-47][*]]
       - [[#antisymmetric][Antisymmetric]]
       - [[#antisymmetric-relation][Antisymmetric relation]]
   - [[#asymmetry][Asymmetry]]
-    - [[#-47][*]]
+    - [[#-48][*]]
       - [[#asymmetric][Asymmetric]]
       - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
-    - [[#crypromorphic][Crypromorphic]]
+    - [[#-49][*]]
+      - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
@@ -1521,6 +1524,7 @@ Explanation:
                   pure x >>=     f      == f x
 #+end_src
 Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
+
 **** Monad right identity law
 #+begin_src haskell
 f >>= return == f
@@ -1532,10 +1536,12 @@ Explanation:
                   f   >>=    pure    == f
 #+end_src
 [[Tacit]] description of [[Monad][monad]] as [[Endofunctor][endofunctor]].
+
 **** Monad associativity law
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\x -> f x >>= g)
 #+end_src
+
 *** Comonad
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** Monkey patch
@@ -1568,6 +1574,7 @@ x <> mempty = x
 x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
 #+end_src
+
 *** Commutative monoid
 Commutative law:
 $$ x \circ y = y \circ x $$
@@ -1683,9 +1690,15 @@ See [[Isomorphism]].
 Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
 Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 **** Automorphism
+\alpha\upsilon\tau\omicron /auto/ self
+μορφή /form/ form
+
 [[Endomorphism]] that is [[Isomorphism]].
 
 Corresponds to [[Identity]] and [[Reflexivity]].
+***** *
+****** Automorphic
+See [[Automorphism]]
 **** *
 ***** Endomorphic
 See [[Endomorphism]]
@@ -2765,7 +2778,8 @@ See [[Asymmetry]]
 ** Commutativity
 ** Cryptomorphism
 Equivalent, interconvertable with ni loss of information.
-*** Crypromorphic
+*** *
+**** Crypromorphic
 See [[Cryptomorphism]]
 ** Lexically scoped type variables
 Implemented in [[ScopedTypeVariables]]
