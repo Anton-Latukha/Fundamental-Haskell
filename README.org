@@ -1226,23 +1226,6 @@ $$ Hom(-,-):C^{op} \times C \to Set $$
 ** Idempotence
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
-** Identity
-*** Two-sided identity of a [[Predicate][predicate]]
-$$ P() $$ is [[Commutative][commutative]].
-$$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
-*** Left identity of a [[Predicate][predicate]]
-$$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
-*** Right identity of a [[Predicate][predicate]]
-$$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
-
-Identity only possible with morphism.
-There is also a distinct [[Zero]] value.
-** Identity function
-Return itself.
-(\x.x)
-#+begin_src haskell
-id :: a -> a
-#+end_src
 ** Idiom
 Idiom - something having a meaning that cannot be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
@@ -1617,6 +1600,23 @@ Homomorphism preserves operations, as such:
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
+**** Identity
+Identity only possible with morphism. See [[Identity morphism]].
+
+There is also knowledge of [[Zero]] value.
+***** Two-sided identity of a [[Predicate][predicate]]
+$$ P() $$ is [[Commutative][commutative]].
+$$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
+***** Left identity of a [[Predicate][predicate]]
+$$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
+***** Right identity of a [[Predicate][predicate]]
+$$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
+**** Identity function
+Return itself.
+(\x.x)
+#+begin_src haskell
+id :: a -> a
+#+end_src
 *** Monomorphism
 μονο /mono/ only
 μορφή /morphe/ form
