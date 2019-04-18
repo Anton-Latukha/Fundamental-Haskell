@@ -1257,8 +1257,6 @@ Is illegal in Haskell.
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 **** Constrained polymorphism
 Constrained [[Parametric polymorphism]].
-**** First-class polymorphism
-More default term: [[Impredicative polymorphism]].
 **** Impredicative polymorphism
 The most powerful form of [[Parametric polymorphism]].
 First see [[Impredicative]].
@@ -1266,6 +1264,30 @@ First see [[Impredicative]].
 Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
+***** First-class polymorphism
+More default term: [[Impredicative polymorphism]].
+**** Higher-rank polymorphism
+Means that polymorphic types can apper within other types (types of function).
+There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
+#+begin_src haskell
+-- ad-hoc polymorphism
+f1 :: forall a. MyType Class a => a -> String    ==    f1 :: MyType Class a => a  -> String
+f1 = -- ...
+
+-- higher-rank polymorphism
+f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
+f2 = -- ...
+#+end_src
+By moving `forall` inside the function - we can achive higher-rank polymorphism.
+
+From: https://news.ycombinator.com/item?id=8130861
+#+begin_src text
+Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
+#+end_src
+
+Useful example aslo a [[ST-Trick monad]].
+***** Rank-n polymorphism
+See: [[Higher-rank polymorphism]]
 *** Ad hoc polymorphism
 Artificial [[Polymorphism][polymorphism]] dependent on incoming [[Data type][data type]].
 Achieved by creating a [[Type class][type class]] [[Function][functions]].
@@ -1312,26 +1334,6 @@ let proxy1 = (ProxyValue :: Proxy Int) -- * :: Proxy Int
 let proxy2 = (ProxyValue :: Proxy a)   -- * -> * :: Proxy a
 #+end_src
 
-*** Higher-rank polymorphism
-Means that polymorphic types can apper within other types (types of funtion).
-There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
-#+begin_src haskell
--- ad-hoc polymorphism
-f1 :: forall a. MyType Class a => a -> String
-f1 = -- ...
-
--- higher-rank polymorphism
-f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
-f2 = -- ...
-#+end_src
-By moving `forall` inside the function - we can achive higher-rank polymorphism.
-
-From: https://news.ycombinator.com/item?id=8130861
-#+begin_src text
-Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
-#+end_src
-
-Useful example aslo a [[ST-Trick monad]].
 *** Linearity polymorphism
 Leverages [[Linear type][linear types]].
 For exampe - if fold over a dynamic array:
