@@ -2064,6 +2064,10 @@ Asymmetry \ne "not symmetric"
 See [[Asymmetry]]
 *** Asymmetric relation
 See [[Asymmetry]]
+** Cryptomorphism
+Equivalent, interconvertable with ni loss of information.
+*** Crypromorphic
+See [[Cryptomorphism]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
