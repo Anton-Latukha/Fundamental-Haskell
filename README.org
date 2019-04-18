@@ -2485,6 +2485,16 @@ Enable types of arbitrary rank.
 See [[Type rank]].
 
 Implies [[ExplcitForAll]].
+
+Allows =forall= quantifier:
+  * Left side of \to
+  * Right side of \to
+  * as [[Argument][argument]] of a constructor
+  * as type of a field
+  * as type of an implicit parameter
+  * used in pattern type signature of [[Lexically scoped type variables]]
+
+It can synergyze with [[ScopedTypeVariables]].
 *** ExplicitForAll
 Allow explicit forall quantificator in places where it is implicit by Haskell.
 ** Type rank
