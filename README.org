@@ -454,13 +454,13 @@
     - [[#scopedtypevariables-1][ScopedTypeVariables]]
     - [[#tuplesections][TupleSections]]
     - [[#typapplications][TypApplications]]
-    - [[#typefamilies][TypeFamilies]]
     - [[#typesynonyminstances][TypeSynonymInstances]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
     - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
     - [[#flexibleinstances-1][FlexibleInstances]]
+    - [[#typefamilies][TypeFamilies]]
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
@@ -2490,10 +2490,10 @@ Enables an alternative in-depth reduction that translates the do-notation to the
 For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
 
 #+begin_src haskell
-    pure E
-    pure $ E
-    return E
-    return $ E
+  pure E
+  pure $ E
+  return E
+  return $ E
 #+end_src
 
 When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =[[-foptimal-applicative-do]]=.
@@ -2527,9 +2527,10 @@ Kind Constraint are:
   func :: Typ a b => a -> b -> b
   func = ...
   #+end_src
+
 *** ImplicitParams
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
-Sure thing this one can be puzzling as hell inside Haskell
+Sure thing this one can be puzzling as hell inside Haskell.
 *** DeriveFunctor
 Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
 Since there is only one possible [[Functor][functor]] for any [[Data type][type] - it is possible to check that it is derived right.
@@ -2573,6 +2574,7 @@ Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
 class Collection c a where
 #+end_src
+
 *** ConstrainedClassMethods
 Enable the definition of further constraints on individual class methods.
 
@@ -2583,6 +2585,7 @@ if | guard1 -> expr1
    | ...
    | guardN -> exprN
 #+end_src
+
 *** OverloadedStrings
 Enable overloaded string literals (string literals become desugared via the IsString class).
 Now string literal has type:
@@ -2634,6 +2637,7 @@ Allow tuple section syntax:
 (, True)
 (, "I", , , "Love", , 1337)
 #+end_src
+
 *** TypApplications
 Allow type application syntax:
 #+begin_src haskell
