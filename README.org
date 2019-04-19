@@ -566,6 +566,7 @@
         - [[#symbolic-infix-identifiers-is-only-library-writer-right][Symbolic infix identifiers is only library writer right]]
         - [[#every-function-does-one-thing][Every function does one thing.]]
   - [[#use-typed-holes-to-progress-the-code][Use Typed holes to progress the code]]
+  - [[#haskell-has-infinite-terms-not-not-infinite-types][Haskell has infinite terms not not infinite types.]]
 - [[#useful-functions-to-remember][Useful functions to remember]]
   - [[#prelude][Prelude]]
     - [[#ord][Ord]]
@@ -2920,6 +2921,8 @@ Portability :  portable | non-portable (<reason>)
 ***** Every function does one thing.
 ** Use Typed holes to progress the code
 [[Typed hole]]s help build code in complex situations.
+** Haskell has infinite terms not not infinite types.
+That is why infinite types throw infinite type error.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
