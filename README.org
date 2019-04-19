@@ -525,6 +525,7 @@
   - [[#abstract-data-type][Abstract data type]]
     - [[#-51][*]]
       - [[#absdt][AbsDT]]
+  - [[#adt][ADT]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#type-aliasing][Type aliasing]]
@@ -2826,6 +2827,9 @@ A specification of a data type like a stack or queue where the specification doe
 *** *
 **** AbsDT
 See [[Abstract data type]]
+** ADT
+1. [[Abstract data type]]
+2. [[Algebraic data type]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
