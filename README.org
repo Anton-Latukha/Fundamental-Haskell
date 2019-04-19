@@ -522,6 +522,9 @@
     - [[#-50][*]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
+  - [[#abstract-data-type][Abstract data type]]
+    - [[#-51][*]]
+      - [[#absdt][AbsDT]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#type-aliasing][Type aliasing]]
@@ -2812,6 +2815,17 @@ See [[Cryptomorphism]]
 Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
 
 Implemented in [[ScopedTypeVariables]]
+** Abstract data type
+Several definitions here, reduce them.
+
+Data type mathematical model, defined by its semantics from the user point of view, listing possible values, operations on the data of the type, and behaviour of these operations.
+
+/*/ class of objects whose logical behaviour is defined by a set of values and set of operations (analogue to algebraic structure in mathematics).
+
+A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
+*** *
+**** AbsDT
+See [[Abstract data type]]
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
