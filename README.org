@@ -2010,13 +2010,6 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
-***** ScopedTypeVariables
-Allows specify types for code inside where clauses.
-#+begin_src haskell
-where
-  val :: b
-  val = ...expr
-#+end_src
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
