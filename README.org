@@ -2603,7 +2603,7 @@ As untuped expression, partly typed can not polymorphicly recurse.
 Enable types of arbitrary rank.
 See [[Type rank]].
 
-Implies [[ExplcitForAll]].
+Implies [[ExplicitForAll]].
 
 Allows =forall= quantifier:
   * Left side of \to
@@ -2633,7 +2633,7 @@ Allow tuple section syntax:
 (, "I", , , "Love", , 1337)
 #+end_src
 
-*** TypApplications
+*** TypeApplications
 Allow type application syntax:
 #+begin_src haskell
 read @Int 5
@@ -2654,7 +2654,7 @@ Allow definition of type class instances for type synonyms.
 ** Type rank
 [[Weak ordering]] of types.
 
-The rank of [[Type polymorphism][polymorphic type]] shows at what level of nesting =forall= quantifier appears.
+The rank of [[Parametric polymorphism][polymorphic type]] shows at what level of nesting =forall= quantifier appears.
 Count-in only quantifiers that appear to the left of arrows.
 #+begin_src haskell
 f1 :: forall a b. a -> b -> a    ==    fi :: a -> b -> c
@@ -2897,6 +2897,7 @@ fmap :: Functor g => (x -> y) -> g x -> g y
   -> (x -> y) -> f.g (x) -> f.g. (y)
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+end_src
+
 ** Parameter order
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
