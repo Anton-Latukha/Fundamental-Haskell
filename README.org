@@ -451,6 +451,7 @@
     - [[#explicitforall][ExplicitForAll]]
     - [[#scopedtypevariables-1][ScopedTypeVariables]]
     - [[#tuplesections][TupleSections]]
+    - [[#typapplications][TypApplications]]
     - [[#typefamilies][TypeFamilies]]
     - [[#typesynonyminstances][TypeSynonymInstances]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
@@ -2093,7 +2094,7 @@ See: [[\Psi-combinator]]
 ** Quantifier
 Specifies the quantity of specimens.
 
-Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exist).
+Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exists).
 *** Forall quantifier
 Permits to not [[Type inference][infer]] the type, but to use any that fits. The variant depends on the [[LANGUAGE option]] used:
 [[ScopedTypeVariables]]
@@ -2622,7 +2623,17 @@ Allow tuple section syntax:
 (, True)
 (, "I", , , "Love", , 1337)
 #+end_src
+*** TypApplications
+Allow type application syntax:
+#+begin_src haskell
+read @Int 5
+#+end_src
+
 *** TypeFamilies
+Allow use and definition of indexed type and data families.
+
+
+Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 *** TypeSynonymInstances
 Allow definition of type class instances for type synonyms.
 ** Define LANGUAGE pragma options
