@@ -2613,8 +2613,6 @@ Allow type application syntax:
 #+begin_src haskell
 read @Int 5
 
-*** TypeFamilies
-Allow use and definition of indexed type and data families.
 :type pure @[]
 pure @[] :: a -> [a]
 
@@ -2628,7 +2626,6 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
 #+end_src
 
-Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 *** TypeSynonymInstances
 Allow definition of type class instances for type synonyms.
 ** Define LANGUAGE pragma options
@@ -2636,6 +2633,19 @@ Allow definition of type class instances for type synonyms.
 *** GADTs
 *** GeneralizedNewTypeClasses
 *** FlexibleInstances
+*** TypeFamilies
+Allow use and definition of indexed type and data families.
+
+/*/ are type-level programming.
+/*/ are overload data types in the same way that type classes overload functions.
+/*/ allow handling of dependent types. Before it [[Functional dependencies]] and [[GADTs]] were used to solve that.
+/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
+
+Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
+
+Two types of /*/ are:
+**** Data families
+**** Type synonym families
 ** Type rank
 [[Weak ordering]] of types.
 
