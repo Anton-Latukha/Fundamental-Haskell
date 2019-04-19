@@ -11,7 +11,7 @@
   - [[#anamorphism][Anamorphism]]
   - [[#application][Application]]
   - [[#application-memory][Application memory]]
-    - [[#][*]]
+    - [[#][/*/]]
       - [[#heap][Heap]]
       - [[#stack][Stack]]
   - [[#applicative][Applicative]]
@@ -51,13 +51,13 @@
   - [[#bind][Bind]]
   - [[#bottom-value][Bottom value]]
   - [[#calculus-of-constructions][Calculus of constructions]]
-    - [[#-1][*]]
+    - [[#-1][/*/]]
       - [[#coc][CoC]]
   - [[#cardinality][Cardinality]]
   - [[#cartesian-product][Cartesian product]]
   - [[#case][Case]]
   - [[#category][Category]]
-    - [[#-2][*]]
+    - [[#-2][/*/]]
       - [[#object][Object]]
       - [[#category-theory][Category theory]]
   - [[#closed-form-expression][Closed-form expression]]
@@ -68,7 +68,7 @@
   - [[#codomain][Codomain]]
   - [[#combinator][Combinator]]
   - [[#commutative-law][Commutative law]]
-    - [[#-3][*]]
+    - [[#-3][/*/]]
       - [[#commutative][Commutative]]
   - [[#compose][Compose]]
   - [[#composition][Composition]]
@@ -79,18 +79,18 @@
   - [[#constant][Constant]]
   - [[#constraint][Constraint]]
   - [[#construct][Construct]]
-    - [[#-4][*]]
+    - [[#-4][/*/]]
       - [[#cons][Cons]]
   - [[#constructor][Constructor]]
   - [[#contravariant][Contravariant]]
-    - [[#-5][*]]
+    - [[#-5][/*/]]
       - [[#contravariant-cofunctor][Contravariant cofunctor]]
       - [[#contravariant-functor][Contravariant functor]]
   - [[#covariant][Covariant]]
   - [[#covariant-cofunctor][Covariant cofunctor]]
   - [[#covariant-functor][Covariant functor]]
   - [[#curryhoward-correspondence][Curry–Howard correspondence]]
-    - [[#-6][*]]
+    - [[#-6][/*/]]
       - [[#curryhoward-isomorphism][Curry–Howard isomorphism]]
   - [[#currying][Currying]]
   - [[#data-constant][Data constant]]
@@ -99,7 +99,7 @@
   - [[#data-declaration-1][data declaration]]
   - [[#data-type][Data type]]
     - [[#algebraic-data-type][Algebraic data type]]
-      - [[#-7][*]]
+      - [[#-7][/*/]]
         - [[#algdt][AlgDT]]
     - [[#higher-kinded-data-type][Higher-kinded data type]]
     - [[#product-data-type][Product data type]]
@@ -128,15 +128,15 @@
     - [[#function-application][Function application]]
     - [[#function-range][Function range]]
     - [[#injection][Injection]]
-      - [[#-8][*]]
+      - [[#-8][/*/]]
         - [[#injective][Injective]]
         - [[#injective-function][Injective function]]
     - [[#surjection][Surjection]]
-      - [[#-9][*]]
+      - [[#-9][/*/]]
         - [[#surjective][Surjective]]
         - [[#surjective-function][Surjective function]]
     - [[#bijection][Bijection]]
-      - [[#-10][*]]
+      - [[#-10][/*/]]
         - [[#bijective][Bijective]]
         - [[#bijective-function][Bijective function]]
   - [[#functor][Functor]]
@@ -145,7 +145,7 @@
       - [[#functor-composition-law][Functor composition law]]
     - [[#lift][Lift]]
     - [[#forgetful-functor][Forgetful functor]]
-    - [[#-11][*]]
+    - [[#-11][/*/]]
       - [[#powerset-functor][Powerset functor]]
       - [[#fmap][fmap]]
   - [[#fundamental-theorem-of-algebra][Fundamental theorem of algebra]]
@@ -153,14 +153,14 @@
   - [[#girardreynolds-polymorphic-lambda-calculus][Girard–Reynolds polymorphic lambda calculus]]
   - [[#guerrilla-patch][Guerrilla patch]]
   - [[#higher-order-function][Higher-order function]]
-    - [[#-12][*]]
+    - [[#-12][/*/]]
       - [[#hof][HOF]]
   - [[#hindleymilner-type-system][Hindley–Milner type system]]
   - [[#hom-set][Hom-set]]
     - [[#hom-functor][Hom-functor]]
   - [[#idempotence][Idempotence]]
   - [[#idiom][Idiom]]
-    - [[#-13][*]]
+    - [[#-13][/*/]]
       - [[#idiomatic][Idiomatic]]
   - [[#iff][Iff]]
   - [[#impredicative][Impredicative]]
@@ -174,7 +174,7 @@
   - [[#kind][Kind]]
   - [[#lambda-abstraction][Lambda abstraction]]
   - [[#lambda-calculus][Lambda calculus]]
-    - [[#-14][*]]
+    - [[#-14][/*/]]
       - [[#lambda-term][Lambda term]]
   - [[#lambda-cube][Lambda cube]]
   - [[#lambda-function][Lambda function]]
@@ -188,15 +188,15 @@
     - [[#compile-level][Compile level]]
       - [[#compilation-level][Compilation level]]
     - [[#runtime-level][Runtime level]]
-    - [[#-15][*]]
+    - [[#-15][/*/]]
       - [[#code-level][Code level]]
   - [[#lexical-scope][Lexical scope]]
-    - [[#-16][*]]
+    - [[#-16][/*/]]
       - [[#static-scope][Static scope]]
   - [[#dynamic-scope][Dynamic scope]]
   - [[#linear-type][Linear type]]
   - [[#local-scope][Local scope]]
-    - [[#-17][*]]
+    - [[#-17][/*/]]
       - [[#local][Local]]
   - [[#magma][Magma]]
   - [[#module][Module]]
@@ -229,12 +229,12 @@
       - [[#monoid-right-identity-law][Monoid right identity law]]
       - [[#monoid-associativity-law][Monoid associativity law]]
     - [[#commutative-monoid][Commutative monoid]]
-      - [[#-19][*]]
+      - [[#-19][/*/]]
         - [[#abelian-monoid][Abelian monoid]]
   - [[#monoidal-functor][Monoidal functor]]
   - [[#morphism][Morphism]]
     - [[#homomorphism][Homomorphism]]
-      - [[#-20][*]]
+      - [[#-20][/*/]]
         - [[#homomorphic][Homomorphic]]
     - [[#identity-morphism][Identity morphism]]
       - [[#identity][Identity]]
@@ -243,22 +243,22 @@
         - [[#right-identity-of-a-predicate][Right identity of a predicate]]
       - [[#identity-function][Identity function]]
     - [[#monomorphism][Monomorphism]]
-      - [[#-21][*]]
+      - [[#-21][/*/]]
         - [[#monomorphic][Monomorphic]]
     - [[#epimorphism][Epimorphism]]
-      - [[#-22][*]]
+      - [[#-22][/*/]]
         - [[#epimorphic][Epimorphic]]
     - [[#isomorphism][Isomorphism]]
-      - [[#-23][*]]
+      - [[#-23][/*/]]
         - [[#isomorphic][Isomorphic]]
     - [[#endomorphism][Endomorphism]]
       - [[#automorphism][Automorphism]]
-        - [[#-24][*]]
+        - [[#-24][/*/]]
           - [[#automorphic][Automorphic]]
-      - [[#-25][*]]
+      - [[#-25][/*/]]
         - [[#endomorphic][Endomorphic]]
     - [[#catamorphism][Catamorphism]]
-      - [[#-26][*]]
+      - [[#-26][/*/]]
         - [[#catamorphic][Catamorphic]]
   - [[#natural-transformation][Natural transformation]]
   - [[#newtype-declaration][newtype declaration]]
@@ -276,21 +276,21 @@
   - [[#permutation][Permutation]]
   - [[#point-free][Point-free]]
     - [[#eta-abstraction][\eta-abstraction]]
-      - [[#-27][*]]
+      - [[#-27][/*/]]
         - [[#eta-reduction][\eta-reduction]]
         - [[#eta-conversion][\eta-conversion]]
         - [[#eta-abstraction-1][eta-abstraction]]
         - [[#eta-reduction-1][eta-reduction]]
         - [[#eta-conversion-1][eta-conversion]]
     - [[#blackbird][Blackbird]]
-      - [[#-28][*]]
+      - [[#-28][/*/]]
         - [[#-][.) .]]
         - [[#sectioning][Sectioning]]
         - [[#-29][(.).(.)]]
     - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
-    - [[#-30][*]]
+    - [[#-30][/*/]]
       - [[#pointfree][Pointfree]]
       - [[#tacit][Tacit]]
       - [[#tacit-programming][Tacit programming]]
@@ -298,17 +298,17 @@
     - [[#levity-polymorphism][Levity polymorphism]]
     - [[#parametric-polymorphism][Parametric polymorphism]]
       - [[#rank-1-polymorphism][Rank-1 polymorphism]]
-        - [[#-31][*]]
+        - [[#-31][/*/]]
           - [[#prenex][Prenex]]
           - [[#prenex-polymorpism][Prenex polymorpism]]
       - [[#let-bound-polymorphism][Let-bound polymorphism]]
       - [[#constrained-polymorphism][Constrained polymorphism]]
         - [[#ad-hoc-polymorphism][Ad hoc polymorphism]]
       - [[#impredicative-polymorphism][Impredicative polymorphism]]
-        - [[#-32][*]]
+        - [[#-32][/*/]]
           - [[#first-class-polymorphism][First-class polymorphism]]
       - [[#higher-rank-polymorphism][Higher-rank polymorphism]]
-        - [[#-33][*]]
+        - [[#-33][/*/]]
           - [[#rank-n-polymorphism][Rank-n polymorphism]]
     - [[#subtype-polymorphism][Subtype polymorphism]]
     - [[#row-polymorphism][Row polymorphism]]
@@ -326,13 +326,13 @@
   - [[#principle-of-compositionality][Principle of compositionality]]
   - [[#proxy-type][Proxy type]]
   - [[#psi-combinator][\Psi-combinator]]
-    - [[#-34][*]]
+    - [[#-34][/*/]]
       - [[#psi-combinator-1][Psi-combinator]]
       - [[#on-combinator][On-combinator]]
   - [[#purity][Purity]]
   - [[#quantifier][Quantifier]]
     - [[#forall-quantifier][Forall quantifier]]
-      - [[#-35][*]]
+      - [[#-35][/*/]]
         - [[#forall][Forall]]
   - [[#recursion][Recursion]]
   - [[#redex][Redex]]
@@ -351,7 +351,7 @@
   - [[#set-category][SET category]]
   - [[#shadowing][Shadowing]]
   - [[#shift-operator][Shift operator]]
-    - [[#-36][*]]
+    - [[#-36][/*/]]
       - [[#shift][Shift]]
   - [[#shrinking][Shrinking]]
   - [[#singleton][Singleton]]
@@ -401,7 +401,7 @@
   - [[#variadic][Variadic]]
   - [[#zero][Zero]]
   - [[#bound][Bound]]
-    - [[#-37][*]]
+    - [[#-37][/*/]]
       - [[#bounded][Bounded]]
   - [[#typed-hole][Typed hole]]
 - [[#give-definitions][Give definitions]]
@@ -421,10 +421,10 @@
   - [[#tensorial-strength][Tensorial strength]]
   - [[#strong-monad][Strong monad]]
   - [[#either][Either]]
-    - [[#-38][*]]
+    - [[#-38][/*/]]
       - [[#either-data-type][Either data type]]
   - [[#weak-head-normal-form][Weak head normal form]]
-    - [[#-39][*]]
+    - [[#-39][/*/]]
       - [[#whnf][WHNF]]
   - [[#function-image][Function image]]
     - [[#image][Image]]
@@ -463,7 +463,7 @@
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
-      - [[#-40][*]]
+      - [[#-40][/*/]]
         - [[#ghc-desugar][GHC desugar]]
   - [[#ghc-optimize-keys][GHC optimize keys]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
@@ -473,7 +473,7 @@
   - [[#lhs][LHS]]
   - [[#type-family][Type family]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
-    - [[#-41][*]]
+    - [[#-41][/*/]]
       - [[#gadt][GADT]]
   - [[#order-theory][Order theory]]
     - [[#domain-theory][Domain theory]]
@@ -482,48 +482,48 @@
       - [[#preorder-1][Preorder]]
         - [[#total-preorder][Total preorder]]
       - [[#partial-ordering][Partial ordering]]
-        - [[#-42][*]]
+        - [[#-42][/*/]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
   - [[#reflexivity][Reflexivity]]
-    - [[#-43][*]]
+    - [[#-43][/*/]]
       - [[#reflexive][Reflexive]]
       - [[#reflexive-relation][Reflexive relation]]
   - [[#irreflexivity][Irreflexivity]]
-    - [[#-44][*]]
+    - [[#-44][/*/]]
       - [[#anti-reflexive][Anti-reflexive]]
       - [[#anti-reflexive-relation][Anti-reflexive relation]]
       - [[#irreflexive][Irreflexive]]
       - [[#irreflexive-relation][Irreflexive relation]]
   - [[#transitivity][Transitivity]]
-    - [[#-45][*]]
+    - [[#-45][/*/]]
       - [[#transitive][Transitive]]
       - [[#transitive-relation][Transitive relation]]
   - [[#symmetry][Symmetry]]
-    - [[#-46][*]]
+    - [[#-46][/*/]]
       - [[#symmetric][Symmetric]]
       - [[#symmetric-relation][Symmetric relation]]
   - [[#equivalence][Equivalence]]
-    - [[#-47][*]]
+    - [[#-47][/*/]]
       - [[#equivalent][Equivalent]]
       - [[#equivalent-relation][Equivalent relation]]
   - [[#antisymmetry][Antisymmetry]]
-    - [[#-48][*]]
+    - [[#-48][/*/]]
       - [[#antisymmetric][Antisymmetric]]
       - [[#antisymmetric-relation][Antisymmetric relation]]
   - [[#asymmetry][Asymmetry]]
-    - [[#-49][*]]
+    - [[#-49][/*/]]
       - [[#asymmetric][Asymmetric]]
       - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
-    - [[#-50][*]]
+    - [[#-50][/*/]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
   - [[#type-family-1][Type family]]
   - [[#abstract-data-type][Abstract data type]]
-    - [[#-51][*]]
+    - [[#-51][/*/]]
       - [[#absdt][AbsDT]]
   - [[#adt][ADT]]
 - [[#citations][Citations]]
@@ -652,7 +652,7 @@ For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
-*** *
+*** /*/
 **** Heap
 See [[Application memory]].
 **** Stack
@@ -838,7 +838,7 @@ Is a non-value used to denote the program cannot return a values.
 Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
-*** *
+*** /*/
 **** CoC
 See [[Calculus of constructions]].
 ** Cardinality
@@ -878,7 +878,7 @@ Category (/C/) consists of the [[Basis]]:
   5. Axiom of two sided [[Identity]] of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
-*** *
+*** /*/
 **** Object
 See [[Category]]
 **** Category theory
@@ -914,7 +914,7 @@ Not comibnators:
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** Commutative law
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
-*** *
+*** /*/
 **** Commutative
 See Commutative law
 ** Compose
@@ -939,7 +939,7 @@ See: [[Ad hoc polymorphism]]
 #+begin_src haskell
 (:) :: a -> [a] -> [a]
 #+end_src
-*** *
+*** /*/
 **** Cons
 Short for [[Construct]].
 ** Constructor
@@ -956,7 +956,7 @@ $$ V^{i} = x $$
 
 The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
 
-*** *
+*** /*/
 **** Contravariant cofunctor
 See [[Contravariant]].
 **** Contravariant functor
@@ -973,7 +973,7 @@ See [[Covariant]].
 More inline term is [[Covariant cofunctor]]
 ** Curry–Howard correspondence
 Computer programs are mathematical proofs.
-*** *
+*** /*/
 **** Curry–Howard isomorphism
 See [[Curry–Howard correspondence]].
 ** Currying
@@ -1000,7 +1000,7 @@ data [context =>] type typeVars1..n
 Data type, type.
 *** Algebraic data type
 Composite type formed by combining other types.
-**** *
+**** /*/
 ***** AlgDT
 See [[Algebraic data type]]
 *** Higher-kinded data type
@@ -1117,7 +1117,7 @@ f : X ↣ Y
 $f : X \rightarrowtail Y$
 
 Corresponds to [[Monomorphism]].
-**** *
+**** /*/
 ***** Injective
 See [[Injection]].
 ***** Injective function
@@ -1136,7 +1136,7 @@ f : X ↠ Y
 $$ f : X \twoheadrightarrow Y $$
 
 Corresponds to [[Epimorphism]].
-**** *
+**** /*/
 ***** Surjective
 See [[Surjection]].
 ***** Surjective function
@@ -1157,7 +1157,7 @@ f : X ⤖ Y
 #+end_src
 LaTeX needed to combine symbols:
 $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
-**** *
+**** /*/
 ***** Bijective
 See [[Bijection]].
 ***** Bijective function
@@ -1200,7 +1200,7 @@ In words, it is if several functions are composed and then fmap is applied on th
 Lift is to do a [[Function application][function application]] through the data structure.
 *** Forgetful functor
 [[Functor]] that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
-*** *
+*** /*/
 **** Powerset functor
 See: [[Functor]]
 **** fmap
@@ -1222,7 +1222,7 @@ See [[System F]].
 
 Has function as a [[Parameter][parameter]].
 Evaluates to function.
-*** *
+*** /*/
 **** HOF
 See: [[Higher-order function]]
 ** Hindley–Milner type system
@@ -1254,7 +1254,7 @@ Idiom - something having a meaning that cannot be derived from the conjoined mea
 Meaning can be special for language speakers or human with particular knowledge.
 
 For different meaning - it is [[Applicative functor]].
-*** *
+*** /*/
 **** Idiomatic
 See [[Idiom]].
 ** Iff
@@ -1324,7 +1324,7 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
    * variable ($$ x $$)
    * [[Function application][application]] ($$ (ts) $$)
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
-*** *
+*** /*/
 **** Lambda term
 See [[Lambda calculus]]
 ** Lambda cube
@@ -1367,12 +1367,12 @@ There are mainly three levels of Haskell code.
 **** Compilation level
 *** Runtime level
 [[Level of code]] when binary code executes in machine.
-*** *
+*** /*/
 **** Code level
 See [[Level of code]]
 ** Lexical scope
 Scope bound by the structure of source code where the named entity is defined.
-*** *
+*** /*/
 **** Static scope
 See [[Lexical scope]]
 ** Dynamic scope
@@ -1387,7 +1387,7 @@ There are 3 general linear type groups:
 Linear types are great to control/minimize resource usage.
 ** Local scope
 [[Scope]] applies only in an area.
-*** *
+*** /*/
 **** Local
 See: [[Local scope]]
 ** Magma
@@ -1592,7 +1592,7 @@ mconcat = foldr (mempty <>)
 Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
-**** *
+**** /*/
 ***** Abelian monoid
 See [[Commutative monoid]]
 ** Monoidal functor
@@ -1626,7 +1626,7 @@ Homomorphism preserves operations, as such:
   * linear map
   * module
   * algebra
-**** *
+**** /*/
 ***** Homomorphic
 See [[Homomorphism]]
 *** Identity morphism
@@ -1663,7 +1663,7 @@ It always has a inverse morphism.
 $$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from [[Homomorphism]] context
 $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
 Thus it is left canselable.
-**** *
+**** /*/
 ***** Monomorphic
 See [[Monomorphism]].
 *** Epimorphism
@@ -1678,7 +1678,7 @@ $$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from gene
 Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-**** *
+**** /*/
 ***** Epimorphic
 See [[Epimorphism]].
 *** Isomorphism
@@ -1693,7 +1693,7 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
 2 reasons for non-isomorphism:
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
-**** *
+**** /*/
 ***** Isomorphic
 See [[Isomorphism]].
 *** Endomorphism
@@ -1709,10 +1709,10 @@ Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 [[Endomorphism]] that is [[Isomorphism]].
 
 Corresponds to [[Identity]] and [[Reflexivity]].
-***** *
+***** /*/
 ****** Automorphic
 See [[Automorphism]]
-**** *
+**** /*/
 ***** Endomorphic
 See [[Endomorphism]]
 *** Catamorphism
@@ -1722,7 +1722,7 @@ See [[Endomorphism]]
 Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
-**** *
+**** /*/
 ***** Catamorphic
 See [[Catamorphism]]
 ** Natural transformation
@@ -1819,7 +1819,7 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 #+end_src
 *** \eta-abstraction
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
-**** *
+**** /*/
 ***** \eta-reduction
 See [[\eta-abstraction]]
 ***** \eta-conversion
@@ -1839,7 +1839,7 @@ See [[\eta-abstraction]]
 #+begin_src haskell
 \f g x y -> f (g x y)
 #+end_src
-**** *
+**** /*/
 ***** .) .
 See [[Blackbird]]
 ***** Sectioning
@@ -1860,7 +1860,7 @@ swing f c a = f ($ a) c
 f >>= a . b . c =<< g
 #+end_src
 
-*** *
+*** /*/
 **** Pointfree
 See [[Point-free]]
 **** Tacit
@@ -1886,7 +1886,7 @@ Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][
 Types:
 **** Rank-1 polymorphism
 [[Parametric polymorphism]] in [[Type rank][rank-1 types]] by type variables.
-***** *
+***** /*/
 ****** Prenex
 See [[Rank-1 polymorphism]]
 ****** Prenex polymorpism
@@ -1918,7 +1918,7 @@ First see [[Impredicative]].
 Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
-***** *
+***** /*/
 ****** First-class polymorphism
 More default term: [[Impredicative polymorphism]].
 **** Higher-rank polymorphism
@@ -1941,7 +1941,7 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 #+end_src
 
 Useful example aslo a [[ST-Trick monad]].
-***** *
+***** /*/
 ****** Rank-n polymorphism
 See: [[Higher-rank polymorphism]]
 *** Subtype polymorphism
@@ -2060,7 +2060,7 @@ Applies function to two different structures, then chains binary function and re
 import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
-*** *
+*** /*/
 **** Psi-combinator
 See: [[\Psi-combinator]]
 **** On-combinator
@@ -2076,7 +2076,7 @@ Permits to not [[Type inference][infer]] the type, but to use any that fits. The
 [[ScopedTypeVariables]]
 [[RankNTypes]]
 [[ExistentialQuantification]]
-**** *
+**** /*/
 ***** Forall
 See [[Forall quantifier]]
 ** Recursion
@@ -2138,7 +2138,7 @@ Global [[Scope][scope]] variable overriden by variable in [[Local scope][local s
 ** Shift operator
 Shift operator defined by Lagrange through Differential operator.
 $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
-*** *
+*** /*/
 **** Shift
 See [[Shift operator]]
 ** Shrinking
@@ -2402,7 +2402,7 @@ There is also distinct [[Identity]] value.
 ** Bound
 To have a bound.
 Haskell [[Data type][types]] has a [[Type class][type class]] which means the according types have lowest and maximum values, so they have a bounded range of values.
-*** *
+*** /*/
 **** Bounded
 See [[Bound]]
 ** Typed hole
@@ -2433,11 +2433,11 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** Strong monad
 ** Either
 Allows to separate and preserve information about happened, ex. error handling.
-*** *
+*** /*/
 **** Either data type
 See [[Either]]
 ** Weak head normal form
-*** *
+*** /*/
 **** WHNF
 See [[Weak head normal form]]
 ** Function image
@@ -2679,7 +2679,7 @@ Type inference in Rank-2 is possible, but but not higher.
 ** GHC debug keys
 *** -ddump-ds
 Dump desugarer output.
-**** *
+**** /*/
 ***** GHC desugar
 See: [[-ddump-ds]].
 ** GHC optimize keys
@@ -2696,7 +2696,7 @@ Left-hand side of the expression.
 ** Type family
 ** Generalised algebraic data types
 LANGUAGE [[GADTs]]
-*** *
+*** /*/
 **** GADT
 See [[Generalised algebraic data types]]
 ** Order theory
@@ -2725,7 +2725,7 @@ A binary relation must be [[Reflexive][reflexive]], [[Antisymmetry][antisymmetic
 Partial - not every elempents between them need to be comparable.
 
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
-***** *
+***** /*/
 ****** Partially ordered set
 See [[Partial ordering]]
 ****** Poset
@@ -2739,14 +2739,14 @@ $$ R^{X \to X}, \forall x \in X : x R x $$
 /*/ - each element is comparable to itself.
 
 Corresponds to [[Identity]] and [[Automorphism]].
-*** *
+*** /*/
 **** Reflexive
 See [[Reflexivity]]
 **** Reflexive relation
 See [[Reflexivity]]
 ** Irreflexivity
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
-*** *
+*** /*/
 **** Anti-reflexive
 See [[Irreflexivity]]
 **** Anti-reflexive relation
@@ -2759,14 +2759,14 @@ See [[Irreflexivity]]
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
-*** *
+*** /*/
 **** Transitive
 See [[Transitivity]]
 **** Transitive relation
 See [[Transitivity]]
 ** Symmetry
 $$ \forall a,b \in X : (aRb \iff bRa) $$
-*** *
+*** /*/
 **** Symmetric
 See [[Symmetry]]
 **** Symmetric relation
@@ -2776,7 +2776,7 @@ See [[Symmetry]]
 | $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
 
-*** *
+*** /*/
 **** Equivalent
 See [[Equivalence]]
 **** Equivalent relation
@@ -2786,7 +2786,7 @@ $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightar
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
-*** *
+*** /*/
 **** Antisymmetric
 See [[Antisymmetry]]
 **** Antisymmetric relation
@@ -2796,7 +2796,7 @@ $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
 Asymmetry \ne "not symmetric"
 [[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
-*** *
+*** /*/
 **** Asymmetric
 See [[Asymmetry]]
 **** Asymmetric relation
@@ -2804,7 +2804,7 @@ See [[Asymmetry]]
 ** Commutativity
 ** Cryptomorphism
 Equivalent, interconvertable with ni loss of information.
-*** *
+*** /*/
 **** Crypromorphic
 See [[Cryptomorphism]]
 ** Lexically scoped type variables
@@ -2823,7 +2823,7 @@ Data type mathematical model, defined by its semantics from the user point of vi
 /*/ class of objects whose logical behaviour is defined by a set of values and set of operations (analogue to algebraic structure in mathematics).
 
 A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
-*** *
+*** /*/
 **** AbsDT
 See [[Abstract data type]]
 ** ADT
