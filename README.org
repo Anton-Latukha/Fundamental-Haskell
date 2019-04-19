@@ -2017,24 +2017,6 @@ where
   val :: b
   val = ...expr
 #+end_src
-***** TypeApplications
-Allows to use visible type application in expressions.
-A visible type application is preceded with an @ sign.
-
-#+begin_src haskell
-:type pure @[]
-pure @[] :: a -> [a]
-
-:type (<*>) @[]
-(<*>) @[] :: [a -> b] -> [a] -> [b]
-
---
-
-instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
-
-λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
-    12
-#+end_src
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
@@ -2637,11 +2619,21 @@ Allow tuple section syntax:
 Allow type application syntax:
 #+begin_src haskell
 read @Int 5
-#+end_src
 
 *** TypeFamilies
 Allow use and definition of indexed type and data families.
+:type pure @[]
+pure @[] :: a -> [a]
 
+:type (<*>) @[]
+(<*>) @[] :: [a -> b] -> [a] -> [b]
+
+--
+
+instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
+
+λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
+#+end_src
 
 Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 *** TypeSynonymInstances
