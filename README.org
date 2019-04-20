@@ -2513,7 +2513,7 @@ $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
 *** FlexibleInstances
-Allow definition of type class instances with arbitrary nested types in the instance head.
+Allow type class instances types contain nested types.
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
@@ -2627,7 +2627,7 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 #+end_src
 
 *** TypeSynonymInstances
-Allow definition of type class instances for type synonyms.
+Now type synonim can have it's own type class instances.
 ** Define LANGUAGE pragma options
 *** ExistentialQuantification
 *** GADTs
