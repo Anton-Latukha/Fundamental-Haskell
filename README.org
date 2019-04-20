@@ -573,6 +573,7 @@
         - [[#every-function-does-one-thing][Every function does one thing.]]
   - [[#use-typed-holes-to-progress-the-code][Use Typed holes to progress the code]]
   - [[#haskell-has-infinite-terms-not-not-infinite-types][Haskell has infinite terms not not infinite types.]]
+  - [[#use-type-sysnonims-to-differ-the-information][Use type sysnonims to differ the information]]
 - [[#useful-functions-to-remember][Useful functions to remember]]
   - [[#prelude][Prelude]]
     - [[#ord][Ord]]
@@ -2946,6 +2947,9 @@ Portability :  portable | non-portable (<reason>)
 [[Typed hole]]s help build code in complex situations.
 ** Haskell has infinite terms not not infinite types.
 That is why infinite types throw infinite type error.
+** Use type sysnonims to differ the information
+Even if there is types - define type synonims. They are free.
+That distinction with synonims, would allow [[TypeSynonimInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
