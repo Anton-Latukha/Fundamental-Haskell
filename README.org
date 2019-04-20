@@ -452,6 +452,7 @@
     - [[#tuplesections][TupleSections]]
     - [[#typeapplications][TypeApplications]]
     - [[#typesynonyminstances][TypeSynonymInstances]]
+    - [[#undecidableinstances][UndecidableInstances]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
@@ -2632,6 +2633,10 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 
 *** TypeSynonymInstances
 Now type synonim can have it's own type class instances.
+*** UndecidableInstances
+Permit instances which may lead to type-checker non-termination.
+
+GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
 ** Define LANGUAGE pragma options
 *** ExistentialQuantification
 *** GADTs
