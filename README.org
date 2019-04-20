@@ -404,6 +404,10 @@
     - [[#-37][/*/]]
       - [[#bounded][Bounded]]
   - [[#typed-hole][Typed hole]]
+  - [[#first-order-logic][First-order logic]]
+    - [[#-38][/*/]]
+      - [[#predicate-logic][Predicate logic]]
+      - [[#first-order-predicate-calculus][First-order predicate calculus]]
 - [[#give-definitions][Give definitions]]
   - [[#kleisli-category][Kleisli category]]
   - [[#free-object][Free object]]
@@ -421,10 +425,10 @@
   - [[#tensorial-strength][Tensorial strength]]
   - [[#strong-monad][Strong monad]]
   - [[#either][Either]]
-    - [[#-38][/*/]]
+    - [[#-39][/*/]]
       - [[#either-data-type][Either data type]]
   - [[#weak-head-normal-form][Weak head normal form]]
-    - [[#-39][/*/]]
+    - [[#-40][/*/]]
       - [[#whnf][WHNF]]
   - [[#function-image][Function image]]
     - [[#image][Image]]
@@ -464,7 +468,7 @@
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
-      - [[#-40][/*/]]
+      - [[#-41][/*/]]
         - [[#ghc-desugar][GHC desugar]]
   - [[#ghc-optimize-keys][GHC optimize keys]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
@@ -474,7 +478,7 @@
   - [[#lhs][LHS]]
   - [[#type-family][Type family]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
-    - [[#-41][/*/]]
+    - [[#-42][/*/]]
       - [[#gadt][GADT]]
   - [[#order-theory][Order theory]]
     - [[#domain-theory][Domain theory]]
@@ -483,48 +487,48 @@
       - [[#preorder-1][Preorder]]
         - [[#total-preorder][Total preorder]]
       - [[#partial-ordering][Partial ordering]]
-        - [[#-42][/*/]]
+        - [[#-43][/*/]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
   - [[#reflexivity][Reflexivity]]
-    - [[#-43][/*/]]
+    - [[#-44][/*/]]
       - [[#reflexive][Reflexive]]
       - [[#reflexive-relation][Reflexive relation]]
   - [[#irreflexivity][Irreflexivity]]
-    - [[#-44][/*/]]
+    - [[#-45][/*/]]
       - [[#anti-reflexive][Anti-reflexive]]
       - [[#anti-reflexive-relation][Anti-reflexive relation]]
       - [[#irreflexive][Irreflexive]]
       - [[#irreflexive-relation][Irreflexive relation]]
   - [[#transitivity][Transitivity]]
-    - [[#-45][/*/]]
+    - [[#-46][/*/]]
       - [[#transitive][Transitive]]
       - [[#transitive-relation][Transitive relation]]
   - [[#symmetry][Symmetry]]
-    - [[#-46][/*/]]
+    - [[#-47][/*/]]
       - [[#symmetric][Symmetric]]
       - [[#symmetric-relation][Symmetric relation]]
   - [[#equivalence][Equivalence]]
-    - [[#-47][/*/]]
+    - [[#-48][/*/]]
       - [[#equivalent][Equivalent]]
       - [[#equivalent-relation][Equivalent relation]]
   - [[#antisymmetry][Antisymmetry]]
-    - [[#-48][/*/]]
+    - [[#-49][/*/]]
       - [[#antisymmetric][Antisymmetric]]
       - [[#antisymmetric-relation][Antisymmetric relation]]
   - [[#asymmetry][Asymmetry]]
-    - [[#-49][/*/]]
+    - [[#-50][/*/]]
       - [[#asymmetric][Asymmetric]]
       - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
-    - [[#-50][/*/]]
+    - [[#-51][/*/]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
   - [[#type-family-1][Type family]]
   - [[#abstract-data-type][Abstract data type]]
-    - [[#-51][/*/]]
+    - [[#-52][/*/]]
       - [[#absdt][AbsDT]]
   - [[#adt][ADT]]
 - [[#citations][Citations]]
@@ -1643,13 +1647,19 @@ Corresponds to [[Reflexivity]] and [[Automorphism]].
 Identity only possible with morphism. See [[Identity morphism]].
 
 There is also knowledge of [[Zero]] value.
-***** Two-sided identity of a [[Predicate][predicate]]
+***** Two-sided identity of a predicate
 $$ P() $$ is [[Commutative][commutative]].
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
-***** Left identity of a [[Predicate][predicate]]
+
+[[Predicate]]
+***** Left identity of a predicate
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
-***** Right identity of a [[Predicate][predicate]]
+
+[[Predicate]]
+***** Right identity of a predicate
 $$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
+
+[[Predicate]]
 **** Identity function
 Return itself.
 (\x.x)
@@ -2037,9 +2047,10 @@ It is for basic case. For testing, parser see further: https://blog.shaynefletch
 *** Pragma option
 Values supplied to the [[Pragma]] directive.
 ** Predicate
-[[Assertion]] includes variable.
+[[Assertion]] [[Function][function]] that includes [[Variable][variable]] and results in true or false statement.
+
 Notation: $$ P(x) $$
-[[Application]] of [[Argument][argument]] results in true or false predicate.
+[[Application]] of [[Argument][argument]] yealds true or false predicate.
 ** Predicative
 Non-self-referencing definition.
 
@@ -2412,6 +2423,13 @@ Haskell [[Data type][types]] has a [[Type class][type class]] which means the ac
 See [[Bound]]
 ** Typed hole
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
+** First-order logic
+Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables
+*** /*/
+**** Predicate logic
+See [[First-order logic]]
+**** First-order predicate calculus
+See [[First-order logic]]
 * Give definitions
 ** Kleisli category
 ** Free object
@@ -2957,7 +2975,7 @@ Portability :  portable | non-portable (<reason>)
 That is why infinite types throw infinite type error.
 ** Use type sysnonims to differ the information
 Even if there is types - define type synonims. They are free.
-That distinction with synonims, would allow [[TypeSynonimInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
+That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
