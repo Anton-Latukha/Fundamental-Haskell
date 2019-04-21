@@ -458,6 +458,7 @@
     - [[#typesynonyminstances][TypeSynonymInstances]]
     - [[#undecidableinstances][UndecidableInstances]]
   - [[#pattern-guard][Pattern guard]]
+  - [[#inverse][Inverse]]
   - [[#inversion][Inversion]]
   - [[#inverse-function][Inverse function]]
   - [[#partial-inverse][Partial inverse]]
@@ -2681,6 +2682,10 @@ addLookup env var1 var2
 check both  to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
+** Inverse
+1. [[Inverse function]]
+
+2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$
 ** Inversion
 1. Is a permutation where two elements are out of order.
 
