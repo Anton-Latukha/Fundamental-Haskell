@@ -458,6 +458,7 @@
     - [[#typesynonyminstances][TypeSynonymInstances]]
     - [[#undecidableinstances][UndecidableInstances]]
   - [[#pattern-guard][Pattern guard]]
+  - [[#inverse-function][Inverse function]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
@@ -2678,6 +2679,12 @@ addLookup env var1 var2
 check both  to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
+** Inverse function
+
+    $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X}_{} $$
+
+/*/ $$ \iff $$ [[Function][function]] is [[Bijection][bijective]].
+Otherwise - [[Partial inverse][partial inverse]]
 ** Define LANGUAGE pragma options
 *** ExistentialQuantification
 *** GADTs
