@@ -457,6 +457,7 @@
     - [[#typeapplications][TypeApplications]]
     - [[#typesynonyminstances][TypeSynonymInstances]]
     - [[#undecidableinstances][UndecidableInstances]]
+  - [[#pattern-guard][Pattern guard]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
@@ -2658,6 +2659,25 @@ Now type synonim can have it's own type class instances.
 Permit instances which may lead to type-checker non-termination.
 
 GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
+** Pattern guard
+Allows check a list of pattern matches against functions, and then proceed.
+
+| (/pattern1/) <- (/funcCheck1/)
+, (/pattern2/) <- (/funcCheck2/)
+= /[[LHS]]/
+
+#+begin_src haskell
+lookup :: FiniteMap -> Int -> Maybe Int
+
+addLookup env var1 var2
+   | Just val1 <- lookup env var1
+   , Just val2 <- lookup env var2
+   = val1 + val2
+{-...other equations...-}
+#+end_src
+check both  to succeed, bind results to val1, val2, then proceed to the equation.
+
+Default in Haskell 2010.
 ** Define LANGUAGE pragma options
 *** ExistentialQuantification
 *** GADTs
