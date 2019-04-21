@@ -458,6 +458,7 @@
     - [[#typesynonyminstances][TypeSynonymInstances]]
     - [[#undecidableinstances][UndecidableInstances]]
   - [[#pattern-guard][Pattern guard]]
+  - [[#inversion][Inversion]]
   - [[#inverse-function][Inverse function]]
   - [[#partial-inverse][Partial inverse]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
@@ -2680,6 +2681,10 @@ addLookup env var1 var2
 check both  to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
+** Inversion
+1. Is a permutation where two elements are out of order.
+
+2. See [[Inverse]]
 ** Inverse function
 
     $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X}_{} $$
