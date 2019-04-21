@@ -2988,6 +2988,10 @@ That distinction with synonims, would allow [[TypeSynonymInstances]], which woul
   - IncoherentInstances
   - ImpredicativeTypes
   - AllowAmbigiousTypes
+
+Mine addition:
+  - UndecidableInstances
+
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
