@@ -459,6 +459,7 @@
     - [[#undecidableinstances][UndecidableInstances]]
   - [[#pattern-guard][Pattern guard]]
   - [[#inverse-function][Inverse function]]
+  - [[#partial-inverse][Partial inverse]]
   - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
@@ -2685,6 +2686,8 @@ Default in Haskell 2010.
 
 /*/ $$ \iff $$ [[Function][function]] is [[Bijection][bijective]].
 Otherwise - [[Partial inverse][partial inverse]]
+** Partial inverse
+/*/ when [[Function][function]] is now [[Bijection][bijective]]. When bijective see [[Inverse function][inverse function]].
 ** Define LANGUAGE pragma options
 *** ExistentialQuantification
 *** GADTs
