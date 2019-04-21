@@ -579,6 +579,9 @@
   - [[#use-typed-holes-to-progress-the-code][Use Typed holes to progress the code]]
   - [[#haskell-has-infinite-terms-not-not-infinite-types][Haskell has infinite terms not not infinite types.]]
   - [[#use-type-sysnonims-to-differ-the-information][Use type sysnonims to differ the information]]
+- [[#bad-code][Bad code]]
+  - [[#pragma-1][Pragma]]
+    - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
 - [[#useful-functions-to-remember][Useful functions to remember]]
   - [[#prelude][Prelude]]
     - [[#ord][Ord]]
@@ -2976,6 +2979,15 @@ That is why infinite types throw infinite type error.
 ** Use type sysnonims to differ the information
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
+* Bad code
+** Pragma
+*** Dangerous LANGUAGE pragma options
+
+  - DatatypeContexts
+  - OverlappingInstances
+  - IncoherentInstances
+  - ImpredicativeTypes
+  - AllowAmbigiousTypes
 * Useful functions to remember
 ** Prelude
 #+begin_src haskell
