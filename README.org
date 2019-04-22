@@ -318,6 +318,32 @@
     - [[#language-pragma][LANGUAGE pragma]]
       - [[#language-option][LANGUAGE option]]
         - [[#useful-by-default][Useful by default]]
+        - [[#allowambiguoustypes][AllowAmbiguousTypes]]
+        - [[#applicativedo][ApplicativeDo]]
+        - [[#constrainedclassmethods][ConstrainedClassMethods]]
+        - [[#constraintkinds][ConstraintKinds]]
+        - [[#cpp][CPP]]
+        - [[#derivefunctor][DeriveFunctor]]
+        - [[#explicitforall][ExplicitForAll]]
+        - [[#flexiblecontexts][FlexibleContexts]]
+        - [[#flexibleinstances][FlexibleInstances]]
+        - [[#generalizednewtypederiving][GeneralizedNewtypeDeriving]]
+        - [[#implicitparams][ImplicitParams]]
+        - [[#lambdacase][LambdaCase]]
+        - [[#multiparamtypeclasses][MultiParamTypeClasses]]
+        - [[#multiwayif][MultiWayIf]]
+        - [[#overloadedstrings][OverloadedStrings]]
+        - [[#partialtypesignatures][PartialTypeSignatures]]
+        - [[#rankntypes][RankNTypes]]
+        - [[#scopedtypevariables][ScopedTypeVariables]]
+        - [[#tuplesections][TupleSections]]
+        - [[#typeapplications][TypeApplications]]
+        - [[#typefamilies][TypeFamilies]]
+          - [[#data-families][Data families]]
+          - [[#type-synonym-families][Type synonym families]]
+        - [[#typesynonyminstances][TypeSynonymInstances]]
+        - [[#undecidableinstances][UndecidableInstances]]
+        - [[#viewpatterns][ViewPatterns]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
     - [[#pragma-option][Pragma option]]
   - [[#predicate][Predicate]]
@@ -435,29 +461,6 @@
   - [[#maybe][Maybe]]
   - [[#homomorphis][Homomorphis]]
   - [[#language-pragma-options][LANGUAGE pragma options]]
-    - [[#allowambiguoustypes][AllowAmbiguousTypes]]
-    - [[#applicativedo][ApplicativeDo]]
-    - [[#cpp][CPP]]
-    - [[#constraintkinds][ConstraintKinds]]
-    - [[#implicitparams][ImplicitParams]]
-    - [[#derivefunctor][DeriveFunctor]]
-    - [[#flexiblecontexts][FlexibleContexts]]
-    - [[#flexibleinstances][FlexibleInstances]]
-    - [[#generalizednewtypederiving][GeneralizedNewtypeDeriving]]
-    - [[#lambdacase][LambdaCase]]
-    - [[#multiparamtypeclasses][MultiParamTypeClasses]]
-    - [[#constrainedclassmethods][ConstrainedClassMethods]]
-    - [[#multiwayif][MultiWayIf]]
-    - [[#overloadedstrings][OverloadedStrings]]
-    - [[#partialtypesignatures][PartialTypeSignatures]]
-    - [[#rankntypes][RankNTypes]]
-    - [[#explicitforall][ExplicitForAll]]
-    - [[#scopedtypevariables][ScopedTypeVariables]]
-    - [[#tuplesections][TupleSections]]
-    - [[#typeapplications][TypeApplications]]
-    - [[#typesynonyminstances][TypeSynonymInstances]]
-    - [[#undecidableinstances][UndecidableInstances]]
-    - [[#viewpatterns][ViewPatterns]]
   - [[#pattern-guard][Pattern guard]]
   - [[#inverse][Inverse]]
   - [[#inversion][Inversion]]
@@ -467,10 +470,6 @@
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
     - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
-    - [[#flexibleinstances-1][FlexibleInstances]]
-    - [[#typefamilies][TypeFamilies]]
-      - [[#data-families][Data families]]
-      - [[#type-synonym-families][Type synonym families]]
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
@@ -2034,6 +2033,218 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
+***** AllowAmbiguousTypes
+Allow type signatures which appear that they would result in an unusable binding.
+However GHC will still check and complain about a functions that can never be called.
+***** ApplicativeDo
+Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
+
+For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
+
+#+begin_src haskell
+  pure E
+  pure $ E
+  return E
+  return $ E
+#+end_src
+
+When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =[[-foptimal-applicative-do]]=.
+
+Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
+  * Allows use of do-notation with types that are an instance of Applicative and Functor
+  * In some monads, using the applicative operators is more efficient than monadic bind. For example, it may enable more parallelism.
+
+The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
+
+It is possible to see the actual translation by using =[[-ddump-ds]]=.
+***** ConstrainedClassMethods
+Enable the definition of further constraints on individual class methods.
+
+***** ConstraintKinds
+Constraints are just handled as types of a particular kind (Constraint).
+Any type of the kind Constraints can be used as a constraint.
+Kind Constraint are:
+  * Anything which is already allowed in code as a constraint without *this flag. Saturated applications to type classes, implicit parameter and equality constraints.
+  * [[Tuple]]s, all of whose component types have kind Constraint.
+  #+begin_src haskell
+  type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
+  #+end_src
+  * Anything form of which is not yet known, but the user has declared for it to have kind Constraint (for which they need to import it from GHC.Exts):
+  #+begin_src haskell
+  Foo (f :: Type -> Constraint) = forall b. f b => b -> b -- is allowed
+  -- as well as examples involving type families:
+  type family Typ a b :: Constraint
+  type instance Typ Int  b = Show b
+  type instance Typ Bool b = Num b
+
+  func :: Typ a b => a -> b -> b
+  func = ...
+  #+end_src
+
+***** CPP
+Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
+***** DeriveFunctor
+Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
+Since there is only one possible [[Functor][functor]] for any [[Data type][type]] - it is possible to check that it is derived right.
+Allows does not care about writing Functor instances.
+***** ExplicitForAll
+Allow explicit forall quantificator in places where it is implicit by Haskell.
+***** FlexibleContexts
+Ability to use complex constraints in class declaration contexts.
+The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
+#+begin_src haskell
+class C a where
+  op :: D b => a -> b -> b
+
+class C a => D a where ...
+#+end_src
+$$ C :> D $$, so in C we can talk about D.
+
+Synergizes with [[ConstraintKinds]].
+***** FlexibleInstances
+Allow type class instances types contain nested types.
+#+begin_src haskell
+instance C (Maybe Int) where ...
+#+end_src
+Implies [[TypeSynonymInstances]].
+***** GeneralizedNewtypeDeriving
+Enable GHC’s =newtype= cunning generalised deriving mechanism.
+#+begin_src haskell
+newtype Dollars = Dollars Int
+  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
+#+end_src
+(In old Haskell-98 only Eq, Ord, Enum could been inherited.)
+***** ImplicitParams
+Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
+Sure thing this one can be puzzling as hell inside Haskell.
+***** LambdaCase
+Enables expressions of the form:
+#+begin_src haskell
+\case { p1 -> e1; ...; pN -> eN }
+
+-- OR
+
+\case
+  p1 -> e1
+  ...
+  pN -> eN
+#+end_src
+
+***** MultiParamTypeClasses
+Implies: [[ConstrainedClassMethods]]
+Enable the definitions of typeclasses with more than one parameter.
+#+begin_src haskell
+class Collection c a where
+#+end_src
+
+***** MultiWayIf
+Enable multi-way-if syntax.
+#+begin_src haskell
+if | guard1 -> expr1
+   | ...
+   | guardN -> exprN
+#+end_src
+
+***** OverloadedStrings
+Enable overloaded string literals (string literals become desugared via the IsString class).
+Now string literal has type:
+#+begin_src haskell
+(IsString a) => a
+#+end_src
+
+The usual string syntax can be used, e.g., for ByteString, Text, and other variations of string like types.
+Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
+
+To use class IsString - import it from GHC.Ext
+***** PartialTypeSignatures
+Partial type signature containins wildcards, placeholders (=_=, =_name=).
+Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
+
+As untuped expression, partly typed can not polymorphicly recurse.
+
+[[-Wno-partial-type-signatures]] supresses infer warnings.
+***** RankNTypes
+Enable types of arbitrary rank.
+See [[Type rank]].
+
+Implies [[ExplicitForAll]].
+
+Allows =forall= quantifier:
+  * Left side of \to
+  * Right side of \to
+  * as [[Argument][argument]] of a constructor
+  * as type of a field
+  * as type of an implicit parameter
+  * used in pattern type signature of [[Lexically scoped type variables]]
+
+It can synergyze with [[ScopedTypeVariables]].
+***** ScopedTypeVariables
+By default type variables do not have a scope except inside type signatures where they are used.
+
+When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
+
+/*/ option provides the [[Lexical scope][lexical scope]] inside the code block for [[Type variable][type variables]] that have [[Forall quantifier][forall quantifier]]. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
+
+For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
+
+Implies [[ExplicitForAll]].
+***** TupleSections
+Allow tuple section syntax:
+#+begin_src haskell
+(, True)
+(, "I", , , "Love", , 1337)
+#+end_src
+
+***** TypeApplications
+Allow type application syntax:
+#+begin_src haskell
+read @Int 5
+
+:type pure @[]
+pure @[] :: a -> [a]
+
+:type (<*>) @[]
+(<*>) @[] :: [a -> b] -> [a] -> [b]
+
+--
+
+instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
+
+λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
+#+end_src
+
+***** TypeFamilies
+Allow use and definition of indexed type and data families.
+
+/*/ are type-level programming.
+/*/ are overload data types in the same way that type classes overload functions.
+/*/ allow handling of dependent types. Before it [[Functional dependencies]] and [[GADTs]] were used to solve that.
+/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
+
+Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
+
+Two types of /*/ are:
+****** Data families
+****** Type synonym families
+***** TypeSynonymInstances
+Now type synonim can have it's own type class instances.
+***** UndecidableInstances
+Permit instances which may lead to type-checker non-termination.
+
+GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
+***** ViewPatterns
+#+begin_src haskell
+size (view -> Unit) = 1
+size (view -> Arrow t1 t2) = size t1 + size t2
+#+end_src
+(/expression/ \to /pattern/): what came to match - apply the /expression/, then do /pattern/-match.
+Semantics:
+  * variables of /expression/ and /pattern/ are shared
+  * if /expression/ :: t1 -> t2 && /pattern/ :: t2, then (/expression/ \to /pattern/) :: t1.
+
+/*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
+/*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
+
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
@@ -2478,205 +2689,6 @@ See [[Function image]]
 ** Maybe
 ** Homomorphis
 ** LANGUAGE pragma options
-*** AllowAmbiguousTypes
-Allow type signatures which appear that they would result in an unusable binding.
-However GHC will still check and complain about a functions that can never be called.
-*** ApplicativeDo
-Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
-
-For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
-
-#+begin_src haskell
-  pure E
-  pure $ E
-  return E
-  return $ E
-#+end_src
-
-When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =[[-foptimal-applicative-do]]=.
-
-Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
-  * Allows use of do-notation with types that are an instance of Applicative and Functor
-  * In some monads, using the applicative operators is more efficient than monadic bind. For example, it may enable more parallelism.
-
-The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
-
-It is possible to see the actual translation by using =[[-ddump-ds]]=.
-*** CPP
-Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
-*** ConstraintKinds
-Constraints are just handled as types of a particular kind (Constraint).
-Any type of the kind Constraints can be used as a constraint.
-Kind Constraint are:
-  * Anything which is already allowed in code as a constraint without *this flag. Saturated applications to type classes, implicit parameter and equality constraints.
-  * [[Tuple]]s, all of whose component types have kind Constraint.
-  #+begin_src haskell
-  type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
-  #+end_src
-  * Anything form of which is not yet known, but the user has declared for it to have kind Constraint (for which they need to import it from GHC.Exts):
-  #+begin_src haskell
-  Foo (f :: Type -> Constraint) = forall b. f b => b -> b -- is allowed
-  -- as well as examples involving type families:
-  type family Typ a b :: Constraint
-  type instance Typ Int  b = Show b
-  type instance Typ Bool b = Num b
-
-  func :: Typ a b => a -> b -> b
-  func = ...
-  #+end_src
-
-*** ImplicitParams
-Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
-Sure thing this one can be puzzling as hell inside Haskell.
-*** DeriveFunctor
-Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
-Since there is only one possible [[Functor][functor]] for any [[Data type][type] - it is possible to check that it is derived right.
-Allows does not care about writing Functor instances.
-*** FlexibleContexts
-Ability to use complex constraints in class declaration contexts.
-The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
-#+begin_src haskell
-class C a where
-  op :: D b => a -> b -> b
-
-class C a => D a where ...
-#+end_src
-$$ C :> D $$, so in C we can talk about D.
-
-Synergizes with [[ConstraintKinds]].
-*** FlexibleInstances
-Allow type class instances types contain nested types.
-#+begin_src haskell
-instance C (Maybe Int) where ...
-#+end_src
-Implies [[TypeSynonymInstances]].
-*** GeneralizedNewtypeDeriving
-Enable GHC’s =newtype= cunning generalised deriving mechanism.
-#+begin_src haskell
-newtype Dollars = Dollars Int
-  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
-#+end_src
-(In old Haskell-98 only Eq, Ord, Enum could been inherited.)
-*** LambdaCase
-Enables expressions of the form:
-#+begin_src haskell
-\case { p1 -> e1; ...; pN -> eN }
-
--- OR
-
-\case
-  p1 -> e1
-  ...
-  pN -> eN
-#+end_src
-
-*** MultiParamTypeClasses
-Implies: [[ConstrainedClassMethods]]
-Enable the definitions of typeclasses with more than one parameter.
-#+begin_src haskell
-class Collection c a where
-#+end_src
-
-*** ConstrainedClassMethods
-Enable the definition of further constraints on individual class methods.
-
-*** MultiWayIf
-Enable multi-way-if syntax.
-#+begin_src haskell
-if | guard1 -> expr1
-   | ...
-   | guardN -> exprN
-#+end_src
-
-*** OverloadedStrings
-Enable overloaded string literals (string literals become desugared via the IsString class).
-Now string literal has type:
-#+begin_src haskell
-(IsString a) => a
-#+end_src
-
-The usual string syntax can be used, e.g., for ByteString, Text, and other variations of string like types.
-Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
-
-To use class IsString - import it from GHC.Ext
-*** PartialTypeSignatures
-Partial type signature containins wildcards, placeholders (=_=, =_name=).
-Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
-
-As untuped expression, partly typed can not polymorphicly recurse.
-
-[[-Wno-partial-type-signatures]] supresses infer warnings.
-*** RankNTypes
-Enable types of arbitrary rank.
-See [[Type rank]].
-
-Implies [[ExplicitForAll]].
-
-Allows =forall= quantifier:
-  * Left side of \to
-  * Right side of \to
-  * as [[Argument][argument]] of a constructor
-  * as type of a field
-  * as type of an implicit parameter
-  * used in pattern type signature of [[Lexically scoped type variables]]
-
-It can synergyze with [[ScopedTypeVariables]].
-*** ExplicitForAll
-Allow explicit forall quantificator in places where it is implicit by Haskell.
-*** ScopedTypeVariables
-By default type variables do not have a scope except inside type signatures where they are used.
-
-When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
-
-/*/ option provides the [[Lexical scope][lexical scope]] inside the code block for [[Type variable][type variables]] that have [[Forall quantifier][forall quantifier]]. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
-
-For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
-
-Implies [[ExplicitForAll]].
-*** TupleSections
-Allow tuple section syntax:
-#+begin_src haskell
-(, True)
-(, "I", , , "Love", , 1337)
-#+end_src
-
-*** TypeApplications
-Allow type application syntax:
-#+begin_src haskell
-read @Int 5
-
-:type pure @[]
-pure @[] :: a -> [a]
-
-:type (<*>) @[]
-(<*>) @[] :: [a -> b] -> [a] -> [b]
-
---
-
-instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
-
-λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
-#+end_src
-
-*** TypeSynonymInstances
-Now type synonim can have it's own type class instances.
-*** UndecidableInstances
-Permit instances which may lead to type-checker non-termination.
-
-GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
-*** ViewPatterns
-#+begin_src haskell
-size (view -> Unit) = 1
-size (view -> Arrow t1 t2) = size t1 + size t2
-#+end_src
-(/expression/ \to /pattern/): what came to match - apply the /expression/, then do /pattern/-match.
-Semantics:
-  * variables of /expression/ and /pattern/ are shared
-  * if /expression/ :: t1 -> t2 && /pattern/ :: t2, then (/expression/ \to /pattern/) :: t1.
-
-/*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
-/*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
-
 ** Pattern guard
 Allows check a list of pattern matches against functions, and then proceed.
 
@@ -2716,20 +2728,6 @@ Otherwise - [[Partial inverse][partial inverse]]
 *** ExistentialQuantification
 *** GADTs
 *** GeneralizedNewTypeClasses
-*** FlexibleInstances
-*** TypeFamilies
-Allow use and definition of indexed type and data families.
-
-/*/ are type-level programming.
-/*/ are overload data types in the same way that type classes overload functions.
-/*/ allow handling of dependent types. Before it [[Functional dependencies]] and [[GADTs]] were used to solve that.
-/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
-
-Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
-
-Two types of /*/ are:
-**** Data families
-**** Type synonym families
 ** Type rank
 [[Weak ordering]] of types.
 
