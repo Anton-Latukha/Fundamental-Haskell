@@ -609,6 +609,8 @@
   - [[#clis---optparse-applicative][CLIs - optparse-applicative]]
   - [[#html---lucid][HTML - Lucid]]
   - [[#web-applications---servant][Web applications - Servant]]
+  - [[#io-libraries][IO libraries]]
+    - [[#conduit---practical-monolythic-guarantees-termination-return][Conduit - practical, monolythic, guarantees termination return]]
 - [[#misc][Misc]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
@@ -2064,7 +2066,7 @@ Enable the definition of further constraints on individual class methods.
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
 Kind Constraint are:
-  * Anything which is already allowed in code as a constraint without *this flag. Saturated applications to type classes, implicit parameter and equality constraints.
+  * Anything which is already allowed in code as a constraint without /*/. Saturated applications to type classes, implicit parameter and equality constraints.
   * [[Tuple]]s, all of whose component types have kind Constraint.
   #+begin_src haskell
   type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
@@ -3123,6 +3125,8 @@ https://codesearch.aelve.com/
 ** CLIs - optparse-applicative
 ** HTML - Lucid
 ** Web applications - Servant
+** IO libraries
+*** Conduit - practical, monolythic, guarantees termination return
 * Misc
 * Reference
 ** Haskell-98
