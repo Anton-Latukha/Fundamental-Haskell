@@ -611,6 +611,7 @@
   - [[#web-applications---servant][Web applications - Servant]]
   - [[#io-libraries][IO libraries]]
     - [[#conduit---practical-monolythic-guarantees-termination-return][Conduit - practical, monolythic, guarantees termination return]]
+    - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
 - [[#misc][Misc]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
@@ -3127,6 +3128,7 @@ https://codesearch.aelve.com/
 ** Web applications - Servant
 ** IO libraries
 *** Conduit - practical, monolythic, guarantees termination return
+*** Pipes + Pipes Parse - modular, more primitive, theoretically driven
 * Misc
 * Reference
 ** Haskell-98
