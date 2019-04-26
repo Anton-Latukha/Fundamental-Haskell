@@ -434,6 +434,7 @@
     - [[#-38][/*/]]
       - [[#predicate-logic][Predicate logic]]
       - [[#first-order-predicate-calculus][First-order predicate calculus]]
+  - [[#context][Context]]
 - [[#give-definitions][Give definitions]]
   - [[#kleisli-category][Kleisli category]]
   - [[#free-object][Free object]]
@@ -445,7 +446,6 @@
   - [[#constant-type][Constant type]]
   - [[#arbitrary][Arbitrary]]
   - [[#gen][Gen]]
-  - [[#context][Context]]
   - [[#st-trick-monad][ST-Trick monad]]
   - [[#lax-monoidal-functor][Lax monoidal functor]]
   - [[#tensorial-strength][Tensorial strength]]
@@ -481,7 +481,6 @@
     - [[#-wno-partial-type-signatures][-Wno-partial-type-signatures]]
   - [[#rhs][RHS]]
   - [[#lhs][LHS]]
-  - [[#type-family][Type family]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
     - [[#-42][/*/]]
       - [[#gadt][GADT]]
@@ -531,7 +530,7 @@
     - [[#-51][/*/]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
-  - [[#type-family-1][Type family]]
+  - [[#type-family][Type family]]
   - [[#abstract-data-type][Abstract data type]]
     - [[#-52][/*/]]
       - [[#absdt][AbsDT]]
@@ -2653,6 +2652,13 @@ Collection of formal systems used in mathematics, philosophy, linguistics, and c
 See [[First-order logic]]
 **** First-order predicate calculus
 See [[First-order logic]]
+** Context
+[[Constraint]] placed on the types under [[Parametric polymorphism][polymorphic]] variables.
+Written before the main type signature and denoted:
+#+begin_src haskell
+TypeClass a =>
+#+end_src
+
 * Give definitions
 ** Kleisli category
 ** Free object
