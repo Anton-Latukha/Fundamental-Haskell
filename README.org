@@ -2796,8 +2796,8 @@ Investigates in thepth the intuitive notion of order using binary relations.
 Formalizes approximation and convergense.
 Has close relation to [[Topology]].
 *** Lattice
-Abstract structure that consists of partially ordered set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
-/*/ order-thoretic & algebraic.
+Abstract structure that consists of [[Partial order][partially ordered]] set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
+/*/ order-theory & algebraic.
 *** Ordering
 **** Preorder
 R^{X \to X} : [[Reflexive]] & [[Transitive]]:
