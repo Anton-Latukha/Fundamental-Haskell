@@ -344,6 +344,7 @@
         - [[#typesynonyminstances][TypeSynonymInstances]]
         - [[#undecidableinstances][UndecidableInstances]]
         - [[#viewpatterns][ViewPatterns]]
+        - [[#datatypecontexts][DatatypeContexts]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
     - [[#pragma-option][Pragma option]]
   - [[#predicate][Predicate]]
@@ -2248,7 +2249,15 @@ Semantics:
 
 /*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
+***** DatatypeContexts
+Allow [[Context][contexts]] in [[Data type][data types]].
+#+begin_src haskell
+data Eq a => Set a = NilSet | ConsSet a (Set a)
 
+-- NilSet :: Set a
+-- ConsSet :: Eq a => a -> Set a -> Set a
+#+end_src
+Considered misfeature, deprecated, going to be removed.
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
