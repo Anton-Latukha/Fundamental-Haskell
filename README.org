@@ -495,36 +495,37 @@
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
-  - [[#reflexivity][Reflexivity]]
-    - [[#-44][/*/]]
-      - [[#reflexive][Reflexive]]
-      - [[#reflexive-relation][Reflexive relation]]
-  - [[#irreflexivity][Irreflexivity]]
-    - [[#-45][/*/]]
-      - [[#anti-reflexive][Anti-reflexive]]
-      - [[#anti-reflexive-relation][Anti-reflexive relation]]
-      - [[#irreflexive][Irreflexive]]
-      - [[#irreflexive-relation][Irreflexive relation]]
-  - [[#transitivity][Transitivity]]
-    - [[#-46][/*/]]
-      - [[#transitive][Transitive]]
-      - [[#transitive-relation][Transitive relation]]
-  - [[#symmetry][Symmetry]]
-    - [[#-47][/*/]]
-      - [[#symmetric][Symmetric]]
-      - [[#symmetric-relation][Symmetric relation]]
-  - [[#equivalence][Equivalence]]
-    - [[#-48][/*/]]
-      - [[#equivalent][Equivalent]]
-      - [[#equivalent-relation][Equivalent relation]]
-  - [[#antisymmetry][Antisymmetry]]
-    - [[#-49][/*/]]
-      - [[#antisymmetric][Antisymmetric]]
-      - [[#antisymmetric-relation][Antisymmetric relation]]
-  - [[#asymmetry][Asymmetry]]
-    - [[#-50][/*/]]
-      - [[#asymmetric][Asymmetric]]
-      - [[#asymmetric-relation][Asymmetric relation]]
+  - [[#relation-1][Relation]]
+    - [[#reflexivity][Reflexivity]]
+      - [[#-44][/*/]]
+        - [[#reflexive][Reflexive]]
+        - [[#reflexive-relation][Reflexive relation]]
+    - [[#irreflexivity][Irreflexivity]]
+      - [[#-45][/*/]]
+        - [[#anti-reflexive][Anti-reflexive]]
+        - [[#anti-reflexive-relation][Anti-reflexive relation]]
+        - [[#irreflexive][Irreflexive]]
+        - [[#irreflexive-relation][Irreflexive relation]]
+    - [[#transitivity][Transitivity]]
+      - [[#-46][/*/]]
+        - [[#transitive][Transitive]]
+        - [[#transitive-relation][Transitive relation]]
+    - [[#symmetry][Symmetry]]
+      - [[#-47][/*/]]
+        - [[#symmetric][Symmetric]]
+        - [[#symmetric-relation][Symmetric relation]]
+    - [[#equivalence][Equivalence]]
+      - [[#-48][/*/]]
+        - [[#equivalent][Equivalent]]
+        - [[#equivalent-relation][Equivalent relation]]
+    - [[#antisymmetry][Antisymmetry]]
+      - [[#-49][/*/]]
+        - [[#antisymmetric][Antisymmetric]]
+        - [[#antisymmetric-relation][Antisymmetric relation]]
+    - [[#asymmetry][Asymmetry]]
+      - [[#-50][/*/]]
+        - [[#asymmetric][Asymmetric]]
+        - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
     - [[#-51][/*/]]
@@ -2670,12 +2671,6 @@ TypeClass a =>
 ** Constant type
 ** Arbitrary
 ** Gen
-** Context
-aka
-#+begin_src haskell
-Eq a => a -> Set a -> Set a
-#+end_src
-
 ** ST-Trick monad
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
@@ -2784,7 +2779,6 @@ Supresses [[PartialTypeSignatures]] wildcard infer warning.
 Right-hand side of the expression.
 ** LHS
 Left-hand side of the expression.
-** Type family
 ** Generalised algebraic data types
 LANGUAGE [[GADTs]]
 *** /*/
@@ -2823,74 +2817,75 @@ See [[Partial ordering]]
 See [[Partially ordered set]]
 ** Universal algebra
 Studies algebraic structures.
-** Reflexivity
+** Relation
+*** Reflexivity
 $$ R^{X \to X}, \forall x \in X : x R x $$
 [[Order theory]]: $$ a \le a $$
 
 /*/ - each element is comparable to itself.
 
 Corresponds to [[Identity]] and [[Automorphism]].
-*** /*/
-**** Reflexive
+**** /*/
+***** Reflexive
 See [[Reflexivity]]
-**** Reflexive relation
+***** Reflexive relation
 See [[Reflexivity]]
-** Irreflexivity
+*** Irreflexivity
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
-*** /*/
-**** Anti-reflexive
+**** /*/
+***** Anti-reflexive
 See [[Irreflexivity]]
-**** Anti-reflexive relation
+***** Anti-reflexive relation
 See [[Irreflexivity]]
-**** Irreflexive
+***** Irreflexive
 See [[Irreflexivity]]
-**** Irreflexive relation
+***** Irreflexive relation
 See [[Irreflexivity]]
-** Transitivity
+*** Transitivity
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
-*** /*/
-**** Transitive
+**** /*/
+***** Transitive
 See [[Transitivity]]
-**** Transitive relation
+***** Transitive relation
 See [[Transitivity]]
-** Symmetry
+*** Symmetry
 $$ \forall a,b \in X : (aRb \iff bRa) $$
-*** /*/
-**** Symmetric
+**** /*/
+***** Symmetric
 See [[Symmetry]]
-**** Symmetric relation
-** Equivalence
+***** Symmetric relation
+*** Equivalence
 | [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
 |----------------------------+----------------------------------+-------------------------------------------------|
 | $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
 
-*** /*/
-**** Equivalent
+**** /*/
+***** Equivalent
 See [[Equivalence]]
-**** Equivalent relation
+***** Equivalent relation
 See [[Equivalence]]
-** Antisymmetry
+*** Antisymmetry
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
-*** /*/
-**** Antisymmetric
+**** /*/
+***** Antisymmetric
 See [[Antisymmetry]]
-**** Antisymmetric relation
+***** Antisymmetric relation
 See [[Antisymmetry]]
-** Asymmetry
+*** Asymmetry
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
 Asymmetry \ne "not symmetric"
 [[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
-*** /*/
-**** Asymmetric
+**** /*/
+***** Asymmetric
 See [[Asymmetry]]
-**** Asymmetric relation
+***** Asymmetric relation
 See [[Asymmetry]]
 ** Commutativity
 ** Cryptomorphism
