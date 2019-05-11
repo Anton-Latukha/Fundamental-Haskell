@@ -619,7 +619,10 @@
   - [[#haskell-98][Haskell-98]]
     - [[#instance-termination-rules][Instance termination rules]]
 
-* Definitions
+* Definitions :drill:
+:PROPERTIES:
+:ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
+:END:
 ** Abelian category
 Is which:
   * has a zero object,
@@ -2929,7 +2932,10 @@ See [[Abstract data type]]
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
-* Good code
+* Good code :drill:
+:PROPERTIES:
+:ID:       0061ec53-dc1b-40a8-a00a-f07fd4213be2
+:END:
 ** Type aliasing
 Use data type aliases to deferentiate logic of values.
 ** Type wideness
@@ -3046,7 +3052,10 @@ That is why infinite types throw infinite type error.
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
 ** Control.Monad.Error -> Control.Monad.Except
-* Bad code
+* Bad code :drill:
+:PROPERTIES:
+:ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
+:END:
 ** Pragma
 *** Dangerous LANGUAGE pragma options
 
@@ -3130,10 +3139,16 @@ Provides:
 :step main
 ** What been evaluated already
 :sprint name
-* Tools
+* Tools :drill:
+:PROPERTIES:
+:ID:       756dd451-6df6-4c86-8ff8-b431f2943685
+:END:
 ** Search over the Haskell packages code: Codesearch from Aelve
 https://codesearch.aelve.com/
-* Libs
+* Libs :drill:
+:PROPERTIES:
+:ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
+:END:
 ** Parsers - megaparsec
 ** CLIs - optparse-applicative
 ** HTML - Lucid
