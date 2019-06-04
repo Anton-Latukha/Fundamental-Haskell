@@ -651,8 +651,17 @@ It is great did to name an abstraction ([[Denotational semantics]]).
 :END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
 :END:
 al-jabr - assemble parts.
 A system of algebra based on given axioms.
@@ -687,8 +696,17 @@ But it has... Both.
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
 ** Application :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
 :END:
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 ** Application memory :drill:
@@ -1035,8 +1053,17 @@ Pseudogenerates a function basing on resulting type.
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
 ** Codomain :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       f8603032-30f1-4074-80b5-0f6f49428241
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:07]
 :END:
 Codomain - target set of a function in $X \to Y$.
 ** Combinator :drill:
@@ -1249,8 +1276,17 @@ $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
 ** Disjunction :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
 :END:
 OR
 ** Dispatch :drill:
@@ -1919,8 +1955,17 @@ Explanation:
 *** Comonad
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** Monkey patch :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:08]
 :END:
 /From [[Guerrilla patch]]./
 
@@ -2721,10 +2766,19 @@ let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 ** \Psi-combinator :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:13]
 :END:
-Applies function to two different structures, then chains binary function and returns a result.
+Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
 import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
@@ -2770,13 +2824,22 @@ Repeated function application allow computing results that may require indefinit
 :END:
 See [[Beta reduction]]
 ** Referential transparency :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:12]
 :END:
-Function returns the same output given the same values to evaluate.
+Returns the same output given the same values to evaluate.
 
-[[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
-Such [[Function][functions]] are called [[Pure][pure]].
+/*/ [[expression]] - can be replaced with its corresponding resulting value without change for program's behavior.
+/*/ [[Function][functions]] are called [[Pure][pure]].
 ** Relation :drill:
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
@@ -2845,8 +2908,17 @@ Well-defined collection of distinct objects.
 :END:
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       45b1bebf-431f-45dd-8522-ea688968090f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:08]
 :END:
 Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
 ** Shift operator :drill:
@@ -3178,8 +3250,17 @@ Refer to an unspecified type in Haskell type signature.
 :END:
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:54]
 :END:
 Value helps to do typechecking
 ** Unit :drill:
