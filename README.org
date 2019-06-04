@@ -624,6 +624,9 @@
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
 ** Abelian category :drill:
+:PROPERTIES:
+:ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
+:END:
 Is which:
   * has a zero object,
   * has all binary biproducts,
@@ -633,6 +636,9 @@ Is which:
 Abelian [[Category][category]] are very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
 ** Abstraction :drill:
+:PROPERTIES:
+:ID:       7875b659-d137-41df-b146-6fb73f090a4e
+:END:
 abs away from, off (in absentia)
 tractus draw, haul, drag
 
@@ -640,8 +646,14 @@ tractus draw, haul, drag
 Purified generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
 ** Actual type :drill:
+:PROPERTIES:
+:ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
+:END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra :drill:
+:PROPERTIES:
+:ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
+:END:
 al-jabr - assemble parts.
 A system of algebra based on given axioms.
 
@@ -650,8 +662,14 @@ A system of algebra based on given axioms.
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
 ** Alpha equivalence :drill:
+:PROPERTIES:
+:ID:       83ea3e34-0c72-4976-abaa-875767736cea
+:END:
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Ambigram :drill:
+:PROPERTIES:
+:ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
+:END:
 ambi both
 γράμμα /grámma/ written character
 
@@ -663,11 +681,20 @@ But it has... Both.
 
 /TODO: Probably better for the merit of difference about different meaning refere to [[Tensor]] as object with many meanings./
 ** Anamorphism :drill:
+:PROPERTIES:
+:ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
+:END:
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
 ** Application :drill:
+:PROPERTIES:
+:ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
+:END:
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 ** Application memory :drill:
+:PROPERTIES:
+:ID:       49209cb4-a094-4b16-8803-884efd701706
+:END:
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
 | All not currently processing data | Heap          |
@@ -683,6 +710,9 @@ See [[Application memory]].
 **** Stack
 See [[Application memory]].
 ** Applicative :drill:
+:PROPERTIES:
+:ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
+:END:
 See [[Applicative functor]] for [[Category theory]] description.
 Sequencing functorial computations.
 
@@ -795,20 +825,35 @@ liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 
 ***** liftA3
 [[liftA2]] 3-parameter version.
 ** Applicative functor :drill:
+:PROPERTIES:
+:ID:       5a6a7b44-9124-4af8-aeb6-c7dbcbc9888c
+:END:
 Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
 See [[Applicative]].
 ** Arbitrary function :drill:
+:PROPERTIES:
+:ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
+:END:
 Depends on type and generates values of that type.
 ** Arbitrary type class :drill:
+:PROPERTIES:
+:ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
+:END:
 [[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is [[Arbitrary function][arbitrary]] - that autoassumes/generates values.
 ** Argument :drill:
+:PROPERTIES:
+:ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
+:END:
 arguere to make clear, to shine
 argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
 Is an input value to a [[Function][function]] [[Parameter][parameter]].
 ** Arity :drill:
+:PROPERTIES:
+:ID:       fa4caa07-eea5-4082-aaed-92abb820e768
+:END:
 Number of [[Parameter][parameters]] of the [[Function][function]].
   * nullary - f()
   * unary   - f(x)
@@ -816,33 +861,63 @@ Number of [[Parameter][parameters]] of the [[Function][function]].
   * ternary - f(x,y,z)
   * n-ary   - f(x,y,z..)
 ** As-pattern :drill:
+:PROPERTIES:
+:ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
+:END:
 #+begin_src haskell
 f list@(x, xs) = ...
 #+end_src
 ** Assertion :drill:
+:PROPERTIES:
+:ID:       ca03459f-58a7-4938-8de0-2408ee2a0225
+:END:
 Statement.
 Утверждение.
 ** Associative law :drill:
+:PROPERTIES:
+:ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
+:END:
 Joined by a common purpose.
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case :drill:
+:PROPERTIES:
+:ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
+:END:
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
 ** Basis :drill:
+:PROPERTIES:
+:ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
+:END:
 $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see [[Category theory]], or Euclidian geometry basis.
 ** Beta normal form :drill:
+:PROPERTIES:
+:ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
+:END:
 No [[Beta reduction][beta reduction]] is possible.
 ** Beta reduction :drill:
+:PROPERTIES:
+:ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
+:END:
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Binary :drill:
+:PROPERTIES:
+:ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
+:END:
 Two of something.
 ** Binary operation :drill:
+:PROPERTIES:
+:ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
+:END:
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 ** Binary tree :drill:
+:PROPERTIES:
+:ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
+:END:
 #+begin_src haskell
 data BinaryTree a
   = [[Leaf]]
@@ -850,16 +925,25 @@ data BinaryTree a
   deriving (Eq, Ord, Show)
 #+end_src
 ** Bind :drill:
+:PROPERTIES:
+:ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
+:END:
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom value :drill:
+:PROPERTIES:
+:ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
+:END:
 #+begin_src haskell
 -- _ fits *.
 #+end_src
 
 Is a non-value used to denote the program cannot return a values.
 ** Calculus of constructions :drill:
+:PROPERTIES:
+:ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
+:END:
 Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
@@ -867,6 +951,9 @@ Directly relates to Coq programming language.
 **** CoC
 See [[Calculus of constructions]].
 ** Cardinality :drill:
+:PROPERTIES:
+:ID:       22428179-0fdb-4723-94dc-596dd41f61c0
+:END:
 Number of elements.
 
 Number of possible implementations for a given type signature.
@@ -874,9 +961,15 @@ Number of possible implementations for a given type signature.
 On sum - add cardinalities.
 On product - multiply cardinalities.
 ** Cartesian product :drill:
+:PROPERTIES:
+:ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
+:END:
 ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
 Any function is a subset of Cartesian product.
 ** Case :drill:
+:PROPERTIES:
+:ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
+:END:
 #+begin_src haskell
 case x of
     | pattern1  -> ex1
@@ -895,6 +988,9 @@ case () of _
 #+end_src
 
 ** Category :drill:
+:PROPERTIES:
+:ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
+:END:
 Category (/C/) consists of the [[Basis]]:
   1. Objects - ob(/C/). A node. Object of some type. Often sets, than it is [[SET category]].
   2. [[Morphism]]s - C(a,b), [[Hom-set][hom(a,b)]]. Mappings, total functions.
@@ -909,23 +1005,44 @@ See [[Category]]
 **** Category theory
 See [[Category]]
 ** Closed-form expression :drill:
+:PROPERTIES:
+:ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
+:END:
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 ** Closed set :drill:
+:PROPERTIES:
+:ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
+:END:
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
 ** Closure :drill:
+:PROPERTIES:
+:ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
+:END:
 Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
 ** Coalgebra :drill:
+:PROPERTIES:
+:ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
+:END:
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 ** CoArbitrary :drill:
+:PROPERTIES:
+:ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
+:END:
 Pseudogenerates a function basing on resulting type.
 #+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
 ** Codomain :drill:
+:PROPERTIES:
+:ID:       f8603032-30f1-4074-80b5-0f6f49428241
+:END:
 Codomain - target set of a function in $X \to Y$.
 ** Combinator :drill:
+:PROPERTIES:
+:ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
+:END:
 [[Function]] without free variables.
 [[Higher-order function]] that use only [[Function application][function application]] and other combinators.
 #+begin_src haskell
@@ -938,29 +1055,59 @@ Not comibnators:
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** Commutative law :drill:
+:PROPERTIES:
+:ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
+:END:
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
 **** Commutative
 See Commutative law
 ** Compose :drill:
+:PROPERTIES:
+:ID:       659ba283-a0a3-4f1b-8fa9-84552170f82c
+:END:
 See: [[Function composition]]
 ** Composition :drill:
+:PROPERTIES:
+:ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
+:END:
 Axiom of [[Category]].
 ** Concatenate :drill:
+:PROPERTIES:
+:ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
+:END:
 Link together sequences.
 ** Concrete type :drill:
+:PROPERTIES:
+:ID:       736674fb-45a3-4539-8774-7ccf419b5487
+:END:
 ** Conjunction :drill:
+:PROPERTIES:
+:ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
+:END:
 AND
 #+begin_src haskell
  * *
 #+end_src
 ** Cons cell :drill:
+:PROPERTIES:
+:ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
+:END:
 Cell that values may inhabit.
 ** Constant :drill:
+:PROPERTIES:
+:ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
+:END:
 Nullary constructor
 ** Constraint :drill:
+:PROPERTIES:
+:ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
+:END:
 See: [[Ad hoc polymorphism]]
 ** Construct :drill:
+:PROPERTIES:
+:ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
+:END:
 #+begin_src haskell
 (:) :: a -> [a] -> [a]
 #+end_src
@@ -968,11 +1115,17 @@ See: [[Ad hoc polymorphism]]
 **** Cons
 Short for [[Construct]].
 ** Constructor :drill:
+:PROPERTIES:
+:ID:       73f88452-54ff-4192-83fc-0681f0407e9a
+:END:
 1. [[Type constructor]]
 2. [[Data constructor]]
 
 Also see: [[Constant]]
 ** Contravariant :drill:
+:PROPERTIES:
+:ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
+:END:
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a [[Tensor]]s in this basisis.
 
 Denotation:
@@ -987,31 +1140,58 @@ See [[Contravariant]].
 **** Contravariant functor
 More inline term is [[Contravariant cofunctor]]
 ** Covariant :drill:
+:PROPERTIES:
+:ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
+:END:
 The property of [[Basis]], in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
 
 Denotation:
 Components for covariant basis denoted in the upper indices:
 $$ V_{i} = x $$
 ** Covariant cofunctor :drill:
+:PROPERTIES:
+:ID:       f53b176d-6377-4a9b-aa0b-40a4c7531cb4
+:END:
 See [[Covariant]].
 ** Covariant functor :drill:
+:PROPERTIES:
+:ID:       c9502e88-5005-4d6e-9615-bfacae3bde2d
+:END:
 More inline term is [[Covariant cofunctor]]
 ** Curry–Howard correspondence :drill:
+:PROPERTIES:
+:ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
+:END:
 Computer programs are mathematical proofs.
 *** /*/
 **** Curry–Howard isomorphism
 See [[Curry–Howard correspondence]].
 ** Currying :drill:
+:PROPERTIES:
+:ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
+:END:
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
 ** Data constant :drill:
+:PROPERTIES:
+:ID:       7fd715db-5709-4238-9e49-8a9b9066a388
+:END:
 See: [[Constant]]
 ** Data constructor :drill:
+:PROPERTIES:
+:ID:       dc94bd99-113e-4025-82e8-39cd6843091b
+:END:
 One instance that [[Inhabit][inhabit]] [[Data type][data type]].
 
 Constant value - nullary data constructor.
 ** Data declaration :drill:
+:PROPERTIES:
+:ID:       2c150e09-b6e0-4de9-8fca-497bdaf6c4cc
+:END:
 [[Data type]] definition.
 ** data declaration :drill:
+:PROPERTIES:
+:ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
+:END:
 [[Data type]] declaration is the most general and versatile form to create a new data type.
 Form:
 #+begin_src haskell
@@ -1022,6 +1202,9 @@ data [context =>] type typeVars1..n
   [deriving]
 #+end_src
 ** Data type :drill:
+:PROPERTIES:
+:ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
+:END:
 Data type, type.
 *** Algebraic data type
 Composite type formed by combining other types.
@@ -1037,15 +1220,27 @@ Type that take more types as arguments.
 *** Sum data type
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration :drill:
+:PROPERTIES:
+:ID:       461111ea-4124-427f-bfc6-f83212a07951
+:END:
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Dependent type :drill:
+:PROPERTIES:
+:ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
+:END:
 Type and variable have rules regarding values.
 
 A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
 ** Derived instance :drill:
+:PROPERTIES:
+:ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
+:END:
 Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
 ** Differential operator :drill:
+:PROPERTIES:
+:ID:       1ffad9d0-5207-422f-b979-8118bbcba152
+:END:
 Denotation.
 $$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
 Last one is partial.
@@ -1054,33 +1249,72 @@ $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
 ** Disjunction :drill:
+:PROPERTIES:
+:ID:       beba897a-84ca-42c9-a094-ba48487c587b
+:END:
 OR
 ** Dispatch :drill:
+:PROPERTIES:
+:ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
+:END:
 Send, transmission, reference.
 ** Domain :drill:
+:PROPERTIES:
+:ID:       61416c64-6cbf-4af4-9428-ad6f79e76701
+:END:
 Source set of a function in $$ X \to Y $$.
 ** Effect :drill:
+:PROPERTIES:
+:ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
+:END:
 Observable action.
 ** Endofunctor :drill:
+:PROPERTIES:
+:ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
+:END:
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
 ** Endofunctor category :drill:
+:PROPERTIES:
+:ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
+:END:
 From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
 ** Evaluation :drill:
+:PROPERTIES:
+:ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
+:END:
 For FP see [[Bind]].
 ** Expected type :drill:
+:PROPERTIES:
+:ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
+:END:
 [[Data type]] [[Type inference][inferred]] from the text of the code.
 ** Expression :drill:
+:PROPERTIES:
+:ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
+:END:
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 ** First-class :drill:
+:PROPERTIES:
+:ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
+:END:
 1. Can be used as value.
 2. Passed as an [[Argument][argument]].
 From 1&2 -> can include itself.
 ** Fold :drill:
+:PROPERTIES:
+:ID:       9513b166-74df-4a9f-b7da-d03f84ca2cfc
+:END:
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variable :drill:
+:PROPERTIES:
+:ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
+:END:
 Variable in the fuction that is not bound by the head.
 On application to the head - they are note bound to values, so fuction stays [[Partial application][partially applied]].
 ** Function :drill:
+:PROPERTIES:
+:ID:       e86b0dde-ef8f-447e-a966-7553784aab54
+:END:
 A varying quantity depends on another quantity.
 
 $$ x \in X, y \in Y : \; f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y) $$
@@ -1188,6 +1422,9 @@ See [[Bijection]].
 ***** Bijective function
 See [[Bijection]].
 ** Functor :drill:
+:PROPERTIES:
+:ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
+:END:
 Functor is a map between categories.
 
 #+begin_src haskell
@@ -1231,16 +1468,31 @@ See: [[Functor]]
 **** fmap
 See: [[Functor]]
 ** Fundamental theorem of algebra :drill:
+:PROPERTIES:
+:ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
+:END:
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
 ** Gen type :drill:
+:PROPERTIES:
+:ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
+:END:
 Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus :drill:
+:PROPERTIES:
+:ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
+:END:
 See [[System F]].
 ** Guerrilla patch :drill:
+:PROPERTIES:
+:ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
+:END:
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 [[Monkey patch]] is derivative term.
 ** Higher-order function :drill:
+:PROPERTIES:
+:ID:       61a40480-45d2-4632-9948-986eecd8b7cb
+:END:
 [[Function]] [[Arity][arity]] > 1.
 
 ----
@@ -1251,10 +1503,16 @@ Evaluates to function.
 **** HOF
 See: [[Higher-order function]]
 ** Hindley–Milner type system :drill:
+:PROPERTIES:
+:ID:       67b414eb-6659-455f-bbb5-cb507c643567
+:END:
 Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 ** Hom-set :drill:
+:PROPERTIES:
+:ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
+:END:
 Collection of all [[Morphism][morphisms]] from X to Y.
 
 Denotation:
@@ -1272,9 +1530,15 @@ $$ Hom(A,-) : C \to Set $$
 Hom-bifunctor:
 $$ Hom(-,-):C^{op} \times C \to Set $$
 ** Idempotence :drill:
+:PROPERTIES:
+:ID:       1c821458-dd2b-4112-aa32-416e27b161ba
+:END:
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
 ** Idiom :drill:
+:PROPERTIES:
+:ID:       bc244256-751d-4205-857e-368a45580884
+:END:
 Idiom - something having a meaning that cannot be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
 
@@ -1283,24 +1547,45 @@ For different meaning - it is [[Applicative functor]].
 **** Idiomatic
 See [[Idiom]].
 ** Iff :drill:
+:PROPERTIES:
+:ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
+:END:
 If and only if, exectly when, just.
 Denotation:
 $$ \iff $$
 ** Impredicative :drill:
+:PROPERTIES:
+:ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
+:END:
 Self-referencing definition.
 
 ---
 
 /Antonym - [[Predicative]]./
 ** Infix :drill:
+:PROPERTIES:
+:ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
+:END:
 Operaton in-between variables.
 ** Inhabit :drill:
+:PROPERTIES:
+:ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
+:END:
 What [[Value][values]] inhabit [[Data type][data type]]
 ** Initial object :drill:
+:PROPERTIES:
+:ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
+:END:
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 ** Interface :drill:
+:PROPERTIES:
+:ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
+:END:
 Point of mutual meeting. Code behind interface determines how data is consumed.
 ** IO :drill:
+:PROPERTIES:
+:ID:       40e4a54b-c1c7-41fc-ac84-d3f167eb320f
+:END:
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
 Haskell standard uses monad for constructing and transforming IO actions.
 IO actions can be evaluated multiple times.
@@ -1325,6 +1610,9 @@ main = twoBinds
 :}
 #+end_src
 ** Kernel :drill:
+:PROPERTIES:
+:ID:       44aee181-f629-4047-abf5-f2ae438f2063
+:END:
 Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
 It is a number of elements that collide and fail injectivity, thou Kernel [x | x <- 0 || x >= 2].
 
@@ -1333,8 +1621,14 @@ $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $
 *** Kernel homomorphism
 Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
 ** Kind :drill:
+:PROPERTIES:
+:ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
+:END:
 Kind -> Type -> Data
 ** Lambda abstraction :drill:
+:PROPERTIES:
+:ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
+:END:
 [[Lambda term]] that has a head and body and is applied to an argument.
 $$ \lambda x.x+1 $$
 #+begin_src haskell
@@ -1342,6 +1636,9 @@ $$ \lambda x.x+1 $$
 ^^
 #+end_src
 ** Lambda calculus :drill:
+:PROPERTIES:
+:ID:       f484ba96-5cb1-45d2-9265-25130f62361c
+:END:
 Universal model of computation that can be used to simulate any Turing machine.
 Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function application][application]] by substituting variables and [[Bind][binding]] values.
 
@@ -1353,6 +1650,9 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
 **** Lambda term
 See [[Lambda calculus]]
 ** Lambda cube :drill:
+:PROPERTIES:
+:ID:       9ecad208-0bba-4d09-8906-5f5f76777182
+:END:
 λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
@@ -1360,6 +1660,9 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[Higher-rank polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
 ** Lambda function :drill:
+:PROPERTIES:
+:ID:       857ef4b3-f3e6-4065-aac4-fd3607ed5284
+:END:
 [[Function]] of [[Lambda calculus]].
 $$ \lambda x y.x^2 + y^3 $$
  ^^ ^    ^
@@ -1377,11 +1680,20 @@ See [[Lambda function]]
 *** Anonymous function
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** Leaf :drill:
+:PROPERTIES:
+:ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
+:END:
  _
 ** Left associative :drill:
+:PROPERTIES:
+:ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
+:END:
 Same level [[Expression][expression]] parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 ** Level of code :drill:
+:PROPERTIES:
+:ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
+:END:
 There are mainly three levels of Haskell code.
 *** Term level
 [[Level of code]] that works with [[Data type][data types]]
@@ -1396,13 +1708,22 @@ There are mainly three levels of Haskell code.
 **** Code level
 See [[Level of code]]
 ** Lexical scope :drill:
+:PROPERTIES:
+:ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
+:END:
 Scope bound by the structure of source code where the named entity is defined.
 *** /*/
 **** Static scope
 See [[Lexical scope]]
 ** Dynamic scope :drill:
+:PROPERTIES:
+:ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
+:END:
 The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
 ** Linear type :drill:
+:PROPERTIES:
+:ID:       eda588af-3ef5-43a8-8f06-6a6f2f556036
+:END:
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
  * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` ins ST-Trick.
@@ -1411,19 +1732,34 @@ There are 3 general linear type groups:
 
 Linear types are great to control/minimize resource usage.
 ** Local scope :drill:
+:PROPERTIES:
+:ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
+:END:
 [[Scope]] applies only in an area.
 *** /*/
 **** Local
 See: [[Local scope]]
 ** Magma :drill:
+:PROPERTIES:
+:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
+:END:
 Set with a single binary operation.
 
 The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** Module :drill:
+:PROPERTIES:
+:ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
+:END:
 Importable organization unit.
 ** Modulus :drill:
+:PROPERTIES:
+:ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
+:END:
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
 ** Monad :drill:
+:PROPERTIES:
+:ID:       b1faf835-213f-4336-86a9-8e331dd60986
+:END:
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
@@ -1583,10 +1919,16 @@ Explanation:
 *** Comonad
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** Monkey patch :drill:
+:PROPERTIES:
+:ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
+:END:
 /From [[Guerrilla patch]]./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
 ** Monoid :drill:
+:PROPERTIES:
+:ID:       6593c8fb-adda-488b-b86f-9544f62868eb
+:END:
 [[Semigroup]] that has [[Identity]] value.
 
 #+begin_src haskell
@@ -1621,8 +1963,14 @@ Very helpful at concurrent or distributed processing.
 ***** Abelian monoid
 See [[Commutative monoid]]
 ** Monoidal functor :drill:
+:PROPERTIES:
+:ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
+:END:
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
 ** Morphism :drill:
+:PROPERTIES:
+:ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
+:END:
 μορφή /morphe/ form
 Map between two objects in an abstract [[Category][category]].
 
@@ -1757,6 +2105,9 @@ In functional programming, catamorphisms provide generalizations of folds of lis
 ***** Catamorphic
 See [[Catamorphism]]
 ** Natural transformation :drill:
+:PROPERTIES:
+:ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
+:END:
 Roughly  /*/ is:
 #+begin_src haskell
 trans :: forall a. F a -> G a
@@ -1766,6 +2117,9 @@ trans :: forall a. F a -> G a
 /*/ is a "morphism of functors", especially in functor categories.
 
 ** newtype declaration :drill:
+:PROPERTIES:
+:ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
+:END:
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
 newtype FirstName = FirstName String
@@ -1782,11 +2136,17 @@ newtype Book = Book (Int, Int)
 Integer Integer
 #+end_src
 ** Node :drill:
+:PROPERTIES:
+:ID:       44946197-24dd-48fd-810c-6af851f6a0cf
+:END:
 #+begin_src text
  *
 / \
 #+end_src
 ** NonEmpty list data type :drill:
+:PROPERTIES:
+:ID:       809c682b-457e-47df-bdfd-92302d3c42da
+:END:
 Data.List.NonEmpty
 Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
 
@@ -1797,17 +2157,35 @@ data NonEmpty a = a :| [a]
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 ** Normal form :drill:
+:PROPERTIES:
+:ID:       728a6769-55f0-41a3-bb0c-acfa02096e7f
+:END:
 In context: [[Beta normal form]]
 ** Nothing :drill:
+:PROPERTIES:
+:ID:       350c03dd-e563-4d42-b554-d38370619667
+:END:
 Any Haskell expression can't return nothing.
 ** Open formula :drill:
+:PROPERTIES:
+:ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
+:END:
 [[Function]] with [[Arity][arity]].
 ** Operation :drill:
+:PROPERTIES:
+:ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
+:END:
 As also called [[Function][function]].
 Used in mathematics. Word often used for [[Infix][infix]] operations.
 ** Operator :drill:
+:PROPERTIES:
+:ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
+:END:
 [[Infix]] [[Function][function]].
 ** Orphan type instance :drill:
+:PROPERTIES:
+:ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
+:END:
 [[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on the [[Type][type]] level.
 
 Solution for addressing orphan instances:
@@ -1818,6 +2196,9 @@ Put the instance in the same module as the type class definition so that the typ
 3. Neither the type nor the type class are yours?
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
 ** Parameter :drill:
+:PROPERTIES:
+:ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
+:END:
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
@@ -1825,13 +2206,25 @@ Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
 ** Partial application :drill:
+:PROPERTIES:
+:ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
+:END:
 Part of [[Function][function]] [[Parameter][parameters]] [[Application][applied]].
 ** Partial function :drill:
+:PROPERTIES:
+:ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
+:END:
 One that does not cover all [[Domain]].
 Unsafe and causes trouble.
 ** Permutation :drill:
+:PROPERTIES:
+:ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
+:END:
 [[Bijective]] [[Function]] from [[Domain][domain]] to itself.
 ** Point-free :drill:
+:PROPERTIES:
+:ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
+:END:
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just anough Tacit to communicate better. Mostly only partial point-free communicates better./
 
@@ -1899,6 +2292,9 @@ See [[Point-free]]
 **** Tacit programming
 See [[Point-free]]
 ** Polymorphism :drill:
+:PROPERTIES:
+:ID:       83a22f3c-9140-490c-9390-85319566a443
+:END:
 At once several forms.
 
 To [[Abstraction][abstract]] over [[Data type][data types]].
@@ -2024,6 +2420,9 @@ For exampe - if fold over a dynamic array:
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 ** Pragma :drill:
+:PROPERTIES:
+:ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
+:END:
 Pragma - instruction to the compiler that specifies how a compiler should process the code.
 Pragma in Haskell have form:
 #+begin_src haskell
@@ -2283,22 +2682,37 @@ It is for basic case. For testing, parser see further: https://blog.shaynefletch
 *** Pragma option
 Values supplied to the [[Pragma]] directive.
 ** Predicate :drill:
+:PROPERTIES:
+:ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
+:END:
 [[Assertion]] [[Function][function]] that includes [[Variable][variable]] and results in true or false statement.
 
 Notation: $$ P(x) $$
 [[Application]] of [[Argument][argument]] yealds true or false predicate.
 ** Predicative :drill:
+:PROPERTIES:
+:ID:       aee54dbf-2387-403e-9589-f93bcb416963
+:END:
 Non-self-referencing definition.
 
 ---
 
 /Antonym - [[Impredicative]]./
 ** Principal type :drill:
+:PROPERTIES:
+:ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
+:END:
 The most generic [[Data type][data type]] that still typechecks.
 ** Principle of compositionality :drill:
+:PROPERTIES:
+:ID:       d8df7582-1e97-4cf9-9d0d-146ede21ad1f
+:END:
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
 Phrases are [[Composition][composable]] expressions.
 ** Proxy type :drill:
+:PROPERTIES:
+:ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
+:END:
 Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
 #+begin_src haskell
 data Proxy a = ProxyValue
@@ -2307,6 +2721,9 @@ let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 ** \Psi-combinator :drill:
+:PROPERTIES:
+:ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
+:END:
 Applies function to two different structures, then chains binary function and returns a result.
 #+begin_src haskell
 import Data.Function (on)
@@ -2318,8 +2735,14 @@ See: [[\Psi-combinator]]
 **** On-combinator
 See: [[\Psi-combinator]]
 ** Purity :drill:
+:PROPERTIES:
+:ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
+:END:
 [[Referential transparency][Referential transparent]] [[Function][function]]
 ** Quantifier :drill:
+:PROPERTIES:
+:ID:       ac758691-4dc3-4e6c-9f18-59793263a845
+:END:
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exists).
@@ -2332,25 +2755,52 @@ Permits to not [[Type inference][infer]] the type, but to use any that fits. The
 ***** Forall
 See [[Forall quantifier]]
 ** Recursion :drill:
+:PROPERTIES:
+:ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
+:END:
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex :drill:
+:PROPERTIES:
+:ID:       3d5326a4-74a7-433d-860a-2590072bb61d
+:END:
 [[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction :drill:
+:PROPERTIES:
+:ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
+:END:
 See [[Beta reduction]]
 ** Referential transparency :drill:
+:PROPERTIES:
+:ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
+:END:
 Function returns the same output given the same values to evaluate.
 
 [[Expression]] is referentially transparent if can be replaced with its corresponding resulting value without change for program's behavior.
 Such [[Function][functions]] are called [[Pure][pure]].
 ** Relation :drill:
+:PROPERTIES:
+:ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
+:END:
 Is not directed and not limited.
 ** REPL :drill:
+:PROPERTIES:
+:ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
+:END:
 Interactive CLI. Read-eval-print loop.
 ** Scope :drill:
+:PROPERTIES:
+:ID:       a2989c15-2adc-403a-add7-35855e9de65c
+:END:
 Area where [[Bind][bind]]s are accessible.
 ** Sectioning :drill:
+:PROPERTIES:
+:ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
+:END:
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Semantics :drill:
+:PROPERTIES:
+:ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
+:END:
 Philosophical study of meaning.
 *** Operational semantics
 Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
@@ -2370,6 +2820,9 @@ Describing effect of operation on assertions about the overall state.
 Good for examining interconnections.
 Empirical process.
 ** Semigroup :drill:
+:PROPERTIES:
+:ID:       7e67196b-643c-4726-8a17-6207826764bb
+:END:
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
 
 Semigroup - [[Magma]] with [[Associative law][associative law]].
@@ -2382,25 +2835,49 @@ class Semigroup a where
 #+end_src
 
 ** Set :drill:
+:PROPERTIES:
+:ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
+:END:
 Well-defined collection of distinct objects.
 ** SET category :drill:
+:PROPERTIES:
+:ID:       c6c7f178-7b69-4154-83ed-34de9b102193
+:END:
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing :drill:
+:PROPERTIES:
+:ID:       45b1bebf-431f-45dd-8522-ea688968090f
+:END:
 Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
 ** Shift operator :drill:
+:PROPERTIES:
+:ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
+:END:
 Shift operator defined by Lagrange through Differential operator.
 $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
 *** /*/
 **** Shift
 See [[Shift operator]]
 ** Shrinking :drill:
+:PROPERTIES:
+:ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
+:END:
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 ** Singleton :drill:
+:PROPERTIES:
+:ID:       cd966fe0-f42d-4b75-b388-85649eacc84f
+:END:
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 ** Smart constructor :drill:
+:PROPERTIES:
+:ID:       e2aded58-a463-4762-97c4-7fc2238d386d
+:END:
 Place extra [[Constraint][constraints]] on the construction of values.
 ** Spine :drill:
+:PROPERTIES:
+:ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
+:END:
 #+begin_src text
 Array:
 
@@ -2425,35 +2902,68 @@ _   :
 
 #+end_src
 ** Statement :drill:
+:PROPERTIES:
+:ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
+:END:
 Declarative sentence that is true or false.
 Gonzales: "What code does."
 ** Static typing :drill:
+:PROPERTIES:
+:ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
+:END:
 Static typechecking occurs at [[Compile level][compile level]].
 ** Structural type :drill:
+:PROPERTIES:
+:ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
+:END:
 Is a [[Type][type]] in the real mathematical sence, in the Structural Type System.
 The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
 Like in Haskell.
 In most languages typing is not structural - but name-based.
 ** Superclass :drill:
+:PROPERTIES:
+:ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
+:END:
 Broader parent class.
 ** Syntatic sugar :drill:
+:PROPERTIES:
+:ID:       244e15a8-9ae5-4842-82b1-279387d088fd
+:END:
 Artificial way to make language easier to read and write.
 ** System F :drill:
+:PROPERTIES:
+:ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
+:END:
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
 ** Tail call :drill:
+:PROPERTIES:
+:ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
+:END:
 Final result of the function
 ** Tail recursion :drill:
+:PROPERTIES:
+:ID:       62dd2851-710e-4035-9890-6af1c17e6305
+:END:
 Tail calls are recursive invocantions of itself.
 ** Tensor :drill:
+:PROPERTIES:
+:ID:       e165b708-fdd2-4062-be87-b65487de4a0e
+:END:
 Object existing out of planes, thus it can translate objects from one plane into another.
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial, aka [[Ambigram]].
 Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
 ** Terminal object :drill:
+:PROPERTIES:
+:ID:       8d7de2b2-7609-481a-837e-9887e779446f
+:END:
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
 ** Testing :drill:
+:PROPERTIES:
+:ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
+:END:
 *** Property testing
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
 And tests cases come from [[Generator][generator]].
@@ -2595,27 +3105,51 @@ main = do
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
 ** Tuple :drill:
+:PROPERTIES:
+:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
+:END:
 Data type that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
   * empty, [[Unit][unit]]          - 0
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
 ** Type :drill:
+:PROPERTIES:
+:ID:       7b89bfd2-3558-4520-939f-4030302bdda0
+:END:
 Type - [[Set][set]] of values.
 See [[Data type]]
 ** Type alias :drill:
+:PROPERTIES:
+:ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
+:END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
 ** Type class :drill:
+:PROPERTIES:
+:ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
+:END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Type class inheritance :drill:
+:PROPERTIES:
+:ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
+:END:
 [[Type class]] has a [[Superclass][superclass]].
 ** Type constant :drill:
+:PROPERTIES:
+:ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
+:END:
 See: [[Constant]]
 ** Type constructor :drill:
+:PROPERTIES:
+:ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
+:END:
 Name of [[Data type][data type]]
 
 Nullary type constructor is [[Type constant]]
 ** type declaration :drill:
+:PROPERTIES:
+:ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
+:END:
 Synonim for existing type. Uses the same data constructor.
 #+begin_src haskell
 type FirstName = String
@@ -2623,43 +3157,85 @@ type FirstName = String
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
 ** Type inference :drill:
+:PROPERTIES:
+:ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
+:END:
 Automatic [[Data type][data type]] detection of [[Expression][expression]].
 ** Type instance :drill:
+:PROPERTIES:
+:ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
+:END:
 Unique [[Type class][type class]]->[[Data type][type]] pairing.
 Defines type class->type methods.
 ** Type variable :drill:
+:PROPERTIES:
+:ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
+:END:
 Refer to an unspecified type in Haskell type signature.
 ** Uncurry :drill:
+:PROPERTIES:
+:ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
+:END:
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined :drill:
+:PROPERTIES:
+:ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
+:END:
 Value helps to do typechecking
 ** Unit :drill:
+:PROPERTIES:
+:ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
+:END:
 Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
 ** Unlifted type :drill:
+:PROPERTIES:
+:ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
+:END:
 Type that directly exist on the hardware. The type abstraction can be completely removed.
 With unlifted types Haskel type system directly manages data in the hardware.
 ** Unsafe :drill:
+:PROPERTIES:
+:ID:       b48b82e3-f86c-4360-a568-727c2500d06c
+:END:
 [[Function]] that does not cover some edge case.
 ** Variable :drill:
+:PROPERTIES:
+:ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
+:END:
 A name for [[Expression][expression]].
 
 Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funсtions]].
 ** Variadic :drill:
+:PROPERTIES:
+:ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
+:END:
 Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
 ** Zero :drill:
+:PROPERTIES:
+:ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
+:END:
 Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
 ** Bound :drill:
+:PROPERTIES:
+:ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
+:END:
 To have a bound.
 Haskell [[Data type][types]] has a [[Type class][type class]] which means the according types have lowest and maximum values, so they have a bounded range of values.
 *** /*/
 **** Bounded
 See [[Bound]]
 ** Typed hole :drill:
+:PROPERTIES:
+:ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
+:END:
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
 ** First-order logic :drill:
+:PROPERTIES:
+:ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
+:END:
 Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables
 *** /*/
 **** Predicate logic
@@ -2667,6 +3243,9 @@ See [[First-order logic]]
 **** First-order predicate calculus
 See [[First-order logic]]
 ** Context :drill:
+:PROPERTIES:
+:ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
+:END:
 [[Constraint]] placed on the types under [[Parametric polymorphism][polymorphic]] variables.
 Written before the main type signature and denoted:
 #+begin_src haskell
