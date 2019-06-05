@@ -70,7 +70,6 @@
   - [[#commutative-law][Commutative law]]
     - [[#-3][/*/]]
       - [[#commutative][Commutative]]
-  - [[#compose][Compose]]
   - [[#composition][Composition]]
   - [[#concatenate][Concatenate]]
   - [[#concrete-type][Concrete type]]
@@ -125,18 +124,21 @@
     - [[#function-head][Function head]]
     - [[#function-body][Function body]]
     - [[#function-composition][Function composition]]
+      - [[#-8][/*/]]
+        - [[#composition-1][Composition]]
+        - [[#compose][Compose]]
     - [[#function-application][Function application]]
     - [[#function-range][Function range]]
     - [[#injection][Injection]]
-      - [[#-8][/*/]]
+      - [[#-9][/*/]]
         - [[#injective][Injective]]
         - [[#injective-function][Injective function]]
     - [[#surjection][Surjection]]
-      - [[#-9][/*/]]
+      - [[#-10][/*/]]
         - [[#surjective][Surjective]]
         - [[#surjective-function][Surjective function]]
     - [[#bijection][Bijection]]
-      - [[#-10][/*/]]
+      - [[#-11][/*/]]
         - [[#bijective][Bijective]]
         - [[#bijective-function][Bijective function]]
   - [[#functor][Functor]]
@@ -145,7 +147,7 @@
       - [[#functor-composition-law][Functor composition law]]
     - [[#lift][Lift]]
     - [[#forgetful-functor][Forgetful functor]]
-    - [[#-11][/*/]]
+    - [[#-12][/*/]]
       - [[#powerset-functor][Powerset functor]]
       - [[#fmap][fmap]]
   - [[#fundamental-theorem-of-algebra][Fundamental theorem of algebra]]
@@ -153,14 +155,14 @@
   - [[#girardreynolds-polymorphic-lambda-calculus][Girard–Reynolds polymorphic lambda calculus]]
   - [[#guerrilla-patch][Guerrilla patch]]
   - [[#higher-order-function][Higher-order function]]
-    - [[#-12][/*/]]
+    - [[#-13][/*/]]
       - [[#hof][HOF]]
   - [[#hindleymilner-type-system][Hindley–Milner type system]]
   - [[#hom-set][Hom-set]]
     - [[#hom-functor][Hom-functor]]
   - [[#idempotence][Idempotence]]
   - [[#idiom][Idiom]]
-    - [[#-13][/*/]]
+    - [[#-14][/*/]]
       - [[#idiomatic][Idiomatic]]
   - [[#iff][Iff]]
   - [[#impredicative][Impredicative]]
@@ -174,7 +176,7 @@
   - [[#kind][Kind]]
   - [[#lambda-abstraction][Lambda abstraction]]
   - [[#lambda-calculus][Lambda calculus]]
-    - [[#-14][/*/]]
+    - [[#-15][/*/]]
       - [[#lambda-term][Lambda term]]
   - [[#lambda-cube][Lambda cube]]
   - [[#lambda-function][Lambda function]]
@@ -188,15 +190,15 @@
     - [[#compile-level][Compile level]]
       - [[#compilation-level][Compilation level]]
     - [[#runtime-level][Runtime level]]
-    - [[#-15][/*/]]
+    - [[#-16][/*/]]
       - [[#code-level][Code level]]
   - [[#lexical-scope][Lexical scope]]
-    - [[#-16][/*/]]
+    - [[#-17][/*/]]
       - [[#static-scope][Static scope]]
   - [[#dynamic-scope][Dynamic scope]]
   - [[#linear-type][Linear type]]
   - [[#local-scope][Local scope]]
-    - [[#-17][/*/]]
+    - [[#-18][/*/]]
       - [[#local][Local]]
   - [[#magma][Magma]]
   - [[#module][Module]]
@@ -207,7 +209,7 @@
     - [[#monad-functions][Monad functions]]
       - [[#return][Return]]
       - [[#bind-1][Bind]]
-        - [[#-18][(>>=)]]
+        - [[#-19][(>>=)]]
       - [[#join][Join]]
         - [[#joinfmap--][join.fmap == (=<<)]]
       - [[#sequencing-operator---][Sequencing operator (>>) == (*>):]]
@@ -229,12 +231,12 @@
       - [[#monoid-right-identity-law][Monoid right identity law]]
       - [[#monoid-associativity-law][Monoid associativity law]]
     - [[#commutative-monoid][Commutative monoid]]
-      - [[#-19][/*/]]
+      - [[#-20][/*/]]
         - [[#abelian-monoid][Abelian monoid]]
   - [[#monoidal-functor][Monoidal functor]]
   - [[#morphism][Morphism]]
     - [[#homomorphism][Homomorphism]]
-      - [[#-20][/*/]]
+      - [[#-21][/*/]]
         - [[#homomorphic][Homomorphic]]
     - [[#identity-morphism][Identity morphism]]
       - [[#identity][Identity]]
@@ -243,22 +245,22 @@
         - [[#right-identity-of-a-predicate][Right identity of a predicate]]
       - [[#identity-function][Identity function]]
     - [[#monomorphism][Monomorphism]]
-      - [[#-21][/*/]]
+      - [[#-22][/*/]]
         - [[#monomorphic][Monomorphic]]
     - [[#epimorphism][Epimorphism]]
-      - [[#-22][/*/]]
+      - [[#-23][/*/]]
         - [[#epimorphic][Epimorphic]]
     - [[#isomorphism][Isomorphism]]
-      - [[#-23][/*/]]
+      - [[#-24][/*/]]
         - [[#isomorphic][Isomorphic]]
     - [[#endomorphism][Endomorphism]]
       - [[#automorphism][Automorphism]]
-        - [[#-24][/*/]]
+        - [[#-25][/*/]]
           - [[#automorphic][Automorphic]]
-      - [[#-25][/*/]]
+      - [[#-26][/*/]]
         - [[#endomorphic][Endomorphic]]
     - [[#catamorphism][Catamorphism]]
-      - [[#-26][/*/]]
+      - [[#-27][/*/]]
         - [[#catamorphic][Catamorphic]]
   - [[#natural-transformation][Natural transformation]]
   - [[#newtype-declaration][newtype declaration]]
@@ -276,21 +278,21 @@
   - [[#permutation][Permutation]]
   - [[#point-free][Point-free]]
     - [[#eta-abstraction][\eta-abstraction]]
-      - [[#-27][/*/]]
+      - [[#-28][/*/]]
         - [[#eta-reduction][\eta-reduction]]
         - [[#eta-conversion][\eta-conversion]]
         - [[#eta-abstraction-1][eta-abstraction]]
         - [[#eta-reduction-1][eta-reduction]]
         - [[#eta-conversion-1][eta-conversion]]
     - [[#blackbird][Blackbird]]
-      - [[#-28][/*/]]
+      - [[#-29][/*/]]
         - [[#-][.) .]]
         - [[#sectioning][Sectioning]]
-        - [[#-29][(.).(.)]]
+        - [[#-30][(.).(.)]]
     - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
-    - [[#-30][/*/]]
+    - [[#-31][/*/]]
       - [[#pointfree][Pointfree]]
       - [[#tacit][Tacit]]
       - [[#tacit-programming][Tacit programming]]
@@ -298,17 +300,17 @@
     - [[#levity-polymorphism][Levity polymorphism]]
     - [[#parametric-polymorphism][Parametric polymorphism]]
       - [[#rank-1-polymorphism][Rank-1 polymorphism]]
-        - [[#-31][/*/]]
+        - [[#-32][/*/]]
           - [[#prenex][Prenex]]
           - [[#prenex-polymorpism][Prenex polymorpism]]
       - [[#let-bound-polymorphism][Let-bound polymorphism]]
       - [[#constrained-polymorphism][Constrained polymorphism]]
         - [[#ad-hoc-polymorphism][Ad hoc polymorphism]]
       - [[#impredicative-polymorphism][Impredicative polymorphism]]
-        - [[#-32][/*/]]
+        - [[#-33][/*/]]
           - [[#first-class-polymorphism][First-class polymorphism]]
       - [[#higher-rank-polymorphism][Higher-rank polymorphism]]
-        - [[#-33][/*/]]
+        - [[#-34][/*/]]
           - [[#rank-n-polymorphism][Rank-n polymorphism]]
     - [[#subtype-polymorphism][Subtype polymorphism]]
     - [[#row-polymorphism][Row polymorphism]]
@@ -353,13 +355,13 @@
   - [[#principle-of-compositionality][Principle of compositionality]]
   - [[#proxy-type][Proxy type]]
   - [[#psi-combinator][\Psi-combinator]]
-    - [[#-34][/*/]]
+    - [[#-35][/*/]]
       - [[#psi-combinator-1][Psi-combinator]]
       - [[#on-combinator][On-combinator]]
   - [[#purity][Purity]]
   - [[#quantifier][Quantifier]]
     - [[#forall-quantifier][Forall quantifier]]
-      - [[#-35][/*/]]
+      - [[#-36][/*/]]
         - [[#forall][Forall]]
   - [[#recursion][Recursion]]
   - [[#redex][Redex]]
@@ -378,7 +380,7 @@
   - [[#set-category][SET category]]
   - [[#shadowing][Shadowing]]
   - [[#shift-operator][Shift operator]]
-    - [[#-36][/*/]]
+    - [[#-37][/*/]]
       - [[#shift][Shift]]
   - [[#shrinking][Shrinking]]
   - [[#singleton][Singleton]]
@@ -429,11 +431,11 @@
   - [[#variadic][Variadic]]
   - [[#zero][Zero]]
   - [[#bound][Bound]]
-    - [[#-37][/*/]]
+    - [[#-38][/*/]]
       - [[#bounded][Bounded]]
   - [[#typed-hole][Typed hole]]
   - [[#first-order-logic][First-order logic]]
-    - [[#-38][/*/]]
+    - [[#-39][/*/]]
       - [[#predicate-logic][Predicate logic]]
       - [[#first-order-predicate-calculus][First-order predicate calculus]]
   - [[#context][Context]]
@@ -453,10 +455,10 @@
   - [[#tensorial-strength][Tensorial strength]]
   - [[#strong-monad][Strong monad]]
   - [[#either][Either]]
-    - [[#-39][/*/]]
+    - [[#-40][/*/]]
       - [[#either-data-type][Either data type]]
   - [[#weak-head-normal-form][Weak head normal form]]
-    - [[#-40][/*/]]
+    - [[#-41][/*/]]
       - [[#whnf][WHNF]]
   - [[#function-image][Function image]]
     - [[#image][Image]]
@@ -475,7 +477,7 @@
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
-      - [[#-41][/*/]]
+      - [[#-42][/*/]]
         - [[#ghc-desugar][GHC desugar]]
   - [[#ghc-optimize-keys][GHC optimize keys]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
@@ -484,7 +486,7 @@
   - [[#rhs][RHS]]
   - [[#lhs][LHS]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
-    - [[#-42][/*/]]
+    - [[#-43][/*/]]
       - [[#gadt][GADT]]
   - [[#order-theory][Order theory]]
     - [[#domain-theory][Domain theory]]
@@ -493,49 +495,49 @@
       - [[#preorder-1][Preorder]]
         - [[#total-preorder][Total preorder]]
       - [[#partial-ordering][Partial ordering]]
-        - [[#-43][/*/]]
+        - [[#-44][/*/]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
   - [[#relation-1][Relation]]
     - [[#reflexivity][Reflexivity]]
-      - [[#-44][/*/]]
+      - [[#-45][/*/]]
         - [[#reflexive][Reflexive]]
         - [[#reflexive-relation][Reflexive relation]]
     - [[#irreflexivity][Irreflexivity]]
-      - [[#-45][/*/]]
+      - [[#-46][/*/]]
         - [[#anti-reflexive][Anti-reflexive]]
         - [[#anti-reflexive-relation][Anti-reflexive relation]]
         - [[#irreflexive][Irreflexive]]
         - [[#irreflexive-relation][Irreflexive relation]]
     - [[#transitivity][Transitivity]]
-      - [[#-46][/*/]]
+      - [[#-47][/*/]]
         - [[#transitive][Transitive]]
         - [[#transitive-relation][Transitive relation]]
     - [[#symmetry][Symmetry]]
-      - [[#-47][/*/]]
+      - [[#-48][/*/]]
         - [[#symmetric][Symmetric]]
         - [[#symmetric-relation][Symmetric relation]]
     - [[#equivalence][Equivalence]]
-      - [[#-48][/*/]]
+      - [[#-49][/*/]]
         - [[#equivalent][Equivalent]]
         - [[#equivalent-relation][Equivalent relation]]
     - [[#antisymmetry][Antisymmetry]]
-      - [[#-49][/*/]]
+      - [[#-50][/*/]]
         - [[#antisymmetric][Antisymmetric]]
         - [[#antisymmetric-relation][Antisymmetric relation]]
     - [[#asymmetry][Asymmetry]]
-      - [[#-50][/*/]]
+      - [[#-51][/*/]]
         - [[#asymmetric][Asymmetric]]
         - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
-    - [[#-51][/*/]]
+    - [[#-52][/*/]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
   - [[#type-family][Type family]]
   - [[#abstract-data-type][Abstract data type]]
-    - [[#-52][/*/]]
+    - [[#-53][/*/]]
       - [[#absdt][AbsDT]]
   - [[#adt][ADT]]
 - [[#citations][Citations]]
@@ -656,8 +658,17 @@ tractus draw, haul, drag
 Purified generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
 ** Actual type :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:32]
 :END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra :drill:
@@ -1110,11 +1121,6 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
 **** Commutative
 See Commutative law
-** Compose :drill:
-:PROPERTIES:
-:ID:       659ba283-a0a3-4f1b-8fa9-84552170f82c
-:END:
-See: [[Function composition]]
 ** Composition :drill:
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
@@ -1374,6 +1380,14 @@ Higher-order function ruturns accumulated result from recursive data structure a
 ** Free variable :drill:
 :PROPERTIES:
 :ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:31]
 :END:
 Variable in the fuction that is not bound by the head.
 Until there are /* -/ function stays [[Partial application][partially applied]].
@@ -1421,6 +1435,9 @@ In Haskell inline composition requires:
 #+begin_src haskell
 h.g.f $ i
 #+end_src
+**** /*/
+***** Composition
+***** Compose :drill:
 *** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 *** Function range
@@ -1523,7 +1540,7 @@ fmap id == id
 #+begin_src haskell
 fmap (f.g) == fmap f . fmap g
 #+end_src
-In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+In words, it is if several functions are [[functional composition][composed]] and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 *** Lift
 Lift is to do a [[Function application][function application]] through the data structure.
 *** Forgetful functor
@@ -3033,20 +3050,22 @@ Gonzales: "What code does."
 :END:
 Static typechecking occurs at [[Compile level][compile level]].
 ** Structural type :drill:
-SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
 Mathematical [[Type][type]]. They form into [[structural type system]].
 ** Structural type system :drill:
+:PROPERTIES:
+:ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
+:END:
 Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
 In most languages typing is name-based, not [[Structural type][structural]].
@@ -3257,6 +3276,14 @@ Create new [[Type constructor][type constructor]], and use all data structure of
 ** Type class :drill:
 :PROPERTIES:
 :ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:26]
 :END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Type class inheritance :drill:
