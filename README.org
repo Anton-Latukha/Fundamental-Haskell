@@ -1378,16 +1378,17 @@ From 1&2 -> can include itself.
 :END:
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variable :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:31]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:38]
 :END:
 Variable in the fuction that is not bound by the head.
 Until there are /* -/ function stays [[Partial application][partially applied]].
@@ -1438,6 +1439,9 @@ h.g.f $ i
 **** /*/
 ***** Composition
 ***** Compose :drill:
+:PROPERTIES:
+:ID:       df869dc5-71e1-4457-a449-039c095a6cf2
+:END:
 *** Function application
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 *** Function range
@@ -1557,8 +1561,17 @@ See: [[Functor]]
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
 ** Gen type :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:40]
 :END:
 Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus :drill:
@@ -2907,8 +2920,17 @@ Is not directed and not limited.
 :END:
 Interactive CLI. Read-eval-print loop.
 ** Scope :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       a2989c15-2adc-403a-add7-35855e9de65c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:39]
 :END:
 Area where [[Bind][bind]]s are accessible.
 ** Sectioning :drill:
@@ -3015,6 +3037,7 @@ Place extra [[Constraint][constraints]] on the construction of values.
 :PROPERTIES:
 :ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
 :END:
+Is a chain of memory cells, each points to the both value of element and to the next memory cell.
 #+begin_src text
 Array:
 
@@ -3274,16 +3297,17 @@ See [[Data type]]
 :END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
 ** Type class :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:26]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:39]
 :END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Type class inheritance :drill:
