@@ -3412,8 +3412,7 @@ There is also distinct [[Identity]] value.
 :PROPERTIES:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
 :END:
-To have a bound.
-Haskell [[Data type][types]] has a [[Type class][type class]] which means the according types have lowest and maximum values, so they have a bounded range of values.
+Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
 *** /*/
 **** Bounded
 See [[Bound]]
