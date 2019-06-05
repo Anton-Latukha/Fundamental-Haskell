@@ -1054,7 +1054,9 @@ Closed set is a form of [[Closed-form expression]]. Set can be closed in under a
 :PROPERTIES:
 :ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
 :END:
-Set has closure under an operation if performance of that operation on members of the set always produces a member of the same set; in this case we also say that the set is closed under the operation.
+
+$$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
+Operation /*/ - operation on members of the domain always produces a members of the domain - in this case we also say that the set is closed under the operation.
 ** Coalgebra :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
