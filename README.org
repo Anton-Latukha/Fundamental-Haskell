@@ -1376,7 +1376,7 @@ Higher-order function ruturns accumulated result from recursive data structure a
 :ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
 :END:
 Variable in the fuction that is not bound by the head.
-On application to the head - they are note bound to values, so fuction stays [[Partial application][partially applied]].
+Until there are /* -/ function stays [[Partial application][partially applied]].
 ** Function :drill:
 :PROPERTIES:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
