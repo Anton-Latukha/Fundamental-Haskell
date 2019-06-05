@@ -625,16 +625,17 @@
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
 ** Abelian category :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 13:21]
+:DRILL_AVERAGE_QUALITY: 1.667
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
 Is which:
   * has a zero object,
@@ -3032,8 +3033,17 @@ Gonzales: "What code does."
 :END:
 Static typechecking occurs at [[Compile level][compile level]].
 ** Structural type :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
 Mathematical [[Type][type]]. They form into [[structural type system]].
 ** Structural type system :drill:
