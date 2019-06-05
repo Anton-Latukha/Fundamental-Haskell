@@ -1276,7 +1276,7 @@ SCHT: <2019-06-08 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:19]
 :END:
-Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
+[[Bind][binding]] name to [[Expression][expression]].
 ** Dependent type :drill:
 :PROPERTIES:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
