@@ -3035,7 +3035,7 @@ Static typechecking occurs at [[Compile level][compile level]].
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
 :END:
-Mathematical [[Type][type]], form [[Structural type system]].
+Mathematical [[Type][type]]. They form into [[structural type system]].
 ** Structural type system :drill:
 Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
