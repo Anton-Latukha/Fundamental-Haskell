@@ -1710,7 +1710,7 @@ main = twoBinds
 :ID:       44aee181-f629-4047-abf5-f2ae438f2063
 :END:
 Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
-It is a number of elements that collide and fail injectivity, thou Kernel [x | x <- 0 || x >= 2].
+It is a number of elements that collide and fail injectivity, thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
 
 Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
