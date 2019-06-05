@@ -1662,7 +1662,7 @@ Self-referencing definition.
 :PROPERTIES:
 :ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
 :END:
-Operaton in-between variables.
+Form of wrinting of operaton application in-between variables.
 ** Inhabit :drill:
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
