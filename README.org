@@ -921,8 +921,17 @@ $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
 :END:
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
 ** Basis :drill:
@@ -1015,8 +1024,17 @@ On product - multiply cardinalities.
 ${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
 Any function is a subset of Cartesian product.
 ** Case :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
 :END:
 #+begin_src haskell
 case x of
@@ -1659,8 +1677,17 @@ Self-referencing definition.
 
 /Antonym - [[Predicative]]./
 ** Infix :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
 :END:
 Form of wrinting of operaton application in-between variables.
 ** Inhabit :drill:
@@ -1706,8 +1733,17 @@ main = twoBinds
 :}
 #+end_src
 ** Kernel :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       44aee181-f629-4047-abf5-f2ae438f2063
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 15:00]
 :END:
 Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
 It is a number of elements that collide and fail injectivity, thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
@@ -1804,8 +1840,17 @@ There are mainly three levels of Haskell code.
 **** Code level
 See [[Level of code]]
 ** Lexical scope :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:45]
 :END:
 Scope bound by the structure of source code where the named entity is defined.
 *** /*/
@@ -1828,8 +1873,17 @@ There are 3 general linear type groups:
 
 Linear types are great to control/minimize resource usage.
 ** Local scope :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:52]
 :END:
 [[Scope]] applies only in an area.
 *** /*/
@@ -2883,8 +2937,17 @@ See [[Forall quantifier]]
 :END:
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       3d5326a4-74a7-433d-860a-2590072bb61d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 15:00]
 :END:
 [[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction :drill:
@@ -3034,8 +3097,17 @@ Also 1-tuple.
 :END:
 Place extra [[Constraint][constraints]] on the construction of values.
 ** Spine :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:44]
 :END:
 Is a chain of memory cells, each points to the both value of element and to the next memory cell.
 #+begin_src text
@@ -3409,8 +3481,17 @@ Zero is the value operation with which always gives Zero value.
 $n, zero \in C : \forall n, zero*n=zero$
 There is also distinct [[Identity]] value.
 ** Bound :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:51]
 :END:
 Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
 *** /*/
