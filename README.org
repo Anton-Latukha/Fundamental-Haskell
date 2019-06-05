@@ -387,6 +387,7 @@
   - [[#statement][Statement]]
   - [[#static-typing][Static typing]]
   - [[#structural-type][Structural type]]
+  - [[#structural-type-system][Structural type system]]
   - [[#superclass][Superclass]]
   - [[#syntatic-sugar][Syntatic sugar]]
   - [[#system-f][System F]]
@@ -3034,11 +3035,11 @@ Static typechecking occurs at [[Compile level][compile level]].
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
 :END:
-** Structural Type System :drill:
-Structural Type System is a strict global hierarchy and relationship of types and their properties.
 Mathematical [[Type][type]], form [[Structural type system]].
+** Structural type system :drill:
+Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
-In most languages typing is not [[Structural type][structural]] - but name-based.
+In most languages typing is name-based, not [[Structural type][structural]].
 ** Superclass :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
