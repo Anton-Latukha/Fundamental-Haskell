@@ -3034,10 +3034,7 @@ Static typechecking occurs at [[Compile level][compile level]].
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
 :END:
-Is a [[Type][type]] in the real mathematical sence, in the Structural Type System.
-The Structural Type System differentiate and compares the types basing on their properties. So all structural types have a global hierarchy of properties, types and subtypes.
-Like in Haskell.
-In most languages typing is not structural - but name-based.
+Mathematical [[Type][type]], form [[Structural Type System]].
 ** Superclass :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
