@@ -2299,7 +2299,7 @@ Unsafe and causes trouble.
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
 :END:
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
-/Use just anough Tacit to communicate better. Mostly only partial point-free communicates better./
+/Use just enough Tacit to communicate better. Mostly only partial point-free communicates better./
 
 Point-free style, is a paradigm in which functions only describe the [[Morphism]] itself.
 If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
