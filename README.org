@@ -626,6 +626,14 @@
 ** Abelian category :drill:
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 13:21]
 :END:
 Is which:
   * has a zero object,
@@ -923,8 +931,17 @@ No [[Beta reduction][beta reduction]] is possible.
 :END:
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Binary :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:18]
 :END:
 Two of something.
 ** Binary operation :drill:
@@ -1247,8 +1264,17 @@ Type that take more types as arguments.
 *** Sum data type
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       461111ea-4124-427f-bfc6-f83212a07951
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:19]
 :END:
 Top-level [[Bind][bindings]] which allow us to name [[Expression][expressions]].
 ** Dependent type :drill:
@@ -2735,8 +2761,17 @@ Values supplied to the [[Pragma]] directive.
 Notation: $$ P(x) $$
 [[Application]] of [[Argument][argument]] yealds true or false predicate.
 ** Predicative :drill:
+SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 13:22]
 :END:
 Non-self-referencing definition.
 
@@ -2898,8 +2933,17 @@ class Semigroup a where
 #+end_src
 
 ** Set :drill:
+SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:17]
 :END:
 Well-defined collection of distinct objects.
 ** SET category :drill:
