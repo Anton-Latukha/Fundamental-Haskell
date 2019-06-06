@@ -2374,8 +2374,17 @@ Any Haskell expression can't return nothing.
 :END:
 [[Function]] with [[Arity][arity]].
 ** Operation :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:15]
 :END:
 [[Function][Function]]. Word used in mathematics. Often a symbol, [[Infix][infix]], binary.
 ** Operator :drill:
@@ -2470,6 +2479,14 @@ See [[\eta-abstraction]]
 *** Blackbird :drill:
 :PROPERTIES:
 :ID:       76123e3b-3042-4112-beaf-7f281c13e58a
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:17]
 :END:
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
@@ -3289,8 +3306,17 @@ Final result of the function
 :END:
 Tail calls are recursive invocantions of itself.
 ** Tensor :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       e165b708-fdd2-4062-be87-b65487de4a0e
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:17]
 :END:
 Object existing out of planes, thus it can translate objects from one plane into another.
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
@@ -3900,8 +3926,17 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :END:
 Use data type aliases to deferentiate logic of values.
 ** Type wideness :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       f84197b4-6d5d-4f8f-bb4d-3c6a1460a37b
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:18]
 :END:
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
@@ -3956,6 +3991,14 @@ Model the domain and types before thinking about how to write computations.
 ** Arbitrary :drill:
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:18]
 :END:
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
