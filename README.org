@@ -289,7 +289,6 @@
         - [[#-][.) .]]
         - [[#sectioning][Sectioning]]
         - [[#-30][(.).(.)]]
-    - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
     - [[#-31][/*/]]
@@ -589,6 +588,7 @@
   - [[#haskell-has-infinite-terms-not-not-infinite-types][Haskell has infinite terms not not infinite types.]]
   - [[#use-type-sysnonims-to-differ-the-information][Use type sysnonims to differ the information]]
   - [[#controlmonaderror---controlmonadexcept][Control.Monad.Error -> Control.Monad.Except]]
+  - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -697,8 +697,17 @@ A system of algebra based on given axioms.
 :END:
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Ambigram :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:22]
 :END:
 ambi both
 γράμμα /grámma/ written character
@@ -2409,7 +2418,7 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 \x1 x2 -> g . f x1 $ x2
 \x1    -> g . f x1
 #+end_src
-*** \eta-abstraction
+*** \eta-abstraction :drill:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 **** /*/
 ***** \eta-reduction
@@ -2422,7 +2431,7 @@ See [[\eta-abstraction]]
 See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
-*** Blackbird
+*** Blackbird :drill:
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
@@ -2438,16 +2447,15 @@ See [[Blackbird]]
 See [[Blackbird]]
 ***** (.).(.)
 See [[Blackbird]]
-*** Point-free becomes better in multi-dimentional data
-BigData and OLAP analysis.
-*** Swing
+*** Swing :drill:
 #+begin_src haskell
 swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
 swing = flip . (. flip id)
 swing f = flip (f . runCont . return)
 swing f c a = f ($ a) c
 #+end_src
-*** Squish
+
+*** Squish :drill:
 #+begin_src haskell
 f >>= a . b . c =<< g
 #+end_src
@@ -3919,6 +3927,8 @@ That is why infinite types throw infinite type error.
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
 ** Control.Monad.Error -> Control.Monad.Except
+** Point-free becomes better in multi-dimentional data
+BigData and OLAP analysis.
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
