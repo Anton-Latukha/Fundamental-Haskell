@@ -2357,8 +2357,7 @@ Any Haskell expression can't return nothing.
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
 :END:
-As also called [[Function][function]].
-Used in mathematics. Word often used for [[Infix][infix]] operations.
+[[Function][Function]]. Word used in mathematics. Often a symbol, [[Infix][infix]], binary.
 ** Operator :drill:
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
