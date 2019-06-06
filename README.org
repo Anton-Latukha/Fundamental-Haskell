@@ -2399,8 +2399,17 @@ Unsafe and causes trouble.
 :END:
 [[Bijective]] [[Function]] from [[Domain][domain]] to itself.
 ** Point-free :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:58]
 :END:
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just enough Tacit to communicate better. Mostly only partial point-free communicates better./
@@ -3811,35 +3820,35 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :PROPERTIES:
 :ID:       0061ec53-dc1b-40a8-a00a-f07fd4213be2
 :END:
-** Type aliasing
+** Type aliasing :drill:
 Use data type aliases to deferentiate logic of values.
-** Type wideness
+** Type wideness :drill:
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
-** Read Conventions of variables (page 176)
-** Print
+** Read Conventions of variables (page 176) :drill:
+** Print :drill:
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
-** Read code evaluation (488 on-ward)
-** Fold
+** Read code evaluation (488 on-ward) :drill:
+** Fold :drill:
 foldr spine recursion intermediated by the folding
 foldl spine folding is unconditional, then solding starts.
 
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
-** Computation model
+** Computation model :drill:
 Model the domain and types before thinking about how to write computations.
-** Make bottoms only local
-** Newtype wrap is ideally transparent for compiler and does not change performance
-** Instances of types/type classes must go with code you write
-** Functions can be abstracted as arguments
-** Infix operators can be bind to arguments
-** Arbitrary
+** Make bottoms only local :drill:
+** Newtype wrap is ideally transparent for compiler and does not change performance :drill:
+** Instances of types/type classes must go with code you write :drill:
+** Functions can be abstracted as arguments :drill:
+** Infix operators can be bind to arguments :drill:
+** Arbitrary :drill:
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
-** Principle of Separation of concerns
-** Function composition
+** Principle of Separation of concerns :drill:
+** Function composition :drill:
 In Haskell inline composition requires:
 #+begin_src haskell
   h.g.f $ i
@@ -3851,7 +3860,7 @@ But it is a way better then:
 #+begin_src haskell
   h (g (f i))
 #+end_src
-** Functor application
+** Functor application :drill:
 Function application on n levels beneath:
 #+begin_src haskell
 (fmap.fmap) function twoLevelStructure
@@ -3870,15 +3879,15 @@ fmap :: Functor g => (x -> y) -> g x -> g y
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+end_src
 
-** Parameter order
+** Parameter order :drill:
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
-** Applicative monoid
+** Applicative monoid :drill:
 There can be more then one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
-** Creative process
+** Creative process :drill:
 *** Pick phylosophy principles one to three the more - the harder the implementation
 *** Draw the most blurred representation
 *** Deduce abstractions and write remotely what they are
@@ -3887,11 +3896,11 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Model the types
 **** Think how to write computations
 *** Create
-** About operators (<$) (*>) (<*) (>>)
+** About operators (<$) (*>) (<*) (>>) :drill:
 Where character is not present - discards the according value.
-** About operators mapM_ sequence_
+** About operators mapM_ sequence_ :drill:
 Trailing /_/ means ignoring the result.
-** Guideliles
+** Guideliles :drill:
 *** Wiki.haskell
 **** Documentation
 ***** Comments write in application terms, not technical.
@@ -3919,15 +3928,15 @@ Portability :  portable | non-portable (<reason>)
 ***** Last char in file should be newline
 ***** Symbolic infix identifiers is only library writer right
 ***** Every function does one thing.
-** Use Typed holes to progress the code
+** Use Typed holes to progress the code :drill:
 [[Typed hole]]s help build code in complex situations.
-** Haskell has infinite terms not not infinite types.
+** Haskell has infinite terms not not infinite types. :drill:
 That is why infinite types throw infinite type error.
-** Use type sysnonims to differ the information
+** Use type sysnonims to differ the information :drill:
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
-** Control.Monad.Error -> Control.Monad.Except
-** Point-free becomes better in multi-dimentional data
+** Control.Monad.Error -> Control.Monad.Except :drill:
+** Point-free becomes better in multi-dimentional data :drill:
 BigData and OLAP analysis.
 * Bad code :drill:
 :PROPERTIES:
