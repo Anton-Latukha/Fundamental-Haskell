@@ -991,15 +991,33 @@ data BinaryTree a
   deriving (Eq, Ord, Show)
 #+end_src
 ** Bind :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:35]
 :END:
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom value :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
 :END:
 #+begin_src haskell
 -- _ fits *.
@@ -1103,8 +1121,17 @@ Closed-form expression - a mathematical expression that can be evaluated in a fi
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
 ** Closure :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:34]
 :END:
 
 $$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
@@ -1393,8 +1420,17 @@ Source set of a function in $$ X \to Y $$.
 :END:
 Observable action.
 ** Endofunctor :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
 :END:
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
 ** Endofunctor category :drill:
@@ -2477,16 +2513,17 @@ See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
 *** Blackbird :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       76123e3b-3042-4112-beaf-7f281c13e58a
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:17]
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
 :END:
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
@@ -2946,8 +2983,17 @@ Non-self-referencing definition.
 
 /Antonym - [[Impredicative]]./
 ** Principal type :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
 :END:
 The most generic [[Data type][data type]] that still typechecks.
 ** Principle of compositionality :drill:
@@ -3159,8 +3205,17 @@ SCHT: <2019-06-08 Sat>
 :END:
 Well-defined collection of distinct objects.
 ** SET category :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       c6c7f178-7b69-4154-83ed-34de9b102193
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing :drill:
@@ -3296,8 +3351,17 @@ Artificial way to make language easier to read and write.
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
 ** Tail call :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
 :END:
 Final result of the function
 ** Tail recursion :drill:
@@ -3499,8 +3563,17 @@ For type to have sence the values share some sence, properties.
 
 See [[Data type]]
 ** Type alias :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:31]
 :END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
 ** Type class :drill:
@@ -3609,8 +3682,17 @@ Except when you hack it with explicit [[Function][funсtions]].
 :END:
 Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
 ** Zero :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:28]
 :END:
 Zero is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
@@ -3989,16 +4071,17 @@ Model the domain and types before thinking about how to write computations.
 :ID:       defb1467-4b50-451b-8fb3-ab12af4409af
 :END:
 ** Arbitrary :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.333
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:18]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
 :END:
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
@@ -4122,8 +4205,17 @@ Portability :  portable | non-portable (<reason>)
 :END:
 That is why infinite types throw infinite type error.
 ** Use type sysnonims to differ the information :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
 :END:
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow to create a diffrent type class instances and behaviour for different information.
