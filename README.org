@@ -1005,7 +1005,7 @@ Variables = values.
 -- _ fits *.
 #+end_src
 
-Is a non-value used to denote the program cannot return a values.
+Is a non-value placeholder for enything.
 ** Calculus of constructions :drill:
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
