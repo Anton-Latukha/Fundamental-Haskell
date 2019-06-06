@@ -3586,8 +3586,8 @@ Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of
 :PROPERTIES:
 :ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
 :END:
-Zero is the value operation with which always gives Zero value.
-$n, zero \in C : \forall n, zero*n=zero$
+Zero is the value with which operation always yelds Zero value.
+$$ zero, n \in C : \forall n, zero*n=zero $$
 There is also distinct [[Identity]] value.
 ** Bound :drill:
 SCHT: <2019-06-09 Sun>
