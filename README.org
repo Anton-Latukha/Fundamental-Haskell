@@ -1171,6 +1171,8 @@ Link together sequences.
 :END:
 Logical AND
 
+Multiplies [[Cardinality][cardinalities]].
+
 Haskell kind:
 #+begin_src haskell
  * *
