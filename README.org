@@ -3430,6 +3430,8 @@ Tuples by [[Arity][arity]]:
 :ID:       7b89bfd2-3558-4520-939f-4030302bdda0
 :END:
 Type - [[Set][set]] of values.
+For type to have sence the values share some sence, properties.
+
 See [[Data type]]
 ** Type alias :drill:
 :PROPERTIES:
