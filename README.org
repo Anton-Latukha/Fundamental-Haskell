@@ -4126,7 +4126,7 @@ That is why infinite types throw infinite type error.
 :ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
 :END:
 Even if there is types - define type synonims. They are free.
-That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
+That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow to create a diffrent type class instances and behaviour for different information.
 ** Control.Monad.Error -> Control.Monad.Except :drill:
 :PROPERTIES:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
