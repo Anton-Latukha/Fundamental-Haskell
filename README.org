@@ -709,7 +709,7 @@ While this word has two contradictory diametrically opposite meanings, one was c
 
 But it has... Both.
 
-/TODO: Probably better for the merit of difference about different meaning refere to [[Tensor]] as object with many meanings./
+/TODO: Probably better for the merit of difference about different meaning refer to [[Tensor]] as object with many meanings./
 ** Anamorphism :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
@@ -1650,8 +1650,17 @@ $$ Hom(-,-):C^{op} \times C \to Set $$
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
 ** Idiom :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       bc244256-751d-4205-857e-368a45580884
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:20]
 :END:
 Idiom - something having a meaning that cannot be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
@@ -3170,8 +3179,17 @@ In most languages typing is name-based, not [[Structural type][structural]].
 :END:
 Broader parent class.
 ** Syntatic sugar :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       244e15a8-9ae5-4842-82b1-279387d088fd
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:20]
 :END:
 Artificial way to make language easier to read and write.
 ** System F :drill:
