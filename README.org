@@ -1169,7 +1169,9 @@ Link together sequences.
 :PROPERTIES:
 :ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
 :END:
-AND
+Logical AND
+
+Haskell kind:
 #+begin_src haskell
  * *
 #+end_src
