@@ -1017,8 +1017,17 @@ Directly relates to Coq programming language.
 **** CoC
 See [[Calculus of constructions]].
 ** Cardinality :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:07]
 :END:
 
 Number of possible implementations for a given type signature. So also number elements inhabiting type, as they are a number of variations.
@@ -1166,8 +1175,17 @@ Link together sequences.
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
 ** Conjunction :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:01]
 :END:
 Logical AND
 
@@ -3059,8 +3077,17 @@ SCHT: <2019-06-09 Sun>
 :END:
 Area where [[Bind][bind]]s are accessible.
 ** Sectioning :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 17:51]
 :END:
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Semantics :drill:
@@ -3266,7 +3293,7 @@ Tail calls are recursive invocantions of itself.
 :ID:       e165b708-fdd2-4062-be87-b65487de4a0e
 :END:
 Object existing out of planes, thus it can translate objects from one plane into another.
-They can be tried to be described with knowledge existing inside planes, but representation would always be partial, aka [[Ambigram]].
+They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
 Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
@@ -3429,8 +3456,17 @@ Tuples by [[Arity][arity]]:
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
 ** Type :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       7b89bfd2-3558-4520-939f-4030302bdda0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 17:51]
 :END:
 Type - [[Set][set]] of values.
 For type to have sence the values share some sence, properties.
