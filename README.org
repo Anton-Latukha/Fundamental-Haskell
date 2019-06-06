@@ -1029,8 +1029,12 @@ Conjunction, product - multiplies cardinalities.
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
-${\forall a \in A, \forall b \in B : A \times B = \overset{\rightharpoonup}{(a,b)}}$.
-Any function is a subset of Cartesian product.
+$$ \forall a \in A, \forall b \in B : A \times B = \overset \rightharpoonup {(a,b)} $$.
+Any [[Function][function]] is a subset of Cartesian product.
+
+$$ \sum_{}_{}^{elem \in (A \times B)}  = cardinality^{A \times B} $$
+[[Cardinality]].
+
 ** Case :drill:
 SCHT: <2019-06-09 Sun>
 :PROPERTIES:
