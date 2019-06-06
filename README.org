@@ -1020,12 +1020,11 @@ See [[Calculus of constructions]].
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
 :END:
-Number of elements.
 
-Number of possible implementations for a given type signature.
+Number of possible implementations for a given type signature. So also number elements inhabiting type, as they are a number of variations.
 
-On sum - add cardinalities.
-On product - multiply cardinalities.
+Disjuction, sum - adds cardinalities.
+Conjunction, product - multiplies cardinalities.
 ** Cartesian product :drill:
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
@@ -2428,6 +2427,9 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 \x1    -> g . f x1
 #+end_src
 *** \eta-abstraction :drill:
+:PROPERTIES:
+:ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
+:END:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 **** /*/
 ***** \eta-reduction
@@ -2441,6 +2443,9 @@ See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
 *** Blackbird :drill:
+:PROPERTIES:
+:ID:       76123e3b-3042-4112-beaf-7f281c13e58a
+:END:
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
@@ -2457,6 +2462,9 @@ See [[Blackbird]]
 ***** (.).(.)
 See [[Blackbird]]
 *** Swing :drill:
+:PROPERTIES:
+:ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
+:END:
 #+begin_src haskell
 swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
 swing = flip . (. flip id)
@@ -2465,6 +2473,9 @@ swing f c a = f ($ a) c
 #+end_src
 
 *** Squish :drill:
+:PROPERTIES:
+:ID:       4813e27d-4ac4-415f-95c5-323b605c1de6
+:END:
 #+begin_src haskell
 f >>= a . b . c =<< g
 #+end_src
@@ -2898,8 +2909,17 @@ Non-self-referencing definition.
 :END:
 The most generic [[Data type][data type]] that still typechecks.
 ** Principle of compositionality :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       d8df7582-1e97-4cf9-9d0d-146ede21ad1f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:02]
 :END:
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
 Phrases are [[Composition][composable]] expressions.
@@ -2943,8 +2963,17 @@ See: [[\Psi-combinator]]
 :END:
 [[Referential transparency][Referential transparent]] [[Function][function]]
 ** Quantifier :drill:
+SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       ac758691-4dc3-4e6c-9f18-59793263a845
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:02]
 :END:
 Specifies the quantity of specimens.
 
@@ -3821,34 +3850,79 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :ID:       0061ec53-dc1b-40a8-a00a-f07fd4213be2
 :END:
 ** Type aliasing :drill:
+:PROPERTIES:
+:ID:       db5d6252-f9b1-4c2e-ab00-a4a99d026c2a
+:END:
 Use data type aliases to deferentiate logic of values.
 ** Type wideness :drill:
+:PROPERTIES:
+:ID:       f84197b4-6d5d-4f8f-bb4d-3c6a1460a37b
+:END:
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
 ** Read Conventions of variables (page 176) :drill:
+:PROPERTIES:
+:ID:       6dc2fbe3-f3de-4a52-97d5-dc001e59869c
+:END:
 ** Print :drill:
+:PROPERTIES:
+:ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
+:END:
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
 ** Read code evaluation (488 on-ward) :drill:
+:PROPERTIES:
+:ID:       e2222b7e-75c8-4c75-98b2-9d99167232c3
+:END:
 ** Fold :drill:
+:PROPERTIES:
+:ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
+:END:
 foldr spine recursion intermediated by the folding
 foldl spine folding is unconditional, then solding starts.
 
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
 ** Computation model :drill:
+:PROPERTIES:
+:ID:       a6b88a42-c287-47ae-9db0-f7c2aa0d0cd3
+:END:
 Model the domain and types before thinking about how to write computations.
 ** Make bottoms only local :drill:
+:PROPERTIES:
+:ID:       8d96eb06-0984-4325-a447-4e751ff820e0
+:END:
 ** Newtype wrap is ideally transparent for compiler and does not change performance :drill:
+:PROPERTIES:
+:ID:       0a8b1bec-1a25-42e0-b137-232fb01b25d7
+:END:
 ** Instances of types/type classes must go with code you write :drill:
+:PROPERTIES:
+:ID:       2bafb381-43ce-44b0-9abf-ffa1f3f0c6e1
+:END:
 ** Functions can be abstracted as arguments :drill:
+:PROPERTIES:
+:ID:       714c9ca5-052c-4c5b-b3c6-fcd7741250b0
+:END:
 ** Infix operators can be bind to arguments :drill:
+:PROPERTIES:
+:ID:       defb1467-4b50-451b-8fb3-ab12af4409af
+:END:
 ** Arbitrary :drill:
+:PROPERTIES:
+:ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
+:END:
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
 ** Principle of Separation of concerns :drill:
+:PROPERTIES:
+:ID:       a07f55f7-1a15-4aa9-b8c8-fb58149924d7
+:END:
 ** Function composition :drill:
+:PROPERTIES:
+:ID:       ade1516e-44f1-4a8e-bfe4-5b773d0f27d6
+:END:
 In Haskell inline composition requires:
 #+begin_src haskell
   h.g.f $ i
@@ -3861,6 +3935,9 @@ But it is a way better then:
   h (g (f i))
 #+end_src
 ** Functor application :drill:
+:PROPERTIES:
+:ID:       67dab545-6f12-4d3a-b8c7-acfc0f267d03
+:END:
 Function application on n levels beneath:
 #+begin_src haskell
 (fmap.fmap) function twoLevelStructure
@@ -3880,14 +3957,23 @@ fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+end_src
 
 ** Parameter order :drill:
+:PROPERTIES:
+:ID:       05494702-c932-47ef-a91b-6ffd27a6b51f
+:END:
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
 ** Applicative monoid :drill:
+:PROPERTIES:
+:ID:       e417b5f0-fc63-45e0-971a-68b2c6ae4d22
+:END:
 There can be more then one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
 ** Creative process :drill:
+:PROPERTIES:
+:ID:       b5b69b79-144b-49f0-a997-ed7c056e182b
+:END:
 *** Pick phylosophy principles one to three the more - the harder the implementation
 *** Draw the most blurred representation
 *** Deduce abstractions and write remotely what they are
@@ -3897,10 +3983,19 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Think how to write computations
 *** Create
 ** About operators (<$) (*>) (<*) (>>) :drill:
+:PROPERTIES:
+:ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
+:END:
 Where character is not present - discards the according value.
 ** About operators mapM_ sequence_ :drill:
+:PROPERTIES:
+:ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
+:END:
 Trailing /_/ means ignoring the result.
 ** Guideliles :drill:
+:PROPERTIES:
+:ID:       30bdcb7b-27f5-4d34-993d-d4a710d41969
+:END:
 *** Wiki.haskell
 **** Documentation
 ***** Comments write in application terms, not technical.
@@ -3929,14 +4024,29 @@ Portability :  portable | non-portable (<reason>)
 ***** Symbolic infix identifiers is only library writer right
 ***** Every function does one thing.
 ** Use Typed holes to progress the code :drill:
+:PROPERTIES:
+:ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
+:END:
 [[Typed hole]]s help build code in complex situations.
 ** Haskell has infinite terms not not infinite types. :drill:
+:PROPERTIES:
+:ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
+:END:
 That is why infinite types throw infinite type error.
 ** Use type sysnonims to differ the information :drill:
+:PROPERTIES:
+:ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
+:END:
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow you to create a diffrent type class instances and behaviour for different information.
 ** Control.Monad.Error -> Control.Monad.Except :drill:
+:PROPERTIES:
+:ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
+:END:
 ** Point-free becomes better in multi-dimentional data :drill:
+:PROPERTIES:
+:ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
+:END:
 BigData and OLAP analysis.
 * Bad code :drill:
 :PROPERTIES:
