@@ -675,17 +675,17 @@ SCHT: <2019-06-09 Sun>
 :END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:57]
 :END:
 al-jabr - assemble parts.
 A system of algebra based on given axioms.
@@ -729,17 +729,17 @@ But it has... Both.
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
 ** Application :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 ** Application memory :drill:
@@ -965,17 +965,17 @@ No [[Beta reduction][beta reduction]] is possible.
 :END:
 Applying [[Function][function]] to an [[Argument][argument]].
 ** Binary :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:18]
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 Two of something.
 ** Binary operation :drill:
@@ -1154,17 +1154,17 @@ Pseudogenerates a function basing on resulting type.
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
 ** Codomain :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       f8603032-30f1-4074-80b5-0f6f49428241
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:07]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Codomain - target set of a function in $X \to Y$.
 ** Combinator :drill:
@@ -1356,17 +1356,17 @@ Type that take more types as arguments.
 *** Sum data type
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** Declaration :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       461111ea-4124-427f-bfc6-f83212a07951
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:19]
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 [[Bind][binding]] name to [[Expression][expression]].
 ** Dependent type :drill:
@@ -1378,10 +1378,19 @@ Type and variable have rules regarding values.
 A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
 ** Derived instance :drill:
+SCHT: <2019-06-12 Wed>
 :PROPERTIES:
 :ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:05]
 :END:
-Type classes such as Eq, Enum, Ord, Show can have instances generated based definition of data type.
+Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
 ** Differential operator :drill:
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
@@ -1394,17 +1403,17 @@ $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
 ** Disjunction :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:55]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:57]
 :END:
 OR
 ** Dispatch :drill:
@@ -2151,17 +2160,17 @@ Explanation:
 *** Comonad
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** Monkey patch :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:08]
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 /From [[Guerrilla patch]]./
 
@@ -2358,8 +2367,17 @@ trans :: forall a. F a -> G a
 /*/ is a "morphism of functors", especially in functor categories.
 
 ** newtype declaration :drill:
+SCHT: <2019-06-12 Wed>
 :PROPERTIES:
 :ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
 :END:
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
@@ -2707,10 +2725,16 @@ Pragma in Haskell have form:
 {-# PRAGMA options #-}
 #+end_src
 *** LANGUAGE pragma :drill:
+:PROPERTIES:
+:ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
+:END:
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
 **** LANGUAGE option
 ***** Useful by default :drill:
+:PROPERTIES:
+:ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
+:END:
 #+begin_src haskell
 import EmptyCase
 import FlexibleContexts
@@ -2719,9 +2743,15 @@ import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
 ***** AllowAmbiguousTypes :drill:
+:PROPERTIES:
+:ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
+:END:
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
 ***** ApplicativeDo :drill:
+:PROPERTIES:
+:ID:       cb3b5b66-06a8-4187-9606-631faefa7814
+:END:
 Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
 
 For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
@@ -2743,9 +2773,15 @@ The only way it shows up at the source level is that you can have a =do= express
 
 It is possible to see the actual translation by using =[[-ddump-ds]]=.
 ***** ConstrainedClassMethods :drill:
+:PROPERTIES:
+:ID:       301a3741-f96c-45a7-bb14-7e342167b62d
+:END:
 Enable the definition of further constraints on individual class methods.
 
 ***** ConstraintKinds :drill:
+:PROPERTIES:
+:ID:       39b1ef68-42be-4430-b7ca-c8a1fc511622
+:END:
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
 Kind Constraint are:
@@ -2767,14 +2803,26 @@ Kind Constraint are:
   #+end_src
 
 ***** CPP :drill:
+:PROPERTIES:
+:ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
+:END:
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
 ***** DeriveFunctor :drill:
+:PROPERTIES:
+:ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
+:END:
 Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
 Since there is only one possible [[Functor][functor]] for any [[Data type][type]] - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
 ***** ExplicitForAll :drill:
+:PROPERTIES:
+:ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
+:END:
 Allow explicit forall quantificator in places where it is implicit by Haskell.
 ***** FlexibleContexts :drill:
+:PROPERTIES:
+:ID:       ab8dc15c-452a-4dd7-94fe-1e1c38fd0c1e
+:END:
 Ability to use complex constraints in class declaration contexts.
 The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
 #+begin_src haskell
@@ -2787,12 +2835,26 @@ $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
 ***** FlexibleInstances :drill:
+:PROPERTIES:
+:ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
+:END:
 Allow type class instances types contain nested types.
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
 Implies [[TypeSynonymInstances]].
 ***** GeneralizedNewtypeDeriving :drill:
+:PROPERTIES:
+:ID:       96a23172-9aa7-4290-adfe-a18169dd4362
+:END:
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
 #+begin_src haskell
 newtype Dollars = Dollars Int
@@ -2800,9 +2862,15 @@ newtype Dollars = Dollars Int
 #+end_src
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
 ***** ImplicitParams :drill:
+:PROPERTIES:
+:ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
+:END:
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
 ***** LambdaCase :drill:
+:PROPERTIES:
+:ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
+:END:
 Enables expressions of the form:
 #+begin_src haskell
 \case { p1 -> e1; ...; pN -> eN }
@@ -2816,6 +2884,9 @@ Enables expressions of the form:
 #+end_src
 
 ***** MultiParamTypeClasses :drill:
+:PROPERTIES:
+:ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
+:END:
 Implies: [[ConstrainedClassMethods]]
 Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
@@ -2823,6 +2894,9 @@ class Collection c a where
 #+end_src
 
 ***** MultiWayIf :drill:
+:PROPERTIES:
+:ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
+:END:
 Enable multi-way-if syntax.
 #+begin_src haskell
 if | guard1 -> expr1
@@ -2831,6 +2905,9 @@ if | guard1 -> expr1
 #+end_src
 
 ***** OverloadedStrings :drill:
+:PROPERTIES:
+:ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
+:END:
 Enable overloaded string literals (string literals become desugared via the IsString class).
 Now string literal has type:
 #+begin_src haskell
@@ -2842,6 +2919,9 @@ Now they can be used in pattern matches as char->integer translations. To patter
 
 To use class IsString - import it from GHC.Ext
 ***** PartialTypeSignatures :drill:
+:PROPERTIES:
+:ID:       4ac887da-6e23-4028-9924-3496787aa8d0
+:END:
 Partial type signature containins wildcards, placeholders (=_=, =_name=).
 Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
 
@@ -2849,6 +2929,9 @@ As untuped expression, partly typed can not polymorphicly recurse.
 
 [[-Wno-partial-type-signatures]] supresses infer warnings.
 ***** RankNTypes :drill:
+:PROPERTIES:
+:ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
+:END:
 Enable types of arbitrary rank.
 See [[Type rank]].
 
@@ -2864,6 +2947,9 @@ Allows =forall= quantifier:
 
 It can synergyze with [[ScopedTypeVariables]].
 ***** ScopedTypeVariables :drill:
+:PROPERTIES:
+:ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
+:END:
 By default type variables do not have a scope except inside type signatures where they are used.
 
 When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
@@ -2874,6 +2960,9 @@ For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-vari
 
 Implies [[ExplicitForAll]].
 ***** TupleSections :drill:
+:PROPERTIES:
+:ID:       30ae7849-e739-4718-b031-5566e8f82a67
+:END:
 Allow tuple section syntax:
 #+begin_src haskell
 (, True)
@@ -2881,6 +2970,9 @@ Allow tuple section syntax:
 #+end_src
 
 ***** TypeApplications :drill:
+:PROPERTIES:
+:ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
+:END:
 Allow type application syntax:
 #+begin_src haskell
 read @Int 5
@@ -2899,6 +2991,9 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 #+end_src
 
 ***** TypeFamilies :drill:
+:PROPERTIES:
+:ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
+:END:
 Allow use and definition of indexed type and data families.
 
 /*/ are type-level programming.
@@ -2912,12 +3007,21 @@ Two types of /*/ are:
 ****** Data families
 ****** Type synonym families
 ***** TypeSynonymInstances :drill:
+:PROPERTIES:
+:ID:       3989b294-f011-48c0-9998-be10bd75c541
+:END:
 Now type synonim can have it's own type class instances.
 ***** UndecidableInstances :drill:
+:PROPERTIES:
+:ID:       71ac682f-292d-401a-bd61-0c28a707a950
+:END:
 Permit instances which may lead to type-checker non-termination.
 
 GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
 ***** ViewPatterns :drill:
+:PROPERTIES:
+:ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
+:END:
 #+begin_src haskell
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
@@ -2930,6 +3034,9 @@ size (view -> Arrow t1 t2) = size t1 + size t2
 /*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
 ***** DatatypeContexts :drill:
+:PROPERTIES:
+:ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
+:END:
 Allow [[Context][contexts]] in [[Data type][data types]].
 #+begin_src haskell
 data Eq a => Set a = NilSet | ConsSet a (Set a)
@@ -3026,17 +3133,16 @@ let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 ** \Psi-combinator :drill:
-SCHT: <2019-06-08 Sat>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.333
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:13]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
@@ -3102,22 +3208,22 @@ SCHT: <2019-06-09 Sun>
 :END:
 See [[Beta reduction]]
 ** Referential transparency :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_AVERAGE_QUALITY: 2.333
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:12]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:02]
 :END:
 Returns the same output given the same values to evaluate.
-
-/*/ [[expression]] - can be replaced with its corresponding resulting value without change for program's behavior.
-/*/ [[Function][functions]] are called [[Pure][pure]].
+So:
+/*/ [[expression]] can be replaced with its corresponding resulting value without change for program's behavior.
+/*/ [[Function][functions]] are [[Pure][pure]].
 ** Relation :drill:
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
@@ -3194,17 +3300,17 @@ class Semigroup a where
 #+end_src
 
 ** Set :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 22:17]
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:56]
 :END:
 Well-defined collection of distinct objects.
 ** SET category :drill:
@@ -3222,17 +3328,17 @@ SCHT: <2019-06-10 Mon>
 :END:
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       45b1bebf-431f-45dd-8522-ea688968090f
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 20:08]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
 ** Shift operator :drill:
@@ -3642,19 +3748,19 @@ Refer to an unspecified type in Haskell type signature.
 :END:
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
 ** Undefined :drill:
-SCHT: <2019-06-08 Sat>
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-04 Tue 19:54]
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:03]
 :END:
-Value helps to do typechecking
+Placeholder value that helps to do typechecking.
 ** Unit :drill:
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
@@ -3743,6 +3849,9 @@ TypeClass a =>
 #+end_src
 
 ** Thunk :drill:
+:PROPERTIES:
+:ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
+:END:
 Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
 * Give definitions
 ** Kleisli category
