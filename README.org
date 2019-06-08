@@ -438,6 +438,7 @@
       - [[#predicate-logic][Predicate logic]]
       - [[#first-order-predicate-calculus][First-order predicate calculus]]
   - [[#context][Context]]
+  - [[#thunk][Thunk]]
 - [[#give-definitions][Give definitions]]
   - [[#kleisli-category][Kleisli category]]
   - [[#free-object][Free object]]
@@ -464,6 +465,8 @@
   - [[#maybe][Maybe]]
   - [[#homomorphis][Homomorphis]]
   - [[#language-pragma-options][LANGUAGE pragma options]]
+    - [[#funcitonaldependencies][FuncitonalDependencies]]
+    - [[#-42][]]
   - [[#pattern-guard][Pattern guard]]
   - [[#inverse][Inverse]]
   - [[#inversion][Inversion]]
@@ -476,7 +479,7 @@
   - [[#type-rank][Type rank]]
   - [[#ghc-debug-keys][GHC debug keys]]
     - [[#-ddump-ds][-ddump-ds]]
-      - [[#-42][/*/]]
+      - [[#-43][/*/]]
         - [[#ghc-desugar][GHC desugar]]
   - [[#ghc-optimize-keys][GHC optimize keys]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
@@ -485,7 +488,7 @@
   - [[#rhs][RHS]]
   - [[#lhs][LHS]]
   - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
-    - [[#-43][/*/]]
+    - [[#-44][/*/]]
       - [[#gadt][GADT]]
   - [[#order-theory][Order theory]]
     - [[#domain-theory][Domain theory]]
@@ -494,49 +497,49 @@
       - [[#preorder-1][Preorder]]
         - [[#total-preorder][Total preorder]]
       - [[#partial-ordering][Partial ordering]]
-        - [[#-44][/*/]]
+        - [[#-45][/*/]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
   - [[#universal-algebra][Universal algebra]]
   - [[#relation-1][Relation]]
     - [[#reflexivity][Reflexivity]]
-      - [[#-45][/*/]]
+      - [[#-46][/*/]]
         - [[#reflexive][Reflexive]]
         - [[#reflexive-relation][Reflexive relation]]
     - [[#irreflexivity][Irreflexivity]]
-      - [[#-46][/*/]]
+      - [[#-47][/*/]]
         - [[#anti-reflexive][Anti-reflexive]]
         - [[#anti-reflexive-relation][Anti-reflexive relation]]
         - [[#irreflexive][Irreflexive]]
         - [[#irreflexive-relation][Irreflexive relation]]
     - [[#transitivity][Transitivity]]
-      - [[#-47][/*/]]
+      - [[#-48][/*/]]
         - [[#transitive][Transitive]]
         - [[#transitive-relation][Transitive relation]]
     - [[#symmetry][Symmetry]]
-      - [[#-48][/*/]]
+      - [[#-49][/*/]]
         - [[#symmetric][Symmetric]]
         - [[#symmetric-relation][Symmetric relation]]
     - [[#equivalence][Equivalence]]
-      - [[#-49][/*/]]
+      - [[#-50][/*/]]
         - [[#equivalent][Equivalent]]
         - [[#equivalent-relation][Equivalent relation]]
     - [[#antisymmetry][Antisymmetry]]
-      - [[#-50][/*/]]
+      - [[#-51][/*/]]
         - [[#antisymmetric][Antisymmetric]]
         - [[#antisymmetric-relation][Antisymmetric relation]]
     - [[#asymmetry][Asymmetry]]
-      - [[#-51][/*/]]
+      - [[#-52][/*/]]
         - [[#asymmetric][Asymmetric]]
         - [[#asymmetric-relation][Asymmetric relation]]
   - [[#commutativity][Commutativity]]
   - [[#cryptomorphism][Cryptomorphism]]
-    - [[#-52][/*/]]
+    - [[#-53][/*/]]
       - [[#crypromorphic][Crypromorphic]]
   - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
   - [[#type-family][Type family]]
   - [[#abstract-data-type][Abstract data type]]
-    - [[#-53][/*/]]
+    - [[#-54][/*/]]
       - [[#absdt][AbsDT]]
   - [[#adt][ADT]]
 - [[#citations][Citations]]
@@ -2703,11 +2706,11 @@ Pragma in Haskell have form:
 #+begin_src haskell
 {-# PRAGMA options #-}
 #+end_src
-*** LANGUAGE pragma
+*** LANGUAGE pragma :drill:
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
 **** LANGUAGE option
-***** Useful by default
+***** Useful by default :drill:
 #+begin_src haskell
 import EmptyCase
 import FlexibleContexts
@@ -2715,10 +2718,10 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
-***** AllowAmbiguousTypes
+***** AllowAmbiguousTypes :drill:
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
-***** ApplicativeDo
+***** ApplicativeDo :drill:
 Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
 
 For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
@@ -2739,10 +2742,10 @@ Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
 The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
 
 It is possible to see the actual translation by using =[[-ddump-ds]]=.
-***** ConstrainedClassMethods
+***** ConstrainedClassMethods :drill:
 Enable the definition of further constraints on individual class methods.
 
-***** ConstraintKinds
+***** ConstraintKinds :drill:
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
 Kind Constraint are:
@@ -2763,15 +2766,15 @@ Kind Constraint are:
   func = ...
   #+end_src
 
-***** CPP
+***** CPP :drill:
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
-***** DeriveFunctor
+***** DeriveFunctor :drill:
 Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
 Since there is only one possible [[Functor][functor]] for any [[Data type][type]] - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
-***** ExplicitForAll
+***** ExplicitForAll :drill:
 Allow explicit forall quantificator in places where it is implicit by Haskell.
-***** FlexibleContexts
+***** FlexibleContexts :drill:
 Ability to use complex constraints in class declaration contexts.
 The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
 #+begin_src haskell
@@ -2783,23 +2786,23 @@ class C a => D a where ...
 $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
-***** FlexibleInstances
+***** FlexibleInstances :drill:
 Allow type class instances types contain nested types.
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
 Implies [[TypeSynonymInstances]].
-***** GeneralizedNewtypeDeriving
+***** GeneralizedNewtypeDeriving :drill:
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
 #+begin_src haskell
 newtype Dollars = Dollars Int
   deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
 #+end_src
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
-***** ImplicitParams
+***** ImplicitParams :drill:
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
-***** LambdaCase
+***** LambdaCase :drill:
 Enables expressions of the form:
 #+begin_src haskell
 \case { p1 -> e1; ...; pN -> eN }
@@ -2812,14 +2815,14 @@ Enables expressions of the form:
   pN -> eN
 #+end_src
 
-***** MultiParamTypeClasses
+***** MultiParamTypeClasses :drill:
 Implies: [[ConstrainedClassMethods]]
 Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
 class Collection c a where
 #+end_src
 
-***** MultiWayIf
+***** MultiWayIf :drill:
 Enable multi-way-if syntax.
 #+begin_src haskell
 if | guard1 -> expr1
@@ -2827,7 +2830,7 @@ if | guard1 -> expr1
    | guardN -> exprN
 #+end_src
 
-***** OverloadedStrings
+***** OverloadedStrings :drill:
 Enable overloaded string literals (string literals become desugared via the IsString class).
 Now string literal has type:
 #+begin_src haskell
@@ -2838,14 +2841,14 @@ The usual string syntax can be used, e.g., for ByteString, Text, and other varia
 Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
 
 To use class IsString - import it from GHC.Ext
-***** PartialTypeSignatures
+***** PartialTypeSignatures :drill:
 Partial type signature containins wildcards, placeholders (=_=, =_name=).
 Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
 
 As untuped expression, partly typed can not polymorphicly recurse.
 
 [[-Wno-partial-type-signatures]] supresses infer warnings.
-***** RankNTypes
+***** RankNTypes :drill:
 Enable types of arbitrary rank.
 See [[Type rank]].
 
@@ -2860,7 +2863,7 @@ Allows =forall= quantifier:
   * used in pattern type signature of [[Lexically scoped type variables]]
 
 It can synergyze with [[ScopedTypeVariables]].
-***** ScopedTypeVariables
+***** ScopedTypeVariables :drill:
 By default type variables do not have a scope except inside type signatures where they are used.
 
 When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
@@ -2870,14 +2873,14 @@ When there are internall type signatures provided in the code block (=where=, =l
 For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
 
 Implies [[ExplicitForAll]].
-***** TupleSections
+***** TupleSections :drill:
 Allow tuple section syntax:
 #+begin_src haskell
 (, True)
 (, "I", , , "Love", , 1337)
 #+end_src
 
-***** TypeApplications
+***** TypeApplications :drill:
 Allow type application syntax:
 #+begin_src haskell
 read @Int 5
@@ -2895,7 +2898,7 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
 #+end_src
 
-***** TypeFamilies
+***** TypeFamilies :drill:
 Allow use and definition of indexed type and data families.
 
 /*/ are type-level programming.
@@ -2908,13 +2911,13 @@ Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 Two types of /*/ are:
 ****** Data families
 ****** Type synonym families
-***** TypeSynonymInstances
+***** TypeSynonymInstances :drill:
 Now type synonim can have it's own type class instances.
-***** UndecidableInstances
+***** UndecidableInstances :drill:
 Permit instances which may lead to type-checker non-termination.
 
 GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
-***** ViewPatterns
+***** ViewPatterns :drill:
 #+begin_src haskell
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
@@ -2926,7 +2929,7 @@ size (view -> Arrow t1 t2) = size t1 + size t2
 
 /*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
-***** DatatypeContexts
+***** DatatypeContexts :drill:
 Allow [[Context][contexts]] in [[Data type][data types]].
 #+begin_src haskell
 data Eq a => Set a = NilSet | ConsSet a (Set a)
@@ -3739,6 +3742,8 @@ Written before the main type signature and denoted:
 TypeClass a =>
 #+end_src
 
+** Thunk :drill:
+Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
 * Give definitions
 ** Kleisli category
 ** Free object
@@ -3772,6 +3777,8 @@ See [[Function image]]
 ** Maybe
 ** Homomorphis
 ** LANGUAGE pragma options
+*** FuncitonalDependencies
+*** 
 ** Pattern guard
 Allows check a list of pattern matches against functions, and then proceed.
 
