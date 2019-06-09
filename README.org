@@ -1661,17 +1661,16 @@ See: [[Functor]]
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
 ** Gen type :drill:
-SCHT: <2019-06-09 Sun>
 :PROPERTIES:
 :ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:40]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:58]
 :END:
 Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus :drill:
@@ -1976,7 +1975,7 @@ SCHT: <2019-06-09 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:52]
 :END:
-[[Scope]] applies only in an area.
+[[Scope]] applies only in (current) area.
 *** /*/
 **** Local
 See: [[Local scope]]
@@ -2835,16 +2834,17 @@ $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
 ***** FlexibleInstances :drill:
+SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:57]
 :END:
 Allow type class instances types contain nested types.
 #+begin_src haskell
@@ -3133,16 +3133,17 @@ let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 ** \Psi-combinator :drill:
+SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.333
+:DRILL_AVERAGE_QUALITY: 2.75
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:56]
 :END:
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
@@ -3367,17 +3368,17 @@ Also 1-tuple.
 :END:
 Place extra [[Constraint][constraints]] on the construction of values.
 ** Spine :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:44]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:57]
 :END:
 Is a chain of memory cells, each points to the both value of element and to the next memory cell.
 #+begin_src text
