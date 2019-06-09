@@ -661,17 +661,17 @@ tractus draw, haul, drag
 Purified generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
 ** Actual type :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:32]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
 ** Algebra :drill:
@@ -933,17 +933,17 @@ $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 ** Base case :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:03]
 :END:
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
 ** Basis :drill:
@@ -1066,17 +1066,17 @@ $$ \sum_{}_{}^{elem \in (A \times B)}  = cardinality^{A \times B} $$
 [[Cardinality]].
 
 ** Case :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 2.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
 :END:
 #+begin_src haskell
 case x of
@@ -1478,17 +1478,17 @@ From 1&2 -> can include itself.
 :END:
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
 ** Free variable :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:38]
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:01]
 :END:
 Variable in the fuction that is not bound by the head.
 Until there are /* -/ function stays [[Partial application][partially applied]].
@@ -1661,16 +1661,17 @@ See: [[Functor]]
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
 ** Gen type :drill:
+SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 3.995
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:58]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
 Generator. List it returns gets infinitely cycled.
 ** Girard–Reynolds polymorphic lambda calculus :drill:
@@ -1823,17 +1824,17 @@ main = twoBinds
 :}
 #+end_src
 ** Kernel :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       44aee181-f629-4047-abf5-f2ae438f2063
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 15:00]
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:04]
 :END:
 Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
 It is a number of elements that collide and fail injectivity, thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
@@ -1963,17 +1964,17 @@ There are 3 general linear type groups:
 
 Linear types are great to control/minimize resource usage.
 ** Local scope :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:52]
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:59]
 :END:
 [[Scope]] applies only in (current) area.
 *** /*/
@@ -3075,17 +3076,17 @@ Values supplied to the [[Pragma]] directive.
 Notation: $$ P(x) $$
 [[Application]] of [[Argument][argument]] yealds true or false predicate.
 ** Predicative :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 13:22]
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Non-self-referencing definition.
 
@@ -3236,17 +3237,17 @@ Is not directed and not limited.
 :END:
 Interactive CLI. Read-eval-print loop.
 ** Scope :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       a2989c15-2adc-403a-add7-35855e9de65c
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:39]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Area where [[Bind][bind]]s are accessible.
 ** Sectioning :drill:
@@ -3687,17 +3688,17 @@ SCHT: <2019-06-10 Mon>
 :END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
 ** Type class :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:39]
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
 :END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
 ** Type class inheritance :drill:
@@ -3808,17 +3809,17 @@ Zero is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
 There is also distinct [[Identity]] value.
 ** Bound :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:51]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
 *** /*/
