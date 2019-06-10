@@ -439,6 +439,7 @@
       - [[#first-order-predicate-calculus][First-order predicate calculus]]
   - [[#context][Context]]
   - [[#thunk][Thunk]]
+  - [[#group][Group]]
 - [[#give-definitions][Give definitions]]
   - [[#kleisli-category][Kleisli category]]
   - [[#free-object][Free object]]
@@ -3854,6 +3855,12 @@ TypeClass a =>
 :ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
 :END:
 Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
+** Group :drill:
+[[Set]] equipped with a binary operation. Group axioms are satisfied:
+  * closure,
+  * associativity,
+  * identity,
+  * invertibility.
 * Give definitions
 ** Kleisli category
 ** Free object
