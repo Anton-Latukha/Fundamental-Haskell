@@ -2003,8 +2003,7 @@ Modular arithmetic is a system of arithmetic for integers where number wraps aro
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-A [[Monoid]] in [[Endofunctor category]].
-Monads are [[Applicative functor][applicative functors]] with natural transformation.
+/*/ - [[Monoid]] in [[Endofunctor category]] ([[Endofunctor][endofuntor]]) with both natural transformations.
 
 Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
 
