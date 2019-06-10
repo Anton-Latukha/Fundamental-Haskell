@@ -463,7 +463,6 @@
   - [[#function-image][Function image]]
     - [[#image][Image]]
   - [[#maybe][Maybe]]
-  - [[#homomorphis][Homomorphis]]
   - [[#language-pragma-options][LANGUAGE pragma options]]
     - [[#funcitonaldependencies][FuncitonalDependencies]]
     - [[#-42][]]
@@ -3886,7 +3885,6 @@ See [[Weak head normal form]]
 *** Image
 See [[Function image]]
 ** Maybe
-** Homomorphis
 ** LANGUAGE pragma options
 *** FuncitonalDependencies
 *** 
@@ -3906,7 +3904,7 @@ addLookup env var1 var2
    = val1 + val2
 {-...other equations...-}
 #+end_src
-check both  to succeed, bind results to val1, val2, then proceed to the equation.
+check both to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
 ** Inverse
