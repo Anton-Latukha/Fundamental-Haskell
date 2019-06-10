@@ -542,6 +542,7 @@
     - [[#-54][/*/]]
       - [[#absdt][AbsDT]]
   - [[#adt][ADT]]
+- [[#algebraic][Algebraic]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#type-aliasing][Type aliasing]]
@@ -2366,6 +2367,13 @@ trans :: forall a. F a -> G a
 /*/ provides a way of transforming one [[Functor]] into another, while respecting the internal structure (i.e., the [[Composition]] of [[Morphism]]s) of the [[Category][categories]] involved.
 /*/ is a "morphism of functors", especially in functor categories.
 
+Bartosz lecture: https://www.youtube.com/watch?v=2LJC-XD5Ffo
+Category defines structure.
+Functors are preserving structure mappings.
+
+What is there are several ways of modelling one category inside other category (several functor).
+Natural transformation - mapping between two functors. Natural transformation also preserves structure.
+
 ** newtype declaration :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
@@ -4117,6 +4125,7 @@ See [[Abstract data type]]
 ** ADT
 1. [[Abstract data type]]
 2. [[Algebraic data type]]
+* Algebraic
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
