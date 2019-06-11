@@ -462,17 +462,16 @@
   - [[#tensorial-strength][Tensorial strength]]
   - [[#strong-monad][Strong monad]]
   - [[#either][Either]]
-    - [[#-40][/*/]]
+    - [[#-41][/*/]]
       - [[#either-data-type][Either data type]]
   - [[#weak-head-normal-form][Weak head normal form]]
-    - [[#-41][/*/]]
+    - [[#-42][/*/]]
       - [[#whnf][WHNF]]
   - [[#function-image][Function image]]
     - [[#image][Image]]
   - [[#maybe][Maybe]]
   - [[#language-pragma-options][LANGUAGE pragma options]]
     - [[#funcitonaldependencies][FuncitonalDependencies]]
-    - [[#-42][]]
   - [[#pattern-guard][Pattern guard]]
   - [[#inverse][Inverse]]
   - [[#inversion][Inversion]]
@@ -3918,7 +3917,6 @@ See [[Function image]]
 ** Maybe
 ** LANGUAGE pragma options
 *** FuncitonalDependencies
-*** 
 ** Pattern guard
 Allows check a list of pattern matches against functions, and then proceed.
 
