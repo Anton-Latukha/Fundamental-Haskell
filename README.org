@@ -632,17 +632,17 @@
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
 ** Abelian category :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 1.667
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
 :END:
 Is which:
   * has a zero object,
@@ -702,17 +702,17 @@ A system of algebra based on given axioms.
 :END:
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
 ** Ambigram :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:22]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 ambi both
 γράμμα /grámma/ written character
@@ -996,33 +996,33 @@ data BinaryTree a
   deriving (Eq, Ord, Show)
 #+end_src
 ** Bind :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:35]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 ** Bottom value :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:34]
 :END:
 #+begin_src haskell
 -- _ fits *.
@@ -1126,17 +1126,17 @@ Closed-form expression - a mathematical expression that can be evaluated in a fi
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
 ** Closure :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:34]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 
 $$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
@@ -1207,17 +1207,17 @@ Link together sequences.
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
 ** Conjunction :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:01]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:29]
 :END:
 Logical AND
 
@@ -1434,17 +1434,17 @@ Source set of a function in $$ X \to Y $$.
 :END:
 Observable action.
 ** Endofunctor :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
 ** Endofunctor category :drill:
@@ -1770,17 +1770,17 @@ Self-referencing definition.
 
 /Antonym - [[Predicative]]./
 ** Infix :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:59]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:25]
 :END:
 Form of wrinting of operaton application in-between variables.
 ** Inhabit :drill:
@@ -1933,17 +1933,17 @@ There are mainly three levels of Haskell code.
 **** Code level
 See [[Level of code]]
 ** Lexical scope :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:45]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 Scope bound by the structure of source code where the named entity is defined.
 *** /*/
@@ -2440,17 +2440,17 @@ Any Haskell expression can't return nothing.
 :END:
 [[Function]] with [[Arity][arity]].
 ** Operation :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:15]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 [[Function][Function]]. Word used in mathematics. Often a symbol, [[Infix][infix]], binary.
 ** Operator :drill:
@@ -2543,17 +2543,17 @@ See [[\eta-abstraction]]
 ***** eta-conversion
 See [[\eta-abstraction]]
 *** Blackbird :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       76123e3b-3042-4112-beaf-7f281c13e58a
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.333
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
@@ -3103,31 +3103,30 @@ Non-self-referencing definition.
 
 /Antonym - [[Impredicative]]./
 ** Principal type :drill:
-SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 2.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 The most generic [[Data type][data type]] that still typechecks.
 ** Principle of compositionality :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       d8df7582-1e97-4cf9-9d0d-146ede21ad1f
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:02]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:31]
 :END:
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
 ** Phrase :drill:
@@ -3172,17 +3171,17 @@ See: [[\Psi-combinator]]
 :END:
 [[Referential transparency][Referential transparent]] [[Function][function]]
 ** Quantifier :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       ac758691-4dc3-4e6c-9f18-59793263a845
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:02]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 Specifies the quantity of specimens.
 
@@ -3201,17 +3200,17 @@ See [[Forall quantifier]]
 :END:
 Repeated function application allow computing results that may require indefinite amount of work.
 ** Redex :drill:
-SCHT: <2019-06-09 Sun>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       3d5326a4-74a7-433d-860a-2590072bb61d
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 15:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
 :END:
 [[Reduction][Reducible]] [[Expression][expression]]
 ** Reduction :drill:
@@ -3261,17 +3260,17 @@ SCHT: <2019-06-18 Tue>
 :END:
 Area where [[Bind][bind]]s are accessible.
 ** Sectioning :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 17:51]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
 ** Semantics :drill:
@@ -3326,17 +3325,17 @@ SCHT: <2019-06-17 Mon>
 :END:
 Well-defined collection of distinct objects.
 ** SET category :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       c6c7f178-7b69-4154-83ed-34de9b102193
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:30]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
 ** Shadowing :drill:
@@ -3452,17 +3451,17 @@ In most languages typing is name-based, not [[Structural type][structural]].
 :END:
 Broader parent class.
 ** Syntatic sugar :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       244e15a8-9ae5-4842-82b1-279387d088fd
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:20]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:29]
 :END:
 Artificial way to make language easier to read and write.
 ** System F :drill:
@@ -3472,36 +3471,36 @@ Artificial way to make language easier to read and write.
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
 ** Tail call :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:34]
 :END:
-Final result of the function
+Final evaluation producing result of the function.
 ** Tail recursion :drill:
 :PROPERTIES:
 :ID:       62dd2851-710e-4035-9890-6af1c17e6305
 :END:
 Tail calls are recursive invocantions of itself.
 ** Tensor :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       e165b708-fdd2-4062-be87-b65487de4a0e
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:17]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:29]
 :END:
 Object existing out of planes, thus it can translate objects from one plane into another.
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
@@ -3667,34 +3666,34 @@ Tuples by [[Arity][arity]]:
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
 ** Type :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       7b89bfd2-3558-4520-939f-4030302bdda0
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 17:51]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 Type - [[Set][set]] of values.
 For type to have sence the values share some sence, properties.
 
 See [[Data type]]
 ** Type alias :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:31]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
 :END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
 ** Type class :drill:
@@ -3803,17 +3802,17 @@ Except when you hack it with explicit [[Function][funсtions]].
 :END:
 Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
 ** Zero :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:32]
 :END:
 /*/ is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
@@ -3867,6 +3866,9 @@ TypeClass a =>
 :END:
 Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
 ** Group :drill:
+:PROPERTIES:
+:ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
+:END:
 [[Set]] equipped with a binary operation. Group axioms are satisfied:
   * closure,
   * associativity,
@@ -4143,17 +4145,17 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :END:
 Use data type aliases to deferentiate logic of values.
 ** Type wideness :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       f84197b4-6d5d-4f8f-bb4d-3c6a1460a37b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:18]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
 :END:
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
@@ -4206,17 +4208,17 @@ Model the domain and types before thinking about how to write computations.
 :ID:       defb1467-4b50-451b-8fb3-ab12af4409af
 :END:
 ** Arbitrary :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.333
+:DRILL_AVERAGE_QUALITY: 2.75
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
@@ -4340,17 +4342,17 @@ Portability :  portable | non-portable (<reason>)
 :END:
 That is why infinite types throw infinite type error.
 ** Use type sysnonims to differ the information :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.3376
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:36]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow to create a diffrent type class instances and behaviour for different information.
