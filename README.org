@@ -3874,16 +3874,16 @@ trans :: forall a. F a -> G a
 
 /*/ structure-preserving transformation of one [[Functor]] into another.
 /*/ is a "morphism of functors", especially in functor categories.
+/*/ by a certain rule for every object picks [[Natural transformation component][natural transformation component]]: $$ \forall o \in \mathcal{C} : hom^{\mathcal{C \to D}}(F^{\mathcal{C \to D}}(o) \to G^{\mathcal{C \to D}}(o)) $$
 
 Bartosz lecture: https://www.youtube.com/watch?v=2LJC-XD5Ffo
 Category defines structure.
 Functors are preserving structure mappings.
 
-What is there are several ways of modelling one category inside other category (several functor).
+There are several ways (functors) for modelling one category inside other category.
 Natural transformation - mapping between two functors. Natural transformation also preserves structure.
 
-$$ (cat C, D), F^{C \to D} (F(a)=Fa), G^{C \to D} (G(a)=Ga) $$
-
+$$ (\mathit{cat} \ \mathcal{C, D}), (\mathit{functor} F^{\mathcal {C \to D}}, G^{\mathcal{C \to D}}) $$
 * Give definitions
 ** Kleisli category
 ** Free object
