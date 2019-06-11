@@ -3888,6 +3888,8 @@ $$ (\mathit{cat} \ \mathcal{C, D}), (\mathit{functor} F^{\mathcal {C \to D}}, G^
 $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \mathit{cat} \ \mathcal {C, D}; \exists F^{mathcal{C \to D}}, G^{\mathcal{C \to D}}; x \in \mathcal{C} $$
 **** /*/
 ***** Component of natural transformation
+** Commuting diagram
+** Const functor
 * Give definitions
 ** Kleisli category
 ** Free object
