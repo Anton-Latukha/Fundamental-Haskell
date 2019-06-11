@@ -3873,6 +3873,9 @@ Functors are preserving structure mappings.
 
 What is there are several ways of modelling one category inside other category (several functor).
 Natural transformation - mapping between two functors. Natural transformation also preserves structure.
+
+$$ (cat C, D), F^{C \to D} (F(a)=Fa), G^{C \to D} (G(a)=Ga) $$
+
 * Give definitions
 ** Kleisli category
 ** Free object
