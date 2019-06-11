@@ -1711,10 +1711,14 @@ Also known as Damas–Milner or Damas–Hindley–Milner system.
 :PROPERTIES:
 :ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
 :END:
-Collection of all [[Morphism][morphisms]] from X to Y.
+Collection of all morphisms (and compositions of morphisms) from object to object. Collection of morphisms is not nesessary a set, but in practice - is.
 
 Denotation:
 $$ hom(X,Y) $$
+
+$$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
+Denotation was not standartized.
+
 *** Hom-functor
 For C (locally small category), its hom-functor is the functor $$ hom:C^{op} \times C \to Set $$,
 from the product category of the category C wit its opposite category to the category Set of sets.
