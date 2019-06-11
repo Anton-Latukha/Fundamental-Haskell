@@ -352,6 +352,7 @@
   - [[#predicative][Predicative]]
   - [[#principal-type][Principal type]]
   - [[#principle-of-compositionality][Principle of compositionality]]
+  - [[#phrase][Phrase]]
   - [[#proxy-type][Proxy type]]
   - [[#psi-combinator][\Psi-combinator]]
     - [[#-35][/*/]]
@@ -3129,7 +3130,8 @@ SCHT: <2019-06-10 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:02]
 :END:
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
-Phrases are [[Composition][composable]] expressions.
+** Phrase :drill:
+/*/ - [[Composition][composable]] expression.
 ** Proxy type :drill:
 :PROPERTIES:
 :ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
