@@ -3813,9 +3813,10 @@ SCHT: <2019-06-10 Mon>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-06 Thu 18:28]
 :END:
-Zero is the value with which operation always yelds Zero value.
+/*/ is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
-There is also distinct [[Identity]] value.
+
+/*/ is distinct from [[Identity]] value.
 ** Bound :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
