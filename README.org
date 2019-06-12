@@ -51,9 +51,6 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#anamorphism][<<<Anamorphism>>>]]
   - [[#application][<<<Application>>>]]
   - [[#application-memory][<<<Application memory>>>]]
-    - [[#][/*/]]
-      - [[#heap][<<<Heap>>>]]
-      - [[#stack][<<<Stack>>>]]
   - [[#applicative][<<<Applicative>>>]]
     - [[#applicative-laws][<<<Applicative laws>>>]]
       - [[#applicative-identity-law][<<<Applicative identity law>>>]]
@@ -91,15 +88,12 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#bind][<<<Bind>>>]]
   - [[#bottom-value][<<<Bottom value>>>]]
   - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
-    - [[#-1][/*/]]
-      - [[#coc][<<<CoC>>>]]
+    - [[#][/*/]]
   - [[#cardinality][<<<Cardinality>>>]]
   - [[#cartesian-product][<<<Cartesian product>>>]]
   - [[#case][<<<Case>>>]]
   - [[#category][<<<Category>>>]]
-    - [[#-2][/*/]]
-      - [[#object][<<<Object>>>]]
-      - [[#category-theory][<<<Category theory>>>]]
+    - [[#-1][/*/]]
   - [[#closed-form-expression][<<<Closed-form expression>>>]]
   - [[#closed-set][<<<Closed set>>>]]
   - [[#closure][<<<Closure>>>]]
@@ -108,8 +102,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#codomain][<<<Codomain>>>]]
   - [[#combinator][<<<Combinator>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
-    - [[#-3][/*/]]
-      - [[#commutative][<<<Commutative>>>]]
+    - [[#-2][/*/]]
   - [[#composition][<<<Composition>>>]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
@@ -118,19 +111,15 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#constant][<<<Constant>>>]]
   - [[#constraint][<<<Constraint>>>]]
   - [[#construct][<<<Construct>>>]]
-    - [[#-4][/*/]]
-      - [[#cons][<<<Cons>>>]]
+    - [[#-3][/*/]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#contravariant][<<<Contravariant>>>]]
-    - [[#-5][/*/]]
-      - [[#contravariant-cofunctor][<<<Contravariant cofunctor>>>]]
-      - [[#contravariant-functor][<<<Contravariant functor>>>]]
+    - [[#-4][/*/]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
-    - [[#-6][/*/]]
-      - [[#curryhoward-isomorphism][<<<Curry–Howard isomorphism>>>]]
+    - [[#-5][/*/]]
   - [[#currying][<<<Currying>>>]]
   - [[#data-constant][<<<Data constant>>>]]
   - [[#data-constructor][<<<Data constructor>>>]]
@@ -138,8 +127,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#data-declaration-1][<<<data declaration>>>]]
   - [[#data-type][<<<Data type>>>]]
     - [[#algebraic-data-type][Algebraic data type]]
-      - [[#-7][/*/]]
-        - [[#algdt][<<<AlgDT>>>]]
+      - [[#-6][/*/]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#sum-data-type][<<<Sum data type>>>]]
@@ -164,46 +152,34 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#function-head][<<<Function head>>>]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-8][/*/]]
-        - [[#composition-1][<<<Composition>>>]]
-        - [[#compose][<<<Compose>>>]]
+      - [[#-7][/*/]]
     - [[#function-application][<<<Function application>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-9][/*/]]
-        - [[#injective][<<<Injective>>>]]
-        - [[#injective-function][<<<Injective function>>>]]
+      - [[#-8][/*/]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-10][/*/]]
-        - [[#surjective][<<<Surjective>>>]]
-        - [[#surjective-function][<<<Surjective function>>>]]
+      - [[#-9][/*/]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-11][/*/]]
-        - [[#bijective][<<<Bijective>>>]]
-        - [[#bijective-function][<<<Bijective function>>>]]
+      - [[#-10][/*/]]
   - [[#functor][<<<Functor>>>]]
     - [[#functor-laws][<<<Functor laws>>>]]
       - [[#functor-identity-law][<<<Functor identity law>>>]]
-      - [[#functor-composition-law][Functor composition law]]
+      - [[#functor-composition-law][<<<Functor composition law>>>]]
     - [[#lift][<<<Lift>>>]]
     - [[#forgetful-functor][<<<Forgetful functor>>>]]
-    - [[#-12][/*/]]
-      - [[#powerset-functor][<<<Powerset functor>>>]]
-      - [[#fmap][<<<fmap>>>]]
+    - [[#-11][/*/]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#gen-type][<<<Gen type>>>]]
   - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#higher-order-function][<<<Higher-order function>>>]]
-    - [[#-13][/*/]]
-      - [[#hof][<<<HOF>>>]]
+    - [[#-12][/*/]]
   - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
   - [[#hom-set][<<<Hom-set>>>]]
     - [[#hom-functor][<<<Hom-functor>>>]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-14][/*/]]
-      - [[#idiomatic][<<<Idiomatic>>>]]
+    - [[#-13][/*/]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -216,8 +192,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-15][/*/]]
-      - [[#lambda-term][<<<Lambda term>>>]]
+    - [[#-14][/*/]]
   - [[#lambda-cube][<<<Lambda cube>>>]]
   - [[#lambda-function][<<<Lambda function>>>]]
     - [[#lambda-expression][<<<Lambda expression>>>]]
@@ -230,16 +205,13 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#compile-level][<<<Compile level>>>]]
       - [[#compilation-level][<<<Compilation level>>>]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-16][/*/]]
-      - [[#code-level][<<<Code level>>>]]
+    - [[#-15][/*/]]
   - [[#lexical-scope][<<<Lexical scope>>>]]
-    - [[#-17][/*/]]
-      - [[#static-scope][<<<Static scope>>>]]
+    - [[#-16][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#linear-type][<<<Linear type>>>]]
   - [[#local-scope][<<<Local scope>>>]]
-    - [[#-18][/*/]]
-      - [[#local][<<<Local>>>]]
+    - [[#-17][/*/]]
   - [[#magma][<<<Magma>>>]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
@@ -249,7 +221,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#monad-functions][<<<Monad functions>>>]]
       - [[#return][Return]]
       - [[#bind-1][Bind]]
-        - [[#-19][(>>=)]]
+        - [[#-18][(>>=)]]
       - [[#join][Join]]
         - [[#joinfmap--][join.fmap == (=<<)]]
       - [[#sequencing-operator---][Sequencing operator (>>) == (*>):]]
@@ -271,13 +243,11 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
       - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
       - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
     - [[#commutative-monoid][<<<Commutative monoid>>>]]
-      - [[#-20][/*/]]
-        - [[#abelian-monoid][<<<Abelian monoid>>>]]
+      - [[#-19][/*/]]
   - [[#monoidal-functor][<<<Monoidal functor>>>]]
   - [[#morphism][<<<Morphism>>>]]
     - [[#homomorphism][<<<Homomorphism>>>]]
-      - [[#-21][/*/]]
-        - [[#homomorphic][<<<Homomorphic>>>]]
+      - [[#-20][/*/]]
     - [[#identity-morphism][Identity morphism]]
       - [[#identity][<<<Identity>>>]]
         - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
@@ -285,23 +255,17 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
         - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
       - [[#identity-function][<<<Identity function>>>]]
     - [[#monomorphism][<<<Monomorphism>>>]]
-      - [[#-22][/*/]]
-        - [[#monomorphic][<<<Monomorphic>>>]]
+      - [[#-21][/*/]]
     - [[#epimorphism][<<<Epimorphism>>>]]
-      - [[#-23][/*/]]
-        - [[#epimorphic][<<<Epimorphic>>>]]
+      - [[#-22][/*/]]
     - [[#isomorphism][<<<Isomorphism>>>]]
-      - [[#-24][/*/]]
-        - [[#isomorphic][<<<Isomorphic>>>]]
+      - [[#-23][/*/]]
     - [[#endomorphism][<<<Endomorphism>>>]]
       - [[#automorphism][<<<Automorphism>>>]]
-        - [[#-25][/*/]]
-          - [[#automorphic][<<<Automorphic>>>]]
-      - [[#-26][/*/]]
-        - [[#endomorphic][<<<Endomorphic>>>]]
+        - [[#-24][/*/]]
+      - [[#-25][/*/]]
     - [[#catamorphism][<<<Catamorphism>>>]]
-      - [[#-27][/*/]]
-        - [[#catamorphic][<<<Catamorphic>>>]]
+      - [[#-26][/*/]]
   - [[#newtype-declaration][<<<newtype declaration>>>]]
   - [[#node][<<<Node>>>]]
   - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
@@ -317,46 +281,31 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#permutation][<<<Permutation>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][\eta-abstraction]]
-      - [[#-28][/*/]]
-        - [[#eta-reduction][<<<\eta-reduction>>>]]
-        - [[#eta-conversion][<<<\eta-conversion>>>]]
-        - [[#eta-abstraction-1][<<<eta-abstraction>>>]]
-        - [[#eta-reduction-1][<<<eta-reduction>>>]]
-        - [[#eta-conversion-1][<<<eta-conversion>>>]]
+      - [[#-27][/*/]]
     - [[#blackbird][Blackbird]]
-      - [[#-29][/*/]]
-        - [[#-][<<<.) .>>>]]
-        - [[#sectioning][Sectioning]]
-        - [[#-30][<<<(.).(.)>>>]]
+      - [[#-28][/*/]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
-    - [[#-31][/*/]]
-      - [[#pointfree][<<<Pointfree>>>]]
-      - [[#tacit][<<<Tacit>>>]]
-      - [[#tacit-programming][<<<Tacit programming>>>]]
+    - [[#-29][/*/]]
   - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
-      - [[#rank-1-polymorphism][Rank-1 polymorphism]]
+      - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
+        - [[#-30][/*/]]
+      - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
+      - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
+        - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
+      - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
+        - [[#-31][/*/]]
+      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
         - [[#-32][/*/]]
-          - [[#prenex][Prenex]]
-          - [[#prenex-polymorpism][Prenex polymorpism]]
-      - [[#let-bound-polymorphism][Let-bound polymorphism]]
-      - [[#constrained-polymorphism][Constrained polymorphism]]
-        - [[#ad-hoc-polymorphism][Ad hoc polymorphism]]
-      - [[#impredicative-polymorphism][Impredicative polymorphism]]
-        - [[#-33][/*/]]
-          - [[#first-class-polymorphism][First-class polymorphism]]
-      - [[#higher-rank-polymorphism][Higher-rank polymorphism]]
-        - [[#-34][/*/]]
-          - [[#rank-n-polymorphism][Rank-n polymorphism]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
     - [[#linearity-polymorphism][<<<Linearity polymorphism>>>]]
   - [[#pragma][<<<Pragma>>>]]
-    - [[#language-pragma][LANGUAGE pragma]]
-      - [[#language-option][LANGUAGE option]]
+    - [[#language-pragma][<<<LANGUAGE pragma>>>]]
+      - [[#language-option][<<<LANGUAGE option>>>]]
         - [[#useful-by-default][Useful by default]]
         - [[#allowambiguoustypes][AllowAmbiguousTypes]]
         - [[#applicativedo][ApplicativeDo]]
@@ -394,14 +343,11 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#phrase][<<<Phrase>>>]]
   - [[#proxy-type][<<<Proxy type>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-35][/*/]]
-      - [[#psi-combinator-1][<<<Psi-combinator>>>]]
-      - [[#on-combinator][<<<On-combinator>>>]]
+    - [[#-33][/*/]]
   - [[#purity][<<<Purity>>>]]
   - [[#quantifier][<<<Quantifier>>>]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-36][/*/]]
-        - [[#forall][<<<Forall>>>]]
+      - [[#-34][/*/]]
   - [[#recursion][<<<Recursion>>>]]
   - [[#redex][<<<Redex>>>]]
   - [[#reduction][<<<Reduction>>>]]
@@ -409,7 +355,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
-  - [[#sectioning-1][<<<Sectioning>>>]]
+  - [[#sectioning][<<<Sectioning>>>]]
   - [[#semantics][<<<Semantics>>>]]
     - [[#operational-semantics][<<<Operational semantics>>>]]
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
@@ -419,8 +365,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#set-category][<<<SET category>>>]]
   - [[#shadowing][<<<Shadowing>>>]]
   - [[#shift-operator][<<<Shift operator>>>]]
-    - [[#-37][/*/]]
-      - [[#shift][Shift]]
+    - [[#-35][/*/]]
   - [[#shrinking][<<<Shrinking>>>]]
   - [[#singleton][<<<Singleton>>>]]
   - [[#smart-constructor][<<<Smart constructor>>>]]
@@ -470,20 +415,16 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#variadic][<<<Variadic>>>]]
   - [[#zero][<<<Zero>>>]]
   - [[#bound][<<<Bound>>>]]
-    - [[#-38][/*/]]
-      - [[#bounded][<<<Bounded>>>]]
+    - [[#-36][/*/]]
   - [[#typed-hole][<<<Typed hole>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-39][/*/]]
-      - [[#predicate-logic][<<<Predicate logic>>>]]
-      - [[#first-order-predicate-calculus][<<<First-order predicate calculus>>>]]
+    - [[#-37][/*/]]
   - [[#context][<<<Context>>>]]
   - [[#thunk][<<<Thunk>>>]]
   - [[#group][<<<Group>>>]]
   - [[#natural-transformation][<<<Natural transformation>>>]]
-    - [[#natural-transformation-component][Natural transformation component]]
-      - [[#-40][/*/]]
-        - [[#component-of-natural-transformation][Component of natural transformation]]
+    - [[#natural-transformation-component][<<<Natural transformation component>>>]]
+      - [[#-38][/*/]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
 - [[#give-definitions][Give definitions]]
@@ -502,11 +443,9 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-41][/*/]]
-      - [[#either-data-type][<<<Either data type>>>]]
+    - [[#-39][/*/]]
   - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
-    - [[#-42][/*/]]
-      - [[#whnf][<<<WHNF>>>]]
+    - [[#-40][/*/]]
   - [[#function-image][<<<Function image>>>]]
     - [[#image][<<<Image>>>]]
   - [[#maybe][<<<Maybe>>>]]
@@ -524,9 +463,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#type-rank][<<<Type rank>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-43][/*/]]
-        - [[#desugar][<<<Desugar>>>]]
-        - [[#ghc-desugar][<<<GHC desugar>>>]]
+      - [[#-41][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
@@ -534,8 +471,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#rhs][<<<RHS>>>]]
   - [[#lhs][<<<LHS>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-44][/*/]]
-      - [[#gadt][<<<GADT>>>]]
+    - [[#-42][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -543,50 +479,30 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
       - [[#preorder-1][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-45][/*/]]
-          - [[#partially-ordered-set][<<<Partially ordered set>>>]]
-          - [[#poset][<<<Poset>>>]]
+        - [[#-43][/*/]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-46][/*/]]
-        - [[#reflexive][<<<Reflexive>>>]]
-        - [[#reflexive-relation][<<<Reflexive relation>>>]]
+      - [[#-44][/*/]]
     - [[#irreflexivity][<<<Irreflexivity>>>]]
-      - [[#-47][/*/]]
-        - [[#anti-reflexive][<<<Anti-reflexive>>>]]
-        - [[#anti-reflexive-relation][<<<Anti-reflexive relation>>>]]
-        - [[#irreflexive][<<<Irreflexive>>>]]
-        - [[#irreflexive-relation][<<<Irreflexive relation>>>]]
+      - [[#-45][/*/]]
     - [[#transitivity][<<<Transitivity>>>]]
-      - [[#-48][/*/]]
-        - [[#transitive][<<<Transitive>>>]]
-        - [[#transitive-relation][<<<Transitive relation>>>]]
+      - [[#-46][/*/]]
     - [[#symmetry][<<<Symmetry>>>]]
-      - [[#-49][/*/]]
-        - [[#symmetric][<<<Symmetric>>>]]
-        - [[#symmetric-relation][<<<Symmetric relation>>>]]
+      - [[#-47][/*/]]
     - [[#equivalence][<<<Equivalence>>>]]
-      - [[#-50][/*/]]
-        - [[#equivalent][<<<Equivalent>>>]]
-        - [[#equivalent-relation][<<<Equivalent relation>>>]]
+      - [[#-48][/*/]]
     - [[#antisymmetry][<<<Antisymmetry>>>]]
-      - [[#-51][/*/]]
-        - [[#antisymmetric][<<<Antisymmetric>>>]]
-        - [[#antisymmetric-relation][<<<Antisymmetric relation>>>]]
+      - [[#-49][/*/]]
     - [[#asymmetry][<<<Asymmetry>>>]]
-      - [[#-52][/*/]]
-        - [[#asymmetric][<<<Asymmetric>>>]]
-        - [[#asymmetric-relation][<<<Asymmetric relation>>>]]
+      - [[#-50][/*/]]
   - [[#commutativity][<<<Commutativity>>>]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-53][/*/]]
-      - [[#crypromorphic][<<<Crypromorphic>>>]]
+    - [[#-51][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-54][/*/]]
-      - [[#absdt][<<<AbsDT>>>]]
+    - [[#-52][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#algebraic][<<<Algebraic>>>]]
 - [[#citations][Citations]]
@@ -704,7 +620,6 @@ The class of Abelian categories is closed under several categorical construction
 abs away from, off (in absentia)
 tractus draw, haul, drag
 
-
 Purified generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
 ** <<<Actual type>>> :drill:
@@ -795,18 +710,13 @@ For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 :END:
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
-| All not currently processing data | Heap          |
-| Function call, local variables    | Stack         |
+| All not currently processing data | <<<Heap>>>   |
+| Function call, local variables    | <<<Stack>>>  |
 | Static and global variables       | Static/Global |
 | Instructions                      | Binary code   |
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
-*** /*/
-**** <<<Heap>>>
-See [[Application memory]].
-**** <<<Stack>>>
-See [[Application memory]].
 ** <<<Applicative>>> :drill:
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
@@ -1082,8 +992,7 @@ Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitio
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
 *** /*/
-**** <<<CoC>>>
-See [[Calculus of constructions]].
+<<<<<<CoC>>>>>>
 ** <<<Cardinality>>> :drill:
 SCHT: <2019-06-10 Mon>
 :PROPERTIES:
@@ -1155,10 +1064,8 @@ Category (/C/) consists of the [[Basis]]:
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** /*/
-**** <<<Object>>>
-See [[Category]]
-**** <<<Category theory>>>
-See [[Category]]
+<<<Object>>>
+<<<Category theory>>>
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
@@ -1235,8 +1142,7 @@ Informal broad meaning: referring to the style of organizing libraries centered 
 :END:
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
-**** <<<Commutative>>>
-See Commutative law
+<<<Commutative>>>
 ** <<<Composition>>> :drill:
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
@@ -1295,8 +1201,7 @@ See: [[Ad hoc polymorphism]]
 (:) :: a -> [a] -> [a]
 #+end_src
 *** /*/
-**** <<<Cons>>>
-Short for [[Construct]].
+<<<Cons>>>
 ** <<<Constructor>>> :drill:
 :PROPERTIES:
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
@@ -1318,10 +1223,8 @@ $$ V^{i} = x $$
 The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
 
 *** /*/
-**** <<<Contravariant cofunctor>>>
-See [[Contravariant]].
-**** <<<Contravariant functor>>>
-More inline term is [[Contravariant cofunctor]]
+<<<Contravariant cofunctor>>>
+<<<Contravariant functor>>> - More inline term is [[Contravariant cofunctor]]
 ** <<<Covariant>>> :drill:
 :PROPERTIES:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
@@ -1347,8 +1250,7 @@ More inline term is [[Covariant cofunctor]]
 :END:
 Computer programs are mathematical proofs.
 *** /*/
-**** <<<Curry–Howard isomorphism>>>
-See [[Curry–Howard correspondence]].
+<<<Curry–Howard isomorphism>>>
 ** <<<Currying>>> :drill:
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
@@ -1392,8 +1294,7 @@ Data type, type.
 *** Algebraic data type
 Composite type formed by combining other types.
 **** /*/
-***** <<<AlgDT>>>
-See [[Algebraic data type]]
+<<<AlgDT>>>
 *** <<<Higher-kinded data type>>>
 Any combination of * and ->
 
@@ -1584,11 +1485,8 @@ In Haskell inline composition requires:
 h.g.f $ i
 #+end_src
 **** /*/
-***** <<<Composition>>>
-***** <<<Compose>>> :drill:
-:PROPERTIES:
-:ID:       df869dc5-71e1-4457-a449-039c095a6cf2
-:END:
+<<<Composition>>>
+<<<Compose>>>
 *** <<<Function application>>>
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 *** <<<Function range>>>
@@ -1611,10 +1509,8 @@ $f : X \rightarrowtail Y$
 
 Corresponds to [[Monomorphism]].
 **** /*/
-***** <<<Injective>>>
-See [[Injection]].
-***** <<<Injective function>>>
-See [[Injection]].
+<<<Injective>>>
+<<<Injective function>>>
 *** <<<Surjection>>>
 [[Function]] uses codomain fully.
 
@@ -1630,10 +1526,8 @@ $$ f : X \twoheadrightarrow Y $$
 
 Corresponds to [[Epimorphism]].
 **** /*/
-***** <<<Surjective>>>
-See [[Surjection]].
-***** <<<Surjective function>>>
-See [[Surjection]].
+<<<Surjective>>>
+<<<Surjective function>>>
 *** <<<Bijection>>>
 [[Function]] complete one-to-one pairing of elements of domain and codomain (image).
 It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
@@ -1651,10 +1545,8 @@ f : X ⤖ Y
 LaTeX needed to combine symbols:
 $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
 **** /*/
-***** <<<Bijective>>>
-See [[Bijection]].
-***** <<<Bijective function>>>
-See [[Bijection]].
+<<<Bijective>>>
+<<<Bijective function>>>
 ** <<<Functor>>> :drill:
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
@@ -1687,7 +1579,7 @@ Type instance of functor should abide this laws:
 #+begin_src haskell
 fmap id == id
 #+end_src
-**** Functor composition law
+**** <<<Functor composition law>>>
 #+begin_src haskell
 fmap (f.g) == fmap f . fmap g
 #+end_src
@@ -1697,10 +1589,8 @@ Lift is to do a [[Function application][function application]] through the data 
 *** <<<Forgetful functor>>>
 [[Functor]] that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
 *** /*/
-**** <<<Powerset functor>>>
-See: [[Functor]]
-**** <<<fmap>>>
-See: [[Functor]]
+<<<Powerset functor>>>
+<<<fmap>>>
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
@@ -1743,8 +1633,7 @@ See [[System F]].
 Has function as a [[Parameter][parameter]].
 Evaluates to function.
 *** /*/
-**** <<<HOF>>>
-See: [[Higher-order function]]
+<<<HOF>>>
 ** <<<Hindley–Milner type system>>> :drill:
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
@@ -1800,8 +1689,7 @@ Meaning can be special for language speakers or human with particular knowledge.
 
 For different meaning - it is [[Applicative functor]].
 *** /*/
-**** <<<Idiomatic>>>
-See [[Idiom]].
+<<<Idiomatic>>>
 ** <<<Iff>>> :drill:
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
@@ -1921,8 +1809,7 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
    * [[Function application][application]] ($$ (ts) $$)
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
 *** /*/
-**** <<<Lambda term>>>
-See [[Lambda calculus]]
+<<<Lambda term>>>
 ** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
@@ -1979,8 +1866,7 @@ There are mainly three levels of Haskell code.
 *** <<<Runtime level>>>
 [[Level of code]] when binary code executes in machine.
 *** /*/
-**** <<<Code level>>>
-See [[Level of code]]
+<<<Code level>>>
 ** <<<Lexical scope>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -1996,8 +1882,7 @@ SCHT: <2019-06-21 Fri>
 :END:
 Scope bound by the structure of source code where the named entity is defined.
 *** /*/
-**** <<<Static scope>>>
-See [[Lexical scope]]
+<<<Static scope>>>
 ** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
 :ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
@@ -2029,8 +1914,7 @@ SCHT: <2019-06-20 Thu>
 :END:
 [[Scope]] applies only in (current) area.
 *** /*/
-**** <<<Local>>>
-See: [[Local scope]]
+<<<Local>>>
 ** <<<Magma>>> :drill:
 :PROPERTIES:
 :ID:       c40ac83b-c730-4de5-915d-04d76c88398c
@@ -2260,8 +2144,7 @@ Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 **** /*/
-***** <<<Abelian monoid>>>
-See [[Commutative monoid]]
+<<<Abelian monoid>>>
 ** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
@@ -2301,8 +2184,7 @@ Homomorphisms send [[Identity morphism][identities]] to identities and inverses 
   * module
   * algebra
 **** /*/
-***** <<<Homomorphic>>>
-See [[Homomorphism]]
+<<<Homomorphic>>>
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
@@ -2344,8 +2226,7 @@ $$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ -
 $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
 Thus it is left canselable.
 **** /*/
-***** <<<Monomorphic>>>
-See [[Monomorphism]].
+<<<Monomorphic>>>
 *** <<<Epimorphism>>>
 επι /epi/ on, over
 μορφή /morphe/ form
@@ -2359,8 +2240,7 @@ Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
 **** /*/
-***** <<<Epimorphic>>>
-See [[Epimorphism]].
+<<<Epimorphic>>>
 *** <<<Isomorphism>>>
 ἴσος /isos/ equal
 μορφή /morphe/ form
@@ -2374,8 +2254,7 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 **** /*/
-***** <<<Isomorphic>>>
-See [[Isomorphism]].
+<<<Isomorphic>>>
 *** <<<Endomorphism>>>
 ενδο /endo/ internal
 μορφή /morphe/ form
@@ -2390,11 +2269,9 @@ Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 
 Corresponds to [[Identity]] and [[Reflexivity]].
 ***** /*/
-****** <<<Automorphic>>>
-See [[Automorphism]]
+<<<Automorphic>>>
 **** /*/
-***** <<<Endomorphic>>>
-See [[Endomorphism]]
+<<<Endomorphic>>>
 *** <<<Catamorphism>>>
 κατά /kata/ downward
 μορφή /morphe/ form
@@ -2403,8 +2280,7 @@ Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into s
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 **** /*/
-***** <<<Catamorphic>>>
-See [[Catamorphism]]
+<<<Catamorphic>>>
 ** <<<newtype declaration>>> :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
@@ -2562,16 +2438,11 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 :END:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 **** /*/
-***** <<<\eta-reduction>>>
-See [[\eta-abstraction]]
-***** <<<\eta-conversion>>>
-See [[\eta-abstraction]]
-***** <<<eta-abstraction>>>
-See [[\eta-abstraction]]
-***** <<<eta-reduction>>>
-See [[\eta-abstraction]]
-***** <<<eta-conversion>>>
-See [[\eta-abstraction]]
+<<<\eta-reduction>>>
+<<<\eta-conversion>>>
+<<<eta-abstraction>>>
+<<<eta-reduction>>>
+<<<eta-conversion>>>
 *** Blackbird :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -2594,12 +2465,8 @@ SCHT: <2019-06-20 Thu>
 \f g x y -> f (g x y)
 #+end_src
 **** /*/
-***** <<<.) .>>>
-See [[Blackbird]]
-***** Sectioning
-See [[Blackbird]]
-***** <<<(.).(.)>>>
-See [[Blackbird]]
+<<<.) .>>>
+<<<(.).(.)>>>
 *** Swing :drill:
 :PROPERTIES:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
@@ -2620,12 +2487,9 @@ f >>= a . b . c =<< g
 #+end_src
 
 *** /*/
-**** <<<Pointfree>>>
-See [[Point-free]]
-**** <<<Tacit>>>
-See [[Point-free]]
-**** <<<Tacit programming>>>
-See [[Point-free]]
+<<<Pointfree>>>
+<<<Tacit>>>
+<<<Tacit programming>>>
 ** <<<Polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       83a22f3c-9140-490c-9390-85319566a443
@@ -2646,14 +2510,12 @@ Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][
 /In most languages named as 'Generics' (generic programming)./
 
 Types:
-**** Rank-1 polymorphism
+**** <<<Rank-1 polymorphism>>>
 [[Parametric polymorphism]] in [[Type rank][rank-1 types]] by type variables.
 ***** /*/
-****** Prenex
-See [[Rank-1 polymorphism]]
-****** Prenex polymorpism
-See [[Rank-1 polymorphism]]
-**** Let-bound polymorphism
+<<<Prenex>>>
+<<<Prenex polymorpism>>>
+**** <<<Let-bound polymorphism>>>
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
 It means that to have strict [[Type inference][type inference]] - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
@@ -2665,15 +2527,15 @@ foo = (\f -> (f 1, f 'a')) id
 Is illegal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
-**** Constrained polymorphism
+**** <<<Constrained polymorphism>>>
 Constrained [[Parametric polymorphism]].
-***** Ad hoc polymorphism
+***** <<<Ad hoc polymorphism>>>
 Artificial [[Constrained polymorphism][constrained polymorphism]] dependent on incoming [[Data type][data type]].
 Achieved by creating a [[Type class][type class]] [[Function][functions]].
 It is interface dispatch mechanism by data types.
 
 /Commonly known as overloading./
-**** Impredicative polymorphism
+**** <<<Impredicative polymorphism>>>
 The most powerful form of [[Parametric polymorphism]].
 First see [[Impredicative]].
 
@@ -2681,9 +2543,8 @@ Impredicative polymorphism allows type τ entities with polymorphic types, that 
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
 ***** /*/
-****** First-class polymorphism
-More default term: [[Impredicative polymorphism]].
-**** Higher-rank polymorphism
+<<<First-class polymorphism>>>
+**** <<<Higher-rank polymorphism>>>
 Means that polymorphic types can apper within other types (types of function).
 There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
 #+begin_src haskell
@@ -2704,8 +2565,7 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 
 Useful example aslo a [[ST-Trick monad]].
 ***** /*/
-****** Rank-n polymorphism
-See: [[Higher-rank polymorphism]]
+<<<Rank-n polymorphism>>>
 *** <<<Subtype polymorphism>>>
 Allows to declare usage of a Type and all of its Subtypes.
 T - Type
@@ -2764,13 +2624,13 @@ Pragma in Haskell have form:
 #+begin_src haskell
 {-# PRAGMA options #-}
 #+end_src
-*** LANGUAGE pragma :drill:
+*** <<<LANGUAGE pragma>>> :drill:
 :PROPERTIES:
 :ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
 :END:
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
-**** LANGUAGE option
+**** <<<LANGUAGE option>>>
 ***** Useful by default :drill:
 :PROPERTIES:
 :ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
@@ -2824,7 +2684,6 @@ Enable the definition of further constraints on individual class methods.
 :END:
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
-Kind Constraint are:
   * Anything which is already allowed in code as a constraint without /*/. Saturated applications to type classes, implicit parameter and equality constraints.
   * [[Tuple]]s, all of whose component types have kind Constraint.
   #+begin_src haskell
@@ -3192,10 +3051,8 @@ import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
 *** /*/
-**** <<<Psi-combinator>>>
-See: [[\Psi-combinator]]
-**** <<<On-combinator>>>
-See: [[\Psi-combinator]]
+<<<Psi-combinator>>>
+<<<On-combinator>>>
 ** <<<Purity>>> :drill:
 :PROPERTIES:
 :ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
@@ -3223,8 +3080,7 @@ Permits to not [[Type inference][infer]] the type, but to use any that fits. The
 [[RankNTypes]]
 [[ExistentialQuantification]]
 **** /*/
-***** <<<Forall>>>
-See [[Forall quantifier]]
+<<<Forall>>>
 ** <<<Recursion>>> :drill:
 :PROPERTIES:
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
@@ -3390,8 +3246,7 @@ Global [[Scope][scope]] variable overriden by variable in [[Local scope][local s
 Shift operator defined by Lagrange through Differential operator.
 $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
 *** /*/
-**** Shift
-See [[Shift operator]]
+Shift
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
@@ -3864,8 +3719,7 @@ SCHT: <2019-06-18 Tue>
 :END:
 Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
 *** /*/
-**** <<<Bounded>>>
-See [[Bound]]
+<<<Bounded>>>
 ** <<<Typed hole>>> :drill:
 :PROPERTIES:
 :ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
@@ -3877,10 +3731,8 @@ In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would
 :END:
 Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables
 *** /*/
-**** <<<Predicate logic>>>
-See [[First-order logic]]
-**** <<<First-order predicate calculus>>>
-See [[First-order logic]]
+<<<Predicate logic>>>
+<<<First-order predicate calculus>>>
 ** <<<Context>>> :drill:
 :PROPERTIES:
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
@@ -3926,10 +3778,10 @@ There are several ways (functors) for modelling one category inside other catego
 Natural transformation - mapping between two functors. Natural transformation also preserves structure.
 
 $$ (\mathit{cat} \ \mathcal{C, D}), (\mathit{functor} F^{\mathcal {C \to D}}, G^{\mathcal{C \to D}}) $$
-*** Natural transformation component
+*** <<<Natural transformation component>>>
 $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \mathit{cat} \ \mathcal {C, D}; \exists F^{mathcal{C \to D}}, G^{\mathcal{C \to D}}; x \in \mathcal{C} $$
 **** /*/
-***** Component of natural transformation
+<<<Component of natural transformation>>>
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
 * Give definitions
@@ -3953,12 +3805,10 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** <<<Either>>>
 Allows to separate and preserve information about happened, ex. error handling.
 *** /*/
-**** <<<Either data type>>>
-See [[Either]]
+<<<Either data type>>>
 ** <<<Weak head normal form>>>
 *** /*/
-**** <<<WHNF>>>
-See [[Weak head normal form]]
+<<<WHNF>>>
 ** <<<Function image>>>
 *** <<<Image>>>
 See [[Function image]]
@@ -4038,9 +3888,8 @@ Type inference in Rank-2 is possible, but but not higher.
 *** <<<-ddump-ds>>>
 Dump desugarer output.
 **** /*/
-***** <<<Desugar>>>
-***** <<<GHC desugar>>>
-See: [[-ddump-ds]].
+<<<Desugar>>>
+<<<GHC desugar>>>
 ** <<<GHC optimize keys>>>
 *** <<<-foptimal-applicative-do>>>
 $$ O(n^3) $$
@@ -4055,8 +3904,7 @@ Left-hand side of the expression.
 ** <<<Generalised algebraic data types>>>
 LANGUAGE [[GADTs]]
 *** /*/
-**** <<<GADT>>>
-See [[Generalised algebraic data types]]
+<<<GADT>>>
 ** <<<Order theory>>>
 Investigates in thepth the intuitive notion of order using binary relations.
 *** <<<Domain theory>>>
@@ -4084,10 +3932,8 @@ Partial - not every elempents between them need to be comparable.
 
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
 ***** /*/
-****** <<<Partially ordered set>>>
-See [[Partial ordering]]
-****** <<<Poset>>>
-See [[Partially ordered set]]
+<<<Partially ordered set>>>
+<<<Poset>>>
 ** <<<Universal algebra>>>
 Studies algebraic structures.
 ** <<<Relation>>>
@@ -4099,36 +3945,27 @@ $$ R^{X \to X}, \forall x \in X : x R x $$
 
 Corresponds to [[Identity]] and [[Automorphism]].
 **** /*/
-***** <<<Reflexive>>>
-See [[Reflexivity]]
-***** <<<Reflexive relation>>>
-See [[Reflexivity]]
+<<<Reflexive>>>
+<<<Reflexive relation>>>
 *** <<<Irreflexivity>>>
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
 **** /*/
-***** <<<Anti-reflexive>>>
-See [[Irreflexivity]]
-***** <<<Anti-reflexive relation>>>
-See [[Irreflexivity]]
-***** <<<Irreflexive>>>
-See [[Irreflexivity]]
-***** <<<Irreflexive relation>>>
-See [[Irreflexivity]]
+<<<Anti-reflexive>>>
+<<<Anti-reflexive relation>>>
+<<<Irreflexive>>>
+<<<Irreflexive relation>>>
 *** <<<Transitivity>>>
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
 **** /*/
-***** <<<Transitive>>>
-See [[Transitivity]]
-***** <<<Transitive relation>>>
-See [[Transitivity]]
+<<<Transitive>>>
+<<<Transitive relation>>>
 *** <<<Symmetry>>>
 $$ \forall a,b \in X : (aRb \iff bRa) $$
 **** /*/
-***** <<<Symmetric>>>
-See [[Symmetry]]
-***** <<<Symmetric relation>>>
+<<<Symmetric>>>
+<<<Symmetric relation>>>
 *** <<<Equivalence>>>
 | [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
 |----------------------------+----------------------------------+-------------------------------------------------|
@@ -4136,36 +3973,29 @@ See [[Symmetry]]
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
 
 **** /*/
-***** <<<Equivalent>>>
-See [[Equivalence]]
-***** <<<Equivalent relation>>>
-See [[Equivalence]]
+<<<Equivalent>>>
+<<<Equivalent relation>>>
 *** <<<Antisymmetry>>>
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
 **** /*/
-***** <<<Antisymmetric>>>
-See [[Antisymmetry]]
-***** <<<Antisymmetric relation>>>
-See [[Antisymmetry]]
+<<<Antisymmetric>>>
+<<<Antisymmetric relation>>>
 *** <<<Asymmetry>>>
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
 Asymmetry \ne "not symmetric"
 [[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
 **** /*/
-***** <<<Asymmetric>>>
-See [[Asymmetry]]
-***** <<<Asymmetric relation>>>
-See [[Asymmetry]]
+<<<Asymmetric>>>
+<<<Asymmetric relation>>>
 ** <<<Commutativity>>>
 ** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
 *** /*/
-**** <<<Crypromorphic>>>
-See [[Cryptomorphism]]
+<<<Crypromorphic>>>
 ** <<<Lexically scoped type variables>>>
 Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
 
@@ -4183,8 +4013,7 @@ Data type mathematical model, defined by its semantics from the user point of vi
 
 A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
 *** /*/
-**** <<<AbsDT>>>
-See [[Abstract data type]]
+<<<AbsDT>>>
 ** <<<ADT>>>
 1. [[Abstract data type]]
 2. [[Algebraic data type]]
