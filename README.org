@@ -2754,6 +2754,7 @@ For exampe - if fold over a dynamic array:
   3) With Linear type function we guarantee that the array would be used only at one place at a time.
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
+
 ** <<<Pragma>>> :drill:
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
