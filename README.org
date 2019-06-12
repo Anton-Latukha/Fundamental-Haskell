@@ -4,7 +4,7 @@
 Important notes on Haskel, category & related fields.
 
 GitHub&GitLab parse ORG only partially.
-This is complex ORG notes file, to get its power&interlinks use capable editor.
+This is complex ORG notes file with LaTeX formulas, to get its real view&power&interlinks use capable editor.
 
 =<<<This is a radio target>>>= - for =org-mode= linking.
 
@@ -46,6 +46,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#abstraction][<<<Abstraction>>>]]
   - [[#actual-type][<<<Actual type>>>]]
   - [[#algebra][<<<Algebra>>>]]
+    - [[#][/*/]]
   - [[#alpha-equivalence][<<<Alpha equivalence>>>]]
   - [[#ambigram][<<<Ambigram>>>]]
   - [[#anamorphism][<<<Anamorphism>>>]]
@@ -70,7 +71,9 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
         - [[#lifta2-][<<<liftA2 (<*>)>>>]]
         - [[#lifta2-lifta2-][<<<liftA2 (liftA2 (<*>))>>>]]
         - [[#lifta3][<<<liftA3>>>]]
+    - [[#-1][/*/]]
   - [[#applicative-functor][<<<Applicative functor>>>]]
+    - [[#-2][/*/]]
   - [[#arbitrary-function][<<<Arbitrary function>>>]]
   - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
   - [[#argument][<<<Argument>>>]]
@@ -78,6 +81,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#as-pattern][<<<As-pattern>>>]]
   - [[#assertion][<<<Assertion>>>]]
   - [[#associative-law][<<<Associative law>>>]]
+    - [[#-3][/*/]]
   - [[#base-case][<<<Base case>>>]]
   - [[#basis][<<<Basis>>>]]
   - [[#beta-normal-form][<<<Beta normal form>>>]]
@@ -86,14 +90,16 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#binary-operation][<<<Binary operation>>>]]
   - [[#binary-tree][<<<Binary tree>>>]]
   - [[#bind][<<<Bind>>>]]
+    - [[#-4][/*/]]
   - [[#bottom-value][<<<Bottom value>>>]]
   - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
-    - [[#][/*/]]
+    - [[#-5][/*/]]
   - [[#cardinality][<<<Cardinality>>>]]
   - [[#cartesian-product][<<<Cartesian product>>>]]
+    - [[#-6][/*/]]
   - [[#case][<<<Case>>>]]
   - [[#category][<<<Category>>>]]
-    - [[#-1][/*/]]
+    - [[#-7][/*/]]
   - [[#closed-form-expression][<<<Closed-form expression>>>]]
   - [[#closed-set][<<<Closed set>>>]]
   - [[#closure][<<<Closure>>>]]
@@ -102,7 +108,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#codomain][<<<Codomain>>>]]
   - [[#combinator][<<<Combinator>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
-    - [[#-2][/*/]]
+    - [[#-8][/*/]]
   - [[#composition][<<<Composition>>>]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
@@ -111,15 +117,15 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#constant][<<<Constant>>>]]
   - [[#constraint][<<<Constraint>>>]]
   - [[#construct][<<<Construct>>>]]
-    - [[#-3][/*/]]
+    - [[#-9][/*/]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#contravariant][<<<Contravariant>>>]]
-    - [[#-4][/*/]]
+    - [[#-10][/*/]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
-    - [[#-5][/*/]]
+    - [[#-11][/*/]]
   - [[#currying][<<<Currying>>>]]
   - [[#data-constant][<<<Data constant>>>]]
   - [[#data-constructor][<<<Data constructor>>>]]
@@ -127,20 +133,22 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#data-declaration-1][<<<data declaration>>>]]
   - [[#data-type][<<<Data type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-6][/*/]]
+      - [[#-12][/*/]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
+      - [[#-13][/*/]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#sum-data-type][<<<Sum data type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#dependent-type][<<<Dependent type>>>]]
   - [[#derived-instance][<<<Derived instance>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-7][/*/]]
+    - [[#-14][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
   - [[#domain][<<<Domain>>>]]
   - [[#effect][<<<Effect>>>]]
   - [[#endofunctor][<<<Endofunctor>>>]]
+    - [[#-15][/*/]]
   - [[#endofunctor-category][<<<Endofunctor category>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
@@ -152,34 +160,36 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#function-head][<<<Function head>>>]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-8][/*/]]
+      - [[#-16][/*/]]
     - [[#function-application][<<<Function application>>>]]
+      - [[#-17][/*/]]
     - [[#function-range][<<<Function range>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-9][/*/]]
+      - [[#-18][/*/]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-10][/*/]]
+      - [[#-19][/*/]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-11][/*/]]
+      - [[#-20][/*/]]
+    - [[#-21][/*/]]
   - [[#functor][<<<Functor>>>]]
     - [[#functor-laws][<<<Functor laws>>>]]
       - [[#functor-identity-law][<<<Functor identity law>>>]]
       - [[#functor-composition-law][<<<Functor composition law>>>]]
     - [[#lift][<<<Lift>>>]]
     - [[#forgetful-functor][<<<Forgetful functor>>>]]
-    - [[#-12][/*/]]
+    - [[#-22][/*/]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#gen-type][<<<Gen type>>>]]
   - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#higher-order-function][<<<Higher-order function>>>]]
-    - [[#-13][/*/]]
+    - [[#-23][/*/]]
   - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
   - [[#hom-set][<<<Hom-set>>>]]
     - [[#hom-functor][<<<Hom-functor>>>]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-14][/*/]]
+    - [[#-24][/*/]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -192,7 +202,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-15][/*/]]
+    - [[#-25][/*/]]
   - [[#lambda-cube][<<<Lambda cube>>>]]
   - [[#lambda-function][<<<Lambda function>>>]]
     - [[#lambda-expression][<<<Lambda expression>>>]]
@@ -203,15 +213,15 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-16][/*/]]
+      - [[#-26][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-17][/*/]]
+    - [[#-27][/*/]]
   - [[#lexical-scope][<<<Lexical scope>>>]]
-    - [[#-18][/*/]]
+    - [[#-28][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#linear-type][<<<Linear type>>>]]
   - [[#local-scope][<<<Local scope>>>]]
-    - [[#-19][/*/]]
+    - [[#-29][/*/]]
   - [[#magma][<<<Magma>>>]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
@@ -221,14 +231,10 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#monad-functions][<<<Monad functions>>>]]
       - [[#return-function][<<<Return function>>>]]
       - [[#bind-function][<<<Bind function>>>]]
-        - [[#-20][(>>=)]]
+        - [[#-30][(>>=)]]
       - [[#join-function][<<<Join function>>>]]
         - [[#joinfmap--][join.fmap == (=<<)]]
       - [[#sequencing-operator---][<<<Sequencing operator>>> (>>) == (*>):]]
-    - [[#monad-or-applicative][<<<Monad OR Applicative>>>]]
-      - [[#start-writing-monad-using-return-ap-liftm-liftm2--instead-of-do][Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>=']]
-      - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
-      - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
     - [[#maybe-monad][<<<Maybe monad>>>]]
     - [[#either-monad][<<<Either monad>>>]]
     - [[#monad-laws][<<<Monad laws>>>]]
@@ -243,11 +249,11 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
       - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
       - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
     - [[#commutative-monoid][<<<Commutative monoid>>>]]
-      - [[#-21][/*/]]
+      - [[#-31][/*/]]
   - [[#monoidal-functor][<<<Monoidal functor>>>]]
   - [[#morphism][<<<Morphism>>>]]
     - [[#homomorphism][<<<Homomorphism>>>]]
-      - [[#-22][/*/]]
+      - [[#-32][/*/]]
     - [[#identity-morphism][<<<Identity morphism>>>]]
       - [[#identity][<<<Identity>>>]]
         - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
@@ -255,17 +261,18 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
         - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
       - [[#identity-function][<<<Identity function>>>]]
     - [[#monomorphism][<<<Monomorphism>>>]]
-      - [[#-23][/*/]]
+      - [[#-33][/*/]]
     - [[#epimorphism][<<<Epimorphism>>>]]
-      - [[#-24][/*/]]
+      - [[#-34][/*/]]
     - [[#isomorphism][<<<Isomorphism>>>]]
-      - [[#-25][/*/]]
+      - [[#-35][/*/]]
     - [[#endomorphism][<<<Endomorphism>>>]]
       - [[#automorphism][<<<Automorphism>>>]]
-        - [[#-26][/*/]]
-      - [[#-27][/*/]]
+        - [[#-36][/*/]]
+      - [[#-37][/*/]]
     - [[#catamorphism][<<<Catamorphism>>>]]
-      - [[#-28][/*/]]
+      - [[#-38][/*/]]
+    - [[#-39][/*/]]
   - [[#newtype-declaration][<<<newtype declaration>>>]]
   - [[#node][<<<Node>>>]]
   - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
@@ -276,29 +283,31 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#operator][<<<Operator>>>]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
+    - [[#-40][/*/]]
   - [[#partial-application][<<<Partial application>>>]]
+    - [[#-41][/*/]]
   - [[#partial-function][<<<Partial function>>>]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][\eta-abstraction]]
-      - [[#-29][/*/]]
+      - [[#-42][/*/]]
     - [[#blackbird][Blackbird]]
-      - [[#-30][/*/]]
+      - [[#-43][/*/]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
-    - [[#-31][/*/]]
+    - [[#-44][/*/]]
   - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-32][/*/]]
+        - [[#-45][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-33][/*/]]
+        - [[#-46][/*/]]
       - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
-        - [[#-34][/*/]]
+        - [[#-47][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -342,12 +351,13 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#phrase][<<<Phrase>>>]]
   - [[#proxy-type][<<<Proxy type>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-35][/*/]]
+    - [[#-48][/*/]]
   - [[#purity][<<<Purity>>>]]
   - [[#quantifier][<<<Quantifier>>>]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-36][/*/]]
+      - [[#-49][/*/]]
   - [[#recursion][<<<Recursion>>>]]
+    - [[#-50][/*/]]
   - [[#redex][<<<Redex>>>]]
   - [[#reduction][<<<Reduction>>>]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
@@ -364,7 +374,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#set-category][<<<SET category>>>]]
   - [[#shadowing][<<<Shadowing>>>]]
   - [[#shift-operator][<<<Shift operator>>>]]
-    - [[#-37][/*/]]
+    - [[#-51][/*/]]
   - [[#shrinking][<<<Shrinking>>>]]
   - [[#singleton][<<<Singleton>>>]]
   - [[#smart-constructor][<<<Smart constructor>>>]]
@@ -379,6 +389,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tail-recursion][<<<Tail recursion>>>]]
   - [[#tensor][<<<Tensor>>>]]
+    - [[#-52][/*/]]
   - [[#terminal-object][<<<Terminal object>>>]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
@@ -403,6 +414,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#type-constructor][<<<Type constructor>>>]]
   - [[#type-declaration][<<<type declaration>>>]]
   - [[#type-inference][<<<Type inference>>>]]
+    - [[#-53][/*/]]
   - [[#type-instance][<<<Type instance>>>]]
   - [[#type-variable][<<<Type variable>>>]]
   - [[#uncurry][<<<Uncurry>>>]]
@@ -414,16 +426,17 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#variadic][<<<Variadic>>>]]
   - [[#zero][<<<Zero>>>]]
   - [[#bound][<<<Bound>>>]]
-    - [[#-38][/*/]]
+    - [[#-54][/*/]]
   - [[#typed-hole][<<<Typed hole>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-39][/*/]]
+    - [[#-55][/*/]]
   - [[#context][<<<Context>>>]]
   - [[#thunk][<<<Thunk>>>]]
   - [[#group][<<<Group>>>]]
   - [[#natural-transformation][<<<Natural transformation>>>]]
     - [[#natural-transformation-component][<<<Natural transformation component>>>]]
-      - [[#-40][/*/]]
+      - [[#-56][/*/]]
+    - [[#-57][/*/]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
 - [[#give-definitions][Give definitions]]
@@ -442,9 +455,9 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-41][/*/]]
+    - [[#-58][/*/]]
   - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
-    - [[#-42][/*/]]
+    - [[#-59][/*/]]
   - [[#function-image][<<<Function image>>>]]
     - [[#image][<<<Image>>>]]
   - [[#maybe][<<<Maybe>>>]]
@@ -462,7 +475,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#type-rank][<<<Type rank>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-43][/*/]]
+      - [[#-60][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
@@ -470,7 +483,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#rhs][<<<RHS>>>]]
   - [[#lhs][<<<LHS>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-44][/*/]]
+    - [[#-61][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -478,30 +491,30 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
       - [[#preorder-1][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-45][/*/]]
+        - [[#-62][/*/]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-46][/*/]]
+      - [[#-63][/*/]]
     - [[#irreflexivity][<<<Irreflexivity>>>]]
-      - [[#-47][/*/]]
+      - [[#-64][/*/]]
     - [[#transitivity][<<<Transitivity>>>]]
-      - [[#-48][/*/]]
+      - [[#-65][/*/]]
     - [[#symmetry][<<<Symmetry>>>]]
-      - [[#-49][/*/]]
+      - [[#-66][/*/]]
     - [[#equivalence][<<<Equivalence>>>]]
-      - [[#-50][/*/]]
+      - [[#-67][/*/]]
     - [[#antisymmetry][<<<Antisymmetry>>>]]
-      - [[#-51][/*/]]
+      - [[#-68][/*/]]
     - [[#asymmetry][<<<Asymmetry>>>]]
-      - [[#-52][/*/]]
+      - [[#-69][/*/]]
   - [[#commutativity][<<<Commutativity>>>]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-53][/*/]]
+    - [[#-70][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-54][/*/]]
+    - [[#-71][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#algebraic][<<<Algebraic>>>]]
 - [[#citations][Citations]]
@@ -554,6 +567,10 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#good-use-type-sysnonims-to-differ-the-information][<<<Good: Use type sysnonims to differ the information>>>]]
   - [[#good-controlmonaderror---controlmonadexcept][<<<Good: Control.Monad.Error -> Control.Monad.Except>>>]]
   - [[#good-point-free-is-great-in-multi-dimentions][<<<Good: Point-free is great in multi-dimentions>>>]]
+  - [[#good-monad-or-applicative][<<<Good: Monad OR Applicative>>>]]
+      - [[#start-writing-monad-using-return-ap-liftm-liftm2--instead-of-do][Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>=']]
+      - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
+      - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -607,10 +624,10 @@ SCHT: <2019-06-20 Thu>
 Is which:
   * has a zero object,
   * has all binary biproducts,
-  * has all [[Kernel][kernel]]s and cokernels,
+  * has all kernel's and cokernels,
   * (it has all pullbacks and pushouts)
-  * all [[Monomorphism][monomorphism]]s and [[Epimorphism][epimorphism]]s are normal.
-Abelian [[Category][category]] are very stable; for example they are regular and they satisfy the snake lemma.
+  * all monomorphism's and epimorphism's are normal.
+Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
 ** <<<Abstraction>>> :drill:
 :PROPERTIES:
@@ -620,7 +637,7 @@ abs away from, off (in absentia)
 tractus draw, haul, drag
 
 Purified generalization of process.
-It is great did to name an abstraction ([[Denotational semantics]]).
+It is great did to name an abstraction (Denotational semantics).
 ** <<<Actual type>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -634,7 +651,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
-[[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
+Data type recieved by ->inferring->compiling->execution.
 ** <<<Algebra>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -655,11 +672,13 @@ A system of algebra based on given axioms.
 
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
+*** /*/
+<<<Algebras>>>
 ** <<<Alpha equivalence>>> :drill:
 :PROPERTIES:
 :ID:       83ea3e34-0c72-4976-abaa-875767736cea
 :END:
-Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
+Alpha equivalence - if processes in expressions are literally the same, but names of parameters accordingly different (then they are synonyms).
 ** <<<Ambigram>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -682,13 +701,13 @@ While this word has two contradictory diametrically opposite meanings, one was c
 
 But it has... Both.
 
-/TODO: Probably better for the merit of difference about different meaning refer to [[Tensor]] as object with many meanings./
+/TODO: Probably better for the merit of difference about different meaning refer to Tensor as object with many meanings./
 ** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
 :END:
-[[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
-Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
+Morphism from a coalgebra to the final coalgebra for that endofunctor.
+Is a function that generates a sequence by repeated application of the function to its previous result.
 ** <<<Application>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -702,7 +721,7 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
-For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
+For FP see Bind. And then beta reduction happen.
 ** <<<Application memory>>> :drill:
 :PROPERTIES:
 :ID:       49209cb4-a094-4b16-8803-884efd701706
@@ -720,18 +739,18 @@ When stacked Stack frames exceed the Stack size - stack overflow happens.
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
 :END:
-See [[Applicative functor]] for [[Category theory]] description.
+For Category theory description - see Applicative functor 
 Sequencing functorial computations.
 
 #+begin_src haskell
 (<*>) :: f (a -> b) -> f a -> f b
 #+end_src
 
-Requires [[Functor]] to exist.
-Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separate from what happens inside it.
+Requires Functor to exist.
+Requires Monoidal structure. And has structure rules, that are separate from what happens inside it.
 Structure goes through Monoidal process.
 
-[[Data type]]s can have several applicative implementations.
+Data type can have several applicative implementations.
 *** <<<Applicative laws>>> :drill:
 **** <<<Applicative identity law>>> :drill:
 #+begin_src haskell
@@ -808,19 +827,19 @@ Because monad needs to process the result of computation - it needs to be able t
 *** Applicative functions
 **** <<<liftA*>>>
 ***** <<<liftA>>> :drill:
-Essentially a [[fmap]].
+Essentially a fmap.
 #+begin_src haskell
 :type liftA
 liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
 ***** <<<liftA2>>> :drill:
-Lifts [[Binary][binary]] [[Function][function]] across two [[Applicative]]s [[Functor][functor]]s.
+Lifts binary function across two Applicative functors.
 #+begin_src haskell
 :type liftA2
 liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
 #+end_src
 ***** <<<liftA2 (<*>)>>> :drill:
-liftA2 (<*>) is pretty useful. It can lift [[Binary][binary operation]] through the two layers:
+liftA2 (<*>) is pretty useful. It can lift binary operation through the two layers:
 It is two-layer Applicative.
 #+begin_src haskell
 liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f    b   ->  f    c
@@ -828,15 +847,19 @@ liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f 
 liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
 #+end_src
 ***** <<<liftA2 (liftA2 (<*>))>>> :drill:
-[[liftA2 (<*>)]] 3-layer version.
+liftA2 (<*>) 3-layer version.
 ***** <<<liftA3>>> :drill:
-[[liftA2]] 3-parameter version.
+liftA2 3-parameter version.
+*** /*/
+<<<Applicatives>>>
 ** <<<Applicative functor>>> :drill:
 :PROPERTIES:
 :ID:       5a6a7b44-9124-4af8-aeb6-c7dbcbc9888c
 :END:
-Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
-See [[Applicative]].
+Applicative functor - Lax monoidal functor with Tensorial strength.
+See Applicative.
+*** /*/
+<<<Applicative functors>>>
 ** <<<Arbitrary function>>> :drill:
 :PROPERTIES:
 :ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
@@ -846,22 +869,22 @@ Depends on type and generates values of that type.
 :PROPERTIES:
 :ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
 :END:
-[[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
-Useful function is [[Arbitrary function][arbitrary]] - that autoassumes/generates values.
+Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+Useful function is arbitrary - that autogenerates values.
 ** <<<Argument>>> :drill:
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
 :END:
-arguere to make clear, to shine
+/arguere/ to make clear, to shine
 argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
-Is an input value to a [[Function][function]] [[Parameter][parameter]].
+Is an input value to a function parameter.
 ** <<<Arity>>> :drill:
 :PROPERTIES:
 :ID:       fa4caa07-eea5-4082-aaed-92abb820e768
 :END:
-Number of [[Parameter][parameters]] of the [[Function][function]].
+Number of parameters of the function.
   * nullary - f()
   * unary   - f(x)
   * binary  - f(x,y)
@@ -888,6 +911,9 @@ Joined by a common purpose.
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
+*** /*/
+<<<Associativity>>>
+<<<Associative>>>
 ** <<<Base case>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -901,7 +927,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:03]
 :END:
-A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
+A part of a recursive function that trivially produces result.
 ** <<<Basis>>> :drill:
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
@@ -909,17 +935,17 @@ A part of a [[Recursion][recursive]] [[Function][function]] that trivially produ
 $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
-AKA see [[Category theory]], or Euclidian geometry basis.
+AKA see Category theory, or Euclidian geometry basis.
 ** <<<Beta normal form>>> :drill:
 :PROPERTIES:
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
 :END:
-No [[Beta reduction][beta reduction]] is possible.
+No beta reduction is possible.
 ** <<<Beta reduction>>> :drill:
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
 :END:
-Applying [[Function][function]] to an [[Argument][argument]].
+Applying function to an argument.
 ** <<<Binary>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
@@ -965,6 +991,8 @@ SCHT: <2019-06-20 Thu>
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
+*** /*/
+<<<Binding>>>
 ** <<<Bottom value>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -987,7 +1015,7 @@ Is a non-value placeholder for enything.
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
 :END:
-Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
+Extends the Curry–Howard correspondence to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
 *** /*/
@@ -1015,11 +1043,11 @@ Conjunction, product - multiplies cardinalities.
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
 $$ \forall a \in A, \forall b \in B : A \times B = \overset \rightharpoonup {(a,b)} $$.
-Any [[Function][function]] is a subset of Cartesian product.
+Any function is a subset of Cartesian product.
 
 $$ \sum_{}_{}^{elem \in (A \times B)}  = cardinality^{A \times B} $$
-[[Cardinality]].
-
+*** /*/
+<<<Cardinalities>>>
 ** <<<Case>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -1054,12 +1082,12 @@ case () of _
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
 :END:
-Category (/C/) consists of the [[Basis]]:
-  1. Objects - ob(/C/). A node. Object of some type. Often sets, than it is [[SET category]].
-  2. [[Morphism]]s - C(a,b), [[Hom-set][hom(a,b)]]. Mappings, total functions.
-  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$. In other words morpisms correspond to [[Principle of compositionality]].
-  4. Axiom of [[Associative law][Associativity]]: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
-  5. Axiom of two sided [[Identity]] of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
+Category ($$ \mathcal{C} $$) consists of the Basis:
+  1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is SET category.
+  2. Morphisms - $$ (a,b)^{\mathcal{C} }$$, (collection of all morphisms /a/ to /b/: $$ hom^{\mathcal{C}}(a,b) $$). (AKA mappings, total functions).
+  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$. In other words morpisms correspond to Principle of compositionality.
+  4. Axiom of Associativity: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
+  5. Axiom of two sided Identity of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** /*/
@@ -1075,7 +1103,7 @@ Closed-form expression - a mathematical expression that can be evaluated in a fi
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
 :END:
 Closed set - a set whose complement is an open set.
-Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
+Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 ** <<<Closure>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -1096,7 +1124,7 @@ Operation /*/ - operation on members of the domain always produces a members of 
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
 :END:
-Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
+Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 ** <<<CoArbitrary>>> :drill:
 :PROPERTIES:
@@ -1124,8 +1152,8 @@ Codomain - target set of a function in $X \to Y$.
 :PROPERTIES:
 :ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
 :END:
-[[Function]] without free variables.
-[[Higher-order function]] that use only [[Function application][function application]] and other combinators.
+Function without free variables.
+Higher-order function that use only function application and other combinators.
 #+begin_src haskell
 \f g x -> f (g x)
 \f g x y -> f (g x y)
@@ -1146,7 +1174,7 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
 :END:
-Axiom of [[Category]].
+Axiom of Category.
 ** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
@@ -1171,7 +1199,7 @@ SCHT: <2019-06-21 Fri>
 :END:
 Logical AND
 
-Multiplies [[Cardinality][cardinalities]].
+Multiplies cardinalities.
 
 Haskell kind:
 #+begin_src haskell
@@ -1191,7 +1219,7 @@ Nullary constructor
 :PROPERTIES:
 :ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
 :END:
-See: [[Ad hoc polymorphism]]
+See: Ad hoc polymorphism
 ** <<<Construct>>> :drill:
 :PROPERTIES:
 :ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
@@ -1205,15 +1233,15 @@ See: [[Ad hoc polymorphism]]
 :PROPERTIES:
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
 :END:
-1. [[Type constructor]]
-2. [[Data constructor]]
+1. Type constructor
+2. Data constructor
 
-Also see: [[Constant]]
+Also see: Constant
 ** <<<Contravariant>>> :drill:
 :PROPERTIES:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
 :END:
-The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a [[Tensor]]s in this basisis.
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a Tensors in this basisis.
 
 Denotation:
 Components for contravariant basis denoted in the upper indices:
@@ -1223,12 +1251,12 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 
 *** /*/
 <<<Contravariant cofunctor>>>
-<<<Contravariant functor>>> - More inline term is [[Contravariant cofunctor]]
+<<<Contravariant functor>>> - More inline term is Contravariant cofunctor
 ** <<<Covariant>>> :drill:
 :PROPERTIES:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
 :END:
-The property of [[Basis]], in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of [[Tensor]]s in this basisis.
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of Tensors in this basisis.
 
 Denotation:
 Components for covariant basis denoted in the upper indices:
@@ -1237,12 +1265,12 @@ $$ V_{i} = x $$
 :PROPERTIES:
 :ID:       f53b176d-6377-4a9b-aa0b-40a4c7531cb4
 :END:
-See [[Covariant]].
+See Covariant.
 ** <<<Covariant functor>>> :drill:
 :PROPERTIES:
 :ID:       c9502e88-5005-4d6e-9615-bfacae3bde2d
 :END:
-More inline term is [[Covariant cofunctor]]
+More inline term is Covariant cofunctor
 ** <<<Curry–Howard correspondence>>> :drill:
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
@@ -1254,17 +1282,17 @@ Computer programs are mathematical proofs.
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
 :END:
-Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
+Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 ** <<<Data constant>>> :drill:
 :PROPERTIES:
 :ID:       7fd715db-5709-4238-9e49-8a9b9066a388
 :END:
-See: [[Constant]]
+See: Constant
 ** <<<Data constructor>>> :drill:
 :PROPERTIES:
 :ID:       dc94bd99-113e-4025-82e8-39cd6843091b
 :END:
-One instance that [[Inhabit][inhabit]] [[Data type][data type]].
+One instance that inhabit data type.
 
 Constant value - nullary data constructor.
 ** <<<Data declaration>>> :drill:
@@ -1276,7 +1304,7 @@ Constant value - nullary data constructor.
 :PROPERTIES:
 :ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
 :END:
-[[Data type]] declaration is the most general and versatile form to create a new data type.
+Data type declaration is the most general and versatile form to create a new data type.
 Form:
 #+begin_src haskell
 data [context =>] type typeVars1..n
@@ -1298,10 +1326,12 @@ Composite type formed by combining other types.
 Any combination of * and ->
 
 Type that take more types as arguments.
+**** /*/
+<<<Higher-kinded data types>>>
 *** <<<Product data type>>> :drill:
-[[Algebraic data type]] formed by logical [[Conjunction][conjunction]] (AND ' ').
+Algebraic data type formed by logical conjunction (AND ' ').
 *** <<<Sum data type>>> :drill:
-[[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
+Algebraic data type formed by logical disjunction (OR '|').
 ** <<<Declaration>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -1315,7 +1345,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
-[[Bind][binding]] name to [[Expression][expression]].
+Binding the name to expression.
 ** <<<Dependent type>>> :drill:
 :PROPERTIES:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
@@ -1346,7 +1376,7 @@ Denotation.
 $$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
 Last one is partial.
 
-$$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
+$$ e^{t{\frac {d}{dx}} $$ - Shift operator.
 *** /*/
 <<<Differential>>>
 ** <<<Disjunction>>> :drill:
@@ -1391,22 +1421,24 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
-Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
+Is a functor which domain and codomain are the same category.
+*** /*/
+<<<Endofunctors>>>
 ** <<<Endofunctor category>>> :drill:
 :PROPERTIES:
 :ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
 :END:
-From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
+From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
 ** <<<Evaluation>>> :drill:
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
 :END:
-For FP see [[Bind]].
+For FP see Bind.
 ** <<<Expected type>>> :drill:
 :PROPERTIES:
 :ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
 :END:
-[[Data type]] [[Type inference][inferred]] from the text of the code.
+Data type inferred from the text of the code.
 ** <<<Expression>>> :drill:
 :PROPERTIES:
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
@@ -1417,7 +1449,7 @@ Finite combination of a symbols that is well-formed according to rules that depe
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
 :END:
 1. Can be used as value.
-2. Passed as an [[Argument][argument]].
+2. Passed as an argument.
 From 1&2 -> can include itself.
 ** <<<Fold>>> :drill:
 :PROPERTIES:
@@ -1438,7 +1470,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:01]
 :END:
 Variable in the fuction that is not bound by the head.
-Until there are /* -/ function stays [[Partial application][partially applied]].
+Until there are /* -/ function stays partially applied.
 ** <<<Function>>> :drill:
 :PROPERTIES:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
@@ -1461,17 +1493,17 @@ $$ y(x) = (zx^{2} + bx + 3 | b = 5) $$
 |  \_[[Parameter][Parameter]]
  \__Name__of__the__function
 
-[[Lambda abstraction]] is a function.
-Function is a mathematical [[Operation][operation]].
+Lambda abstraction is a function.
+Function is a mathematical operation.
 
 Function = Total function = Pure function. Function theoretically posible to momoized.
-[[Partial function]].
+Partial function.
 Inverse function - often partially exists (partial function).
 *** <<<Function head>>> :drill:
-Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
+Is a part with Name of the function and it's paramenter.
 AKA: f(x)
 *** <<<Function body>>> :drill:
-[[Expression]] that haracterizes the process.
+Expression that haracterizes the process.
 *** <<<Function composition>>> :drill:
 #+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
@@ -1486,13 +1518,17 @@ h.g.f $ i
 **** /*/
 <<<Composition>>>
 <<<Compose>>>
+<<<Composed>>>
 *** <<<Function application>>> :drill:
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
+**** /*/
+<<<Applied>>>
+<<<Apply>>>
 *** <<<Function range>>> :drill:
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
-So, see [[Function image]].
+So, see Function image.
 *** <<<Injection>>> :drill:
-[[Function]] one-to-one injects from domain to codomain.
+Function one-to-one injects from domain to codomain.
 Keeps distinct pairing of elements of domain and image.
 Every element in image coresponds to one element in domain.
 
@@ -1506,12 +1542,12 @@ f : X ↣ Y
 #+end_src
 $f : X \rightarrowtail Y$
 
-Corresponds to [[Monomorphism]].
+Corresponds to Monomorphism.
 **** /*/
 <<<Injective>>>
 <<<Injective function>>>
 *** <<<Surjection>>> :drill:
-[[Function]] uses codomain fully.
+Function uses codomain fully.
 
 $$ \forall y \in Y, \exists x \in X $$
 
@@ -1523,13 +1559,13 @@ f : X ↠ Y
 #+end_src
 $$ f : X \twoheadrightarrow Y $$
 
-Corresponds to [[Epimorphism]].
+Corresponds to Epimorphism.
 **** /*/
 <<<Surjective>>>
 <<<Surjective function>>>
 *** <<<Bijection>>> :drill:
-[[Function]] complete one-to-one pairing of elements of domain and codomain (image).
-It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
+Function complete one-to-one pairing of elements of domain and codomain (image).
+It means function both surjective (so image == codomain) and injective (every domain element has unique correspondence to the image element).
 
 For bijection inverse always exists.
 
@@ -1546,6 +1582,8 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 **** /*/
 <<<Bijective>>>
 <<<Bijective function>>>
+*** /*/
+<<<Functions>>>
 ** <<<Functor>>> :drill:
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
@@ -1556,22 +1594,22 @@ Functor is a map between categories.
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
-Functor in Haskell is a [[Type class][type class]] presents of which allows [[Function application][function application]] "over/through" type structure layers (denoted /f/ of /m/). [[IO]] is also such structure.
+Functor in Haskell is a type class presents of which allows function application "over/through" type structure layers (denoted /f/ of /m/). IO is also such structure.
 
-Haskell Functor [[Type class]] corresponds to mathematical Powerset functor.
-Powerset functor is unique to the [[Category][category]] ([[Type][data type]]).
+Haskell Functor Type class corresponds to mathematical Powerset functor.
+Powerset functor is unique to the category (data type).
 | Mathematics                | Math definition                  | Haskell                               |
 |----------------------------+----------------------------------+---------------------------------------|
 | $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b |
 | $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        |
 | $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |
-Where $$ \eta,\mu $$ are [[Natural transformation]]s.
+Where $$ \eta,\mu $$ are Natural transformations.
 
-For functor instance to work [[Higher-kinded data type]]s type must be [[Function application][applied]] until it has kind =( * -> * )=, and after functors can be [[Function composition][composed]] to [[Lift][lift]] through layers of structure.
+For functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
 
-Functor can be used to filter-out error cases (Nothing & Left cases) in [[Maybe]], [[Either]] and related types.
+Functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
-Functor abides [[Functor laws]].
+Functor abides Functor laws.
 *** <<<Functor laws>>> :drill:
 Type instance of functor should abide this laws:
 **** <<<Functor identity law>>> :drill:
@@ -1582,11 +1620,11 @@ fmap id == id
 #+begin_src haskell
 fmap (f.g) == fmap f . fmap g
 #+end_src
-In words, it is if several functions are [[functional composition][composed]] and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 *** <<<Lift>>> :drill:
-Lift is to do a [[Function application][function application]] through the data structure.
+Lift is to do a function application through the data structure.
 *** <<<Forgetful functor>>> :drill:
-[[Functor]] that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
+Functor that forgets part or all of what defines structure in domain category.
 *** /*/
 <<<Powerset functor>>>
 <<<fmap>>>
@@ -1614,22 +1652,22 @@ Generator. List it returns gets infinitely cycled.
 :PROPERTIES:
 :ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
 :END:
-See [[System F]].
+See System F.
 ** <<<Guerrilla patch>>> :drill:
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
 :END:
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
-[[Monkey patch]] is derivative term.
+Monkey patch is derivative term.
 ** <<<Higher-order function>>> :drill:
 :PROPERTIES:
 :ID:       61a40480-45d2-4632-9948-986eecd8b7cb
 :END:
-[[Function]] [[Arity][arity]] > 1.
+Function arity > 1.
 
 ----
 
-Has function as a [[Parameter][parameter]].
+Has function as a parameter.
 Evaluates to function.
 *** /*/
 <<<HOF>>>
@@ -1939,7 +1977,7 @@ Modular arithmetic is a system of arithmetic for integers where number wraps aro
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - [[Monoid]] in [[Endofunctor category]] ([[Endofunctor][endofuntor]]) with both natural transformations.
+/*/ - Monoid in Endofunctor category (endofunctor) with both natural transformations.
 
 Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
 
@@ -1955,11 +1993,11 @@ import Control.Monad (ap)
 #+end_src
 *** Functor -> Applicative -> Monad progression :drill:
 #+begin_src haskell
-<$> ::     Functor f =>    (a -> b)   -> f a -> f b
-<*> :: Applicative f =>   f (a -> b)  -> f a  -> f b
-flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
+<$> :: Functor     f =>   (a -> b)   -> f a -> f b
+<*> :: Applicative f => f (a -> b)   -> f a -> f b
+=<< :: Monad       f =>   (a -> f b) -> f a -> f b
 #+end_src
-This is [[Natural transformation]]s.
+This is said to be Natural transformations.
 *** <<<Monad type class>>> :drill:
 #+begin_src haskell
 class Applicative m => Monad m where
@@ -2027,35 +2065,6 @@ Discards any resulting value of the action and sequence next action.
 (*>) :: f a -> f b -> f b
 #+end_src
 Applicative has a similar operator.
-*** <<<Monad OR Applicative>>>
-**** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
-If you wrote code and really needed only those - move that code to Applicative.
-#+begin_src haskell
-return -> pure
-ap -> <*>
-liftM -> liftA -> <$>
->> -> *>
-#+end_src
-**** Basic case when Applicative can be used
-Can be rewriten in [[Applicative]]:
-#+begin_src haskell
-func = do
-  a <- f
-  b <- g
-pure (a, b)
-#+end_src
-
-Can't be rewritten in [[Applicative]]:
-#+begin_src haskell
-somethingdoSomething' n = do
-a <- f n
-b <- g a
-pure (a, b)
-#+end_src
-(f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
-**** Applicative block vs Monad block
-With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
-With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 *** <<<Maybe monad>>> :drill:
 Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 *** <<<Either monad>>> :drill:
@@ -2113,7 +2122,7 @@ SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
 :END:
-[[Semigroup]] that has [[Identity]] value.
+Semigroup that has Identity value.
 
 #+begin_src haskell
 class Monoid m where
@@ -2145,6 +2154,7 @@ $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 **** /*/
 <<<Abelian monoid>>>
+<<<Monoidal>>>
 ** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
@@ -2281,6 +2291,8 @@ Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into s
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 **** /*/
 <<<Catamorphic>>>
+*** /*/
+<<<Morphisms>>>
 ** <<<newtype declaration>>> :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
@@ -2387,11 +2399,15 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
+*** /*/
+<<<Parameters>>>
 ** <<<Partial application>>> :drill:
 :PROPERTIES:
 :ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
 :END:
 Part of [[Function][function]] [[Parameter][parameters]] [[Application][applied]].
+*** /*/
+<<<Partially applied>>>
 ** <<<Partial function>>> :drill:
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
@@ -2663,7 +2679,7 @@ For GHC to pickup the patterns, the final statement must match one of these patt
   return $ E
 #+end_src
 
-When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =[[-foptimal-applicative-do]]=.
+When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =-foptimal-applicative-do=.
 
 Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
   * Allows use of do-notation with types that are an instance of Applicative and Functor
@@ -2671,7 +2687,7 @@ Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
 
 The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
 
-It is possible to see the actual translation by using =[[-ddump-ds]]=.
+It is possible to see the actual translation by using =-ddump-ds=.
 ***** <<<ConstrainedClassMethods>>> :drill:
 :PROPERTIES:
 :ID:       301a3741-f96c-45a7-bb14-7e342167b62d
@@ -3084,6 +3100,8 @@ Permits to not [[Type inference][infer]] the type, but to use any that fits. The
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
 :END:
 Repeated function application allow computing results that may require indefinite amount of work.
+*** /*/
+<<<Recursive>>>
 ** <<<Redex>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -3186,7 +3204,7 @@ Empirical process.
 :END:
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
 
-Semigroup - [[Magma]] with [[Associative law][associative law]].
+Semigroup - [[Magma]] with Associative law.
 Semigroup is closed (forms a closed set).
 
 Defined in Haskell as:
@@ -3391,6 +3409,9 @@ They can be tried to be described with knowledge existing inside planes, but rep
 Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
+*** /*/
+<<<Tensors>>>
+<<<Tensorial>>>
 ** <<<Terminal object>>> :drill:
 :PROPERTIES:
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
@@ -3562,7 +3583,7 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
-Type - [[Set][set]] of values.
+Type - set of values.
 For type to have sence the values share some sence, properties.
 
 See [[Data type]]
@@ -3626,6 +3647,11 @@ Also main type functions can operate on a new type.
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
 :END:
 Automatic [[Data type][data type]] detection of [[Expression][expression]].
+*** /*/
+<<<Inferring>>>
+<<<Infer>>>
+<<<Infers>>>
+<<<Inferred>>>
 ** <<<Type instance>>> :drill:
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
@@ -3779,6 +3805,8 @@ $$ (\mathit{cat} \ \mathcal{C, D}), (\mathit{functor} F^{\mathcal {C \to D}}, G^
 *** <<<Natural transformation component>>> :drill:
 $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \mathit{cat} \ \mathcal {C, D}; \exists F^{mathcal{C \to D}}, G^{\mathcal{C \to D}}; x \in \mathcal{C} $$
 **** /*/
+*** /*/
+<<<Natural transformations>>>
 <<<Component of natural transformation>>>
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
@@ -4250,6 +4278,35 @@ That distinction with synonims, would allow [[TypeSynonymInstances]], which woul
 :ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
 :END:
 BigData and OLAP analysis.
+** <<<Good: Monad OR Applicative>>>
+**** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
+If you wrote code and really needed only those - move that code to Applicative.
+#+begin_src haskell
+return -> pure
+ap -> <*>
+liftM -> liftA -> <$>
+>> -> *>
+#+end_src
+**** Basic case when Applicative can be used
+Can be rewriten in [[Applicative]]:
+#+begin_src haskell
+func = do
+  a <- f
+  b <- g
+pure (a, b)
+#+end_src
+
+Can't be rewritten in [[Applicative]]:
+#+begin_src haskell
+somethingdoSomething' n = do
+a <- f n
+b <- g a
+pure (a, b)
+#+end_src
+(f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
+**** Applicative block vs Monad block
+With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
+With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
