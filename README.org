@@ -452,55 +452,55 @@ Important notes on Haskel, category & related fields.
   - [[#commuting-diagram][Commuting diagram]]
   - [[#const-functor][Const functor]]
 - [[#give-definitions][Give definitions]]
-  - [[#kleisli-category][Kleisli category]]
-  - [[#free-object][Free object]]
-  - [[#thin-category][Thin category]]
-  - [[#partial-order][Partial order]]
-  - [[#total-order][Total order]]
-  - [[#preorder][Preorder]]
-  - [[#identity-type][Identity type]]
-  - [[#constant-type][Constant type]]
-  - [[#arbitrary][Arbitrary]]
-  - [[#gen][Gen]]
-  - [[#st-trick-monad][ST-Trick monad]]
-  - [[#lax-monoidal-functor][Lax monoidal functor]]
-  - [[#tensorial-strength][Tensorial strength]]
-  - [[#strong-monad][Strong monad]]
-  - [[#either][Either]]
+  - [[#kleisli-category][<<<Kleisli category>>>]]
+  - [[#free-object][<<<Free object>>>]]
+  - [[#thin-category][<<<Thin category>>>]]
+  - [[#partial-order][<<<Partial order>>>]]
+  - [[#total-order][<<<Total order>>>]]
+  - [[#preorder][<<<Preorder>>>]]
+  - [[#identity-type][<<<Identity type>>>]]
+  - [[#constant-type][<<<Constant type>>>]]
+  - [[#arbitrary][<<<Arbitrary>>>]]
+  - [[#gen][<<<Gen>>>]]
+  - [[#st-trick-monad][<<<ST-Trick monad>>>]]
+  - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
+  - [[#tensorial-strength][<<<Tensorial strength>>>]]
+  - [[#strong-monad][<<<Strong monad>>>]]
+  - [[#either][<<<Either>>>]]
     - [[#-41][/*/]]
       - [[#either-data-type][Either data type]]
-  - [[#weak-head-normal-form][Weak head normal form]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-42][/*/]]
       - [[#whnf][WHNF]]
-  - [[#function-image][Function image]]
+  - [[#function-image][<<<Function image>>>]]
     - [[#image][Image]]
-  - [[#maybe][Maybe]]
-  - [[#language-pragma-options][LANGUAGE pragma options]]
+  - [[#maybe][<<<Maybe>>>]]
+  - [[#language-pragma-options][<<<LANGUAGE pragma options>>>]]
     - [[#funcitonaldependencies][FuncitonalDependencies]]
-  - [[#pattern-guard][Pattern guard]]
-  - [[#inverse][Inverse]]
-  - [[#inversion][Inversion]]
-  - [[#inverse-function][Inverse function]]
-  - [[#partial-inverse][Partial inverse]]
-  - [[#define-language-pragma-options][Define LANGUAGE pragma options]]
+  - [[#pattern-guard][<<<Pattern guard>>>]]
+  - [[#inverse][<<<Inverse>>>]]
+  - [[#inversion][<<<Inversion>>>]]
+  - [[#inverse-function][<<<Inverse function>>>]]
+  - [[#partial-inverse][<<<Partial inverse>>>]]
+  - [[#define-language-pragma-options][<<<Define LANGUAGE pragma options>>>]]
     - [[#existentialquantification][ExistentialQuantification]]
     - [[#gadts][GADTs]]
     - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
-  - [[#type-rank][Type rank]]
-  - [[#ghc-debug-keys][GHC debug keys]]
+  - [[#type-rank][<<<Type rank>>>]]
+  - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][-ddump-ds]]
       - [[#-43][/*/]]
         - [[#ghc-desugar][GHC desugar]]
-  - [[#ghc-optimize-keys][GHC optimize keys]]
+  - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
-  - [[#ghc-check-keys][GHC check keys]]
+  - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][-Wno-partial-type-signatures]]
-  - [[#rhs][RHS]]
-  - [[#lhs][LHS]]
-  - [[#generalised-algebraic-data-types][Generalised algebraic data types]]
+  - [[#rhs][<<<RHS>>>]]
+  - [[#lhs][<<<LHS>>>]]
+  - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
     - [[#-44][/*/]]
       - [[#gadt][GADT]]
-  - [[#order-theory][Order theory]]
+  - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][Domain theory]]
     - [[#lattice][Lattice]]
     - [[#ordering][Ordering]]
@@ -510,8 +510,8 @@ Important notes on Haskel, category & related fields.
         - [[#-45][/*/]]
           - [[#partially-ordered-set][Partially ordered set]]
           - [[#poset][Poset]]
-  - [[#universal-algebra][Universal algebra]]
-  - [[#relation-1][Relation]]
+  - [[#universal-algebra][<<<Universal algebra>>>]]
+  - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][Reflexivity]]
       - [[#-46][/*/]]
         - [[#reflexive][Reflexive]]
@@ -542,17 +542,17 @@ Important notes on Haskel, category & related fields.
       - [[#-52][/*/]]
         - [[#asymmetric][Asymmetric]]
         - [[#asymmetric-relation][Asymmetric relation]]
-  - [[#commutativity][Commutativity]]
-  - [[#cryptomorphism][Cryptomorphism]]
+  - [[#commutativity][<<<Commutativity>>>]]
+  - [[#cryptomorphism][<<<Cryptomorphism>>>]]
     - [[#-53][/*/]]
       - [[#crypromorphic][Crypromorphic]]
-  - [[#lexically-scoped-type-variables][Lexically scoped type variables]]
-  - [[#type-family][Type family]]
-  - [[#abstract-data-type][Abstract data type]]
+  - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
+  - [[#type-family][<<<Type family>>>]]
+  - [[#abstract-data-type][<<<Abstract data type>>>]]
     - [[#-54][/*/]]
       - [[#absdt][AbsDT]]
-  - [[#adt][ADT]]
-- [[#algebraic][Algebraic]]
+  - [[#adt][<<<ADT>>>]]
+  - [[#algebraic][<<<Algebraic>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -3896,39 +3896,39 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 ** Commuting diagram
 ** Const functor
 * Give definitions
-** Kleisli category
-** Free object
-** Thin category
-** Partial order
-** Total order
-** Preorder
-** Identity type
-** Constant type
-** Arbitrary
-** Gen
-** ST-Trick monad
+** <<<Kleisli category>>>
+** <<<Free object>>>
+** <<<Thin category>>>
+** <<<Partial order>>>
+** <<<Total order>>>
+** <<<Preorder>>>
+** <<<Identity type>>>
+** <<<Constant type>>>
+** <<<Arbitrary>>>
+** <<<Gen>>>
+** <<<ST-Trick monad>>>
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
 https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
-** Lax monoidal functor
-** Tensorial strength
-** Strong monad
-** Either
+** <<<Lax monoidal functor>>>
+** <<<Tensorial strength>>>
+** <<<Strong monad>>>
+** <<<Either>>>
 Allows to separate and preserve information about happened, ex. error handling.
 *** /*/
 **** Either data type
 See [[Either]]
-** Weak head normal form
+** <<<Weak head normal form>>>
 *** /*/
 **** WHNF
 See [[Weak head normal form]]
-** Function image
+** <<<Function image>>>
 *** Image
 See [[Function image]]
-** Maybe
-** LANGUAGE pragma options
+** <<<Maybe>>>
+** <<<LANGUAGE pragma options>>>
 *** FuncitonalDependencies
-** Pattern guard
+** <<<Pattern guard>>>
 Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
@@ -3947,27 +3947,27 @@ addLookup env var1 var2
 check both to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
-** Inverse
+** <<<Inverse>>>
 1. [[Inverse function]]
 
 2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$
-** Inversion
+** <<<Inversion>>>
 1. Is a permutation where two elements are out of order.
 
 2. See [[Inverse]]
-** Inverse function
+** <<<Inverse function>>>
 
     $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X}_{} $$
 
 /*/ $$ \iff $$ [[Function][function]] is [[Bijection][bijective]].
 Otherwise - [[Partial inverse][partial inverse]]
-** Partial inverse
+** <<<Partial inverse>>>
 /*/ when [[Function][function]] is now [[Bijection][bijective]]. When bijective see [[Inverse function][inverse function]].
-** Define LANGUAGE pragma options
+** <<<Define LANGUAGE pragma options>>>
 *** ExistentialQuantification
 *** GADTs
 *** GeneralizedNewTypeClasses
-** Type rank
+** <<<Type rank>>>
 [[Weak ordering]] of types.
 
 The rank of [[Parametric polymorphism][polymorphic type]] shows at what level of nesting =forall= quantifier appears.
@@ -3997,29 +3997,29 @@ f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. T
 
 Type inference in Rank-2 is possible, but but not higher.
 
-** GHC debug keys
+** <<<GHC debug keys>>>
 *** -ddump-ds
 Dump desugarer output.
 **** /*/
 ***** GHC desugar
 See: [[-ddump-ds]].
-** GHC optimize keys
+** <<<GHC optimize keys>>>
 *** -foptimal-applicative-do
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
-** GHC check keys
+** <<<GHC check keys>>>
 *** -Wno-partial-type-signatures
 Supresses [[PartialTypeSignatures]] wildcard infer warning.
-** RHS
+** <<<RHS>>>
 Right-hand side of the expression.
-** LHS
+** <<<LHS>>>
 Left-hand side of the expression.
-** Generalised algebraic data types
+** <<<Generalised algebraic data types>>>
 LANGUAGE [[GADTs]]
 *** /*/
 **** GADT
 See [[Generalised algebraic data types]]
-** Order theory
+** <<<Order theory>>>
 Investigates in thepth the intuitive notion of order using binary relations.
 *** Domain theory
 Formalizes approximation and convergense.
@@ -4050,9 +4050,9 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 See [[Partial ordering]]
 ****** Poset
 See [[Partially ordered set]]
-** Universal algebra
+** <<<Universal algebra>>>
 Studies algebraic structures.
-** Relation
+** <<<Relation>>>
 *** Reflexivity
 $$ R^{X \to X}, \forall x \in X : x R x $$
 [[Order theory]]: $$ a \le a $$
@@ -4122,21 +4122,21 @@ Asymmetry \ne "not symmetric"
 See [[Asymmetry]]
 ***** Asymmetric relation
 See [[Asymmetry]]
-** Commutativity
-** Cryptomorphism
+** <<<Commutativity>>>
+** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
 *** /*/
 **** Crypromorphic
 See [[Cryptomorphism]]
-** Lexically scoped type variables
+** <<<Lexically scoped type variables>>>
 Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
 
 Implemented in [[ScopedTypeVariables]]
-** Type family
+** <<<Type family>>>
 Defines by pattern matching the partial functions between types.
 Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
 
-** Abstract data type
+** <<<Abstract data type>>>
 Several definitions here, reduce them.
 
 Data type mathematical model, defined by its semantics from the user point of view, listing possible values, operations on the data of the type, and behaviour of these operations.
@@ -4147,10 +4147,10 @@ A specification of a data type like a stack or queue where the specification doe
 *** /*/
 **** AbsDT
 See [[Abstract data type]]
-** ADT
+** <<<ADT>>>
 1. [[Abstract data type]]
 2. [[Algebraic data type]]
-* Algebraic
+** <<<Algebraic>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
