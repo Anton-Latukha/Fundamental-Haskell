@@ -3659,8 +3659,8 @@ main = do
 Data type that stores multiple values withing a single value.
 Tuples by [[Arity][arity]]:
   * empty, [[Unit][unit]]          - 0
-  * pair, two-tuples     - 2
-  * thriple, three-tuple - 3
+  * pair, <<<two-tuples>>>     - 2
+  * <<<thriple>>>, three-tuple - 3
 ** <<<Type>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
