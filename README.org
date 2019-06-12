@@ -18,27 +18,27 @@ Important notes on Haskel, category & related fields.
   - [[#application][<<<Application>>>]]
   - [[#application-memory][<<<Application memory>>>]]
     - [[#][/*/]]
-      - [[#heap][Heap]]
-      - [[#stack][Stack]]
+      - [[#heap][<<<Heap>>>]]
+      - [[#stack][<<<Stack>>>]]
   - [[#applicative][<<<Applicative>>>]]
-    - [[#applicative-laws][Applicative laws]]
-      - [[#applicative-identity-law][Applicative identity law]]
-      - [[#applicative-composition-law][Applicative composition law]]
-      - [[#applicative-homomorphism-law][Applicative homomorphism law]]
-      - [[#applicative-interchange-law][Applicative interchange law]]
-    - [[#special-applicatives][Special applicatives]]
-      - [[#identity-applicative][Identity applicative]]
-      - [[#constant-applicative][Constant applicative]]
-      - [[#maybe-applicative][Maybe applicative]]
-      - [[#either-applicative][Either applicative]]
-      - [[#validation-applicative][Validation applicative]]
+    - [[#applicative-laws][<<<Applicative laws>>>]]
+      - [[#applicative-identity-law][<<<Applicative identity law>>>]]
+      - [[#applicative-composition-law][<<<Applicative composition law>>>]]
+      - [[#applicative-homomorphism-law][<<<Applicative homomorphism law>>>]]
+      - [[#applicative-interchange-law][<<<Applicative interchange law>>>]]
+    - [[#special-applicatives][<<<Special applicatives>>>]]
+      - [[#identity-applicative][<<<Identity applicative>>>]]
+      - [[#constant-applicative][<<<Constant applicative>>>]]
+      - [[#maybe-applicative][<<<Maybe applicative>>>]]
+      - [[#either-applicative][<<<Either applicative>>>]]
+      - [[#validation-applicative][<<<Validation applicative>>>]]
     - [[#applicative-functions][Applicative functions]]
-      - [[#lifta][liftA*]]
-        - [[#lifta-1][liftA]]
-        - [[#lifta2][liftA2]]
-        - [[#lifta2-][liftA2 (<*>)]]
-        - [[#lifta2-lifta2-][liftA2 (liftA2 (<*>))]]
-        - [[#lifta3][liftA3]]
+      - [[#lifta][<<<liftA*>>>]]
+        - [[#lifta-1][<<<liftA>>>]]
+        - [[#lifta2][<<<liftA2>>>]]
+        - [[#lifta2-][<<<liftA2 (<*>)>>>]]
+        - [[#lifta2-lifta2-][<<<liftA2 (liftA2 (<*>))>>>]]
+        - [[#lifta3][<<<liftA3>>>]]
   - [[#applicative-functor][<<<Applicative functor>>>]]
   - [[#arbitrary-function][<<<Arbitrary function>>>]]
   - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
@@ -58,14 +58,14 @@ Important notes on Haskel, category & related fields.
   - [[#bottom-value][<<<Bottom value>>>]]
   - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
     - [[#-1][/*/]]
-      - [[#coc][CoC]]
+      - [[#coc][<<<CoC>>>]]
   - [[#cardinality][<<<Cardinality>>>]]
   - [[#cartesian-product][<<<Cartesian product>>>]]
   - [[#case][<<<Case>>>]]
   - [[#category][<<<Category>>>]]
     - [[#-2][/*/]]
-      - [[#object][Object]]
-      - [[#category-theory][Category theory]]
+      - [[#object][<<<Object>>>]]
+      - [[#category-theory][<<<Category theory>>>]]
   - [[#closed-form-expression][<<<Closed-form expression>>>]]
   - [[#closed-set][<<<Closed set>>>]]
   - [[#closure][<<<Closure>>>]]
@@ -75,7 +75,7 @@ Important notes on Haskel, category & related fields.
   - [[#combinator][<<<Combinator>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
     - [[#-3][/*/]]
-      - [[#commutative][Commutative]]
+      - [[#commutative][<<<Commutative>>>]]
   - [[#composition][<<<Composition>>>]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
@@ -85,18 +85,18 @@ Important notes on Haskel, category & related fields.
   - [[#constraint][<<<Constraint>>>]]
   - [[#construct][<<<Construct>>>]]
     - [[#-4][/*/]]
-      - [[#cons][Cons]]
+      - [[#cons][<<<Cons>>>]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#contravariant][<<<Contravariant>>>]]
     - [[#-5][/*/]]
-      - [[#contravariant-cofunctor][Contravariant cofunctor]]
-      - [[#contravariant-functor][Contravariant functor]]
+      - [[#contravariant-cofunctor][<<<Contravariant cofunctor>>>]]
+      - [[#contravariant-functor][<<<Contravariant functor>>>]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
     - [[#-6][/*/]]
-      - [[#curryhoward-isomorphism][Curry–Howard isomorphism]]
+      - [[#curryhoward-isomorphism][<<<Curry–Howard isomorphism>>>]]
   - [[#currying][<<<Currying>>>]]
   - [[#data-constant][<<<Data constant>>>]]
   - [[#data-constructor][<<<Data constructor>>>]]
@@ -105,15 +105,15 @@ Important notes on Haskel, category & related fields.
   - [[#data-type][<<<Data type>>>]]
     - [[#algebraic-data-type][Algebraic data type]]
       - [[#-7][/*/]]
-        - [[#algdt][AlgDT]]
-    - [[#higher-kinded-data-type][Higher-kinded data type]]
-    - [[#product-data-type][Product data type]]
-    - [[#sum-data-type][Sum data type]]
+        - [[#algdt][<<<AlgDT>>>]]
+    - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
+    - [[#product-data-type][<<<Product data type>>>]]
+    - [[#sum-data-type][<<<Sum data type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#dependent-type][<<<Dependent type>>>]]
   - [[#derived-instance][<<<Derived instance>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#differential][Differential]]
+    - [[#differential][<<<Differential>>>]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
   - [[#domain][<<<Domain>>>]]
@@ -127,49 +127,49 @@ Important notes on Haskel, category & related fields.
   - [[#fold][<<<Fold>>>]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#function-head][Function head]]
-    - [[#function-body][Function body]]
-    - [[#function-composition][Function composition]]
+    - [[#function-head][<<<Function head>>>]]
+    - [[#function-body][<<<Function body>>>]]
+    - [[#function-composition][<<<Function composition>>>]]
       - [[#-8][/*/]]
-        - [[#composition-1][Composition]]
-        - [[#compose][Compose]]
-    - [[#function-application][Function application]]
-    - [[#function-range][Function range]]
-    - [[#injection][Injection]]
+        - [[#composition-1][<<<Composition>>>]]
+        - [[#compose][<<<Compose>>>]]
+    - [[#function-application][<<<Function application>>>]]
+    - [[#function-range][<<<Function range>>>]]
+    - [[#injection][<<<Injection>>>]]
       - [[#-9][/*/]]
-        - [[#injective][Injective]]
-        - [[#injective-function][Injective function]]
-    - [[#surjection][Surjection]]
+        - [[#injective][<<<Injective>>>]]
+        - [[#injective-function][<<<Injective function>>>]]
+    - [[#surjection][<<<Surjection>>>]]
       - [[#-10][/*/]]
-        - [[#surjective][Surjective]]
-        - [[#surjective-function][Surjective function]]
-    - [[#bijection][Bijection]]
+        - [[#surjective][<<<Surjective>>>]]
+        - [[#surjective-function][<<<Surjective function>>>]]
+    - [[#bijection][<<<Bijection>>>]]
       - [[#-11][/*/]]
-        - [[#bijective][Bijective]]
-        - [[#bijective-function][Bijective function]]
+        - [[#bijective][<<<Bijective>>>]]
+        - [[#bijective-function][<<<Bijective function>>>]]
   - [[#functor][<<<Functor>>>]]
-    - [[#functor-laws][Functor laws]]
-      - [[#functor-identity-law][Functor identity law]]
+    - [[#functor-laws][<<<Functor laws>>>]]
+      - [[#functor-identity-law][<<<Functor identity law>>>]]
       - [[#functor-composition-law][Functor composition law]]
-    - [[#lift][Lift]]
-    - [[#forgetful-functor][Forgetful functor]]
+    - [[#lift][<<<Lift>>>]]
+    - [[#forgetful-functor][<<<Forgetful functor>>>]]
     - [[#-12][/*/]]
-      - [[#powerset-functor][Powerset functor]]
-      - [[#fmap][fmap]]
+      - [[#powerset-functor][<<<Powerset functor>>>]]
+      - [[#fmap][<<<fmap>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#gen-type][<<<Gen type>>>]]
   - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#higher-order-function][<<<Higher-order function>>>]]
     - [[#-13][/*/]]
-      - [[#hof][HOF]]
+      - [[#hof][<<<HOF>>>]]
   - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
   - [[#hom-set][<<<Hom-set>>>]]
-    - [[#hom-functor][Hom-functor]]
+    - [[#hom-functor][<<<Hom-functor>>>]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
     - [[#-14][/*/]]
-      - [[#idiomatic][Idiomatic]]
+      - [[#idiomatic][<<<Idiomatic>>>]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -178,96 +178,96 @@ Important notes on Haskel, category & related fields.
   - [[#interface][<<<Interface>>>]]
   - [[#io][<<<IO>>>]]
   - [[#kernel][<<<Kernel>>>]]
-    - [[#kernel-homomorphism][Kernel homomorphism]]
+    - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
     - [[#-15][/*/]]
-      - [[#lambda-term][Lambda term]]
+      - [[#lambda-term][<<<Lambda term>>>]]
   - [[#lambda-cube][<<<Lambda cube>>>]]
   - [[#lambda-function][<<<Lambda function>>>]]
-    - [[#lambda-expression][Lambda expression]]
-    - [[#anonymous-function][Anonymous function]]
+    - [[#lambda-expression][<<<Lambda expression>>>]]
+    - [[#anonymous-function][<<<Anonymous function>>>]]
   - [[#leaf][<<<Leaf>>>]]
   - [[#left-associative][<<<Left associative>>>]]
   - [[#level-of-code][<<<Level of code>>>]]
-    - [[#term-level][Term level]]
-    - [[#type-level][Type level]]
-    - [[#compile-level][Compile level]]
-      - [[#compilation-level][Compilation level]]
-    - [[#runtime-level][Runtime level]]
+    - [[#term-level][<<<Term level>>>]]
+    - [[#type-level][<<<Type level>>>]]
+    - [[#compile-level][<<<Compile level>>>]]
+      - [[#compilation-level][<<<Compilation level>>>]]
+    - [[#runtime-level][<<<Runtime level>>>]]
     - [[#-16][/*/]]
-      - [[#code-level][Code level]]
+      - [[#code-level][<<<Code level>>>]]
   - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-17][/*/]]
-      - [[#static-scope][Static scope]]
+      - [[#static-scope][<<<Static scope>>>]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#linear-type][<<<Linear type>>>]]
   - [[#local-scope][<<<Local scope>>>]]
     - [[#-18][/*/]]
-      - [[#local][Local]]
+      - [[#local][<<<Local>>>]]
   - [[#magma][<<<Magma>>>]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
   - [[#monad][<<<Monad>>>]]
     - [[#functor---applicative---monad-progression][Functor -> Applicative -> Monad progression]]
-    - [[#monad-type-class][Monad type class]]
-    - [[#monad-functions][Monad functions]]
+    - [[#monad-type-class][<<<Monad type class>>>]]
+    - [[#monad-functions][<<<Monad functions>>>]]
       - [[#return][Return]]
       - [[#bind-1][Bind]]
         - [[#-19][(>>=)]]
       - [[#join][Join]]
         - [[#joinfmap--][join.fmap == (=<<)]]
       - [[#sequencing-operator---][Sequencing operator (>>) == (*>):]]
-    - [[#monad-or-applicative][Monad OR Applicative]]
+    - [[#monad-or-applicative][<<<Monad OR Applicative>>>]]
       - [[#start-writing-monad-using-return-ap-liftm-liftm2--instead-of-do][Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>=']]
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
-    - [[#maybe-monad][Maybe monad]]
-    - [[#either-monad][Either monad]]
-    - [[#monad-laws][Monad laws]]
-      - [[#monad-left-identity-law][Monad left identity law]]
-      - [[#monad-right-identity-law][Monad right identity law]]
-      - [[#monad-associativity-law][Monad associativity law]]
-    - [[#comonad][Comonad]]
+    - [[#maybe-monad][<<<Maybe monad>>>]]
+    - [[#either-monad][<<<Either monad>>>]]
+    - [[#monad-laws][<<<Monad laws>>>]]
+      - [[#monad-left-identity-law][<<<Monad left identity law>>>]]
+      - [[#monad-right-identity-law][<<<Monad right identity law>>>]]
+      - [[#monad-associativity-law][<<<Monad associativity law>>>]]
+    - [[#comonad][<<<Comonad>>>]]
   - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#monoid][<<<Monoid>>>]]
     - [[#monoid-laws][Monoid laws]]
-      - [[#monoid-left-identity-law][Monoid left identity law]]
-      - [[#monoid-right-identity-law][Monoid right identity law]]
-      - [[#monoid-associativity-law][Monoid associativity law]]
-    - [[#commutative-monoid][Commutative monoid]]
+      - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
+      - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
+      - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
+    - [[#commutative-monoid][<<<Commutative monoid>>>]]
       - [[#-20][/*/]]
-        - [[#abelian-monoid][Abelian monoid]]
+        - [[#abelian-monoid][<<<Abelian monoid>>>]]
   - [[#monoidal-functor][<<<Monoidal functor>>>]]
   - [[#morphism][<<<Morphism>>>]]
-    - [[#homomorphism][Homomorphism]]
+    - [[#homomorphism][<<<Homomorphism>>>]]
       - [[#-21][/*/]]
-        - [[#homomorphic][Homomorphic]]
+        - [[#homomorphic][<<<Homomorphic>>>]]
     - [[#identity-morphism][Identity morphism]]
-      - [[#identity][Identity]]
-        - [[#two-sided-identity-of-a-predicate][Two-sided identity of a predicate]]
-        - [[#left-identity-of-a-predicate][Left identity of a predicate]]
-        - [[#right-identity-of-a-predicate][Right identity of a predicate]]
-      - [[#identity-function][Identity function]]
-    - [[#monomorphism][Monomorphism]]
+      - [[#identity][<<<Identity>>>]]
+        - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
+        - [[#left-identity-of-a-predicate][<<<Left identity of a predicate>>>]]
+        - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
+      - [[#identity-function][<<<Identity function>>>]]
+    - [[#monomorphism][<<<Monomorphism>>>]]
       - [[#-22][/*/]]
-        - [[#monomorphic][Monomorphic]]
-    - [[#epimorphism][Epimorphism]]
+        - [[#monomorphic][<<<Monomorphic>>>]]
+    - [[#epimorphism][<<<Epimorphism>>>]]
       - [[#-23][/*/]]
-        - [[#epimorphic][Epimorphic]]
-    - [[#isomorphism][Isomorphism]]
+        - [[#epimorphic][<<<Epimorphic>>>]]
+    - [[#isomorphism][<<<Isomorphism>>>]]
       - [[#-24][/*/]]
-        - [[#isomorphic][Isomorphic]]
-    - [[#endomorphism][Endomorphism]]
-      - [[#automorphism][Automorphism]]
+        - [[#isomorphic][<<<Isomorphic>>>]]
+    - [[#endomorphism][<<<Endomorphism>>>]]
+      - [[#automorphism][<<<Automorphism>>>]]
         - [[#-25][/*/]]
-          - [[#automorphic][Automorphic]]
+          - [[#automorphic][<<<Automorphic>>>]]
       - [[#-26][/*/]]
-        - [[#endomorphic][Endomorphic]]
-    - [[#catamorphism][Catamorphism]]
+        - [[#endomorphic][<<<Endomorphic>>>]]
+    - [[#catamorphism][<<<Catamorphism>>>]]
       - [[#-27][/*/]]
-        - [[#catamorphic][Catamorphic]]
+        - [[#catamorphic][<<<Catamorphic>>>]]
   - [[#newtype-declaration][<<<newtype declaration>>>]]
   - [[#node][<<<Node>>>]]
   - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
@@ -284,25 +284,25 @@ Important notes on Haskel, category & related fields.
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][\eta-abstraction]]
       - [[#-28][/*/]]
-        - [[#eta-reduction][\eta-reduction]]
-        - [[#eta-conversion][\eta-conversion]]
-        - [[#eta-abstraction-1][eta-abstraction]]
-        - [[#eta-reduction-1][eta-reduction]]
-        - [[#eta-conversion-1][eta-conversion]]
+        - [[#eta-reduction][<<<\eta-reduction>>>]]
+        - [[#eta-conversion][<<<\eta-conversion>>>]]
+        - [[#eta-abstraction-1][<<<eta-abstraction>>>]]
+        - [[#eta-reduction-1][<<<eta-reduction>>>]]
+        - [[#eta-conversion-1][<<<eta-conversion>>>]]
     - [[#blackbird][Blackbird]]
       - [[#-29][/*/]]
-        - [[#-][.) .]]
+        - [[#-][<<<.) .>>>]]
         - [[#sectioning][Sectioning]]
-        - [[#-30][(.).(.)]]
+        - [[#-30][<<<(.).(.)>>>]]
     - [[#swing][Swing]]
     - [[#squish][Squish]]
     - [[#-31][/*/]]
-      - [[#pointfree][Pointfree]]
-      - [[#tacit][Tacit]]
-      - [[#tacit-programming][Tacit programming]]
+      - [[#pointfree][<<<Pointfree>>>]]
+      - [[#tacit][<<<Tacit>>>]]
+      - [[#tacit-programming][<<<Tacit programming>>>]]
   - [[#polymorphism][<<<Polymorphism>>>]]
-    - [[#levity-polymorphism][Levity polymorphism]]
-    - [[#parametric-polymorphism][Parametric polymorphism]]
+    - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
+    - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][Rank-1 polymorphism]]
         - [[#-32][/*/]]
           - [[#prenex][Prenex]]
@@ -316,10 +316,10 @@ Important notes on Haskel, category & related fields.
       - [[#higher-rank-polymorphism][Higher-rank polymorphism]]
         - [[#-34][/*/]]
           - [[#rank-n-polymorphism][Rank-n polymorphism]]
-    - [[#subtype-polymorphism][Subtype polymorphism]]
-    - [[#row-polymorphism][Row polymorphism]]
-    - [[#kind-polymorphism][Kind polymorphism]]
-    - [[#linearity-polymorphism][Linearity polymorphism]]
+    - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
+    - [[#row-polymorphism][<<<Row polymorphism>>>]]
+    - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
+    - [[#linearity-polymorphism][<<<Linearity polymorphism>>>]]
   - [[#pragma][<<<Pragma>>>]]
     - [[#language-pragma][LANGUAGE pragma]]
       - [[#language-option][LANGUAGE option]]
@@ -345,14 +345,14 @@ Important notes on Haskel, category & related fields.
         - [[#tuplesections][TupleSections]]
         - [[#typeapplications][TypeApplications]]
         - [[#typefamilies][TypeFamilies]]
-          - [[#data-families][Data families]]
-          - [[#type-synonym-families][Type synonym families]]
+          - [[#data-families][<<<Data families>>>]]
+          - [[#type-synonym-families][<<<Type synonym families>>>]]
         - [[#typesynonyminstances][TypeSynonymInstances]]
         - [[#undecidableinstances][UndecidableInstances]]
         - [[#viewpatterns][ViewPatterns]]
         - [[#datatypecontexts][DatatypeContexts]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
-    - [[#pragma-option][Pragma option]]
+    - [[#pragma-option][<<<Pragma option>>>]]
   - [[#predicate][<<<Predicate>>>]]
   - [[#predicative][<<<Predicative>>>]]
   - [[#principal-type][<<<Principal type>>>]]
@@ -361,13 +361,13 @@ Important notes on Haskel, category & related fields.
   - [[#proxy-type][<<<Proxy type>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
     - [[#-35][/*/]]
-      - [[#psi-combinator-1][Psi-combinator]]
-      - [[#on-combinator][On-combinator]]
+      - [[#psi-combinator-1][<<<Psi-combinator>>>]]
+      - [[#on-combinator][<<<On-combinator>>>]]
   - [[#purity][<<<Purity>>>]]
   - [[#quantifier][<<<Quantifier>>>]]
-    - [[#forall-quantifier][Forall quantifier]]
+    - [[#forall-quantifier][<<<Forall quantifier>>>]]
       - [[#-36][/*/]]
-        - [[#forall][Forall]]
+        - [[#forall][<<<Forall>>>]]
   - [[#recursion][<<<Recursion>>>]]
   - [[#redex][<<<Redex>>>]]
   - [[#reduction][<<<Reduction>>>]]
@@ -377,9 +377,9 @@ Important notes on Haskel, category & related fields.
   - [[#scope][<<<Scope>>>]]
   - [[#sectioning-1][<<<Sectioning>>>]]
   - [[#semantics][<<<Semantics>>>]]
-    - [[#operational-semantics][Operational semantics]]
-    - [[#denotational-semantics][Denotational semantics]]
-    - [[#axiomatic-semantics][Axiomatic semantics]]
+    - [[#operational-semantics][<<<Operational semantics>>>]]
+    - [[#denotational-semantics][<<<Denotational semantics>>>]]
+    - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#semigroup][<<<Semigroup>>>]]
   - [[#set][<<<Set>>>]]
   - [[#set-category][<<<SET category>>>]]
@@ -403,18 +403,18 @@ Important notes on Haskel, category & related fields.
   - [[#tensor][<<<Tensor>>>]]
   - [[#terminal-object][<<<Terminal object>>>]]
   - [[#testing][<<<Testing>>>]]
-    - [[#property-testing][Property testing]]
-      - [[#property][Property]]
-      - [[#property-testing-types][Property testing types]]
-      - [[#generator][Generator]]
+    - [[#property-testing][<<<Property testing>>>]]
+      - [[#function-property][<<<Function property>>>]]
+      - [[#property-testing-types][<<<Property testing types>>>]]
+      - [[#generator][<<<Generator>>>]]
         - [[#custom-generator][Custom generator]]
-      - [[#reusing-test-code][Reusing test code]]
-        - [[#commutative-property][Commutative property]]
-        - [[#symmetry-property][Symmetry property]]
-        - [[#equivalence-property][Equivalence property]]
-        - [[#inverse-property][Inverse property]]
-      - [[#quickcheck][QuickCheck]]
-      - [[#manual-automation-with-quickcheck-properties][Manual automation with QuickCheck properties]]
+      - [[#reusing-test-code][<<<Reusing test code>>>]]
+        - [[#test-commutative-property][<<<Test Commutative property>>>]]
+        - [[#test-symmetry-property][<<<Test Symmetry property>>>]]
+        - [[#test-equivalence-property][<<<Test Equivalence property>>>]]
+        - [[#test-inverse-property][<<<Test Inverse property>>>]]
+      - [[#quickcheck][<<<QuickCheck>>>]]
+        - [[#manual-automation-with-quickcheck-properties][Manual automation with QuickCheck properties]]
     - [[#write-tests-algorithm][Write tests algorithm]]
   - [[#tuple][<<<Tuple>>>]]
   - [[#type][<<<Type>>>]]
@@ -437,12 +437,12 @@ Important notes on Haskel, category & related fields.
   - [[#zero][<<<Zero>>>]]
   - [[#bound][<<<Bound>>>]]
     - [[#-38][/*/]]
-      - [[#bounded][Bounded]]
+      - [[#bounded][<<<Bounded>>>]]
   - [[#typed-hole][<<<Typed hole>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
     - [[#-39][/*/]]
-      - [[#predicate-logic][Predicate logic]]
-      - [[#first-order-predicate-calculus][First-order predicate calculus]]
+      - [[#predicate-logic][<<<Predicate logic>>>]]
+      - [[#first-order-predicate-calculus][<<<First-order predicate calculus>>>]]
   - [[#context][<<<Context>>>]]
   - [[#thunk][<<<Thunk>>>]]
   - [[#group][<<<Group>>>]]
@@ -469,89 +469,90 @@ Important notes on Haskel, category & related fields.
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
     - [[#-41][/*/]]
-      - [[#either-data-type][Either data type]]
+      - [[#either-data-type][<<<Either data type>>>]]
   - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-42][/*/]]
-      - [[#whnf][WHNF]]
+      - [[#whnf][<<<WHNF>>>]]
   - [[#function-image][<<<Function image>>>]]
-    - [[#image][Image]]
+    - [[#image][<<<Image>>>]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#language-pragma-options][<<<LANGUAGE pragma options>>>]]
-    - [[#funcitonaldependencies][FuncitonalDependencies]]
+    - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#pattern-guard][<<<Pattern guard>>>]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
   - [[#partial-inverse][<<<Partial inverse>>>]]
   - [[#define-language-pragma-options][<<<Define LANGUAGE pragma options>>>]]
-    - [[#existentialquantification][ExistentialQuantification]]
-    - [[#gadts][GADTs]]
-    - [[#generalizednewtypeclasses][GeneralizedNewTypeClasses]]
+    - [[#existentialquantification][<<<ExistentialQuantification>>>]]
+    - [[#gadts][<<<GADTs>>>]]
+    - [[#generalizednewtypeclasses][<<<GeneralizedNewTypeClasses>>>]]
   - [[#type-rank][<<<Type rank>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
-    - [[#-ddump-ds][-ddump-ds]]
+    - [[#-ddump-ds][<<<-ddump-ds>>>]]
       - [[#-43][/*/]]
-        - [[#ghc-desugar][GHC desugar]]
+        - [[#desugar][<<<Desugar>>>]]
+        - [[#ghc-desugar][<<<GHC desugar>>>]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
-    - [[#-foptimal-applicative-do][-foptimal-applicative-do]]
+    - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
-    - [[#-wno-partial-type-signatures][-Wno-partial-type-signatures]]
+    - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#rhs][<<<RHS>>>]]
   - [[#lhs][<<<LHS>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
     - [[#-44][/*/]]
-      - [[#gadt][GADT]]
+      - [[#gadt][<<<GADT>>>]]
   - [[#order-theory][<<<Order theory>>>]]
-    - [[#domain-theory][Domain theory]]
-    - [[#lattice][Lattice]]
-    - [[#ordering][Ordering]]
-      - [[#preorder-1][Preorder]]
-        - [[#total-preorder][Total preorder]]
-      - [[#partial-ordering][Partial ordering]]
+    - [[#domain-theory][<<<Domain theory>>>]]
+    - [[#lattice][<<<Lattice>>>]]
+    - [[#ordering][<<<Ordering>>>]]
+      - [[#preorder-1][<<<Preorder>>>]]
+        - [[#total-preorder][<<<Total preorder>>>]]
+      - [[#partial-ordering][<<<Partial ordering>>>]]
         - [[#-45][/*/]]
-          - [[#partially-ordered-set][Partially ordered set]]
-          - [[#poset][Poset]]
+          - [[#partially-ordered-set][<<<Partially ordered set>>>]]
+          - [[#poset][<<<Poset>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
-    - [[#reflexivity][Reflexivity]]
+    - [[#reflexivity][<<<Reflexivity>>>]]
       - [[#-46][/*/]]
-        - [[#reflexive][Reflexive]]
-        - [[#reflexive-relation][Reflexive relation]]
-    - [[#irreflexivity][Irreflexivity]]
+        - [[#reflexive][<<<Reflexive>>>]]
+        - [[#reflexive-relation][<<<Reflexive relation>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-47][/*/]]
-        - [[#anti-reflexive][Anti-reflexive]]
-        - [[#anti-reflexive-relation][Anti-reflexive relation]]
-        - [[#irreflexive][Irreflexive]]
-        - [[#irreflexive-relation][Irreflexive relation]]
-    - [[#transitivity][Transitivity]]
+        - [[#anti-reflexive][<<<Anti-reflexive>>>]]
+        - [[#anti-reflexive-relation][<<<Anti-reflexive relation>>>]]
+        - [[#irreflexive][<<<Irreflexive>>>]]
+        - [[#irreflexive-relation][<<<Irreflexive relation>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-48][/*/]]
-        - [[#transitive][Transitive]]
-        - [[#transitive-relation][Transitive relation]]
-    - [[#symmetry][Symmetry]]
+        - [[#transitive][<<<Transitive>>>]]
+        - [[#transitive-relation][<<<Transitive relation>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-49][/*/]]
-        - [[#symmetric][Symmetric]]
-        - [[#symmetric-relation][Symmetric relation]]
-    - [[#equivalence][Equivalence]]
+        - [[#symmetric][<<<Symmetric>>>]]
+        - [[#symmetric-relation][<<<Symmetric relation>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-50][/*/]]
-        - [[#equivalent][Equivalent]]
-        - [[#equivalent-relation][Equivalent relation]]
-    - [[#antisymmetry][Antisymmetry]]
+        - [[#equivalent][<<<Equivalent>>>]]
+        - [[#equivalent-relation][<<<Equivalent relation>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-51][/*/]]
-        - [[#antisymmetric][Antisymmetric]]
-        - [[#antisymmetric-relation][Antisymmetric relation]]
-    - [[#asymmetry][Asymmetry]]
+        - [[#antisymmetric][<<<Antisymmetric>>>]]
+        - [[#antisymmetric-relation][<<<Antisymmetric relation>>>]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
       - [[#-52][/*/]]
-        - [[#asymmetric][Asymmetric]]
-        - [[#asymmetric-relation][Asymmetric relation]]
+        - [[#asymmetric][<<<Asymmetric>>>]]
+        - [[#asymmetric-relation][<<<Asymmetric relation>>>]]
   - [[#commutativity][<<<Commutativity>>>]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
     - [[#-53][/*/]]
-      - [[#crypromorphic][Crypromorphic]]
+      - [[#crypromorphic][<<<Crypromorphic>>>]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
     - [[#-54][/*/]]
-      - [[#absdt][AbsDT]]
+      - [[#absdt][<<<AbsDT>>>]]
   - [[#adt][<<<ADT>>>]]
   - [[#algebraic][<<<Algebraic>>>]]
 - [[#citations][Citations]]
@@ -768,9 +769,9 @@ For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
 *** /*/
-**** Heap
+**** <<<Heap>>>
 See [[Application memory]].
-**** Stack
+**** <<<Stack>>>
 See [[Application memory]].
 ** <<<Applicative>>> :drill:
 :PROPERTIES:
@@ -788,29 +789,29 @@ Requires [[Monoid][Monoidal]] structure. And has structure rules, that are separ
 Structure goes through Monoidal process.
 
 [[Data type]]s can have several applicative implementations.
-*** Applicative laws
-**** Applicative identity law
+*** <<<Applicative laws>>>
+**** <<<Applicative identity law>>>
 #+begin_src haskell
 pure id <*> v = v
 #+end_src
-**** Applicative composition law
+**** <<<Applicative composition law>>>
 Function composition works regularly.
 #+begin_src haskell
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
-**** Applicative homomorphism law
+**** <<<Applicative homomorphism law>>>
 Applying the function doesn't change the structure around values.
 #+begin_src haskell
 pure f <*> pure x = pure (f x)
 #+end_src
-**** Applicative interchange law
+**** <<<Applicative interchange law>>>
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
 #+begin_src haskell
 u <*> pure y = pure ($ y) <*> u
 #+end_src
 
-*** Special applicatives
-**** Identity applicative
+*** <<<Special applicatives>>>
+**** <<<Identity applicative>>>
 #+begin_src haskell
 -- Applicative f =>
 -- f ~ Identity
@@ -826,7 +827,7 @@ xs = [1, 2, 3]
 const <$> mkId xs <*> mkId xs'
 -- [1,2,3]
 #+end_src
-**** Constant applicative
+**** <<<Constant applicative>>>
 It holds only to one value. The function does not exist and `b` is phantom.
 #+begin_src haskell
 -- Applicative f =>
@@ -843,7 +844,7 @@ pure 1 :: Constant String Int
 -- Constant {getConstant = ""}
 #+end_src
 
-**** Maybe applicative
+**** <<<Maybe applicative>>>
 "There also can be no function at all."
 
 If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
@@ -853,29 +854,29 @@ type M = Maybe
 pure :: a -> M a
 (<*>) :: M (a -> b) -> M a -> M b
 #+end_src
-**** Either applicative
+**** <<<Either applicative>>>
 `pure` is `Right`.
 Defaults to `Left`.
 And if there is two Left's - to Left of the first argument.
-**** Validation applicative
+**** <<<Validation applicative>>>
 The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
 For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
 Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
 *** Applicative functions
-**** liftA*
-***** liftA
+**** <<<liftA*>>>
+***** <<<liftA>>>
 Essentially a [[fmap]].
 #+begin_src haskell
 :type liftA
 liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
-***** liftA2
+***** <<<liftA2>>>
 Lifts [[Binary][binary]] [[Function][function]] across two [[Applicative]]s [[Functor][functor]]s.
 #+begin_src haskell
 :type liftA2
 liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
 #+end_src
-***** liftA2 (<*>)
+***** <<<liftA2 (<*>)>>>
 liftA2 (<*>) is pretty useful. It can lift [[Binary][binary operation]] through the two layers:
 It is two-layer Applicative.
 #+begin_src haskell
@@ -883,9 +884,9 @@ liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f 
 <*> :: Applicative f =>    (f  (a -> b) -> f a -> f b)
 liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
 #+end_src
-***** liftA2 (liftA2 (<*>))
+***** <<<liftA2 (liftA2 (<*>))>>>
 [[liftA2 (<*>)]] 3-layer version.
-***** liftA3
+***** <<<liftA3>>>
 [[liftA2]] 3-parameter version.
 ** <<<Applicative functor>>> :drill:
 :PROPERTIES:
@@ -1047,7 +1048,7 @@ Extends the [[Curry–Howard correspondence]] to the proofs in the full intuitio
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
 *** /*/
-**** CoC
+**** <<<CoC>>>
 See [[Calculus of constructions]].
 ** <<<Cardinality>>> :drill:
 SCHT: <2019-06-10 Mon>
@@ -1120,9 +1121,9 @@ Category (/C/) consists of the [[Basis]]:
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** /*/
-**** Object
+**** <<<Object>>>
 See [[Category]]
-**** Category theory
+**** <<<Category theory>>>
 See [[Category]]
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
@@ -1200,7 +1201,7 @@ Informal broad meaning: referring to the style of organizing libraries centered 
 :END:
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
-**** Commutative
+**** <<<Commutative>>>
 See Commutative law
 ** <<<Composition>>> :drill:
 :PROPERTIES:
@@ -1260,7 +1261,7 @@ See: [[Ad hoc polymorphism]]
 (:) :: a -> [a] -> [a]
 #+end_src
 *** /*/
-**** Cons
+**** <<<Cons>>>
 Short for [[Construct]].
 ** <<<Constructor>>> :drill:
 :PROPERTIES:
@@ -1283,9 +1284,9 @@ $$ V^{i} = x $$
 The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
 
 *** /*/
-**** Contravariant cofunctor
+**** <<<Contravariant cofunctor>>>
 See [[Contravariant]].
-**** Contravariant functor
+**** <<<Contravariant functor>>>
 More inline term is [[Contravariant cofunctor]]
 ** <<<Covariant>>> :drill:
 :PROPERTIES:
@@ -1312,7 +1313,7 @@ More inline term is [[Covariant cofunctor]]
 :END:
 Computer programs are mathematical proofs.
 *** /*/
-**** Curry–Howard isomorphism
+**** <<<Curry–Howard isomorphism>>>
 See [[Curry–Howard correspondence]].
 ** <<<Currying>>> :drill:
 :PROPERTIES:
@@ -1357,15 +1358,15 @@ Data type, type.
 *** Algebraic data type
 Composite type formed by combining other types.
 **** /*/
-***** AlgDT
+***** <<<AlgDT>>>
 See [[Algebraic data type]]
-*** Higher-kinded data type
+*** <<<Higher-kinded data type>>>
 Any combination of * and ->
 
 Type that take more types as arguments.
-*** Product data type
+*** <<<Product data type>>>
 [[Algebraic data type]] formed by logical [[Conjunction][conjunction]] (AND ' ').
-*** Sum data type
+*** <<<Sum data type>>>
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
 ** <<<Declaration>>> :drill:
 SCHT: <2019-06-18 Tue>
@@ -1412,7 +1413,7 @@ $$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
 Last one is partial.
 
 $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
-*** Differential
+*** <<<Differential>>>
 See [[Differential operator]]
 ** <<<Disjunction>>> :drill:
 SCHT: <2019-06-17 Mon>
@@ -1532,12 +1533,12 @@ Function is a mathematical [[Operation][operation]].
 Function = Total function = Pure function. Function theoretically posible to momoized.
 [[Partial function]].
 Inverse function - often partially exists (partial function).
-*** Function head
+*** <<<Function head>>>
 Is a part with Name of the [[Function][function]] and it's [[Parameter][paramenter]].
 AKA: f(x)
-*** Function body
+*** <<<Function body>>>
 [[Expression]] that haracterizes the process.
-*** Function composition
+*** <<<Function composition>>>
 #+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
 
@@ -1549,17 +1550,17 @@ In Haskell inline composition requires:
 h.g.f $ i
 #+end_src
 **** /*/
-***** Composition
-***** Compose :drill:
+***** <<<Composition>>>
+***** <<<Compose>>> :drill:
 :PROPERTIES:
 :ID:       df869dc5-71e1-4457-a449-039c095a6cf2
 :END:
-*** Function application
+*** <<<Function application>>>
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
-*** Function range
+*** <<<Function range>>>
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see [[Function image]].
-*** Injection
+*** <<<Injection>>>
 [[Function]] one-to-one injects from domain to codomain.
 Keeps distinct pairing of elements of domain and image.
 Every element in image coresponds to one element in domain.
@@ -1576,11 +1577,11 @@ $f : X \rightarrowtail Y$
 
 Corresponds to [[Monomorphism]].
 **** /*/
-***** Injective
+***** <<<Injective>>>
 See [[Injection]].
-***** Injective function
+***** <<<Injective function>>>
 See [[Injection]].
-*** Surjection
+*** <<<Surjection>>>
 [[Function]] uses codomain fully.
 
 $$ \forall y \in Y, \exists x \in X $$
@@ -1595,11 +1596,11 @@ $$ f : X \twoheadrightarrow Y $$
 
 Corresponds to [[Epimorphism]].
 **** /*/
-***** Surjective
+***** <<<Surjective>>>
 See [[Surjection]].
-***** Surjective function
+***** <<<Surjective function>>>
 See [[Surjection]].
-*** Bijection
+*** <<<Bijection>>>
 [[Function]] complete one-to-one pairing of elements of domain and codomain (image).
 It means function both [[Surjection][surjective]] (so image == codomain) and [[Injection][injective]] (every domain element has unique correspondence to the image element).
 
@@ -1616,9 +1617,9 @@ f : X ⤖ Y
 LaTeX needed to combine symbols:
 $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
 **** /*/
-***** Bijective
+***** <<<Bijective>>>
 See [[Bijection]].
-***** Bijective function
+***** <<<Bijective function>>>
 See [[Bijection]].
 ** <<<Functor>>> :drill:
 :PROPERTIES:
@@ -1646,9 +1647,9 @@ For functor instance to work [[Higher-kinded data type]]s type must be [[Functio
 Functor can be used to filter-out error cases (Nothing & Left cases) in [[Maybe]], [[Either]] and related types.
 
 Functor abides [[Functor laws]].
-*** Functor laws
+*** <<<Functor laws>>>
 Type instance of functor should abide this laws:
-**** Functor identity law
+**** <<<Functor identity law>>>
 #+begin_src haskell
 fmap id == id
 #+end_src
@@ -1657,14 +1658,14 @@ fmap id == id
 fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are [[functional composition][composed]] and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
-*** Lift
+*** <<<Lift>>>
 Lift is to do a [[Function application][function application]] through the data structure.
-*** Forgetful functor
+*** <<<Forgetful functor>>>
 [[Functor]] that forgets part or all of what defines structure in [[Domain][domain]] [[Category][category]].
 *** /*/
-**** Powerset functor
+**** <<<Powerset functor>>>
 See: [[Functor]]
-**** fmap
+**** <<<fmap>>>
 See: [[Functor]]
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
@@ -1708,7 +1709,7 @@ See [[System F]].
 Has function as a [[Parameter][parameter]].
 Evaluates to function.
 *** /*/
-**** HOF
+**** <<<HOF>>>
 See: [[Higher-order function]]
 ** <<<Hindley–Milner type system>>> :drill:
 :PROPERTIES:
@@ -1729,7 +1730,7 @@ $$ hom(X,Y) $$
 $$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
 Denotation was not standartized.
 
-*** Hom-functor
+*** <<<Hom-functor>>>
 $$ hom:C^{op} \times C \to Set $$, for C (locally small category)
 from the product category of the category C with its opposite category to the category Set of sets.
 
@@ -1765,7 +1766,7 @@ Meaning can be special for language speakers or human with particular knowledge.
 
 For different meaning - it is [[Applicative functor]].
 *** /*/
-**** Idiomatic
+**** <<<Idiomatic>>>
 See [[Idiom]].
 ** <<<Iff>>> :drill:
 :PROPERTIES:
@@ -1857,7 +1858,7 @@ It is a number of elements that collide and fail injectivity, thou Kernel $$ [ x
 
 Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
-*** Kernel homomorphism
+*** <<<Kernel homomorphism>>>
 Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
 ** <<<Kind>>> :drill:
 :PROPERTIES:
@@ -1886,7 +1887,7 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
    * [[Function application][application]] ($$ (ts) $$)
    * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
 *** /*/
-**** Lambda term
+**** <<<Lambda term>>>
 See [[Lambda calculus]]
 ** <<<Lambda cube>>> :drill:
 :PROPERTIES:
@@ -1914,9 +1915,9 @@ $$ \lambda x y.x^2 + y^3 $$
   \___parameter
 (___)
    \____HEAD
-*** Lambda expression
+*** <<<Lambda expression>>>
 See [[Lambda function]]
-*** Anonymous function
+*** <<<Anonymous function>>>
 [[Lambda function]] without the name to [[Bind][bind]] to.
 ** <<<Leaf>>> :drill:
 :PROPERTIES:
@@ -1934,17 +1935,17 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
 :END:
 There are mainly three levels of Haskell code.
-*** Term level
+*** <<<Term level>>>
 [[Level of code]] that works with [[Data type][data types]]
-*** Type level
+*** <<<Type level>>>
 [[Level of code]] that does logical execution.
-*** Compile level
+*** <<<Compile level>>>
 [[Level of code]] when code compiles/compiled.
-**** Compilation level
-*** Runtime level
+**** <<<Compilation level>>>
+*** <<<Runtime level>>>
 [[Level of code]] when binary code executes in machine.
 *** /*/
-**** Code level
+**** <<<Code level>>>
 See [[Level of code]]
 ** <<<Lexical scope>>> :drill:
 SCHT: <2019-06-21 Fri>
@@ -1961,7 +1962,7 @@ SCHT: <2019-06-21 Fri>
 :END:
 Scope bound by the structure of source code where the named entity is defined.
 *** /*/
-**** Static scope
+**** <<<Static scope>>>
 See [[Lexical scope]]
 ** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
@@ -1994,7 +1995,7 @@ SCHT: <2019-06-20 Thu>
 :END:
 [[Scope]] applies only in (current) area.
 *** /*/
-**** Local
+**** <<<Local>>>
 See: [[Local scope]]
 ** <<<Magma>>> :drill:
 :PROPERTIES:
@@ -2041,7 +2042,7 @@ import Control.Monad (ap)
 flip >>= ::  Monad f =>   (a -> f b)  -> f a  -> f b
 #+end_src
 This is [[Natural transformation]]s.
-*** Monad type class
+*** <<<Monad type class>>>
 #+begin_src haskell
 class Applicative m => Monad m where
   (>>=) :: m a -> (a -> m b) -> m b
@@ -2049,7 +2050,7 @@ class Applicative m => Monad m where
   return :: a -> m a
 #+end_src
 
-*** Monad functions
+*** <<<Monad functions>>>
 **** Return
 #+begin_src haskell
 return == pure
@@ -2108,7 +2109,7 @@ Discards any resulting value of the action and sequence next action.
 (*>) :: f a -> f b -> f b
 #+end_src
 Applicative has a similar operator.
-*** Monad OR Applicative
+*** <<<Monad OR Applicative>>>
 **** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
 If you wrote code and really needed only those - move that code to Applicative.
 #+begin_src haskell
@@ -2137,13 +2138,13 @@ pure (a, b)
 **** Applicative block vs Monad block
 With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
-*** Maybe monad
+*** <<<Maybe monad>>>
 Drops the chain of computation and returns Nothing as soon as Nothing arrives.
-*** Either monad
+*** <<<Either monad>>>
 Drops sequencing computation as soon as Left arrives.
-*** Monad laws
+*** <<<Monad laws>>>
 [[Pure]] ([[Return]]) should only put [[Argument][argument]] into structure.
-**** Monad left identity law
+**** <<<Monad left identity law>>>
 #+begin_src haskell
 return x >>= f == f x
 #+end_src
@@ -2155,7 +2156,7 @@ Explanation:
 #+end_src
 Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
 
-**** Monad right identity law
+**** <<<Monad right identity law>>>
 #+begin_src haskell
 f >>= return == f
 #+end_src
@@ -2167,12 +2168,12 @@ Explanation:
 #+end_src
 [[Tacit]] description of [[Monad][monad]] as [[Endofunctor][endofunctor]].
 
-**** Monad associativity law
+**** <<<Monad associativity law>>>
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\x -> f x >>= g)
 #+end_src
 
-*** Comonad
+*** <<<Comonad>>>
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
 ** <<<Monkey patch>>> :drill:
 SCHT: <2019-06-19 Wed>
@@ -2204,28 +2205,28 @@ mconcat :: [m] -> m
 mconcat = foldr mappend mempty
 #+end_src
 *** Monoid laws
-**** Monoid left identity law
+**** <<<Monoid left identity law>>>
 #+begin_src haskell
 mempty <> x = x
 #+end_src
 
-**** Monoid right identity law
+**** <<<Monoid right identity law>>>
 #+begin_src haskell
 x <> mempty = x
 #+end_src
 
-**** Monoid associativity law
+**** <<<Monoid associativity law>>>
 #+begin_src haskell
 x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
 #+end_src
 
-*** Commutative monoid
+*** <<<Commutative monoid>>>
 Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 **** /*/
-***** Abelian monoid
+***** <<<Abelian monoid>>>
 See [[Commutative monoid]]
 ** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
@@ -2243,7 +2244,7 @@ Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of [[Homom
 Under morphism almost always mean homomorphism-like properties.
 
 If some morphism corresponds to function requirements - than it is a [[Function]].
-*** Homomorphism
+*** <<<Homomorphism>>>
 ὁμός /homos/ same (chosen by initial Anglish mistranslation "similar")
 μορφή /morphe/ form
 similar form
@@ -2266,37 +2267,37 @@ Homomorphisms send [[Identity morphism][identities]] to identities and inverses 
   * module
   * algebra
 **** /*/
-***** Homomorphic
+***** <<<Homomorphic>>>
 See [[Homomorphism]]
 *** Identity morphism
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
 
 Corresponds to [[Reflexivity]] and [[Automorphism]].
-**** Identity
+**** <<<Identity>>>
 Identity only possible with morphism. See [[Identity morphism]].
 
 There is also knowledge of [[Zero]] value.
-***** Two-sided identity of a predicate
+***** <<<Two-sided identity of a predicate>>>
 $$ P() $$ is [[Commutative][commutative]].
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 
 [[Predicate]]
-***** Left identity of a predicate
+***** <<<Left identity of a predicate>>>
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
 
 [[Predicate]]
-***** Right identity of a predicate
+***** <<<Right identity of a predicate>>>
 $$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
 
 [[Predicate]]
-**** Identity function
+**** <<<Identity function>>>
 Return itself.
 (\x.x)
 #+begin_src haskell
 id :: a -> a
 #+end_src
-*** Monomorphism
+*** <<<Monomorphism>>>
 μονο /mono/ only
 μορφή /morphe/ form
 
@@ -2309,9 +2310,9 @@ $$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ -
 $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
 Thus it is left canselable.
 **** /*/
-***** Monomorphic
+***** <<<Monomorphic>>>
 See [[Monomorphism]].
-*** Epimorphism
+*** <<<Epimorphism>>>
 επι /epi/ on, over
 μορφή /morphe/ form
 
@@ -2324,9 +2325,9 @@ Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
 **** /*/
-***** Epimorphic
+***** <<<Epimorphic>>>
 See [[Epimorphism]].
-*** Isomorphism
+*** <<<Isomorphism>>>
 ἴσος /isos/ equal
 μορφή /morphe/ form
 
@@ -2339,15 +2340,15 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
 - function at least ones collapses a values of domain into one value in codomain
 - image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 **** /*/
-***** Isomorphic
+***** <<<Isomorphic>>>
 See [[Isomorphism]].
-*** Endomorphism
+*** <<<Endomorphism>>>
 ενδο /endo/ internal
 μορφή /morphe/ form
 
 Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
 Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
-**** Automorphism
+**** <<<Automorphism>>>
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
@@ -2355,12 +2356,12 @@ Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 
 Corresponds to [[Identity]] and [[Reflexivity]].
 ***** /*/
-****** Automorphic
+****** <<<Automorphic>>>
 See [[Automorphism]]
 **** /*/
-***** Endomorphic
+***** <<<Endomorphic>>>
 See [[Endomorphism]]
-*** Catamorphism
+*** <<<Catamorphism>>>
 κατά /kata/ downward
 μορφή /morphe/ form
 
@@ -2368,7 +2369,7 @@ Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into s
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 **** /*/
-***** Catamorphic
+***** <<<Catamorphic>>>
 See [[Catamorphism]]
 ** <<<newtype declaration>>> :drill:
 SCHT: <2019-06-12 Wed>
@@ -2527,15 +2528,15 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 :END:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 **** /*/
-***** \eta-reduction
+***** <<<\eta-reduction>>>
 See [[\eta-abstraction]]
-***** \eta-conversion
+***** <<<\eta-conversion>>>
 See [[\eta-abstraction]]
-***** eta-abstraction
+***** <<<eta-abstraction>>>
 See [[\eta-abstraction]]
-***** eta-reduction
+***** <<<eta-reduction>>>
 See [[\eta-abstraction]]
-***** eta-conversion
+***** <<<eta-conversion>>>
 See [[\eta-abstraction]]
 *** Blackbird :drill:
 SCHT: <2019-06-20 Thu>
@@ -2559,11 +2560,11 @@ SCHT: <2019-06-20 Thu>
 \f g x y -> f (g x y)
 #+end_src
 **** /*/
-***** .) .
+***** <<<.) .>>>
 See [[Blackbird]]
 ***** Sectioning
 See [[Blackbird]]
-***** (.).(.)
+***** <<<(.).(.)>>>
 See [[Blackbird]]
 *** Swing :drill:
 :PROPERTIES:
@@ -2585,11 +2586,11 @@ f >>= a . b . c =<< g
 #+end_src
 
 *** /*/
-**** Pointfree
+**** <<<Pointfree>>>
 See [[Point-free]]
-**** Tacit
+**** <<<Tacit>>>
 See [[Point-free]]
-**** Tacit programming
+**** <<<Tacit programming>>>
 See [[Point-free]]
 ** <<<Polymorphism>>> :drill:
 :PROPERTIES:
@@ -2603,9 +2604,9 @@ To [[Abstraction][abstract]] over [[Data type][data types]].
 /Antonym - [[Monomorphism]]./
 
 Types:
-*** Levity polymorphism
+*** <<<Levity polymorphism>>>
 Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][unlifted types]].
-*** Parametric polymorphism
+*** <<<Parametric polymorphism>>>
 [[Abstraction][Abstracting]] over [[Data type][data types]] by [[Parameter][parameter]].
 
 /In most languages named as 'Generics' (generic programming)./
@@ -2671,7 +2672,7 @@ Useful example aslo a [[ST-Trick monad]].
 ***** /*/
 ****** Rank-n polymorphism
 See: [[Higher-rank polymorphism]]
-*** Subtype polymorphism
+*** <<<Subtype polymorphism>>>
 Allows to declare usage of a Type and all of its Subtypes.
 T - Type
 S - Subtype of Type
@@ -2681,7 +2682,7 @@ $$ S <: T = S \le T $$
 Subtyping is:
 If it can be done to T, and there is subtype S - then it also can be done to S.
 $$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
-*** Row polymorphism
+*** <<<Row polymorphism>>>
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
 Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
 #+begin_src haskell
@@ -2694,7 +2695,7 @@ printY rec = show rec.y
 -- type is inferred as `{x :: Int, y :: Int | r } -> String`
 printBoth rec = printX rec ++ printY rec
 #+end_src
-*** Kind polymorphism
+*** <<<Kind polymorphism>>>
 Achieved using a phantom type argument in the data type declaration.
 #+begin_src haskell
 ;;         * -> *
@@ -2711,7 +2712,7 @@ let proxy1 = (ProxyValue :: Proxy Int) -- * :: Proxy Int
 let proxy2 = (ProxyValue :: Proxy a)   -- * -> * :: Proxy a
 #+end_src
 
-*** Linearity polymorphism
+*** <<<Linearity polymorphism>>>
 Leverages [[Linear type][linear types]].
 For exampe - if fold over a dynamic array:
   1) In basic Haskell - array would be copied at every step.
@@ -3009,8 +3010,8 @@ Allow use and definition of indexed type and data families.
 Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 
 Two types of /*/ are:
-****** Data families
-****** Type synonym families
+****** <<<Data families>>>
+****** <<<Type synonym families>>>
 ***** TypeSynonymInstances :drill:
 :PROPERTIES:
 :ID:       3989b294-f011-48c0-9998-be10bd75c541
@@ -3069,7 +3070,7 @@ xFlagsDeps = [
 ]
 #+end_src
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
-*** Pragma option
+*** <<<Pragma option>>>
 Values supplied to the [[Pragma]] directive.
 ** <<<Predicate>>> :drill:
 :PROPERTIES:
@@ -3156,9 +3157,9 @@ import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
 *** /*/
-**** Psi-combinator
+**** <<<Psi-combinator>>>
 See: [[\Psi-combinator]]
-**** On-combinator
+**** <<<On-combinator>>>
 See: [[\Psi-combinator]]
 ** <<<Purity>>> :drill:
 :PROPERTIES:
@@ -3181,13 +3182,13 @@ SCHT: <2019-06-22 Sat>
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exists).
-*** Forall quantifier
+*** <<<Forall quantifier>>>
 Permits to not [[Type inference][infer]] the type, but to use any that fits. The variant depends on the [[LANGUAGE option]] used:
 [[ScopedTypeVariables]]
 [[RankNTypes]]
 [[ExistentialQuantification]]
 **** /*/
-***** Forall
+***** <<<Forall>>>
 See [[Forall quantifier]]
 ** <<<Recursion>>> :drill:
 :PROPERTIES:
@@ -3273,19 +3274,19 @@ Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
 :END:
 Philosophical study of meaning.
-*** Operational semantics
+*** <<<Operational semantics>>>
 Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
 
 Good to solve in-point localized tasks.
 Process of abstraction.
-*** Denotational semantics
+*** <<<Denotational semantics>>>
 Constructing mathematical objects (called denotations), that describe the meanings. It is an abstractions that are ment, laying above the code, allow to implement and reason about the code. Sometimes /*/ can be directly represented in the implementation, but it is not strict requirement.
 
 Good to achive more broad approach/meaning.
 Also see [[Abstraction]].
 
 /*/ are [[Composition][composable]].
-*** Axiomatic semantics
+*** <<<Axiomatic semantics>>>
 Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
@@ -3511,20 +3512,20 @@ Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall 
 :PROPERTIES:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
 :END:
-*** Property testing
+*** <<<Property testing>>>
 Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
 And tests cases come from [[Generator][generator]].
-**** Property
+**** <<<Function property>>>
 Property corresponds to the according law.
 In property testing you need to think additionally about [[Generator][generator]]s and [[Shrinking][shrinking]].
-**** Property testing types
+**** <<<Property testing types>>>
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 | Whole set of values      | Exhaustive property test             | Randomised property test             |                           |
 | Special subset of values | Exhaustive specialised property test | Randomised specialised property test |                           |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
-**** Generator
+**** <<<Generator>>>
 #+begin_src text
 Seed
 |
@@ -3548,7 +3549,7 @@ arbitrary :: Arbitrary a => Gen a
 suchThat :: Gen a -> (a -> Bool) -> Gen a
 elements :: [a] -> Gen a
 #+end_src
-**** Reusing test code
+**** <<<Reusing test code>>>
 Often it is convinient to abstract testing of same function properties:
 
 It can be done with (aka TestSuite [[Combinator][combinator]]):
@@ -3576,32 +3577,32 @@ Eq Int
     is antireflexive
     is equivalent to (\ a b -> not $ a == b)
 #+end_src
-***** Commutative property
+***** <<<Test Commutative property>>>
 [[Commutativity]]
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> a) -> Property
 #+end_src
-***** Symmetry property
+***** <<<Test Symmetry property>>>
 [[Symmetry]]
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> Bool) -> Property
 #+end_src
-***** Equivalence property
+***** <<<Test Equivalence property>>>
 [[Equivalence]]
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
 #+end_src
-***** Inverse property
+***** <<<Test Inverse property>>>
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (b -> a) -> Property
 #+end_src
 
-**** QuickCheck
+**** <<<QuickCheck>>>
 `SomethingSomething` is a member of the Arbitrary type class.
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
 `quickCheck` runs the loop and tests.
-**** Manual automation with QuickCheck properties
+***** Manual automation with QuickCheck properties
 #+begin_src haskell
 import Test.QuickCheck
 import Test.QuickCheck.Function
@@ -3828,7 +3829,7 @@ SCHT: <2019-06-18 Tue>
 :END:
 Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
 *** /*/
-**** Bounded
+**** <<<Bounded>>>
 See [[Bound]]
 ** <<<Typed hole>>> :drill:
 :PROPERTIES:
@@ -3841,9 +3842,9 @@ In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would
 :END:
 Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables
 *** /*/
-**** Predicate logic
+**** <<<Predicate logic>>>
 See [[First-order logic]]
-**** First-order predicate calculus
+**** <<<First-order predicate calculus>>>
 See [[First-order logic]]
 ** <<<Context>>> :drill:
 :PROPERTIES:
@@ -3917,18 +3918,18 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** <<<Either>>>
 Allows to separate and preserve information about happened, ex. error handling.
 *** /*/
-**** Either data type
+**** <<<Either data type>>>
 See [[Either]]
 ** <<<Weak head normal form>>>
 *** /*/
-**** WHNF
+**** <<<WHNF>>>
 See [[Weak head normal form]]
 ** <<<Function image>>>
-*** Image
+*** <<<Image>>>
 See [[Function image]]
 ** <<<Maybe>>>
 ** <<<LANGUAGE pragma options>>>
-*** FuncitonalDependencies
+*** <<<FuncitonalDependencies>>>
 ** <<<Pattern guard>>>
 Allows check a list of pattern matches against functions, and then proceed.
 
@@ -3965,9 +3966,9 @@ Otherwise - [[Partial inverse][partial inverse]]
 ** <<<Partial inverse>>>
 /*/ when [[Function][function]] is now [[Bijection][bijective]]. When bijective see [[Inverse function][inverse function]].
 ** <<<Define LANGUAGE pragma options>>>
-*** ExistentialQuantification
-*** GADTs
-*** GeneralizedNewTypeClasses
+*** <<<ExistentialQuantification>>>
+*** <<<GADTs>>>
+*** <<<GeneralizedNewTypeClasses>>>
 ** <<<Type rank>>>
 [[Weak ordering]] of types.
 
@@ -3999,17 +4000,18 @@ f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. T
 Type inference in Rank-2 is possible, but but not higher.
 
 ** <<<GHC debug keys>>>
-*** -ddump-ds
+*** <<<-ddump-ds>>>
 Dump desugarer output.
 **** /*/
-***** GHC desugar
+***** <<<Desugar>>>
+***** <<<GHC desugar>>>
 See: [[-ddump-ds]].
 ** <<<GHC optimize keys>>>
-*** -foptimal-applicative-do
+*** <<<-foptimal-applicative-do>>>
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 ** <<<GHC check keys>>>
-*** -Wno-partial-type-signatures
+*** <<<-Wno-partial-type-signatures>>>
 Supresses [[PartialTypeSignatures]] wildcard infer warning.
 ** <<<RHS>>>
 Right-hand side of the expression.
@@ -4018,18 +4020,18 @@ Left-hand side of the expression.
 ** <<<Generalised algebraic data types>>>
 LANGUAGE [[GADTs]]
 *** /*/
-**** GADT
+**** <<<GADT>>>
 See [[Generalised algebraic data types]]
 ** <<<Order theory>>>
 Investigates in thepth the intuitive notion of order using binary relations.
-*** Domain theory
+*** <<<Domain theory>>>
 Formalizes approximation and convergense.
 Has close relation to [[Topology]].
-*** Lattice
+*** <<<Lattice>>>
 Abstract structure that consists of [[Partial order][partially ordered]] set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
-*** Ordering
-**** Preorder
+*** <<<Ordering>>>
+**** <<<Preorder>>>
 R^{X \to X} : [[Reflexive]] & [[Transitive]]:
 $$ aRa $$
 $$ aRb, bRc \Rightarrow aRc $$
@@ -4038,23 +4040,23 @@ Generalization of [[Equivalence][equivalence relations]] and [[Partial order][pa
 
 /*/ [[Antisymmetric]] \Rightarrow [[Partial ordering]].
 /*/ [[Symmetric]] \Rightarrow [[Equivalence]].
-***** Total preorder
+***** <<<Total preorder>>>
 $$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
-**** Partial ordering
+**** <<<Partial ordering>>>
 A binary relation must be [[Reflexive][reflexive]], [[Antisymmetry][antisymmetic]] and [[Transitive][transitive]].
 
 Partial - not every elempents between them need to be comparable.
 
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
 ***** /*/
-****** Partially ordered set
+****** <<<Partially ordered set>>>
 See [[Partial ordering]]
-****** Poset
+****** <<<Poset>>>
 See [[Partially ordered set]]
 ** <<<Universal algebra>>>
 Studies algebraic structures.
 ** <<<Relation>>>
-*** Reflexivity
+*** <<<Reflexivity>>>
 $$ R^{X \to X}, \forall x \in X : x R x $$
 [[Order theory]]: $$ a \le a $$
 
@@ -4062,72 +4064,72 @@ $$ R^{X \to X}, \forall x \in X : x R x $$
 
 Corresponds to [[Identity]] and [[Automorphism]].
 **** /*/
-***** Reflexive
+***** <<<Reflexive>>>
 See [[Reflexivity]]
-***** Reflexive relation
+***** <<<Reflexive relation>>>
 See [[Reflexivity]]
-*** Irreflexivity
+*** <<<Irreflexivity>>>
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
 **** /*/
-***** Anti-reflexive
+***** <<<Anti-reflexive>>>
 See [[Irreflexivity]]
-***** Anti-reflexive relation
+***** <<<Anti-reflexive relation>>>
 See [[Irreflexivity]]
-***** Irreflexive
+***** <<<Irreflexive>>>
 See [[Irreflexivity]]
-***** Irreflexive relation
+***** <<<Irreflexive relation>>>
 See [[Irreflexivity]]
-*** Transitivity
+*** <<<Transitivity>>>
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
 **** /*/
-***** Transitive
+***** <<<Transitive>>>
 See [[Transitivity]]
-***** Transitive relation
+***** <<<Transitive relation>>>
 See [[Transitivity]]
-*** Symmetry
+*** <<<Symmetry>>>
 $$ \forall a,b \in X : (aRb \iff bRa) $$
 **** /*/
-***** Symmetric
+***** <<<Symmetric>>>
 See [[Symmetry]]
-***** Symmetric relation
-*** Equivalence
+***** <<<Symmetric relation>>>
+*** <<<Equivalence>>>
 | [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
 |----------------------------+----------------------------------+-------------------------------------------------|
 | $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
 
 **** /*/
-***** Equivalent
+***** <<<Equivalent>>>
 See [[Equivalence]]
-***** Equivalent relation
+***** <<<Equivalent relation>>>
 See [[Equivalence]]
-*** Antisymmetry
+*** <<<Antisymmetry>>>
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
 **** /*/
-***** Antisymmetric
+***** <<<Antisymmetric>>>
 See [[Antisymmetry]]
-***** Antisymmetric relation
+***** <<<Antisymmetric relation>>>
 See [[Antisymmetry]]
-*** Asymmetry
+*** <<<Asymmetry>>>
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
 Asymmetry \ne "not symmetric"
 [[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
 **** /*/
-***** Asymmetric
+***** <<<Asymmetric>>>
 See [[Asymmetry]]
-***** Asymmetric relation
+***** <<<Asymmetric relation>>>
 See [[Asymmetry]]
 ** <<<Commutativity>>>
 ** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
 *** /*/
-**** Crypromorphic
+**** <<<Crypromorphic>>>
 See [[Cryptomorphism]]
 ** <<<Lexically scoped type variables>>>
 Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
@@ -4146,7 +4148,7 @@ Data type mathematical model, defined by its semantics from the user point of vi
 
 A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
 *** /*/
-**** AbsDT
+**** <<<AbsDT>>>
 See [[Abstract data type]]
 ** <<<ADT>>>
 1. [[Abstract data type]]
