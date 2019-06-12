@@ -2,19 +2,19 @@
 #+startup: entitiespretty
 * Contents :TOC:
 - [[#definitions][Definitions]]
-  - [[#abelian-category][Abelian category]]
-  - [[#abstraction][Abstraction]]
-  - [[#actual-type][Actual type]]
-  - [[#algebra][Algebra]]
-  - [[#alpha-equivalence][Alpha equivalence]]
-  - [[#ambigram][Ambigram]]
-  - [[#anamorphism][Anamorphism]]
-  - [[#application][Application]]
-  - [[#application-memory][Application memory]]
+  - [[#abelian-category][<<<Abelian category>>>]]
+  - [[#abstraction][<<<Abstraction>>>]]
+  - [[#actual-type][<<<Actual type>>>]]
+  - [[#algebra][<<<Algebra>>>]]
+  - [[#alpha-equivalence][<<<Alpha equivalence>>>]]
+  - [[#ambigram][<<<Ambigram>>>]]
+  - [[#anamorphism][<<<Anamorphism>>>]]
+  - [[#application][<<<Application>>>]]
+  - [[#application-memory][<<<Application memory>>>]]
     - [[#][/*/]]
       - [[#heap][Heap]]
       - [[#stack][Stack]]
-  - [[#applicative][Applicative]]
+  - [[#applicative][<<<Applicative>>>]]
     - [[#applicative-laws][Applicative laws]]
       - [[#applicative-identity-law][Applicative identity law]]
       - [[#applicative-composition-law][Applicative composition law]]
@@ -33,94 +33,94 @@
         - [[#lifta2-][liftA2 (<*>)]]
         - [[#lifta2-lifta2-][liftA2 (liftA2 (<*>))]]
         - [[#lifta3][liftA3]]
-  - [[#applicative-functor][Applicative functor]]
-  - [[#arbitrary-function][Arbitrary function]]
-  - [[#arbitrary-type-class][Arbitrary type class]]
-  - [[#argument][Argument]]
-  - [[#arity][Arity]]
-  - [[#as-pattern][As-pattern]]
-  - [[#assertion][Assertion]]
-  - [[#associative-law][Associative law]]
-  - [[#base-case][Base case]]
-  - [[#basis][Basis]]
-  - [[#beta-normal-form][Beta normal form]]
-  - [[#beta-reduction][Beta reduction]]
-  - [[#binary][Binary]]
-  - [[#binary-operation][Binary operation]]
-  - [[#binary-tree][Binary tree]]
-  - [[#bind][Bind]]
-  - [[#bottom-value][Bottom value]]
-  - [[#calculus-of-constructions][Calculus of constructions]]
+  - [[#applicative-functor][<<<Applicative functor>>>]]
+  - [[#arbitrary-function][<<<Arbitrary function>>>]]
+  - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
+  - [[#argument][<<<Argument>>>]]
+  - [[#arity][<<<Arity>>>]]
+  - [[#as-pattern][<<<As-pattern>>>]]
+  - [[#assertion][<<<Assertion>>>]]
+  - [[#associative-law][<<<Associative law>>>]]
+  - [[#base-case][<<<Base case>>>]]
+  - [[#basis][<<<Basis>>>]]
+  - [[#beta-normal-form][<<<Beta normal form>>>]]
+  - [[#beta-reduction][<<<Beta reduction>>>]]
+  - [[#binary][<<<Binary>>>]]
+  - [[#binary-operation][<<<Binary operation>>>]]
+  - [[#binary-tree][<<<Binary tree>>>]]
+  - [[#bind][<<<Bind>>>]]
+  - [[#bottom-value][<<<Bottom value>>>]]
+  - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
     - [[#-1][/*/]]
       - [[#coc][CoC]]
-  - [[#cardinality][Cardinality]]
-  - [[#cartesian-product][Cartesian product]]
-  - [[#case][Case]]
-  - [[#category][Category]]
+  - [[#cardinality][<<<Cardinality>>>]]
+  - [[#cartesian-product][<<<Cartesian product>>>]]
+  - [[#case][<<<Case>>>]]
+  - [[#category][<<<Category>>>]]
     - [[#-2][/*/]]
       - [[#object][Object]]
       - [[#category-theory][Category theory]]
-  - [[#closed-form-expression][Closed-form expression]]
-  - [[#closed-set][Closed set]]
-  - [[#closure][Closure]]
-  - [[#coalgebra][Coalgebra]]
-  - [[#coarbitrary][CoArbitrary]]
-  - [[#codomain][Codomain]]
-  - [[#combinator][Combinator]]
-  - [[#commutative-law][Commutative law]]
+  - [[#closed-form-expression][<<<Closed-form expression>>>]]
+  - [[#closed-set][<<<Closed set>>>]]
+  - [[#closure][<<<Closure>>>]]
+  - [[#coalgebra][<<<Coalgebra>>>]]
+  - [[#coarbitrary][<<<CoArbitrary>>>]]
+  - [[#codomain][<<<Codomain>>>]]
+  - [[#combinator][<<<Combinator>>>]]
+  - [[#commutative-law][<<<Commutative law>>>]]
     - [[#-3][/*/]]
       - [[#commutative][Commutative]]
-  - [[#composition][Composition]]
-  - [[#concatenate][Concatenate]]
-  - [[#concrete-type][Concrete type]]
-  - [[#conjunction][Conjunction]]
-  - [[#cons-cell][Cons cell]]
-  - [[#constant][Constant]]
-  - [[#constraint][Constraint]]
-  - [[#construct][Construct]]
+  - [[#composition][<<<Composition>>>]]
+  - [[#concatenate][<<<Concatenate>>>]]
+  - [[#concrete-type][<<<Concrete type>>>]]
+  - [[#conjunction][<<<Conjunction>>>]]
+  - [[#cons-cell][<<<Cons cell>>>]]
+  - [[#constant][<<<Constant>>>]]
+  - [[#constraint][<<<Constraint>>>]]
+  - [[#construct][<<<Construct>>>]]
     - [[#-4][/*/]]
       - [[#cons][Cons]]
-  - [[#constructor][Constructor]]
-  - [[#contravariant][Contravariant]]
+  - [[#constructor][<<<Constructor>>>]]
+  - [[#contravariant][<<<Contravariant>>>]]
     - [[#-5][/*/]]
       - [[#contravariant-cofunctor][Contravariant cofunctor]]
       - [[#contravariant-functor][Contravariant functor]]
-  - [[#covariant][Covariant]]
-  - [[#covariant-cofunctor][Covariant cofunctor]]
-  - [[#covariant-functor][Covariant functor]]
-  - [[#curryhoward-correspondence][Curry–Howard correspondence]]
+  - [[#covariant][<<<Covariant>>>]]
+  - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
+  - [[#covariant-functor][<<<Covariant functor>>>]]
+  - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
     - [[#-6][/*/]]
       - [[#curryhoward-isomorphism][Curry–Howard isomorphism]]
-  - [[#currying][Currying]]
-  - [[#data-constant][Data constant]]
-  - [[#data-constructor][Data constructor]]
-  - [[#data-declaration][Data declaration]]
-  - [[#data-declaration-1][data declaration]]
-  - [[#data-type][Data type]]
+  - [[#currying][<<<Currying>>>]]
+  - [[#data-constant][<<<Data constant>>>]]
+  - [[#data-constructor][<<<Data constructor>>>]]
+  - [[#data-declaration][<<<Data declaration>>>]]
+  - [[#data-declaration-1][<<<data declaration>>>]]
+  - [[#data-type][<<<Data type>>>]]
     - [[#algebraic-data-type][Algebraic data type]]
       - [[#-7][/*/]]
         - [[#algdt][AlgDT]]
     - [[#higher-kinded-data-type][Higher-kinded data type]]
     - [[#product-data-type][Product data type]]
     - [[#sum-data-type][Sum data type]]
-  - [[#declaration][Declaration]]
-  - [[#dependent-type][Dependent type]]
-  - [[#derived-instance][Derived instance]]
-  - [[#differential-operator][Differential operator]]
+  - [[#declaration][<<<Declaration>>>]]
+  - [[#dependent-type][<<<Dependent type>>>]]
+  - [[#derived-instance][<<<Derived instance>>>]]
+  - [[#differential-operator][<<<Differential operator>>>]]
     - [[#differential][Differential]]
-  - [[#disjunction][Disjunction]]
-  - [[#dispatch][Dispatch]]
-  - [[#domain][Domain]]
-  - [[#effect][Effect]]
-  - [[#endofunctor][Endofunctor]]
-  - [[#endofunctor-category][Endofunctor category]]
-  - [[#evaluation][Evaluation]]
-  - [[#expected-type][Expected type]]
-  - [[#expression][Expression]]
-  - [[#first-class][First-class]]
-  - [[#fold][Fold]]
-  - [[#free-variable][Free variable]]
-  - [[#function][Function]]
+  - [[#disjunction][<<<Disjunction>>>]]
+  - [[#dispatch][<<<Dispatch>>>]]
+  - [[#domain][<<<Domain>>>]]
+  - [[#effect][<<<Effect>>>]]
+  - [[#endofunctor][<<<Endofunctor>>>]]
+  - [[#endofunctor-category][<<<Endofunctor category>>>]]
+  - [[#evaluation][<<<Evaluation>>>]]
+  - [[#expected-type][<<<Expected type>>>]]
+  - [[#expression][<<<Expression>>>]]
+  - [[#first-class][<<<First-class>>>]]
+  - [[#fold][<<<Fold>>>]]
+  - [[#free-variable][<<<Free variable>>>]]
+  - [[#function][<<<Function>>>]]
     - [[#function-head][Function head]]
     - [[#function-body][Function body]]
     - [[#function-composition][Function composition]]
@@ -141,7 +141,7 @@
       - [[#-11][/*/]]
         - [[#bijective][Bijective]]
         - [[#bijective-function][Bijective function]]
-  - [[#functor][Functor]]
+  - [[#functor][<<<Functor>>>]]
     - [[#functor-laws][Functor laws]]
       - [[#functor-identity-law][Functor identity law]]
       - [[#functor-composition-law][Functor composition law]]
@@ -150,41 +150,41 @@
     - [[#-12][/*/]]
       - [[#powerset-functor][Powerset functor]]
       - [[#fmap][fmap]]
-  - [[#fundamental-theorem-of-algebra][Fundamental theorem of algebra]]
-  - [[#gen-type][Gen type]]
-  - [[#girardreynolds-polymorphic-lambda-calculus][Girard–Reynolds polymorphic lambda calculus]]
-  - [[#guerrilla-patch][Guerrilla patch]]
-  - [[#higher-order-function][Higher-order function]]
+  - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
+  - [[#gen-type][<<<Gen type>>>]]
+  - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
+  - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
+  - [[#higher-order-function][<<<Higher-order function>>>]]
     - [[#-13][/*/]]
       - [[#hof][HOF]]
-  - [[#hindleymilner-type-system][Hindley–Milner type system]]
-  - [[#hom-set][Hom-set]]
+  - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
+  - [[#hom-set][<<<Hom-set>>>]]
     - [[#hom-functor][Hom-functor]]
-  - [[#idempotence][Idempotence]]
-  - [[#idiom][Idiom]]
+  - [[#idempotence][<<<Idempotence>>>]]
+  - [[#idiom][<<<Idiom>>>]]
     - [[#-14][/*/]]
       - [[#idiomatic][Idiomatic]]
-  - [[#iff][Iff]]
-  - [[#impredicative][Impredicative]]
-  - [[#infix][Infix]]
-  - [[#inhabit][Inhabit]]
-  - [[#initial-object][Initial object]]
-  - [[#interface][Interface]]
-  - [[#io][IO]]
-  - [[#kernel][Kernel]]
+  - [[#iff][<<<Iff>>>]]
+  - [[#impredicative][<<<Impredicative>>>]]
+  - [[#infix][<<<Infix>>>]]
+  - [[#inhabit][<<<Inhabit>>>]]
+  - [[#initial-object][<<<Initial object>>>]]
+  - [[#interface][<<<Interface>>>]]
+  - [[#io][<<<IO>>>]]
+  - [[#kernel][<<<Kernel>>>]]
     - [[#kernel-homomorphism][Kernel homomorphism]]
-  - [[#kind][Kind]]
-  - [[#lambda-abstraction][Lambda abstraction]]
-  - [[#lambda-calculus][Lambda calculus]]
+  - [[#kind][<<<Kind>>>]]
+  - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
+  - [[#lambda-calculus][<<<Lambda calculus>>>]]
     - [[#-15][/*/]]
       - [[#lambda-term][Lambda term]]
-  - [[#lambda-cube][Lambda cube]]
-  - [[#lambda-function][Lambda function]]
+  - [[#lambda-cube][<<<Lambda cube>>>]]
+  - [[#lambda-function][<<<Lambda function>>>]]
     - [[#lambda-expression][Lambda expression]]
     - [[#anonymous-function][Anonymous function]]
-  - [[#leaf][Leaf]]
-  - [[#left-associative][Left associative]]
-  - [[#level-of-code][Level of code]]
+  - [[#leaf][<<<Leaf>>>]]
+  - [[#left-associative][<<<Left associative>>>]]
+  - [[#level-of-code][<<<Level of code>>>]]
     - [[#term-level][Term level]]
     - [[#type-level][Type level]]
     - [[#compile-level][Compile level]]
@@ -192,18 +192,18 @@
     - [[#runtime-level][Runtime level]]
     - [[#-16][/*/]]
       - [[#code-level][Code level]]
-  - [[#lexical-scope][Lexical scope]]
+  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-17][/*/]]
       - [[#static-scope][Static scope]]
-  - [[#dynamic-scope][Dynamic scope]]
-  - [[#linear-type][Linear type]]
-  - [[#local-scope][Local scope]]
+  - [[#dynamic-scope][<<<Dynamic scope>>>]]
+  - [[#linear-type][<<<Linear type>>>]]
+  - [[#local-scope][<<<Local scope>>>]]
     - [[#-18][/*/]]
       - [[#local][Local]]
-  - [[#magma][Magma]]
-  - [[#module][Module]]
-  - [[#modulus][Modulus]]
-  - [[#monad][Monad]]
+  - [[#magma][<<<Magma>>>]]
+  - [[#module][<<<Module>>>]]
+  - [[#modulus][<<<Modulus>>>]]
+  - [[#monad][<<<Monad>>>]]
     - [[#functor---applicative---monad-progression][Functor -> Applicative -> Monad progression]]
     - [[#monad-type-class][Monad type class]]
     - [[#monad-functions][Monad functions]]
@@ -224,8 +224,8 @@
       - [[#monad-right-identity-law][Monad right identity law]]
       - [[#monad-associativity-law][Monad associativity law]]
     - [[#comonad][Comonad]]
-  - [[#monkey-patch][Monkey patch]]
-  - [[#monoid][Monoid]]
+  - [[#monkey-patch][<<<Monkey patch>>>]]
+  - [[#monoid][<<<Monoid>>>]]
     - [[#monoid-laws][Monoid laws]]
       - [[#monoid-left-identity-law][Monoid left identity law]]
       - [[#monoid-right-identity-law][Monoid right identity law]]
@@ -233,8 +233,8 @@
     - [[#commutative-monoid][Commutative monoid]]
       - [[#-20][/*/]]
         - [[#abelian-monoid][Abelian monoid]]
-  - [[#monoidal-functor][Monoidal functor]]
-  - [[#morphism][Morphism]]
+  - [[#monoidal-functor][<<<Monoidal functor>>>]]
+  - [[#morphism][<<<Morphism>>>]]
     - [[#homomorphism][Homomorphism]]
       - [[#-21][/*/]]
         - [[#homomorphic][Homomorphic]]
@@ -262,20 +262,20 @@
     - [[#catamorphism][Catamorphism]]
       - [[#-27][/*/]]
         - [[#catamorphic][Catamorphic]]
-  - [[#newtype-declaration][newtype declaration]]
-  - [[#node][Node]]
-  - [[#nonempty-list-data-type][NonEmpty list data type]]
-  - [[#normal-form][Normal form]]
-  - [[#nothing][Nothing]]
-  - [[#open-formula][Open formula]]
-  - [[#operation][Operation]]
-  - [[#operator][Operator]]
-  - [[#orphan-type-instance][Orphan type instance]]
-  - [[#parameter][Parameter]]
-  - [[#partial-application][Partial application]]
-  - [[#partial-function][Partial function]]
-  - [[#permutation][Permutation]]
-  - [[#point-free][Point-free]]
+  - [[#newtype-declaration][<<<newtype declaration>>>]]
+  - [[#node][<<<Node>>>]]
+  - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
+  - [[#normal-form][<<<Normal form>>>]]
+  - [[#nothing][<<<Nothing>>>]]
+  - [[#open-formula][<<<Open formula>>>]]
+  - [[#operation][<<<Operation>>>]]
+  - [[#operator][<<<Operator>>>]]
+  - [[#orphan-type-instance][<<<Orphan type instance>>>]]
+  - [[#parameter][<<<Parameter>>>]]
+  - [[#partial-application][<<<Partial application>>>]]
+  - [[#partial-function][<<<Partial function>>>]]
+  - [[#permutation][<<<Permutation>>>]]
+  - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][\eta-abstraction]]
       - [[#-28][/*/]]
         - [[#eta-reduction][\eta-reduction]]
@@ -294,7 +294,7 @@
       - [[#pointfree][Pointfree]]
       - [[#tacit][Tacit]]
       - [[#tacit-programming][Tacit programming]]
-  - [[#polymorphism][Polymorphism]]
+  - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#levity-polymorphism][Levity polymorphism]]
     - [[#parametric-polymorphism][Parametric polymorphism]]
       - [[#rank-1-polymorphism][Rank-1 polymorphism]]
@@ -314,7 +314,7 @@
     - [[#row-polymorphism][Row polymorphism]]
     - [[#kind-polymorphism][Kind polymorphism]]
     - [[#linearity-polymorphism][Linearity polymorphism]]
-  - [[#pragma][Pragma]]
+  - [[#pragma][<<<Pragma>>>]]
     - [[#language-pragma][LANGUAGE pragma]]
       - [[#language-option][LANGUAGE option]]
         - [[#useful-by-default][Useful by default]]
@@ -347,56 +347,56 @@
         - [[#datatypecontexts][DatatypeContexts]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
     - [[#pragma-option][Pragma option]]
-  - [[#predicate][Predicate]]
-  - [[#predicative][Predicative]]
-  - [[#principal-type][Principal type]]
-  - [[#principle-of-compositionality][Principle of compositionality]]
-  - [[#phrase][Phrase]]
-  - [[#proxy-type][Proxy type]]
-  - [[#psi-combinator][\Psi-combinator]]
+  - [[#predicate][<<<Predicate>>>]]
+  - [[#predicative][<<<Predicative>>>]]
+  - [[#principal-type][<<<Principal type>>>]]
+  - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
+  - [[#phrase][<<<Phrase>>>]]
+  - [[#proxy-type][<<<Proxy type>>>]]
+  - [[#psi-combinator][<<<\Psi-combinator>>>]]
     - [[#-35][/*/]]
       - [[#psi-combinator-1][Psi-combinator]]
       - [[#on-combinator][On-combinator]]
-  - [[#purity][Purity]]
-  - [[#quantifier][Quantifier]]
+  - [[#purity][<<<Purity>>>]]
+  - [[#quantifier][<<<Quantifier>>>]]
     - [[#forall-quantifier][Forall quantifier]]
       - [[#-36][/*/]]
         - [[#forall][Forall]]
-  - [[#recursion][Recursion]]
-  - [[#redex][Redex]]
-  - [[#reduction][Reduction]]
-  - [[#referential-transparency][Referential transparency]]
-  - [[#relation][Relation]]
-  - [[#repl][REPL]]
-  - [[#scope][Scope]]
-  - [[#sectioning-1][Sectioning]]
-  - [[#semantics][Semantics]]
+  - [[#recursion][<<<Recursion>>>]]
+  - [[#redex][<<<Redex>>>]]
+  - [[#reduction][<<<Reduction>>>]]
+  - [[#referential-transparency][<<<Referential transparency>>>]]
+  - [[#relation][<<<Relation>>>]]
+  - [[#repl][<<<REPL>>>]]
+  - [[#scope][<<<Scope>>>]]
+  - [[#sectioning-1][<<<Sectioning>>>]]
+  - [[#semantics][<<<Semantics>>>]]
     - [[#operational-semantics][Operational semantics]]
     - [[#denotational-semantics][Denotational semantics]]
     - [[#axiomatic-semantics][Axiomatic semantics]]
-  - [[#semigroup][Semigroup]]
-  - [[#set][Set]]
-  - [[#set-category][SET category]]
-  - [[#shadowing][Shadowing]]
-  - [[#shift-operator][Shift operator]]
+  - [[#semigroup][<<<Semigroup>>>]]
+  - [[#set][<<<Set>>>]]
+  - [[#set-category][<<<SET category>>>]]
+  - [[#shadowing][<<<Shadowing>>>]]
+  - [[#shift-operator][<<<Shift operator>>>]]
     - [[#-37][/*/]]
       - [[#shift][Shift]]
-  - [[#shrinking][Shrinking]]
-  - [[#singleton][Singleton]]
-  - [[#smart-constructor][Smart constructor]]
-  - [[#spine][Spine]]
-  - [[#statement][Statement]]
-  - [[#static-typing][Static typing]]
-  - [[#structural-type][Structural type]]
-  - [[#structural-type-system][Structural type system]]
-  - [[#superclass][Superclass]]
-  - [[#syntatic-sugar][Syntatic sugar]]
-  - [[#system-f][System F]]
-  - [[#tail-call][Tail call]]
-  - [[#tail-recursion][Tail recursion]]
-  - [[#tensor][Tensor]]
-  - [[#terminal-object][Terminal object]]
-  - [[#testing][Testing]]
+  - [[#shrinking][<<<Shrinking>>>]]
+  - [[#singleton][<<<Singleton>>>]]
+  - [[#smart-constructor][<<<Smart constructor>>>]]
+  - [[#spine][<<<Spine>>>]]
+  - [[#statement][<<<Statement>>>]]
+  - [[#static-typing][<<<Static typing>>>]]
+  - [[#structural-type][<<<Structural type>>>]]
+  - [[#structural-type-system][<<<Structural type system>>>]]
+  - [[#superclass][<<<Superclass>>>]]
+  - [[#syntatic-sugar][<<<Syntatic sugar>>>]]
+  - [[#system-f][<<<System F>>>]]
+  - [[#tail-call][<<<Tail call>>>]]
+  - [[#tail-recursion][<<<Tail recursion>>>]]
+  - [[#tensor][<<<Tensor>>>]]
+  - [[#terminal-object][<<<Terminal object>>>]]
+  - [[#testing][<<<Testing>>>]]
     - [[#property-testing][Property testing]]
       - [[#property][Property]]
       - [[#property-testing-types][Property testing types]]
@@ -410,37 +410,37 @@
       - [[#quickcheck][QuickCheck]]
       - [[#manual-automation-with-quickcheck-properties][Manual automation with QuickCheck properties]]
     - [[#write-tests-algorithm][Write tests algorithm]]
-  - [[#tuple][Tuple]]
-  - [[#type][Type]]
-  - [[#type-alias][Type alias]]
-  - [[#type-class][Type class]]
-  - [[#type-class-inheritance][Type class inheritance]]
-  - [[#type-constant][Type constant]]
-  - [[#type-constructor][Type constructor]]
-  - [[#type-declaration][type declaration]]
-  - [[#type-inference][Type inference]]
-  - [[#type-instance][Type instance]]
-  - [[#type-variable][Type variable]]
-  - [[#uncurry][Uncurry]]
-  - [[#undefined][Undefined]]
-  - [[#unit][Unit]]
-  - [[#unlifted-type][Unlifted type]]
-  - [[#unsafe][Unsafe]]
-  - [[#variable][Variable]]
-  - [[#variadic][Variadic]]
-  - [[#zero][Zero]]
-  - [[#bound][Bound]]
+  - [[#tuple][<<<Tuple>>>]]
+  - [[#type][<<<Type>>>]]
+  - [[#type-alias][<<<Type alias>>>]]
+  - [[#type-class][<<<Type class>>>]]
+  - [[#type-class-inheritance][<<<Type class inheritance>>>]]
+  - [[#type-constant][<<<Type constant>>>]]
+  - [[#type-constructor][<<<Type constructor>>>]]
+  - [[#type-declaration][<<<type declaration>>>]]
+  - [[#type-inference][<<<Type inference>>>]]
+  - [[#type-instance][<<<Type instance>>>]]
+  - [[#type-variable][<<<Type variable>>>]]
+  - [[#uncurry][<<<Uncurry>>>]]
+  - [[#undefined][<<<Undefined>>>]]
+  - [[#unit][<<<Unit>>>]]
+  - [[#unlifted-type][<<<Unlifted type>>>]]
+  - [[#unsafe][<<<Unsafe>>>]]
+  - [[#variable][<<<Variable>>>]]
+  - [[#variadic][<<<Variadic>>>]]
+  - [[#zero][<<<Zero>>>]]
+  - [[#bound][<<<Bound>>>]]
     - [[#-38][/*/]]
       - [[#bounded][Bounded]]
-  - [[#typed-hole][Typed hole]]
-  - [[#first-order-logic][First-order logic]]
+  - [[#typed-hole][<<<Typed hole>>>]]
+  - [[#first-order-logic][<<<First-order logic>>>]]
     - [[#-39][/*/]]
       - [[#predicate-logic][Predicate logic]]
       - [[#first-order-predicate-calculus][First-order predicate calculus]]
-  - [[#context][Context]]
-  - [[#thunk][Thunk]]
-  - [[#group][Group]]
-  - [[#natural-transformation][Natural transformation]]
+  - [[#context][<<<Context>>>]]
+  - [[#thunk][<<<Thunk>>>]]
+  - [[#group][<<<Group>>>]]
+  - [[#natural-transformation][<<<Natural transformation>>>]]
     - [[#natural-transformation-component][Natural transformation component]]
       - [[#-40][/*/]]
         - [[#component-of-natural-transformation][Component of natural transformation]]
@@ -550,25 +550,25 @@
 - [[#algebraic][Algebraic]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
-  - [[#type-aliasing][Type aliasing]]
-  - [[#type-wideness][Type wideness]]
-  - [[#read-conventions-of-variables-page-176][Read Conventions of variables (page 176)]]
-  - [[#print][Print]]
-  - [[#read-code-evaluation-488-on-ward][Read code evaluation (488 on-ward)]]
-  - [[#fold-1][Fold]]
-  - [[#computation-model][Computation model]]
-  - [[#make-bottoms-only-local][Make bottoms only local]]
-  - [[#newtype-wrap-is-ideally-transparent-for-compiler-and-does-not-change-performance][Newtype wrap is ideally transparent for compiler and does not change performance]]
-  - [[#instances-of-typestype-classes-must-go-with-code-you-write][Instances of types/type classes must go with code you write]]
-  - [[#functions-can-be-abstracted-as-arguments][Functions can be abstracted as arguments]]
-  - [[#infix-operators-can-be-bind-to-arguments][Infix operators can be bind to arguments]]
-  - [[#arbitrary-1][Arbitrary]]
-  - [[#principle-of-separation-of-concerns][Principle of Separation of concerns]]
-  - [[#function-composition-1][Function composition]]
-  - [[#functor-application][Functor application]]
-  - [[#parameter-order][Parameter order]]
-  - [[#applicative-monoid][Applicative monoid]]
-  - [[#creative-process][Creative process]]
+  - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
+  - [[#good-type-wideness][<<<Good: Type wideness>>>]]
+  - [[#good-read-conventions-of-variables-page-176][<<<Good: Read Conventions of variables (page 176)>>>]]
+  - [[#good-print][<<<Good: Print>>>]]
+  - [[#good-read-code-evaluation-488-on-ward][<<<Good: Read code evaluation (488 on-ward)>>>]]
+  - [[#good-fold][<<<Good: Fold>>>]]
+  - [[#good-computation-model][<<<Good: Computation model>>>]]
+  - [[#good-make-bottoms-only-local][<<<Good: Make bottoms only local>>>]]
+  - [[#good-newtype-wrap-is-ideally-transparent-for-compiler-and-does-not-change-performance][<<<Good: Newtype wrap is ideally transparent for compiler and does not change performance>>>]]
+  - [[#good-instances-of-typestype-classes-must-go-with-code-you-write][<<<Good: Instances of types/type classes must go with code you write>>>]]
+  - [[#good-functions-can-be-abstracted-as-arguments][<<<Good: Functions can be abstracted as arguments>>>]]
+  - [[#good-infix-operators-can-be-bind-to-arguments][<<<Good: Infix operators can be bind to arguments>>>]]
+  - [[#good-arbitrary][<<<Good: Arbitrary>>>]]
+  - [[#good-principle-of-separation-of-concerns][<<<Good: Principle of Separation of concerns>>>]]
+  - [[#good-function-composition][<<<Good: Function composition>>>]]
+  - [[#good-functor-application][<<<Good: Functor application>>>]]
+  - [[#good-parameter-order][<<<Good: Parameter order>>>]]
+  - [[#good-applicative-monoid][<<<Good: Applicative monoid>>>]]
+  - [[#good-creative-process][<<<Good: Creative process>>>]]
     - [[#pick-phylosophy-principles-one-to-three-the-more---the-harder-the-implementation][Pick phylosophy principles one to three the more - the harder the implementation]]
     - [[#draw-the-most-blurred-representation][Draw the most blurred representation]]
     - [[#deduce-abstractions-and-write-remotely-what-they-are][Deduce abstractions and write remotely what they are]]
@@ -577,9 +577,9 @@
       - [[#model-the-types][Model the types]]
       - [[#think-how-to-write-computations][Think how to write computations]]
     - [[#create][Create]]
-  - [[#about-operators----][About operators (<$) (*>) (<*) (>>)]]
-  - [[#about-operators-mapm_-sequence_][About operators mapM_ sequence_]]
-  - [[#guideliles][Guideliles]]
+  - [[#good-about-operators----][<<<Good: About operators (<$) (*>) (<*) (>>)>>>]]
+  - [[#good-about-operators-mapm_-sequence_][<<<Good: About operators mapM_ sequence_>>>]]
+  - [[#good-guideliles][<<<Good: Guideliles>>>]]
     - [[#wikihaskell][Wiki.haskell]]
       - [[#documentation][Documentation]]
         - [[#comments-write-in-application-terms-not-technical][Comments write in application terms, not technical.]]
@@ -593,11 +593,11 @@
         - [[#last-char-in-file-should-be-newline][Last char in file should be newline]]
         - [[#symbolic-infix-identifiers-is-only-library-writer-right][Symbolic infix identifiers is only library writer right]]
         - [[#every-function-does-one-thing][Every function does one thing.]]
-  - [[#use-typed-holes-to-progress-the-code][Use Typed holes to progress the code]]
-  - [[#haskell-has-infinite-terms-not-not-infinite-types][Haskell has infinite terms not not infinite types.]]
-  - [[#use-type-sysnonims-to-differ-the-information][Use type sysnonims to differ the information]]
-  - [[#controlmonaderror---controlmonadexcept][Control.Monad.Error -> Control.Monad.Except]]
-  - [[#point-free-becomes-better-in-multi-dimentional-data][Point-free becomes better in multi-dimentional data]]
+  - [[#good-use-typed-holes-to-progress-the-code][<<<Good: Use Typed holes to progress the code>>>]]
+  - [[#good-haskell-has-infinite-terms-not-not-infinite-types][<<<Good: Haskell has infinite terms not not infinite types.>>>]]
+  - [[#good-use-type-sysnonims-to-differ-the-information][<<<Good: Use type sysnonims to differ the information>>>]]
+  - [[#good-controlmonaderror---controlmonadexcept][<<<Good: Control.Monad.Error -> Control.Monad.Except>>>]]
+  - [[#good-point-free-is-great-in-multi-dimentions][<<<Good: Point-free is great in multi-dimentions>>>]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -635,7 +635,7 @@
 :PROPERTIES:
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
-** Abelian category :drill:
+** <<<Abelian category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
@@ -656,7 +656,7 @@ Is which:
   * all [[Monomorphism][monomorphism]]s and [[Epimorphism][epimorphism]]s are normal.
 Abelian [[Category][category]] are very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
-** Abstraction :drill:
+** <<<Abstraction>>> :drill:
 :PROPERTIES:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
 :END:
@@ -666,7 +666,7 @@ tractus draw, haul, drag
 
 Purified generalization of process.
 It is great did to name an abstraction ([[Denotational semantics]]).
-** Actual type :drill:
+** <<<Actual type>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
@@ -680,7 +680,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
 [[Data type]] recieved by ->[[Type inference][inferring]]->compiling->execution.
-** Algebra :drill:
+** <<<Algebra>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
@@ -700,12 +700,12 @@ A system of algebra based on given axioms.
 
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
-** Alpha equivalence :drill:
+** <<<Alpha equivalence>>> :drill:
 :PROPERTIES:
 :ID:       83ea3e34-0c72-4976-abaa-875767736cea
 :END:
 Alpha equivalence - in [[Expression][expressions]] process is literally the same, but names of parameters accordingly different (then they are synonyms).
-** Ambigram :drill:
+** <<<Ambigram>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
@@ -728,13 +728,13 @@ While this word has two contradictory diametrically opposite meanings, one was c
 But it has... Both.
 
 /TODO: Probably better for the merit of difference about different meaning refer to [[Tensor]] as object with many meanings./
-** Anamorphism :drill:
+** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
 :END:
 [[Morphism]] from a [[Coalgebra][coalgebra]] to the final coalgebra for that [[Endofunctor][endofunctor]].
 Is a [[Function][function]] that generates a sequence by repeated [[Application][application]] of the function to its previous result.
-** Application :drill:
+** <<<Application>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
@@ -748,7 +748,7 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 For FP see [[Bind]]. And then [[Beta reduction][beta reduction]] happen.
-** Application memory :drill:
+** <<<Application memory>>> :drill:
 :PROPERTIES:
 :ID:       49209cb4-a094-4b16-8803-884efd701706
 :END:
@@ -766,7 +766,7 @@ When stacked Stack frames exceed the Stack size - stack overflow happens.
 See [[Application memory]].
 **** Stack
 See [[Application memory]].
-** Applicative :drill:
+** <<<Applicative>>> :drill:
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
 :END:
@@ -881,24 +881,24 @@ liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 
 [[liftA2 (<*>)]] 3-layer version.
 ***** liftA3
 [[liftA2]] 3-parameter version.
-** Applicative functor :drill:
+** <<<Applicative functor>>> :drill:
 :PROPERTIES:
 :ID:       5a6a7b44-9124-4af8-aeb6-c7dbcbc9888c
 :END:
 Applicative functor - [[Lax monoidal functor]] with [[Tensorial strength]].
 See [[Applicative]].
-** Arbitrary function :drill:
+** <<<Arbitrary function>>> :drill:
 :PROPERTIES:
 :ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
 :END:
 Depends on type and generates values of that type.
-** Arbitrary type class :drill:
+** <<<Arbitrary type class>>> :drill:
 :PROPERTIES:
 :ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
 :END:
 [[Type class]] of [[QuickCheck]].Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is [[Arbitrary function][arbitrary]] - that autoassumes/generates values.
-** Argument :drill:
+** <<<Argument>>> :drill:
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
 :END:
@@ -907,7 +907,7 @@ argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
 Is an input value to a [[Function][function]] [[Parameter][parameter]].
-** Arity :drill:
+** <<<Arity>>> :drill:
 :PROPERTIES:
 :ID:       fa4caa07-eea5-4082-aaed-92abb820e768
 :END:
@@ -917,20 +917,20 @@ Number of [[Parameter][parameters]] of the [[Function][function]].
   * binary  - f(x,y)
   * ternary - f(x,y,z)
   * n-ary   - f(x,y,z..)
-** As-pattern :drill:
+** <<<As-pattern>>> :drill:
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
 :END:
 #+begin_src haskell
 f list@(x, xs) = ...
 #+end_src
-** Assertion :drill:
+** <<<Assertion>>> :drill:
 :PROPERTIES:
 :ID:       ca03459f-58a7-4938-8de0-2408ee2a0225
 :END:
 Statement.
 Утверждение.
-** Associative law :drill:
+** <<<Associative law>>> :drill:
 :PROPERTIES:
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
 :END:
@@ -938,7 +938,7 @@ Joined by a common purpose.
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
-** Base case :drill:
+** <<<Base case>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
@@ -952,7 +952,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:03]
 :END:
 A part of a [[Recursion][recursive]] [[Function][function]] that trivially produces result.
-** Basis :drill:
+** <<<Basis>>> :drill:
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
 :END:
@@ -960,17 +960,17 @@ $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see [[Category theory]], or Euclidian geometry basis.
-** Beta normal form :drill:
+** <<<Beta normal form>>> :drill:
 :PROPERTIES:
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
 :END:
 No [[Beta reduction][beta reduction]] is possible.
-** Beta reduction :drill:
+** <<<Beta reduction>>> :drill:
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
 :END:
 Applying [[Function][function]] to an [[Argument][argument]].
-** Binary :drill:
+** <<<Binary>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
@@ -984,12 +984,12 @@ SCHT: <2019-06-19 Wed>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 Two of something.
-** Binary operation :drill:
+** <<<Binary operation>>> :drill:
 :PROPERTIES:
 :ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
 :END:
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
-** Binary tree :drill:
+** <<<Binary tree>>> :drill:
 :PROPERTIES:
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
 :END:
@@ -999,7 +999,7 @@ data BinaryTree a
   | [[Node]] (BinaryTree a) a (BinaryTree a)
   deriving (Eq, Ord, Show)
 #+end_src
-** Bind :drill:
+** <<<Bind>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
@@ -1015,7 +1015,7 @@ SCHT: <2019-06-20 Thu>
 Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
-** Bottom value :drill:
+** <<<Bottom value>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
@@ -1033,7 +1033,7 @@ SCHT: <2019-06-21 Fri>
 #+end_src
 
 Is a non-value placeholder for enything.
-** Calculus of constructions :drill:
+** <<<Calculus of constructions>>> :drill:
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
 :END:
@@ -1043,7 +1043,7 @@ Directly relates to Coq programming language.
 *** /*/
 **** CoC
 See [[Calculus of constructions]].
-** Cardinality :drill:
+** <<<Cardinality>>> :drill:
 SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
@@ -1061,7 +1061,7 @@ Number of possible implementations for a given type signature. So also number el
 
 Disjuction, sum - adds cardinalities.
 Conjunction, product - multiplies cardinalities.
-** Cartesian product :drill:
+** <<<Cartesian product>>> :drill:
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
@@ -1071,7 +1071,7 @@ Any [[Function][function]] is a subset of Cartesian product.
 $$ \sum_{}_{}^{elem \in (A \times B)}  = cardinality^{A \times B} $$
 [[Cardinality]].
 
-** Case :drill:
+** <<<Case>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
@@ -1101,7 +1101,7 @@ case () of _
              | otherwise -> exDefault
 #+end_src
 
-** Category :drill:
+** <<<Category>>> :drill:
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
 :END:
@@ -1118,18 +1118,18 @@ From these axioms, one can prove that there is exactly one identity morphism for
 See [[Category]]
 **** Category theory
 See [[Category]]
-** Closed-form expression :drill:
+** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
 :END:
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
-** Closed set :drill:
+** <<<Closed set>>> :drill:
 :PROPERTIES:
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
 :END:
 Closed set - a set whose complement is an open set.
 Closed set is a form of [[Closed-form expression]]. Set can be closed in under a set of operations.
-** Closure :drill:
+** <<<Closure>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
@@ -1145,13 +1145,13 @@ SCHT: <2019-06-21 Fri>
 
 $$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
 Operation /*/ - operation on members of the domain always produces a members of the domain - in this case we also say that the set is closed under the operation.
-** Coalgebra :drill:
+** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
 :END:
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative [[Algebra][algebras]].
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
-** CoArbitrary :drill:
+** <<<CoArbitrary>>> :drill:
 :PROPERTIES:
 :ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
 :END:
@@ -1159,7 +1159,7 @@ Pseudogenerates a function basing on resulting type.
 #+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
-** Codomain :drill:
+** <<<Codomain>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       f8603032-30f1-4074-80b5-0f6f49428241
@@ -1173,7 +1173,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Codomain - target set of a function in $X \to Y$.
-** Combinator :drill:
+** <<<Combinator>>> :drill:
 :PROPERTIES:
 :ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
 :END:
@@ -1188,7 +1188,7 @@ Not comibnators:
 \xs -> sum xs
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
-** Commutative law :drill:
+** <<<Commutative law>>> :drill:
 :PROPERTIES:
 :ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
 :END:
@@ -1196,21 +1196,21 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
 **** Commutative
 See Commutative law
-** Composition :drill:
+** <<<Composition>>> :drill:
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
 :END:
 Axiom of [[Category]].
-** Concatenate :drill:
+** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
 :END:
 Link together sequences.
-** Concrete type :drill:
+** <<<Concrete type>>> :drill:
 :PROPERTIES:
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
-** Conjunction :drill:
+** <<<Conjunction>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
@@ -1231,22 +1231,22 @@ Haskell kind:
 #+begin_src haskell
  * *
 #+end_src
-** Cons cell :drill:
+** <<<Cons cell>>> :drill:
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
 :END:
 Cell that values may inhabit.
-** Constant :drill:
+** <<<Constant>>> :drill:
 :PROPERTIES:
 :ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
 :END:
 Nullary constructor
-** Constraint :drill:
+** <<<Constraint>>> :drill:
 :PROPERTIES:
 :ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
 :END:
 See: [[Ad hoc polymorphism]]
-** Construct :drill:
+** <<<Construct>>> :drill:
 :PROPERTIES:
 :ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
 :END:
@@ -1256,7 +1256,7 @@ See: [[Ad hoc polymorphism]]
 *** /*/
 **** Cons
 Short for [[Construct]].
-** Constructor :drill:
+** <<<Constructor>>> :drill:
 :PROPERTIES:
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
 :END:
@@ -1264,7 +1264,7 @@ Short for [[Construct]].
 2. [[Data constructor]]
 
 Also see: [[Constant]]
-** Contravariant :drill:
+** <<<Contravariant>>> :drill:
 :PROPERTIES:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
 :END:
@@ -1281,7 +1281,7 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 See [[Contravariant]].
 **** Contravariant functor
 More inline term is [[Contravariant cofunctor]]
-** Covariant :drill:
+** <<<Covariant>>> :drill:
 :PROPERTIES:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
 :END:
@@ -1290,17 +1290,17 @@ The property of [[Basis]], in which if new basis is a linear combination of the 
 Denotation:
 Components for covariant basis denoted in the upper indices:
 $$ V_{i} = x $$
-** Covariant cofunctor :drill:
+** <<<Covariant cofunctor>>> :drill:
 :PROPERTIES:
 :ID:       f53b176d-6377-4a9b-aa0b-40a4c7531cb4
 :END:
 See [[Covariant]].
-** Covariant functor :drill:
+** <<<Covariant functor>>> :drill:
 :PROPERTIES:
 :ID:       c9502e88-5005-4d6e-9615-bfacae3bde2d
 :END:
 More inline term is [[Covariant cofunctor]]
-** Curry–Howard correspondence :drill:
+** <<<Curry–Howard correspondence>>> :drill:
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
 :END:
@@ -1308,29 +1308,29 @@ Computer programs are mathematical proofs.
 *** /*/
 **** Curry–Howard isomorphism
 See [[Curry–Howard correspondence]].
-** Currying :drill:
+** <<<Currying>>> :drill:
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
 :END:
 Translating the [[Evaluation][evaluation]] of a multiple [[Argument][argument]] function (or a tuple of arguments) into evaluating a sequence of [[Function][functions]], each with a single argument.
-** Data constant :drill:
+** <<<Data constant>>> :drill:
 :PROPERTIES:
 :ID:       7fd715db-5709-4238-9e49-8a9b9066a388
 :END:
 See: [[Constant]]
-** Data constructor :drill:
+** <<<Data constructor>>> :drill:
 :PROPERTIES:
 :ID:       dc94bd99-113e-4025-82e8-39cd6843091b
 :END:
 One instance that [[Inhabit][inhabit]] [[Data type][data type]].
 
 Constant value - nullary data constructor.
-** Data declaration :drill:
+** <<<Data declaration>>> :drill:
 :PROPERTIES:
 :ID:       2c150e09-b6e0-4de9-8fca-497bdaf6c4cc
 :END:
 [[Data type]] definition.
-** data declaration :drill:
+** <<<data declaration>>> :drill:
 :PROPERTIES:
 :ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
 :END:
@@ -1343,7 +1343,7 @@ data [context =>] type typeVars1..n
   | conm  cmt1..q
   [deriving]
 #+end_src
-** Data type :drill:
+** <<<Data type>>> :drill:
 :PROPERTIES:
 :ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
 :END:
@@ -1361,7 +1361,7 @@ Type that take more types as arguments.
 [[Algebraic data type]] formed by logical [[Conjunction][conjunction]] (AND ' ').
 *** Sum data type
 [[Algebraic data type]] formed by logical [[Disjunction][disjunction]] (OR '|').
-** Declaration :drill:
+** <<<Declaration>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       461111ea-4124-427f-bfc6-f83212a07951
@@ -1375,7 +1375,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 [[Bind][binding]] name to [[Expression][expression]].
-** Dependent type :drill:
+** <<<Dependent type>>> :drill:
 :PROPERTIES:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
 :END:
@@ -1383,7 +1383,7 @@ Type and variable have rules regarding values.
 
 A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
-** Derived instance :drill:
+** <<<Derived instance>>> :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
 :ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
@@ -1397,7 +1397,7 @@ SCHT: <2019-06-12 Wed>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:05]
 :END:
 Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
-** Differential operator :drill:
+** <<<Differential operator>>> :drill:
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
 :END:
@@ -1408,7 +1408,7 @@ Last one is partial.
 $$ e^{t{\frac {d}{dx}} $$ - [[Shift]].
 *** Differential
 See [[Differential operator]]
-** Disjunction :drill:
+** <<<Disjunction>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
@@ -1422,22 +1422,22 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:57]
 :END:
 OR
-** Dispatch :drill:
+** <<<Dispatch>>> :drill:
 :PROPERTIES:
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :END:
 Send, transmission, reference.
-** Domain :drill:
+** <<<Domain>>> :drill:
 :PROPERTIES:
 :ID:       61416c64-6cbf-4af4-9428-ad6f79e76701
 :END:
 Source set of a function in $$ X \to Y $$.
-** Effect :drill:
+** <<<Effect>>> :drill:
 :PROPERTIES:
 :ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
 :END:
 Observable action.
-** Endofunctor :drill:
+** <<<Endofunctor>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
@@ -1451,39 +1451,39 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 Is a [[Functor][functor]] which [[Domain][domain]] and [[Codomain][codomain]] are the same [[Category][category]].
-** Endofunctor category :drill:
+** <<<Endofunctor category>>> :drill:
 :PROPERTIES:
 :ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
 :END:
 From the name, in this [[Category]] - the objects of $$ End(C) $$ are [[Endofunctor]]s $$ F: C \to C $$, and the [[Morphism]]s are [[Natural transformation]]s between endofunctors.
-** Evaluation :drill:
+** <<<Evaluation>>> :drill:
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
 :END:
 For FP see [[Bind]].
-** Expected type :drill:
+** <<<Expected type>>> :drill:
 :PROPERTIES:
 :ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
 :END:
 [[Data type]] [[Type inference][inferred]] from the text of the code.
-** Expression :drill:
+** <<<Expression>>> :drill:
 :PROPERTIES:
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
 :END:
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
-** First-class :drill:
+** <<<First-class>>> :drill:
 :PROPERTIES:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
 :END:
 1. Can be used as value.
 2. Passed as an [[Argument][argument]].
 From 1&2 -> can include itself.
-** Fold :drill:
+** <<<Fold>>> :drill:
 :PROPERTIES:
 :ID:       9513b166-74df-4a9f-b7da-d03f84ca2cfc
 :END:
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
-** Free variable :drill:
+** <<<Free variable>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
@@ -1498,7 +1498,7 @@ SCHT: <2019-06-20 Thu>
 :END:
 Variable in the fuction that is not bound by the head.
 Until there are /* -/ function stays [[Partial application][partially applied]].
-** Function :drill:
+** <<<Function>>> :drill:
 :PROPERTIES:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
 :END:
@@ -1614,7 +1614,7 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 See [[Bijection]].
 ***** Bijective function
 See [[Bijection]].
-** Functor :drill:
+** <<<Functor>>> :drill:
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
@@ -1660,13 +1660,13 @@ Lift is to do a [[Function application][function application]] through the data 
 See: [[Functor]]
 **** fmap
 See: [[Functor]]
-** Fundamental theorem of algebra :drill:
+** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
 :END:
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
-** Gen type :drill:
+** <<<Gen type>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
@@ -1680,18 +1680,18 @@ SCHT: <2019-06-13 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
 Generator. List it returns gets infinitely cycled.
-** Girard–Reynolds polymorphic lambda calculus :drill:
+** <<<Girard–Reynolds polymorphic lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
 :END:
 See [[System F]].
-** Guerrilla patch :drill:
+** <<<Guerrilla patch>>> :drill:
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
 :END:
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 [[Monkey patch]] is derivative term.
-** Higher-order function :drill:
+** <<<Higher-order function>>> :drill:
 :PROPERTIES:
 :ID:       61a40480-45d2-4632-9948-986eecd8b7cb
 :END:
@@ -1704,14 +1704,14 @@ Evaluates to function.
 *** /*/
 **** HOF
 See: [[Higher-order function]]
-** Hindley–Milner type system :drill:
+** <<<Hindley–Milner type system>>> :drill:
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
 :END:
 Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
 Also known as Damas–Milner or Damas–Hindley–Milner system.
-** Hom-set :drill:
+** <<<Hom-set>>> :drill:
 :PROPERTIES:
 :ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
 :END:
@@ -1735,13 +1735,13 @@ $$ Hom(A,-) : C \to Set $$
 
 Hom-bifunctor:
 $$ Hom(-,-):C^{op} \times C \to Set $$
-** Idempotence :drill:
+** <<<Idempotence>>> :drill:
 :PROPERTIES:
 :ID:       1c821458-dd2b-4112-aa32-416e27b161ba
 :END:
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
-** Idiom :drill:
+** <<<Idiom>>> :drill:
 SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       bc244256-751d-4205-857e-368a45580884
@@ -1761,14 +1761,14 @@ For different meaning - it is [[Applicative functor]].
 *** /*/
 **** Idiomatic
 See [[Idiom]].
-** Iff :drill:
+** <<<Iff>>> :drill:
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
 :END:
 If and only if, exectly when, just.
 Denotation:
 $$ \iff $$
-** Impredicative :drill:
+** <<<Impredicative>>> :drill:
 :PROPERTIES:
 :ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
 :END:
@@ -1777,7 +1777,7 @@ Self-referencing definition.
 ---
 
 /Antonym - [[Predicative]]./
-** Infix :drill:
+** <<<Infix>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
@@ -1791,22 +1791,22 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:25]
 :END:
 Form of wrinting of operaton application in-between variables.
-** Inhabit :drill:
+** <<<Inhabit>>> :drill:
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
 What [[Value][values]] inhabit [[Data type][data type]]
-** Initial object :drill:
+** <<<Initial object>>> :drill:
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
 :END:
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
-** Interface :drill:
+** <<<Interface>>> :drill:
 :PROPERTIES:
 :ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
 :END:
 Point of mutual meeting. Code behind interface determines how data is consumed.
-** IO :drill:
+** <<<IO>>> :drill:
 :PROPERTIES:
 :ID:       40e4a54b-c1c7-41fc-ac84-d3f167eb320f
 :END:
@@ -1833,7 +1833,7 @@ twoBinds =
 main = twoBinds
 :}
 #+end_src
-** Kernel :drill:
+** <<<Kernel>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       44aee181-f629-4047-abf5-f2ae438f2063
@@ -1853,12 +1853,12 @@ Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
 *** Kernel homomorphism
 Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
-** Kind :drill:
+** <<<Kind>>> :drill:
 :PROPERTIES:
 :ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
 :END:
 Kind -> Type -> Data
-** Lambda abstraction :drill:
+** <<<Lambda abstraction>>> :drill:
 :PROPERTIES:
 :ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
 :END:
@@ -1868,7 +1868,7 @@ $$ \lambda x.x+1 $$
 \x -> x + 1
 ^^
 #+end_src
-** Lambda calculus :drill:
+** <<<Lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
 :END:
@@ -1882,7 +1882,7 @@ Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function appl
 *** /*/
 **** Lambda term
 See [[Lambda calculus]]
-** Lambda cube :drill:
+** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
 :END:
@@ -1892,7 +1892,7 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
   * ([[Higher-rank polymorphism]]) - types depending on terms, corresponding to dependent types.
   * ([[Type class]]) - types depending on types, corresponding to type operators.
-** Lambda function :drill:
+** <<<Lambda function>>> :drill:
 :PROPERTIES:
 :ID:       857ef4b3-f3e6-4065-aac4-fd3607ed5284
 :END:
@@ -1912,18 +1912,18 @@ $$ \lambda x y.x^2 + y^3 $$
 See [[Lambda function]]
 *** Anonymous function
 [[Lambda function]] without the name to [[Bind][bind]] to.
-** Leaf :drill:
+** <<<Leaf>>> :drill:
 :PROPERTIES:
 :ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
 :END:
  _
-** Left associative :drill:
+** <<<Left associative>>> :drill:
 :PROPERTIES:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
 :END:
 Same level [[Expression][expression]] parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
-** Level of code :drill:
+** <<<Level of code>>> :drill:
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
 :END:
@@ -1940,7 +1940,7 @@ There are mainly three levels of Haskell code.
 *** /*/
 **** Code level
 See [[Level of code]]
-** Lexical scope :drill:
+** <<<Lexical scope>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
@@ -1957,12 +1957,12 @@ Scope bound by the structure of source code where the named entity is defined.
 *** /*/
 **** Static scope
 See [[Lexical scope]]
-** Dynamic scope :drill:
+** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
 :ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
 :END:
 The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
-** Linear type :drill:
+** <<<Linear type>>> :drill:
 :PROPERTIES:
 :ID:       eda588af-3ef5-43a8-8f06-6a6f2f556036
 :END:
@@ -1973,7 +1973,7 @@ There are 3 general linear type groups:
  * 1< - all other data, that can be duplicated multiple times.
 
 Linear types are great to control/minimize resource usage.
-** Local scope :drill:
+** <<<Local scope>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
@@ -1990,24 +1990,24 @@ SCHT: <2019-06-20 Thu>
 *** /*/
 **** Local
 See: [[Local scope]]
-** Magma :drill:
+** <<<Magma>>> :drill:
 :PROPERTIES:
 :ID:       c40ac83b-c730-4de5-915d-04d76c88398c
 :END:
 Set with a single binary operation.
 
 The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
-** Module :drill:
+** <<<Module>>> :drill:
 :PROPERTIES:
 :ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
 :END:
 Importable organization unit.
-** Modulus :drill:
+** <<<Modulus>>> :drill:
 :PROPERTIES:
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
 :END:
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
-** Monad :drill:
+** <<<Monad>>> :drill:
 :PROPERTIES:
 :ID:       b1faf835-213f-4336-86a9-8e331dd60986
 :END:
@@ -2168,7 +2168,7 @@ Explanation:
 
 *** Comonad
 [[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
-** Monkey patch :drill:
+** <<<Monkey patch>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
@@ -2184,7 +2184,7 @@ SCHT: <2019-06-19 Wed>
 /From [[Guerrilla patch]]./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
-** Monoid :drill:
+** <<<Monoid>>> :drill:
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
 :END:
@@ -2221,12 +2221,12 @@ Very helpful at concurrent or distributed processing.
 **** /*/
 ***** Abelian monoid
 See [[Commutative monoid]]
-** Monoidal functor :drill:
+** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
 :END:
 Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
-** Morphism :drill:
+** <<<Morphism>>> :drill:
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
 :END:
@@ -2364,7 +2364,7 @@ In functional programming, catamorphisms provide generalizations of folds of lis
 **** /*/
 ***** Catamorphic
 See [[Catamorphism]]
-** newtype declaration :drill:
+** <<<newtype declaration>>> :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
 :ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
@@ -2392,7 +2392,7 @@ newtype Book = Book (Int, Int)
       / \
 Integer Integer
 #+end_src
-** Node :drill:
+** <<<Node>>> :drill:
 :PROPERTIES:
 :ID:       44946197-24dd-48fd-810c-6af851f6a0cf
 :END:
@@ -2400,7 +2400,7 @@ Integer Integer
  *
 / \
 #+end_src
-** NonEmpty list data type :drill:
+** <<<NonEmpty list data type>>> :drill:
 :PROPERTIES:
 :ID:       809c682b-457e-47df-bdfd-92302d3c42da
 :END:
@@ -2413,22 +2413,22 @@ data NonEmpty a = a :| [a]
 #+end_src
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
-** Normal form :drill:
+** <<<Normal form>>> :drill:
 :PROPERTIES:
 :ID:       728a6769-55f0-41a3-bb0c-acfa02096e7f
 :END:
 In context: [[Beta normal form]]
-** Nothing :drill:
+** <<<Nothing>>> :drill:
 :PROPERTIES:
 :ID:       350c03dd-e563-4d42-b554-d38370619667
 :END:
 Any Haskell expression can't return nothing.
-** Open formula :drill:
+** <<<Open formula>>> :drill:
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
 :END:
 [[Function]] with [[Arity][arity]].
-** Operation :drill:
+** <<<Operation>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
@@ -2442,12 +2442,12 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 [[Function][Function]]. Word used in mathematics. Often a symbol, [[Infix][infix]], binary.
-** Operator :drill:
+** <<<Operator>>> :drill:
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
 :END:
 [[Infix]] [[Function][function]].
-** Orphan type instance :drill:
+** <<<Orphan type instance>>> :drill:
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
 :END:
@@ -2460,7 +2460,7 @@ Put the instance in the same module as the type so that the type cannot be impor
 Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
 3. Neither the type nor the type class are yours?
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
-** Parameter :drill:
+** <<<Parameter>>> :drill:
 :PROPERTIES:
 :ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
 :END:
@@ -2470,23 +2470,23 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 Or Formal Parameter - named varible of a [[Function][function]].
 Is variable defined in function definition.
 Contrary to the [[Argument]] wich is a supplied value to a function.
-** Partial application :drill:
+** <<<Partial application>>> :drill:
 :PROPERTIES:
 :ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
 :END:
 Part of [[Function][function]] [[Parameter][parameters]] [[Application][applied]].
-** Partial function :drill:
+** <<<Partial function>>> :drill:
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
 :END:
 One that does not cover all [[Domain]].
 Unsafe and causes trouble.
-** Permutation :drill:
+** <<<Permutation>>> :drill:
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
 :END:
 [[Bijective]] [[Function]] from [[Domain][domain]] to itself.
-** Point-free :drill:
+** <<<Point-free>>> :drill:
 SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
@@ -2585,7 +2585,7 @@ See [[Point-free]]
 See [[Point-free]]
 **** Tacit programming
 See [[Point-free]]
-** Polymorphism :drill:
+** <<<Polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       83a22f3c-9140-490c-9390-85319566a443
 :END:
@@ -2713,7 +2713,7 @@ For exampe - if fold over a dynamic array:
   3) With Linear type function we guarantee that the array would be used only at one place at a time.
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
-** Pragma :drill:
+** <<<Pragma>>> :drill:
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
 :END:
@@ -3065,7 +3065,7 @@ xFlagsDeps = [
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
 *** Pragma option
 Values supplied to the [[Pragma]] directive.
-** Predicate :drill:
+** <<<Predicate>>> :drill:
 :PROPERTIES:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
 :END:
@@ -3073,7 +3073,7 @@ Values supplied to the [[Pragma]] directive.
 
 Notation: $$ P(x) $$
 [[Application]] of [[Argument][argument]] yealds true or false predicate.
-** Predicative :drill:
+** <<<Predicative>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
@@ -3091,7 +3091,7 @@ Non-self-referencing definition.
 ---
 
 /Antonym - [[Impredicative]]./
-** Principal type :drill:
+** <<<Principal type>>> :drill:
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
 :DRILL_LAST_INTERVAL: 0.0
@@ -3104,7 +3104,7 @@ Non-self-referencing definition.
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 The most generic [[Data type][data type]] that still typechecks.
-** Principle of compositionality :drill:
+** <<<Principle of compositionality>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       d8df7582-1e97-4cf9-9d0d-146ede21ad1f
@@ -3118,9 +3118,9 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:31]
 :END:
 The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
-** Phrase :drill:
+** <<<Phrase>>> :drill:
 /*/ - [[Composition][composable]] expression.
-** Proxy type :drill:
+** <<<Proxy type>>> :drill:
 :PROPERTIES:
 :ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
 :END:
@@ -3131,7 +3131,7 @@ data Proxy a = ProxyValue
 let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
-** \Psi-combinator :drill:
+** <<<\Psi-combinator>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
@@ -3154,12 +3154,12 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 See: [[\Psi-combinator]]
 **** On-combinator
 See: [[\Psi-combinator]]
-** Purity :drill:
+** <<<Purity>>> :drill:
 :PROPERTIES:
 :ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
 :END:
 [[Referential transparency][Referential transparent]] [[Function][function]]
-** Quantifier :drill:
+** <<<Quantifier>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       ac758691-4dc3-4e6c-9f18-59793263a845
@@ -3183,12 +3183,12 @@ Permits to not [[Type inference][infer]] the type, but to use any that fits. The
 **** /*/
 ***** Forall
 See [[Forall quantifier]]
-** Recursion :drill:
+** <<<Recursion>>> :drill:
 :PROPERTIES:
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
 :END:
 Repeated function application allow computing results that may require indefinite amount of work.
-** Redex :drill:
+** <<<Redex>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       3d5326a4-74a7-433d-860a-2590072bb61d
@@ -3202,12 +3202,12 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
 :END:
 [[Reduction][Reducible]] [[Expression][expression]]
-** Reduction :drill:
+** <<<Reduction>>> :drill:
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
 :END:
 See [[Beta reduction]]
-** Referential transparency :drill:
+** <<<Referential transparency>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
@@ -3224,17 +3224,17 @@ Returns the same output given the same values to evaluate.
 So:
 /*/ [[expression]] can be replaced with its corresponding resulting value without change for program's behavior.
 /*/ [[Function][functions]] are [[Pure][pure]].
-** Relation :drill:
+** <<<Relation>>> :drill:
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
 :END:
 Is not directed and not limited.
-** REPL :drill:
+** <<<REPL>>> :drill:
 :PROPERTIES:
 :ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
 :END:
 Interactive CLI. Read-eval-print loop.
-** Scope :drill:
+** <<<Scope>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       a2989c15-2adc-403a-add7-35855e9de65c
@@ -3248,7 +3248,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Area where [[Bind][bind]]s are accessible.
-** Sectioning :drill:
+** <<<Sectioning>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
@@ -3262,7 +3262,7 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
 Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
-** Semantics :drill:
+** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
 :END:
@@ -3284,7 +3284,7 @@ Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
 Empirical process.
-** Semigroup :drill:
+** <<<Semigroup>>> :drill:
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
 :END:
@@ -3299,7 +3299,7 @@ class Semigroup a where
 (<>) :: a -> a -> a
 #+end_src
 
-** Set :drill:
+** <<<Set>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
@@ -3313,7 +3313,7 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:56]
 :END:
 Well-defined collection of distinct objects.
-** SET category :drill:
+** <<<SET category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       c6c7f178-7b69-4154-83ed-34de9b102193
@@ -3327,7 +3327,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
-** Shadowing :drill:
+** <<<Shadowing>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       45b1bebf-431f-45dd-8522-ea688968090f
@@ -3341,7 +3341,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
-** Shift operator :drill:
+** <<<Shift operator>>> :drill:
 :PROPERTIES:
 :ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
 :END:
@@ -3350,23 +3350,23 @@ $$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
 *** /*/
 **** Shift
 See [[Shift operator]]
-** Shrinking :drill:
+** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
 :END:
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-** Singleton :drill:
+** <<<Singleton>>> :drill:
 :PROPERTIES:
 :ID:       cd966fe0-f42d-4b75-b388-85649eacc84f
 :END:
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
-** Smart constructor :drill:
+** <<<Smart constructor>>> :drill:
 :PROPERTIES:
 :ID:       e2aded58-a463-4762-97c4-7fc2238d386d
 :END:
 Place extra [[Constraint][constraints]] on the construction of values.
-** Spine :drill:
+** <<<Spine>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
 :ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
@@ -3403,18 +3403,18 @@ _   :
     _  []
 
 #+end_src
-** Statement :drill:
+** <<<Statement>>> :drill:
 :PROPERTIES:
 :ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
 :END:
 Declarative sentence that is true or false.
 Gonzales: "What code does."
-** Static typing :drill:
+** <<<Static typing>>> :drill:
 :PROPERTIES:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
 :END:
 Static typechecking occurs at [[Compile level][compile level]].
-** Structural type :drill:
+** <<<Structural type>>> :drill:
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
 :DRILL_LAST_INTERVAL: 0.0
@@ -3427,19 +3427,19 @@ Static typechecking occurs at [[Compile level][compile level]].
 :DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
 Mathematical [[Type][type]]. They form into [[structural type system]].
-** Structural type system :drill:
+** <<<Structural type system>>> :drill:
 :PROPERTIES:
 :ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
 :END:
 Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
 In most languages typing is name-based, not [[Structural type][structural]].
-** Superclass :drill:
+** <<<Superclass>>> :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
 :END:
 Broader parent class.
-** Syntatic sugar :drill:
+** <<<Syntatic sugar>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       244e15a8-9ae5-4842-82b1-279387d088fd
@@ -3453,13 +3453,13 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:29]
 :END:
 Artificial way to make language easier to read and write.
-** System F :drill:
+** <<<System F>>> :drill:
 :PROPERTIES:
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
 :END:
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
-** Tail call :drill:
+** <<<Tail call>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
@@ -3473,12 +3473,12 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:34]
 :END:
 Final evaluation producing result of the function.
-** Tail recursion :drill:
+** <<<Tail recursion>>> :drill:
 :PROPERTIES:
 :ID:       62dd2851-710e-4035-9890-6af1c17e6305
 :END:
 Tail calls are recursive invocantions of itself.
-** Tensor :drill:
+** <<<Tensor>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       e165b708-fdd2-4062-be87-b65487de4a0e
@@ -3496,12 +3496,12 @@ They can be tried to be described with knowledge existing inside planes, but rep
 Tensor of rank 1 is a vector.
 
 Tensors can be seen as [[Functor]]s.
-** Terminal object :drill:
+** <<<Terminal object>>> :drill:
 :PROPERTIES:
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
 :END:
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
-** Testing :drill:
+** <<<Testing>>> :drill:
 :PROPERTIES:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
 :END:
@@ -3645,7 +3645,7 @@ main = do
 1. Pick the right language/stack to implement features.
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
-** Tuple :drill:
+** <<<Tuple>>> :drill:
 :PROPERTIES:
 :ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
 :END:
@@ -3654,7 +3654,7 @@ Tuples by [[Arity][arity]]:
   * empty, [[Unit][unit]]          - 0
   * pair, two-tuples     - 2
   * thriple, three-tuple - 3
-** Type :drill:
+** <<<Type>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       7b89bfd2-3558-4520-939f-4030302bdda0
@@ -3671,7 +3671,7 @@ Type - [[Set][set]] of values.
 For type to have sence the values share some sence, properties.
 
 See [[Data type]]
-** Type alias :drill:
+** <<<Type alias>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
@@ -3685,7 +3685,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
 :END:
 Create new [[Type constructor][type constructor]], and use all data structure of the base type.
-** Type class :drill:
+** <<<Type class>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
@@ -3699,24 +3699,24 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
 :END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
-** Type class inheritance :drill:
+** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
 :END:
 [[Type class]] has a [[Superclass][superclass]].
-** Type constant :drill:
+** <<<Type constant>>> :drill:
 :PROPERTIES:
 :ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
 :END:
 See: [[Constant]]
-** Type constructor :drill:
+** <<<Type constructor>>> :drill:
 :PROPERTIES:
 :ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
 :END:
 Name of [[Data type][data type]]
 
 Nullary type constructor is [[Type constant]]
-** type declaration :drill:
+** <<<type declaration>>> :drill:
 :PROPERTIES:
 :ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
 :END:
@@ -3726,28 +3726,28 @@ type FirstName = String
 #+end_src
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
-** Type inference :drill:
+** <<<Type inference>>> :drill:
 :PROPERTIES:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
 :END:
 Automatic [[Data type][data type]] detection of [[Expression][expression]].
-** Type instance :drill:
+** <<<Type instance>>> :drill:
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
 :END:
 Unique [[Type class][type class]]->[[Data type][type]] pairing.
 Defines type class->type methods.
-** Type variable :drill:
+** <<<Type variable>>> :drill:
 :PROPERTIES:
 :ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
 :END:
 Refer to an unspecified type in Haskell type signature.
-** Uncurry :drill:
+** <<<Uncurry>>> :drill:
 :PROPERTIES:
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
 :END:
 Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
-** Undefined :drill:
+** <<<Undefined>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
@@ -3761,23 +3761,23 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:03]
 :END:
 Placeholder value that helps to do typechecking.
-** Unit :drill:
+** <<<Unit>>> :drill:
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
 :END:
 Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
-** Unlifted type :drill:
+** <<<Unlifted type>>> :drill:
 :PROPERTIES:
 :ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
 :END:
 Type that directly exist on the hardware. The type abstraction can be completely removed.
 With unlifted types Haskel type system directly manages data in the hardware.
-** Unsafe :drill:
+** <<<Unsafe>>> :drill:
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
 :END:
 [[Function]] that does not cover some edge case.
-** Variable :drill:
+** <<<Variable>>> :drill:
 :PROPERTIES:
 :ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
 :END:
@@ -3785,12 +3785,12 @@ A name for [[Expression][expression]].
 
 Haskell has immutable variables.
 Except when you hack it with explicit [[Function][funсtions]].
-** Variadic :drill:
+** <<<Variadic>>> :drill:
 :PROPERTIES:
 :ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
 :END:
 Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
-** Zero :drill:
+** <<<Zero>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
@@ -3807,7 +3807,7 @@ SCHT: <2019-06-22 Sat>
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from [[Identity]] value.
-** Bound :drill:
+** <<<Bound>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
@@ -3824,12 +3824,12 @@ Haskell /*/ [[Type class][type class]] means to have lowest value & highest valu
 *** /*/
 **** Bounded
 See [[Bound]]
-** Typed hole :drill:
+** <<<Typed hole>>> :drill:
 :PROPERTIES:
 :ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
 :END:
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
-** First-order logic :drill:
+** <<<First-order logic>>> :drill:
 :PROPERTIES:
 :ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
 :END:
@@ -3839,7 +3839,7 @@ Collection of formal systems used in mathematics, philosophy, linguistics, and c
 See [[First-order logic]]
 **** First-order predicate calculus
 See [[First-order logic]]
-** Context :drill:
+** <<<Context>>> :drill:
 :PROPERTIES:
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
 :END:
@@ -3849,12 +3849,12 @@ Written before the main type signature and denoted:
 TypeClass a =>
 #+end_src
 
-** Thunk :drill:
+** <<<Thunk>>> :drill:
 :PROPERTIES:
 :ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
 :END:
 Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
-** Group :drill:
+** <<<Group>>> :drill:
 :PROPERTIES:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
@@ -3863,7 +3863,7 @@ Value that is yet to be evaluated. Can be dragged around, until be lazily evalua
   * associativity,
   * identity,
   * invertibility.
-** Natural transformation :drill:
+** <<<Natural transformation>>> :drill:
 :PROPERTIES:
 :ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
 :END:
@@ -4119,7 +4119,7 @@ See [[Asymmetry]]
 See [[Asymmetry]]
 ** Commutativity
 ** Cryptomorphism
-Equivalent, interconvertable with ni loss of information.
+Equivalent, interconvertable with no loss of information.
 *** /*/
 **** Crypromorphic
 See [[Cryptomorphism]]
@@ -4154,12 +4154,12 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :PROPERTIES:
 :ID:       0061ec53-dc1b-40a8-a00a-f07fd4213be2
 :END:
-** Type aliasing :drill:
+** <<<Good: Type aliasing>>> :drill:
 :PROPERTIES:
 :ID:       db5d6252-f9b1-4c2e-ab00-a4a99d026c2a
 :END:
 Use data type aliases to deferentiate logic of values.
-** Type wideness :drill:
+** <<<Good: Type wideness>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       f84197b4-6d5d-4f8f-bb4d-3c6a1460a37b
@@ -4175,21 +4175,21 @@ SCHT: <2019-06-20 Thu>
 Parametric polymorphism is broader then constrained polymorphism
 Unconstrained means most flexible, but the most useless.
 The more constrained system has more usefulness.
-** Read Conventions of variables (page 176) :drill:
+** <<<Good: Read Conventions of variables (page 176)>>> :drill:
 :PROPERTIES:
 :ID:       6dc2fbe3-f3de-4a52-97d5-dc001e59869c
 :END:
-** Print :drill:
+** <<<Good: Print>>> :drill:
 :PROPERTIES:
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
 :END:
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
-** Read code evaluation (488 on-ward) :drill:
+** <<<Good: Read code evaluation (488 on-ward)>>> :drill:
 :PROPERTIES:
 :ID:       e2222b7e-75c8-4c75-98b2-9d99167232c3
 :END:
-** Fold :drill:
+** <<<Good: Fold>>> :drill:
 :PROPERTIES:
 :ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
 :END:
@@ -4197,32 +4197,32 @@ foldr spine recursion intermediated by the folding
 foldl spine folding is unconditional, then solding starts.
 
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
-** Computation model :drill:
+** <<<Good: Computation model>>> :drill:
 :PROPERTIES:
 :ID:       a6b88a42-c287-47ae-9db0-f7c2aa0d0cd3
 :END:
 Model the domain and types before thinking about how to write computations.
-** Make bottoms only local :drill:
+** <<<Good: Make bottoms only local>>> :drill:
 :PROPERTIES:
 :ID:       8d96eb06-0984-4325-a447-4e751ff820e0
 :END:
-** Newtype wrap is ideally transparent for compiler and does not change performance :drill:
+** <<<Good: Newtype wrap is ideally transparent for compiler and does not change performance>>> :drill:
 :PROPERTIES:
 :ID:       0a8b1bec-1a25-42e0-b137-232fb01b25d7
 :END:
-** Instances of types/type classes must go with code you write :drill:
+** <<<Good: Instances of types/type classes must go with code you write>>> :drill:
 :PROPERTIES:
 :ID:       2bafb381-43ce-44b0-9abf-ffa1f3f0c6e1
 :END:
-** Functions can be abstracted as arguments :drill:
+** <<<Good: Functions can be abstracted as arguments>>> :drill:
 :PROPERTIES:
 :ID:       714c9ca5-052c-4c5b-b3c6-fcd7741250b0
 :END:
-** Infix operators can be bind to arguments :drill:
+** <<<Good: Infix operators can be bind to arguments>>> :drill:
 :PROPERTIES:
 :ID:       defb1467-4b50-451b-8fb3-ab12af4409af
 :END:
-** Arbitrary :drill:
+** <<<Good: Arbitrary>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
@@ -4238,11 +4238,11 @@ SCHT: <2019-06-21 Fri>
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
-** Principle of Separation of concerns :drill:
+** <<<Good: Principle of Separation of concerns>>> :drill:
 :PROPERTIES:
 :ID:       a07f55f7-1a15-4aa9-b8c8-fb58149924d7
 :END:
-** Function composition :drill:
+** <<<Good: Function composition>>> :drill:
 :PROPERTIES:
 :ID:       ade1516e-44f1-4a8e-bfe4-5b773d0f27d6
 :END:
@@ -4257,7 +4257,7 @@ But it is a way better then:
 #+begin_src haskell
   h (g (f i))
 #+end_src
-** Functor application :drill:
+** <<<Good: Functor application>>> :drill:
 :PROPERTIES:
 :ID:       67dab545-6f12-4d3a-b8c7-acfc0f267d03
 :END:
@@ -4279,21 +4279,21 @@ fmap :: Functor g => (x -> y) -> g x -> g y
 fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 #+end_src
 
-** Parameter order :drill:
+** <<<Good: Parameter order>>> :drill:
 :PROPERTIES:
 :ID:       05494702-c932-47ef-a91b-6ffd27a6b51f
 :END:
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
-** Applicative monoid :drill:
+** <<<Good: Applicative monoid>>> :drill:
 :PROPERTIES:
 :ID:       e417b5f0-fc63-45e0-971a-68b2c6ae4d22
 :END:
 There can be more then one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
-** Creative process :drill:
+** <<<Good: Creative process>>> :drill:
 :PROPERTIES:
 :ID:       b5b69b79-144b-49f0-a997-ed7c056e182b
 :END:
@@ -4305,17 +4305,17 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Model the types
 **** Think how to write computations
 *** Create
-** About operators (<$) (*>) (<*) (>>) :drill:
+** <<<Good: About operators (<$) (*>) (<*) (>>)>>> :drill:
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
 :END:
 Where character is not present - discards the according value.
-** About operators mapM_ sequence_ :drill:
+** <<<Good: About operators mapM_ sequence_>>> :drill:
 :PROPERTIES:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
 :END:
 Trailing /_/ means ignoring the result.
-** Guideliles :drill:
+** <<<Good: Guideliles>>> :drill:
 :PROPERTIES:
 :ID:       30bdcb7b-27f5-4d34-993d-d4a710d41969
 :END:
@@ -4346,17 +4346,17 @@ Portability :  portable | non-portable (<reason>)
 ***** Last char in file should be newline
 ***** Symbolic infix identifiers is only library writer right
 ***** Every function does one thing.
-** Use Typed holes to progress the code :drill:
+** <<<Good: Use Typed holes to progress the code>>> :drill:
 :PROPERTIES:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
 :END:
 [[Typed hole]]s help build code in complex situations.
-** Haskell has infinite terms not not infinite types. :drill:
+** <<<Good: Haskell has infinite terms not not infinite types.>>> :drill:
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
 :END:
 That is why infinite types throw infinite type error.
-** Use type sysnonims to differ the information :drill:
+** <<<Good: Use type sysnonims to differ the information>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
 :ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
@@ -4371,11 +4371,11 @@ SCHT: <2019-06-21 Fri>
 :END:
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow to create a diffrent type class instances and behaviour for different information.
-** Control.Monad.Error -> Control.Monad.Except :drill:
+** <<<Good: Control.Monad.Error -> Control.Monad.Except>>> :drill:
 :PROPERTIES:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
 :END:
-** Point-free becomes better in multi-dimentional data :drill:
+** <<<Good: Point-free is great in multi-dimentions>>> :drill:
 :PROPERTIES:
 :ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
 :END:
