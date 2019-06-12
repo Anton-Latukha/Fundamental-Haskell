@@ -2,7 +2,7 @@
 #+startup: entitiespretty
 Important notes on Haskel, category & related fields.
 
-<<<This is a radio target>>> - for =org-mode= linking.
+=<<<This is a radio target>>>= - for =org-mode= linking.
 
 =SCHT:= - for my =org-drill= practice. It also stores metadata in :PROPERTIES:. Please just run =org-drill-strip-all-data= to remove my metadata and =SCHT:=.
 
