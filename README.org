@@ -2,9 +2,11 @@
 #+startup: entitiespretty
 Important notes on Haskel, category & related fields.
 
+This is complex ORG notes file, to get power&interlinks use capable editor/viewer.
+
 =<<<This is a radio target>>>= - for =org-mode= linking.
 
-=SCHT:= - for my =org-drill= practice. It also stores metadata in :PROPERTIES:. Please just run =org-drill-strip-all-data= to remove my metadata and =SCHT:=.
+=SCHT:= and metadata in :PROPERTIES: - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
 
 * Contents :TOC:
 - [[#definitions][Definitions]]
