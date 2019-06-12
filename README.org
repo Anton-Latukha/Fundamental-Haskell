@@ -307,33 +307,33 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
     - [[#language-pragma][<<<LANGUAGE pragma>>>]]
       - [[#language-option][<<<LANGUAGE option>>>]]
         - [[#useful-by-default][Useful by default]]
-        - [[#allowambiguoustypes][AllowAmbiguousTypes]]
-        - [[#applicativedo][ApplicativeDo]]
-        - [[#constrainedclassmethods][ConstrainedClassMethods]]
-        - [[#constraintkinds][ConstraintKinds]]
-        - [[#cpp][CPP]]
-        - [[#derivefunctor][DeriveFunctor]]
-        - [[#explicitforall][ExplicitForAll]]
-        - [[#flexiblecontexts][FlexibleContexts]]
-        - [[#flexibleinstances][FlexibleInstances]]
-        - [[#generalizednewtypederiving][GeneralizedNewtypeDeriving]]
-        - [[#implicitparams][ImplicitParams]]
-        - [[#lambdacase][LambdaCase]]
-        - [[#multiparamtypeclasses][MultiParamTypeClasses]]
-        - [[#multiwayif][MultiWayIf]]
-        - [[#overloadedstrings][OverloadedStrings]]
-        - [[#partialtypesignatures][PartialTypeSignatures]]
-        - [[#rankntypes][RankNTypes]]
-        - [[#scopedtypevariables][ScopedTypeVariables]]
-        - [[#tuplesections][TupleSections]]
-        - [[#typeapplications][TypeApplications]]
-        - [[#typefamilies][TypeFamilies]]
+        - [[#allowambiguoustypes][<<<AllowAmbiguousTypes>>>]]
+        - [[#applicativedo][<<<ApplicativeDo>>>]]
+        - [[#constrainedclassmethods][<<<ConstrainedClassMethods>>>]]
+        - [[#constraintkinds][<<<ConstraintKinds>>>]]
+        - [[#cpp][<<<CPP>>>]]
+        - [[#derivefunctor][<<<DeriveFunctor>>>]]
+        - [[#explicitforall][<<<ExplicitForAll>>>]]
+        - [[#flexiblecontexts][<<<FlexibleContexts>>>]]
+        - [[#flexibleinstances][<<<FlexibleInstances>>>]]
+        - [[#generalizednewtypederiving][<<<GeneralizedNewtypeDeriving>>>]]
+        - [[#implicitparams][<<<ImplicitParams>>>]]
+        - [[#lambdacase][<<<LambdaCase>>>]]
+        - [[#multiparamtypeclasses][<<<MultiParamTypeClasses>>>]]
+        - [[#multiwayif][<<<MultiWayIf>>>]]
+        - [[#overloadedstrings][<<<OverloadedStrings>>>]]
+        - [[#partialtypesignatures][<<<PartialTypeSignatures>>>]]
+        - [[#rankntypes][<<<RankNTypes>>>]]
+        - [[#scopedtypevariables][<<<ScopedTypeVariables>>>]]
+        - [[#tuplesections][<<<TupleSections>>>]]
+        - [[#typeapplications][<<<TypeApplications>>>]]
+        - [[#typefamilies][<<<TypeFamilies>>>]]
           - [[#data-families][<<<Data families>>>]]
           - [[#type-synonym-families][<<<Type synonym families>>>]]
-        - [[#typesynonyminstances][TypeSynonymInstances]]
-        - [[#undecidableinstances][UndecidableInstances]]
-        - [[#viewpatterns][ViewPatterns]]
-        - [[#datatypecontexts][DatatypeContexts]]
+        - [[#typesynonyminstances][<<<TypeSynonymInstances>>>]]
+        - [[#undecidableinstances][<<<UndecidableInstances>>>]]
+        - [[#viewpatterns][<<<ViewPatterns>>>]]
+        - [[#datatypecontexts][<<<DatatypeContexts>>>]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
     - [[#pragma-option][<<<Pragma option>>>]]
   - [[#predicate][<<<Predicate>>>]]
@@ -2642,13 +2642,13 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
-***** AllowAmbiguousTypes :drill:
+***** <<<AllowAmbiguousTypes>>> :drill:
 :PROPERTIES:
 :ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
 :END:
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
-***** ApplicativeDo :drill:
+***** <<<ApplicativeDo>>> :drill:
 :PROPERTIES:
 :ID:       cb3b5b66-06a8-4187-9606-631faefa7814
 :END:
@@ -2672,13 +2672,13 @@ Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
 The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
 
 It is possible to see the actual translation by using =[[-ddump-ds]]=.
-***** ConstrainedClassMethods :drill:
+***** <<<ConstrainedClassMethods>>> :drill:
 :PROPERTIES:
 :ID:       301a3741-f96c-45a7-bb14-7e342167b62d
 :END:
 Enable the definition of further constraints on individual class methods.
 
-***** ConstraintKinds :drill:
+***** <<<ConstraintKinds>>> :drill:
 :PROPERTIES:
 :ID:       39b1ef68-42be-4430-b7ca-c8a1fc511622
 :END:
@@ -2701,24 +2701,24 @@ Any type of the kind Constraints can be used as a constraint.
   func = ...
   #+end_src
 
-***** CPP :drill:
+***** <<<CPP>>> :drill:
 :PROPERTIES:
 :ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
 :END:
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
-***** DeriveFunctor :drill:
+***** <<<DeriveFunctor>>> :drill:
 :PROPERTIES:
 :ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
 :END:
 Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
 Since there is only one possible [[Functor][functor]] for any [[Data type][type]] - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
-***** ExplicitForAll :drill:
+***** <<<ExplicitForAll>>> :drill:
 :PROPERTIES:
 :ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
 :END:
 Allow explicit forall quantificator in places where it is implicit by Haskell.
-***** FlexibleContexts :drill:
+***** <<<FlexibleContexts>>> :drill:
 :PROPERTIES:
 :ID:       ab8dc15c-452a-4dd7-94fe-1e1c38fd0c1e
 :END:
@@ -2733,7 +2733,7 @@ class C a => D a where ...
 $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with [[ConstraintKinds]].
-***** FlexibleInstances :drill:
+***** <<<FlexibleInstances>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
@@ -2751,7 +2751,7 @@ Allow type class instances types contain nested types.
 instance C (Maybe Int) where ...
 #+end_src
 Implies [[TypeSynonymInstances]].
-***** GeneralizedNewtypeDeriving :drill:
+***** <<<GeneralizedNewtypeDeriving>>> :drill:
 :PROPERTIES:
 :ID:       96a23172-9aa7-4290-adfe-a18169dd4362
 :END:
@@ -2761,13 +2761,13 @@ newtype Dollars = Dollars Int
   deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
 #+end_src
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
-***** ImplicitParams :drill:
+***** <<<ImplicitParams>>> :drill:
 :PROPERTIES:
 :ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
 :END:
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
-***** LambdaCase :drill:
+***** <<<LambdaCase>>> :drill:
 :PROPERTIES:
 :ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
 :END:
@@ -2783,7 +2783,7 @@ Enables expressions of the form:
   pN -> eN
 #+end_src
 
-***** MultiParamTypeClasses :drill:
+***** <<<MultiParamTypeClasses>>> :drill:
 :PROPERTIES:
 :ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
 :END:
@@ -2793,7 +2793,7 @@ Enable the definitions of typeclasses with more than one parameter.
 class Collection c a where
 #+end_src
 
-***** MultiWayIf :drill:
+***** <<<MultiWayIf>>> :drill:
 :PROPERTIES:
 :ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
 :END:
@@ -2804,7 +2804,7 @@ if | guard1 -> expr1
    | guardN -> exprN
 #+end_src
 
-***** OverloadedStrings :drill:
+***** <<<OverloadedStrings>>> :drill:
 :PROPERTIES:
 :ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
 :END:
@@ -2818,7 +2818,7 @@ The usual string syntax can be used, e.g., for ByteString, Text, and other varia
 Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
 
 To use class IsString - import it from GHC.Ext
-***** PartialTypeSignatures :drill:
+***** <<<PartialTypeSignatures>>> :drill:
 :PROPERTIES:
 :ID:       4ac887da-6e23-4028-9924-3496787aa8d0
 :END:
@@ -2828,7 +2828,7 @@ Allows programmer to which parts of a type to annotate and which to infer. Also 
 As untuped expression, partly typed can not polymorphicly recurse.
 
 [[-Wno-partial-type-signatures]] supresses infer warnings.
-***** RankNTypes :drill:
+***** <<<RankNTypes>>> :drill:
 :PROPERTIES:
 :ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
 :END:
@@ -2846,7 +2846,7 @@ Allows =forall= quantifier:
   * used in pattern type signature of [[Lexically scoped type variables]]
 
 It can synergyze with [[ScopedTypeVariables]].
-***** ScopedTypeVariables :drill:
+***** <<<ScopedTypeVariables>>> :drill:
 :PROPERTIES:
 :ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
 :END:
@@ -2859,7 +2859,7 @@ When there are internall type signatures provided in the code block (=where=, =l
 For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
 
 Implies [[ExplicitForAll]].
-***** TupleSections :drill:
+***** <<<TupleSections>>> :drill:
 :PROPERTIES:
 :ID:       30ae7849-e739-4718-b031-5566e8f82a67
 :END:
@@ -2869,7 +2869,7 @@ Allow tuple section syntax:
 (, "I", , , "Love", , 1337)
 #+end_src
 
-***** TypeApplications :drill:
+***** <<<TypeApplications>>> :drill:
 :PROPERTIES:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
 :END:
@@ -2890,7 +2890,7 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
 #+end_src
 
-***** TypeFamilies :drill:
+***** <<<TypeFamilies>>> :drill:
 :PROPERTIES:
 :ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
 :END:
@@ -2906,19 +2906,19 @@ Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
 Two types of /*/ are:
 ****** <<<Data families>>>
 ****** <<<Type synonym families>>>
-***** TypeSynonymInstances :drill:
+***** <<<TypeSynonymInstances>>> :drill:
 :PROPERTIES:
 :ID:       3989b294-f011-48c0-9998-be10bd75c541
 :END:
 Now type synonim can have it's own type class instances.
-***** UndecidableInstances :drill:
+***** <<<UndecidableInstances>>> :drill:
 :PROPERTIES:
 :ID:       71ac682f-292d-401a-bd61-0c28a707a950
 :END:
 Permit instances which may lead to type-checker non-termination.
 
 GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
-***** ViewPatterns :drill:
+***** <<<ViewPatterns>>> :drill:
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
 :END:
@@ -2933,7 +2933,7 @@ size (view -> Arrow t1 t2) = size t1 + size t2
 
 /*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
-***** DatatypeContexts :drill:
+***** <<<DatatypeContexts>>> :drill:
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
 :END:
