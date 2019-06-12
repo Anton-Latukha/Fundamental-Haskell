@@ -1,5 +1,10 @@
 #+startup: latexpreview
 #+startup: entitiespretty
+Important notes on Haskel, category & related fields.
+
+<<<This is a radio target>>> - for =org-mode= linking.
+=SCHD:= - for my =org-drill= practice. It also has metadata in :PROPERTIES:. Please just run =org-drill-strip-all-data= to remove my metadata.
+
 * Contents :TOC:
 - [[#definitions][Definitions]]
   - [[#abelian-category][<<<Abelian category>>>]]
