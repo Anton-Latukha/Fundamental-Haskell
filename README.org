@@ -2355,12 +2355,13 @@ Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves mo
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
 :END:
 μορφή /morphe/ form
-Map between two objects in an abstract [[Category][category]].
+Map between two objects in a category.
+On a level of objects: morphism is a structure-preserving map from one mathematical structure to another one of the same type.
 
-Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of [[Homomorphism]] ($$ f(x*y) \equiv f(x) * f(y) $$).
-Under morphism almost always mean homomorphism-like properties.
+Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
+Under morphism almost always is meaning of homomorphism-like properties.
 
-If some morphism corresponds to function requirements - than it is a [[Function]].
+If morphism corresponds to function requirements - than it is a function.
 *** <<<Homomorphism>>> :drill:
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
@@ -2522,6 +2523,9 @@ In functional programming, catamorphisms provide generalizations of folds of lis
 <<<Catamorphic>>>
 *** /*/
 <<<Morphisms>>>
+<<<Structure-preserving>>>
+<<<Preserve structure>>>
+<<<Preserves structure>>>
 ** <<<newtype declaration>>> :drill:
 SCHT: <2019-06-12 Wed>
 :PROPERTIES:
