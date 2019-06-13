@@ -1724,10 +1724,16 @@ fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 *** <<<Lift>>> :drill:
-Lift is to do a function application through the data structure.
 :PROPERTIES:
 :ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
 :END:
+#+begin_src haskell
+fmap :: (a -> b) -> (f a -> f b)
+#+end_src
+Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
+Lift does a function application through the data structure.
+**** /*/
+<<<Lifting>>>
 *** <<<Forgetful functor>>> :drill:
 :PROPERTIES:
 :ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
