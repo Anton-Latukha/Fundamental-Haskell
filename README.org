@@ -1691,6 +1691,10 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
 Functor is a map between categories.
+*** Power set functor
+
+Functor type class in Haskell corresponds to mathematical power set functor and allows do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
+Power set functor is unique to the category (data type), as power set is unique to the set.
 
 #+begin_src haskell
 class Functor f where
