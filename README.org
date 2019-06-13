@@ -1750,6 +1750,11 @@ Lift does a function application through the data structure.
 :ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
 :END:
 Functor that forgets part or all of what defines structure in domain category.
+*** <<<Identity functor>>>
+Maps objects and morphisms to themselves.
+
+Denotation:
+$$ 1^{\mathcal{C \to C}} $$
 *** /*/
 <<<Power set functor>>>
 <<<fmap>>>
