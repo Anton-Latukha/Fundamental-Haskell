@@ -175,7 +175,7 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
       - [[#-22][/*/]]
     - [[#-23][/*/]]
   - [[#functor][<<<Functor>>>]]
-    - [[#power-set-functor][Power set functor]]
+    - [[#power-set-functor][<<<Power set functor>>>]]
       - [[#power-set-functor-laws][<<<Power set functor laws>>>]]
         - [[#power-set-functor-identity-law][<<<Power set functor identity law>>>]]
         - [[#power-set-functor-composition-law][<<<Power set functor composition law>>>]]
@@ -1704,7 +1704,7 @@ Functor axioms:
 | $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  q      |
 Where $$ \eta,\mu $$ are Natural transformations.
 
-*** Power set functor
+*** <<<Power set functor>>>
 
 Functor type class in Haskell corresponds to mathematical power set functor and allows do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
 Power set functor is unique to the category (data type), as power set is unique to the set.
@@ -1713,12 +1713,10 @@ Power set functor is unique to the category (data type), as power set is unique 
 class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
-Functor in Haskell is a type class presents of which allows function application "over/through" type structure layers (denoted /f/ of /m/). IO is also such structure.
 
+For Functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
 
-For functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
-
-Functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
 **** <<<Power set functor laws>>> :drill:
 :PROPERTIES:
