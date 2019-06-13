@@ -1153,6 +1153,7 @@ From these axioms, one can prove that there is exactly one identity morphism for
 Mathematical structure. Morphisms preserve structure.
 **** /*/
 <<<Structure>>>
+<<<Objects>>>
 *** /*/
 <<<Category theory>>>
 ** <<<Closed-form expression>>> :drill:
@@ -1406,6 +1407,8 @@ Algebraic data type formed by logical conjunction (AND ' ').
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
 :END:
 Algebraic data type formed by logical disjunction (OR '|').
+*** /*/
+<<<Types>>>
 ** <<<Declaration>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -1746,7 +1749,7 @@ Lift does a function application through the data structure.
 :END:
 Functor that forgets part or all of what defines structure in domain category.
 *** /*/
-<<<Powerset functor>>>
+<<<Power set functor>>>
 <<<fmap>>>
 <<<Functors>>>
 ** <<<Fundamental theorem of algebra>>> :drill:
@@ -3520,6 +3523,8 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:56]
 :END:
 Well-defined collection of distinct objects.
+*** /*/
+<<<Sets>>>
 ** <<<SET category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -4074,6 +4079,8 @@ Value that is yet to be evaluated. Can be dragged around, until be lazily evalua
   * associativity,
   * identity,
   * invertibility.
+*** /*/
+<<<Groups>>>
 ** <<<Natural transformation>>> :drill:
 :PROPERTIES:
 :ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
