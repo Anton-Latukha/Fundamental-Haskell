@@ -1632,6 +1632,7 @@ Corresponds to Monomorphism.
 **** /*/
 <<<Injective>>>
 <<<Injective function>>>
+<<<Injectivity>>>
 *** <<<Surjection>>> :drill:
 :PROPERTIES:
 :ID:       56270a1d-ef0e-4986-a1ff-04606b37ccb7
