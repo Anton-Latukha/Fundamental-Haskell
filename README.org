@@ -1074,17 +1074,17 @@ Directly relates to Coq programming language.
 *** /*/
 <<<<<<CoC>>>>>>
 ** <<<Cardinality>>> :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-23 Sun>
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 16:07]
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:23]
 :END:
 
 Number of possible implementations for a given type signature. So also number elements inhabiting type, as they are a number of variations.
@@ -1816,17 +1816,17 @@ $$ Hom(-,-):C^{op} \times C \to Set $$
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
 ** <<<Idiom>>> :drill:
-SCHT: <2019-06-10 Mon>
+SCHT: <2019-06-22 Sat>
 :PROPERTIES:
 :ID:       bc244256-751d-4205-857e-368a45580884
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:20]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:21]
 :END:
 Idiom - something having a meaning that cannot be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
@@ -2638,17 +2638,16 @@ Unsafe and causes trouble.
 :END:
 [[Bijective]] [[Function]] from [[Domain][domain]] to itself.
 ** <<<Point-free>>> :drill:
-SCHT: <2019-06-10 Mon>
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-06 Thu 15:58]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:10]
 :END:
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just enough Tacit to communicate better. Mostly only partial point-free communicates better./
@@ -3261,16 +3260,17 @@ Non-self-referencing definition.
 
 /Antonym - [[Impredicative]]./
 ** <<<Principal type>>> :drill:
+SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
+:DRILL_AVERAGE_QUALITY: 2.25
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:03]
 :END:
 The most generic [[Data type][data type]] that still typechecks.
 ** <<<Principle of compositionality>>> :drill:
