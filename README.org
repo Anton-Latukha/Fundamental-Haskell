@@ -1711,20 +1711,19 @@ For functor instance to work in Higher-kinded data type functor must be applied 
 
 Functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
-Functor abides Functor laws.
-*** <<<Functor laws>>> :drill:
+**** <<<Power set functor laws>>> :drill:
 :PROPERTIES:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
 :END:
 Type instance of functor should abide this laws:
-**** <<<Functor identity law>>> :drill:
+***** <<<Power set functor identity law>>> :drill:
 :PROPERTIES:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
 :END:
 #+begin_src haskell
 fmap id == id
 #+end_src
-**** <<<Functor composition law>>> :drill:
+***** <<<Power set functor composition law>>> :drill:
 :PROPERTIES:
 :ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
 :END:
@@ -1732,7 +1731,7 @@ fmap id == id
 fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
-*** <<<Lift>>> :drill:
+**** <<<Lift>>> :drill:
 :PROPERTIES:
 :ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
 :END:
@@ -1741,7 +1740,7 @@ fmap :: (a -> b) -> (f a -> f b)
 #+end_src
 Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
 Lift does a function application through the data structure.
-**** /*/
+***** /*/
 <<<Lifting>>>
 *** <<<Forgetful functor>>> :drill:
 :PROPERTIES:
