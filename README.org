@@ -1691,6 +1691,13 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
 Functor is a map between categories.
+| Mathematics                | Math definition                  | Haskell                               | Math meaning |
+|----------------------------+----------------------------------+---------------------------------------+---------|
+| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
+| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit, natural transformation $$ \mathcal{ID \to P} $$ |
+| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  q      |
+Where $$ \eta,\mu $$ are Natural transformations.
+
 *** Power set functor
 
 Functor type class in Haskell corresponds to mathematical power set functor and allows do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
@@ -1702,14 +1709,6 @@ class Functor f where
 #+end_src
 Functor in Haskell is a type class presents of which allows function application "over/through" type structure layers (denoted /f/ of /m/). IO is also such structure.
 
-Haskell Functor Type class corresponds to mathematical Powerset functor.
-Powerset functor is unique to the category (data type).
-| Mathematics                | Math definition                  | Haskell                               |
-|----------------------------+----------------------------------+---------------------------------------|
-| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b |
-| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        |
-| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |
-Where $$ \eta,\mu $$ are Natural transformations.
 
 For functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
 
