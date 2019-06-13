@@ -2680,11 +2680,15 @@ If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
 \x1 x2 -> g . f x1 $ x2
 \x1    -> g . f x1
 #+end_src
-*** \eta-abstraction :drill:
+*** <<<\eta-abstraction>>> :drill:
 :PROPERTIES:
 :ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
 :END:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
+#+begin_src haskell
+\x -> g . f $ x
+\x -> g . f     --eta-abstraction
+#+end_src
 **** /*/
 <<<\eta-reduction>>>
 <<<\eta-conversion>>>
