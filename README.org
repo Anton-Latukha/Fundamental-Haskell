@@ -1690,7 +1690,8 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
-Functor is a map between categories.
+Functor is a map between categories. Translating objects and morphisms. They can preserve structure, or not.
+
 | Mathematics                | Math definition                  | Haskell                               | Math meaning |
 |----------------------------+----------------------------------+---------------------------------------+---------|
 | $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
