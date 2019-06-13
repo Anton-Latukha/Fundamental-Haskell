@@ -1143,8 +1143,11 @@ Category ($$ \mathcal{C} $$) consists of the Basis:
   5. Axiom of two sided Identity of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
+*** <<<Object>>>
+Mathematical structure. Morphisms preserve structure.
+**** /*/
+<<<Structure>>>
 *** /*/
-<<<Object>>>
 <<<Category theory>>>
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
