@@ -2664,16 +2664,15 @@ Unsafe and causes trouble.
 :DRILL_LAST_QUALITY: 2
 :DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:10]
 :END:
-/Use Tacit very carefully - it hides types and harder to change code where it is used./
-/Use just enough Tacit to communicate better. Mostly only partial point-free communicates better./
+Paradigm where function only describes the [[morphism]] itself.
 
-Point-free style, is a paradigm in which functions only describe the [[Morphism]] itself.
-If brackets /()/ can be changed to /$/ then $ equal to [[Composition]]:
+Process of converting function to point-free.
+If brackets /()/ can be changed to /$/ then $ equal to [[composition]]:
 #+begin_src haskell
 \x -> g (f x)
 \x -> g $ f x
 \x -> g . f $ x
-\x -> g . f -- eta-recution
+\x -> g . f     --eta-abstraction
 
 \x1 x2 -> g (f x1 x2)
 \x1 x2 -> g $ f x1 x2
@@ -4446,6 +4445,14 @@ But it is a way better then:
 #+begin_src haskell
   h (g (f i))
 #+end_src
+** <<<Good: Point-free>>>
+/Use Tacit very carefully - it hides types and harder to change code where it is used./
+/Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better./
+*** <<<Good: Point-free is great in multi-dimentions>>> :drill:
+:PROPERTIES:
+:ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
+:END:
+BigData and OLAP analysis.
 ** <<<Good: Functor application>>> :drill:
 :PROPERTIES:
 :ID:       67dab545-6f12-4d3a-b8c7-acfc0f267d03
@@ -4564,11 +4571,6 @@ That distinction with synonims, would allow [[TypeSynonymInstances]], which woul
 :PROPERTIES:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
 :END:
-** <<<Good: Point-free is great in multi-dimentions>>> :drill:
-:PROPERTIES:
-:ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
-:END:
-BigData and OLAP analysis.
 ** <<<Good: Monad OR Applicative>>>
 **** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
 If you wrote code and really needed only those - move that code to Applicative.
