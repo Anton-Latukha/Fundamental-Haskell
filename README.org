@@ -1692,6 +1692,11 @@ $$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\two
 :END:
 Functor is a map between categories. Translating objects and morphisms. They can preserve structure, or not.
 
+Functor axioms:
+  * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
+  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))} \quad | \quad \forall b = f^{D}(a) $$ - every source morphism is mapped to target category morphism between corresponding objects
+  * $$ F^{\mathcal{C \to D}}(g^{\mathcal{C}} \circ f^{\mathcal{C}}) = F^{\mathcal{C \to D}}(g^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(f^{\mathcal{C}}) \quad | \quad \forall y=f^{\mathcal{C}}(x), \forall g^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
+
 | Mathematics                | Math definition                  | Haskell                               | Math meaning |
 |----------------------------+----------------------------------+---------------------------------------+---------|
 | $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
