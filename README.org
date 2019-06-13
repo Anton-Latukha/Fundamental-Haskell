@@ -4100,6 +4100,10 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 <<<Component of natural transformation>>>
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
+** <<<Power set>>>
+For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
+Denotation:
+$$ \mathcal{P(S)} $$
 * Give definitions
 ** <<<Kleisli category>>>
 ** <<<Free object>>>
