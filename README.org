@@ -1742,6 +1742,7 @@ Functor that forgets part or all of what defines structure in domain category.
 *** /*/
 <<<Powerset functor>>>
 <<<fmap>>>
+<<<Functors>>>
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
@@ -1789,7 +1790,7 @@ Evaluates to function.
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
 :END:
-Classical type system for the [[Lambda calculus]] with [[Parametric polymorphism]] and [[Type inference]].
+Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 ** <<<Hom-set>>> :drill:
@@ -1838,10 +1839,10 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:21]
 :END:
-Idiom - something having a meaning that cannot be derived from the conjoined meanings.
+/*/ - something having a meaning that can not be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
 
-For different meaning - it is [[Applicative functor]].
+/*/ can also mean [[Applicative functor]].
 *** /*/
 <<<Idiomatic>>>
 ** <<<Iff>>> :drill:
@@ -1929,7 +1930,7 @@ SCHT: <2019-06-19 Wed>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:04]
 :END:
-Kernel of a [[Homomorphism]] is a number that measures the degree that homomorphism fails to meet [[Injective][injectivity]] (AKA be [[Monomorphic]]).
+Kernel of a Homomorphism is a number that measures the degree that homomorphism fails to meet injectivity (AKA be Monomorphic).
 It is a number of elements that collide and fail injectivity, thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
 
 Denotation:
@@ -2368,13 +2369,13 @@ If some morphism corresponds to function requirements - than it is a [[Function]
 μορφή /morphe/ form
 similar form
 
-Homomorphism - operation-preserving map between two [[Algebraic][algebraic]] structures of the same type (groups, rings, vector spaces...).
+Homomorphism - operation-preserving map between two algebraic structures of the same type (groups, rings, vector spaces...).
 
 $$ (A_{set}, \star_{operation}), (B_{set}, \diamond_{operation}), f^{A \to B} : f^{A \to B}_{homomorphism} = f(x \star y) = f(x) \diamond f(y) $$.
 
-The concept of homomorphism has been generalized under the name of [[Morphism][morphism]] to many other structures that either do not have an underlying set, or are not algebraic.
+The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
 
-Homomorphisms send [[Identity morphism][identities]] to identities and inverses to inverses.
+Homomorphisms send identity morphisms to identity morphisms and inverses to inverses.
 
 =*= homomorphism - map between =*= and preserves =*= operations
   case =*= of:
@@ -2441,12 +2442,12 @@ id :: a -> a
 μορφή /morphe/ form
 
 Initial set of /f/ is fully uniquely mapped onto the image of /f/.
-Left is mono (uniquely) mapped to the right, so left [[Domain][domain]] can be equal or less to the right [[Codomain][codomain]].
-It is [[Injection][injective]].
+Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
+It is injective.
 It always has a inverse morphism.
 
-$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from [[Homomorphism]] context
-$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general [[Morphism]] context
+$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from homomorphism context
+$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general morphism context
 Thus it is left canselable.
 **** /*/
 <<<Monomorphic>>>
@@ -2686,7 +2687,7 @@ $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 <<<eta-abstraction>>>
 <<<eta-reduction>>>
 <<<eta-conversion>>>
-*** Blackbird :drill:
+*** <<<Blackbird>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
 :ID:       76123e3b-3042-4112-beaf-7f281c13e58a
@@ -2710,7 +2711,7 @@ SCHT: <2019-06-20 Thu>
 **** /*/
 <<<.) .>>>
 <<<(.).(.)>>>
-*** Swing :drill:
+*** <<<Swing>>> :drill:
 :PROPERTIES:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
 :END:
@@ -2721,7 +2722,7 @@ swing f = flip (f . runCont . return)
 swing f c a = f ($ a) c
 #+end_src
 
-*** Squish :drill:
+*** <<<Squish>>> :drill:
 :PROPERTIES:
 :ID:       4813e27d-4ac4-415f-95c5-323b605c1de6
 :END:
@@ -4069,7 +4070,7 @@ Roughly  /*/ is:
 trans :: forall a. F a -> G a
 #+end_src
 
-/*/ structure-preserving transformation of one [[Functor]] into another.
+/*/ structure-preserving transformation of one functor into another.
 /*/ is a "morphism of functors", especially in functor categories.
 /*/ by a certain rule for every object picks [[Natural transformation component][natural transformation component]]: $$ \forall o \in \mathcal{C} : hom^{\mathcal{C \to D}}(F^{\mathcal{C \to D}}(o) \to G^{\mathcal{C \to D}}(o)) $$
 
