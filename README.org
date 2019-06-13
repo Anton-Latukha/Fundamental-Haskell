@@ -1087,9 +1087,9 @@ SCHT: <2019-06-23 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:23]
 :END:
 
-Number of possible implementations for a given type signature. So also number elements inhabiting type, as they are a number of variations.
+Number of possible implementations for a given type signature.
 
-Disjuction, sum - adds cardinalities.
+Disjunction, sum - adds cardinalities.
 Conjunction, product - multiplies cardinalities.
 ** <<<Cartesian product>>> :drill:
 :PROPERTIES:
