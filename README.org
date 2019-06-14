@@ -3972,6 +3972,12 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
 :END:
 Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+
+Type classes make a nice way for defining behaviour over many objects at once.
+*** /*/
+<<<Type classes>>>
+<<<Typeclass>>>
+<<<Typeclasses>>>
 ** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
