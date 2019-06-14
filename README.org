@@ -989,6 +989,8 @@ f list@(x, xs) = ...
 :END:
 Statement.
 Утверждение.
+*** /*/
+<<<Assertions>>>
 ** <<<Associative law>>> :drill:
 :PROPERTIES:
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
@@ -1078,6 +1080,7 @@ Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
 *** /*/
+<<<Binds>>>
 <<<Binding>>>
 ** <<<Bottom value>>> :drill:
 SCHT: <2019-06-21 Fri>
@@ -1281,6 +1284,8 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
 :END:
 Axiom of Category.
+*** /*/
+<<<Composable>>>
 ** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
@@ -1565,6 +1570,8 @@ Data type inferred from the text of the code.
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
 :END:
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
+*** /*/
+<<<Expressions>>>
 ** <<<First-class>>> :drill:
 :PROPERTIES:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
@@ -1610,8 +1617,8 @@ $$ y(x) = (zx^{2} + bx + 3 | b = 5) $$
 ^ ^     ^^    ^    ^
 | |     ||     \_Var \__Constants
 | |     | \__Bound__variable
-| |     \_[[Free variable][Free variable]]
-|  \_[[Parameter][Parameter]]
+| |     \_Free variable
+|  \_Parameter
  \__Name__of__the__function
 
 Lambda abstraction is a function.
@@ -2979,6 +2986,8 @@ For exampe - if fold over a dynamic array:
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 
+*** /*/
+<<<Polymorphic>>>
 ** <<<Pragma>>> :drill:
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
@@ -3332,10 +3341,10 @@ It is for basic case. For testing, parser see further: https://blog.shaynefletch
 :PROPERTIES:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
 :END:
-[[Assertion]] [[Function][function]] that includes [[Variable][variable]] and results in true or false statement.
+Assertion function that includes variable and results in true or false statement.
 
 Notation: $$ P(x) $$
-[[Application]] of [[Argument][argument]] yealds true or false predicate.
+Application of argument yealds true or false predicate.
 ** <<<Predicative>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -3353,7 +3362,7 @@ Non-self-referencing definition.
 
 ---
 
-/Antonym - [[Impredicative]]./
+/Antonym - Impredicative./
 ** <<<Principal type>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -3367,7 +3376,7 @@ SCHT: <2019-06-17 Mon>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:03]
 :END:
-The most generic [[Data type][data type]] that still typechecks.
+The most generic data type that still typechecks.
 ** <<<Principle of compositionality>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -3381,12 +3390,12 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:31]
 :END:
-The meaning of a complex [[Expression][expression]] is determined by the meanings of its constituent expressions and the rules used to combine them.
+The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 ** <<<Phrase>>> :drill:
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
 :END:
-/*/ - [[Composition][composable]] expression.
+/*/ - composable expression.
 ** <<<Proxy type>>> :drill:
 :PROPERTIES:
 :ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
@@ -3423,7 +3432,10 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 :PROPERTIES:
 :ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
 :END:
-[[Referential transparency][Referential transparent]] [[Function][function]]
+Referentially transparent function.
+*** /*/
+<<<Pure>>>
+<<<Pure function>>>
 ** <<<Quantifier>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -3439,17 +3451,19 @@ SCHT: <2019-06-22 Sat>
 :END:
 Specifies the quantity of specimens.
 
-Two most common quantifiers $$ \forall $$ ([[Forall]]) and $$ \exists $$ (Exists).
+Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
 *** <<<Forall quantifier>>> :drill:
 :PROPERTIES:
 :ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
 :END:
-Permits to not [[Type inference][infer]] the type, but to use any that fits. The variant depends on the [[LANGUAGE option]] used:
-[[ScopedTypeVariables]]
-[[RankNTypes]]
-[[ExistentialQuantification]]
+Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
+ScopedTypeVariables
+RankNTypes
+ExistentialQuantification
 **** /*/
 <<<Forall>>>
+*** /*/
+<<<Quantification>>>
 ** <<<Recursion>>> :drill:
 :PROPERTIES:
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
@@ -3470,12 +3484,12 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
 :END:
-[[Reduction][Reducible]] [[Expression][expression]]
+[[Reduction][Reducible]] expression.
 ** <<<Reduction>>> :drill:
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
 :END:
-See [[Beta reduction]]
+See Beta reduction
 ** <<<Referential transparency>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -3491,8 +3505,11 @@ SCHT: <2019-06-17 Mon>
 :END:
 Returns the same output given the same values to evaluate.
 So:
-/*/ [[expression]] can be replaced with its corresponding resulting value without change for program's behavior.
-/*/ [[Function][functions]] are [[Pure][pure]].
+/*/ expression can be replaced with its corresponding resulting value without change for program's behavior.
+/*/ functions are pure.
+*** /*/
+<<<Referentially transparent>>>
+
 ** <<<Relation>>> :drill:
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
@@ -3516,7 +3533,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
-Area where [[Bind][bind]]s are accessible.
+Area where binds are accessible.
 ** <<<Sectioning>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -3530,7 +3547,7 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
 :END:
-Writing [[Function][function]] in a parentheses. Allows to pass around [[Partial application][partially applied]] [[Function][functions]].
+Writing function in a parentheses. Allows to pass around partially applied functions.
 ** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
@@ -3540,7 +3557,7 @@ Philosophical study of meaning.
 :PROPERTIES:
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
 :END:
-Properties, such as correctness, safety or security, are verified by constructing proofs from logical [[Assertion][statements]] about execution and procedures.
+Properties, such as correctness, safety or security, are verified by constructing proofs from logical assertion s about execution and procedures.
 
 Good to solve in-point localized tasks.
 Process of abstraction.
@@ -3692,7 +3709,7 @@ Gonzales: "What code does."
 :PROPERTIES:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
 :END:
-Static typechecking occurs at [[Compile level][compile level]].
+Static typechecking occurs at compile level.
 ** <<<Structural type>>> :drill:
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
@@ -3705,14 +3722,16 @@ Static typechecking occurs at [[Compile level][compile level]].
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
-Mathematical [[Type][type]]. They form into [[structural type system]].
+Mathematical type. They form into structural type system.
+*** /*/
+<<<Structural>>>
 ** <<<Structural type system>>> :drill:
 :PROPERTIES:
 :ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
 :END:
 Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
-In most languages typing is name-based, not [[Structural type][structural]].
+In most languages typing is name-based, not structural.
 ** <<<Superclass>>> :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
@@ -3737,7 +3756,7 @@ Artificial way to make language easier to read and write.
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
 :END:
 Formalizes the notion of parametric polymorphism in programming languages.
-Differs from the simply typed lambda calculus by the introduction of universal [[Quantifier][quantification]] over types.
+Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
 ** <<<Tail call>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -3774,7 +3793,7 @@ Object existing out of planes, thus it can translate objects from one plane into
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
 Tensor of rank 1 is a vector.
 
-Tensors can be seen as [[Functor]]s.
+Tensors can be seen as functors.
 *** /*/
 <<<Tensors>>>
 <<<Tensorial>>>
@@ -3788,11 +3807,11 @@ Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall 
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
 :END:
 *** <<<Property testing>>>
-Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the [[Lambda function][lambda function]].
-And tests cases come from [[Generator][generator]].
+Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the lambda function.
+And tests cases come from generator.
 **** <<<Function property>>>
 Property corresponds to the according law.
-In property testing you need to think additionally about [[Generator][generator]]s and [[Shrinking][shrinking]].
+In property testing you need to think additionally about generator and shrinking.
 **** <<<Property testing types>>>
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
@@ -3824,10 +3843,12 @@ arbitrary :: Arbitrary a => Gen a
 suchThat :: Gen a -> (a -> Bool) -> Gen a
 elements :: [a] -> Gen a
 #+end_src
+***** /*/
+<<<Generators>>>
 **** <<<Reusing test code>>>
 Often it is convinient to abstract testing of same function properties:
 
-It can be done with (aka TestSuite [[Combinator][combinator]]):
+It can be done with (aka TestSuite combinator):
 #+begin_src haskell
 -- Definition
 {-# LANGUAGE ScopedTypeVariables #-}
@@ -3932,8 +3953,8 @@ main = do
 :ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
 :END:
 Data type that stores multiple values withing a single value.
-Tuples by [[Arity][arity]]:
-  * empty, [[Unit][unit]]          - 0
+Tuples by arity:
+  * empty, unit          - 0
   * pair, <<<two-tuples>>>     - 2
   * <<<thriple>>>, three-tuple - 3
 ** <<<Type>>> :drill:
@@ -3952,7 +3973,7 @@ SCHT: <2019-06-21 Fri>
 Type - set of values.
 For type to have sence the values share some sence, properties.
 
-See [[Data type]]
+See Data type
 ** <<<Type alias>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -3966,7 +3987,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
 :END:
-Create new [[Type constructor][type constructor]], and use all data structure of the base type.
+Create new type constructor, and use all data structure of the base type.
 ** <<<Type class>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -3980,7 +4001,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
 :END:
-Type system construct that adds a support of [[Ad hoc polymorphism][ad hoc polymorphism]].
+Type system construct that adds a support of ad hoc polymorphism.
 
 Type classes make a nice way for defining behaviour over many objects at once.
 *** /*/
@@ -3991,19 +4012,19 @@ Type classes make a nice way for defining behaviour over many objects at once.
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
 :END:
-[[Type class]] has a [[Superclass][superclass]].
+Type class has a superclass.
 ** <<<Type constant>>> :drill:
 :PROPERTIES:
 :ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
 :END:
-See: [[Constant]]
+See: Constant
 ** <<<Type constructor>>> :drill:
 :PROPERTIES:
 :ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
 :END:
-Name of [[Data type][data type]]
+Name of data type.
 
-Nullary type constructor is [[Type constant]]
+Nullary type constructor is type constant
 ** <<<type declaration>>> :drill:
 :PROPERTIES:
 :ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
@@ -4018,7 +4039,7 @@ Also main type functions can operate on a new type.
 :PROPERTIES:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
 :END:
-Automatic [[Data type][data type]] detection of [[Expression][expression]].
+Automatic data type detection of expression.
 *** /*/
 <<<Inferring>>>
 <<<Infer>>>
@@ -4028,7 +4049,7 @@ Automatic [[Data type][data type]] detection of [[Expression][expression]].
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
 :END:
-Unique [[Type class][type class]]->[[Data type][type]] pairing.
+Unique type class->type pairing.
 Defines type class->type methods.
 ** <<<Type variable>>> :drill:
 :PROPERTIES:
@@ -4039,7 +4060,7 @@ Refer to an unspecified type in Haskell type signature.
 :PROPERTIES:
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
 :END:
-Replace number of [[Function][functions]] with [[Tuple][tuple]] of number of values
+Replace number of functions with tuple of number of values
 ** <<<Undefined>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -4058,7 +4079,7 @@ Placeholder value that helps to do typechecking.
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
 :END:
-Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
+Value, type. Represents nothing. Empty tuple
 ** <<<Unlifted type>>> :drill:
 :PROPERTIES:
 :ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
@@ -4071,20 +4092,20 @@ With unlifted types Haskel type system directly manages data in the hardware.
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
 :END:
-[[Function]] that does not cover some edge case.
+Function that does not cover some edge case.
 ** <<<Variable>>> :drill:
 :PROPERTIES:
 :ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
 :END:
-A name for [[Expression][expression]].
+A name for expression.
 
 Haskell has immutable variables.
-Except when you hack it with explicit [[Function][funсtions]].
+Except when you hack it with explicit funсtions.
 ** <<<Variadic>>> :drill:
 :PROPERTIES:
 :ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
 :END:
-Variadic funtion has a indefinite [[Arity][arity]]. Assepts a variable number of [[Argument][arguments]].
+Variadic funtion has a indefinite arity. Assepts a variable number of [[Argument][arguments]].
 ** <<<Zero>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -4101,7 +4122,7 @@ SCHT: <2019-06-22 Sat>
 /*/ is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
-/*/ is distinct from [[Identity]] value.
+/*/ is distinct from Identity value.
 ** <<<Bound>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -4115,7 +4136,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
-Haskell /*/ [[Type class][type class]] means to have lowest value & highest value, so a bounded range of values.
+Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 *** /*/
 <<<Bounded>>>
 ** <<<Typed hole>>> :drill:
@@ -4135,7 +4156,7 @@ Collection of formal systems used in mathematics, philosophy, linguistics, and c
 :PROPERTIES:
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
 :END:
-[[Constraint]] placed on the types under [[Parametric polymorphism][polymorphic]] variables.
+Constraint placed on the types under polymorphic variables.
 Written before the main type signature and denoted:
 #+begin_src haskell
 TypeClass a =>
