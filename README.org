@@ -1072,6 +1072,9 @@ SCHT: <2019-06-21 Fri>
 #+end_src
 
 Is a non-value placeholder for enything.
+*** /*/
+<<<Bottom>>>
+<<<Bottom values>>>
 ** <<<Calculus of constructions>>> :drill:
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
