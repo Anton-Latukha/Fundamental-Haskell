@@ -1957,7 +1957,7 @@ Type for values whose evaluations has a posibility to cause side effects or retu
 Haskell standard uses monad for constructing and transforming IO actions.
 IO actions can be evaluated multiple times.
 
-IO data type has unpure imperative actions inside. Haskell is pure [[Lambda calculus]], and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
+IO data type has unpure imperative actions inside. Haskell is pure Lambda calculus, and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
 
 IO collects effects sequences one after another:
 #+begin_src haskell
@@ -1998,7 +1998,7 @@ $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $
 :PROPERTIES:
 :ID:       e77c8ade-6668-48e3-aeae-3bf1209e31d8
 :END:
-Morphism of elements from the [[Kernel]]. Map of elements that make main [[Morphism]] not [[Monomorphic]] ([[Injective]]).
+Morphism of elements from the Kernel. Map of elements that make main Morphism not Monomorphic (Injective).
 ** <<<Kind>>> :drill:
 :PROPERTIES:
 :ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
@@ -2008,7 +2008,7 @@ Kind -> Type -> Data
 :PROPERTIES:
 :ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
 :END:
-[[Lambda term]] that has a head and body and is applied to an argument.
+Lambda term that has a head and body and is applied to an argument.
 $$ \lambda x.x+1 $$
 #+begin_src haskell
 \x -> x + 1
@@ -2019,29 +2019,33 @@ $$ \lambda x.x+1 $$
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
 :END:
 Universal model of computation that can be used to simulate any Turing machine.
-Based on [[Function][function]] [[Abstraction][abstraction]] and [[Function application][application]] by substituting variables and [[Bind][binding]] values.
+Based on function abstraction and application by substituting variables and binding values.
 
-/*/ has [[Lambda term][lambda terms]]:
+/*/ has lambda terms:
    * variable ($$ x $$)
-   * [[Function application][application]] ($$ (ts) $$)
-   * [[Lambda function][abstraction]] ($$ (\lambda x . t) $$)
+   * application ($$ (ts) $$)
+   * abstraction (lambda function) ($$ (\lambda x . t) $$)
 *** /*/
 <<<Lambda term>>>
+<<<Lambda terms>>>
 ** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
 :END:
-λ-cube shows the dimentions of generalization from simply typed [[Lambda calculus]] to [[Calculus of constructions]].
+λ-cube shows the dimentions of generalization from simply typed Lambda calculus to Calculus of constructions.
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
-  * ([[First-class polymorphism]]) - terms allowed to depend on types, corresponding to polymorphism.
-  * ([[Higher-rank polymorphism]]) - types depending on terms, corresponding to dependent types.
-  * ([[Type class]]) - types depending on types, corresponding to type operators.
+  * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
+  * (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
+  * (Type class) - types depending on types, corresponding to type operators.
+*** /*/
+<<<λ-cube>>>
+<<<\lambda-cube>>>
 ** <<<Lambda function>>> :drill:
 :PROPERTIES:
 :ID:       857ef4b3-f3e6-4065-aac4-fd3607ed5284
 :END:
-[[Function]] of [[Lambda calculus]].
+Function of Lambda calculus.
 $$ \lambda x y.x^2 + y^3 $$
  ^^ ^    ^
  || |     \__variable
@@ -2054,9 +2058,9 @@ $$ \lambda x y.x^2 + y^3 $$
 (___)
    \____HEAD
 *** <<<Lambda expression>>>
-See [[Lambda function]]
+See Lambda function
 *** <<<Anonymous function>>>
-[[Lambda function]] without the name to [[Bind][bind]] to.
+Lambda function without the name to bind to.
 ** <<<Leaf>>> :drill:
 :PROPERTIES:
 :ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
@@ -2066,7 +2070,7 @@ See [[Lambda function]]
 :PROPERTIES:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
 :END:
-Same level [[Expression][expression]] parts in reality follow grouping from left to right.
+Same level expression parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 ** <<<Level of code>>> :drill:
 :PROPERTIES:
@@ -2077,17 +2081,17 @@ There are mainly three levels of Haskell code.
 :PROPERTIES:
 :ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
 :END:
-[[Level of code]] that works with [[Data type][data types]]
+Level of code that works with data types.
 *** <<<Type level>>> :drill:
 :PROPERTIES:
 :ID:       2d900462-89be-4f77-be51-2d1867e82922
 :END:
-[[Level of code]] that does logical execution.
+Level of code that does logical execution.
 *** <<<Compile level>>> :drill:
 :PROPERTIES:
 :ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
 :END:
-[[Level of code]] when code compiles/compiled.
+Level of code when code compiles/compiled.
 **** /*/
 <<<Compilation level>>>
 *** <<<Runtime level>>> :drill:
@@ -2124,11 +2128,13 @@ The name resolution depends upon the program state when the name is encountered,
 :END:
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
- * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` ins ST-Trick.
+ * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` in ST-Trick.
  * 1 - data that is not duplicated
  * 1< - all other data, that can be duplicated multiple times.
 
 Linear types are great to control/minimize resource usage.
+*** /*/
+<<<Linear types>>>
 ** <<<Local scope>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -2142,7 +2148,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:59]
 :END:
-[[Scope]] applies only in (current) area.
+Scope applies only in (current) area.
 *** /*/
 <<<Local>>>
 ** <<<Magma>>> :drill:
@@ -2215,7 +2221,7 @@ class Applicative m => Monad m where
 #+begin_src haskell
 return == pure
 #+end_src
-[[Nonstrict]].
+Nonstrict.
 **** <<<Bind function>>> :drill:
 :PROPERTIES:
 :ID:       b288ba16-30a9-4550-b037-f77d4c96e95a
@@ -2223,9 +2229,9 @@ return == pure
 #+begin_src haskell
 >>= :: Monad f => f a -> (a -> f b) -> f b
 #+end_src
-[[Nonstrict]].
+Nonstrict.
 
-The most ubiqutous way to >>= something is to use [[Lambda function]]:
+The most ubiqutous way to >>= something is to use Lambda function:
 #+begin_src haskell
 getLine >>= \name -> putStrLn "age pls:"
 #+end_src
@@ -2246,8 +2252,11 @@ recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
 main ∷ IO ()
 main = recursePrintOneOf (quant) $ printOneOf
 #+end_src
-***** (>>=)
-See [[Bind]]
+***** /*/
+****** (>>=)
+****** >>=
+****** (=<<)
+****** =<<
 **** <<<Join function>>> :drill:
 :PROPERTIES:
 :ID:       fda130b8-e8ae-4c3d-948a-94129d562a63
@@ -2292,7 +2301,7 @@ Drops sequencing computation as soon as Left arrives.
 :PROPERTIES:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
 :END:
-[[Pure]] ([[Return]]) should only put [[Argument][argument]] into structure.
+pure (return) should only put argument into structure.
 **** <<<Monad left identity law>>> :drill:
 :PROPERTIES:
 :ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
@@ -2306,7 +2315,7 @@ Explanation:
 >>= :: Monad f =>    f a  -> (a -> f b) -> f b
                   pure x >>=     f      == f x
 #+end_src
-Shows that >>= must get [[Argument]] internal to structure nad apply it to the second argument.
+Shows that >>= must get Argument internal to structure nad apply it to the second argument.
 
 **** <<<Monad right identity law>>> :drill:
 :PROPERTIES:
@@ -2321,7 +2330,7 @@ Explanation:
 >>= :: Monad f => f a  -> (a -> f b) -> f b
                   f   >>=    pure    == f
 #+end_src
-[[Tacit]] description of [[Monad][monad]] as [[Endofunctor][endofunctor]].
+Tacit description of monad as endofunctor.
 
 **** <<<Monad associativity law>>> :drill:
 :PROPERTIES:
@@ -2335,7 +2344,7 @@ Explanation:
 :PROPERTIES:
 :ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
 :END:
-[[Category]] $$ C $$ comonad is a [[Monad][monad]] of oposite category $$ C^{op} $$.
+Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
 ** <<<Monkey patch>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
@@ -2349,7 +2358,7 @@ SCHT: <2019-06-19 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
-/From [[Guerrilla patch]]./
+/From Guerrilla patch./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
 ** <<<Monoid>>> :drill:
@@ -2408,7 +2417,7 @@ Very helpful at concurrent or distributed processing.
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
 :END:
-Functors between [[Monoid][monoidal]] [[Category][categories]] that preserves monoidal structure.
+Functors between monoidal categories that preserves monoidal structure.
 ** <<<Morphism>>> :drill:
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
@@ -2455,36 +2464,36 @@ Homomorphisms send identity morphisms to identity morphisms and inverses to inve
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
 
-Corresponds to [[Reflexivity]] and [[Automorphism]].
+Corresponds to Reflexivity and Automorphism.
 **** <<<Identity>>> :drill:
 :PROPERTIES:
 :ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
 :END:
-Identity only possible with morphism. See [[Identity morphism]].
+Identity only possible with morphism. See Identity morphism.
 
-There is also knowledge of [[Zero]] value.
+There is also knowledge of Zero value.
 ***** <<<Two-sided identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
 :END:
-$$ P() $$ is [[Commutative][commutative]].
+$$ P() $$ is commutative.
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 
-[[Predicate]]
+Predicate
 ***** <<<Left identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
 :END:
 $$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
 
-[[Predicate]]
+Predicate
 ***** <<<Right identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
 :END:
 $$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
 
-[[Predicate]]
+Predicate
 **** <<<Identity function>>> :drill:
 :PROPERTIES:
 :ID:       c687793c-ad12-435b-8326-9c335ebbf9ea
@@ -2521,8 +2530,8 @@ Thus it is left canselable.
 Image fully uses codomain - epimorphism.
 It is surjective.
 
-$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from [[Homomorphism]] context
-$$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general [[Morphism]] context
+$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from homomorphism context
+$$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general morphism context
 Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
@@ -2536,7 +2545,7 @@ Left is epi to the right. So left is bigger or equal then the right. And right i
 μορφή /morphe/ form
 
 Morphism that has inverse morphism.
-[[Bijection][Bijective]] [[Homomorphis][homomorphism]] is also isomorphism.
+Bijective homomorphism is also isomorphism.
 
 $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv id^b $$
 
@@ -2552,8 +2561,8 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
 ενδο /endo/ internal
 μορφή /morphe/ form
 
-Morphism whose [[Domain][domain]] equals the [[Codomain][codomain]].
-Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
+Morphism whose domain equals the codomain.
+Epimorphism is a Monoid, because of category composition.
 **** <<<Automorphism>>> :drill:
 :PROPERTIES:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
@@ -2561,9 +2570,9 @@ Epimorphism is a [[Monoid]], because of [[Category]] [[Composition]].
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
-[[Endomorphism]] that is [[Isomorphism]].
+Endomorphism that is Isomorphism.
 
-Corresponds to [[Identity]] and [[Reflexivity]].
+Corresponds to Identity and Reflexivity.
 ***** /*/
 <<<Automorphic>>>
 **** /*/
@@ -2575,7 +2584,7 @@ Corresponds to [[Identity]] and [[Reflexivity]].
 κατά /kata/ downward
 μορφή /morphe/ form
 
-Denotes the unique [[Homomorphism][homomorphism]] from an initial algebra into some other algebra.
+Denotes the unique homomorphism from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 **** /*/
@@ -2648,7 +2657,7 @@ Any Haskell expression can't return nothing.
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
 :END:
-[[Function]] with [[Arity][arity]].
+Function with arity.
 ** <<<Operation>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -2662,17 +2671,17 @@ SCHT: <2019-06-22 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
-[[Function][Function]]. Word used in mathematics. Often a symbol, [[Infix][infix]], binary.
+Function. Word used in mathematics. Often a symbol, infix, binary.
 ** <<<Operator>>> :drill:
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
 :END:
-[[Infix]] [[Function][function]].
+Infix function.
 ** <<<Orphan type instance>>> :drill:
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
 :END:
-[[Type instance]] that appeared from inconsistent code base. Duplicate of instance, or instance present on [[Type class][type class]] or on the [[Type][type]] level.
+Type instance that appeared from inconsistent code base. Duplicate of instance, or instance present on type class or on the type level.
 
 Solution for addressing orphan instances:
 1. You defined the type but not the type class?
@@ -2688,29 +2697,29 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
-Or Formal Parameter - named varible of a [[Function][function]].
+Or Formal Parameter - named varible of a function.
 Is variable defined in function definition.
-Contrary to the [[Argument]] wich is a supplied value to a function.
+Contrary to the argument wich is a supplied value to a function.
 *** /*/
 <<<Parameters>>>
 ** <<<Partial application>>> :drill:
 :PROPERTIES:
 :ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
 :END:
-Part of [[Function][function]] [[Parameter][parameters]] [[Application][applied]].
+Part of function parameters applied.
 *** /*/
 <<<Partially applied>>>
 ** <<<Partial function>>> :drill:
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
 :END:
-One that does not cover all [[Domain]].
+One that does not cover all domain.
 Unsafe and causes trouble.
 ** <<<Permutation>>> :drill:
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
 :END:
-[[Bijective]] [[Function]] from [[Domain][domain]] to itself.
+Bijective function from domain to itself.
 ** <<<Point-free>>> :drill:
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
@@ -2723,10 +2732,10 @@ Unsafe and causes trouble.
 :DRILL_LAST_QUALITY: 2
 :DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:10]
 :END:
-Paradigm where function only describes the [[morphism]] itself.
+Paradigm where function only describes the morphism itself.
 
 Process of converting function to point-free.
-If brackets /()/ can be changed to /$/ then $ equal to [[composition]]:
+If brackets /()/ can be changed to /$/ then $ equal to composition:
 #+begin_src haskell
 \x -> g (f x)
 \x -> g $ f x
@@ -2770,7 +2779,7 @@ SCHT: <2019-06-20 Thu>
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
 
-[[Composition]] of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. During composition allows to apply two arguments to a binary function.
+Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. During composition allows to apply two arguments to a binary function.
 #+begin_src haskell
 \f g x y -> f (g x y)
 #+end_src
@@ -2806,22 +2815,22 @@ f >>= a . b . c =<< g
 :END:
 At once several forms.
 
-To [[Abstraction][abstract]] over [[Data type][data types]].
+To abstract over data types.
 
 
-/Antonym - [[Monomorphism]]./
+/Antonym - Monomorphism./
 
 Types:
 *** <<<Levity polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
 :END:
-Levity polymprphism is when polymorphism works with lifted and [[Unlifted type][unlifted types]].
+Levity polymprphism is when polymorphism works with lifted and unlifted types.
 *** <<<Parametric polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       0f4d5c48-f692-4a1f-8368-b0dab65f6d2f
 :END:
-[[Abstraction][Abstracting]] over [[Data type][data types]] by [[Parameter][parameter]].
+Abstracting over data types by parameter.
 
 /In most languages named as 'Generics' (generic programming)./
 
@@ -2830,7 +2839,7 @@ Types:
 :PROPERTIES:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
 :END:
-[[Parametric polymorphism]] in [[Type rank][rank-1 types]] by type variables.
+Parametric polymorphism in [[Type rank][rank-1 types]] by type variables.
 ***** /*/
 <<<Prenex>>>
 <<<Prenex polymorpism>>>
@@ -2840,7 +2849,7 @@ Types:
 :END:
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
-It means that to have strict [[Type inference][type inference]] - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
+It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
 So:
 #+begin_src haskell
 foo :: (Int, Char)
@@ -2853,13 +2862,13 @@ Lambda-bound function (i.e., one passed as argument to another function) cannot 
 :PROPERTIES:
 :ID:       ad855e03-3fc1-4875-b28c-82b85987eccb
 :END:
-Constrained [[Parametric polymorphism]].
+Constrained Parametric polymorphism.
 ***** <<<Ad hoc polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       d98c11bf-35fd-46ae-803f-28df28c37a54
 :END:
-Artificial [[Constrained polymorphism][constrained polymorphism]] dependent on incoming [[Data type][data type]].
-Achieved by creating a [[Type class][type class]] [[Function][functions]].
+Artificial constrained polymorphism dependent on incoming data type.
+Achieved by creating a type class functions.
 It is interface dispatch mechanism by data types.
 
 /Commonly known as overloading./
@@ -2867,8 +2876,8 @@ It is interface dispatch mechanism by data types.
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
 :END:
-The most powerful form of [[Parametric polymorphism]].
-First see [[Impredicative]].
+The most powerful form of Parametric polymorphism.
+First see Impredicative.
 
 Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
@@ -4041,6 +4050,8 @@ Value, [[Data type][type]]. Represents nothing. Empty [[Tuple][tuple]]
 :END:
 Type that directly exist on the hardware. The type abstraction can be completely removed.
 With unlifted types Haskel type system directly manages data in the hardware.
+*** /*/
+<<<Unlifted types>>>
 ** <<<Unsafe>>> :drill:
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
@@ -4182,6 +4193,8 @@ $$ \mathcal{P(S)} $$
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
 https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+*** /*/
+<<<ST-Trick>>>
 ** <<<Lax monoidal functor>>>
 ** <<<Tensorial strength>>>
 ** <<<Strong monad>>>
@@ -4203,7 +4216,7 @@ Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
 , (/pattern2/) <- (/funcCheck2/)
-= /[[LHS]]/
+= /LHS/
 
 #+begin_src haskell
 lookup :: FiniteMap -> Int -> Maybe Int
@@ -4218,29 +4231,29 @@ check both to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
 ** <<<Inverse>>>
-1. [[Inverse function]]
+1. Inverse function
 
 2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$
 ** <<<Inversion>>>
 1. Is a permutation where two elements are out of order.
 
-2. See [[Inverse]]
+2. See Inverse
 ** <<<Inverse function>>>
 
     $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X}_{} $$
 
-/*/ $$ \iff $$ [[Function][function]] is [[Bijection][bijective]].
-Otherwise - [[Partial inverse][partial inverse]]
+/*/ $$ \iff $$ function is bijective.
+Otherwise - partial inverse
 ** <<<Partial inverse>>>
-/*/ when [[Function][function]] is now [[Bijection][bijective]]. When bijective see [[Inverse function][inverse function]].
+/*/ when function is now bijective. When bijective see inverse function.
 ** <<<Define LANGUAGE pragma options>>>
 *** <<<ExistentialQuantification>>>
 *** <<<GADTs>>>
 *** <<<GeneralizedNewTypeClasses>>>
 ** <<<Type rank>>>
-[[Weak ordering]] of types.
+Weak ordering of types.
 
-The rank of [[Parametric polymorphism][polymorphic type]] shows at what level of nesting =forall= quantifier appears.
+The rank of polymorphic type shows at what level of nesting =forall= quantifier appears.
 Count-in only quantifiers that appear to the left of arrows.
 #+begin_src haskell
 f1 :: forall a b. a -> b -> a    ==    fi :: a -> b -> c
@@ -4263,10 +4276,19 @@ f3 - rannk3-type. Has rank-2 types on the left of a \to.
 f :: Int -> (forall a. a -> a)
 g :: Int -> Ord a => a -> a
 #+end_src
-f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in [[RankNTypes]].
+f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
 
 Type inference in Rank-2 is possible, but but not higher.
-
+*** /*/
+<<<Type ranks>>>
+<<<Rank type>>>
+<<<Rank types>>
+<<<Rank-1 type>>>
+<<<Rank-1 types>>>
+<<<Rank-2 type>>>
+<<<Rank-2 types>>>
+<<<Rank-3 type>>>
+<<<Rank-3 types>>>
 ** <<<GHC debug keys>>>
 *** <<<-ddump-ds>>>
 Dump desugarer output.
@@ -4279,20 +4301,20 @@ $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 ** <<<GHC check keys>>>
 *** <<<-Wno-partial-type-signatures>>>
-Supresses [[PartialTypeSignatures]] wildcard infer warning.
+Supresses PartialTypeSignatures wildcard infer warning.
 ** <<<RHS>>>
 Right-hand side of the expression.
 ** <<<LHS>>>
 Left-hand side of the expression.
 ** <<<Generalised algebraic data types>>>
-LANGUAGE [[GADTs]]
+LANGUAGE GADTs
 *** /*/
 <<<GADT>>>
 ** <<<Order theory>>>
 Investigates in thepth the intuitive notion of order using binary relations.
 *** <<<Domain theory>>>
 Formalizes approximation and convergense.
-Has close relation to [[Topology]].
+Has close relation to Topology.
 *** <<<Lattice>>>
 Abstract structure that consists of [[Partial order][partially ordered]] set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
