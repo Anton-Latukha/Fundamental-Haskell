@@ -1137,7 +1137,7 @@ Conjunction, product - multiplies cardinalities.
 $$ \forall a \in A, \forall b \in B : A \times B = \overset \rightharpoonup {(a,b)} $$.
 Any function is a subset of Cartesian product.
 
-$$ \sum_{}_{}^{elem \in (A \times B)}  = cardinality^{A \times B} $$
+$$ \sum^{elem \in (A \times B)}  = cardinality^{A \times B} $$
 *** /*/
 <<<Cardinalities>>>
 ** <<<Case>>> :drill:
@@ -1269,7 +1269,7 @@ Higher-order function that use only function application and other combinators.
 #+end_src
 Not comibnators:
 #+begin_src haskell
-\xs -> sum xs
+\ xs -> sum xs
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** <<<Commutative law>>> :drill:
@@ -1499,10 +1499,10 @@ Type classes such as Eq, Enum, Ord, Show can have instances generated based on d
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
 :END:
 Denotation.
-$$ {d \over dx}, D, \,D_{x}}, {\displaystyle \partial _{x}}. $$
+$$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
 Last one is partial.
 
-$$ e^{t{\frac {d}{dx}} $$ - Shift operator.
+$$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 *** /*/
 <<<Differential>>>
 ** <<<Disjunction>>> :drill:
@@ -1731,7 +1731,7 @@ Denotation:
 f : X ⤖ Y
 #+end_src
 LaTeX needed to combine symbols:
-$$ \newcommand{\twoheadrightarrowtail}[]{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} \begin{document} f : X \twoheadrightarrowtail Y \end{document}} $$
+$$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
 **** /*/
 <<<Bijective>>>
 <<<Bijective function>>>
@@ -1889,8 +1889,8 @@ from the product category of the category C with its opposite category to the ca
 
 Denotation:
 variants:
-$$ H_A &=& \mathrm{Hom}(-, A) $$
-$$ h_A &=& {\cal C}(-, A) $$
+$$ H_A = \mathrm{Hom}(-, A) $$
+$$ h_A = {\cal C}(-, A) $$
 $$ Hom(A,-) : C \to Set $$
 
 Hom-bifunctor:
@@ -1917,7 +1917,7 @@ SCHT: <2019-06-22 Sat>
 /*/ - something having a meaning that can not be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
 
-/*/ can also mean [[Applicative functor]].
+/*/ can also mean Applicative functor.
 *** /*/
 <<<Idiomatic>>>
 ** <<<Iff>>> :drill:
@@ -1935,7 +1935,7 @@ Self-referencing definition.
 
 ---
 
-/Antonym - [[Predicative]]./
+/Antonym - Predicative./
 ** <<<Infix>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -1954,7 +1954,7 @@ Form of wrinting of operaton application in-between variables.
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
-What [[Value][values]] inhabit [[Data type][data type]]
+What [[Value][values]] inhabit data type
 ** <<<Initial object>>> :drill:
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
@@ -2027,7 +2027,7 @@ Kind -> Type -> Data
 Lambda term that has a head and body and is applied to an argument.
 $$ \lambda x.x+1 $$
 #+begin_src haskell
-\x -> x + 1
+\ x -> x + 1
 ^^
 #+end_src
 ** <<<Lambda calculus>>> :drill:
@@ -2353,7 +2353,7 @@ Tacit description of monad as endofunctor.
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
 :END:
 #+begin_src haskell
-(m >>= f) >>= g == m >>= (\x -> f x >>= g)
+(m >>= f) >>= g == m >>= (\ x -> f x >>= g)
 #+end_src
 
 *** <<<Comonad>>> :drill:
@@ -2493,21 +2493,21 @@ There is also knowledge of Zero value.
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
 :END:
 $$ P() $$ is commutative.
-$$ \exist e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
+$$ \exists e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 
 Predicate
 ***** <<<Left identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
 :END:
-$$ \exist e \in S, \forall a \in S : \; P(e,a)=a $$
+$$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
 
 Predicate
 ***** <<<Right identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
 :END:
-$$ \exist e \in S, \forall a \in S : \; P(a,e)=a $$
+$$ \exists e \in S, \forall a \in S : \; P(a,e)=a $$
 
 Predicate
 **** <<<Identity function>>> :drill:
@@ -2515,7 +2515,7 @@ Predicate
 :ID:       c687793c-ad12-435b-8326-9c335ebbf9ea
 :END:
 Return itself.
-(\x.x)
+(\ x.x)
 #+begin_src haskell
 id :: a -> a
 #+end_src
@@ -2753,15 +2753,15 @@ Paradigm where function only describes the morphism itself.
 Process of converting function to point-free.
 If brackets /()/ can be changed to /$/ then $ equal to composition:
 #+begin_src haskell
-\x -> g (f x)
-\x -> g $ f x
-\x -> g . f $ x
-\x -> g . f     --eta-abstraction
+\ x -> g (f x)
+\ x -> g $ f x
+\ x -> g . f $ x
+\ x -> g . f     --eta-abstraction
 
-\x1 x2 -> g (f x1 x2)
-\x1 x2 -> g $ f x1 x2
-\x1 x2 -> g . f x1 $ x2
-\x1    -> g . f x1
+\ x1 x2 -> g (f x1 x2)
+\ x1 x2 -> g $ f x1 x2
+\ x1 x2 -> g . f x1 $ x2
+\ x1    -> g . f x1
 #+end_src
 *** <<<\eta-abstraction>>> :drill:
 :PROPERTIES:
@@ -2769,8 +2769,8 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 :END:
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 #+begin_src haskell
-\x -> g . f $ x
-\x -> g . f     --eta-abstraction
+\ x -> g . f $ x
+\ x -> g . f     --eta-abstraction
 #+end_src
 **** /*/
 <<<\eta-reduction>>>
@@ -3585,7 +3585,7 @@ Empirical process.
 :END:
 $$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
 
-Semigroup - [[Magma]] with Associative law.
+Semigroup - Magma with Associative law.
 Semigroup is closed (forms a closed set).
 
 Defined in Haskell as:
@@ -3643,7 +3643,7 @@ Global [[Scope][scope]] variable overriden by variable in [[Local scope][local s
 :ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
 :END:
 Shift operator defined by Lagrange through Differential operator.
-$$ \displaystyle T^{t}=e^{t{\frac {d}{dx}}} $$
+$$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 *** /*/
 Shift
 ** <<<Shrinking>>> :drill:
@@ -4275,7 +4275,7 @@ Default in Haskell 2010.
 2. See Inverse
 ** <<<Inverse function>>>
 
-    $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X}_{} $$
+    $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X} $$
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
