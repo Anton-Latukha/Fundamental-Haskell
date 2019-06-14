@@ -663,6 +663,10 @@ tractus draw, haul, drag
 
 Purified generalization of process.
 It is great did to name an abstraction (Denotational semantics).
+*** /*/
+<<<Abstractions>>>
+<<<Abstracting>>>
+<<<Abstract>>>
 ** <<<Actual type>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
