@@ -1181,8 +1181,15 @@ Category of Haskell where objects are types and morphisms are functions.
 It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
 
 That is why Haskell developers think in subset of Haskell where types do not have bottom values. This only includes functions that terminate, and typically only finite values. The corresponding category has the expected initial and terminal objects, sums and products, and instances of Functor and Monad really are endofunctors and monads.
+
+Hask contains subcategories, like Lst containing only list types.
+
+Haskell and Cathegory concepts:
+  * Things that take a type and return another type are type constructors.
+  * Things that take a function and return another function are higher-order functions.
 *** /*/
 <<<Category theory>>>
+<<<Categories>>>
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
