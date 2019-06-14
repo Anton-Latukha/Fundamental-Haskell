@@ -1159,6 +1159,12 @@ Mathematical structure. Morphisms preserve structure.
 **** /*/
 <<<Structure>>>
 <<<Objects>>>
+*** <<<Hask>>>
+Category of Haskell where objects are types and morphisms are functions.
+
+It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
+
+That is why Haskell developers think in subset of Haskell where types do not have bottom values. This only includes functions that terminate, and typically only finite values. The corresponding category has the expected initial and terminal objects, sums and products, and instances of Functor and Monad really are endofunctors and monads.
 *** /*/
 <<<Category theory>>>
 ** <<<Closed-form expression>>> :drill:
@@ -1711,7 +1717,7 @@ Where $$ \eta,\mu $$ are Natural transformations.
 
 *** <<<Power set functor>>>
 
-Functor type class in Haskell corresponds to mathematical power set functor and allows do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
+Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
 Power set functor is unique to the category (data type), as power set is unique to the set.
 
 #+begin_src haskell
