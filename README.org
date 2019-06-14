@@ -4160,9 +4160,11 @@ Roughly /*/ is:
 trans :: F a -> G a
 #+end_src
 
-/*/ structure-preserving transformation of one functor into another.
-/*/ is a "morphism of functors", especially in functor categories.
-/*/ by a certain rule for every object picks [[Natural transformation component][natural transformation component]]: $$ \forall o \in \mathcal{C} : hom^{\mathcal{C \to D}}(F^{\mathcal{C \to D}}(o) \to G^{\mathcal{C \to D}}(o)) $$
+It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{C \to D}} $$ using existing morphisms in target category $$ \mathcal{D} $$.
+Since it uses morphisms - it is structure-preserving transformation of one functor into another. And since it uses only existing morphisms - it exists only when transformation is possible with existing morphisms.
+Existence of /*/ between two functors means they are somehow related.
+Can be observed to be a "morphism of functors", especially in functor categories.
+/*/ by $$ \eta^{\mathcal{D}}(y^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \eta^{\mathcal{D}}(x^{\mathcal{C}}) $$ which is for a $$ \mathcal{C} $$ morphism picks a $$ \mathcal{D} $$ commuting diagram, called <<<naturality square>>>. And for every object picks natural transformation component.
 
 Bartosz lecture: https://www.youtube.com/watch?v=2LJC-XD5Ffo
 Category defines structure.
