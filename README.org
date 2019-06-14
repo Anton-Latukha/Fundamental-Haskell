@@ -4166,14 +4166,6 @@ Existence of /*/ between two functors means they are somehow related.
 Can be observed to be a "morphism of functors", especially in functor categories.
 /*/ by $$ \eta^{\mathcal{D}}(y^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \eta^{\mathcal{D}}(x^{\mathcal{C}}) $$ which is for a $$ \mathcal{C} $$ morphism picks a $$ \mathcal{D} $$ commuting diagram, called <<<naturality square>>>. And for every object picks natural transformation component.
 
-Bartosz lecture: https://www.youtube.com/watch?v=2LJC-XD5Ffo
-Category defines structure.
-Functors are preserving structure mappings.
-
-There are several ways (functors) for modelling one category inside other category.
-Natural transformation - mapping between two functors. Natural transformation also preserves structure.
-
-$$ (\mathit{cat} \ \mathcal{C, D}), (\mathit{functor} F^{\mathcal {C \to D}}, G^{\mathcal{C \to D}}) $$
 *** <<<Natural transformation component>>> :drill:
 :PROPERTIES:
 :ID:       d71f0216-0581-481b-a941-7974ec27ee2c
