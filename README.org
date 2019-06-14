@@ -4152,9 +4152,12 @@ Value that is yet to be evaluated. Can be dragged around, until be lazily evalua
 :PROPERTIES:
 :ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
 :END:
-Roughly  /*/ is:
+
+/*/ ($$ \eta^{\mathcal{D}} $$) is transforming : $$ \eta^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} $$. Right there was seen that /*/ allows higher-language of Category theory, talking about the composition and transformation of complex theory entities.
+
+Roughly /*/ is:
 #+begin_src haskell
-trans :: forall a. F a -> G a
+trans :: F a -> G a
 #+end_src
 
 /*/ structure-preserving transformation of one functor into another.
