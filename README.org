@@ -2387,9 +2387,29 @@ Semigroup that has Identity value.
 class Monoid m where
 mempty :: m
 mappend :: m -> m -> m
+mappend = (<>)
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
 #+end_src
+
+/*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
+For example to represent the whole non-negative integers with the one object and morphism "$$ 1 $$" is absolutely enough, composition operation is "$$ + $$".
+
+#+begin_src haskell
+import Data.Monoid
+do
+  show (mempty :: Num a => Sum a)
+  -- "Sum {getSum = 0}"
+  show $ Sum 1
+  -- "Sum {getSum = 1}"
+  show $ (Sum 1) <> (Sum 1) <> (Sum 1)
+  -- "Sum {getSum = 3}"
+  -- ...
+#+end_src
+
+Semigroup can be single object category only as a monoid, due to category identity requirement.
+
+Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
 *** <<<Monoid laws>>> :drill:
 :PROPERTIES:
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
