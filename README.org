@@ -436,10 +436,10 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
   - [[#type-class][<<<Type class>>>]]
     - [[#-77][/*/]]
     - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
-    - [[#-78][/*/]]
     - [[#type-class-inheritance][<<<Type class inheritance>>>]]
     - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
-      - [[#-79][/*/]]
+      - [[#-78][/*/]]
+    - [[#-79][/*/]]
   - [[#type-constant][<<<Type constant>>>]]
   - [[#type-constructor][<<<Type constructor>>>]]
   - [[#type-declaration][<<<type declaration>>>]]
@@ -754,20 +754,22 @@ For FP see Bind. And then beta reduction happen.
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
-** <<<Applicative>>> :drill:
+** <<<Applicative functor>>> :drill:
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
 :END:
-For Category theory description - see Applicative functor 
-Sequencing functorial computations.
+/*/ - Computer science term. Category theory name - Lax monoidal functor with Tensorial strength.
+
+/*/ - sequences functorial computations (plain functors can't).
 
 #+begin_src haskell
 (<*>) :: f (a -> b) -> f a -> f b
 #+end_src
 
 Requires Functor to exist.
-Requires Monoidal structure. And has structure rules, that are separate from what happens inside it.
-Structure goes through Monoidal process.
+Requires Monoidal structure.
+
+Has monoidal structure rules, separated from what happens inside structure.
 
 Data type can have several applicative implementations.
 *** <<<Applicative laws>>> :drill:
@@ -876,7 +878,7 @@ And if there is two Left's - to Left of the first argument.
 The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
 For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
 Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
-*** Applicative functions
+*** <<<Applicative function>>>
 **** <<<liftA*>>>
 ***** <<<liftA>>> :drill:
 :PROPERTIES:
@@ -918,14 +920,8 @@ liftA2 (<*>) 3-layer version.
 :END:
 liftA2 3-parameter version.
 *** /*/
+<<<Applicative>>>
 <<<Applicatives>>>
-** <<<Applicative functor>>> :drill:
-:PROPERTIES:
-:ID:       5a6a7b44-9124-4af8-aeb6-c7dbcbc9888c
-:END:
-Applicative functor - Lax monoidal functor with Tensorial strength.
-See Applicative.
-*** /*/
 <<<Applicative functors>>>
 ** <<<Arbitrary function>>> :drill:
 :PROPERTIES:
@@ -4031,15 +4027,12 @@ Type classes make a nice way for defining behaviour over many objects at once.
 <<<Type classes>>>
 <<<Typeclass>>>
 <<<Typeclasses>>>
-** <<<Type class inheritance>>> :drill:
 *** <<<Arbitrary type class>>> :drill:
 :PROPERTIES:
 :ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
 :END:
 Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autogenerates values.
-*** /*/
-<<<Arbitrary>>>
 *** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
@@ -4054,6 +4047,8 @@ Pseudogenerates a function basing on resulting type.
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
 **** /*/
+*** /*/
+<<<Arbitrary>>>
 <<<CoArbitrary>>>
 ** <<<Type constant>>> :drill:
 :PROPERTIES:
