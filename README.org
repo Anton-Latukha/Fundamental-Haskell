@@ -191,51 +191,51 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#conjunction][<<<Conjunction>>>]]
   - [[#cons-cell][<<<Cons cell>>>]]
-  - [[#constraint][<<<Constraint>>>]]
   - [[#construct][<<<Construct>>>]]
     - [[#-36][/*/]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#context][<<<Context>>>]]
-  - [[#contravariant][<<<Contravariant>>>]]
     - [[#-37][/*/]]
+  - [[#contravariant][<<<Contravariant>>>]]
+    - [[#-38][/*/]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
-    - [[#-38][/*/]]
+    - [[#-39][/*/]]
   - [[#currying][<<<Currying>>>]]
   - [[#data-type][<<<Data type>>>]]
-    - [[#-39][/*/]]
+    - [[#-40][/*/]]
     - [[#actual-type][<<<Actual type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-40][/*/]]
+      - [[#-41][/*/]]
     - [[#cardinality][<<<Cardinality>>>]]
     - [[#data-constant][Data <<<constant>>>]]
-      - [[#-41][/*/]]
+      - [[#-42][/*/]]
     - [[#data-constructor][<<<Data constructor>>>]]
     - [[#data-declaration][<<<data declaration>>>]]
     - [[#dependent-type][<<<Dependent type>>>]]
     - [[#gen-type][<<<Gen type>>>]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
-      - [[#-42][/*/]]
+      - [[#-43][/*/]]
     - [[#newtype-declaration][<<<newtype declaration>>>]]
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-43][/*/]]
+      - [[#-44][/*/]]
     - [[#structural-type-system][<<<Structural type system>>>]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-44][/*/]]
+      - [[#-45][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
-        - [[#-45][/*/]]
-      - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
         - [[#-46][/*/]]
+      - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
         - [[#-47][/*/]]
+        - [[#-48][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
     - [[#type-constant][<<<Type constant>>>]]
@@ -243,16 +243,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
     - [[#type-inference][<<<Type inference>>>]]
-      - [[#-48][/*/]]
+      - [[#-49][/*/]]
     - [[#type-instance][<<<Type instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-49][/*/]]
+      - [[#-50][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-50][/*/]]
+      - [[#-51][/*/]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-51][/*/]]
+    - [[#-52][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
   - [[#domain][<<<Domain>>>]]
@@ -261,50 +261,50 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
   - [[#expression][<<<Expression>>>]]
-    - [[#-52][/*/]]
+    - [[#-53][/*/]]
     - [[#closed-form-expression][<<<Closed-form expression>>>]]
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
   - [[#first-class][<<<First-class>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-53][/*/]]
+    - [[#-54][/*/]]
   - [[#fold][<<<Fold>>>]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#-54][/*/]]
+    - [[#-55][/*/]]
     - [[#arity][<<<Arity>>>]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-55][/*/]]
+      - [[#-56][/*/]]
     - [[#combinator][<<<Combinator>>>]]
     - [[#function-application][<<<Function application>>>]]
-      - [[#-56][/*/]]
+      - [[#-57][/*/]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-57][/*/]]
+      - [[#-58][/*/]]
     - [[#function-head][<<<Function head>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#higher-order-function][<<<Higher-order function>>>]]
-      - [[#-58][/*/]]
-    - [[#injection][<<<Injection>>>]]
       - [[#-59][/*/]]
+    - [[#injection][<<<Injection>>>]]
+      - [[#-60][/*/]]
     - [[#partial-function][<<<Partial function>>>]]
     - [[#purity][<<<Purity>>>]]
-      - [[#-60][/*/]]
+      - [[#-61][/*/]]
     - [[#sectioning][<<<Sectioning>>>]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-61][/*/]]
+      - [[#-62][/*/]]
     - [[#unsafe][<<<Unsafe>>>]]
     - [[#variadic][<<<Variadic>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
   - [[#group][<<<Group>>>]]
-    - [[#-62][/*/]]
+    - [[#-63][/*/]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-63][/*/]]
+    - [[#-64][/*/]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -315,10 +315,10 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-64][/*/]]
+    - [[#-65][/*/]]
     - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
     - [[#lambda-cube][<<<Lambda cube>>>]]
-      - [[#-65][/*/]]
+      - [[#-66][/*/]]
     - [[#lambda-function][<<<Lambda function>>>]]
       - [[#lambda-expression][<<<Lambda expression>>>]]
       - [[#anonymous-function][<<<Anonymous function>>>]]
@@ -328,22 +328,22 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-66][/*/]]
+      - [[#-67][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-67][/*/]]
-  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-68][/*/]]
-  - [[#linear-type][<<<Linear type>>>]]
+  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-69][/*/]]
-  - [[#local-scope][<<<Local scope>>>]]
+  - [[#linear-type][<<<Linear type>>>]]
     - [[#-70][/*/]]
+  - [[#local-scope][<<<Local scope>>>]]
+    - [[#-71][/*/]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
   - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#natural-transformation][<<<Natural transformation>>>]]
-    - [[#-71][/*/]]
+    - [[#-72][/*/]]
     - [[#natural-transformation-component][<<<Natural transformation component>>>]]
-      - [[#-72][/*/]]
+      - [[#-73][/*/]]
     - [[#natural-transformation-in-haskell][Natural transformation in Haskell]]
   - [[#node][<<<Node>>>]]
   - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
@@ -352,35 +352,37 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#operation][<<<Operation>>>]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-73][/*/]]
+      - [[#-74][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-74][/*/]]
-  - [[#partial-application][<<<Partial application>>>]]
     - [[#-75][/*/]]
+  - [[#partial-application][<<<Partial application>>>]]
+    - [[#-76][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-76][/*/]]
-    - [[#blackbird][<<<Blackbird>>>]]
       - [[#-77][/*/]]
+    - [[#blackbird][<<<Blackbird>>>]]
+      - [[#-78][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
-    - [[#-78][/*/]]
-  - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#-79][/*/]]
+  - [[#polymorphism][<<<Polymorphism>>>]]
+    - [[#-80][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-80][/*/]]
+        - [[#-81][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
+          - [[#constraint][<<<Constraint>>>]]
+            - [[#-82][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-81][/*/]]
+        - [[#-83][/*/]]
       - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
-        - [[#-82][/*/]]
+        - [[#-84][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -421,18 +423,18 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-83][/*/]]
+    - [[#-85][/*/]]
   - [[#quantifier][<<<Quantifier>>>]]
-    - [[#-84][/*/]]
-    - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-85][/*/]]
-  - [[#recursion][<<<Recursion>>>]]
     - [[#-86][/*/]]
+    - [[#forall-quantifier][<<<Forall quantifier>>>]]
+      - [[#-87][/*/]]
+  - [[#recursion][<<<Recursion>>>]]
+    - [[#-88][/*/]]
     - [[#base-case][<<<Base case>>>]]
   - [[#reduction][<<<Reduction>>>]]
-    - [[#-87][/*/]]
+    - [[#-89][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-88][/*/]]
+    - [[#-90][/*/]]
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
@@ -441,7 +443,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-89][/*/]]
+    - [[#-91][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set][<<<Hom-set>>>]]
@@ -458,13 +460,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tail-recursion][<<<Tail recursion>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-90][/*/]]
+    - [[#-92][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-91][/*/]]
+        - [[#-93][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -480,6 +482,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
   - [[#zero][<<<Zero>>>]]
+  - [[#algebraic][<<<Algebraic>>>]]
+      - [[#-94][/*/]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -493,18 +497,19 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-92][/*/]]
+    - [[#-95][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-93][/*/]]
+    - [[#-96][/*/]]
   - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
-    - [[#-94][/*/]]
+    - [[#-97][/*/]]
   - [[#function-image][<<<Function image>>>]]
-    - [[#-95][/*/]]
+    - [[#-98][/*/]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#pattern-guard][<<<Pattern guard>>>]]
+    - [[#-99][/*/]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
@@ -516,13 +521,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-96][/*/]]
+      - [[#-100][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-97][/*/]]
+    - [[#-101][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -530,32 +535,33 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#preorder-1][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-98][/*/]]
+        - [[#-102][/*/]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-99][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
-      - [[#-100][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
-      - [[#-101][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
-      - [[#-102][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-103][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-104][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-105][/*/]]
+    - [[#symmetry][<<<Symmetry>>>]]
+      - [[#-106][/*/]]
+    - [[#equivalence][<<<Equivalence>>>]]
+      - [[#-107][/*/]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
+      - [[#-108][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-109][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-106][/*/]]
+    - [[#-110][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-107][/*/]]
+    - [[#-111][/*/]]
   - [[#adt][<<<ADT>>>]]
-  - [[#algebraic][<<<Algebraic>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
+  - [[#property][<<<Property>>>]]
+    - [[#-112][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -642,7 +648,11 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 - [[#misc][Misc]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
-    - [[#instance-termination-rules][Instance termination rules]]
+    - [[#instance-termination-rules][<<<Instance termination rules>>>]]
+- [[#functional-dependencies][Functional dependencies]]
+- [[#monolocalbinds][MonoLocalBinds]]
+- [[#kindsignatures][KindSignatures]]
+- [[#explicitnamespaces][ExplicitNamespaces]]
 
 * Definitions
 :PROPERTIES:
@@ -1757,7 +1767,7 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
-[[Category]] in which [[Object][objects]] are sets.
+Category in which objects are sets.
 ** <<<Closure>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -1835,11 +1845,6 @@ Haskell kind:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
 :END:
 Cell that values may inhabit.
-** <<<Constraint>>> :drill:
-:PROPERTIES:
-:ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
-:END:
-See: Ad hoc polymorphism
 ** <<<Construct>>> :drill:
 :PROPERTIES:
 :ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
@@ -1867,6 +1872,8 @@ Written before the main type signature and denoted:
 TypeClass a =>
 #+end_src
 
+*** /*/
+<<<Contexts>>>
 ** <<<Contravariant>>> :drill:
 :PROPERTIES:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
@@ -2634,7 +2641,7 @@ Function that does not cover some edge case.
 :PROPERTIES:
 :ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
 :END:
-Variadic function has a indefinite arity. Assepts a variable number of [[Argument][arguments]].
+Variadic function has a indefinite arity. Assepts a variable number of arguments.
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
@@ -2650,7 +2657,7 @@ See System F.
 :PROPERTIES:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
-[[Set]] equipped with a binary operation. Group axioms are satisfied:
+Set equipped with a binary operation. Group axioms are satisfied:
   * closure,
   * associativity,
   * identity,
@@ -2729,7 +2736,7 @@ Form of wrinting of operaton application in-between variables.
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
-What [[Value][values]] inhabit data type
+What values inhabit data type
 ** <<<Interface>>> :drill:
 :PROPERTIES:
 :ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
@@ -2885,7 +2892,7 @@ Level of code when code compiles/compiled.
 :PROPERTIES:
 :ID:       99d21c80-6b3d-4818-aef0-6c7796571883
 :END:
-[[Level of code]] when binary code executes in machine.
+Level of code when binary code executes in machine.
 *** /*/
 <<<Code level>>>
 ** <<<Lexical scope>>> :drill:
@@ -3210,7 +3217,7 @@ Types:
 :PROPERTIES:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
 :END:
-Parametric polymorphism in [[Type rank][rank-1 types]] by type variables.
+Parametric polymorphism in rank-1 types by type variables.
 ***** /*/
 <<<Prenex>>>
 <<<Prenex polymorpism>>>
@@ -3243,6 +3250,13 @@ Achieved by creating a type class functions.
 It is interface dispatch mechanism by data types.
 
 /Commonly known as overloading./
+****** <<<Constraint>>> :drill:
+:PROPERTIES:
+:ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
+:END:
+See: Ad hoc polymorphism
+******* /*/
+<<<Constraints>>>
 **** <<<Impredicative polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
@@ -3277,7 +3291,7 @@ From: https://news.ycombinator.com/item?id=8130861
 Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
 #+end_src
 
-Useful example aslo a [[ST-Trick monad]].
+Useful example aslo a ST-Trick monad.
 ***** /*/
 <<<Rank-n polymorphism>>>
 *** <<<Subtype polymorphism>>> :drill:
@@ -3321,7 +3335,7 @@ data Proxy a = ProxyValue
 Then, by default the data type can be inhabited and fully work being partially defined.
 But multiple instances of kind polymorphic type can be distinguished by their particular type.
 
-Example is the [[Proxy type]]:
+Example is the Proxy type:
 #+begin_src haskell
 data Proxy a = ProxyValue
 
@@ -3333,7 +3347,7 @@ let proxy2 = (ProxyValue :: Proxy a)   -- * -> * :: Proxy a
 :PROPERTIES:
 :ID:       4a8f87d0-99ee-40e7-8a02-92b97540f9b4
 :END:
-Leverages [[Linear type][linear types]].
+Leverages linear types.
 For exampe - if fold over a dynamic array:
   1) In basic Haskell - array would be copied at every step.
   2) Use low-level unsafe functions.
@@ -3411,7 +3425,7 @@ Enable the definition of further constraints on individual class methods.
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
   * Anything which is already allowed in code as a constraint without /*/. Saturated applications to type classes, implicit parameter and equality constraints.
-  * [[Tuple]]s, all of whose component types have kind Constraint.
+  * Tuples, all of whose component types have kind Constraint.
   #+begin_src haskell
   type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
   #+end_src
@@ -3436,8 +3450,8 @@ Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
 :PROPERTIES:
 :ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
 :END:
-Automatic deriving of [[Type class instance][instance]]s for the Functor type class.
-Since there is only one possible [[Functor][functor]] for any [[Data type][type]] - it is possible to check that it is derived right.
+Automatic deriving of instances for the Functor type class.
+Since there is only one possible functor for any type - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
 ***** <<<ExplicitForAll>>> :drill:
 :PROPERTIES:
@@ -3458,7 +3472,7 @@ class C a => D a where ...
 #+end_src
 $$ C :> D $$, so in C we can talk about D.
 
-Synergizes with [[ConstraintKinds]].
+Synergizes with ConstraintKinds.
 ***** <<<FlexibleInstances>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
@@ -3476,7 +3490,7 @@ Allow type class instances types contain nested types.
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
-Implies [[TypeSynonymInstances]].
+Implies TypeSynonymInstances.
 ***** <<<GeneralizedNewtypeDeriving>>> :drill:
 :PROPERTIES:
 :ID:       96a23172-9aa7-4290-adfe-a18169dd4362
@@ -3513,7 +3527,7 @@ Enables expressions of the form:
 :PROPERTIES:
 :ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
 :END:
-Implies: [[ConstrainedClassMethods]]
+Implies: ConstrainedClassMethods
 Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
 class Collection c a where
@@ -3553,25 +3567,25 @@ Allows programmer to which parts of a type to annotate and which to infer. Also 
 
 As untuped expression, partly typed can not polymorphicly recurse.
 
-[[-Wno-partial-type-signatures]] supresses infer warnings.
+-Wno-partial-type-signatures supresses infer warnings.
 ***** <<<RankNTypes>>> :drill:
 :PROPERTIES:
 :ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
 :END:
 Enable types of arbitrary rank.
-See [[Type rank]].
+See Type rank.
 
-Implies [[ExplicitForAll]].
+Implies ExplicitForAll.
 
 Allows =forall= quantifier:
   * Left side of \to
   * Right side of \to
-  * as [[Argument][argument]] of a constructor
+  * as argument of a constructor
   * as type of a field
   * as type of an implicit parameter
-  * used in pattern type signature of [[Lexically scoped type variables]]
+  * used in pattern type signature of Lexically scoped type variables
 
-It can synergyze with [[ScopedTypeVariables]].
+It can synergyze with ScopedTypeVariables.
 ***** <<<ScopedTypeVariables>>> :drill:
 :PROPERTIES:
 :ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
@@ -3580,11 +3594,11 @@ By default type variables do not have a scope except inside type signatures wher
 
 When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
 
-/*/ option provides the [[Lexical scope][lexical scope]] inside the code block for [[Type variable][type variables]] that have [[Forall quantifier][forall quantifier]]. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
+/*/ option provides the lexical scope inside the code block for type variables that have forall quantifier. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
 
 For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
 
-Implies [[ExplicitForAll]].
+Implies ExplicitForAll.
 ***** <<<TupleSections>>> :drill:
 :PROPERTIES:
 :ID:       30ae7849-e739-4718-b031-5566e8f82a67
@@ -3624,10 +3638,10 @@ Allow use and definition of indexed type and data families.
 
 /*/ are type-level programming.
 /*/ are overload data types in the same way that type classes overload functions.
-/*/ allow handling of dependent types. Before it [[Functional dependencies]] and [[GADTs]] were used to solve that.
+/*/ allow handling of dependent types. Before it Functional dependencies and GADTs were used to solve that.
 /*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
 
-Implies: [[MonoLocalBinds]], [[KindSignatures]], [[ExplicitNamespaces]]
+Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
 
 Two types of /*/ are:
 ****** <<<Data families>>>
@@ -3643,7 +3657,7 @@ Now type synonim can have it's own type class instances.
 :END:
 Permit instances which may lead to type-checker non-termination.
 
-GHC has [[Instance termination rules]] regardless of [[FlexibleInstances]] [[FlexibleContexts]].
+GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 ***** <<<ViewPatterns>>> :drill:
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
@@ -3653,17 +3667,17 @@ size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
 #+end_src
 (/expression/ \to /pattern/): what came to match - apply the /expression/, then do /pattern/-match.
-[[Semantics]]:
+Semantics:
   * variables of /expression/ and /pattern/ are shared
   * if /expression/ :: t1 -> t2 && /pattern/ :: t2, then (/expression/ \to /pattern/) :: t1.
 
-/*/ are like [[Pattern guard][pattern guards]] that can be nested inside of other patterns.
-/*/ are a convenient way to pattern-match [[Algebraic data type][algebraic data type]].
+/*/ are like pattern guards that can be nested inside of other patterns.
+/*/ are a convenient way to pattern-match algebraic data type.
 ***** <<<DatatypeContexts>>> :drill:
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
 :END:
-Allow [[Context][contexts]] in [[Data type][data types]].
+Allow contexts in data types.
 #+begin_src haskell
 data Eq a => Set a = NilSet | ConsSet a (Set a)
 
@@ -3871,9 +3885,9 @@ Process of abstraction.
 Constructing mathematical objects (called denotations), that describe the meanings. It is an abstractions that are ment, laying above the code, allow to implement and reason about the code. Sometimes /*/ can be directly represented in the implementation, but it is not strict requirement.
 
 Good to achive more broad approach/meaning.
-Also see [[Abstraction]].
+Also see Abstraction.
 
-/*/ are [[Composition][composable]].
+/*/ are composable.
 *** <<<Axiomatic semantics>>> :drill:
 :PROPERTIES:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
@@ -3948,7 +3962,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
-Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
+Global scope variable overriden by variable in local scope.
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
@@ -3964,7 +3978,7 @@ Also 1-tuple.
 :PROPERTIES:
 :ID:       e2aded58-a463-4762-97c4-7fc2238d386d
 :END:
-Place extra [[Constraint][constraints]] on the construction of values.
+Place extra constraints on the construction of values.
 ** <<<Spine>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
@@ -4079,7 +4093,7 @@ Tensors can be seen as functors.
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
 :END:
 *** <<<Property testing>>>
-Since [[Property][property]] has a law, then family of that unit tests can be abstracted into the lambda function.
+Since property has a law, then family of that unit tests can be abstracted into the lambda function.
 And tests cases come from generator.
 **** <<<Function property>>>
 Property corresponds to the according law.
@@ -4146,17 +4160,17 @@ Eq Int
     is equivalent to (\ a b -> not $ a == b)
 #+end_src
 ***** <<<Test Commutative property>>>
-[[Commutativity]]
+Commutativity
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> a) -> Property
 #+end_src
 ***** <<<Test Symmetry property>>>
-[[Symmetry]]
+Symmetry
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> Bool) -> Property
 #+end_src
 ***** <<<Test Equivalence property>>>
-[[Equivalence]]
+Equivalence
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
 #+end_src
@@ -4274,6 +4288,11 @@ SCHT: <2019-06-22 Sat>
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from Identity value.
+** <<<Algebraic>>> :drill:
+Composite from simple parts.
+Also: Algebraic data type.
+**** /*/
+<<<Typed holes>>>
 * Give definitions
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
@@ -4325,6 +4344,8 @@ addLookup env var1 var2
 check both to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
+*** /*/
+<<<Pattern guards>>>
 ** <<<Inverse>>>
 1. Inverse function
 
@@ -4369,39 +4390,42 @@ Investigates in thepth the intuitive notion of order using binary relations.
 Formalizes approximation and convergense.
 Has close relation to Topology.
 *** <<<Lattice>>>
-Abstract structure that consists of [[Partial order][partially ordered]] set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
+Abstract structure that consists of partially ordered set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
 *** <<<Ordering>>>
 **** <<<Preorder>>>
-R^{X \to X} : [[Reflexive]] & [[Transitive]]:
+R^{X \to X} : Reflexive & Transitive:
 $$ aRa $$
 $$ aRb, bRc \Rightarrow aRc $$
 
-Generalization of [[Equivalence][equivalence relations]] and [[Partial order][partial orders]].
+Generalization of equivalence relations partial orders.
 
-/*/ [[Antisymmetric]] \Rightarrow [[Partial ordering]].
-/*/ [[Symmetric]] \Rightarrow [[Equivalence]].
+/*/ Antisymmetric \Rightarrow Partial ordering.
+/*/ Symmetric \Rightarrow Equivalence.
 ***** <<<Total preorder>>>
-$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total [[Preorder]].
+$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total Preorder.
 **** <<<Partial ordering>>>
-A binary relation must be [[Reflexive][reflexive]], [[Antisymmetry][antisymmetic]] and [[Transitive][transitive]].
+A binary relation must be reflexive, antisymmetric and transitive.
 
 Partial - not every elempents between them need to be comparable.
 
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
 ***** /*/
+<<<Partial orders>>>
 <<<Partially ordered set>>>
+<<<Partially ordered sets>>>
 <<<Poset>>>
+<<<Posets>>>
 ** <<<Universal algebra>>>
 Studies algebraic structures.
 ** <<<Relation>>>
 *** <<<Reflexivity>>>
 $$ R^{X \to X}, \forall x \in X : x R x $$
-[[Order theory]]: $$ a \le a $$
+Order theory: $$ a \le a $$
 
 /*/ - each element is comparable to itself.
 
-Corresponds to [[Identity]] and [[Automorphism]].
+Corresponds to Identity and Automorphism.
 **** /*/
 <<<Reflexive>>>
 <<<Reflexive relation>>>
@@ -4425,7 +4449,7 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 <<<Symmetric>>>
 <<<Symmetric relation>>>
 *** <<<Equivalence>>>
-| [[Reflexive]]              | [[Symmetric]]                    | [[Transitive]]                                  |
+| Reflexive                  | Symmetric                        | Transitive                                      |
 |----------------------------+----------------------------------+-------------------------------------------------|
 | $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
@@ -4443,9 +4467,9 @@ Antisymmetry does not say anything about $$ R(a,a) $$.
 <<<Antisymmetric relation>>>
 *** <<<Asymmetry>>>
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
-/*/ $$ \iff $$ [[Antisymmetric]] \land [[Irreflexive]].
+/*/ $$ \iff $$ Antisymmetric \land Irreflexive.
 Asymmetry \ne "not symmetric"
-[[Symmetric]] \land [[Asymmetric][Asymmetric]] is only empty relation.
+Symmetric \land Asymmetric is only empty relation.
 **** /*/
 <<<Asymmetric>>>
 <<<Asymmetric relation>>>
@@ -4454,9 +4478,9 @@ Equivalent, interconvertable with no loss of information.
 *** /*/
 <<<Crypromorphic>>>
 ** <<<Lexically scoped type variables>>>
-Enable [[Lexical scope][lexical scope]] for [[Forall quantifier][forall quantifier]] defined [[Type variable][type variables]]
+Enable lexical scope for forall quantifier defined type variables
 
-Implemented in [[ScopedTypeVariables]]
+Implemented in ScopedTypeVariables
 ** <<<Type family>>>
 Defines by pattern matching the partial functions between types.
 Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
@@ -4472,13 +4496,15 @@ A specification of a data type like a stack or queue where the specification doe
 *** /*/
 <<<AbsDT>>>
 ** <<<ADT>>>
-1. [[Abstract data type]]
-2. [[Algebraic data type]]
-** <<<Algebraic>>>
+1. Abstract data type
+2. Algebraic data type
 ** <<<Concrete type>>> :drill:
 :PROPERTIES:
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
+** <<<Property>>>
+*** /*/
+<<<Properties>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
@@ -4691,7 +4717,7 @@ Portability :  portable | non-portable (<reason>)
 :PROPERTIES:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
 :END:
-[[Typed hole]]s help build code in complex situations.
+Typed holes help build code in complex situations.
 ** <<<Good: Haskell has infinite terms not not infinite types.>>> :drill:
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
@@ -4711,7 +4737,7 @@ SCHT: <2019-06-21 Fri>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
 :END:
 Even if there is types - define type synonims. They are free.
-That distinction with synonims, would allow [[TypeSynonymInstances]], which would allow to create a diffrent type class instances and behaviour for different information.
+That distinction with synonims, would allow TypeSynonymInstances, which would allow to create a diffrent type class instances and behaviour for different information.
 ** <<<Good: Control.Monad.Error -> Control.Monad.Except>>> :drill:
 :PROPERTIES:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
@@ -4726,7 +4752,7 @@ liftM -> liftA -> <$>
 >> -> *>
 #+end_src
 **** Basic case when Applicative can be used
-Can be rewriten in [[Applicative]]:
+Can be rewriten in Applicative:
 #+begin_src haskell
 func = do
   a <- f
@@ -4734,7 +4760,7 @@ func = do
 pure (a, b)
 #+end_src
 
-Can't be rewritten in [[Applicative]]:
+Can't be rewritten in Applicative:
 #+begin_src haskell
 somethingdoSomething' n = do
 a <- f n
@@ -4852,9 +4878,14 @@ https://codesearch.aelve.com/
 * Misc
 * Reference
 ** Haskell-98
-*** Instance termination rules
+*** <<<Instance termination rules>>>
+
   1. \forall class constraint (C t1 .. tn):
     1.1 type variables have occurances \le head
     1.2 constructors+variables+repetitions < head
     1.3 \not type functions (type func application can expand to arbitrary size)
  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+* Functional dependencies
+* MonoLocalBinds
+* KindSignatures
+* ExplicitNamespaces
