@@ -104,9 +104,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-8][/*/]]
   - [[#case][<<<Case>>>]]
   - [[#category][<<<Category>>>]]
+    - [[#-9][/*/]]
     - [[#object][<<<Object>>>]]
-      - [[#-9][/*/]]
-    - [[#hask-category][<<<Hask category>>>]]
       - [[#-10][/*/]]
     - [[#semigroup][<<<Semigroup>>>]]
       - [[#monoid][<<<Monoid>>>]]
@@ -118,11 +117,12 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#-11][/*/]]
         - [[#-12][/*/]]
       - [[#-13][/*/]]
-    - [[#-14][/*/]]
-    - [[#endofunctor-category][<<<Endofunctor category>>>]]
-    - [[#abelian-category][<<<Abelian category>>>]]
-    - [[#set-category][<<<SET category>>>]]
     - [[#magma][<<<Magma>>>]]
+    - [[#abelian-category][<<<Abelian category>>>]]
+    - [[#endofunctor-category][<<<Endofunctor category>>>]]
+    - [[#hask-category][<<<Hask category>>>]]
+      - [[#-14][/*/]]
+    - [[#set-category][<<<SET category>>>]]
   - [[#closed-form-expression][<<<Closed-form expression>>>]]
   - [[#closed-set][<<<Closed set>>>]]
   - [[#closure][<<<Closure>>>]]
@@ -1161,26 +1161,15 @@ Category ($$ \mathcal{C} $$) consists of the Basis:
   5. Axiom of two sided Identity of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
+*** /*/
+<<<Category theory>>>
+<<<Categories>>>
 *** <<<Object>>>
 Mathematical structure. Morphisms preserve structure.
 **** /*/
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
-*** <<<Hask category>>>
-Category of Haskell where objects are types and morphisms are functions.
-
-It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
-
-That is why Haskell developers think in subset of Haskell where types do not have bottom values. This only includes functions that terminate, and typically only finite values. The corresponding category has the expected initial and terminal objects, sums and products, and instances of Functor and Monad really are endofunctors and monads.
-
-Hask contains subcategories, like Lst containing only list types.
-
-Haskell and Category concepts:
-  * Things that take a type and return another type are type constructors.
-  * Things that take a function and return another function are higher-order functions.
-**** /*/
-<<<Hask>>>
 *** <<<Semigroup>>> :drill:
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
@@ -1274,14 +1263,13 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 <<<Monoids>>>
 **** /*/
 <<<Semigroups>>>
-*** /*/
-<<<Category theory>>>
-<<<Categories>>>
-*** <<<Endofunctor category>>> :drill:
+*** <<<Magma>>> :drill:
 :PROPERTIES:
-:ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
+:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
 :END:
-From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
+Set with a single binary operation.
+
+The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 *** <<<Abelian category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -1303,6 +1291,25 @@ Is which:
   * all monomorphism's and epimorphism's are normal.
 Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
+*** <<<Endofunctor category>>> :drill:
+:PROPERTIES:
+:ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
+:END:
+From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
+*** <<<Hask category>>>
+Category of Haskell where objects are types and morphisms are functions.
+
+It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
+
+That is why Haskell developers think in subset of Haskell where types do not have bottom values. This only includes functions that terminate, and typically only finite values. The corresponding category has the expected initial and terminal objects, sums and products, and instances of Functor and Monad really are endofunctors and monads.
+
+Hask contains subcategories, like Lst containing only list types.
+
+Haskell and Category concepts:
+  * Things that take a type and return another type are type constructors.
+  * Things that take a function and return another function are higher-order functions.
+**** /*/
+<<<Hask>>>
 *** <<<SET category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -1317,13 +1324,6 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
-*** <<<Magma>>> :drill:
-:PROPERTIES:
-:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
-:END:
-Set with a single binary operation.
-
-The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
