@@ -107,17 +107,17 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-9][/*/]]
     - [[#object][<<<Object>>>]]
       - [[#-10][/*/]]
-    - [[#semigroup][<<<Semigroup>>>]]
-      - [[#monoid][<<<Monoid>>>]]
-        - [[#monoid-laws][<<<Monoid laws>>>]]
-          - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
-          - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
-          - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
-        - [[#commutative-monoid][<<<Commutative monoid>>>]]
-          - [[#-11][/*/]]
-        - [[#-12][/*/]]
-      - [[#-13][/*/]]
     - [[#magma][<<<Magma>>>]]
+      - [[#semigroup][<<<Semigroup>>>]]
+        - [[#-11][/*/]]
+        - [[#monoid][<<<Monoid>>>]]
+          - [[#monoid-laws][<<<Monoid laws>>>]]
+            - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
+            - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
+            - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
+          - [[#commutative-monoid][<<<Commutative monoid>>>]]
+            - [[#-12][/*/]]
+          - [[#-13][/*/]]
     - [[#abelian-category][<<<Abelian category>>>]]
     - [[#endofunctor-category][<<<Endofunctor category>>>]]
     - [[#hask-category][<<<Hask category>>>]]
@@ -1170,7 +1170,14 @@ Mathematical structure. Morphisms preserve structure.
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
-*** <<<Semigroup>>> :drill:
+*** <<<Magma>>> :drill:
+:PROPERTIES:
+:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
+:END:
+Set with a single binary operation.
+
+The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+**** <<<Semigroup>>> :drill:
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
 :END:
@@ -1184,7 +1191,9 @@ Defined in Haskell as:
 class Semigroup a where
 (<>) :: a -> a -> a
 #+end_src
-**** <<<Monoid>>> :drill:
+***** /*/
+<<<Semigroups>>>
+***** <<<Monoid>>> :drill:
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
 :END:
@@ -1217,11 +1226,11 @@ do
 Semigroup can be single object category only as a monoid, due to category identity requirement.
 
 Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
-***** <<<Monoid laws>>> :drill:
+****** <<<Monoid laws>>> :drill:
 :PROPERTIES:
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
 :END:
-****** <<<Monoid left identity law>>> :drill:
+******* <<<Monoid left identity law>>> :drill:
 :PROPERTIES:
 :ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
 :END:
@@ -1229,7 +1238,7 @@ Any single-object category is a monoid. Category has an identity requirement and
 mempty <> x = x
 #+end_src
 
-****** <<<Monoid right identity law>>> :drill:
+******* <<<Monoid right identity law>>> :drill:
 :PROPERTIES:
 :ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
 :END:
@@ -1237,7 +1246,7 @@ mempty <> x = x
 x <> mempty = x
 #+end_src
 
-****** <<<Monoid associativity law>>> :drill:
+******* <<<Monoid associativity law>>> :drill:
 :PROPERTIES:
 :ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
 :END:
@@ -1247,7 +1256,7 @@ mconcat = foldr (mempty <>)
 #+end_src
 
 Everything associative can be =mappend=.
-***** <<<Commutative monoid>>> :drill:
+****** <<<Commutative monoid>>> :drill:
 :PROPERTIES:
 :ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
 :END:
@@ -1256,20 +1265,11 @@ $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 
 Enables a lot of abilities and concurrency in monoidal structure s.
-****** /*/
+******* /*/
 <<<Abelian monoid>>>
-***** /*/
+****** /*/
 <<<Monoidal>>>
 <<<Monoids>>>
-**** /*/
-<<<Semigroups>>>
-*** <<<Magma>>> :drill:
-:PROPERTIES:
-:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
-:END:
-Set with a single binary operation.
-
-The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 *** <<<Abelian category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
