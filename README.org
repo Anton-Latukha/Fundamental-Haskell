@@ -1306,6 +1306,20 @@ Is which:
   * all monomorphism's and epimorphism's are normal.
 Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
+*** <<<SET category>>> :drill:
+SCHT: <2019-06-20 Thu>
+:PROPERTIES:
+:ID:       c6c7f178-7b69-4154-83ed-34de9b102193
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
+:END:
+[[Category]] in which [[Object][objects]] are sets.
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
@@ -3646,20 +3660,6 @@ SCHT: <2019-06-17 Mon>
 Well-defined collection of distinct objects.
 *** /*/
 <<<Sets>>>
-** <<<SET category>>> :drill:
-SCHT: <2019-06-20 Thu>
-:PROPERTIES:
-:ID:       c6c7f178-7b69-4154-83ed-34de9b102193
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
-:END:
-[[Category]] in which [[Object][objects]] are sets.
 ** <<<Shadowing>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
