@@ -1353,14 +1353,6 @@ Operation /*/ - operation on members of the domain always produces a members of 
 :END:
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
-** <<<CoArbitrary>>> :drill:
-:PROPERTIES:
-:ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
-:END:
-Pseudogenerates a function basing on resulting type.
-#+begin_src haskell
-coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
-#+end_src
 ** <<<Codomain>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -4049,6 +4041,16 @@ Type classes make a nice way for defining behaviour over many objects at once.
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
 :END:
 Type class has a superclass.
+*** <<<CoArbitrary type class>>> :drill:
+:PROPERTIES:
+:ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
+:END:
+Pseudogenerates a function basing on resulting type.
+#+begin_src haskell
+coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
+#+end_src
+**** /*/
+<<<CoArbitrary>>>
 ** <<<Type constant>>> :drill:
 :PROPERTIES:
 :ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
