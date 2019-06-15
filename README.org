@@ -1780,10 +1780,17 @@ trans :: F a -> G a
 #+end_src
 
 It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{C \to D}} $$ using existing morphisms in target category $$ \mathcal{D} $$.
+
 Since it uses morphisms - it is structure-preserving transformation of one functor into another. And since it uses only existing morphisms - it exists only when transformation is possible with existing morphisms.
+
 Existence of /*/ between two functors means they are somehow related.
-Can be observed to be a "morphism of functors", especially in functor categories.
-/*/ by $$ \eta^{\mathcal{D}}(y^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \eta^{\mathcal{D}}(x^{\mathcal{C}}) $$ which is for a $$ \mathcal{C} $$ morphism picks a $$ \mathcal{D} $$ commuting diagram, called <<<naturality square>>>. And for every object picks natural transformation component.
+
+Can be observed to be a "morphism of functors", especially in functor category.
+/*/ by $$ \eta^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \eta^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$, often written short $$ \eta_{b} \circ Ff = Gf \circ \eta_{a} $$ which is for a $$ \mathcal{C} $$ morphism picks a $$ \mathcal{D} $$ commuting diagram, called <<<naturality square>>>. And for every object picks natural transformation component.
+
+Notice that the $$ \eta^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$ depends on objects&morphisms of $$ \mathcal{C} $$.
+
+From $$ F a \to G a $$ - /*/ never modifies the content, it only if can delete it, it repackages data into another container.
 
 **** /*/
 <<<Natural transformations>>>
