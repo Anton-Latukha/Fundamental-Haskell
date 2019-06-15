@@ -1218,6 +1218,83 @@ Defined in Haskell as:
 class Semigroup a where
 (<>) :: a -> a -> a
 #+end_src
+**** <<<Monoid>>> :drill:
+:PROPERTIES:
+:ID:       6593c8fb-adda-488b-b86f-9544f62868eb
+:END:
+Semigroup that has Identity value.
+
+#+begin_src haskell
+class Monoid m where
+mempty :: m
+mappend :: m -> m -> m
+mappend = (<>)
+mconcat :: [m] -> m
+mconcat = foldr mappend mempty
+#+end_src
+
+/*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
+For example to represent the whole non-negative integers with the one object and morphism "$$ 1 $$" is absolutely enough, composition operation is "$$ + $$".
+
+#+begin_src haskell
+import Data.Monoid
+do
+  show (mempty :: Num a => Sum a)
+  -- "Sum {getSum = 0}"
+  show $ Sum 1
+  -- "Sum {getSum = 1}"
+  show $ (Sum 1) <> (Sum 1) <> (Sum 1)
+  -- "Sum {getSum = 3}"
+  -- ...
+#+end_src
+
+Semigroup can be single object category only as a monoid, due to category identity requirement.
+
+Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
+***** <<<Monoid laws>>> :drill:
+:PROPERTIES:
+:ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
+:END:
+****** <<<Monoid left identity law>>> :drill:
+:PROPERTIES:
+:ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
+:END:
+#+begin_src haskell
+mempty <> x = x
+#+end_src
+
+****** <<<Monoid right identity law>>> :drill:
+:PROPERTIES:
+:ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
+:END:
+#+begin_src haskell
+x <> mempty = x
+#+end_src
+
+****** <<<Monoid associativity law>>> :drill:
+:PROPERTIES:
+:ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
+:END:
+#+begin_src haskell
+x <> mempty = x (y <> z) = (x <> y) <> z
+mconcat = foldr (mempty <>)
+#+end_src
+
+Everything associative can be =mappend=.
+***** <<<Commutative monoid>>> :drill:
+:PROPERTIES:
+:ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
+:END:
+Commutative law:
+$$ x \circ y = y \circ x $$
+Very helpful at concurrent or distributed processing.
+
+Enables a lot of abilities and concurrency in monoidal structure s.
+****** /*/
+<<<Abelian monoid>>>
+***** /*/
+<<<Monoidal>>>
+<<<Monoids>>>
 **** /*/
 <<<Semigroups>>>
 *** /*/
@@ -2400,83 +2477,6 @@ SCHT: <2019-06-19 Wed>
 /From Guerrilla patch./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
-** <<<Monoid>>> :drill:
-:PROPERTIES:
-:ID:       6593c8fb-adda-488b-b86f-9544f62868eb
-:END:
-Semigroup that has Identity value.
-
-#+begin_src haskell
-class Monoid m where
-mempty :: m
-mappend :: m -> m -> m
-mappend = (<>)
-mconcat :: [m] -> m
-mconcat = foldr mappend mempty
-#+end_src
-
-/*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
-For example to represent the whole non-negative integers with the one object and morphism "$$ 1 $$" is absolutely enough, composition operation is "$$ + $$".
-
-#+begin_src haskell
-import Data.Monoid
-do
-  show (mempty :: Num a => Sum a)
-  -- "Sum {getSum = 0}"
-  show $ Sum 1
-  -- "Sum {getSum = 1}"
-  show $ (Sum 1) <> (Sum 1) <> (Sum 1)
-  -- "Sum {getSum = 3}"
-  -- ...
-#+end_src
-
-Semigroup can be single object category only as a monoid, due to category identity requirement.
-
-Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
-*** <<<Monoid laws>>> :drill:
-:PROPERTIES:
-:ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
-:END:
-**** <<<Monoid left identity law>>> :drill:
-:PROPERTIES:
-:ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
-:END:
-#+begin_src haskell
-mempty <> x = x
-#+end_src
-
-**** <<<Monoid right identity law>>> :drill:
-:PROPERTIES:
-:ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
-:END:
-#+begin_src haskell
-x <> mempty = x
-#+end_src
-
-**** <<<Monoid associativity law>>> :drill:
-:PROPERTIES:
-:ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
-:END:
-#+begin_src haskell
-x <> mempty = x (y <> z) = (x <> y) <> z
-mconcat = foldr (mempty <>)
-#+end_src
-
-Everything associative can be =mappend=.
-*** <<<Commutative monoid>>> :drill:
-:PROPERTIES:
-:ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
-:END:
-Commutative law:
-$$ x \circ y = y \circ x $$
-Very helpful at concurrent or distributed processing.
-
-Enables a lot of abilities and concurrency in monoidal structure s.
-**** /*/
-<<<Abelian monoid>>>
-*** /*/
-<<<Monoidal>>>
-<<<Monoids>>>
 ** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
