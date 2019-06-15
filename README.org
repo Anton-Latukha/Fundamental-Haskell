@@ -643,27 +643,6 @@ Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
 :PROPERTIES:
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
-** <<<Abelian category>>> :drill:
-SCHT: <2019-06-20 Thu>
-:PROPERTIES:
-:ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
-:END:
-Is which:
-  * has a zero object,
-  * has all binary biproducts,
-  * has all kernel's and cokernels,
-  * (it has all pullbacks and pushouts)
-  * all monomorphism's and epimorphism's are normal.
-Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
-The class of Abelian categories is closed under several categorical constructions.
 ** <<<Abstraction>>> :drill:
 :PROPERTIES:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
@@ -1299,6 +1278,27 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 *** /*/
 <<<Category theory>>>
 <<<Categories>>>
+*** <<<Abelian category>>> :drill:
+SCHT: <2019-06-20 Thu>
+:PROPERTIES:
+:ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
+:END:
+Is which:
+  * has a zero object,
+  * has all binary biproducts,
+  * has all kernel's and cokernels,
+  * (it has all pullbacks and pushouts)
+  * all monomorphism's and epimorphism's are normal.
+Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
+The class of Abelian categories is closed under several categorical constructions.
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
