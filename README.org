@@ -1280,6 +1280,11 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 *** /*/
 <<<Category theory>>>
 <<<Categories>>>
+*** <<<Endofunctor category>>> :drill:
+:PROPERTIES:
+:ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
+:END:
+From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
 *** <<<Abelian category>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -1650,11 +1655,6 @@ SCHT: <2019-06-21 Fri>
 Is a functor which domain and codomain are the same category.
 *** /*/
 <<<Endofunctors>>>
-** <<<Endofunctor category>>> :drill:
-:PROPERTIES:
-:ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
-:END:
-From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
 ** <<<Evaluation>>> :drill:
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
