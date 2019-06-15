@@ -1187,6 +1187,7 @@ From these axioms, one can prove that there is exactly one identity morphism for
 Mathematical structure. Morphisms preserve structure.
 **** /*/
 <<<Structure>>>
+<<<Structures>>>
 <<<Objects>>>
 *** <<<Hask>>>
 Category of Haskell where objects are types and morphisms are functions.
@@ -2440,6 +2441,7 @@ x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
 #+end_src
 
+Everything associative can be =mappend=.
 *** <<<Commutative monoid>>> :drill:
 :PROPERTIES:
 :ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
@@ -2447,9 +2449,13 @@ mconcat = foldr (mempty <>)
 Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
+
+Enables a lot of abilities and concurrency in monoidal structure s.
 **** /*/
 <<<Abelian monoid>>>
+*** /*/
 <<<Monoidal>>>
+<<<Monoids>>>
 ** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
