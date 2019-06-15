@@ -1170,7 +1170,7 @@ Mathematical structure. Morphisms preserve structure.
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
-*** <<<Hask>>>
+*** <<<Hask category>>>
 Category of Haskell where objects are types and morphisms are functions.
 
 It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
@@ -1182,6 +1182,8 @@ Hask contains subcategories, like Lst containing only list types.
 Haskell and Category concepts:
   * Things that take a type and return another type are type constructors.
   * Things that take a function and return another function are higher-order functions.
+**** /*/
+<<<Hask>>>
 *** <<<Semigroup>>> :drill:
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
