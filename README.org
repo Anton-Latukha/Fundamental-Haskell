@@ -985,6 +985,7 @@ Number of parameters of the function.
 #+begin_src haskell
 f list@(x, xs) = ...
 #+end_src
+
 ** <<<Assertion>>> :drill:
 :PROPERTIES:
 :ID:       ca03459f-58a7-4938-8de0-2408ee2a0225
@@ -1065,6 +1066,7 @@ data BinaryTree a
   | [[Node]] (BinaryTree a) a (BinaryTree a)
   deriving (Eq, Ord, Show)
 #+end_src
+
 ** <<<Bind>>> :drill:
 SCHT: <2019-06-20 Thu>
 :PROPERTIES:
@@ -1199,7 +1201,7 @@ That is why Haskell developers think in subset of Haskell where types do not hav
 
 Hask contains subcategories, like Lst containing only list types.
 
-Haskell and Cathegory concepts:
+Haskell and Category concepts:
   * Things that take a type and return another type are type constructors.
   * Things that take a function and return another function are higher-order functions.
 *** /*/
@@ -1319,6 +1321,7 @@ Haskell kind:
 #+begin_src haskell
  * *
 #+end_src
+
 ** <<<Cons cell>>> :drill:
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
@@ -2033,6 +2036,7 @@ $$ \lambda x.x+1 $$
 \ x -> x + 1
 ^^
 #+end_src
+
 ** <<<Lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
@@ -2674,6 +2678,7 @@ Integer Integer
  *
 / \
 #+end_src
+
 ** <<<NonEmpty list data type>>> :drill:
 :PROPERTIES:
 :ID:       809c682b-457e-47df-bdfd-92302d3c42da
@@ -3435,6 +3440,7 @@ data Proxy a = ProxyValue
 let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
 let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
+
 ** <<<\Psi-combinator>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
@@ -4237,7 +4243,7 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 <<<Component of natural transformation>>>
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
-** <<<Power set>>>
+** <<<Power set>>> :drill:
 For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
 Denotation:
 $$ \mathcal{P(S)} $$
