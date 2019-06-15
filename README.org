@@ -3,12 +3,18 @@
 * Introduction
 Important notes on Haskel, category & related fields.
 
-GitHub&GitLab parse ORG only partially.
-This is complex ORG notes file with LaTeX formulas, to get its real view&power&interlinks use capable editor.
+GitHub&GitLab parse ORG into HTML only partially.
 
-=<<<This is a radio target>>>= - for =org-mode= linking.
+This is complex ORG notes file with LaTeX formulas.
+To get:
+  * LaTeX formulas
+  * Interlinks
+  * Navigation
+use capable editor.
 
-Snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_' in Emacs:
+If something - =<<<This is a radio target>>>= - for =org-mode= linking.
+
+Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 #+begin_src elisp
 ;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as 'Radio targets' when org-descriptive-links set
 ;;;; This is improvement of the code from: Tobias&glmorous: https://emacs.stackexchange.com/questions/19230/how-to-hide-targets
