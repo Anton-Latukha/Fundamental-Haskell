@@ -931,12 +931,6 @@ See Applicative.
 :ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
 :END:
 Depends on type and generates values of that type.
-** <<<Arbitrary type class>>> :drill:
-:PROPERTIES:
-:ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
-:END:
-Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
-Useful function is arbitrary - that autogenerates values.
 ** <<<Argument>>> :drill:
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
@@ -4037,6 +4031,15 @@ Type classes make a nice way for defining behaviour over many objects at once.
 <<<Typeclass>>>
 <<<Typeclasses>>>
 ** <<<Type class inheritance>>> :drill:
+*** <<<Arbitrary type class>>> :drill:
+:PROPERTIES:
+:ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
+:END:
+Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+Useful function is arbitrary - that autogenerates values.
+*** /*/
+<<<Arbitrary>>>
+*** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
 :END:
@@ -4260,7 +4263,6 @@ $$ \mathcal{P(S)} $$
 ** <<<Preorder>>>
 ** <<<Identity type>>>
 ** <<<Constant type>>>
-** <<<Arbitrary>>>
 ** <<<Gen>>>
 ** <<<ST-Trick monad>>>
 ST is like a lexical scope, where all the variables/state disappear when the function returns
