@@ -1315,6 +1315,13 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
+*** <<<Magma>>> :drill:
+:PROPERTIES:
+:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
+:END:
+Set with a single binary operation.
+
+The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
@@ -2269,13 +2276,6 @@ SCHT: <2019-06-20 Thu>
 Scope applies only in (current) area.
 *** /*/
 <<<Local>>>
-** <<<Magma>>> :drill:
-:PROPERTIES:
-:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
-:END:
-Set with a single binary operation.
-
-The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 ** <<<Module>>> :drill:
 :PROPERTIES:
 :ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
