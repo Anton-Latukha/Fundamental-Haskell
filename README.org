@@ -660,20 +660,6 @@ It is great did to name an abstraction (Denotational semantics).
 <<<Abstractions>>>
 <<<Abstracting>>>
 <<<Abstract>>>
-** <<<Actual type>>> :drill:
-SCHT: <2019-06-18 Tue>
-:PROPERTIES:
-:ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
-:END:
-Data type recieved by ->inferring->compiling->execution.
 ** <<<Algebra>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -757,175 +743,6 @@ For FP see Bind. And then beta reduction happen.
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
-** <<<Applicative functor>>> :drill:
-:PROPERTIES:
-:ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
-:END:
-/*/ - Computer science term. Category theory name - Lax monoidal functor with Tensorial strength.
-
-/*/ - sequences functorial computations (plain functors can't).
-
-#+begin_src haskell
-(<*>) :: f (a -> b) -> f a -> f b
-#+end_src
-
-Requires Functor to exist.
-Requires Monoidal structure.
-
-Has monoidal structure rules, separated from what happens inside structure.
-
-Data type can have several applicative implementations.
-*** <<<Applicative laws>>> :drill:
-:PROPERTIES:
-:ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
-:END:
-**** <<<Applicative identity law>>> :drill:
-:PROPERTIES:
-:ID:       2e87e916-1501-4310-9887-e0bcf7b9e1ca
-:END:
-#+begin_src haskell
-pure id <*> v = v
-#+end_src
-**** <<<Applicative composition law>>> :drill:
-:PROPERTIES:
-:ID:       74ed933d-bb1e-4169-919a-b3c491973011
-:END:
-Function composition works regularly.
-#+begin_src haskell
-pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
-#+end_src
-**** <<<Applicative homomorphism law>>> :drill:
-:PROPERTIES:
-:ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
-:END:
-Applying the function doesn't change the structure around values.
-#+begin_src haskell
-pure f <*> pure x = pure (f x)
-#+end_src
-**** <<<Applicative interchange law>>> :drill:
-:PROPERTIES:
-:ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
-:END:
-On condition that internal order of evaluation is preserved - order of operands is not relevant.
-#+begin_src haskell
-u <*> pure y = pure ($ y) <*> u
-#+end_src
-
-*** <<<Special applicatives>>> :drill:
-:PROPERTIES:
-:ID:       c67fa1eb-a529-43a8-b88b-926325e124ce
-:END:
-**** <<<Identity applicative>>> :drill:
-:PROPERTIES:
-:ID:       72602f6e-4290-4db5-bd26-f6abe614384d
-:END:
-#+begin_src haskell
--- Applicative f =>
--- f ~ Identity
-type Id = Identity
-instance Applicative Id
-  where
-    pure :: a -> Id a
-    (<*>) :: Id (a -> b) -> Id a -> Id b
-
-mkId = Identity
-xs = [1, 2, 3]
-
-const <$> mkId xs <*> mkId xs'
--- [1,2,3]
-#+end_src
-**** <<<Constant applicative>>> :drill:
-:PROPERTIES:
-:ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
-:END:
-It holds only to one value. The function does not exist and `b` is phantom.
-#+begin_src haskell
--- Applicative f =>
--- f ~ Constant e
-type C = Constant
-instance Applicative C
-  where
-    pure :: a -> C e a
-    (<*>) :: C e (a -> b) -> C e a -> C e b
-
-pure 1
--- 1
-pure 1 :: Constant String Int
--- Constant {getConstant = ""}
-#+end_src
-
-**** <<<Maybe applicative>>> :drill:
-:PROPERTIES:
-:ID:       5929b239-fa46-40c6-9896-a2dabe40f619
-:END:
-"There also can be no function at all."
-
-If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
-#+begin_src haskell
--- f ~ Maybe
-type M = Maybe
-pure :: a -> M a
-(<*>) :: M (a -> b) -> M a -> M b
-#+end_src
-**** <<<Either applicative>>> :drill:
-:PROPERTIES:
-:ID:       f85602e3-3339-4ab7-ac38-5025b8aa6828
-:END:
-`pure` is `Right`.
-Defaults to `Left`.
-And if there is two Left's - to Left of the first argument.
-**** <<<Validation applicative>>> :drill:
-:PROPERTIES:
-:ID:       84ed0f96-b39b-4132-aafa-c6e58cb280ab
-:END:
-The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
-For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
-Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
-*** <<<Applicative function>>>
-**** <<<liftA*>>>
-***** <<<liftA>>> :drill:
-:PROPERTIES:
-:ID:       8d9bbfb6-95d0-46c5-85bc-05c357721882
-:END:
-Essentially a fmap.
-#+begin_src haskell
-:type liftA
-liftA :: Applicative f => (a -> b) -> f a -> f b
-#+end_src
-***** <<<liftA2>>> :drill:
-:PROPERTIES:
-:ID:       68d78ba7-589e-4eb0-90fc-c6d286fd327e
-:END:
-Lifts binary function across two Applicative functors.
-#+begin_src haskell
-:type liftA2
-liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
-#+end_src
-***** <<<liftA2 (<*>)>>> :drill:
-:PROPERTIES:
-:ID:       ac1da978-3adc-447a-a20d-3f15f8cfd940
-:END:
-liftA2 (<*>) is pretty useful. It can lift binary operation through the two layers:
-It is two-layer Applicative.
-#+begin_src haskell
-liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f    b   ->  f    c
-<*> :: Applicative f =>    (f  (a -> b) -> f a -> f b)
-liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
-#+end_src
-***** <<<liftA2 (liftA2 (<*>))>>> :drill:
-:PROPERTIES:
-:ID:       276bd112-3c4c-4c31-9650-28bce44786f9
-:END:
-liftA2 (<*>) 3-layer version.
-***** <<<liftA3>>> :drill:
-:PROPERTIES:
-:ID:       8371488b-da13-401b-9648-c286f2af0c99
-:END:
-liftA2 3-parameter version.
-*** /*/
-<<<Applicative>>>
-<<<Applicatives>>>
-<<<Applicative functors>>>
 ** <<<Arbitrary function>>> :drill:
 :PROPERTIES:
 :ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
@@ -940,16 +757,6 @@ argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
 Is an input value to a function parameter.
-** <<<Arity>>> :drill:
-:PROPERTIES:
-:ID:       fa4caa07-eea5-4082-aaed-92abb820e768
-:END:
-Number of parameters of the function.
-  * nullary - f()
-  * unary   - f(x)
-  * binary  - f(x,y)
-  * ternary - f(x,y,z)
-  * n-ary   - f(x,y,z..)
 ** <<<As-pattern>>> :drill:
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
@@ -977,20 +784,6 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 *** /*/
 <<<Associativity>>>
 <<<Associative>>>
-** <<<Base case>>> :drill:
-SCHT: <2019-06-20 Thu>
-:PROPERTIES:
-:ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:03]
-:END:
-A part of a recursive function that trivially produces result.
 ** <<<Basis>>> :drill:
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
@@ -1004,6 +797,8 @@ AKA see Category theory, or Euclidian geometry basis.
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
 :END:
 No beta reduction is possible.
+*** /*/
+<<<Normal form>>>.
 ** <<<Beta reduction>>> :drill:
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
@@ -1088,24 +883,6 @@ Type theory, typed programming language, and constructivism (phylosophy) foundat
 Directly relates to Coq programming language.
 *** /*/
 <<<<<<CoC>>>>>>
-** <<<Cardinality>>> :drill:
-SCHT: <2019-06-23 Sun>
-:PROPERTIES:
-:ID:       22428179-0fdb-4723-94dc-596dd41f61c0
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:23]
-:END:
-
-Number of possible implementations for a given type signature.
-
-Disjunction, sum - adds cardinalities.
-Conjunction, product - multiplies cardinalities.
 ** <<<Cartesian product>>> :drill:
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
@@ -1146,7 +923,7 @@ case () of _
              | otherwise -> exDefault
 #+end_src
 
-** <<<Category>>> :drill:
+** <<<Category theory>>> :drill:
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
 :END:
@@ -1159,7 +936,7 @@ Category ($$ \mathcal{C} $$) consists of the Basis:
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** /*/
-<<<Category theory>>>
+<<<Category>>>
 <<<Categories>>>
 *** <<<Object>>>
 Mathematical structure. Morphisms preserve structure.
@@ -1167,6 +944,16 @@ Mathematical structure. Morphisms preserve structure.
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
+**** <<<Terminal object>>> :drill:
+:PROPERTIES:
+:ID:       8d7de2b2-7609-481a-837e-9887e779446f
+:END:
+Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
+**** <<<Initial object>>> :drill:
+:PROPERTIES:
+:ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
+:END:
+Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 *** <<<Magma>>> :drill:
 :PROPERTIES:
 :ID:       c40ac83b-c730-4de5-915d-04d76c88398c
@@ -1321,17 +1108,639 @@ SCHT: <2019-06-20 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
 :END:
 [[Category]] in which [[Object][objects]] are sets.
-** <<<Closed-form expression>>> :drill:
+*** <<<Composition>>> :drill:
 :PROPERTIES:
-:ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
+:ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
 :END:
-Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
-** <<<Closed set>>> :drill:
+Axiom of Category.
+**** /*/
+<<<Composable>>>
+*** <<<Functor>>> :drill:
 :PROPERTIES:
-:ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
+:ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
-Closed set - a set whose complement is an open set.
-Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
+Functor is a map between categories. Translating objects and morphisms. They can preserve structure, or not.
+
+Functor axioms:
+  * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
+  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))} \quad | \quad \forall b = f^{D}(a) $$ - every source morphism is mapped to target category morphism between corresponding objects
+  * $$ F^{\mathcal{C \to D}}(g^{\mathcal{C}} \circ f^{\mathcal{C}}) = F^{\mathcal{C \to D}}(g^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(f^{\mathcal{C}}) \quad | \quad \forall y=f^{\mathcal{C}}(x), \forall g^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
+
+| Mathematics                | Math definition                  | Haskell                               | Math meaning |
+|----------------------------+----------------------------------+---------------------------------------+---------|
+| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
+| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit, natural transformation $$ \mathcal{ID \to P} $$ |
+| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  q      |
+Where $$ \eta,\mu $$ are Natural transformations.
+
+**** /*/
+<<<Power set functor>>>
+<<<fmap>>>
+<<<Functors>>>
+**** <<<Power set functor>>>
+
+Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
+Power set functor is unique to the category (data type), as power set is unique to the set.
+
+#+begin_src haskell
+class Functor f where
+  fmap :: (a -> b) -> f a -> f b
+#+end_src
+
+For Functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
+
+Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+
+***** <<<Power set functor laws>>> :drill:
+:PROPERTIES:
+:ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
+:END:
+Type instance of functor should abide this laws:
+****** <<<Power set functor identity law>>> :drill:
+:PROPERTIES:
+:ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
+:END:
+#+begin_src haskell
+fmap id == id
+#+end_src
+****** <<<Power set functor composition law>>> :drill:
+:PROPERTIES:
+:ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
+:END:
+#+begin_src haskell
+fmap (f.g) == fmap f . fmap g
+#+end_src
+In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+***** <<<Lift>>> :drill:
+:PROPERTIES:
+:ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
+:END:
+#+begin_src haskell
+fmap :: (a -> b) -> (f a -> f b)
+#+end_src
+Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
+Lift does a function application through the data structure.
+****** /*/
+<<<Lifting>>>
+**** <<<Forgetful functor>>> :drill:
+:PROPERTIES:
+:ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
+:END:
+Functor that forgets part or all of what defines structure in domain category.
+$$ F^{\mathbf {Grp} \to \mathbf {Set}} $$ that translates groups into their underlying sets.
+Constant functor is another example.
+***** /*/
+<<<Forgetful>>>
+**** <<<Identity functor>>>
+Maps objects and morphisms to themselves.
+
+Denotation:
+$$ 1^{\mathcal{C \to C}} $$
+**** <<<Endofunctor>>> :drill:
+SCHT: <2019-06-21 Fri>
+:PROPERTIES:
+:ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
+:END:
+Is a functor which domain and codomain are the same category.
+***** /*/
+<<<Endofunctors>>>
+**** <<<Applicative functor>>> :drill:
+:PROPERTIES:
+:ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
+:END:
+/*/ - Computer science term. Category theory name - Lax monoidal functor with Tensorial strength.
+
+/*/ - sequences functorial computations (plain functors can't).
+
+#+begin_src haskell
+(<*>) :: f (a -> b) -> f a -> f b
+#+end_src
+
+Requires Functor to exist.
+Requires Monoidal structure.
+
+Has monoidal structure rules, separated from what happens inside structure.
+
+Data type can have several applicative implementations.
+***** <<<Applicative laws>>> :drill:
+:PROPERTIES:
+:ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
+:END:
+****** <<<Applicative identity law>>> :drill:
+:PROPERTIES:
+:ID:       2e87e916-1501-4310-9887-e0bcf7b9e1ca
+:END:
+#+begin_src haskell
+pure id <*> v = v
+#+end_src
+****** <<<Applicative composition law>>> :drill:
+:PROPERTIES:
+:ID:       74ed933d-bb1e-4169-919a-b3c491973011
+:END:
+Function composition works regularly.
+#+begin_src haskell
+pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
+#+end_src
+****** <<<Applicative homomorphism law>>> :drill:
+:PROPERTIES:
+:ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
+:END:
+Applying the function doesn't change the structure around values.
+#+begin_src haskell
+pure f <*> pure x = pure (f x)
+#+end_src
+****** <<<Applicative interchange law>>> :drill:
+:PROPERTIES:
+:ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
+:END:
+On condition that internal order of evaluation is preserved - order of operands is not relevant.
+#+begin_src haskell
+u <*> pure y = pure ($ y) <*> u
+#+end_src
+
+***** <<<Special applicatives>>> :drill:
+:PROPERTIES:
+:ID:       c67fa1eb-a529-43a8-b88b-926325e124ce
+:END:
+****** <<<Identity applicative>>> :drill:
+:PROPERTIES:
+:ID:       72602f6e-4290-4db5-bd26-f6abe614384d
+:END:
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Identity
+type Id = Identity
+instance Applicative Id
+  where
+    pure :: a -> Id a
+    (<*>) :: Id (a -> b) -> Id a -> Id b
+
+mkId = Identity
+xs = [1, 2, 3]
+
+const <$> mkId xs <*> mkId xs'
+-- [1,2,3]
+#+end_src
+****** <<<Constant applicative>>> :drill:
+:PROPERTIES:
+:ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
+:END:
+It holds only to one value. The function does not exist and `b` is phantom.
+#+begin_src haskell
+-- Applicative f =>
+-- f ~ Constant e
+type C = Constant
+instance Applicative C
+  where
+    pure :: a -> C e a
+    (<*>) :: C e (a -> b) -> C e a -> C e b
+
+pure 1
+-- 1
+pure 1 :: Constant String Int
+-- Constant {getConstant = ""}
+#+end_src
+
+****** <<<Maybe applicative>>> :drill:
+:PROPERTIES:
+:ID:       5929b239-fa46-40c6-9896-a2dabe40f619
+:END:
+"There also can be no function at all."
+
+If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
+#+begin_src haskell
+-- f ~ Maybe
+type M = Maybe
+pure :: a -> M a
+(<*>) :: M (a -> b) -> M a -> M b
+#+end_src
+****** <<<Either applicative>>> :drill:
+:PROPERTIES:
+:ID:       f85602e3-3339-4ab7-ac38-5025b8aa6828
+:END:
+`pure` is `Right`.
+Defaults to `Left`.
+And if there is two Left's - to Left of the first argument.
+****** <<<Validation applicative>>> :drill:
+:PROPERTIES:
+:ID:       84ed0f96-b39b-4132-aafa-c6e58cb280ab
+:END:
+The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
+For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
+Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
+***** <<<Applicative function>>>
+****** <<<liftA*>>>
+******* <<<liftA>>> :drill:
+:PROPERTIES:
+:ID:       8d9bbfb6-95d0-46c5-85bc-05c357721882
+:END:
+Essentially a fmap.
+#+begin_src haskell
+:type liftA
+liftA :: Applicative f => (a -> b) -> f a -> f b
+#+end_src
+******* <<<liftA2>>> :drill:
+:PROPERTIES:
+:ID:       68d78ba7-589e-4eb0-90fc-c6d286fd327e
+:END:
+Lifts binary function across two Applicative functors.
+#+begin_src haskell
+:type liftA2
+liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
+#+end_src
+******* <<<liftA2 (<*>)>>> :drill:
+:PROPERTIES:
+:ID:       ac1da978-3adc-447a-a20d-3f15f8cfd940
+:END:
+liftA2 (<*>) is pretty useful. It can lift binary operation through the two layers:
+It is two-layer Applicative.
+#+begin_src haskell
+liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f    b   ->  f    c
+<*> :: Applicative f =>    (f  (a -> b) -> f a -> f b)
+liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
+#+end_src
+******* <<<liftA2 (liftA2 (<*>))>>> :drill:
+:PROPERTIES:
+:ID:       276bd112-3c4c-4c31-9650-28bce44786f9
+:END:
+liftA2 (<*>) 3-layer version.
+******* <<<liftA3>>> :drill:
+:PROPERTIES:
+:ID:       8371488b-da13-401b-9648-c286f2af0c99
+:END:
+liftA2 3-parameter version.
+***** /*/
+<<<Applicative>>>
+<<<Applicatives>>>
+<<<Applicative functors>>>
+***** <<<Monad>>> :drill:
+:PROPERTIES:
+:ID:       b1faf835-213f-4336-86a9-8e331dd60986
+:END:
+μόνος /monos/ sole
+μονάδα /monáda/ unit
+
+/*/ - Monoid in Endofunctor category (endofunctor) with both natural transformations.
+
+Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
+
+Monadic internals are Haskell data types, so they can be consumed any number of times.
+
+Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
+
+Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
+#+begin_src haskell
+import Control.Monad (ap)
+
+(<*>) == ap
+#+end_src
+****** Functor -> Applicative -> Monad progression :drill:
+:PROPERTIES:
+:ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
+:END:
+#+begin_src haskell
+<$> :: Functor     f =>   (a -> b)   -> f a -> f b
+<*> :: Applicative f => f (a -> b)   -> f a -> f b
+=<< :: Monad       f =>   (a -> f b) -> f a -> f b
+#+end_src
+This is said to be Natural transformations.
+****** <<<Monad type class>>> :drill:
+:PROPERTIES:
+:ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
+:END:
+#+begin_src haskell
+class Applicative m => Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b
+  (>>) :: m a -> m b -> m b
+  return :: a -> m a
+#+end_src
+
+****** <<<Monad functions>>> :drill:
+:PROPERTIES:
+:ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
+:END:
+******* <<<Return function>>> :drill:
+:PROPERTIES:
+:ID:       bb5891cb-a918-476b-a27a-4d342bdc30a2
+:END:
+#+begin_src haskell
+return == pure
+#+end_src
+Nonstrict.
+******* <<<Bind function>>> :drill:
+:PROPERTIES:
+:ID:       b288ba16-30a9-4550-b037-f77d4c96e95a
+:END:
+#+begin_src haskell
+>>= :: Monad f => f a -> (a -> f b) -> f b
+#+end_src
+Nonstrict.
+
+The most ubiqutous way to >>= something is to use Lambda function:
+#+begin_src haskell
+getLine >>= \name -> putStrLn "age pls:"
+#+end_src
+
+Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
+And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
+#+begin_src haskell
+printOneOf ∷ Bool → IO ()
+printOneOf False = putStr "1"
+printOneOf  True = putStr "2"
+
+quant ∷ (Bool → IO b) → IO b
+quant = (>>=) (randomRIO (False, True))
+
+recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
+recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
+
+main ∷ IO ()
+main = recursePrintOneOf (quant) $ printOneOf
+#+end_src
+******** /*/
+<<<Monadic bind>>>
+<<<Monad bind>>>
+********* (>>=)
+********* >>=
+********* (=<<)
+********* =<<
+******* <<<Join function>>> :drill:
+:PROPERTIES:
+:ID:       fda130b8-e8ae-4c3d-948a-94129d562a63
+:END:
+#+begin_src haskell
+join :: Monad m => m (m a) -> m a
+#+end_src
+Flattens two layers of structure into one.
+Join is a generalization of `concat`.
+
+The way to express ordering in lambda calculus is to nest.
+******** join.fmap == (=<<)
+#+begin_src haskell
+-- b = f b
+fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
+join      :: Monad f =>                      f (f a) -> f a
+join.fmap :: Monad f => (a -> f b) -> f a            -> f b
+flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
+#+end_src
+
+******* <<<Sequencing operator>>> (>>) == (*>): :drill:
+:PROPERTIES:
+:ID:       f8d9b6e3-b18c-4996-a86d-08107f8eec1f
+:END:
+Discards any resulting value of the action and sequence next action.
+#+begin_src haskell
+(>>) :: m a -> m b -> m b
+(*>) :: f a -> f b -> f b
+#+end_src
+Applicative has a similar operator.
+****** <<<Maybe monad>>> :drill:
+:PROPERTIES:
+:ID:       4a2e0708-1a7d-447e-b0b9-9560a2dc9e33
+:END:
+Drops the chain of computation and returns Nothing as soon as Nothing arrives.
+****** <<<Either monad>>> :drill:
+:PROPERTIES:
+:ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
+:END:
+Drops sequencing computation as soon as Left arrives.
+****** <<<Monad laws>>> :drill:
+:PROPERTIES:
+:ID:       7829bf03-a14b-411b-8460-7a8781227b60
+:END:
+pure (return) should only put argument into structure.
+******* <<<Monad left identity law>>> :drill:
+:PROPERTIES:
+:ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
+:END:
+#+begin_src haskell
+return x >>= f == f x
+#+end_src
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f =>    f a  -> (a -> f b) -> f b
+                  pure x >>=     f      == f x
+#+end_src
+Shows that >>= must get Argument internal to structure nad apply it to the second argument.
+
+******* <<<Monad right identity law>>> :drill:
+:PROPERTIES:
+:ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
+:END:
+#+begin_src haskell
+f >>= return == f
+#+end_src
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f => f a  -> (a -> f b) -> f b
+                  f   >>=    pure    == f
+#+end_src
+Tacit description of monad as endofunctor.
+
+******* <<<Monad associativity law>>> :drill:
+:PROPERTIES:
+:ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
+:END:
+#+begin_src haskell
+(m >>= f) >>= g == m >>= (\ x -> f x >>= g)
+#+end_src
+
+****** <<<Comonad>>> :drill:
+:PROPERTIES:
+:ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
+:END:
+Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
+**** <<<Monoidal functor>>> :drill:
+:PROPERTIES:
+:ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
+:END:
+Functors between monoidal categories that preserves monoidal structure.
+*** <<<Morphism>>> :drill:
+:PROPERTIES:
+:ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
+:END:
+μορφή /morphe/ form
+Map between two objects in a category.
+On a level of objects: morphism is a structure-preserving map from one mathematical structure to another one of the same type.
+
+Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
+Under morphism almost always is meaning of homomorphism-like properties.
+
+If morphism corresponds to function requirements - than it is a function.
+**** <<<Homomorphism>>> :drill:
+:PROPERTIES:
+:ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
+:END:
+ὁμός /homos/ same (chosen by initial Anglish mistranslation "similar")
+μορφή /morphe/ form
+similar form
+
+Homomorphism - operation-preserving map between two algebraic structures of the same type (groups, rings, vector spaces...).
+
+$$ (A_{set}, \star_{operation}), (B_{set}, \diamond_{operation}), f^{A \to B} : f^{A \to B}_{homomorphism} = f(x \star y) = f(x) \diamond f(y) $$.
+
+The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
+
+Homomorphisms send identity morphisms to identity morphisms and inverses to inverses.
+
+=*= homomorphism - map between =*= and preserves =*= operations
+  case =*= of:
+  * semigroup
+  * monoid
+  * groups
+  * ring
+  * linear map
+  * module
+  * algebra
+***** /*/
+<<<Homomorphic>>>
+**** <<<Identity morphism>>> :drill:
+:PROPERTIES:
+:ID:       8581e216-8d9d-479f-a58d-bd04882b5131
+:END:
+Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
+Composed with other morphism gives same morphism.
+
+Corresponds to Reflexivity and Automorphism.
+***** <<<Identity>>> :drill:
+:PROPERTIES:
+:ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
+:END:
+Identity only possible with morphism. See Identity morphism.
+
+There is also knowledge of Zero value.
+****** <<<Two-sided identity of a predicate>>> :drill:
+:PROPERTIES:
+:ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
+:END:
+$$ P() $$ is commutative.
+$$ \exists e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
+
+Predicate
+****** <<<Left identity of a predicate>>> :drill:
+:PROPERTIES:
+:ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
+:END:
+$$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
+
+Predicate
+****** <<<Right identity of a predicate>>> :drill:
+:PROPERTIES:
+:ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
+:END:
+$$ \exists e \in S, \forall a \in S : \; P(a,e)=a $$
+
+Predicate
+***** <<<Identity function>>> :drill:
+:PROPERTIES:
+:ID:       c687793c-ad12-435b-8326-9c335ebbf9ea
+:END:
+Return itself.
+(\ x.x)
+#+begin_src haskell
+id :: a -> a
+#+end_src
+**** <<<Monomorphism>>> :drill:
+:PROPERTIES:
+:ID:       18290d34-893c-42f0-bf4a-bb31f5e97711
+:END:
+μονο /mono/ only
+μορφή /morphe/ form
+
+Initial set of /f/ is fully uniquely mapped onto the image of /f/.
+Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
+It is injective.
+It always has a inverse morphism.
+
+$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from homomorphism context
+$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general morphism context
+Thus it is left canselable.
+***** /*/
+<<<Monomorphic>>>
+**** <<<Epimorphism>>> :drill:
+:PROPERTIES:
+:ID:       3729d963-3775-4715-99d7-d14bc30750c0
+:END:
+επι /epi/ on, over
+μορφή /morphe/ form
+
+Image fully uses codomain - epimorphism.
+It is surjective.
+
+$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from homomorphism context
+$$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general morphism context
+Thus it is right canselable.
+
+Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+***** /*/
+<<<Epimorphic>>>
+**** <<<Isomorphism>>> :drill:
+:PROPERTIES:
+:ID:       4a0635c3-9512-443a-8497-3c259032de55
+:END:
+ἴσος /isos/ equal
+μορφή /morphe/ form
+
+Morphism that has inverse morphism.
+Bijective homomorphism is also isomorphism.
+
+$$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv id^b $$
+
+2 reasons for non-isomorphism:
+- function at least ones collapses a values of domain into one value in codomain
+- image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
+***** /*/
+<<<Isomorphic>>>
+**** <<<Endomorphism>>> :drill:
+:PROPERTIES:
+:ID:       2fd058e4-4b8a-451e-9760-0275b2741331
+:END:
+ενδο /endo/ internal
+μορφή /morphe/ form
+
+Morphism whose domain equals the codomain.
+Epimorphism is a Monoid, because of category composition.
+***** <<<Automorphism>>> :drill:
+:PROPERTIES:
+:ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
+:END:
+\alpha\upsilon\tau\omicron /auto/ self
+μορφή /form/ form
+
+Endomorphism that is Isomorphism.
+
+Corresponds to Identity and Reflexivity.
+****** /*/
+<<<Automorphic>>>
+***** /*/
+<<<Endomorphic>>>
+**** <<<Catamorphism>>> :drill:
+:PROPERTIES:
+:ID:       3af3d5fd-449a-45e7-ac99-0cca150f0523
+:END:
+κατά /kata/ downward
+μορφή /morphe/ form
+
+Denotes the unique homomorphism from an initial algebra into some other algebra.
+
+In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+***** /*/
+<<<Catamorphic>>>
+**** /*/
+<<<Morphisms>>>
+<<<Structure-preserving>>>
+<<<Preserve structure>>>
+<<<Preserves structure>>>
 ** <<<Closure>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -1368,21 +1777,6 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Codomain - target set of a function in $X \to Y$.
-** <<<Combinator>>> :drill:
-:PROPERTIES:
-:ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
-:END:
-Function without free variables.
-Higher-order function that use only function application and other combinators.
-#+begin_src haskell
-\f g x -> f (g x)
-\f g x y -> f (g x y)
-#+end_src
-Not comibnators:
-#+begin_src haskell
-\ xs -> sum xs
-#+end_src
-Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 ** <<<Commutative law>>> :drill:
 :PROPERTIES:
 :ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
@@ -1390,22 +1784,13 @@ Informal broad meaning: referring to the style of organizing libraries centered 
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 *** /*/
 <<<Commutative>>>
-** <<<Composition>>> :drill:
-:PROPERTIES:
-:ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
-:END:
-Axiom of Category.
-*** /*/
-<<<Composable>>>
+<<<Commutative law>>>
+<<<Commutativity>>>
 ** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
 :END:
 Link together sequences.
-** <<<Concrete type>>> :drill:
-:PROPERTIES:
-:ID:       736674fb-45a3-4539-8774-7ccf419b5487
-:END:
 ** <<<Conjunction>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -1433,11 +1818,6 @@ Haskell kind:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
 :END:
 Cell that values may inhabit.
-** <<<Constant>>> :drill:
-:PROPERTIES:
-:ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
-:END:
-Nullary constructor
 ** <<<Constraint>>> :drill:
 :PROPERTIES:
 :ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
@@ -1506,41 +1886,12 @@ Computer programs are mathematical proofs.
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
 :END:
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
-** <<<Data constant>>> :drill:
-:PROPERTIES:
-:ID:       7fd715db-5709-4238-9e49-8a9b9066a388
-:END:
-See: Constant
-** <<<Data constructor>>> :drill:
-:PROPERTIES:
-:ID:       dc94bd99-113e-4025-82e8-39cd6843091b
-:END:
-One instance that inhabit data type.
-
-Constant value - nullary data constructor.
-** <<<Data declaration>>> :drill:
-:PROPERTIES:
-:ID:       2c150e09-b6e0-4de9-8fca-497bdaf6c4cc
-:END:
-[[Data type]] definition.
-** <<<data declaration>>> :drill:
-:PROPERTIES:
-:ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
-:END:
-Data type declaration is the most general and versatile form to create a new data type.
-Form:
-#+begin_src haskell
-data [context =>] type typeVars1..n
-  = con1  c1t1..i
-  | ...
-  | conm  cmt1..q
-  [deriving]
-#+end_src
 ** <<<Data type>>> :drill:
 :PROPERTIES:
 :ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
 :END:
-Data type, type.
+Set of values.
+For type to have sence the values share some sence, properties.
 *** <<<Algebraic data type>>> :drill:
 :PROPERTIES:
 :ID:       3c1de247-a95a-4cb3-ba2d-476bd69f263a
@@ -1568,8 +1919,347 @@ Algebraic data type formed by logical conjunction (AND ' ').
 :END:
 Algebraic data type formed by logical disjunction (OR '|').
 *** /*/
+<<<Type>>>
 <<<Types>>>
 <<<Data types>>>
+*** <<<Type alias>>> :drill:
+SCHT: <2019-06-20 Thu>
+:PROPERTIES:
+:ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
+:END:
+Create new type constructor, and use all data structure of the base type.
+*** <<<Type class>>> :drill:
+SCHT: <2019-06-20 Thu>
+:PROPERTIES:
+:ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
+:END:
+Type system construct that adds a support of ad hoc polymorphism.
+
+Type classes make a nice way for defining behaviour over many objects at once.
+**** /*/
+<<<Type classes>>>
+<<<Typeclass>>>
+<<<Typeclasses>>>
+**** <<<Arbitrary type class>>> :drill:
+:PROPERTIES:
+:ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
+:END:
+Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
+Useful function is arbitrary - that autogenerates values.
+**** <<<Type class inheritance>>> :drill:
+:PROPERTIES:
+:ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
+:END:
+Type class has a superclass.
+**** <<<CoArbitrary type class>>> :drill:
+:PROPERTIES:
+:ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
+:END:
+Pseudogenerates a function basing on resulting type.
+#+begin_src haskell
+coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
+#+end_src
+***** /*/
+**** /*/
+<<<Arbitrary>>>
+<<<CoArbitrary>>>
+**** <<<Derived instance>>> :drill:
+SCHT: <2019-06-12 Wed>
+:PROPERTIES:
+:ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:05]
+:END:
+Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
+*** <<<Type constant>>> :drill:
+:PROPERTIES:
+:ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
+:END:
+See: Constant
+*** <<<Type constructor>>> :drill:
+:PROPERTIES:
+:ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
+:END:
+Name of data type.
+
+Nullary type constructor is type constant
+*** <<<type declaration>>> :drill:
+:PROPERTIES:
+:ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
+:END:
+Synonim for existing type. Uses the same data constructor.
+#+begin_src haskell
+type FirstName = String
+#+end_src
+Used to distinct one entities from other entities, while they have the same type.
+Also main type functions can operate on a new type.
+*** <<<Type inference>>> :drill:
+:PROPERTIES:
+:ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
+:END:
+Automatic data type detection of expression.
+**** /*/
+<<<Inferring>>>
+<<<Infer>>>
+<<<Infers>>>
+<<<Inferred>>>
+*** <<<Type instance>>> :drill:
+:PROPERTIES:
+:ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
+:END:
+Unique type class->type pairing.
+Defines type class->type methods.
+*** <<<Type variable>>> :drill:
+:PROPERTIES:
+:ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
+:END:
+Refer to an unspecified type in Haskell type signature.
+*** <<<Unlifted type>>> :drill:
+:PROPERTIES:
+:ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
+:END:
+Type that directly exist on the hardware. The type abstraction can be completely removed.
+With unlifted types Haskel type system directly manages data in the hardware.
+**** /*/
+<<<Unlifted types>>>
+*** <<<Typed hole>>> :drill:
+:PROPERTIES:
+:ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
+:END:
+In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
+*** <<<Structural type>>> :drill:
+:PROPERTIES:
+:ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
+:END:
+Mathematical type. They form into structural type system.
+**** /*/
+<<<Structural>>>
+*** <<<Structural type system>>> :drill:
+:PROPERTIES:
+:ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
+:END:
+Strict global hierarchy and relationships of types and their properties.
+Haskell type system is /*/.
+In most languages typing is name-based, not structural.
+*** <<<Static typing>>> :drill:
+:PROPERTIES:
+:ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
+:END:
+Static typechecking occurs at compile level.
+*** <<<Principal type>>> :drill:
+SCHT: <2019-06-17 Mon>
+:PROPERTIES:
+:ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.25
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:03]
+:END:
+The most generic data type that still typechecks.
+*** <<<Proxy type>>> :drill:
+:PROPERTIES:
+:ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
+:END:
+Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
+#+begin_src haskell
+data Proxy a = ProxyValue
+
+let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
+let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
+#+end_src
+
+*** <<<Gen type>>> :drill:
+SCHT: <2019-06-13 Thu>
+:PROPERTIES:
+:ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
+:DRILL_LAST_INTERVAL: 3.995
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
+:END:
+Generator. List it returns gets infinitely cycled.
+*** <<<data declaration>>> :drill:
+:PROPERTIES:
+:ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
+:END:
+Data type declaration is the most general and versatile form to create a new data type.
+Form:
+#+begin_src haskell
+data [context =>] type typeVars1..n
+  = con1  c1t1..i
+  | ...
+  | conm  cmt1..q
+  [deriving]
+#+end_src
+
+*** <<<Actual type>>> :drill:
+SCHT: <2019-06-18 Tue>
+:PROPERTIES:
+:ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
+:END:
+Data type recieved by ->inferring->compiling->execution.
+*** <<<Cardinality>>> :drill:
+SCHT: <2019-06-23 Sun>
+:PROPERTIES:
+:ID:       22428179-0fdb-4723-94dc-596dd41f61c0
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:23]
+:END:
+
+Number of possible implementations for a given type signature.
+
+Disjunction, sum - adds cardinalities.
+Conjunction, product - multiplies cardinalities.
+*** <<<Type rank>>> :drill:
+Weak ordering of types.
+
+The rank of polymorphic type shows at what level of nesting =forall= quantifier appears.
+Count-in only quantifiers that appear to the left of arrows.
+#+begin_src haskell
+f1 :: forall a b. a -> b -> a    ==    fi :: a -> b -> c
+g1 :: forall a b. (Ord a, Eq b) => a -> b -> a    ==    g1 :: (Ord a, Eq b) => a -> b -> a
+#+end_src
+f1, g1 - rank-1 types. Haskell itself implicitly adds universal quantification.
+
+#+begin_src haskell
+f2 :: (forall a. a->a) -> Int -> Int
+g2 :: (forall a. Eq a => [a] -> a -> Bool) -> Int -> Int
+#+end_src
+f2, g2 - rank-2 types. Quantificator is on the left side of a \to. Quantificator shows that type on the left can be overloaded.
+
+#+begin_src haskell
+f3 :: ((forall a. a->a) -> Int) -> Bool -> Bool
+#+end_src
+f3 - rannk3-type. Has rank-2 types on the left of a \to.
+
+#+begin_src haskell
+f :: Int -> (forall a. a -> a)
+g :: Int -> Ord a => a -> a
+#+end_src
+f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
+
+Type inference in Rank-2 is possible, but not higher.
+**** /*/
+<<<Type ranks>>>
+<<<Rank type>>>
+<<<Rank types>>
+<<<Rank-1 type>>>
+<<<Rank-1 types>>>
+<<<Rank-2 type>>>
+<<<Rank-2 types>>>
+<<<Rank-3 type>>>
+<<<Rank-3 types>>>
+*** <<<Tuple>>> :drill:
+:PROPERTIES:
+:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
+:END:
+Data type that stores multiple values withing a single value.
+Tuples by arity:
+  * empty, unit          - 0
+  * pair, <<<two-tuples>>>     - 2
+  * <<<thriple>>>, three-tuple - 3
+*** <<<Dependent type>>> :drill:
+:PROPERTIES:
+:ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
+:END:
+Type and variable have rules regarding values.
+
+A value of a variable has a role on the resulting Type.
+Or Type has rule for values.
+*** <<<Data constructor>>> :drill:
+:PROPERTIES:
+:ID:       dc94bd99-113e-4025-82e8-39cd6843091b
+:END:
+One instance that inhabit data type.
+
+Constant value - nullary data constructor.
+*** Data <<<constant>>> :drill:
+:PROPERTIES:
+:ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
+:END:
+Nullary constructor
+**** /*/
+<<<Constant>>>
+*** <<<newtype declaration>>> :drill:
+SCHT: <2019-06-12 Wed>
+:PROPERTIES:
+:ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
+:END:
+Creates a new type from old type using a new constructor.
+#+begin_src haskell
+newtype FirstName = FirstName String
+#+end_src
+
+Data will have exactly the same representation at runtime, as the type that is wrapped.
+
+#+begin_src haskell
+newtype Book = Book (Int, Int)
+#+end_src
+#+begin_src text
+      (,)
+      / \
+Integer Integer
+#+end_src
 ** <<<Declaration>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -1584,28 +2274,6 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
 :END:
 Binding the name to expression.
-** <<<Dependent type>>> :drill:
-:PROPERTIES:
-:ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
-:END:
-Type and variable have rules regarding values.
-
-A value of a variable has a role on the resulting Type.
-Or Type has rule for values.
-** <<<Derived instance>>> :drill:
-SCHT: <2019-06-12 Wed>
-:PROPERTIES:
-:ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:05]
-:END:
-Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
 ** <<<Differential operator>>> :drill:
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
@@ -1646,22 +2314,6 @@ Source set of a function in $$ X \to Y $$.
 :ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
 :END:
 Observable action.
-** <<<Endofunctor>>> :drill:
-SCHT: <2019-06-21 Fri>
-:PROPERTIES:
-:ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
-:END:
-Is a functor which domain and codomain are the same category.
-*** /*/
-<<<Endofunctors>>>
 ** <<<Evaluation>>> :drill:
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
@@ -1679,6 +2331,29 @@ Data type inferred from the text of the code.
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
 *** /*/
 <<<Expressions>>>
+*** <<<Closed-form expression>>> :drill:
+:PROPERTIES:
+:ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
+:END:
+Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
+*** <<<RHS>>> :drill:
+Right-hand side of the expression.
+*** <<<LHS>>> :drill:
+Left-hand side of the expression.
+*** <<<Redex>>> :drill:
+SCHT: <2019-06-22 Sat>
+:PROPERTIES:
+:ID:       3d5326a4-74a7-433d-860a-2590072bb61d
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
+:END:
+Reducible expression.
 ** <<<First-class>>> :drill:
 :PROPERTIES:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
@@ -1734,12 +2409,63 @@ Function is a mathematical operation.
 Function = Total function = Pure function. Function theoretically posible to momoized.
 Partial function.
 Inverse function - often partially exists (partial function).
-*** <<<Function head>>> :drill:
+*** /*/
+<<<Functions>>>
+*** <<<Arity>>> :drill:
 :PROPERTIES:
-:ID:       6eb9d501-0dda-4a9e-b3e1-e35fb84d31b8
+:ID:       fa4caa07-eea5-4082-aaed-92abb820e768
 :END:
-Is a part with Name of the function and it's paramenter.
-AKA: f(x)
+Number of parameters of the function.
+  * nullary - f()
+  * unary   - f(x)
+  * binary  - f(x,y)
+  * ternary - f(x,y,z)
+  * n-ary   - f(x,y,z..)
+*** <<<Bijection>>> :drill:
+:PROPERTIES:
+:ID:       8366200a-a8ed-4c7b-baec-eb957d9f3d64
+:END:
+Function complete one-to-one pairing of elements of domain and codomain (image).
+It means function both surjective (so image == codomain) and injective (every domain element has unique correspondence to the image element).
+
+For bijection inverse always exists.
+
+Bijective operation holds the equivalence of domain and codomain.
+
+Denotation:
+#+begin_src text
+⤖
+>->>
+f : X ⤖ Y
+#+end_src
+LaTeX needed to combine symbols:
+$$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
+**** /*/
+<<<Bijective>>>
+<<<Bijective function>>>
+*** <<<Combinator>>> :drill:
+:PROPERTIES:
+:ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
+:END:
+Function without free variables.
+Higher-order function that use only function application and other combinators.
+#+begin_src haskell
+\f g x -> f (g x)
+\f g x y -> f (g x y)
+#+end_src
+Not comibnators:
+#+begin_src haskell
+\ xs -> sum xs
+#+end_src
+Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+*** <<<Function application>>> :drill:
+:PROPERTIES:
+:ID:       630790f7-377f-463e-8058-792502dbcc88
+:END:
+Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
+**** /*/
+<<<Applied>>>
+<<<Apply>>>
 *** <<<Function body>>> :drill:
 :PROPERTIES:
 :ID:       8c0947a8-56ae-49de-b3a8-ab87beab0bd6
@@ -1763,20 +2489,30 @@ h.g.f $ i
 <<<Composition>>>
 <<<Compose>>>
 <<<Composed>>>
-*** <<<Function application>>> :drill:
+*** <<<Function head>>> :drill:
 :PROPERTIES:
-:ID:       630790f7-377f-463e-8058-792502dbcc88
+:ID:       6eb9d501-0dda-4a9e-b3e1-e35fb84d31b8
 :END:
-Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
-**** /*/
-<<<Applied>>>
-<<<Apply>>>
+Is a part with Name of the function and it's paramenter.
+AKA: f(x)
 *** <<<Function range>>> :drill:
 :PROPERTIES:
 :ID:       15fbd0e9-f327-4065-872e-23713f79ec12
 :END:
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see Function image.
+*** <<<Higher-order function>>> :drill:
+:PROPERTIES:
+:ID:       61a40480-45d2-4632-9948-986eecd8b7cb
+:END:
+Function arity > 1.
+
+----
+
+Has function as a parameter.
+Evaluates to function.
+**** /*/
+<<<HOF>>>
 *** <<<Injection>>> :drill:
 :PROPERTIES:
 :ID:       c1f2a44b-8b24-47b8-8e23-304ad4fc536a
@@ -1800,6 +2536,34 @@ Corresponds to Monomorphism.
 <<<Injective>>>
 <<<Injective function>>>
 <<<Injectivity>>>
+*** <<<Partial function>>> :drill:
+:PROPERTIES:
+:ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
+:END:
+One that does not cover all domain.
+Unsafe and causes trouble.
+*** <<<Purity>>> :drill:
+:PROPERTIES:
+:ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
+:END:
+Referentially transparent function.
+**** /*/
+<<<Pure>>>
+<<<Pure function>>>
+*** <<<Sectioning>>> :drill:
+SCHT: <2019-06-21 Fri>
+:PROPERTIES:
+:ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
+:END:
+Writing function in a parentheses. Allows to pass around partially applied functions.
 *** <<<Surjection>>> :drill:
 :PROPERTIES:
 :ID:       56270a1d-ef0e-4986-a1ff-04606b37ccb7
@@ -1820,131 +2584,22 @@ Corresponds to Epimorphism.
 **** /*/
 <<<Surjective>>>
 <<<Surjective function>>>
-*** <<<Bijection>>> :drill:
+*** <<<Unsafe>>> :drill:
 :PROPERTIES:
-:ID:       8366200a-a8ed-4c7b-baec-eb957d9f3d64
+:ID:       b48b82e3-f86c-4360-a568-727c2500d06c
 :END:
-Function complete one-to-one pairing of elements of domain and codomain (image).
-It means function both surjective (so image == codomain) and injective (every domain element has unique correspondence to the image element).
-
-For bijection inverse always exists.
-
-Bijective operation holds the equivalence of domain and codomain.
-
-Denotation:
-#+begin_src text
-⤖
->->>
-f : X ⤖ Y
-#+end_src
-LaTeX needed to combine symbols:
-$$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
-**** /*/
-<<<Bijective>>>
-<<<Bijective function>>>
-*** /*/
-<<<Functions>>>
-** <<<Functor>>> :drill:
+Function that does not cover some edge case.
+*** <<<Variadic>>> :drill:
 :PROPERTIES:
-:ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
+:ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
 :END:
-Functor is a map between categories. Translating objects and morphisms. They can preserve structure, or not.
-
-Functor axioms:
-  * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
-  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))} \quad | \quad \forall b = f^{D}(a) $$ - every source morphism is mapped to target category morphism between corresponding objects
-  * $$ F^{\mathcal{C \to D}}(g^{\mathcal{C}} \circ f^{\mathcal{C}}) = F^{\mathcal{C \to D}}(g^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(f^{\mathcal{C}}) \quad | \quad \forall y=f^{\mathcal{C}}(x), \forall g^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
-
-| Mathematics                | Math definition                  | Haskell                               | Math meaning |
-|----------------------------+----------------------------------+---------------------------------------+---------|
-| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
-| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit, natural transformation $$ \mathcal{ID \to P} $$ |
-| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  q      |
-Where $$ \eta,\mu $$ are Natural transformations.
-
-*** <<<Power set functor>>>
-
-Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
-Power set functor is unique to the category (data type), as power set is unique to the set.
-
-#+begin_src haskell
-class Functor f where
-  fmap :: (a -> b) -> f a -> f b
-#+end_src
-
-For Functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
-
-Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
-
-**** <<<Power set functor laws>>> :drill:
-:PROPERTIES:
-:ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
-:END:
-Type instance of functor should abide this laws:
-***** <<<Power set functor identity law>>> :drill:
-:PROPERTIES:
-:ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
-:END:
-#+begin_src haskell
-fmap id == id
-#+end_src
-***** <<<Power set functor composition law>>> :drill:
-:PROPERTIES:
-:ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
-:END:
-#+begin_src haskell
-fmap (f.g) == fmap f . fmap g
-#+end_src
-In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
-**** <<<Lift>>> :drill:
-:PROPERTIES:
-:ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
-:END:
-#+begin_src haskell
-fmap :: (a -> b) -> (f a -> f b)
-#+end_src
-Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
-Lift does a function application through the data structure.
-***** /*/
-<<<Lifting>>>
-*** <<<Forgetful functor>>> :drill:
-:PROPERTIES:
-:ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
-:END:
-Functor that forgets part or all of what defines structure in domain category.
-$$ F^{\mathbf {Grp} \to \mathbf {Set}} $$ that translates groups into their underlying sets.
-Constant functor is another example.
-**** /*/
-<<<Forgetful>>>
-*** <<<Identity functor>>>
-Maps objects and morphisms to themselves.
-
-Denotation:
-$$ 1^{\mathcal{C \to C}} $$
-*** /*/
-<<<Power set functor>>>
-<<<fmap>>>
-<<<Functors>>>
+Variadic function has a indefinite arity. Assepts a variable number of [[Argument][arguments]].
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
 :END:
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
-** <<<Gen type>>> :drill:
-SCHT: <2019-06-13 Thu>
-:PROPERTIES:
-:ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
-:DRILL_LAST_INTERVAL: 3.995
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
-:END:
-Generator. List it returns gets infinitely cycled.
 ** <<<Girard–Reynolds polymorphic lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
@@ -1956,18 +2611,6 @@ See System F.
 :END:
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 Monkey patch is derivative term.
-** <<<Higher-order function>>> :drill:
-:PROPERTIES:
-:ID:       61a40480-45d2-4632-9948-986eecd8b7cb
-:END:
-Function arity > 1.
-
-----
-
-Has function as a parameter.
-Evaluates to function.
-*** /*/
-<<<HOF>>>
 ** <<<Hindley–Milner type system>>> :drill:
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
@@ -1975,33 +2618,6 @@ Evaluates to function.
 Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
 Also known as Damas–Milner or Damas–Hindley–Milner system.
-** <<<Hom-set>>> :drill:
-:PROPERTIES:
-:ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
-:END:
-Collection of all morphisms (and compositions of morphisms) from object to object. Collection of morphisms is not nesessary a set, but in practice - is.
-
-Denotation:
-$$ hom(X,Y) $$
-
-$$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
-Denotation was not standartized.
-
-*** <<<Hom-functor>>> :drill:
-:PROPERTIES:
-:ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:END:
-$$ hom:C^{op} \times C \to Set $$, for C (locally small category)
-from the product category of the category C with its opposite category to the category Set of sets.
-
-Denotation:
-variants:
-$$ H_A = \mathrm{Hom}(-, A) $$
-$$ h_A = {\cal C}(-, A) $$
-$$ Hom(A,-) : C \to Set $$
-
-Hom-bifunctor:
-$$ Hom(-,-):C^{op} \times C \to Set $$
 ** <<<Idempotence>>> :drill:
 :PROPERTIES:
 :ID:       1c821458-dd2b-4112-aa32-416e27b161ba
@@ -2062,11 +2678,6 @@ Form of wrinting of operaton application in-between variables.
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
 What [[Value][values]] inhabit data type
-** <<<Initial object>>> :drill:
-:PROPERTIES:
-:ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
-:END:
-Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 ** <<<Interface>>> :drill:
 :PROPERTIES:
 :ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
@@ -2127,17 +2738,6 @@ Morphism of elements from the Kernel. Map of elements that make main Morphism no
 :ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
 :END:
 Kind -> Type -> Data
-** <<<Lambda abstraction>>> :drill:
-:PROPERTIES:
-:ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
-:END:
-Lambda term that has a head and body and is applied to an argument.
-$$ \lambda x.x+1 $$
-#+begin_src haskell
-\ x -> x + 1
-^^
-#+end_src
-
 ** <<<Lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
@@ -2152,7 +2752,18 @@ Based on function abstraction and application by substituting variables and bind
 *** /*/
 <<<Lambda term>>>
 <<<Lambda terms>>>
-** <<<Lambda cube>>> :drill:
+*** <<<Lambda abstraction>>> :drill:
+:PROPERTIES:
+:ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
+:END:
+Lambda term that has a head and body and is applied to an argument.
+$$ \lambda x.x+1 $$
+#+begin_src haskell
+\ x -> x + 1
+^^
+#+end_src
+
+*** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
 :END:
@@ -2162,10 +2773,10 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
   * (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
   * (Type class) - types depending on types, corresponding to type operators.
-*** /*/
+**** /*/
 <<<λ-cube>>>
 <<<\lambda-cube>>>
-** <<<Lambda function>>> :drill:
+*** <<<Lambda function>>> :drill:
 :PROPERTIES:
 :ID:       857ef4b3-f3e6-4065-aac4-fd3607ed5284
 :END:
@@ -2181,9 +2792,9 @@ $$ \lambda x y.x^2 + y^3 $$
   \___parameter
 (___)
    \____HEAD
-*** <<<Lambda expression>>>
+**** <<<Lambda expression>>>
 See Lambda function
-*** <<<Anonymous function>>>
+**** <<<Anonymous function>>>
 Lambda function without the name to bind to.
 ** <<<Leaf>>> :drill:
 :PROPERTIES:
@@ -2285,183 +2896,6 @@ Importable organization unit.
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
 :END:
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
-** <<<Monad>>> :drill:
-:PROPERTIES:
-:ID:       b1faf835-213f-4336-86a9-8e331dd60986
-:END:
-μόνος /monos/ sole
-μονάδα /monáda/ unit
-
-/*/ - Monoid in Endofunctor category (endofunctor) with both natural transformations.
-
-Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
-
-Monadic internals are Haskell data types, so they can be consumed any number of times.
-
-Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
-
-Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
-#+begin_src haskell
-import Control.Monad (ap)
-
-(<*>) == ap
-#+end_src
-*** Functor -> Applicative -> Monad progression :drill:
-:PROPERTIES:
-:ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
-:END:
-#+begin_src haskell
-<$> :: Functor     f =>   (a -> b)   -> f a -> f b
-<*> :: Applicative f => f (a -> b)   -> f a -> f b
-=<< :: Monad       f =>   (a -> f b) -> f a -> f b
-#+end_src
-This is said to be Natural transformations.
-*** <<<Monad type class>>> :drill:
-:PROPERTIES:
-:ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
-:END:
-#+begin_src haskell
-class Applicative m => Monad m where
-  (>>=) :: m a -> (a -> m b) -> m b
-  (>>) :: m a -> m b -> m b
-  return :: a -> m a
-#+end_src
-
-*** <<<Monad functions>>> :drill:
-:PROPERTIES:
-:ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
-:END:
-**** <<<Return function>>> :drill:
-:PROPERTIES:
-:ID:       bb5891cb-a918-476b-a27a-4d342bdc30a2
-:END:
-#+begin_src haskell
-return == pure
-#+end_src
-Nonstrict.
-**** <<<Bind function>>> :drill:
-:PROPERTIES:
-:ID:       b288ba16-30a9-4550-b037-f77d4c96e95a
-:END:
-#+begin_src haskell
->>= :: Monad f => f a -> (a -> f b) -> f b
-#+end_src
-Nonstrict.
-
-The most ubiqutous way to >>= something is to use Lambda function:
-#+begin_src haskell
-getLine >>= \name -> putStrLn "age pls:"
-#+end_src
-
-Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
-And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
-#+begin_src haskell
-printOneOf ∷ Bool → IO ()
-printOneOf False = putStr "1"
-printOneOf  True = putStr "2"
-
-quant ∷ (Bool → IO b) → IO b
-quant = (>>=) (randomRIO (False, True))
-
-recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
-recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
-
-main ∷ IO ()
-main = recursePrintOneOf (quant) $ printOneOf
-#+end_src
-***** /*/
-****** (>>=)
-****** >>=
-****** (=<<)
-****** =<<
-**** <<<Join function>>> :drill:
-:PROPERTIES:
-:ID:       fda130b8-e8ae-4c3d-948a-94129d562a63
-:END:
-#+begin_src haskell
-join :: Monad m => m (m a) -> m a
-#+end_src
-Flattens two layers of structure into one.
-Join is a generalization of `concat`.
-
-The way to express ordering in lambda calculus is to nest.
-***** join.fmap == (=<<)
-#+begin_src haskell
--- b = f b
-fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
-join      :: Monad f =>                      f (f a) -> f a
-join.fmap :: Monad f => (a -> f b) -> f a            -> f b
-flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
-#+end_src
-
-**** <<<Sequencing operator>>> (>>) == (*>): :drill:
-:PROPERTIES:
-:ID:       f8d9b6e3-b18c-4996-a86d-08107f8eec1f
-:END:
-Discards any resulting value of the action and sequence next action.
-#+begin_src haskell
-(>>) :: m a -> m b -> m b
-(*>) :: f a -> f b -> f b
-#+end_src
-Applicative has a similar operator.
-*** <<<Maybe monad>>> :drill:
-:PROPERTIES:
-:ID:       4a2e0708-1a7d-447e-b0b9-9560a2dc9e33
-:END:
-Drops the chain of computation and returns Nothing as soon as Nothing arrives.
-*** <<<Either monad>>> :drill:
-:PROPERTIES:
-:ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
-:END:
-Drops sequencing computation as soon as Left arrives.
-*** <<<Monad laws>>> :drill:
-:PROPERTIES:
-:ID:       7829bf03-a14b-411b-8460-7a8781227b60
-:END:
-pure (return) should only put argument into structure.
-**** <<<Monad left identity law>>> :drill:
-:PROPERTIES:
-:ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
-:END:
-#+begin_src haskell
-return x >>= f == f x
-#+end_src
-
-Explanation:
-#+begin_src haskell
->>= :: Monad f =>    f a  -> (a -> f b) -> f b
-                  pure x >>=     f      == f x
-#+end_src
-Shows that >>= must get Argument internal to structure nad apply it to the second argument.
-
-**** <<<Monad right identity law>>> :drill:
-:PROPERTIES:
-:ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
-:END:
-#+begin_src haskell
-f >>= return == f
-#+end_src
-
-Explanation:
-#+begin_src haskell
->>= :: Monad f => f a  -> (a -> f b) -> f b
-                  f   >>=    pure    == f
-#+end_src
-Tacit description of monad as endofunctor.
-
-**** <<<Monad associativity law>>> :drill:
-:PROPERTIES:
-:ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
-:END:
-#+begin_src haskell
-(m >>= f) >>= g == m >>= (\ x -> f x >>= g)
-#+end_src
-
-*** <<<Comonad>>> :drill:
-:PROPERTIES:
-:ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
-:END:
-Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
 ** <<<Monkey patch>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
@@ -2478,215 +2912,6 @@ SCHT: <2019-06-19 Wed>
 /From Guerrilla patch./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
-** <<<Monoidal functor>>> :drill:
-:PROPERTIES:
-:ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
-:END:
-Functors between monoidal categories that preserves monoidal structure.
-** <<<Morphism>>> :drill:
-:PROPERTIES:
-:ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
-:END:
-μορφή /morphe/ form
-Map between two objects in a category.
-On a level of objects: morphism is a structure-preserving map from one mathematical structure to another one of the same type.
-
-Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
-Under morphism almost always is meaning of homomorphism-like properties.
-
-If morphism corresponds to function requirements - than it is a function.
-*** <<<Homomorphism>>> :drill:
-:PROPERTIES:
-:ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
-:END:
-ὁμός /homos/ same (chosen by initial Anglish mistranslation "similar")
-μορφή /morphe/ form
-similar form
-
-Homomorphism - operation-preserving map between two algebraic structures of the same type (groups, rings, vector spaces...).
-
-$$ (A_{set}, \star_{operation}), (B_{set}, \diamond_{operation}), f^{A \to B} : f^{A \to B}_{homomorphism} = f(x \star y) = f(x) \diamond f(y) $$.
-
-The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
-
-Homomorphisms send identity morphisms to identity morphisms and inverses to inverses.
-
-=*= homomorphism - map between =*= and preserves =*= operations
-  case =*= of:
-  * semigroup
-  * monoid
-  * groups
-  * ring
-  * linear map
-  * module
-  * algebra
-**** /*/
-<<<Homomorphic>>>
-*** <<<Identity morphism>>> :drill:
-:PROPERTIES:
-:ID:       8581e216-8d9d-479f-a58d-bd04882b5131
-:END:
-Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
-Composed with other morphism gives same morphism.
-
-Corresponds to Reflexivity and Automorphism.
-**** <<<Identity>>> :drill:
-:PROPERTIES:
-:ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
-:END:
-Identity only possible with morphism. See Identity morphism.
-
-There is also knowledge of Zero value.
-***** <<<Two-sided identity of a predicate>>> :drill:
-:PROPERTIES:
-:ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
-:END:
-$$ P() $$ is commutative.
-$$ \exists e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
-
-Predicate
-***** <<<Left identity of a predicate>>> :drill:
-:PROPERTIES:
-:ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
-:END:
-$$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
-
-Predicate
-***** <<<Right identity of a predicate>>> :drill:
-:PROPERTIES:
-:ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
-:END:
-$$ \exists e \in S, \forall a \in S : \; P(a,e)=a $$
-
-Predicate
-**** <<<Identity function>>> :drill:
-:PROPERTIES:
-:ID:       c687793c-ad12-435b-8326-9c335ebbf9ea
-:END:
-Return itself.
-(\ x.x)
-#+begin_src haskell
-id :: a -> a
-#+end_src
-*** <<<Monomorphism>>> :drill:
-:PROPERTIES:
-:ID:       18290d34-893c-42f0-bf4a-bb31f5e97711
-:END:
-μονο /mono/ only
-μορφή /morphe/ form
-
-Initial set of /f/ is fully uniquely mapped onto the image of /f/.
-Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
-It is injective.
-It always has a inverse morphism.
-
-$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from homomorphism context
-$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general morphism context
-Thus it is left canselable.
-**** /*/
-<<<Monomorphic>>>
-*** <<<Epimorphism>>> :drill:
-:PROPERTIES:
-:ID:       3729d963-3775-4715-99d7-d14bc30750c0
-:END:
-επι /epi/ on, over
-μορφή /morphe/ form
-
-Image fully uses codomain - epimorphism.
-It is surjective.
-
-$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from homomorphism context
-$$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general morphism context
-Thus it is right canselable.
-
-Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
-**** /*/
-<<<Epimorphic>>>
-*** <<<Isomorphism>>> :drill:
-:PROPERTIES:
-:ID:       4a0635c3-9512-443a-8497-3c259032de55
-:END:
-ἴσος /isos/ equal
-μορφή /morphe/ form
-
-Morphism that has inverse morphism.
-Bijective homomorphism is also isomorphism.
-
-$$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv id^b $$
-
-2 reasons for non-isomorphism:
-- function at least ones collapses a values of domain into one value in codomain
-- image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
-**** /*/
-<<<Isomorphic>>>
-*** <<<Endomorphism>>> :drill:
-:PROPERTIES:
-:ID:       2fd058e4-4b8a-451e-9760-0275b2741331
-:END:
-ενδο /endo/ internal
-μορφή /morphe/ form
-
-Morphism whose domain equals the codomain.
-Epimorphism is a Monoid, because of category composition.
-**** <<<Automorphism>>> :drill:
-:PROPERTIES:
-:ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
-:END:
-\alpha\upsilon\tau\omicron /auto/ self
-μορφή /form/ form
-
-Endomorphism that is Isomorphism.
-
-Corresponds to Identity and Reflexivity.
-***** /*/
-<<<Automorphic>>>
-**** /*/
-<<<Endomorphic>>>
-*** <<<Catamorphism>>> :drill:
-:PROPERTIES:
-:ID:       3af3d5fd-449a-45e7-ac99-0cca150f0523
-:END:
-κατά /kata/ downward
-μορφή /morphe/ form
-
-Denotes the unique homomorphism from an initial algebra into some other algebra.
-
-In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
-**** /*/
-<<<Catamorphic>>>
-*** /*/
-<<<Morphisms>>>
-<<<Structure-preserving>>>
-<<<Preserve structure>>>
-<<<Preserves structure>>>
-** <<<newtype declaration>>> :drill:
-SCHT: <2019-06-12 Wed>
-:PROPERTIES:
-:ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
-:END:
-Creates a new type from old type using a new constructor.
-#+begin_src haskell
-newtype FirstName = FirstName String
-#+end_src
-
-Data will have exactly the same representation at runtime, as the type that is wrapped.
-
-#+begin_src haskell
-newtype Book = Book (Int, Int)
-#+end_src
-#+begin_src text
-      (,)
-      / \
-Integer Integer
-#+end_src
 ** <<<Node>>> :drill:
 :PROPERTIES:
 :ID:       44946197-24dd-48fd-810c-6af851f6a0cf
@@ -2709,11 +2934,6 @@ data NonEmpty a = a :| [a]
 #+end_src
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
-** <<<Normal form>>> :drill:
-:PROPERTIES:
-:ID:       728a6769-55f0-41a3-bb0c-acfa02096e7f
-:END:
-In context: [[Beta normal form]]
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
 :ID:       350c03dd-e563-4d42-b554-d38370619667
@@ -2742,7 +2962,15 @@ Function. Word used in mathematics. Often a symbol, infix, binary.
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
 :END:
-Infix function.
+Function that denoted by symbol.
+*** <<<Shift operator>>> :drill:
+:PROPERTIES:
+:ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
+:END:
+Shift operator defined by Lagrange through Differential operator.
+$$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
+**** /*/
+Shift
 ** <<<Orphan type instance>>> :drill:
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
@@ -2775,12 +3003,6 @@ Contrary to the argument wich is a supplied value to a function.
 Part of function parameters applied.
 *** /*/
 <<<Partially applied>>>
-** <<<Partial function>>> :drill:
-:PROPERTIES:
-:ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
-:END:
-One that does not cover all domain.
-Unsafe and causes trouble.
 ** <<<Permutation>>> :drill:
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
@@ -3413,20 +3635,6 @@ Non-self-referencing definition.
 ---
 
 /Antonym - Impredicative./
-** <<<Principal type>>> :drill:
-SCHT: <2019-06-17 Mon>
-:PROPERTIES:
-:ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.25
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:03]
-:END:
-The most generic data type that still typechecks.
 ** <<<Principle of compositionality>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
@@ -3446,18 +3654,6 @@ The meaning of a complex expression is determined by the meanings of its constit
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
 :END:
 /*/ - composable expression.
-** <<<Proxy type>>> :drill:
-:PROPERTIES:
-:ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
-:END:
-Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
-#+begin_src haskell
-data Proxy a = ProxyValue
-
-let proxy1 = (ProxyValue :: Proxy Int) -- a has kind `Type`
-let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
-#+end_src
-
 ** <<<\Psi-combinator>>> :drill:
 SCHT: <2019-06-13 Thu>
 :PROPERTIES:
@@ -3479,14 +3675,6 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 *** /*/
 <<<Psi-combinator>>>
 <<<On-combinator>>>
-** <<<Purity>>> :drill:
-:PROPERTIES:
-:ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
-:END:
-Referentially transparent function.
-*** /*/
-<<<Pure>>>
-<<<Pure function>>>
 ** <<<Quantifier>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -3522,25 +3710,27 @@ ExistentialQuantification
 Repeated function application allow computing results that may require indefinite amount of work.
 *** /*/
 <<<Recursive>>>
-** <<<Redex>>> :drill:
-SCHT: <2019-06-22 Sat>
+*** <<<Base case>>> :drill:
+SCHT: <2019-06-20 Thu>
 :PROPERTIES:
-:ID:       3d5326a4-74a7-433d-860a-2590072bb61d
-:DRILL_LAST_INTERVAL: 10.7143
+:ID:       be130896-9bec-4276-9a7b-41cfb9f3b6dd
+:DRILL_LAST_INTERVAL: 11.0911
 :DRILL_REPEATS_SINCE_FAIL: 3
 :DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:03]
 :END:
-[[Reduction][Reducible]] expression.
+A part of a recursive function that trivially produces result.
 ** <<<Reduction>>> :drill:
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
 :END:
 See Beta reduction
+*** /*/
+<<<Reducible>>>
 ** <<<Referential transparency>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -3585,20 +3775,6 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Area where binds are accessible.
-** <<<Sectioning>>> :drill:
-SCHT: <2019-06-21 Fri>
-:PROPERTIES:
-:ID:       c8cadab6-16e6-4d0e-9b79-6e3b56dcbd8e
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
-:END:
-Writing function in a parentheses. Allows to pass around partially applied functions.
 ** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
@@ -3646,6 +3822,43 @@ SCHT: <2019-06-17 Mon>
 Well-defined collection of distinct objects.
 *** /*/
 <<<Sets>>>
+*** <<<Closed set>>> :drill:
+:PROPERTIES:
+:ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
+:END:
+Closed set - a set whose complement is an open set.
+Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
+*** <<<Power set>>> :drill:
+For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
+Denotation:
+$$ \mathcal{P(S)} $$
+*** <<<Hom-set>>> :drill:
+:PROPERTIES:
+:ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
+:END:
+Collection of all morphisms (and compositions of morphisms) from object to object. Collection of morphisms is not nesessary a set, but in practice - is.
+
+Denotation:
+$$ hom(X,Y) $$
+
+$$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
+Denotation was not standartized.
+
+**** <<<Hom-functor>>> :drill:
+:PROPERTIES:
+:ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
+:END:
+$$ hom:C^{op} \times C \to Set $$, for C (locally small category)
+from the product category of the category C with its opposite category to the category Set of sets.
+
+Denotation:
+variants:
+$$ H_A = \mathrm{Hom}(-, A) $$
+$$ h_A = {\cal C}(-, A) $$
+$$ Hom(A,-) : C \to Set $$
+
+Hom-bifunctor:
+$$ Hom(-,-):C^{op} \times C \to Set $$
 ** <<<Shadowing>>> :drill:
 SCHT: <2019-06-18 Tue>
 :PROPERTIES:
@@ -3660,14 +3873,6 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
 :END:
 Global [[Scope][scope]] variable overriden by variable in [[Local scope][local scope]].
-** <<<Shift operator>>> :drill:
-:PROPERTIES:
-:ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
-:END:
-Shift operator defined by Lagrange through Differential operator.
-$$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
-*** /*/
-Shift
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
@@ -3721,39 +3926,13 @@ _   :
     _  []
 
 #+end_src
+
 ** <<<Statement>>> :drill:
 :PROPERTIES:
 :ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
 :END:
 Declarative sentence that is true or false.
 Gonzales: "What code does."
-** <<<Static typing>>> :drill:
-:PROPERTIES:
-:ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
-:END:
-Static typechecking occurs at compile level.
-** <<<Structural type>>> :drill:
-:PROPERTIES:
-:ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
-:END:
-Mathematical type. They form into structural type system.
-*** /*/
-<<<Structural>>>
-** <<<Structural type system>>> :drill:
-:PROPERTIES:
-:ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
-:END:
-Strict global hierarchy and relationships of types and their properties.
-Haskell type system is /*/.
-In most languages typing is name-based, not structural.
 ** <<<Superclass>>> :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
@@ -3819,11 +3998,6 @@ Tensors can be seen as functors.
 *** /*/
 <<<Tensors>>>
 <<<Tensorial>>>
-** <<<Terminal object>>> :drill:
-:PROPERTIES:
-:ID:       8d7de2b2-7609-481a-837e-9887e779446f
-:END:
-Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
 ** <<<Testing>>> :drill:
 :PROPERTIES:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
@@ -3970,132 +4144,6 @@ main = do
 1. Pick the right language/stack to implement features.
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
-** <<<Tuple>>> :drill:
-:PROPERTIES:
-:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
-:END:
-Data type that stores multiple values withing a single value.
-Tuples by arity:
-  * empty, unit          - 0
-  * pair, <<<two-tuples>>>     - 2
-  * <<<thriple>>>, three-tuple - 3
-** <<<Type>>> :drill:
-SCHT: <2019-06-21 Fri>
-:PROPERTIES:
-:ID:       7b89bfd2-3558-4520-939f-4030302bdda0
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:30]
-:END:
-Type - set of values.
-For type to have sence the values share some sence, properties.
-
-See Data type
-** <<<Type alias>>> :drill:
-SCHT: <2019-06-20 Thu>
-:PROPERTIES:
-:ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:28]
-:END:
-Create new type constructor, and use all data structure of the base type.
-** <<<Type class>>> :drill:
-SCHT: <2019-06-20 Thu>
-:PROPERTIES:
-:ID:       41fe6fb3-8069-40d4-ac21-1e2995e652be
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
-:END:
-Type system construct that adds a support of ad hoc polymorphism.
-
-Type classes make a nice way for defining behaviour over many objects at once.
-*** /*/
-<<<Type classes>>>
-<<<Typeclass>>>
-<<<Typeclasses>>>
-*** <<<Arbitrary type class>>> :drill:
-:PROPERTIES:
-:ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
-:END:
-Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
-Useful function is arbitrary - that autogenerates values.
-*** <<<Type class inheritance>>> :drill:
-:PROPERTIES:
-:ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
-:END:
-Type class has a superclass.
-*** <<<CoArbitrary type class>>> :drill:
-:PROPERTIES:
-:ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
-:END:
-Pseudogenerates a function basing on resulting type.
-#+begin_src haskell
-coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
-#+end_src
-**** /*/
-*** /*/
-<<<Arbitrary>>>
-<<<CoArbitrary>>>
-** <<<Type constant>>> :drill:
-:PROPERTIES:
-:ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
-:END:
-See: Constant
-** <<<Type constructor>>> :drill:
-:PROPERTIES:
-:ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
-:END:
-Name of data type.
-
-Nullary type constructor is type constant
-** <<<type declaration>>> :drill:
-:PROPERTIES:
-:ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
-:END:
-Synonim for existing type. Uses the same data constructor.
-#+begin_src haskell
-type FirstName = String
-#+end_src
-Used to distinct one entities from other entities, while they have the same type.
-Also main type functions can operate on a new type.
-** <<<Type inference>>> :drill:
-:PROPERTIES:
-:ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
-:END:
-Automatic data type detection of expression.
-*** /*/
-<<<Inferring>>>
-<<<Infer>>>
-<<<Infers>>>
-<<<Inferred>>>
-** <<<Type instance>>> :drill:
-:PROPERTIES:
-:ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
-:END:
-Unique type class->type pairing.
-Defines type class->type methods.
-** <<<Type variable>>> :drill:
-:PROPERTIES:
-:ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
-:END:
-Refer to an unspecified type in Haskell type signature.
 ** <<<Uncurry>>> :drill:
 :PROPERTIES:
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
@@ -4120,19 +4168,6 @@ Placeholder value that helps to do typechecking.
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
 :END:
 Value, type. Represents nothing. Empty tuple
-** <<<Unlifted type>>> :drill:
-:PROPERTIES:
-:ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
-:END:
-Type that directly exist on the hardware. The type abstraction can be completely removed.
-With unlifted types Haskel type system directly manages data in the hardware.
-*** /*/
-<<<Unlifted types>>>
-** <<<Unsafe>>> :drill:
-:PROPERTIES:
-:ID:       b48b82e3-f86c-4360-a568-727c2500d06c
-:END:
-Function that does not cover some edge case.
 ** <<<Variable>>> :drill:
 :PROPERTIES:
 :ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
@@ -4141,11 +4176,6 @@ A name for expression.
 
 Haskell has immutable variables.
 Except when you hack it with explicit funсtions.
-** <<<Variadic>>> :drill:
-:PROPERTIES:
-:ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
-:END:
-Variadic funtion has a indefinite arity. Assepts a variable number of [[Argument][arguments]].
 ** <<<Zero>>> :drill:
 SCHT: <2019-06-22 Sat>
 :PROPERTIES:
@@ -4179,11 +4209,6 @@ SCHT: <2019-06-18 Tue>
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 *** /*/
 <<<Bounded>>>
-** <<<Typed hole>>> :drill:
-:PROPERTIES:
-:ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
-:END:
-In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
 ** <<<First-order logic>>> :drill:
 :PROPERTIES:
 :ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
@@ -4247,13 +4272,9 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 *** /*/
 <<<Natural transformations>>>
 <<<Component of natural transformation>>>
+* Give definitions
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
-** <<<Power set>>> :drill:
-For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
-Denotation:
-$$ \mathcal{P(S)} $$
-* Give definitions
 ** <<<Kleisli category>>>
 ** <<<Free object>>>
 ** <<<Thin category>>>
@@ -4280,11 +4301,9 @@ Allows to separate and preserve information about happened, ex. error handling.
 *** /*/
 <<<WHNF>>>
 ** <<<Function image>>>
-*** <<<Image>>>
-See [[Function image]]
+*** /*/
+<<<Image>>>
 ** <<<Maybe>>>
-** <<<LANGUAGE pragma options>>>
-*** <<<FuncitonalDependencies>>>
 ** <<<Pattern guard>>>
 Allows check a list of pattern matches against functions, and then proceed.
 
@@ -4324,45 +4343,7 @@ Otherwise - partial inverse
 *** <<<ExistentialQuantification>>>
 *** <<<GADTs>>>
 *** <<<GeneralizedNewTypeClasses>>>
-** <<<Type rank>>>
-Weak ordering of types.
-
-The rank of polymorphic type shows at what level of nesting =forall= quantifier appears.
-Count-in only quantifiers that appear to the left of arrows.
-#+begin_src haskell
-f1 :: forall a b. a -> b -> a    ==    fi :: a -> b -> c
-g1 :: forall a b. (Ord a, Eq b) => a -> b -> a    ==    g1 :: (Ord a, Eq b) => a -> b -> a
-#+end_src
-f1, g1 - rank-1 types. Haskell itself implicitly adds universal quantification.
-
-#+begin_src haskell
-f2 :: (forall a. a->a) -> Int -> Int
-g2 :: (forall a. Eq a => [a] -> a -> Bool) -> Int -> Int
-#+end_src
-f2, g2 - rank-2 types. Quantificator is on the left side of a \to. Quantificator shows that type on the left can be overloaded.
-
-#+begin_src haskell
-f3 :: ((forall a. a->a) -> Int) -> Bool -> Bool
-#+end_src
-f3 - rannk3-type. Has rank-2 types on the left of a \to.
-
-#+begin_src haskell
-f :: Int -> (forall a. a -> a)
-g :: Int -> Ord a => a -> a
-#+end_src
-f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
-
-Type inference in Rank-2 is possible, but but not higher.
-*** /*/
-<<<Type ranks>>>
-<<<Rank type>>>
-<<<Rank types>>
-<<<Rank-1 type>>>
-<<<Rank-1 types>>>
-<<<Rank-2 type>>>
-<<<Rank-2 types>>>
-<<<Rank-3 type>>>
-<<<Rank-3 types>>>
+*** <<<FuncitonalDependencies>>>
 ** <<<GHC debug keys>>>
 *** <<<-ddump-ds>>>
 Dump desugarer output.
@@ -4376,10 +4357,6 @@ Always finds optimal reduction into <*> for ApplicativeDo do notation.
 ** <<<GHC check keys>>>
 *** <<<-Wno-partial-type-signatures>>>
 Supresses PartialTypeSignatures wildcard infer warning.
-** <<<RHS>>>
-Right-hand side of the expression.
-** <<<LHS>>>
-Left-hand side of the expression.
 ** <<<Generalised algebraic data types>>>
 LANGUAGE GADTs
 *** /*/
@@ -4470,7 +4447,6 @@ Asymmetry \ne "not symmetric"
 **** /*/
 <<<Asymmetric>>>
 <<<Asymmetric relation>>>
-** <<<Commutativity>>>
 ** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
 *** /*/
@@ -4497,6 +4473,10 @@ A specification of a data type like a stack or queue where the specification doe
 1. [[Abstract data type]]
 2. [[Algebraic data type]]
 ** <<<Algebraic>>>
+** <<<Concrete type>>> :drill:
+:PROPERTIES:
+:ID:       736674fb-45a3-4539-8774-7ccf419b5487
+:END:
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
