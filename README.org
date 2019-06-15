@@ -4307,6 +4307,15 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 ** <<<Algebraic>>> :drill:
 Composite from simple parts.
 Also: Algebraic data type.
+** <<<Homotopy>>>
+ὁμός homós same
+
+One can be "continuously deformed" into the other.
+For example - functions, functors.
+Natural transformation is a homotopy of functors.
+*** /*/
+<<<Homotopies>>>
+<<<Homotopic>>>
 * Give definitions
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
@@ -4517,8 +4526,6 @@ A specification of a data type like a stack or queue where the specification doe
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
 ** <<<Property>>>
-*** /*/
-<<<Properties>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
