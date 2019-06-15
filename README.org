@@ -1204,6 +1204,22 @@ Hask contains subcategories, like Lst containing only list types.
 Haskell and Category concepts:
   * Things that take a type and return another type are type constructors.
   * Things that take a function and return another function are higher-order functions.
+*** <<<Semigroup>>> :drill:
+:PROPERTIES:
+:ID:       7e67196b-643c-4726-8a17-6207826764bb
+:END:
+$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
+
+Semigroup - Magma with Associative law.
+Semigroup is closed (forms a closed set).
+
+Defined in Haskell as:
+#+begin_src haskell
+class Semigroup a where
+(<>) :: a -> a -> a
+#+end_src
+**** /*/
+<<<Semigroups>>>
 *** /*/
 <<<Category theory>>>
 <<<Categories>>>
@@ -3613,21 +3629,6 @@ Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
 Empirical process.
-** <<<Semigroup>>> :drill:
-:PROPERTIES:
-:ID:       7e67196b-643c-4726-8a17-6207826764bb
-:END:
-$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
-
-Semigroup - Magma with Associative law.
-Semigroup is closed (forms a closed set).
-
-Defined in Haskell as:
-#+begin_src haskell
-class Semigroup a where
-(<>) :: a -> a -> a
-#+end_src
-
 ** <<<Set>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
