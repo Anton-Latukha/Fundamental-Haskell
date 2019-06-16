@@ -1257,9 +1257,19 @@ Because monad needs to process the result of computation - it needs to be able t
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - Monoid in Endofunctor category (endofunctor) with both natural transformations.
+/*/ - Monoid in Endofunctor category (endofunctor) with unit ant join natural transformations.
 
-Mostly Monads used for sequencing actions (that looks like imperative programming), there are Commutative Monads that do not order actions.
+If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of
+  * an endofunctor $$ E^{\mathcal{C \to C}} $$
+  * two natural transformations:
+    * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
+    * $$ \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
+
+Where:
+  * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
+  * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
+
+Mostly Monads used for sequencing actions (that looks like imperative programming), with dependency on previous chains of the sequence, there are Commutative Monads that do not order actions.
 
 Monadic internals are Haskell data types, so they can be consumed any number of times.
 
