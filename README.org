@@ -980,7 +980,7 @@ From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
-Functor is a map between categories. Translating objects and morphisms. They can preserve structure, or not.
+Functor is a map between categories. Translating objects and morphisms (as input can take morphism or object). They can preserve structure, or not.
 
 Functor axioms:
   * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
