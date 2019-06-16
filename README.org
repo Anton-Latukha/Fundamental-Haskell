@@ -995,13 +995,6 @@ fmap id = id
 fmap (f . g) = fmap f . fmap g
 #+end_src
 
-| Mathematics                | Math definition                  | Haskell                               | Math meaning |
-|----------------------------+----------------------------------+---------------------------------------+---------|
-| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
-| $$ \eta s : S \to P(S) $$       | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit, natural transformation $$ \mathcal{ID \to P} $$ |
-| $$ \mu s : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  q      |
-Where $$ \eta,\mu $$ are Natural transformations.
-
 **** /*/
 <<<Power set functor>>>
 <<<fmap>>>
@@ -1294,6 +1287,12 @@ import Control.Monad (ap)
 
 (<*>) == ap
 #+end_src
+
+| Mathematics                | Math definition                  | Haskell                               | Math meaning |
+|----------------------------+----------------------------------+---------------------------------------+---------|
+| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
+| $$ \eta : S \to P(S) $$      | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit (natural transformation $$ \mathcal{ID \to P} $$) |
+| $$ \mu : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  join (natural transformation $$ \mathcal{P \circ P \to P} $$ |
 
 ****** /*/
 <<<Monads>>>
