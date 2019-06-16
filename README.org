@@ -1006,7 +1006,8 @@ Where $$ \eta,\mu $$ are Natural transformations.
 <<<Power set functor>>>
 <<<fmap>>>
 <<<Functors>>>
-**** <<<Power set functor>>>
+**** <<<Power set functor>>> :drill:
+/*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
 Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
 Power set functor is unique to the category (data type), as power set is unique to the set.
@@ -1019,6 +1020,11 @@ class Functor f where
 For Functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
 
 Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+
+Power set functor is a free monad.
+Since:
+  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e in S : \exists (e \to \{e\}) \equiv unit $$
+  * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
 
 ***** <<<Power set functor laws>>> :drill:
 :PROPERTIES:
