@@ -1259,7 +1259,7 @@ Because monad needs to process the result of computation - it needs to be able t
 
 /*/ - Monoid in Endofunctor category (endofunctor) with unit ant join natural transformations.
 
-If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of
+If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
   * an endofunctor $$ E^{\mathcal{C \to C}} $$
   * two natural transformations:
     * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
@@ -1269,7 +1269,14 @@ Where:
   * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
   * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
 
-Mostly Monads used for sequencing actions (that looks like imperative programming), with dependency on previous chains of the sequence, there are Commutative Monads that do not order actions.
+#+DOWNLOADED: https://upload.wikimedia.org/wikipedia/commons/b/b9/Unit-join.png @ 2019-06-16 16:51:46
+[[file:Definitions/Unit-join_2019-06-16_16-51-46.png]]
+
+Definition with $$ \{F^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ ($$ \{fmap, \, pure, \, join\} $$) is classic categorical, in Haskell minimal complete definition is $$ \{pure, (>>=)\} $$.
+
+If there is a structure $$ S $$, and a way of taking object x into S and a way of collapsing $$ S \circ S $$ - there probably a monad.
+
+Mostly Monads used for sequencing actions (that looks like imperative programming), with dependency on previous chains, there are Commutative Monads that do not order actions.
 
 Monadic internals are Haskell data types, so they can be consumed any number of times.
 
