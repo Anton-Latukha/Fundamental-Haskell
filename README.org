@@ -1432,6 +1432,14 @@ Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
 :END:
 Functors between monoidal categories that preserves monoidal structure.
+
+**** <<<Fusion>>>
+#+begin_src haskell
+fmap f . fmap g = fmap (f . g)
+#+end_src
+
+This functor axiom allows to greatly simplify computations, it is called /*/.
+
 *** <<<Hask category>>>
 Category of Haskell where objects are types and morphisms are functions.
 
