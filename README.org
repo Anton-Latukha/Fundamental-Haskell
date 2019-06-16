@@ -4343,6 +4343,7 @@ Natural transformation is a homotopy of functors.
 ** <<<Const functor>>>
 ** <<<Kleisli category>>>
 ** <<<Free object>>>
+When this object/property autofollows from rules&axioms.
 ** <<<Thin category>>>
 ** <<<Partial order>>>
 ** <<<Total order>>>
