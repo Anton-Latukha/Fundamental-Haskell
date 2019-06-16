@@ -1009,8 +1009,8 @@ Where $$ \eta,\mu $$ are Natural transformations.
 **** <<<Power set functor>>> :drill:
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
-Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted /f/ or /m/). IO is also such structure.
-Power set functor is unique to the category (data type), as power set is unique to the set.
+Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
+Power set is unique to the set, power set functor is unique to the category (data type).
 
 #+begin_src haskell
 class Functor f where
