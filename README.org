@@ -985,6 +985,14 @@ Functor axioms:
   * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))} \quad | \quad \forall b = f^{D}(a) $$ - every source morphism is mapped to target category morphism between corresponding objects
   * $$ F^{\mathcal{C \to D}}(g^{\mathcal{C}} \circ f^{\mathcal{C}}) = F^{\mathcal{C \to D}}(g^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(f^{\mathcal{C}}) \quad | \quad \forall y=f^{\mathcal{C}}(x), \forall g^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
 
+This axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
+
+In Haskell this axioms have form:
+#+begin_src haskell
+fmap id = id
+fmap (f . g) = fmap f . fmap g
+#+end_src
+
 | Mathematics                | Math definition                  | Haskell                               | Math meaning |
 |----------------------------+----------------------------------+---------------------------------------+---------|
 | $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
@@ -4279,6 +4287,7 @@ Value, type. Represents nothing. Empty tuple
 #+begin_src haskell
 ()
 #+end_src
+
 ** <<<Variable>>> :drill:
 :PROPERTIES:
 :ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
@@ -4307,10 +4316,11 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 ** <<<Algebraic>>> :drill:
 Composite from simple parts.
 Also: Algebraic data type.
-** <<<Homotopy>>>
+** <<<Homotopy>>> :drill:
 ὁμός homós same
 
 One can be "continuously deformed" into the other.
+
 For example - functions, functors.
 Natural transformation is a homotopy of functors.
 *** /*/
