@@ -1271,16 +1271,53 @@ import Control.Monad (ap)
 
 (<*>) == ap
 #+end_src
-****** Functor -> Applicative -> Monad progression :drill:
+
+****** /*/
+<<<Monads>>>
+<<<Monadic>>>
+****** <<<Monad laws>>> :drill:
 :PROPERTIES:
-:ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
+:ID:       7829bf03-a14b-411b-8460-7a8781227b60
+:END:
+pure (return) should only put argument into structure.
+******* <<<Monad left identity law>>> :drill:
+:PROPERTIES:
+:ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
 :END:
 #+begin_src haskell
-<$> :: Functor     f =>   (a -> b)   -> f a -> f b
-<*> :: Applicative f => f (a -> b)   -> f a -> f b
-=<< :: Monad       f =>   (a -> f b) -> f a -> f b
+return x >>= f == f x
 #+end_src
-This is said to be Natural transformations.
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f =>    f a  -> (a -> f b) -> f b
+                  pure x >>=     f      == f x
+#+end_src
+Shows that >>= must get Argument internal to structure nad apply it to the second argument.
+
+******* <<<Monad right identity law>>> :drill:
+:PROPERTIES:
+:ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
+:END:
+#+begin_src haskell
+f >>= return == f
+#+end_src
+
+Explanation:
+#+begin_src haskell
+>>= :: Monad f => f a  -> (a -> f b) -> f b
+                  f   >>=    pure    == f
+#+end_src
+Tacit description of monad as endofunctor.
+
+******* <<<Monad associativity law>>> :drill:
+:PROPERTIES:
+:ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
+:END:
+#+begin_src haskell
+(m >>= f) >>= g == m >>= (\ x -> f x >>= g)
+#+end_src
+
 ****** <<<Monad type class>>> :drill:
 :PROPERTIES:
 :ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
@@ -1292,6 +1329,16 @@ class Applicative m => Monad m where
   return :: a -> m a
 #+end_src
 
+****** Functor -> Applicative -> Monad progression :drill:
+:PROPERTIES:
+:ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
+:END:
+#+begin_src haskell
+<$> :: Functor     f =>   (a -> b)   -> f a -> f b
+<*> :: Applicative f => f (a -> b)   -> f a -> f b
+=<< :: Monad       f =>   (a -> f b) -> f a -> f b
+#+end_src
+This is said to be Natural transformations.
 ****** <<<Monad functions>>> :drill:
 :PROPERTIES:
 :ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
@@ -1381,49 +1428,6 @@ Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 :ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
 :END:
 Drops sequencing computation as soon as Left arrives.
-****** <<<Monad laws>>> :drill:
-:PROPERTIES:
-:ID:       7829bf03-a14b-411b-8460-7a8781227b60
-:END:
-pure (return) should only put argument into structure.
-******* <<<Monad left identity law>>> :drill:
-:PROPERTIES:
-:ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
-:END:
-#+begin_src haskell
-return x >>= f == f x
-#+end_src
-
-Explanation:
-#+begin_src haskell
->>= :: Monad f =>    f a  -> (a -> f b) -> f b
-                  pure x >>=     f      == f x
-#+end_src
-Shows that >>= must get Argument internal to structure nad apply it to the second argument.
-
-******* <<<Monad right identity law>>> :drill:
-:PROPERTIES:
-:ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
-:END:
-#+begin_src haskell
-f >>= return == f
-#+end_src
-
-Explanation:
-#+begin_src haskell
->>= :: Monad f => f a  -> (a -> f b) -> f b
-                  f   >>=    pure    == f
-#+end_src
-Tacit description of monad as endofunctor.
-
-******* <<<Monad associativity law>>> :drill:
-:PROPERTIES:
-:ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
-:END:
-#+begin_src haskell
-(m >>= f) >>= g == m >>= (\ x -> f x >>= g)
-#+end_src
-
 ****** <<<Comonad>>> :drill:
 :PROPERTIES:
 :ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
