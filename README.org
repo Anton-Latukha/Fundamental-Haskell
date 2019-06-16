@@ -1256,7 +1256,7 @@ Because monad needs to process the result of computation - it needs to be able t
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - Monoid in Endofunctor category (endofunctor) with unit ant join natural transformations.
+/*/ - monoid in endofunctor category with unit and join natural transformations.
 
 If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
   * an endofunctor $$ E^{\mathcal{C \to C}} $$
@@ -1267,9 +1267,6 @@ If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
 Where:
   * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
   * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
-
-#+DOWNLOADED: https://upload.wikimedia.org/wikipedia/commons/b/b9/Unit-join.png @ 2019-06-16 16:51:46
-[[file:Definitions/Unit-join_2019-06-16_16-51-46.png]]
 
 Definition with $$ \{F^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ ($$ \{fmap, \, pure, \, join\} $$) is classic categorical, in Haskell minimal complete definition is $$ \{pure, (>>=)\} $$.
 
