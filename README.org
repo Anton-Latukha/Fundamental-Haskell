@@ -621,6 +621,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#start-writing-monad-using-return-ap-liftm-liftm2--instead-of-do][Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>=']]
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
+  - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
+    - [[#-114][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -4840,6 +4842,14 @@ pure (a, b)
 **** Applicative block vs Monad block
 With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
+** <<<Good: Haskell Package Versioning Policy>>>
+Version policy and dependency management.
+
+#+DOWNLOADED: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
+[[file:Good_code/pvp-decision-tree_2019-06-17_15-49-21.svg]]
+*** /*/
+<<<PVP>>>
+<<<Good: PVP>>>
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
