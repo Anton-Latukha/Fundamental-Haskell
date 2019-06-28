@@ -519,6 +519,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
+  - [[#inverse-morphism][<<<Inverse morphism>>>]]
   - [[#partial-inverse][<<<Partial inverse>>>]]
   - [[#define-language-pragma-options][<<<Define LANGUAGE pragma options>>>]]
     - [[#existentialquantification][<<<ExistentialQuantification>>>]]
@@ -952,6 +953,9 @@ Properties (or axioms):
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 
+Object and morphism is complete abstractions of anything.
+In majority cases under object is a state and morphism is a change.
+
 *** /*/
 <<<Category>>>
 <<<Categories>>>
@@ -1374,6 +1378,7 @@ This is said to be Natural transformations.
 :PROPERTIES:
 :ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
 :END:
+
 ******* <<<Return function>>> :drill:
 :PROPERTIES:
 :ID:       bb5891cb-a918-476b-a27a-4d342bdc30a2
@@ -1382,6 +1387,7 @@ This is said to be Natural transformations.
 return == pure
 #+end_src
 Nonstrict.
+
 ******* <<<Join function>>> :drill:
 :PROPERTIES:
 :ID:       fda130b8-e8ae-4c3d-948a-94129d562a63
@@ -1393,6 +1399,7 @@ Flattens two layers of structure into one.
 Join is a generalization of `concat`.
 
 The way to express ordering in lambda calculus is to nest.
+
 ******** join.fmap == (=<<)
 #+begin_src haskell
 -- b = f b
@@ -1724,7 +1731,8 @@ Left is epi to the right. So left is bigger or equal then the right. And right i
 ἴσος /isos/ equal
 μορφή /morphe/ form
 
-Morphism that has inverse morphism.
+Not equal, but equal for current intents and purposes.
+Morphism that has inverse.
 Almost equal, but not quite: =(Integer, Bool)= & =(Bool, Integer)= - but can be transformed losslessly into one another.
 
 Bijective homomorphism is also isomorphism.
@@ -4450,6 +4458,8 @@ Default in Haskell 2010.
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
+** <<<Inverse morphism>>> :drill:
+$$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
 ** <<<Partial inverse>>>
 /*/ when function is now bijective. When bijective see inverse function.
 ** <<<Define LANGUAGE pragma options>>>
