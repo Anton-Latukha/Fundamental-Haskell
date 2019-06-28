@@ -153,8 +153,9 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#-23][/*/]]
           - [[#-24][/*/]]
     - [[#morphism][<<<Morphism>>>]]
+      - [[#-25][/*/]]
       - [[#homomorphism][<<<Homomorphism>>>]]
-        - [[#-25][/*/]]
+        - [[#-26][/*/]]
       - [[#identity-morphism][<<<Identity morphism>>>]]
         - [[#identity][<<<Identity>>>]]
           - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
@@ -162,18 +163,17 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
         - [[#identity-function][<<<Identity function>>>]]
       - [[#monomorphism][<<<Monomorphism>>>]]
-        - [[#-26][/*/]]
-      - [[#epimorphism][<<<Epimorphism>>>]]
         - [[#-27][/*/]]
-      - [[#isomorphism][<<<Isomorphism>>>]]
+      - [[#epimorphism][<<<Epimorphism>>>]]
         - [[#-28][/*/]]
+      - [[#isomorphism][<<<Isomorphism>>>]]
+        - [[#-29][/*/]]
       - [[#endomorphism][<<<Endomorphism>>>]]
         - [[#automorphism][<<<Automorphism>>>]]
-          - [[#-29][/*/]]
-        - [[#-30][/*/]]
-      - [[#catamorphism][<<<Catamorphism>>>]]
+          - [[#-30][/*/]]
         - [[#-31][/*/]]
-      - [[#-32][/*/]]
+      - [[#catamorphism][<<<Catamorphism>>>]]
+        - [[#-32][/*/]]
       - [[#kernel][<<<Kernel>>>]]
         - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
     - [[#object][<<<Object>>>]]
@@ -186,6 +186,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#natural-transformation-component][<<<Natural transformation component>>>]]
         - [[#-35][/*/]]
       - [[#natural-transformation-in-haskell][Natural transformation in Haskell]]
+    - [[#hom-set][<<<Hom set>>>]]
   - [[#closure][<<<Closure>>>]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
@@ -451,7 +452,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-93][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
-    - [[#hom-set][<<<Hom-set>>>]]
+    - [[#hom-set-1][<<<Hom-set>>>]]
       - [[#hom-functor][<<<Hom-functor>>>]]
     - [[#singleton][<<<Singleton>>>]]
   - [[#shadowing][<<<Shadowing>>>]]
@@ -937,12 +938,15 @@ case () of _
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
 :END:
-Category ($$ \mathcal{C} $$) consists of the Basis:
+Category ($$ \mathcal{C} $$) consists of the basis:
+Primitives:
   1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is SET category.
-  2. Morphisms - $$ (a,b)^{\mathcal{C} }$$, (collection of all morphisms /a/ to /b/: $$ hom^{\mathcal{C}}(a,b) $$). (AKA mappings, total functions).
-  3. Binary operation "Composition of morphisms": $$ \forall a, b, c : \; C(a, b) \circ C(b, c) \equiv C(a, c) $$. In other words morpisms correspond to Principle of compositionality.
-  4. Axiom of Associativity: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
-  5. Axiom of two sided Identity of morphisms: $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
+  2. Morphisms - $$ (a,b)^{\mathcal{C} }$$ (AKA mappings).
+  3. Morphism composition - binary operation: $$ C(a, b) \circ C(b, c) \equiv C(a, c) \ | \ \forall a, b, c \in \mathcal{C} $$. In other words morphisms correspond to principle of compositionality.
+Properties (or axioms):
+  1. Associativity: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
+  2. Identity morphisms (two-sided): $\forall x \, \exists  id_{x : x \to x},  \forall f_{a \to x},  \forall g_{x \to b} : \; id_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ id_x \equiv g_{x \to b}$ (both left and right identity)
+  3. Principle of compositionality.
 
 From these axioms, one can prove that there is exactly one identity morphism for every object.
 *** /*/
@@ -1590,12 +1594,19 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 :END:
 μορφή /morphe/ form
 Map between two objects in a category.
-On a level of objects: morphism is a structure-preserving map from one mathematical structure to another one of the same type.
+
+General description: Arrow from one to enother that denotes something.
+
+On a level of objects: morphism is some maybe structure-preserving map from one mathematical structure to another one of the same type.
 
 Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
 Under morphism almost always is meaning of homomorphism-like properties.
 
-If morphism corresponds to function requirements - than it is a function.
+If morphism corresponds to function requirements - than it is a function. Morphism can be anything.
+**** /*/
+<<<Morphisms>>>
+<<<Arrow>>>
+<<<Arrows>>>
 **** <<<Homomorphism>>> :drill:
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
@@ -1759,11 +1770,6 @@ Denotes the unique homomorphism from an initial algebra into some other algebra.
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
 ***** /*/
 <<<Catamorphic>>>
-**** /*/
-<<<Morphisms>>>
-<<<Structure-preserving>>>
-<<<Preserve structure>>>
-<<<Preserves structure>>>
 **** <<<Kernel>>> :drill:
 SCHT: <2019-06-19 Wed>
 :PROPERTIES:
@@ -1853,6 +1859,11 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 ***** /*/
 **** Natural transformation in Haskell
 /*/ is a family of morphisms parametrized by type (polymorphic polymorphism functions) between endofunctors (Functor, Applicative, Monad).
+*** <<<Hom set>>>
+:PROPERTIES:
+:ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
+:END:
+Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal {C} $$.
 ** <<<Closure>>> :drill:
 SCHT: <2019-06-21 Fri>
 :PROPERTIES:
