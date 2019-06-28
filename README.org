@@ -672,6 +672,9 @@ abs away from, off (in absentia)
 tractus draw, haul, drag
 
 Purified generalization of process.
+
+Forgeting the details. Simplified approach.
+
 It is great did to name an abstraction (Denotational semantics).
 *** /*/
 <<<Abstractions>>>
