@@ -2083,17 +2083,17 @@ Type and variable have rules regarding values.
 A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
 *** <<<Gen type>>> :drill:
-SCHT: <2019-06-13 Thu>
+SCHT: <2019-07-09 Tue>
 :PROPERTIES:
 :ID:       a4d8e374-a99a-4d9a-b159-13b004c2b3ed
-:DRILL_LAST_INTERVAL: 3.995
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 10.1034
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:41]
 :END:
 Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
@@ -3622,16 +3622,17 @@ $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with ConstraintKinds.
 ***** <<<FlexibleInstances>>> :drill:
+SCHT: <2019-07-03 Wed>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 1.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:24]
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:41]
 :END:
 Allow type class instances types contain nested types.
 #+begin_src haskell
@@ -3892,16 +3893,17 @@ SCHT: <2019-06-21 Fri>
 :END:
 The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 ** <<<\Psi-combinator>>> :drill:
+SCHT: <2019-07-03 Wed>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.6
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:27]
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:42]
 :END:
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
