@@ -677,6 +677,8 @@ Purified generalization of process.
 
 Forgeting the details. Simplified approach.
 
+/*/ creates a new semantic level in which one can be absolutely precise.
+
 It is great did to name an abstraction (Denotational semantics).
 *** /*/
 <<<Abstractions>>>
