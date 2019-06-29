@@ -2266,18 +2266,20 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 :END:
 Type class has a superclass.
 **** <<<Derived instance>>> :drill:
-SCHT: <2019-06-12 Wed>
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       7294eaf7-4ff8-41c8-a6a9-c9060b5edfb9
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:05]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:24]
 :END:
+Type class instances sometimes can be automatically derived from the parent types.
+
 Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
 *** <<<Type constant>>> :drill:
 :PROPERTIES:
