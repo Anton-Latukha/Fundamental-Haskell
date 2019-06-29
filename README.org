@@ -2094,7 +2094,7 @@ SCHT: <2019-06-13 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
 :END:
-Generator. Produces a list of values that gets infinitely cycled.
+Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
 *** <<<Higher-kinded data type>>> :drill:
 :PROPERTIES:
