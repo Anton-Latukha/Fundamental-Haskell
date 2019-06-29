@@ -4666,6 +4666,11 @@ A specification of a data type like a stack or queue where the specification doe
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
 ** <<<Property>>>
+** <<<Lense>>> :drill:
+:PROPERTIES:
+:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
+:END:
+Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
