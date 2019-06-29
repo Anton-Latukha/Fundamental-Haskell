@@ -4447,7 +4447,7 @@ Default in Haskell 2010.
 ** <<<Inverse>>>
 1. Inverse function
 
-2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$
+2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$, & same for category duality.
 ** <<<Inversion>>>
 1. Is a permutation where two elements are out of order.
 
