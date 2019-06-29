@@ -4995,3 +4995,23 @@ https://codesearch.aelve.com/
 * MonoLocalBinds
 * KindSignatures
 * ExplicitNamespaces
+** <<<Category dual>>>
+
+Category duality behaves like a logical inverse.
+
+Inverse $$ \mathcal{C} $$ = $$ \mathcal{C}^{op} $$ - invert the direction of morphisms.
+
+(Morphisms include all their compositions)
+
+Properties:
+  * Opposite preserves products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
+
+  * Opposite preserves functors: $$ (\mathrm{Funct}(\mathcal{C},\mathcal{D}))^{op} \cong \mathrm{Funct}(\mathcal{C}^{op}, \mathcal{D}^{op}) $$
+
+  * Opposite preserves slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
+
+*** /*/
+<<<Opposite category>>>
+<<<Opposite categories>>>
+<<<Category duality>>>
+<<<Duality>>>
