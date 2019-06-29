@@ -992,6 +992,7 @@ The class of Abelian categories is closed under several categorical construction
 Axiom of Category.
 **** /*/
 <<<Composable>>>
+<<<Compositions>>>
 *** <<<Endofunctor category>>> :drill:
 :PROPERTIES:
 :ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
@@ -1021,6 +1022,9 @@ fmap (f . g) = fmap f . fmap g
 <<<fmap>>>
 <<<Functors>>>
 **** <<<Power set functor>>> :drill:
+:PROPERTIES:
+:ID:       1169dfd1-4e31-4789-a777-288fc9208094
+:END:
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
 Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
@@ -2101,17 +2105,17 @@ Type that take more types as arguments.
 **** /*/
 <<<Higher-kinded data types>>>
 *** <<<newtype declaration>>> :drill:
-SCHT: <2019-06-12 Wed>
+SCHT: <2019-07-08 Mon>
 :PROPERTIES:
 :ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:06]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:22]
 :END:
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
@@ -2128,6 +2132,7 @@ newtype Book = Book (Int, Int)
       / \
 Integer Integer
 #+end_src
+
 *** <<<Principal type>>> :drill:
 SCHT: <2019-06-17 Mon>
 :PROPERTIES:
@@ -2317,6 +2322,9 @@ Automatic data type detection of expression.
 Unique type class->type pairing.
 Defines type class->type methods.
 *** <<<Type rank>>> :drill:
+:PROPERTIES:
+:ID:       512cf517-eacf-4d39-9d7c-8ec840d9a384
+:END:
 Weak ordering of types.
 
 The rank of polymorphic type shows at what level of nesting =forall= quantifier appears.
@@ -2371,6 +2379,9 @@ With unlifted types Haskel type system directly manages data in the hardware.
 **** /*/
 <<<Typed holes>>>
 *** <<<Data structure>>> :drill:
+:PROPERTIES:
+:ID:       34418701-bc96-4c96-ab01-c59ec2ee5741
+:END:
 **** <<<Cons cell>>> :drill:
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
@@ -2502,8 +2513,14 @@ Finite combination of a symbols that is well-formed according to rules that depe
 :END:
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 *** <<<RHS>>> :drill:
+:PROPERTIES:
+:ID:       8638f0a1-1228-4196-b7f3-0c5db5c13028
+:END:
 Right-hand side of the expression.
 *** <<<LHS>>> :drill:
+:PROPERTIES:
+:ID:       060e0611-e893-46f5-b133-c020738fdf96
+:END:
 Left-hand side of the expression.
 *** <<<Redex>>> :drill:
 SCHT: <2019-06-22 Sat>
@@ -3220,16 +3237,17 @@ Bijective function from domain to itself.
 :END:
 /*/ - composable expression.
 ** <<<Point-free>>> :drill:
+SCHT: <2019-07-03 Wed>
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:21]
 :END:
 Paradigm where function only describes the morphism itself.
 
@@ -3597,17 +3615,16 @@ $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with ConstraintKinds.
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 1.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:57]
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:24]
 :END:
 Allow type class instances types contain nested types.
 #+begin_src haskell
@@ -3868,17 +3885,16 @@ SCHT: <2019-06-21 Fri>
 :END:
 The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 ** <<<\Psi-combinator>>> :drill:
-SCHT: <2019-06-13 Thu>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.75
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.6
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 21:56]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:27]
 :END:
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
@@ -4014,6 +4030,9 @@ Well-defined collection of distinct objects.
 Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 *** <<<Power set>>> :drill:
+:PROPERTIES:
+:ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
+:END:
 For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
 Denotation:
 $$ \mathcal{P(S)} $$
@@ -4383,9 +4402,15 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from Identity value.
 ** <<<Algebraic>>> :drill:
+:PROPERTIES:
+:ID:       c97061e0-d726-44d0-bd18-fd1288c46a52
+:END:
 Composite from simple parts.
 Also: Algebraic data type.
 ** <<<Homotopy>>> :drill:
+:PROPERTIES:
+:ID:       4b3fc811-290c-4462-aaa6-208134e9e591
+:END:
 ὁμός homós same
 
 One can be "continuously deformed" into the other.
@@ -4464,6 +4489,9 @@ Default in Haskell 2010.
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
 ** <<<Inverse morphism>>> :drill:
+:PROPERTIES:
+:ID:       97593115-a31b-4016-8de4-9356b4a89991
+:END:
 $$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
 ** <<<Partial inverse>>>
 /*/ when function is now bijective. When bijective see inverse function.
