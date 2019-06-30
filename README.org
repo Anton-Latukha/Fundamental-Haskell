@@ -732,13 +732,13 @@ SCHT: <2019-06-21 Fri>
 ambi both
 γράμμα /grámma/ written character
 
-Object which from different points of view has different projections. Thou from projections only partial understanding of object is drawn.
+Object from different points of view has the same meaning.
 
 While this word has two contradictory diametrically opposite meanings, one was chosen.
 
 But it has... Both.
 
-/TODO: Probably better for the merit of difference about different meaning refer to Tensor as object with many meanings./
+/TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
 ** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
