@@ -657,6 +657,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#io-libraries][IO libraries]]
     - [[#conduit---practical-monolythic-guarantees-termination-return][Conduit - practical, monolythic, guarantees termination return]]
     - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
+  - [[#json---aeson][JSON - aeson]]
 - [[#misc][Misc]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
@@ -5051,6 +5052,7 @@ https://codesearch.aelve.com/
 ** IO libraries
 *** Conduit - practical, monolythic, guarantees termination return
 *** Pipes + Pipes Parse - modular, more primitive, theoretically driven
+** JSON - aeson
 * Misc
 * Reference
 ** Haskell-98
