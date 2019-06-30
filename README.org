@@ -690,17 +690,17 @@ It is great did to name an abstraction (Denotational semantics).
 <<<Abstracting>>>
 <<<Abstract>>>
 ** <<<Algebra>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 21.4987
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
 al-jabr - assemble parts.
 A system of algebra based on given axioms.
@@ -746,17 +746,17 @@ But it has... Both.
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 ** <<<Application>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 21.4987
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
 For FP see Bind. And then beta reduction happen.
 ** <<<Application memory>>> :drill:
@@ -900,6 +900,7 @@ SCHT: <2019-06-18 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
 :END:
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
+
 *** /*/
 <<<Bounded>>>
 ** <<<Cartesian product>>> :drill:
@@ -913,17 +914,17 @@ $$ \sum^{elem \in (A \times B)}  = cardinality^{A \times B} $$
 *** /*/
 <<<Cardinalities>>>
 ** <<<Case>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 20.7426
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:00]
+:DRILL_AVERAGE_QUALITY: 2.75
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:49]
 :END:
 #+begin_src haskell
 case x of
@@ -2009,17 +2010,17 @@ For type to have sence the values share some sence, properties.
 <<<Types>>>
 <<<Data types>>>
 *** <<<Actual type>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:17]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:46]
 :END:
 Data type recieved by ->inferring->compiling->execution.
 *** <<<Algebraic data type>>> :drill:
@@ -2137,17 +2138,16 @@ Integer Integer
 #+end_src
 
 *** <<<Principal type>>> :drill:
-SCHT: <2019-06-17 Mon>
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.25
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.2
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:03]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
 The most generic data type that still typechecks.
 *** <<<Product data type>>> :drill:
@@ -2445,17 +2445,17 @@ data NonEmpty a = a :| [a]
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 ** <<<Declaration>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-25 Thu>
 :PROPERTIES:
 :ID:       461111ea-4124-427f-bfc6-f83212a07951
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.0
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:00]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:48]
 :END:
 Binding the name to expression.
 ** <<<Differential operator>>> :drill:
@@ -2470,17 +2470,17 @@ $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 *** /*/
 <<<Differential>>>
 ** <<<Disjunction>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-24 Wed>
 :PROPERTIES:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:45]
 :END:
 OR
 ** <<<Dispatch>>> :drill:
@@ -2798,17 +2798,17 @@ Variadic function has a indefinite arity. Assepts a variable number of arguments
 :END:
 Source set of a function in $$ X \to Y $$.
 *** <<<Codomain>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-28 Sun>
 :PROPERTIES:
 :ID:       f8603032-30f1-4074-80b5-0f6f49428241
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
 Codomain - target set of a function in $X \to Y$.
 *** <<<Open formula>>> :drill:
@@ -3862,17 +3862,17 @@ Assertion function that includes variable and results in true or false statement
 Notation: $$ P(x) $$
 Application of argument yealds true or false predicate.
 ** <<<Predicative>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 22.2265
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
+:DRILL_AVERAGE_QUALITY: 2.75
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:48]
 :END:
 Non-self-referencing definition.
 
@@ -3943,17 +3943,17 @@ ExistentialQuantification
 **** /*/
 <<<Forall>>>
 ** <<<Referential transparency>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 22.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.333
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:02]
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:45]
 :END:
 Returns the same output given the same values to evaluate.
 So:
@@ -3973,17 +3973,17 @@ Is not directed and not limited.
 :END:
 Interactive CLI. Read-eval-print loop.
 ** <<<Scope>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-24 Wed>
 :PROPERTIES:
 :ID:       a2989c15-2adc-403a-add7-35855e9de65c
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-09 Sun 22:02]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
 Area where binds are accessible.
 ** <<<Semantics>>> :drill:
@@ -4018,17 +4018,17 @@ Describing effect of operation on assertions about the overall state.
 Good for examining interconnections.
 Empirical process.
 ** <<<Set>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-20 Sat>
 :PROPERTIES:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 20.1976
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 22:56]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:46]
 :END:
 Well-defined collection of distinct objects.
 *** /*/
@@ -4080,17 +4080,17 @@ $$ Hom(-,-):C^{op} \times C \to Set $$
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 ** <<<Shadowing>>> :drill:
-SCHT: <2019-06-18 Tue>
+SCHT: <2019-07-28 Sun>
 :PROPERTIES:
 :ID:       45b1bebf-431f-45dd-8522-ea688968090f
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:04]
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
 Global scope variable overriden by variable in local scope.
 ** <<<Shrinking>>> :drill:
@@ -4364,17 +4364,17 @@ Value that is yet to be evaluated. Can be dragged around, until be lazily evalua
 :END:
 Replace number of functions with tuple of number of values
 ** <<<Undefined>>> :drill:
-SCHT: <2019-06-17 Mon>
+SCHT: <2019-07-20 Sat>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 19.512
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-06-08 Sat 23:03]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:43]
 :END:
 Placeholder value that helps to do typechecking.
 ** <<<Unit>>> :drill:
