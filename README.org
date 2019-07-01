@@ -1892,17 +1892,17 @@ $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \math
 :END:
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal {C} $$.
 ** <<<Closure>>> :drill:
-SCHT: <2019-06-21 Fri>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:33]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
 :END:
 
 $$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
@@ -2035,17 +2035,17 @@ Composite type formed by combining other types.
 **** /*/
 <<<AlgDT>>>
 *** <<<Cardinality>>> :drill:
-SCHT: <2019-06-23 Sun>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:23]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:12]
 :END:
 
 Number of possible implementations for a given type signature.
@@ -2536,17 +2536,17 @@ Right-hand side of the expression.
 :END:
 Left-hand side of the expression.
 *** <<<Redex>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-07-30 Tue>
 :PROPERTIES:
 :ID:       3d5326a4-74a7-433d-860a-2590072bb61d
-:DRILL_LAST_INTERVAL: 10.7143
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 28.7036
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:26]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
 :END:
 Reducible expression.
 ** <<<First-class>>> :drill:
@@ -2657,8 +2657,17 @@ Not comibnators:
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 *** <<<Function application>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       630790f7-377f-463e-8058-792502dbcc88
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:15]
 :END:
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
 **** /*/
@@ -2882,17 +2891,17 @@ Monkey patch is derivative term.
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
 ** <<<Idiom>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       bc244256-751d-4205-857e-368a45580884
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-13 Thu 00:21]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
 /*/ - something having a meaning that can not be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
@@ -2917,17 +2926,17 @@ Self-referencing definition.
 
 /Antonym - Predicative./
 ** <<<Infix>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.7556
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:25]
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
 Form of wrinting of operaton application in-between variables.
 ** <<<Inhabit>>> :drill:
@@ -3104,8 +3113,17 @@ Level of code that works with data types.
 :END:
 Level of code that does logical execution.
 *** <<<Compile level>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
 :END:
 Level of code when code compiles/compiled.
 **** /*/
@@ -3182,17 +3200,17 @@ SCHT: <2019-07-31 Wed>
 :END:
 Any Haskell expression can't return nothing.
 ** <<<Operation>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-07-30 Tue>
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 28.6705
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
 Function. Word used in mathematics. Often a symbol, infix, binary.
 *** <<<Binary operation>>> :drill:
@@ -3325,6 +3343,14 @@ Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. Durin
 *** <<<Swing>>> :drill:
 :PROPERTIES:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
 :END:
 #+begin_src haskell
 swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
@@ -3525,8 +3551,17 @@ Pragma in Haskell have form:
 {-# PRAGMA options #-}
 #+end_src
 *** <<<LANGUAGE pragma>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:13]
 :END:
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
@@ -3729,8 +3764,17 @@ As untuped expression, partly typed can not polymorphicly recurse.
 
 -Wno-partial-type-signatures supresses infer warnings.
 ***** <<<RankNTypes>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
 :END:
 Enable types of arbitrary rank.
 See Type rank.
@@ -3926,21 +3970,22 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 <<<Psi-combinator>>>
 <<<On-combinator>>>
 ** <<<Quantifier>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       ac758691-4dc3-4e6c-9f18-59793263a845
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.7556
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:27]
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
+
 *** /*/
 <<<Quantification>>>
 *** <<<Forall quantifier>>> :drill:
@@ -4164,17 +4209,17 @@ Gonzales: "What code does."
 :END:
 Broader parent class.
 ** <<<Syntatic sugar>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       244e15a8-9ae5-4842-82b1-279387d088fd
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.7556
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:29]
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
 Artificial way to make language easier to read and write.
 ** <<<System F>>> :drill:
@@ -4407,17 +4452,17 @@ A name for expression.
 Haskell has immutable variables.
 Except when you hack it with explicit funсtions.
 ** <<<Zero>>> :drill:
-SCHT: <2019-06-22 Sat>
+SCHT: <2019-07-30 Tue>
 :PROPERTIES:
 :ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
-:DRILL_LAST_INTERVAL: 10.7143
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 28.7036
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-11 Tue 01:32]
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
 /*/ is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
