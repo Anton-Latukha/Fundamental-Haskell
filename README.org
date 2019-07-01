@@ -739,6 +739,7 @@ While this word has two contradictory diametrically opposite meanings, one was c
 But it has... Both.
 
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
+
 ** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
@@ -2859,11 +2860,13 @@ Also derives that the field of complex numbers is algebraically closed.
 :PROPERTIES:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
-Set equipped with a binary operation. Group axioms are satisfied:
-  * closure,
-  * associativity,
-  * identity,
-  * invertibility.
+  * set of elements
+  * binary operation
+  * set is a closure under operation,
+  * associativity of operation
+  * identity element
+  * inverse for every element (element operation with inverse gives identity)
+ 
 *** /*/
 <<<Groups>>>
 ** <<<Guerrilla patch>>> :drill:
