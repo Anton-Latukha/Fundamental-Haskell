@@ -3341,16 +3341,17 @@ Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. Durin
 <<<.) .>>>
 <<<(.).(.)>>>
 *** <<<Swing>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 1.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
 :END:
 #+begin_src haskell
 swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
@@ -3697,8 +3698,17 @@ newtype Dollars = Dollars Int
 #+end_src
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
 ***** <<<ImplicitParams>>> :drill:
+SCHT: <2019-07-05 Fri>
 :PROPERTIES:
 :ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
 :END:
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
