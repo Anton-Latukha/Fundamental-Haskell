@@ -152,10 +152,14 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
           - [[#commutative-monoid][<<<Commutative monoid>>>]]
             - [[#-24][/*/]]
+          - [[#group][<<<Group>>>]]
+            - [[#-25][/*/]]
+            - [[#commutative-group][<<<Commutative group>>>]]
+              - [[#-26][/*/]]
     - [[#morphism][<<<Morphism>>>]]
-      - [[#-25][/*/]]
+      - [[#-27][/*/]]
       - [[#homomorphism][<<<Homomorphism>>>]]
-        - [[#-26][/*/]]
+        - [[#-28][/*/]]
       - [[#identity-morphism][<<<Identity morphism>>>]]
         - [[#identity][<<<Identity>>>]]
           - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
@@ -163,106 +167,106 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
         - [[#identity-function][<<<Identity function>>>]]
       - [[#monomorphism][<<<Monomorphism>>>]]
-        - [[#-27][/*/]]
-      - [[#epimorphism][<<<Epimorphism>>>]]
-        - [[#-28][/*/]]
-      - [[#isomorphism][<<<Isomorphism>>>]]
         - [[#-29][/*/]]
+      - [[#epimorphism][<<<Epimorphism>>>]]
+        - [[#-30][/*/]]
+      - [[#isomorphism][<<<Isomorphism>>>]]
+        - [[#-31][/*/]]
       - [[#endomorphism][<<<Endomorphism>>>]]
         - [[#automorphism][<<<Automorphism>>>]]
-          - [[#-30][/*/]]
-        - [[#-31][/*/]]
+          - [[#-32][/*/]]
+        - [[#-33][/*/]]
       - [[#catamorphism][<<<Catamorphism>>>]]
-        - [[#-32][/*/]]
+        - [[#-34][/*/]]
       - [[#kernel][<<<Kernel>>>]]
         - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
     - [[#object][<<<Object>>>]]
-      - [[#-33][/*/]]
+      - [[#-35][/*/]]
       - [[#terminal-object][<<<Terminal object>>>]]
       - [[#initial-object][<<<Initial object>>>]]
     - [[#set-category][<<<SET category>>>]]
     - [[#natural-transformation][<<<Natural transformation>>>]]
-      - [[#-34][/*/]]
+      - [[#-36][/*/]]
       - [[#natural-transformation-component][<<<Natural transformation component>>>]]
-        - [[#-35][/*/]]
+        - [[#-37][/*/]]
       - [[#natural-transformation-in-haskell][Natural transformation in Haskell]]
     - [[#hom-set][<<<Hom set>>>]]
     - [[#category-dual][<<<Category dual>>>]]
-          - [[#-36][/*/]]
+          - [[#-38][/*/]]
   - [[#closure][<<<Closure>>>]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
-    - [[#-37][/*/]]
+    - [[#-39][/*/]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#conjunction][<<<Conjunction>>>]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#context][<<<Context>>>]]
-    - [[#-38][/*/]]
+    - [[#-40][/*/]]
   - [[#contravariant][<<<Contravariant>>>]]
-    - [[#-39][/*/]]
+    - [[#-41][/*/]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#data-type][<<<Data type>>>]]
-    - [[#-40][/*/]]
+    - [[#-42][/*/]]
     - [[#actual-type][<<<Actual type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-41][/*/]]
+      - [[#-43][/*/]]
     - [[#cardinality][<<<Cardinality>>>]]
     - [[#data-constant][Data <<<constant>>>]]
-      - [[#-42][/*/]]
+      - [[#-44][/*/]]
     - [[#data-constructor][<<<Data constructor>>>]]
     - [[#data-declaration][<<<data declaration>>>]]
     - [[#dependent-type][<<<Dependent type>>>]]
     - [[#gen-type][<<<Gen type>>>]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
-      - [[#-43][/*/]]
+      - [[#-45][/*/]]
     - [[#newtype-declaration][<<<newtype declaration>>>]]
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-44][/*/]]
+      - [[#-46][/*/]]
     - [[#structural-type-system][<<<Structural type system>>>]]
-      - [[#-45][/*/]]
+      - [[#-47][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-46][/*/]]
+      - [[#-48][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
-        - [[#-47][/*/]]
+        - [[#-49][/*/]]
       - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
-        - [[#-48][/*/]]
+        - [[#-50][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
-        - [[#-49][/*/]]
+        - [[#-51][/*/]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
     - [[#type-inference][<<<Type inference>>>]]
-      - [[#-50][/*/]]
+      - [[#-52][/*/]]
     - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-51][/*/]]
+      - [[#-53][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-52][/*/]]
-      - [[#-53][/*/]]
+      - [[#-54][/*/]]
+      - [[#-55][/*/]]
     - [[#data-structure][<<<Data structure>>>]]
       - [[#cons-cell][<<<Cons cell>>>]]
       - [[#construct][<<<Construct>>>]]
-        - [[#-54][/*/]]
+        - [[#-56][/*/]]
       - [[#leaf][<<<Leaf>>>]]
       - [[#node][<<<Node>>>]]
     - [[#linear-type][<<<Linear type>>>]]
-      - [[#-55][/*/]]
+      - [[#-57][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-56][/*/]]
+    - [[#-58][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
@@ -270,53 +274,49 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
   - [[#expression][<<<Expression>>>]]
-    - [[#-57][/*/]]
+    - [[#-59][/*/]]
     - [[#closed-form-expression][<<<Closed-form expression>>>]]
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
   - [[#first-class][<<<First-class>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-58][/*/]]
+    - [[#-60][/*/]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#-59][/*/]]
+    - [[#-61][/*/]]
     - [[#arity][<<<Arity>>>]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-60][/*/]]
+      - [[#-62][/*/]]
     - [[#combinator][<<<Combinator>>>]]
     - [[#function-application][<<<Function application>>>]]
-      - [[#-61][/*/]]
+      - [[#-63][/*/]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-62][/*/]]
+      - [[#-64][/*/]]
     - [[#function-head][<<<Function head>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#higher-order-function][<<<Higher-order function>>>]]
-      - [[#-63][/*/]]
+      - [[#-65][/*/]]
       - [[#fold][<<<Fold>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-64][/*/]]
+      - [[#-66][/*/]]
     - [[#partial-function][<<<Partial function>>>]]
     - [[#purity][<<<Purity>>>]]
-      - [[#-65][/*/]]
+      - [[#-67][/*/]]
     - [[#sectioning][<<<Sectioning>>>]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-66][/*/]]
+      - [[#-68][/*/]]
     - [[#unsafe][<<<Unsafe>>>]]
     - [[#variadic][<<<Variadic>>>]]
     - [[#domain][<<<Domain>>>]]
     - [[#codomain][<<<Codomain>>>]]
     - [[#open-formula][<<<Open formula>>>]]
     - [[#recursion][<<<Recursion>>>]]
-      - [[#-67][/*/]]
+      - [[#-69][/*/]]
       - [[#base-case][<<<Base case>>>]]
       - [[#tail-recursion][<<<Tail recursion>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
-  - [[#group][<<<Group>>>]]
-    - [[#-68][/*/]]
-    - [[#commutative-group][<<<Commutative group>>>]]
-      - [[#-69][/*/]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
@@ -1634,6 +1634,27 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 ******* /*/
 <<<Abelian monoid>>>
 
+****** <<<Group>>> :drill:
+:PROPERTIES:
+:ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
+:END:
+  * set of elements
+  * binary operation
+  * set closed under operation
+  * associativity of operation
+  * identity element
+  * inverse for every element (element operation with inverse gives identity)
+
+All groups are monoids.
+
+******* /*/
+<<<Groups>>>
+******* <<<Commutative group>>>
+In which operation obeys the axiom of commutativity.
+
+******** /*/
+<<<Abelian group>>>
+
 *** <<<Morphism>>> :drill:
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
@@ -1857,6 +1878,7 @@ $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $
 Morphism of elements from the Kernel. Map of elements that make main Morphism not Monomorphic (Injective).
 *** <<<Object>>>
 Mathematical structure. Morphisms preserve structure.
+
 **** /*/
 <<<Structure>>>
 <<<Structures>>>
@@ -1866,11 +1888,13 @@ Mathematical structure. Morphisms preserve structure.
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
 :END:
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
+
 **** <<<Initial object>>> :drill:
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
 :END:
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
+
 *** <<<SET category>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -2942,27 +2966,6 @@ Tail calls are recursive invocantions of itself.
 :END:
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
-** <<<Group>>> :drill:
-:PROPERTIES:
-:ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
-:END:
-  * set of elements
-  * binary operation
-  * set closed under operation
-  * associativity of operation
-  * identity element
-  * inverse for every element (element operation with inverse gives identity)
-
-All groups are monoids.
-
-*** /*/
-<<<Groups>>>
-*** <<<Commutative group>>>
-In which operation obeys the axiom of commutativity.
-
-**** /*/
-<<<Abelian group>>>
-
 ** <<<Guerrilla patch>>> :drill:
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
