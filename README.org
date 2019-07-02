@@ -586,6 +586,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-120][/*/]]
   - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#-121][/*/]]
+  - [[#algebraic-structure][<<<Algebraic structure>>>]]
+    - [[#-122][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -642,7 +644,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-122][/*/]]
+    - [[#-123][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -676,8 +678,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
     - [[#instance-termination-rules][<<<Instance termination rules>>>]]
-- [[#algebraic-structure][<<<Algebraic structure>>>]]
-  - [[#-123][/*/]]
 
 * Definitions
 :PROPERTIES:
@@ -4898,6 +4898,30 @@ Set S and two binary operators ∗ and + on S, the operation:
 <<<Distributive rule>>>
 <<<Distributive property>>>
 
+** <<<Algebraic structure>>>
+
+Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
+The set A with this structure is also called an algebra.
+
+Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
+
+"Group-like structures":
+|                   | Closure | Associativity | Identity | Invertability | Commutativity |
+|-------------------+---------+---------------+----------+---------------+---------------|
+| Semigroupoid      |         | \check             |          |               |               |
+| Small Category    |         | \check             | \check        |               |               |
+| Groupoid          |         | \check             | \check        | \check             |               |
+| Magma             | \check       |               |          |               |               |
+| Quasigroup        | \check       |               |          | \check             |               |
+| Loop              | \check       |               | \check        | \check             |               |
+| Semigroup         | \check       | \check             |          |               |               |
+| Inverse Semigroup | \check       | \check             |          | \check             |               |
+| Monoid            | \check       | \check             | \check        |               |               |
+| Group             | \check       | \check             | \check        | \check             |               |
+| Abelian group     | \check       | \check             | \check        | \check             | \check             |
+
+*** /*/
+<<<Algebraic structures>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
