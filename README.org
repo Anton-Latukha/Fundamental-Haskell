@@ -1558,16 +1558,14 @@ The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary o
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
 :END:
-$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$
-
-Semigroup - Magma with Associative law.
-Semigroup is closed (forms a closed set).
+Magma with Associative law.
 
 Defined in Haskell as:
 #+begin_src haskell
 class Semigroup a where
 (<>) :: a -> a -> a
 #+end_src
+
 ***** /*/
 <<<Semigroups>>>
 ***** <<<Monoid>>> :drill:
