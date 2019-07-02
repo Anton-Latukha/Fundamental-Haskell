@@ -1658,7 +1658,7 @@ Monoid with inverse for every element (element operation with inverse gives iden
 ******* /*/
 <<<Groups>>>
 ******* <<<Commutative group>>>
-In which operation obeys the axiom of commutativity.
+Group operation obeys the axiom of commutativity.
 
 ******** /*/
 <<<Abelian group>>>
@@ -1683,6 +1683,7 @@ If morphism corresponds to function requirements - than it is a function. Morphi
 <<<Morphisms>>>
 <<<Arrow>>>
 <<<Arrows>>>
+
 **** <<<Homomorphism>>> :drill:
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
@@ -1708,8 +1709,10 @@ Homomorphisms send identity morphisms to identity morphisms and inverses to inve
   * linear map
   * module
   * algebra
+
 ***** /*/
 <<<Homomorphic>>>
+
 **** <<<Identity morphism>>> :drill:
 :PROPERTIES:
 :ID:       8581e216-8d9d-479f-a58d-bd04882b5131
