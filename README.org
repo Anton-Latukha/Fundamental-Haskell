@@ -4672,16 +4672,19 @@ Default in Haskell 2010.
 1. Inverse function
 
 2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$, & same for category duality.
+
 ** <<<Inversion>>>
 1. Is a permutation where two elements are out of order.
 
 2. See Inverse
+
 ** <<<Inverse function>>>
 
     $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X} $$
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
+
 ** <<<Inverse morphism>>> :drill:
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
@@ -4802,8 +4805,10 @@ Symmetric \land Asymmetric is only empty relation.
 <<<Asymmetric relation>>>
 ** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
+
 *** /*/
 <<<Crypromorphic>>>
+
 ** <<<Lexically scoped type variables>>>
 Enable lexical scope for forall quantifier defined type variables
 
@@ -4835,6 +4840,11 @@ A specification of a data type like a stack or queue where the specification doe
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
 :END:
 Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
+** <<<Functional dependencies>>>
+** <<<MonoLocalBinds>>>
+** <<<KindSignatures>>>
+** <<<ExplicitNamespaces>>>
+** <<<Ring>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
@@ -5233,7 +5243,3 @@ https://codesearch.aelve.com/
     1.2 constructors+variables+repetitions < head
     1.3 \not type functions (type func application can expand to arbitrary size)
  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
-* Functional dependencies
-* MonoLocalBinds
-* KindSignatures
-* ExplicitNamespaces
