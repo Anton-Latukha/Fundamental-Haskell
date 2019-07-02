@@ -4114,6 +4114,7 @@ SCHT: <2019-08-01 Thu>
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
+$$ \exists ! $$ - one and only one (exists only unique).
 
 *** /*/
 <<<Quantification>>>
@@ -4608,6 +4609,7 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 :END:
 Composite from simple parts.
 Also: Algebraic data type.
+
 ** <<<Homotopy>>> :drill:
 :PROPERTIES:
 :ID:       4b3fc811-290c-4462-aaa6-208134e9e591
@@ -4618,9 +4620,11 @@ One can be "continuously deformed" into the other.
 
 For example - functions, functors.
 Natural transformation is a homotopy of functors.
+
 *** /*/
 <<<Homotopies>>>
 <<<Homotopic>>>
+
 * Give definitions
 ** <<<Commuting diagram>>>
 ** <<<Const functor>>>
