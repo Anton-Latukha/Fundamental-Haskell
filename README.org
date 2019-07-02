@@ -1572,7 +1572,7 @@ class Semigroup a where
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
 :END:
-Semigroup that has Identity value.
+Semigroup with Identity element.
 
 #+begin_src haskell
 class Monoid m where
@@ -1597,8 +1597,6 @@ do
   -- "Sum {getSum = 3}"
   -- ...
 #+end_src
-
-Semigroup can be single object category only as a monoid, due to category identity requirement.
 
 Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
 
