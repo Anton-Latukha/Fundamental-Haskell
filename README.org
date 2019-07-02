@@ -580,6 +580,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#kindsignatures][<<<KindSignatures>>>]]
   - [[#explicitnamespaces][<<<ExplicitNamespaces>>>]]
   - [[#ring][<<<Ring>>>]]
+  - [[#distributive-axiom][<<<Distributive axiom>>>]]
+    - [[#-118][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -636,7 +638,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-118][/*/]]
+    - [[#-119][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -670,6 +672,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
     - [[#instance-termination-rules][<<<Instance termination rules>>>]]
+- [[#algebraic-structures][Algebraic structures]]
 
 * Definitions
 :PROPERTIES:
