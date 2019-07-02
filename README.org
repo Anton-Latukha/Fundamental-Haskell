@@ -145,13 +145,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#semigroup][<<<Semigroup>>>]]
         - [[#-22][/*/]]
         - [[#monoid][<<<Monoid>>>]]
+          - [[#-23][/*/]]
           - [[#monoid-laws][<<<Monoid laws>>>]]
             - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
             - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
             - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
           - [[#commutative-monoid][<<<Commutative monoid>>>]]
-            - [[#-23][/*/]]
-          - [[#-24][/*/]]
+            - [[#-24][/*/]]
     - [[#morphism][<<<Morphism>>>]]
       - [[#-25][/*/]]
       - [[#homomorphism][<<<Homomorphism>>>]]
@@ -1584,6 +1584,11 @@ do
 Semigroup can be single object category only as a monoid, due to category identity requirement.
 
 Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
+
+****** /*/
+<<<Monoidal>>>
+<<<Monoids>>>
+
 ****** <<<Monoid laws>>> :drill:
 :PROPERTIES:
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
@@ -1615,6 +1620,7 @@ mconcat = foldr (mempty <>)
 #+end_src
 
 Everything associative can be =mappend=.
+
 ****** <<<Commutative monoid>>> :drill:
 :PROPERTIES:
 :ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
@@ -1627,10 +1633,6 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 
 ******* /*/
 <<<Abelian monoid>>>
-
-****** /*/
-<<<Monoidal>>>
-<<<Monoids>>>
 
 *** <<<Morphism>>> :drill:
 :PROPERTIES:
@@ -2946,11 +2948,13 @@ Also derives that the field of complex numbers is algebraically closed.
 :END:
   * set of elements
   * binary operation
-  * set is a closure under operation,
+  * set closed under operation
   * associativity of operation
   * identity element
   * inverse for every element (element operation with inverse gives identity)
- 
+
+All groups are monoids.
+
 *** /*/
 <<<Groups>>>
 *** <<<Commutative group>>>
