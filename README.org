@@ -4881,6 +4881,9 @@ Fundamental algebraic structure:
 
 Example: set of same size square matricies of numbers with matrix operations form a ring.
 
+*** /*/
+<<<Rings>>>
+
 ** <<<Distributive axiom>>>
 Set S and two binary operators ∗ and + on S, the operation:
 
