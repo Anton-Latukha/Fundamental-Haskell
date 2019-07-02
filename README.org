@@ -588,6 +588,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-121][/*/]]
   - [[#algebraic-structure][<<<Algebraic structure>>>]]
     - [[#-122][/*/]]
+  - [[#greek-and-latin-prefixes][Greek and latin prefixes]]
+    - [[#-123][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -644,7 +646,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-123][/*/]]
+    - [[#-124][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -4922,6 +4924,53 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 *** /*/
 <<<Algebraic structures>>>
+
+** Greek and latin prefixes
+| Meaning                 | Greek prefix      | Latin prefix         |
+|-------------------------+-------------------+----------------------|
+| above, excess           | hyper-            | super-, ultra-       |
+| across, beyond, through | dia-              | trans-               |
+| after                   |                   | post-                |
+| again, back             |                   | re-                  |
+| against                 | anti-             | contra-, (in-, ob-)  |
+| all                     | pan               | omni-                |
+| around                  | peri-             | circum-              |
+| away or from            | apo-, ap-         | ab- (or de-)         |
+| bad, difficult, wrong   | dys-              | mal-                 |
+| before                  | pro-              | ante-, pre-          |
+| between, among          |                   | inter-               |
+| both                    | amphi-            | ambi-                |
+| completely or very      |                   | de-, ob-             |
+| down                    |                   | de-, ob-             |
+| four                    | tetra-            | quad-                |
+| good                    | eu-               | ben-, bene-          |
+| half, partially         | hemi-             | semi-                |
+| in, into                | en-               | il-, im-, in-, ir-   |
+| in front of             | pro-              | pro-                 |
+| inside                  | endo-             | intra-               |
+| large                   | macro-            | (macro-, from Greek) |
+| many                    | poly-             | multi-               |
+| not*                    | a-, an-           | de-, dis-, in-, ob-  |
+| on                      | epi-              |                      |
+| one                     | mono-             | uni-                 |
+| out of                  | ek-               | ex-, e-              |
+| outside                 | ecto-, exo-       | extra-, extro-       |
+| over                    | epi-              | ob- (sometimes)      |
+| self                    | auto-, aut-,auth- | ego-                 |
+| small                   | micro-            |                      |
+| three                   | tri-              | tri-                 |
+| through                 | dia-              | trans-               |
+| to or toward            | epi-              | ad-, a-, ac-, as-    |
+| two                     | di-               | bi-                  |
+| under, insufficient     | hypo-             | sub-                 |
+| with                    | sym-, syn-        | co-. com-, con-      |
+| within, inside          | endo-             | intra-               |
+| without                 | a-, an-           | dis- (sometimes)     |
+
+*** /*/
+<<<Greek prefix>>>
+<<<Latin prefix>>>
+
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
