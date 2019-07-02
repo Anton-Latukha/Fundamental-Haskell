@@ -52,51 +52,56 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#][/*/]]
   - [[#algebra][<<<Algebra>>>]]
     - [[#-1][/*/]]
+  - [[#algebraic][<<<Algebraic>>>]]
+  - [[#algebraic-structure][<<<Algebraic structure>>>]]
+    - [[#-2][/*/]]
   - [[#alpha-equivalence][<<<Alpha equivalence>>>]]
   - [[#ambigram][<<<Ambigram>>>]]
   - [[#anamorphism][<<<Anamorphism>>>]]
+  - [[#ancient-greek-and-latin-prefixes][Ancient Greek and Latin prefixes]]
+    - [[#-3][/*/]]
   - [[#application][<<<Application>>>]]
   - [[#application-memory][<<<Application memory>>>]]
   - [[#arbitrary-function][<<<Arbitrary function>>>]]
   - [[#argument][<<<Argument>>>]]
   - [[#as-pattern][<<<As-pattern>>>]]
   - [[#assertion][<<<Assertion>>>]]
-    - [[#-2][/*/]]
+    - [[#-4][/*/]]
   - [[#associative-law][<<<Associative law>>>]]
-    - [[#-3][/*/]]
+    - [[#-5][/*/]]
   - [[#basis][<<<Basis>>>]]
   - [[#binary][<<<Binary>>>]]
   - [[#binary-tree][<<<Binary tree>>>]]
   - [[#bind][<<<Bind>>>]]
-    - [[#-4][/*/]]
-  - [[#bottom-value][<<<Bottom value>>>]]
-    - [[#-5][/*/]]
-  - [[#bound][<<<Bound>>>]]
     - [[#-6][/*/]]
-  - [[#cartesian-product][<<<Cartesian product>>>]]
+  - [[#bottom-value][<<<Bottom value>>>]]
     - [[#-7][/*/]]
+  - [[#bound][<<<Bound>>>]]
+    - [[#-8][/*/]]
+  - [[#cartesian-product][<<<Cartesian product>>>]]
+    - [[#-9][/*/]]
   - [[#case][<<<Case>>>]]
   - [[#category-theory][<<<Category theory>>>]]
-    - [[#-8][/*/]]
+    - [[#-10][/*/]]
     - [[#abelian-category][<<<Abelian category>>>]]
     - [[#composition][<<<Composition>>>]]
-      - [[#-9][/*/]]
+      - [[#-11][/*/]]
     - [[#endofunctor-category][<<<Endofunctor category>>>]]
     - [[#functor][<<<Functor>>>]]
-      - [[#-10][/*/]]
+      - [[#-12][/*/]]
       - [[#power-set-functor][<<<Power set functor>>>]]
         - [[#power-set-functor-laws][<<<Power set functor laws>>>]]
           - [[#power-set-functor-identity-law][<<<Power set functor identity law>>>]]
           - [[#power-set-functor-composition-law][<<<Power set functor composition law>>>]]
         - [[#lift][<<<Lift>>>]]
-          - [[#-11][/*/]]
+          - [[#-13][/*/]]
       - [[#forgetful-functor][<<<Forgetful functor>>>]]
-        - [[#-12][/*/]]
+        - [[#-14][/*/]]
       - [[#identity-functor][<<<Identity functor>>>]]
       - [[#endofunctor][<<<Endofunctor>>>]]
-        - [[#-13][/*/]]
+        - [[#-15][/*/]]
       - [[#applicative-functor][<<<Applicative functor>>>]]
-        - [[#-14][/*/]]
+        - [[#-16][/*/]]
         - [[#applicative-laws][<<<Applicative laws>>>]]
           - [[#applicative-identity-law][<<<Applicative identity law>>>]]
           - [[#applicative-composition-law][<<<Applicative composition law>>>]]
@@ -116,7 +121,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#either-applicative][<<<Either applicative>>>]]
           - [[#validation-applicative][<<<Validation applicative>>>]]
         - [[#monad][<<<Monad>>>]]
-          - [[#-15][/*/]]
+          - [[#-17][/*/]]
           - [[#monad-laws][<<<Monad laws>>>]]
             - [[#monad-left-identity-law][<<<Monad left identity law>>>]]
             - [[#monad-right-identity-law][<<<Monad right identity law>>>]]
@@ -128,11 +133,11 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#join-function][<<<Join function>>>]]
               - [[#joinfmap--][join.fmap == (=<<)]]
             - [[#bind-function][<<<Bind function>>>]]
-              - [[#-16][/*/]]
-                - [[#-17][(>>=)]]
-                - [[#-18][>>=]]
-                - [[#-19][(=<<)]]
-                - [[#-20][=<<]]
+              - [[#-18][/*/]]
+                - [[#-19][(>>=)]]
+                - [[#-20][>>=]]
+                - [[#-21][(=<<)]]
+                - [[#-22][=<<]]
             - [[#sequencing-operator---][<<<Sequencing operator>>> (>>) == (*>):]]
           - [[#maybe-monad][<<<Maybe monad>>>]]
           - [[#either-monad][<<<Either monad>>>]]
@@ -140,30 +145,30 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
       - [[#fusion][<<<Fusion>>>]]
     - [[#hask-category][<<<Hask category>>>]]
-      - [[#-21][/*/]]
+      - [[#-23][/*/]]
     - [[#magma][<<<Magma>>>]]
       - [[#mag-category][<<<MAG category>>>]]
-        - [[#-22][/*/]]
+        - [[#-24][/*/]]
       - [[#semigroup][<<<Semigroup>>>]]
-        - [[#-23][/*/]]
+        - [[#-25][/*/]]
         - [[#monoid][<<<Monoid>>>]]
-          - [[#-24][/*/]]
+          - [[#-26][/*/]]
           - [[#monoid-laws][<<<Monoid laws>>>]]
             - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
             - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
             - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
           - [[#commutative-monoid][<<<Commutative monoid>>>]]
-            - [[#-25][/*/]]
+            - [[#-27][/*/]]
           - [[#group][<<<Group>>>]]
-            - [[#-26][/*/]]
+            - [[#-28][/*/]]
             - [[#commutative-group][<<<Commutative group>>>]]
-              - [[#-27][/*/]]
+              - [[#-29][/*/]]
               - [[#ring][<<<Ring>>>]]
-                - [[#-28][/*/]]
+                - [[#-30][/*/]]
     - [[#morphism][<<<Morphism>>>]]
-      - [[#-29][/*/]]
+      - [[#-31][/*/]]
       - [[#homomorphism][<<<Homomorphism>>>]]
-        - [[#-30][/*/]]
+        - [[#-32][/*/]]
       - [[#identity-morphism][<<<Identity morphism>>>]]
         - [[#identity][<<<Identity>>>]]
           - [[#two-sided-identity-of-a-predicate][<<<Two-sided identity of a predicate>>>]]
@@ -171,161 +176,165 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#right-identity-of-a-predicate][<<<Right identity of a predicate>>>]]
         - [[#identity-function][<<<Identity function>>>]]
       - [[#monomorphism][<<<Monomorphism>>>]]
-        - [[#-31][/*/]]
-      - [[#epimorphism][<<<Epimorphism>>>]]
-        - [[#-32][/*/]]
-      - [[#isomorphism][<<<Isomorphism>>>]]
         - [[#-33][/*/]]
+      - [[#epimorphism][<<<Epimorphism>>>]]
+        - [[#-34][/*/]]
+      - [[#isomorphism][<<<Isomorphism>>>]]
+        - [[#-35][/*/]]
       - [[#endomorphism][<<<Endomorphism>>>]]
         - [[#automorphism][<<<Automorphism>>>]]
-          - [[#-34][/*/]]
-        - [[#-35][/*/]]
+          - [[#-36][/*/]]
+        - [[#-37][/*/]]
       - [[#catamorphism][<<<Catamorphism>>>]]
-        - [[#-36][/*/]]
+        - [[#-38][/*/]]
       - [[#kernel][<<<Kernel>>>]]
         - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
     - [[#object][<<<Object>>>]]
-      - [[#-37][/*/]]
+      - [[#-39][/*/]]
       - [[#terminal-object][<<<Terminal object>>>]]
       - [[#initial-object][<<<Initial object>>>]]
     - [[#set-category][<<<SET category>>>]]
     - [[#natural-transformation][<<<Natural transformation>>>]]
-      - [[#-38][/*/]]
+      - [[#-40][/*/]]
       - [[#natural-transformation-component][<<<Natural transformation component>>>]]
-        - [[#-39][/*/]]
+        - [[#-41][/*/]]
       - [[#natural-transformation-in-haskell][Natural transformation in Haskell]]
     - [[#hom-set][<<<Hom set>>>]]
     - [[#category-dual][<<<Category dual>>>]]
-          - [[#-40][/*/]]
+          - [[#-42][/*/]]
   - [[#closure][<<<Closure>>>]]
-    - [[#-41][/*/]]
+    - [[#-43][/*/]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#commutative-law][<<<Commutative law>>>]]
-    - [[#-42][/*/]]
+    - [[#-44][/*/]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#conjunction][<<<Conjunction>>>]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#context][<<<Context>>>]]
-    - [[#-43][/*/]]
+    - [[#-45][/*/]]
   - [[#contravariant][<<<Contravariant>>>]]
-    - [[#-44][/*/]]
+    - [[#-46][/*/]]
   - [[#covariant][<<<Covariant>>>]]
   - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
   - [[#covariant-functor][<<<Covariant functor>>>]]
   - [[#data-type][<<<Data type>>>]]
-    - [[#-45][/*/]]
+    - [[#-47][/*/]]
     - [[#actual-type][<<<Actual type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-46][/*/]]
+      - [[#-48][/*/]]
     - [[#cardinality][<<<Cardinality>>>]]
     - [[#data-constant][Data <<<constant>>>]]
-      - [[#-47][/*/]]
+      - [[#-49][/*/]]
     - [[#data-constructor][<<<Data constructor>>>]]
     - [[#data-declaration][<<<data declaration>>>]]
     - [[#dependent-type][<<<Dependent type>>>]]
     - [[#gen-type][<<<Gen type>>>]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
-      - [[#-48][/*/]]
+      - [[#-50][/*/]]
     - [[#newtype-declaration][<<<newtype declaration>>>]]
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-49][/*/]]
+      - [[#-51][/*/]]
     - [[#structural-type-system][<<<Structural type system>>>]]
-      - [[#-50][/*/]]
+      - [[#-52][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-51][/*/]]
+      - [[#-53][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
-        - [[#-52][/*/]]
+        - [[#-54][/*/]]
       - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
-        - [[#-53][/*/]]
+        - [[#-55][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
-        - [[#-54][/*/]]
+        - [[#-56][/*/]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
     - [[#type-inference][<<<Type inference>>>]]
-      - [[#-55][/*/]]
+      - [[#-57][/*/]]
     - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-56][/*/]]
+      - [[#-58][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-57][/*/]]
-      - [[#-58][/*/]]
+      - [[#-59][/*/]]
+      - [[#-60][/*/]]
     - [[#data-structure][<<<Data structure>>>]]
       - [[#cons-cell][<<<Cons cell>>>]]
       - [[#construct][<<<Construct>>>]]
-        - [[#-59][/*/]]
+        - [[#-61][/*/]]
       - [[#leaf][<<<Leaf>>>]]
       - [[#node][<<<Node>>>]]
     - [[#linear-type][<<<Linear type>>>]]
-      - [[#-60][/*/]]
+      - [[#-62][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-61][/*/]]
+    - [[#-63][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
+  - [[#distributive-axiom][<<<Distributive axiom>>>]]
+    - [[#-64][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#effect][<<<Effect>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
   - [[#expression][<<<Expression>>>]]
-    - [[#-62][/*/]]
+    - [[#-65][/*/]]
     - [[#closed-form-expression][<<<Closed-form expression>>>]]
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
   - [[#first-class][<<<First-class>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-63][/*/]]
+    - [[#-66][/*/]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#-64][/*/]]
+    - [[#-67][/*/]]
     - [[#arity][<<<Arity>>>]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-65][/*/]]
+      - [[#-68][/*/]]
     - [[#combinator][<<<Combinator>>>]]
     - [[#function-application][<<<Function application>>>]]
-      - [[#-66][/*/]]
+      - [[#-69][/*/]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-67][/*/]]
+      - [[#-70][/*/]]
     - [[#function-head][<<<Function head>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#higher-order-function][<<<Higher-order function>>>]]
-      - [[#-68][/*/]]
+      - [[#-71][/*/]]
       - [[#fold][<<<Fold>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-69][/*/]]
+      - [[#-72][/*/]]
     - [[#partial-function][<<<Partial function>>>]]
     - [[#purity][<<<Purity>>>]]
-      - [[#-70][/*/]]
+      - [[#-73][/*/]]
     - [[#sectioning][<<<Sectioning>>>]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-71][/*/]]
+      - [[#-74][/*/]]
     - [[#unsafe][<<<Unsafe>>>]]
     - [[#variadic][<<<Variadic>>>]]
     - [[#domain][<<<Domain>>>]]
     - [[#codomain][<<<Codomain>>>]]
     - [[#open-formula][<<<Open formula>>>]]
     - [[#recursion][<<<Recursion>>>]]
-      - [[#-72][/*/]]
+      - [[#-75][/*/]]
       - [[#base-case][<<<Base case>>>]]
       - [[#tail-recursion][<<<Tail recursion>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
+  - [[#homotopy][<<<Homotopy>>>]]
+    - [[#-76][/*/]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-73][/*/]]
+    - [[#-77][/*/]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -334,77 +343,80 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#io][<<<IO>>>]]
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-74][/*/]]
+    - [[#-78][/*/]]
     - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
     - [[#lambda-cube][<<<Lambda cube>>>]]
-      - [[#-75][/*/]]
+      - [[#-79][/*/]]
     - [[#lambda-function][<<<Lambda function>>>]]
       - [[#lambda-expression][<<<Lambda expression>>>]]
       - [[#anonymous-function][<<<Anonymous function>>>]]
     - [[#beta-normal-form][<<<Beta normal form>>>]]
-      - [[#-76][/*/]]
+      - [[#-80][/*/]]
     - [[#beta-reduction][<<<Beta reduction>>>]]
     - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
-      - [[#-77][/*/]]
+      - [[#-81][/*/]]
     - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
-      - [[#-78][/*/]]
+      - [[#-82][/*/]]
     - [[#currying][<<<Currying>>>]]
     - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
     - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
     - [[#reduction][<<<Reduction>>>]]
-      - [[#-79][/*/]]
+      - [[#-83][/*/]]
   - [[#left-associative][<<<Left associative>>>]]
+  - [[#lense][<<<Lense>>>]]
   - [[#level-of-code][<<<Level of code>>>]]
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-80][/*/]]
+      - [[#-84][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-81][/*/]]
+    - [[#-85][/*/]]
   - [[#lexical-scope][<<<Lexical scope>>>]]
-    - [[#-82][/*/]]
+    - [[#-86][/*/]]
   - [[#local-scope][<<<Local scope>>>]]
-    - [[#-83][/*/]]
+    - [[#-87][/*/]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
   - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#nothing][<<<Nothing>>>]]
   - [[#operation][<<<Operation>>>]]
     - [[#binary-operation][<<<Binary operation>>>]]
-      - [[#-84][/*/]]
+      - [[#-88][/*/]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-85][/*/]]
+      - [[#-89][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-86][/*/]]
+    - [[#-90][/*/]]
   - [[#partial-application][<<<Partial application>>>]]
-    - [[#-87][/*/]]
+    - [[#-91][/*/]]
+  - [[#pattern-guard][<<<Pattern guard>>>]]
+    - [[#-92][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-88][/*/]]
+      - [[#-93][/*/]]
     - [[#blackbird][<<<Blackbird>>>]]
-      - [[#-89][/*/]]
+      - [[#-94][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
-    - [[#-90][/*/]]
+    - [[#-95][/*/]]
   - [[#polymorphism][<<<Polymorphism>>>]]
-    - [[#-91][/*/]]
+    - [[#-96][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-92][/*/]]
+        - [[#-97][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
           - [[#constraint][<<<Constraint>>>]]
-            - [[#-93][/*/]]
+            - [[#-98][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-94][/*/]]
+        - [[#-99][/*/]]
       - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
-        - [[#-95][/*/]]
+        - [[#-100][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -445,13 +457,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-96][/*/]]
+    - [[#-101][/*/]]
   - [[#quantifier][<<<Quantifier>>>]]
-    - [[#-97][/*/]]
+    - [[#-102][/*/]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-98][/*/]]
+      - [[#-103][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-99][/*/]]
+    - [[#-104][/*/]]
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
@@ -460,7 +472,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-100][/*/]]
+    - [[#-105][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set-1][<<<Hom-set>>>]]
@@ -476,13 +488,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#system-f][<<<System F>>>]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-101][/*/]]
+    - [[#-106][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-102][/*/]]
+        - [[#-107][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -497,20 +509,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-103][/*/]]
-  - [[#zero][<<<Zero>>>]]
-  - [[#algebraic][<<<Algebraic>>>]]
-  - [[#homotopy][<<<Homotopy>>>]]
-    - [[#-104][/*/]]
-  - [[#ancient-greek-and-latin-prefixes][Ancient Greek and Latin prefixes]]
-    - [[#-105][/*/]]
-  - [[#distributive-axiom][<<<Distributive axiom>>>]]
-    - [[#-106][/*/]]
-  - [[#algebraic-structure][<<<Algebraic structure>>>]]
-    - [[#-107][/*/]]
-  - [[#lense][<<<Lense>>>]]
-  - [[#pattern-guard][<<<Pattern guard>>>]]
     - [[#-108][/*/]]
+  - [[#zero][<<<Zero>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -726,6 +726,38 @@ A system of algebra based on given axioms.
 2) Algebra - vector space over a field with a multiplication.
 *** /*/
 <<<Algebras>>>
+** <<<Algebraic>>> :drill:
+:PROPERTIES:
+:ID:       c97061e0-d726-44d0-bd18-fd1288c46a52
+:END:
+Composite from simple parts.
+Also: Algebraic data type.
+
+** <<<Algebraic structure>>> :drill:
+
+Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
+The set A with this structure is also called an algebra.
+
+Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
+
+"Group-like structures":
+|                   | Closure | Associativity | Identity | Invertability | Commutativity |
+|-------------------+---------+---------------+----------+---------------+---------------|
+| Semigroupoid      |         | \check             |          |               |               |
+| Small Category    |         | \check             | \check        |               |               |
+| Groupoid          |         | \check             | \check        | \check             |               |
+| Magma             | \check       |               |          |               |               |
+| Quasigroup        | \check       |               |          | \check             |               |
+| Loop              | \check       |               | \check        | \check             |               |
+| Semigroup         | \check       | \check             |          |               |               |
+| Inverse Semigroup | \check       | \check             |          | \check             |               |
+| Monoid            | \check       | \check             | \check        |               |               |
+| Group             | \check       | \check             | \check        | \check             |               |
+| Abelian group     | \check       | \check             | \check        | \check             | \check             |
+
+*** /*/
+<<<Algebraic structures>>>
+
 ** <<<Alpha equivalence>>> :drill:
 :PROPERTIES:
 :ID:       83ea3e34-0c72-4976-abaa-875767736cea
@@ -761,6 +793,52 @@ But it has... Both.
 :END:
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
+** Ancient Greek and Latin prefixes :drill:
+| Meaning                 | Greek prefix      | Latin prefix         |
+|-------------------------+-------------------+----------------------|
+| above, excess           | hyper-            | super-, ultra-       |
+| across, beyond, through | dia-              | trans-               |
+| after                   |                   | post-                |
+| again, back             |                   | re-                  |
+| against                 | anti-             | contra-, (in-, ob-)  |
+| all                     | pan               | omni-                |
+| around                  | peri-             | circum-              |
+| away or from            | apo-, ap-         | ab- (or de-)         |
+| bad, difficult, wrong   | dys-              | mal-                 |
+| before                  | pro-              | ante-, pre-          |
+| between, among          |                   | inter-               |
+| both                    | amphi-            | ambi-                |
+| completely or very      |                   | de-, ob-             |
+| down                    |                   | de-, ob-             |
+| four                    | tetra-            | quad-                |
+| good                    | eu-               | ben-, bene-          |
+| half, partially         | hemi-             | semi-                |
+| in, into                | en-               | il-, im-, in-, ir-   |
+| in front of             | pro-              | pro-                 |
+| inside                  | endo-             | intra-               |
+| large                   | macro-            | (macro-, from Greek) |
+| many                    | poly-             | multi-               |
+| not*                    | a-, an-           | de-, dis-, in-, ob-  |
+| on                      | epi-              |                      |
+| one                     | mono-             | uni-                 |
+| out of                  | ek-               | ex-, e-              |
+| outside                 | ecto-, exo-       | extra-, extro-       |
+| over                    | epi-              | ob- (sometimes)      |
+| self                    | auto-, aut-,auth- | ego-                 |
+| small                   | micro-            |                      |
+| three                   | tri-              | tri-                 |
+| through                 | dia-              | trans-               |
+| to or toward            | epi-              | ad-, a-, ac-, as-    |
+| two                     | di-               | bi-                  |
+| under, insufficient     | hypo-             | sub-                 |
+| with                    | sym-, syn-        | co-. com-, con-      |
+| within, inside          | endo-             | intra-               |
+| without                 | a-, an-           | dis- (sometimes)     |
+
+*** /*/
+<<<Greek prefix>>>
+<<<Latin prefix>>>
+
 ** <<<Application>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
@@ -2614,6 +2692,18 @@ OR
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :END:
 Send, transmission, reference.
+** <<<Distributive axiom>>> :drill:
+Set S and two binary operators + \times:
+
+  * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
+  * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
+  * left-&right-distributive - \times is distributive over +
+
+*** /*/
+<<<Distributive rule>>>
+<<<Distributive property>>>
+<<<Distributive law>>>
+
 ** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
 :ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
@@ -3002,6 +3092,21 @@ Also derives that the field of complex numbers is algebraically closed.
 :END:
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 Monkey patch is derivative term.
+** <<<Homotopy>>> :drill:
+:PROPERTIES:
+:ID:       4b3fc811-290c-4462-aaa6-208134e9e591
+:END:
+ὁμός homós same
+
+One can be "continuously deformed" into the other.
+
+For example - functions, functors.
+Natural transformation is a homotopy of functors.
+
+*** /*/
+<<<Homotopies>>>
+<<<Homotopic>>>
+
 ** <<<Idempotence>>> :drill:
 :PROPERTIES:
 :ID:       1c821458-dd2b-4112-aa32-416e27b161ba
@@ -3215,6 +3320,12 @@ See Beta reduction
 :END:
 Same level expression parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
+** <<<Lense>>> :drill:
+:PROPERTIES:
+:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
+:END:
+Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
+
 ** <<<Level of code>>> :drill:
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
@@ -3385,6 +3496,29 @@ Contrary to the argument wich is a supplied value to a function.
 Part of function parameters applied.
 *** /*/
 <<<Partially applied>>>
+** <<<Pattern guard>>> :drill:
+Allows check a list of pattern matches against functions, and then proceed.
+
+| (/pattern1/) <- (/funcCheck1/)
+, (/pattern2/) <- (/funcCheck2/)
+= /LHS/
+
+#+begin_src haskell
+lookup :: FiniteMap -> Int -> Maybe Int
+
+addLookup env var1 var2
+   | Just val1 <- lookup env var1
+   , Just val2 <- lookup env var2
+   = val1 + val2
+{-...other equations...-}
+#+end_src
+check both to succeed, bind results to val1, val2, then proceed to the equation.
+
+Default in Haskell 2010.
+
+*** /*/
+<<<Pattern guards>>>
+
 ** <<<Permutation>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -4097,6 +4231,7 @@ Non-self-referencing definition.
 ---
 
 /Antonym - Impredicative./
+
 ** <<<Principle of compositionality>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -4111,6 +4246,7 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
 The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
+
 ** <<<\Psi-combinator>>> :drill:
 SCHT: <2019-07-03 Wed>
 :PROPERTIES:
@@ -4129,9 +4265,11 @@ Transforms two of the same type into one of some type. By applying mediate trans
 import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
+
 *** /*/
 <<<Psi-combinator>>>
 <<<On-combinator>>>
+
 ** <<<Quantifier>>> :drill:
 SCHT: <2019-08-01 Thu>
 :PROPERTIES:
@@ -4637,140 +4775,6 @@ SCHT: <2019-07-30 Tue>
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from Identity value.
-** <<<Algebraic>>> :drill:
-:PROPERTIES:
-:ID:       c97061e0-d726-44d0-bd18-fd1288c46a52
-:END:
-Composite from simple parts.
-Also: Algebraic data type.
-
-** <<<Homotopy>>> :drill:
-:PROPERTIES:
-:ID:       4b3fc811-290c-4462-aaa6-208134e9e591
-:END:
-ὁμός homós same
-
-One can be "continuously deformed" into the other.
-
-For example - functions, functors.
-Natural transformation is a homotopy of functors.
-
-*** /*/
-<<<Homotopies>>>
-<<<Homotopic>>>
-
-** Ancient Greek and Latin prefixes :drill:
-| Meaning                 | Greek prefix      | Latin prefix         |
-|-------------------------+-------------------+----------------------|
-| above, excess           | hyper-            | super-, ultra-       |
-| across, beyond, through | dia-              | trans-               |
-| after                   |                   | post-                |
-| again, back             |                   | re-                  |
-| against                 | anti-             | contra-, (in-, ob-)  |
-| all                     | pan               | omni-                |
-| around                  | peri-             | circum-              |
-| away or from            | apo-, ap-         | ab- (or de-)         |
-| bad, difficult, wrong   | dys-              | mal-                 |
-| before                  | pro-              | ante-, pre-          |
-| between, among          |                   | inter-               |
-| both                    | amphi-            | ambi-                |
-| completely or very      |                   | de-, ob-             |
-| down                    |                   | de-, ob-             |
-| four                    | tetra-            | quad-                |
-| good                    | eu-               | ben-, bene-          |
-| half, partially         | hemi-             | semi-                |
-| in, into                | en-               | il-, im-, in-, ir-   |
-| in front of             | pro-              | pro-                 |
-| inside                  | endo-             | intra-               |
-| large                   | macro-            | (macro-, from Greek) |
-| many                    | poly-             | multi-               |
-| not*                    | a-, an-           | de-, dis-, in-, ob-  |
-| on                      | epi-              |                      |
-| one                     | mono-             | uni-                 |
-| out of                  | ek-               | ex-, e-              |
-| outside                 | ecto-, exo-       | extra-, extro-       |
-| over                    | epi-              | ob- (sometimes)      |
-| self                    | auto-, aut-,auth- | ego-                 |
-| small                   | micro-            |                      |
-| three                   | tri-              | tri-                 |
-| through                 | dia-              | trans-               |
-| to or toward            | epi-              | ad-, a-, ac-, as-    |
-| two                     | di-               | bi-                  |
-| under, insufficient     | hypo-             | sub-                 |
-| with                    | sym-, syn-        | co-. com-, con-      |
-| within, inside          | endo-             | intra-               |
-| without                 | a-, an-           | dis- (sometimes)     |
-
-*** /*/
-<<<Greek prefix>>>
-<<<Latin prefix>>>
-
-** <<<Distributive axiom>>> :drill:
-Set S and two binary operators + \times:
-
-  * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
-  * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
-  * left-&right-distributive - \times is distributive over +
-
-*** /*/
-<<<Distributive rule>>>
-<<<Distributive property>>>
-<<<Distributive law>>>
-
-** <<<Algebraic structure>>> :drill:
-
-Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
-The set A with this structure is also called an algebra.
-
-Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
-
-"Group-like structures":
-|                   | Closure | Associativity | Identity | Invertability | Commutativity |
-|-------------------+---------+---------------+----------+---------------+---------------|
-| Semigroupoid      |         | \check             |          |               |               |
-| Small Category    |         | \check             | \check        |               |               |
-| Groupoid          |         | \check             | \check        | \check             |               |
-| Magma             | \check       |               |          |               |               |
-| Quasigroup        | \check       |               |          | \check             |               |
-| Loop              | \check       |               | \check        | \check             |               |
-| Semigroup         | \check       | \check             |          |               |               |
-| Inverse Semigroup | \check       | \check             |          | \check             |               |
-| Monoid            | \check       | \check             | \check        |               |               |
-| Group             | \check       | \check             | \check        | \check             |               |
-| Abelian group     | \check       | \check             | \check        | \check             | \check             |
-
-*** /*/
-<<<Algebraic structures>>>
-
-** <<<Lense>>> :drill:
-:PROPERTIES:
-:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
-:END:
-Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
-
-** <<<Pattern guard>>> :drill:
-Allows check a list of pattern matches against functions, and then proceed.
-
-| (/pattern1/) <- (/funcCheck1/)
-, (/pattern2/) <- (/funcCheck2/)
-= /LHS/
-
-#+begin_src haskell
-lookup :: FiniteMap -> Int -> Maybe Int
-
-addLookup env var1 var2
-   | Just val1 <- lookup env var1
-   , Just val2 <- lookup env var2
-   = val1 + val2
-{-...other equations...-}
-#+end_src
-check both to succeed, bind results to val1, val2, then proceed to the equation.
-
-Default in Haskell 2010.
-
-*** /*/
-<<<Pattern guards>>>
-
 * Give definitions
 
 ** <<<Commuting diagram>>>
