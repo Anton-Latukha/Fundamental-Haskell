@@ -1653,14 +1653,7 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 :PROPERTIES:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
-  * set of elements
-  * binary operation
-  * set closed under operation
-  * associativity of operation
-  * identity element
-  * inverse for every element (element operation with inverse gives identity)
-
-All groups are monoids.
+Monoid with inverse for every element (element operation with inverse gives identity)
 
 ******* /*/
 <<<Groups>>>
