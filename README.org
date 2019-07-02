@@ -215,126 +215,125 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#contravariant][<<<Contravariant>>>]]
     - [[#-46][/*/]]
   - [[#covariant][<<<Covariant>>>]]
-  - [[#covariant-cofunctor][<<<Covariant cofunctor>>>]]
-  - [[#covariant-functor][<<<Covariant functor>>>]]
-  - [[#data-type][<<<Data type>>>]]
     - [[#-47][/*/]]
+  - [[#data-type][<<<Data type>>>]]
+    - [[#-48][/*/]]
     - [[#actual-type][<<<Actual type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-48][/*/]]
+      - [[#-49][/*/]]
     - [[#cardinality][<<<Cardinality>>>]]
     - [[#data-constant][Data <<<constant>>>]]
-      - [[#-49][/*/]]
+      - [[#-50][/*/]]
     - [[#data-constructor][<<<Data constructor>>>]]
     - [[#data-declaration][<<<data declaration>>>]]
     - [[#dependent-type][<<<Dependent type>>>]]
     - [[#gen-type][<<<Gen type>>>]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
-      - [[#-50][/*/]]
+      - [[#-51][/*/]]
     - [[#newtype-declaration][<<<newtype declaration>>>]]
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-51][/*/]]
-    - [[#structural-type-system][<<<Structural type system>>>]]
       - [[#-52][/*/]]
+    - [[#structural-type-system][<<<Structural type system>>>]]
+      - [[#-53][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-53][/*/]]
+      - [[#-54][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
-        - [[#-54][/*/]]
-      - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
         - [[#-55][/*/]]
+      - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
+        - [[#-56][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
-        - [[#-56][/*/]]
+        - [[#-57][/*/]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
     - [[#type-inference][<<<Type inference>>>]]
-      - [[#-57][/*/]]
+      - [[#-58][/*/]]
     - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-58][/*/]]
+      - [[#-59][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-59][/*/]]
       - [[#-60][/*/]]
+      - [[#-61][/*/]]
     - [[#data-structure][<<<Data structure>>>]]
       - [[#cons-cell][<<<Cons cell>>>]]
       - [[#construct][<<<Construct>>>]]
-        - [[#-61][/*/]]
+        - [[#-62][/*/]]
       - [[#leaf][<<<Leaf>>>]]
       - [[#node][<<<Node>>>]]
     - [[#linear-type][<<<Linear type>>>]]
-      - [[#-62][/*/]]
+      - [[#-63][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-63][/*/]]
+    - [[#-64][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
   - [[#dispatch][<<<Dispatch>>>]]
   - [[#distributive-axiom][<<<Distributive axiom>>>]]
-    - [[#-64][/*/]]
+    - [[#-65][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#effect][<<<Effect>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
   - [[#expression][<<<Expression>>>]]
-    - [[#-65][/*/]]
+    - [[#-66][/*/]]
     - [[#closed-form-expression][<<<Closed-form expression>>>]]
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
   - [[#first-class][<<<First-class>>>]]
   - [[#first-order-logic][<<<First-order logic>>>]]
-    - [[#-66][/*/]]
+    - [[#-67][/*/]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#-67][/*/]]
+    - [[#-68][/*/]]
     - [[#arity][<<<Arity>>>]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-68][/*/]]
+      - [[#-69][/*/]]
     - [[#combinator][<<<Combinator>>>]]
     - [[#function-application][<<<Function application>>>]]
-      - [[#-69][/*/]]
+      - [[#-70][/*/]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-70][/*/]]
+      - [[#-71][/*/]]
     - [[#function-head][<<<Function head>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#higher-order-function][<<<Higher-order function>>>]]
-      - [[#-71][/*/]]
+      - [[#-72][/*/]]
       - [[#fold][<<<Fold>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-72][/*/]]
+      - [[#-73][/*/]]
     - [[#partial-function][<<<Partial function>>>]]
     - [[#purity][<<<Purity>>>]]
-      - [[#-73][/*/]]
+      - [[#-74][/*/]]
     - [[#sectioning][<<<Sectioning>>>]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-74][/*/]]
+      - [[#-75][/*/]]
     - [[#unsafe][<<<Unsafe>>>]]
     - [[#variadic][<<<Variadic>>>]]
     - [[#domain][<<<Domain>>>]]
     - [[#codomain][<<<Codomain>>>]]
     - [[#open-formula][<<<Open formula>>>]]
     - [[#recursion][<<<Recursion>>>]]
-      - [[#-75][/*/]]
+      - [[#-76][/*/]]
       - [[#base-case][<<<Base case>>>]]
       - [[#tail-recursion][<<<Tail recursion>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#homotopy][<<<Homotopy>>>]]
-    - [[#-76][/*/]]
+    - [[#-77][/*/]]
   - [[#idempotence][<<<Idempotence>>>]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-77][/*/]]
+    - [[#-78][/*/]]
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
@@ -343,80 +342,80 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#io][<<<IO>>>]]
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-78][/*/]]
+    - [[#-79][/*/]]
     - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
     - [[#lambda-cube][<<<Lambda cube>>>]]
-      - [[#-79][/*/]]
+      - [[#-80][/*/]]
     - [[#lambda-function][<<<Lambda function>>>]]
       - [[#lambda-expression][<<<Lambda expression>>>]]
       - [[#anonymous-function][<<<Anonymous function>>>]]
     - [[#beta-normal-form][<<<Beta normal form>>>]]
-      - [[#-80][/*/]]
+      - [[#-81][/*/]]
     - [[#beta-reduction][<<<Beta reduction>>>]]
     - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
-      - [[#-81][/*/]]
-    - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
       - [[#-82][/*/]]
+    - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
+      - [[#-83][/*/]]
     - [[#currying][<<<Currying>>>]]
     - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
     - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
     - [[#reduction][<<<Reduction>>>]]
-      - [[#-83][/*/]]
+      - [[#-84][/*/]]
   - [[#left-associative][<<<Left associative>>>]]
   - [[#lense][<<<Lense>>>]]
   - [[#level-of-code][<<<Level of code>>>]]
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-84][/*/]]
+      - [[#-85][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-85][/*/]]
-  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-86][/*/]]
-  - [[#local-scope][<<<Local scope>>>]]
+  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-87][/*/]]
+  - [[#local-scope][<<<Local scope>>>]]
+    - [[#-88][/*/]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
   - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#nothing][<<<Nothing>>>]]
   - [[#operation][<<<Operation>>>]]
     - [[#binary-operation][<<<Binary operation>>>]]
-      - [[#-88][/*/]]
+      - [[#-89][/*/]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-89][/*/]]
+      - [[#-90][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-90][/*/]]
-  - [[#partial-application][<<<Partial application>>>]]
     - [[#-91][/*/]]
-  - [[#pattern-guard][<<<Pattern guard>>>]]
+  - [[#partial-application][<<<Partial application>>>]]
     - [[#-92][/*/]]
+  - [[#pattern-guard][<<<Pattern guard>>>]]
+    - [[#-93][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-93][/*/]]
-    - [[#blackbird][<<<Blackbird>>>]]
       - [[#-94][/*/]]
+    - [[#blackbird][<<<Blackbird>>>]]
+      - [[#-95][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
-    - [[#-95][/*/]]
-  - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#-96][/*/]]
+  - [[#polymorphism][<<<Polymorphism>>>]]
+    - [[#-97][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-97][/*/]]
+        - [[#-98][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
           - [[#constraint][<<<Constraint>>>]]
-            - [[#-98][/*/]]
+            - [[#-99][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-99][/*/]]
-      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
         - [[#-100][/*/]]
+      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
+        - [[#-101][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -457,13 +456,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-101][/*/]]
-  - [[#quantifier][<<<Quantifier>>>]]
     - [[#-102][/*/]]
+  - [[#quantifier][<<<Quantifier>>>]]
+    - [[#-103][/*/]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-103][/*/]]
+      - [[#-104][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-104][/*/]]
+    - [[#-105][/*/]]
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
@@ -472,7 +471,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-105][/*/]]
+    - [[#-106][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set-1][<<<Hom-set>>>]]
@@ -488,13 +487,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#system-f][<<<System F>>>]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-106][/*/]]
+    - [[#-107][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-107][/*/]]
+        - [[#-108][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -509,7 +508,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-108][/*/]]
+    - [[#-109][/*/]]
   - [[#zero][<<<Zero>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
@@ -521,16 +520,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-109][/*/]]
+    - [[#-110][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-110][/*/]]
-  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-111][/*/]]
-  - [[#function-image][<<<Function image>>>]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-112][/*/]]
+  - [[#function-image][<<<Function image>>>]]
+    - [[#-113][/*/]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
@@ -544,13 +543,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-113][/*/]]
+      - [[#-114][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-114][/*/]]
+    - [[#-115][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -558,32 +557,32 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#preorder][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-115][/*/]]
+        - [[#-116][/*/]]
     - [[#partial-order][<<<Partial order>>>]]
     - [[#total-order][<<<Total order>>>]]
     - [[#preorder-1][<<<Preorder>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-116][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-117][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-118][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-119][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-120][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-121][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-122][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-123][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-123][/*/]]
+    - [[#-124][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-124][/*/]]
+    - [[#-125][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
   - [[#property][<<<Property>>>]]
@@ -647,7 +646,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-125][/*/]]
+    - [[#-126][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -686,6 +685,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 :PROPERTIES:
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :END:
+
 ** <<<Abstraction>>> :drill:
 :PROPERTIES:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
@@ -734,6 +734,9 @@ Composite from simple parts.
 Also: Algebraic data type.
 
 ** <<<Algebraic structure>>> :drill:
+:PROPERTIES:
+:ID:       dcbe48e5-d7dd-400d-9963-d4e00d474b84
+:END:
 
 Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
 The set A with this structure is also called an algebra.
@@ -794,6 +797,9 @@ But it has... Both.
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 ** Ancient Greek and Latin prefixes :drill:
+:PROPERTIES:
+:ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
+:END:
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
@@ -1745,6 +1751,9 @@ Group operation obeys the axiom of commutativity.
 <<<Abelian group>>>
 
 ******** <<<Ring>>> :drill:
+:PROPERTIES:
+:ID:       437c3602-cfc2-4cd1-bdba-be9e0db9c8f8
+:END:
 Commutative group under + & magma under \times, + \times connected by distributive property.
 
 + and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
@@ -2693,6 +2702,9 @@ OR
 :END:
 Send, transmission, reference.
 ** <<<Distributive axiom>>> :drill:
+:PROPERTIES:
+:ID:       6ea04559-091b-4151-b190-e97a88bb317a
+:END:
 Set S and two binary operators + \times:
 
   * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
@@ -2975,6 +2987,14 @@ Corresponds to Monomorphism.
 *** <<<Partial function>>> :drill:
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:35]
 :END:
 One that does not cover all domain.
 Unsafe and causes trouble.
@@ -3497,6 +3517,9 @@ Part of function parameters applied.
 *** /*/
 <<<Partially applied>>>
 ** <<<Pattern guard>>> :drill:
+:PROPERTIES:
+:ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
+:END:
 Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
@@ -5144,8 +5167,17 @@ But it is a way better then:
 :END:
 BigData and OLAP analysis.
 ** <<<Good: Functor application>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       67dab545-6f12-4d3a-b8c7-acfc0f267d03
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:34]
 :END:
 Function application on n levels beneath:
 #+begin_src haskell
