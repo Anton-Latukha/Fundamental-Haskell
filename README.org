@@ -2192,16 +2192,10 @@ Denotation:
 Components for covariant basis denoted in the upper indices:
 $$ V_{i} = x $$
 
-** <<<Covariant cofunctor>>> :drill:
-:PROPERTIES:
-:ID:       f53b176d-6377-4a9b-aa0b-40a4c7531cb4
-:END:
-See Covariant.
-** <<<Covariant functor>>> :drill:
-:PROPERTIES:
-:ID:       c9502e88-5005-4d6e-9615-bfacae3bde2d
-:END:
-More inline term is Covariant cofunctor
+*** /*/
+<<<Covariant functor>>>
+<<<Covariant cofunctor>>>
+
 ** <<<Data type>>> :drill:
 :PROPERTIES:
 :ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
