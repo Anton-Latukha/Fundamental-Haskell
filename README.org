@@ -972,6 +972,7 @@ In majority cases under object is a state and morphism is a change.
 *** /*/
 <<<Category>>>
 <<<Categories>>>
+
 *** <<<Abelian category>>> :drill:
 SCHT: <2019-07-04 Thu>
 :PROPERTIES:
@@ -993,6 +994,9 @@ Is which:
   * all monomorphism's and epimorphism's are normal.
 Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
+
+There is notion of Abelian monoid (AKS Commutative monoid) and Abelian group (Commutative group).
+
 *** <<<Composition>>> :drill:
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
