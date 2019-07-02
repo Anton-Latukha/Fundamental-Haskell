@@ -1588,6 +1588,7 @@ Any single-object category is a monoid. Category has an identity requirement and
 :PROPERTIES:
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
 :END:
+
 ******* <<<Monoid left identity law>>> :drill:
 :PROPERTIES:
 :ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
@@ -1623,11 +1624,14 @@ $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
 
 Enables a lot of abilities and concurrency in monoidal structure s.
+
 ******* /*/
 <<<Abelian monoid>>>
+
 ****** /*/
 <<<Monoidal>>>
 <<<Monoids>>>
+
 *** <<<Morphism>>> :drill:
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
@@ -1643,6 +1647,7 @@ Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomor
 Under morphism almost always is meaning of homomorphism-like properties.
 
 If morphism corresponds to function requirements - than it is a function. Morphism can be anything.
+
 **** /*/
 <<<Morphisms>>>
 <<<Arrow>>>
@@ -2043,6 +2048,7 @@ The property of basis, in which if new basis is a linear combination of the prio
 Denotation:
 Components for covariant basis denoted in the upper indices:
 $$ V_{i} = x $$
+
 ** <<<Covariant cofunctor>>> :drill:
 :PROPERTIES:
 :ID:       f53b176d-6377-4a9b-aa0b-40a4c7531cb4
@@ -2947,6 +2953,12 @@ Also derives that the field of complex numbers is algebraically closed.
  
 *** /*/
 <<<Groups>>>
+*** <<<Commutative group>>>
+In which operation obeys the axiom of commutativity.
+
+**** /*/
+<<<Abelian group>>>
+
 ** <<<Guerrilla patch>>> :drill:
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
