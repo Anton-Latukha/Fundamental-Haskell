@@ -819,13 +819,17 @@ Statement.
 :PROPERTIES:
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
 :END:
-Joined by a common purpose.
-$$ \forall (a,b,c) \in S : \; P(a,P(b,c)) \equiv P(P(a,b),c) $$,
+Joined with common purpose.
+
+$$ P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S $$,
+
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
+
 *** /*/
 <<<Associativity>>>
 <<<Associative>>>
+
 ** <<<Basis>>> :drill:
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
