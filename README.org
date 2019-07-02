@@ -244,7 +244,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#typed-hole][<<<Typed hole>>>]]
     - [[#type-inference][<<<Type inference>>>]]
       - [[#-50][/*/]]
-    - [[#type-instance][<<<Type instance>>>]]
+    - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
       - [[#-51][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
@@ -2350,12 +2350,12 @@ Automatic data type detection of expression.
 <<<Infer>>>
 <<<Infers>>>
 <<<Inferred>>>
-*** <<<Type instance>>> :drill:
+*** <<<Type class instance>>> :drill:
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
 :END:
-Unique type class->type pairing.
-Defines type class->type methods.
+Unique type class->type pairing implementation of functions.
+
 *** <<<Type rank>>> :drill:
 :PROPERTIES:
 :ID:       512cf517-eacf-4d39-9d7c-8ec840d9a384
