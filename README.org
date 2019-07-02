@@ -1998,7 +1998,12 @@ SCHT: <2019-07-27 Sat>
 :END:
 
 $$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
-Operation /*/ - operation on members of the domain always produces a members of the domain - in this case we also say that the set is closed under the operation.
+
+Operation on members of the domain always produces a members of the domain - the set is closed under the operation.
+
+*** /*/
+<<<Closed>>>
+
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
