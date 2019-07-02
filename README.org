@@ -1671,7 +1671,8 @@ Corresponds to Reflexivity and Automorphism.
 :END:
 Identity only possible with morphism. See Identity morphism.
 
-There is also knowledge of Zero value.
+There is also distinct Zero value.
+
 ****** <<<Two-sided identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
@@ -1703,6 +1704,7 @@ Return itself.
 #+begin_src haskell
 id :: a -> a
 #+end_src
+
 **** <<<Monomorphism>>> :drill:
 :PROPERTIES:
 :ID:       18290d34-893c-42f0-bf4a-bb31f5e97711
@@ -2582,7 +2584,8 @@ From 1&2 -> can include itself.
 :PROPERTIES:
 :ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
 :END:
-Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables
+Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables.
+
 *** /*/
 <<<Predicate logic>>>
 <<<First-order predicate calculus>>>
@@ -3398,14 +3401,17 @@ f >>= a . b . c =<< g
 :PROPERTIES:
 :ID:       83a22f3c-9140-490c-9390-85319566a443
 :END:
+πολύς /polús/ many
+
 At once several forms.
 
-To abstract over data types.
+Abstract over data types.
 
 
 /Antonym - Monomorphism./
 
 Types:
+
 *** /*/
 <<<Polymorphic>>>
 *** <<<Levity polymorphism>>> :drill:
@@ -3532,6 +3538,7 @@ printY rec = show rec.y
 -- type is inferred as `{x :: Int, y :: Int | r } -> String`
 printBoth rec = printX rec ++ printY rec
 #+end_src
+
 *** <<<Kind polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       4658489e-5516-44d3-b9ab-06f9077657f5
@@ -4484,6 +4491,10 @@ A name for expression.
 
 Haskell has immutable variables.
 Except when you hack it with explicit funсtions.
+
+*** /*/
+<<<Variables>>>
+
 ** <<<Zero>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
