@@ -506,32 +506,32 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-105][/*/]]
   - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#-106][/*/]]
+  - [[#algebraic-structure][<<<Algebraic structure>>>]]
+    - [[#-107][/*/]]
+  - [[#lense][<<<Lense>>>]]
+  - [[#pattern-guard][<<<Pattern guard>>>]]
+    - [[#-108][/*/]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#kleisli-category][<<<Kleisli category>>>]]
   - [[#free-object][<<<Free object>>>]]
   - [[#thin-category][<<<Thin category>>>]]
-  - [[#partial-order][<<<Partial order>>>]]
-  - [[#total-order][<<<Total order>>>]]
-  - [[#preorder][<<<Preorder>>>]]
   - [[#identity-type][<<<Identity type>>>]]
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-107][/*/]]
+    - [[#-109][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-108][/*/]]
-  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
-    - [[#-109][/*/]]
-  - [[#function-image][<<<Function image>>>]]
     - [[#-110][/*/]]
-  - [[#maybe][<<<Maybe>>>]]
-  - [[#pattern-guard][<<<Pattern guard>>>]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-111][/*/]]
+  - [[#function-image][<<<Function image>>>]]
+    - [[#-112][/*/]]
+  - [[#maybe][<<<Maybe>>>]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
@@ -544,53 +544,53 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-112][/*/]]
+      - [[#-113][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-113][/*/]]
+    - [[#-114][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
     - [[#ordering][<<<Ordering>>>]]
-      - [[#preorder-1][<<<Preorder>>>]]
+      - [[#preorder][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-114][/*/]]
+        - [[#-115][/*/]]
+    - [[#partial-order][<<<Partial order>>>]]
+    - [[#total-order][<<<Total order>>>]]
+    - [[#preorder-1][<<<Preorder>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-115][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-116][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-117][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-118][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-119][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-120][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-121][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-122][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-122][/*/]]
+    - [[#-123][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-123][/*/]]
+    - [[#-124][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
   - [[#property][<<<Property>>>]]
-  - [[#lense][<<<Lense>>>]]
   - [[#functional-dependencies][<<<Functional dependencies>>>]]
   - [[#monolocalbinds][<<<MonoLocalBinds>>>]]
   - [[#kindsignatures][<<<KindSignatures>>>]]
   - [[#explicitnamespaces][<<<ExplicitNamespaces>>>]]
-  - [[#algebraic-structure][<<<Algebraic structure>>>]]
-    - [[#-124][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -4717,40 +4717,38 @@ Set S and two binary operators + \times:
 <<<Distributive property>>>
 <<<Distributive law>>>
 
-* Give definitions
-** <<<Commuting diagram>>>
-** <<<Const functor>>>
-** <<<Kleisli category>>>
-** <<<Free object>>>
-When this object/property autofollows from rules&axioms.
-** <<<Thin category>>>
-** <<<Partial order>>>
-** <<<Total order>>>
-** <<<Preorder>>>
-** <<<Identity type>>>
-** <<<Constant type>>>
-** <<<Gen>>>
-** <<<ST-Trick monad>>>
-ST is like a lexical scope, where all the variables/state disappear when the function returns
-https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
-https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+** <<<Algebraic structure>>> :drill:
+
+Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
+The set A with this structure is also called an algebra.
+
+Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
+
+"Group-like structures":
+|                   | Closure | Associativity | Identity | Invertability | Commutativity |
+|-------------------+---------+---------------+----------+---------------+---------------|
+| Semigroupoid      |         | \check             |          |               |               |
+| Small Category    |         | \check             | \check        |               |               |
+| Groupoid          |         | \check             | \check        | \check             |               |
+| Magma             | \check       |               |          |               |               |
+| Quasigroup        | \check       |               |          | \check             |               |
+| Loop              | \check       |               | \check        | \check             |               |
+| Semigroup         | \check       | \check             |          |               |               |
+| Inverse Semigroup | \check       | \check             |          | \check             |               |
+| Monoid            | \check       | \check             | \check        |               |               |
+| Group             | \check       | \check             | \check        | \check             |               |
+| Abelian group     | \check       | \check             | \check        | \check             | \check             |
+
 *** /*/
-<<<ST-Trick>>>
-** <<<Lax monoidal functor>>>
-** <<<Tensorial strength>>>
-** <<<Strong monad>>>
-** <<<Either>>>
-Allows to separate and preserve information about happened, ex. error handling.
-*** /*/
-<<<Either data type>>>
-** <<<Weak head normal form>>>
-*** /*/
-<<<WHNF>>>
-** <<<Function image>>>
-*** /*/
-<<<Image>>>
-** <<<Maybe>>>
-** <<<Pattern guard>>>
+<<<Algebraic structures>>>
+
+** <<<Lense>>> :drill:
+:PROPERTIES:
+:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
+:END:
+Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
+
+** <<<Pattern guard>>> :drill:
 Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
@@ -4769,8 +4767,46 @@ addLookup env var1 var2
 check both to succeed, bind results to val1, val2, then proceed to the equation.
 
 Default in Haskell 2010.
+
 *** /*/
 <<<Pattern guards>>>
+
+* Give definitions
+
+** <<<Commuting diagram>>>
+** <<<Const functor>>>
+** <<<Kleisli category>>>
+** <<<Free object>>>
+When this object/property autofollows from rules&axioms.
+
+** <<<Thin category>>>
+** <<<Identity type>>>
+** <<<Constant type>>>
+** <<<Gen>>>
+** <<<ST-Trick monad>>>
+ST is like a lexical scope, where all the variables/state disappear when the function returns
+https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
+https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+
+*** /*/
+<<<ST-Trick>>>
+
+** <<<Lax monoidal functor>>>
+** <<<Tensorial strength>>>
+** <<<Strong monad>>>
+** <<<Either>>>
+Allows to separate and preserve information about happened, ex. error handling.
+
+*** /*/
+<<<Either data type>>>
+
+** <<<Weak head normal form>>>
+*** /*/
+<<<WHNF>>>
+** <<<Function image>>>
+*** /*/
+<<<Image>>>
+** <<<Maybe>>>
 ** <<<Inverse>>>
 1. Inverse function
 
@@ -4815,16 +4851,21 @@ Always finds optimal reduction into <*> for ApplicativeDo do notation.
 Supresses PartialTypeSignatures wildcard infer warning.
 ** <<<Generalised algebraic data types>>>
 LANGUAGE GADTs
+
 *** /*/
 <<<GADT>>>
+
 ** <<<Order theory>>>
 Investigates in thepth the intuitive notion of order using binary relations.
+
 *** <<<Domain theory>>>
 Formalizes approximation and convergense.
 Has close relation to Topology.
+
 *** <<<Lattice>>>
 Abstract structure that consists of partially ordered set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
+
 *** <<<Ordering>>>
 **** <<<Preorder>>>
 R^{X \to X} : Reflexive & Transitive:
@@ -4835,23 +4876,31 @@ Generalization of equivalence relations partial orders.
 
 /*/ Antisymmetric \Rightarrow Partial ordering.
 /*/ Symmetric \Rightarrow Equivalence.
+
 ***** <<<Total preorder>>>
 $$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total Preorder.
+
 **** <<<Partial ordering>>>
 A binary relation must be reflexive, antisymmetric and transitive.
 
 Partial - not every elempents between them need to be comparable.
 
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
+
 ***** /*/
 <<<Partial orders>>>
 <<<Partially ordered set>>>
 <<<Partially ordered sets>>>
 <<<Poset>>>
 <<<Posets>>>
+
+*** <<<Partial order>>>
+*** <<<Total order>>>
+*** <<<Preorder>>>
 ** <<<Universal algebra>>>
 Studies algebraic structures.
 ** <<<Relation>>>
+
 *** <<<Reflexivity>>>
 $$ R^{X \to X}, \forall x \in X : x R x $$
 Order theory: $$ a \le a $$
@@ -4859,28 +4908,35 @@ Order theory: $$ a \le a $$
 /*/ - each element is comparable to itself.
 
 Corresponds to Identity and Automorphism.
+
 **** /*/
 <<<Reflexive>>>
 <<<Reflexive relation>>>
 *** <<<Irreflexivity>>>
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
+
 **** /*/
 <<<Anti-reflexive>>>
 <<<Anti-reflexive relation>>>
 <<<Irreflexive>>>
 <<<Irreflexive relation>>>
+
 *** <<<Transitivity>>>
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
+
 **** /*/
 <<<Transitive>>>
 <<<Transitive relation>>>
+
 *** <<<Symmetry>>>
 $$ \forall a,b \in X : (aRb \iff bRa) $$
+
 **** /*/
 <<<Symmetric>>>
 <<<Symmetric relation>>>
+
 *** <<<Equivalence>>>
 | Reflexive                  | Symmetric                        | Transitive                                      |
 |----------------------------+----------------------------------+-------------------------------------------------|
@@ -4890,22 +4946,27 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 **** /*/
 <<<Equivalent>>>
 <<<Equivalent relation>>>
+
 *** <<<Antisymmetry>>>
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
+
 **** /*/
 <<<Antisymmetric>>>
 <<<Antisymmetric relation>>>
+
 *** <<<Asymmetry>>>
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ Antisymmetric \land Irreflexive.
 Asymmetry \ne "not symmetric"
 Symmetric \land Asymmetric is only empty relation.
+
 **** /*/
 <<<Asymmetric>>>
 <<<Asymmetric relation>>>
+
 ** <<<Cryptomorphism>>>
 Equivalent, interconvertable with no loss of information.
 
@@ -4916,6 +4977,7 @@ Equivalent, interconvertable with no loss of information.
 Enable lexical scope for forall quantifier defined type variables
 
 Implemented in ScopedTypeVariables
+
 ** <<<Type family>>>
 Defines by pattern matching the partial functions between types.
 Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
@@ -4928,49 +4990,26 @@ Data type mathematical model, defined by its semantics from the user point of vi
 /*/ class of objects whose logical behaviour is defined by a set of values and set of operations (analogue to algebraic structure in mathematics).
 
 A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
+
 *** /*/
 <<<AbsDT>>>
+
 ** <<<ADT>>>
 1. Abstract data type
 2. Algebraic data type
+
 ** <<<Concrete type>>> :drill:
 :PROPERTIES:
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
 :END:
+
+Fully defined & non-polymorphic type.
+
 ** <<<Property>>>
-** <<<Lense>>> :drill:
-:PROPERTIES:
-:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
-:END:
-Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
 ** <<<Functional dependencies>>>
 ** <<<MonoLocalBinds>>>
 ** <<<KindSignatures>>>
 ** <<<ExplicitNamespaces>>>
-** <<<Algebraic structure>>>
-
-Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
-The set A with this structure is also called an algebra.
-
-Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
-
-"Group-like structures":
-|                   | Closure | Associativity | Identity | Invertability | Commutativity |
-|-------------------+---------+---------------+----------+---------------+---------------|
-| Semigroupoid      |         | \check             |          |               |               |
-| Small Category    |         | \check             | \check        |               |               |
-| Groupoid          |         | \check             | \check        | \check             |               |
-| Magma             | \check       |               |          |               |               |
-| Quasigroup        | \check       |               |          | \check             |               |
-| Loop              | \check       |               | \check        | \check             |               |
-| Semigroup         | \check       | \check             |          |               |               |
-| Inverse Semigroup | \check       | \check             |          | \check             |               |
-| Monoid            | \check       | \check             | \check        |               |               |
-| Group             | \check       | \check             | \check        | \check             |               |
-| Abelian group     | \check       | \check             | \check        | \check             | \check             |
-
-*** /*/
-<<<Algebraic structures>>>
 
 * Citations
 "One of the finer points of the Haskell community has been
