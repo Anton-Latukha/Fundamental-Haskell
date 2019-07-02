@@ -1027,8 +1027,17 @@ fmap (f . g) = fmap f . fmap g
 <<<fmap>>>
 <<<Functors>>>
 **** <<<Power set functor>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       1169dfd1-4e31-4789-a777-288fc9208094
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:47]
 :END:
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
@@ -1667,8 +1676,17 @@ Composed with other morphism gives same morphism.
 
 Corresponds to Reflexivity and Automorphism.
 ***** <<<Identity>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:50]
 :END:
 Identity only possible with morphism. See Identity morphism.
 
@@ -2354,8 +2372,17 @@ Automatic data type detection of expression.
 <<<Infers>>>
 <<<Inferred>>>
 *** <<<Type class instance>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:35]
 :END:
 Unique type class->type pairing implementation of functions.
 
@@ -2582,8 +2609,17 @@ Reducible expression.
 2. Passed as an argument.
 From 1&2 -> can include itself.
 ** <<<First-order logic>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:52]
 :END:
 Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables.
 
@@ -3290,8 +3326,17 @@ Part of function parameters applied.
 *** /*/
 <<<Partially applied>>>
 ** <<<Permutation>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:52]
 :END:
 Bijective function from domain to itself.
 ** <<<Phrase>>> :drill:
@@ -3399,8 +3444,17 @@ f >>= a . b . c =<< g
 <<<Tacit>>>
 <<<Tacit programming>>>
 ** <<<Polymorphism>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       83a22f3c-9140-490c-9390-85319566a443
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:45]
 :END:
 πολύς /polús/ many
 
@@ -3844,8 +3898,17 @@ For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-vari
 
 Implies ExplicitForAll.
 ***** <<<TupleSections>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       30ae7849-e739-4718-b031-5566e8f82a67
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:51]
 :END:
 Allow tuple section syntax:
 #+begin_src haskell
