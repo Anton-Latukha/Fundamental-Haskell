@@ -4845,6 +4845,14 @@ Library to provide Haskell (functional language without mutation) the =get=-ters
 ** <<<KindSignatures>>>
 ** <<<ExplicitNamespaces>>>
 ** <<<Ring>>>
+Fundamental algebraic structure:
+  * Set closed under operations
+  * binary operation, generalization of addition
+  * binary operation, generalization of multiplication (no requirement of commutativity)
+  * forms a commutative group in operation of addition
+
+Example: set of same size square matricies of numbers with matrix operations form a ring.
+
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
