@@ -1544,7 +1544,8 @@ Haskell and Category concepts:
 :PROPERTIES:
 :ID:       c40ac83b-c730-4de5-915d-04d76c88398c
 :END:
-Set with a single binary operation.
+Set with a binary operation which form a closure.
+
 
 The category of magmas, denoted $$ Mag $$, has as objects sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 **** <<<Semigroup>>> :drill:
