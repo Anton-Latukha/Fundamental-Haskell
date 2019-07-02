@@ -369,39 +369,40 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#nothing][<<<Nothing>>>]]
   - [[#operation][<<<Operation>>>]]
     - [[#binary-operation][<<<Binary operation>>>]]
+      - [[#-83][/*/]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-83][/*/]]
+      - [[#-84][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-84][/*/]]
-  - [[#partial-application][<<<Partial application>>>]]
     - [[#-85][/*/]]
+  - [[#partial-application][<<<Partial application>>>]]
+    - [[#-86][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-86][/*/]]
-    - [[#blackbird][<<<Blackbird>>>]]
       - [[#-87][/*/]]
+    - [[#blackbird][<<<Blackbird>>>]]
+      - [[#-88][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
-    - [[#-88][/*/]]
-  - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#-89][/*/]]
+  - [[#polymorphism][<<<Polymorphism>>>]]
+    - [[#-90][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-90][/*/]]
+        - [[#-91][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
           - [[#constraint][<<<Constraint>>>]]
-            - [[#-91][/*/]]
+            - [[#-92][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-92][/*/]]
-      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
         - [[#-93][/*/]]
+      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
+        - [[#-94][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -442,13 +443,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-94][/*/]]
-  - [[#quantifier][<<<Quantifier>>>]]
     - [[#-95][/*/]]
+  - [[#quantifier][<<<Quantifier>>>]]
+    - [[#-96][/*/]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-96][/*/]]
+      - [[#-97][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-97][/*/]]
+    - [[#-98][/*/]]
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
@@ -457,7 +458,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-98][/*/]]
+    - [[#-99][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set-1][<<<Hom-set>>>]]
@@ -473,13 +474,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#system-f][<<<System F>>>]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-99][/*/]]
+    - [[#-100][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-100][/*/]]
+        - [[#-101][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -494,11 +495,11 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-101][/*/]]
+    - [[#-102][/*/]]
   - [[#zero][<<<Zero>>>]]
   - [[#algebraic][<<<Algebraic>>>]]
   - [[#homotopy][<<<Homotopy>>>]]
-    - [[#-102][/*/]]
+    - [[#-103][/*/]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -512,19 +513,19 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-103][/*/]]
+    - [[#-104][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-104][/*/]]
-  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-105][/*/]]
-  - [[#function-image][<<<Function image>>>]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-106][/*/]]
+  - [[#function-image][<<<Function image>>>]]
+    - [[#-107][/*/]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#pattern-guard][<<<Pattern guard>>>]]
-    - [[#-107][/*/]]
+    - [[#-108][/*/]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
@@ -537,13 +538,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-108][/*/]]
+      - [[#-109][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-109][/*/]]
+    - [[#-110][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -551,29 +552,29 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#preorder-1][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-110][/*/]]
+        - [[#-111][/*/]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-111][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-112][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-113][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-114][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-115][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-116][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-117][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-118][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-118][/*/]]
+    - [[#-119][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-119][/*/]]
+    - [[#-120][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
   - [[#property][<<<Property>>>]]
@@ -583,13 +584,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#kindsignatures][<<<KindSignatures>>>]]
   - [[#explicitnamespaces][<<<ExplicitNamespaces>>>]]
   - [[#ring][<<<Ring>>>]]
-    - [[#-120][/*/]]
-  - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#-121][/*/]]
-  - [[#algebraic-structure][<<<Algebraic structure>>>]]
+  - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#-122][/*/]]
-  - [[#ancient-greek-and-latin-prefixes][Ancient Greek and Latin prefixes]]
+  - [[#algebraic-structure][<<<Algebraic structure>>>]]
     - [[#-123][/*/]]
+  - [[#ancient-greek-and-latin-prefixes][Ancient Greek and Latin prefixes]]
+    - [[#-124][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -646,7 +647,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-124][/*/]]
+    - [[#-125][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -3324,6 +3325,10 @@ Function. Word used in mathematics. Often a symbol, infix, binary.
 :ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
 :END:
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
+
+**** /*/
+<<<Binary operations>>>
+
 ** <<<Operator>>> :drill:
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
@@ -4873,13 +4878,11 @@ Library to provide Haskell (functional language without mutation) the =get=-ters
 ** <<<MonoLocalBinds>>>
 ** <<<KindSignatures>>>
 ** <<<ExplicitNamespaces>>>
-** <<<Ring>>>
-Fundamental algebraic structure:
-  * Set closed under + and \times
-  * generalized binary operation + (addition)
-  * generalized binary operation \times (multiplication) (no requirement for commutativity)
-  * under + (commutative) forms a commutative group
-  * + and \times obey distributive axiom
+** <<<Ring>>> :drill:
+Commutative group under + & magma under \times, + \times connected by distributive property.
+
++ and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
+
 
 Example: set of same size square matricies of numbers with matrix operations form a ring.
 
@@ -4899,6 +4902,7 @@ Set S and two binary operators ∗ and + on S, the operation:
 *** /*/
 <<<Distributive rule>>>
 <<<Distributive property>>>
+<<<Distributive law>>>
 
 ** <<<Algebraic structure>>>
 
@@ -4925,7 +4929,7 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 *** /*/
 <<<Algebraic structures>>>
 
-** Ancient Greek and Latin prefixes
+** Ancient Greek and Latin prefixes :drill:
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
