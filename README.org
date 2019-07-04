@@ -1567,21 +1567,27 @@ Join is a generalization of `concat`.
 
 The way to express ordering in lambda calculus is to nest.
 
-******** join.fmap == (=<<)
+******** /*/
+<<<join>>>
+
+******** join . fmap == (=<<)
+
 #+begin_src haskell
 -- b = f b
-fmap      :: Monad f => (a -> f b) -> f a -> f (f b)
-join      :: Monad f =>                      f (f a) -> f a
-join.fmap :: Monad f => (a -> f b) -> f a            -> f b
-flip >>=  :: Monad f => (a -> f b) -> f a            -> f b
+fmap        :: Monad f => (a -> f b) -> f a -> f (f b)
+join        :: Monad f =>                      f (f a) -> f a
+join . fmap :: Monad f => (a -> f b) -> f a            -> f b
+flip    >>= :: Monad f => (a -> f b) -> f a            -> f b
 #+end_src
 
 ******* <<<Bind function>>> :drill:
 :PROPERTIES:
 :ID:       b288ba16-30a9-4550-b037-f77d4c96e95a
 :END:
+
 #+begin_src haskell
->>= :: Monad f => f a -> (a -> f b) -> f b
+>>=         :: Monad f => f a -> (a -> f b) -> f b
+join . fmap :: Monad f => (a -> f b) -> f a -> f b
 #+end_src
 Nonstrict.
 
@@ -2947,17 +2953,23 @@ $$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twohe
 :PROPERTIES:
 :ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
 :END:
+
 Function without free variables.
-Higher-order function that use only function application and other combinators.
+Higher-order function that uses only function application and other combinators.
+
 #+begin_src haskell
+\a -> a
+\ a b -> a b
 \f g x -> f (g x)
 \f g x y -> f (g x y)
 #+end_src
-Not comibnators:
+
+Not combinators:
 #+begin_src haskell
 \ xs -> sum xs
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
+
 *** <<<Function application>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
