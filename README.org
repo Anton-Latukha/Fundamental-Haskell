@@ -763,8 +763,17 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 <<<Algebraic structures>>>
 
 ** <<<Alpha equivalence>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       83ea3e34-0c72-4976-abaa-875767736cea
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
 Alpha equivalence - if processes in expressions are literally the same, but names of parameters accordingly different (then they are synonyms).
 ** <<<Ambigram>>> :drill:
@@ -801,6 +810,7 @@ Is a function that generates a sequence by repeated application of the function 
 :PROPERTIES:
 :ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
 :END:
+
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
@@ -919,8 +929,17 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 <<<Associative>>>
 
 ** <<<Basis>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
 :END:
 $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
@@ -1461,11 +1480,20 @@ Explanation:
 Shows that >>= must get Argument internal to structure nad apply it to the second argument.
 
 ******* <<<Monad right identity law>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:48]
 :END:
 #+begin_src haskell
-f >>= return == f
+f >>= pure == f
 #+end_src
 
 Explanation:
@@ -1569,6 +1597,7 @@ recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
 main ∷ IO ()
 main = recursePrintOneOf (quant) $ printOneOf
 #+end_src
+
 ******** /*/
 <<<Monadic bind>>>
 <<<Monad bind>>>
@@ -1890,8 +1919,17 @@ Thus it is left canselable.
 ***** /*/
 <<<Monomorphic>>>
 **** <<<Epimorphism>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       3729d963-3775-4715-99d7-d14bc30750c0
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:40]
 :END:
 επι /epi/ on, over
 μορφή /morphe/ form
@@ -2198,8 +2236,17 @@ $$ V_{i} = x $$
 <<<Covariant cofunctor>>>
 
 ** <<<Data type>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
 :END:
 Set of values.
 For type to have sence the values share some sence, properties.
@@ -2508,8 +2555,17 @@ type FirstName = String
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
 *** <<<Typed hole>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:52]
 :END:
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
 *** <<<Type inference>>> :drill:
@@ -2618,8 +2674,17 @@ Cell that values may inhabit.
 :END:
  _
 **** <<<Node>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       44946197-24dd-48fd-810c-6af851f6a0cf
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:40]
 :END:
 #+begin_src text
  *
@@ -2980,16 +3045,17 @@ Corresponds to Monomorphism.
 <<<Injective function>>>
 <<<Injectivity>>>
 *** <<<Partial function>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:35]
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
 One that does not cover all domain.
 Unsafe and causes trouble.
@@ -3016,8 +3082,17 @@ SCHT: <2019-07-27 Sat>
 :END:
 Writing function in a parentheses. Allows to pass around partially applied functions.
 *** <<<Surjection>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       56270a1d-ef0e-4986-a1ff-04606b37ccb7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:50]
 :END:
 Function uses codomain fully.
 
@@ -3036,8 +3111,17 @@ Corresponds to Epimorphism.
 <<<Surjective>>>
 <<<Surjective function>>>
 *** <<<Unsafe>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:39]
 :END:
 Function that does not cover some edge case.
 *** <<<Variadic>>> :drill:
@@ -3278,8 +3362,17 @@ See Lambda function
 **** <<<Anonymous function>>>
 Lambda function without the name to bind to.
 *** <<<Beta normal form>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:52]
 :END:
 No beta reduction is possible.
 **** /*/
@@ -3316,8 +3409,17 @@ Translating the evaluation of a multiple argument function (or a tuple of argume
 :END:
 See System F.
 *** <<<Hindley–Milner type system>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:49]
 :END:
 Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
@@ -3740,13 +3842,22 @@ See: Ad hoc polymorphism
 ******* /*/
 <<<Constraints>>>
 **** <<<Impredicative polymorphism>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:49]
 :END:
 The most powerful form of Parametric polymorphism.
 First see Impredicative.
 
-Impredicative polymorphism allows type τ entities with polymorphic types, that can contain type τ itself.
+Impredicative polymorphism allows type τ entities with polymorphic types that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
 ***** /*/
@@ -3911,8 +4022,17 @@ It is possible to see the actual translation by using =-ddump-ds=.
 Enable the definition of further constraints on individual class methods.
 
 ***** <<<ConstraintKinds>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       39b1ef68-42be-4430-b7ca-c8a1fc511622
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:51]
 :END:
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
@@ -3946,8 +4066,17 @@ Automatic deriving of instances for the Functor type class.
 Since there is only one possible functor for any type - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
 ***** <<<ExplicitForAll>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:41]
 :END:
 Allow explicit forall quantificator in places where it is implicit by Haskell.
 ***** <<<FlexibleContexts>>> :drill:
@@ -4009,8 +4138,17 @@ SCHT: <2019-07-05 Fri>
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
 ***** <<<LambdaCase>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:41]
 :END:
 Enables expressions of the form:
 #+begin_src haskell
@@ -4339,8 +4477,17 @@ So:
 <<<Referentially transparent>>>
 
 ** <<<Relation>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
 Is not directed and not limited.
 ** <<<REPL>>> :drill:
@@ -5219,8 +5366,17 @@ There can be differnt Applicatives with different Monoid implementations.
 **** Think how to write computations
 *** Create
 ** <<<Good: About operators (<$) (*>) (<*) (>>)>>> :drill:
+SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
 Where character is not present - discards the according value.
 ** <<<Good: About operators mapM_ sequence_>>> :drill:
