@@ -3250,8 +3250,10 @@ SCHT: <2019-07-23 Tue>
 Meaning can be special for language speakers or human with particular knowledge.
 
 /*/ can also mean Applicative functor.
+
 *** /*/
 <<<Idiomatic>>>
+
 ** <<<Iff>>> :drill:
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
@@ -4961,6 +4963,7 @@ SCHT: <2019-07-30 Tue>
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from Identity value.
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -5201,6 +5204,7 @@ Fully defined & non-polymorphic type.
 ** <<<KindSignatures>>>
 ** <<<ExplicitNamespaces>>>
 
+** <<<Combinator pattern>>>
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
