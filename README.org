@@ -5000,17 +5000,17 @@ SCHT: <2019-07-28 Sun>
 The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 
 ** <<<\Psi-combinator>>> :drill:
-SCHT: <2019-07-03 Wed>
+SCHT: <2019-07-15 Mon>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 3.286
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:42]
+:DRILL_LAST_REVIEWED: [2019-07-04 Thu 19:14]
 :END:
 
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
