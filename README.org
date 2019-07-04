@@ -1531,12 +1531,14 @@ class Applicative m => Monad m where
 :PROPERTIES:
 :ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
 :END:
+
 #+begin_src haskell
 <$> :: Functor     f =>   (a -> b)   -> f a -> f b
 <*> :: Applicative f => f (a -> b)   -> f a -> f b
 =<< :: Monad       f =>   (a -> f b) -> f a -> f b
 #+end_src
-This is said to be Natural transformations.
+=pure= & =join= are Natural transformations for the =fmap=.
+
 ****** <<<Monad functions>>> :drill:
 :PROPERTIES:
 :ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
@@ -1546,6 +1548,7 @@ This is said to be Natural transformations.
 :PROPERTIES:
 :ID:       bb5891cb-a918-476b-a27a-4d342bdc30a2
 :END:
+
 #+begin_src haskell
 return == pure
 #+end_src
@@ -1555,6 +1558,7 @@ Nonstrict.
 :PROPERTIES:
 :ID:       fda130b8-e8ae-4c3d-948a-94129d562a63
 :END:
+
 #+begin_src haskell
 join :: Monad m => m (m a) -> m a
 #+end_src
