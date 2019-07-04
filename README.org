@@ -144,6 +144,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#maybe-monad][<<<Maybe monad>>>]]
           - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
+          - [[#kleisli-category][<<<Kleisli category>>>]]
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
       - [[#fusion][<<<Fusion>>>]]
     - [[#hask-category][<<<Hask category>>>]]
@@ -515,7 +516,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
-  - [[#kleisli-category][<<<Kleisli category>>>]]
   - [[#free-object][<<<Free object>>>]]
   - [[#thin-category][<<<Thin category>>>]]
   - [[#identity-type][<<<Identity type>>>]]
@@ -1763,6 +1763,16 @@ Drops sequencing computation as soon as Left arrives.
 :END:
 
 Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
+
+****** <<<Kleisli category>>> :drill:
+
+Category $$ \mathcal{C} $$, $$ 〈T, \eta, \mu〉 $$ monad over $$ \mathcal{C} $$.
+
+Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
+
+$$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
+$$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
+
 **** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
@@ -1770,7 +1780,7 @@ Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
 
 Functors between monoidal categories that preserves monoidal structure.
 
-**** <<<Fusion>>>
+**** <<<Fusion>>> :drill:
 
 #+begin_src haskell
 fmap f . fmap g = fmap (f . g)
@@ -5617,7 +5627,6 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 ** <<<Commuting diagram>>>
 
 ** <<<Const functor>>>
-** <<<Kleisli category>>>
 
 ** <<<Free object>>>
 When this object/property autofollows from rules&axioms.
