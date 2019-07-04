@@ -1,5 +1,6 @@
 #+startup: latexpreview
 #+startup: entitiespretty
+
 * Introduction
 Important notes on Haskel, category & related fields.
 
@@ -692,6 +693,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 :PROPERTIES:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
 :END:
+
 abs away from, off (in absentia)
 tractus draw, haul, drag
 
@@ -702,10 +704,12 @@ Forgeting the details. Simplified approach.
 /*/ creates a new semantic level in which one can be absolutely precise.
 
 It is great did to name an abstraction (Denotational semantics).
+
 *** /*/
 <<<Abstractions>>>
 <<<Abstracting>>>
 <<<Abstract>>>
+
 ** <<<Algebra>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
@@ -719,6 +723,7 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
+
 al-jabr - assemble parts.
 A system of algebra based on given axioms.
 
@@ -726,12 +731,15 @@ A system of algebra based on given axioms.
 
 1) Abstract algebra - the study of number systems and operations within them.
 2) Algebra - vector space over a field with a multiplication.
+
 *** /*/
 <<<Algebras>>>
+
 ** <<<Algebraic>>> :drill:
 :PROPERTIES:
 :ID:       c97061e0-d726-44d0-bd18-fd1288c46a52
 :END:
+
 Composite from simple parts.
 Also: Algebraic data type.
 
@@ -776,7 +784,9 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
+
 Alpha equivalence - if processes in expressions are literally the same, but names of parameters accordingly different (then they are synonyms).
+
 ** <<<Ambigram>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -790,6 +800,7 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:27]
 :END:
+
 ambi both
 γράμμα /grámma/ written character
 
@@ -805,8 +816,10 @@ But it has... Both.
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
 :END:
+
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
+
 ** Ancient Greek and Latin prefixes :drill:
 :PROPERTIES:
 :ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
@@ -870,11 +883,14 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
+
 For FP see Bind. And then beta reduction happen.
+
 ** <<<Application memory>>> :drill:
 :PROPERTIES:
 :ID:       49209cb4-a094-4b16-8803-884efd701706
 :END:
+
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
 | All not currently processing data | <<<Heap>>>   |
@@ -884,24 +900,30 @@ For FP see Bind. And then beta reduction happen.
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
+
 ** <<<Arbitrary function>>> :drill:
 :PROPERTIES:
 :ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
 :END:
+
 Depends on type and generates values of that type.
+
 ** <<<Argument>>> :drill:
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
 :END:
+
 /arguere/ to make clear, to shine
 argument evidence, proof
 
 Independed variable of a function. Topic that the fuction would deal with.
 Is an input value to a function parameter.
+
 ** <<<As-pattern>>> :drill:
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
 :END:
+
 #+begin_src haskell
 f list@(x, xs) = ...
 #+end_src
@@ -910,14 +932,18 @@ f list@(x, xs) = ...
 :PROPERTIES:
 :ID:       ca03459f-58a7-4938-8de0-2408ee2a0225
 :END:
+
 Statement.
 Утверждение.
+
 *** /*/
 <<<Assertions>>>
+
 ** <<<Associative law>>> :drill:
 :PROPERTIES:
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
 :END:
+
 Joined with common purpose.
 
 $$ P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S $$,
@@ -942,10 +968,12 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
 :END:
+
 $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see Category theory, or Euclidian geometry basis.
+
 ** <<<Binary>>> :drill:
 SCHT: <2019-07-31 Wed>
 :PROPERTIES:
@@ -959,11 +987,14 @@ SCHT: <2019-07-31 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
 :END:
+
 Two of something.
+
 ** <<<Binary tree>>> :drill:
 :PROPERTIES:
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
 :END:
+
 #+begin_src haskell
 data BinaryTree a
   = [[Leaf]]
@@ -984,12 +1015,15 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:07]
 :END:
+
 Establishing Eq between two objects.
 Parameter of the function = argument that applied to the function
 Variables = values.
+
 *** /*/
 <<<Binds>>>
 <<<Binding>>>
+
 ** <<<Bottom value>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -1003,14 +1037,17 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
+
 #+begin_src haskell
 -- _ fits *.
 #+end_src
 
 Is a non-value placeholder for enything.
+
 *** /*/
 <<<Bottom>>>
 <<<Bottom values>>>
+
 ** <<<Bound>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -1024,20 +1061,25 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:50]
 :END:
+
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 
 *** /*/
 <<<Bounded>>>
+
 ** <<<Cartesian product>>> :drill:
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
+
 $$ \forall a \in A, \forall b \in B : A \times B = \overset \rightharpoonup {(a,b)} $$.
 Any function is a subset of Cartesian product.
 
 $$ \sum^{elem \in (A \times B)}  = cardinality^{A \times B} $$
+
 *** /*/
 <<<Cardinalities>>>
+
 ** <<<Case>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
@@ -1051,6 +1093,7 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:49]
 :END:
+
 #+begin_src haskell
 case x of
     | pattern1  -> ex1
@@ -1072,6 +1115,7 @@ case () of _
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
 :END:
+
 Category ($$ \mathcal{C} $$) consists of the basis:
 
 Primitives:
@@ -1106,6 +1150,7 @@ SCHT: <2019-07-04 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:16]
 :END:
+
 Is which:
   * has a zero object,
   * has all binary biproducts,
@@ -1121,19 +1166,25 @@ There is notion of Abelian monoid (AKS Commutative monoid) and Abelian group (Co
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
 :END:
+
 Axiom of Category.
+
 **** /*/
 <<<Composable>>>
 <<<Compositions>>>
+
 *** <<<Endofunctor category>>> :drill:
 :PROPERTIES:
 :ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
 :END:
+
 From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
+
 *** <<<Functor>>> :drill:
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
+
 Functor is a map between categories. Translating objects and morphisms (as input can take morphism or object). They can preserve structure, or not.
 
 Functor axioms:
@@ -1153,6 +1204,7 @@ fmap (f . g) = fmap f . fmap g
 <<<Power set functor>>>
 <<<fmap>>>
 <<<Functors>>>
+
 **** <<<Power set functor>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -1166,6 +1218,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:47]
 :END:
+
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
 Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
@@ -1189,47 +1242,60 @@ Since:
 :PROPERTIES:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
 :END:
+
 Type instance of functor should abide this laws:
+
 ****** <<<Power set functor identity law>>> :drill:
 :PROPERTIES:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
 :END:
+
 #+begin_src haskell
 fmap id == id
 #+end_src
+
 ****** <<<Power set functor composition law>>> :drill:
 :PROPERTIES:
 :ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
 :END:
+
 #+begin_src haskell
 fmap (f.g) == fmap f . fmap g
 #+end_src
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+
 ***** <<<Lift>>> :drill:
 :PROPERTIES:
 :ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
 :END:
+
 #+begin_src haskell
 fmap :: (a -> b) -> (f a -> f b)
 #+end_src
 Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
 Lift does a function application through the data structure.
+
 ****** /*/
 <<<Lifting>>>
+
 **** <<<Forgetful functor>>> :drill:
 :PROPERTIES:
 :ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
 :END:
+
 Functor that forgets part or all of what defines structure in domain category.
 $$ F^{\mathbf {Grp} \to \mathbf {Set}} $$ that translates groups into their underlying sets.
 Constant functor is another example.
+
 ***** /*/
 <<<Forgetful>>>
+
 **** <<<Identity functor>>>
 Maps objects and morphisms to themselves.
 
 Denotation:
 $$ 1^{\mathcal{C \to C}} $$
+
 **** <<<Endofunctor>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -1243,13 +1309,17 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
 :END:
+
 Is a functor which domain and codomain are the same category.
+
 ***** /*/
 <<<Endofunctors>>>
+
 **** <<<Applicative functor>>> :drill:
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
 :END:
+
 /*/ - Computer science term. Category theory name - Lax monoidal functor with Tensorial strength.
 
 /*/ - sequences functorial computations (plain functors can't).
@@ -1264,70 +1334,87 @@ Requires Monoidal structure.
 Has monoidal structure rules, separated from what happens inside structure.
 
 Data type can have several applicative implementations.
+
 ***** /*/
 <<<Applicative>>>
 <<<Applicatives>>>
 <<<Applicative functors>>>
+
 ***** <<<Applicative laws>>> :drill:
 :PROPERTIES:
 :ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
 :END:
+
 ****** <<<Applicative identity law>>> :drill:
 :PROPERTIES:
 :ID:       2e87e916-1501-4310-9887-e0bcf7b9e1ca
 :END:
+
 #+begin_src haskell
 pure id <*> v = v
 #+end_src
+
 ****** <<<Applicative composition law>>> :drill:
 :PROPERTIES:
 :ID:       74ed933d-bb1e-4169-919a-b3c491973011
 :END:
+
 Function composition works regularly.
 #+begin_src haskell
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
+
 ****** <<<Applicative homomorphism law>>> :drill:
 :PROPERTIES:
 :ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
 :END:
+
 Applying the function doesn't change the structure around values.
 #+begin_src haskell
 pure f <*> pure x = pure (f x)
 #+end_src
+
 ****** <<<Applicative interchange law>>> :drill:
 :PROPERTIES:
 :ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
 :END:
+
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
 #+begin_src haskell
 u <*> pure y = pure ($ y) <*> u
 #+end_src
 
 ***** <<<Applicative function>>>
+
 ****** <<<liftA*>>>
+
 ******* <<<liftA>>> :drill:
 :PROPERTIES:
 :ID:       8d9bbfb6-95d0-46c5-85bc-05c357721882
 :END:
+
 Essentially a fmap.
 #+begin_src haskell
 :type liftA
 liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
+
 ******* <<<liftA2>>> :drill:
 :PROPERTIES:
 :ID:       68d78ba7-589e-4eb0-90fc-c6d286fd327e
 :END:
+
 Lifts binary function across two Applicative functors.
 #+begin_src haskell
 :type liftA2
 liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
 #+end_src
+
 ******* <<<liftA2 (<*>)>>> :drill:
 :PROPERTIES:
 :ID:       ac1da978-3adc-447a-a20d-3f15f8cfd940
 :END:
+
 liftA2 (<*>) is pretty useful. It can lift binary operation through the two layers:
 It is two-layer Applicative.
 #+begin_src haskell
@@ -1335,24 +1422,31 @@ liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f 
 <*> :: Applicative f =>    (f  (a -> b) -> f a -> f b)
 liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
 #+end_src
+
 ******* <<<liftA2 (liftA2 (<*>))>>> :drill:
 :PROPERTIES:
 :ID:       276bd112-3c4c-4c31-9650-28bce44786f9
 :END:
+
 liftA2 (<*>) 3-layer version.
+
 ******* <<<liftA3>>> :drill:
 :PROPERTIES:
 :ID:       8371488b-da13-401b-9648-c286f2af0c99
 :END:
+
 liftA2 3-parameter version.
+
 ***** <<<Special applicatives>>> :drill:
 :PROPERTIES:
 :ID:       c67fa1eb-a529-43a8-b88b-926325e124ce
 :END:
+
 ****** <<<Identity applicative>>> :drill:
 :PROPERTIES:
 :ID:       72602f6e-4290-4db5-bd26-f6abe614384d
 :END:
+
 #+begin_src haskell
 -- Applicative f =>
 -- f ~ Identity
@@ -1368,10 +1462,12 @@ xs = [1, 2, 3]
 const <$> mkId xs <*> mkId xs'
 -- [1,2,3]
 #+end_src
+
 ****** <<<Constant applicative>>> :drill:
 :PROPERTIES:
 :ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
 :END:
+
 It holds only to one value. The function does not exist and `b` is phantom.
 #+begin_src haskell
 -- Applicative f =>
@@ -1392,6 +1488,7 @@ pure 1 :: Constant String Int
 :PROPERTIES:
 :ID:       5929b239-fa46-40c6-9896-a2dabe40f619
 :END:
+
 "There also can be no function at all."
 
 If function might not exist - embed `f` in Maybe structure, and use Maybe applicative.
@@ -1401,24 +1498,30 @@ type M = Maybe
 pure :: a -> M a
 (<*>) :: M (a -> b) -> M a -> M b
 #+end_src
+
 ****** <<<Either applicative>>> :drill:
 :PROPERTIES:
 :ID:       f85602e3-3339-4ab7-ac38-5025b8aa6828
 :END:
+
 `pure` is `Right`.
 Defaults to `Left`.
 And if there is two Left's - to Left of the first argument.
+
 ****** <<<Validation applicative>>> :drill:
 :PROPERTIES:
 :ID:       84ed0f96-b39b-4132-aafa-c6e58cb280ab
 :END:
+
 The Validation data type isomorphic to Either, but has accumulative Applicative on the error side.
 For this Applicative there is no corresponding Bind or Monad instance. Validation is an example of, "An applicative functor that is not a monad."
 Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
+
 ***** <<<Monad>>> :drill:
 :PROPERTIES:
 :ID:       b1faf835-213f-4336-86a9-8e331dd60986
 :END:
+
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
@@ -1460,11 +1563,14 @@ import Control.Monad (ap)
 ****** /*/
 <<<Monads>>>
 <<<Monadic>>>
+
 ****** <<<Monad laws>>> :drill:
 :PROPERTIES:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
 :END:
+
 pure (return) should only put argument into structure.
+
 ******* <<<Monad left identity law>>> :drill:
 :PROPERTIES:
 :ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
@@ -1616,42 +1722,56 @@ main = recursePrintOneOf (quant) $ printOneOf
 ******** /*/
 <<<Monadic bind>>>
 <<<Monad bind>>>
+
 ********* (>>=)
+
 ********* >>=
+
 ********* (=<<)
+
 ********* =<<
+
 ******* <<<Sequencing operator>>> (>>) == (*>): :drill:
 :PROPERTIES:
 :ID:       f8d9b6e3-b18c-4996-a86d-08107f8eec1f
 :END:
+
 Discards any resulting value of the action and sequence next action.
 #+begin_src haskell
 (>>) :: m a -> m b -> m b
 (*>) :: f a -> f b -> f b
 #+end_src
 Applicative has a similar operator.
+
 ****** <<<Maybe monad>>> :drill:
 :PROPERTIES:
 :ID:       4a2e0708-1a7d-447e-b0b9-9560a2dc9e33
 :END:
+
 Drops the chain of computation and returns Nothing as soon as Nothing arrives.
+
 ****** <<<Either monad>>> :drill:
 :PROPERTIES:
 :ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
 :END:
+
 Drops sequencing computation as soon as Left arrives.
+
 ****** <<<Comonad>>> :drill:
 :PROPERTIES:
 :ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
 :END:
+
 Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
 **** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
 :END:
+
 Functors between monoidal categories that preserves monoidal structure.
 
 **** <<<Fusion>>>
+
 #+begin_src haskell
 fmap f . fmap g = fmap (f . g)
 #+end_src
@@ -1659,6 +1779,7 @@ fmap f . fmap g = fmap (f . g)
 This functor axiom allows to greatly simplify computations, it is called /*/.
 
 *** <<<Hask category>>>
+
 Category of Haskell where objects are types and morphisms are functions.
 
 It is a hypothetical category at the moment, since undefined and bottom values break the theory, is not Cartesian closed, it does not have sums, products, or initial object, () is not a terminal object, monad identities fail for almost all instances of the Monad class.
@@ -1670,12 +1791,15 @@ Hask contains subcategories, like Lst containing only list types.
 Haskell and Category concepts:
   * Things that take a type and return another type are type constructors.
   * Things that take a function and return another function are higher-order functions.
+
 **** /*/
 <<<Hask>>>
+
 *** <<<Magma>>> :drill:
 :PROPERTIES:
 :ID:       c40ac83b-c730-4de5-915d-04d76c88398c
 :END:
+
 Set with a binary operation which form a closure.
 
 **** <<<MAG category>>>
@@ -1690,6 +1814,7 @@ The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary o
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
 :END:
+
 Magma with Associative law.
 
 Defined in Haskell as:
@@ -1700,10 +1825,12 @@ class Semigroup a where
 
 ***** /*/
 <<<Semigroups>>>
+
 ***** <<<Monoid>>> :drill:
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
 :END:
+
 Semigroup with Identity element.
 
 #+begin_src haskell
@@ -1745,6 +1872,7 @@ Any single-object category is a monoid. Category has an identity requirement and
 :PROPERTIES:
 :ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
 :END:
+
 #+begin_src haskell
 mempty <> x = x
 #+end_src
@@ -1753,6 +1881,7 @@ mempty <> x = x
 :PROPERTIES:
 :ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
 :END:
+
 #+begin_src haskell
 x <> mempty = x
 #+end_src
@@ -1761,6 +1890,7 @@ x <> mempty = x
 :PROPERTIES:
 :ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
 :END:
+
 #+begin_src haskell
 x <> mempty = x (y <> z) = (x <> y) <> z
 mconcat = foldr (mempty <>)
@@ -1772,6 +1902,7 @@ Everything associative can be =mappend=.
 :PROPERTIES:
 :ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
 :END:
+
 Commutative law:
 $$ x \circ y = y \circ x $$
 Very helpful at concurrent or distributed processing.
@@ -1785,10 +1916,12 @@ Enables a lot of abilities and concurrency in monoidal structure s.
 :PROPERTIES:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
+
 Monoid with inverse for every element (element operation with inverse gives identity)
 
 ******* /*/
 <<<Groups>>>
+
 ******* <<<Commutative group>>>
 Group operation obeys the axiom of commutativity.
 
@@ -1799,10 +1932,10 @@ Group operation obeys the axiom of commutativity.
 :PROPERTIES:
 :ID:       437c3602-cfc2-4cd1-bdba-be9e0db9c8f8
 :END:
+
 Commutative group under + & magma under \times, + \times connected by distributive property.
 
 + and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
-
 
 Example: set of same size square matricies of numbers with matrix operations form a ring.
 
@@ -1813,6 +1946,7 @@ Example: set of same size square matricies of numbers with matrix operations for
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
 :END:
+
 μορφή /morphe/ form
 Map between two objects in a category.
 
@@ -1834,6 +1968,7 @@ If morphism corresponds to function requirements - than it is a function. Morphi
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
 :END:
+
 ὁμός /homos/ same (chosen by initial Anglish mistranslation "similar")
 μορφή /morphe/ form
 similar form
@@ -1863,10 +1998,12 @@ Homomorphisms send identity morphisms to identity morphisms and inverses to inve
 :PROPERTIES:
 :ID:       8581e216-8d9d-479f-a58d-bd04882b5131
 :END:
+
 Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
 Composed with other morphism gives same morphism.
 
 Corresponds to Reflexivity and Automorphism.
+
 ***** <<<Identity>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -1880,6 +2017,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:50]
 :END:
+
 Identity only possible with morphism. See Identity morphism.
 
 There is also distinct Zero value.
@@ -1888,28 +2026,35 @@ There is also distinct Zero value.
 :PROPERTIES:
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
 :END:
+
 $$ P() $$ is commutative.
 $$ \exists e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 
 Predicate
+
 ****** <<<Left identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
 :END:
+
 $$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
 
 Predicate
+
 ****** <<<Right identity of a predicate>>> :drill:
 :PROPERTIES:
 :ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
 :END:
+
 $$ \exists e \in S, \forall a \in S : \; P(a,e)=a $$
 
 Predicate
+
 ***** <<<Identity function>>> :drill:
 :PROPERTIES:
 :ID:       c687793c-ad12-435b-8326-9c335ebbf9ea
 :END:
+
 Return itself.
 (\ x.x)
 #+begin_src haskell
@@ -1920,6 +2065,7 @@ id :: a -> a
 :PROPERTIES:
 :ID:       18290d34-893c-42f0-bf4a-bb31f5e97711
 :END:
+
 μονο /mono/ only
 μορφή /morphe/ form
 
@@ -1931,8 +2077,10 @@ It always has a inverse morphism.
 $$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from homomorphism context
 $$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general morphism context
 Thus it is left canselable.
+
 ***** /*/
 <<<Monomorphic>>>
+
 **** <<<Epimorphism>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -1946,6 +2094,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:40]
 :END:
+
 επι /epi/ on, over
 μορφή /morphe/ form
 
@@ -1957,12 +2106,15 @@ $$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from gene
 Thus it is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
+
 ***** /*/
 <<<Epimorphic>>>
+
 **** <<<Isomorphism>>> :drill:
 :PROPERTIES:
 :ID:       4a0635c3-9512-443a-8497-3c259032de55
 :END:
+
 ἴσος /isos/ equal
 μορφή /morphe/ form
 
@@ -1979,43 +2131,54 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b 
   * image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 
 Categories are isomorphic if there $$ R ∘ L = ID
+
 ***** /*/
 <<<Isomorphic>>>
+
 **** <<<Endomorphism>>> :drill:
 :PROPERTIES:
 :ID:       2fd058e4-4b8a-451e-9760-0275b2741331
 :END:
+
 ενδο /endo/ internal
 μορφή /morphe/ form
 
 Morphism whose domain equals the codomain.
 Epimorphism is a Monoid, because of category composition.
+
 ***** <<<Automorphism>>> :drill:
 :PROPERTIES:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
 :END:
+
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
 Endomorphism that is Isomorphism.
 
 Corresponds to Identity and Reflexivity.
+
 ****** /*/
 <<<Automorphic>>>
+
 ***** /*/
 <<<Endomorphic>>>
+
 **** <<<Catamorphism>>> :drill:
 :PROPERTIES:
 :ID:       3af3d5fd-449a-45e7-ac99-0cca150f0523
 :END:
+
 κατά /kata/ downward
 μορφή /morphe/ form
 
 Denotes the unique homomorphism from an initial algebra into some other algebra.
 
 In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+
 ***** /*/
 <<<Catamorphic>>>
+
 **** <<<Kernel>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -2029,6 +2192,7 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 13:08]
 :END:
+
 Kernel of a Homomorphism is a number that measures the degree homomorphism fails to meet injectivity (AKA be Monomorphic).
 It is a number of domain elements that fail injectivity:
   * elements not included into morphism
@@ -2037,11 +2201,14 @@ thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
 
 Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
+
 ***** <<<Kernel homomorphism>>> :drill:
 :PROPERTIES:
 :ID:       e77c8ade-6668-48e3-aeae-3bf1209e31d8
 :END:
+
 Morphism of elements from the Kernel. Map of elements that make main Morphism not Monomorphic (Injective).
+
 *** <<<Object>>>
 Mathematical structure. Morphisms preserve structure.
 
@@ -2049,16 +2216,19 @@ Mathematical structure. Morphisms preserve structure.
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
+
 **** <<<Terminal object>>> :drill:
 :PROPERTIES:
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
 :END:
+
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
 
 **** <<<Initial object>>> :drill:
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
 :END:
+
 Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
 
 *** <<<SET category>>> :drill:
@@ -2074,7 +2244,9 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:07]
 :END:
+
 Category in which objects are sets.
+
 *** <<<Natural transformation>>> :drill:
 :PROPERTIES:
 :ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
@@ -2103,19 +2275,26 @@ From $$ F a \to G a $$ - /*/ never modifies the content, it only if can delete i
 **** /*/
 <<<Natural transformations>>>
 <<<Component of natural transformation>>>
+
 **** <<<Natural transformation component>>> :drill:
 :PROPERTIES:
 :ID:       d71f0216-0581-481b-a941-7974ec27ee2c
 :END:
+
 $$ \eta^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \ \exists \ \mathit{cat} \ \mathcal {C, D}; \exists F^{mathcal{C \to D}}, G^{\mathcal{C \to D}}; x \in \mathcal{C} $$
+
 ***** /*/
+
 **** Natural transformation in Haskell
 /*/ is a family of morphisms parametrized by type (polymorphic polymorphism functions) between endofunctors (Functor, Applicative, Monad).
+
 *** <<<Hom set>>>
 :PROPERTIES:
 :ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
 :END:
+
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal {C} $$.
+
 *** <<<Category dual>>>
 
 Category duality behaves like a logical inverse.
@@ -2138,6 +2317,7 @@ Properties:
 <<<Opposite categories>>>
 <<<Category duality>>>
 <<<Duality>>>
+
 ** <<<Closure>>> :drill:
 SCHT: <2019-07-27 Sat>
 :PROPERTIES:
@@ -2163,22 +2343,29 @@ Operation on members of the domain always produces a members of the domain - the
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
 :END:
+
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
+
 ** <<<Commutative law>>> :drill:
 :PROPERTIES:
 :ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
 :END:
+
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
+
 *** /*/
 <<<Commutative>>>
 <<<Commutative law>>>
 <<<Commutativity>>>
+
 ** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
 :END:
+
 Link together sequences.
+
 ** <<<Conjunction>>> :drill:
 SCHT: <2019-07-26 Fri>
 :PROPERTIES:
@@ -2192,6 +2379,7 @@ SCHT: <2019-07-26 Fri>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:24]
 :END:
+
 Logical AND
 
 Multiplies cardinalities.
@@ -2205,14 +2393,17 @@ Haskell kind:
 :PROPERTIES:
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
 :END:
+
 1. Type constructor
 2. Data constructor
 
 Also see: Constant
+
 ** <<<Context>>> :drill:
 :PROPERTIES:
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
 :END:
+
 Constraint placed on the types under polymorphic variables.
 Written before the main type signature and denoted:
 #+begin_src haskell
@@ -2221,10 +2412,12 @@ TypeClass a =>
 
 *** /*/
 <<<Contexts>>>
+
 ** <<<Contravariant>>> :drill:
 :PROPERTIES:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
 :END:
+
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a Tensors in this basisis.
 
 Denotation:
@@ -2236,10 +2429,12 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 *** /*/
 <<<Contravariant cofunctor>>>
 <<<Contravariant functor>>> - More inline term is Contravariant cofunctor
+
 ** <<<Covariant>>> :drill:
 :PROPERTIES:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
 :END:
+
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of Tensors in this basisis.
 
 Denotation:
@@ -2263,12 +2458,15 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
 :END:
+
 Set of values.
 For type to have sence the values share some sence, properties.
+
 *** /*/
 <<<Type>>>
 <<<Types>>>
 <<<Data types>>>
+
 *** <<<Actual type>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -2282,14 +2480,19 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:46]
 :END:
+
 Data type recieved by ->inferring->compiling->execution.
+
 *** <<<Algebraic data type>>> :drill:
 :PROPERTIES:
 :ID:       3c1de247-a95a-4cb3-ba2d-476bd69f263a
 :END:
+
 Composite type formed by combining other types.
+
 **** /*/
 <<<AlgDT>>>
+
 *** <<<Cardinality>>> :drill:
 SCHT: <2019-07-27 Sat>
 :PROPERTIES:
@@ -2308,24 +2511,31 @@ Number of possible implementations for a given type signature.
 
 Disjunction, sum - adds cardinalities.
 Conjunction, product - multiplies cardinalities.
+
 *** Data <<<constant>>> :drill:
 :PROPERTIES:
 :ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
 :END:
+
 Nullary constructor
+
 **** /*/
 <<<Constant>>>
+
 *** <<<Data constructor>>> :drill:
 :PROPERTIES:
 :ID:       dc94bd99-113e-4025-82e8-39cd6843091b
 :END:
+
 One instance that inhabit data type.
 
 Constant value - nullary data constructor.
+
 *** <<<data declaration>>> :drill:
 :PROPERTIES:
 :ID:       4c0b5dd7-d8e2-4394-9a38-e99bd7961130
 :END:
+
 Data type declaration is the most general and versatile form to create a new data type.
 Form:
 #+begin_src haskell
@@ -2340,10 +2550,12 @@ data [context =>] type typeVars1..n
 :PROPERTIES:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
 :END:
+
 Type and variable have rules regarding values.
 
 A value of a variable has a role on the resulting Type.
 Or Type has rule for values.
+
 *** <<<Gen type>>> :drill:
 SCHT: <2019-07-09 Tue>
 :PROPERTIES:
@@ -2357,17 +2569,21 @@ SCHT: <2019-07-09 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:41]
 :END:
+
 Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
 *** <<<Higher-kinded data type>>> :drill:
 :PROPERTIES:
 :ID:       f923ff3e-43bb-4e4a-8c55-e4f2354e3810
 :END:
+
 Any combination of * and ->
 
 Type that take more types as arguments.
+
 **** /*/
 <<<Higher-kinded data types>>>
+
 *** <<<newtype declaration>>> :drill:
 SCHT: <2019-07-08 Mon>
 :PROPERTIES:
@@ -2381,6 +2597,7 @@ SCHT: <2019-07-08 Mon>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:22]
 :END:
+
 Creates a new type from old type using a new constructor.
 #+begin_src haskell
 newtype FirstName = FirstName String
@@ -2410,16 +2627,21 @@ SCHT: <2019-07-04 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 13:08]
 :END:
+
 The most generic data type that still typechecks.
+
 *** <<<Product data type>>> :drill:
 :PROPERTIES:
 :ID:       dcca9aba-08e0-4616-8bec-b803bf67f066
 :END:
+
 Algebraic data type formed by logical conjunction (AND ' ').
+
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
 :ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
 :END:
+
 Proxy type holds no data, but has a phantom parameter of arbitrary type (or even kind). Able to provide type information, even though has no value of that type (or it can be may too costly to create one).
 #+begin_src haskell
 data Proxy a = ProxyValue
@@ -2432,7 +2654,9 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 :PROPERTIES:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
 :END:
+
 Static typechecking occurs at compile level.
+
 *** <<<Structural type>>> :drill:
 :PROPERTIES:
 :ID:       9fbc8692-d766-4b0b-bb07-76cb11b9aea8
@@ -2445,32 +2669,42 @@ Static typechecking occurs at compile level.
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-05 Wed 14:24]
 :END:
+
 Mathematical type. They form into structural type system.
+
 **** /*/
 <<<Structural>>>
+
 *** <<<Structural type system>>> :drill:
 :PROPERTIES:
 :ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
 :END:
+
 Strict global hierarchy and relationships of types and their properties.
 Haskell type system is /*/.
 In most languages typing is name-based, not structural.
+
 **** /*/
 <<<Structural typing>>>
+
 *** <<<Sum data type>>> :drill:
 :PROPERTIES:
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
 :END:
+
 Algebraic data type formed by logical disjunction (OR '|').
+
 *** <<<Tuple>>> :drill:
 :PROPERTIES:
 :ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
 :END:
+
 Data type that stores multiple values withing a single value.
 Tuples by arity:
   * empty, unit          - 0
   * pair, <<<two-tuples>>>     - 2
   * <<<thriple>>>, three-tuple - 3
+
 *** <<<Type alias>>> :drill:
 SCHT: <2019-07-20 Sat>
 :PROPERTIES:
@@ -2484,7 +2718,9 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:20]
 :END:
+
 Create new type constructor, and use all data structure of the base type.
+
 *** <<<Type class>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -2498,36 +2734,47 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:15]
 :END:
+
 Type system construct that adds a support of ad hoc polymorphism.
 
 Type classes make a nice way for defining behaviour over many objects at once.
+
 **** /*/
 <<<Type classes>>>
 <<<Typeclass>>>
 <<<Typeclasses>>>
+
 **** <<<Arbitrary type class>>> :drill:
 :PROPERTIES:
 :ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
 :END:
+
 Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autogenerates values.
+
 ***** /*/
 <<<Arbitrary>>>
+
 **** <<<CoArbitrary type class>>> :drill:
 :PROPERTIES:
 :ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
 :END:
+
 Pseudogenerates a function basing on resulting type.
 #+begin_src haskell
 coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
+
 ***** /*/
 <<<CoArbitrary>>>
+
 **** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
 :END:
+
 Type class has a superclass.
+
 **** <<<Derived instance>>> :drill:
 SCHT: <2019-07-10 Wed>
 :PROPERTIES:
@@ -2541,34 +2788,43 @@ SCHT: <2019-07-10 Wed>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:24]
 :END:
+
 Type class instances sometimes can be automatically derived from the parent types.
 
 Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
+
 ***** /*/
 <<<Derived>>>
 <<<Deriving>>>
+
 *** <<<Type constant>>> :drill:
 :PROPERTIES:
 :ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
 :END:
+
 See: Constant
+
 *** <<<Type constructor>>> :drill:
 :PROPERTIES:
 :ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
 :END:
+
 Name of data type.
 
 Nullary type constructor is type constant
+
 *** <<<type declaration>>> :drill:
 :PROPERTIES:
 :ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
 :END:
+
 Synonim for existing type. Uses the same data constructor.
 #+begin_src haskell
 type FirstName = String
 #+end_src
 Used to distinct one entities from other entities, while they have the same type.
 Also main type functions can operate on a new type.
+
 *** <<<Typed hole>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -2582,17 +2838,22 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:52]
 :END:
+
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
+
 *** <<<Type inference>>> :drill:
 :PROPERTIES:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
 :END:
+
 Automatic data type detection of expression.
+
 **** /*/
 <<<Inferring>>>
 <<<Infer>>>
 <<<Infers>>>
 <<<Inferred>>>
+
 *** <<<Type class instance>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -2606,12 +2867,14 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:35]
 :END:
+
 Unique type class->type pairing implementation of functions.
 
 *** <<<Type rank>>> :drill:
 :PROPERTIES:
 :ID:       512cf517-eacf-4d39-9d7c-8ec840d9a384
 :END:
+
 Weak ordering of types.
 
 The rank of polymorphic type shows at what level of nesting =forall= quantifier appears.
@@ -2640,6 +2903,7 @@ g :: Int -> Ord a => a -> a
 f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
 
 Type inference in Rank-2 is possible, but not higher.
+
 **** /*/
 <<<Type ranks>>>
 <<<Rank type>>>
@@ -2650,44 +2914,59 @@ Type inference in Rank-2 is possible, but not higher.
 <<<Rank-2 types>>>
 <<<Rank-3 type>>>
 <<<Rank-3 types>>>
+
 *** <<<Type variable>>> :drill:
 :PROPERTIES:
 :ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
 :END:
+
 Refer to an unspecified type in Haskell type signature.
+
 *** <<<Unlifted type>>> :drill:
 :PROPERTIES:
 :ID:       071c758f-9a93-4769-a7f0-aaa02652e57f
 :END:
+
 Type that directly exist on the hardware. The type abstraction can be completely removed.
 With unlifted types Haskel type system directly manages data in the hardware.
+
 **** /*/
 <<<Unlifted types>>>
+
 **** /*/
 <<<Typed holes>>>
+
 *** <<<Data structure>>> :drill:
 :PROPERTIES:
 :ID:       34418701-bc96-4c96-ab01-c59ec2ee5741
 :END:
+
 **** <<<Cons cell>>> :drill:
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
 :END:
+
 Cell that values may inhabit.
+
 **** <<<Construct>>> :drill:
 :PROPERTIES:
 :ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
 :END:
+
 #+begin_src haskell
 (:) :: a -> [a] -> [a]
 #+end_src
+
 ***** /*/
 <<<Cons>>>
+
 **** <<<Leaf>>> :drill:
 :PROPERTIES:
 :ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
 :END:
+
  _
+
 **** <<<Node>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -2701,6 +2980,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:40]
 :END:
+
 #+begin_src text
  *
 / \
@@ -2710,6 +2990,7 @@ SCHT: <2019-07-06 Sat>
 :PROPERTIES:
 :ID:       eda588af-3ef5-43a8-8f06-6a6f2f556036
 :END:
+
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
  * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` in ST-Trick.
@@ -2717,12 +2998,15 @@ There are 3 general linear type groups:
  * 1< - all other data, that can be duplicated multiple times.
 
 Linear types are great to control/minimize resource usage.
+
 **** /*/
 <<<Linear types>>>
+
 *** <<<NonEmpty list data type>>> :drill:
 :PROPERTIES:
 :ID:       809c682b-457e-47df-bdfd-92302d3c42da
 :END:
+
 Data.List.NonEmpty
 Has a Semigroup instance but can't have a Monoid instance. It never can be an empty list.
 
@@ -2732,6 +3016,7 @@ data NonEmpty a = a :| [a]
 #+end_src
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
+
 ** <<<Declaration>>> :drill:
 SCHT: <2019-07-25 Thu>
 :PROPERTIES:
@@ -2745,18 +3030,23 @@ SCHT: <2019-07-25 Thu>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:48]
 :END:
+
 Binding the name to expression.
+
 ** <<<Differential operator>>> :drill:
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
 :END:
+
 Denotation.
 $$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
 Last one is partial.
 
 $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
+
 *** /*/
 <<<Differential>>>
+
 ** <<<Disjunction>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -2770,16 +3060,21 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:45]
 :END:
+
 OR
+
 ** <<<Dispatch>>> :drill:
 :PROPERTIES:
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :END:
+
 Send, transmission, reference.
+
 ** <<<Distributive axiom>>> :drill:
 :PROPERTIES:
 :ID:       6ea04559-091b-4151-b190-e97a88bb317a
 :END:
+
 Set S and two binary operators + \times:
 
   * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
@@ -2795,44 +3090,61 @@ Set S and two binary operators + \times:
 :PROPERTIES:
 :ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
 :END:
+
 The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
+
 ** <<<Effect>>> :drill:
 :PROPERTIES:
 :ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
 :END:
+
 Observable action.
+
 ** <<<Evaluation>>> :drill:
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
 :END:
+
 For FP see Bind.
+
 ** <<<Expected type>>> :drill:
 :PROPERTIES:
 :ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
 :END:
+
 Data type inferred from the text of the code.
+
 ** <<<Expression>>> :drill:
 :PROPERTIES:
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
 :END:
+
 Finite combination of a symbols that is well-formed according to rules that depend on the context.
+
 *** /*/
 <<<Expressions>>>
+
 *** <<<Closed-form expression>>> :drill:
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
 :END:
+
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
+
 *** <<<RHS>>> :drill:
 :PROPERTIES:
 :ID:       8638f0a1-1228-4196-b7f3-0c5db5c13028
 :END:
+
 Right-hand side of the expression.
+
 *** <<<LHS>>> :drill:
 :PROPERTIES:
 :ID:       060e0611-e893-46f5-b133-c020738fdf96
 :END:
+
 Left-hand side of the expression.
+
 *** <<<Redex>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -2846,14 +3158,18 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
 :END:
+
 Reducible expression.
+
 ** <<<First-class>>> :drill:
 :PROPERTIES:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
 :END:
+
 1. Can be used as value.
 2. Passed as an argument.
 From 1&2 -> can include itself.
+
 ** <<<First-order logic>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -2867,11 +3183,13 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:52]
 :END:
+
 Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables.
 
 *** /*/
 <<<Predicate logic>>>
 <<<First-order predicate calculus>>>
+
 ** <<<Free variable>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -2885,12 +3203,15 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:06]
 :END:
+
 Variable in the fuction that is not bound by the head.
 Until there are /* -/ function stays partially applied.
+
 ** <<<Function>>> :drill:
 :PROPERTIES:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
 :END:
+
 A varying quantity depends on another quantity.
 
 $$ x \in X, y \in Y : \; f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y) $$
@@ -2915,22 +3236,27 @@ Function is a mathematical operation.
 Function = Total function = Pure function. Function theoretically posible to momoized.
 Partial function.
 Inverse function - often partially exists (partial function).
+
 *** /*/
 <<<Functions>>>
+
 *** <<<Arity>>> :drill:
 :PROPERTIES:
 :ID:       fa4caa07-eea5-4082-aaed-92abb820e768
 :END:
+
 Number of parameters of the function.
   * nullary - f()
   * unary   - f(x)
   * binary  - f(x,y)
   * ternary - f(x,y,z)
   * n-ary   - f(x,y,z..)
+
 *** <<<Bijection>>> :drill:
 :PROPERTIES:
 :ID:       8366200a-a8ed-4c7b-baec-eb957d9f3d64
 :END:
+
 Function complete one-to-one pairing of elements of domain and codomain (image).
 It means function both surjective (so image == codomain) and injective (every domain element has unique correspondence to the image element).
 
@@ -2946,9 +3272,11 @@ f : X ⤖ Y
 #+end_src
 LaTeX needed to combine symbols:
 $$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
+
 **** /*/
 <<<Bijective>>>
 <<<Bijective function>>>
+
 *** <<<Combinator>>> :drill:
 :PROPERTIES:
 :ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
@@ -2983,19 +3311,25 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:15]
 :END:
+
 Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
+
 **** /*/
 <<<Applied>>>
 <<<Apply>>>
+
 *** <<<Function body>>> :drill:
 :PROPERTIES:
 :ID:       8c0947a8-56ae-49de-b3a8-ab87beab0bd6
 :END:
+
 Expression that haracterizes the process.
+
 *** <<<Function composition>>> :drill:
 :PROPERTIES:
 :ID:       e609101f-4f65-4f58-b997-2fe44c52c6d9
 :END:
+
 #+begin_src haskell
 (.) :: (b -> c) -> (a -> b) -> a -> c
 
@@ -3006,43 +3340,55 @@ In Haskell inline composition requires:
 #+begin_src haskell
 h.g.f $ i
 #+end_src
+
 **** /*/
 <<<Composition>>>
 <<<Compose>>>
 <<<Composed>>>
+
 *** <<<Function head>>> :drill:
 :PROPERTIES:
 :ID:       6eb9d501-0dda-4a9e-b3e1-e35fb84d31b8
 :END:
+
 Is a part with Name of the function and it's paramenter.
 AKA: f(x)
+
 *** <<<Function range>>> :drill:
 :PROPERTIES:
 :ID:       15fbd0e9-f327-4065-872e-23713f79ec12
 :END:
+
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
 So, see Function image.
+
 *** <<<Higher-order function>>> :drill:
 :PROPERTIES:
 :ID:       61a40480-45d2-4632-9948-986eecd8b7cb
 :END:
+
 Function arity > 1.
 
 ----
 
 Has function as a parameter.
 Evaluates to function.
+
 **** /*/
 <<<HOF>>>
+
 **** <<<Fold>>> :drill:
 :PROPERTIES:
 :ID:       9513b166-74df-4a9f-b7da-d03f84ca2cfc
 :END:
+
 Higher-order function ruturns accumulated result from recursive data structure applying a function.
+
 *** <<<Injection>>> :drill:
 :PROPERTIES:
 :ID:       c1f2a44b-8b24-47b8-8e23-304ad4fc536a
 :END:
+
 Function one-to-one injects from domain into codomain.
 
 Keeps distinct pairing of elements of domain and image.
@@ -3061,10 +3407,12 @@ f : X ↣ Y
 $f : X \rightarrowtail Y$
 
 Corresponds to Monomorphism.
+
 **** /*/
 <<<Injective>>>
 <<<Injective function>>>
 <<<Injectivity>>>
+
 *** <<<Partial function>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3078,16 +3426,21 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
+
 One that does not cover all domain.
 Unsafe and causes trouble.
+
 *** <<<Purity>>> :drill:
 :PROPERTIES:
 :ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
 :END:
+
 Referentially transparent function.
+
 **** /*/
 <<<Pure>>>
 <<<Pure function>>>
+
 *** <<<Sectioning>>> :drill:
 SCHT: <2019-07-27 Sat>
 :PROPERTIES:
@@ -3101,7 +3454,9 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:25]
 :END:
+
 Writing function in a parentheses. Allows to pass around partially applied functions.
+
 *** <<<Surjection>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3115,6 +3470,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:50]
 :END:
+
 Function uses codomain fully.
 
 $$ \forall y \in Y, \exists x \in X $$
@@ -3128,9 +3484,11 @@ f : X ↠ Y
 $$ f : X \twoheadrightarrow Y $$
 
 Corresponds to Epimorphism.
+
 **** /*/
 <<<Surjective>>>
 <<<Surjective function>>>
+
 *** <<<Unsafe>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3144,17 +3502,23 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:39]
 :END:
+
 Function that does not cover some edge case.
+
 *** <<<Variadic>>> :drill:
 :PROPERTIES:
 :ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
 :END:
+
 Variadic function has a indefinite arity. Assepts a variable number of arguments.
+
 *** <<<Domain>>> :drill:
 :PROPERTIES:
 :ID:       61416c64-6cbf-4af4-9428-ad6f79e76701
 :END:
+
 Source set of a function in $$ X \to Y $$.
+
 *** <<<Codomain>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -3168,19 +3532,26 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
+
 Codomain - target set of a function in $X \to Y$.
+
 *** <<<Open formula>>> :drill:
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
 :END:
+
 Function with arity.
+
 *** <<<Recursion>>> :drill:
 :PROPERTIES:
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
 :END:
+
 Repeated function application allow computing results that may require indefinite amount of work.
+
 **** /*/
 <<<Recursive>>>
+
 **** <<<Base case>>> :drill:
 SCHT: <2019-07-29 Mon>
 :PROPERTIES:
@@ -3194,28 +3565,37 @@ SCHT: <2019-07-29 Mon>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:17]
 :END:
+
 A part of a recursive function that trivially produces result.
+
 **** <<<Tail recursion>>> :drill:
 :PROPERTIES:
 :ID:       62dd2851-710e-4035-9890-6af1c17e6305
 :END:
+
 Tail calls are recursive invocantions of itself.
+
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
 :END:
+
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
+
 ** <<<Guerrilla patch>>> :drill:
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
 :END:
+
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 Monkey patch is derivative term.
+
 ** <<<Homotopy>>> :drill:
 :PROPERTIES:
 :ID:       4b3fc811-290c-4462-aaa6-208134e9e591
 :END:
+
 ὁμός homós same
 
 One can be "continuously deformed" into the other.
@@ -3231,8 +3611,10 @@ Natural transformation is a homotopy of functors.
 :PROPERTIES:
 :ID:       1c821458-dd2b-4112-aa32-416e27b161ba
 :END:
+
 After the initial application operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
+
 ** <<<Idiom>>> :drill:
 SCHT: <2019-07-23 Tue>
 :PROPERTIES:
@@ -3246,6 +3628,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
+
 /*/ - something having a meaning that can not be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
 
@@ -3258,18 +3641,22 @@ Meaning can be special for language speakers or human with particular knowledge.
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
 :END:
+
 If and only if, exectly when, just.
 Denotation:
 $$ \iff $$
+
 ** <<<Impredicative>>> :drill:
 :PROPERTIES:
 :ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
 :END:
+
 Self-referencing definition.
 
 ---
 
 /Antonym - Predicative./
+
 ** <<<Infix>>> :drill:
 SCHT: <2019-08-01 Thu>
 :PROPERTIES:
@@ -3283,21 +3670,28 @@ SCHT: <2019-08-01 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
+
 Form of wrinting of operaton application in-between variables.
+
 ** <<<Inhabit>>> :drill:
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
+
 What values inhabit data type
+
 ** <<<Interface>>> :drill:
 :PROPERTIES:
 :ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
 :END:
+
 Point of mutual meeting. Code behind interface determines how data is consumed.
+
 ** <<<IO>>> :drill:
 :PROPERTIES:
 :ID:       40e4a54b-c1c7-41fc-ac84-d3f167eb320f
 :END:
+
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
 Haskell standard uses monad for constructing and transforming IO actions.
 IO actions can be evaluated multiple times.
@@ -3321,15 +3715,19 @@ twoBinds =
 main = twoBinds
 :}
 #+end_src
+
 ** <<<Kind>>> :drill:
 :PROPERTIES:
 :ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
 :END:
+
 Kind -> Type -> Data
+
 ** <<<Lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
 :END:
+
 Universal model of computation that can be used to simulate any Turing machine.
 Based on function abstraction and application by substituting variables and binding values.
 
@@ -3337,13 +3735,16 @@ Based on function abstraction and application by substituting variables and bind
    * variable ($$ x $$)
    * application ($$ (ts) $$)
    * abstraction (lambda function) ($$ (\lambda x . t) $$)
+
 *** /*/
 <<<Lambda term>>>
 <<<Lambda terms>>>
+
 *** <<<Lambda abstraction>>> :drill:
 :PROPERTIES:
 :ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
 :END:
+
 Lambda term that has a head and body and is applied to an argument.
 $$ \lambda x.x+1 $$
 #+begin_src haskell
@@ -3355,19 +3756,23 @@ $$ \lambda x.x+1 $$
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
 :END:
+
 λ-cube shows the dimentions of generalization from simply typed Lambda calculus to Calculus of constructions.
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
   * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
   * (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
   * (Type class) - types depending on types, corresponding to type operators.
+
 **** /*/
 <<<λ-cube>>>
 <<<\lambda-cube>>>
+
 *** <<<Lambda function>>> :drill:
 :PROPERTIES:
 :ID:       857ef4b3-f3e6-4065-aac4-fd3607ed5284
 :END:
+
 Function of Lambda calculus.
 $$ \lambda x y.x^2 + y^3 $$
  ^^ ^    ^
@@ -3380,10 +3785,13 @@ $$ \lambda x y.x^2 + y^3 $$
   \___parameter
 (___)
    \____HEAD
+
 **** <<<Lambda expression>>>
 See Lambda function
+
 **** <<<Anonymous function>>>
 Lambda function without the name to bind to.
+
 *** <<<Beta normal form>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3397,40 +3805,55 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:52]
 :END:
+
 No beta reduction is possible.
+
 **** /*/
 <<<Normal form>>>.
+
 *** <<<Beta reduction>>> :drill:
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
 :END:
+
 Applying function to an argument.
+
 *** <<<Calculus of constructions>>> :drill:
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
 :END:
+
 Extends the Curry–Howard correspondence to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
 Type theory, typed programming language, and constructivism (phylosophy) foundation for mathematics.
 Directly relates to Coq programming language.
+
 **** /*/
 <<<<<<CoC>>>>>>
+
 *** <<<Curry–Howard correspondence>>> :drill:
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
 :END:
+
 Computer programs are mathematical proofs.
+
 **** /*/
 <<<Curry–Howard isomorphism>>>
+
 *** <<<Currying>>> :drill:
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
 :END:
+
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
+
 *** <<<Girard–Reynolds polymorphic lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
 :END:
+
 See System F.
+
 *** <<<Hindley–Milner type system>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3444,43 +3867,57 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:49]
 :END:
+
 Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
 Where types marked as polymorphic variables, and overall type inference is possible all over the code.
 Also known as Damas–Milner or Damas–Hindley–Milner system.
+
 *** <<<Reduction>>> :drill:
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
 :END:
+
 See Beta reduction
+
 **** /*/
 <<<Reducible>>>
+
 ** <<<Left associative>>> :drill:
 :PROPERTIES:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
 :END:
+
 Same level expression parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
+
 ** <<<Lense>>> :drill:
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
 :END:
+
 Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
 
 ** <<<Level of code>>> :drill:
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
 :END:
+
 There are mainly three levels of Haskell code.
+
 *** <<<Term level>>> :drill:
 :PROPERTIES:
 :ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
 :END:
+
 Level of code that works with data types.
+
 *** <<<Type level>>> :drill:
 :PROPERTIES:
 :ID:       2d900462-89be-4f77-be51-2d1867e82922
 :END:
+
 Level of code that does logical execution.
+
 *** <<<Compile level>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
@@ -3494,16 +3931,22 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
 :END:
+
 Level of code when code compiles/compiled.
+
 **** /*/
 <<<Compilation level>>>
+
 *** <<<Runtime level>>> :drill:
 :PROPERTIES:
 :ID:       99d21c80-6b3d-4818-aef0-6c7796571883
 :END:
+
 Level of code when binary code executes in machine.
+
 *** /*/
 <<<Code level>>>
+
 ** <<<Lexical scope>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -3517,9 +3960,12 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
 :END:
+
 Scope bound by the structure of source code where the named entity is defined.
+
 *** /*/
 <<<Static scope>>>
+
 ** <<<Local scope>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -3533,20 +3979,26 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:05]
 :END:
+
 Scope applies only in (current) area.
 
 *** /*/
 <<<Local>>>
+
 ** <<<Module>>> :drill:
 :PROPERTIES:
 :ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
 :END:
+
 Importable organization unit.
+
 ** <<<Modulus>>> :drill:
 :PROPERTIES:
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
 :END:
+
 Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+
 ** <<<Monkey patch>>> :drill:
 SCHT: <2019-07-31 Wed>
 :PROPERTIES:
@@ -3560,14 +4012,18 @@ SCHT: <2019-07-31 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
 :END:
+
 /From Guerrilla patch./
 
 /*/ is a way for program to modify supporting system software affecting only the running instance of the program.
+
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
 :ID:       350c03dd-e563-4d42-b554-d38370619667
 :END:
+
 Any Haskell expression can't return nothing.
+
 ** <<<Operation>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -3581,11 +4037,14 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
+
 Function. Word used in mathematics. Often a symbol, infix, binary.
+
 *** <<<Binary operation>>> :drill:
 :PROPERTIES:
 :ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
 :END:
+
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 
 **** /*/
@@ -3595,19 +4054,25 @@ $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
 :END:
+
 Function that denoted by symbol.
+
 *** <<<Shift operator>>> :drill:
 :PROPERTIES:
 :ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
 :END:
+
 Shift operator defined by Lagrange through Differential operator.
 $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
+
 **** /*/
 Shift
+
 ** <<<Orphan type instance>>> :drill:
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
 :END:
+
 Type instance that appeared from inconsistent code base. Duplicate of instance, or instance present on type class or on the type level.
 
 Solution for addressing orphan instances:
@@ -3617,29 +4082,37 @@ Put the instance in the same module as the type so that the type cannot be impor
 Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
 3. Neither the type nor the type class are yours?
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
+
 ** <<<Parameter>>> :drill:
 :PROPERTIES:
 :ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
 :END:
+
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
 Or Formal Parameter - named varible of a function.
 Is variable defined in function definition.
 Contrary to the argument wich is a supplied value to a function.
+
 *** /*/
 <<<Parameters>>>
+
 ** <<<Partial application>>> :drill:
 :PROPERTIES:
 :ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
 :END:
+
 Part of function parameters applied.
+
 *** /*/
 <<<Partially applied>>>
+
 ** <<<Pattern guard>>> :drill:
 :PROPERTIES:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
 :END:
+
 Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
@@ -3675,12 +4148,16 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:52]
 :END:
+
 Bijective function from domain to itself.
+
 ** <<<Phrase>>> :drill:
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
 :END:
+
 /*/ - composable expression.
+
 ** <<<Point-free>>> :drill:
 SCHT: <2019-07-03 Wed>
 :PROPERTIES:
@@ -3694,6 +4171,7 @@ SCHT: <2019-07-03 Wed>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:21]
 :END:
+
 Paradigm where function only describes the morphism itself.
 
 Process of converting function to point-free.
@@ -3709,21 +4187,25 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 \ x1 x2 -> g . f x1 $ x2
 \ x1    -> g . f x1
 #+end_src
+
 *** <<<\eta-abstraction>>> :drill:
 :PROPERTIES:
 :ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
 :END:
+
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 #+begin_src haskell
 \ x -> g . f $ x
 \ x -> g . f     --eta-abstraction
 #+end_src
+
 **** /*/
 <<<\eta-reduction>>>
 <<<\eta-conversion>>>
 <<<eta-abstraction>>>
 <<<eta-reduction>>>
 <<<eta-conversion>>>
+
 *** <<<Blackbird>>> :drill:
 SCHT: <2019-07-20 Sat>
 :PROPERTIES:
@@ -3737,6 +4219,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
 :END:
+
 #+begin_src haskell
 (.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
 #+end_src
@@ -3745,9 +4228,11 @@ Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. Durin
 #+begin_src haskell
 \f g x y -> f (g x y)
 #+end_src
+
 **** /*/
 <<<.) .>>>
 <<<(.).(.)>>>
+
 *** <<<Swing>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
@@ -3761,6 +4246,7 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
 :END:
+
 #+begin_src haskell
 swing :: (((a -> b) -> b) -> c -> d) -> c -> a -> d
 swing = flip . (. flip id)
@@ -3772,6 +4258,7 @@ swing f c a = f ($ a) c
 :PROPERTIES:
 :ID:       4813e27d-4ac4-415f-95c5-323b605c1de6
 :END:
+
 #+begin_src haskell
 f >>= a . b . c =<< g
 #+end_src
@@ -3780,6 +4267,7 @@ f >>= a . b . c =<< g
 <<<Pointfree>>>
 <<<Tacit>>>
 <<<Tacit programming>>>
+
 ** <<<Polymorphism>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3793,12 +4281,12 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:45]
 :END:
+
 πολύς /polús/ many
 
 At once several forms.
 
 Abstract over data types.
-
 
 /Antonym - Monomorphism./
 
@@ -3806,32 +4294,41 @@ Types:
 
 *** /*/
 <<<Polymorphic>>>
+
 *** <<<Levity polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
 :END:
+
 Levity polymprphism is when polymorphism works with lifted and unlifted types.
+
 *** <<<Parametric polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       0f4d5c48-f692-4a1f-8368-b0dab65f6d2f
 :END:
+
 Abstracting over data types by parameter.
 
 /In most languages named as 'Generics' (generic programming)./
 
 Types:
+
 **** <<<Rank-1 polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
 :END:
+
 Parametric polymorphism in rank-1 types by type variables.
+
 ***** /*/
 <<<Prenex>>>
 <<<Prenex polymorpism>>>
+
 **** <<<Let-bound polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       f415a2f4-8f66-483d-9b75-70b3e5fe4b89
 :END:
+
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
 It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
@@ -3843,27 +4340,35 @@ foo = (\f -> (f 1, f 'a')) id
 Is illegal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
+
 **** <<<Constrained polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       ad855e03-3fc1-4875-b28c-82b85987eccb
 :END:
+
 Constrained Parametric polymorphism.
+
 ***** <<<Ad hoc polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       d98c11bf-35fd-46ae-803f-28df28c37a54
 :END:
+
 Artificial constrained polymorphism dependent on incoming data type.
 Achieved by creating a type class functions.
 It is interface dispatch mechanism by data types.
 
 /Commonly known as overloading./
+
 ****** <<<Constraint>>> :drill:
 :PROPERTIES:
 :ID:       17acf135-bb3b-4036-84a5-b20ab01f15c9
 :END:
+
 See: Ad hoc polymorphism
+
 ******* /*/
 <<<Constraints>>>
+
 **** <<<Impredicative polymorphism>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -3877,18 +4382,22 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:49]
 :END:
+
 The most powerful form of Parametric polymorphism.
 First see Impredicative.
 
 Impredicative polymorphism allows type τ entities with polymorphic types that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
+
 ***** /*/
 <<<First-class polymorphism>>>
+
 **** <<<Higher-rank polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       80de6f6a-d231-4296-9f73-4caa384e65b9
 :END:
+
 Means that polymorphic types can apper within other types (types of function).
 There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. For example where ad hoc polymorphism is used in constraints of several different implementations of functions, and you want to build a function on top - and use the abstract interface over these functions.
 #+begin_src haskell
@@ -3908,12 +4417,15 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 #+end_src
 
 Useful example aslo a ST-Trick monad.
+
 ***** /*/
 <<<Rank-n polymorphism>>>
+
 *** <<<Subtype polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       9e587f6d-08ed-406c-9bf0-3af96cb8eb49
 :END:
+
 Allows to declare usage of a Type and all of its Subtypes.
 T - Type
 S - Subtype of Type
@@ -3923,10 +4435,12 @@ $$ S <: T = S \le T $$
 Subtyping is:
 If it can be done to T, and there is subtype S - then it also can be done to S.
 $$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
+
 *** <<<Row polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       18e7413e-72cc-4ab6-8c9e-1591f4b00606
 :END:
+
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
 Is a lot like Subtype polymorphism, but alings itself on allowence (with | r) of subtypes and types with requested properties.
 #+begin_src haskell
@@ -3944,6 +4458,7 @@ printBoth rec = printX rec ++ printY rec
 :PROPERTIES:
 :ID:       4658489e-5516-44d3-b9ab-06f9077657f5
 :END:
+
 Achieved using a phantom type argument in the data type declaration.
 #+begin_src haskell
 ;;         * -> *
@@ -3964,6 +4479,7 @@ let proxy2 = (ProxyValue :: Proxy a)   -- * -> * :: Proxy a
 :PROPERTIES:
 :ID:       4a8f87d0-99ee-40e7-8a02-92b97540f9b4
 :END:
+
 Leverages linear types.
 For exampe - if fold over a dynamic array:
   1) In basic Haskell - array would be copied at every step.
@@ -3976,11 +4492,13 @@ So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initi
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
 :END:
+
 Pragma - instruction to the compiler that specifies how a compiler should process the code.
 Pragma in Haskell have form:
 #+begin_src haskell
 {-# PRAGMA options #-}
 #+end_src
+
 *** <<<LANGUAGE pragma>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
@@ -3994,13 +4512,17 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:13]
 :END:
+
 Controls what variations of the language are permitted.
 It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
+
 **** <<<LANGUAGE option>>>
+
 ***** Useful by default :drill:
 :PROPERTIES:
 :ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
 :END:
+
 #+begin_src haskell
 import EmptyCase
 import FlexibleContexts
@@ -4008,16 +4530,20 @@ import FlexibleInstances
 import InstanceSigs
 import MultiParamTypeClasses
 #+end_src
+
 ***** <<<AllowAmbiguousTypes>>> :drill:
 :PROPERTIES:
 :ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
 :END:
+
 Allow type signatures which appear that they would result in an unusable binding.
 However GHC will still check and complain about a functions that can never be called.
+
 ***** <<<ApplicativeDo>>> :drill:
 :PROPERTIES:
 :ID:       cb3b5b66-06a8-4187-9606-631faefa7814
 :END:
+
 Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
 
 For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
@@ -4038,10 +4564,12 @@ Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
 The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
 
 It is possible to see the actual translation by using =-ddump-ds=.
+
 ***** <<<ConstrainedClassMethods>>> :drill:
 :PROPERTIES:
 :ID:       301a3741-f96c-45a7-bb14-7e342167b62d
 :END:
+
 Enable the definition of further constraints on individual class methods.
 
 ***** <<<ConstraintKinds>>> :drill:
@@ -4057,6 +4585,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:51]
 :END:
+
 Constraints are just handled as types of a particular kind (Constraint).
 Any type of the kind Constraints can be used as a constraint.
   * Anything which is already allowed in code as a constraint without /*/. Saturated applications to type classes, implicit parameter and equality constraints.
@@ -4080,14 +4609,18 @@ Any type of the kind Constraints can be used as a constraint.
 :PROPERTIES:
 :ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
 :END:
+
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
+
 ***** <<<DeriveFunctor>>> :drill:
 :PROPERTIES:
 :ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
 :END:
+
 Automatic deriving of instances for the Functor type class.
 Since there is only one possible functor for any type - it is possible to check that it is derived right.
 Allows does not care about writing Functor instances.
+
 ***** <<<ExplicitForAll>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -4101,11 +4634,14 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:41]
 :END:
+
 Allow explicit forall quantificator in places where it is implicit by Haskell.
+
 ***** <<<FlexibleContexts>>> :drill:
 :PROPERTIES:
 :ID:       ab8dc15c-452a-4dd7-94fe-1e1c38fd0c1e
 :END:
+
 Ability to use complex constraints in class declaration contexts.
 The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
 #+begin_src haskell
@@ -4117,6 +4653,7 @@ class C a => D a where ...
 $$ C :> D $$, so in C we can talk about D.
 
 Synergizes with ConstraintKinds.
+
 ***** <<<FlexibleInstances>>> :drill:
 SCHT: <2019-07-03 Wed>
 :PROPERTIES:
@@ -4130,21 +4667,25 @@ SCHT: <2019-07-03 Wed>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:41]
 :END:
+
 Allow type class instances types contain nested types.
 #+begin_src haskell
 instance C (Maybe Int) where ...
 #+end_src
 Implies TypeSynonymInstances.
+
 ***** <<<GeneralizedNewtypeDeriving>>> :drill:
 :PROPERTIES:
 :ID:       96a23172-9aa7-4290-adfe-a18169dd4362
 :END:
+
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
 #+begin_src haskell
 newtype Dollars = Dollars Int
   deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
 #+end_src
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
+
 ***** <<<ImplicitParams>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
@@ -4158,8 +4699,10 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
 :END:
+
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
 Sure thing this one can be puzzling as hell inside Haskell.
+
 ***** <<<LambdaCase>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -4173,6 +4716,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:41]
 :END:
+
 Enables expressions of the form:
 #+begin_src haskell
 \case { p1 -> e1; ...; pN -> eN }
@@ -4189,6 +4733,7 @@ Enables expressions of the form:
 :PROPERTIES:
 :ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
 :END:
+
 Implies: ConstrainedClassMethods
 Enable the definitions of typeclasses with more than one parameter.
 #+begin_src haskell
@@ -4199,6 +4744,7 @@ class Collection c a where
 :PROPERTIES:
 :ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
 :END:
+
 Enable multi-way-if syntax.
 #+begin_src haskell
 if | guard1 -> expr1
@@ -4210,6 +4756,7 @@ if | guard1 -> expr1
 :PROPERTIES:
 :ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
 :END:
+
 Enable overloaded string literals (string literals become desugared via the IsString class).
 Now string literal has type:
 #+begin_src haskell
@@ -4220,16 +4767,19 @@ The usual string syntax can be used, e.g., for ByteString, Text, and other varia
 Now they can be used in pattern matches as char->integer translations. To pattern match Eq must be derived.
 
 To use class IsString - import it from GHC.Ext
+
 ***** <<<PartialTypeSignatures>>> :drill:
 :PROPERTIES:
 :ID:       4ac887da-6e23-4028-9924-3496787aa8d0
 :END:
+
 Partial type signature containins wildcards, placeholders (=_=, =_name=).
 Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
 
 As untuped expression, partly typed can not polymorphicly recurse.
 
 -Wno-partial-type-signatures supresses infer warnings.
+
 ***** <<<RankNTypes>>> :drill:
 SCHT: <2019-07-05 Fri>
 :PROPERTIES:
@@ -4243,6 +4793,7 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
 :END:
+
 Enable types of arbitrary rank.
 See Type rank.
 
@@ -4257,10 +4808,12 @@ Allows =forall= quantifier:
   * used in pattern type signature of Lexically scoped type variables
 
 It can synergyze with ScopedTypeVariables.
+
 ***** <<<ScopedTypeVariables>>> :drill:
 :PROPERTIES:
 :ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
 :END:
+
 By default type variables do not have a scope except inside type signatures where they are used.
 
 When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
@@ -4270,6 +4823,7 @@ When there are internall type signatures provided in the code block (=where=, =l
 For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
 
 Implies ExplicitForAll.
+
 ***** <<<TupleSections>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -4283,6 +4837,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:51]
 :END:
+
 Allow tuple section syntax:
 #+begin_src haskell
 (, True)
@@ -4293,6 +4848,7 @@ Allow tuple section syntax:
 :PROPERTIES:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
 :END:
+
 Allow type application syntax:
 #+begin_src haskell
 read @Int 5
@@ -4314,6 +4870,7 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 :PROPERTIES:
 :ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
 :END:
+
 Allow use and definition of indexed type and data families.
 
 /*/ are type-level programming.
@@ -4324,24 +4881,32 @@ Allow use and definition of indexed type and data families.
 Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
 
 Two types of /*/ are:
+
 ****** <<<Data families>>>
+
 ****** <<<Type synonym families>>>
+
 ***** <<<TypeSynonymInstances>>> :drill:
 :PROPERTIES:
 :ID:       3989b294-f011-48c0-9998-be10bd75c541
 :END:
+
 Now type synonim can have it's own type class instances.
+
 ***** <<<UndecidableInstances>>> :drill:
 :PROPERTIES:
 :ID:       71ac682f-292d-401a-bd61-0c28a707a950
 :END:
+
 Permit instances which may lead to type-checker non-termination.
 
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
+
 ***** <<<ViewPatterns>>> :drill:
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
 :END:
+
 #+begin_src haskell
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
@@ -4353,10 +4918,12 @@ Semantics:
 
 /*/ are like pattern guards that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match algebraic data type.
+
 ***** <<<DatatypeContexts>>> :drill:
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
 :END:
+
 Allow contexts in data types.
 #+begin_src haskell
 data Eq a => Set a = NilSet | ConsSet a (Set a)
@@ -4365,6 +4932,7 @@ data Eq a => Set a = NilSet | ConsSet a (Set a)
 -- ConsSet :: Eq a => a -> Set a -> Set a
 #+end_src
 Considered misfeature, deprecated, going to be removed.
+
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
 #+begin_src haskell
@@ -4384,14 +4952,17 @@ xFlagsDeps = [
 ]
 #+end_src
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
+
 ** <<<Predicate>>> :drill:
 :PROPERTIES:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
 :END:
+
 Assertion function that includes variable and results in true or false statement.
 
 Notation: $$ P(x) $$
 Application of argument yealds true or false predicate.
+
 ** <<<Predicative>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -4405,6 +4976,7 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:48]
 :END:
+
 Non-self-referencing definition.
 
 ---
@@ -4424,6 +4996,7 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
+
 The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
 
 ** <<<\Psi-combinator>>> :drill:
@@ -4439,6 +5012,7 @@ SCHT: <2019-07-03 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-29 Sat 23:42]
 :END:
+
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
 #+begin_src haskell
 import Data.Function (on)
@@ -4462,6 +5036,7 @@ SCHT: <2019-08-01 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
+
 Specifies the quantity of specimens.
 
 Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
@@ -4469,16 +5044,20 @@ $$ \exists ! $$ - one and only one (exists only unique).
 
 *** /*/
 <<<Quantification>>>
+
 *** <<<Forall quantifier>>> :drill:
 :PROPERTIES:
 :ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
 :END:
+
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
 ScopedTypeVariables
 RankNTypes
 ExistentialQuantification
+
 **** /*/
 <<<Forall>>>
+
 ** <<<Referential transparency>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -4492,10 +5071,12 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:45]
 :END:
+
 Returns the same output given the same values to evaluate.
 So:
 /*/ expression can be replaced with its corresponding resulting value without change for program's behavior.
 /*/ functions are pure.
+
 *** /*/
 <<<Referentially transparent>>>
 
@@ -4512,12 +5093,16 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
+
 Is not directed and not limited.
+
 ** <<<REPL>>> :drill:
 :PROPERTIES:
 :ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
 :END:
+
 Interactive CLI. Read-eval-print loop.
+
 ** <<<Scope>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
@@ -4531,38 +5116,48 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
+
 Area where binds are accessible.
+
 ** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
 :END:
+
 Philosophical study of meaning.
+
 *** <<<Operational semantics>>> :drill:
 :PROPERTIES:
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
 :END:
+
 Properties, such as correctness, safety or security, are verified by constructing proofs from logical assertion s about execution and procedures.
 
 Good to solve in-point localized tasks.
 Process of abstraction.
+
 *** <<<Denotational semantics>>> :drill:
 :PROPERTIES:
 :ID:       a21dabc0-cc1e-4225-b9f1-86a14e2b7a13
 :END:
+
 Constructing mathematical objects (called denotations), that describe the meanings. It is an abstractions that are ment, laying above the code, allow to implement and reason about the code. Sometimes /*/ can be directly represented in the implementation, but it is not strict requirement.
 
 Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 /*/ are composable.
+
 *** <<<Axiomatic semantics>>> :drill:
 :PROPERTIES:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
 :END:
+
 Describing effect of operation on assertions about the overall state.
 
 Good for examining interconnections.
 Empirical process.
+
 ** <<<Set>>> :drill:
 SCHT: <2019-07-20 Sat>
 :PROPERTIES:
@@ -4576,26 +5171,34 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:46]
 :END:
+
 Well-defined collection of distinct objects.
+
 *** /*/
 <<<Sets>>>
+
 *** <<<Closed set>>> :drill:
 :PROPERTIES:
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
 :END:
+
 Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
+
 *** <<<Power set>>> :drill:
 :PROPERTIES:
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
 :END:
+
 For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
 Denotation:
 $$ \mathcal{P(S)} $$
+
 *** <<<Hom-set>>> :drill:
 :PROPERTIES:
 :ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
 :END:
+
 Collection of all morphisms (and compositions of morphisms) from object to object. Collection of morphisms is not nesessary a set, but in practice - is.
 
 Denotation:
@@ -4608,6 +5211,7 @@ Denotation was not standartized.
 :PROPERTIES:
 :ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
 :END:
+
 $$ hom:C^{op} \times C \to Set $$, for C (locally small category)
 from the product category of the category C with its opposite category to the category Set of sets.
 
@@ -4619,12 +5223,15 @@ $$ Hom(A,-) : C \to Set $$
 
 Hom-bifunctor:
 $$ Hom(-,-):C^{op} \times C \to Set $$
+
 *** <<<Singleton>>> :drill:
 :PROPERTIES:
 :ID:       cd966fe0-f42d-4b75-b388-85649eacc84f
 :END:
+
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
+
 ** <<<Shadowing>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -4638,17 +5245,23 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
+
 Global scope variable overriden by variable in local scope.
+
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
 :END:
+
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
+
 ** <<<Smart constructor>>> :drill:
 :PROPERTIES:
 :ID:       e2aded58-a463-4762-97c4-7fc2238d386d
 :END:
+
 Place extra constraints on the construction of values.
+
 ** <<<Spine>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
@@ -4662,6 +5275,7 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
 :END:
+
 Is a chain of memory cells, each points to the both value of element and to the next memory cell.
 #+begin_src text
 Array:
@@ -4691,13 +5305,17 @@ _   :
 :PROPERTIES:
 :ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
 :END:
+
 Declarative sentence that is true or false.
 Gonzales: "What code does."
+
 ** <<<Superclass>>> :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
 :END:
+
 Broader parent class.
+
 ** <<<Syntatic sugar>>> :drill:
 SCHT: <2019-08-01 Thu>
 :PROPERTIES:
@@ -4711,13 +5329,17 @@ SCHT: <2019-08-01 Thu>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
+
 Artificial way to make language easier to read and write.
+
 ** <<<System F>>> :drill:
 :PROPERTIES:
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
 :END:
+
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
+
 ** <<<Tail call>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -4731,7 +5353,9 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:15]
 :END:
+
 Final evaluation producing result of the function.
+
 ** <<<Tensor>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -4745,6 +5369,7 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:19]
 :END:
+
 Object existing out of planes, thus it can translate objects from one plane into another.
 They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
 Tensor of rank 1 is a vector.
@@ -4754,16 +5379,20 @@ Translatioin with tensor can be seen as functors.
 *** /*/
 <<<Tensors>>>
 <<<Tensorial>>>
+
 ** <<<Testing>>> :drill:
 :PROPERTIES:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
 :END:
+
 *** <<<Property testing>>>
 Since property has a law, then family of that unit tests can be abstracted into the lambda function.
 And tests cases come from generator.
+
 **** <<<Function property>>>
 Property corresponds to the according law.
 In property testing you need to think additionally about generator and shrinking.
+
 **** <<<Property testing types>>>
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
@@ -4771,6 +5400,7 @@ In property testing you need to think additionally about generator and shrinking
 | Whole set of values      | Exhaustive property test             | Randomised property test             |                           |
 | Special subset of values | Exhaustive specialised property test | Randomised specialised property test |                           |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
+
 **** <<<Generator>>>
 #+begin_src text
 Seed
@@ -4787,8 +5417,10 @@ There is anyway a need to have some seed.
 Size allows setting upper bound on size of generated value. Think about infinity of list.
 
 After failed test - shrinking tests value parts of contrexample, finds a part that still fails, and recurses shrinking.
+
 ***** /*/
 <<<Generators>>>
+
 ***** Custom generator
 When sertain theorem only works for a specific set of values - the according generator needs to be produced.
 
@@ -4797,6 +5429,7 @@ arbitrary :: Arbitrary a => Gen a
 suchThat :: Gen a -> (a -> Bool) -> Gen a
 elements :: [a] -> Gen a
 #+end_src
+
 **** <<<Reusing test code>>>
 Often it is convinient to abstract testing of same function properties:
 
@@ -4825,21 +5458,25 @@ Eq Int
     is antireflexive
     is equivalent to (\ a b -> not $ a == b)
 #+end_src
+
 ***** <<<Test Commutative property>>>
 Commutativity
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> a) -> Property
 #+end_src
+
 ***** <<<Test Symmetry property>>>
 Symmetry
 #+begin_src haskell
 :: Arbitrary a => (a -> a -> Bool) -> Property
 #+end_src
+
 ***** <<<Test Equivalence property>>>
 Equivalence
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (a -> b) -> Property
 #+end_src
+
 ***** <<<Test Inverse property>>>
 #+begin_src haskell
 :: (Arbitrary a, Eq b) => (a -> b) -> (b -> a) -> Property
@@ -4850,6 +5487,7 @@ Equivalence
 `SomethingSomething -> Bool` is something `Testable`.
 Generator `arbitrary`, gets the seed, and generates.
 `quickCheck` runs the loop and tests.
+
 ***** Manual automation with QuickCheck properties
 #+begin_src haskell
 import Test.QuickCheck
@@ -4896,19 +5534,24 @@ main = do
   quickCheck $ eq $ (prop_AutoFunctorCompose ∷ Prop_AutoFunctorCompose (Four' ()) String Integer String)
   quickCheck $ eq $ (prop_AutoFunctorCompose ∷ Prop_AutoFunctorCompose (Four' ()) Integer String (Maybe Int))
 #+end_src
+
 *** Write tests algorithm
 1. Pick the right language/stack to implement features.
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
+
 ** <<<Thunk>>> :drill:
 :PROPERTIES:
 :ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
 :END:
+
 Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
+
 ** <<<Uncurry>>> :drill:
 :PROPERTIES:
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
 :END:
+
 Replace number of functions with tuple of number of values
 
 ** <<<Undefined>>> :drill:
@@ -4924,11 +5567,14 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:43]
 :END:
+
 Placeholder value that helps to do typechecking.
+
 ** <<<Unit>>> :drill:
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
 :END:
+
 Value, type. Represents nothing. Empty tuple
 #+begin_src haskell
 ()
@@ -4938,6 +5584,7 @@ Value, type. Represents nothing. Empty tuple
 :PROPERTIES:
 :ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
 :END:
+
 A name for expression.
 
 Haskell has immutable variables.
@@ -4959,6 +5606,7 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
 :END:
+
 /*/ is the value with which operation always yelds Zero value.
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
@@ -4967,15 +5615,21 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 * Give definitions
 
 ** <<<Commuting diagram>>>
+
 ** <<<Const functor>>>
 ** <<<Kleisli category>>>
+
 ** <<<Free object>>>
 When this object/property autofollows from rules&axioms.
 
 ** <<<Thin category>>>
+
 ** <<<Identity type>>>
+
 ** <<<Constant type>>>
+
 ** <<<Gen>>>
+
 ** <<<ST-Trick monad>>>
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
@@ -4985,8 +5639,11 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 <<<ST-Trick>>>
 
 ** <<<Lax monoidal functor>>>
+
 ** <<<Tensorial strength>>>
+
 ** <<<Strong monad>>>
+
 ** <<<Either>>>
 Allows to separate and preserve information about happened, ex. error handling.
 
@@ -4994,12 +5651,17 @@ Allows to separate and preserve information about happened, ex. error handling.
 <<<Either data type>>>
 
 ** <<<Weak head normal form>>>
+
 *** /*/
 <<<WHNF>>>
+
 ** <<<Function image>>>
+
 *** /*/
 <<<Image>>>
+
 ** <<<Maybe>>>
+
 ** <<<Inverse>>>
 1. Inverse function
 
@@ -5021,27 +5683,42 @@ Otherwise - partial inverse
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
 :END:
+
 $$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
+
 ** <<<Partial inverse>>>
 /*/ when function is now bijective. When bijective see inverse function.
+
 ** <<<Define LANGUAGE pragma options>>>
+
 *** <<<ExistentialQuantification>>>
+
 *** <<<GADTs>>>
+
 *** <<<GeneralizedNewTypeClasses>>>
+
 *** <<<FuncitonalDependencies>>>
+
 ** <<<GHC debug keys>>>
+
 *** <<<-ddump-ds>>>
 Dump desugarer output.
+
 **** /*/
 <<<Desugar>>>
 <<<GHC desugar>>>
+
 ** <<<GHC optimize keys>>>
+
 *** <<<-foptimal-applicative-do>>>
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
+
 ** <<<GHC check keys>>>
+
 *** <<<-Wno-partial-type-signatures>>>
 Supresses PartialTypeSignatures wildcard infer warning.
+
 ** <<<Generalised algebraic data types>>>
 LANGUAGE GADTs
 
@@ -5060,6 +5737,7 @@ Abstract structure that consists of partially ordered set, where every two eleme
 /*/ order-theory & algebraic.
 
 *** <<<Ordering>>>
+
 **** <<<Preorder>>>
 R^{X \to X} : Reflexive & Transitive:
 $$ aRa $$
@@ -5088,10 +5766,14 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 <<<Posets>>>
 
 *** <<<Partial order>>>
+
 *** <<<Total order>>>
+
 *** <<<Preorder>>>
+
 ** <<<Universal algebra>>>
 Studies algebraic structures.
+
 ** <<<Relation>>>
 
 *** <<<Reflexivity>>>
@@ -5105,6 +5787,7 @@ Corresponds to Identity and Automorphism.
 **** /*/
 <<<Reflexive>>>
 <<<Reflexive relation>>>
+
 *** <<<Irreflexivity>>>
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
 
@@ -5199,25 +5882,34 @@ A specification of a data type like a stack or queue where the specification doe
 Fully defined & non-polymorphic type.
 
 ** <<<Property>>>
+
 ** <<<Functional dependencies>>>
+
 ** <<<MonoLocalBinds>>>
+
 ** <<<KindSignatures>>>
+
 ** <<<ExplicitNamespaces>>>
 
 ** <<<Combinator pattern>>>
+
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
+
 * Good code :drill:
 :PROPERTIES:
 :ID:       0061ec53-dc1b-40a8-a00a-f07fd4213be2
 :END:
+
 ** <<<Good: Type aliasing>>> :drill:
 :PROPERTIES:
 :ID:       db5d6252-f9b1-4c2e-ab00-a4a99d026c2a
 :END:
+
 Use data type aliases to deferentiate logic of values.
+
 ** <<<Good: Type wideness>>> :drill:
 SCHT: <2019-07-22 Mon>
 :PROPERTIES:
@@ -5231,6 +5923,7 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:14]
 :END:
+
 Wider the type the more it is polymorphic, means it has broader application and fits more types.
 
 Concrete type fits only to itself.
@@ -5247,49 +5940,62 @@ The widest type in current circumstances named principal type.
 :PROPERTIES:
 :ID:       6dc2fbe3-f3de-4a52-97d5-dc001e59869c
 :END:
+
 ** <<<Good: Print>>> :drill:
 :PROPERTIES:
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
 :END:
+
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
+
 ** <<<Good: Read code evaluation (488 on-ward)>>> :drill:
 :PROPERTIES:
 :ID:       e2222b7e-75c8-4c75-98b2-9d99167232c3
 :END:
+
 ** <<<Good: Fold>>> :drill:
 :PROPERTIES:
 :ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
 :END:
+
 foldr spine recursion intermediated by the folding
 foldl spine folding is unconditional, then solding starts.
 
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
+
 ** <<<Good: Computation model>>> :drill:
 :PROPERTIES:
 :ID:       a6b88a42-c287-47ae-9db0-f7c2aa0d0cd3
 :END:
+
 Model the domain and types before thinking about how to write computations.
+
 ** <<<Good: Make bottoms only local>>> :drill:
 :PROPERTIES:
 :ID:       8d96eb06-0984-4325-a447-4e751ff820e0
 :END:
+
 ** <<<Good: Newtype wrap is ideally transparent for compiler and does not change performance>>> :drill:
 :PROPERTIES:
 :ID:       0a8b1bec-1a25-42e0-b137-232fb01b25d7
 :END:
+
 ** <<<Good: Instances of types/type classes must go with code you write>>> :drill:
 :PROPERTIES:
 :ID:       2bafb381-43ce-44b0-9abf-ffa1f3f0c6e1
 :END:
+
 ** <<<Good: Functions can be abstracted as arguments>>> :drill:
 :PROPERTIES:
 :ID:       714c9ca5-052c-4c5b-b3c6-fcd7741250b0
 :END:
+
 ** <<<Good: Infix operators can be bind to arguments>>> :drill:
 :PROPERTIES:
 :ID:       defb1467-4b50-451b-8fb3-ab12af4409af
 :END:
+
 ** <<<Good: Arbitrary>>> :drill:
 SCHT: <2019-07-25 Thu>
 :PROPERTIES:
@@ -5303,6 +6009,7 @@ SCHT: <2019-07-25 Thu>
 :DRILL_LAST_QUALITY: 4
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:23]
 :END:
+
 Product types can be tested as a product of random generators.
 Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
 
@@ -5310,10 +6017,12 @@ Sum types require to implement generators with separate constructors, and pickin
 :PROPERTIES:
 :ID:       a07f55f7-1a15-4aa9-b8c8-fb58149924d7
 :END:
+
 ** <<<Good: Function composition>>> :drill:
 :PROPERTIES:
 :ID:       ade1516e-44f1-4a8e-bfe4-5b773d0f27d6
 :END:
+
 In Haskell inline composition requires:
 #+begin_src haskell
   h.g.f $ i
@@ -5325,14 +6034,18 @@ But it is a way better then:
 #+begin_src haskell
   h (g (f i))
 #+end_src
+
 ** <<<Good: Point-free>>>
 /Use Tacit very carefully - it hides types and harder to change code where it is used./
 /Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better./
+
 *** <<<Good: Point-free is great in multi-dimentions>>> :drill:
 :PROPERTIES:
 :ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
 :END:
+
 BigData and OLAP analysis.
+
 ** <<<Good: Functor application>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -5346,6 +6059,7 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:34]
 :END:
+
 Function application on n levels beneath:
 #+begin_src haskell
 (fmap.fmap) function twoLevelStructure
@@ -5368,28 +6082,41 @@ fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
 :PROPERTIES:
 :ID:       05494702-c932-47ef-a91b-6ffd27a6b51f
 :END:
+
 In functions parameter order is important.
 It is best to use first the most reusable parameters.
 And as last one the one that can be the most variable, that is important to chain.
+
 ** <<<Good: Applicative monoid>>> :drill:
 :PROPERTIES:
 :ID:       e417b5f0-fc63-45e0-971a-68b2c6ae4d22
 :END:
+
 There can be more then one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
+
 ** <<<Good: Creative process>>> :drill:
 :PROPERTIES:
 :ID:       b5b69b79-144b-49f0-a997-ed7c056e182b
 :END:
+
 *** Pick phylosophy principles one to three the more - the harder the implementation
+
 *** Draw the most blurred representation
+
 *** Deduce abstractions and write remotely what they are
+
 *** Model of computation
+
 **** Model the domain
+
 **** Model the types
+
 **** Think how to write computations
+
 *** Create
+
 ** <<<Good: About operators (<$) (*>) (<*) (>>)>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -5403,22 +6130,33 @@ SCHT: <2019-07-06 Sat>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
 :END:
+
 Where character is not present - discards the according value.
+
 ** <<<Good: About operators mapM_ sequence_>>> :drill:
 :PROPERTIES:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
 :END:
+
 Trailing /_/ means ignoring the result.
+
 ** <<<Good: Guideliles>>> :drill:
 :PROPERTIES:
 :ID:       30bdcb7b-27f5-4d34-993d-d4a710d41969
 :END:
+
 *** Wiki.haskell
+
 **** Documentation
+
 ***** Comments write in application terms, not technical.
+
 ***** Tell what code needs to do not how it does.
+
 **** Haddoc
+
 ***** Put haddock comments to ever exposed data type and function.
+
 ***** Haddock header
 #+begin_src haskell
 {- |
@@ -5434,22 +6172,33 @@ Portability :  portable | non-portable (<reason>)
 <module description starting at first column>
 -}
 #+end_src
+
 **** Code
+
 ***** Try to stay closer to portable (Haskell98) code
+
 ***** Try make lines no longer 80 chars
+
 ***** Last char in file should be newline
+
 ***** Symbolic infix identifiers is only library writer right
+
 ***** Every function does one thing.
+
 ** <<<Good: Use Typed holes to progress the code>>> :drill:
 :PROPERTIES:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
 :END:
+
 Typed holes help build code in complex situations.
+
 ** <<<Good: Haskell has infinite terms not not infinite types.>>> :drill:
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
 :END:
+
 That is why infinite types throw infinite type error.
+
 ** <<<Good: Use type sysnonims to differ the information>>> :drill:
 SCHT: <2019-07-26 Fri>
 :PROPERTIES:
@@ -5463,13 +6212,17 @@ SCHT: <2019-07-26 Fri>
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
+
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow TypeSynonymInstances, which would allow to create a diffrent type class instances and behaviour for different information.
+
 ** <<<Good: Control.Monad.Error -> Control.Monad.Except>>> :drill:
 :PROPERTIES:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
 :END:
+
 ** <<<Good: Monad OR Applicative>>>
+
 **** Start writing monad using 'return', 'ap', 'liftM', 'liftM2', '>>' instead of 'do','>>='
 If you wrote code and really needed only those - move that code to Applicative.
 #+begin_src haskell
@@ -5478,6 +6231,7 @@ ap -> <*>
 liftM -> liftA -> <$>
 >> -> *>
 #+end_src
+
 **** Basic case when Applicative can be used
 Can be rewriten in Applicative:
 #+begin_src haskell
@@ -5495,22 +6249,28 @@ b <- g a
 pure (a, b)
 #+end_src
 (f n) creates monadic structure, binds ot to /a/ wich is consumed then by g.
+
 **** Applicative block vs Monad block
 With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
+
 ** <<<Good: Haskell Package Versioning Policy>>>
 Version policy and dependency management.
 
 #+DOWNLOADED: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
 [[file:Good_code/pvp-decision-tree_2019-06-17_15-49-21.svg]]
+
 *** /*/
 <<<PVP>>>
 <<<Good: PVP>>>
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
 :END:
+
 ** Pragma
+
 *** Dangerous LANGUAGE pragma options
 
   - DatatypeContexts
@@ -5523,6 +6283,7 @@ Mine addition:
   - UndecidableInstances
 
 * Useful functions to remember
+
 ** Prelude
 #+begin_src haskell
 enumFromTo
@@ -5540,11 +6301,14 @@ elemIndex e l - return first index, returns Maybe
 fromMaybe (default if Nothing) e ::Maybe a -> a
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
 #+end_src
+
 *** Ord
 compare
+
 *** Calc
 div - always makes rounding down, to infinity
 divMod - returns a tuple containing the result of integral division and modulo
+
 *** List operations
 #+begin_src haskell
 concat - [ [a] ] -> [a]
@@ -5552,11 +6316,13 @@ elem x xs - is element a part of a list
 zip :: [a] -> [b] -> [(a, b)] - zips two lists together. Zip stops when one list runs out.
 zipWith :: (a -> b -> c) -> [a] -> [b] -> [c] - do the action on corresponding elements of list and store in the new list
 #+end_src
+
 ** Data.List
 #+begin_src haskell
 intersperse :: a -> [a] -> [a]  -  gets the value and incerts it between values in array
 nub - remove duplicates from the list
 #+end_src
+
 ** Data.Char
 #+begin_src haskell
 ord (Char -> Int)
@@ -5564,6 +6330,7 @@ chr (Int -> Char)
 isUpper (Char -> Bool)
 toUpper (Char -> Char)
 #+end_src
+
 ** QuickCheck
 #+begin_src haskell
 quickCheck :: Testable prop => prop -> IO ()
@@ -5572,7 +6339,9 @@ quickCheck . verbose - run verbose mode
 #+end_src
 
 * Investigate
+
 ** Control.Monad
+
 * Debugger
 
 Provides:
@@ -5591,29 +6360,45 @@ Provides:
 
 ** Step-by-step
 :step main
+
 ** What been evaluated already
 :sprint name
+
 * Tools :drill:
 :PROPERTIES:
 :ID:       756dd451-6df6-4c86-8ff8-b431f2943685
 :END:
+
 ** Search over the Haskell packages code: Codesearch from Aelve
 https://codesearch.aelve.com/
+
 * Libs :drill:
 :PROPERTIES:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
 :END:
+
 ** Parsers - megaparsec
+
 ** CLIs - optparse-applicative
+
 ** HTML - Lucid
+
 ** Web applications - Servant
+
 ** IO libraries
+
 *** Conduit - practical, monolythic, guarantees termination return
+
 *** Pipes + Pipes Parse - modular, more primitive, theoretically driven
+
 ** JSON - aeson
+
 * Misc
+
 * Reference
+
 ** Haskell-98
+
 *** <<<Instance termination rules>>>
 
   1. \forall class constraint (C t1 .. tn):
