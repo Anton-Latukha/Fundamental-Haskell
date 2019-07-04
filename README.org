@@ -44,7 +44,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 (add-hook 'org-font-lock-set-keywords-hook #'org-hidden-links-hook-function)
 #+end_src
 
-=SCHT:= and metadata in :PROPERTIES: - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
+=SCHT:= and metadata in =:PROPERTIES:= - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
 
 * Contents :TOC:
 - [[#introduction][Introduction]]
@@ -5879,7 +5879,8 @@ A specification of a data type like a stack or queue where the specification doe
 *** /*/
 <<<AbsDT>>>
 
-** <<<ADT>>>
+** <<<ADT>>> :drill:
+
 1. Abstract data type
 2. Algebraic data type
 
