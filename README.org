@@ -1504,12 +1504,13 @@ Explanation:
 >>= :: Monad f => f a  -> (a -> f b) -> f b
                   f   >>=    pure    == f
 #+end_src
-Tacit description of monad as endofunctor.
+AKA it is a tacit description of a monad bind as endofunctor.
 
 ******* <<<Monad associativity law>>> :drill:
 :PROPERTIES:
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
 :END:
+
 #+begin_src haskell
 (m >>= f) >>= g == m >>= (\ x -> f x >>= g)
 #+end_src
@@ -1518,6 +1519,7 @@ Tacit description of monad as endofunctor.
 :PROPERTIES:
 :ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
 :END:
+
 #+begin_src haskell
 class Applicative m => Monad m where
   (>>=) :: m a -> (a -> m b) -> m b
