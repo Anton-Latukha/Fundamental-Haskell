@@ -3123,8 +3123,6 @@ There are 3 general linear type groups:
  * 1 - data that is not duplicated
  * 1< - all other data, that can be duplicated multiple times.
 
-Linear types are great to control/minimize resource usage.
-
 **** /*/
 <<<Linear types>>>
 
@@ -4096,6 +4094,9 @@ SCHT: <2019-07-10 Wed>
 
 There are mainly three levels of Haskell code.
 
+*** /*/
+<<<Code level>>>
+
 *** <<<Term level>>> :drill:
 :PROPERTIES:
 :ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
@@ -4135,9 +4136,6 @@ Level of code when code compiles/compiled.
 :END:
 
 Level of code when binary code executes in machine.
-
-*** /*/
-<<<Code level>>>
 
 ** <<<Lexical scope>>> :drill:
 SCHT: <2019-07-28 Sun>
@@ -6548,6 +6546,9 @@ Version policy and dependency management.
 *** /*/
 <<<PVP>>>
 <<<Good: PVP>>>
+
+** <<<Good: Linear type>>> :drill:
+Linear types are great to control/minimize resource usage.
 
 * Bad code :drill:
 :PROPERTIES:
