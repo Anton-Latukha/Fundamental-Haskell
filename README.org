@@ -4174,9 +4174,9 @@ Define your own newtype wrapping the original type and now you’ve got a type t
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
-Or Formal Parameter - named varible of a function.
-Is variable defined in function definition.
-Contrary to the argument wich is a supplied value to a function.
+Or Formal Parameter. Named varible of a function.
+
+Argument is a supplied value to a function.
 
 *** /*/
 <<<Parameters>>>
@@ -6015,8 +6015,17 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :END:
 
 ** <<<Good: Type aliasing>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       db5d6252-f9b1-4c2e-ab00-a4a99d026c2a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:09]
 :END:
 
 Use data type aliases to deferentiate logic of values.
