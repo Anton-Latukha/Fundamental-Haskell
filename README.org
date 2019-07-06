@@ -1929,7 +1929,7 @@ do
   -- ...
 #+end_src
 
-Any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
+Also backwards - any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
 
 ****** /*/
 <<<Monoidal>>>
