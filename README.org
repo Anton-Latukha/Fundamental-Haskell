@@ -3878,7 +3878,7 @@ No beta reduction is possible.
 **** /*/
 <<<Normal form>>>.
 
-*** <<<Beta reduction>>> :drill:
+*** <<<\beta-reduction>>> :drill:
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
 :DRILL_LAST_INTERVAL: 0.0
@@ -3891,7 +3891,10 @@ No beta reduction is possible.
 :DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:26]
 :END:
 
-Applying function to an argument.
+Applying argument to a function.
+
+** /*/
+<<<Beta-reduction>>>
 
 *** <<<Calculus of constructions>>> :drill:
 :PROPERTIES:
