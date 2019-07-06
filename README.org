@@ -1240,8 +1240,17 @@ Since:
   * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
 
 ***** <<<Power set functor laws>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:31]
 :END:
 
 Type instance of functor should abide this laws:
@@ -1266,8 +1275,17 @@ fmap (f.g) == fmap f . fmap g
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 
 ***** <<<Lift>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:37]
 :END:
 
 #+begin_src haskell
@@ -1401,8 +1419,17 @@ liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
 
 ******* <<<liftA2>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       68d78ba7-589e-4eb0-90fc-c6d286fd327e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:58]
 :END:
 
 Lifts binary function across two Applicative functors.
@@ -1862,8 +1889,17 @@ class Semigroup a where
 <<<Semigroups>>>
 
 ***** <<<Monoid>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       6593c8fb-adda-488b-b86f-9544f62868eb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:36]
 :END:
 
 Semigroup with Identity element.
@@ -1978,8 +2014,17 @@ Example: set of same size square matricies of numbers with matrix operations for
 <<<Rings>>>
 
 *** <<<Morphism>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:34]
 :END:
 
 μορφή /morphe/ form
@@ -2000,8 +2045,17 @@ If morphism corresponds to function requirements - than it is a function. Morphi
 <<<Arrows>>>
 
 **** <<<Homomorphism>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:30]
 :END:
 
 ὁμός /homos/ same (was chosen becouse of initial Anglish mistranslation to "similar")
@@ -2058,8 +2112,17 @@ Identity only possible with morphism. See Identity morphism.
 There is also distinct Zero value.
 
 ****** <<<Two-sided identity of a predicate>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:56]
 :END:
 
 $$ P() $$ is commutative.
@@ -2435,8 +2498,17 @@ Haskell kind:
 Also see: Constant
 
 ** <<<Context>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:57]
 :END:
 
 Constraint placed on the types under polymorphic variables.
@@ -3031,8 +3103,17 @@ SCHT: <2019-07-06 Sat>
 #+end_src
 
 *** <<<Linear type>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       eda588af-3ef5-43a8-8f06-6a6f2f556036
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:33]
 :END:
 
 Type system and algebra that also track the multiplicity of data.
@@ -3078,8 +3159,17 @@ SCHT: <2019-07-25 Thu>
 Binding the name to expression.
 
 ** <<<Differential operator>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:39]
 :END:
 
 Denotation.
@@ -3966,16 +4056,17 @@ See Beta reduction
 <<<Reducible>>>
 
 ** <<<Left associative>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:24]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:57]
 :END:
 
 Same level expression parts in reality follow grouping from left to right.
@@ -3989,8 +4080,17 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
 
 ** <<<Level of code>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:57]
 :END:
 
 There are mainly three levels of Haskell code.
@@ -4449,8 +4549,17 @@ Lambda-bound function (i.e., one passed as argument to another function) cannot 
 Constrained Parametric polymorphism.
 
 ***** <<<Ad hoc polymorphism>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       d98c11bf-35fd-46ae-803f-28df28c37a54
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:56]
 :END:
 
 Artificial constrained polymorphism dependent on incoming data type.
@@ -4589,8 +4698,17 @@ For exampe - if fold over a dynamic array:
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 
 ** <<<Pragma>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:39]
 :END:
 
 Pragma - instruction to the compiler that specifies how a compiler should process the code.
@@ -5806,8 +5924,17 @@ Allows to separate and preserve information about happened, ex. error handling.
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:39]
 :END:
 
 $$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
@@ -6005,8 +6132,17 @@ A specification of a data type like a stack or queue where the specification doe
 2. Algebraic data type
 
 ** <<<Concrete type>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       736674fb-45a3-4539-8774-7ccf419b5487
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:37]
 :END:
 
 Fully defined & non-polymorphic type.
@@ -6104,8 +6240,17 @@ foldl spine folding is unconditional, then solding starts.
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
 
 ** <<<Good: Computation model>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       a6b88a42-c287-47ae-9db0-f7c2aa0d0cd3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:58]
 :END:
 
 Model the domain and types before thinking about how to write computations.
