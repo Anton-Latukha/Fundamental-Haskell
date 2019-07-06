@@ -354,71 +354,72 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#anonymous-function][<<<Anonymous function>>>]]
     - [[#beta-normal-form][<<<Beta normal form>>>]]
       - [[#-82][/*/]]
-    - [[#beta-reduction][<<<Beta reduction>>>]]
-    - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
+    - [[#beta-reduction][<<<\beta-reduction>>>]]
       - [[#-83][/*/]]
-    - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
+    - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
       - [[#-84][/*/]]
+    - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
+      - [[#-85][/*/]]
     - [[#currying][<<<Currying>>>]]
     - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
     - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
     - [[#reduction][<<<Reduction>>>]]
-      - [[#-85][/*/]]
+      - [[#-86][/*/]]
   - [[#left-associative][<<<Left associative>>>]]
   - [[#lense][<<<Lense>>>]]
   - [[#level-of-code][<<<Level of code>>>]]
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-86][/*/]]
+      - [[#-87][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-    - [[#-87][/*/]]
-  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-88][/*/]]
-  - [[#local-scope][<<<Local scope>>>]]
+  - [[#lexical-scope][<<<Lexical scope>>>]]
     - [[#-89][/*/]]
+  - [[#local-scope][<<<Local scope>>>]]
+    - [[#-90][/*/]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
   - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#nothing][<<<Nothing>>>]]
   - [[#operation][<<<Operation>>>]]
     - [[#binary-operation][<<<Binary operation>>>]]
-      - [[#-90][/*/]]
+      - [[#-91][/*/]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-91][/*/]]
+      - [[#-92][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-92][/*/]]
-  - [[#partial-application][<<<Partial application>>>]]
     - [[#-93][/*/]]
-  - [[#pattern-guard][<<<Pattern guard>>>]]
+  - [[#partial-application][<<<Partial application>>>]]
     - [[#-94][/*/]]
+  - [[#pattern-guard][<<<Pattern guard>>>]]
+    - [[#-95][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-95][/*/]]
-    - [[#blackbird][<<<Blackbird>>>]]
       - [[#-96][/*/]]
+    - [[#blackbird][<<<Blackbird>>>]]
+      - [[#-97][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
-    - [[#-97][/*/]]
-  - [[#polymorphism][<<<Polymorphism>>>]]
     - [[#-98][/*/]]
+  - [[#polymorphism][<<<Polymorphism>>>]]
+    - [[#-99][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-99][/*/]]
+        - [[#-100][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
           - [[#constraint][<<<Constraint>>>]]
-            - [[#-100][/*/]]
+            - [[#-101][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-101][/*/]]
-      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
         - [[#-102][/*/]]
+      - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
+        - [[#-103][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -459,13 +460,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-103][/*/]]
-  - [[#quantifier][<<<Quantifier>>>]]
     - [[#-104][/*/]]
+  - [[#quantifier][<<<Quantifier>>>]]
+    - [[#-105][/*/]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-105][/*/]]
+      - [[#-106][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-106][/*/]]
+    - [[#-107][/*/]]
   - [[#relation][<<<Relation>>>]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
@@ -474,7 +475,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-107][/*/]]
+    - [[#-108][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set-1][<<<Hom-set>>>]]
@@ -490,13 +491,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#system-f][<<<System F>>>]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-108][/*/]]
+    - [[#-109][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-109][/*/]]
+        - [[#-110][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -511,7 +512,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-110][/*/]]
+    - [[#-111][/*/]]
   - [[#zero][<<<Zero>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
@@ -522,16 +523,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-111][/*/]]
+    - [[#-112][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-112][/*/]]
-  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-113][/*/]]
-  - [[#function-image][<<<Function image>>>]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-114][/*/]]
+  - [[#function-image][<<<Function image>>>]]
+    - [[#-115][/*/]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
@@ -545,13 +546,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-115][/*/]]
+      - [[#-116][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-116][/*/]]
+    - [[#-117][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -559,32 +560,32 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#preorder][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-117][/*/]]
+        - [[#-118][/*/]]
     - [[#partial-order][<<<Partial order>>>]]
     - [[#total-order][<<<Total order>>>]]
     - [[#preorder-1][<<<Preorder>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-118][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-119][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-120][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-121][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-122][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-123][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-124][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-125][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-125][/*/]]
+    - [[#-126][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-126][/*/]]
+    - [[#-127][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
   - [[#property][<<<Property>>>]]
@@ -649,7 +650,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-127][/*/]]
+    - [[#-128][/*/]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
     - [[#dangerous-language-pragma-options][Dangerous LANGUAGE pragma options]]
@@ -1572,16 +1573,17 @@ import Control.Monad (ap)
 pure (return) should only put argument into structure.
 
 ******* <<<Monad left identity law>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:27]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:13]
 :END:
 
 #+begin_src haskell
@@ -1759,16 +1761,17 @@ Applicative has a similar operator.
 Drops the chain of computation and returns Nothing as soon as Nothing arrives.
 
 ****** <<<Either monad>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:25]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:12]
 :END:
 
 Drops sequencing computation as soon as Left arrives.
@@ -3747,16 +3750,17 @@ What values inhabit data type
 Point of mutual meeting. Code behind interface determines how data is consumed.
 
 ** <<<IO>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       40e4a54b-c1c7-41fc-ac84-d3f167eb320f
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:26]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:19]
 :END:
 
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
@@ -3879,21 +3883,22 @@ No beta reduction is possible.
 <<<Normal form>>>.
 
 *** <<<\beta-reduction>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:26]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:18]
 :END:
 
 Applying argument to a function.
 
-** /*/
+**** /*/
 <<<Beta-reduction>>>
 
 *** <<<Calculus of constructions>>> :drill:
@@ -4162,16 +4167,17 @@ Put the instance in the same module as the type class definition so that the typ
 Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
 
 ** <<<Parameter>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:11]
 :END:
 
 παρά /para/ subsidiary
@@ -4839,16 +4845,17 @@ if | guard1 -> expr1
 #+end_src
 
 ***** <<<OverloadedStrings>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:29]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:20]
 :END:
 
 Enable overloaded string literals (string literals become desugared via the IsString class).
@@ -5319,16 +5326,17 @@ Hom-bifunctor:
 $$ Hom(-,-):C^{op} \times C \to Set $$
 
 *** <<<Singleton>>> :drill:
+SCHT: <2019-07-10 Wed>
 :PROPERTIES:
 :ID:       cd966fe0-f42d-4b75-b388-85649eacc84f
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-07-04 Thu 20:25]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:20]
 :END:
 
 Singleton - unit set - set with exactly one element.
