@@ -2126,8 +2126,8 @@ SCHT: <2019-07-10 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:56]
 :END:
 
+$$ P(e,a)=P(a,e)=a \ | \ \exists e \in S, \forall a \in S $$
 $$ P() $$ is commutative.
-$$ \exists e \in S, \forall a \in S : \; P(e,a)=P(a,e)=a $$
 
 Predicate
 
