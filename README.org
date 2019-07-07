@@ -596,6 +596,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#combinator-pattern][<<<Combinator pattern>>>]]
   - [[#symbolic-expression][<<<Symbolic expression>>>]]
     - [[#-129][/*/]]
+  - [[#polynomial][<<<Polynomial>>>]]
+    - [[#-130][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -652,7 +654,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-130][/*/]]
+    - [[#-131][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
@@ -6283,6 +6285,21 @@ Modern abbriviated notation of /*/: =(x y)=.
 <<<Sexps>>>
 <<<Sexpr>>>
 <<<Sexprs>>>
+
+
+** <<<Polynomial>>> :drill:
+
+Expression consisting of:
+  * variables
+  * coefficients
+  * addition
+  * substraction
+  * multiplication (including positive integer variable exponentiation)
+
+Polynomials forms a ring. Polynomial ring.
+
+*** /*/
+<<<Polynomials>>>
 
 * Citations
 "One of the finer points of the Haskell community has been
