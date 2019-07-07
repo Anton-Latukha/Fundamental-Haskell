@@ -361,7 +361,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
       - [[#-85][/*/]]
     - [[#currying][<<<Currying>>>]]
-    - [[#girardreynolds-polymorphic-lambda-calculus][<<<Girard–Reynolds polymorphic lambda calculus>>>]]
     - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
     - [[#reduction][<<<Reduction>>>]]
       - [[#-86][/*/]]
@@ -489,15 +488,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#superclass][<<<Superclass>>>]]
   - [[#syntatic-sugar][<<<Syntatic sugar>>>]]
   - [[#system-f][<<<System F>>>]]
+    - [[#-109][/*/]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-109][/*/]]
+    - [[#-110][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-110][/*/]]
+        - [[#-111][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -512,7 +512,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-111][/*/]]
+    - [[#-112][/*/]]
   - [[#zero][<<<Zero>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
@@ -523,16 +523,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
   - [[#st-trick-monad][<<<ST-Trick monad>>>]]
-    - [[#-112][/*/]]
+    - [[#-113][/*/]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#either][<<<Either>>>]]
-    - [[#-113][/*/]]
-  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-114][/*/]]
-  - [[#function-image][<<<Function image>>>]]
+  - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
     - [[#-115][/*/]]
+  - [[#function-image][<<<Function image>>>]]
+    - [[#-116][/*/]]
   - [[#maybe][<<<Maybe>>>]]
   - [[#inverse][<<<Inverse>>>]]
   - [[#inversion][<<<Inversion>>>]]
@@ -546,13 +546,13 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#funcitonaldependencies][<<<FuncitonalDependencies>>>]]
   - [[#ghc-debug-keys][<<<GHC debug keys>>>]]
     - [[#-ddump-ds][<<<-ddump-ds>>>]]
-      - [[#-116][/*/]]
+      - [[#-117][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#ghc-check-keys][<<<GHC check keys>>>]]
     - [[#-wno-partial-type-signatures][<<<-Wno-partial-type-signatures>>>]]
   - [[#generalised-algebraic-data-types][<<<Generalised algebraic data types>>>]]
-    - [[#-117][/*/]]
+    - [[#-118][/*/]]
   - [[#order-theory][<<<Order theory>>>]]
     - [[#domain-theory][<<<Domain theory>>>]]
     - [[#lattice][<<<Lattice>>>]]
@@ -560,32 +560,32 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#preorder][<<<Preorder>>>]]
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-ordering][<<<Partial ordering>>>]]
-        - [[#-118][/*/]]
+        - [[#-119][/*/]]
     - [[#partial-order][<<<Partial order>>>]]
     - [[#total-order][<<<Total order>>>]]
     - [[#preorder-1][<<<Preorder>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
-      - [[#-119][/*/]]
-    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-120][/*/]]
-    - [[#transitivity][<<<Transitivity>>>]]
+    - [[#irreflexivity][<<<Irreflexivity>>>]]
       - [[#-121][/*/]]
-    - [[#symmetry][<<<Symmetry>>>]]
+    - [[#transitivity][<<<Transitivity>>>]]
       - [[#-122][/*/]]
-    - [[#equivalence][<<<Equivalence>>>]]
+    - [[#symmetry][<<<Symmetry>>>]]
       - [[#-123][/*/]]
-    - [[#antisymmetry][<<<Antisymmetry>>>]]
+    - [[#equivalence][<<<Equivalence>>>]]
       - [[#-124][/*/]]
-    - [[#asymmetry][<<<Asymmetry>>>]]
+    - [[#antisymmetry][<<<Antisymmetry>>>]]
       - [[#-125][/*/]]
+    - [[#asymmetry][<<<Asymmetry>>>]]
+      - [[#-126][/*/]]
   - [[#cryptomorphism][<<<Cryptomorphism>>>]]
-    - [[#-126][/*/]]
+    - [[#-127][/*/]]
   - [[#lexically-scoped-type-variables][<<<Lexically scoped type variables>>>]]
   - [[#type-family][<<<Type family>>>]]
   - [[#abstract-data-type][<<<Abstract data type>>>]]
-    - [[#-127][/*/]]
+    - [[#-128][/*/]]
   - [[#adt][<<<ADT>>>]]
   - [[#concrete-type][<<<Concrete type>>>]]
   - [[#property][<<<Property>>>]]
@@ -595,7 +595,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#explicitnamespaces][<<<ExplicitNamespaces>>>]]
   - [[#combinator-pattern][<<<Combinator pattern>>>]]
   - [[#symbolic-expression][<<<Symbolic expression>>>]]
-    - [[#-128][/*/]]
+    - [[#-129][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -652,7 +652,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-129][/*/]]
+    - [[#-130][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
 - [[#bad-code][Bad code]]
   - [[#pragma-1][Pragma]]
@@ -2003,8 +2003,17 @@ Group operation obeys the axiom of commutativity.
 <<<Abelian group>>>
 
 ******** <<<Ring>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       437c3602-cfc2-4cd1-bdba-be9e0db9c8f8
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:39]
 :END:
 
 Commutative group under + & magma under \times, + \times connected by distributive property.
@@ -4021,13 +4030,6 @@ Computer programs are mathematical proofs.
 
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 
-*** <<<Girard–Reynolds polymorphic lambda calculus>>> :drill:
-:PROPERTIES:
-:ID:       a205f8f5-6e7b-4348-bbe9-818f4eca5fd2
-:END:
-
-See System F.
-
 *** <<<Hindley–Milner type system>>> :drill:
 SCHT: <2019-07-06 Sat>
 :PROPERTIES:
@@ -5576,6 +5578,9 @@ Artificial way to make language easier to read and write.
 
 Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
+
+*** /*/
+<<<Girard–Reynolds polymorphic lambda calculus>>>
 
 ** <<<Tail call>>> :drill:
 SCHT: <2019-07-22 Mon>
