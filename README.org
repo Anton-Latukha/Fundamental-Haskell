@@ -782,6 +782,7 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 | Monoid            | \check       | \check             | \check        |               |               |
 | Group             | \check       | \check             | \check        | \check             |               |
 | Abelian group     | \check       | \check             | \check        | \check             | \check             |
+| Ring              | \check       | \check             | \check        | \check             | under +       |
 
 *** /*/
 <<<Algebraic structures>>>
