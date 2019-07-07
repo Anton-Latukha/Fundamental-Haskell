@@ -748,8 +748,17 @@ Composite from simple parts.
 Also: Algebraic data type.
 
 ** <<<Algebraic structure>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       dcbe48e5-d7dd-400d-9963-d4e00d474b84
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:53]
 :END:
 
 Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
@@ -2313,11 +2322,20 @@ Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
 
 ***** <<<Kernel homomorphism>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       e77c8ade-6668-48e3-aeae-3bf1209e31d8
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 17:30]
 :END:
 
-Morphism of elements from the Kernel. Map of elements that make main Morphism not Monomorphic (Injective).
+Morphism of elements from the kernel. Map of elements that make main morphism not monomorphic (injective).
 
 *** <<<Object>>>
 Mathematical structure. Morphisms preserve structure.
@@ -2692,8 +2710,17 @@ SCHT: <2019-07-09 Tue>
 Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
 *** <<<Higher-kinded data type>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       f923ff3e-43bb-4e4a-8c55-e4f2354e3810
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:50]
 :END:
 
 Any combination of * and ->
@@ -3245,8 +3272,17 @@ The name resolution depends upon the program state when the name is encountered,
 Observable action.
 
 ** <<<Evaluation>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:46]
 :END:
 
 For FP see Bind.
@@ -3729,8 +3765,17 @@ A part of a recursive function that trivially produces result.
 Tail calls are recursive invocantions of itself.
 
 ** <<<Fundamental theorem of algebra>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 17:30]
 :END:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -4031,17 +4076,17 @@ Computer programs are mathematical proofs.
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 
 *** <<<Hindley–Milner type system>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-16 Tue>
 :PROPERTIES:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:49]
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:45]
 :END:
 
 Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
@@ -4102,8 +4147,17 @@ There are mainly three levels of Haskell code.
 <<<Code level>>>
 
 *** <<<Term level>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:48]
 :END:
 
 Level of code that works with data types.
@@ -4263,8 +4317,17 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 Shift
 
 ** <<<Orphan type instance>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 17:31]
 :END:
 
 Type instance that appeared from inconsistent code base. Duplicate of instance, or instance present on type class or on the type level.
@@ -4896,8 +4959,17 @@ instance C (Maybe Int) where ...
 Implies TypeSynonymInstances.
 
 ***** <<<GeneralizedNewtypeDeriving>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       96a23172-9aa7-4290-adfe-a18169dd4362
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:50]
 :END:
 
 Enable GHC’s =newtype= cunning generalised deriving mechanism.
@@ -4962,8 +5034,17 @@ class Collection c a where
 #+end_src
 
 ***** <<<MultiWayIf>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:51]
 :END:
 
 Enable multi-way-if syntax.
@@ -5150,8 +5231,17 @@ Semantics:
 /*/ are a convenient way to pattern-match algebraic data type.
 
 ***** <<<DatatypeContexts>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 17:28]
 :END:
 
 Allow contexts in data types.
@@ -5495,8 +5585,17 @@ Global scope variable overriden by variable in local scope.
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 
 ** <<<Smart constructor>>> :drill:
+SCHT: <2019-07-11 Thu>
 :PROPERTIES:
 :ID:       e2aded58-a463-4762-97c4-7fc2238d386d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:45]
 :END:
 
 Place extra constraints on the construction of values.
@@ -5581,6 +5680,7 @@ Differs from the simply typed Lambda calculus by the introduction of universal q
 
 *** /*/
 <<<Girard–Reynolds polymorphic lambda calculus>>>
+<<<Girard-Raynolds>>>
 
 ** <<<Tail call>>> :drill:
 SCHT: <2019-07-22 Mon>
