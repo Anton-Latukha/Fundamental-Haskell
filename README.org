@@ -2031,7 +2031,7 @@ SCHT: <2019-07-11 Thu>
 :DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:39]
 :END:
 
-Commutative group under + & monoid under \times, + \times connected by distributive property.
+Commutative group under + & monoid under \times. \times to + holds distributive property.
 
 + and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
 
@@ -3262,6 +3262,7 @@ Set S and two binary operators + \times:
 <<<Distributive rule>>>
 <<<Distributive property>>>
 <<<Distributive law>>>
+<<<Distributive>>>
 
 ** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
@@ -4251,7 +4252,10 @@ Importable organization unit.
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
 :END:
 
-Modular arithmetic is a system of arithmetic for integers where number wraps around upon reacing a modulus.
+Special numbers where arithmetic wraps around in modular arithmetic.
+
+*** /*/
+<<<Moduli>>> - plural.
 
 ** <<<Monkey patch>>> :drill:
 SCHT: <2019-07-31 Wed>
