@@ -2031,7 +2031,7 @@ SCHT: <2019-07-11 Thu>
 :DRILL_LAST_REVIEWED: [2019-07-07 Sun 13:39]
 :END:
 
-Commutative group under + & monoid under \times. \times to + holds distributive property.
+Commutative group under + & monoid under \times, + \times connected by distributive property.
 
 + and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
 
@@ -5972,6 +5972,15 @@ SCHT: <2019-07-30 Tue>
 $$ zero, n \in C : \forall n, zero*n=zero $$
 
 /*/ is distinct from Identity value.
+
+** <<<Modular arithmetic>>> :drill:
+
+System for integers where numbers wrap around the certain values (single - /modulus/, plural - /moduli/).
+
+Example - 12-hour clock.
+
+*** /*/
+<<<Clock arithmetic>>>
 
 * Give definitions
 
