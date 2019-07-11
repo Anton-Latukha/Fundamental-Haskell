@@ -96,6 +96,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#power-set-functor-composition-law][<<<Power set functor composition law>>>]]
         - [[#lift][<<<Lift>>>]]
           - [[#-13][/*/]]
+        - [[#power-set-functor-is-a-free-monad][<<<Power set functor is a free monad>>>]]
       - [[#forgetful-functor][<<<Forgetful functor>>>]]
         - [[#-14][/*/]]
       - [[#identity-functor][<<<Identity functor>>>]]
@@ -1263,11 +1264,6 @@ Composed functors lift functions through layers of structure.
 
 Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
-Power set functor is a free monad.
-Since:
-  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e in S : \exists (e \to \{e\}) \equiv unit $$
-  * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
-
 ***** <<<Power set functor laws>>> :drill:
 SCHT: <2019-07-10 Wed>
 :PROPERTIES:
@@ -1325,6 +1321,15 @@ Lift does a function application through the data structure.
 
 ****** /*/
 <<<Lifting>>>
+
+***** <<<Power set functor is a free monad>>> :drill:
+:PROPERTIES:
+:ID:       85146d1c-7cb7-4c9b-a998-791b33f1a518
+:END:
+
+Since:
+  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e in S : \exists (e \to \{e\}) \equiv unit $$
+  * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
 
 **** <<<Forgetful functor>>> :drill:
 :PROPERTIES:
