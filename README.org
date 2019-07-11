@@ -1846,6 +1846,24 @@ Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
 $$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
 $$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
 
+***** <<<Alternative type class>>> :drill:
+:PROPERTIES:
+:ID:       b74a4135-6cc8-4944-9ba4-542b27c83dbe
+:END:
+
+Monoid over applicative. Is /left catch/.
+
+Allows to run simolteniously several instances of a computation (or computations) and from them yeld one result by law from =(<|>) :: Type -> Type -> Type=.
+
+Minimal complete definition:
+#+begin_src haskell
+empty :: f a    -- The identity element of <|>
+(<|>) :: f a -> f a -> f a    -- Associative binary operation
+#+end_src
+
+****** /*/
+<<<Alternative>>>
+
 **** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
