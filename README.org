@@ -985,17 +985,17 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 <<<Associative>>>
 
 ** <<<Basis>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:10]
 :END:
 
 $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
@@ -1235,17 +1235,17 @@ fmap (f . g) = fmap f . fmap g
 <<<Functors>>>
 
 **** <<<Power set functor>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       1169dfd1-4e31-4789-a777-288fc9208094
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:47]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:24]
 :END:
 
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
@@ -2730,17 +2730,17 @@ $$ V_{i} = x $$
 <<<Covariant cofunctor>>>
 
 ** <<<Data type>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       1da15965-03f0-4cf9-a582-3df5c4deb27e
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:38]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
 Set of values.
@@ -3128,17 +3128,17 @@ Used to distinct one entities from other entities, while they have the same type
 Also main type functions can operate on a new type.
 
 *** <<<Typed hole>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-22 Mon>
 :PROPERTIES:
 :ID:       54480f81-42f0-4545-bfa6-93e56eba36ae
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:52]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:24]
 :END:
 
 In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
@@ -3270,17 +3270,17 @@ Cell that values may inhabit.
  _
 
 **** <<<Node>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       44946197-24dd-48fd-810c-6af851f6a0cf
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:40]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:11]
 :END:
 
 #+begin_src text
@@ -3636,17 +3636,17 @@ Not combinators:
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 
 *** <<<Function application>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       630790f7-377f-463e-8058-792502dbcc88
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:15]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:09]
 :END:
 
 Function application is applying the function parameter to an argument from its domain to obtain the resulting value from its range.
@@ -3795,17 +3795,17 @@ SCHT: <2019-07-27 Sat>
 Writing function in a parentheses. Allows to pass around partially applied functions.
 
 *** <<<Surjection>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       56270a1d-ef0e-4986-a1ff-04606b37ccb7
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:50]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:10]
 :END:
 
 Function uses codomain fully.
@@ -3827,17 +3827,17 @@ Corresponds to Epimorphism.
 <<<Surjective function>>>
 
 *** <<<Unsafe>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:39]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
 Function that does not cover some edge case.
@@ -4318,17 +4318,17 @@ Level of code that works with data types.
 Level of code that does logical execution.
 
 *** <<<Compile level>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:07]
 :END:
 
 Level of code when code compiles/compiled.
@@ -4553,17 +4553,17 @@ Default in Haskell 2010.
 <<<Pattern guards>>>
 
 ** <<<Permutation>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-16 Tue>
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
-:DRILL_LAST_INTERVAL: 3.86
+:DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:52]
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.25
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:26]
 :END:
 
 Bijective function from domain to itself.
@@ -4651,17 +4651,17 @@ Composition of compositions =(.).(.)= allows to compose =f1(c) . f2(a,b)=. Durin
 <<<(.).(.)>>>
 
 *** <<<Swing>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-16 Tue>
 :PROPERTIES:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
-:DRILL_LAST_INTERVAL: 3.86
+:DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 1.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 2.285
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:27]
 :END:
 
 #+begin_src haskell
@@ -4935,17 +4935,17 @@ Pragma in Haskell have form:
 #+end_src
 
 *** <<<LANGUAGE pragma>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:13]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:09]
 :END:
 
 Controls what variations of the language are permitted.
@@ -5008,17 +5008,17 @@ It is possible to see the actual translation by using =-ddump-ds=.
 Enable the definition of further constraints on individual class methods.
 
 ***** <<<ConstraintKinds>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-16 Tue>
 :PROPERTIES:
 :ID:       39b1ef68-42be-4430-b7ca-c8a1fc511622
-:DRILL_LAST_INTERVAL: 3.86
+:DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:51]
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:27]
 :END:
 
 Constraints are just handled as types of a particular kind (Constraint).
@@ -5057,17 +5057,17 @@ Since there is only one possible functor for any type - it is possible to check 
 Allows does not care about writing Functor instances.
 
 ***** <<<ExplicitForAll>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:41]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
 Allow explicit forall quantificator in places where it is implicit by Haskell.
@@ -5131,17 +5131,17 @@ newtype Dollars = Dollars Int
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
 
 ***** <<<ImplicitParams>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-16 Tue>
 :PROPERTIES:
 :ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 19:51]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:26]
 :END:
 
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
@@ -5243,17 +5243,17 @@ As untuped expression, partly typed can not polymorphicly recurse.
 -Wno-partial-type-signatures supresses infer warnings.
 
 ***** <<<RankNTypes>>> :drill:
-SCHT: <2019-07-05 Fri>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:14]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:07]
 :END:
 
 Enable types of arbitrary rank.
@@ -5287,17 +5287,17 @@ For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-vari
 Implies ExplicitForAll.
 
 ***** <<<TupleSections>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-23 Tue>
 :PROPERTIES:
 :ID:       30ae7849-e739-4718-b031-5566e8f82a67
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 11:51]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:11]
 :END:
 
 Allow tuple section syntax:
@@ -5552,17 +5552,17 @@ So:
 <<<Referentially transparent>>>
 
 ** <<<Relation>>> :drill:
-SCHT: <2019-07-06 Sat>
+SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-02 Tue 19:53]
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
 Is not directed and not limited.
@@ -6115,6 +6115,9 @@ $$ zero, n \in C : \forall n, zero*n=zero $$
 /*/ is distinct from Identity value.
 
 ** <<<Modular arithmetic>>> :drill:
+:PROPERTIES:
+:ID:       dcfa0301-d300-4efd-97b5-510b705012cc
+:END:
 
 System for integers where numbers wrap around the certain values (single - /modulus/, plural - /moduli/).
 
@@ -6426,6 +6429,9 @@ Fully defined & non-polymorphic type.
 ** <<<Combinator pattern>>>
 
 ** <<<Symbolic expression>>> :drill:
+:PROPERTIES:
+:ID:       62a62e62-5b76-42d5-a971-9b9d3f72ec8f
+:END:
 
 Nested tree data structure.
 Introduced used in Lisp. In Lisp code and data are a /*/.
@@ -6446,6 +6452,9 @@ Modern abbriviated notation of /*/: =(x y)=.
 
 
 ** <<<Polynomial>>> :drill:
+:PROPERTIES:
+:ID:       2d7eeed7-766f-4261-8976-dffc939794b0
+:END:
 
 Expression consisting of:
   * variables
@@ -6849,6 +6858,9 @@ Version policy and dependency management.
 <<<Good: PVP>>>
 
 ** <<<Good: Linear type>>> :drill:
+:PROPERTIES:
+:ID:       820c915d-e3fe-4ff5-acb3-9ef205f70639
+:END:
 Linear types are great to control/minimize resource usage.
 
 * Bad code :drill:
