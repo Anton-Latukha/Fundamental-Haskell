@@ -3642,7 +3642,7 @@ SCHT: <2019-07-05 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:15]
 :END:
 
-Function application is applying the function to an argument from its domain to obtain the resulting value from its range.
+Function application is applying the function parameter to an argument from its domain to obtain the resulting value from its range.
 
 **** /*/
 <<<Applied>>>
