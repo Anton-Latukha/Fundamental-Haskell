@@ -115,6 +115,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#lifta2-][<<<liftA2 (<*>)>>>]]
             - [[#lifta2-lifta2-][<<<liftA2 (liftA2 (<*>))>>>]]
             - [[#lifta3][<<<liftA3>>>]]
+          - [[#conditional-applicative-computations][Conditional applicative computations]]
         - [[#special-applicatives][<<<Special applicatives>>>]]
           - [[#identity-applicative][<<<Identity applicative>>>]]
           - [[#constant-applicative][<<<Constant applicative>>>]]
@@ -1486,6 +1487,23 @@ liftA2 (<*>) 3-layer version.
 :END:
 
 liftA2 3-parameter version.
+
+****** Conditional applicative computations :drill:
+:PROPERTIES:
+:ID:       4c9c0341-bcaf-4965-9316-f657015323ef
+:END:
+
+#+begin_src haskell
+when :: Applicative f => Bool -> f () -> f ()
+#+end_src
+
+Only when =True= - perform an applicative computation.
+
+#+begin_src haskell
+unless :: Applicative f => Bool -> f () -> f ()
+#+end_src
+
+Only when =False= - perform an applicative computation.
 
 ***** <<<Special applicatives>>> :drill:
 :PROPERTIES:
