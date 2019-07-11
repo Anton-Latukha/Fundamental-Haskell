@@ -1257,7 +1257,9 @@ class Functor f where
   fmap :: (a -> b) -> f a -> f b
 #+end_src
 
-For Functor instance to work in Higher-kinded data type functor must be applied until it has kind =( * -> * )=, and after functors can be composed to lift through layers of structure.
+Functor instance must be of kind =( * -> * )=, so instance for higher-kinded data type must be applied until this kind.
+
+Composed functors lift functions through layers of structure.
 
 Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
