@@ -144,6 +144,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
                 - [[#-23][(=<<)]]
                 - [[#-24][=<<]]
             - [[#sequencing-operator---][<<<Sequencing operator>>> (>>) == (*>):]]
+            - [[#monadic-versions-of-list-functions][Monadic versions of list functions]]
           - [[#maybe-monad][<<<Maybe monad>>>]]
           - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
@@ -1834,6 +1835,49 @@ Discards any resulting value of the action and sequence next action.
 (*>) :: f a -> f b -> f b
 #+end_src
 Applicative has a similar operator.
+
+******* Monadic versions of list functions :drill:
+:PROPERTIES:
+:ID:       0a38c76a-ae98-46dd-830a-62424aa6c8f7
+:END:
+
+#+begin_src haskell
+sequence :: (Traversable t, Monad m) => t (m a) -> m (t a)
+#+end_src
+
+Sequence gets the traversable of monadic computations and swaps it into monad computation of taverse. In the result the collection of monadic computations turns into one long monadic computation on traverse of data.
+
+If some step of this long computation fails - monad fails.
+
+#+begin_src haskell
+mapM :: (Traversable t, Monad m) => (a -> m b) -> t a -> m (t b)
+#+end_src
+
+=mapM= gets the AMB function, then takes traversable data. Then applies AMB function to traversable data, and returns converted monadic traversable data.
+
+#+begin_src haskell
+foldM :: (Foldable t, Monad m) => (b -> a -> m b) -> b -> t a -> m b
+foldl ::  Foldable t           => (b -> a ->   b) -> b -> t a ->   b
+#+end_src
+
+/*/ is a monadic =foldl=.
+
+=b= is initial comulative value, =m b= is a comulative bank.
+Right folding achieved by reversing the input list.
+
+#+begin_src haskell
+filterM :: Applicative m => (a -> m Bool) -> [a] -> m [a]
+filter ::                   (a ->   Bool) -> [a] ->   [a]
+#+end_src
+
+Take Boolean monadic computation, filter the list by it.
+
+#+begin_src haskell
+zipWithM :: Applicative m => (a -> b -> m c) -> [a] -> [b] -> m [c]
+zipWith  ::                  (a -> b ->   c) -> [a] -> [b] ->   [c]
+#+end_src
+
+Take monadic combine function and combine two lists with it.
 
 ****** <<<Maybe monad>>> :drill:
 :PROPERTIES:
