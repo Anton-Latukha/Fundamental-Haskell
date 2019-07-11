@@ -145,6 +145,9 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
                 - [[#-24][=<<]]
             - [[#sequencing-operator---][<<<Sequencing operator>>> (>>) == (*>):]]
             - [[#monadic-versions-of-list-functions][Monadic versions of list functions]]
+            - [[#liftm][<<<liftM*>>>]]
+              - [[#liftm-1][<<<liftM>>>]]
+              - [[#liftm2][<<<liftM2>>>]]
           - [[#maybe-monad][<<<Maybe monad>>>]]
           - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
@@ -1442,6 +1445,8 @@ Essentially a fmap.
 liftA :: Applicative f => (a -> b) -> f a -> f b
 #+end_src
 
+Lifts function into applicative function.
+
 ******* <<<liftA2>>> :drill:
 SCHT: <2019-07-10 Wed>
 :PROPERTIES:
@@ -1620,7 +1625,7 @@ Monad and Applicative according instances must have the same behaviour, this usu
 #+begin_src haskell
 import Control.Monad (ap)
 
-(<*>) == ap
+ap == (<*>) -- + Monad requirement
 #+end_src
 
 | Mathematics                | Math definition                  | Haskell                               | Math meaning |
@@ -1878,6 +1883,36 @@ zipWith  ::                  (a -> b ->   c) -> [a] -> [b] ->   [c]
 #+end_src
 
 Take monadic combine function and combine two lists with it.
+
+******* <<<liftM*>>>
+:PROPERTIES:
+:ID:       6a0f3747-8f90-496b-9c5d-b4794502b725
+:END:
+
+******** <<<liftM>>> :drill:
+:PROPERTIES:
+:ID:       10f01bcb-ef2b-45c5-b950-6f2cb56eb908
+:END:
+
+Essentially a fmap.
+
+#+begin_src haskell
+liftM :: Monad m => (a -> b) -> m a -> m b
+#+end_src
+
+Lifts a function into monadic equivalent.
+
+******** <<<liftM2>>> :drill:
+:PROPERTIES:
+:ID:       5915fc63-5e3a-47fa-83ba-3904abeccb14
+:END:
+
+Monadic liftA2.
+#+begin_src haskell
+liftM2 :: Monad m => (a -> b -> c) -> m a -> m a -> m c
+#+end_src
+
+Lifts binary function into monadic equivalent.
 
 ****** <<<Maybe monad>>> :drill:
 :PROPERTIES:
