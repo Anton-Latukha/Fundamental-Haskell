@@ -1692,6 +1692,19 @@ class Applicative m => Monad m where
   return :: a -> m a
 #+end_src
 
+******* <<<MonadPlus type class>>> :drill:
+:PROPERTIES:
+:ID:       379a53d8-b1a9-4e0d-a1c6-fe201b9e9fd4
+:END:
+
+Is a monoid over monad, with additional rules.
+The precise set of rules (properties) not agreed upon. Class instances obey /monoid/ & /left zero/ rules, some additionally obey /left catch/ and others /left distribution/.
+
+Overall there /*/ currently reforms (MonadPlus reform proposal) in several smaller nad strictly defined type classes.
+
+******** /*/
+<<<Monadplus>>>
+
 ****** Functor -> Applicative -> Monad progression :drill:
 :PROPERTIES:
 :ID:       21916c6b-42f9-46be-a4bb-60200aa5cb8d
