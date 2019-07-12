@@ -1655,7 +1655,7 @@ Monad can shorten/terminate sequence of computations. It is implemented inside M
 Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
 #+begin_src haskell
 import Control.Monad (ap)
-
+return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
