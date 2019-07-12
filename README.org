@@ -1376,7 +1376,7 @@ Is a functor which domain and codomain are the same category.
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
 :END:
 
-/*/ - Computer science term. Category theory name - Lax monoidal functor with Tensorial strength.
+/*/ - Computer science term. Category theory name - lax monoidal functor. And in category $$ Set $$, and so in category $$ Hask $$ all applicatives and monads are strong (have tensorial strength).
 
 /*/ - sequences functorial computations (plain functors can't).
 
@@ -1390,6 +1390,20 @@ Requires Monoidal structure.
 Has monoidal structure rules, separated from what happens inside structure.
 
 Data type can have several applicative implementations.
+
+Standard definition:
+#+begin_src haskell
+class Functor f => Applicative f where
+  (<*>) :: f (a -> b) -> f a -> f b
+  pure :: a -> f a
+#+end_src
+
+The old function:
+#+begin_src haskell
+ap :: Monad m => m (a -> b) -> m a -> m b
+#+end_src
+
+=Control.Monad ap= is old implementation of =<*>=.
 
 ***** /*/
 <<<Applicative>>>
