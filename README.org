@@ -2398,7 +2398,7 @@ It is surjective.
 
 $$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from homomorphism context
 $$ g_1 \circ f_{epi} \equiv g_2 \circ f_{epi} \vDash \; g_1 = g_2 $$ - from general morphism context
-Thus it is right canselable.
+Thus epimorphism is right canselable.
 
 Left is epi to the right. So left is bigger or equal then the right. And right is a projection of the left.
 
