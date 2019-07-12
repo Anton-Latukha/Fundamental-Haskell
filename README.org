@@ -1772,7 +1772,7 @@ Overall there /*/ currently reforms (MonadPlus reform proposal) in several small
 #+end_src
 =pure= & =join= are Natural transformations for the =fmap=.
 
-****** <<<Monad functions>>> :drill:
+****** <<<Monad function>>> :drill:
 :PROPERTIES:
 :ID:       e15d6b3b-61de-489d-8a06-9986b24926d6
 :END:
@@ -1914,6 +1914,11 @@ zipWith  ::                  (a -> b ->   c) -> [a] -> [b] ->   [c]
 #+end_src
 
 Take monadic combine function and combine two lists with it.
+
+#+begin_src haskell
+msum :: (Foldable t, MonadPlus m) => t (m a) -> m a
+sum  :: (Foldable t, Num a)       => t    a  ->   a
+#+end_src
 
 ******* <<<liftM*>>>
 :PROPERTIES:
