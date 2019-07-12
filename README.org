@@ -1521,6 +1521,10 @@ liftA2 (<*>) 3-layer version.
 
 liftA2 3-parameter version.
 
+#+begin_src haskell
+liftA3 f x y z == pure f <*> x <*> y <*> z
+#+end_src
+
 ****** Conditional applicative computations :drill:
 :PROPERTIES:
 :ID:       4c9c0341-bcaf-4965-9316-f657015323ef
