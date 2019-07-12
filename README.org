@@ -4218,7 +4218,7 @@ SCHT: <2019-07-10 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-06 Sat 13:18]
 :END:
 
-Applying argument to a function.
+Applying argument to parameter of a function.
 
 **** /*/
 <<<Beta-reduction>>>
