@@ -1487,8 +1487,11 @@ SCHT: <2019-07-10 Wed>
 
 Lifts binary function across two Applicative functors.
 #+begin_src haskell
-:type liftA2
 liftA2 :: Applicative f => (a -> b -> c) -> f a -> f b -> f c
+#+end_src
+
+#+begin_src haskell
+liftA2 f x y == pure f <*> x <*> y
 #+end_src
 
 ******* <<<liftA2 (<*>)>>> :drill:
