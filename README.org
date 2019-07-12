@@ -6155,6 +6155,20 @@ Example - 12-hour clock.
 *** /*/
 <<<Clock arithmetic>>>
 
+** <<<Property>>> :drill:
+:PROPERTIES:
+:ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
+:END:
+
+Something has a property in the real world, and in theory its property corresponds to the law/laws, axioms.
+
+In Haskell under property/law most often properties of algebraic structures.
+
+There property testing wich does what it says.
+
+*** /*/
+<<<Properties>>>
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -6444,8 +6458,6 @@ SCHT: <2019-07-10 Wed>
 :END:
 
 Fully defined & non-polymorphic type.
-
-** <<<Property>>>
 
 ** <<<Functional dependencies>>>
 
