@@ -530,6 +530,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#basis][<<<Basis>>>]]
     - [[#commutativity][<<<Commutativity>>>]]
       - [[#-118][/*/]]
+  - [[#backpack][<<<Backpack>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -701,8 +702,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
   - [[#json---aeson][JSON - aeson]]
 - [[#misc][Misc]]
-  - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-    - [[#-138][/*/]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
     - [[#instance-termination-rules][<<<Instance termination rules>>>]]
@@ -6281,6 +6280,12 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 <<<Commutative>>>
 <<<Commutative law>>>
 
+** <<<Backpack>>> :drill:
+:PROPERTIES:
+:ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
+:END:
+
+On first compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, and process does not emitt any binary code. Storing the intermediate code in a special form that allows flexibily connect modules provided. That allows later to compile project with particular instanciations of the modules, major work being done by internal Cabal Backpack support and Backpack system that modifies the intermediate code to fit the module.
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -7146,7 +7151,6 @@ https://codesearch.aelve.com/
 ** JSON - aeson
 
 * Misc
-
 * Reference
 
 ** Haskell-98
