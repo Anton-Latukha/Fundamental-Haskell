@@ -2661,18 +2661,6 @@ Operation on members of the domain always produces a members of the domain - the
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 
-** <<<Commutative law>>> :drill:
-:PROPERTIES:
-:ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
-:END:
-
-$$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
-
-*** /*/
-<<<Commutative>>>
-<<<Commutative law>>>
-<<<Commutativity>>>
-
 ** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
@@ -6280,6 +6268,17 @@ $$ \beta\alpha\sigma\iota\varsigma $$ - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see Category theory, or Euclidian geometry basis.
+
+*** <<<Commutativity>>> :drill:
+:PROPERTIES:
+:ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
+:END:
+
+$$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
+
+**** /*/
+<<<Commutative>>>
+<<<Commutative law>>>
 
 * Give definitions
 
