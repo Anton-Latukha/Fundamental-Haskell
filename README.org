@@ -4059,8 +4059,12 @@ Natural transformation is a homotopy of functors.
 :ID:       1c821458-dd2b-4112-aa32-416e27b161ba
 :END:
 
-After the initial application operation can be applied multiple times without changing the result.
+First application gives a result. Then same operation can be applied multiple times without changing the result.
 Example: Start and Stop buttons on machines.
+
+*** /*/
+<<<Idempotent>>>
+<<<Idempotency>>>
 
 ** <<<Idiom>>> :drill:
 SCHT: <2019-07-23 Tue>
