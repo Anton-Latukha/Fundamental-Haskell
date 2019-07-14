@@ -281,6 +281,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#linear-type][<<<Linear type>>>]]
       - [[#-64][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
+    - [[#session-type][<<<Session type>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-65][/*/]]
@@ -3380,6 +3381,14 @@ data NonEmpty a = a :| [a]
 
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 
+*** <<<Session type>>> :drill:
+:PROPERTIES:
+:ID:       4554aa14-760c-41f0-a9fc-69cc3f7fa66a
+:END:
+
+/*/ - allows to check that behaviour conforms to the protocol.
+
+So far very complex not very productive (& well-established) topic.
 ** <<<Declaration>>> :drill:
 SCHT: <2019-07-25 Thu>
 :PROPERTIES:
