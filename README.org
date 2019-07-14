@@ -980,25 +980,6 @@ Statement.
 *** /*/
 <<<Assertions>>>
 
-** <<<Basis>>> :drill:
-SCHT: <2019-07-22 Mon>
-:PROPERTIES:
-:ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:10]
-:END:
-
-$$ \beta\alpha\sigma\iota\varsigma $$ - stepping
-
-The initial point, unreducible axioms and terms that spawn a theory.
-AKA see Category theory, or Euclidian geometry basis.
-
 ** <<<Binary>>> :drill:
 SCHT: <2019-07-31 Wed>
 :PROPERTIES:
@@ -6280,6 +6261,25 @@ SCHT: <2019-07-24 Wed>
 
 Same level expression parts in reality follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
+
+*** <<<Basis>>> :drill:
+SCHT: <2019-07-22 Mon>
+:PROPERTIES:
+:ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:10]
+:END:
+
+$$ \beta\alpha\sigma\iota\varsigma $$ - stepping
+
+The initial point, unreducible axioms and terms that spawn a theory.
+AKA see Category theory, or Euclidian geometry basis.
 
 * Give definitions
 
