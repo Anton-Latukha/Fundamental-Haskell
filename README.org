@@ -4340,23 +4340,6 @@ See Beta reduction
 **** /*/
 <<<Reducible>>>
 
-** <<<Left associative>>> :drill:
-SCHT: <2019-07-24 Wed>
-:PROPERTIES:
-:ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:02]
-:END:
-
-Same level expression parts in reality follow grouping from left to right.
-$$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
-
 ** <<<Lense>>> :drill:
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
@@ -6280,6 +6263,23 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 **** /*/
 <<<Associativity>>>
 <<<Associative>>>
+
+*** <<<Left associative>>> :drill:
+SCHT: <2019-07-24 Wed>
+:PROPERTIES:
+:ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:02]
+:END:
+
+Same level expression parts in reality follow grouping from left to right.
+$$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 
 * Give definitions
 
