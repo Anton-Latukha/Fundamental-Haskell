@@ -2264,6 +2264,15 @@ pure x _ = x
 (<*>) f g = \a -> f a (g a)
 #+end_src
 
+  * Monad:
+#+begin_src haskell
+(>>=) :: (a -> b) -> (b -> a -> c) -> a -> c
+(>>=) m k = Reader $ \r ->
+                  runReader (k (runReader m r)) r
+
+join :: (e -> e -> a) -> e -> a
+join f x = f x x
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
