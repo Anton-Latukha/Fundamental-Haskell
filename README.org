@@ -2258,6 +2258,12 @@ fmap = (.)
 pure :: a -> b -> a
 pure x _ = x
 #+end_src
+    * =(<*>)= is:
+#+begin_src haskell
+(<*>) :: (a -> b -> c) -> (a -> b) -> a -> c
+(<*>) f g = \a -> f a (g a)
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
