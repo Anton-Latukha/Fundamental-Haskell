@@ -2142,6 +2142,9 @@ instance Functor Identity where
 instance Applicative Identity where
   pure     = Identity
   (<*>)    = coerce
+
+instance Monad Identity where
+  m >>= k  = k (runIdentity m)
 #+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
