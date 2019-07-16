@@ -2130,6 +2130,11 @@ Wraps data in the Identity constructor.
 Useful: Creates monads from monad transformers.
 
 Bind: Applies internal value to the bound function.
+
+Code:
+#+begin_src haskell
+newtype Identity a = Identity { runIdentity :: a }
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
