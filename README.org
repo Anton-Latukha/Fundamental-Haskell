@@ -2209,6 +2209,9 @@ getMailPrefs sys name =
 Someting that can fail, throw exceptions.
 
 Failure records failure description. Binding uses successful values as input to the bound function, and passes failure information on without executing the bound function.
+
+Useful:
+Composing functions that can fail. Handle exceptions, crate error handling structure.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
