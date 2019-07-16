@@ -4496,25 +4496,6 @@ See Lambda function
 **** <<<Anonymous function>>>
 Lambda function without the name to bind to.
 
-*** <<<Beta normal form>>> :drill:
-SCHT: <2019-07-21 Sun>
-:PROPERTIES:
-:ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:42]
-:END:
-
-No beta reduction is possible.
-
-**** /*/
-<<<Normal form>>>.
-
 *** <<<\beta-reduction>>> :drill:
 SCHT: <2019-07-23 Tue>
 :PROPERTIES:
@@ -4533,6 +4514,26 @@ Applying argument to parameter of a function.
 
 **** /*/
 <<<Beta-reduction>>>
+**** <<<\beta-normal form>>> :drill:
+SCHT: <2019-07-21 Sun>
+:PROPERTIES:
+:ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:42]
+:END:
+
+No beta reduction is possible.
+
+***** /*/
+<<<\beta normal from>>>
+<<<Beta normal form>>>
+<<<Beta-normal form>>>
 
 *** <<<Calculus of constructions>>> :drill:
 :PROPERTIES:
