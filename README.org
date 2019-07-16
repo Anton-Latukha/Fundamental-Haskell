@@ -2165,6 +2165,12 @@ Bind: =Nothing= input gives =Nothing= output, =Just x= input uses =x= as input t
 Zero: Nothing
 Plus: result in first occurence of Just else Nothing.
 
+Code:
+#+begin_src haskell
+data Maybe a = Nothing | Just a
+
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
