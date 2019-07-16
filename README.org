@@ -4592,6 +4592,17 @@ See Beta reduction
 **** /*/
 <<<Reducible>>>
 
+*** <<<\beta-\eta normal form>>> :drill:
+:PROPERTIES:
+:ID:       0240a6dc-9667-4558-b138-3423930eafe6
+:END:
+
+No \beta-reduction and no \eta-reduction are possible in expression.
+
+**** /*/
+<<<beta-eta normal form>>>
+<<<beta eta normal form>>>
+
 ** <<<Lense>>> :drill:
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
