@@ -2138,6 +2138,10 @@ newtype Identity a = Identity { runIdentity :: a }
 -- coerse is a function that directly moves data between type aliases
 instance Functor Identity where
   fmap     = coerce
+
+instance Applicative Identity where
+  pure     = Identity
+  (<*>)    = coerce
 #+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
