@@ -2222,6 +2222,8 @@ Plus: if first argument failed then execute second argument.
 :END:
 
 Computations which may return 0 or more possible results.
+
+Bind: The bound function is applied to all possible values in the input list and the resulting lists are concatenated into list of all possible results.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
