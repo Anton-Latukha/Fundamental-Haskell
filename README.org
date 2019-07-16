@@ -4603,6 +4603,40 @@ No \beta-reduction and no \eta-reduction are possible in expression.
 <<<beta-eta normal form>>>
 <<<beta eta normal form>>>
 
+*** <<<\eta-abstraction>>> :drill:
+SCHT: <2019-07-20 Sat>
+:PROPERTIES:
+:ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
+:END:
+
+$$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
+
+#+begin_src haskell
+\ x -> g . f $ x
+\ x -> g . f     --eta-abstraction
+#+end_src
+
+**** /*/
+<<<\eta-reduction>>>
+<<<\eta-conversion>>>
+<<<\eta abstraction>>>
+<<<\eta reduction>>>
+<<<\eta conversion>>>
+<<<eta-abstraction>>>
+<<<eta-reduction>>>
+<<<eta-conversion>>>
+<<<eta abstraction>>>
+<<<eta reduction>>>
+<<<eta conversion>>>
+
 ** <<<Lense>>> :drill:
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
@@ -4958,32 +4992,6 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 \ x1    -> g . f x1
 #+end_src
 
-*** <<<\eta-abstraction>>> :drill:
-SCHT: <2019-07-20 Sat>
-:PROPERTIES:
-:ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
-:END:
-
-$$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
-#+begin_src haskell
-\ x -> g . f $ x
-\ x -> g . f     --eta-abstraction
-#+end_src
-
-**** /*/
-<<<\eta-reduction>>>
-<<<\eta-conversion>>>
-<<<eta-abstraction>>>
-<<<eta-reduction>>>
-<<<eta-conversion>>>
 
 *** <<<Blackbird>>> :drill:
 SCHT: <2019-07-20 Sat>
