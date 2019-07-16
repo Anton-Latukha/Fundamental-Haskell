@@ -2201,6 +2201,12 @@ getMailPrefs sys name =
   lookup addr prefDB
 #+end_src
 
+****** <<<Error monad>>> :drill:
+:PROPERTIES:
+:ID:       860961d0-78d3-4fdd-9845-3e1a2b800cf7
+:END:
+
+Someting that can fail, throw exceptions.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
