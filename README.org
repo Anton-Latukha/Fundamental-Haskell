@@ -2233,6 +2233,12 @@ Plus: (++)
 ******* /*/
 <<<[] monad>>>
 
+****** <<<Reader monad>>> :drill:
+:PROPERTIES:
+:ID:       fff0059d-0484-41ee-b7c0-e91360c9ff62
+:END:
+
+Creates a read-only shared environment for computations.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
