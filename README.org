@@ -2146,6 +2146,13 @@ instance Applicative Identity where
 instance Monad Identity where
   m >>= k  = k (runIdentity m)
 #+end_src
+
+Example:
+#+begin_src haskell
+-- derive the State monad using the StateT monad transformer
+type State s a = StateT s Identity a
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
