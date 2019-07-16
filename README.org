@@ -4513,7 +4513,10 @@ SCHT: <2019-07-23 Tue>
 Applying argument to parameter of a function.
 
 **** /*/
+<<<\beta reduction>>>
 <<<Beta-reduction>>>
+<<<Beta reduction>>>
+
 **** <<<\beta-normal form>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
@@ -4563,6 +4566,9 @@ Computer programs are mathematical proofs.
 :END:
 
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
+
+**** /*/
+<<<Curry>>>
 
 *** <<<Hindley–Milner type system>>> :drill:
 SCHT: <2019-07-16 Tue>
@@ -4992,6 +4998,10 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 \ x1    -> g . f x1
 #+end_src
 
+*** /*/
+<<<Pointfree>>>
+<<<Tacit>>>
+<<<Tacit programming>>>
 
 *** <<<Blackbird>>> :drill:
 SCHT: <2019-07-20 Sat>
@@ -5049,11 +5059,6 @@ swing f c a = f ($ a) c
 #+begin_src haskell
 f >>= a . b . c =<< g
 #+end_src
-
-*** /*/
-<<<Pointfree>>>
-<<<Tacit>>>
-<<<Tacit programming>>>
 
 ** <<<Polymorphism>>> :drill:
 SCHT: <2019-07-23 Tue>
