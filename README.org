@@ -2245,6 +2245,13 @@ The =pure= function ignores the environment, while >>= passes the inherited envi
 #+begin_src haskell
 type Reader r = ReaderT r Identity   -- equivalent to ((->) e), (e ->)
 #+end_src
+
+For =(e ->)=:
+  * Functor is =(.)=
+#+begin_src haskell
+fmap :: (b -> c) -> (a -> b) -> a -> c
+fmap = (.)
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
