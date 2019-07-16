@@ -2280,6 +2280,34 @@ runReader
   -> r  -- an initial environment
   -> a  -- extracted final value
 #+end_src
+
+Usage:
+#+begin_src haskell
+data Env = ...
+
+createEnv :: IO Env
+createEnv = ...
+
+f :: Reader Env a
+f = do
+  a <- g
+  pure a
+
+g :: Reader Env a
+g = do
+  env <- ask  -- "Open the environment namespace into env"
+  a <- h env  -- give env to h
+  pure a
+
+h :: Env -> a
+...  -- use env and produce the result
+
+main :: IO ()
+main = do
+  env <- createEnv
+  a = runReader g env
+  ...
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
