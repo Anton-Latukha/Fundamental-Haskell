@@ -2273,6 +2273,13 @@ pure x _ = x
 join :: (e -> e -> a) -> e -> a
 join f x = f x x
 #+end_src
+
+#+begin_src haskell
+runReader
+  :: Reader r a  -- the Reader to run
+  -> r  -- an initial environment
+  -> a  -- extracted final value
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
