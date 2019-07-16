@@ -2216,6 +2216,12 @@ Composing functions that can fail. Handle exceptions, crate error handling struc
 Zero: empty error.
 Plus: if first argument failed then execute second argument.
 
+****** <<<List monad>>> :drill:
+:PROPERTIES:
+:ID:       1645e551-ef15-4415-9a40-8d4a7066ff0b
+:END:
+
+Computations which may return 0 or more possible results.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
