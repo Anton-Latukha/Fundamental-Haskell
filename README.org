@@ -2252,6 +2252,12 @@ For =(e ->)=:
 fmap :: (b -> c) -> (a -> b) -> a -> c
 fmap = (.)
 #+end_src
+  * Applicative:
+    * =pure= is =const=
+#+begin_src haskell
+pure :: a -> b -> a
+pure x _ = x
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
