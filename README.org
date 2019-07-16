@@ -2181,6 +2181,26 @@ instance MonadPlus Maybe where
   x `mplus` _       = x
 #+end_src
 
+Example:
+Given 3 dictionaries:
+ 1. Full names to email addresses,
+ 2. Nicknames to email addresses,
+ 3. Email addresses to email preferences.
+
+Create a function that finds a person's email preferences based on either a full name or a nickname.
+#+begin_src haskell
+data MailPref = HTML | Plain
+data MailSystem = ...
+
+getMailPrefs :: MailSystem -> String -> Maybe MailPref
+getMailPrefs sys name =
+  do let nameDB = fullNameDB sys
+         nickDB = nickNameDB sys
+         prefDB = prefsDB sys
+  addr <- (lookup name nameDB) `mplus` (lookup name nickDB)
+  lookup addr prefDB
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
