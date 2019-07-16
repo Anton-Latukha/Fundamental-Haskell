@@ -2120,6 +2120,12 @@ Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
 $$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
 $$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
 
+****** <<<Identity monad>>> :drill:
+:PROPERTIES:
+:ID:       dda1f03b-a476-48eb-894b-06d18733297b
+:END:
+
+Wraps data in the Identity constructor.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
