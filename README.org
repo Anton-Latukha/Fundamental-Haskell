@@ -2175,6 +2175,10 @@ instance Monad Maybe where
   Nothing  >>= _ = Nothing
   (Just x) >>= f = f x
 
+instance MonadPlus Maybe where
+  mzero             = Nothing
+  Nothing `mplus` x = x
+  x `mplus` _       = x
 #+end_src
 
 ***** <<<Alternative type class>>> :drill:
