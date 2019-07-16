@@ -2308,6 +2308,10 @@ main = do
   a = runReader g env
   ...
 #+end_src
+
+In Haskell under normal circumstances impure functions should not directy call impure functions.
+=h= is an impure function, and =createEnv= is impure function, so they should have intermediary.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
@@ -3009,6 +3013,7 @@ Properties:
 <<<Opposite categories>>>
 <<<Category duality>>>
 <<<Duality>>>
+<<<Dual category>>>
 
 ** <<<Closure>>> :drill:
 SCHT: <2019-07-27 Sat>
