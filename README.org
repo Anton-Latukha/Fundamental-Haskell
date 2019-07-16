@@ -2169,6 +2169,12 @@ Code:
 #+begin_src haskell
 data Maybe a = Nothing | Just a
 
+instance Monad Maybe where
+  return         = Just
+  fail           = Nothing
+  Nothing  >>= _ = Nothing
+  (Just x) >>= f = f x
+
 #+end_src
 
 ***** <<<Alternative type class>>> :drill:
