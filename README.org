@@ -2134,6 +2134,10 @@ Bind: Applies internal value to the bound function.
 Code:
 #+begin_src haskell
 newtype Identity a = Identity { runIdentity :: a }
+
+-- coerse is a function that directly moves data between type aliases
+instance Functor Identity where
+  fmap     = coerce
 #+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
