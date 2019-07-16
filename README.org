@@ -2212,6 +2212,10 @@ Failure records failure description. Binding uses successful values as input to 
 
 Useful:
 Composing functions that can fail. Handle exceptions, crate error handling structure.
+
+Zero: empty error.
+Plus: if first argument failed then execute second argument.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
