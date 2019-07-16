@@ -2239,6 +2239,8 @@ Plus: (++)
 :END:
 
 Creates a read-only shared environment for computations.
+
+The =pure= function ignores the environment, while >>= passes the inherited environment to both subcomputations.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
