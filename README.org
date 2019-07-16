@@ -2153,6 +2153,12 @@ Example:
 type State s a = StateT s Identity a
 #+end_src
 
+****** <<<Maybe monad>>> :drill:
+:PROPERTIES:
+:ID:       dce21b9b-4b6a-4aea-8cbe-06a84f8c1c0f
+:END:
+
+Something that may not be or not return a result. Any lookups into the real world, database querries.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
