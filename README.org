@@ -2161,6 +2161,10 @@ type State s a = StateT s Identity a
 Something that may not be or not return a result. Any lookups into the real world, database querries.
 
 Bind: =Nothing= input gives =Nothing= output, =Just x= input uses =x= as input to the bound function.
+
+Zero: Nothing
+Plus: result in first occurence of Just else Nothing.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
