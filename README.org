@@ -2128,6 +2128,8 @@ $$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
 Wraps data in the Identity constructor.
 
 Useful: Creates monads from monad transformers.
+
+Bind: Applies internal value to the bound function.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
