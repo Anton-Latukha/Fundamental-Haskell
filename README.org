@@ -5207,18 +5207,18 @@ Allows check a list of pattern matches against functions, and then proceed.
 
 | (/pattern1/) <- (/funcCheck1/)
 , (/pattern2/) <- (/funcCheck2/)
-= /LHS/
+= /RHS/
 
 #+begin_src haskell
-lookup :: FiniteMap -> Int -> Maybe Int
+lookup :: Eq a => a -> [(a, b)] -> Maybe b
 
 addLookup env var1 var2
-   | Just val1 <- lookup env var1
-   , Just val2 <- lookup env var2
+   | Just val1 <- lookup var1 env
+   , Just val2 <- lookup var2 env
    = val1 + val2
 {-...other equations...-}
 #+end_src
-check both to succeed, bind results to val1, val2, then proceed to the equation.
+Check both to succeed, match results into =val1=, =val2=, then proceed to the equation.
 
 Default in Haskell 2010.
 
