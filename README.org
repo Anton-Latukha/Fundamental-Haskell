@@ -2329,6 +2329,8 @@ Accumulator is maintained separately from the returned values.
 
 Shared value modified through Writer monad methods.
 
+/*/ frees creator and code from manually keeping the track of accumulation.
+
 Bind: The bound function is applied to the input value, bound function allowed to =<>= to the accumulator.
 
 Example:
@@ -2355,6 +2357,8 @@ h a = do
 runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, accumulator) pair.
                                    -- The inverse of writer.
 #+end_src
+
+=WriterT=, =Writer= unnecessarily keeps the entire logs in the memory. Use =fast-logger= for logging.
 
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
