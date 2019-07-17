@@ -2323,6 +2323,8 @@ In Haskell under normal circumstances impure functions should not directy call i
 :END:
 
 Computations which accumulate monoid data to a shared Haskell storage.
+So /*/ is parametrized by monoidal type
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
