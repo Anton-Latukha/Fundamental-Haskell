@@ -2327,6 +2327,8 @@ So /*/ is parametrized by monoidal type
 
 Accumulator is maintained separately from the returned values.
 
+Shared value modified through Writer monad methods.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
