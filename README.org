@@ -157,6 +157,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
               - [[#-24][/*/]]
             - [[#reader-monad][<<<Reader monad>>>]]
             - [[#writer-monad][<<<Writer monad>>>]]
+            - [[#state-monad][<<<State monad>>>]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
           - [[#-25][/*/]]
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
@@ -2360,6 +2361,12 @@ runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, 
 
 =WriterT=, =Writer= unnecessarily keeps the entire logs in the memory. Use =fast-logger= for logging.
 
+******* <<<State monad>>>
+:PROPERTIES:
+:ID:       800e0e70-a69e-48e9-8592-426f5dd910cf
+:END:
+
+Computations that pass-over a state.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
