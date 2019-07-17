@@ -146,7 +146,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#liftm][<<<liftM*>>>]]
               - [[#liftm-1][<<<liftM>>>]]
               - [[#liftm2][<<<liftM2>>>]]
-          - [[#maybe-monad][<<<Maybe monad>>>]]
           - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
           - [[#kleisli-category][<<<Kleisli category>>>]]
@@ -2066,13 +2065,6 @@ liftM2 :: Monad m => (a -> b -> c) -> m a -> m a -> m c
 
 Lifts binary function into monadic equivalent.
 
-****** <<<Maybe monad>>> :drill:
-:PROPERTIES:
-:ID:       4a2e0708-1a7d-447e-b0b9-9560a2dc9e33
-:END:
-
-Drops the chain of computation and returns Nothing as soon as Nothing arrives.
-
 ****** <<<Either monad>>> :drill:
 SCHT: <2019-07-23 Tue>
 :PROPERTIES:
@@ -2167,6 +2159,8 @@ type State s a = StateT s Identity a
 Something that may not be or not return a result. Any lookups into the real world, database querries.
 
 Bind: =Nothing= input gives =Nothing= output, =Just x= input uses =x= as input to the bound function.
+
+When some computation results in Nothing -  drops the chain of computations and returns Nothing.
 
 Zero: Nothing
 Plus: result in first occurence of Just else Nothing.
