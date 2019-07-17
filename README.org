@@ -2329,6 +2329,8 @@ Accumulator is maintained separately from the returned values.
 
 Shared value modified through Writer monad methods.
 
+Bind: The bound function is applied to the input value, bound function allowed to =<>= to the accumulator.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
