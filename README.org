@@ -2490,7 +2490,7 @@ SCHT: <2019-07-17 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:10]
 :END:
 
-Magma with Associative law.
+Magma with associative property.
 
 Defined in Haskell as:
 #+begin_src haskell
