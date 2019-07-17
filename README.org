@@ -2079,7 +2079,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
 :END:
 
-Drops sequencing computation as soon as =Left= arrives.
+As computation results in =Left= drops other computations and returns =Left=.
 
 ****** <<<Comonad>>> :drill:
 SCHT: <2019-07-20 Sat>
@@ -2118,7 +2118,12 @@ Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
 $$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
 $$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
 
-****** <<<Identity monad>>> :drill:
+****** <<<Special monad>>>
+:PROPERTIES:
+:ID:       6b44c29f-6e27-4ff3-bd40-d7f6ad97121b
+:END:
+
+******* <<<Identity monad>>> :drill:
 :PROPERTIES:
 :ID:       dda1f03b-a476-48eb-894b-06d18733297b
 :END:
