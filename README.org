@@ -2336,6 +2336,10 @@ Shared value modified through Writer monad methods.
 
 Bind: The bound function is applied to the input value, bound function allowed to =<>= to the accumulator.
 
+#+begin_src haskell
+type Writer r = WriterT r Identity
+#+end_src
+
 Example:
 #+begin_src haskell
 f :: Monoid b => a -> (a, b)
