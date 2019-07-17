@@ -714,6 +714,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
   - [[#json---aeson][JSON - aeson]]
 - [[#misc][Misc]]
+  - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
+    - [[#-141][/*/]]
 - [[#reference][Reference]]
   - [[#haskell-98][Haskell-98]]
     - [[#instance-termination-rules][<<<Instance termination rules>>>]]
@@ -7809,6 +7811,32 @@ https://codesearch.aelve.com/
 ** JSON - aeson
 
 * Misc
+
+** <<<Functor-Applicative-Monad Proposal>>> :drill:
+:PROPERTIES:
+:ID:       bfe7e9bf-1683-433d-949f-0c4240226074
+:END:
+
+Well known historical even in Haskell.
+https://github.com/quchen/articles/blob/master/applicative_monad.md
+
+Math justice was restored with a RETroactive CONtinuity. Invented in computer science term Applicative (lax monoidal functor) become a superclass of Monad.
+
+& that is why:
+  * =return = pure=
+  * =ap = <*>=
+  * =>> = *>=
+  * =liftM = liftA = fmap=
+  * =liftM* = liftA*=
+
+Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
+  * =mzero = empty=
+  * =mplus = (<|>)=
+
+*** /*/
+<<<Applicative-Monad proposal>>>
+<<<AMP>>>
+
 * Reference
 
 ** Haskell-98
