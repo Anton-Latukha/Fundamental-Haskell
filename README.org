@@ -1366,8 +1366,12 @@ Constant functor is another example.
 ***** /*/
 <<<Forgetful>>>
 
-**** <<<Identity functor>>>
-Maps objects and morphisms to themselves.
+**** <<<Identity functor>>> :drill:
+:PROPERTIES:
+:ID:       9dbbb6a7-e9ae-4c29-8468-aa20fc143b84
+:END:
+
+Maps all category to itself. All objects and morphisms to themselves.
 
 Denotation:
 $$ 1^{\mathcal{C \to C}} $$
