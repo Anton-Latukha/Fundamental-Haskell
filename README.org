@@ -2331,6 +2331,25 @@ Shared value modified through Writer monad methods.
 
 Bind: The bound function is applied to the input value, bound function allowed to =<>= to the accumulator.
 
+Example:
+#+begin_src haskell
+f :: Monoid b => a -> (a, b)
+f a = if _condition_
+         then runWriter $ g a
+         else runWriter do
+           a1 <- h a
+           pure a1
+
+g :: Monoid b => Writer b a
+g a = do
+  tell _value1_  -- accumulator <> _value1_
+  pure a  -- observe that accumulator stored inside monad and only a main value needs to be returned
+
+h :: Monoid b => Writer b a
+h a = do
+  tell _value2_  -- accumulator <> _value_
+  pure a
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
