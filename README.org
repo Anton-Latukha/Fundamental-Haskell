@@ -150,13 +150,14 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
           - [[#kleisli-category][<<<Kleisli category>>>]]
-          - [[#identity-monad][<<<Identity monad>>>]]
-          - [[#maybe-monad-1][<<<Maybe monad>>>]]
-          - [[#error-monad][<<<Error monad>>>]]
-          - [[#list-monad][<<<List monad>>>]]
-            - [[#-24][/*/]]
-          - [[#reader-monad][<<<Reader monad>>>]]
-          - [[#writer-monad][<<<Writer monad>>>]]
+          - [[#special-monad][<<<Special monad>>>]]
+            - [[#identity-monad][<<<Identity monad>>>]]
+            - [[#maybe-monad][<<<Maybe monad>>>]]
+            - [[#error-monad][<<<Error monad>>>]]
+            - [[#list-monad][<<<List monad>>>]]
+              - [[#-24][/*/]]
+            - [[#reader-monad][<<<Reader monad>>>]]
+            - [[#writer-monad][<<<Writer monad>>>]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
           - [[#-25][/*/]]
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
@@ -2158,7 +2159,7 @@ Example:
 type State s a = StateT s Identity a
 #+end_src
 
-****** <<<Maybe monad>>> :drill:
+******* <<<Maybe monad>>> :drill:
 :PROPERTIES:
 :ID:       dce21b9b-4b6a-4aea-8cbe-06a84f8c1c0f
 :END:
@@ -2206,7 +2207,7 @@ getMailPrefs sys name =
   lookup addr prefDB
 #+end_src
 
-****** <<<Error monad>>> :drill:
+******* <<<Error monad>>> :drill:
 :PROPERTIES:
 :ID:       860961d0-78d3-4fdd-9845-3e1a2b800cf7
 :END:
@@ -2221,7 +2222,7 @@ Composing functions that can fail. Handle exceptions, crate error handling struc
 Zero: empty error.
 Plus: if first argument failed then execute second argument.
 
-****** <<<List monad>>> :drill:
+******* <<<List monad>>> :drill:
 :PROPERTIES:
 :ID:       1645e551-ef15-4415-9a40-8d4a7066ff0b
 :END:
@@ -2235,10 +2236,10 @@ Useful: Building computations from sequences of non-deterministic operations.
 Zero: []
 Plus: (++)
 
-******* /*/
+******** /*/
 <<<[] monad>>>
 
-****** <<<Reader monad>>> :drill:
+******* <<<Reader monad>>> :drill:
 :PROPERTIES:
 :ID:       fff0059d-0484-41ee-b7c0-e91360c9ff62
 :END:
@@ -2317,13 +2318,13 @@ main = do
 In Haskell under normal circumstances impure functions should not directy call impure functions.
 =h= is an impure function, and =createEnv= is impure function, so they should have intermediary.
 
-****** <<<Writer monad>>> :drill:
+******* <<<Writer monad>>> :drill:
 :PROPERTIES:
 :ID:       fe69112e-4524-4ff4-b100-ac229efe5849
 :END:
 
 Computations which accumulate monoid data to a shared Haskell storage.
-So /*/ is parametrized by monoidal type
+So /*/ is parametrized by monoidal type.
 
 Accumulator is maintained separately from the returned values.
 
