@@ -146,12 +146,12 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#liftm][<<<liftM*>>>]]
               - [[#liftm-1][<<<liftM>>>]]
               - [[#liftm2][<<<liftM2>>>]]
-          - [[#either-monad][<<<Either monad>>>]]
           - [[#comonad][<<<Comonad>>>]]
           - [[#kleisli-category][<<<Kleisli category>>>]]
           - [[#special-monad][<<<Special monad>>>]]
             - [[#identity-monad][<<<Identity monad>>>]]
             - [[#maybe-monad][<<<Maybe monad>>>]]
+            - [[#either-monad][<<<Either monad>>>]]
             - [[#error-monad][<<<Error monad>>>]]
             - [[#list-monad][<<<List monad>>>]]
               - [[#-24][/*/]]
@@ -2065,22 +2065,6 @@ liftM2 :: Monad m => (a -> b -> c) -> m a -> m a -> m c
 
 Lifts binary function into monadic equivalent.
 
-****** <<<Either monad>>> :drill:
-SCHT: <2019-07-23 Tue>
-:PROPERTIES:
-:ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
-:END:
-
-As computation results in =Left= drops other computations and returns =Left=.
-
 ****** <<<Comonad>>> :drill:
 SCHT: <2019-07-20 Sat>
 :PROPERTIES:
@@ -2205,6 +2189,22 @@ getMailPrefs sys name =
   addr <- (lookup name nameDB) `mplus` (lookup name nickDB)
   lookup addr prefDB
 #+end_src
+
+******* <<<Either monad>>> :drill:
+SCHT: <2019-07-23 Tue>
+:PROPERTIES:
+:ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
+:END:
+
+When computation results in =Left -= drops other computations, returns the recieved =Left=.
 
 ******* <<<Error monad>>> :drill:
 :PROPERTIES:
