@@ -2081,7 +2081,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
 :END:
 
-Drops sequencing computation as soon as Left arrives.
+Drops sequencing computation as soon as =Left= arrives.
 
 ****** <<<Comonad>>> :drill:
 SCHT: <2019-07-20 Sat>
@@ -2429,6 +2429,8 @@ SCHT: <2019-07-24 Wed>
 :END:
 
 Semigroup with Identity element.
+
+Ideally fits as an accumulation class.
 
 #+begin_src haskell
 class Monoid m where
