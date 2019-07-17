@@ -2369,6 +2369,8 @@ runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, 
 Computations that pass-over a state.
 
 The bound function is applied to the input value to produce a state transition function which is applied to the input state.
+
+Pure functional language cannot update values in place because it violates referential transparency.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
