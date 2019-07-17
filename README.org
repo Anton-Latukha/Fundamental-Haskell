@@ -156,6 +156,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
           - [[#list-monad][<<<List monad>>>]]
             - [[#-24][/*/]]
           - [[#reader-monad][<<<Reader monad>>>]]
+          - [[#writer-monad][<<<Writer monad>>>]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
           - [[#-25][/*/]]
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
@@ -2316,6 +2317,12 @@ main = do
 In Haskell under normal circumstances impure functions should not directy call impure functions.
 =h= is an impure function, and =createEnv= is impure function, so they should have intermediary.
 
+****** <<<Writer monad>>> :drill:
+:PROPERTIES:
+:ID:       fe69112e-4524-4ff4-b100-ac229efe5849
+:END:
+
+Computations which accumulate monoid data to a shared Haskell storage.
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
