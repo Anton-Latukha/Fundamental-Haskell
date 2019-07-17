@@ -1852,6 +1852,8 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
 :END:
 
+Also a subclass of a Alternative.
+
 Is a monoid over monad, with additional rules.
 The precise set of rules (properties) not agreed upon. Class instances obey /monoid/ & /left zero/ rules, some additionally obey /left catch/ and others /left distribution/.
 
