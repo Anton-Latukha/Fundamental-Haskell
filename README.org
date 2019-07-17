@@ -2413,7 +2413,7 @@ SCHT: <2019-07-17 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:10]
 :END:
 
-Monoid over applicative. Is /left catch/.
+Monoid over applicative. Has left catch property.
 
 Allows to run simolteniously several instances of a computation (or computations) and from them yeld one result by law from =(<|>) :: Type -> Type -> Type=.
 
