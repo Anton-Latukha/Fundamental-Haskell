@@ -2350,6 +2350,12 @@ h a = do
   tell _value2_  -- accumulator <> _value_
   pure a
 #+end_src
+
+#+begin_src haskell
+runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, accumulator) pair.
+                                   -- The inverse of writer.
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-07-17 Wed>
 :PROPERTIES:
