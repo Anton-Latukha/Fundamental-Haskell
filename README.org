@@ -977,13 +977,6 @@ For FP see Bind. And then beta reduction happen.
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
 
-** <<<Arbitrary function>>> :drill:
-:PROPERTIES:
-:ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
-:END:
-
-Depends on type and generates values of that type.
-
 ** <<<Argument>>> :drill:
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
@@ -3585,8 +3578,12 @@ SCHT: <2019-07-28 Sun>
 Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
 Useful function is arbitrary - that autogenerates values.
 
-***** /*/
-<<<Arbitrary>>>
+***** <<<Arbitrary function>>> :drill:
+:PROPERTIES:
+:ID:       31fe10b3-340e-489a-ab65-a4532a005d0a
+:END:
+
+Depends on type and generates values of that type.
 
 **** <<<CoArbitrary type class>>> :drill:
 :PROPERTIES:
