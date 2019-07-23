@@ -7320,6 +7320,7 @@ Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
 Two types of /*/ are:
 
 * Citations
+
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
 have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
@@ -7728,9 +7729,9 @@ Linear types are great to control/minimize resource usage.
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
 :END:
 
-** Pragma
+** <<<Bad pragma>>>
 
-*** Dangerous LANGUAGE pragma options
+*** Bad: Dangerous LANGUAGE pragma option
 
   - DatatypeContexts
   - OverlappingInstances
@@ -7739,7 +7740,7 @@ Linear types are great to control/minimize resource usage.
   - AllowAmbigiousTypes
 
 Mine addition:
-  - UndecidableInstances
+  - UndecidableInstances - often
 
 * Useful functions to remember
 
@@ -7798,9 +7799,6 @@ quickCheck . verbose - run verbose mode
 #+end_src
 
 * Investigate
-
-** Control.Monad
-
 * Debugger
 
 Provides:
