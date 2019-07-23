@@ -1733,13 +1733,13 @@ Definition with $$ \{F^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ ($$ \{fmap, \, 
 
 If there is a structure $$ S $$, and a way of taking object x into S and a way of collapsing $$ S \circ S $$ - there probably a monad.
 
-Mostly Monads used for sequencing actions (that looks like imperative programming), with dependency on previous chains, there are Commutative Monads that do not order actions.
+Mostly monads used for sequencing actions (computations) (that looks like imperative programming), with ability to dependend on previous chains. Note if monad is commutative - it does not order actions.
 
-Monadic internals are Haskell data types, so they can be consumed any number of times.
+Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe monad on Nothing drops chain of computation and returns Nothing.
 
-Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe Monad on Nothing drops chain of computation and returns Nothing.
+Monadic internals are Haskell data types, and as such - they can be consumed any number of times.
 
-Monad and Applicative according instances must have the same behaviour, this usually expressed in the form:
+Same Monad and Applicative instances must be the same:
 #+begin_src haskell
 import Control.Monad (ap)
 return == pure
