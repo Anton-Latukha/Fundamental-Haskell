@@ -2089,7 +2089,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
 :END:
 
-Category $$ C $$ comonad is a monad of oposite category $$ C^{op} $$.
+Category $$ \mathcal{C} $$ comonad is a monad of oposite category $$ \mathcal{C}^{op} $$.
 
 ****** <<<Kleisli category>>> :drill:
 SCHT: <2019-07-20 Sat>
