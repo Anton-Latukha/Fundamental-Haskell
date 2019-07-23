@@ -7280,6 +7280,45 @@ Polynomials forms a ring. Polynomial ring.
 *** /*/
 <<<Polynomials>>>
 
+** <<<Data family>>>
+
+** <<<Type synonym family>>>
+
+** <<<Indexed type family>>>
+:PROPERTIES:
+:ID:       db9d2215-e851-4257-90bb-26a03647663b
+:END:
+
+/*/ additional stucture in language that allows ad-hoc overloading of data types. AKA are to types as type class to methods.
+
+*** /*/
+<<<Type family>>>
+
+** <<<TypeFamilies>>>
+SCHT: <2019-07-17 Wed>
+:PROPERTIES:
+:ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:12]
+:END:
+
+Allow use and definition of indexed type families and data families.
+
+/*/ are type-level programming.
+/*/ are overload data types in the same way that type classes overload functions.
+/*/ allow handling of dependent types. Before it Functional dependencies and GADTs were used to solve that.
+/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
+
+Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
+
+Two types of /*/ are:
+
 * Citations
 "One of the finer points of the Haskell community has been
 its propensity for recognizing abstract patterns in code which
