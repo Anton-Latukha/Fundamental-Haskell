@@ -3021,7 +3021,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
 :END:
 
-Initial object - is an object I in category C: $$ \exists I \in C: \; \forall X \in C, \exists ! (I \to X) $$.
+Initial object - is an object I in category $$ \mathcal{C} $$: $$ \exists ! (I \to X) \; | \; \exists I \in \mathcal{C}: \, \forall X \in \mathcal{C} $$.
 
 *** <<<SET category>>> :drill:
 SCHT: <2019-07-24 Wed>
