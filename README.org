@@ -3008,20 +3008,20 @@ Mathematical structure. Morphisms preserve structure.
 Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
 
 **** <<<Initial object>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:55]
 :END:
 
-Initial object - is an object I in category $$ \mathcal{C} $$: $$ \exists ! (I \to X) \; | \; \exists I \in \mathcal{C}: \, \forall X \in \mathcal{C} $$.
+Initial object - is an object I in category $$ \mathcal{C} $$: $$ \exists ! (I \to X) \; | \; \exists I \in \mathcal{C} \, \forall X \in \mathcal{C} $$.
 
 *** <<<SET category>>> :drill:
 SCHT: <2019-07-24 Wed>
@@ -3171,17 +3171,17 @@ Haskell kind:
 #+end_src
 
 ** <<<Constructor>>> :drill:
-SCHT: <2019-07-17 Wed>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:09]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:39]
 :END:
 
 1. Type constructor
@@ -3993,17 +3993,17 @@ SCHT: <2019-07-24 Wed>
 For FP see Bind.
 
 ** <<<Expected type>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:02]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:55]
 :END:
 
 Data type inferred from the text of the code.
@@ -5811,17 +5811,17 @@ newtype Dollars = Dollars Int
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
 
 ***** <<<ImplicitParams>>> :drill:
-SCHT: <2019-07-16 Tue>
+SCHT: <2019-07-29 Mon>
 :PROPERTIES:
 :ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 10.7516
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:26]
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-18 Thu 21:56]
 :END:
 
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
@@ -6008,19 +6008,18 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
 #+end_src
 
-:PROPERTIES:
-:ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-
 ***** <<<TypeSynonymInstances>>> :drill:
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       3989b294-f011-48c0-9998-be10bd75c541
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:39]
 :END:
 
 Now type synonim can have it's own type class instances.
@@ -6366,17 +6365,17 @@ $$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
 Denotation was not standartized.
 
 **** <<<Hom-functor>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:DRILL_LAST_INTERVAL: 3.86
+:DRILL_LAST_INTERVAL: 3.725
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 6
+:DRILL_AVERAGE_QUALITY: 2.25
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:04]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:42]
 :END:
 
 $$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$, for locally small category $$ \mathcal{C} $$.
@@ -6486,21 +6485,20 @@ _   :
 #+end_src
 
 ** <<<Statement>>> :drill:
-SCHT: <2019-07-19 Fri>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-15 Mon 23:52]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:43]
 :END:
 
-Declarative sentence that is true or false.
-Gonzales: "What code does."
+Declarative expression that is true or false.
 
 *** <<<Predicate>>> :drill:
 :PROPERTIES:
@@ -7856,7 +7854,7 @@ https://codesearch.aelve.com/
 
 ** JSON - aeson
 
-* Misc
+* Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
 :PROPERTIES:
@@ -7882,14 +7880,13 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
 <<<Applicative-Monad proposal>>>
 <<<AMP>>>
 
-* Reference
-
 ** Haskell-98
 
-*** <<<Instance termination rules>>>
+*** <<<Old instance termination rules>>>
 
   1. \forall class constraint (C t1 .. tn):
     1.1 type variables have occurances \le head
     1.2 constructors+variables+repetitions < head
     1.3 \not type functions (type func application can expand to arbitrary size)
  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+* Misc
