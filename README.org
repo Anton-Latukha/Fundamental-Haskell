@@ -3316,10 +3316,7 @@ Conjunction, product - multiplies cardinalities.
 :ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
 :END:
 
-Nullary constructor
-
-**** /*/
-<<<Constant>>>
+Nullary data constructor, constant value - nullary data constructor, or data constant.
 
 *** <<<Data constructor>>> :drill:
 :PROPERTIES:
@@ -3327,8 +3324,6 @@ Nullary constructor
 :END:
 
 One instance that inhabit data type.
-
-Constant value - nullary data constructor.
 
 *** <<<data declaration>>> :drill:
 :PROPERTIES:
@@ -3641,7 +3636,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
 :END:
 
-See: Constant
+Nullary type constructor is type constant.
 
 *** <<<Type constructor>>> :drill:
 :PROPERTIES:
@@ -3650,7 +3645,6 @@ See: Constant
 
 Name of data type.
 
-Nullary type constructor is type constant
 
 *** <<<type declaration>>> :drill:
 SCHT: <2019-07-20 Sat>
