@@ -6379,17 +6379,16 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:04]
 :END:
 
-$$ hom:C^{op} \times C \to Set $$, for C (locally small category)
-from the product category of the category C with its opposite category to the category Set of sets.
+$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$, for locally small category $$ \mathcal{C} $$.
+Functor from the product of $$ \mathcal{C} $$ with opposite category to the category of sets.
 
-Denotation:
-variants:
+Denotation variants:
 $$ H_A = \mathrm{Hom}(-, A) $$
-$$ h_A = {\cal C}(-, A) $$
-$$ Hom(A,-) : C \to Set $$
+$$ h_A = {\cal \mathcal{C}}(-, A) $$
+$$ Hom(A,-): \ \mathcal{C} \to Set $$
 
 Hom-bifunctor:
-$$ Hom(-,-):C^{op} \times C \to Set $$
+$$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
 
 *** <<<Singleton>>> :drill:
 SCHT: <2019-07-22 Mon>
