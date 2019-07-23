@@ -6924,6 +6924,15 @@ $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 :END:
 
 On first compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, and process does not emitt any binary code. Storing the intermediate code in a special form that allows flexibily connect modules provided. That allows later to compile project with particular instanciations of the modules, major work being done by internal Cabal Backpack support and Backpack system that modifies the intermediate code to fit the module.
+
+** <<<Nullary>>> :drill:
+:PROPERTIES:
+:ID:       009d9f43-81a1-4e7e-a5be-ad706a704497
+:END:
+
+Taking no entries; having the arity of zero.
+Having trivial domain.
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
