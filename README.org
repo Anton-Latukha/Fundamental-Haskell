@@ -6008,8 +6008,6 @@ instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
 λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
 #+end_src
 
-***** <<<TypeFamilies>>> :drill:
-SCHT: <2019-07-17 Wed>
 :PROPERTIES:
 :ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
 :DRILL_LAST_INTERVAL: 3.86
@@ -6019,23 +6017,6 @@ SCHT: <2019-07-17 Wed>
 :DRILL_AVERAGE_QUALITY: 2.5
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:12]
-:END:
-
-Allow use and definition of indexed type and data families.
-
-/*/ are type-level programming.
-/*/ are overload data types in the same way that type classes overload functions.
-/*/ allow handling of dependent types. Before it Functional dependencies and GADTs were used to solve that.
-/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
-
-Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
-
-Two types of /*/ are:
-
-****** <<<Data families>>>
-
-****** <<<Type synonym families>>>
 
 ***** <<<TypeSynonymInstances>>> :drill:
 :PROPERTIES:
