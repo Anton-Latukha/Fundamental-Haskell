@@ -659,7 +659,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#model-the-types][Model the types]]
       - [[#think-how-to-write-computations][Think how to write computations]]
     - [[#create][Create]]
-  - [[#good-about-operators----][<<<Good: About operators (<$) (*>) (<*) (>>)>>>]]
+  - [[#good-about-operators----][<<<Good: About operators (<$) (**>) (<**) (>>)>>>]]
   - [[#good-about-operators-mapm_-sequence_][<<<Good: About operators mapM_ sequence_>>>]]
   - [[#good-guideliles][<<<Good: Guideliles>>>]]
     - [[#wikihaskell][Wiki.haskell]]
