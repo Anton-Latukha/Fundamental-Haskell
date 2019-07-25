@@ -2804,7 +2804,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:08]
 :END:
 
-$$ \exists e \in S, \forall a \in S : \; P(a,e)=a $$
+$$  P(a,e)=a \; | \; \exists e \in S, \forall a \in S $$
 
 Predicate
 
