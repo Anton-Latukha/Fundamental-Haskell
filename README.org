@@ -7592,7 +7592,7 @@ There can be differnt Applicatives with different Monoid implementations.
 
 *** Create
 
-** <<<Good: About operators (<$) (*>) (<*) (>>)>>> :drill:
+** <<<Good: About operators (<$) (**>) (<**) (>>)>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
@@ -7745,7 +7745,7 @@ Version policy and dependency management.
 :END:
 Linear types are great to control/minimize resource usage.
 
-** <<<Good: Exception vs Error>>>
+** <<<Good: Exception vs Error>>> :drill:
 :PROPERTIES:
 :ID:       3d6d7f0f-252c-4cfb-b25c-18687fd762ca
 :END:
@@ -7755,6 +7755,13 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 |-----------+---------------------------------------------------------------------------------------------|
 | Exception | Prelude.catch, Control.Exception.catch, Control.Exception.try, IOError, Control.Monad.Error |
 | Error     | error, assert, Control.Exception.catch, Debug.Trace.trace                                   |
+
+** <<<Good: Let vs. Where>>> :drill:
+:PROPERTIES:
+:ID:       4ded4b6f-3593-4203-88a6-ce1b6f5fa71e
+:END:
+
+=let ... in ...= is a separate expression. In contrast, =where= is bound to a surrounding syntactic construct (namespace).
 
 * Bad code :drill:
 :PROPERTIES:
