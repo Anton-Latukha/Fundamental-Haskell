@@ -7070,7 +7070,7 @@ Has close relation to Topology.
 Abstract structure that consists of partially ordered set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
 
-*** <<<Ordering>>>
+*** <<<Order>>>
 
 **** <<<Preorder>>>
 R^{X \to X} : Reflexive & Transitive:
@@ -7083,9 +7083,10 @@ Generalization of equivalence relations partial orders.
 /*/ Symmetric \Rightarrow Equivalence.
 
 ***** <<<Total preorder>>>
+
 $$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total Preorder.
 
-**** <<<Partial ordering>>>
+**** <<<Partial order>>>
 A binary relation must be reflexive, antisymmetric and transitive.
 
 Partial - not every elempents between them need to be comparable.
@@ -7102,8 +7103,6 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 *** <<<Partial order>>>
 
 *** <<<Total order>>>
-
-*** <<<Preorder>>>
 
 ** <<<Universal algebra>>>
 Studies algebraic structures.
