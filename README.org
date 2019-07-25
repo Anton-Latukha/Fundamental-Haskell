@@ -7188,10 +7188,6 @@ Enable lexical scope for forall quantifier defined type variables
 
 Implemented in ScopedTypeVariables
 
-** <<<Type family>>>
-Defines by pattern matching the partial functions between types.
-Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
-
 ** <<<Abstract data type>>>
 Several definitions here, reduce them.
 
@@ -7303,7 +7299,10 @@ Variaties:
   * data family
   * type synonym families
 
-Flavours
+Defined by pattern matching the partial functions between types.
+Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
+
+Normal type classes define partial functions from types to a collection of named values by pattern matching on the input types, while type families define partial functions from types to types by pattern matching on the input types. In fact, in many uses of type families there is a single type class which logically contains both values and types associated with each instance. A type family declared inside a type class is called an associated type.
 
 *** /*/
 <<<Type family>>>
