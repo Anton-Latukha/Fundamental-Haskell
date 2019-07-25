@@ -6206,6 +6206,7 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
+Relationship between two objects.
 Is not directed and not limited.
 
 ** <<<REPL>>> :drill:
