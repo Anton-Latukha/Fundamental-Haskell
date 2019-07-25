@@ -1157,17 +1157,17 @@ case () of _
 #+end_src
 
 ** <<<Category theory>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-04 Sun>
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:03]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:20]
 :END:
 
 Category ($$ \mathcal{C} $$) consists of the basis:
@@ -2094,17 +2094,17 @@ SCHT: <2019-07-27 Sat>
 Category $$ \mathcal{C} $$ comonad is a monad of oposite category $$ \mathcal{C}^{op} $$.
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-04 Sun>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:01]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:23]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈T, \eta, \mu〉 $$ monad over $$ \mathcal{C} $$.
@@ -2791,17 +2791,17 @@ $$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
 Predicate
 
 ****** <<<Right identity of a predicate>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-05 Mon>
 :PROPERTIES:
 :ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:08]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:16]
 :END:
 
 $$  P(a,e)=a \; | \; \exists e \in S, \forall a \in S $$
@@ -4292,17 +4292,17 @@ Evaluates to function.
 <<<HOF>>>
 
 **** <<<Fold>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       9513b166-74df-4a9f-b7da-d03f84ca2cfc
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:07]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:07]
 :END:
 
 Higher-order function returns accumulated result from recursive data structure applying a function.
@@ -5721,17 +5721,17 @@ Any type of the kind Constraints can be used as a constraint.
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
 
 ***** <<<DeriveFunctor>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-05 Mon>
 :PROPERTIES:
 :ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:03]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:14]
 :END:
 
 Automatic deriving of instances for the Functor type class.
@@ -6277,17 +6277,17 @@ Good to solve in-point localized tasks.
 Process of abstraction.
 
 *** <<<Denotational semantics>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       a21dabc0-cc1e-4225-b9f1-86a14e2b7a13
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:00]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:27]
 :END:
 
 Construction of mathematical objects (called denotations), that describe the meanings. In Haskell often abstractions that are ment (denotations), implemented directly in the code, sometimes exist over the code - allowing to reason and implement.
