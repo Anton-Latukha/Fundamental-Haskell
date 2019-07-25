@@ -1182,10 +1182,10 @@ Properties (or axioms):
   2. All objects have identity morphisms: $$ 1_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ 1_x \equiv g_{x \to b }\ | \ \forall x \ \exists id_{x : x \to x}, \forall f_{a \to x},  \forall g_{x \to b} $$ (two-sided).
   3. Principle of compositionality.
 
-From these axioms, one can prove that there is exactly one identity morphism for every object.
+From these axioms, can be proven that there is exactly one identity morphism for every object.
 
-Object and morphism is complete abstractions of anything.
-In majority cases under object is a state and morphism is a change.
+Object and morphism is complete abstractions for anything.
+In majority of cases under object is a state and morphism is a change.
 
 *** /*/
 <<<Category>>>
