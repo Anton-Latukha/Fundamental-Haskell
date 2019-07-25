@@ -6290,12 +6290,13 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:00]
 :END:
 
-Constructing mathematical objects (called denotations), that describe the meanings. It is an abstractions that are ment, laying above the code, allow to implement and reason about the code. Sometimes /*/ can be directly represented in the implementation, but it is not strict requirement.
-
-Good to achive more broad approach/meaning.
-Also see Abstraction.
+Construction of mathematical objects (called denotations), that describe the meanings. In Haskell often abstractions that are ment (denotations), implemented directly in the code, sometimes exist over the code - allowing to reason and implement.
 
 /*/ are composable.
+
+Good to achive more broad approach/meaning.
+
+Also see Abstraction.
 
 *** <<<Axiomatic semantics>>> :drill:
 :PROPERTIES:
