@@ -7501,9 +7501,13 @@ But it is a way better then:
   h (g (f i))
 #+end_src
 
-** <<<Good: Point-free>>>
-/Use Tacit very carefully - it hides types and harder to change code where it is used./
-/Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better./
+** <<<Good: Point-free>>> :drill:
+:PROPERTIES:
+:ID:       62f8356a-69a2-46e9-ab0f-1a9b5bdfe797
+:END:
+
+Use Tacit very carefully - it hides types and harder to change code where it is used.
+Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better.
 
 *** <<<Good: Point-free is great in multi-dimentions>>> :drill:
 SCHT: <2019-07-20 Sat>
