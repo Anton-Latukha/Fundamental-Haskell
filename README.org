@@ -629,6 +629,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-138][/*/]]
   - [[#typefamilies][<<<TypeFamilies>>>]]
   - [[#error][<<<Error>>>]]
+  - [[#exception][<<<Exception>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -7328,6 +7329,15 @@ Mistake in the program that can be resolved only by fixing the program.
 =error= is a sugar for =undefined=.
 
 Distinct from Exception.
+
+** <<<Exception>>>
+:PROPERTIES:
+:ID:       06ad9cca-a768-498c-906a-dab3ff922217
+:END:
+
+Expected but irregular situation.
+
+Distinct from Error. Also see <<<Exception vs Error>>>
 
 * Citations
 
