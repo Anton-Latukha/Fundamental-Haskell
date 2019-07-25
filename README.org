@@ -688,6 +688,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
     - [[#-139][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
+  - [[#good-exception-vs-error][<<<Good: Exception vs Error>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -7743,6 +7744,17 @@ Version policy and dependency management.
 :ID:       820c915d-e3fe-4ff5-acb3-9ef205f70639
 :END:
 Linear types are great to control/minimize resource usage.
+
+** <<<Good: Exception vs Error>>>
+:PROPERTIES:
+:ID:       3d6d7f0f-252c-4cfb-b25c-18687fd762ca
+:END:
+
+Many languages and Haskell have it all mixup. Here is table showing what belongs to one or other in standard libraries:
+
+|-----------+---------------------------------------------------------------------------------------------|
+| Exception | Prelude.catch, Control.Exception.catch, Control.Exception.try, IOError, Control.Monad.Error |
+| Error     | error, assert, Control.Exception.catch, Debug.Trace.trace                                   |
 
 * Bad code :drill:
 :PROPERTIES:
