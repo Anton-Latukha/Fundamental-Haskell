@@ -689,6 +689,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-139][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
   - [[#good-exception-vs-error][<<<Good: Exception vs Error>>>]]
+  - [[#good-let-vs-where][<<<Good: Let vs. Where>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -891,17 +892,17 @@ Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 ** Ancient Greek and Latin prefixes :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:01]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:01]
 :END:
 
 | Meaning                 | Greek prefix      | Latin prefix         |
@@ -992,17 +993,17 @@ Independed variable of a function. Topic that the fuction would deal with.
 Is an input value to a function parameter.
 
 ** <<<As-pattern>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:01]
 :END:
 
 #+begin_src haskell
@@ -1349,21 +1350,21 @@ Lift does a function application through the data structure.
 <<<Lifting>>>
 
 ***** <<<Power set functor is a free monad>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       85146d1c-7cb7-4c9b-a998-791b33f1a518
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:02]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:52]
 :END:
 
 Since:
-  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e in S : \exists (e \to \{e\}) \equiv unit $$
+  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e \in S : \exists (e \to \{e\}) \equiv unit $$
   * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
 
 **** <<<Forgetful functor>>> :drill:
@@ -1470,17 +1471,17 @@ pure id <*> v = v
 #+end_src
 
 ****** <<<Applicative composition law>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       74ed933d-bb1e-4169-919a-b3c491973011
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 Function composition works regularly.
@@ -1489,17 +1490,17 @@ pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
 
 ****** <<<Applicative homomorphism law>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:05]
 :END:
 
 Applying the function doesn't change the structure around values.
@@ -1508,17 +1509,17 @@ pure f <*> pure x = pure (f x)
 #+end_src
 
 ****** <<<Applicative interchange law>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 2.667
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:02]
 :END:
 
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
@@ -1587,17 +1588,17 @@ liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 
 liftA2 (<*>) 3-layer version.
 
 ******* <<<liftA3>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       8371488b-da13-401b-9648-c286f2af0c99
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:01]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:56]
 :END:
 
 liftA2 3-parameter version.
@@ -1704,17 +1705,17 @@ For this Applicative there is no corresponding Bind or Monad instance. Validatio
 Because monad needs to process the result of computation - it needs to be able to process Left error statements, which is hard. Either monad on Left case just drops computation and returns this first Left. 
 
 ***** <<<Monad>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       b1faf835-213f-4336-86a9-8e331dd60986
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:51]
 :END:
 
 μόνος /monos/ sole
@@ -1760,17 +1761,17 @@ ap == (<*>) -- + Monad requirement
 <<<Monadic>>>
 
 ****** <<<Monad laws>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.75
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 pure (return) should only put argument into structure.
@@ -1847,25 +1848,25 @@ class Applicative m => Monad m where
 #+end_src
 
 ******* <<<MonadPlus type class>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-02 Fri>
 :PROPERTIES:
 :ID:       379a53d8-b1a9-4e0d-a1c6-fe201b9e9fd4
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:58]
 :END:
-
-Also a subclass of a Alternative.
 
 Is a monoid over monad, with additional rules.
 The precise set of rules (properties) not agreed upon. Class instances obey /monoid/ & /left zero/ rules, some additionally obey /left catch/ and others /left distribution/.
 
 Overall there /*/ currently reforms (MonadPlus reform proposal) in several smaller nad strictly defined type classes.
+
+Subclass of an Alternative.
 
 ******** /*/
 <<<Monadplus>>>
@@ -1888,17 +1889,17 @@ Overall there /*/ currently reforms (MonadPlus reform proposal) in several small
 :END:
 
 ******* <<<Return function>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       bb5891cb-a918-476b-a27a-4d342bdc30a2
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:55]
 :END:
 
 #+begin_src haskell
@@ -1980,17 +1981,17 @@ main = recursePrintOneOf (quant) $ printOneOf
 ********* =<<
 
 ******* <<<Sequencing operator>>> (>>) == (*>): :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       f8d9b6e3-b18c-4996-a86d-08107f8eec1f
-:DRILL_LAST_INTERVAL: 4.14
+:DRILL_LAST_INTERVAL: 4.0
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:08]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 Discards any resulting value of the action and sequence next action.
@@ -2079,17 +2080,17 @@ liftM2 :: Monad m => (a -> b -> c) -> m a -> m a -> m c
 Lifts binary function into monadic equivalent.
 
 ****** <<<Comonad>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       f0f0fdd4-f056-4d4d-85ad-f449103b1d8c
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.25
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 Category $$ \mathcal{C} $$ comonad is a monad of oposite category $$ \mathcal{C}^{op} $$.
@@ -2604,17 +2605,17 @@ mconcat = foldr (mempty <>)
 Everything associative can be =mappend=.
 
 ****** <<<Commutative monoid>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:07]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:03]
 :END:
 
 Commutative law:
@@ -2895,17 +2896,17 @@ Categories are isomorphic if there $$ R ∘ L = ID
 <<<Isomorphic>>>
 
 **** <<<Endomorphism>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       2fd058e4-4b8a-451e-9760-0275b2741331
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:09]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:03]
 :END:
 
 ενδο /endo/ internal
@@ -2915,17 +2916,17 @@ Morphism whose domain equals the codomain.
 Epimorphism is a Monoid, because of category composition.
 
 ***** <<<Automorphism>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:08]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:05]
 :END:
 
 \alpha\upsilon\tau\omicron /auto/ self
@@ -3626,20 +3627,20 @@ Type classes such as Eq, Enum, Ord, Show can have instances generated based on d
 <<<Deriving>>>
 
 *** <<<Type constant>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       06ae5a19-fd5f-485c-b7da-c3027c76d523
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.25
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
-Nullary type constructor is type constant.
+/*/ - Nullary type constructor.
 
 *** <<<Type constructor>>> :drill:
 :PROPERTIES:
@@ -3650,17 +3651,17 @@ Name of data type.
 
 
 *** <<<type declaration>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       9ab3591b-b3b1-464c-856b-0e3ed4834b33
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:04]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:55]
 :END:
 
 Synonim for existing type. Uses the same data constructor.
@@ -4022,17 +4023,17 @@ Finite combination of a symbols that is well-formed according to rules that depe
 <<<Expressions>>>
 
 *** <<<Closed-form expression>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
@@ -4306,7 +4307,7 @@ SCHT: <2019-07-20 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:07]
 :END:
 
-Higher-order function ruturns accumulated result from recursive data structure applying a function.
+Higher-order function returns accumulated result from recursive data structure applying a function.
 
 *** <<<Injection>>> :drill:
 :PROPERTIES:
@@ -4355,17 +4356,17 @@ One that does not cover all domain.
 Unsafe and causes trouble.
 
 *** <<<Purity>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       5c84fbd6-2c97-464f-9431-965dd8c91aef
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:07]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
 :END:
 
 Referentially transparent function.
@@ -4439,17 +4440,17 @@ SCHT: <2019-07-21 Sun>
 Function that does not cover some edge case.
 
 *** <<<Variadic>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-02 Fri>
 :PROPERTIES:
 :ID:       b6592f9f-3718-4f2f-9423-06b590e6b84d
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:02]
 :END:
 
 Variadic function has a indefinite arity. Assepts a variable number of arguments.
@@ -4478,17 +4479,17 @@ SCHT: <2019-07-28 Sun>
 Codomain - target set of a function in $X \to Y$.
 
 *** <<<Open formula>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-01 Thu>
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
 :END:
 
 Function with arity.
@@ -4544,17 +4545,17 @@ Any non-constant single-variable polynomial with complex coefficients has at lea
 Also derives that the field of complex numbers is algebraically closed.
 
 ** <<<Guerrilla patch>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:01]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
 :END:
 
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
@@ -4611,17 +4612,17 @@ Meaning can be special for language speakers or human with particular knowledge.
 <<<Idiomatic>>>
 
 ** <<<Iff>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:09]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:57]
 :END:
 
 If and only if, exectly when, just.
@@ -4906,17 +4907,17 @@ No \beta-reduction and no \eta-reduction are possible in expression.
 <<<beta eta normal form>>>
 
 *** <<<\eta-abstraction>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-02 Fri>
 :PROPERTIES:
 :ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:06]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:54]
 :END:
 
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
@@ -5121,17 +5122,17 @@ $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 <<<Binary operations>>>
 
 ** <<<Operator>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:07]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:00]
 :END:
 
 Function that denoted by symbol.
@@ -5402,17 +5403,17 @@ Abstracting over data types by parameter.
 Types:
 
 **** <<<Rank-1 polymorphism>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-07-27 Sat>
 :PROPERTIES:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.25
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:10]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
 Parametric polymorphism in rank-1 types by type variables.
@@ -6310,17 +6311,17 @@ Good for examining interconnections.
 Empirical process.
 
 ** <<<Set>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-09-11 Wed>
 :PROPERTIES:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
-:DRILL_LAST_INTERVAL: 20.1976
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.4944
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:46]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 18:47]
 :END:
 
 Well-defined collection of distinct objects.
@@ -6763,17 +6764,17 @@ Value that is yet to be evaluated. Can be dragged around, until be lazily evalua
 Replace number of functions with tuple of number of values
 
 ** <<<Undefined>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-09-03 Tue>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
-:DRILL_LAST_INTERVAL: 19.512
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 41.7947
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:43]
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:54]
 :END:
 
 Placeholder value that helps to do typechecking.
@@ -7510,17 +7511,17 @@ Use Tacit very carefully - it hides types and harder to change code where it is 
 Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better.
 
 *** <<<Good: Point-free is great in multi-dimentions>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:01]
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:03]
 :END:
 
 BigData and OLAP analysis.
