@@ -628,6 +628,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#indexed-type-family][<<<Indexed type family>>>]]
     - [[#-138][/*/]]
   - [[#typefamilies][<<<TypeFamilies>>>]]
+  - [[#error][<<<Error>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -7315,6 +7316,18 @@ Allow use and definition of indexed type families and data families.
 Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
 
 Two types of /*/ are:
+
+
+** <<<Error>>>
+:PROPERTIES:
+:ID:       0f11555b-90c5-4374-8bb9-6e195cd2df39
+:END:
+
+Mistake in the program that can be resolved only by fixing the program.
+
+=error= is a sugar for =undefined=.
+
+Distinct from Exception.
 
 * Citations
 
