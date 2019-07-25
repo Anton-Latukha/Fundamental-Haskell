@@ -7282,8 +7282,18 @@ Polynomials forms a ring. Polynomial ring.
 <<<Polynomials>>>
 
 ** <<<Data family>>>
+:PROPERTIES:
+:ID:       a1a5a51c-bd64-41dd-8162-2bf25b9dccc4
+:END:
+
+Indexed form of data and newtype definitions.
 
 ** <<<Type synonym family>>>
+:PROPERTIES:
+:ID:       db5fa6be-f1fc-4baa-b31b-0b7520fe2b2a
+:END:
+
+Indexed form of type synonyms.
 
 ** <<<Indexed type family>>>
 :PROPERTIES:
@@ -7291,6 +7301,12 @@ Polynomials forms a ring. Polynomial ring.
 :END:
 
 /*/ additional stucture in language that allows ad-hoc overloading of data types. AKA are to types as type class to methods.
+
+Variaties:
+  * data family
+  * type synonym families
+
+Flavours
 
 *** /*/
 <<<Type family>>>
