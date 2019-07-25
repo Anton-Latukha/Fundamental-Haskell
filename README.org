@@ -5735,8 +5735,7 @@ SCHT: <2019-07-20 Sat>
 :END:
 
 Automatic deriving of instances for the Functor type class.
-Since there is only one possible functor for any type - it is possible to check that it is derived right.
-Allows does not care about writing Functor instances.
+For type power set functor is unique, its derivation inplementation can be autochecked.
 
 ***** <<<ExplicitForAll>>> :drill:
 SCHT: <2019-07-23 Tue>
