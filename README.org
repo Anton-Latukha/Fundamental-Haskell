@@ -709,7 +709,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 - [[#tools][Tools]]
   - [[#ghc-pkg][ghc-pkg]]
   - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
-  - [[#making-ultimate-setup-work-integration-of-nixos-or-nix-with-haskell-ide-engine-hie-inside-emacs-spacemacs][Making ultimate setup work: Integration of NixOS or Nix with Haskell IDE Engine (HIE) inside Emacs (Spacemacs)]]
+  - [[#integration-of-nixosnix-with-haskell-ide-engine-hie-and-emacs-spacemacs][Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)]]
     - [[#1-install-the-cachix-httpsgithubcomcachixcachix][1. Install the Cachix: https://github.com/cachix/cachix]]
     - [[#2-install-hie-on-nixos-httpsgithubcominfinisilall-hiescached-builds][2. Install HIE on NixOS: https://github.com/infinisil/all-hies/#cached-builds]]
       - [[#21-cached-builds][2.1. Cached builds]]
@@ -717,7 +717,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#23-switch-to-new-configuration][2.3. Switch to new configuration:]]
     - [[#3-emacs-spacemacs-configuration][3. Emacs (Spacemacs) configuration:]]
     - [[#4-open-the-haskell-file-from-a-project][4. Open the Haskell file from a project]]
-    - [[#5-be-pleased][5. Be pleased.]]
+    - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
     - [[#6-debugging][6. Debugging]]
 - [[#libs][Libs]]
   - [[#exceptions][Exceptions]]
@@ -7904,6 +7904,21 @@ ghc-pkg list
 
 ** Search over the Haskell packages code: Codesearch from Aelve
 https://codesearch.aelve.com/
+
+** Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)
+:PROPERTIES:
+:ID:       cd7eefc7-9fed-4ea0-8273-17ef478265f2
+:END:
+
+*** 1. Install the Cachix: https://github.com/cachix/cachix
+
+*** 2. Install HIE on NixOS: https://github.com/infinisil/all-hies/#cached-builds
+
+**** 2.1. Cached builds
+
+#+begin_src fish
+cachix use all-hies
+#+end_src
 
 * Libs :drill:
 :PROPERTIES:
