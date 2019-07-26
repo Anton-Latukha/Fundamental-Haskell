@@ -3340,7 +3340,7 @@ Conjunction, product - multiplies cardinalities.
 :ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
 :END:
 
-Nullary data constructor, constant value - nullary data constructor, or data constant.
+/*/ - constant value; nullary data constructor.
 
 *** <<<Data constructor>>> :drill:
 :PROPERTIES:
