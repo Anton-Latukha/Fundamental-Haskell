@@ -7996,6 +7996,23 @@ Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blo
 
 Refresh Emasc.
 
+*** 4. Open the Haskell file from a project
+
+Observe in system monitor the proces of package loading & compilation.
+
+*** 5. Be pleased writing code
+*** 6. Debugging
+
+1. If recieving sort-of:
+
+#+begin_src text
+readCreateProcess : cabal-helper-wrapper failure
+#+end_src
+
+HIE tries to run =cabal= operations like on the non-Nix system. So it is a problem with detection of =nix-shell= environment, running inside it.
+
+2. If HIE keeps getting ready, failing & restarting - check that the projects =ghc --version= is declared in your =all-hie= NixOS configuration.
+
 * Libs :drill:
 :PROPERTIES:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
