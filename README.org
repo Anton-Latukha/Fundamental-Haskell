@@ -3017,7 +3017,7 @@ Mathematical structure. Morphisms preserve structure.
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
 :END:
 
-Terminal object - is an object I in category C: $$ \exists I \in C : \; \forall X \in C, \, \exists ! (X \to I) $$.
+Terminal object - is an object i: $$ \exists ! (x \to i) \ | \ \exists i \in \mathcal{C} , \; \forall x \in \mathcal{C} $$.
 
 **** <<<Initial object>>> :drill:
 SCHT: <2019-08-01 Thu>
