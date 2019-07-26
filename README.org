@@ -741,17 +741,17 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 :END:
 
 ** <<<Abstraction>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-08-03 Sat>
 :PROPERTIES:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.25
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:15]
 :END:
 
 abs away from, off (in absentia)
@@ -771,17 +771,17 @@ It is great did to name an abstraction (Denotational semantics).
 <<<Abstract>>>
 
 ** <<<Algebra>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-09-16 Mon>
 :PROPERTIES:
 :ID:       ef37e5f5-d52b-49eb-837e-1195558b6e79
-:DRILL_LAST_INTERVAL: 21.4987
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 52.5213
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:15]
 :END:
 
 al-jabr - assemble parts.
@@ -1261,17 +1261,17 @@ fmap (f . g) = fmap f . fmap g
 <<<Functors>>>
 
 **** <<<Power set functor>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-08-17 Sat>
 :PROPERTIES:
 :ID:       1169dfd1-4e31-4789-a777-288fc9208094
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.1978
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:24]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:14]
 :END:
 
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
@@ -3524,17 +3524,17 @@ Tuples by arity:
   * <<<thriple>>>, three-tuple - 3
 
 *** <<<Type alias>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-09-11 Wed>
 :PROPERTIES:
 :ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
-:DRILL_LAST_INTERVAL: 20.1976
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.4944
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:20]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:58]
 :END:
 
 Create new type constructor, and use all data structure of the base type.
@@ -4093,7 +4093,7 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:59]
 :END:
 
-Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantified variables over non-logical objects and allows the use of sentences that contain variables.
+Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantifier, variables over non-logical objects and allows the use of sentences that contain variables.
 
 *** /*/
 <<<Predicate logic>>>
@@ -4817,17 +4817,17 @@ Applying argument to parameter of a function.
 <<<Beta reduction>>>
 
 **** <<<\beta-normal form>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-08-18 Sun>
 :PROPERTIES:
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.0088
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:42]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:14]
 :END:
 
 No beta reduction is possible.
@@ -5303,17 +5303,17 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 <<<Tacit programming>>>
 
 *** <<<Blackbird>>> :drill:
-SCHT: <2019-07-20 Sat>
+SCHT: <2019-09-11 Wed>
 :PROPERTIES:
 :ID:       76123e3b-3042-4112-beaf-7f281c13e58a
-:DRILL_LAST_INTERVAL: 20.1976
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 48.4944
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:57]
 :END:
 
 #+begin_src haskell
@@ -6156,6 +6156,8 @@ $$ \exists ! $$ - one and only one (exists only unique).
 
 *** /*/
 <<<Quantification>>>
+<<<Quantifiers>>>
+<<<Quantified>>>
 
 *** <<<Forall quantifier>>> :drill:
 :PROPERTIES:
@@ -6193,17 +6195,17 @@ So:
 <<<Referentially transparent>>>
 
 ** <<<Relation>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-08-13 Tue>
 :PROPERTIES:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 18.8265
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 2.75
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:16]
 :END:
 
 Relationship between two objects.
@@ -7616,17 +7618,17 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 
 ** <<<Good: About operators (<$) (**>) (<**) (>>)>>> :drill:
-SCHT: <2019-07-21 Sun>
+SCHT: <2019-08-15 Thu>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
-:DRILL_LAST_INTERVAL: 8.9861
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 20.6501
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:43]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:02]
 :END:
 
 Where character is not present - discards the according value.
