@@ -720,6 +720,10 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#5-be-pleased][5. Be pleased.]]
     - [[#6-debugging][6. Debugging]]
 - [[#libs][Libs]]
+  - [[#exceptions][Exceptions]]
+    - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
+    - [[#safe-exceptions---safe-simple-api-equivalent-to-the-underlying-implementation-in-terms-of-power-encourages-best-practices-minimizing-the-chances-of-getting-the-exception-handling-wrong][Safe-exceptions - safe, simple API equivalent to the underlying implementation in terms of power, encourages best practices minimizing the chances of getting the exception handling wrong.]]
+    - [[#enclosed-exceptions---capture-exceptions-from-the-enclosed-computation-while-reacting-to-asynchronous-exceptions-aimed-at-the-calling-thread][Enclosed-exceptions - capture exceptions from the enclosed computation, while reacting to asynchronous exceptions aimed at the calling thread.]]
   - [[#parsers---megaparsec][Parsers - megaparsec]]
   - [[#clis---optparse-applicative][CLIs - optparse-applicative]]
   - [[#html---lucid][HTML - Lucid]]
@@ -7905,6 +7909,12 @@ https://codesearch.aelve.com/
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
 :END:
 
+** Exceptions
+
+*** Exceptions - optionally pure extensible exceptions that are compatible with the mtl
+*** Safe-exceptions - safe, simple API equivalent to the underlying implementation in terms of power, encourages best practices minimizing the chances of getting the exception handling wrong. 
+*** Enclosed-exceptions - capture exceptions from the enclosed computation, while reacting to asynchronous exceptions aimed at the calling thread.
+
 ** Parsers - megaparsec
 
 ** CLIs - optparse-applicative
@@ -7956,4 +7966,3 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
     1.2 constructors+variables+repetitions < head
     1.3 \not type functions (type func application can expand to arbitrary size)
  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
-* Misc
