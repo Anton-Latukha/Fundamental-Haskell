@@ -2971,7 +2971,7 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 13:08]
 :END:
 
-Kernel of a Homomorphism is a number that measures the degree homomorphism fails to meet injectivity (AKA be Monomorphic).
+Kernel of a homomorphism is a number that measures the degree homomorphism fails to meet injectivity (AKA be monomorphic).
 It is a number of domain elements that fail injectivity:
   * elements not included into morphism
   * elements that collapse into one element in codomain
@@ -3033,7 +3033,7 @@ SCHT: <2019-08-01 Thu>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:55]
 :END:
 
-Initial object - is an object i: $$ \exists ! (i \to X) \ | \ \exists i \in \mathcal{C}, \ \forall x \in \mathcal{C} $$.
+Initial object - is an object i: $$ \exists ! (i \to x) \ | \ \exists i \in \mathcal{C}, \ \forall x \in \mathcal{C} $$.
 
 *** <<<SET category>>> :drill:
 SCHT: <2019-07-24 Wed>
@@ -3087,7 +3087,7 @@ Also see: Natural transformation in Haskell
 :ID:       d71f0216-0581-481b-a941-7974ec27ee2c
 :END:
 
-$$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \  x \in \mathcal{C} $$
+$$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D}}(x) \ | \  x \in \mathcal{C} $$
 
 ***** /*/
 <<<Component of natural transformation>>>
@@ -3103,7 +3103,7 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | 
 :ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
 :END:
 
-Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal {C} $$.
+Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>>
 
@@ -3118,7 +3118,7 @@ Any statement in the terms of $$ \mathcal{C} $$ the logical inverse is true in $
 Properties:
   * Opposite preserves products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
 
-  * Opposite preserves functors: $$ (\mathrm{Funct}(\mathcal{C},\mathcal{D}))^{op} \cong \mathrm{Funct}(\mathcal{C}^{op}, \mathcal{D}^{op}) $$
+  * Opposite preserves functors: $$ (F^{\mathcal{C} \to \mathcal{D}})^{op} \cong F^{\mathcal{C}^{op} \to \mathcal{D}^{op}} $$
 
   * Opposite preserves slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
 
@@ -3143,7 +3143,7 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
 :END:
 
-$$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X is closed under f $$
+$$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X \ is \ closed \ under \ f $$
 
 Operation on members of the domain always produces a members of the domain - the set is closed under the operation.
 
