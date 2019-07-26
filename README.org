@@ -1403,7 +1403,9 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
 :END:
 
-Is a functor which domain and codomain are the same category.
+Is a functor which source (domain) and target (codomain) are the same category.
+
+$$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
 
 ***** /*/
 <<<Endofunctors>>>
