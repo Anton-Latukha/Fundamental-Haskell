@@ -8007,6 +8007,10 @@ Refresh Emasc.
 *** Safe-exceptions - safe, simple API equivalent to the underlying implementation in terms of power, encourages best practices minimizing the chances of getting the exception handling wrong. 
 *** Enclosed-exceptions - capture exceptions from the enclosed computation, while reacting to asynchronous exceptions aimed at the calling thread.
 
+** Memory management
+
+*** membrain - type-safe memory units
+
 ** Parsers - megaparsec
 
 ** CLIs - optparse-applicative
