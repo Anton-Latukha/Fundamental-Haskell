@@ -217,7 +217,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-44][/*/]]
       - [[#natural-transformation-component][<<<Natural transformation component>>>]]
         - [[#-45][/*/]]
-      - [[#natural-transformation-in-haskell][Natural transformation in Haskell]]
+      - [[#natural-transformation-in-haskell][<<<Natural transformation in Haskell>>>]]
     - [[#hom-set][<<<Hom set>>>]]
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-46][/*/]]
@@ -3077,11 +3077,10 @@ In words, /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphi
   * for every object in $$ \mathcal{C} $$ picks natural transformation component in $$ \mathcal{D} $$.
   * for every morphism in $$ \mathcal{C} $$ picks the commuting diagram in $$ \mathcal{D} $$, called <<<naturality square>>>. 
 
-/*/ in Hask is $$ F \ a \to G \ a $$ - repackages data into another container, never modifies the object content, it only if - can delete it. If other - that can not be called a /*/.
+Also see: Natural transformation in Haskell
 
 **** /*/
 <<<Natural transformations>>>
-<<<Component of natural transformation>>>
 
 **** <<<Natural transformation component>>> :drill:
 :PROPERTIES:
@@ -3091,9 +3090,13 @@ In words, /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphi
 $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{D}(x) \ | \  x \in \mathcal{C} $$
 
 ***** /*/
+<<<Component of natural transformation>>>
 
-**** Natural transformation in Haskell
-/*/ is a family of morphisms parametrized by type (polymorphic polymorphism functions) between endofunctors (Functor, Applicative, Monad).
+**** <<<Natural transformation in Haskell>>>
+
+/*/ is a family of morphisms parametrized by type (parametric polymorphism functions) between endofunctors (Functor, Applicative, Monad).
+
+/*/ in Hask is $$ F \ a \to G \ a $$ - repackages data into another container, never modifies the object content, it only if - can delete it. If other - that can not be called a /*/.
 
 *** <<<Hom set>>>
 :PROPERTIES:
