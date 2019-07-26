@@ -165,7 +165,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#hask-category][<<<Hask category>>>]]
       - [[#-27][/*/]]
     - [[#magma][<<<Magma>>>]]
-      - [[#mag-category][<<<MAG category>>>]]
+      - [[#mag-category][<<<Mag category>>>]]
         - [[#-28][/*/]]
       - [[#semigroup][<<<Semigroup>>>]]
         - [[#-29][/*/]]
@@ -212,7 +212,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-43][/*/]]
       - [[#terminal-object][<<<Terminal object>>>]]
       - [[#initial-object][<<<Initial object>>>]]
-    - [[#set-category][<<<SET category>>>]]
+    - [[#set-category][<<<Set category>>>]]
     - [[#natural-transformation][<<<Natural transformation>>>]]
       - [[#-44][/*/]]
       - [[#natural-transformation-component][<<<Natural transformation component>>>]]
@@ -1735,7 +1735,7 @@ Where:
   * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
   * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
 
-Definition with $$ \{E^{\mathcal{C \to C}}, \, \overrightarrow{\eta}, \, \overrightarrow{\mu}\} $$ (in Hask: ($$ \{f \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
+Definition with $$ \{E^{\mathcal{C \to C}}, \, \overrightarrow{\eta}, \, \overrightarrow{\mu}\} $$ (in Hask: ($$ \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
 
 If there is a structure $$ S $$, and a way of taking object $$ x $$ into $$ S $$ and a way of collapsing $$ S \circ S $$ - there probably a monad.
 
@@ -2481,7 +2481,7 @@ Haskell and Category concepts:
 
 Set with a binary operation which form a closure.
 
-**** <<<MAG category>>>
+**** <<<Mag category>>>
 The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 
 ***** /*/
@@ -3037,7 +3037,7 @@ SCHT: <2019-08-01 Thu>
 
 Initial object - is an object i: $$ \exists ! (i \to x) \ | \ \exists i \in \mathcal{C}, \ \forall x \in \mathcal{C} $$.
 
-*** <<<SET category>>> :drill:
+*** <<<Set category>>> :drill:
 SCHT: <2019-07-24 Wed>
 :PROPERTIES:
 :ID:       c6c7f178-7b69-4154-83ed-34de9b102193
@@ -3145,9 +3145,13 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
 :END:
 
-$$ D \in X, \forall x \in D : f(x) = f^{D \to X} , X \ is \ closed \ under \ f $$
+$$ f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} $$, $$ \mathcal{X} $$ is closed under $$ f $$, it is a trivial case when operation is legitimate for all values of the domain.
 
-Operation on members of the domain always produces a members of the domain - the set is closed under the operation.
+Operation on members of the domain always produces a members of the domain. The domain is closed under the operation.
+
+In the case when there is a domain values for which operation is not legitimate/not exists:
+
+$$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} $$, $$ \mathcal{X} $$ is closed under $$ f $$.
 
 *** /*/
 <<<Closed>>>
