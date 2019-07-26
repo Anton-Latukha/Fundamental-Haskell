@@ -1723,21 +1723,21 @@ SCHT: <2019-08-01 Thu>
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - monoid in endofunctor category with unit and join natural transformations.
+/*/ - monoid in endofunctor category with $$ \overrightarrow{\eta} $$ (unit) and $$ \overrightarrow{\mu} $$ (join) natural transformations.
 
 If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
   * an endofunctor $$ E^{\mathcal{C \to C}} $$
   * two natural transformations:
-    * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
-    * $$ \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
+    * $$ \overrightarrow{\eta}^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
+    * $$ \overrightarrow{\mu}^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
 
 Where:
   * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
   * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
 
-Definition with $$ \{F^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ ($$ \{fmap, \, pure, \, join\} $$) is classic categorical, in Haskell minimal complete definition is $$ \{pure, (>>=)\} $$.
+Definition with $$ \{E^{\mathcal{C \to C}}, \, \overrightarrow{\eta}, \, \overrightarrow{\mu}\} $$ (in Hask: ($$ \{f \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
 
-If there is a structure $$ S $$, and a way of taking object x into S and a way of collapsing $$ S \circ S $$ - there probably a monad.
+If there is a structure $$ S $$, and a way of taking object $$ x $$ into $$ S $$ and a way of collapsing $$ S \circ S $$ - there probably a monad.
 
 Mostly monads used for sequencing actions (computations) (that looks like imperative programming), with ability to dependend on previous chains. Note if monad is commutative - it does not order actions.
 
@@ -1752,11 +1752,11 @@ return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
-| Mathematics                | Math definition                  | Haskell                               | Math meaning |
-|----------------------------+----------------------------------+---------------------------------------+---------|
-| $$ P(f): P(A) \to P(B) $$    | $$ (P(f))(S) = {f(a) : a \in S} $$ | <$> ∷ Functor f ⇒ (a → b) → f a → f b | power set functor |
-| $$ \eta : S \to P(S) $$      | $$ \eta s(x) = {x} $$               | pure ∷ Applicative f ⇒ a → f a        | unit (natural transformation $$ \mathcal{ID \to P} $$) |
-| $$ \mu : P(P(S)) \to P(S) $$ | $$ \mu s(L) = \cup L $$               | join ∷ Monad f ⇒ f (f a) → f a        |  join (natural transformation $$ \mathcal{P \circ P \to P} $$ |
+| Mathematics                                  | Haskell                                   | Math meaning                                                     |
+|----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
+| $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | power set functor (thou in CAT it can be any suiting endofunctor) |
+| $$ \overrightarrow{\eta}_{ID \to E} $$       | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to P $$)        |
+| $$ \overrightarrow{\mu}_{E \circ E \to E} $$ | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ P \circ P \to P $$) |
 
 ****** /*/
 <<<Monads>>>
@@ -2111,12 +2111,12 @@ SCHT: <2019-08-04 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:23]
 :END:
 
-Category $$ \mathcal{C} $$, $$ 〈T, \eta, \mu〉 $$ monad over $$ \mathcal{C} $$.
+Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
 
 Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
 
 $$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
-$$ \mathrm{Hom}_{\mathcal{C}_{T}}(X,Y) \ = \ \mathrm{Hom}_{\mathcal{C}}(X,TY) $$
+$$ \mathrm{Hom}_{\mathcal{C}_{T}}(x,y) \ = \ \mathrm{Hom}_{\mathcal{C}}(x,E(y)) $$
 
 ****** <<<Special monad>>>
 :PROPERTIES:
