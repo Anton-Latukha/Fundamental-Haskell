@@ -5,7 +5,7 @@
 
 Important notes on Haskel, category & related fields.
 
-GitHub&GitLab parse ORG into HTML only partially. Good quality HTML export is in the `README.html`.
+GitHub&GitLab parse ORG into HTML only partially. Good quality HTML export is in the `README.html`, it is hosted at https://blog.latukha.com/haskell.notes.html.
 
 This is complex ORG notes file with LaTeX formulas.
 To get:
