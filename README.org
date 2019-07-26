@@ -6675,10 +6675,10 @@ Equivalence
 #+end_src
 
 **** <<<QuickCheck>>>
-`SomethingSomething` is a member of the Arbitrary type class.
-`SomethingSomething -> Bool` is something `Testable`.
-Generator `arbitrary`, gets the seed, and generates.
-`quickCheck` runs the loop and tests.
+=Target= is a member of the Arbitrary type class.
+=Target -> Bool= is something =Testable=. This properties can be complex.
+Generator =arbitrary= gets the seed, and produces values of =Target=.
+Function =quickCheck= runs the loop and tests that generated =Target= values always comply the property.
 
 ***** Manual automation with QuickCheck properties
 #+begin_src haskell
