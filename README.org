@@ -7940,6 +7940,62 @@ in {
 
 Insert your GHC versions.
 
+**** 2.3. Switch to new configuration:
+
+#+begin_src fish
+sudo -i nixos-rebuild switch
+#+end_src
+
+*** 3. Emacs (Spacemacs) configuration:
+
+#+begin_src elisp
+
+  dotspacemacs-configuration-layers
+  '(
+
+    auto-completion
+
+    (lsp :variables
+         default-nix-wrapper (lambda (args)
+                               (append
+                                (append (list "nix-shell" "-I" "." "--command" )
+                                        (list (mapconcat 'identity args " "))
+                                        )
+                                (list (nix-current-sandbox))
+                                )
+                               )
+
+         lsp-haskell-process-wrapper-function default-nix-wrapper
+         )
+
+    (haskell :variables
+             haskell-enable-hindent t
+             haskell-completion-backend 'lsp
+             haskell-process-type 'cabal-new-repl
+             )
+
+  )
+
+
+   dotspacemacs-additional-packages '(
+                                      direnv
+                                      nix-sandbox
+                                      )
+
+#+end_src
+
+Where:
+
+=auto-complettion= configures =YASnippet=.
+
+=nix-sandbox= (https://github.com/travisbhartwell/nix-emacs) has a great helper functions. Using =nix-current-sandbox= function in =default-nix-wrapper= that used to properly configure =lsp-haskell-process-wrapper-function=.
+
+Inside =nix-shell= the =haskell-process-type 'cabal-new-repl= is required.
+
+Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs
+
+Refresh Emasc.
+
 * Libs :drill:
 :PROPERTIES:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
