@@ -7920,6 +7920,26 @@ https://codesearch.aelve.com/
 cachix use all-hies
 #+end_src
 
+**** 2.2. NixOS installation:
+
+#+begin_src nix
+{ config, pkgs, ... }:
+
+let
+
+  all-hies = import (fetchTarball "https://github.com/infinisil/all-hies/tarball/master") {};
+
+in {
+  environment.systemPackages = with pkgs; [
+
+    (all-hies.selection { selector = p: { inherit (p) ghc865 ghc864; }; })
+
+  ];
+}
+#+end_src
+
+Insert your GHC versions.
+
 * Libs :drill:
 :PROPERTIES:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
