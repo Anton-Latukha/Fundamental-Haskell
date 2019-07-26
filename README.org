@@ -65,6 +65,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#application][<<<Application>>>]]
   - [[#application-memory][<<<Application memory>>>]]
   - [[#argument][<<<Argument>>>]]
+    - [[#argument-of-a-function][<<<Argument of a function>>>]]
+      - [[#-4][/*/]]
   - [[#as-pattern][<<<As-pattern>>>]]
   - [[#assertion][<<<Assertion>>>]]
     - [[#-4][/*/]]
@@ -993,8 +995,19 @@ When stacked Stack frames exceed the Stack size - stack overflow happens.
 /arguere/ to make clear, to shine
 argument evidence, proof
 
-Independed variable of a function. Topic that the fuction would deal with.
-Is an input value to a function parameter.
+A statement that results in system consequences.
+
+*** <<<Argument of a function>>> :drill:
+:PROPERTIES:
+:ID:       42c01d98-580d-45c6-b602-119eb92b6b42
+:END:
+
+A value binded to the function parameter. Value/topic that the fuction would process/deal with.
+
+Also see <<<Argument>>>.
+
+**** /*/
+<<<Function argument>>>
 
 ** <<<As-pattern>>> :drill:
 SCHT: <2019-08-01 Thu>
