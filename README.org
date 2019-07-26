@@ -47,7 +47,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
 
 =SCHT:= and metadata in =:PROPERTIES:= - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
 
-* Contents :TOC:
+* Contents :TOC:noexport:
 - [[#introduction][Introduction]]
 - [[#definitions][Definitions]]
   - [[#abstraction][<<<Abstraction>>>]]
