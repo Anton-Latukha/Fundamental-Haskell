@@ -740,6 +740,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-144][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
+- [[#liturgy][Liturgy]]
 
 * Definitions
 :PROPERTIES:
@@ -8122,3 +8123,14 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
     1.2 constructors+variables+repetitions < head
     1.3 \not type functions (type func application can expand to arbitrary size)
  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+* Liturgy
+λειτ       <- λαός  /Laos/       the people
+    ουργός <- ἔργο  /ergon/      work
+λειτουργία          /leitourgia/ giving back to the community
+
+The life is beautiful.
+For all humans that make the life have more uniqueness.
+
+This study would not be possible without matematicians, Haskellers, scientists, creators, contributors. These people are the most fascinating in my life.
+
+Special acollades for the guys at Serokell. They was the forse that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
