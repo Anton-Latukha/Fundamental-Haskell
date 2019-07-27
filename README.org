@@ -1176,12 +1176,12 @@ Category ($$ \mathcal{C} $$) consists of the basis:
 
 Primitives:
   1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is SET category.
-  2. Morphisms - $$ (a,b)^{\mathcal{C} }$$ (AKA mappings).
-  3. Morphism composition - binary operation: $$ (a, b)^{\mathcal{C}} \circ (b, c)^{\mathcal{C}} \equiv (a, c)^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for morphisms.
+  2. Morphisms - $$ \overrightarrow{(a,b)}^{\mathcal{C}} $$ (AKA mappings).
+  3. Morphism composition - binary operation: $$ \overrightarrow{(a, b)}^{\mathcal{C}} \circ \overrightarrow{(b, c)}^{\mathcal{C}} \equiv \overrightarrow{(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for morphisms.
 
 Properties (or axioms):
-  1. Associativity of morphisms: $$ f_{a \to b}, g_{b \to c}, h_{c \to d} : \; h \circ (g \circ f) \equiv (h \circ g) \circ f $$.
-  2. All objects have identity morphisms: $$ 1_x \circ f_{a \to x} \equiv f_{a \to x}, \; g_{x \to b} \circ 1_x \equiv g_{x \to b }\ | \ \forall x \ \exists 1_{x \to x}, \forall f_{a \to x},  \forall g_{x \to b} $$ (two-sided).
+  1. Associativity of morphisms: $$ \overrightarrow{h} \circ (\overrightarrow{g} \circ \overrightarrow{f}) \equiv (\overrightarrow{h} \circ \overrightarrow{g}) \circ \overrightarrow{f} \ \ | \ \ \overrightarrow{f}_{a \to b}, \overrightarrow{g}_{b \to c}, \overrightarrow{h}_{c \to d} $$.
+  2. Every object has exactly one (two-sided) identity morphism: $$ \overrightarrow{1}_x \circ \overrightarrow{f}_{a \to x} \equiv \overrightarrow{f}_{a \to x}, \ \ \overrightarrow{g}_{x \to b} \circ \overrightarrow{1_x} \equiv \overrightarrow{g}_{x \to b } \ \ | \ \ \forall x \ \exists \overrightarrow{1}_{x}, \forall \overrightarrow{f}_{a \to x},  \forall \overrightarrow{g}_{x \to b} $$.
   3. Principle of compositionality.
 
 From these axioms, can be proven that there is exactly one identity morphism for every object.
