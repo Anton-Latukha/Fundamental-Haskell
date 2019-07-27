@@ -1175,7 +1175,7 @@ SCHT: <2019-08-04 Sun>
 Category ($$ \mathcal{C} $$) consists of the basis:
 
 Primitives:
-  1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is SET category.
+  1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is Set category.
   2. Morphisms - $$ \overrightarrow{(a,b)}^{\mathcal{C}} $$ (AKA mappings).
   3. Morphism composition - binary operation: $$ \overrightarrow{(a, b)}^{\mathcal{C}} \circ \overrightarrow{(b, c)}^{\mathcal{C}} \equiv \overrightarrow{(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for morphisms.
 
@@ -2100,7 +2100,7 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
-Category $$ \mathcal{C} $$ comonad is a monad of oposite category $$ \mathcal{C}^{op} $$.
+Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C}^{op} $$.
 
 ****** <<<Kleisli category>>> :drill:
 SCHT: <2019-08-04 Sun>
