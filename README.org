@@ -1234,7 +1234,9 @@ Axiom of Category.
 :ID:       1a5d0ae1-6c37-4e53-860b-beddb4c00074
 :END:
 
-From the name, in this Category - the objects of $$ End(C) $$ are Endofunctors $$ F: C \to C $$, and the Morphisms are Natural transformations between endofunctors.
+From the name, in this Category:
+  * objects of $$ End $$ are Endofunctors $$ E^{\mathcal{C \to C}} $$
+  * morphisms are natural transformations between endofunctors
 
 *** <<<Functor>>> :drill:
 :PROPERTIES:
