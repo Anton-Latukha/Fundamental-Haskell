@@ -1118,10 +1118,11 @@ Haskell /*/ type class means to have lowest value & highest value, so a bounded 
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
 
-$$ \forall a \in A, \forall b \in B : A \times B = \overset \rightharpoonup {(a,b)} $$.
-Any function is a subset of Cartesian product.
+$$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{\overrightarrow{(a,b)}} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
 
-$$ \sum^{elem \in (A \times B)}  = cardinality^{A \times B} $$
+Any function, functor is a subset of Cartesian product.
+
+$$ \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} $$
 
 *** /*/
 <<<Cardinalities>>>
