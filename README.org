@@ -8131,6 +8131,6 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
 The life is beautiful.
 For all humans that make the life have more uniqueness.
 
-This study would not be possible without matematicians, Haskellers, scientists, creators, contributors. These people are the most fascinating in my life.
+This study would not be possible without mathematicians, Haskellers, scientists, creators, contributors. These people are the most fascinating in my life.
 
-Special acollades for the guys at Serokell. They was the forse that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
+Special accolades for the guys at Serokell. They were the force that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
