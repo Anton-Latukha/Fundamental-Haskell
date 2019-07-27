@@ -1245,12 +1245,12 @@ From the name, in this Category:
 
 Functor is a map between categories. Translating objects and morphisms (as input can take morphism or object). They can preserve structure, or not.
 
-Functor axioms:
+Functor properties (axioms):
   * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
-  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))} \quad | \quad \forall b = f^{D}(a) $$ - every source morphism is mapped to target category morphism between corresponding objects
-  * $$ F^{\mathcal{C \to D}}(g^{\mathcal{C}} \circ f^{\mathcal{C}}) = F^{\mathcal{C \to D}}(g^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(f^{\mathcal{C}}) \quad | \quad \forall y=f^{\mathcal{C}}(x), \forall g^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
+  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} $$ - every source morphism is mapped to target category morphism between corresponding objects
+  * $$ F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}} \circ \overrightarrow{f}^{\mathcal{C}}) = F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{f}^{\mathcal{C}}) \quad | \quad \forall y=\overrightarrow{f}^{\mathcal{C}}(x), \forall \overrightarrow{g}^{\mathcal{C}}(y) $$ - composition of morphisms translates directly
 
-This axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
+These axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
 
 In Haskell this axioms have form:
 #+begin_src haskell
