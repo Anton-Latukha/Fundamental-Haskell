@@ -706,11 +706,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#datachar][Data.Char]]
   - [[#quickcheck-1][QuickCheck]]
 - [[#investigate][Investigate]]
-- [[#debugger][Debugger]]
-  - [[#commands][Commands]]
-  - [[#breakpoints][Breakpoints]]
-  - [[#step-by-step][Step-by-step]]
-  - [[#what-been-evaluated-already][What been evaluated already]]
 - [[#tools][Tools]]
   - [[#ghc-pkg][ghc-pkg]]
   - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
@@ -724,6 +719,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#4-open-the-haskell-file-from-a-project][4. Open the Haskell file from a project]]
     - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
     - [[#6-optional-debugging][6. (optional) Debugging]]
+  - [[#debugger][Debugger]]
 - [[#libs][Libs]]
   - [[#exceptions][Exceptions]]
     - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
@@ -7900,28 +7896,6 @@ quickCheck . verbose - run verbose mode
 #+end_src
 
 * Investigate
-* Debugger
-
-Provides:
-  * set a breakpoints
-  * observe step-by-step evaluation
-  * tracing mode
-
-** Commands
-:list
-
-** Breakpoints
-:break 2
-  :show breaks
-  :delete 0
-:continue
-
-** Step-by-step
-:step main
-
-** What been evaluated already
-:sprint name
-
 * Tools :drill:
 :PROPERTIES:
 :ID:       756dd451-6df6-4c86-8ff8-b431f2943685
@@ -8051,6 +8025,36 @@ readCreateProcess : cabal-helper-wrapper failure
 HIE tries to run =cabal= operations like on the non-Nix system. So it is a problem with detection of =nix-shell= environment, running inside it.
 
 2. If HIE keeps getting ready, failing & restarting - check that the projects =ghc --version= is declared in your =all-hie= NixOS configuration.
+
+** Debugger
+
+Provides:
+  * set a breakpoints
+  * observe step-by-step evaluation
+  * tracing mode
+
+Breakpoints
+#+begin_src text
+:break 2
+  :show breaks
+  :delete 0
+:continue
+#+end_src
+
+Step-by-step
+#+begin_src text
+:step main
+#+end_src
+
+List information at the breakpoint
+#+begin_src text
+:list
+#+end_src
+
+What been evaluated already
+#+begin_src text
+:sprint name
+#+end_src
 
 * Libs :drill:
 :PROPERTIES:
