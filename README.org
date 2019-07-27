@@ -8036,6 +8036,10 @@ Open system monitor, observe the process of environment establishing, packages l
 
 *** 5. Be pleased writing code
 
+[[file:images/Screenshot_20190727_134446.png]]
+
+Now, the power of the Haskell, Nix & Emacs combined and is fully in your hands. Be cautious - you can change the world.
+
 *** 6. (optional) Debugging
 
 1. If recieving sort-of:
