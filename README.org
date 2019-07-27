@@ -7598,15 +7598,15 @@ Function application on n levels beneath:
 
 How fmap.fmap typechecks:
 #+begin_src haskell
-(.) :: (b -> c) -> (a -> b) -> a -> c
-fmap :: Functor f => (m -> n) -> f m -> f n
-fmap :: Functor g => (x -> y) -> g x -> g y
+(.)         :: (b -> c) -> (a -> b) -> a -> c
+fmap        :: Functor f => (m -> n) -> f m -> f n
+fmap        :: Functor g => (x -> y) -> g x -> g y
 
-(.) :: (Functor f, Functor g)
-  => ((g x -> g y) -> f.g (x) -> f.g (y))
-  -> ((x -> y) -> g x -> g y)
-  -> (x -> y) -> f.g (x) -> f.g. (y)
-fmap.fmap :: (x -> y) -> f.g (x) -> f.g. (y)
+fmap . fmap :: (Functor f, Functor g)
+              => ((g x -> g y) -> f . g x -> f . g y)
+              -> ((  x ->   y) ->     g x  ->    g y)
+              -> (   x ->   y) -> f . g x -> f . g y
+fmap . fmap ::   (x    ->   y) -> f . g x -> f . g y
 #+end_src
 
 ** <<<Good: Parameter order>>> :drill:
