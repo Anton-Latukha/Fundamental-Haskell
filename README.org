@@ -723,7 +723,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#3-emacs-spacemacs-configuration][3. Emacs (Spacemacs) configuration:]]
     - [[#4-open-the-haskell-file-from-a-project][4. Open the Haskell file from a project]]
     - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
-    - [[#6-debugging][6. Debugging]]
+    - [[#6-optional-debugging][6. (optional) Debugging]]
 - [[#libs][Libs]]
   - [[#exceptions][Exceptions]]
     - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
@@ -8024,7 +8024,7 @@ Where:
 
 Inside =nix-shell= the =haskell-process-type 'cabal-new-repl= is required.
 
-Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs
+Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 & its authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs
 
 Refresh Emasc.
 
@@ -8033,7 +8033,7 @@ Refresh Emasc.
 Observe in system monitor the proces of package loading & compilation.
 
 *** 5. Be pleased writing code
-*** 6. Debugging
+*** 6. (optional) Debugging
 
 1. If recieving sort-of:
 
