@@ -567,6 +567,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#inversion][<<<Inversion>>>]]
   - [[#inverse-function][<<<Inverse function>>>]]
   - [[#inverse-morphism][<<<Inverse morphism>>>]]
+  - [[#invertible][<<<Invertible>>>]]
+  - [[#invertibility][<<<Invertibility>>>]]
   - [[#partial-inverse][<<<Partial inverse>>>]]
   - [[#define-language-pragma-options][<<<Define LANGUAGE pragma options>>>]]
     - [[#existentialquantification][<<<ExistentialQuantification>>>]]
@@ -7008,7 +7010,7 @@ Allows to separate and preserve information about happened, ex. error handling.
 
 ** <<<Inverse function>>>
 
-    $$ f^{X \to Y} \circ {f^{X \to Y}}^{-1} = {id}_{X} $$
+    $$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
@@ -7029,6 +7031,8 @@ SCHT: <2019-07-23 Tue>
 
 $$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
 
+** <<<Invertible>>>
+** <<<Invertibility>>>
 ** <<<Partial inverse>>>
 /*/ when function is now bijective. When bijective see inverse function.
 
