@@ -8022,17 +8022,20 @@ Where:
 
 =nix-sandbox= (https://github.com/travisbhartwell/nix-emacs) has a great helper functions. Using =nix-current-sandbox= function in =default-nix-wrapper= that used to properly configure =lsp-haskell-process-wrapper-function=.
 
+Configuration of the =lsp-haskell-process-wrapper-function default-nix-wrapper= is a key for HIE to work in =nix-shell=
+
 Inside =nix-shell= the =haskell-process-type 'cabal-new-repl= is required.
 
-Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 & its authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs
+/Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 & its authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs /
 
 Refresh Emasc.
 
 *** 4. Open the Haskell file from a project
 
-Observe in system monitor the proces of package loading & compilation.
+Open system monitor, observe the process of environment establishing, packages loading & compiling.
 
 *** 5. Be pleased writing code
+
 *** 6. (optional) Debugging
 
 1. If recieving sort-of:
