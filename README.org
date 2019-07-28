@@ -61,7 +61,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#ambigram][<<<Ambigram>>>]]
   - [[#ancient-greek-and-latin-prefixes][Ancient Greek and Latin prefixes]]
     - [[#-3][/*/]]
-  - [[#application][<<<Application>>>]]
+  - [[#function-application][<<<Function application>>>]]
+    - [[#-4][/*/]]
   - [[#application-memory][<<<Application memory>>>]]
   - [[#argument][<<<Argument>>>]]
     - [[#argument-of-a-function][<<<Argument of a function>>>]]
@@ -962,7 +963,12 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:44]
 :END:
 
-For FP see Bind. And then beta reduction happen.
+Bind argument to a parameter of a function and do a beta reduction.
+
+*** /*/
+<<<Apply>>>
+<<<Applying>>>
+<<<Application>>>
 
 ** <<<Application memory>>> :drill:
 :PROPERTIES:
