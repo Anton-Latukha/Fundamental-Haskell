@@ -4122,7 +4122,8 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:59]
 :END:
 
-Collection of formal systems used in mathematics, philosophy, linguistics, and computer science. First-order logic uses quantifier, variables over non-logical objects and allows the use of sentences that contain variables.
+Formal notation systems of sciences that use quantifier, variables over non-logical objects, allows the use of expressions that contain variables.
+Distinguishes from propositional logic, which does not use quantifiers, relations.
 
 *** /*/
 <<<Predicate logic>>>
