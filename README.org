@@ -4454,7 +4454,7 @@ Corresponds to Epimorphism.
 <<<Surjective>>>
 <<<Surjective function>>>
 
-*** <<<Unsafe>>> :drill:
+*** <<<Unsafe function>>> :drill:
 SCHT: <2019-07-21 Sun>
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
@@ -4468,7 +4468,10 @@ SCHT: <2019-07-21 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:25]
 :END:
 
-Function that does not cover some edge case.
+Function that does not cover at least one edge case.
+
+**** /*/
+<<<Unsafe>>>
 
 *** <<<Variadic>>> :drill:
 SCHT: <2019-08-02 Fri>
