@@ -4826,7 +4826,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:03]
 :END:
 
-Applying argument to parameter of a function.
+Equation of a parameter to its bound variable, and reducing parameter from the head.
 
 **** /*/
 <<<\beta reduction>>>
