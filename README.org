@@ -991,9 +991,8 @@ When stacked Stack frames exceed the Stack size - stack overflow happens.
 :END:
 
 /arguere/ to make clear, to shine
-argument evidence, proof
 
-A statement that results in system consequences.
+/*/ - evidence, proof, statement that results in system consequences.
 
 *** <<<Argument of a function>>> :drill:
 :PROPERTIES:
