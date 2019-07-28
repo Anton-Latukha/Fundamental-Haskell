@@ -6045,7 +6045,7 @@ SCHT: <2019-07-21 Sun>
 size (view -> Unit) = 1
 size (view -> Arrow t1 t2) = size t1 + size t2
 #+end_src
-(/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match.
+(/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
 
 Semantics:
   * variables of /expression/ and /pattern/ are shared
