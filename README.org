@@ -7407,6 +7407,23 @@ Any type of the kind Constraints can be used as a constraint.
   func = ...
   #+end_src
 
+** <<<Propositional logic>>>
+:PROPERTIES:
+:ID:       2640c170-c125-4f34-ad16-608686554075
+:END:
+
+*** /*/
+<<<Propositional calculus>>>
+<<<Statement logic>>>
+<<<Sentential logic>>>
+<<<Sentential calculus>>>
+<<<Zeroth-order logic>>>
+
+** <<<Second-order logic>>>
+
+** <<<Higher-order logic>>>
+
+
 * Citations
 
 "One of the finer points of the Haskell community has been
