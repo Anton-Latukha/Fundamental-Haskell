@@ -4748,7 +4748,7 @@ Kind -> Type -> Data
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
 :END:
 
-Universal model of computation that can be used to simulate any Turing machine.
+Universal model of computation. Which means /*/ can implement any Turing machine.
 Based on function abstraction and application by substituting variables and binding values.
 
 /*/ has lambda terms:
