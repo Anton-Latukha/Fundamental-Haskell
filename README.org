@@ -5241,13 +5241,13 @@ Allows check a list of pattern matches against functions, and then proceed.
 #+begin_src haskell
 lookup :: Eq a => a -> [(a, b)] -> Maybe b
 
-addLookup env var1 var2
-   | Just val1 <- lookup var1 env
-   , Just val2 <- lookup var2 env
+addLookup l a1 a2
+   | Just b1 <- lookup a1 l
+   , Just b2 <- lookup a2 l
    = val1 + val2
 {-...other equations...-}
 #+end_src
-Check both to succeed, match results into =val1=, =val2=, then proceed to the equation.
+Run functions, they must succeed. Then pattern match results to =val1=, =val2=. Only if successful - execute the equation.
 
 Default in Haskell 2010.
 
