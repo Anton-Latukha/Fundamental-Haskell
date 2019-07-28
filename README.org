@@ -1066,9 +1066,11 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:07]
 :END:
 
-Establishing Eq between two objects.
-Parameter of the function = argument that applied to the function
-Variables = values.
+Establishing equality between two objects.
+
+Most often:
+  * equating variable to a value.
+  * equating parameter of a function to an argument (variable/value/function). This term often is equated to applying argument to a function, which includes \beta-reduction.
 
 *** /*/
 <<<Binds>>>
