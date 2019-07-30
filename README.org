@@ -7464,15 +7464,9 @@ SCHT: <2019-07-22 Mon>
 
 Wider the type the more it is polymorphic, means it has broader application and fits more types.
 
-Concrete type fits only to itself.
-
 The more constrained system has more usefulness.
 
 Unconstrained means most flexible, but also most useless.
-
-Parametric polymorphism is broader then constrained polymorphism
-
-The widest type in current circumstances named principal type.
 
 ** <<<Good: Read Conventions of variables (page 176)>>> :drill:
 :PROPERTIES:
