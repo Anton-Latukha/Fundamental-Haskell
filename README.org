@@ -2733,7 +2733,7 @@ SCHT: <2019-07-22 Mon>
 μορφή /morphe/ form
 similar form
 
-/*/ map between two algebraic structures of the same type which operation-preserving.
+/*/ map between two algebraic structures of the same type, operation-preserving.
 
 $$ f_{x \to y} = f_{a_x \star b_x} = f(a_x) \diamond f(b_x) $$,
 where $$ x,\ y $$ are sets with additonal algebraic structure that includes $$ \star, \diamond $$ accordingly; $$ a,\ b $$ are elements of sets.
