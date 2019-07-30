@@ -3290,7 +3290,7 @@ SCHT: <2019-07-22 Mon>
 :END:
 
 Set of values.
-For type to have sence the values share some sence, properties.
+For type to have sence the values must share some sence, properties.
 
 *** /*/
 <<<Type>>>
