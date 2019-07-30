@@ -5209,9 +5209,9 @@ SCHT: <2019-07-22 Mon>
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
-Or Formal Parameter. Named varible of a function.
+Or formal parameter. Named varible of a function.
 
-Argument is a supplied value to a function.
+Argument is a supplied value to a function parameter.
 
 *** /*/
 <<<Parameters>>>
