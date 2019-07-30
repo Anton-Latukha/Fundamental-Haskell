@@ -4719,7 +4719,7 @@ IO actions can be evaluated multiple times.
 
 IO data type has unpure imperative actions inside. Haskell is pure Lambda calculus, and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
 
-IO collects effects sequences one after another:
+IO collects effect sequences one after another:
 #+begin_src haskell
 :{
 twoBinds :: IO ()
