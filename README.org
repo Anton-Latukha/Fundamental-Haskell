@@ -2733,13 +2733,13 @@ SCHT: <2019-07-22 Mon>
 μορφή /morphe/ form
 similar form
 
-Homomorphism - operation-preserving map between two algebraic structures of the same type (groups, rings, vector spaces...).
+Homomorphism - operation-preserving map between two algebraic structures of the same type.
 
 $$  f^{A \to B}_{homomorphism} = f(x \star y) = f(x) \diamond f(y) | (A_{set}, \star_{operation}), (B_{set}, \diamond_{operation}) $$.
 
-The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
+Homomorphism sends identity morphisms to identity morphisms and inverses to inverses.
 
-Homomorphisms send identity morphisms to identity morphisms and inverses to inverses.
+The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
 
 =*= homomorphism - map between =*= and preserves =*= operations
   case =*= of:
