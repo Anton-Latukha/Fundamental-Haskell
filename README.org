@@ -5505,10 +5505,10 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:45]
 :END:
 
-The most powerful form of Parametric polymorphism.
-First see Impredicative.
+The most powerful form of parametric polymorphism.
+See: Impredicative.
 
-Impredicative polymorphism allows type τ entities with polymorphic types that can contain type τ itself.
+/*/ allows type τ entities with polymorphic types that can contain type τ itself.
 $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 This approach has Russell's paradox (and its form - Girard's paradox).
 
