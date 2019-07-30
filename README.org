@@ -2893,7 +2893,7 @@ Almost equal, but not quite: =(Integer, Bool)= & =(Bool, Integer)= - but can be 
 
 Bijective homomorphism is also isomorphism.
 
-$$ f^{-1, b \to a} \circ f^{a \to b} \equiv id^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv id^b $$
+$$ f^{-1, b \to a} \circ f^{a \to b} \equiv 1^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv 1^b $$
 
 2 reasons for non-isomorphism:
   * function at least ones collapses a values of domain into one value in codomain
