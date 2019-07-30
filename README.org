@@ -6205,7 +6205,7 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:45]
 :END:
 
-Returns the same output given the same values to evaluate.
+Given the same input return the same output.
 So:
 /*/ expression can be replaced with its corresponding resulting value without change for program's behavior.
 /*/ functions are pure.
