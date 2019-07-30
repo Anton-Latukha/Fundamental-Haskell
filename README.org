@@ -2733,13 +2733,14 @@ SCHT: <2019-07-22 Mon>
 μορφή /morphe/ form
 similar form
 
-Homomorphism - operation-preserving map between two algebraic structures of the same type.
+/*/ map between two algebraic structures of the same type which operation-preserving.
 
-$$  f^{A \to B}_{homomorphism} = f(x \star y) = f(x) \diamond f(y) | (A_{set}, \star_{operation}), (B_{set}, \diamond_{operation}) $$.
+$$ f_{x \to y} = f_{a_x \star b_x} = f(a_x) \diamond f(b_x) $$,
+where $$ x,\ y $$ are sets with additonal algebraic structure that includes $$ \star, \diamond $$ accordingly; $$ a,\ b $$ are elements of sets.
 
-Homomorphism sends identity morphisms to identity morphisms and inverses to inverses.
+/*/ sends identity morphisms to identity morphisms and inverses to inverses.
 
-The concept of homomorphism has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
+The concept of /*/ has been generalized under the name of morphism to many other structures that either do not have an underlying set, or are not algebraic.
 
 ***** /*/
 <<<Homomorphic>>>
