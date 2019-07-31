@@ -6428,7 +6428,7 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:07]
 :END:
 
-Place extra constraints on the construction of values.
+Process/code placing extra rules & constraints on the construction of values.
 
 ** <<<Spine>>> :drill:
 SCHT: <2019-07-28 Sun>
