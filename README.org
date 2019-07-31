@@ -2679,16 +2679,18 @@ SCHT: <2019-07-23 Tue>
 :END:
 
 μορφή /morphe/ form
-Map between two objects in a category.
+Arrow between two objects in a category.
 
-General description: Arrow from one to enother that denotes something.
+General description: Arrow from one to another that denotes something.
 
-On a level of objects: morphism is some maybe structure-preserving map from one mathematical structure to another one of the same type.
+On a level of objects: is probably structure-preserving map from one mathematical structure to another of the same type.
 
 Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
-Under morphism almost always is meaning of homomorphism-like properties.
+Under morphism almost always is the meaning of homomorphism-like properties.
 
-If morphism corresponds to function requirements - than it is a function. Morphism can be anything.
+Morphism can be anything.
+
+If morphism corresponds to function requirements - than it is a function.
 
 **** /*/
 <<<Morphisms>>>
