@@ -4610,7 +4610,7 @@ SCHT: <2019-07-23 Tue>
 /*/ - something having a meaning that can not be derived from the conjoined meanings.
 Meaning can be special for language speakers or human with particular knowledge.
 
-/*/ can also mean Applicative functor.
+/*/ can also mean applicative functor.
 
 *** /*/
 <<<Idiomatic>>>
