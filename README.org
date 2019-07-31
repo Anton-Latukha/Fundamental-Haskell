@@ -955,27 +955,6 @@ SCHT: <2019-08-01 Thu>
 <<<Greek prefix>>>
 <<<Latin prefix>>>
 
-** <<<Function application>>> :drill:
-SCHT: <2019-09-16 Mon>
-:PROPERTIES:
-:ID:       2ecbb029-b5d4-447b-81f6-ff9242231aee
-:DRILL_LAST_INTERVAL: 48.9525
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:29]
-:END:
-
-Bind argument to a parameter of a function and do a beta reduction.
-
-*** /*/
-<<<Apply>>>
-<<<Applying>>>
-<<<Application>>>
-
 ** <<<Application memory>>> :drill:
 :PROPERTIES:
 :ID:       49209cb4-a094-4b16-8803-884efd701706
@@ -4259,11 +4238,14 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:09]
 :END:
 
-/*/ is applying the function parameter to an argument from its domain to obtain the resulting value from its range.
+/*/ - bind the argument to the function parameter, and do a beta-reduction.
 
 **** /*/
-<<<Applied>>>
 <<<Apply>>>
+<<<Applied>>>
+<<<Applying>>>
+<<<Application>>>
+
 
 *** <<<Function body>>> :drill:
 :PROPERTIES:
