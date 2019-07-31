@@ -5872,8 +5872,9 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:50]
 :END:
 
-Enable overloaded string literals (string literals become desugared via the IsString class).
-Now string literal has type:
+Enable overloaded string literals (string literals become desugared via the =IsString= class).
+
+With overload, string literals has type:
 #+begin_src haskell
 (IsString a) => a
 #+end_src
