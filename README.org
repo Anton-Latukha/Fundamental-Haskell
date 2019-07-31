@@ -7019,7 +7019,9 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
 :END:
 
-$$ f \circ g = 1^{x}, g \circ f = 1^{y} $$.
+For $$ f: x \to y $$:
+$$ l \circ f = 1^{y} $$ - f has left inverse l.
+$$ f \circ r = 1^{x} $$ - f has right inverse r.
 
 ** <<<Invertible>>>
 ** <<<Invertibility>>>
