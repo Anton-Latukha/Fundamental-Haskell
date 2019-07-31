@@ -2921,9 +2921,9 @@ SCHT: <2019-07-27 Sat>
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
-Endomorphism that is Isomorphism.
+Endomorphism that is isomorphic.
 
-Corresponds to Identity and Reflexivity.
+Corresponds to identity, reflexivity.
 
 ****** /*/
 <<<Automorphic>>>
