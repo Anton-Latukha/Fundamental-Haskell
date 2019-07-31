@@ -3713,7 +3713,8 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:24]
 :END:
 
-In GHC if to use placeholder =_= or =_name=, GHC on evaluation of the hole would supply derived type information and information to help fill the gap.
+/*/ - is a =_= or =_name= as a part of the evaluating expression.
+On evaluation of the /*/ GHC would show the derived type information to help fill in the gap.
 
 **** /*/
 <<<Typed holes>>>
