@@ -5380,11 +5380,9 @@ SCHT: <2019-07-23 Tue>
 
 At once several forms.
 
-Abstract over data types.
+In Haskell - abstract over data types.
 
-/Antonym - Monomorphism./
-
-Types:
+/*/ types:
 
 *** /*/
 <<<Polymorphic>>>
