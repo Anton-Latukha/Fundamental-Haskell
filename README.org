@@ -3909,7 +3909,7 @@ SCHT: <2019-07-25 Thu>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:48]
 :END:
 
-Binding the name to expression.
+Binding name to expression.
 
 ** <<<Differential operator>>> :drill:
 SCHT: <2019-07-23 Tue>
