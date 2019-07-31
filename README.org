@@ -2217,7 +2217,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:52]
 :END:
 
-When computation results in =Left -= drops other computations, returns the recieved =Left=.
+When computation results in =Left= - drops other computations & returns the recieved =Left=.
 
 ******* <<<Error monad>>> :drill:
 :PROPERTIES:
