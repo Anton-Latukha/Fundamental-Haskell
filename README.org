@@ -4238,7 +4238,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:09]
 :END:
 
-/*/ - bind the argument to the function parameter, and do a beta-reduction.
+/*/ - bind the argument to the parameter of a function, and do a beta-reduction.
 
 **** /*/
 <<<Apply>>>
