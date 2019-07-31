@@ -6338,12 +6338,12 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:53]
 :END:
 
-Collection of all morphisms (and compositions of morphisms) from object to object. Collection of morphisms is not nesessary a set, but in practice - is.
+Collection of all morphisms (and all their compositions) from object to object.
+
+Collection of morphisms is not nesessary a set, but in practice - is.
 
 Denotation:
-$$ hom(X,Y) $$
-
-$$ hom_{C}(x,y) = (\forall f: x \to y) = hom(x,y) = C(x,y) $$
+$$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
 Denotation was not standartized.
 
 **** <<<Hom-functor>>> :drill:
