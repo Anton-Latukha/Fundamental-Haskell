@@ -3647,7 +3647,7 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
-/*/ - Nullary type constructor.
+/*/ - nullary type constructor.
 
 *** <<<Type constructor>>> :drill:
 :PROPERTIES:
