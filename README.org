@@ -5171,15 +5171,9 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:06]
 :END:
 
-Type instance that appeared from inconsistent code base. Duplicate of instance, or instance present on type class or on the type level.
-
-Solution for addressing orphan instances:
-1. You defined the type but not the type class?
-Put the instance in the same module as the type so that the type cannot be imported without its instances.
-2. You defined the type class but not the type?
-Put the instance in the same module as the type class definition so that the type class cannot be imported without its instances.
-3. Neither the type nor the type class are yours?
-Define your own newtype wrapping the original type and now you’ve got a type that “belongs” to you for which you can rightly define type class instances. There are means of making this less annoying which we’ll discuss later.
+Hanging type instance from inconsistent code base.
+1) Supporting structure not fully present.
+2) Several implementations of instance present.
 
 ** <<<Parameter>>> :drill:
 SCHT: <2019-08-28 Wed>
