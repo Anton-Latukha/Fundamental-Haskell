@@ -6868,8 +6868,12 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:02]
 :END:
 
-Same level expression parts in reality follow grouping from left to right.
+Example:
+In lambda expressions same level parts follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
+
+**** /*/
+<<<Left associativity>>>
 
 *** <<<Basis>>> :drill:
 SCHT: <2019-08-28 Wed>
