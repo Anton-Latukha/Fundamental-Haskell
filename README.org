@@ -6343,7 +6343,7 @@ Collection of all morphisms (and compositions of morphisms) from object to objec
 Denotation:
 $$ hom(X,Y) $$
 
-$$ hom_{C}(x,y) = (\forall f^{x \to y}) = hom(x,y) = C(x,y) $$
+$$ hom_{C}(x,y) = (\forall f: x \to y) = hom(x,y) = C(x,y) $$
 Denotation was not standartized.
 
 **** <<<Hom-functor>>> :drill:
