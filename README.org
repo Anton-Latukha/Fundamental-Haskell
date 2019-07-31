@@ -5012,7 +5012,7 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 00:07]
 :END:
 
-Level of code when code compiles/compiled.
+Level of code, about compilation processes/results.
 
 **** /*/
 <<<Compilation level>>>
