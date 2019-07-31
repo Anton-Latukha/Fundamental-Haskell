@@ -1795,7 +1795,7 @@ Explanation:
 >>= :: Monad f =>    f a  -> (a -> f b) -> f b
                   pure x >>=     f      == f x
 #+end_src
-Shows that >>= must get Argument internal to structure and apply it to the second argument.
+Rule that >>= must get first argument structure internals and apply to the function that is the second argument.
 
 ******* <<<Monad right identity law>>> :drill:
 SCHT: <2019-08-06 Tue>
