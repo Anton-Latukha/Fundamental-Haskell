@@ -4128,9 +4128,12 @@ Until there are /* -/ function stays partially applied.
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
 :END:
 
-A varying quantity depends on another quantity.
+Full dependency of one quantity from another quantity.
 
-$$ x \in X, y \in Y : \; f^{X \to Y} = \overset{\rightharpoonup}{G}(x,y) $$
+Denotation:
+$$ y = f(x) $$
+$$ f: X \to Y $$,
+where $$ X $$ is domain, $$ Y $$ is codomain.
 
 Directionality and property of invariability emerge from one another.
 #+begin_src haskell
@@ -4149,8 +4152,10 @@ $$ y(x) = (zx^{2} + bx + 3 \ | \ b = 5) $$
 Lambda abstraction is a function.
 Function is a mathematical operation.
 
-Function = Total function = Pure function. Function theoretically posible to momoized.
-Partial function.
+Function = Total function = Pure function. Function theoretically can be to memoized.
+
+Also see:
+Partial function
 Inverse function - often partially exists (partial function).
 
 *** /*/
