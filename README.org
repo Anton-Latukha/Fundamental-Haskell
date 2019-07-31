@@ -3235,10 +3235,10 @@ SCHT: <2019-07-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:54]
 :END:
 
-Constraint placed on the types under polymorphic variables.
-Written before the main type signature and denoted:
+Type constraints for polymorphic variables.
+Written before the main type signature, denoted:
 #+begin_src haskell
-TypeClass a =>
+TypeClass a => ...
 #+end_src
 
 *** /*/
