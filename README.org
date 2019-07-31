@@ -6052,7 +6052,7 @@ data Eq a => Set a = NilSet | ConsSet a (Set a)
 -- NilSet :: Set a
 -- ConsSet :: Eq a => a -> Set a -> Set a
 #+end_src
-Considered misfeature, deprecated, going to be removed.
+Considered misfeature. Deprecated. Going to be removed.
 
 **** How to make a GHC LANGUAGE extension
 In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
