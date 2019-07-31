@@ -3950,6 +3950,8 @@ SCHT: <2019-07-24 Wed>
 
 OR
 
+Summs cardinalities.
+
 ** <<<Dispatch>>> :drill:
 :PROPERTIES:
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
