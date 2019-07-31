@@ -831,8 +831,8 @@ SCHT: <2019-07-22 Mon>
 :DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:07]
 :END:
 
-Algebraic structure on a set A (called carrier set or underlying set) is a collection of finitary operations on A.
-The set A with this structure is also called an algebra.
+Algebraic structure on a set (called carrier set or underlying set) is a collection of finitary operations on that set.
+The set with this structure is also called an algebra.
 
 Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
 
