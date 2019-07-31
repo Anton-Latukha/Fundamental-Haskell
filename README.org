@@ -1073,11 +1073,11 @@ SCHT: <2019-07-24 Wed>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
 
+A =_= non-value in the type or pattern match expression. Placeholder for enything.
+
 #+begin_src haskell
 -- _ fits *.
 #+end_src
-
-Is a non-value placeholder for enything.
 
 *** /*/
 <<<Bottom>>>
