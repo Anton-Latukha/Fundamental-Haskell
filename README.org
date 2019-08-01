@@ -793,6 +793,16 @@ It is great did to name an abstraction (Denotational semantics).
 <<<Abstracting>>>
 <<<Abstract>>>
 
+*** <<<Leaky abstraction>>> :drill:
+:PROPERTIES:
+:ID:       696ecb38-8f84-439e-8d4d-3cbb28b44c96
+:END:
+
+Abstraction that leaks details that it is supposed to abstract away.
+
+**** /*/
+<<<Leaky abstractions>>>
+
 ** <<<Algebra>>> :drill:
 SCHT: <2019-09-16 Mon>
 :PROPERTIES:
