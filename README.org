@@ -7440,6 +7440,16 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 *** /*/
 <<<Propositions>>>
 
+*** <<<Atomic proposition>>> :drill:
+:PROPERTIES:
+:ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
+:END:
+
+Logically undividable unit.
+
+**** /*/
+<<<Atomic propositions>>>
+
 ** <<<Second-order logic>>>
 
 ** <<<Higher-order logic>>>
