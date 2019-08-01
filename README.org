@@ -7428,6 +7428,18 @@ Studies propositions and argument flow.
 <<<Sentential calculus>>>
 <<<Zeroth-order logic>>>
 
+** <<<Proposition>>> :drill:
+:PROPERTIES:
+:ID:       8f814f63-6331-4179-abb5-264b9727ecf7
+:END:
+
+Purely abtract & theoretical logical object (idea) that has a Boolean value.
+
+/*/ is expressed by a statement.
+
+*** /*/
+<<<Propositions>>>
+
 ** <<<Second-order logic>>>
 
 ** <<<Higher-order logic>>>
