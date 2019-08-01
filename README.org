@@ -4111,30 +4111,6 @@ Reducible expression.
 2. Passed as an argument.
 From 1&2 -> can include itself.
 
-** <<<First-order logic>>> :drill:
-SCHT: <2019-08-07 Wed>
-:PROPERTIES:
-:ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
-:DRILL_LAST_INTERVAL: 9.1636
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.778
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:46]
-:END:
-
-Formal notation systems of sciences that use quantifiers, variables over non-logical objects, allows the use of expressions that contain variables.
-Distinguishes from propositional logic, which does not use quantifiers, relations.
-
-Turing-complete.
-
-*** /*/
-<<<Predicate logic>>>
-<<<First-order predicate logic>>>
-<<<First-order predicate calculus>>>
-
 ** <<<Free variable>>> :drill:
 SCHT: <2019-07-30 Tue>
 :PROPERTIES:
@@ -6981,6 +6957,99 @@ Having trivial domain.
 
 /arbitrarius/ uncertain
 
+
+** Logic
+:PROPERTIES:
+:ID:       4960f252-a074-41d3-9bf1-ce46d09052bc
+:END:
+
+*** <<<Logical connective>>> :drill:
+:PROPERTIES:
+:ID:       0e5b50bc-8b00-463f-b9ad-f04fd3a525ac
+:END:
+
+Logical operation.
+
+**** /*/
+<<<Logical connectives>>>
+
+*** <<<Proposition>>> :drill:
+:PROPERTIES:
+:ID:       8f814f63-6331-4179-abb5-264b9727ecf7
+:END:
+
+Purely abtract & theoretical logical object (idea) that has a Boolean value.
+
+/*/ is expressed by a statement.
+
+**** /*/
+<<<Propositions>>>
+
+**** <<<Atomic proposition>>> :drill:
+:PROPERTIES:
+:ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
+:END:
+
+Logically undividable unit. Does not contain logical connectives.
+
+***** /*/
+<<<Atomic propositions>>>
+
+**** <<<Compound proposition>>> :drill:
+:PROPERTIES:
+:ID:       ac4054a2-b6e0-48ee-afa1-38be7c122690
+:END:
+
+Formed by connecting propositions by logical connectives.
+
+***** /*/
+<<<Compound propositions>>>
+
+**** <<<Propositional logic>>> :drill:
+:PROPERTIES:
+:ID:       2640c170-c125-4f34-ad16-608686554075
+:END:
+
+Studies propositions and argument flow.
+
+Refers to logically indivisible units (atomic propositions) as such, for theory - they are abstractions with Boolean properties.
+
+Not Turing-complete, impossible to construct an arbitrary loop.
+
+***** /*/
+<<<Proposition logic>>>
+<<<Proposition calculus>>>
+<<<Propositional calculus>>>
+<<<Statement logic>>>
+<<<Sentential logic>>>
+<<<Sentential calculus>>>
+<<<Zeroth-order logic>>>
+
+***** <<<First-order logic>>> :drill:
+SCHT: <2019-08-07 Wed>
+:PROPERTIES:
+:ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
+:DRILL_LAST_INTERVAL: 9.1636
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 2.778
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:46]
+:END:
+
+Formal notation systems of sciences that use quantifiers, relations, variables over non-logical objects, allows the use of expressions that contain variables.
+
+Turing-complete.
+
+Extension of a propositional logic.
+
+****** /*/
+<<<Predicate logic>>>
+<<<First-order predicate logic>>>
+<<<First-order predicate calculus>>>
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -7432,67 +7501,10 @@ Any type of the kind Constraints can be used as a constraint.
   func = ...
   #+end_src
 
-** <<<Propositional logic>>>
-:PROPERTIES:
-:ID:       2640c170-c125-4f34-ad16-608686554075
-:END:
-
-Studies propositions and argument flow.
-
-Refers to logically indivisible units (atomic propositions) as such, for theory - they are abstractions with Boolean properties.
-
-*** /*/
-<<<Proposition logic>>>
-<<<Proposition calculus>>>
-<<<Propositional calculus>>>
-<<<Statement logic>>>
-<<<Sentential logic>>>
-<<<Sentential calculus>>>
-<<<Zeroth-order logic>>>
-
-** <<<Proposition>>> :drill:
-:PROPERTIES:
-:ID:       8f814f63-6331-4179-abb5-264b9727ecf7
-:END:
-
-Purely abtract & theoretical logical object (idea) that has a Boolean value.
-
-/*/ is expressed by a statement.
-
-*** /*/
-<<<Propositions>>>
-
-*** <<<Atomic proposition>>> :drill:
-:PROPERTIES:
-:ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
-:END:
-
-Logically undividable unit. Does not contain logical connectives.
-
-**** /*/
-<<<Atomic propositions>>>
-
-*** <<<Compound proposition>>> :drill:
-:PROPERTIES:
-:ID:       ac4054a2-b6e0-48ee-afa1-38be7c122690
-:END:
-
-Formed by connecting propositions by logical connectives.
-
-**** /*/
-<<<Compound propositions>>>
-
 ** <<<Second-order logic>>>
 
 ** <<<Higher-order logic>>>
 
-
-** <<<Logical connective>>>
-
-Logical operation.
-
-*** /*/
-<<<Logical connectives>>>
 
 * Citations
 
