@@ -4105,7 +4105,7 @@ SCHT: <2019-08-07 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:46]
 :END:
 
-Formal notation systems of sciences that use quantifier, variables over non-logical objects, allows the use of expressions that contain variables.
+Formal notation systems of sciences that use quantifiers, variables over non-logical objects, allows the use of expressions that contain variables.
 Distinguishes from propositional logic, which does not use quantifiers, relations.
 
 *** /*/
