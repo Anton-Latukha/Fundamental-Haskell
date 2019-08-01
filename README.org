@@ -7050,6 +7050,13 @@ Extension of a propositional logic.
 <<<First-order predicate logic>>>
 <<<First-order predicate calculus>>>
 
+****** <<<Second-order logic>>> :drill:
+:PROPERTIES:
+:ID:       cbc5e8e2-5a97-4bad-8fe7-d5ca067c7c48
+:END:
+
+Extension over first-order logic that quantifies over relations.
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -7500,8 +7507,6 @@ Any type of the kind Constraints can be used as a constraint.
   func :: Typ a b => a -> b -> b
   func = ...
   #+end_src
-
-** <<<Second-order logic>>>
 
 ** <<<Higher-order logic>>>
 
