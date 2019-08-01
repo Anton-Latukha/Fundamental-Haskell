@@ -7057,6 +7057,15 @@ Extension of a propositional logic.
 
 Extension over first-order logic that quantifies over relations.
 
+******* <<<Higher-order logic>>> :drill:
+:PROPERTIES:
+:ID:       b72dbeaa-ea81-4442-956b-5ab009afa82d
+:END:
+
+Extension over second-order logic that uses additional quantifiers, stronger semantics.
+
+Is more expressive, but model-theoretic properties are less well-behaved.
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
@@ -7507,9 +7516,6 @@ Any type of the kind Constraints can be used as a constraint.
   func :: Typ a b => a -> b -> b
   func = ...
   #+end_src
-
-** <<<Higher-order logic>>>
-
 
 * Citations
 
