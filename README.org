@@ -729,11 +729,10 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
   - [[#integration-of-nixosnix-with-haskell-ide-engine-hie-and-emacs-spacemacs][Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)]]
     - [[#1-install-the-cachix-httpsgithubcomcachixcachix][1. Install the Cachix: https://github.com/cachix/cachix]]
-    - [[#2-install-hie-on-nixos-httpsgithubcominfinisilall-hiescached-builds][2. Install HIE on NixOS: https://github.com/infinisil/all-hies/#cached-builds]]
-      - [[#21-cached-builds][2.1. Cached builds]]
-      - [[#22a-installation-in-nixos-distribution][2.2.a. Installation in NixOS distribution:]]
+    - [[#2-installation-of-hie-httpsgithubcominfinisilall-hiescached-builds][2. Installation of HIE: https://github.com/infinisil/all-hies/#cached-builds]]
+      - [[#21-provide-cached-builds][2.1. Provide cached builds]]
+      - [[#22a-installation-on-nixos-distribution][2.2.a. Installation on NixOS distribution:]]
       - [[#22b-installation-with-nix-package-manager][2.2.b. Installation with Nix package manager:]]
-      - [[#23-switch-to-new-configuration][2.3. Switch to new configuration:]]
     - [[#3-emacs-spacemacs-configuration][3. Emacs (Spacemacs) configuration:]]
     - [[#4-open-the-haskell-file-from-a-project][4. Open the Haskell file from a project]]
     - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
@@ -8061,15 +8060,15 @@ https://codesearch.aelve.com/
 
 *** 1. Install the Cachix: https://github.com/cachix/cachix
 
-*** 2. Install HIE on NixOS: https://github.com/infinisil/all-hies/#cached-builds
+*** 2. Installation of HIE: https://github.com/infinisil/all-hies/#cached-builds
 
-**** 2.1. Cached builds
+**** 2.1. Provide cached builds
 
 #+begin_src fish
 cachix use all-hies
 #+end_src
 
-**** 2.2.a. Installation in NixOS distribution:
+**** 2.2.a. Installation on NixOS distribution:
 
 #+begin_src nix
 { config, pkgs, ... }:
@@ -8089,17 +8088,19 @@ in {
 
 Insert your GHC versions.
 
+Switch to new configuration:
+
+#+begin_src fish
+sudo -i nixos-rebuild switch
+#+end_src
+
 **** 2.2.b. Installation with Nix package manager:
 
 #+begin_src fish
 nix-env -iA selection --arg selector 'p: { inherit (p) ghc865 ghc864; }' -f 'https://github.com/infinisil/all-hies/tarball/master'
 #+end_src
 
-**** 2.3. Switch to new configuration:
-
-#+begin_src fish
-sudo -i nixos-rebuild switch
-#+end_src
+Insert your GHC versions.
 
 *** 3. Emacs (Spacemacs) configuration:
 
