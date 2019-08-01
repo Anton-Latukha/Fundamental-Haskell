@@ -645,6 +645,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-148][/*/]]
   - [[#second-order-logic][<<<Second-order logic>>>]]
   - [[#higher-order-logic][<<<Higher-order logic>>>]]
+  - [[#logical-connective][<<<Logical connective>>>]]
+    - [[#-149][/*/]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -701,7 +703,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#basic-case-when-applicative-can-be-used][Basic case when Applicative can be used]]
       - [[#applicative-block-vs-monad-block][Applicative block vs Monad block]]
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
-    - [[#-149][/*/]]
+    - [[#-150][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
   - [[#good-exception-vs-error][<<<Good: Exception vs Error>>>]]
   - [[#good-let-vs-where][<<<Good: Let vs. Where>>>]]
@@ -751,7 +753,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#json---aeson][JSON - aeson]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-    - [[#-150][/*/]]
+    - [[#-151][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
 - [[#liturgy][Liturgy]]
@@ -7453,7 +7455,7 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 :ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
 :END:
 
-Logically undividable unit.
+Logically undividable unit. Does not contain logical connectives.
 
 **** /*/
 <<<Atomic propositions>>>
@@ -7472,6 +7474,11 @@ Formed by connecting propositions by logical connectives.
 
 ** <<<Higher-order logic>>>
 
+
+** <<<Logical connective>>>
+
+*** /*/
+<<<Logical connectives>>>
 
 * Citations
 
