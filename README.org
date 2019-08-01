@@ -7489,6 +7489,8 @@ Formed by connecting propositions by logical connectives.
 
 ** <<<Logical connective>>>
 
+Logical operation.
+
 *** /*/
 <<<Logical connectives>>>
 
