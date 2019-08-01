@@ -720,7 +720,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#1-install-the-cachix-httpsgithubcomcachixcachix][1. Install the Cachix: https://github.com/cachix/cachix]]
     - [[#2-install-hie-on-nixos-httpsgithubcominfinisilall-hiescached-builds][2. Install HIE on NixOS: https://github.com/infinisil/all-hies/#cached-builds]]
       - [[#21-cached-builds][2.1. Cached builds]]
-      - [[#22-nixos-installation][2.2. NixOS installation:]]
+      - [[#22a-installation-in-nixos-distribution][2.2.a. Installation in NixOS distribution:]]
+      - [[#22b-installation-with-nix-package-manager][2.2.b. Installation with Nix package manager:]]
       - [[#23-switch-to-new-configuration][2.3. Switch to new configuration:]]
     - [[#3-emacs-spacemacs-configuration][3. Emacs (Spacemacs) configuration:]]
     - [[#4-open-the-haskell-file-from-a-project][4. Open the Haskell file from a project]]
@@ -7959,7 +7960,7 @@ https://codesearch.aelve.com/
 cachix use all-hies
 #+end_src
 
-**** 2.2. NixOS installation:
+**** 2.2.a. Installation in NixOS distribution:
 
 #+begin_src nix
 { config, pkgs, ... }:
@@ -7978,6 +7979,12 @@ in {
 #+end_src
 
 Insert your GHC versions.
+
+**** 2.2.b. Installation with Nix package manager:
+
+#+begin_src fish
+nix-env -iA selection --arg selector 'p: { inherit (p) ghc865 ghc864; }' -f 'https://github.com/infinisil/all-hies/tarball/master'
+#+end_src
 
 **** 2.3. Switch to new configuration:
 
