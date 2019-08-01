@@ -7450,6 +7450,16 @@ Logically undividable unit.
 **** /*/
 <<<Atomic propositions>>>
 
+*** <<<Compound proposition>>> :drill:
+:PROPERTIES:
+:ID:       ac4054a2-b6e0-48ee-afa1-38be7c122690
+:END:
+
+Formed by connecting propositions by logical connectives.
+
+**** /*/
+<<<Compound propositions>>>
+
 ** <<<Second-order logic>>>
 
 ** <<<Higher-order logic>>>
