@@ -4108,8 +4108,11 @@ SCHT: <2019-08-07 Wed>
 Formal notation systems of sciences that use quantifiers, variables over non-logical objects, allows the use of expressions that contain variables.
 Distinguishes from propositional logic, which does not use quantifiers, relations.
 
+Turing-complete.
+
 *** /*/
 <<<Predicate logic>>>
+<<<First-order predicate logic>>>
 <<<First-order predicate calculus>>>
 
 ** <<<Free variable>>> :drill:
