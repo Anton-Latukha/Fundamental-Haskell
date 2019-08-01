@@ -7417,7 +7417,11 @@ Any type of the kind Constraints can be used as a constraint.
 :ID:       2640c170-c125-4f34-ad16-608686554075
 :END:
 
+Studies propositions and argument flow.
+
 *** /*/
+<<<Proposition logic>>>
+<<<Proposition calculus>>>
 <<<Propositional calculus>>>
 <<<Statement logic>>>
 <<<Sentential logic>>>
