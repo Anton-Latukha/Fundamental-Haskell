@@ -6487,11 +6487,24 @@ SCHT: <2019-08-03 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:43]
 :END:
 
-Declarative expression that is true or false.
+Declarative expression that is a bearer of a proposition.
+
+When we talk about expression or statement being true/false - in fact we refer to the proposition that they represent.
+
+Difference between proposition, statement, expression:
+1. "2 + 3 = 5"
+2. "two plus three equals five"
+
+  * 1 & 2 are statements. Each of them is a collection of transmission symbols (linguistic objects) from a symbol systems $$ \equiv $$ expression. Each of them is expression that bears proposition (an idea resulting in a Boolean value) $$ \equiv $$ statement.
+
+  * 1 & 2 represent the same proposition. Proposition from 1 $$ \equiv $$ proposition from 2.
+
+  * Statement 1 $$ \ne $$ statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" $$ \ne $$ statement "3 + 2 = 5".
 
 *** /*/
 <<<Assertion>>>
 <<<Assertions>>>
+<<<Statements>>>
 
 *** <<<Predicate>>> :drill:
 :PROPERTIES:
