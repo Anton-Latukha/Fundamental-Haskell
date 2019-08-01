@@ -7425,6 +7425,8 @@ Any type of the kind Constraints can be used as a constraint.
 
 Studies propositions and argument flow.
 
+Refers to logically indivisible units (atomic propositions) as such, for theory - they are abstractions with Boolean properties.
+
 *** /*/
 <<<Proposition logic>>>
 <<<Proposition calculus>>>
