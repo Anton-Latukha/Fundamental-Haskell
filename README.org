@@ -3995,7 +3995,7 @@ Data type inferred from the text of the code.
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
 :END:
 
-Finite combination of a symbols that is well-formed according to rules that depend on the context.
+Finite combination of symbols that is well-formed according to rules that depend on the context.
 
 *** /*/
 <<<Expressions>>>
