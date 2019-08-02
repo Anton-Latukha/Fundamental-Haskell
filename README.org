@@ -285,7 +285,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-63][/*/]]
     - [[#bound][<<<Bound>>>]]
       - [[#-65][/*/]]
-  - [[#dispatch][<<<Dispatch>>>]]
     - [[#constructor][<<<Constructor>>>]]
   - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#context][<<<Context>>>]]
@@ -296,6 +295,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-66][/*/]]
+  - [[#dispatch][<<<Dispatch>>>]]
   - [[#effect][<<<Effect>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
@@ -3830,7 +3830,6 @@ Summs cardinalities.
 **** /*/
 <<<Bounded>>>
 
-** <<<Dispatch>>> :drill:
 *** <<<Constructor>>> :drill:
 SCHT: <2019-08-03 Sat>
 :PROPERTIES:
@@ -3932,11 +3931,14 @@ $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 <<<Differential>>>
 
 ** <<<Dynamic scope>>> :drill:
+** <<<Dispatch>>> :drill:
 :PROPERTIES:
 :ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
+:ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :END:
 
 The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
+Send, transmission, reference.
 
 ** <<<Effect>>> :drill:
 :PROPERTIES:
