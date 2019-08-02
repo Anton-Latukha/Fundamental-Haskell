@@ -217,8 +217,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#hom-set][<<<Hom set>>>]]
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-47][/*/]]
-  - [[#closure][<<<Closure>>>]]
-    - [[#-48][/*/]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#concatenate][<<<Concatenate>>>]]
   - [[#conjunction][<<<Conjunction>>>]]
@@ -345,6 +343,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-79][/*/]]
       - [[#base-case][<<<Base case>>>]]
       - [[#tail-recursion][<<<Tail recursion>>>]]
+    - [[#closure][<<<Closure>>>]]
+      - [[#-78][/*/]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
   - [[#homotopy][<<<Homotopy>>>]]
@@ -3087,31 +3087,6 @@ Properties:
 <<<Duality>>>
 <<<Dual category>>>
 
-** <<<Closure>>> :drill:
-SCHT: <2019-07-27 Sat>
-:PROPERTIES:
-:ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
-:DRILL_LAST_INTERVAL: 25.88
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
-:END:
-
-$$ f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} $$, $$ \mathcal{X} $$ is closed under $$ f $$, it is a trivial case when operation is legitimate for all values of the domain.
-
-Operation on members of the domain always produces a members of the domain. The domain is closed under the operation.
-
-In the case when there is a domain values for which operation is not legitimate/not exists:
-
-$$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} $$, $$ \mathcal{X} $$ is closed under $$ f $$.
-
-*** /*/
-<<<Closed>>>
-
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
@@ -4530,6 +4505,31 @@ A part of a recursive function that trivially produces result.
 :END:
 
 Tail calls are recursive invocantions of itself.
+
+*** <<<Closure>>> :drill:
+SCHT: <2019-07-27 Sat>
+:PROPERTIES:
+:ID:       c20b75e8-cd85-4f41-84c2-660ffdb963dd
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:09]
+:END:
+
+$$ f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} $$, $$ \mathcal{X} $$ is closed under $$ f $$, it is a trivial case when operation is legitimate for all values of the domain.
+
+Operation on members of the domain always produces a members of the domain. The domain is closed under the operation.
+
+In the case when there is a domain values for which operation is not legitimate/not exists:
+
+$$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} $$, $$ \mathcal{X} $$ is closed under $$ f $$.
+
+**** /*/
+<<<Closed>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
 SCHT: <2019-08-04 Sun>
