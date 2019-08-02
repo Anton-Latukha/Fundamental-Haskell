@@ -6509,7 +6509,8 @@ Difference between proposition, statement, expression:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
 :END:
 
-Assertion function that includes variable and results in true or false statement.
+Function with Boolean codomain.
+$$ P: X \to \{ true, \ false \} $$ - /*/ on $$ X $$.
 
 Notation: $$ P(x) $$
 Application of argument yealds true or false predicate.
