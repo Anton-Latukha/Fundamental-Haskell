@@ -71,8 +71,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#binary][<<<Binary>>>]]
   - [[#bind][<<<Bind>>>]]
     - [[#-6][/*/]]
-  - [[#bottom-value][<<<Bottom value>>>]]
-    - [[#-7][/*/]]
   - [[#bound][<<<Bound>>>]]
     - [[#-8][/*/]]
   - [[#cartesian-product][<<<Cartesian product>>>]]
@@ -292,6 +290,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
     - [[#session-type][<<<Session type>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
+    - [[#bottom-value][<<<Bottom value>>>]]
+      - [[#-63][/*/]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-67][/*/]]
@@ -1070,30 +1070,6 @@ Most often:
 *** /*/
 <<<Binds>>>
 <<<Binding>>>
-
-** <<<Bottom value>>> :drill:
-SCHT: <2019-09-30 Mon>
-:PROPERTIES:
-:ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
-:DRILL_LAST_INTERVAL: 60.9019
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:14]
-:END:
-
-A =_= non-value in the type or pattern match expression. Placeholder for enything.
-
-#+begin_src haskell
--- _ fits *.
-#+end_src
-
-*** /*/
-<<<Bottom>>>
-<<<Bottom values>>>
 
 ** <<<Bound>>> :drill:
 SCHT: <2019-10-01 Tue>
@@ -3923,6 +3899,11 @@ data BinaryTree a
   deriving (Eq, Ord, Show)
 #+end_src
 
+*** <<<Bottom value>>> :drill:
+SCHT: <2019-09-30 Mon>
+:PROPERTIES:
+:ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
+:DRILL_LAST_INTERVAL: 60.9019
 :DRILL_REPEATS_SINCE_FAIL: 5
 :DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
@@ -3944,18 +3925,27 @@ SCHT: <2019-08-31 Sat>
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
 :DRILL_EASE: 2.8
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:14]
 :END:
 
 Denotation.
 $$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
 Last one is partial.
+A =_= non-value in the type or pattern match expression. Placeholder for enything.
 
 $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
+#+begin_src haskell
+-- _ fits *.
+#+end_src
 
 *** /*/
 <<<Differential>>>
+**** /*/
+<<<Bottom>>>
+<<<Bottom values>>>
 
 ** <<<Disjunction>>> :drill:
 SCHT: <2019-10-01 Tue>
