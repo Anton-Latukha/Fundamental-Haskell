@@ -5112,7 +5112,7 @@ SCHT: <2019-08-03 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:00]
 :END:
 
-Function that denoted by symbol.
+Denotation symbol/name for the operation.
 
 *** <<<Shift operator>>> :drill:
 :PROPERTIES:
