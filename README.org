@@ -280,7 +280,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-62][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
     - [[#session-type][<<<Session type>>>]]
-  - [[#declaration][<<<Declaration>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
@@ -297,6 +296,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#inhabit][<<<Inhabit>>>]]
     - [[#-67][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
+  - [[#declaration][<<<Declaration>>>]]
   - [[#effect][<<<Effect>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
@@ -3793,50 +3793,24 @@ SCHT: <2019-09-30 Mon>
 :DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:53]
-:END:
-
-Binding name to expression.
-
-** <<<Differential operator>>> :drill:
-SCHT: <2019-08-31 Sat>
-:PROPERTIES:
-:ID:       1ffad9d0-5207-422f-b979-8118bbcba152
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
 :DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:14]
 :END:
 
-Denotation.
-$$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
-Last one is partial.
 A =_= non-value in the type or pattern match expression. Placeholder for enything.
 
-$$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 #+begin_src haskell
 -- _ fits *.
 #+end_src
 
-*** /*/
-<<<Differential>>>
 **** /*/
 <<<Bottom>>>
 <<<Bottom values>>>
 
-** <<<Disjunction>>> :drill:
 *** <<<Bound>>> :drill:
 SCHT: <2019-10-01 Tue>
 :PROPERTIES:
-:ID:       beba897a-84ca-42c9-a094-ba48487c587b
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
 :DRILL_LAST_INTERVAL: 62.4354
 :DRILL_REPEATS_SINCE_FAIL: 5
@@ -3913,6 +3887,22 @@ TypeClass a => ...
 :END:
 
 What values inhabit data type
+
+** <<<Declaration>>> :drill:
+SCHT: <2019-10-04 Fri>
+:PROPERTIES:
+:ID:       461111ea-4124-427f-bfc6-f83212a07951
+:DRILL_LAST_INTERVAL: 64.7
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:53]
+:END:
+
+Binding name to expression.
 
 
 *** /*/
