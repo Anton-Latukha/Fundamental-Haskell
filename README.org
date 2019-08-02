@@ -282,7 +282,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#session-type][<<<Session type>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
-  - [[#disjunction][<<<Disjunction>>>]]
+      - [[#-63][/*/]]
     - [[#bound][<<<Bound>>>]]
       - [[#-65][/*/]]
   - [[#dispatch][<<<Dispatch>>>]]
@@ -556,6 +556,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#logical-connective][<<<Logical connective>>>]]
       - [[#-130][/*/]]
       - [[#conjunction][<<<Conjunction>>>]]
+      - [[#disjunction][<<<Disjunction>>>]]
     - [[#predicate][<<<Predicate>>>]]
     - [[#statement][<<<Statement>>>]]
       - [[#-131][/*/]]
@@ -7012,6 +7013,26 @@ Haskell kind:
 #+begin_src haskell
  * *
 #+end_src
+
+**** <<<Disjunction>>> :drill:
+SCHT: <2019-10-01 Tue>
+:PROPERTIES:
+:ID:       beba897a-84ca-42c9-a094-ba48487c587b
+:DRILL_LAST_INTERVAL: 62.4354
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:52]
+:END:
+
+Logical $$ OR $$
+Denotation:
+$$ \lor $$
+
+Summs cardinalities.
 
 *** <<<Predicate>>> :drill:
 :PROPERTIES:
