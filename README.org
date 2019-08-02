@@ -496,22 +496,19 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#shrinking][<<<Shrinking>>>]]
   - [[#smart-constructor][<<<Smart constructor>>>]]
   - [[#spine][<<<Spine>>>]]
-  - [[#statement][<<<Statement>>>]]
-    - [[#-115][/*/]]
-    - [[#predicate][<<<Predicate>>>]]
   - [[#superclass][<<<Superclass>>>]]
   - [[#syntatic-sugar][<<<Syntatic sugar>>>]]
   - [[#system-f][<<<System F>>>]]
-    - [[#-116][/*/]]
+    - [[#-115][/*/]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-117][/*/]]
+    - [[#-116][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-118][/*/]]
+        - [[#-117][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -526,39 +523,42 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-119][/*/]]
+    - [[#-118][/*/]]
   - [[#zero][<<<Zero>>>]]
   - [[#modular-arithmetic][<<<Modular arithmetic>>>]]
-    - [[#-120][/*/]]
+    - [[#-119][/*/]]
   - [[#property][<<<Property>>>]]
-    - [[#-121][/*/]]
+    - [[#-120][/*/]]
     - [[#associative-law][<<<Associative law>>>]]
-      - [[#-122][/*/]]
+      - [[#-121][/*/]]
     - [[#left-associative][<<<Left associative>>>]]
-      - [[#-123][/*/]]
+      - [[#-122][/*/]]
     - [[#basis][<<<Basis>>>]]
     - [[#commutativity][<<<Commutativity>>>]]
-      - [[#-124][/*/]]
+      - [[#-123][/*/]]
     - [[#idempotence][<<<Idempotence>>>]]
-      - [[#-125][/*/]]
+      - [[#-124][/*/]]
   - [[#backpack][<<<Backpack>>>]]
   - [[#nullary][<<<Nullary>>>]]
   - [[#arbitrary][<<<Arbitrary>>>]]
   - [[#logic][Logic]]
-    - [[#logical-connective][<<<Logical connective>>>]]
-      - [[#-126][/*/]]
     - [[#proposition][<<<Proposition>>>]]
-      - [[#-127][/*/]]
+      - [[#-125][/*/]]
       - [[#atomic-proposition][<<<Atomic proposition>>>]]
-        - [[#-128][/*/]]
+        - [[#-126][/*/]]
       - [[#compound-proposition][<<<Compound proposition>>>]]
-        - [[#-129][/*/]]
+        - [[#-127][/*/]]
       - [[#propositional-logic][<<<Propositional logic>>>]]
-        - [[#-130][/*/]]
+        - [[#-128][/*/]]
         - [[#first-order-logic][<<<First-order logic>>>]]
-          - [[#-131][/*/]]
+          - [[#-129][/*/]]
           - [[#second-order-logic][<<<Second-order logic>>>]]
             - [[#higher-order-logic][<<<Higher-order logic>>>]]
+    - [[#logical-connective][<<<Logical connective>>>]]
+      - [[#-130][/*/]]
+    - [[#predicate][<<<Predicate>>>]]
+    - [[#statement][<<<Statement>>>]]
+      - [[#-131][/*/]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -6471,51 +6471,6 @@ _   :
 
 #+end_src
 
-** <<<Statement>>> :drill:
-SCHT: <2019-08-03 Sat>
-:PROPERTIES:
-:ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:43]
-:END:
-
-Declarative expression that is a bearer of a proposition.
-
-When we talk about expression or statement being true/false - in fact we refer to the proposition that they represent.
-
-Difference between proposition, statement, expression:
-1. "2 + 3 = 5"
-2. "two plus three equals five"
-
-  * 1 & 2 are statements. Each of them is a collection of transmission symbols (linguistic objects) from a symbol systems $$ \equiv $$ expression. Each of them is expression that bears proposition (an idea resulting in a Boolean value) $$ \equiv $$ statement.
-
-  * 1 & 2 represent the same proposition. Proposition from 1 $$ \equiv $$ proposition from 2.
-
-  * Statement 1 $$ \ne $$ statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" $$ \ne $$ statement "3 + 2 = 5".
-
-*** /*/
-<<<Assertion>>>
-<<<Assertions>>>
-<<<Statements>>>
-
-*** <<<Predicate>>> :drill:
-:PROPERTIES:
-:ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
-:END:
-
-Function with Boolean codomain.
-$$ P: X \to \{ true, \ false \} $$ - /*/ on $$ X $$.
-
-Notation: $$ P(x) $$
-
-Almost always can include relations, quantifiers.
-
 ** <<<Superclass>>> :drill:
 :PROPERTIES:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
@@ -6971,16 +6926,6 @@ Having trivial domain.
 :ID:       4960f252-a074-41d3-9bf1-ce46d09052bc
 :END:
 
-*** <<<Logical connective>>> :drill:
-:PROPERTIES:
-:ID:       0e5b50bc-8b00-463f-b9ad-f04fd3a525ac
-:END:
-
-Logical operation.
-
-**** /*/
-<<<Logical connectives>>>
-
 *** <<<Proposition>>> :drill:
 :PROPERTIES:
 :ID:       8f814f63-6331-4179-abb5-264b9727ecf7
@@ -7073,6 +7018,61 @@ Extension over first-order logic that quantifies over relations.
 Extension over second-order logic that uses additional quantifiers, stronger semantics.
 
 Is more expressive, but model-theoretic properties are less well-behaved.
+
+*** <<<Logical connective>>> :drill:
+:PROPERTIES:
+:ID:       0e5b50bc-8b00-463f-b9ad-f04fd3a525ac
+:END:
+
+Logical operation.
+
+**** /*/
+<<<Logical connectives>>>
+
+*** <<<Predicate>>> :drill:
+:PROPERTIES:
+:ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
+:END:
+
+Function with Boolean codomain.
+$$ P: X \to \{ true, \ false \} $$ - /*/ on $$ X $$.
+
+Notation: $$ P(x) $$
+
+Almost always can include relations, quantifiers.
+
+*** <<<Statement>>> :drill:
+SCHT: <2019-08-03 Sat>
+:PROPERTIES:
+:ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:43]
+:END:
+
+Declarative expression that is a bearer of a proposition.
+
+When we talk about expression or statement being true/false - in fact we refer to the proposition that they represent.
+
+Difference between proposition, statement, expression:
+1. "2 + 3 = 5"
+2. "two plus three equals five"
+
+  * 1 & 2 are statements. Each of them is a collection of transmission symbols (linguistic objects) from a symbol systems $$ \equiv $$ expression. Each of them is expression that bears proposition (an idea resulting in a Boolean value) $$ \equiv $$ statement.
+
+  * 1 & 2 represent the same proposition. Proposition from 1 $$ \equiv $$ proposition from 2.
+
+  * Statement 1 $$ \ne $$ statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" $$ \ne $$ statement "3 + 2 = 5".
+
+**** /*/
+<<<Assertion>>>
+<<<Assertions>>>
+<<<Statements>>>
 
 * Give definitions
 
