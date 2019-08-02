@@ -282,9 +282,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#session-type][<<<Session type>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
-  - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-63][/*/]]
-      - [[#-64][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
     - [[#bound][<<<Bound>>>]]
       - [[#-65][/*/]]
@@ -297,6 +294,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#-67][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#declaration][<<<Declaration>>>]]
+  - [[#differential-operator][<<<Differential operator>>>]]
+    - [[#-66][/*/]]
   - [[#effect][<<<Effect>>>]]
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
@@ -3904,12 +3903,32 @@ SCHT: <2019-10-04 Fri>
 
 Binding name to expression.
 
+** <<<Differential operator>>> :drill:
+SCHT: <2019-08-31 Sat>
+:PROPERTIES:
+:ID:       1ffad9d0-5207-422f-b979-8118bbcba152
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
+:END:
+
+Denotation.
+$$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
+Last one is partial.
+
+$$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 
 *** /*/
 <<<Distributive rule>>>
 <<<Distributive property>>>
 <<<Distributive law>>>
 <<<Distributive>>>
+<<<Differential>>>
 
 ** <<<Dynamic scope>>> :drill:
 :PROPERTIES:
