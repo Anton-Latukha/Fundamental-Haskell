@@ -4743,9 +4743,11 @@ $$ \lambda x y.x^2 + y^3 $$
 **** <<<Lambda expression>>>
 See Lambda function
 
-**** <<<Anonymous function>>>
+**** <<<Anonymous lambda function>>>
 Lambda function without the name to bind to.
 
+***** /*/
+<<<Anonymous lambda function>>>
 *** <<<\beta-reduction>>> :drill:
 SCHT: <2019-08-25 Sun>
 :PROPERTIES:
