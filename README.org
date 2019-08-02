@@ -218,7 +218,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-45][/*/]]
   - [[#coalgebra][<<<Coalgebra>>>]]
-  - [[#conjunction][<<<Conjunction>>>]]
   - [[#context][<<<Context>>>]]
     - [[#-46][/*/]]
   - [[#contravariant][<<<Contravariant>>>]]
@@ -556,6 +555,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
             - [[#higher-order-logic][<<<Higher-order logic>>>]]
     - [[#logical-connective][<<<Logical connective>>>]]
       - [[#-130][/*/]]
+      - [[#conjunction][<<<Conjunction>>>]]
     - [[#predicate][<<<Predicate>>>]]
     - [[#statement][<<<Statement>>>]]
       - [[#-131][/*/]]
@@ -3094,29 +3094,6 @@ Properties:
 
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
-
-** <<<Conjunction>>> :drill:
-SCHT: <2019-10-05 Sat>
-:PROPERTIES:
-:ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
-:DRILL_LAST_INTERVAL: 65.6862
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:53]
-:END:
-
-Logical AND
-
-Multiplies cardinalities.
-
-Haskell kind:
-#+begin_src haskell
- * *
-#+end_src
 
 ** <<<Context>>> :drill:
 SCHT: <2019-08-29 Thu>
@@ -6996,6 +6973,32 @@ Logical operation.
 
 **** /*/
 <<<Logical connectives>>>
+
+**** <<<Conjunction>>> :drill:
+SCHT: <2019-10-05 Sat>
+:PROPERTIES:
+:ID:       3f47a5a4-aa8a-43a5-a834-b16f02ee343d
+:DRILL_LAST_INTERVAL: 65.6862
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:53]
+:END:
+
+Logical AND.
+
+Denotation:
+$$ \land $$
+
+Multiplies cardinalities.
+
+Haskell kind:
+#+begin_src haskell
+ * *
+#+end_src
 
 *** <<<Predicate>>> :drill:
 :PROPERTIES:
