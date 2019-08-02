@@ -4486,7 +4486,8 @@ Variadic function has a indefinite arity. Assepts a variable number of arguments
 :ID:       61416c64-6cbf-4af4-9428-ad6f79e76701
 :END:
 
-Source set of a function in $$ X \to Y $$.
+Source set of a function.
+$$ X $$ in $$ X \to Y $$.
 
 *** <<<Codomain>>> :drill:
 SCHT: <2019-07-28 Sun>
