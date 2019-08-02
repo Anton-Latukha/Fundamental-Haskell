@@ -69,7 +69,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-5][/*/]]
   - [[#as-pattern][<<<As-pattern>>>]]
   - [[#binary][<<<Binary>>>]]
-  - [[#binary-tree][<<<Binary tree>>>]]
   - [[#bind][<<<Bind>>>]]
     - [[#-6][/*/]]
   - [[#bottom-value][<<<Bottom value>>>]]
@@ -292,6 +291,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
       - [[#-66][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
     - [[#session-type][<<<Session type>>>]]
+    - [[#binary-tree][<<<Binary tree>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-67][/*/]]
@@ -1046,18 +1046,6 @@ SCHT: <2019-07-31 Wed>
 :END:
 
 Two of something.
-
-** <<<Binary tree>>> :drill:
-:PROPERTIES:
-:ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
-:END:
-
-#+begin_src haskell
-data BinaryTree a
-  = [[Leaf]]
-  | [[Node]] (BinaryTree a) a (BinaryTree a)
-  deriving (Eq, Ord, Show)
-#+end_src
 
 ** <<<Bind>>> :drill:
 SCHT: <2019-09-27 Fri>
@@ -3921,9 +3909,20 @@ data NonEmpty a = a :| [a]
 So far very complex not very productive (& well-established) topic.
 ** <<<Declaration>>> :drill:
 SCHT: <2019-10-04 Fri>
+*** <<<Binary tree>>> :drill:
 :PROPERTIES:
 :ID:       461111ea-4124-427f-bfc6-f83212a07951
 :DRILL_LAST_INTERVAL: 64.7
+:ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
+:END:
+
+#+begin_src haskell
+data BinaryTree a
+  = [[Leaf]]
+  | [[Node]] (BinaryTree a) a (BinaryTree a)
+  deriving (Eq, Ord, Show)
+#+end_src
+
 :DRILL_REPEATS_SINCE_FAIL: 5
 :DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
