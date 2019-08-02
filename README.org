@@ -7397,7 +7397,7 @@ SCHT: <2019-08-28 Wed>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:06]
 :END:
 
-Fully defined & non-polymorphic type.
+Fully defined type. Non-polymorphic type.
 
 ** <<<Functional dependencies>>>
 
