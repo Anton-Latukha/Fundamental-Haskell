@@ -218,82 +218,83 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-45][/*/]]
   - [[#coalgebra][<<<Coalgebra>>>]]
-  - [[#context][<<<Context>>>]]
-    - [[#-46][/*/]]
   - [[#contravariant][<<<Contravariant>>>]]
-    - [[#-47][/*/]]
+    - [[#-46][/*/]]
   - [[#covariant][<<<Covariant>>>]]
-    - [[#-48][/*/]]
+    - [[#-47][/*/]]
   - [[#data-type][<<<Data type>>>]]
-    - [[#-49][/*/]]
+    - [[#-48][/*/]]
     - [[#actual-type][<<<Actual type>>>]]
     - [[#algebraic-data-type][<<<Algebraic data type>>>]]
-      - [[#-50][/*/]]
+      - [[#-49][/*/]]
     - [[#cardinality][<<<Cardinality>>>]]
     - [[#data-constant][<<<Data constant>>>]]
     - [[#data-constructor][<<<Data constructor>>>]]
     - [[#data-declaration][<<<data declaration>>>]]
     - [[#dependent-type][<<<Dependent type>>>]]
-      - [[#-51][/*/]]
+      - [[#-50][/*/]]
     - [[#gen-type][<<<Gen type>>>]]
     - [[#higher-kinded-data-type][<<<Higher-kinded data type>>>]]
-      - [[#-52][/*/]]
+      - [[#-51][/*/]]
     - [[#newtype-declaration][<<<newtype declaration>>>]]
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-53][/*/]]
+      - [[#-52][/*/]]
     - [[#structural-type-system][<<<Structural type system>>>]]
-      - [[#-54][/*/]]
+      - [[#-53][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-55][/*/]]
+      - [[#-54][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
         - [[#arbitrary-function][<<<Arbitrary function>>>]]
       - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
-        - [[#-56][/*/]]
+        - [[#-55][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
-        - [[#-57][/*/]]
+        - [[#-56][/*/]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
-      - [[#-58][/*/]]
+      - [[#-57][/*/]]
     - [[#type-inference][<<<Type inference>>>]]
-      - [[#-59][/*/]]
+      - [[#-58][/*/]]
     - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-60][/*/]]
+      - [[#-59][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-61][/*/]]
+      - [[#-60][/*/]]
     - [[#data-structure][<<<Data structure>>>]]
       - [[#cons-cell][<<<Cons cell>>>]]
       - [[#construct][<<<Construct>>>]]
-        - [[#-62][/*/]]
+        - [[#-61][/*/]]
       - [[#leaf][<<<Leaf>>>]]
       - [[#node][<<<Node>>>]]
     - [[#linear-type][<<<Linear type>>>]]
-      - [[#-63][/*/]]
+      - [[#-62][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
     - [[#session-type][<<<Session type>>>]]
   - [[#declaration][<<<Declaration>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
-    - [[#-64][/*/]]
-      - [[#-65][/*/]]
+    - [[#-63][/*/]]
+      - [[#-64][/*/]]
   - [[#disjunction][<<<Disjunction>>>]]
     - [[#bound][<<<Bound>>>]]
-      - [[#-66][/*/]]
+      - [[#-65][/*/]]
   - [[#dispatch][<<<Dispatch>>>]]
     - [[#constructor][<<<Constructor>>>]]
   - [[#distributive-axiom][<<<Distributive axiom>>>]]
+    - [[#context][<<<Context>>>]]
+      - [[#-66][/*/]]
+    - [[#inhabit][<<<Inhabit>>>]]
     - [[#-67][/*/]]
   - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#effect][<<<Effect>>>]]
@@ -353,7 +354,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#iff][<<<Iff>>>]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
-  - [[#inhabit][<<<Inhabit>>>]]
+  - [[#inhabit-1][<<<Inhabit>>>]]
   - [[#interface][<<<Interface>>>]]
   - [[#io][<<<IO>>>]]
   - [[#kind][<<<Kind>>>]]
@@ -3095,29 +3096,6 @@ Properties:
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 
-** <<<Context>>> :drill:
-SCHT: <2019-08-29 Thu>
-:PROPERTIES:
-:ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
-:DRILL_LAST_INTERVAL: 28.8322
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:15]
-:END:
-
-Type constraints for polymorphic variables.
-Written before the main type signature, denoted:
-#+begin_src haskell
-TypeClass a => ...
-#+end_src
-
-*** /*/
-<<<Contexts>>>
-
 ** <<<Contravariant>>> :drill:
 :PROPERTIES:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
@@ -3901,15 +3879,41 @@ Send, transmission, reference.
 Also see: Constant
 
 ** <<<Distributive axiom>>> :drill:
+*** <<<Context>>> :drill:
+SCHT: <2019-08-29 Thu>
 :PROPERTIES:
 :ID:       6ea04559-091b-4151-b190-e97a88bb317a
+:ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
+:DRILL_LAST_INTERVAL: 28.8322
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:15]
 :END:
 
 Set S and two binary operators + \times:
+Type constraints for polymorphic variables.
+Written before the main type signature, denoted:
+#+begin_src haskell
+TypeClass a => ...
+#+end_src
 
   * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
   * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
   * left-&right-distributive - \times is distributive over +
+**** /*/
+<<<Contexts>>>
+
+*** <<<Inhabit>>> :drill:
+:PROPERTIES:
+:ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
+:END:
+
+What values inhabit data type
+
 
 *** /*/
 <<<Distributive rule>>>
