@@ -2344,7 +2344,7 @@ runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, 
 
 =WriterT=, =Writer= unnecessarily keeps the entire logs in the memory. Use =fast-logger= for logging.
 
-******* <<<State monad>>>
+******* <<<State monad>>> :drill:
 :PROPERTIES:
 :ID:       800e0e70-a69e-48e9-8592-426f5dd910cf
 :END:
@@ -2421,7 +2421,10 @@ fmap f . fmap g = fmap (f . g)
 
 This functor axiom allows to greatly simplify computations, it is called /*/.
 
-*** <<<Hask category>>>
+*** <<<Hask category>>> :drill:
+:PROPERTIES:
+:ID:       dc1a0e79-c4bc-4c46-a9d7-84bb4f1d6a2e
+:END:
 
 Category of Haskell where objects are types and morphisms are functions.
 
@@ -2445,7 +2448,10 @@ Haskell and Category concepts:
 
 Set with a binary operation which form a closure.
 
-**** <<<Mag category>>>
+**** <<<Mag category>>> :drill:
+:PROPERTIES:
+:ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
+:END:
 The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 
 ***** /*/
@@ -2603,7 +2609,10 @@ Monoid with inverse for every element (element operation with inverse gives iden
 ******* /*/
 <<<Groups>>>
 
-******* <<<Commutative group>>>
+******* <<<Commutative group>>> :drill:
+:PROPERTIES:
+:ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
+:END:
 Group operation obeys the axiom of commutativity.
 
 ******** /*/
@@ -2963,7 +2972,10 @@ Morphism of elements from the kernel. Map of elements that make main morphism no
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
-*** <<<Object>>>
+*** <<<Object>>> :drill:
+:PROPERTIES:
+:ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
+:END:
 Mathematical structure. Morphisms preserve structure.
 
 **** /*/
@@ -3051,20 +3063,26 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 ***** /*/
 <<<Component of natural transformation>>>
 
-**** <<<Natural transformation in Haskell>>>
+**** <<<Natural transformation in Haskell>>> :drill:
+:PROPERTIES:
+:ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
+:END:
 
 /*/ is a family of morphisms parametrized by type (parametric polymorphism functions) between endofunctors (Functor, Applicative, Monad).
 
 /*/ in Hask is $$ F \ a \to G \ a $$ - repackages data into another container, never modifies the object content, it only if - can delete it. If other - that can not be called a /*/.
 
-*** <<<Hom set>>>
+*** <<<Hom set>>> :drill:
 :PROPERTIES:
 :ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
 :END:
 
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
-*** <<<Category dual>>>
+*** <<<Category dual>>> :drill:
+:PROPERTIES:
+:ID:       942d9234-d549-46a3-b051-ef1ac73244ad
+:END:
 
 Category duality behaves like a logical inverse.
 
