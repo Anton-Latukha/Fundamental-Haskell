@@ -4503,7 +4503,8 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
 
-Codomain - target set of a function in $X \to Y$.
+Codomain - target set of a function.
+$$ Y $$ in $X \to Y$.
 
 *** <<<Open formula>>> :drill:
 SCHT: <2019-08-01 Thu>
