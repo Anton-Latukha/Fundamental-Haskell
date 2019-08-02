@@ -71,8 +71,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#binary][<<<Binary>>>]]
   - [[#bind][<<<Bind>>>]]
     - [[#-6][/*/]]
-  - [[#bound][<<<Bound>>>]]
-    - [[#-8][/*/]]
   - [[#cartesian-product][<<<Cartesian product>>>]]
     - [[#-9][/*/]]
   - [[#case][<<<Case>>>]]
@@ -292,6 +290,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
       - [[#-63][/*/]]
+    - [[#bound][<<<Bound>>>]]
+      - [[#-64][/*/]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-67][/*/]]
@@ -1070,25 +1070,6 @@ Most often:
 *** /*/
 <<<Binds>>>
 <<<Binding>>>
-
-** <<<Bound>>> :drill:
-SCHT: <2019-10-01 Tue>
-:PROPERTIES:
-:ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
-:DRILL_LAST_INTERVAL: 62.4354
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
-:END:
-
-Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
-
-*** /*/
-<<<Bounded>>>
 
 ** <<<Cartesian product>>> :drill:
 :PROPERTIES:
@@ -3948,9 +3929,11 @@ $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 <<<Bottom values>>>
 
 ** <<<Disjunction>>> :drill:
+*** <<<Bound>>> :drill:
 SCHT: <2019-10-01 Tue>
 :PROPERTIES:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
+:ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
 :DRILL_LAST_INTERVAL: 62.4354
 :DRILL_REPEATS_SINCE_FAIL: 5
 :DRILL_TOTAL_REPEATS: 4
@@ -3959,11 +3942,15 @@ SCHT: <2019-10-01 Tue>
 :DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:52]
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
 :END:
 
 OR
+Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 
 Summs cardinalities.
+**** /*/
+<<<Bounded>>>
 
 ** <<<Dispatch>>> :drill:
 :PROPERTIES:
