@@ -218,7 +218,6 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-47][/*/]]
   - [[#coalgebra][<<<Coalgebra>>>]]
-  - [[#concatenate][<<<Concatenate>>>]]
   - [[#conjunction][<<<Conjunction>>>]]
   - [[#constructor][<<<Constructor>>>]]
   - [[#context][<<<Context>>>]]
@@ -307,6 +306,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
+    - [[#concatenate][<<<Concatenate>>>]]
   - [[#first-class][<<<First-class>>>]]
   - [[#free-variable][<<<Free variable>>>]]
   - [[#function][<<<Function>>>]]
@@ -3095,13 +3095,6 @@ Properties:
 Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
 Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 
-** <<<Concatenate>>> :drill:
-:PROPERTIES:
-:ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
-:END:
-
-Link together sequences.
-
 ** <<<Conjunction>>> :drill:
 SCHT: <2019-10-05 Sat>
 :PROPERTIES:
@@ -4054,13 +4047,16 @@ SCHT: <2019-07-30 Tue>
 Reducible expression.
 
 ** <<<First-class>>> :drill:
+*** <<<Concatenate>>> :drill:
 :PROPERTIES:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
+:ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
 :END:
 
 1. Can be used as value.
 2. Passed as an argument.
 From 1&2 -> can include itself.
+Link together sequences, expressions.
 
 ** <<<Free variable>>> :drill:
 SCHT: <2019-07-30 Tue>
