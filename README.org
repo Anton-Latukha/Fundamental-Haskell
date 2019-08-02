@@ -6513,7 +6513,8 @@ Function with Boolean codomain.
 $$ P: X \to \{ true, \ false \} $$ - /*/ on $$ X $$.
 
 Notation: $$ P(x) $$
-Application of argument yealds true or false predicate.
+
+Almost always can include relations, quantifiers.
 
 ** <<<Superclass>>> :drill:
 :PROPERTIES:
