@@ -4740,9 +4740,6 @@ $$ \lambda x y.x^2 + y^3 $$
 (___)
    \____HEAD
 
-**** <<<Lambda expression>>>
-See Lambda function
-
 **** <<<Anonymous lambda function>>>
 Lambda function without the name to bind to.
 
@@ -4894,6 +4891,9 @@ $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 <<<eta abstraction>>>
 <<<eta reduction>>>
 <<<eta conversion>>>
+
+*** <<<Lambda expression>>>
+See Lambda calculus (Lambda terms) and Expression. In majority cases meaning some Lambda function.
 
 ** <<<Lense>>> :drill:
 :PROPERTIES:
