@@ -284,14 +284,11 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#bottom-value][<<<Bottom value>>>]]
       - [[#-63][/*/]]
     - [[#bound][<<<Bound>>>]]
-      - [[#-65][/*/]]
+      - [[#-64][/*/]]
     - [[#constructor][<<<Constructor>>>]]
-  - [[#distributive-axiom][<<<Distributive axiom>>>]]
     - [[#context][<<<Context>>>]]
-      - [[#-66][/*/]]
+      - [[#-65][/*/]]
     - [[#inhabit][<<<Inhabit>>>]]
-    - [[#-67][/*/]]
-  - [[#dynamic-scope][<<<Dynamic scope>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-66][/*/]]
@@ -300,140 +297,135 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#evaluation][<<<Evaluation>>>]]
   - [[#expected-type][<<<Expected type>>>]]
   - [[#expression][<<<Expression>>>]]
-    - [[#-68][/*/]]
+    - [[#-67][/*/]]
     - [[#closed-form-expression][<<<Closed-form expression>>>]]
     - [[#rhs][<<<RHS>>>]]
     - [[#lhs][<<<LHS>>>]]
     - [[#redex][<<<Redex>>>]]
-  - [[#first-class][<<<First-class>>>]]
     - [[#concatenate][<<<Concatenate>>>]]
-  - [[#free-variable][<<<Free variable>>>]]
+  - [[#first-class][<<<First-class>>>]]
   - [[#function][<<<Function>>>]]
-    - [[#-69][/*/]]
+    - [[#-68][/*/]]
     - [[#arity][<<<Arity>>>]]
     - [[#bijection][<<<Bijection>>>]]
-      - [[#-70][/*/]]
+      - [[#-69][/*/]]
     - [[#combinator][<<<Combinator>>>]]
     - [[#function-application][<<<Function application>>>]]
-      - [[#-71][/*/]]
+      - [[#-70][/*/]]
     - [[#function-body][<<<Function body>>>]]
     - [[#function-composition][<<<Function composition>>>]]
-      - [[#-72][/*/]]
+      - [[#-71][/*/]]
     - [[#function-head][<<<Function head>>>]]
     - [[#function-range][<<<Function range>>>]]
     - [[#higher-order-function][<<<Higher-order function>>>]]
-      - [[#-73][/*/]]
+      - [[#-72][/*/]]
       - [[#fold][<<<Fold>>>]]
     - [[#injection][<<<Injection>>>]]
-      - [[#-74][/*/]]
+      - [[#-73][/*/]]
     - [[#partial-function][<<<Partial function>>>]]
     - [[#purity][<<<Purity>>>]]
-      - [[#-75][/*/]]
+      - [[#-74][/*/]]
     - [[#sectioning][<<<Sectioning>>>]]
     - [[#surjection][<<<Surjection>>>]]
-      - [[#-76][/*/]]
+      - [[#-75][/*/]]
     - [[#unsafe-function][<<<Unsafe function>>>]]
-      - [[#-77][/*/]]
+      - [[#-76][/*/]]
     - [[#variadic][<<<Variadic>>>]]
     - [[#domain][<<<Domain>>>]]
     - [[#codomain][<<<Codomain>>>]]
     - [[#open-formula][<<<Open formula>>>]]
     - [[#recursion][<<<Recursion>>>]]
-      - [[#-78][/*/]]
+      - [[#-77][/*/]]
       - [[#base-case][<<<Base case>>>]]
       - [[#tail-recursion][<<<Tail recursion>>>]]
+    - [[#free-variable][<<<Free variable>>>]]
     - [[#closure][<<<Closure>>>]]
-      - [[#-79][/*/]]
+      - [[#-78][/*/]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
+    - [[#monkey-patch][<<<Monkey patch>>>]]
   - [[#homotopy][<<<Homotopy>>>]]
-    - [[#-80][/*/]]
+    - [[#-79][/*/]]
   - [[#idiom][<<<Idiom>>>]]
-    - [[#-81][/*/]]
-  - [[#iff][<<<Iff>>>]]
+    - [[#-80][/*/]]
   - [[#impredicative][<<<Impredicative>>>]]
   - [[#infix][<<<Infix>>>]]
-  - [[#inhabit-1][<<<Inhabit>>>]]
   - [[#interface][<<<Interface>>>]]
   - [[#io][<<<IO>>>]]
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
-    - [[#-82][/*/]]
+    - [[#-81][/*/]]
     - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
     - [[#lambda-cube][<<<Lambda cube>>>]]
-      - [[#-83][/*/]]
+      - [[#-82][/*/]]
     - [[#lambda-function][<<<Lambda function>>>]]
       - [[#lambda-expression][<<<Lambda expression>>>]]
       - [[#anonymous-function][<<<Anonymous function>>>]]
     - [[#beta-reduction][<<<\beta-reduction>>>]]
-      - [[#-84][/*/]]
+      - [[#-83][/*/]]
       - [[#beta-normal-form][<<<\beta-normal form>>>]]
-        - [[#-85][/*/]]
+        - [[#-84][/*/]]
     - [[#calculus-of-constructions][<<<Calculus of constructions>>>]]
-      - [[#-86][/*/]]
+      - [[#-85][/*/]]
     - [[#curryhoward-correspondence][<<<Curry–Howard correspondence>>>]]
-      - [[#-87][/*/]]
+      - [[#-86][/*/]]
     - [[#currying][<<<Currying>>>]]
-      - [[#-88][/*/]]
+      - [[#-87][/*/]]
     - [[#hindleymilner-type-system][<<<Hindley–Milner type system>>>]]
     - [[#reduction][<<<Reduction>>>]]
-      - [[#-89][/*/]]
+      - [[#-88][/*/]]
     - [[#beta-eta-normal-form][<<<\beta-\eta normal form>>>]]
-      - [[#-90][/*/]]
+      - [[#-89][/*/]]
     - [[#eta-abstraction][<<<\eta-abstraction>>>]]
-      - [[#-91][/*/]]
+      - [[#-90][/*/]]
   - [[#lense][<<<Lense>>>]]
   - [[#level-of-code][<<<Level of code>>>]]
-    - [[#-92][/*/]]
+    - [[#-91][/*/]]
     - [[#term-level][<<<Term level>>>]]
     - [[#type-level][<<<Type level>>>]]
     - [[#compile-level][<<<Compile level>>>]]
-      - [[#-93][/*/]]
+      - [[#-92][/*/]]
     - [[#runtime-level][<<<Runtime level>>>]]
-  - [[#lexical-scope][<<<Lexical scope>>>]]
-    - [[#-94][/*/]]
-  - [[#local-scope][<<<Local scope>>>]]
-    - [[#-95][/*/]]
   - [[#module][<<<Module>>>]]
   - [[#modulus][<<<Modulus>>>]]
-    - [[#-96][/*/]]
-  - [[#monkey-patch][<<<Monkey patch>>>]]
+    - [[#-93][/*/]]
   - [[#nothing][<<<Nothing>>>]]
   - [[#operation][<<<Operation>>>]]
+    - [[#constant][<<<Constant>>>]]
     - [[#binary-operation][<<<Binary operation>>>]]
-      - [[#-97][/*/]]
+      - [[#-94][/*/]]
   - [[#operator][<<<Operator>>>]]
     - [[#shift-operator][<<<Shift operator>>>]]
-      - [[#-98][/*/]]
+      - [[#-95][/*/]]
   - [[#orphan-type-instance][<<<Orphan type instance>>>]]
   - [[#parameter][<<<Parameter>>>]]
-    - [[#-99][/*/]]
+    - [[#-96][/*/]]
   - [[#partial-application][<<<Partial application>>>]]
-    - [[#-100][/*/]]
+    - [[#-97][/*/]]
   - [[#pattern-guard][<<<Pattern guard>>>]]
-    - [[#-101][/*/]]
+    - [[#-98][/*/]]
   - [[#permutation][<<<Permutation>>>]]
   - [[#phrase][<<<Phrase>>>]]
   - [[#point-free][<<<Point-free>>>]]
-    - [[#-102][/*/]]
+    - [[#-99][/*/]]
     - [[#blackbird][<<<Blackbird>>>]]
-      - [[#-103][/*/]]
+      - [[#-100][/*/]]
     - [[#swing][<<<Swing>>>]]
     - [[#squish][<<<Squish>>>]]
   - [[#polymorphism][<<<Polymorphism>>>]]
-    - [[#-104][/*/]]
+    - [[#-101][/*/]]
     - [[#levity-polymorphism][<<<Levity polymorphism>>>]]
     - [[#parametric-polymorphism][<<<Parametric polymorphism>>>]]
       - [[#rank-1-polymorphism][<<<Rank-1 polymorphism>>>]]
-        - [[#-105][/*/]]
+        - [[#-102][/*/]]
       - [[#let-bound-polymorphism][<<<Let-bound polymorphism>>>]]
       - [[#constrained-polymorphism][<<<Constrained polymorphism>>>]]
         - [[#ad-hoc-polymorphism][<<<Ad hoc polymorphism>>>]]
-            - [[#-106][/*/]]
+            - [[#-103][/*/]]
       - [[#impredicative-polymorphism][<<<Impredicative polymorphism>>>]]
-        - [[#-107][/*/]]
+        - [[#-104][/*/]]
       - [[#higher-rank-polymorphism][<<<Higher-rank polymorphism>>>]]
-        - [[#-108][/*/]]
+        - [[#-105][/*/]]
     - [[#subtype-polymorphism][<<<Subtype polymorphism>>>]]
     - [[#row-polymorphism][<<<Row polymorphism>>>]]
     - [[#kind-polymorphism][<<<Kind polymorphism>>>]]
@@ -469,23 +461,28 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#predicative][<<<Predicative>>>]]
   - [[#principle-of-compositionality][<<<Principle of compositionality>>>]]
   - [[#psi-combinator][<<<\Psi-combinator>>>]]
-    - [[#-109][/*/]]
+    - [[#-106][/*/]]
   - [[#quantifier][<<<Quantifier>>>]]
-    - [[#-110][/*/]]
+    - [[#-107][/*/]]
     - [[#forall-quantifier][<<<Forall quantifier>>>]]
-      - [[#-111][/*/]]
+      - [[#-108][/*/]]
   - [[#referential-transparency][<<<Referential transparency>>>]]
-    - [[#-112][/*/]]
+    - [[#-109][/*/]]
   - [[#relation][<<<Relation>>>]]
-    - [[#-113][/*/]]
+    - [[#-110][/*/]]
   - [[#repl][<<<REPL>>>]]
   - [[#scope][<<<Scope>>>]]
+    - [[#dynamic-scope][<<<Dynamic scope>>>]]
+    - [[#lexical-scope][<<<Lexical scope>>>]]
+      - [[#-111][/*/]]
+    - [[#local-scope][<<<Local scope>>>]]
+      - [[#-112][/*/]]
   - [[#semantics][<<<Semantics>>>]]
     - [[#operational-semantics][<<<Operational semantics>>>]]
     - [[#denotational-semantics][<<<Denotational semantics>>>]]
     - [[#axiomatic-semantics][<<<Axiomatic semantics>>>]]
   - [[#set][<<<Set>>>]]
-    - [[#-114][/*/]]
+    - [[#-113][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#hom-set-1][<<<Hom-set>>>]]
@@ -498,16 +495,16 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#superclass][<<<Superclass>>>]]
   - [[#syntatic-sugar][<<<Syntatic sugar>>>]]
   - [[#system-f][<<<System F>>>]]
-    - [[#-115][/*/]]
+    - [[#-114][/*/]]
   - [[#tail-call][<<<Tail call>>>]]
   - [[#tensor][<<<Tensor>>>]]
-    - [[#-116][/*/]]
+    - [[#-115][/*/]]
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
       - [[#property-testing-types][<<<Property testing types>>>]]
       - [[#generator][<<<Generator>>>]]
-        - [[#-117][/*/]]
+        - [[#-116][/*/]]
         - [[#custom-generator][Custom generator]]
       - [[#reusing-test-code][<<<Reusing test code>>>]]
         - [[#test-commutative-property][<<<Test Commutative property>>>]]
@@ -522,20 +519,22 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#undefined][<<<Undefined>>>]]
   - [[#unit][<<<Unit>>>]]
   - [[#variable][<<<Variable>>>]]
-    - [[#-118][/*/]]
+    - [[#-117][/*/]]
   - [[#zero][<<<Zero>>>]]
   - [[#modular-arithmetic][<<<Modular arithmetic>>>]]
-    - [[#-119][/*/]]
+    - [[#-118][/*/]]
   - [[#property][<<<Property>>>]]
-    - [[#-120][/*/]]
+    - [[#-119][/*/]]
     - [[#associative-law][<<<Associative law>>>]]
-      - [[#-121][/*/]]
+      - [[#-120][/*/]]
     - [[#left-associative][<<<Left associative>>>]]
-      - [[#-122][/*/]]
+      - [[#-121][/*/]]
     - [[#basis][<<<Basis>>>]]
     - [[#commutativity][<<<Commutativity>>>]]
-      - [[#-123][/*/]]
+      - [[#-122][/*/]]
     - [[#idempotence][<<<Idempotence>>>]]
+      - [[#-123][/*/]]
+    - [[#distributive-property][<<<Distributive property>>>]]
       - [[#-124][/*/]]
   - [[#backpack][<<<Backpack>>>]]
   - [[#nullary][<<<Nullary>>>]]
@@ -560,6 +559,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#predicate][<<<Predicate>>>]]
     - [[#statement][<<<Statement>>>]]
       - [[#-131][/*/]]
+    - [[#iff][<<<Iff>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#commuting-diagram][<<<Commuting diagram>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -3768,12 +3768,8 @@ data NonEmpty a = a :| [a]
 /*/ - allows to check that behaviour conforms to the protocol.
 
 So far very complex not very productive (& well-established) topic.
-** <<<Declaration>>> :drill:
-SCHT: <2019-10-04 Fri>
 *** <<<Binary tree>>> :drill:
 :PROPERTIES:
-:ID:       461111ea-4124-427f-bfc6-f83212a07951
-:DRILL_LAST_INTERVAL: 64.7
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
 :END:
 
@@ -3819,21 +3815,17 @@ SCHT: <2019-10-01 Tue>
 :DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:52]
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
 :END:
 
-OR
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 
-Summs cardinalities.
 **** /*/
 <<<Bounded>>>
 
 *** <<<Constructor>>> :drill:
 SCHT: <2019-08-03 Sat>
 :PROPERTIES:
-:ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :ID:       73f88452-54ff-4192-83fc-0681f0407e9a
 :DRILL_LAST_INTERVAL: 11.1407
 :DRILL_REPEATS_SINCE_FAIL: 3
@@ -3845,17 +3837,14 @@ SCHT: <2019-08-03 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 12:39]
 :END:
 
-Send, transmission, reference.
 1. Type constructor
 2. Data constructor
 
 Also see: Constant
 
-** <<<Distributive axiom>>> :drill:
 *** <<<Context>>> :drill:
 SCHT: <2019-08-29 Thu>
 :PROPERTIES:
-:ID:       6ea04559-091b-4151-b190-e97a88bb317a
 :ID:       c7212fc4-2c44-4cc0-b57a-76e9ba194ac3
 :DRILL_LAST_INTERVAL: 28.8322
 :DRILL_REPEATS_SINCE_FAIL: 4
@@ -3867,16 +3856,12 @@ SCHT: <2019-08-29 Thu>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:15]
 :END:
 
-Set S and two binary operators + \times:
 Type constraints for polymorphic variables.
 Written before the main type signature, denoted:
 #+begin_src haskell
 TypeClass a => ...
 #+end_src
 
-  * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
-  * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
-  * left-&right-distributive - \times is distributive over +
 **** /*/
 <<<Contexts>>>
 
@@ -3924,20 +3909,13 @@ Last one is partial.
 $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 
 *** /*/
-<<<Distributive rule>>>
-<<<Distributive property>>>
-<<<Distributive law>>>
-<<<Distributive>>>
 <<<Differential>>>
 
-** <<<Dynamic scope>>> :drill:
 ** <<<Dispatch>>> :drill:
 :PROPERTIES:
-:ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
 :END:
 
-The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
 Send, transmission, reference.
 
 ** <<<Effect>>> :drill:
@@ -4035,34 +4013,22 @@ SCHT: <2019-07-30 Tue>
 
 Reducible expression.
 
-** <<<First-class>>> :drill:
 *** <<<Concatenate>>> :drill:
 :PROPERTIES:
-:ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
 :END:
 
-1. Can be used as value.
-2. Passed as an argument.
-From 1&2 -> can include itself.
 Link together sequences, expressions.
 
-** <<<Free variable>>> :drill:
-SCHT: <2019-07-30 Tue>
+** <<<First-class>>> :drill:
 :PROPERTIES:
-:ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
-:DRILL_LAST_INTERVAL: 29.8462
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:06]
+:ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
 :END:
 
-Variable in the fuction that is not bound by the head.
-Until there are /* -/ function stays partially applied.
+Means /it/:
+  * Can be used as value.
+  * Passed as an argument.
+From 1&2 -> /it/ can include itself.
 
 ** <<<Function>>> :drill:
 :PROPERTIES:
@@ -4491,6 +4457,23 @@ A part of a recursive function that trivially produces result.
 
 Tail calls are recursive invocantions of itself.
 
+*** <<<Free variable>>> :drill:
+SCHT: <2019-07-30 Tue>
+:PROPERTIES:
+:ID:       e6e68077-da2a-41d1-aed4-c033f7a97abe
+:DRILL_LAST_INTERVAL: 29.8462
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:06]
+:END:
+
+Variable in the fuction that is not bound by the head.
+Until there are /* -/ function stays partially applied.
+
 *** <<<Closure>>> :drill:
 SCHT: <2019-07-27 Sat>
 :PROPERTIES:
@@ -4550,6 +4533,24 @@ SCHT: <2019-08-03 Sat>
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
 Monkey patch is derivative term.
 
+*** <<<Monkey patch>>> :drill:
+SCHT: <2019-07-31 Wed>
+:PROPERTIES:
+:ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
+:END:
+
+/From Guerrilla patch./
+
+/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
+
 ** <<<Homotopy>>> :drill:
 :PROPERTIES:
 :ID:       4b3fc811-290c-4462-aaa6-208134e9e591
@@ -4588,24 +4589,6 @@ Meaning can be special for language speakers or human with particular knowledge.
 *** /*/
 <<<Idiomatic>>>
 
-** <<<Iff>>> :drill:
-SCHT: <2019-08-03 Sat>
-:PROPERTIES:
-:ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:57]
-:END:
-
-If and only if, exectly when, just.
-Denotation:
-$$ \iff $$
-
 ** <<<Impredicative>>> :drill:
 SCHT: <2019-08-25 Sun>
 :PROPERTIES:
@@ -4641,13 +4624,6 @@ SCHT: <2019-08-01 Thu>
 :END:
 
 Form of wrinting of operaton application in-between variables.
-
-** <<<Inhabit>>> :drill:
-:PROPERTIES:
-:ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
-:END:
-
-What values inhabit data type
 
 ** <<<Interface>>> :drill:
 :PROPERTIES:
@@ -4992,50 +4968,12 @@ Level of code, about compilation processes/results.
 
 Level of code when binary code executes in machine.
 
-** <<<Lexical scope>>> :drill:
-SCHT: <2019-07-28 Sun>
-:PROPERTIES:
-:ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
-:END:
-
-Scope bound by the structure of source code where the named entity is defined.
-
-*** /*/
-<<<Static scope>>>
-
-** <<<Local scope>>> :drill:
-SCHT: <2019-07-30 Tue>
-:PROPERTIES:
-:ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
-:DRILL_LAST_INTERVAL: 29.8462
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:05]
-:END:
-
-Scope applies only in (current) area.
-
-*** /*/
-<<<Local>>>
-
 ** <<<Module>>> :drill:
 :PROPERTIES:
 :ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
 :END:
 
-Importable organization unit.
+Importable organizational unit.
 
 ** <<<Modulus>>> :drill:
 :PROPERTIES:
@@ -5046,24 +4984,6 @@ Special numbers where arithmetic wraps around in modular arithmetic.
 
 *** /*/
 <<<Moduli>>> - plural.
-
-** <<<Monkey patch>>> :drill:
-SCHT: <2019-07-31 Wed>
-:PROPERTIES:
-:ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
-:END:
-
-/From Guerrilla patch./
-
-/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
 
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
@@ -5086,7 +5006,16 @@ SCHT: <2019-07-30 Tue>
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
 
-Function. Word used in mathematics. Often a symbol, infix, binary.
+Calculation into output value. Can have zero & more inputs.
+
+*** <<<Constant>>> :drill:
+:PROPERTIES:
+:ID:       15c1200e-1ba8-47b1-816a-c88be1134edf
+:END:
+
+Nullary operation.
+
+Also see: Type constant.
 
 *** <<<Binary operation>>> :drill:
 :PROPERTIES:
@@ -6205,6 +6134,51 @@ SCHT: <2019-10-01 Tue>
 
 Area where binds are accessible.
 
+*** <<<Dynamic scope>>> :drill:
+:PROPERTIES:
+:ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
+:END:
+
+The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
+
+*** <<<Lexical scope>>> :drill:
+SCHT: <2019-07-28 Sun>
+:PROPERTIES:
+:ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
+:END:
+
+Scope bound by the structure of source code where the named entity is defined.
+
+**** /*/
+<<<Static scope>>>
+
+*** <<<Local scope>>> :drill:
+SCHT: <2019-07-30 Tue>
+:PROPERTIES:
+:ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
+:DRILL_LAST_INTERVAL: 29.8462
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:05]
+:END:
+
+Scope applies only in (current) area.
+
+**** /*/
+<<<Local>>>
+
 ** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
@@ -6859,6 +6833,23 @@ Example: Start and Stop buttons on machines.
 <<<Idempotent>>>
 <<<Idempotency>>>
 
+*** <<<Distributive property>>> :drill:
+:PROPERTIES:
+:ID:       6ea04559-091b-4151-b190-e97a88bb317a
+:END:
+
+Set S and two binary operators + \times:
+
+  * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
+  * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
+  * left-&right-distributive - \times is distributive over +
+
+**** /*/
+<<<Distributive rule>>>
+<<<Distributive axiom>>>
+<<<Distributive law>>>
+<<<Distributive>>>
+
 ** <<<Backpack>>> :drill:
 :PROPERTIES:
 :ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
@@ -7080,6 +7071,24 @@ Difference between proposition, statement, expression:
 <<<Assertion>>>
 <<<Assertions>>>
 <<<Statements>>>
+
+*** <<<Iff>>> :drill:
+SCHT: <2019-08-03 Sat>
+:PROPERTIES:
+:ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:57]
+:END:
+
+If and only if, exectly when, just.
+Denotation:
+$$ \iff $$
 
 * Give definitions
 
