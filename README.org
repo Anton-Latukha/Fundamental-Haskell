@@ -4975,14 +4975,14 @@ SCHT: <2019-08-31 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:50]
 :END:
 
-Level of code that works with data types.
+Level of code that does logical execution.
 
 *** <<<Type level>>> :drill:
 :PROPERTIES:
 :ID:       2d900462-89be-4f77-be51-2d1867e82922
 :END:
 
-Level of code that does logical execution.
+Level of code that works with data types.
 
 *** <<<Compile level>>> :drill:
 SCHT: <2019-08-31 Sat>
