@@ -1021,24 +1021,6 @@ Also see <<<Argument>>>.
 **** /*/
 <<<Function argument>>>
 
-** <<<As-pattern>>> :drill:
-SCHT: <2019-08-01 Thu>
-:PROPERTIES:
-:ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:01]
-:END:
-
-#+begin_src haskell
-f list@(x, xs) = ...
-#+end_src
-
 ** <<<Binary>>> :drill:
 SCHT: <2019-07-31 Wed>
 :PROPERTIES:
@@ -1097,37 +1079,6 @@ Properties:
 
 *** /*/
 <<<Cardinalities>>>
-
-** <<<Case>>> :drill:
-SCHT: <2019-08-01 Thu>
-:PROPERTIES:
-:ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-28 Sun 23:59]
-:END:
-
-#+begin_src haskell
-case x of
-    | pattern1  -> ex1
-    | pattern2  -> ex2
-    | pattern3  -> ex3
-    | otherwise -> exDefault
-#+end_src
-
-Syntatic sugar with guards allows usage of expressions:
-#+begin_src haskell
-case () of _
-             | expr1     -> ex1
-             | expr2     -> ex2
-             | expr3     -> ex3
-             | otherwise -> exDefault
-#+end_src
 
 ** <<<Category theory>>> :drill:
 SCHT: <2019-08-04 Sun>
@@ -4553,41 +4504,6 @@ SCHT: <2019-08-04 Sun>
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 Also derives that the field of complex numbers is algebraically closed.
 
-** <<<Guerrilla patch>>> :drill:
-SCHT: <2019-08-03 Sat>
-:PROPERTIES:
-:ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
-:END:
-
-/*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
-Monkey patch is derivative term.
-
-*** <<<Monkey patch>>> :drill:
-SCHT: <2019-07-31 Wed>
-:PROPERTIES:
-:ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
-:END:
-
-/From Guerrilla patch./
-
-/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
-
 ** <<<Homotopy>>> :drill:
 :PROPERTIES:
 :ID:       4b3fc811-290c-4462-aaa6-208134e9e591
@@ -4662,13 +4578,6 @@ SCHT: <2019-08-01 Thu>
 :END:
 
 Form of wrinting of operaton application in-between variables.
-
-** <<<Interface>>> :drill:
-:PROPERTIES:
-:ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
-:END:
-
-Point of mutual meeting. Code behind interface determines how data is consumed.
 
 ** <<<IO>>> :drill:
 SCHT: <2019-08-27 Tue>
@@ -4942,81 +4851,6 @@ See Lambda calculus (Lambda terms) and Expression. In majority cases meaning som
 
 Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
 
-** <<<Level of code>>> :drill:
-SCHT: <2019-08-31 Sat>
-:PROPERTIES:
-:ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:12]
-:END:
-
-There are these levels of Haskell code:
-
-*** /*/
-<<<Code level>>>
-
-*** <<<Type level>>> :drill:
-:PROPERTIES:
-:ID:       2d900462-89be-4f77-be51-2d1867e82922
-:END:
-
-Level of code that works with data types.
-
-*** <<<Term level>>> :drill:
-SCHT: <2019-08-31 Sat>
-:PROPERTIES:
-:ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:50]
-:END:
-
-Level of code that does logical execution.
-
-*** <<<Compile level>>> :drill:
-SCHT: <2019-08-31 Sat>
-:PROPERTIES:
-:ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
-:DRILL_LAST_INTERVAL: 31.0268
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
-:END:
-
-Level of code, about compilation processes/results.
-
-**** /*/
-<<<Compilation level>>>
-
-*** <<<Runtime level>>> :drill:
-:PROPERTIES:
-:ID:       99d21c80-6b3d-4818-aef0-6c7796571883
-:END:
-
-Level of code when binary code executes in machine.
-
-** <<<Module>>> :drill:
-:PROPERTIES:
-:ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
-:END:
-
-Importable organizational unit.
-
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
 :ID:       350c03dd-e563-4d42-b554-d38370619667
@@ -5085,24 +4919,6 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 
 **** /*/
 Shift
-
-** <<<Orphan type instance>>> :drill:
-SCHT: <2019-08-24 Sat>
-:PROPERTIES:
-:ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
-:DRILL_LAST_INTERVAL: 24.12
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:56]
-:END:
-
-Hanging type instance from inconsistent code base.
-1) Supporting structure not fully present.
-2) Several implementations of instance present.
 
 ** <<<Parameter>>> :drill:
 SCHT: <2019-08-28 Wed>
@@ -6159,67 +5975,6 @@ Is not directed and not limited.
 
 Interactive CLI. Read-eval-print loop.
 
-** <<<Scope>>> :drill:
-SCHT: <2019-10-01 Tue>
-:PROPERTIES:
-:ID:       a2989c15-2adc-403a-add7-35855e9de65c
-:DRILL_LAST_INTERVAL: 62.4354
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
-:END:
-
-Area where binds are accessible.
-
-*** <<<Dynamic scope>>> :drill:
-:PROPERTIES:
-:ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
-:END:
-
-The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
-
-*** <<<Lexical scope>>> :drill:
-SCHT: <2019-07-28 Sun>
-:PROPERTIES:
-:ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
-:END:
-
-Scope bound by the structure of source code where the named entity is defined.
-
-**** /*/
-<<<Static scope>>>
-
-*** <<<Local scope>>> :drill:
-SCHT: <2019-07-30 Tue>
-:PROPERTIES:
-:ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
-:DRILL_LAST_INTERVAL: 29.8462
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:05]
-:END:
-
-Scope applies only in (current) area.
-
-**** /*/
-<<<Local>>>
-
 ** <<<Semantics>>> :drill:
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
@@ -6369,44 +6124,12 @@ SCHT: <2019-08-27 Tue>
 Singleton - unit set - set with exactly one element.
 Also 1-tuple.
 
-** <<<Shadowing>>> :drill:
-SCHT: <2019-07-28 Sun>
-:PROPERTIES:
-:ID:       45b1bebf-431f-45dd-8522-ea688968090f
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
-:END:
-
-Global scope variable overriden by variable in local scope.
-
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
 :ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
 :END:
 
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-
-** <<<Smart constructor>>> :drill:
-SCHT: <2019-08-31 Sat>
-:PROPERTIES:
-:ID:       e2aded58-a463-4762-97c4-7fc2238d386d
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:49]
-:END:
-
-Process/code placing extra rules & constraints on the construction of values.
 
 ** <<<Spine>>> :drill:
 SCHT: <2019-07-28 Sun>
@@ -6453,50 +6176,6 @@ _   :
 :END:
 
 Broader parent class.
-
-** <<<Syntatic sugar>>> :drill:
-SCHT: <2019-08-01 Thu>
-:PROPERTIES:
-:ID:       244e15a8-9ae5-4842-82b1-279387d088fd
-:DRILL_LAST_INTERVAL: 30.7556
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
-:END:
-
-Artificial way to make language easier to read and write.
-
-** <<<System F>>> :drill:
-:PROPERTIES:
-:ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
-:END:
-
-Formalizes the notion of parametric polymorphism in programming languages.
-Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
-
-*** /*/
-<<<Girard–Reynolds polymorphic lambda calculus>>>
-<<<Girard-Raynolds>>>
-
-** <<<Tail call>>> :drill:
-SCHT: <2019-08-04 Sun>
-:PROPERTIES:
-:ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
-:DRILL_LAST_INTERVAL: 3.995
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.167
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:08]
-:END:
-
-Final evaluation producing result of the function.
 
 ** <<<Tensor>>> :drill:
 SCHT: <2019-09-21 Sat>
@@ -6684,35 +6363,12 @@ main = do
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
 
-** <<<Thunk>>> :drill:
-:PROPERTIES:
-:ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
-:END:
-
-Not evaluated calculation. Can be dragged around, until be lazily evaluated.
-
 ** <<<Uncurry>>> :drill:
 :PROPERTIES:
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
 :END:
 
 Replace number of functions with tuple of number of values
-
-** <<<Undefined>>> :drill:
-SCHT: <2019-09-03 Tue>
-:PROPERTIES:
-:ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
-:DRILL_LAST_INTERVAL: 41.7947
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:54]
-:END:
-
-Placeholder value that helps to do typechecking.
 
 ** <<<Unit>>> :drill:
 SCHT: <2019-08-04 Sun>
@@ -6923,7 +6579,6 @@ Having trivial domain.
 :END:
 
 /arbitrarius/ uncertain
-
 
 ** Logic
 :PROPERTIES:
@@ -7141,6 +6796,360 @@ SCHT: <2019-08-03 Sat>
 If and only if, exectly when, just.
 Denotation:
 $$ \iff $$
+
+** Haskell structures
+:PROPERTIES:
+:ID:       f4eaf80a-e339-4205-801e-d956292d3b27
+:END:
+
+*** <<<As-pattern>>> :drill:
+SCHT: <2019-08-01 Thu>
+:PROPERTIES:
+:ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:01]
+:END:
+
+#+begin_src haskell
+f list@(x, xs) = ...
+#+end_src
+
+*** <<<Case>>> :drill:
+SCHT: <2019-08-01 Thu>
+:PROPERTIES:
+:ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-28 Sun 23:59]
+:END:
+
+#+begin_src haskell
+case x of
+    | pattern1  -> ex1
+    | pattern2  -> ex2
+    | pattern3  -> ex3
+    | otherwise -> exDefault
+#+end_src
+
+Syntatic sugar with guards allows usage of expressions:
+#+begin_src haskell
+case () of _
+             | expr1     -> ex1
+             | expr2     -> ex2
+             | expr3     -> ex3
+             | otherwise -> exDefault
+#+end_src
+
+*** <<<Smart constructor>>> :drill:
+SCHT: <2019-08-31 Sat>
+:PROPERTIES:
+:ID:       e2aded58-a463-4762-97c4-7fc2238d386d
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:49]
+:END:
+
+Process/code placing extra rules & constraints on the construction of values.
+
+*** <<<Level of code>>> :drill:
+SCHT: <2019-08-31 Sat>
+:PROPERTIES:
+:ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:12]
+:END:
+
+There are these levels of Haskell code:
+
+**** /*/
+<<<Code level>>>
+
+**** <<<Type level>>> :drill:
+:PROPERTIES:
+:ID:       2d900462-89be-4f77-be51-2d1867e82922
+:END:
+
+Level of code that works with data types.
+
+**** <<<Term level>>> :drill:
+SCHT: <2019-08-31 Sat>
+:PROPERTIES:
+:ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:50]
+:END:
+
+Level of code that does logical execution.
+
+**** <<<Compile level>>> :drill:
+SCHT: <2019-08-31 Sat>
+:PROPERTIES:
+:ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
+:DRILL_LAST_INTERVAL: 31.0268
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
+:END:
+
+Level of code, about compilation processes/results.
+
+***** /*/
+<<<Compilation level>>>
+
+**** <<<Runtime level>>> :drill:
+:PROPERTIES:
+:ID:       99d21c80-6b3d-4818-aef0-6c7796571883
+:END:
+
+Level of code when binary code executes in machine.
+
+*** <<<Orphan type instance>>> :drill:
+SCHT: <2019-08-24 Sat>
+:PROPERTIES:
+:ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
+:DRILL_LAST_INTERVAL: 24.12
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:56]
+:END:
+
+Hanging type instance from inconsistent code base.
+1) Supporting structure not fully present.
+2) Several implementations of instance present.
+
+*** <<<Undefined>>> :drill:
+SCHT: <2019-09-03 Tue>
+:PROPERTIES:
+:ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
+:DRILL_LAST_INTERVAL: 41.7947
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:54]
+:END:
+
+Placeholder value that helps to do typechecking.
+
+** Computer science
+:PROPERTIES:
+:ID:       c197198c-c8c0-40ab-bfbf-f22c80f6f3b4
+:END:
+
+*** <<<Guerrilla patch>>> :drill:
+SCHT: <2019-08-03 Sat>
+:PROPERTIES:
+:ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
+:END:
+
+/*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
+Monkey patch is derivative term.
+
+**** <<<Monkey patch>>> :drill:
+SCHT: <2019-07-31 Wed>
+:PROPERTIES:
+:ID:       8b05451a-ed92-464d-884a-654d9b5dad6a
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:51]
+:END:
+
+/From Guerrilla patch./
+
+/*/ is a way for program to modify supporting system software affecting only the running instance of the program.
+
+*** <<<Interface>>> :drill:
+:PROPERTIES:
+:ID:       2ef38e57-e693-490c-af8e-f92b3c31e6b3
+:END:
+
+Point of mutual meeting. Code behind interface determines how data is consumed.
+
+*** <<<Module>>> :drill:
+:PROPERTIES:
+:ID:       d96e515e-8f88-413f-a12c-50bdb5f0a096
+:END:
+
+Importable organizational unit.
+
+*** <<<Scope>>> :drill:
+SCHT: <2019-10-01 Tue>
+:PROPERTIES:
+:ID:       a2989c15-2adc-403a-add7-35855e9de65c
+:DRILL_LAST_INTERVAL: 62.4354
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
+:END:
+
+Area where binds are accessible.
+
+**** <<<Dynamic scope>>> :drill:
+:PROPERTIES:
+:ID:       477d92da-63ca-4929-b54c-aa16f6d2c71e
+:END:
+
+The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
+
+**** <<<Lexical scope>>> :drill:
+SCHT: <2019-07-28 Sun>
+:PROPERTIES:
+:ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:21]
+:END:
+
+Scope bound by the structure of source code where the named entity is defined.
+
+***** /*/
+<<<Static scope>>>
+
+**** <<<Local scope>>> :drill:
+SCHT: <2019-07-30 Tue>
+:PROPERTIES:
+:ID:       4dba73c1-5cb4-4612-b9dc-f7a05d463baa
+:DRILL_LAST_INTERVAL: 29.8462
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:05]
+:END:
+
+Scope applies only in (current) area.
+
+***** /*/
+<<<Local>>>
+
+*** <<<Shadowing>>> :drill:
+SCHT: <2019-07-28 Sun>
+:PROPERTIES:
+:ID:       45b1bebf-431f-45dd-8522-ea688968090f
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
+:END:
+
+Global scope variable overriden by variable in local scope.
+
+*** <<<Syntatic sugar>>> :drill:
+SCHT: <2019-08-01 Thu>
+:PROPERTIES:
+:ID:       244e15a8-9ae5-4842-82b1-279387d088fd
+:DRILL_LAST_INTERVAL: 30.7556
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:11]
+:END:
+
+Artificial way to make language easier to read and write.
+
+*** <<<System F>>> :drill:
+:PROPERTIES:
+:ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
+:END:
+
+Formalizes the notion of parametric polymorphism in programming languages.
+Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
+
+**** /*/
+<<<Girard–Reynolds polymorphic lambda calculus>>>
+<<<Girard-Raynolds>>>
+
+*** <<<Tail call>>> :drill:
+SCHT: <2019-08-04 Sun>
+:PROPERTIES:
+:ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
+:DRILL_LAST_INTERVAL: 3.995
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:08]
+:END:
+
+Final evaluation producing result of the function.
+
+*** <<<Thunk>>> :drill:
+:PROPERTIES:
+:ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
+:END:
+
+Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 
 * Give definitions
 
