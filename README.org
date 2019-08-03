@@ -1078,11 +1078,16 @@ Most often:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
 :END:
 
-$$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{\overrightarrow{(a,b)}} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
+$$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
+Operation, returns a set of all ordered pairs $$ (a, b) $$
 
 Any function, functor is a subset of Cartesian product.
 
 $$ \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} $$
+
+Properties:
+  * not associative
+  * not commutative
 
 *** /*/
 <<<Cardinalities>>>
