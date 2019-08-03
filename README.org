@@ -7172,6 +7172,13 @@ Expression that does not contain any free variables.
 *** /*/
 <<<Ground formula>>>
 
+** <<<Content word>>> :drill:
+:PROPERTIES:
+:ID:       2392f66d-e924-49ef-bc22-93c844f74683
+:END:
+
+Words that name objects of reality and their qualities.
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
