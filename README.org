@@ -6689,7 +6689,7 @@ main = do
 :ID:       bd66aa1b-4a01-445d-bca2-48dc193e5657
 :END:
 
-Value that is yet to be evaluated. Can be dragged around, until be lazily evaluated.
+Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 
 ** <<<Uncurry>>> :drill:
 :PROPERTIES:
