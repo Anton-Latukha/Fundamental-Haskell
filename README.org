@@ -8346,10 +8346,11 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
 *** <<<Old instance termination rules>>>
 
   1. \forall class constraint (C t1 .. tn):
-    1.1 type variables have occurances \le head
-    1.2 constructors+variables+repetitions < head
-    1.3 \not type functions (type func application can expand to arbitrary size)
- 2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+    1.1. type variables have occurances \le head
+    1.2. constructors+variables+repetitions < head
+    1.3. \not type functions (type func application can expand to arbitrary size)
+  2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+
 * Liturgy
 λειτ       <- λαός  /Laos/       the people
     ουργός <- ἔργο  /ergon/      work
