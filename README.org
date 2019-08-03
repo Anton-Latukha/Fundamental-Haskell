@@ -6029,7 +6029,7 @@ Non-self-referencing definition.
 
 /Antonym - Impredicative./
 
-** <<<Principle of compositionality>>> :drill:
+** <<<Compositionality>>> :drill:
 SCHT: <2019-07-28 Sun>
 :PROPERTIES:
 :ID:       d8df7582-1e97-4cf9-9d0d-146ede21ad1f
@@ -6043,7 +6043,16 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:22]
 :END:
 
-The meaning of a complex expression is determined by the meanings of its constituent expressions and the rules used to combine them.
+Complex expression is determined by the constituent expressions and the rules used to combine them.
+
+If the meaning fully obtainable form the parts and composition - it is full, pure compositionality.
+
+If there exists composed idiomatic expression - it is unfull, unpure compositionality, because meaning leaks-in from the sources that are not in the composition.
+
+*** /*/
+<<<Principe of compositionality>>>
+<<<Composition>>>
+<<<Compositional>>>
 
 ** <<<\Psi-combinator>>> :drill:
 SCHT: <2019-08-16 Fri>
