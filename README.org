@@ -4621,6 +4621,7 @@ Meaning can be special for language speakers or human with particular knowledge.
 /*/ can also mean applicative functor.
 
 *** /*/
+<<<Idioms>>>
 <<<Idiomatic>>>
 
 ** <<<Impredicative>>> :drill:
@@ -7546,6 +7547,9 @@ Mistake in the program that can be resolved only by fixing the program.
 =error= is a sugar for =undefined=.
 
 Distinct from Exception.
+
+*** /*/
+<<<Errors>>>
 
 ** <<<Exception>>>
 :PROPERTIES:
