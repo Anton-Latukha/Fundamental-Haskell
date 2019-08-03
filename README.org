@@ -1705,7 +1705,7 @@ SCHT: <2019-07-27 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:04]
 :END:
 
-pure (return) should only put argument into structure.
+Monad corresponds to functor laws and applicative laws and additionally:
 
 ******* <<<Monad left identity law>>> :drill:
 SCHT: <2019-08-04 Sun>
