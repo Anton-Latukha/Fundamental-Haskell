@@ -5008,6 +5008,8 @@ SCHT: <2019-07-27 Sat>
 
 Bijective function from domain to itself.
 
+With domain, function composition forms a group.
+
 ** <<<Phrase>>> :drill:
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
