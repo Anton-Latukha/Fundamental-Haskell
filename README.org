@@ -1169,6 +1169,8 @@ From the name, in this Category:
 
 Functor is a map between categories. Translating objects and morphisms (as input can take morphism or object). They can preserve structure, or not.
 
+For Functor type class or fmap - see Power set functor.
+
 Functor properties (axioms):
   * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{D}} $$ - every source object is mapped to object in target category
   * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} $$ - every source morphism is mapped to target category morphism between corresponding objects
@@ -1183,8 +1185,6 @@ fmap (f . g) = fmap f . fmap g
 #+end_src
 
 **** /*/
-<<<Power set functor>>>
-<<<fmap>>>
 <<<Functors>>>
 
 **** <<<Power set functor>>> :drill:
