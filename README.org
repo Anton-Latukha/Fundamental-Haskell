@@ -651,6 +651,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#typefamilies][<<<TypeFamilies>>>]]
   - [[#error][<<<Error>>>]]
   - [[#exception][<<<Exception>>>]]
+    - [[#-152][/*/]]
   - [[#constraintkinds][<<<ConstraintKinds>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
@@ -7535,6 +7536,9 @@ Distinct from Exception.
 Expected but irregular situation.
 
 Distinct from Error. Also see <<<Exception vs Error>>>
+
+*** /*/
+<<<Exceptions>>>
 
 ** <<<ConstraintKinds>>>
 SCHT: <2019-07-21 Sun>
