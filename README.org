@@ -6785,7 +6785,7 @@ There property testing wich does what it says.
 *** /*/
 <<<Properties>>>
 
-*** <<<Associative law>>> :drill:
+*** <<<Associativity>>> :drill:
 :PROPERTIES:
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
 :END:
@@ -6798,8 +6798,9 @@ Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 
 **** /*/
-<<<Associativity>>>
 <<<Associative>>>
+<<<Associative law>>>
+<<<Associativity law>>>
 
 *** <<<Left associative>>> :drill:
 SCHT: <2019-08-04 Sun>
