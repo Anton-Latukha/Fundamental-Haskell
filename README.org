@@ -3419,7 +3419,7 @@ Algebraic data type formed by logical disjunction (OR '|').
 :ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
 :END:
 
-Data type that stores multiple values withing a single value.
+Data type that stores multiple ordered values withing a single value.
 Tuples by arity:
   * empty, unit          - 0
   * pair, <<<two-tuples>>>     - 2
