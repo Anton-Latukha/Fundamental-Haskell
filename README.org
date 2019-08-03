@@ -1201,10 +1201,13 @@ SCHT: <2019-08-17 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:14]
 :END:
 
+$$ \mathcal{P^{S \to P(S)}} $$
+
 /*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
 
-Functor type class in Haskell corresponds to mathematical power set functor and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
-Power set is unique to the set, power set functor is unique to the category (data type).
+Functor type class in Haskell defines a /*/ and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
+Power set is unique to the set, /*/ is unique to the category (data type).
+/*/ embodies in itself any endofunctor. It is easily seen from Haskell definition - that the /*/ here is the polymorphic generalization of any endofunctor in a category. Application of a function to /*/ gives a particular endofunctor (see Hask category).
 
 #+begin_src haskell
 class Functor f where
@@ -1213,9 +1216,13 @@ class Functor f where
 
 Functor instance must be of kind =( * -> * )=, so instance for higher-kinded data type must be applied until this kind.
 
-Composed functors lift functions through layers of structure.
+Composed functors can lift functions through any layers of structures that belong to Functor type class.
 
-Power set functor can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+/*/ can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+
+***** /*/
+<<<fmap>>>
+<<<Functor type class>>>
 
 ***** <<<Power set functor laws>>> :drill:
 SCHT: <2019-08-25 Sun>
