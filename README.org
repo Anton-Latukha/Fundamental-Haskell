@@ -1690,9 +1690,9 @@ ap == (<*>) -- + Monad requirement
 
 | Mathematics                                  | Haskell                                   | Math meaning                                                     |
 |----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
-| $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | power set functor (thou in CAT it can be any suiting endofunctor) |
-| $$ \overrightarrow{\eta}_{ID \to E} $$       | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to P $$)        |
-| $$ \overrightarrow{\mu}_{E \circ E \to E} $$ | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ P \circ P \to P $$) |
+| $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | endofunctor (in Haskell power set functor used) |
+| $$ \overrightarrow{\eta}_{ID \to E} $$       | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
+| $$ \overrightarrow{\mu}_{E \circ E \to E} $$ | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ \mathcal{P \circ P \to P} $$) |
 
 ****** /*/
 <<<Monads>>>
