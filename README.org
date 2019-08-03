@@ -7162,6 +7162,16 @@ Final evaluation producing result of the function.
 
 Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 
+** <<<Ground expression>>> :drill:
+:PROPERTIES:
+:ID:       5030cc64-34d8-49d8-896d-fa6e4aeea4ac
+:END:
+
+Expression that does not contain any free variables.
+
+*** /*/
+<<<Ground formula>>>
+
 * Give definitions
 
 ** <<<Commuting diagram>>>
