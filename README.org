@@ -4577,7 +4577,7 @@ SCHT: <2019-08-01 Thu>
 :DRILL_LAST_REVIEWED: [2019-07-01 Mon 18:10]
 :END:
 
-Form of wrinting of operaton application in-between variables.
+Form of writing of operation application in-between variables.
 
 ** <<<IO>>> :drill:
 SCHT: <2019-08-27 Tue>
