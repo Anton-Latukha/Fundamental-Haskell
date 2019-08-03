@@ -4321,7 +4321,11 @@ SCHT: <2019-08-03 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:59]
 :END:
 
-Referentially transparent function.
+/*/ means having a proper abstraction.
+
+The contrary of it - abstraction called unpure.
+
+Also see: pure function.
 
 **** /*/
 <<<Pure>>>
