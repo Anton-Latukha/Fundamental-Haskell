@@ -899,7 +899,7 @@ SCHT: <2019-08-31 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:57]
 :END:
 
-Alpha equivalence - if processes in expressions are literally the same, but names of parameters accordingly different (then they are synonyms).
+Equivalence of a processes in expressions. If expressions have according parameters different, but the internal processes are literally the same process.
 
 ** <<<Ambigram>>> :drill:
 SCHT: <2019-07-28 Sun>
