@@ -5017,16 +5017,6 @@ Level of code when binary code executes in machine.
 
 Importable organizational unit.
 
-** <<<Modulus>>> :drill:
-:PROPERTIES:
-:ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
-:END:
-
-Special numbers where arithmetic wraps around in modular arithmetic.
-
-*** /*/
-<<<Moduli>>> - plural.
-
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
 :ID:       350c03dd-e563-4d42-b554-d38370619667
@@ -6790,6 +6780,16 @@ Example - 12-hour clock.
 
 *** /*/
 <<<Clock arithmetic>>>
+
+*** <<<Modulus>>> :drill:
+:PROPERTIES:
+:ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
+:END:
+
+Special numbers where arithmetic wraps around in modular arithmetic.
+
+**** /*/
+<<<Moduli>>> - plural.
 
 ** <<<Property>>> :drill:
 :PROPERTIES:
