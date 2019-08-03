@@ -8360,14 +8360,14 @@ What been evaluated already
 
 ** Exception handling
 
-Exception must include all context information that mey be useful.
+Exception must include all context information that may be useful.
 Store information in a form for further probable deeper automatic diagnostic.
 Sensitive data/dummies for it - can be useful during development.
 Sensitive data should be stripped from a program logging & exceptions.
 Exception system should be extendable, data storage & representation should be easily extendable.
 
 
-=String= is simple and convinient to throw exception, but really cumbersome overall:
+=String= is simple and convinient to throw exception, but really a mistake because it the most cumbersome choise:
   + Any Exception instance can be converted to a =String= with either =show= or =displayException.=
   - Does not include key debugging information in the error message.
   - Does not allow developer to access/manage the Exception information.
