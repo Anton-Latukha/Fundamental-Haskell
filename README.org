@@ -4325,7 +4325,10 @@ Referentially transparent function.
 
 **** /*/
 <<<Pure>>>
-<<<Pure function>>>
+
+*** <<<Pure function>>>
+
+Function that is pure $$ \equiv $$ referentially transparent function.
 
 *** <<<Sectioning>>> :drill:
 SCHT: <2019-07-27 Sat>
