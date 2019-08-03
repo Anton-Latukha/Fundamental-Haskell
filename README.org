@@ -756,6 +756,8 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
     - [[#conduit---practical-monolythic-guarantees-termination-return][Conduit - practical, monolythic, guarantees termination return]]
     - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
   - [[#json---aeson][JSON - aeson]]
+- [[#drafts][Drafts]]
+  - [[#exception-handling][Exception handling]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-153][/*/]]
@@ -8292,6 +8294,26 @@ What been evaluated already
 *** Pipes + Pipes Parse - modular, more primitive, theoretically driven
 
 ** JSON - aeson
+
+* Drafts
+
+** Exception handling
+
+Exception must include all context information that mey be useful.
+Store information in a form for further probable deeper automatic diagnostic.
+Sensitive data/dummies for it - can be useful during development.
+Sensitive data should be stripped from a program logging & exceptions.
+Exception system should be extendable, data storage & representation should be easily extendable.
+
+
+=String= is simple and convinient to throw exception, but really cumbersome overall:
+  + Any Exception instance can be converted to a =String= with either =show= or =displayException.=
+  - Does not include key debugging information in the error message.
+  - Does not allow developer to access/manage the Exception information.
+  - Exception messages need to be constructed ahead of time, it can not be internationalized, converted to some data/file format.
+  - Exception can have a sensitive information that can be useful for developer during work, but should not be logged/shown to end-user. Stripping it from =Strings= in the changing project is a hard task.
+  - Impossible to rely on this representation for further/deeper inspection.
+  - Impossible to have exhaustive checking - no knowledge no check, no warning if some cases are not handled.
 
 * Reference
 
