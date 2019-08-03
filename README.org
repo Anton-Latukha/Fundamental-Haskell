@@ -4956,10 +4956,17 @@ SCHT: <2019-08-31 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:12]
 :END:
 
-There are mainly three levels of Haskell code.
+There are these levels of Haskell code:
 
 *** /*/
 <<<Code level>>>
+
+*** <<<Type level>>> :drill:
+:PROPERTIES:
+:ID:       2d900462-89be-4f77-be51-2d1867e82922
+:END:
+
+Level of code that works with data types.
 
 *** <<<Term level>>> :drill:
 SCHT: <2019-08-31 Sat>
@@ -4976,13 +4983,6 @@ SCHT: <2019-08-31 Sat>
 :END:
 
 Level of code that does logical execution.
-
-*** <<<Type level>>> :drill:
-:PROPERTIES:
-:ID:       2d900462-89be-4f77-be51-2d1867e82922
-:END:
-
-Level of code that works with data types.
 
 *** <<<Compile level>>> :drill:
 SCHT: <2019-08-31 Sat>
