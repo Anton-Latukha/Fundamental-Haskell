@@ -7109,7 +7109,7 @@ SCHT: <2019-07-28 Sun>
 :DRILL_LAST_REVIEWED: [2019-06-30 Sun 12:47]
 :END:
 
-Global scope variable overriden by variable in local scope.
+When in the local scope bigger scope variable overriden by same name variable from the local scope.
 
 *** <<<Syntatic sugar>>> :drill:
 SCHT: <2019-08-01 Thu>
