@@ -3430,7 +3430,7 @@ SCHT: <2019-07-30 Tue>
 
 Type system construct that adds a support of ad hoc polymorphism.
 
-Type classes make a nice way for defining behaviour over many objects at once.
+Type class makes a nice way for defining behaviour, properties over many types/objects at once.
 
 **** /*/
 <<<Type classes>>>
