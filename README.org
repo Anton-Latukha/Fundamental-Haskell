@@ -7283,6 +7283,18 @@ $$ f \circ r = 1^{x} $$ - f has right inverse r.
 
 *** <<<FuncitonalDependencies>>>
 
+*** <<<PatternSynonyms>>>
+:PROPERTIES:
+:ID:       5b29fb7d-11a2-4c8f-a993-39f97e5cc93d
+:END:
+
+Enables pattern synonym declaration, which always begins with the =pattern= word.
+Allows to abstract-away the structures of pattern matching.
+
+**** /*/
+<<<Pattern synonym>>>
+<<<Pattern synonyms>>>
+
 ** <<<GHC debug keys>>>
 
 *** <<<-ddump-ds>>>
