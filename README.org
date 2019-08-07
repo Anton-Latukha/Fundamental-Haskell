@@ -8403,6 +8403,26 @@ Universal exception type:
 Sum type must be separate, and product type structure over it.
 Separate exception type of 
 
+Individual exception types:
+  + Writing & seing & working with exactly what will go wrong because there is only one possible error for this type of exception. Pattern match happens only onconditions, constructors that should happen.
+  + Knowledge what exectly goes wrong allows wide usage of Either.
+  - It is hard to handle complex exceptions in the unitary system. Real wrorld can return not a particular case, but a set of cases {object not found, path is unreachable, access is denied}.
+  - Type signatures grow, and even can become complex, since every case of exception has its own type.
+  - Impure =throw= that users can/should use for your code must account for all your exception types.
+
+Abstract exception type:
+Exception type entirely opague and inspectable only by accessor functions.
+  + Updating the internals without breaking the API
+  + Semi-automates the context of exception with passing it to accessors.
+  + Predicates can be applied to more than one constructor. Which are properties that allows to make complex exceptions much easier to handle.
+  - Not self-documenting.
+  - Possible options by design are hidden from the downstream, documentation must be kept.
+  - When you change the exception handling/throwing errors it does not shows to the downstream.
+
+Composit approach:
+Provide the set of constructors and also a set of predicates and set of accessors.
+Use pattern synonyms to provide a documented accessor set without exposing internal data type.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
