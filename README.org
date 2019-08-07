@@ -1666,13 +1666,13 @@ SCHT: <2019-08-01 Thu>
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - monoid in endofunctor category with $$ \overrightarrow{\eta} $$ (unit) and $$ \overrightarrow{\mu} $$ (join) natural transformations.
+/*/ - monoid in endofunctor category with $$ \eta $$ (unit) and $$ \mu $$ (join) natural transformations.
 
 If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
   * an endofunctor $$ E^{\mathcal{C \to C}} $$
   * two natural transformations:
-    * $$ \overrightarrow{\eta}^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
-    * $$ \overrightarrow{\mu}^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
+    * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
+    * $$ \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
 
 Where:
   * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
