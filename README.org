@@ -1668,17 +1668,18 @@ SCHT: <2019-08-01 Thu>
 
 /*/ - monoid in endofunctor category with $$ \eta $$ (unit) and $$ \mu $$ (join) natural transformations.
 
-If $$ \mathcal{C} $$ is a category, a monad on $$ \mathcal{C} $$ consists of:
-  * an endofunctor $$ E^{\mathcal{C \to C}} $$
-  * two natural transformations:
+Monad on $$ \mathcal{C} $$ is $$ \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$:
+  * $$ E^{\mathcal{C \to C}} $$ - is an endofunctor
+  * two natural transformations, $$ 1^c \to E $$ and $$ E \circ E \to E $$:
     * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
     * $$ \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
 
-Where:
-  * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor,
-  * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$.
+where:
+  * $$ \mathcal{C} $$ is a category
+  * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor
+  * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$
 
-Definition with $$ \{E^{\mathcal{C \to C}}, \, \overrightarrow{\eta}, \, \overrightarrow{\mu}\} $$ (in Hask: ($$ \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
+Definition with $$ \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ (in Hask: ($$ \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
 
 If there is a structure $$ S $$, and a way of taking object $$ x $$ into $$ S $$ and a way of collapsing $$ S \circ S $$ - there probably a monad.
 
@@ -1698,8 +1699,8 @@ ap == (<*>) -- + Monad requirement
 | Mathematics                                  | Haskell                                   | Math meaning                                                     |
 |----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
 | $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | endofunctor (in Haskell power set functor used) |
-| $$ \overrightarrow{\eta}_{ID \to E} $$       | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
-| $$ \overrightarrow{\mu}_{E \circ E \to E} $$ | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ \mathcal{P \circ P \to P} $$) |
+| $$ \eta_{ID \to E} $$        | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
+| $$ \mu_{E \circ E \to E} $$  | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ \mathcal{P \circ P \to P} $$) |
 
 ****** /*/
 <<<Monads>>>
