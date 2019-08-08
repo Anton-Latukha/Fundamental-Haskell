@@ -8105,6 +8105,10 @@ Does type class or type defined by you:
 | \check          |      | Typeclass & instance in the same module            |
 |            |      | Define newtype wrap & its instances in the same module |
 
+** Good: Smart constructor
+
+Do not export data type constructor, only a type. Only proper smart constructors should be exported.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
