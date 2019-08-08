@@ -3086,6 +3086,7 @@ Properties:
 <<<Category duality>>>
 <<<Duality>>>
 <<<Dual category>>>
+<<<Dual>>>
 
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
