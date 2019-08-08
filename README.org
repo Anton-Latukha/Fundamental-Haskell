@@ -8388,7 +8388,13 @@ Store information in a form for further probable deeper automatic diagnostic.
 Sensitive data/dummies for it - can be useful during development.
 Sensitive data should be stripped from a program logging & exceptions.
 Exception system should be extendable, data storage & representation should be easily extendable.
-
+Exception system should allow easy exaustive checking of errors, since the different errors can happen.
+Exception system should be automatically well-documented and transparent.
+Exception system should have controllable breaking changes downstream.
+Exception system should allow complex composite (sets) exceptions.
+Exception system should be lightweight on the type signatures of other functions.
+Exception system should automate the collection of context for a exception.
+Exception system should have properties and according functions for particular types of errors.
 
 =String= is simple and convinient to throw exception, but really a mistake because it the most cumbersome choise:
   + Any Exception instance can be converted to a =String= with either =show= or =displayException.=
