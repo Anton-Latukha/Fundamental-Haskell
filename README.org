@@ -727,6 +727,7 @@ Elisp snippet for you to prettify '<<<Radio targets>>>' to '_Radio targets_':
   - [[#good-let-vs-where][<<<Good: Let vs. Where>>>]]
   - [[#good-rankntypes][Good: RankNTypes]]
   - [[#good-orphan-type-instance][Good: Orphan type instance]]
+  - [[#good-smart-constructor][Good: Smart constructor]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
