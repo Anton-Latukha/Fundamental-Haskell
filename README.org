@@ -4393,7 +4393,7 @@ SCHT: <2019-08-02 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:02]
 :END:
 
-Variadic function has a indefinite arity. Assepts a variable number of arguments.
+/*/ - having variable arity (often up to indefinite).
 
 *** <<<Domain>>> :drill:
 :PROPERTIES:
