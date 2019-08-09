@@ -2806,7 +2806,7 @@ SCHT: <2019-08-24 Sat>
 επι /epi/ on, over
 μορφή /morphe/ form
 
-/*/ is right canselable morphism. If a set - image fully uses codomain - is surjective function.
+/*/ is right canselable morphism. In Set category - image fully uses codomain - is surjective function.
 It is surjective.
 
 $$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x)=f_{epi}(x) $$ - from homomorphism context
