@@ -801,11 +801,11 @@ tractus draw, haul, drag
 
 Purified generalization of process.
 
-Forgeting the details. Simplified approach.
+Forgeting the details. Simplified approach. Out of sight - out of mind.
 
 /*/ creates a new semantic level in which one can be absolutely precise.
 
-It is great did to name an abstraction (Denotational semantics).
+It is a great did to name an abstraction (Denotational semantics).
 
 *** /*/
 <<<Abstractions>>>
