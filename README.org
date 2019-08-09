@@ -2570,11 +2570,10 @@ SCHT: <2019-08-03 Sat>
 :DRILL_LAST_REVIEWED: [2019-07-23 Tue 14:03]
 :END:
 
-Commutative law:
+Commutativity property:
 $$ x \circ y = y \circ x $$
-Very helpful at concurrent or distributed processing.
 
-Enables a lot of abilities and concurrency in monoidal structures.
+Opens a big abilities in concurrent and distributed processing.
 
 ******* /*/
 <<<Abelian monoid>>>
