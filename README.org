@@ -3973,16 +3973,17 @@ Finite combination of symbols that is well-formed according to rules that depend
 <<<Expressions>>>
 
 *** <<<Closed-form expression>>> :drill:
+SCHT: <2019-08-13 Tue>
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.25
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 13:26]
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 2.286
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:40]
 :END:
 
 Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
@@ -5775,17 +5776,17 @@ Permit instances which may lead to type-checker non-termination.
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 
 ***** <<<ViewPatterns>>> :drill:
-SCHT: <2019-08-02 Fri>
+SCHT: <2019-08-17 Sat>
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 7.747
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.6
-:DRILL_EASE: 2.08
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 1.94
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:53]
+:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:39]
 :END:
 
 #+begin_src haskell
