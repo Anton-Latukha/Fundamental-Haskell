@@ -2889,6 +2889,7 @@ Corresponds to identity, reflexivity.
 <<<Automorphic>>>
 
 ***** /*/
+<<<Endomorphisms>>>
 <<<Endomorphic>>>
 
 **** <<<Catamorphism>>> :drill:
