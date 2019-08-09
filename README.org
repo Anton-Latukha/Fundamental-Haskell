@@ -2886,6 +2886,7 @@ Endomorphism that is isomorphic.
 Corresponds to identity, reflexivity.
 
 ****** /*/
+<<<Automorphisms>>>
 <<<Automorphic>>>
 
 ***** /*/
