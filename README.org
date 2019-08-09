@@ -5790,17 +5790,23 @@ SCHT: <2019-08-02 Fri>
 :END:
 
 #+begin_src haskell
-size (view -> Unit) = 1
-size (view -> Arrow t1 t2) = size t1 + size t2
+exmpl (f1 -> Pattern1) = c1
+exmpl (f1 -> Pattern2 a b) = g1 a b
 #+end_src
 (/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
 
 Semantics:
-  * variables of /expression/ and /pattern/ are shared
+  * /expression/ & /pattern/ share the scope, so also variables.
   * if /expression/ :: t1 -> t2 && /pattern/ :: t2, then (/expression/ \to /pattern/) :: t1.
 
 /*/ are like pattern guards that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match algebraic data type.
+
+Additional possible usage:
+#+begin_src haskell
+exmpl a (f2 a -> Pattern3 b c) = g2 b c  -- only for function definitions
+exmpl ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data constructors and tuples
+#+end_src
 
 ***** <<<DatatypeContexts>>> :drill:
 SCHT: <2019-08-04 Sun>
