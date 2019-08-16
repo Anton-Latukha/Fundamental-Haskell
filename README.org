@@ -6416,14 +6416,14 @@ SCHT: <2019-08-04 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:08]
 :END:
 
-Represents existence. Denoted as empty tuple.
+Represents existence. Denoted as empty sequence.
 #+begin_src haskell
 ()
 #+end_src
 
-Type =()= holds only self-representation constructor =()=, constructor holds nothing.
+Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
 
-Hense nothing, emptiness, void can not be theoretically addressed or constructed - unit in Haskell represents also emptiness.
+Hense nothing, emptiness, void can not be theoretically addressed or practically constructed - unit in Haskell represents also emptiness.
 
 ** <<<Variable>>> :drill:
 :PROPERTIES:
