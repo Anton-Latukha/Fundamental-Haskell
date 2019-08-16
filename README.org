@@ -3287,7 +3287,7 @@ SCHT: <2019-08-04 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:45]
 :END:
 
-Creates a new type from old type using a new constructor.
+Create a new type from old type by attaching a new constructor, allowing type class instance declaration.
 #+begin_src haskell
 newtype FirstName = FirstName String
 #+end_src
