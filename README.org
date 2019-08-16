@@ -7173,7 +7173,7 @@ Differs from the simply typed Lambda calculus by the introduction of universal q
 :DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:56]
 :END:
 
-Final evaluation producing result of the function.
+Final evaluation. Produces the function result.
 
 *** <<<Thunk>>> :drill:
 :PROPERTIES:
