@@ -1091,17 +1091,17 @@ Properties:
 <<<Cardinalities>>>
 
 ** <<<Category theory>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-09-12 Thu>
 :PROPERTIES:
 :ID:       a026cdb8-26e0-494e-b51c-b49d0210d61b
-:DRILL_LAST_INTERVAL: 10.3873
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.5528
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:20]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:26]
 :END:
 
 Category $$ \mathcal{C} $$ consists of the basis:
@@ -1126,17 +1126,16 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2019-08-04 Thu>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-06-30 Sun 15:16]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:46]
 :END:
 
 Is which:
@@ -2043,17 +2042,16 @@ SCHT: <2019-08-12 Mon>
 Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C}^{op} $$.
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2019-08-04 Sun>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:23]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:44]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -2655,17 +2653,17 @@ If morphism corresponds to function requirements - than it is a function.
 <<<Arrows>>>
 
 **** <<<Homomorphism>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-08-26 Mon>
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.2679
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:17]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:32]
 :END:
 
 ὁμός /homos/ same (was chosen becouse of initial Anglish mistranslation to "similar")
@@ -3274,17 +3272,17 @@ Type that take more types as arguments.
 <<<Higher-kinded data types>>>
 
 *** <<<newtype declaration>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-10-13 Sun>
 :PROPERTIES:
 :ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
-:DRILL_LAST_INTERVAL: 23.1978
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 57.0666
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-12 Fri 23:45]
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:53]
 :END:
 
 Create a new type from old type by attaching a new constructor, allowing type class instance declaration.
@@ -5244,17 +5242,17 @@ It is interface dispatch mechanism by data types.
 <<<Constraints>>>
 
 **** <<<Impredicative polymorphism>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-08-26 Mon>
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:47]
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:48]
 :END:
 
 /*/ allows type τ entities with polymorphic types that can contain type τ itself.
@@ -5514,17 +5512,16 @@ $$ C :> D $$, so in C we can talk about D.
 Synergizes with ConstraintKinds.
 
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2019-08-04 Sun>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 19.8606
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.572
 :DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-15 Mon 23:51]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:54]
 :END:
 
 Allow type class instances types contain nested types.
@@ -5810,17 +5807,17 @@ exmpl ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data
 #+end_src
 
 ***** <<<DatatypeContexts>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-08-26 Mon>
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 8.6425
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.8
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 2.833
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:20]
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:34]
 :END:
 
 Allow contexts in data types.
@@ -6404,17 +6401,17 @@ main = do
 Replace number of functions with tuple of number of values
 
 ** <<<Unit>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 10.2258
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:08]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:31]
 :END:
 
 Represents existence. Denoted as empty sequence.
@@ -7162,16 +7159,17 @@ Differs from the simply typed Lambda calculus by the introduction of universal q
 <<<Girard-Raynolds>>>
 
 *** <<<Tail call>>> :drill:
+SCHT: <2019-08-21 Wed>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:56]
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:28]
 :END:
 
 Final evaluation. Produces the function result.
@@ -7267,17 +7265,17 @@ Allows to separate and preserve information about happened, ex. error handling.
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
-SCHT: <2019-08-04 Sun>
+SCHT: <2019-08-21 Wed>
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
 :DRILL_LAST_INTERVAL: 4.14
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.8
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:21]
+:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:27]
 :END:
 
 For $$ f: x \to y $$:
