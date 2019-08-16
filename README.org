@@ -1104,21 +1104,21 @@ SCHT: <2019-08-04 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-25 Thu 22:20]
 :END:
 
-Category ($$ \mathcal{C} $$) consists of the basis:
+Category $$ \mathcal{C} $$ consists of the basis:
 
 Primitives:
   1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is Set category.
-  2. Morphisms - $$ \overrightarrow{(a,b)}^{\mathcal{C}} $$ (AKA mappings).
-  3. Morphism composition - binary operation: $$ \overrightarrow{(a, b)}^{\mathcal{C}} \circ \overrightarrow{(b, c)}^{\mathcal{C}} \equiv \overrightarrow{(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for morphisms.
+  2. Morphisms - $$ {(a,b)}^{\mathcal{C}} $$ (AKA mappings).
+  3. Morphism composition - binary operation: $$ {(a, b)}^{\mathcal{C}} \circ {(b, c)}^{\mathcal{C}} \equiv {(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for morphisms.
 
 Properties (or axioms):
-  1. Associativity of morphisms: $$ \overrightarrow{h} \circ (\overrightarrow{g} \circ \overrightarrow{f}) \equiv (\overrightarrow{h} \circ \overrightarrow{g}) \circ \overrightarrow{f} \ \ | \ \ \overrightarrow{f}_{a \to b}, \overrightarrow{g}_{b \to c}, \overrightarrow{h}_{c \to d} $$.
-  2. Every object has exactly one (two-sided) identity morphism: $$ \overrightarrow{1}_x \circ \overrightarrow{f}_{a \to x} \equiv \overrightarrow{f}_{a \to x}, \ \ \overrightarrow{g}_{x \to b} \circ \overrightarrow{1_x} \equiv \overrightarrow{g}_{x \to b } \ \ | \ \ \forall x \ \exists \overrightarrow{1}_{x}, \forall \overrightarrow{f}_{a \to x},  \forall \overrightarrow{g}_{x \to b} $$.
+  1. Associativity of morphisms: $$ {h} \circ ({g} \circ {f}) \equiv ({h} \circ {g}) \circ {f} \ \ | \ \ {f}_{a \to b}, {g}_{b \to c}, {h}_{c \to d} $$.
+  2. Every object has (two-sided) identity morphism ( & in fact - exactly one): $$ {1}_x \circ {f}_{a \to x} \equiv {f}_{a \to x}, \ \ {g}_{x \to b} \circ {1_x} \equiv {g}_{x \to b } \ \ | \ \ \forall x \ \exists {1}_{x}, \forall {f}_{a \to x},  \forall {g}_{x \to b} $$.
   3. Principle of compositionality.
 
 From these axioms, can be proven that there is exactly one identity morphism for every object.
 
-Object and morphism is complete abstractions for anything.
+Object and morphism are complete abstractions for anything.
 In majority of cases under object is a state and morphism is a change.
 
 *** /*/
