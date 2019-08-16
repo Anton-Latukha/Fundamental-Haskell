@@ -3022,7 +3022,7 @@ Since it uses morphisms - it is structure-preserving transformation of one funct
 Existence of /*/ between two functors means they are somehow related.
 
 Can be observed to be a "morphism of functors", especially in functor category.
-/*/ by $$ \overrightarrow{\eta}^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$, often written short $$ \overrightarrow{\eta}_{b} \circ F(\overrightarrow{f}) = G({\overrightarrow{f}) \circ \overrightarrow{\eta}_{a} $$.
+/*/ by $$ \overrightarrow{\eta}^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$, often written short $$ \overrightarrow{\eta}_{b} \circ F(\overrightarrow{f}) = G(\overrightarrow{f}) \circ \overrightarrow{\eta}_{a} $$.
 Notice that the $$ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$ depends on objects&morphisms of $$ \mathcal{C} $$.
 
 In words, /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphisms to do a homotopy of $$ F $$ to $$ G $$, and /*/:
