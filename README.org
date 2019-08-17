@@ -2,6 +2,7 @@
 #+startup: entitiespretty
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS: tags:nil
+#+OPTIONS: stat:t
 
 * Introduction
 
