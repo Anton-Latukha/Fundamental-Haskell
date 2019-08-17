@@ -3,6 +3,7 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS: tags:nil
 #+OPTIONS: stat:t
+#+HTML_HEAD: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 
 * Introduction
 
