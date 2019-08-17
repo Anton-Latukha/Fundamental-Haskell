@@ -1,3 +1,4 @@
+#+TITLE: Fundamental Haskell notes
 #+startup: latexpreview
 #+startup: entitiespretty
 #+SETUPFILE: ./org-html-themes/setup/theme-readtheorg.setup
