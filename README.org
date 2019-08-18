@@ -5444,6 +5444,9 @@ It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/
 
 **** <<<LANGUAGE option>>>
 
+***** /*/
+<<<Language options>>>
+
 ***** Useful by default :drill:
 :PROPERTIES:
 :ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
