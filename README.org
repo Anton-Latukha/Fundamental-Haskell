@@ -4551,7 +4551,8 @@ SCHT: <2019-08-04 Sun>
 :END:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
-Also derives that the field of complex numbers is algebraically closed.
+
+From this definition follows property that the field of complex numbers is algebraically closed.
 
 ** <<<Homotopy>>> :drill:
 :PROPERTIES:
