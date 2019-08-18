@@ -2906,7 +2906,7 @@ SCHT: <2019-08-09 Fri>
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
-Endomorphism that is isomorphic.
+Isomorphism from a object to itself (epimorphism).
 
 Corresponds to identity, reflexivity.
 
