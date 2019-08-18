@@ -8302,6 +8302,11 @@ Insert your GHC versions.
                                       nix-sandbox
                                       )
 
+(defun dotspacemacs/user-config ()
+
+  (add-hook 'haskell-mode-hook 'direnv-update-environment) ;; If direnv configured
+
+  )
 #+end_src
 
 Where:
