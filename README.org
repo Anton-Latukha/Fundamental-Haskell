@@ -6564,6 +6564,13 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 <<<Left associativity>>>
 <<<Left-associative>>>
 
+*** <<<Right associative>>> :drill:
+:PROPERTIES:
+:ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
+:END:
+
+/*/ - the operations are grouped from the right.
+
 
 *** <<<Basis>>> :drill:
 SCHT: <2019-08-28 Wed>
