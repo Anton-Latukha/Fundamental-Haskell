@@ -6528,6 +6528,10 @@ Joined with common purpose.
 
 $$ P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S $$,
 
+/*/ - the operations can be grouped arbitrarily.
+
+Property that determines how operators of the same precedence are grouped, (in computer science also in the absence of parentheses).
+
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 
