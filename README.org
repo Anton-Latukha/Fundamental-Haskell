@@ -4372,11 +4372,6 @@ Function uses codomain fully.
 $$ \forall y \in Y, \exists x \in X $$
 
 Denotation:
-#+begin_src text
-↠
-->>
-f : X ↠ Y
-#+end_src
 $$ f : X \twoheadrightarrow Y $$
 
 Corresponds to Epimorphism.
