@@ -3529,6 +3529,21 @@ Type class instances sometimes can be automatically derived from the parent type
 
 Type classes such as Eq, Enum, Ord, Show can have instances generated based on definition of data type.
 
+P.S.
+
+Language options:
+  * DeriveAnyClass
+  * DeriveDataTypeable
+  * DeriveFoldable
+  * DeriveFunctor
+  * DeriveGeneric
+  * DeriveLift
+  * DeriveTraversable
+  * DerivingStrategies
+  * DerivingVia
+  * GeneralisedNewtypeDeriving
+  * StandaloneDeriving
+
 ***** /*/
 <<<Derived>>>
 <<<Deriving>>>
