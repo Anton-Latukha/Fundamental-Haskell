@@ -1967,7 +1967,7 @@ SCHT: <2019-08-13 Tue>
 :DRILL_LAST_REVIEWED: [2019-08-03 Sat 21:36]
 :END:
 
-Discards any resulting value of the action and sequence next action.
+Discard any resulting value of the action and sequence next action.
 #+begin_src haskell
 (>>) :: m a -> m b -> m b
 (*>) :: f a -> f b -> f b
