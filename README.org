@@ -6571,6 +6571,12 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 
 /*/ - the operations are grouped from the right.
 
+*** <<<Non-associative>>> :drill:
+:PROPERTIES:
+:ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
+:END:
+
+/*/ - operations can't be chained. Often because the output type is incompatible with the input type.
 
 *** <<<Basis>>> :drill:
 SCHT: <2019-08-28 Wed>
