@@ -6554,12 +6554,16 @@ SCHT: <2019-08-04 Sun>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:27]
 :END:
 
+/*/ - the operations are grouped from the left.
+
 Example:
 In lambda expressions same level parts follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 
 **** /*/
 <<<Left associativity>>>
+<<<Left-associative>>>
+
 
 *** <<<Basis>>> :drill:
 SCHT: <2019-08-28 Wed>
