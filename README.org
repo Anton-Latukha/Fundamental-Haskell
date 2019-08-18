@@ -8059,7 +8059,7 @@ Portability :  portable | non-portable (<reason>)
 
 Typed holes help build code in complex situations.
 
-** <<<Good: Haskell has infinite terms not not infinite types.>>> :drill:
+** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
 :END:
