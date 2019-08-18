@@ -3097,7 +3097,7 @@ Inverse $$ \mathcal{C} $$ = $$ \mathcal{C}^{op} $$ - invert the direction of mor
 
 (Morphisms include all their compositions)
 
-Any statement in the terms of $$ \mathcal{C} $$ the logical inverse is true in $$ \mathcal {C}^{op} $$.
+Any statement in the terms of $$ \mathcal{C} $$ in $$ \mathcal{C}^{op} $$ has the dual - the logical inverse that is true in $$ \mathcal {C}^{op} $$ terms.
 
 Properties:
   * Opposite preserves products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
