@@ -4026,7 +4026,13 @@ SCHT: <2019-08-13 Tue>
 :DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:40]
 :END:
 
-Closed-form expression - a mathematical expression that can be evaluated in a finite number of operations. It may contain constants, variables, certain "well-known" operations (e.g., + − × ÷), and functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
+/*/ - mathematical expression that can be evaluated in a finite number of operations.
+
+May contain:
+  * constants
+  * variables
+  * operations (e.g., + − × ÷)
+  * functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 
 *** <<<RHS>>> :drill:
 :PROPERTIES:
