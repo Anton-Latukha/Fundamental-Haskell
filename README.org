@@ -1159,6 +1159,23 @@ The class of Abelian categories is closed under several categorical construction
 
 There is notion of Abelian monoid (AKS Commutative monoid) and Abelian group (Commutative group).
 
+/*/ is one that has homological algebra available constructions and techniques.
+Basic examples of /*/:
+  * category of Abelian groups
+  * category of modules over a ring.
+
+/*/ are widely used in algebra, algebraic geometry, and topology.
+
+/*/ has many constructions like in categories of modules:
+  * kernels
+  * exact sequences
+  * commutative diagrams
+
+/*/ has disadvantage over category of modules. Objects do not necessarily have elements that can be manipulated directly, so traditional definitions do not work. Methods must be supplied that allow definition and manipulation of objects without the use of elements. 
+
+**** /*/
+<<<Abelian categories>>>
+
 *** <<<Composition>>> :drill:
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
