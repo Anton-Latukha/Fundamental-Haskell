@@ -1407,12 +1407,11 @@ class Functor f => Applicative f where
   pure :: a -> f a
 #+end_src
 
-The old function:
+
+=Control.Monad= has an old function =ap= that is old implementation of =<*>=:
 #+begin_src haskell
 ap :: Monad m => m (a -> b) -> m a -> m b
 #+end_src
-
-=Control.Monad ap= is old implementation of =<*>=.
 
 ***** /*/
 <<<Applicative>>>
