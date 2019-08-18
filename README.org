@@ -8319,7 +8319,7 @@ Configuration of the =lsp-haskell-process-wrapper-function default-nix-wrapper= 
 
 Inside =nix-shell= the =haskell-process-type 'cabal-new-repl= is required.
 
-/Configuration was reassembled from: https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57 & its authors config: https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs /
+/Configuration was reassembled from: [[https://github.com/emacs-lsp/lsp-haskell/blob/8f2dbb6e827b1adce6360c56f795f29ecff1d7f6/lsp-haskell.el#L57]] & its authors config: [[https://github.com/sevanspowell/dotfiles/blob/master/.spacemacs]]/
 
 Refresh Emasc.
 
