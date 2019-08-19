@@ -3535,6 +3535,23 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 ***** /*/
 <<<CoArbitrary>>>
 
+**** <<<Typeable type class>>> :drill:
+:PROPERTIES:
+:ID:       7408b1c4-78e9-4901-abbc-c8cead60031f
+:END:
+
+Allows dynamic type checking in Haskell for a type.
+Shift a typechecking of type from compile time to runtime.
+/*/ types gets wrapped in the universal type, and shifts the type checks to runtime.
+
+Also allows:
+  * Get the type of something at runtime (ex. print the type of something =typeOf=).
+  * Compare the types.
+  * Reifying functions from polymorphic type to conrete (for functions like =:: Typeable a => a -> String=).
+
+***** /*/
+<<<Typeable>>>
+
 **** <<<Type class inheritance>>> :drill:
 :PROPERTIES:
 :ID:       d41bdd5c-5a64-4ab8-8201-8c9ae3437a61
