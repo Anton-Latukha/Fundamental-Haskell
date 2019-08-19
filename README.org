@@ -4,9 +4,9 @@
 #+SETUPFILE: ./org-html-themes/setup/theme-readtheorg.setup
 #+OPTIONS: tags:nil
 #+OPTIONS: stat:t
-#+OPTIONS: H:5
-#+OPTIONS: num:5
-#+OPTIONS: toc:5
+#+OPTIONS: H:10
+#+OPTIONS: num:10
+#+OPTIONS: toc:10
 #+OPTIONS: p:nil
 #+OPTIONS: \n:t
 #+HTML_HEAD: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
