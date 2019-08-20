@@ -8093,12 +8093,12 @@ SCHT: <2019-08-15 Thu>
 
 Where character is not present - discards the according value.
 
-** <<<Good: About operators mapM_ sequence_>>> :drill:
+** <<<Good: About functions like {mapM, sequence}_>>> :drill:
 :PROPERTIES:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
 :END:
 
-Trailing /_/ means ignoring the result.
+Trailing =_= means ignoring the result.
 
 ** <<<Good: Guideliles>>> :drill:
 :PROPERTIES:
