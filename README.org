@@ -2935,8 +2935,17 @@ Corresponds to identity, reflexivity.
 <<<Endomorphic>>>
 
 **** <<<Catamorphism>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       3af3d5fd-449a-45e7-ac99-0cca150f0523
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:50]
 :END:
 
 κατά /kata/ downward
@@ -3142,16 +3151,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       942d9234-d549-46a3-b051-ef1ac73244ad
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:20]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
 :END:
 
 Category duality behaves like a logical inverse.
@@ -3389,17 +3399,17 @@ Integer Integer
 #+end_src
 
 *** <<<Principal type>>> :drill:
-SCHT: <2019-08-14 Wed>
+SCHT: <2019-11-02 Sat>
 :PROPERTIES:
 :ID:       55ec2cac-10dc-4a09-a795-4e99c7e5aaed
-:DRILL_LAST_INTERVAL: 27.7458
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 73.8038
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:36]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:29]
 :END:
 
 The most generic data type that still typechecks.
@@ -3434,8 +3444,17 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 
 *** <<<Static typing>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:36]
 :END:
 
 Typechecking takes place at compile level.
@@ -4350,8 +4369,17 @@ The range of a function refers to either the codomain or the image of the functi
 So, see Function image.
 
 *** <<<Higher-order function>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       61a40480-45d2-4632-9948-986eecd8b7cb
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:30]
 :END:
 
 Function arity > 1.
@@ -4967,8 +4995,17 @@ See Beta reduction
 <<<Reducible>>>
 
 *** <<<\beta-\eta normal form>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       0240a6dc-9667-4558-b138-3423930eafe6
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:50]
 :END:
 
 All \beta-reduction and \eta-reduction are done in the expression.
@@ -5125,16 +5162,17 @@ Part of function parameters applied.
 <<<Partially applied>>>
 
 ** <<<Pattern guard>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.125
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:11]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
 :END:
 
 Allows check a list of pattern matches against functions, and then proceed.
@@ -5178,8 +5216,17 @@ Bijective function from domain to itself.
 With domain, function composition forms a group.
 
 ** <<<Phrase>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:51]
 :END:
 
 /*/ - composable expression.
@@ -6809,8 +6856,17 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 <<<Propositions>>>
 
 **** <<<Atomic proposition>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:32]
 :END:
 
 Logically undividable unit. Does not contain logical connectives.
@@ -7373,16 +7429,17 @@ Expression that does not contain any free variables.
 <<<Ground formula>>>
 
 ** <<<Content word>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       2392f66d-e924-49ef-bc22-93c844f74683
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:21]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
 :END:
 
 Words that name objects of reality and their qualities.
@@ -8107,24 +8164,33 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 
 ** <<<Good: About operators (<$) (**>) (<**) (>>)>>> :drill:
-SCHT: <2019-08-15 Thu>
+SCHT: <2019-10-05 Sat>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
-:DRILL_LAST_INTERVAL: 20.6501
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 46.2356
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:02]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:29]
 :END:
 
 Where character is not present - discards the according value.
 
 ** <<<Good: About functions like {mapM, sequence}_>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:51]
 :END:
 
 Trailing =_= means ignoring the result.
@@ -8175,8 +8241,17 @@ Portability :  portable | non-portable (<reason>)
 ***** Every function does one thing.
 
 ** <<<Good: Use Typed holes to progress the code>>> :drill:
+SCHT: <2019-08-24 Sat>
 :PROPERTIES:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:36]
 :END:
 
 Typed holes help build code in complex situations.
