@@ -2963,8 +2963,20 @@ The catamorphism dual concept.
 
 /*/ increases the structure.
 
-***** /*/
+****** /*/
 <<<Anamorphic>>>
+
+****** <<<Hylomorphism>>> :drill:
+:PROPERTIES:
+:ID:       05e166e2-23f3-4e1a-9e6e-fd9ce910b785
+:END:
+
+catamorphism $$ \circ $$ anamorphism
+
+Expanding and collapsing the structure.
+
+****** /*/
+<<<Hylomorphic>>>
 
 **** <<<Kernel>>> :drill:
 SCHT: <2019-09-28 Sat>
