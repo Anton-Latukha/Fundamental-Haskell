@@ -2944,7 +2944,10 @@ Corresponds to identity, reflexivity.
 
 Denotes the unique homomorphism from an initial algebra into some other algebra.
 
-In functional programming, catamorphisms provide generalizations of folds of lists to arbitrary algebraic data types, which can be described as initial algebras. The dual concept is that of anamorphism that generalize unfolds. A hylomorphism is the composition of an anamorphism followed by a catamorphism.
+In functional programming, catamorphism is a algebraic data type fold (generalizations of list fold), which can be names initial algebra. 
+
+/*/ reduces the structure.
+
 
 ***** /*/
 <<<Catamorphic>>>
