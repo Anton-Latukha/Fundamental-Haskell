@@ -4942,7 +4942,7 @@ See Beta reduction
 :ID:       0240a6dc-9667-4558-b138-3423930eafe6
 :END:
 
-No \beta-reduction and no \eta-reduction are possible in expression.
+All \beta-reduction and \eta-reduction are done in the expression.
 
 **** /*/
 <<<beta-eta normal form>>>
