@@ -3409,7 +3409,7 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
 :END:
 
-Static typechecking occurs at compile level.
+Typechecking takes place at compile level.
 
 *** <<<Structural type>>> :drill:
 :PROPERTIES:
