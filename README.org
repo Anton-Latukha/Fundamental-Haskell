@@ -1252,7 +1252,7 @@ $$ \mathcal{P^{S \to P(S)}} $$
 
 Functor type class in Haskell defines a /*/ and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
 Power set is unique to the set, /*/ is unique to the category (data type).
-/*/ embodies in itself any endofunctor. It is easily seen from Haskell definition - that the /*/ here is the polymorphic generalization of any endofunctor in a category. Application of a function to /*/ gives a particular endofunctor (see Hask category).
+/*/ embodies in itself any endofunctor. It is easily seen from Haskell definition - that the /*/ is the polymorphic generalization over any endofunctor in a category. Application of a function to /*/ gives a particular endofunctor (see Hask category).
 
 #+begin_src haskell
 class Functor f where
@@ -1261,7 +1261,7 @@ class Functor f where
 
 Functor instance must be of kind =( * -> * )=, so instance for higher-kinded data type must be applied until this kind.
 
-Composed functors can lift functions through any layers of structures that belong to Functor type class.
+Composed /*/ can lift functions through any layers of structures that belong to Functor type class.
 
 /*/ can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
