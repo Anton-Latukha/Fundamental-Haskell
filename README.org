@@ -7974,8 +7974,10 @@ Unconstrained means most flexible, but also most useless.
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
 :END:
 
+#+begin_src haskell
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
+#+end_src
 
 ** <<<Good: Read code evaluation (488 on-ward)>>> :drill:
 :PROPERTIES:
