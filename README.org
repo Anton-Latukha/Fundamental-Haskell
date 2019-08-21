@@ -7413,7 +7413,7 @@ SCHT: <2019-08-21 Wed>
 :DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:28]
 :END:
 
-Final evaluation. Produces the function result.
+Final evaluation inside the function. Produces the function result.
 
 *** <<<Thunk>>> :drill:
 :PROPERTIES:
