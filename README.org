@@ -6288,7 +6288,8 @@ Closed set is a form of Closed-form expression. Set can be closed in under a set
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
 :END:
 
-For some $$ \mathit{set} \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
+For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
+
 Denotation:
 $$ \mathcal{P(S)} $$
 
