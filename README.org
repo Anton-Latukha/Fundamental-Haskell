@@ -2219,7 +2219,7 @@ When computation results in =Left= - drops other computations & returns the reci
 
 Someting that can fail, throw exceptions.
 
-Failure records failure description. Binding uses successful values as input to the bound function, and passes failure information on without executing the bound function.
+The failure process records the description of a failure. Bind function uses successful values as input to the bound function, and passes failure information on without executing the bound function.
 
 Useful:
 Composing functions that can fail. Handle exceptions, crate error handling structure.
