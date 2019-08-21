@@ -5060,7 +5060,7 @@ See Lambda calculus (Lambda terms) and Expression. In majority cases meaning som
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
 :END:
 
-Library to provide Haskell (functional language without mutation) the =get=-ters and =set=-ters of imperative language.
+Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
 
 ** <<<Nothing>>> :drill:
 :PROPERTIES:
