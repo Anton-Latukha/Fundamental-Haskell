@@ -2445,7 +2445,7 @@ Functors between monoidal categories that preserves monoidal structure.
 fmap f . fmap g = fmap (f . g)
 #+end_src
 
-This functor axiom allows to greatly simplify computations, it is called /*/.
+/*/ - functor axiom that allows to greatly simplify computations.
 
 *** <<<Hask category>>> :drill:
 :PROPERTIES:
