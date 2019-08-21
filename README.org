@@ -878,17 +878,17 @@ Composite from simple parts.
 Also: Algebraic data type.
 
 *** <<<Algebraic structure>>> :drill:
-SCHT: <2019-08-21 Wed>
+SCHT: <2019-10-09 Wed>
 :PROPERTIES:
 :ID:       dcbe48e5-d7dd-400d-9963-d4e00d474b84
-:DRILL_LAST_INTERVAL: 21.1996
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.7167
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:06]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:36]
 :END:
 
 Algebraic structure on a set (called carrier set or underlying set) is a collection of finitary operations on that set.
@@ -1233,17 +1233,17 @@ fmap (f . g) = fmap f . fmap g
 <<<Functors>>>
 
 **** <<<Power set functor>>> :drill:
-SCHT: <2019-08-17 Sat>
+SCHT: <2019-10-17 Thu>
 :PROPERTIES:
 :ID:       1169dfd1-4e31-4789-a777-288fc9208094
-:DRILL_LAST_INTERVAL: 23.1978
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 57.0666
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:14]
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:27]
 :END:
 
 $$ \mathcal{P^{S \to P(S)}} $$
@@ -1289,8 +1289,17 @@ Type instance of functor should abide this laws:
 <<<Functor laws>>>
 
 ****** <<<Power set functor identity law>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:41]
 :END:
 
 #+begin_src haskell
@@ -1361,8 +1370,17 @@ Constant functor is another example.
 <<<Forgetful>>>
 
 **** <<<Identity functor>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       9dbbb6a7-e9ae-4c29-8468-aa20fc143b84
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
 :END:
 
 Maps all category to itself. All objects and morphisms to themselves.
@@ -1663,8 +1681,17 @@ pure 1 :: Constant String Int
 #+end_src
 
 ****** <<<Maybe applicative>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       5929b239-fa46-40c6-9896-a2dabe40f619
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:45]
 :END:
 
 "There also can be no function at all."
@@ -2213,8 +2240,17 @@ SCHT: <2019-08-31 Sat>
 When computation results in =Left= - drops other computations & returns the recieved =Left=.
 
 ******* <<<Error monad>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       860961d0-78d3-4fdd-9845-3e1a2b800cf7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:38]
 :END:
 
 Someting that can fail, throw exceptions.
@@ -2437,8 +2473,17 @@ empty :: f a    -- The identity element of <|>
 Functors between monoidal categories that preserves monoidal structure.
 
 **** <<<Fusion>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       401d4ba1-4405-4ca7-a96c-c8fe8d22c3bf
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:39]
 :END:
 
 #+begin_src haskell
@@ -2777,8 +2822,17 @@ $$ P() $$ is commutative.
 Predicate
 
 ****** <<<Left identity of a predicate>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:33]
 :END:
 
 $$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
@@ -4952,8 +5006,17 @@ Computer programs are mathematical proofs.
 <<<Curry–Howard isomorphism>>>
 
 *** <<<Currying>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:36]
 :END:
 
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
@@ -5056,8 +5119,17 @@ $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 See Lambda calculus (Lambda terms) and Expression. In majority cases meaning some Lambda function.
 
 ** <<<Lense>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
 :END:
 
 Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
@@ -5095,8 +5167,17 @@ Nullary operation.
 Also see: Type constant.
 
 *** <<<Binary operation>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:34]
 :END:
 
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
@@ -6247,8 +6328,17 @@ Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 *** <<<Axiomatic semantics>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
 :END:
 
 Describing effect of operation on assertions about the overall state.
@@ -6284,8 +6374,17 @@ Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 
 *** <<<Power set>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:43]
 :END:
 
 For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
@@ -7201,8 +7300,17 @@ Level of code, about compilation processes/results.
 <<<Compilation level>>>
 
 **** <<<Runtime level>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       99d21c80-6b3d-4818-aef0-6c7796571883
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:32]
 :END:
 
 Level of code of main program operation, when machine does computations with compiled binary code.
@@ -7401,17 +7509,17 @@ Differs from the simply typed Lambda calculus by the introduction of universal q
 <<<Girard-Raynolds>>>
 
 *** <<<Tail call>>> :drill:
-SCHT: <2019-08-21 Wed>
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 8.8008
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.111
 :DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:28]
 :END:
 
 Final evaluation inside the function. Produces the function result.
@@ -7516,17 +7624,17 @@ Allows to separate and preserve information about happened, ex. error handling.
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
-SCHT: <2019-08-21 Wed>
+SCHT: <2019-09-02 Mon>
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 11.5837
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:27]
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:29]
 :END:
 
 For $$ f: x \to y $$:
@@ -7971,8 +8079,17 @@ Unconstrained means most flexible, but also most useless.
 :END:
 
 ** <<<Good: Print>>> :drill:
+SCHT: <2019-08-25 Sun>
 :PROPERTIES:
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:45]
 :END:
 
 #+begin_src haskell
