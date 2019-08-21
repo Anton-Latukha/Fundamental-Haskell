@@ -7204,7 +7204,7 @@ Level of code, about compilation processes/results.
 :ID:       99d21c80-6b3d-4818-aef0-6c7796571883
 :END:
 
-Level of code when binary code executes in machine.
+Level of code of main program operation, when machine does computations with compiled binary code.
 
 *** <<<Orphan type instance>>> :drill:
 SCHT: <2019-08-24 Sat>
