@@ -1,7 +1,7 @@
 #+TITLE: Fundamental Haskell notes
 #+startup: latexpreview
 #+startup: entitiespretty
-#+SETUPFILE: ./org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: ./org-html-themes/setup/theme-readtheorg-local.setup
 #+OPTIONS: tags:nil
 #+OPTIONS: stat:t
 #+OPTIONS: H:10
