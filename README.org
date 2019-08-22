@@ -6942,6 +6942,12 @@ Having trivial domain.
 
 /arbitrarius/ uncertain
 
+Random, any one of.
+
+Used as: Any one with /this/ set of properties. (constraints, type, etc.).
+
+When there is a talk about any arbitrary value - in fact it is a talk about the generalization of computations over the set of properties.
+
 ** Logic
 :PROPERTIES:
 :ID:       4960f252-a074-41d3-9bf1-ce46d09052bc
