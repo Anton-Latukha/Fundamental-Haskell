@@ -6932,8 +6932,8 @@ On first compilation - /*/ analyzes the abstract signatures without loading side
 :ID:       009d9f43-81a1-4e7e-a5be-ad706a704497
 :END:
 
-Taking no entries; having the arity of zero.
-Having trivial domain.
+Takes no entries; has the arity of zero.
+Has the trivial domain.
 
 ** <<<Arbitrary>>> :drill:
 :PROPERTIES:
