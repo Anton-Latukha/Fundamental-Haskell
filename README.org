@@ -3781,7 +3781,7 @@ SCHT: <2019-08-22 Thu>
 :DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:16]
 :END:
 
-Automatic data type detection of expression.
+Automatic data type detection for expression.
 
 **** /*/
 <<<Inferring>>>
