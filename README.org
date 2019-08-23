@@ -5264,7 +5264,7 @@ $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 **** /*/
 <<<Binary operations>>>
 
-** <<<Operator>>> :drill:
+*** <<<Operator>>> :drill:
 SCHT: <2019-09-09 Mon>
 :PROPERTIES:
 :ID:       ad158f22-64c6-44c6-b140-4fc5c2b065f7
@@ -5280,7 +5280,7 @@ SCHT: <2019-09-09 Mon>
 
 Denotation symbol/name for the operation.
 
-*** <<<Shift operator>>> :drill:
+**** <<<Shift operator>>> :drill:
 :PROPERTIES:
 :ID:       48503777-55e0-4c6e-8675-f220bb2c11c8
 :END:
@@ -5288,7 +5288,7 @@ Denotation symbol/name for the operation.
 Shift operator defined by Lagrange through Differential operator.
 $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 
-**** /*/
+***** /*/
 Shift
 
 ** <<<Pattern guard>>> :drill:
