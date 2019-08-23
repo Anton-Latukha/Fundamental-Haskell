@@ -5034,7 +5034,9 @@ Directly relates to Coq programming language.
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
 :END:
 
-Computer programs are mathematical proofs.
+Saying that First-order logic, computer programming and Category theory are equivalent. They can represent each-other, what is possible in one - possible in the other and all the definitions and theorems have analogues in other two fields.
+
+Also gives ground to the equivalence of computer programs and mathematical proofs.
 
 **** /*/
 <<<Curry–Howard isomorphism>>>
