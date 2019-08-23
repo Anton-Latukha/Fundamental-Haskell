@@ -7880,7 +7880,8 @@ Fully defined type. Non-polymorphic type.
 :END:
 
 Nested tree data structure.
-Introduced used in Lisp. In Lisp code and data are a /*/.
+
+Introduced & used in Lisp. Lisp code and data are /*/.
 
 /*/ in Lisp: Atom or expression of the form =(x . y)=, =x= and =y= are /*/.
 
