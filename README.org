@@ -1146,17 +1146,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-01 Sun>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 9.1636
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 20:15]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
 :END:
 
 Is which:
@@ -1410,17 +1410,17 @@ $$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
 <<<Endofunctors>>>
 
 **** <<<Applicative functor>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-02 Mon>
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:15]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:39]
 :END:
 
 /*/ - Computer science term. Category theory name - lax monoidal functor. And in category $$ Set $$, and so in category $$ Hask $$ all applicatives and monads are strong (have tensorial strength).
@@ -2115,17 +2115,17 @@ SCHT: <2019-09-11 Wed>
 Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C}^{op} $$.
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-01 Sun>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 9.4956
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.6
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 20:16]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:43]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -2283,6 +2283,14 @@ Plus: (++)
 ******* <<<Reader monad>>> :drill:
 :PROPERTIES:
 :ID:       fff0059d-0484-41ee-b7c0-e91360c9ff62
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:48]
 :END:
 
 Creates a read-only shared environment for computations.
@@ -3087,23 +3095,31 @@ Morphism of elements from the kernel. Map of elements that make main morphism no
 **** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 1.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:43]
 :END:
 
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 *** <<<Object>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-01 Sun>
 :PROPERTIES:
 :ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:21]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:34]
 :END:
 Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
 
@@ -3768,17 +3784,17 @@ On evaluation of the /*/ GHC would show the derived type information to help fil
 <<<Typed holes>>>
 
 *** <<<Type inference>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-03 Tue>
 :PROPERTIES:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:16]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
 :END:
 
 Automatic data type detection for expression.
@@ -4228,17 +4244,17 @@ SCHT: <2019-10-26 Sat>
 Reducible expression.
 
 *** <<<Concatenate>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-03 Tue>
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:16]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:35]
 :END:
 
 Link together sequences, expressions.
@@ -4411,8 +4427,17 @@ h.g.f $ i
 <<<Composed>>>
 
 *** <<<Function head>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       6eb9d501-0dda-4a9e-b3e1-e35fb84d31b8
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
 :END:
 
 Is a part with Name of the function and it's paramenter.
@@ -4583,17 +4608,17 @@ Corresponds to Epimorphism.
 <<<Surjective function>>>
 
 *** <<<Unsafe function>>> :drill:
-SCHT: <2019-08-20 Tue>
+SCHT: <2019-10-16 Wed>
 :PROPERTIES:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
-:DRILL_LAST_INTERVAL: 22.3868
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 53.7507
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-29 Mon 01:29]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:48]
 :END:
 
 Function that does not cover at least one edge case.
@@ -4925,8 +4950,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda abstraction>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
 :END:
 
 Lambda term that has a head and body and is applied to an argument.
@@ -4997,17 +5031,17 @@ Equation of a parameter to its bound variable, and reducing parameter from the h
 <<<Beta reduction>>>
 
 **** <<<\beta-normal form>>> :drill:
-SCHT: <2019-08-18 Sun>
+SCHT: <2019-10-26 Sat>
 :PROPERTIES:
 :ID:       56b65c7e-f063-4614-b2c7-916ff446ab80
-:DRILL_LAST_INTERVAL: 24.0088
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 63.6233
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-25 Thu 23:14]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:42]
 :END:
 
 No beta reduction is possible.
@@ -5030,8 +5064,17 @@ Directly relates to Coq programming language.
 <<<<<<CoC>>>>>>
 
 *** <<<Curry–Howard correspondence>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:48]
 :END:
 
 Saying that First-order logic, computer programming and Category theory are equivalent. They can represent each-other, what is possible in one - possible in the other and all the definitions and theorems have analogues in other two fields.
@@ -5079,17 +5122,17 @@ Where types marked as polymorphic variables, and overall type inference is possi
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 
 *** <<<Reduction>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-02 Mon>
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:16]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:39]
 :END:
 
 See Beta reduction
@@ -5698,8 +5741,17 @@ import MultiParamTypeClasses
 #+end_src
 
 ***** <<<AllowAmbiguousTypes>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:40]
 :END:
 
 Allow type signatures which appear that they would result in an unusable binding.
@@ -5796,17 +5848,17 @@ $$ C :> D $$, so in C we can talk about D.
 Synergizes with ConstraintKinds.
 
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-02 Mon>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 9.7704
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.876
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.112
+:DRILL_EASE: 2.38
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 20:17]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
 :END:
 
 Allow type class instances types contain nested types.
@@ -5854,17 +5906,17 @@ Allow definition of functions expecting implicit parameters. In the Haskell that
 Sure thing this one can be puzzling as hell inside Haskell.
 
 ***** <<<LambdaCase>>> :drill:
-SCHT: <2019-08-19 Mon>
+SCHT: <2019-10-12 Sat>
 :PROPERTIES:
 :ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
-:DRILL_LAST_INTERVAL: 20.6501
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 49.5809
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-29 Mon 00:15]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:42]
 :END:
 
 Enables expressions of the form:
@@ -6180,17 +6232,17 @@ If there exists composed idiomatic expression - it is unfull, unpure composition
 <<<Compositional>>>
 
 ** <<<\Psi-combinator>>> :drill:
-SCHT: <2019-08-16 Fri>
+SCHT: <2019-11-18 Mon>
 :PROPERTIES:
 :ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 31.1271
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 87.1559
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.556
 :DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-16 Tue 00:05]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:41]
 :END:
 
 Transforms two of the same type into one of some type. By applying mediate transformation, and applying combination of them into result.
@@ -6230,6 +6282,14 @@ $$ \exists ! $$ - one and only one (exists only unique).
 *** <<<Forall quantifier>>> :drill:
 :PROPERTIES:
 :ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:44]
 :END:
 
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
@@ -6772,8 +6832,17 @@ Example - 12-hour clock.
 <<<Clock arithmetic>>>
 
 *** <<<Modulus>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:40]
 :END:
 
 Special numbers where arithmetic wraps around in modular arithmetic.
@@ -6841,17 +6910,17 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 <<<Left-associative>>>
 
 *** <<<Right associative>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-03 Tue>
 :PROPERTIES:
 :ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:12]
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
 :END:
 
 /*/ - the operations are grouped from the right.
@@ -7505,8 +7574,17 @@ SCHT: <2019-11-06 Wed>
 Artificial way to make language easier to read and write.
 
 *** <<<System F>>> :drill:
+SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
 :END:
 
 Formalizes the notion of parametric polymorphism in programming languages.
@@ -7879,6 +7957,14 @@ Fully defined type. Non-polymorphic type.
 ** <<<Symbolic expression>>> :drill:
 :PROPERTIES:
 :ID:       62a62e62-5b76-42d5-a971-9b9d3f72ec8f
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
 :END:
 
 Nested tree data structure.
@@ -8390,17 +8476,17 @@ SCHT: <2019-08-24 Sat>
 Typed holes help build code in complex situations.
 
 ** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-09-01 Sun>
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:18]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:37]
 :END:
 
 That is why infinite types throw infinite type error.
