@@ -4733,6 +4733,40 @@ $$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{
 **** /*/
 <<<Closed>>>
 
+*** <<<Parameter>>> :drill:
+SCHT: <2019-08-28 Wed>
+:PROPERTIES:
+:ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:06]
+:END:
+
+παρά /para/ subsidiary
+μέτρον /metron/ measure
+
+Or formal parameter. Named varible of a function.
+
+Argument is a supplied value to a function parameter.
+
+**** /*/
+<<<Parameters>>>
+
+*** <<<Partial application>>> :drill:
+:PROPERTIES:
+:ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
+:END:
+
+Part of function parameters applied.
+
+**** /*/
+<<<Partially applied>>>
+
 ** <<<Fundamental theorem of algebra>>> :drill:
 SCHT: <2019-08-26 Mon>
 :PROPERTIES:
@@ -5211,40 +5245,6 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 
 **** /*/
 Shift
-
-** <<<Parameter>>> :drill:
-SCHT: <2019-08-28 Wed>
-:PROPERTIES:
-:ID:       737527a3-4fcf-4499-9d27-6fab664d9da0
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:06]
-:END:
-
-παρά /para/ subsidiary
-μέτρον /metron/ measure
-
-Or formal parameter. Named varible of a function.
-
-Argument is a supplied value to a function parameter.
-
-*** /*/
-<<<Parameters>>>
-
-** <<<Partial application>>> :drill:
-:PROPERTIES:
-:ID:       3ec44a13-f6e9-4ba4-b0af-1c12b8017775
-:END:
-
-Part of function parameters applied.
-
-*** /*/
-<<<Partially applied>>>
 
 ** <<<Pattern guard>>> :drill:
 SCHT: <2019-08-24 Sat>
