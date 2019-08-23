@@ -1434,7 +1434,7 @@ SCHT: <2019-08-22 Thu>
 Requires Functor to exist.
 Requires Monoidal structure.
 
-Has monoidal structure rules, separated from what happens inside structure.
+Has monoidal structure rules, separated form function application inside structure.
 
 Data type can have several applicative implementations.
 
