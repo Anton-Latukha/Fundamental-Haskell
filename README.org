@@ -3105,7 +3105,7 @@ SCHT: <2019-08-22 Thu>
 :DRILL_LAST_QUALITY: 3
 :DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:21]
 :END:
-Mathematical structure. Morphisms preserve structure.
+Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
 
 **** /*/
 <<<Structure>>>
