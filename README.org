@@ -8125,6 +8125,19 @@ Any type of the kind Constraints can be used as a constraint.
   func = ...
   #+end_src
 
+** <<<Specialisation>>>
+:PROPERTIES:
+:ID:       a9e7fcd2-2334-4a4d-940f-b3c20268aec6
+:END:
+
+Turns ad hoc polymorphic function into compiled type-specific inmpementations.
+
+*** /*/
+
+<<<Specialise>>>
+<<<Specialize>>>
+<<<Specialization>>>
+
 * Citations
 
 "One of the finer points of the Haskell community has been
