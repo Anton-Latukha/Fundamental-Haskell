@@ -1289,17 +1289,17 @@ Type instance of functor should abide this laws:
 <<<Functor laws>>>
 
 ****** <<<Power set functor identity law>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.6346
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:41]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 #+begin_src haskell
@@ -1370,17 +1370,17 @@ Constant functor is another example.
 <<<Forgetful>>>
 
 **** <<<Identity functor>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       9dbbb6a7-e9ae-4c29-8468-aa20fc143b84
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 Maps all category to itself. All objects and morphisms to themselves.
@@ -1681,17 +1681,17 @@ pure 1 :: Constant String Int
 #+end_src
 
 ****** <<<Maybe applicative>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       5929b239-fa46-40c6-9896-a2dabe40f619
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:45]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 "There also can be no function at all."
@@ -2240,17 +2240,17 @@ SCHT: <2019-08-31 Sat>
 When computation results in =Left= - drops other computations & returns the recieved =Left=.
 
 ******* <<<Error monad>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       860961d0-78d3-4fdd-9845-3e1a2b800cf7
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3376
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:38]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 Someting that can fail, throw exceptions.
@@ -2281,16 +2281,17 @@ Plus: (++)
 <<<[] monad>>>
 
 ******* <<<Reader monad>>> :drill:
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       fff0059d-0484-41ee-b7c0-e91360c9ff62
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:48]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:15]
 :END:
 
 Creates a read-only shared environment for computations.
@@ -2481,17 +2482,17 @@ empty :: f a    -- The identity element of <|>
 Functors between monoidal categories that preserves monoidal structure.
 
 **** <<<Fusion>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       401d4ba1-4405-4ca7-a96c-c8fe8d22c3bf
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:39]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 #+begin_src haskell
@@ -2753,17 +2754,17 @@ If morphism corresponds to function requirements - than it is a function.
 <<<Arrows>>>
 
 **** <<<Homomorphism>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-09-18 Wed>
 :PROPERTIES:
 :ID:       f2e565b1-80d9-4d83-96c7-ba3e17440b75
-:DRILL_LAST_INTERVAL: 9.2679
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 23.2161
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:32]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:22]
 :END:
 
 ὁμός /homos/ same (was chosen becouse of initial Anglish mistranslation to "similar")
@@ -2793,17 +2794,17 @@ Composed with other morphism gives same morphism.
 Corresponds to Reflexivity and Automorphism.
 
 ***** <<<Identity>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-10-14 Mon>
 :PROPERTIES:
 :ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
-:DRILL_LAST_INTERVAL: 21.9685
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.7701
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:16]
 :END:
 
 Identity only possible with morphism. See Identity morphism.
@@ -2830,17 +2831,17 @@ $$ P() $$ is commutative.
 Predicate
 
 ****** <<<Left identity of a predicate>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:33]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 $$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
@@ -3001,17 +3002,17 @@ Corresponds to identity, reflexivity.
 <<<Endomorphic>>>
 
 **** <<<Catamorphism>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       3af3d5fd-449a-45e7-ac99-0cca150f0523
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:50]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
 :END:
 
 κατά /kata/ downward
@@ -3093,16 +3094,17 @@ SCHT: <2019-08-23 Fri>
 Morphism of elements from the kernel. Map of elements that make main morphism not monomorphic (injective).
 
 **** <<<Anamorphism>>> :drill:
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 1.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 1
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:43]
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:22]
 :END:
 
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
@@ -3225,17 +3227,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-04 Wed>
 :PROPERTIES:
 :ID:       942d9234-d549-46a3-b051-ef1ac73244ad
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.9861
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
 :END:
 
 Category duality behaves like a logical inverse.
@@ -3518,17 +3520,17 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 
 *** <<<Static typing>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:36]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
 :END:
 
 Typechecking takes place at compile level.
@@ -4452,17 +4454,17 @@ The range of a function refers to either the codomain or the image of the functi
 So, see Function image.
 
 *** <<<Higher-order function>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       61a40480-45d2-4632-9948-986eecd8b7cb
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:30]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
 :END:
 
 Function arity > 1.
@@ -4793,17 +4795,17 @@ Part of function parameters applied.
 <<<Partially applied>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-09-13 Fri>
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 8.2695
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 18.3583
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_AVERAGE_QUALITY: 2.857
 :DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 20:19]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -5085,17 +5087,17 @@ Also gives ground to the equivalence of computer programs and mathematical proof
 <<<Curry–Howard isomorphism>>>
 
 *** <<<Currying>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:36]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:22]
 :END:
 
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
@@ -5141,17 +5143,17 @@ See Beta reduction
 <<<Reducible>>>
 
 *** <<<\beta-\eta normal form>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       0240a6dc-9667-4558-b138-3423930eafe6
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:50]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:17]
 :END:
 
 All \beta-reduction and \eta-reduction are done in the expression.
@@ -5198,17 +5200,17 @@ $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 See Lambda calculus (Lambda terms) and Expression. In majority cases meaning some Lambda function.
 
 ** <<<Lense>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
@@ -5246,17 +5248,17 @@ Nullary operation.
 Also see: Type constant.
 
 *** <<<Binary operation>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       f7cf1edb-834b-4505-874b-c7e8acc6d547
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:34]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
@@ -5292,17 +5294,17 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 Shift
 
 ** <<<Pattern guard>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-04 Wed>
 :PROPERTIES:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 9.28
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_AVERAGE_QUALITY: 3.222
 :DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
 :END:
 
 Allows check a list of pattern matches against functions, and then proceed.
@@ -5346,17 +5348,17 @@ Bijective function from domain to itself.
 With domain, function composition forms a group.
 
 ** <<<Phrase>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:51]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
 :END:
 
 /*/ - composable expression.
@@ -5566,17 +5568,17 @@ It is interface dispatch mechanism by data types.
 <<<Constraints>>>
 
 **** <<<Impredicative polymorphism>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-09-15 Sun>
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
-:DRILL_LAST_INTERVAL: 8.7892
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 20.1976
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 01:48]
+:DRILL_AVERAGE_QUALITY: 3.286
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 /*/ allows type τ entities with polymorphic types that can contain type τ itself.
@@ -6280,16 +6282,17 @@ $$ \exists ! $$ - one and only one (exists only unique).
 <<<Quantified>>>
 
 *** <<<Forall quantifier>>> :drill:
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:44]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:15]
 :END:
 
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
@@ -6390,17 +6393,17 @@ Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 *** <<<Axiomatic semantics>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-04 Wed>
 :PROPERTIES:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 8.9861
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:44]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 Describing effect of operation on assertions about the overall state.
@@ -6436,17 +6439,17 @@ Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 
 *** <<<Power set>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.6346
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:43]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:21]
 :END:
 
 For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
@@ -6477,17 +6480,17 @@ $$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
 Denotation was not standartized.
 
 **** <<<Hom-functor>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:DRILL_LAST_INTERVAL: 8.3106
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 7
-:DRILL_AVERAGE_QUALITY: 2.545
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 21:47]
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 13
+:DRILL_FAILURE_COUNT: 8
+:DRILL_AVERAGE_QUALITY: 2.538
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:22]
 :END:
 
 $$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$, for locally small category $$ \mathcal{C} $$.
@@ -7037,17 +7040,17 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 <<<Propositions>>>
 
 **** <<<Atomic proposition>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-04 Wed>
 :PROPERTIES:
 :ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.9861
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:32]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
 :END:
 
 Logically undividable unit. Does not contain logical connectives.
@@ -7251,17 +7254,17 @@ $$ \iff $$
 :END:
 
 *** <<<As-pattern>>> :drill:
-SCHT: <2019-08-22 Thu>
+SCHT: <2019-10-06 Sun>
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
-:DRILL_LAST_INTERVAL: 18.8265
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 40.5335
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:59]
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:15]
 :END:
 
 #+begin_src haskell
@@ -7628,17 +7631,17 @@ Expression that does not contain any free variables.
 <<<Ground formula>>>
 
 ** <<<Content word>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       2392f66d-e924-49ef-bc22-93c844f74683
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:28]
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
 :END:
 
 Words that name objects of reality and their qualities.
@@ -7955,16 +7958,17 @@ Fully defined type. Non-polymorphic type.
 ** <<<Combinator pattern>>>
 
 ** <<<Symbolic expression>>> :drill:
+SCHT: <2019-08-30 Fri>
 :PROPERTIES:
 :ID:       62a62e62-5b76-42d5-a971-9b9d3f72ec8f
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.667
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:22]
 :END:
 
 Nested tree data structure.
@@ -8174,17 +8178,17 @@ Unconstrained means most flexible, but also most useless.
 :END:
 
 ** <<<Good: Print>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:45]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:20]
 :END:
 
 #+begin_src haskell
@@ -8399,17 +8403,17 @@ SCHT: <2019-10-05 Sat>
 Where character is not present - discards the according value.
 
 ** <<<Good: About functions like {mapM, sequence}_>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:51]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
 :END:
 
 Trailing =_= means ignoring the result.
@@ -8460,17 +8464,17 @@ Portability :  portable | non-portable (<reason>)
 ***** Every function does one thing.
 
 ** <<<Good: Use Typed holes to progress the code>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.1407
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-20 Tue 15:36]
+:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
 :END:
 
 Typed holes help build code in complex situations.
