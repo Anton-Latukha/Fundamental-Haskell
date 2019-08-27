@@ -959,17 +959,17 @@ But it has... Both.
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
 
 ** Ancient Greek and Latin prefixes :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-14 Mon>
 :PROPERTIES:
 :ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
-:DRILL_LAST_INTERVAL: 20.1976
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 48.4944
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:59]
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:55]
 :END:
 
 | Meaning                 | Greek prefix      | Latin prefix         |
@@ -2723,17 +2723,17 @@ Example: set of same size square matricies of numbers with matrix operations for
 <<<Rings>>>
 
 *** <<<Morphism>>> :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-18 Fri>
 :PROPERTIES:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
-:DRILL_LAST_INTERVAL: 23.3254
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 52.2256
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:45]
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:55]
 :END:
 
 μορφή /morphe/ form
@@ -3080,17 +3080,17 @@ Denotation:
 $$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
 
 ***** <<<Kernel homomorphism>>> :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-18 Fri>
 :PROPERTIES:
 :ID:       e77c8ade-6668-48e3-aeae-3bf1209e31d8
-:DRILL_LAST_INTERVAL: 23.3254
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 52.2256
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 2.8
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:41]
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:48]
 :END:
 
 Morphism of elements from the kernel.
@@ -3141,17 +3141,17 @@ Absolute abstraction. Point that has properties. Often abstracts mathematical st
 Terminal object - is an object i: $$ \exists ! (x \to i) \ | \ \exists i \in \mathcal{C} , \; \forall x \in \mathcal{C} $$.
 
 **** <<<Initial object>>> :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-13 Sun>
 :PROPERTIES:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
-:DRILL_LAST_INTERVAL: 20.1976
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 46.8584
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_AVERAGE_QUALITY: 3.4
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:59]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:53]
 :END:
 
 Initial object - is an object i: $$ \exists ! (i \to x) \ | \ \exists i \in \mathcal{C}, \ \forall x \in \mathcal{C} $$.
@@ -3494,17 +3494,17 @@ SCHT: <2019-11-02 Sat>
 The most generic data type that still typechecks.
 
 *** <<<Product data type>>> :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       dcca9aba-08e0-4616-8bec-b803bf67f066
-:DRILL_LAST_INTERVAL: 23.3254
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.0043
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:20]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:53]
 :END:
 
 Algebraic data type formed by logical conjunction (=AND=, '=* *=').
@@ -3811,17 +3811,17 @@ Automatic data type detection for expression.
 <<<Inferred>>>
 
 *** <<<Type class instance>>> :drill:
-SCHT: <2019-08-23 Fri>
+SCHT: <2019-10-20 Sun>
 :PROPERTIES:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
-:DRILL_LAST_INTERVAL: 23.3254
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 54.1149
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_AVERAGE_QUALITY: 3.75
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:06]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:51]
 :END:
 
 Block of implementations of functions, based on unique type class->type pairing.
@@ -3995,8 +3995,17 @@ data NonEmpty a = a :| [a]
 
 So far very complex not very productive (& well-established) topic.
 *** <<<Binary tree>>> :drill:
+SCHT: <2019-08-31 Sat>
 :PROPERTIES:
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
 :END:
 
 #+begin_src haskell
@@ -4196,17 +4205,17 @@ Finite combination of symbols that is well-formed according to rules that depend
 <<<Expressions>>>
 
 *** <<<Closed-form expression>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-15 Sun>
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
-:DRILL_LAST_INTERVAL: 8.6425
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 19.4975
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.375
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:10]
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
 :END:
 
 /*/ - mathematical expression that can be evaluated in a finite number of operations.
@@ -4431,17 +4440,17 @@ h.g.f $ i
 <<<Composed>>>
 
 *** <<<Function head>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       6eb9d501-0dda-4a9e-b3e1-e35fb84d31b8
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.0
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.5
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:57]
 :END:
 
 Is a part with Name of the function and it's paramenters.
@@ -4954,17 +4963,16 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda abstraction>>> :drill:
-SCHT: <2019-08-27 Tue>
 :PROPERTIES:
 :ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
 :END:
 
 Lambda term that has a head and body and is applied to an argument.
@@ -5068,17 +5076,17 @@ Directly relates to Coq programming language.
 <<<<<<CoC>>>>>>
 
 *** <<<Curry–Howard correspondence>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:48]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
 :END:
 
 Saying that First-order logic, computer programming and Category theory are equivalent. They can represent each-other, what is possible in one - possible in the other and all the definitions and theorems have analogues in other two fields.
@@ -5748,17 +5756,17 @@ import MultiParamTypeClasses
 #+end_src
 
 ***** <<<AllowAmbiguousTypes>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:40]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
 :END:
 
 Allow type signatures which appear that they would result in an unusable binding.
@@ -6151,17 +6159,17 @@ exmpl ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data
 #+end_src
 
 ***** <<<DatatypeContexts>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-09-15 Sun>
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
-:DRILL_LAST_INTERVAL: 8.6425
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 19.4975
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.833
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:34]
+:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
 :END:
 
 Allow contexts in data types.
@@ -6840,17 +6848,17 @@ Example - 12-hour clock.
 <<<Clock arithmetic>>>
 
 *** <<<Modulus>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-05 Thu>
 :PROPERTIES:
 :ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:40]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
 :END:
 
 Special numbers where arithmetic wraps around in modular arithmetic.
@@ -7385,17 +7393,17 @@ Level of code, about compilation processes/results.
 <<<Compilation level>>>
 
 **** <<<Runtime level>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       99d21c80-6b3d-4818-aef0-6c7796571883
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:32]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:55]
 :END:
 
 Level of code of main program operation, when machine does computations with compiled binary code.
@@ -7582,17 +7590,17 @@ SCHT: <2019-11-06 Wed>
 Artificial way to make language easier to read and write.
 
 *** <<<System F>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-06 Fri>
 :PROPERTIES:
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
 :END:
 
 Formalizes the notion of parametric polymorphism in programming languages.
