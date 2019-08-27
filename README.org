@@ -2739,7 +2739,7 @@ SCHT: <2019-08-23 Fri>
 μορφή /morphe/ form
 Arrow between two objects in a category.
 
-General description: Arrow from one to another that denotes something.
+General description: Arrow from source to target. Denotes something.
 
 On a level of objects: is probably structure-preserving map from one mathematical structure to another of the same type.
 
@@ -2748,7 +2748,7 @@ Under morphism almost always is the meaning of homomorphism-like properties.
 
 Morphism can be anything.
 
-If morphism corresponds to function requirements - than it is a function.
+If morphism corresponds to function requirements - then it is a function.
 
 **** /*/
 <<<Morphisms>>>
