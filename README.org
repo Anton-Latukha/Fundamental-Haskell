@@ -3093,7 +3093,8 @@ SCHT: <2019-08-23 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:41]
 :END:
 
-Morphism of elements from the kernel. Map of elements that make main morphism not monomorphic (injective).
+Morphism of elements from the kernel.
+Complementary morphism of elements that make main morphism not monomorphic.
 
 **** <<<Anamorphism>>> :drill:
 SCHT: <2019-08-30 Fri>
