@@ -3824,7 +3824,7 @@ SCHT: <2019-08-23 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:06]
 :END:
 
-Unique type class->type pairing implementation of functions.
+Block of implementations of functions, based on unique type class->type pairing.
 
 *** <<<Type rank>>> :drill:
 :PROPERTIES:
