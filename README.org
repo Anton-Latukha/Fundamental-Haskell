@@ -4003,7 +4003,6 @@ So far very complex not very productive (& well-established) topic.
 data BinaryTree a
   = [[Leaf]]
   | [[Node]] (BinaryTree a) a (BinaryTree a)
-  deriving (Eq, Ord, Show)
 #+end_src
 
 *** <<<Bottom value>>> :drill:
