@@ -4445,8 +4445,8 @@ SCHT: <2019-08-27 Tue>
 :DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:42]
 :END:
 
-Is a part with Name of the function and it's paramenter.
-AKA: f(x)
+Is a part with Name of the function and it's paramenters.
+AKA: $$ f(x) $$
 
 *** <<<Function range>>> :drill:
 :PROPERTIES:
