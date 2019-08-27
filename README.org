@@ -3507,7 +3507,7 @@ SCHT: <2019-08-23 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:20]
 :END:
 
-Algebraic data type formed by logical conjunction (AND ' ').
+Algebraic data type formed by logical conjunction (=AND=, '=* *=').
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
