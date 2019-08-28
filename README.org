@@ -2887,14 +2887,16 @@ id :: a -> a
 μονο /mono/ only
 μορφή /morphe/ form
 
-Initial set of /f/ is fully uniquely mapped onto the image of /f/.
-Left is mono (uniquely) mapped to the right, so left domain can be equal or less to the right codomain.
-It is injective.
-It always has a inverse morphism.
+Maps one to one (uniquely), so invertable (always has inverse morphism), so preserves the information/structure.
+Domain can be equal or less to the codomain.
 
-$$ f^{X \to Y}, \forall x \in X \, \exists y=f(x) \vDash f(x) = f_{mono}(x) $$ - from homomorphism context
-$$ f_{mono} \circ g1 \equiv f_{mono} \circ g2 \vDash \; g1 \equiv g2 $$ - from general morphism context
-Thus it is left canselable.
+$$ f^{X \to Y}, \ \forall x \in X \, \exists! y=f(x) \vDash f(x) \equiv f_{mono}(x) $$ - from homomorphism context
+$$ f_{mono} \circ g1 = f_{mono} \circ g2 \ \vDash \ g1 \equiv g2 $$ - from general morphism context
+Thus /*/ is left canselable.
+
+If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely mapped onto the image of /f/.
+
+Dual to /*/ is epimorphism.
 
 ***** /*/
 <<<Monomorphic>>>
