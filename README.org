@@ -2925,8 +2925,6 @@ $$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \vDash \; g_1 \equiv g_2 $$ - from gene
 
 Domain is bigger or equal then codomain. Codomain is a projection of the domain.
 
-Dual to /*/ is monomorphism.
-
 ***** /*/
 <<<Epimorphic>>>
 
