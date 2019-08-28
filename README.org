@@ -2896,8 +2896,6 @@ Thus /*/ is left canselable.
 
 If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely mapped onto the image of /f/.
 
-Dual to /*/ is epimorphism.
-
 ***** /*/
 <<<Monomorphic>>>
 
