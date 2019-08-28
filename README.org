@@ -6353,6 +6353,7 @@ SCHT: <2019-09-28 Sat>
 :END:
 
 Relationship between two objects.
+Subset of a Cartesian product between sets of objects.
 Is not directed and not limited.
 
 *** /*/
