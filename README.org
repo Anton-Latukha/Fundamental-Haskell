@@ -1161,6 +1161,8 @@ SCHT: <2019-09-01 Sun>
 :DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
 :END:
 
+Generalised category in which can have homological algebra, its constructions and techniques.
+
 Is which:
   * has a zero object,
   * has all binary biproducts,
@@ -1172,7 +1174,6 @@ The class of Abelian categories is closed under several categorical construction
 
 There is notion of Abelian monoid (AKS Commutative monoid) and Abelian group (Commutative group).
 
-/*/ is one that has homological algebra available constructions and techniques.
 Basic examples of /*/:
   * category of Abelian groups
   * category of modules over a ring.
