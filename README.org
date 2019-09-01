@@ -6820,7 +6820,7 @@ Represents existence. Denoted as empty sequence.
 
 Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
 
-Hense nothing, emptiness, void can not be theoretically addressed or practically constructed - unit in Haskell represents also emptiness.
+Hense nothing, emptiness, void can not be theoretically addressed or practically constructed - unit in Haskell represents also a stub for emptiness, like in =IO ()=.
 
 ** <<<Variable>>> :drill:
 :PROPERTIES:
