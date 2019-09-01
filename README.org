@@ -3264,6 +3264,24 @@ Properties:
 <<<Dual category>>>
 <<<Dual>>>
 
+*** <<<Thin category>>> :drill:
+:PROPERTIES:
+:ID:       130fbaa3-d9b8-43e6-8c29-b448b505d9d0
+:END:
+
+\forall Hom sets contain zero or one morphism.
+
+$$ f \equiv g \ | \ \forall x,y \ \forall f,g: x \to y $$
+
+A proset (preordered set).
+
+**** /*/
+
+<<<Proset category>>>
+<<<Prosetal category>>>
+<<<Poset category>>>
+<<<Posetal category>>>
+
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
