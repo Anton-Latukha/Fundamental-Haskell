@@ -2581,7 +2581,7 @@ SCHT: <2019-08-30 Fri>
 :DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:19]
 :END:
 
-Semigroup with Identity element.
+Semigroup with identity element. Category with a one object.
 
 Ideally fits as an accumulation class.
 
