@@ -2923,8 +2923,8 @@ Image is full codomain.
 If /*/ is a function - it is surjective.
 
 $$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) $$ - from homomorphism context
-$$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \vDash \; g_1 \equiv g_2 $$ - from general morphism context
-/*/ is right canselable maorphism. In Set category - image fully uses codomain - is surjective function.
+$$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 $$ - from general morphism context
+/*/ is right canselable morphism. In Set category - image fully uses codomain - is surjective function.
 
 Domain is bigger or equal then codomain. Codomain is a projection of the domain.
 
