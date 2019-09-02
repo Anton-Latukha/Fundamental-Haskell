@@ -2919,14 +2919,14 @@ SCHT: <2019-08-24 Sat>
 επι /epi/ on, over
 μορφή /morphe/ form
 
-Image is full codomain.
-If /*/ is a function - it is surjective.
-
+/*/ is right canselable morphism. In Set category - image fully uses codomain - is surjective function.
 $$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) $$ - from homomorphism context
 $$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 $$ - from general morphism context
-/*/ is right canselable morphism. In Set category - image fully uses codomain - is surjective function.
 
-Domain is bigger or equal then codomain. Codomain is a projection of the domain.
+If /*/ is a function - it is surjective.
+Image of it is full codomain.
+
+Morphism fully maps into the target. Codomain is a projection of the domain.
 
 ***** /*/
 <<<Epimorphic>>>
