@@ -4987,7 +4987,7 @@ Based on function abstraction and application by substituting variables and bind
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
 :END:
 
-λ-cube shows the dimentions of generalization from simply typed Lambda calculus to Calculus of constructions.
+λ-cube shows the dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
   * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
