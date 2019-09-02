@@ -376,7 +376,6 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#kind][<<<Kind>>>]]
   - [[#lambda-calculus][<<<Lambda calculus>>>]]
     - [[#-90][/*/]]
-    - [[#lambda-abstraction][<<<Lambda abstraction>>>]]
     - [[#lambda-cube][<<<Lambda cube>>>]]
       - [[#-91][/*/]]
     - [[#lambda-function][<<<Lambda function>>>]]
@@ -4983,26 +4982,6 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variable>>>
 <<<Lambda variables>>>
 
-*** <<<Lambda abstraction>>> :drill:
-:PROPERTIES:
-:ID:       5baf8dda-dacf-447f-bcdf-26d3b3599a42
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
-:END:
-
-Lambda term that has a head and body and is applied to an argument.
-$$ \lambda x.x+1 $$
-#+begin_src haskell
-\ x -> x + 1
-^^
-#+end_src
-
 *** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
@@ -5036,6 +5015,10 @@ $$ \lambda x y.x^2 + y^3 $$
   \___parameter
 (___)
    \____HEAD
+
+**** /*/
+
+<<<Lambda abstraction>>>
 
 **** <<<Anonymous lambda function>>>
 Lambda function without the name to bind to.
