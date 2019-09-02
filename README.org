@@ -5021,10 +5021,16 @@ $$ \lambda x y.x^2 + y^3 $$
 <<<Lambda abstraction>>>
 
 **** <<<Anonymous lambda function>>>
-Lambda function without the name to bind to.
+:PROPERTIES:
+:ID:       c3a9e8dd-b5e9-44ff-88c5-e83d00330964
+:END:
+
+Lambda function that is not binded to any name.
 
 ***** /*/
+
 <<<Anonymous lambda function>>>
+
 *** <<<\beta-reduction>>> :drill:
 SCHT: <2019-08-25 Sun>
 :PROPERTIES:
