@@ -2119,6 +2119,23 @@ SCHT: <2019-09-11 Wed>
 
 Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C}^{op} $$.
 
+****** <<<Kleisli arrow>>> :drill:
+:PROPERTIES:
+:ID:       0210aefe-3d66-4279-be2d-d323eef71954
+:END:
+
+Morphism that adds structure while doing computation.
+
+#+begin_src haskell
+a -> m b
+#+end_src
+
+******* /*/
+
+<<<Kleisli arrows>>>
+<<<Kleisli morphism>>>
+<<<Kleisli morphisms>>>
+
 ****** <<<Kleisli category>>> :drill:
 SCHT: <2019-09-01 Sun>
 :PROPERTIES:
