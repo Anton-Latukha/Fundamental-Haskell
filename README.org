@@ -4986,11 +4986,11 @@ SCHT: <2019-08-27 Tue>
 
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
 Haskell standard uses monad for constructing and transforming IO actions.
-IO actions can be evaluated multiple times.
+IO action can be evaluated multiple times.
 
 IO data type has unpure imperative actions inside. Haskell is pure Lambda calculus, and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
 
-IO collects effect sequences one after another:
+IO computes effect sequences one after another in order of occurence:
 #+begin_src haskell
 :{
 twoBinds :: IO ()
