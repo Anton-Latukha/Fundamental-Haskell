@@ -2136,6 +2136,37 @@ a -> m b
 <<<Kleisli morphism>>>
 <<<Kleisli morphisms>>>
 
+****** <<<Kleisli composition>>> :drill:
+:PROPERTIES:
+:ID:       2ca0a8e3-3fc8-4b82-90ae-99c684695d80
+:END:
+
+Composition of Kleisli arrows.
+
+#+begin_src haskell
+(<=<) :: Monad m => (b -> m c) -> (a -> m b) -> a -> m c infixr 1
+;; compare
+(.)   ::            (b ->  c ) -> (a ->  b ) -> a ->  c
+#+end_src
+
+Often used left-to-right version:
+
+#+begin_src haskell
+(>=>) :: Monad m => (a -> m b) -> (b -> m c) -> a -> m c
+;; compare
+(>>=) :: Monad m =>       m a  -> (a -> m b)      -> m b
+#+end_src
+
+Which allows to replace monadic bind chain with Kleisli composition.
+
+#+begin_src haskell
+f1 arg >>= f2 >>= f3
+==
+f1 >=> f2 >=> f3 $ arg
+==
+f3 <=< f2 <=< f1 $ arg
+#+end_src
+
 ****** <<<Kleisli category>>> :drill:
 SCHT: <2019-09-01 Sun>
 :PROPERTIES:
