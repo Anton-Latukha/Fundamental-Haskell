@@ -5033,6 +5033,14 @@ Based on function abstraction and application by substituting variables and bind
 *** <<<Lambda cube>>> :drill:
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-09-02 Mon 20:35]
 :END:
 
 λ-cube shows the dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
