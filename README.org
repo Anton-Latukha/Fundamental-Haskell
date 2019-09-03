@@ -2971,14 +2971,14 @@ SCHT: <2019-08-24 Sat>
 επι /epi/ on, over
 μορφή /morphe/ form
 
-/*/ is right canselable morphism. In Set category - image fully uses codomain - is surjective function.
+/*/ is right canselable morphism.
 $$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) $$ - from homomorphism context
 $$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 $$ - from general morphism context
 
-If /*/ is a function - it is surjective.
-Image of it is full codomain.
+In Set category if /*/ is a function - it is surjective (image of it fully uses codomain)
+Codomain is a called a projection of the domain.
 
-Morphism fully maps into the target. Codomain is a projection of the domain.
+/*/ fully maps into the target.
 
 ***** /*/
 <<<Epimorphic>>>
@@ -5047,7 +5047,7 @@ Based on function abstraction and application by substituting variables and bind
 :DRILL_LAST_REVIEWED: [2019-09-02 Mon 20:35]
 :END:
 
-λ-cube shows the dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
+λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
 
 Each dimension of the cube corresponds to a new way of making objects depend on other objects:
   * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
