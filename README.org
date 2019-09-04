@@ -7786,6 +7786,8 @@ Allows to separate and preserve information about happened, ex. error handling.
 
 2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$, & same for category duality.
 
+3. For operation: element that allows reversing operation, having an element that with the dual produces the identity element.
+
 ** <<<Inversion>>>
 1. Is a permutation where two elements are out of order.
 
