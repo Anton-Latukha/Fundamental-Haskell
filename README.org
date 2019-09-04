@@ -2128,7 +2128,7 @@ Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C
 :ID:       0210aefe-3d66-4279-be2d-d323eef71954
 :END:
 
-Morphism that adds structure while doing computation.
+Morphism that while doing computation also adds monadic-able structure.
 
 #+begin_src haskell
 a -> m b
