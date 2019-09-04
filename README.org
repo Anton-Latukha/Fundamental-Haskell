@@ -1279,17 +1279,17 @@ Composed /*/ can lift functions through any layers of structures that belong to 
 <<<Functor type class>>>
 
 ***** <<<Power set functor laws>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
-:DRILL_LAST_INTERVAL: 25.0211
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 65.9306
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:52]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
 :END:
 
 Type instance of functor should abide this laws:
@@ -1527,17 +1527,17 @@ pure f <*> pure x = pure (f x)
 #+end_src
 
 ****** <<<Applicative interchange law>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-10-30 Wed>
 :PROPERTIES:
 :ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
-:DRILL_LAST_INTERVAL: 22.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 56.6607
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:59]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
 :END:
 
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
@@ -2505,17 +2505,17 @@ Bind with a processor making function from state procesor (pA) creates a new sta
 The wrapping and unwrapping by State/runState is implicit.
 
 ***** <<<Alternative type class>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-11-12 Tue>
 :PROPERTIES:
 :ID:       b74a4135-6cc8-4944-9ba4-542b27c83dbe
-:DRILL_LAST_INTERVAL: 25.88
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 69.6431
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 17:00]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:23]
 :END:
 
 Monoid over applicative. Has left catch property.
@@ -2955,17 +2955,17 @@ If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely map
 <<<Monomorphic>>>
 
 **** <<<Epimorphism>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-10-30 Wed>
 :PROPERTIES:
 :ID:       3729d963-3775-4715-99d7-d14bc30750c0
-:DRILL_LAST_INTERVAL: 24.1732
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 57.3872
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:03]
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
 :END:
 
 επι /epi/ on, over
@@ -3499,17 +3499,17 @@ SCHT: <2019-10-31 Thu>
 Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
 *** <<<Higher-kinded data type>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       f923ff3e-43bb-4e4a-8c55-e4f2354e3810
-:DRILL_LAST_INTERVAL: 25.0211
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 65.9306
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:39]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
 :END:
 
 Any combination of * and ->
@@ -4606,17 +4606,17 @@ Corresponds to Monomorphism.
 <<<Injectivity>>>
 
 *** <<<Partial function>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-03 Sun>
 :PROPERTIES:
 :ID:       d8d7edc3-b943-4afa-8832-ddb2ef2a386d
-:DRILL_LAST_INTERVAL: 25.0273
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 61.4921
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:01]
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
 :END:
 
 One that does not cover all domain.
@@ -4935,17 +4935,17 @@ Meaning can be special for language speakers or human with particular knowledge.
 <<<Idiomatic>>>
 
 ** <<<Impredicative>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
-:DRILL_LAST_INTERVAL: 25.0211
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 65.9306
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 01:01]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
 :END:
 
 Self-referencing definition.
@@ -4971,17 +4971,17 @@ SCHT: <2019-11-03 Sun>
 Form of writing of operator or function in-between variables for application.
 
 ** <<<IO>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       40e4a54b-c1c7-41fc-ac84-d3f167eb320f
-:DRILL_LAST_INTERVAL: 26.8467
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 65.9623
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:48]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:49]
 :END:
 
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
@@ -5037,16 +5037,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
+SCHT: <2019-09-07 Sat>
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-09-02 Mon 20:35]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:14]
 :END:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
@@ -5094,17 +5095,17 @@ Lambda function that is not binded to any name.
 <<<Anonymous lambda function>>>
 
 *** <<<\beta-reduction>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       09ff04bc-e52b-47e9-9a9e-a23bd437fb75
-:DRILL_LAST_INTERVAL: 25.0211
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 65.9306
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:02]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
 :END:
 
 Equation of a parameter to its bound variable, and reducing parameter from the head.
@@ -5626,17 +5627,17 @@ Lambda-bound function (i.e., one passed as argument to another function) cannot 
 Constrained Parametric polymorphism.
 
 ***** <<<Ad hoc polymorphism>>> :drill:
-SCHT: <2019-08-26 Mon>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       d98c11bf-35fd-46ae-803f-28df28c37a54
-:DRILL_LAST_INTERVAL: 25.9732
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 66.1278
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 00:19]
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
 :END:
 
 Artificial constrained polymorphism dependent on incoming data type.
@@ -6030,17 +6031,17 @@ class Collection c a where
 #+end_src
 
 ***** <<<MultiWayIf>>> :drill:
-SCHT: <2019-08-25 Sun>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
-:DRILL_LAST_INTERVAL: 25.0211
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 65.9306
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:39]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
 :END:
 
 Enable multi-way-if syntax.
@@ -6854,17 +6855,17 @@ main = do
 Replace number of functions with tuple of number of values
 
 ** <<<Unit>>> :drill:
-SCHT: <2019-08-27 Tue>
+SCHT: <2019-09-29 Sun>
 :PROPERTIES:
 :ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
-:DRILL_LAST_INTERVAL: 10.2258
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 25.6156
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-17 Sat 00:31]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:52]
 :END:
 
 Represents existence. Denoted as empty sequence.
@@ -7482,17 +7483,17 @@ SCHT: <2019-09-06 Fri>
 Level of code of main program operation, when machine does computations with compiled binary code.
 
 *** <<<Orphan type instance>>> :drill:
-SCHT: <2019-08-24 Sat>
+SCHT: <2019-10-28 Mon>
 :PROPERTIES:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
-:DRILL_LAST_INTERVAL: 24.12
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 54.9212
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.36
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:56]
+:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:14]
 :END:
 
 Hanging type instance from inconsistent code base.
