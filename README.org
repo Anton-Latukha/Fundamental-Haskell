@@ -2740,7 +2740,7 @@ Opens a big abilities in concurrent and distributed processing.
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
 :END:
 
-Monoid with inverse for every element (element operation with inverse gives identity)
+Monoid that has inverse for every element.
 
 ******* /*/
 <<<Groups>>>
