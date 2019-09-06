@@ -3388,6 +3388,21 @@ $$ f = g \Rightarrow \{f, y\}: X \to Y $$
 <<<Diagram commutes>>>
 <<<Commutes>>>
 
+*** Universal construction :drill:
+:PROPERTIES:
+:ID:       5341cb9e-0f97-4ab2-9833-2bca2c72fb18
+:END:
+
+Algorythm of constructing definitions in Category theory.
+Specially good to translate properties/definitions from other theories (Set theory) to Categories.
+
+Method:
+  1. Define a pattern that you defining.
+  2. Establish ranking for pattern matches.
+  3. The top of ranking, the best match or set of matches - is the thing you was looking for. Matches are isomorphic for defined rules.
+
+/*/ uses Yoneda lemma, and as such constructions are defined until isomorphism, and so isomorphic betweem each-other.
+
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
