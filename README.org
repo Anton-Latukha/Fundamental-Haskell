@@ -2589,6 +2589,7 @@ Set with a binary operation which form a closure.
 :PROPERTIES:
 :ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
 :END:
+
 The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 
 ***** /*/
@@ -3299,16 +3300,18 @@ SCHT: <2019-09-04 Wed>
 
 Category duality behaves like a logical inverse.
 
-Inverse $$ \mathcal{C} $$ = $$ \mathcal{C}^{op} $$ - invert the direction of morphisms.
+Inverse $$ \mathcal{C} $$ = $$ \mathcal{C}^{op} $$ - inverts the direction of morphisms.
+
+Composition accordingly changes to the morphisms: $$ (g \circ f)^{op} = f^{op} \circ g^{op} $$
 
 Any statement in the terms of $$ \mathcal{C} $$ in $$ \mathcal{C}^{op} $$ has the dual - the logical inverse that is true in $$ \mathcal {C}^{op} $$ terms.
 
-Properties:
-  * Opposite preserves products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
+Opposite preserves properties:
+  * products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
 
-  * Opposite preserves functors: $$ (F^{\mathcal{C} \to \mathcal{D}})^{op} \cong F^{\mathcal{C}^{op} \to \mathcal{D}^{op}} $$
+  * functors: $$ (F^{\mathcal{C} \to \mathcal{D}})^{op} \cong F^{\mathcal{C}^{op} \to \mathcal{D}^{op}} $$
 
-  * Opposite preserves slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
+  * slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
 
 ****** /*/
 <<<Opposite category>>>
