@@ -3213,7 +3213,6 @@ Haskell
 ()
 #+end_src
 
-
 **** <<<Initial object>>> :drill:
 SCHT: <2019-10-13 Sun>
 :PROPERTIES:
@@ -3245,6 +3244,7 @@ Haskell:
 #+begin_src haskell
 Void
 #+end_src
+
 *** <<<Set category>>> :drill:
 SCHT: <2019-10-01 Tue>
 :PROPERTIES:
