@@ -3193,7 +3193,26 @@ Absolute abstraction. Point that has properties. Often abstracts mathematical st
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
 :END:
 
-Terminal object - is an object i: $$ \exists ! (x \to i) \ | \ \exists i \in \mathcal{C} , \; \forall x \in \mathcal{C} $$.
+One that recieves unique arrow from every object.
+
+$$ \exists ! : x \to 1 \ | \ \exists 1 \in \mathcal{C}, \ \forall x \in \mathcal{C}$$
+
+/*/ is an empty sequence =()= in Haskell.
+
+Called a /unit/, so recieves /terminal/ or /unit/ arrow.
+
+Dual of initial object.
+
+Denotation:
+
+Category theory
+$$ 1 $$
+
+Haskell
+#+begin_src haskell
+()
+#+end_src
+
 
 **** <<<Initial object>>> :drill:
 SCHT: <2019-10-13 Sun>
