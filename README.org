@@ -8132,7 +8132,6 @@ Modern abbriviated notation of /*/: =(x y)=.
 <<<Sexpr>>>
 <<<Sexprs>>>
 
-
 ** <<<Polynomial>>> :drill:
 :PROPERTIES:
 :ID:       2d7eeed7-766f-4261-8976-dffc939794b0
