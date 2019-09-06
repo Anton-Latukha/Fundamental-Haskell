@@ -3373,6 +3373,21 @@ A proset (preordered set).
 <<<Poset category>>>
 <<<Posetal category>>>
 
+*** <<<Commuting diagram>>> :drill:
+:PROPERTIES:
+:ID:       ca1088d3-dae2-4621-84e0-a6ce61222e09
+:END:
+
+Establishes equality in morphisms that have same source and target.
+
+Draws the morphisms that are:
+$$ f = g \Rightarrow \{f, y\}: X \to Y $$
+
+**** /*/
+
+<<<Diagram commutes>>>
+<<<Commutes>>>
+
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
@@ -7771,8 +7786,6 @@ SCHT: <2019-09-05 Thu>
 Words that name objects of reality and their qualities.
 
 * Give definitions
-
-** <<<Commuting diagram>>>
 
 ** <<<Const functor>>>
 
