@@ -3228,8 +3228,23 @@ SCHT: <2019-10-13 Sun>
 :DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:53]
 :END:
 
-Initial object - is an object i: $$ \exists ! (i \to x) \ | \ \exists i \in \mathcal{C}, \ \forall x \in \mathcal{C} $$.
+One that emits unique arrow into every object.
 
+$$ \exists ! : \varnothing \to x \ | \ \exists \varnothing \in \mathcal{C}, \ \forall x \mathcal{C} $$
+
+If initial object is =Void= (most frequently) - emitted arrows called absurd, because they can not be called.
+
+Dual of terminal object.
+
+Denotation:
+
+Category theory:
+$$ \varnothing $$
+
+Haskell:
+#+begin_src haskell
+Void
+#+end_src
 *** <<<Set category>>> :drill:
 SCHT: <2019-10-01 Tue>
 :PROPERTIES:
