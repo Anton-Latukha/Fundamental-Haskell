@@ -1169,17 +1169,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2019-09-01 Sun>
+SCHT: <2019-09-29 Sun>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 9.1636
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 22.0018
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
 Generalised category in which can have homological algebra, its constructions and techniques.
@@ -1346,17 +1346,17 @@ fmap (f.g) == fmap f . fmap g
 In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
 
 ***** <<<Lift>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       d6a94338-9bce-4513-8a51-66aefcc483fb
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 #+begin_src haskell
@@ -1442,17 +1442,17 @@ $$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
 <<<Endofunctors>>>
 
 **** <<<Applicative functor>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-10-03 Thu>
 :PROPERTIES:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.88
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:39]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:40]
 :END:
 
 /*/ - Computer science term. Category theory name - lax monoidal functor. And in category $$ Set $$, and so in category $$ Hask $$ all applicatives and monads are strong (have tensorial strength).
@@ -2199,17 +2199,17 @@ f3 <=< f2 <=< f1 $ arg
 #+end_src
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2019-09-01 Sun>
+SCHT: <2019-10-01 Tue>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 9.4956
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 24.1758
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:43]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -2308,17 +2308,17 @@ getMailPrefs sys name =
 #+end_src
 
 ******* <<<Either monad>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       6e6e76cd-71f0-4c01-8c1b-8cde9026a30a
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:00]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 When computation results in =Left= - drops other computations & returns the recieved =Left=.
@@ -2909,17 +2909,17 @@ Identity only possible with morphism. See Identity morphism.
 There is also distinct Zero value.
 
 ****** <<<Two-sided identity of a predicate>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       6f4649d2-e99e-4424-b575-0c2121a7569c
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:34]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 $$ P(e,a)=P(a,e)=a \ | \ \exists e \in S, \forall a \in S $$
@@ -3052,17 +3052,17 @@ Categories are isomorphic if there $$ R ∘ L = ID
 <<<Isomorphic>>>
 
 **** <<<Endomorphism>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-11-02 Sat>
 :PROPERTIES:
 :ID:       2fd058e4-4b8a-451e-9760-0275b2741331
-:DRILL_LAST_INTERVAL: 22.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.2824
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 13:21]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 ενδο /endo/ internal
@@ -3215,18 +3215,19 @@ Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 *** <<<Object>>> :drill:
-SCHT: <2019-09-01 Sun>
+SCHT: <2019-09-29 Sun>
 :PROPERTIES:
 :ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 9.1096
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 22.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:34]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
+
 Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
 
 **** /*/
@@ -4222,17 +4223,17 @@ SCHT: <2019-11-24 Sun>
 #+end_src
 
 *** <<<Linear type>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       eda588af-3ef5-43a8-8f06-6a6f2f556036
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:00]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 Type system and algebra that also track the multiplicity of data.
@@ -4269,17 +4270,17 @@ data NonEmpty a = a :| [a]
 
 So far very complex not very productive (& well-established) topic.
 *** <<<Binary tree>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-09-18 Wed>
 :PROPERTIES:
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 #+begin_src haskell
@@ -4404,17 +4405,17 @@ SCHT: <2019-10-04 Fri>
 Binding name to expression.
 
 ** <<<Differential operator>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       1ffad9d0-5207-422f-b979-8118bbcba152
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 Denotation.
@@ -4442,17 +4443,17 @@ Send, transmission, reference.
 Observable action.
 
 ** <<<Evaluation>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       1b2053a3-24c8-47fe-a3a0-3974c6a3472a
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
 For FP see Bind.
@@ -4773,17 +4774,17 @@ Evaluates to function.
 <<<HOF>>>
 
 **** <<<Fold>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-11-08 Fri>
 :PROPERTIES:
 :ID:       9513b166-74df-4a9f-b7da-d03f84ca2cfc
-:DRILL_LAST_INTERVAL: 23.8485
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.4354
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:56]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
 Higher-order function returns accumulated result from recursive data structure applying a function.
@@ -4969,17 +4970,17 @@ $$ Y $$ in $X \to Y$.
 Codomain - target set of a function.
 
 *** <<<Open formula>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-11-09 Sat>
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
-:DRILL_LAST_INTERVAL: 24.0088
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 62.855
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-07 Wed 22:00]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 Function with arity.
@@ -5777,17 +5778,17 @@ f >>= a . b . c =<< g
 #+end_src
 
 ** <<<Polymorphism>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       83a22f3c-9140-490c-9390-85319566a443
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:31]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 πολύς /polús/ many
@@ -6016,17 +6017,17 @@ For exampe - if fold over a dynamic array:
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 
 ** <<<Pragma>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:42]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Pragma - instruction to the compiler that specifies how a compiler should process the code.
@@ -6036,17 +6037,17 @@ Pragma in Haskell have form:
 #+end_src
 
 *** <<<LANGUAGE pragma>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
-:DRILL_LAST_INTERVAL: 31.0268
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.9157
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:02]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Controls what variations of the language are permitted.
@@ -6146,17 +6147,17 @@ Automatic deriving of instances for the Functor type class.
 For type power set functor is unique, its derivation inplementation can be autochecked.
 
 ***** <<<ExplicitForAll>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:39]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 Allow explicit forall quantificator in places where it is implicit by Haskell.
@@ -6220,17 +6221,17 @@ newtype Dollars = Dollars Int
 (In old Haskell-98 only Eq, Ord, Enum could been inherited.)
 
 ***** <<<ImplicitParams>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-11-20 Wed>
 :PROPERTIES:
 :ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
-:DRILL_LAST_INTERVAL: 28.3305
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 73.7443
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:58]
+:DRILL_AVERAGE_QUALITY: 3.429
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
@@ -6375,17 +6376,17 @@ For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-vari
 Implies ExplicitForAll.
 
 ***** <<<TupleSections>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       30ae7849-e739-4718-b031-5566e8f82a67
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:02]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 Allow tuple section syntax:
@@ -6442,17 +6443,17 @@ Permit instances which may lead to type-checker non-termination.
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 
 ***** <<<ViewPatterns>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-10-02 Wed>
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 14.5024
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 25.1907
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.715
-:DRILL_EASE: 1.8
+:DRILL_AVERAGE_QUALITY: 2.751
+:DRILL_EASE: 1.66
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:10]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:40]
 :END:
 
 #+begin_src haskell
@@ -7658,33 +7659,33 @@ case () of _
 #+end_src
 
 *** <<<Smart constructor>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       e2aded58-a463-4762-97c4-7fc2238d386d
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:49]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
 :END:
 
 Process/code placing extra rules & constraints on the construction of values.
 
 *** <<<Level of code>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 13:12]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 There are these levels of Haskell code:
@@ -7701,33 +7702,33 @@ There are these levels of Haskell code:
 Level of code that works with data types.
 
 **** <<<Term level>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       6bc4fbee-38e5-4612-ae28-8344a0f6028c
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:50]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Level of code that does logical execution.
 
 **** <<<Compile level>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       37ac8b2b-af11-4b67-976c-84bd00d5f1bc
-:DRILL_LAST_INTERVAL: 31.0268
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.9157
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:38]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 Level of code, about compilation processes/results.
@@ -8083,17 +8084,17 @@ $$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-10-10 Thu>
 :PROPERTIES:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
-:DRILL_LAST_INTERVAL: 11.5837
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 33.0946
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.714
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-21 Wed 16:29]
+:DRILL_AVERAGE_QUALITY: 3.875
+:DRILL_EASE: 2.86
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:40]
 :END:
 
 For $$ f: x \to y $$:
@@ -8563,17 +8564,17 @@ have well-defined, lawful representations in mathematics." (Chris Allen, Julie M
 :END:
 
 ** <<<Good: Type aliasing>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       db5d6252-f9b1-4c2e-ab00-a4a99d026c2a
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:02]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:36]
 :END:
 
 Use data type aliases to deferentiate logic of values.
@@ -8638,17 +8639,17 @@ foldl spine folding is unconditional, then solding starts.
 So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
 
 ** <<<Good: Computation model>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       a6b88a42-c287-47ae-9db0-f7c2aa0d0cd3
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:02]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Model the domain and types before thinking about how to write computations.
@@ -8743,17 +8744,17 @@ SCHT: <2019-09-09 Mon>
 BigData and OLAP analysis.
 
 ** <<<Good: Functor application>>> :drill:
-SCHT: <2019-08-31 Sat>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       67dab545-6f12-4d3a-b8c7-acfc0f267d03
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 15:34]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
 :END:
 
 Function application on n levels beneath:
@@ -8907,17 +8908,17 @@ SCHT: <2019-09-06 Fri>
 Typed holes help build code in complex situations.
 
 ** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
-SCHT: <2019-09-01 Sun>
+SCHT: <2019-10-01 Tue>
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.0088
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:37]
+:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
 That is why infinite types throw infinite type error.
