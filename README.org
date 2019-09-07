@@ -3388,7 +3388,7 @@ $$ f = g \Rightarrow \{f, y\}: X \to Y $$
 <<<Diagram commutes>>>
 <<<Commutes>>>
 
-*** Universal construction :drill:
+*** <<<Universal construction>>> :drill:
 :PROPERTIES:
 :ID:       5341cb9e-0f97-4ab2-9833-2bca2c72fb18
 :END:
@@ -3402,6 +3402,10 @@ Method:
   3. The top of ranking, the best match or set of matches - is the thing you was looking for. Matches are isomorphic for defined rules.
 
 /*/ uses Yoneda lemma, and as such constructions are defined until isomorphism, and so isomorphic betweem each-other.
+
+**** /*/
+
+<<<Universal constructions>>>
 
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
