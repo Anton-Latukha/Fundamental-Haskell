@@ -8371,11 +8371,23 @@ Turns ad hoc polymorphic function into compiled type-specific inmpementations.
 
 ** <<<Product>>>
 
+For sets - Cartesian product.
+
 Universal construction:
 Pattern: $$ p: c \to a, \ q: c \to b $$
-Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$, where $$ c\prime $$ is another candidate.
+Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$
+$$ c\prime $$ is another candidate.
 
-/*/ is a pair. Corresponds to product type in Hask.
+/*/ is a pair. Corresponds to product data type in Hask.
+
+** <<<Coproduct>>>
+
+Universal constructuon:
+Pattern: $$ i: a \to c, \ j: b \to c $$
+Ranking: $$ \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} $$
+$$ c\prime $$ is another candidate.
+
+/*/ is a set assembled from other two sets, in Haskell it is a tagged set.
 
 * Citations
 
