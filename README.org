@@ -8545,14 +8545,15 @@ Sum types require to implement generators with separate constructors, and pickin
 
 In Haskell inline composition requires:
 #+begin_src haskell
-  h.g.f $ i
+h.g.f $ i
 #+end_src
+
 Function application has a higher priority than composition. That is why parentheses over argument are needed.
 This precedence allows idiomatically compose partially applied functions.
 
 But it is a way better then:
 #+begin_src haskell
-  h (g (f i))
+h (g (f i))
 #+end_src
 
 ** <<<Good: Point-free>>> :drill:
