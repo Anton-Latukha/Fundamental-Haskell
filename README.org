@@ -3462,6 +3462,13 @@ Method:
 :END:
 
 Universal construction:
+
+\begin{matrix}
+&& c\prime && \\
+& {}^p\swarrow\phantom{{}^{p}} & {\tiny \phantom{!}}\downarrow{\tiny !} & \phantom{{}^q}\searrow^q& \\
+a & \underset{\pi_a}{\leftarrow} & c & \underset{\pi_b}{\rightarrow} & b
+\end{matrix}
+
 Pattern: $$ p: c \to a, \ q: c \to b $$
 Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$
 $$ c\prime $$ is another candidate.
