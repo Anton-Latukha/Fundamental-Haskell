@@ -8515,14 +8515,22 @@ $$ c\prime $$ is another candidate.
 
 For sets - Cartesian product.
 
-** <<<Coproduct>>>
+/*/ is a pair. Corresponds to product data type in Hask (inhabited with all elements of the Cartesian product).
+
+Dual is Coproduct.
+
+** <<<Coproduct>>> :drill:
 
 Universal constructuon:
 Pattern: $$ i: a \to c, \ j: b \to c $$
 Ranking: $$ \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} $$
 $$ c\prime $$ is another candidate.
 
-/*/ is a set assembled from other two sets, in Haskell it is a tagged set.
+For sets - Disjoint union.
+
+/*/ is a set assembled from other two sets, in Haskell it is a tagged set (analogous to disjoint union).
+
+Dual is Product.
 
 * Citations
 
