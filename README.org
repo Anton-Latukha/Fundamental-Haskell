@@ -3653,7 +3653,26 @@ SCHT: <2019-10-22 Tue>
 :DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:53]
 :END:
 
-Algebraic data type formed by logical conjunction (=AND=, '=* *=').
+Is an algebraic data type respesentation of a product construction.
+Formed by logical conjunction (=AND=, '=* *=').
+
+Haskell forms:
+#+begin_src haskell
+-- 1. As a tuple (the uncurried & most true-form)
+(T1, T2)
+
+-- 2. Curried form, data constructor that takes two types
+C T1 T2
+
+-- 3. Using record syntax. =r# <inhabitant>= would return the respective =T#=.
+C { r1 :: T1
+  , r2 :: T2
+  }
+#+end_src
+
+**** /*/
+
+<<<Product type>>>
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
