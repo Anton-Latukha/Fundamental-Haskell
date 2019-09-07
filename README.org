@@ -8163,7 +8163,7 @@ Expression consisting of:
   * substraction
   * multiplication (including positive integer variable exponentiation)
 
-Polynomials forms a ring. Polynomial ring.
+Polynomials form a ring. Polynomial ring.
 
 *** /*/
 <<<Polynomials>>>
