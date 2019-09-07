@@ -7809,9 +7809,8 @@ Words that name objects of reality and their qualities.
 ** <<<Const functor>>>
 
 ** <<<Free object>>>
-When this object/property autofollows from rules&axioms.
 
-** <<<Thin category>>>
+When this object/property autofollows from rules&axioms.
 
 ** <<<Identity type>>>
 
