@@ -842,6 +842,7 @@ Forgeting the details. Simplified approach. Out of sight - out of mind.
 It is a great did to name an abstraction (Denotational semantics).
 
 *** /*/
+
 <<<Abstractions>>>
 <<<Abstracting>>>
 <<<Abstract>>>
@@ -854,6 +855,7 @@ It is a great did to name an abstraction (Denotational semantics).
 Abstraction that leaks details that it is supposed to abstract away.
 
 **** /*/
+
 <<<Leaky abstractions>>>
 
 ** <<<Algebra>>> :drill:
@@ -880,6 +882,7 @@ A system of algebra based on given axioms.
 3) Algebra - a set with its algebraic structure.
 
 *** /*/
+
 <<<Algebras>>>
 
 *** <<<Algebraic>>> :drill:
@@ -926,6 +929,7 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 | Ring              | \check       | \check             | \check        | \check             | under +       |
 
 **** /*/
+
 <<<Algebraic structures>>>
 
 ** <<<Alpha equivalence>>> :drill:
@@ -1025,6 +1029,7 @@ SCHT: <2019-10-14 Mon>
 | without                 | a-, an-           | dis- (sometimes)     |
 
 *** /*/
+
 <<<Greek prefix>>>
 <<<Latin prefix>>>
 
@@ -1062,6 +1067,7 @@ A value binded to the function parameter. Value/topic that the fuction would pro
 Also see <<<Argument>>>.
 
 **** /*/
+
 <<<Function argument>>>
 
 ** <<<Binary>>> :drill:
@@ -1101,6 +1107,7 @@ Most often:
   * equating parameter of a function to an argument (variable/value/function). This term often is equated to applying argument to a function, which includes \beta-reduction.
 
 *** /*/
+
 <<<Binds>>>
 <<<Binding>>>
 
@@ -1121,6 +1128,7 @@ Properties:
   * not commutative
 
 *** /*/
+
 <<<Cardinalities>>>
 
 ** <<<Category theory>>> :drill:
@@ -1155,6 +1163,7 @@ Object and morphism are complete abstractions for anything.
 In majority of cases under object is a state and morphism is a change.
 
 *** /*/
+
 <<<Category>>>
 <<<Categories>>>
 
@@ -1199,6 +1208,7 @@ Basic examples of /*/:
 /*/ has disadvantage over category of modules. Objects do not necessarily have elements that can be manipulated directly, so traditional definitions do not work. Methods must be supplied that allow definition and manipulation of objects without the use of elements. 
 
 **** /*/
+
 <<<Abelian categories>>>
 
 *** <<<Composition>>> :drill:
@@ -1209,6 +1219,7 @@ Basic examples of /*/:
 Axiom of Category.
 
 **** /*/
+
 <<<Composable>>>
 <<<Compositions>>>
 
@@ -1244,6 +1255,7 @@ fmap (f . g) = fmap f . fmap g
 #+end_src
 
 **** /*/
+
 <<<Functors>>>
 
 **** <<<Power set functor>>> :drill:
@@ -1280,6 +1292,7 @@ Composed /*/ can lift functions through any layers of structures that belong to 
 /*/ can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
 
 ***** /*/
+
 <<<fmap>>>
 <<<Functor type class>>>
 
@@ -1300,6 +1313,7 @@ SCHT: <2019-11-08 Fri>
 Type instance of functor should abide this laws:
 
 ****** /*/
+
 <<<Functor laws>>>
 
 ****** <<<Power set functor identity law>>> :drill:
@@ -1351,6 +1365,7 @@ Functor takes function =a -> b= and returns a function =f a -> f b= this is call
 Lift does a function application through the data structure.
 
 ****** /*/
+
 <<<Lifting>>>
 
 ***** <<<Power set functor is a free monad>>> :drill:
@@ -1381,6 +1396,7 @@ $$ F^{\mathbf {Grp} \to \mathbf {Set}} $$ that translates groups into their unde
 Constant functor is another example.
 
 ***** /*/
+
 <<<Forgetful>>>
 
 **** <<<Identity functor>>> :drill:
@@ -1421,6 +1437,7 @@ Is a functor which source (domain) and target (codomain) are the same category.
 $$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
 
 ***** /*/
+
 <<<Endofunctors>>>
 
 **** <<<Applicative functor>>> :drill:
@@ -1459,13 +1476,13 @@ class Functor f => Applicative f where
   pure :: a -> f a
 #+end_src
 
-
 =Control.Monad= has an old function =ap= that is old implementation of =<*>=:
 #+begin_src haskell
 ap :: Monad m => m (a -> b) -> m a -> m b
 #+end_src
 
 ***** /*/
+
 <<<Applicative>>>
 <<<Applicatives>>>
 <<<Applicative functors>>>
@@ -1790,6 +1807,7 @@ ap == (<*>) -- + Monad requirement
 | $$ \mu_{E \circ E \to E} $$  | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ \mathcal{P \circ P \to P} $$) |
 
 ****** /*/
+
 <<<Monads>>>
 <<<Monadic>>>
 
@@ -1902,6 +1920,7 @@ Overall there /*/ currently reforms (MonadPlus reform proposal) in several small
 Subclass of an Alternative.
 
 ******** /*/
+
 <<<Monadplus>>>
 
 ****** Functor -> Applicative -> Monad progression :drill:
@@ -1954,6 +1973,7 @@ Join is a generalization of `concat`.
 The way to express ordering in lambda calculus is to nest.
 
 ******** /*/
+
 <<<join>>>
 
 ******** join . fmap == (=<<)
@@ -2000,6 +2020,7 @@ main = recursePrintOneOf (quant) $ printOneOf
 #+end_src
 
 ******** /*/
+
 <<<Monadic bind>>>
 <<<Monad bind>>>
 <<<Binder>>>
@@ -2340,6 +2361,7 @@ Zero: []
 Plus: (++)
 
 ******** /*/
+
 <<<[] monad>>>
 
 ******* <<<Reader monad>>> :drill:
@@ -2534,6 +2556,7 @@ empty :: f a    -- The identity element of <|>
 #+end_src
 
 ****** /*/
+
 <<<Alternative>>>
 
 **** <<<Monoidal functor>>> :drill:
@@ -2581,6 +2604,7 @@ Haskell and Category concepts:
   * Things that take a function and return another function are higher-order functions.
 
 **** /*/
+
 <<<Hask>>>
 
 *** <<<Magma>>> :drill:
@@ -2598,6 +2622,7 @@ Set with a binary operation which form a closure.
 The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 
 ***** /*/
+
 <<<MAG>>>
 <<<Magma category>>>
 <<<Category of magmas>>>
@@ -2625,6 +2650,7 @@ class Semigroup a where
 #+end_src
 
 ***** /*/
+
 <<<Semigroups>>>
 
 ***** <<<Monoid>>> :drill:
@@ -2672,6 +2698,7 @@ do
 Also backwards - any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
 
 ****** /*/
+
 <<<Monoidal>>>
 <<<Monoids>>>
 
@@ -2739,6 +2766,7 @@ $$ x \circ y = y \circ x $$
 Opens a big abilities in concurrent and distributed processing.
 
 ******* /*/
+
 <<<Abelian monoid>>>
 
 ****** <<<Group>>> :drill:
@@ -2749,6 +2777,7 @@ Opens a big abilities in concurrent and distributed processing.
 Monoid that has inverse for every element.
 
 ******* /*/
+
 <<<Groups>>>
 
 ******* <<<Commutative group>>> :drill:
@@ -2758,6 +2787,7 @@ Monoid that has inverse for every element.
 Group operation obeys the axiom of commutativity.
 
 ******** /*/
+
 <<<Abelian group>>>
 
 ******** <<<Ring>>> :drill:
@@ -2781,6 +2811,7 @@ Commutative group under + & monoid under \times, + \times connected by distribut
 Example: set of same size square matricies of numbers with matrix operations form a ring.
 
 ********* /*/
+
 <<<Rings>>>
 
 *** <<<Morphism>>> :drill:
@@ -2812,6 +2843,7 @@ Morphism can be anything.
 If morphism corresponds to function requirements - then it is a function.
 
 **** /*/
+
 <<<Morphisms>>>
 <<<Arrow>>>
 <<<Arrows>>>
@@ -2844,6 +2876,7 @@ where $$ x,\ y $$ are sets with additonal algebraic structure that includes $$ \
 The concept of /*/ has been generalized under the name of morphism to many structures that either do not have an underlying set, or are not algebraic.
 
 ***** /*/
+
 <<<Homomorphic>>>
 
 **** <<<Identity morphism>>> :drill:
@@ -2958,6 +2991,7 @@ Thus /*/ is left canselable.
 If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely mapped onto the image of /f/.
 
 ***** /*/
+
 <<<Monomorphic>>>
 
 **** <<<Epimorphism>>> :drill:
@@ -2987,6 +3021,7 @@ Codomain is a called a projection of the domain.
 /*/ fully maps into the target.
 
 ***** /*/
+
 <<<Epimorphic>>>
 
 **** <<<Isomorphism>>> :drill:
@@ -3012,6 +3047,7 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv 1^a, \; f^{a \to b} \circ f^{-1, b \
 Categories are isomorphic if there $$ R ∘ L = ID
 
 ***** /*/
+
 <<<Isomorphic>>>
 
 **** <<<Endomorphism>>> :drill:
@@ -3056,10 +3092,12 @@ Isomorphism from a object to itself (epimorphism).
 Corresponds to identity, reflexivity.
 
 ****** /*/
+
 <<<Automorphisms>>>
 <<<Automorphic>>>
 
 ***** /*/
+
 <<<Endomorphisms>>>
 <<<Endomorphic>>>
 
@@ -3086,8 +3124,8 @@ In functional programming, catamorphism is a algebraic data type fold (generaliz
 
 /*/ reduces the structure.
 
-
 ***** /*/
+
 <<<Catamorphic>>>
 
 ***** <<<Anamorphism>>> :drill:
@@ -3102,6 +3140,7 @@ The catamorphism dual concept.
 /*/ increases the structure.
 
 ****** /*/
+
 <<<Anamorphic>>>
 
 ****** <<<Hylomorphism>>> :drill:
@@ -3114,6 +3153,7 @@ catamorphism $$ \circ $$ anamorphism
 Expanding and collapsing the structure.
 
 ****** /*/
+
 <<<Hylomorphic>>>
 
 **** <<<Kernel>>> :drill:
@@ -3189,6 +3229,7 @@ SCHT: <2019-09-01 Sun>
 Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
 
 **** /*/
+
 <<<Structure>>>
 <<<Structures>>>
 <<<Objects>>>
@@ -3295,6 +3336,7 @@ In words, /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphi
 Also see: Natural transformation in Haskell
 
 **** /*/
+
 <<<Natural transformations>>>
 
 **** <<<Natural transformation component>>> :drill:
@@ -3305,6 +3347,7 @@ Also see: Natural transformation in Haskell
 $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D}}(x) \ | \  x \in \mathcal{C} $$
 
 ***** /*/
+
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
@@ -3353,6 +3396,7 @@ Opposite preserves properties:
   * slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
 
 ****** /*/
+
 <<<Opposite category>>>
 <<<Opposite categories>>>
 <<<Category duality>>>
@@ -3434,6 +3478,7 @@ $$ V^{i} = x $$
 The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
 
 *** /*/
+
 <<<Contravariant cofunctor>>>
 <<<Contravariant functor>>> - More inline term is Contravariant cofunctor
 
@@ -3449,6 +3494,7 @@ Components for covariant basis denoted in the upper indices:
 $$ V_{i} = x $$
 
 *** /*/
+
 <<<Covariant functor>>>
 <<<Covariant cofunctor>>>
 
@@ -3470,6 +3516,7 @@ Set of values.
 For type to have sence the values must share some sence, properties.
 
 *** /*/
+
 <<<Type>>>
 <<<Types>>>
 <<<Data types>>>
@@ -3498,6 +3545,7 @@ Data type recieved by ->inferring->compiling->execution.
 Composite type formed by combining other types.
 
 **** /*/
+
 <<<AlgDT>>>
 
 *** <<<Cardinality>>> :drill:
@@ -3556,6 +3604,7 @@ data [context =>] type typeVars1..n
 When type and values have relation between them. Type has restrictions for values, value of a type variable has a result on the type.
 
 **** /*/
+
 <<<Dependent types>>>
 
 *** <<<Gen type>>> :drill:
@@ -3593,6 +3642,7 @@ Any combination of * and ->
 Type that take more types as arguments.
 
 **** /*/
+
 <<<Higher-kinded data types>>>
 
 *** <<<newtype declaration>>> :drill:
@@ -3721,6 +3771,7 @@ Typechecking takes place at compile level.
 Mathematical type. They form into structural type system.
 
 **** /*/
+
 <<<Structural>>>
 
 *** <<<Structural type system>>> :drill:
@@ -3733,6 +3784,7 @@ Haskell type system is /*/.
 In most languages typing is name-based, not structural.
 
 **** /*/
+
 <<<Structural typing>>>
 
 *** <<<Sum data type>>> :drill:
@@ -3788,6 +3840,7 @@ Type system construct that adds a support of ad hoc polymorphism.
 Type class makes a nice way for defining behaviour, properties over many types/objects at once.
 
 **** /*/
+
 <<<Type classes>>>
 <<<Typeclass>>>
 <<<Typeclasses>>>
@@ -3827,6 +3880,7 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 #+end_src
 
 ***** /*/
+
 <<<CoArbitrary>>>
 
 **** <<<Typeable type class>>> :drill:
@@ -3844,6 +3898,7 @@ Also allows:
   * Reifying functions from polymorphic type to conrete (for functions like =:: Typeable a => a -> String=).
 
 ***** /*/
+
 <<<Typeable>>>
 
 **** <<<Type class inheritance>>> :drill:
@@ -3887,6 +3942,7 @@ Language options:
   * StandaloneDeriving
 
 ***** /*/
+
 <<<Derived>>>
 <<<Deriving>>>
 
@@ -3912,7 +3968,6 @@ SCHT: <2019-09-06 Fri>
 :END:
 
 Name of data type.
-
 
 *** <<<type declaration>>> :drill:
 SCHT: <2019-09-08 Sun>
@@ -3953,6 +4008,7 @@ SCHT: <2019-08-28 Wed>
 On evaluation of the /*/ GHC would show the derived type information to help fill in the gap.
 
 **** /*/
+
 <<<Typed holes>>>
 
 *** <<<Type inference>>> :drill:
@@ -3972,6 +4028,7 @@ SCHT: <2019-09-03 Tue>
 Automatic data type detection for expression.
 
 **** /*/
+
 <<<Inferring>>>
 <<<Infer>>>
 <<<Infers>>>
@@ -4028,6 +4085,7 @@ f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. T
 Type inference in Rank-2 is possible, but not higher.
 
 **** /*/
+
 <<<Type ranks>>>
 <<<Rank type>>>
 <<<Rank types>>
@@ -4063,6 +4121,7 @@ Type that directly exist on the hardware. The type abstraction can be completely
 With unlifted types Haskel type system directly manages data in the hardware.
 
 **** /*/
+
 <<<Unlifted types>>>
 
 *** <<<Data structure>>> :drill:
@@ -4087,6 +4146,7 @@ Cell that values may inhabit.
 #+end_src
 
 ***** /*/
+
 <<<Cons>>>
 
 **** <<<Leaf>>> :drill:
@@ -4136,6 +4196,7 @@ There are 3 general linear type groups:
  * 1< - all other data, that can be duplicated multiple times.
 
 **** /*/
+
 <<<Linear types>>>
 
 *** <<<NonEmpty list data type>>> :drill:
@@ -4202,6 +4263,7 @@ A =_= non-value in the type or pattern match expression. Placeholder for enythin
 #+end_src
 
 **** /*/
+
 <<<Bottom>>>
 <<<Bottom values>>>
 
@@ -4222,6 +4284,7 @@ SCHT: <2019-10-01 Tue>
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
 
 **** /*/
+
 <<<Bounded>>>
 
 *** <<<Constructor>>> :drill:
@@ -4244,6 +4307,7 @@ SCHT: <2019-09-09 Mon>
 Also see: Constant
 
 *** /*/
+
 <<<Constructors>>>
 
 *** <<<Context>>> :drill:
@@ -4267,6 +4331,7 @@ TypeClass a => ...
 #+end_src
 
 **** /*/
+
 <<<Contexts>>>
 
 *** <<<Inhabit>>> :drill:
@@ -4313,6 +4378,7 @@ Last one is partial.
 $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 
 *** /*/
+
 <<<Differential>>>
 
 ** <<<Dispatch>>> :drill:
@@ -4369,6 +4435,7 @@ Data type inferred from the text of the code.
 Finite combination of symbols that is well-formed according to rules that depend on the context.
 
 *** /*/
+
 <<<Expressions>>>
 
 *** <<<Closed-form expression>>> :drill:
@@ -4485,6 +4552,7 @@ Partial function
 Inverse function - often partially exists (partial function).
 
 *** /*/
+
 <<<Functions>>>
 <<<Bound variable>>>
 
@@ -4531,6 +4599,7 @@ LaTeX needed to combine symbols:
 $$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
 
 **** /*/
+
 <<<Bijective>>>
 <<<Bijective function>>>
 
@@ -4572,11 +4641,11 @@ SCHT: <2019-08-29 Thu>
 /*/ - bind the argument to the parameter of a function, and do a beta-reduction.
 
 **** /*/
+
 <<<Apply>>>
 <<<Applied>>>
 <<<Applying>>>
 <<<Application>>>
-
 
 *** <<<Function body>>> :drill:
 :PROPERTIES:
@@ -4602,6 +4671,7 @@ h.g.f $ i
 #+end_src
 
 **** /*/
+
 <<<Composition>>>
 <<<Compose>>>
 <<<Composed>>>
@@ -4653,6 +4723,7 @@ Has function as a parameter.
 Evaluates to function.
 
 **** /*/
+
 <<<HOF>>>
 
 **** <<<Fold>>> :drill:
@@ -4696,6 +4767,7 @@ $f : X \rightarrowtail Y$
 Corresponds to Monomorphism.
 
 **** /*/
+
 <<<Injective>>>
 <<<Injective function>>>
 <<<Injectivity>>>
@@ -4738,6 +4810,7 @@ The contrary of it - abstraction called unpure.
 Also see: pure function.
 
 **** /*/
+
 <<<Pure>>>
 
 *** <<<Pure function>>>
@@ -4784,6 +4857,7 @@ $$ f : X \twoheadrightarrow Y $$
 Corresponds to Epimorphism.
 
 **** /*/
+
 <<<Surjective>>>
 <<<Surjective function>>>
 
@@ -4804,6 +4878,7 @@ SCHT: <2019-10-16 Wed>
 Function that does not cover at least one edge case.
 
 **** /*/
+
 <<<Unsafe>>>
 
 *** <<<Variadic>>> :drill:
@@ -4871,6 +4946,7 @@ Function with arity.
 Repeated function application allow computing results that may require indefinite amount of work.
 
 **** /*/
+
 <<<Recursive>>>
 
 **** <<<Base case>>> :drill:
@@ -4936,6 +5012,7 @@ In the case when there is a domain values for which operation is not legitimate/
 $$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} $$, $$ \mathcal{X} $$ is closed under $$ f $$.
 
 **** /*/
+
 <<<Closed>>>
 
 *** <<<Parameter>>> :drill:
@@ -4960,6 +5037,7 @@ Or formal parameter. Named varible of a function.
 Argument is a supplied value to a function parameter.
 
 **** /*/
+
 <<<Parameters>>>
 
 *** <<<Partial application>>> :drill:
@@ -4970,6 +5048,7 @@ Argument is a supplied value to a function parameter.
 Part of function parameters applied.
 
 **** /*/
+
 <<<Partially applied>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
@@ -5003,6 +5082,7 @@ For example - functions, functors.
 Natural transformation is a homotopy of functors.
 
 *** /*/
+
 <<<Homotopies>>>
 <<<Homotopic>>>
 
@@ -5026,6 +5106,7 @@ Meaning can be special for language speakers or human with particular knowledge.
 /*/ can also mean applicative functor.
 
 *** /*/
+
 <<<Idioms>>>
 <<<Idiomatic>>>
 
@@ -5126,6 +5207,7 @@ Based on function abstraction and application by substituting variables and bind
    * abstraction (lambda function) ($$ (\lambda x . t) $$)
 
 *** /*/
+
 <<<Lambda term>>>
 <<<Lambda terms>>>
 <<<Lambda variable>>>
@@ -5153,6 +5235,7 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * (Type class) - types depending on types, corresponding to type operators.
 
 **** /*/
+
 <<<λ-cube>>>
 <<<\lambda-cube>>>
 
@@ -5206,6 +5289,7 @@ SCHT: <2019-11-08 Fri>
 Equation of a parameter to its bound variable, and reducing parameter from the head.
 
 **** /*/
+
 <<<\beta reduction>>>
 <<<Beta-reduction>>>
 <<<Beta reduction>>>
@@ -5227,6 +5311,7 @@ SCHT: <2019-10-26 Sat>
 No beta reduction is possible.
 
 ***** /*/
+
 <<<\beta normal from>>>
 <<<Beta normal form>>>
 <<<Beta-normal form>>>
@@ -5241,6 +5326,7 @@ Type theory, typed programming language, and constructivism (phylosophy) foundat
 Directly relates to Coq programming language.
 
 **** /*/
+
 <<<<<<CoC>>>>>>
 
 *** <<<Curry–Howard correspondence>>> :drill:
@@ -5262,6 +5348,7 @@ Saying that First-order logic, computer programming and Category theory are equi
 Also gives ground to the equivalence of computer programs and mathematical proofs.
 
 **** /*/
+
 <<<Curry–Howard isomorphism>>>
 
 *** <<<Currying>>> :drill:
@@ -5281,6 +5368,7 @@ SCHT: <2019-09-06 Fri>
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 
 **** /*/
+
 <<<Curry>>>
 
 *** <<<Hindley–Milner type system>>> :drill:
@@ -5318,6 +5406,7 @@ SCHT: <2019-09-02 Mon>
 See Beta reduction
 
 **** /*/
+
 <<<Reducible>>>
 
 *** <<<\beta-\eta normal form>>> :drill:
@@ -5337,6 +5426,7 @@ SCHT: <2019-09-06 Fri>
 All \beta-reduction and \eta-reduction are done in the expression.
 
 **** /*/
+
 <<<beta-eta normal form>>>
 <<<beta eta normal form>>>
 
@@ -5362,6 +5452,7 @@ $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
 #+end_src
 
 **** /*/
+
 <<<\eta-reduction>>>
 <<<\eta-conversion>>>
 <<<\eta abstraction>>>
@@ -5442,6 +5533,7 @@ SCHT: <2019-09-06 Fri>
 $$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
 
 **** /*/
+
 <<<Binary operations>>>
 
 *** <<<Operator>>> :drill:
@@ -5469,6 +5561,7 @@ Shift operator defined by Lagrange through Differential operator.
 $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 
 ***** /*/
+
 Shift
 
 ** <<<Pattern guard>>> :drill:
@@ -5505,6 +5598,7 @@ Run functions, they must succeed. Then pattern match results to =val1=, =val2=. 
 Default in Haskell 2010.
 
 *** /*/
+
 <<<Pattern guards>>>
 
 ** <<<Permutation>>> :drill:
@@ -5572,6 +5666,7 @@ If brackets /()/ can be changed to /$/ then $ equal to composition:
 #+end_src
 
 *** /*/
+
 <<<Pointfree>>>
 <<<Tacit>>>
 <<<Tacit programming>>>
@@ -5600,6 +5695,7 @@ Composition of compositions =(.).(.)=. Allows to compose-in a binary function =f
 #+end_src
 
 **** /*/
+
 <<<.) .>>>
 <<<(.).(.)>>>
 <<<Composition of compositions>>>
@@ -5657,6 +5753,7 @@ In Haskell - abstract over data types.
 /*/ types:
 
 *** /*/
+
 <<<Polymorphic>>>
 
 *** <<<Levity polymorphism>>> :drill:
@@ -5694,6 +5791,7 @@ SCHT: <2019-09-08 Sun>
 Parametric polymorphism in rank-1 types by type variables.
 
 ***** /*/
+
 <<<Prenex>>>
 <<<Prenex polymorpism>>>
 
@@ -5742,6 +5840,7 @@ It is interface dispatch mechanism by data types.
 /Commonly known as overloading./
 
 ******* /*/
+
 <<<Ad-hoc polymorphism>>>
 <<<Ad hoc polymorphic>>>
 <<<Ad-hoc polymorphic>>>
@@ -5771,6 +5870,7 @@ See: Impredicative.
 This approach has Russell's paradox (and its form - Girard's paradox).
 
 ***** /*/
+
 <<<First-class polymorphism>>>
 
 **** <<<Higher-rank polymorphism>>> :drill:
@@ -5799,6 +5899,7 @@ Higher-rank polymorphism is formalized using System F, and there are a few imple
 Useful example aslo a ST-Trick monad.
 
 ***** /*/
+
 <<<Rank-n polymorphism>>>
 
 *** <<<Subtype polymorphism>>> :drill:
@@ -5908,6 +6009,7 @@ It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/
 **** <<<LANGUAGE option>>>
 
 ***** /*/
+
 <<<Language options>>>
 
 ***** Useful by default :drill:
@@ -6410,6 +6512,7 @@ If the meaning fully obtainable form the parts and composition - it is full, pur
 If there exists composed idiomatic expression - it is unfull, unpure compositionality, because meaning leaks-in from the sources that are not in the composition.
 
 *** /*/
+
 <<<Principe of compositionality>>>
 <<<Composition>>>
 <<<Compositional>>>
@@ -6435,6 +6538,7 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
 
 *** /*/
+
 <<<Psi-combinator>>>
 <<<On-combinator>>>
 
@@ -6458,6 +6562,7 @@ Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
 $$ \exists ! $$ - one and only one (exists only unique).
 
 *** /*/
+
 <<<Quantification>>>
 <<<Quantifiers>>>
 <<<Quantified>>>
@@ -6482,6 +6587,7 @@ RankNTypes
 ExistentialQuantification
 
 **** /*/
+
 <<<Forall>>>
 
 ** <<<Referential transparency>>> :drill:
@@ -6504,6 +6610,7 @@ So:
 /*/ functions are pure.
 
 *** /*/
+
 <<<Referentially transparent>>>
 
 ** <<<Relation>>> :drill:
@@ -6525,6 +6632,7 @@ Subset of a Cartesian product between sets of objects.
 Is not directed and not limited.
 
 *** /*/
+
 <<<Relations>>>
 <<<Relationship>>>
 
@@ -6610,6 +6718,7 @@ SCHT: <2019-09-11 Wed>
 Well-defined collection of distinct objects.
 
 *** /*/
+
 <<<Sets>>>
 
 *** <<<Closed set>>> :drill:
@@ -6777,6 +6886,7 @@ Tensor of rank 1 is a vector.
 Translatioin with tensor can be seen as functors.
 
 *** /*/
+
 <<<Tensors>>>
 <<<Tensorial>>>
 
@@ -6819,6 +6929,7 @@ Size allows setting upper bound on size of generated value. Think about infinity
 After failed test - shrinking tests value parts of contrexample, finds a part that still fails, and recurses shrinking.
 
 ***** /*/
+
 <<<Generators>>>
 
 ***** Custom generator
@@ -6983,6 +7094,7 @@ Haskell has immutable variables.
 Except when you hack it with explicit funсtions.
 
 *** /*/
+
 <<<Variables>>>
 
 ** <<<Zero>>> :drill:
@@ -7014,6 +7126,7 @@ System for integers where numbers wrap around the certain values (single - /modu
 Example - 12-hour clock.
 
 *** /*/
+
 <<<Clock arithmetic>>>
 
 *** <<<Modulus>>> :drill:
@@ -7033,6 +7146,7 @@ SCHT: <2019-09-05 Thu>
 Special numbers where arithmetic wraps around in modular arithmetic.
 
 **** /*/
+
 <<<Moduli>>> - plural.
 
 ** <<<Property>>> :drill:
@@ -7047,6 +7161,7 @@ In Haskell under property/law most often properties of algebraic structures.
 There property testing wich does what it says.
 
 *** /*/
+
 <<<Properties>>>
 
 *** <<<Associativity>>> :drill:
@@ -7066,6 +7181,7 @@ Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 
 **** /*/
+
 <<<Associative>>>
 <<<Associative law>>>
 <<<Associativity law>>>
@@ -7091,6 +7207,7 @@ In lambda expressions same level parts follow grouping from left to right.
 $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 
 **** /*/
+
 <<<Left associativity>>>
 <<<Left-associative>>>
 
@@ -7144,6 +7261,7 @@ AKA see Category theory, or Euclidian geometry basis.
 $$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
 
 **** /*/
+
 <<<Commutative>>>
 <<<Commutative law>>>
 
@@ -7156,6 +7274,7 @@ First application gives a result. Then same operation can be applied multiple ti
 Example: Start and Stop buttons on machines.
 
 **** /*/
+
 <<<Idempotent>>>
 <<<Idempotency>>>
 
@@ -7171,6 +7290,7 @@ Set S and two binary operators + \times:
   * left-&right-distributive - \times is distributive over +
 
 **** /*/
+
 <<<Distributive rule>>>
 <<<Distributive axiom>>>
 <<<Distributive law>>>
@@ -7219,6 +7339,7 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 /*/ is expressed by a statement.
 
 **** /*/
+
 <<<Propositions>>>
 
 **** <<<Atomic proposition>>> :drill:
@@ -7238,6 +7359,7 @@ SCHT: <2019-09-04 Wed>
 Logically undividable unit. Does not contain logical connectives.
 
 ***** /*/
+
 <<<Atomic propositions>>>
 
 **** <<<Compound proposition>>> :drill:
@@ -7248,6 +7370,7 @@ Logically undividable unit. Does not contain logical connectives.
 Formed by connecting propositions by logical connectives.
 
 ***** /*/
+
 <<<Compound propositions>>>
 
 **** <<<Propositional logic>>> :drill:
@@ -7262,6 +7385,7 @@ Refers to logically indivisible units (atomic propositions) as such, for theory 
 Not Turing-complete, impossible to construct an arbitrary loop.
 
 ***** /*/
+
 <<<Proposition logic>>>
 <<<Proposition calculus>>>
 <<<Propositional calculus>>>
@@ -7291,6 +7415,7 @@ Turing-complete.
 Extension of a propositional logic.
 
 ****** /*/
+
 <<<Predicate logic>>>
 <<<First-order predicate logic>>>
 <<<First-order predicate calculus>>>
@@ -7319,6 +7444,7 @@ Is more expressive, but model-theoretic properties are less well-behaved.
 Logical operation.
 
 **** /*/
+
 <<<Logical connectives>>>
 
 **** <<<Conjunction>>> :drill:
@@ -7408,6 +7534,7 @@ Difference between proposition, statement, expression:
   * Statement 1 $$ \ne $$ statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" $$ \ne $$ statement "3 + 2 = 5".
 
 **** /*/
+
 <<<Assertion>>>
 <<<Assertions>>>
 <<<Statements>>>
@@ -7517,6 +7644,7 @@ SCHT: <2019-08-31 Sat>
 There are these levels of Haskell code:
 
 **** /*/
+
 <<<Code level>>>
 
 **** <<<Type level>>> :drill:
@@ -7559,6 +7687,7 @@ SCHT: <2019-08-31 Sat>
 Level of code, about compilation processes/results.
 
 ***** /*/
+
 <<<Compilation level>>>
 
 **** <<<Runtime level>>> :drill:
@@ -7705,6 +7834,7 @@ SCHT: <2019-10-20 Sun>
 Scope bound by the structure of source code where the named entity is defined.
 
 ***** /*/
+
 <<<Static scope>>>
 
 **** <<<Local scope>>> :drill:
@@ -7724,6 +7854,7 @@ SCHT: <2019-10-29 Tue>
 Scope applies only in (current) area.
 
 ***** /*/
+
 <<<Local>>>
 
 *** <<<Shadowing>>> :drill:
@@ -7776,6 +7907,7 @@ Formalizes the notion of parametric polymorphism in programming languages.
 Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
 
 **** /*/
+
 <<<Girard–Reynolds polymorphic lambda calculus>>>
 <<<Girard-Raynolds>>>
 
@@ -7810,6 +7942,7 @@ Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 Expression that does not contain any free variables.
 
 *** /*/
+
 <<<Ground formula>>>
 
 ** <<<Content word>>> :drill:
@@ -8295,7 +8428,6 @@ Allow use and definition of indexed type families and data families.
 Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
 
 Two types of /*/ are:
-
 
 ** <<<Error>>>
 :PROPERTIES:
@@ -8820,7 +8952,6 @@ pure (a, b)
 With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 
-
 ** <<<Good: Haskell Package Versioning Policy>>>
 Version policy and dependency management.
 
@@ -8828,6 +8959,7 @@ Version policy and dependency management.
 [[file:Good_code/pvp-decision-tree_2019-06-17_15-49-21.svg]]
 
 *** /*/
+
 <<<PVP>>>
 <<<Good: PVP>>>
 
@@ -9049,7 +9181,6 @@ Insert your GHC versions.
 
   )
 
-
    dotspacemacs-additional-packages '(
                                       direnv
                                       nix-sandbox
@@ -9238,6 +9369,7 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
   * =mplus = (<|>)=
 
 *** /*/
+
 <<<Applicative-Monad proposal>>>
 <<<AMP>>>
 
