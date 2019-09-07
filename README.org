@@ -8532,35 +8532,6 @@ Turns ad hoc polymorphic function into compiled type-specific inmpementations.
 <<<Specialize>>>
 <<<Specialization>>>
 
-** <<<Product>>> :drill:
-:PROPERTIES:
-:ID:       21499e97-b28f-4377-9929-ed3d5d8e24f3
-:END:
-
-Universal construction:
-Pattern: $$ p: c \to a, \ q: c \to b $$
-Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$
-$$ c\prime $$ is another candidate.
-
-For sets - Cartesian product.
-
-/*/ is a pair. Corresponds to product data type in Hask (inhabited with all elements of the Cartesian product).
-
-Dual is Coproduct.
-
-** <<<Coproduct>>> :drill:
-
-Universal constructuon:
-Pattern: $$ i: a \to c, \ j: b \to c $$
-Ranking: $$ \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} $$
-$$ c\prime $$ is another candidate.
-
-For sets - Disjoint union.
-
-/*/ is a set assembled from other two sets, in Haskell it is a tagged set (analogous to disjoint union).
-
-Dual is Product.
-
 * Citations
 
 "One of the finer points of the Haskell community has been
