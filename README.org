@@ -8503,16 +8503,17 @@ Turns ad hoc polymorphic function into compiled type-specific inmpementations.
 <<<Specialize>>>
 <<<Specialization>>>
 
-** <<<Product>>>
-
-For sets - Cartesian product.
+** <<<Product>>> :drill:
+:PROPERTIES:
+:ID:       21499e97-b28f-4377-9929-ed3d5d8e24f3
+:END:
 
 Universal construction:
 Pattern: $$ p: c \to a, \ q: c \to b $$
 Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$
 $$ c\prime $$ is another candidate.
 
-/*/ is a pair. Corresponds to product data type in Hask.
+For sets - Cartesian product.
 
 ** <<<Coproduct>>>
 
