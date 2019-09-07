@@ -8625,7 +8625,7 @@ And as last one the one that can be the most variable, that is important to chai
 :ID:       e417b5f0-fc63-45e0-971a-68b2c6ae4d22
 :END:
 
-There can be more then one valid Monoid for a data type. &&
+There can be more than one valid Monoid for a data type. &&
 There can be more than one valid Applicative instance for a data type. ->
 There can be differnt Applicatives with different Monoid implementations.
 
