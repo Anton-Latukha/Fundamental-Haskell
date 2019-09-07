@@ -7819,11 +7819,13 @@ When this object/property autofollows from rules&axioms.
 ** <<<Gen>>>
 
 ** <<<ST-Trick monad>>>
+
 ST is like a lexical scope, where all the variables/state disappear when the function returns
 https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
 https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 
 *** /*/
+
 <<<ST-Trick>>>
 
 ** <<<Lax monoidal functor>>>
@@ -7833,31 +7835,39 @@ https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
 ** <<<Strong monad>>>
 
 ** <<<Either>>>
+
 Allows to separate and preserve information about happened, ex. error handling.
 
 *** /*/
+
 <<<Either data type>>>
 
 ** <<<Weak head normal form>>>
 
 *** /*/
+
 <<<WHNF>>>
 
 ** <<<Function image>>>
 
 *** /*/
+
 <<<Image>>>
 
 ** <<<Maybe>>>
 
 ** <<<Inverse>>>
+
 1. Inverse function
 
 2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$, & same for category duality.
 
 3. For operation: element that allows reversing operation, having an element that with the dual produces the identity element.
 
+4. See Inversion.
+
 ** <<<Inversion>>>
+
 1. Is a permutation where two elements are out of order.
 
 2. See Inverse
@@ -7890,6 +7900,7 @@ $$ f \circ r = 1^{x} $$ - f has right inverse r.
 ** <<<Invertible>>>
 ** <<<Invertibility>>>
 ** <<<Partial inverse>>>
+
 /*/ when function is now bijective. When bijective see inverse function.
 
 ** <<<Define LANGUAGE pragma options>>>
@@ -7911,49 +7922,60 @@ Enables pattern synonym declaration, which always begins with the =pattern= word
 Allows to abstract-away the structures of pattern matching.
 
 **** /*/
+
 <<<Pattern synonym>>>
 <<<Pattern synonyms>>>
 
 ** <<<GHC debug keys>>>
 
 *** <<<-ddump-ds>>>
+
 Dump desugarer output.
 
 **** /*/
+
 <<<Desugar>>>
 <<<GHC desugar>>>
 
 ** <<<GHC optimize keys>>>
 
 *** <<<-foptimal-applicative-do>>>
+
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
 ** <<<GHC check keys>>>
 
 *** <<<-Wno-partial-type-signatures>>>
+
 Supresses PartialTypeSignatures wildcard infer warning.
 
 ** <<<Generalised algebraic data types>>>
+
 LANGUAGE GADTs
 
 *** /*/
+
 <<<GADT>>>
 
 ** <<<Order theory>>>
+
 Investigates in thepth the intuitive notion of order using binary relations.
 
 *** <<<Domain theory>>>
+
 Formalizes approximation and convergense.
 Has close relation to Topology.
 
 *** <<<Lattice>>>
+
 Abstract structure that consists of partially ordered set, where every two elements have unique supremum and infinum. == /*/ algebraic structure satisfying certain axiomatic identities.
 /*/ order-theory & algebraic.
 
 *** <<<Order>>>
 
 **** <<<Preorder>>>
+
 R^{X \to X} : Reflexive & Transitive:
 $$ aRa $$
 $$ aRb, bRc \Rightarrow aRc $$
@@ -7972,6 +7994,7 @@ Generalization of equivalence relations partial orders.
 $$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total Preorder.
 
 **** <<<Partial order>>>
+
 A binary relation must be reflexive, antisymmetric and transitive.
 
 Partial - not every elempents between them need to be comparable.
@@ -7979,6 +8002,7 @@ Partial - not every elempents between them need to be comparable.
 Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
 
 ***** /*/
+
 <<<Partial orders>>>
 <<<Partially ordered set>>>
 <<<Partially ordered sets>>>
@@ -7990,11 +8014,13 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 *** <<<Total order>>>
 
 ** <<<Universal algebra>>>
+
 Studies algebraic structures.
 
 ** <<<Relation>>>
 
 *** <<<Reflexivity>>>
+
 $$ R^{X \to X}, \forall x \in X : x R x $$
 Order theory: $$ a \le a $$
 
@@ -8003,76 +8029,93 @@ Order theory: $$ a \le a $$
 Corresponds to Identity and Automorphism.
 
 **** /*/
+
 <<<Reflexive>>>
 <<<Reflexive relation>>>
 
 *** <<<Irreflexivity>>>
+
 $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
 
 **** /*/
+
 <<<Anti-reflexive>>>
 <<<Anti-reflexive relation>>>
 <<<Irreflexive>>>
 <<<Irreflexive relation>>>
 
 *** <<<Transitivity>>>
+
 $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
 
 **** /*/
+
 <<<Transitive>>>
 <<<Transitive relation>>>
 
 *** <<<Symmetry>>>
+
 $$ \forall a,b \in X : (aRb \iff bRa) $$
 
 **** /*/
+
 <<<Symmetric>>>
 <<<Symmetric relation>>>
 
 *** <<<Equivalence>>>
+
 | Reflexive                  | Symmetric                        | Transitive                                      |
 |----------------------------+----------------------------------+-------------------------------------------------|
 | $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
 | $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
 
 **** /*/
+
 <<<Equivalent>>>
 <<<Equivalent relation>>>
 
 *** <<<Antisymmetry>>>
+
 $$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
 Antisymmetry does not say anything about $$ R(a,a) $$.
 
 /*/ - no two different elements precede each other.
 
 **** /*/
+
 <<<Antisymmetric>>>
 <<<Antisymmetric relation>>>
 
 *** <<<Asymmetry>>>
+
 $$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
 /*/ $$ \iff $$ Antisymmetric \land Irreflexive.
 Asymmetry \ne "not symmetric"
 Symmetric \land Asymmetric is only empty relation.
 
 **** /*/
+
 <<<Asymmetric>>>
 <<<Asymmetric relation>>>
 
 ** <<<Cryptomorphism>>>
+
 Equivalent, interconvertable with no loss of information.
 
 *** /*/
+
 <<<Crypromorphic>>>
 
 ** <<<Lexically scoped type variables>>>
+
 Enable lexical scope for forall quantifier defined type variables
 
 Implemented in ScopedTypeVariables
 
 ** <<<Abstract data type>>>
+
 Several definitions here, reduce them.
 
 Data type mathematical model, defined by its semantics from the user point of view, listing possible values, operations on the data of the type, and behaviour of these operations.
@@ -8082,6 +8125,7 @@ Data type mathematical model, defined by its semantics from the user point of vi
 A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
 
 *** /*/
+
 <<<AbsDT>>>
 
 ** <<<ADT>>> :drill:
@@ -8141,6 +8185,7 @@ Introduced & used in Lisp. Lisp code and data are /*/.
 Modern abbriviated notation of /*/: =(x y)=.
 
 *** /*/
+
 <<<S-expression>>>
 <<<S-expressions>>>
 <<<Sexpression>>>
@@ -8165,6 +8210,7 @@ Expression consisting of:
 Polynomials form a ring. Polynomial ring.
 
 *** /*/
+
 <<<Polynomials>>>
 
 ** <<<Data family>>>
@@ -8198,6 +8244,7 @@ Associates data types by type-level function defined by open-ended collection of
 Normal type classes define partial functions from types to a collection of named values by pattern matching on the input types, while type families define partial functions from types to types by pattern matching on the input types. In fact, in many uses of type families there is a single type class which logically contains both values and types associated with each instance. A type family declared inside a type class is called an associated type.
 
 *** /*/
+
 <<<Type family>>>
 
 ** <<<TypeFamilies>>>
@@ -8238,6 +8285,7 @@ Mistake in the program that can be resolved only by fixing the program.
 Distinct from Exception.
 
 *** /*/
+
 <<<Errors>>>
 
 ** <<<Exception>>>
@@ -8250,6 +8298,7 @@ Expected but irregular situation.
 Distinct from Error. Also see <<<Exception vs Error>>>
 
 *** /*/
+
 <<<Exceptions>>>
 
 ** <<<ConstraintKinds>>>
