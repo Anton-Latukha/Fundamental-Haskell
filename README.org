@@ -7865,7 +7865,7 @@ Allows to separate and preserve information about happened, ex. error handling.
 
 ** <<<Inverse function>>>
 
-    $$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
+$$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
