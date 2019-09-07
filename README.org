@@ -3480,8 +3480,17 @@ For sets - Cartesian product.
 Dual is Coproduct.
 
 *** <<<Coproduct>>> :drill:
+:PROPERTIES:
+:ID:       3599f721-e345-40e4-8361-be4d0898d35a
+:END:
 
 Universal constructuon:
+\begin{matrix}
+&& c\prime && \\
+& {}^p\nearrow\phantom{{}^{p}} & {\tiny \phantom{!}}\uparrow{\tiny !} & \phantom{{}^q}\nwarrow^q& \\
+a & \underset{\iota_a}{\rightarrow} & c & \underset{\iota_b}{\leftarrow} & b
+\end{matrix}
+
 Pattern: $$ i: a \to c, \ j: b \to c $$
 Ranking: $$ \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} $$
 $$ c\prime $$ is another candidate.
