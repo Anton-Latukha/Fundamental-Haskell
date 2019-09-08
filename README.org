@@ -242,6 +242,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#-53][/*/]]
     - [[#product][<<<Product>>>]]
     - [[#coproduct][<<<Coproduct>>>]]
+    - [[#free-object][<<<Free object>>>]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#contravariant][<<<Contravariant>>>]]
     - [[#-54][/*/]]
@@ -604,7 +605,6 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#content-word][<<<Content word>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#const-functor][<<<Const functor>>>]]
-  - [[#free-object][<<<Free object>>>]]
   - [[#identity-type][<<<Identity type>>>]]
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
@@ -3502,6 +3502,16 @@ For sets - Disjoint union.
 /*/ is a set assembled from other two sets, in Haskell it is a tagged set (analogous to disjoint union).
 
 Dual is Product.
+
+*** <<<Free object>>> :drill:
+:PROPERTIES:
+:ID:       5e1469b1-ce93-4f70-a820-2735857d3af7
+:END:
+
+General particular structure.
+In which structure, properties autofollows from definition, axioms.
+
+Also uses as a term when surcomstances of structures, rules, properties, axioms used coinside with the definition of a particular object \therefore form object of this type with the according properties and possibilities.
 
 ** <<<Coalgebra>>> :drill:
 :PROPERTIES:
@@ -8011,16 +8021,6 @@ Words that name objects of reality and their qualities.
 * Give definitions
 
 ** <<<Const functor>>>
-
-** <<<Free object>>> :drill:
-:PROPERTIES:
-:ID:       5e1469b1-ce93-4f70-a820-2735857d3af7
-:END:
-
-General particular structure.
-In which structure, properties autofollows from definition, axioms.
-
-Also uses as a term when surcomstances of structures, rules, properties, axioms used coinside with the definition of a particular object \therefore form object of this type with the according properties and possibilities.
 
 ** <<<Identity type>>>
 
