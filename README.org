@@ -8012,9 +8012,15 @@ Words that name objects of reality and their qualities.
 
 ** <<<Const functor>>>
 
-** <<<Free object>>>
+** <<<Free object>>> :drill:
+:PROPERTIES:
+:ID:       5e1469b1-ce93-4f70-a820-2735857d3af7
+:END:
 
-When this object/property autofollows from rules&axioms.
+General particular structure.
+In which structure, properties autofollows from definition, axioms.
+
+Also uses as a term when surcomstances of structures, rules, properties, axioms used coinside with the definition of a particular object \therefore form object of this type with the according properties and possibilities.
 
 ** <<<Identity type>>>
 
