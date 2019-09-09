@@ -9022,12 +9022,12 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 
 =let ... in ...= is a separate expression. In contrast, =where= is bound to a surrounding syntactic construct (namespace).
 
-** Good: RankNTypes :drill:
+** <<<Good: RankNTypes>>> :drill:
 :PROPERTIES:
 :ID:       f13bc2c3-be6c-4bde-96c9-09c9447a1c94
 :END:
 
-Can synergyze with ScopedTypeVariables.
+Can powerfully synergyze with ScopedTypeVariables.
 
 ** Good: Orphan type instance :drill:
 :PROPERTIES:
