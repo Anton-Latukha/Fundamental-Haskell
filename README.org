@@ -3507,6 +3507,10 @@ For sets - Disjoint union.
 
 Dual is Product.
 
+**** /*/
+
+<<<Coproducts>>>
+
 *** <<<Free object>>> :drill:
 :PROPERTIES:
 :ID:       5e1469b1-ce93-4f70-a820-2735857d3af7
