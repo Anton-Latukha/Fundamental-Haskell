@@ -9029,19 +9029,19 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 
 Can powerfully synergyze with ScopedTypeVariables.
 
-** Good: Orphan type instance :drill:
+** <<<Good: Orphan type instance>>> :drill:
 :PROPERTIES:
 :ID:       8fb7360d-a105-4827-bba0-232e89c3558d
 :END:
 
-Practicies to address orphan instances:
+Practice to address orphan instances:
 
 Does type class or type defined by you:
 | Type class | Type | Recommendation                                     |
 |------------+------+----------------------------------------------------|
-|            | \check    | Type & instance in the same module                 |
-| \check          |      | Typeclass & instance in the same module            |
-|            |      | Define newtype wrap & its instances in the same module |
+|            | \check    | {Type, instance} in the same module             |
+| \check          |      | {Typeclass & instance} in the same module          |
+|            |      | {Define newtype wrap, its instances} in the same module |
 
 ** <<<Good: Smart constructor>>> :drill:
 :PROPERTIES:
