@@ -3481,6 +3481,10 @@ For sets - Cartesian product.
 
 Dual is Coproduct.
 
+**** /*/
+
+<<<Products>>>
+
 *** <<<Coproduct>>> :drill:
 :PROPERTIES:
 :ID:       3599f721-e345-40e4-8361-be4d0898d35a
