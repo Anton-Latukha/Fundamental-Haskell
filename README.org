@@ -3466,7 +3466,7 @@ Method:
 Universal construction:
 
 \begin{matrix}
-&& c\prime && \\
+&& c^{\prime} && \\
 & {}^p\swarrow\phantom{{}^{p}} & {\tiny \phantom{!}}\downarrow{\tiny !} & \phantom{{}^q}\searrow^q& \\
 a & \underset{\pi_a}{\leftarrow} & c & \underset{\pi_b}{\rightarrow} & b
 \end{matrix}
