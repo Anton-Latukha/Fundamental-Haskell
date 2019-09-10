@@ -1241,7 +1241,12 @@ From the name, in this Category:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
 :END:
 
-Functor is a map between categories. Translating objects and morphisms (as input can take morphism or object). They can preserve structure, or not.
+/*/ full translation (map) of one category into another.
+Translating objects and morphisms (as input can take morphism or object).
+
+/*/ - forgetful - discards part of the structure.
+/*/ - faithful - fully preserves all morphisms - injective on Hom-sets.
+/*/ - full - translation of morphisms fully covers all the morphisms between according objecs in the target categoty.
 
 For Functor type class or fmap - see Power set functor.
 
