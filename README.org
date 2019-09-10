@@ -9060,6 +9060,13 @@ Does type class or type defined by you:
 
 Only proper smart constructors should be exported. Do not export data type constructor, only a type.
 
+** <<<Good: Thin category>>> :drill:
+:PROPERTIES:
+:ID:       8e9abcba-09fa-465b-90a1-b93c3941ec93
+:END:
+
+In /*/ all morphisms are epimorphisms and monomorphisms.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
