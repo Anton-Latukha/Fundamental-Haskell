@@ -2996,6 +2996,7 @@ If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely map
 ***** /*/
 
 <<<Monomorphic>>>
+<<<Monomorphisms>>>
 
 **** <<<Epimorphism>>> :drill:
 SCHT: <2019-10-30 Wed>
