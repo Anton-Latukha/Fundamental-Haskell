@@ -3052,6 +3052,7 @@ Categories are isomorphic if there $$ R ∘ L = ID
 ***** /*/
 
 <<<Isomorphic>>>
+<<<Isomorphisms>>>
 
 **** <<<Endomorphism>>> :drill:
 SCHT: <2019-11-02 Sat>
