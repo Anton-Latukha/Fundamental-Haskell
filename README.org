@@ -3096,8 +3096,8 @@ Corresponds to identity, reflexivity.
 
 ****** /*/
 
-<<<Automorphisms>>>
 <<<Automorphic>>>
+<<<Automorphisms>>>
 
 ***** /*/
 
