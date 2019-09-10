@@ -3101,8 +3101,8 @@ Corresponds to identity, reflexivity.
 
 ***** /*/
 
-<<<Endomorphisms>>>
 <<<Endomorphic>>>
+<<<Endomorphisms>>>
 
 **** <<<Catamorphism>>> :drill:
 SCHT: <2019-09-05 Thu>
