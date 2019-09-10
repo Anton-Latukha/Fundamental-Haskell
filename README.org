@@ -3145,6 +3145,7 @@ The catamorphism dual concept.
 ****** /*/
 
 <<<Anamorphic>>>
+<<<Anamorphisms>>>
 
 ****** <<<Hylomorphism>>> :drill:
 :PROPERTIES:
