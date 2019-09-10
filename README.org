@@ -3130,6 +3130,7 @@ In functional programming, catamorphism is a algebraic data type fold (generaliz
 ***** /*/
 
 <<<Catamorphic>>>
+<<<Catamorphisms>>>
 
 ***** <<<Anamorphism>>> :drill:
 :PROPERTIES:
