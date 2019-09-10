@@ -3155,9 +3155,10 @@ catamorphism $$ \circ $$ anamorphism
 
 Expanding and collapsing the structure.
 
-****** /*/
+******* /*/
 
 <<<Hylomorphic>>>
+<<<Hylomorphisms>>>
 
 **** <<<Kernel>>> :drill:
 SCHT: <2019-09-28 Sat>
