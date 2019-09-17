@@ -5669,10 +5669,10 @@ lookup :: Eq a => a -> [(a, b)] -> Maybe b
 addLookup l a1 a2
    | Just b1 <- lookup a1 l
    , Just b2 <- lookup a2 l
-   = val1 + val2
+   = b1 + b2
 {-...other equations...-}
 #+end_src
-Run functions, they must succeed. Then pattern match results to =val1=, =val2=. Only if successful - execute the equation.
+Run functions, they must succeed. Then pattern match results to =b1=, =b2=. Only if successful - execute the equation.
 
 Default in Haskell 2010.
 
