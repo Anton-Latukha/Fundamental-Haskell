@@ -5712,7 +5712,7 @@ SCHT: <2019-10-12 Sat>
 :DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:52]
 :END:
 
-/*/ - composable expression.
+Composable expression.
 
 ** <<<Point-free>>> :drill:
 SCHT: <2019-10-23 Wed>
