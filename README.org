@@ -1908,17 +1908,17 @@ class Applicative m => Monad m where
 #+end_src
 
 ******* <<<MonadPlus type class>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-11-21 Thu>
 :PROPERTIES:
 :ID:       379a53d8-b1a9-4e0d-a1c6-fe201b9e9fd4
-:DRILL_LAST_INTERVAL: 25.0
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 64.7
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 13:26]
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Is a monoid over monad, with additional rules.
@@ -2637,17 +2637,17 @@ The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary o
 <<<Category of magmas>>>
 
 **** <<<Semigroup>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-12-16 Mon>
 :PROPERTIES:
 :ID:       7e67196b-643c-4726-8a17-6207826764bb
-:DRILL_LAST_INTERVAL: 31.1271
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 90.2063
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:50]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Magma with associative property.
@@ -2717,17 +2717,17 @@ Also backwards - any single-object category is a monoid. Category has an identit
 :END:
 
 ******* <<<Monoid left identity law>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-12-16 Mon>
 :PROPERTIES:
 :ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
-:DRILL_LAST_INTERVAL: 31.1271
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 90.2063
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 #+begin_src haskell
@@ -3383,17 +3383,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>> :drill:
-SCHT: <2019-09-04 Wed>
+SCHT: <2019-10-08 Tue>
 :PROPERTIES:
 :ID:       942d9234-d549-46a3-b051-ef1ac73244ad
-:DRILL_LAST_INTERVAL: 8.9861
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 20.6501
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:19]
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Category duality behaves like a logical inverse.
@@ -3925,17 +3925,17 @@ Type class makes a nice way for defining behaviour, properties over many types/o
 <<<Typeclasses>>>
 
 **** <<<Arbitrary type class>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-12-16 Mon>
 :PROPERTIES:
 :ID:       1bda8aab-a08c-4d7b-bd08-0b1a6f559a33
-:DRILL_LAST_INTERVAL: 31.1271
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 90.2063
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Type class of QuickCheck.Arbitrary (that is reexported by QuickCheck) for creating a generator/distribution of values.
@@ -4091,17 +4091,17 @@ On evaluation of the /*/ GHC would show the derived type information to help fil
 <<<Typed holes>>>
 
 *** <<<Type inference>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-10-18 Fri>
 :PROPERTIES:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 31.1271
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Automatic data type detection for expression.
@@ -4570,17 +4570,17 @@ SCHT: <2019-10-26 Sat>
 Reducible expression.
 
 *** <<<Concatenate>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-10-18 Fri>
 :PROPERTIES:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 31.1271
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:35]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Link together sequences, expressions.
@@ -5469,17 +5469,17 @@ Where types marked as polymorphic variables, and overall type inference is possi
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 
 *** <<<Reduction>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-10-11 Fri>
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
-:DRILL_LAST_INTERVAL: 10.0
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 24.12
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:39]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:19]
 :END:
 
 See Beta reduction
@@ -5510,17 +5510,17 @@ All \beta-reduction and \eta-reduction are done in the expression.
 <<<beta eta normal form>>>
 
 *** <<<\eta-abstraction>>> :drill:
-SCHT: <2019-09-04 Wed>
+SCHT: <2019-11-25 Mon>
 :PROPERTIES:
 :ID:       c385db49-d92d-4b80-85b9-ecd8b786671e
-:DRILL_LAST_INTERVAL: 25.88
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 69.3325
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:46]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:45]
 :END:
 
 $$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
@@ -6212,17 +6212,17 @@ $$ C :> D $$, so in C we can talk about D.
 Synergizes with ConstraintKinds.
 
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2019-09-02 Mon>
+SCHT: <2019-10-11 Fri>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 9.7704
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 24.0645
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.112
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.301
+:DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:19]
 :END:
 
 Allow type class instances types contain nested types.
@@ -7291,17 +7291,17 @@ $$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
 <<<Left-associative>>>
 
 *** <<<Right associative>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-10-18 Fri>
 :PROPERTIES:
 :ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 31.1271
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 19:36]
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 /*/ - the operations are grouped from the right.
@@ -7422,17 +7422,17 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 <<<Propositions>>>
 
 **** <<<Atomic proposition>>> :drill:
-SCHT: <2019-09-04 Wed>
+SCHT: <2019-10-08 Tue>
 :PROPERTIES:
 :ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
-:DRILL_LAST_INTERVAL: 8.9861
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 20.6501
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:18]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Logically undividable unit. Does not contain logical connectives.
@@ -7804,17 +7804,17 @@ Hanging type instance from inconsistent code base.
 2) Several implementations of instance present.
 
 *** <<<Undefined>>> :drill:
-SCHT: <2019-09-03 Tue>
+SCHT: <2019-12-16 Mon>
 :PROPERTIES:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
-:DRILL_LAST_INTERVAL: 41.7947
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 89.984
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-07-23 Tue 13:54]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
 Placeholder value that helps to do typechecking.
