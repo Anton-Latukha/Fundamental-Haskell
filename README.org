@@ -8093,6 +8093,13 @@ Number of arrows of object.
 
 Number of ingoing arrows.
 
+**** <<<Outdegree>>> :drill:
+:PROPERTIES:
+:ID:       44e08d7b-af1a-4d4d-a9e2-1af7165ec7c7
+:END:
+
+Number of outgoinf arrows.
+
 * Give definitions
 
 ** <<<Const functor>>>
