@@ -8100,6 +8100,13 @@ Number of ingoing arrows.
 
 Number of outgoinf arrows.
 
+*** <<<Adjacency matrix>>> :drill:
+:PROPERTIES:
+:ID:       75984947-e25f-4385-b7db-32157e63377c
+:END:
+
+Matrix of connection of odjects ={-1,0,1}=.
+
 * Give definitions
 
 ** <<<Const functor>>>
