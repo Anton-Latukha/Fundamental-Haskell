@@ -8071,6 +8071,21 @@ Immidiate successor.
 
 Object that sends arrow.
 
+**** <<<Direct predecessor>>> :drill:
+:PROPERTIES:
+:ID:       4ddb51b6-c250-4a00-9029-ed90b86ca085
+:END:
+
+Immidiate predecessor.
+
+
+*** <<<Degree>>> :drill:
+:PROPERTIES:
+:ID:       51b34488-d123-4228-b806-5bb02ce0384e
+:END:
+
+Number of arrows of object.
+
 * Give definitions
 
 ** <<<Const functor>>>
