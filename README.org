@@ -8057,6 +8057,13 @@ Words that name objects of reality and their qualities.
 
 Object that recieves the arrow.
 
+**** <<<Direct successor>>> :drill:
+:PROPERTIES:
+:ID:       0a7e03d8-d305-4739-b44f-f4b183fdf618
+:END:
+
+Immidiate successor.
+
 *** <<<Predecessor>>> :drill:
 :PROPERTIES:
 :ID:       cd19ada7-93b3-4efb-829c-37325f082ff5
