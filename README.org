@@ -8086,6 +8086,13 @@ Immidiate predecessor.
 
 Number of arrows of object.
 
+**** <<<Indegree>>> :drill:
+:PROPERTIES:
+:ID:       cc8a4af2-40ac-4f5c-9f1e-b057a8cb195c
+:END:
+
+Number of ingoing arrows.
+
 * Give definitions
 
 ** <<<Const functor>>>
