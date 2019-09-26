@@ -607,6 +607,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#content-word][<<<Content word>>>]]
   - [[#graph-theory][<<<Graph theory>>>]]
     - [[#successor][<<<Successor>>>]]
+    - [[#predecessor][<<<Predecessor>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#identity-type][<<<Identity type>>>]]
@@ -8055,6 +8056,13 @@ Words that name objects of reality and their qualities.
 :END:
 
 Object that recieves the arrow.
+
+*** <<<Predecessor>>> :drill:
+:PROPERTIES:
+:ID:       cd19ada7-93b3-4efb-829c-37325f082ff5
+:END:
+
+Object that sends arrow.
 
 * Give definitions
 
