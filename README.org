@@ -7620,17 +7620,17 @@ Notation: $$ P(x) $$
 Almost always can include relations, quantifiers.
 
 *** <<<Statement>>> :drill:
-SCHT: <2019-09-09 Mon>
+SCHT: <2019-12-19 Thu>
 :PROPERTIES:
 :ID:       0fbcd5d9-8c13-4486-aabe-47c831900548
-:DRILL_LAST_INTERVAL: 30.8932
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 83.4734
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:55]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:12]
 :END:
 
 Declarative expression that is a bearer of a proposition.
@@ -7654,17 +7654,17 @@ Difference between proposition, statement, expression:
 <<<Statements>>>
 
 *** <<<Iff>>> :drill:
-SCHT: <2019-09-09 Mon>
+SCHT: <2019-12-26 Thu>
 :PROPERTIES:
 :ID:       50d0c8a8-4e41-4ddd-92fa-8135124c1809
-:DRILL_LAST_INTERVAL: 30.8932
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5285
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:55]
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:13]
 :END:
 
 If and only if, exectly when, just.
@@ -7860,17 +7860,17 @@ Placeholder value that helps to do typechecking.
 :END:
 
 *** <<<Guerrilla patch>>> :drill:
-SCHT: <2019-09-09 Mon>
+SCHT: <2019-12-26 Thu>
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
-:DRILL_LAST_INTERVAL: 30.8932
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5285
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:56]
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:12]
 :END:
 
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
@@ -8855,17 +8855,17 @@ Use Tacit very carefully - it hides types and harder to change code where it is 
 Use just enough Tacit to communicate a bit better. Mostly only partial point-free communicates better.
 
 *** <<<Good: Point-free is great in multi-dimentions>>> :drill:
-SCHT: <2019-09-09 Mon>
+SCHT: <2019-12-25 Wed>
 :PROPERTIES:
 :ID:       0eb49ad1-9992-4707-88c8-64ff7f8c3cbb
-:DRILL_LAST_INTERVAL: 30.7556
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.1297
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:55]
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:13]
 :END:
 
 BigData and OLAP analysis.
