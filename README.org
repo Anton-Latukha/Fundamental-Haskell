@@ -2606,6 +2606,17 @@ fmap f . fmap g = fmap (f . g)
 
 /*/ - functor axiom that allows to greatly simplify computations.
 
+**** <<<=$>=>>> :drill:
+:PROPERTIES:
+:ID:       b2e2a3bf-d31c-40cb-a7da-9f389190a773
+:END:
+
+Get & set a value inside Functor.
+
+**** /*/
+
+<<<=<$=>>>
+
 *** <<<Hask category>>> :drill:
 :PROPERTIES:
 :ID:       dc1a0e79-c4bc-4c46-a9d7-84bb4f1d6a2e
