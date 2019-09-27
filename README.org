@@ -9153,7 +9153,7 @@ Only proper smart constructors should be exported. Do not export data type const
 
 In /*/ all morphisms are epimorphisms and monomorphisms.
 
-** <<<Good: Recursion>>>
+** <<<Good: Recursion>>> :drill:
 :PROPERTIES:
 :ID:       ec8407dd-2c5f-4fef-9e8e-99a4a45a44b4
 :END:
