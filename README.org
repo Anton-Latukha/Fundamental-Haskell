@@ -2579,6 +2579,15 @@ empty :: f a    -- The identity element of <|>
 
 <<<Alternative>>>
 
+***** <<<=*>=>>> :drill:
+:PROPERTIES:
+:ID:       52ea3b25-cfae-4a95-9703-6baa39159536
+:END:
+
+Do calculation, but ignore the value from the first argument.
+
+$$ *> \ \equiv \ >> $$
+
 **** <<<Monoidal functor>>> :drill:
 :PROPERTIES:
 :ID:       8bafa7f0-72b2-4706-a623-69c5f09ab964
