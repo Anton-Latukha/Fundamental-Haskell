@@ -7522,7 +7522,7 @@ SCHT: <2019-11-14 Thu>
 :DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:11]
 :END:
 
-Formal notation systems of sciences that use quantifiers, relations, variables over non-logical objects, allows the use of expressions that contain variables.
+Notation systems that use quantifiers, relations, variables over non-logical objects, allows the use of expressions that contain variables.
 
 Turing-complete.
 
