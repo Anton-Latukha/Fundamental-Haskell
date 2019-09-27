@@ -1392,17 +1392,16 @@ Lift does a function application through the data structure.
 <<<Lifting>>>
 
 ***** <<<Power set functor is a free monad>>> :drill:
-SCHT: <2019-09-07 Sat>
 :PROPERTIES:
 :ID:       85146d1c-7cb7-4c9b-a998-791b33f1a518
-:DRILL_LAST_INTERVAL: 28.8368
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-09 Fri 22:51]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:07]
 :END:
 
 Since:
@@ -1535,17 +1534,17 @@ pure id <*> v = v
 #+end_src
 
 ****** <<<Applicative composition law>>> :drill:
-SCHT: <2019-09-06 Fri>
+SCHT: <2019-12-23 Mon>
 :PROPERTIES:
 :ID:       74ed933d-bb1e-4169-919a-b3c491973011
-:DRILL_LAST_INTERVAL: 40.5335
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 87.2686
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.333
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 22:03]
+:DRILL_AVERAGE_QUALITY: 2.714
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:06]
 :END:
 
 Function composition works regularly.
@@ -5328,17 +5327,16 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
-SCHT: <2019-09-07 Sat>
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 2.333
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:14]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:08]
 :END:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
@@ -5444,17 +5442,17 @@ Directly relates to Coq programming language.
 <<<<<<CoC>>>>>>
 
 *** <<<Curry–Howard correspondence>>> :drill:
-SCHT: <2019-09-06 Fri>
+SCHT: <2019-10-23 Wed>
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
-:DRILL_LAST_INTERVAL: 10.352
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 25.9732
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:06]
 :END:
 
 Equivalence of {First-order logic, computer programming, Category theory}. They represent each-other, possible in one - possible in the other, so all the definitions and theorems have analogues in other two.
@@ -5524,17 +5522,17 @@ See Beta reduction
 <<<Reducible>>>
 
 *** <<<\beta-\eta normal form>>> :drill:
-SCHT: <2019-09-06 Fri>
+SCHT: <2020-05-26 Tue>
 :PROPERTIES:
 :ID:       0240a6dc-9667-4558-b138-3423930eafe6
-:DRILL_LAST_INTERVAL: 86.9691
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 242.2089
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:17]
+:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:06]
 :END:
 
 All \beta-reduction and \eta-abstraction are done in the expression.
