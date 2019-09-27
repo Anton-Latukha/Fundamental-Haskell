@@ -5457,9 +5457,9 @@ SCHT: <2019-09-06 Fri>
 :DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:58]
 :END:
 
-Saying that First-order logic, computer programming and Category theory are equivalent. They can represent each-other, what is possible in one - possible in the other and all the definitions and theorems have analogues in other two fields.
+Equivalence of {First-order logic, computer programming, Category theory}. They represent each-other, possible in one - possible in the other, so all the definitions and theorems have analogues in other two.
 
-Also gives ground to the equivalence of computer programs and mathematical proofs.
+Gives a ground to the equivalence of computer programs and mathematical proofs.
 
 **** /*/
 
