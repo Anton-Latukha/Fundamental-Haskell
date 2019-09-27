@@ -1491,7 +1491,8 @@ Data type can have several applicative implementations.
 
 Standard definition:
 #+begin_src haskell
-class Functor f => Applicative f where
+class Functor f => Applicative f
+ where
   (<*>) :: f (a -> b) -> f a -> f b
   pure :: a -> f a
 #+end_src
