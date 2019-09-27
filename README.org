@@ -775,6 +775,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-smart-constructor][<<<Good: Smart constructor>>>]]
   - [[#good-thin-category][<<<Good: Thin category>>>]]
   - [[#good-recursion][<<<Good: Recursion>>>]]
+  - [[#good-monoid][<<<Good: Monoid>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -9164,6 +9165,17 @@ Writing/thinking about recursion:
 
 Simple functional application is used in the recursion.
 Assume that the functions would return the right result.
+
+
+** <<<Good: Monoid>>> :drill:
+:PROPERTIES:
+:ID:       fcafc131-d995-4712-8fa7-35ea6668cd27
+:END:
+
+=<>=:
+Sets - union.
+Maps - left-biased union.
+Number - =Sum=, =Product= form separate monoid categories.
 
 * Bad code :drill:
 :PROPERTIES:
