@@ -5537,7 +5537,7 @@ SCHT: <2019-09-06 Fri>
 :DRILL_LAST_REVIEWED: [2019-08-26 Mon 22:17]
 :END:
 
-All \beta-reduction and \eta-reduction are done in the expression.
+All \beta-reduction and \eta-abstraction are done in the expression.
 
 **** /*/
 
