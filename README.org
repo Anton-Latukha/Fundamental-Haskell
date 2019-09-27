@@ -8017,8 +8017,9 @@ SCHT: <2019-09-06 Fri>
 :DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:59]
 :END:
 
-Formalizes the notion of parametric polymorphism in programming languages.
-Differs from the simply typed Lambda calculus by the introduction of universal quantification over types.
+Is parametric polymorphism in programming.
+
+Extends the Lambda calculus by introducing $$ \forall $$ (universal quantifier) over types.
 
 **** /*/
 
