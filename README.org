@@ -15,7 +15,12 @@
 
 Important notes on Haskell, category & related fields.
 
+
+<details><summary>About Org markup support: ⮒</summary>
+
 GitHub&GitLab parse Org into HTML only partially. Good quality HTML export is in the `README.html`, it is hosted at https://blog.latukha.com/haskell-notes.html.
+
+<p>
 
 This is complex Org notes file with LaTeX formulas.
 To get:
@@ -24,9 +29,12 @@ To get:
   * Navigation
 use capable editor.
 
+</details>
+
 If something - =<<<This is a radio target>>>= - for =org-mode= linking.
 
-Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
+<details><summary>Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=: ⮒</summary>
+
 #+begin_src elisp
 ;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as 'Radio targets' when org-descriptive-links set
 ;;;; This is improvement of the code from: Tobias&glmorous: https://emacs.stackexchange.com/questions/19230/how-to-hide-targets
@@ -54,6 +62,8 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
 
 (add-hook 'org-font-lock-set-keywords-hook #'org-hidden-links-hook-function)
 #+end_src
+
+</details>
 
 =SCHT:= and metadata in =:PROPERTIES:= - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
 
