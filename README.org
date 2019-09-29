@@ -5982,7 +5982,7 @@ $$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
 The most powerful form of parametric polymorphism.
 See: Impredicative.
 
-This approach has Russell's paradox (and its form - Girard's paradox).
+This approach has Girard's paradox (type systems Russell's paradox).
 
 ***** /*/
 
