@@ -5058,7 +5058,9 @@ Function with arity.
 :ID:       2e2d87ae-d918-47fc-b810-f95366fe4039
 :END:
 
-Repeated function application allow computing results that may require indefinite amount of work.
+Repeated function application when sometimes same function gets called.
+
+Allows computation that may require indefinite amount of work.
 
 **** /*/
 
