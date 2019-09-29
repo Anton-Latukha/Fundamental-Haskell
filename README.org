@@ -6835,6 +6835,7 @@ Well-defined collection of distinct objects.
 *** /*/
 
 <<<Sets>>>
+<<<Set theory>>>
 
 *** <<<Closed set>>> :drill:
 :PROPERTIES:
