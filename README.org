@@ -507,6 +507,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#hom-set-1][<<<Hom-set>>>]]
       - [[#hom-functor][<<<Hom-functor>>>]]
     - [[#singleton][<<<Singleton>>>]]
+    - [[#russells-paradox][<<<Russell's paradox>>>]]
   - [[#shrinking][<<<Shrinking>>>]]
   - [[#spine][<<<Spine>>>]]
   - [[#superclass][<<<Superclass>>>]]
@@ -6925,6 +6926,13 @@ SCHT: <2019-11-12 Tue>
 
 Singleton - unit set - set with exactly one element.
 Also 1-sequence.
+
+*** <<<Russell's paradox>>> :drill:
+:PROPERTIES:
+:ID:       65436fce-197e-40fd-8eea-a36f54a071fd
+:END:
+
+If there exists normal set of all sets - it should contain itself, which makes it abnormal.
 
 ** <<<Shrinking>>> :drill:
 :PROPERTIES:
