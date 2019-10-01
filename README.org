@@ -5220,6 +5220,8 @@ SCHT: <2019-11-03 Sun>
 
 Form of writing of operator or function in-between variables for application.
 
+For priorities see Fixity.
+
 *** <<<Fixity>>> :drill:
 :PROPERTIES:
 :ID:       b8e36421-2fbb-4c67-881d-e40e105f73c1
