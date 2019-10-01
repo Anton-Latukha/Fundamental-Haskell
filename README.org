@@ -826,7 +826,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#exception-handling][Exception handling]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-    - [[#-178][/*/]]
+    - [[#-179][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
 - [[#liturgy][Liturgy]]
@@ -5242,6 +5242,11 @@ Funciton application has presedence higher then all infix operators/functions (v
 |  2 |          |                     | OR         |
 |  1 |          |                     |            |
 |  0 |          |                     | $ $! `seq` |
+
+**** /*/
+
+<<<Infixl>>>
+<<<Infixr>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
 SCHT: <2019-11-08 Fri>
