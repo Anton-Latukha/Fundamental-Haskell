@@ -382,6 +382,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#partial-application][<<<Partial application>>>]]
       - [[#-96][/*/]]
     - [[#infix][<<<Infix>>>]]
+    - [[#fixity][<<<Fixity>>>]]
   - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
   - [[#homotopy][<<<Homotopy>>>]]
     - [[#-97][/*/]]
@@ -5218,6 +5219,29 @@ SCHT: <2019-11-03 Sun>
 :END:
 
 Form of writing of operator or function in-between variables for application.
+
+*** <<<Fixity>>> :drill:
+:PROPERTIES:
+:ID:       b8e36421-2fbb-4c67-881d-e40e105f73c1
+:END:
+
+Declares the presedence of action of a function/operator.
+
+Funciton application has presedence higher then all infix operators/functions (virtually giving it a priority 10).
+
+|  P | L        | Non                 | R          |
+|----+----------+---------------------+------------|
+| 10 |          |                     | F.A.       |
+|  9 | !!       |                     | .          |
+|  8 |          |                     | ^ ^^ **    |
+|  7 | */ `div` |                     |            |
+|  6 | +-       |                     |            |
+|  5 |          |                     | :, ++      |
+|  4 |          | <comparison> `elem` |            |
+|  3 |          |                     | &&         |
+|  2 |          |                     | OR         |
+|  1 |          |                     |            |
+|  0 |          |                     | $ $! `seq` |
 
 ** <<<Fundamental theorem of algebra>>> :drill:
 SCHT: <2019-11-08 Fri>
