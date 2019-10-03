@@ -1,15 +1,15 @@
-#+TITLE: Fundamental Haskell notes
+#+title: Fundamental Haskell notes
 #+startup: latexpreview
 #+startup: entitiespretty
-#+SETUPFILE: ./org-html-themes/setup/theme-readtheorg.setup
-#+OPTIONS: tags:nil
-#+OPTIONS: stat:t
-#+OPTIONS: H:10
-#+OPTIONS: num:10
-#+OPTIONS: toc:10
-#+OPTIONS: p:nil
-#+OPTIONS: \n:t
-#+HTML_HEAD: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
+#+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
+#+options: tags:nil
+#+options: stat:t
+#+options: H:10
+#+options: num:10
+#+options: toc:10
+#+options: p:nil
+#+options: \n:t
+#+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 
 * Introduction
 
@@ -2566,7 +2566,7 @@ Example type: =State st a=
 =State= describes functions that consume a state and produce a tuple of result and an updated state.
 
 Monad manages the state with the next process:
-#+DOWNLOADED: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/State_Monad_Bind.svg/1162px-State_Monad_Bind.svg.png @ 2019-07-17 20:01:27
+#+downloaded: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/State_Monad_Bind.svg/1162px-State_Monad_Bind.svg.png @ 2019-07-17 20:01:27
 [[file:Book/1162px-State_Monad_Bind.svg_2019-07-17_20-01-27.png]]
 Where:
   * f  - processsor making function
@@ -9198,7 +9198,7 @@ With Type Monad computation can return value that dependent from the previous co
 ** <<<Good: Haskell Package Versioning Policy>>>
 Version policy and dependency management.
 
-#+DOWNLOADED: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
+#+downloaded: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
 [[file:Good_code/pvp-decision-tree_2019-06-17_15-49-21.svg]]
 
 *** /*/
