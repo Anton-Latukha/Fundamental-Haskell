@@ -1394,17 +1394,17 @@ Lift does a function application through the data structure.
 <<<Lifting>>>
 
 ***** <<<Power set functor is a free monad>>> :drill:
-SCHT: <2019-10-01 Tue>
+SCHT: <2019-10-28 Mon>
 :PROPERTIES:
 :ID:       85146d1c-7cb7-4c9b-a998-791b33f1a518
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.5342
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:16]
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:41]
 :END:
 
 Since:
@@ -4409,17 +4409,17 @@ A =_= non-value in the type or pattern match expression. Placeholder for enythin
 <<<Bottom values>>>
 
 *** <<<Bound>>> :drill:
-SCHT: <2019-10-01 Tue>
+SCHT: <2020-03-31 Tue>
 :PROPERTIES:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
-:DRILL_LAST_INTERVAL: 62.4354
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 165.4538
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_AVERAGE_QUALITY: 4.4
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:03]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:42]
 :END:
 
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
@@ -5396,17 +5396,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
-SCHT: <2019-10-01 Tue>
+SCHT: <2019-10-26 Sat>
 :PROPERTIES:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 8.2681
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.22
+:DRILL_AVERAGE_QUALITY: 2.6
+:DRILL_EASE: 2.08
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:16]
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:49]
 :END:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
