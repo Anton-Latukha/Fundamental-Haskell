@@ -1408,8 +1408,8 @@ SCHT: <2019-10-01 Tue>
 :END:
 
 Since:
-  * $$ \forall e \in S : \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \forall e \in S : \exists (e \to \{e\}) \equiv unit $$
-  * $$ \forall \mathcal{P}(S) : \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \forall \mathcal{P}(S) : \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
+  * $$ \forall e \in S : \ \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \ \forall e \in S : \ \exists (e \to \{e\}) \equiv unit $$
+  * $$ \forall \mathcal{P}(S) : \ \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \ \forall \mathcal{P}(S) : \ \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
 
 **** <<<Forgetful functor>>> :drill:
 :PROPERTIES:
