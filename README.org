@@ -1189,16 +1189,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
+SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:33]
+:DRILL_LAST_INTERVAL: 3.725
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:59]
 :END:
 
 Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
@@ -2242,16 +2243,17 @@ f3 <=< f2 <=< f1 $ arg
 #+end_src
 
 ****** <<<Kleisli category>>> :drill:
+SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.571
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:35]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:59]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -3292,16 +3294,17 @@ Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 *** <<<Object>>> :drill:
+SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.6
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:34]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:57]
 :END:
 
 Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
