@@ -1201,9 +1201,9 @@ In majority of cases under object is a state and morphism is a change.
 :DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:33]
 :END:
 
-Generalised category in which can have homological algebra, its constructions and techniques.
+Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
 
-Is which:
+Category which:
   * has a zero object,
   * has all binary biproducts,
   * has all kernel's and cokernels,
