@@ -3386,7 +3386,10 @@ SCHT: <2020-03-31 Tue>
 :DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:21]
 :END:
 
-Category in which objects are sets.
+Category in which objects are sets, morphisms are functions.
+
+Denotation:
+$$ Set $$
 
 *** <<<Natural transformation>>> :drill:
 :PROPERTIES:
