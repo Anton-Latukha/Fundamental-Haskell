@@ -6973,8 +6973,8 @@ SCHT: <2019-10-22 Tue>
 :DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:23]
 :END:
 
-$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$, for locally small category $$ \mathcal{C} $$.
-Functor from the product of $$ \mathcal{C} $$ with opposite category to the category of sets.
+$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$
+Functor from the product of $$ \mathcal{C} $$ with its opposite category to the category of sets.
 
 Denotation variants:
 $$ H_A = \mathrm{Hom}(-, A) $$
