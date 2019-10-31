@@ -620,6 +620,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#indegree][<<<Indegree>>>]]
       - [[#outdegree][<<<Outdegree>>>]]
     - [[#adjacency-matrix][<<<Adjacency matrix>>>]]
+        - [[#instancesigs][<<<InstanceSigs>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#identity-type][<<<Identity type>>>]]
@@ -8229,6 +8230,13 @@ Number of outgoinf arrows.
 :END:
 
 Matrix of connection of odjects ={-1,0,1}=.
+
+***** <<<InstanceSigs>>> :drill:
+:PROPERTIES:
+:ID:       827b53ca-20a8-4534-94e7-3ed28aaaac9c
+:END:
+
+Allow adding type signatures to type class function instance declaration.
 
 * Give definitions
 
