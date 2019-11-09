@@ -2660,6 +2660,9 @@ Get & set a value inside Functor.
 
 Generalizes the concept of functor between categories, canonical morphisms between multicategories.
 
+***** /*/
+<<<Bifunctor>>>
+
 **** /*/
 
 <<<=<$=>>>
