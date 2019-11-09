@@ -173,6 +173,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#monoidal-functor][<<<Monoidal functor>>>]]
       - [[#fusion][<<<Fusion>>>]]
       - [[#-30][<<<=$>=>>>]]
+      - [[#multifunctor][<<<Multifunctor>>>]]
       - [[#-31][/*/]]
     - [[#hask-category][<<<Hask category>>>]]
       - [[#-32][/*/]]
@@ -2651,6 +2652,13 @@ fmap f . fmap g = fmap (f . g)
 :END:
 
 Get & set a value inside Functor.
+
+**** <<<Multifunctor>>> :drill:
+:PROPERTIES:
+:ID:       3419635e-4b4a-4193-b50c-0e6ac3bf269d
+:END:
+
+Generalizes the concept of functor between categories, canonical morphisms between multicategories.
 
 **** /*/
 
