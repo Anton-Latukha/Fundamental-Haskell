@@ -1854,6 +1854,8 @@ ap == (<*>) -- + Monad requirement
 | $$ \eta_{ID \to E} $$        | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
 | $$ \mu_{E \circ E \to E} $$  | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ \mathcal{P \circ P \to P} $$) |
 
+Composition of monadic types does not always results in monadic type.
+
 ****** /*/
 
 <<<Monads>>>
