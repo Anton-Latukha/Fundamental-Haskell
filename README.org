@@ -1841,7 +1841,7 @@ Monad can shorten/terminate sequence of computations. It is implemented inside M
 
 Monadic internals are Haskell data types, and as such - they can be consumed any number of times.
 
-Same Monad and Applicative instances must be the same:
+/*/ inherits the Applicative instance methods:
 #+begin_src haskell
 import Control.Monad (ap)
 return == pure
