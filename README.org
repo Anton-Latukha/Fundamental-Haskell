@@ -8846,6 +8846,10 @@ Every group G can be considered as a category with a single object whose morphis
 
 Assigning to every real (complex) Lie group its real (complex) Lie algebra defines a functor.
 
+** <<<Tensor product>>>
+
+If C denotes the category of vector spaces over a fixed field, with linear maps as morphisms, then the tensor product V ⊗ W defines a functor C × C → C which is covariant in both arguments.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
