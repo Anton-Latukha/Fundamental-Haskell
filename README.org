@@ -8808,6 +8808,10 @@ For categories C and J, a J-presheaf on C is a contravariant functor D : C → J
 
 If X is a topological space, then the open sets in X form a partially ordered set Open(X) under inclusion. Like every partially ordered set, Open(X) forms a small category by adding a single arrow U → V if and only if U ⊆ V. Contravariant functors on Open(X) are called presheaves on X. For instance, by assigning to every open set U the associative algebra of real-valued continuous functions on U, one obtains a presheaf of algebras on X. 
 
+** <<<Diagonal functor>>>
+
+The diagonal functor is defined as the functor from D to the functor category D^C which sends each object in D to the constant functor at that object.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
