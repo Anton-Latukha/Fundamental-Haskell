@@ -8838,6 +8838,10 @@ The map which sends every differentiable manifold to its tangent bundle and ever
 
 Doing this constructions pointwise gives the tangent space, a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces. Likewise, cotangent space is a contravariant functor, essentially the composition of the tangent space with the dual space above.
 
+** <<<Group action / representation>>>
+
+Every group G can be considered as a category with a single object whose morphisms are the elements of G. A functor from G to Set is then nothing but a group action of G on a particular set, i.e. a G-set. Likewise, a functor from G to the category of vector spaces, Vect_K, is a linear representation of G. In general, a functor G → C can be considered as an "action" of G on an object in the category C. If C is a group, then this action is a group homomorphism.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
