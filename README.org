@@ -8820,6 +8820,14 @@ For a fixed index category J, if every functor J → C has a limit (for instance
 
 The map which assigns to every vector space its dual space and to every linear map its dual or transpose is a contravariant functor from the category of all vector spaces over a fixed field to itself.
 
+** <<<Fundamental group>>>
+
+Consider the category of pointed topological spaces, i.e. topological spaces with distinguished points. The objects are pairs (X, x0), where X is a topological space and x0 is a point in X. A morphism from (X, x0) to (Y, y0) is given by a continuous map f : X → Y with f(x0) = y0.
+
+To every topological space X with distinguished point x0, one can define the fundamental group based at x0, denoted π1(X, x0). This is the group of homotopy classes of loops based at x0. If f : X → Y is a morphism of pointed spaces, then every loop in X with base point x0 can be composed with f to yield a loop in Y with base point y0. This operation is compatible with the homotopy equivalence relation and the composition of loops, and we get a group homomorphism from π(X, x0) to π(Y, y0). We thus obtain a functor from the category of pointed topological spaces to the category of groups.
+
+In the category of topological spaces (without distinguished point), one considers homotopy classes of generic curves, but they cannot be composed unless they share an endpoint. Thus one has the fundamental groupoid instead of the fundamental group, and this construction is functorial.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
