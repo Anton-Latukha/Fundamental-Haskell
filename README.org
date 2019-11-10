@@ -8804,6 +8804,10 @@ For categories C and J, a diagram of type J in C is a covariant functor D : J �
 
 For categories C and J, a J-presheaf on C is a contravariant functor D : C → J. 
 
+** Topological <<<presheaf>>>
+
+If X is a topological space, then the open sets in X form a partially ordered set Open(X) under inclusion. Like every partially ordered set, Open(X) forms a small category by adding a single arrow U → V if and only if U ⊆ V. Contravariant functors on Open(X) are called presheaves on X. For instance, by assigning to every open set U the associative algebra of real-valued continuous functions on U, one obtains a presheaf of algebras on X. 
+
 * Citations
 
 "One of the finer points of the Haskell community has been
