@@ -8812,6 +8812,10 @@ If X is a topological space, then the open sets in X form a partially ordered se
 
 The diagonal functor is defined as the functor from D to the functor category D^C which sends each object in D to the constant functor at that object.
 
+** <<<Limit functor>>>
+
+For a fixed index category J, if every functor J → C has a limit (for instance if C is complete), then the limit functor C^J → C assigns to each functor its limit. The existence of this functor can be proved by realizing that it is the right-adjoint to the diagonal functor and invoking the Freyd adjoint functor theorem. This requires a suitable version of the axiom of choice. Similar remarks apply to the colimit functor (which is covariant). 
+
 * Citations
 
 "One of the finer points of the Haskell community has been
