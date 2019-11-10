@@ -8800,6 +8800,10 @@ Turns ad hoc polymorphic function into compiled type-specific inmpementations.
 
 For categories C and J, a diagram of type J in C is a covariant functor D : J → C.
 
+** Cathegory theoretical <<<presheaf>>>
+
+For categories C and J, a J-presheaf on C is a contravariant functor D : C → J. 
+
 * Citations
 
 "One of the finer points of the Haskell community has been
