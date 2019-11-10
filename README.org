@@ -8850,6 +8850,10 @@ Assigning to every real (complex) Lie group its real (complex) Lie algebra defin
 
 If C denotes the category of vector spaces over a fixed field, with linear maps as morphisms, then the tensor product V ⊗ W defines a functor C × C → C which is covariant in both arguments.
 
+** <<<Forgetful functor>>>
+
+The functor U : Grp → Set which maps a group to its underlying set and a group homomorphism to its underlying function of sets is a functor.[8] Functors like these, which "forget" some structure, are termed forgetful functors. Another example is the functor Rng → Ab which maps a ring to its underlying additive abelian group. Morphisms in Rng (ring homomorphisms) become morphisms in Ab (abelian group homomorphisms).
+
 * Citations
 
 "One of the finer points of the Haskell community has been
