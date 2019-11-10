@@ -8816,6 +8816,10 @@ The diagonal functor is defined as the functor from D to the functor category D^
 
 For a fixed index category J, if every functor J → C has a limit (for instance if C is complete), then the limit functor C^J → C assigns to each functor its limit. The existence of this functor can be proved by realizing that it is the right-adjoint to the diagonal functor and invoking the Freyd adjoint functor theorem. This requires a suitable version of the axiom of choice. Similar remarks apply to the colimit functor (which is covariant). 
 
+** <<<Dual vector space>>>
+
+The map which assigns to every vector space its dual space and to every linear map its dual or transpose is a contravariant functor from the category of all vector spaces over a fixed field to itself.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
