@@ -8842,6 +8842,10 @@ Doing this constructions pointwise gives the tangent space, a covariant functor 
 
 Every group G can be considered as a category with a single object whose morphisms are the elements of G. A functor from G to Set is then nothing but a group action of G on a particular set, i.e. a G-set. Likewise, a functor from G to the category of vector spaces, Vect_K, is a linear representation of G. In general, a functor G → C can be considered as an "action" of G on an object in the category C. If C is a group, then this action is a group homomorphism.
 
+** <<<Lie algebra>>>
+
+Assigning to every real (complex) Lie group its real (complex) Lie algebra defines a functor.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
