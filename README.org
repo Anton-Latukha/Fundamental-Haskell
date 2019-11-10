@@ -8828,6 +8828,10 @@ To every topological space X with distinguished point x0, one can define the fun
 
 In the category of topological spaces (without distinguished point), one considers homotopy classes of generic curves, but they cannot be composed unless they share an endpoint. Thus one has the fundamental groupoid instead of the fundamental group, and this construction is functorial.
 
+** <<<Algebra of continuous function>>>
+
+A contravariant functor from the category of topological spaces (with continuous maps as morphisms) to the category of real associative algebras is given by assigning to every topological space X the algebra C(X) of all real-valued continuous functions on that space. Every continuous map f : X → Y induces an algebra homomorphism C(f) : C(Y) → C(X) by the rule C(f)(φ) = φ ∘ f for every φ in C(Y).
+
 * Citations
 
 "One of the finer points of the Haskell community has been
