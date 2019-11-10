@@ -8796,6 +8796,10 @@ Turns ad hoc polymorphic function into compiled type-specific inmpementations.
 
 ** <<<Sequence>>>
 
+** <<<Diagram>>>
+
+For categories C and J, a diagram of type J in C is a covariant functor D : J → C.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
