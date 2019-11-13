@@ -5853,7 +5853,7 @@ SCHT: <2019-10-07 Mon>
 
 Bijective function from domain to itself.
 
-With domain, function composition forms a group.
+Domain & permutation functions & function composition form a group.
 
 ** <<<Phrase>>> :drill:
 SCHT: <2019-10-12 Sat>
