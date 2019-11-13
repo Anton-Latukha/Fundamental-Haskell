@@ -220,6 +220,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
         - [[#-47][/*/]]
       - [[#catamorphism][<<<Catamorphism>>>]]
         - [[#-48][/*/]]
+        - [[#catamorphism-law][<<<Catamorphism law>>>]]
         - [[#anamorphism][<<<Anamorphism>>>]]
           - [[#-49][/*/]]
           - [[#hylomorphism][<<<Hylomorphism>>>]]
