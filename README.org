@@ -8893,6 +8893,8 @@ Basic case: during implementation of monadic type composition, type =m T m a= ar
 
 /*/ have desirable properies and can add them to monads. /*/ user their implementation to solve the compostion type layering and allow to attach desirable property to result.
 
+/*/ solve monad composition and type layering by cheating, using own structure and information about itself. It is often that process involves a catamorphism of a /*/ type layer.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
