@@ -5655,6 +5655,8 @@ SCHT: <2019-10-11 Fri>
 :DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:19]
 :END:
 
+Take out something from a structure, make simplier.
+
 See Beta reduction
 
 **** /*/
