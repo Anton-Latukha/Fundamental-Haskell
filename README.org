@@ -735,6 +735,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#free-functor][<<<Free functor>>>]]
   - [[#homomorphism-group][<<<Homomorphism group>>>]]
   - [[#representable-functor][<<<Representable functor>>>]]
+  - [[#monad-transformer][<<<Monad transformer>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
