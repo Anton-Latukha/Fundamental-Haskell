@@ -5538,7 +5538,7 @@ SCHT: <2019-11-08 Fri>
 :DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
 :END:
 
-Equation of a parameter to its bound variable, and reducing parameter from the head.
+Equation of a parameter to a bound variable, then reducing parameter from the head.
 
 **** /*/
 
