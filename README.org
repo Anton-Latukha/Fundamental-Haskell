@@ -8367,8 +8367,8 @@ SCHT: <2019-10-10 Thu>
 :END:
 
 For $$ f: x \to y $$:
-$$ l \circ f = 1^{y} $$ - f has left inverse l.
-$$ f \circ r = 1^{x} $$ - f has right inverse r.
+$$ \exists g \ : \ g \circ f = 1^{y} $$ - $$ g $$ is left inverse of $$ f $$.
+$$ \exists g \ : \ f \circ g = 1^{x} $$ - $$ g $$ is right inverse of $$ f $$.
 
 ** <<<Invertible>>>
 ** <<<Invertibility>>>
