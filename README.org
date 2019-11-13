@@ -6931,10 +6931,9 @@ Also see Abstraction.
 :DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:12]
 :END:
 
-Describing effect of operation on assertions about the overall state.
+Empirical process of studying something complex by finding and analyzing true statements about it.
 
 Good for examining interconnections.
-Empirical process.
 
 ** <<<Set>>> :drill:
 SCHT: <2020-01-26 Sun>
