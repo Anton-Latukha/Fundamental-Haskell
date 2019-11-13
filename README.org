@@ -3257,6 +3257,18 @@ In functional programming, catamorphism is generalization of list folding, decon
 <<<Catamorphic>>>
 <<<Catamorphisms>>>
 
+***** <<<Catamorphism law>>> :drill:
+:PROPERTIES:
+:ID:       a1502d89-017c-41ce-ab89-a8b56f93489b
+:END:
+
+| Rule         | Haskell                                                        |
+|--------------+----------------------------------------------------------------|
+| cata-cancel  | =cata phi . InF = phi . fmap (cata phi)=                         |
+| cata-refl    | =cata InF = id=                                                  |
+| cata-fusion  | =f . phi = phi . fmap f => f . cata phi = cata phi=               |
+| cata-compose | =eps :: f :~> g => cata phi . cata (In . eps) = cata (phi . eps)= |
+
 ***** <<<Anamorphism>>> :drill:
 :PROPERTIES:
 :ID:       af6aef1b-b8f7-45d7-8f34-cf3517cdb8b1
