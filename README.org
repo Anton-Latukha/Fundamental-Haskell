@@ -8884,6 +8884,15 @@ We can generalize the previous example to any category C. To every pair X, Y of 
 
 Functors like these are called representable functors. An important goal in many settings is to determine whether a given functor is representable.
 
+** <<<Monad transformer>>>
+
+Monad is not closed under compostion.
+Composition of monadic types does not always results in monadic type.
+
+Basic case: during implementation of monadic type composition, type =m T m a= arises, which does not allow to =unit=, =join= the =m= monadic layers.
+
+/*/ have desirable properies and can add them to monads. /*/ user their implementation to solve the compostion type layering and allow to attach desirable property to result.
+
 * Citations
 
 "One of the finer points of the Haskell community has been
