@@ -3499,17 +3499,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>> :drill:
-SCHT: <2019-10-08 Tue>
+SCHT: <2019-12-29 Sun>
 :PROPERTIES:
 :ID:       942d9234-d549-46a3-b051-ef1ac73244ad
-:DRILL_LAST_INTERVAL: 20.6501
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 46.2356
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:29]
 :END:
 
 Category duality behaves like a logical inverse.
@@ -5838,17 +5838,17 @@ Default in Haskell 2010.
 <<<Pattern guards>>>
 
 ** <<<Permutation>>> :drill:
-SCHT: <2019-10-07 Mon>
+SCHT: <2019-12-06 Fri>
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
-:DRILL_LAST_INTERVAL: 10.0188
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 23.3939
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.001
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:14]
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:27]
 :END:
 
 Bijective function from domain to itself.
@@ -9024,16 +9024,17 @@ Model the domain and types before thinking about how to write computations.
 :END:
 
 ** <<<Good: Arbitrary>>> :drill:
+SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.143
+:DRILL_AVERAGE_QUALITY: 3.25
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:09]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:30]
 :END:
 
 Product types can be tested as a product of random generators.
@@ -9158,16 +9159,17 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 
 ** <<<Good: About operators (<$) (**>) (<**) (>>)>>> :drill:
+SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:10]
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:31]
 :END:
 
 Where character is not present - discards the according value.
@@ -9266,17 +9268,17 @@ SCHT: <2019-10-22 Tue>
 That is why infinite types throw infinite type error.
 
 ** <<<Good: Use type sysnonims to differ the information>>> :drill:
-SCHT: <2019-10-07 Mon>
+SCHT: <2020-05-13 Wed>
 :PROPERTIES:
 :ID:       43181c5d-630a-4b5d-815c-272e26c8e42f
-:DRILL_LAST_INTERVAL: 68.4445
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 182.0624
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-07-31 Wed 16:53]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:27]
 :END:
 
 Even if there is types - define type synonims. They are free.
