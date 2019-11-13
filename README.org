@@ -1364,17 +1364,17 @@ Type instance of functor should abide this laws:
 <<<Functor laws>>>
 
 ****** <<<Power set functor identity law>>> :drill:
-SCHT: <2019-10-12 Sat>
+SCHT: <2020-01-16 Thu>
 :PROPERTIES:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
-:DRILL_LAST_INTERVAL: 24.5297
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 64.2188
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:50]
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:49]
 :END:
 
 #+begin_src haskell
@@ -3760,17 +3760,17 @@ Composite type formed by combining other types.
 <<<AlgDT>>>
 
 *** <<<Cardinality>>> :drill:
-SCHT: <2019-10-12 Sat>
+SCHT: <2020-05-26 Tue>
 :PROPERTIES:
 :ID:       22428179-0fdb-4723-94dc-596dd41f61c0
-:DRILL_LAST_INTERVAL: 69.6431
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 194.5828
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.7
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 21:45]
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
 :END:
 
 Number of possible implementations for a given type signature.
@@ -5642,17 +5642,17 @@ Where types marked as polymorphic variables, and overall type inference is possi
 Also known as Damas–Milner or Damas–Hindley–Milner system.
 
 *** <<<Reduction>>> :drill:
-SCHT: <2019-10-11 Fri>
+SCHT: <2020-01-11 Sat>
 :PROPERTIES:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
-:DRILL_LAST_INTERVAL: 24.12
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 58.9252
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:19]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:48]
 :END:
 
 Take out something from a structure, make simplier.
@@ -5874,17 +5874,17 @@ Bijective function from domain to itself.
 Domain & permutation functions & function composition form a group.
 
 ** <<<Phrase>>> :drill:
-SCHT: <2019-10-12 Sat>
+SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
-:DRILL_LAST_INTERVAL: 25.023
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:52]
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:51]
 :END:
 
 Composable expression.
@@ -6387,17 +6387,17 @@ $$ C :> D $$, so in C we can talk about D.
 Synergizes with ConstraintKinds.
 
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2019-10-11 Fri>
+SCHT: <2020-01-12 Sun>
 :PROPERTIES:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 24.0645
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 59.68
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.301
+:DRILL_AVERAGE_QUALITY: 3.365
 :DRILL_EASE: 2.48
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:19]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:49]
 :END:
 
 Allow type class instances types contain nested types.
@@ -6445,17 +6445,17 @@ Allow definition of functions expecting implicit parameters. In the Haskell that
 Sure thing this one can be puzzling as hell inside Haskell.
 
 ***** <<<LambdaCase>>> :drill:
-SCHT: <2019-10-12 Sat>
+SCHT: <2020-03-19 Thu>
 :PROPERTIES:
 :ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
-:DRILL_LAST_INTERVAL: 49.5809
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 126.7288
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-23 Fri 18:42]
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
 :END:
 
 Enables expressions of the form:
@@ -6984,17 +6984,17 @@ Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 
 *** <<<Power set>>> :drill:
-SCHT: <2019-10-12 Sat>
+SCHT: <2020-01-14 Tue>
 :PROPERTIES:
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
-:DRILL_LAST_INTERVAL: 24.5297
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.0356
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_AVERAGE_QUALITY: 4.25
 :DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:50]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
 :END:
 
 For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
@@ -8217,17 +8217,17 @@ Expression that does not contain any free variables.
 <<<Ground formula>>>
 
 ** <<<Content word>>> :drill:
-SCHT: <2019-10-11 Fri>
+SCHT: <2020-01-13 Mon>
 :PROPERTIES:
 :ID:       2392f66d-e924-49ef-bc22-93c844f74683
-:DRILL_LAST_INTERVAL: 24.0814
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 60.9019
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:50]
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:49]
 :END:
 
 Words that name objects of reality and their qualities.
