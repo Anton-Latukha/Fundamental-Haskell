@@ -3245,7 +3245,7 @@ SCHT: <2019-10-11 Fri>
 
 Denotes the unique homomorphism from an initial algebra into some other algebra.
 
-In functional programming, catamorphism is a algebraic data type fold (generalizations of list fold), which can be names initial algebra. 
+In functional programming, catamorphism is a algebraic data type fold (generalizations of list fold), which is "initial algebra". 
 
 /*/ reduces the structure.
 
