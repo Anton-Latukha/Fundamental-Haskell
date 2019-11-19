@@ -2617,6 +2617,8 @@ Basic case: during implementation of monadic type composition, type =m T m a= ar
 
 /*/ solve monad composition and type layering by cheating, using own structure and information about itself. It is often that process involves a catamorphism of a /*/ type layer.
 
+In type signatures of transformers =*T m= - =m= is already an extended monad, so =*T= is just a wrapper to point that out.
+
 ******* <<<MaybeT>>> :drill:
 :PROPERTIES:
 :ID:       a339250b-4cbc-4c45-b9f8-092f8c166f8f
