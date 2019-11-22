@@ -804,6 +804,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-thin-category][<<<Good: Thin category>>>]]
   - [[#good-recursion][<<<Good: Recursion>>>]]
   - [[#good-monoid][<<<Good: Monoid>>>]]
+  - [[#good-free-monad][<<<Good: Free monad>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -9451,6 +9452,17 @@ Assume that the functions would return the right result.
 Sets - union.
 Maps - left-biased union.
 Number - =Sum=, =Product= form separate monoid categories.
+
+** <<<Good: Free monad>>> :drill:
+:PROPERTIES:
+:ID:       e5c45f71-de00-48fb-bb31-a65a2893abdc
+:END:
+
+The main case of usage of Free monads in Haskell:
+
+Right away start implementation of a monad with a Free monad, with base monadic operations, then add custom operations.
+
+Gradually build on top of Free monad and try to find homomorphisms from monad to objects, and if only objects are needed - get rid of the free monad.
 
 * Bad code :drill:
 :PROPERTIES:
