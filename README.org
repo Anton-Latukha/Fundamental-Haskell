@@ -2094,6 +2094,7 @@ main = recursePrintOneOf (quant) $ printOneOf
 
 ******** /*/
 
+<<<Monadic extend>>>
 <<<Monadic bind>>>
 <<<Monad bind>>>
 <<<Binder>>>
