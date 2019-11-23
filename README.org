@@ -169,6 +169,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
             - [[#state-monad][<<<State monad>>>]]
           - [[#monad-transformer][<<<Monad transformer>>>]]
             - [[#maybet][<<<MaybeT>>>]]
+            - [[#eithert][<<<EitherT>>>]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
           - [[#-28][/*/]]
         - [[#-29][<<<=*>=>>>]]
@@ -2631,6 +2632,17 @@ In type signatures of transformers =*T m= - =m= is already an extended monad, so
 /*/ extends monads by injecting Maybe layer underneath monad, and processing that structure:
 #+begin_src haskell
 newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
+#+end_src
+
+******* <<<EitherT>>> :drill:
+:PROPERTIES:
+:ID:       4c9b6c87-9795-4be9-ba24-3b6ea86e479a
+:END:
+
+/*/ extends monads by injecting Either layer underneath monad, and processing that structure:
+
+#+begin_src haskell
+newtype EitherT e m a = EitherT { runEitherT ∷ m (Either e a) }
 #+end_src
 
 ***** <<<Alternative type class>>> :drill:
