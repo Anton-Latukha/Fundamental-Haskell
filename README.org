@@ -1213,17 +1213,16 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 3.725
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:59]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:19]
 :END:
 
 Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
@@ -1469,17 +1468,17 @@ Denotation:
 $$ 1^{\mathcal{C \to C}} $$
 
 **** <<<Endofunctor>>> :drill:
-SCHT: <2019-10-20 Sun>
+SCHT: <2020-07-07 Tue>
 :PROPERTIES:
 :ID:       96d8e579-c7b5-45a0-afbe-c4fca13c4637
-:DRILL_LAST_INTERVAL: 77.5823
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
 :END:
 
 Is a functor which source (domain) and target (codomain) are the same category.
@@ -2273,17 +2272,16 @@ f3 <=< f2 <=< f1 $ arg
 #+end_src
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:59]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:18]
 :END:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -3387,17 +3385,17 @@ Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 *** <<<Object>>> :drill:
-SCHT: <2019-10-22 Tue>
+SCHT: <2019-12-05 Thu>
 :PROPERTIES:
 :ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 10.184
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:57]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:19]
 :END:
 
 Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
@@ -3932,17 +3930,17 @@ SCHT: <2019-11-02 Sat>
 The most generic data type that still typechecks.
 
 *** <<<Product data type>>> :drill:
-SCHT: <2019-10-22 Tue>
+SCHT: <2020-04-13 Mon>
 :PROPERTIES:
 :ID:       dcca9aba-08e0-4616-8bec-b803bf67f066
-:DRILL_LAST_INTERVAL: 56.0043
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 140.2908
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-27 Tue 21:53]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:18]
 :END:
 
 Is an algebraic data type respesentation of a product construction.
@@ -5146,17 +5144,17 @@ Source set of a function.
 $$ X $$ in $$ X \to Y $$.
 
 *** <<<Codomain>>> :drill:
-SCHT: <2019-10-20 Sun>
+SCHT: <2020-07-07 Tue>
 :PROPERTIES:
 :ID:       f8603032-30f1-4074-80b5-0f6f49428241
-:DRILL_LAST_INTERVAL: 77.5823
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:53]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
 :END:
 
 $$ Y $$ in $X \to Y$.
@@ -5611,17 +5609,17 @@ Directly relates to Coq programming language.
 <<<<<<CoC>>>>>>
 
 *** <<<Curry–Howard correspondence>>> :drill:
-SCHT: <2019-10-23 Wed>
+SCHT: <2020-01-29 Wed>
 :PROPERTIES:
 :ID:       8b3e318d-242b-41ad-a16c-20d950177f5d
-:DRILL_LAST_INTERVAL: 25.9732
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 65.1668
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:06]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:21]
 :END:
 
 Equivalence of {First-order logic, computer programming, Category theory}. They represent each-other, possible in one - possible in the other, so all the definitions and theorems have analogues in other two.
@@ -5775,17 +5773,17 @@ Library of combinators to provide Haskell (functional language without mutation)
 Any Haskell expression can't return nothing.
 
 ** <<<Operation>>> :drill:
-SCHT: <2019-10-22 Tue>
+SCHT: <2020-06-07 Sun>
 :PROPERTIES:
 :ID:       10f782ae-17e5-434e-8d2e-ee8ee3f9b530
-:DRILL_LAST_INTERVAL: 75.9768
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 195.0324
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-07 Wed 21:58]
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:18]
 :END:
 
 Calculation into output value. Can have zero & more inputs.
@@ -5919,17 +5917,17 @@ SCHT: <2019-11-17 Sun>
 Composable expression.
 
 ** <<<Point-free>>> :drill:
-SCHT: <2019-10-23 Wed>
+SCHT: <2020-05-25 Mon>
 :PROPERTIES:
 :ID:       4a6fc5de-f277-4bb9-afd0-6dcb3698b317
-:DRILL_LAST_INTERVAL: 65.9307
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 181.5072
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
+:DRILL_AVERAGE_QUALITY: 4.143
+:DRILL_EASE: 2.76
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-18 Sun 21:48]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:20]
 :END:
 
 Paradigm where function only describes the morphism itself.
@@ -6679,17 +6677,17 @@ Permit instances which may lead to type-checker non-termination.
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 
 ***** <<<ViewPatterns>>> :drill:
-SCHT: <2019-10-22 Tue>
+SCHT: <2019-12-01 Sun>
 :PROPERTIES:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 6.0718
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.701
-:DRILL_EASE: 1.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:45]
+:DRILL_AVERAGE_QUALITY: 2.91
+:DRILL_EASE: 1.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:17]
 :END:
 
 #+begin_src haskell
@@ -7054,17 +7052,16 @@ $$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
 Denotation was not standartized.
 
 **** <<<Hom-functor>>> :drill:
-SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 19
-:DRILL_FAILURE_COUNT: 11
-:DRILL_AVERAGE_QUALITY: 2.526
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 20
+:DRILL_FAILURE_COUNT: 12
+:DRILL_AVERAGE_QUALITY: 2.5
 :DRILL_EASE: 1.62
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:23]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:19]
 :END:
 
 $$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$
@@ -7110,17 +7107,17 @@ If there exists normal set of all sets - it should contain itself, which makes i
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 
 ** <<<Spine>>> :drill:
-SCHT: <2019-10-20 Sun>
+SCHT: <2020-07-07 Tue>
 :PROPERTIES:
 :ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
-:DRILL_LAST_INTERVAL: 77.5823
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
 :END:
 
 Is a chain of memory cells, each points to the both value of element and to the next memory cell.
@@ -8117,17 +8114,17 @@ Area where binds are accessible.
 The name resolution depends upon the program state when the name is encountered, which is determined by the execution context or calling context.
 
 **** <<<Lexical scope>>> :drill:
-SCHT: <2019-10-20 Sun>
+SCHT: <2020-07-07 Tue>
 :PROPERTIES:
 :ID:       989a2a14-8faf-4edb-a1cf-c3ae3a929425
-:DRILL_LAST_INTERVAL: 77.5823
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:56]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
 :END:
 
 Scope bound by the structure of source code where the named entity is defined.
@@ -8157,17 +8154,17 @@ Scope applies only in (current) area.
 <<<Local>>>
 
 *** <<<Shadowing>>> :drill:
-SCHT: <2019-10-20 Sun>
+SCHT: <2020-07-07 Tue>
 :PROPERTIES:
 :ID:       45b1bebf-431f-45dd-8522-ea688968090f
-:DRILL_LAST_INTERVAL: 77.5823
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.75
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-08-03 Sat 22:56]
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:15]
 :END:
 
 When in the local scope bigger scope variable overriden by same name variable from the local scope.
@@ -8686,17 +8683,16 @@ Fully defined type. Non-polymorphic type.
 ** <<<Combinator pattern>>>
 
 ** <<<Symbolic expression>>> :drill:
-SCHT: <2019-10-22 Tue>
 :PROPERTIES:
 :ID:       62a62e62-5b76-42d5-a971-9b9d3f72ec8f
-:DRILL_LAST_INTERVAL: 22.7693
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 2.833
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:34]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:20]
 :END:
 
 Nested tree data structure.
@@ -9299,17 +9295,17 @@ SCHT: <2020-02-22 Sat>
 Typed holes help build code in complex situations.
 
 ** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
-SCHT: <2019-10-22 Tue>
+SCHT: <2019-12-05 Thu>
 :PROPERTIES:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 9.88
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:22]
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:19]
 :END:
 
 That is why infinite types throw infinite type error.
