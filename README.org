@@ -170,6 +170,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
           - [[#monad-transformer][<<<Monad transformer>>>]]
             - [[#maybet][<<<MaybeT>>>]]
             - [[#eithert][<<<EitherT>>>]]
+            - [[#readert][<<<ReaderT>>>]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
           - [[#-28][/*/]]
         - [[#-29][<<<=*>=>>>]]
@@ -2643,6 +2644,13 @@ newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
 #+begin_src haskell
 newtype EitherT e m a = EitherT { runEitherT ∷ m (Either e a) }
 #+end_src
+
+******* <<<ReaderT>>>
+:PROPERTIES:
+:ID:       90fe2f52-5a12-42aa-b622-8dfca4934998
+:END:
+
+
 
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
