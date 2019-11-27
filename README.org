@@ -627,6 +627,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#outdegree][<<<Outdegree>>>]]
     - [[#adjacency-matrix][<<<Adjacency matrix>>>]]
         - [[#instancesigs][<<<InstanceSigs>>>]]
+  - [[#reserved-word][<<<Reserved word>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#identity-type][<<<Identity type>>>]]
@@ -8327,6 +8328,20 @@ Matrix of connection of odjects ={-1,0,1}=.
 :END:
 
 Allow adding type signatures to type class function instance declaration.
+
+
+** <<<Reserved word>>>
+:PROPERTIES:
+:ID:       5d6b7d02-c0ac-436e-9691-f96eba56cbf2
+:END:
+
+Haskell has special meaning for:
+#+begin_src haskell
+case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, instance, let, of, module,newtype, then, type, where
+#+end_src
+
+*** /*/
+<<<Reserved words>>>
 
 * Give definitions
 
