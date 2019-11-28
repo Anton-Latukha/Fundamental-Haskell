@@ -8352,6 +8352,13 @@ case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, inst
 *** /*/
 <<<Reserved words>>>
 
+** <<<Type punning>>> :drill:
+:PROPERTIES:
+:ID:       4dd36365-da34-489b-bd72-bf327bcb34b6
+:END:
+
+When type constructor and data constructor have the same name.
+
 * Give definitions
 
 ** <<<Const functor>>>
