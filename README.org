@@ -8359,6 +8359,8 @@ case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, inst
 
 When type constructor and data constructor have the same name.
 
+Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
+
 * Give definitions
 
 ** <<<Const functor>>>
