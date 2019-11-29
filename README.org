@@ -2656,11 +2656,23 @@ newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
 newtype EitherT e m a = EitherT { runEitherT ∷ m (Either e a) }
 #+end_src
 
-******* <<<ReaderT>>>
+******* <<<ReaderT>>> :drill:
 :PROPERTIES:
 :ID:       90fe2f52-5a12-42aa-b622-8dfca4934998
 :END:
 
+Definition:
+#+begin_src haskell
+newtype ReaderT r m a = ReaderT { runReaderT :: r -> m a }
+#+end_src
+
+/*/ functions: input monad =m a=, out: =m a= wrapped it in a free-variable =r= (partially applied function).
+That allows to use transformed =m a=, now it requires and can use the =r= passed environment.
+
+To create a Reader monad from /*/: $$ m \equiv Identity $$:
+#+begin_src haskell
+type Reader r = ReaderT r Identity
+#+end_src
 
 
 ***** <<<Alternative type class>>> :drill:
