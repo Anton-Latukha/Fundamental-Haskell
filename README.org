@@ -2462,7 +2462,7 @@ Creates a read-only shared environment for computations.
 
 The =pure= function ignores the environment, while >>= passes the inherited environment to both subcomputations.
 
-Today's definition is though ReaderT transformer:
+Today it is defined though ReaderT transformer:
 #+begin_src haskell
 type Reader r = ReaderT r Identity   -- equivalent to ((->) e), (e ->)
 #+end_src
