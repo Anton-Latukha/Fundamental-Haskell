@@ -5011,7 +5011,9 @@ SCHT: <2019-11-08 Fri>
 :DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:39]
 :END:
 
-Higher-order function returns accumulated result from recursive data structure applying a function.
+Catamorphism of a structure to a lower type of structure. Often to a single value.
+
+/*/ is a higher-order function that takes a function which operates with both main structure and accumulator structure, /*/ applies units of data structure to a function wich works with accumulator. Upoun traversing the whole structure - the accumulator is returned.
 
 *** <<<Injection>>> :drill:
 :PROPERTIES:
