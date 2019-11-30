@@ -3274,7 +3274,7 @@ Endomorphism is a monoid, because of composition reqirement in category.
 \alpha\upsilon\tau\omicron /auto/ self
 μορφή /form/ form
 
-Isomorphism from a object to itself (epimorphism).
+Isomorphic endomorphism.
 
 Corresponds to identity, reflexivity.
 
