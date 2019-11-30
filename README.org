@@ -3256,8 +3256,8 @@ SCHT: <2019-11-02 Sat>
 ενδο /endo/ internal
 μορφή /morphe/ form
 
-Morphism whose source object (domain) equals the target object (codomain).
-Endomorphism is a monoid, because of composition reqirement in category.
+Arrow from object to itself.
+Endomorphism forms a monoid (object exists and category requirements already in place).
 
 ***** <<<Automorphism>>> :drill:
 SCHT: <2019-12-04 Wed>
