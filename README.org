@@ -3311,7 +3311,8 @@ Denotes the unique homomorphism from an initial algebra into some other algebra.
 
 In functional programming, catamorphism is generalization of list folding, deconstructs a data structure using an F-algebra of the functor. 
 
-/*/ reduces the structure.
+/*/ reduces the structure to a lower level structure.
+/*/ creates a projection of a structure to a lower level structure.
 
 ***** /*/
 
