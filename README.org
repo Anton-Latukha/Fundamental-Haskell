@@ -9827,6 +9827,11 @@ Right away start implementation of a monad with a Free monad, with base monadic 
 
 Gradually build on top of Free monad and try to find homomorphisms from monad to objects, and if only objects are needed - get rid of the free monad.
 
+** <<<Good: Use mostly where clauses>>> :drill:
+:PROPERTIES:
+:ID:       08aaf74e-7f08-4422-9750-5548dcf4d4df
+:END:
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
