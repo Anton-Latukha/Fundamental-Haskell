@@ -9837,6 +9837,13 @@ Gradually build on top of Free monad and try to find homomorphisms from monad to
 :ID:       80f5570c-7c7b-425c-bfc6-de236bcfe567
 :END:
 
+** <<<Good: Strong preference towards pattern matching over {head, tail, etc.} functions>>> :drill:
+:PROPERTIES:
+:ID:       bbe1acaf-7bda-4b47-b595-dff92f011b46
+:END:
+
+=head= and =tail= and alike functions are often partial (unsafe) funcitons.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
