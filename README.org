@@ -9832,6 +9832,11 @@ Gradually build on top of Free monad and try to find homomorphisms from monad to
 :ID:       08aaf74e-7f08-4422-9750-5548dcf4d4df
 :END:
 
+** <<<Good: Where clause is in a scope with function parameters>>> :drill:
+:PROPERTIES:
+:ID:       80f5570c-7c7b-425c-bfc6-de236bcfe567
+:END:
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
