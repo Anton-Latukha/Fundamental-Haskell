@@ -1608,16 +1608,17 @@ pure f <*> pure x = pure (f x)
 #+end_src
 
 ****** <<<Applicative interchange law>>> :drill:
+SCHT: <2019-12-04 Wed>
 :PROPERTIES:
 :ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:44]
+:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:07]
 :END:
 
 On condition that internal order of evaluation is preserved - order of operands is not relevant.
@@ -3259,16 +3260,17 @@ Morphism whose source object (domain) equals the target object (codomain).
 Endomorphism is a monoid, because of composition reqirement in category.
 
 ***** <<<Automorphism>>> :drill:
+SCHT: <2019-12-04 Wed>
 :PROPERTIES:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.143
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:40]
+:DRILL_AVERAGE_QUALITY: 3.125
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:06]
 :END:
 
 \alpha\upsilon\tau\omicron /auto/ self
