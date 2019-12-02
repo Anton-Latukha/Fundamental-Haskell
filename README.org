@@ -9847,6 +9847,19 @@ Gradually build on top of Free monad and try to find homomorphisms from monad to
 
 =head= and =tail= and alike functions are often partial (unsafe) funcitons.
 
+** <<<Good: Patternmatching is possible on monadic bind in do>>> :drill:
+:PROPERTIES:
+:ID:       b9a31f63-ff7b-4d56-bae5-96c5eabbd038
+:END:
+
+Example:
+#+begin_src haskell
+instance (Monad m) => Functor (StateT s m) where
+	fmap f m = StateT $ \s -> do
+		(x, s') <- runStateT m s  -- Here is a pattern matching bind
+		return (f x, s')
+#+end_src
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
