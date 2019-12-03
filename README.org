@@ -9887,6 +9887,8 @@ newtype WriterT w m a =
   WriterT { runWriterT ::     m (a, w) }
 #+end_src
 
+=State= trait fully replaces =writer=.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
