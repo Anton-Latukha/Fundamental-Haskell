@@ -9859,6 +9859,12 @@ instance (Monad m) => Functor (StateT s m) where
 		(x, s') <- runStateT m s  -- Here is a pattern matching bind
 		return (f x, s')
 #+end_src
+** <<<Good: Applicative vs Monad>>> :drill:
+:PROPERTIES:
+:ID:       0b5589bb-1426-434d-a018-69a9cd29731e
+:END:
+
+Giving not =Monad= but =Applicative= requirement allows parralel computation, but if there should be a chaining of the intemidiate state - it must be monadic.
 
 * Bad code :drill:
 :PROPERTIES:
