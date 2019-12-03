@@ -3919,6 +3919,8 @@ Any combination of * and ->
 
 Type that take more types as arguments.
 
+/Humbly really a function/
+
 **** /*/
 
 <<<Higher-kinded data types>>>
