@@ -9866,6 +9866,27 @@ instance (Monad m) => Functor (StateT s m) where
 
 Giving not =Monad= but =Applicative= requirement allows parralel computation, but if there should be a chaining of the intemidiate state - it must be monadic.
 
+** <<<Good: StateT, ReaderT, WriterT>>> :drill:
+:PROPERTIES:
+:ID:       dcfdc4bf-88cb-4310-b40b-3c3d68aff3db
+:END:
+
+=Reader= trait: =(r ->)=.
+
+=Writer= trait: =(a, w)=.
+
+=State= trait is combination of both:
+#+begin_src haskell
+newtype StateT s m a =
+  StateT  { runStateT  :: s -> m (a, s) }
+
+newtype ReaderT r m a =
+  ReaderT { runReaderT :: r -> m   a    }
+
+newtype WriterT w m a =
+  WriterT { runWriterT ::     m (a, w) }
+#+end_src
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
