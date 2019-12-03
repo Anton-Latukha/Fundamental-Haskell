@@ -6157,8 +6157,8 @@ SCHT: <2019-11-08 Fri>
 :END:
 
 Artificial constrained polymorphism dependent on incoming data type.
-Achieved by creating a type class functions.
-It is interface dispatch mechanism by data types.
+It is interface dispatch mechanism of data types.
+Achieved by creating a type class instance functions.
 
 /Commonly known as overloading./
 
