@@ -6601,9 +6601,9 @@ class Collection c a where
 
 Enable multi-way-if syntax.
 #+begin_src haskell
-if | guard1 -> expr1
+if | guard1 -> code1
    | ...
-   | guardN -> exprN
+   | guardN -> codeN
 #+end_src
 
 ***** <<<OverloadedStrings>>> :drill:
