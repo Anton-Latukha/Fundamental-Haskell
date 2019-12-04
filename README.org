@@ -2657,6 +2657,8 @@ newtype ReaderT r m a =
   ReaderT { runReaderT :: r -> m a }
 #+end_src
 
+This has an effect that on stacking monad transformers, =m= becomes monad stack, and every next transformer injects the transformer creation-specific properies $$ \eta $$ inside the stack, so out-most transformer has inner-most structure.
+
 ******* <<<MaybeT>>> :drill:
 :PROPERTIES:
 :ID:       a339250b-4cbc-4c45-b9f8-092f8c166f8f
