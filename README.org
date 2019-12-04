@@ -5940,8 +5940,8 @@ Shift
 
 Allows check a list of pattern matches against functions, and then proceed.
 
-| (/pattern1/) <- (/funcCheck1/)
-, (/pattern2/) <- (/funcCheck2/)
+| (/patternMatch1/) <- (/funcCheck1/)
+, (/patternMatch2/) <- (/funcCheck2/)
 = /RHS/
 
 #+begin_src haskell
