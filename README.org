@@ -1109,8 +1109,17 @@ When even Main invoked - it work in Stack, and called Stack frame. Stack frame s
 When stacked Stack frames exceed the Stack size - stack overflow happens.
 
 ** <<<Argument>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:28]
 :END:
 
 /arguere/ to make clear, to shine
@@ -1768,8 +1777,17 @@ const <$> mkId xs <*> mkId xs'
 #+end_src
 
 ****** <<<Constant applicative>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:04]
 :END:
 
 It holds only to one value. The function does not exist and last parameter is a phantom.
@@ -2774,8 +2792,17 @@ fmap f . fmap g = fmap (f . g)
 Get & set a value inside Functor.
 
 **** <<<Multifunctor>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       3419635e-4b4a-4193-b50c-0e6ac3bf269d
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:28]
 :END:
 
 Generalizes the concept of functor between categories, canonical morphisms between multicategories.
@@ -3467,8 +3494,17 @@ Absolute abstraction. Point that has properties. Often abstracts mathematical st
 <<<Objects>>>
 
 **** <<<Terminal object>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       8d7de2b2-7609-481a-837e-9887e779446f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:06]
 :END:
 
 One that recieves unique arrow from every object.
@@ -3781,8 +3817,17 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 <<<Contravariant functor>>> - More inline term is Contravariant cofunctor
 
 ** <<<Covariant>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 00:19]
 :END:
 
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of Tensors in this basisis.
@@ -4430,8 +4475,17 @@ With unlifted types Haskel type system directly manages data in the hardware.
 :END:
 
 **** <<<Cons cell>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:20]
 :END:
 
 Cell that values may inhabit.
@@ -4682,8 +4736,17 @@ $$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
 <<<Differential>>>
 
 ** <<<Dispatch>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:04]
 :END:
 
 Send, transmission, reference.
@@ -4817,8 +4880,17 @@ Means /it/:
 From 1&2 -> /it/ can include itself.
 
 ** <<<Function>>> :drill:
+SCHT: <2019-12-09 Mon>
 :PROPERTIES:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:23]
 :END:
 
 Full dependency of one quantity from another quantity.
