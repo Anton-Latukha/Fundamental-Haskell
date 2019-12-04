@@ -9580,7 +9580,7 @@ There can be differnt Applicatives with different Monoid implementations.
 
 *** Create
 
-** <<<Good: About operators (<$) (**>) (<**) (>>)>>> :drill:
+** <<<Good: About operators =(<$ )= =( **>)= =(<* )= =(>> )= >>> :drill:
 SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
@@ -9594,7 +9594,8 @@ SCHT: <2019-11-17 Sun>
 :DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:31]
 :END:
 
-Where character is not present - discards the according value.
+Where character is not present - discard the according processing of a parameter.
+=(>> )= is an exception, it does the reverse. ignores the first parameter.
 
 ** <<<Good: About functions like {mapM, sequence}_>>> :drill:
 SCHT: <2020-01-28 Tue>
