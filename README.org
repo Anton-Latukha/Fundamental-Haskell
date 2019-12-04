@@ -5240,7 +5240,7 @@ Codomain - target set of a function.
 :DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:25]
 :END:
 
-Function with arity.
+Logical function that has arity and produces proposition.
 
 *** <<<Recursion>>> :drill:
 SCHT: <2019-12-23 Mon>
