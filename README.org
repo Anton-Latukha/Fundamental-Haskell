@@ -4907,9 +4907,9 @@ Directionality and property of invariability emerge from one another.
 #+end_src
 
 $$ y(x) = (zx^{2} + bx + 3 \ | \ b = 5) $$
-^ ^     ^^    ^    ^
-| |     ||     \_Var \__Constants
-| |     | \__Bound__variable
+^ ^    ^^    ^   ^
+| |    ||     \_Var\__Constant
+| |    | \__Bound__variable
 | |     \_Free variable
 |  \_Parameter
  \__Name__of__the__function
