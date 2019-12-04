@@ -5425,16 +5425,17 @@ Expression, logical function that is/can produce a proposition.
 <<<wffs>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
+SCHT: <2019-12-08 Sun>
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:19]
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 23:03]
 :END:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -5483,16 +5484,17 @@ Meaning can be special for language speakers or human with particular knowledge.
 <<<Idiomatic>>>
 
 ** <<<Impredicative>>> :drill:
+SCHT: <2019-12-08 Sun>
 :PROPERTIES:
 :ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:23]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 23:03]
 :END:
 
 Self-referencing definition.
@@ -9593,17 +9595,17 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 
 ** <<<Good: About operators =(<$ )= =( **>)= =(<* )= =(>> )= >>> :drill:
-SCHT: <2019-11-17 Sun>
+SCHT: <2019-12-12 Thu>
 :PROPERTIES:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 7.8744
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_AVERAGE_QUALITY: 3.286
 :DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:31]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 23:02]
 :END:
 
 Where character is not present - discard the according processing of a parameter.
