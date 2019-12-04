@@ -6986,6 +6986,12 @@ import Data.Function (on)
 on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
 
+#+begin_src text
+--\
+   * ---
+--/
+#+end_src
+
 *** /*/
 
 <<<Psi-combinator>>>
