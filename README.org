@@ -1772,7 +1772,7 @@ const <$> mkId xs <*> mkId xs'
 :ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
 :END:
 
-It holds only to one value. The function does not exist and `b` is phantom.
+It holds only to one value. The function does not exist and last parameter is a phantom.
 #+begin_src haskell
 -- Applicative f =>
 -- f ~ Constant e
