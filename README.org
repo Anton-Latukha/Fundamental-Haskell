@@ -4979,6 +4979,8 @@ f : X ⤖ Y
 LaTeX needed to combine symbols:
 $$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
 
+Corersponds to isomorphism.
+
 **** /*/
 
 <<<Bijective>>>
