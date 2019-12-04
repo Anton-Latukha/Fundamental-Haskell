@@ -2646,6 +2646,17 @@ Transformers have a light wrapper around the data that tags the modification wit
 
 Main monadic structure =m= is wrapped around the internal data (core is =a=). The structure that corresponds to the transformer creation properties (if it emitted by $$ \eta $$ of a transformer), goes into =m= . Open parameters go external to the =m=.
 
+#+begin_src haskell
+newtype ExceptT e m a =
+  ExceptT { runExceptT :: m (Either e a) }
+
+newtype MaybeT m a =
+  MaybeT { runMaybeT :: m (Maybe a) }
+
+newtype ReaderT r m a =
+  ReaderT { runReaderT :: r -> m a }
+#+end_src
+
 ******* <<<MaybeT>>> :drill:
 :PROPERTIES:
 :ID:       a339250b-4cbc-4c45-b9f8-092f8c166f8f
