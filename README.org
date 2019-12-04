@@ -2642,6 +2642,8 @@ Basic case: during implementation of monadic type composition, type =m T m a= ar
 
 In type signatures of transformers =*T m= - =m= is already an extended monad, so =*T= is just a wrapper to point that out.
 
+Transformers have a light wrapper around the data that tags the modification with this transformer.
+
 ******* <<<MaybeT>>> :drill:
 :PROPERTIES:
 :ID:       a339250b-4cbc-4c45-b9f8-092f8c166f8f
