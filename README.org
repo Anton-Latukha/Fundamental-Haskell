@@ -1781,11 +1781,6 @@ instance Applicative C
   where
     pure :: a -> C e a
     (<*>) :: C e (a -> b) -> C e a -> C e b
-
-pure 1
--- 1
-pure 1 :: Constant String Int
--- Constant {getConstant = ""}
 #+end_src
 
 ****** <<<Maybe applicative>>> :drill:
