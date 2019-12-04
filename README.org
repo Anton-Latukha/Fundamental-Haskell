@@ -951,17 +951,17 @@ Composite from simple parts.
 Also: Algebraic data type.
 
 *** <<<Algebraic structure>>> :drill:
-SCHT: <2019-11-17 Sun>
+SCHT: <2019-12-14 Sat>
 :PROPERTIES:
 :ID:       dcbe48e5-d7dd-400d-9963-d4e00d474b84
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 9.604
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:30]
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:28]
 :END:
 
 Algebraic structure on a set (called carrier set or underlying set) is a collection of finitary operations on that set.
@@ -1359,17 +1359,17 @@ Composed /*/ can lift functions through any layers of structures that belong to 
 <<<Functor type class>>>
 
 ***** <<<Power set functor laws>>> :drill:
-SCHT: <2019-11-08 Fri>
+SCHT: <2020-06-03 Wed>
 :PROPERTIES:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
-:DRILL_LAST_INTERVAL: 65.9306
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 181.5069
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:21]
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:15]
 :END:
 
 Type instance of functor should abide this laws:
@@ -3902,17 +3902,17 @@ SCHT: <2020-06-27 Sat>
 Generator. Gen type is to generate pseudo-random values for parent type. Produces a list of values that gets infinitely cycled.
 
 *** <<<Higher-kinded data type>>> :drill:
-SCHT: <2019-11-08 Fri>
+SCHT: <2020-06-03 Wed>
 :PROPERTIES:
 :ID:       f923ff3e-43bb-4e4a-8c55-e4f2354e3810
-:DRILL_LAST_INTERVAL: 65.9306
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 181.5069
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-03 Tue 23:22]
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:24]
 :END:
 
 Any combination of * and ->
@@ -4719,17 +4719,17 @@ Finite combination of symbols that is well-formed according to rules that depend
 <<<Expressions>>>
 
 *** <<<Closed-form expression>>> :drill:
-SCHT: <2019-11-14 Thu>
+SCHT: <2020-03-19 Thu>
 :PROPERTIES:
 :ID:       4fe26c88-61dc-4a5c-b31e-aa91d5a9afd0
-:DRILL_LAST_INTERVAL: 46.0141
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 105.6944
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.9
-:DRILL_EASE: 2.38
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 21:12]
+:DRILL_AVERAGE_QUALITY: 2.909
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:26]
 :END:
 
 /*/ - mathematical expression that can be evaluated in a finite number of operations.
@@ -5205,17 +5205,16 @@ $$ Y $$ in $X \to Y$.
 Codomain - target set of a function.
 
 *** <<<Open formula>>> :drill:
-SCHT: <2019-11-09 Sat>
 :PROPERTIES:
 :ID:       dc5f353b-84dc-4bce-85e2-eaa56f18401f
-:DRILL_LAST_INTERVAL: 62.855
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.667
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:38]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:25]
 :END:
 
 Function with arity.
@@ -5888,17 +5887,16 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 Shift
 
 ** <<<Pattern guard>>> :drill:
-SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 13
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:30]
+:DRILL_LAST_QUALITY: 1
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:31]
 :END:
 
 Allows check a list of pattern matches against functions, and then proceed.
@@ -5943,17 +5941,16 @@ Bijective function from domain to itself.
 Domain & permutation functions & function composition form a group.
 
 ** <<<Phrase>>> :drill:
-SCHT: <2019-11-17 Sun>
 :PROPERTIES:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.143
 :DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:51]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:27]
 :END:
 
 Composable expression.
@@ -6171,17 +6168,17 @@ Achieved by creating a type class instance functions.
 <<<Constraints>>>
 
 **** <<<Impredicative polymorphism>>> :drill:
-SCHT: <2019-11-15 Fri>
+SCHT: <2020-03-20 Fri>
 :PROPERTIES:
 :ID:       4d1d48af-a46a-4632-88f2-fff7643f0d7e
-:DRILL_LAST_INTERVAL: 46.8584
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 107.3526
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:28]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:26]
 :END:
 
 /*/ allows type τ entities with polymorphic types that can contain type τ itself.
@@ -6751,17 +6748,17 @@ exmpl ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data
 #+end_src
 
 ***** <<<DatatypeContexts>>> :drill:
-SCHT: <2019-11-12 Tue>
+SCHT: <2020-03-26 Thu>
 :PROPERTIES:
 :ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
-:DRILL_LAST_INTERVAL: 46.0141
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 113.3327
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 2.38
+:DRILL_AVERAGE_QUALITY: 3.556
+:DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:16]
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:25]
 :END:
 
 Allow contexts in data types.
@@ -7005,17 +7002,17 @@ Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 *** <<<Axiomatic semantics>>> :drill:
-SCHT: <2019-11-17 Sun>
+SCHT: <2019-12-11 Wed>
 :PROPERTIES:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 7.4884
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_AVERAGE_QUALITY: 2.857
 :DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:45]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:28]
 :END:
 
 Empirical process of studying something complex by finding and analyzing true statements about it.
@@ -7516,17 +7513,17 @@ Latin /associatus/ past participle of /associare/ "/join with/", from assimilate
 <<<Associativity law>>>
 
 *** <<<Left associative>>> :drill:
-SCHT: <2019-11-17 Sun>
+SCHT: <2019-12-15 Sun>
 :PROPERTIES:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 11.428
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.667
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:28]
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.86
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:27]
 :END:
 
 /*/ - the operations are grouped from the left.
@@ -7733,17 +7730,17 @@ Not Turing-complete, impossible to construct an arbitrary loop.
 <<<Zeroth-order logic>>>
 
 ***** <<<First-order logic>>> :drill:
-SCHT: <2019-11-14 Thu>
+SCHT: <2020-03-13 Fri>
 :PROPERTIES:
 :ID:       fbfe3772-5c3a-41c4-9d53-6b2bc571236e
-:DRILL_LAST_INTERVAL: 47.6002
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 100.1508
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.909
-:DRILL_EASE: 2.18
+:DRILL_AVERAGE_QUALITY: 2.917
+:DRILL_EASE: 2.04
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:11]
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:26]
 :END:
 
 Notation systems that use quantifiers, relations, variables over non-logical objects, allows the use of expressions that contain variables.
@@ -9426,17 +9423,17 @@ Model the domain and types before thinking about how to write computations.
 :END:
 
 ** <<<Good: Arbitrary>>> :drill:
-SCHT: <2019-11-17 Sun>
+SCHT: <2019-12-15 Sun>
 :PROPERTIES:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:30]
+:DRILL_AVERAGE_QUALITY: 3.444
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:28]
 :END:
 
 Product types can be tested as a product of random generators.
