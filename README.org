@@ -5411,6 +5411,18 @@ Funciton application has presedence higher then all infix operators/functions (v
 
 <<<Infixl>>>
 <<<Infixr>>>
+*** <<<Well-formed formula>>> :drill:
+:PROPERTIES:
+:ID:       714fb9d5-19c8-44ba-9927-eccce436a1f3
+:END:
+
+Expression, logical function that is/can produce a proposition.
+
+**** /*/
+<<<WFF>>>
+<<<wff>>>
+<<<WFFS>>>
+<<<wffs>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
 :PROPERTIES:
