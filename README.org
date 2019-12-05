@@ -5500,6 +5500,7 @@ Funciton application has presedence higher then all infix operators/functions (v
 Expression, logical function that is/can produce a proposition.
 
 **** /*/
+<<<Well formed formula>>>
 <<<WFF>>>
 <<<wff>>>
 <<<WFFS>>>
