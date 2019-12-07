@@ -2673,7 +2673,7 @@ newtype ReaderT r m a =
   ReaderT { runReaderT :: r -> m a }
 #+end_src
 
-This has an effect that on stacking monad transformers, =m= becomes monad stack, and every next transformer injects the transformer creation-specific properies $$ \eta $$ inside the stack, so out-most transformer has inner-most structure.
+This has an effect that on stacking monad transformers, =m= becomes monad stack, and every next transformer injects the transformer creation-specific properies $$ \eta $$ inside the stack, so out-most transformer has inner-most structure. Base monad is structurally the outermost.
 
 ******* <<<MaybeT>>> :drill:
 :PROPERTIES:
