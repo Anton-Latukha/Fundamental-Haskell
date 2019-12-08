@@ -1566,10 +1566,13 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 <<<Applicatives>>>
 <<<Applicative functors>>>
 
-***** <<<Applicative laws>>> :drill:
+***** <<<Applicative law>>> :drill:
 :PROPERTIES:
 :ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
 :END:
+
+***** /*/
+<<<Applicative laws>>>
 
 ****** <<<Applicative identity law>>> :drill:
 SCHT: <2020-02-19 Wed>
