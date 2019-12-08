@@ -1913,7 +1913,7 @@ Composition of monadic types does not always results in monadic type.
 <<<Monads>>>
 <<<Monadic>>>
 
-****** <<<Monad laws>>> :drill:
+****** <<<Monad law>>> :drill:
 SCHT: <2019-11-20 Wed>
 :PROPERTIES:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
@@ -1928,6 +1928,9 @@ SCHT: <2019-11-20 Wed>
 :END:
 
 Monad corresponds to functor laws and applicative laws and additionally:
+
+******* /*/
+<<<Monad laws>>>
 
 ******* <<<Monad left identity law>>> :drill:
 SCHT: <2020-02-16 Sun>
