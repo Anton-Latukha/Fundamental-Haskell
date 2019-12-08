@@ -2748,6 +2748,9 @@ lift . return = return
 lift (m >>= f) = lift m >>= (lift . f)
 #+end_src
 
+The general pattern with MonadTrans instances is that it is usually lifts the injection
+of the known structure of transformer over some Monad.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
