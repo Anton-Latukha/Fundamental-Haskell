@@ -2722,6 +2722,25 @@ To create a Reader monad from /*/: $$ m \equiv Identity $$:
 type Reader r = ReaderT r Identity
 #+end_src
 
+******* <<<MonadTrans>>> type class :drill:
+:PROPERTIES:
+:ID:       b09785c6-fd74-4096-8329-9908b7864d61
+:END:
+
+Allows to lift monadic actions into a larger context in a neutral way.
+
+Method:
+#+begin_src haskell
+lift :: Monad m => m a -> t m a
+#+end_src
+Lift a computation from the argument monad to the constructed monad.
+
+Neutral means:
+#+begin_src haskell
+lift . return = return
+
+lift (m >>= f) = lift m >>= (lift . f)
+#+end_src
 
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
