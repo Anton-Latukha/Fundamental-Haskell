@@ -2788,6 +2788,14 @@ x = (undefined :: IO a)
 (lift x) :: MonadTrans t => t IO a  -- result is a proper expected product type
 #+end_src
 
+=lift= is a natural transformation $$ \eta $$ from an Identity monad (functor) with other monad as content into transformer monad (functor), with the preservation of the conteined monad:
+#+begin_src haskell
+-- Abstract monads with content as parameters. Define '~>' as a family of morphisms that translate one functor into another (natural transformation)
+type f ~> g = forall x. f x -> g x
+-- follows
+lift :: m ~> t m
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
