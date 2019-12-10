@@ -1554,7 +1554,7 @@ class Functor f => Applicative f
   pure :: a -> f a
 #+end_src
 
-Composition of /*/ always produces /*/, contrary to monad.
+Composition of /*/ always produces /*/, contrary to monad (monads are not closed under composition).
 
 =Control.Monad= has an old function =ap= that is old implementation of =<*>=:
 #+begin_src haskell
