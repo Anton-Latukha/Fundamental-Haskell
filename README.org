@@ -2767,6 +2767,10 @@ pure      ::      a  -> MaybeT IO a
 lift   ::    IO a  -> MaybeT IO a
 MaybeT :: IO (Maybe a) -> MaybeT IO a
 
+x = (undefined :: IO a)
+
+:t (pure x)
+(pure x) :: Applicative t => t (IO a)  -- t recieves one argument of product type
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
