@@ -2771,6 +2771,14 @@ x = (undefined :: IO a)
 
 :t (pure x)
 (pure x) :: Applicative t => t (IO a)  -- t recieves one argument of product type
+:t (pure x :: MaybeT IO a)
+-- Expected type: MaybeT IO a1
+--   Actual type: MaybeT IO (IO a0)
+
+-- While the real type would be
+:t (pure x :: MaybeT IO (IO a))
+(pure x :: MaybeT IO (IO a)) :: MaybeT IO (IO a) -- This goes into a conflict of what type&kind (* -> *) transformer constructor awaits, and `m (m a)` is a layering we not interested in.
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
