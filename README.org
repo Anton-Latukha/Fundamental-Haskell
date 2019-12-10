@@ -2757,6 +2757,10 @@ lift (m >>= f) = lift m >>= (lift . f)
 The general pattern with MonadTrans instances is that it is usually lifts the injection
 of the known structure of transformer over some Monad.
 
+lift embeds one monadic action into monad transformer.
+
+The difference between pure, lift and MaybeT contructor becomes clearer if you look at the types:
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
