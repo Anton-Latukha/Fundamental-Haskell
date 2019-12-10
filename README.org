@@ -2779,6 +2779,15 @@ x = (undefined :: IO a)
 :t (pure x :: MaybeT IO (IO a))
 (pure x :: MaybeT IO (IO a)) :: MaybeT IO (IO a) -- This goes into a conflict of what type&kind (* -> *) transformer constructor awaits, and `m (m a)` is a layering we not interested in.
 
+
+:t (lift x)
+(lift x) :: MonadTrans t => t IO a  -- result is a proper expected product type
+
+-- To belabour
+:t (lift x :: MaybeT IO a)
+(lift x) :: MonadTrans t => t IO a  -- result is a proper expected product type
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
