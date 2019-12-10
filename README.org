@@ -2761,6 +2761,12 @@ lift embeds one monadic action into monad transformer.
 
 The difference between pure, lift and MaybeT contructor becomes clearer if you look at the types:
 
+Example, for =MaybeT IO a=:
+#+begin_src haskell
+pure      ::      a  -> MaybeT IO a
+lift   ::    IO a  -> MaybeT IO a
+MaybeT :: IO (Maybe a) -> MaybeT IO a
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
