@@ -2739,6 +2739,8 @@ Allows to lift monadic actions into a larger context in a neutral way.
 
 =lift= takes monad and extends it with a transformer.
 
+In fact, for monad transformers - `lift` is a last stage of the `pure`, it follows from the lift law.
+
 Method:
 #+begin_src haskell
 lift :: Monad m => m a -> t m a
