@@ -8920,7 +8920,7 @@ This possibilities can mix and match:
   * =qualified <modName> -= discards unqialified names, forse obligatory namespace for the imports.
   * =hiding (x, y) -= skip import of declared identifies.
   * =<modName> as <modName>= - renames module namespace.
-  * <type/class> =(..)= import class & it's methods, or type, all its data constructors & field names.
+  * =<type/class> (..)= import class & it's methods, or type, all its data constructors & field names.
 
 * Give definitions
 
