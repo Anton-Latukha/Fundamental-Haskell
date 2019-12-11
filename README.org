@@ -2737,7 +2737,7 @@ type Reader r = ReaderT r Identity
 
 Allows to lift monadic actions into a larger context in a neutral way.
 
-=pure= takes a parametric type and embodies it into constructed structure structure (talking of monad transformers - structure of the stacked monads).
+=pure= takes a parametric type and embodies it into constructed structure (talking of monad transformers - structure of the stacked monads).
 
 =lift= takes monad and extends it with a transformer.
 
