@@ -8913,6 +8913,16 @@ Training                --  Collect study and learning materials
 
 # =import= statement by default imports identifiers from the other module, using hierarchical module name, brings into scope the identifiers to the global scope both into unqualified and qualifies by the hierarchical module name forms.
 
+# This possibilities can mix and match:
+#   * =<modName> ()= - import only instances of type classes.
+#   * =<modName> (x, y)= - import only declared indentifiers.
+#   * =qualified <modName> -= discards unqialified names, forse obligatory namespace for the imports.
+#   * =hiding (x, y) -= skip import of declared identifies.
+#   * =<modName> as <modName>= - renames module namespace.
+# #+begin_src haskell
+# import Hierarchical.Module.Name
+#   (TypeConstructor(..)) -- Import all data constructors of the TypeConstructor type
+# #+end_src
 * Give definitions
 
 ** <<<Const functor>>>
