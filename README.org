@@ -1330,7 +1330,7 @@ fmap id = id
 fmap (f . g) = fmap f . fmap g
 #+end_src
 
-Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects.
+Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects. Also in Hask category functors are obviously endofunctors \therefore they are containers for the parametric values (AKA product type).
 
 **** /*/
 
