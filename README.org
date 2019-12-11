@@ -8906,6 +8906,13 @@ Training                --  Collect study and learning materials
 <<<Top-level module name>>>
 <<<Top-level module names>>>
 
+# ** <<<import>>> :drill:
+# :PROPERTIES:
+# :ID:       3114f612-aa52-4a50-9378-c4697b0635b6
+# :END:
+
+# =import= statement by default imports identifiers from the other module, using hierarchical module name, brings into scope the identifiers to the global scope both into unqualified and qualifies by the hierarchical module name forms.
+
 * Give definitions
 
 ** <<<Const functor>>>
