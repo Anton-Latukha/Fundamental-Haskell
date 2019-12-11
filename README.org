@@ -1330,6 +1330,8 @@ fmap id = id
 fmap (f . g) = fmap f . fmap g
 #+end_src
 
+Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects.
+
 **** /*/
 
 <<<Functors>>>
