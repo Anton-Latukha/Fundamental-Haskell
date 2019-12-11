@@ -756,9 +756,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
   - [[#good-type-wideness][<<<Good: Type wideness>>>]]
-  - [[#good-read-conventions-of-variables-page-176][<<<Good: Read Conventions of variables (page 176)>>>]]
   - [[#good-print][<<<Good: Print>>>]]
-  - [[#good-read-code-evaluation-488-on-ward][<<<Good: Read code evaluation (488 on-ward)>>>]]
   - [[#good-fold][<<<Good: Fold>>>]]
   - [[#good-computation-model][<<<Good: Computation model>>>]]
   - [[#good-make-bottoms-only-local][<<<Good: Make bottoms only local>>>]]
@@ -9581,11 +9579,6 @@ The more constrained system has more usefulness.
 
 Unconstrained means most flexible, but also most useless.
 
-** <<<Good: Read Conventions of variables (page 176)>>> :drill:
-:PROPERTIES:
-:ID:       6dc2fbe3-f3de-4a52-97d5-dc001e59869c
-:END:
-
 ** <<<Good: Print>>> :drill:
 SCHT: <2020-02-15 Sat>
 :PROPERTIES:
@@ -9604,11 +9597,6 @@ SCHT: <2020-02-15 Sat>
 print :: Show a => a -> IO ()
 print a = putStrLn (show a)
 #+end_src
-
-** <<<Good: Read code evaluation (488 on-ward)>>> :drill:
-:PROPERTIES:
-:ID:       e2222b7e-75c8-4c75-98b2-9d99167232c3
-:END:
 
 ** <<<Good: Fold>>> :drill:
 :PROPERTIES:
