@@ -2723,7 +2723,8 @@ newtype ReaderT r m a = ReaderT { runReaderT :: r -> m a }
 /*/ functions: input monad =m a=, out: =m a= wrapped it in a free-variable =r= (partially applied function).
 That allows to use transformed =m a=, now it requires and can use the =r= passed environment.
 
-To create a Reader monad from /*/: $$ m \equiv Identity $$:
+To create a Reader monad:
+
 #+begin_src haskell
 type Reader r = ReaderT r Identity
 #+end_src
