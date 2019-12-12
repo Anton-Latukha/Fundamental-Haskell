@@ -1330,7 +1330,7 @@ fmap id = id
 fmap (f . g) = fmap f . fmap g
 #+end_src
 
-Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects. Also in Hask category functors are obviously endofunctors \therefore they are special kinds of containers for the parametric values (AKA product type). In Haskell product type /*/ are endofunctors from polymorphic type into a functor. 
+Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects. Also in Hask category functors are obviously endofunctors \therefore they are special kinds of containers for the parametric values (AKA product type). In Haskell product type /*/ are endofunctors from polymorphic type into a functor wrapper of a polymorphic type. 
 
 /*/ translates in one direction, and does not provide algorythm of reversing itself or retriving the parametric value.
 
