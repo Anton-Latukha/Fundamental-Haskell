@@ -10123,6 +10123,9 @@ newtype WriterT w m a =
 ** <<<Good: Working with MonadTrans and lift>>> :drill:
 
 From the =lift . pure = pure= follows that =MonadTrans= type can have a =pure= defined with =lift=.
+
+Stacking of =MonadTrans= monads can result in a lot of chained =lift= and unwraps. There is many ways to cope with that but the most robust and common is to abstract representation with =newtype= on the =Monad= stack. For perfect combination for contributors to be able to extend the code - keep the =Internal= module that has a raw representation.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
