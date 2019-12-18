@@ -2806,9 +2806,15 @@ lift :: m ~> t m
 
 #+begin_src haskell
 class (Monad m) => MonadIO m where
-liftIO :: IO a -> m a
+  liftIO :: IO a -> m a
 #+end_src
 
+=liftIO= laws:
+#+begin_src haskell
+liftIO . pure = pure
+
+liftIO (m >>= f) = liftIO m >>= (liftIO . f)
+#+end_src
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
