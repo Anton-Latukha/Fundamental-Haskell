@@ -2815,6 +2815,9 @@ liftIO . pure = pure
 
 liftIO (m >>= f) = liftIO m >>= (liftIO . f)
 #+end_src
+
+Which is identical laws to MonadTrans =lift.=
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
