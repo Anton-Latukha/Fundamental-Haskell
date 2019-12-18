@@ -2820,6 +2820,10 @@ Which is identical laws to MonadTrans =lift.=
 
 Since lift is one step, and liftIO all steps - all steps defined in terms of one step and all other steps, so the most frequent implementation is self-recursive =lift . liftIO=.
 
+********** /*/
+
+<<<liftIO>>>
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
