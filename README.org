@@ -2804,6 +2804,11 @@ lift :: m ~> t m
 
 /*/ - allows to lift IO action until reaching the IO monad layer at the top of the =Monad= stack (which is allways in the Haskell code that does IO).
 
+#+begin_src haskell
+class (Monad m) => MonadIO m where
+liftIO :: IO a -> m a
+#+end_src
+
 ***** <<<Alternative type class>>> :drill:
 SCHT: <2019-11-12 Tue>
 :PROPERTIES:
