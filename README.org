@@ -8169,6 +8169,12 @@ SCHT: <2020-02-12 Wed>
 f list@(x, xs) = ...
 #+end_src
 
+**** /*/
+
+<<<As-patterns>>>
+<<<As pattern>>>
+<<<As patterns>>>
+
 *** <<<Case>>> :drill:
 SCHT: <2020-02-27 Thu>
 :PROPERTIES:
