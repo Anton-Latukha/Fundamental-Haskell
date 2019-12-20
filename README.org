@@ -8152,6 +8152,8 @@ $$ \iff $$
 :END:
 
 *** <<<As-pattern>>> :drill:
+*** <<<Pattern matching>>> :drill:
+
 SCHT: <2020-02-12 Wed>
 :PROPERTIES:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
