@@ -8215,7 +8215,7 @@ case x of
   otherwise -> exDefault
 #+end_src
 
-Syntatic sugar with guards allows usage of expressions:
+Bolting guards & expressions with syntatic sugar on case:
 #+begin_src haskell
 case () of _
   | expr1     -> ex1
