@@ -8209,10 +8209,10 @@ SCHT: <2020-02-27 Thu>
 
 #+begin_src haskell
 case x of
-  | pattern1  -> ex1
-  | pattern2  -> ex2
-  | pattern3  -> ex3
-  | otherwise -> exDefault
+  pattern1  -> ex1
+  pattern2  -> ex2
+  pattern3  -> ex3
+  otherwise -> exDefault
 #+end_src
 
 Syntatic sugar with guards allows usage of expressions:
