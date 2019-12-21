@@ -8171,6 +8171,20 @@ SCHT: <2020-02-12 Wed>
 f list@(x, xs) = ...
 #+end_src
 
+**** <<<Wild-card>>> :drill:
+
+Matches anything and can not be binded. For matching someting that should pass not checked and is not used.
+
+#+begin_src haskell
+head (x:_)             = x
+tail (_:xs)            = xs
+#+end_src
+
+***** /*/
+<<<Wild-cards>>>
+<<<Wildcard>>>
+<<<Wildcards>>>
+
 **** /*/
 
 <<<As-patterns>>>
