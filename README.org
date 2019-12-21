@@ -9588,6 +9588,19 @@ We can generalize the previous example to any category C. To every pair X, Y of 
 
 Functors like these are called representable functors. An important goal in many settings is to determine whether a given functor is representable.
 
+** <<<Haskell Language Report>>>
+
+Document that is a standart of language.
+
+*** /*/
+<<<Report>>>
+<<<Haskell Report>>>
+<<<Haskell 98 Language Report>>>
+<<<Haskell 98 Report>>>
+<<<Haskell 1998 Language Report>>>
+<<<Haskell 2010 Language Report>>>
+<<<Haskell 2010 Report>>>
+
 * Citations
 
 "One of the finer points of the Haskell community has been
