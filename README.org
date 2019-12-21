@@ -9601,6 +9601,14 @@ Document that is a standart of language.
 <<<Haskell 2010 Language Report>>>
 <<<Haskell 2010 Report>>>
 
+** <<<Haskell'>>> :drill:
+
+Current language development mod.
+
+*** /*/
+
+<<<Haskell prime>>>
+
 * Citations
 
 "One of the finer points of the Haskell community has been
