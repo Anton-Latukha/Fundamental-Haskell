@@ -9605,6 +9605,8 @@ Document that is a standart of language.
 
 Current language development mod.
 
+https://prime.haskell.org/
+
 *** /*/
 
 <<<Haskell prime>>>
