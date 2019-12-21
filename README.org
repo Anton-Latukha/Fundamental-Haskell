@@ -8193,7 +8193,7 @@ tail (_:xs)            = xs
 <<<Wildcard>>>
 <<<Wildcards>>>
 
-*** <<<Case>>> :drill:
+**** <<Case>>> :drill:
 SCHT: <2020-02-27 Thu>
 :PROPERTIES:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
