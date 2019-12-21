@@ -8224,6 +8224,8 @@ case () of _
   | otherwise -> exDefault
 #+end_src
 
+Pattern matching in function definitions is realized with case expressions.
+
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
