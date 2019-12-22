@@ -5540,7 +5540,7 @@ Named varible of a function.
 
 Argument is a supplied value to a function parameter.
 
-Parameter (formal parameter) is irrefutable pattern, and inplemeted in language as such.
+Parameter (formal parameter) is irrefutable pattern, and that way implemeted in language.
 
 **** /*/
 
