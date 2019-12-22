@@ -9053,6 +9053,10 @@ Values consumed once or not used.
 
 =x^2= consumes =x= two times.
 
+*** /*/
+
+<<<Linearity>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
