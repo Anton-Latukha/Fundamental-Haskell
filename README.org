@@ -9061,6 +9061,10 @@ Values consumed once or not used.
 
 One that has an option to fail.
 
+** <<<Irrefutable>>> :drill:
+
+One that can not fail.
+
 * Give definitions
 
 ** <<<Const functor>>>
