@@ -5545,6 +5545,8 @@ Parameter (formal parameter) is irrefutable pattern, and inplemeted in language 
 **** /*/
 
 <<<Parameters>>>
+<<<Formal parameter>>>
+<<<Formal parameters>>>
 
 *** <<<Partial application>>> :drill:
 :PROPERTIES:
