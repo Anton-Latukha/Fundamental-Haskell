@@ -6122,43 +6122,6 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 
 Shift
 
-** <<<Pattern guard>>> :drill:
-SCHT: <2019-12-09 Mon>
-:PROPERTIES:
-:ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.071
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-05 Thu 00:17]
-:END:
-
-Allows check a list of pattern matches against functions, and then proceed.
-
-| (/patternMatch1/) <- (/funcCheck1/)
-, (/patternMatch2/) <- (/funcCheck2/)
-= /RHS/
-
-#+begin_src haskell
-lookup :: Eq a => a -> [(a, b)] -> Maybe b
-
-addLookup l a1 a2
-   | Just b1 <- lookup a1 l
-   , Just b2 <- lookup a2 l
-   = b1 + b2
-{-...other equations...-}
-#+end_src
-Run functions, they must succeed. Then pattern match results to =b1=, =b2=. Only if successful - execute the equation.
-
-Default in Haskell 2010.
-
-*** /*/
-
-<<<Pattern guards>>>
-
 ** <<<Permutation>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
@@ -8245,6 +8208,43 @@ f x
 ***** /*/
 
 <<<Guards>>>
+
+**** <<<Pattern guard>>> :drill:
+SCHT: <2019-12-09 Mon>
+:PROPERTIES:
+:ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 3.071
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 00:17]
+:END:
+
+Allows check a list of pattern matches against functions, and then proceed.
+
+| (/patternMatch1/) <- (/funcCheck1/)
+, (/patternMatch2/) <- (/funcCheck2/)
+= /RHS/
+
+#+begin_src haskell
+lookup :: Eq a => a -> [(a, b)] -> Maybe b
+
+addLookup l a1 a2
+   | Just b1 <- lookup a1 l
+   , Just b2 <- lookup a2 l
+   = b1 + b2
+{-...other equations...-}
+#+end_src
+Run functions, they must succeed. Then pattern match results to =b1=, =b2=. Only if successful - execute the equation.
+
+Default in Haskell 2010.
+
+***** /*/
+
+<<<Pattern guards>>>
 
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
