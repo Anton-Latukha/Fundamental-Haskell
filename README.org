@@ -9047,6 +9047,10 @@ https://prime.haskell.org/
 
 <<<Haskell prime>>>
 
+** <<<Linear>>> :drill:
+
+Values consumed once or not used.
+
 * Give definitions
 
 ** <<<Const functor>>>
