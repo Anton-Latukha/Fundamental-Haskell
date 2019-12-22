@@ -8140,6 +8140,11 @@ SCHT: <2020-02-12 Wed>
 f list@(x, xs) = ...
 #+end_src
 
+#+begin_src haskell
+f (x:xs)   = x:x:xs -- Can be compiled with reconstruction of x:xs
+f a@(x:_) = x:a -- Reuses structure without reconstruction
+#+end_src
+
 ***** /*/
 
 <<<As-patterns>>>
