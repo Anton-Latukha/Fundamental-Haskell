@@ -8226,7 +8226,7 @@ case () of _
 
 Pattern matching in function definitions is realized with case expressions.
 
-*** <<<Guard>>> :drill:
+**** <<<Guard>>> :drill:
 
 Check values against the predicate and use the first match definition:
 
@@ -8240,7 +8240,7 @@ f x
   | otherwise  = definitionZ
 #+end_src
 
-**** /*/
+***** /*/
 
 <<<Guards>>>
 
