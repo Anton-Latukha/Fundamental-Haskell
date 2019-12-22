@@ -8263,6 +8263,11 @@ f ~(a, b) = g a b -- Pattern match of (a, b) deferred to the last moment,
 -- the arguments would be computed and found, or error would be thrown.
 #+end_src
 
+***** /*/
+
+<<<Lazy-pattern>>>
+<<<Lazy patterns>>>
+
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
