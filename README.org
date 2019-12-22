@@ -8246,6 +8246,23 @@ Default in Haskell 2010.
 
 <<<Pattern guards>>>
 
+**** <<<Lazy pattern>>> :drill:
+
+Defers the pattern match directly to the last moment of need during execution of the code.
+
+#+begin_src haskell
+f (a, b) = g a b -- It would be checked that the pattern of the pair constructor
+-- is present, and that parameters are present in the constructor.
+-- Only after that success - work would start on the RHS, aka then construction
+-- g would start only then.
+
+f ~(a, b) = g a b -- Pattern match of (a, b) deferred to the last moment,
+-- RHS starts, construction of g starts.
+-- For this lazy pattern the  equivalent implementation would be:
+-- f p = g (fst p) (snd p)  -- RHS starts, during construction of g
+-- the arguments would be computed and found, or error would be thrown.
+#+end_src
+
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
