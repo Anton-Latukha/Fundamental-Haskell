@@ -8238,8 +8238,11 @@ f x
   | x < 0      = definitionN
   ...
   | otherwise  = definitionZ
-
 #+end_src
+
+**** /*/
+
+<<<Guards>>>
 
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
