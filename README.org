@@ -5536,9 +5536,11 @@ SCHT: <2019-11-19 Tue>
 παρά /para/ subsidiary
 μέτρον /metron/ measure
 
-Or formal parameter. Named varible of a function.
+Named varible of a function.
 
 Argument is a supplied value to a function parameter.
+
+Parameter (formal parameter) is irrefutable pattern, and inplemeted in language as such.
 
 **** /*/
 
