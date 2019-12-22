@@ -9057,6 +9057,10 @@ Values consumed once or not used.
 
 <<<Linearity>>>
 
+** <<<Refutable>>> :drill:
+
+One that has an option to fail.
+
 * Give definitions
 
 ** <<<Const functor>>>
