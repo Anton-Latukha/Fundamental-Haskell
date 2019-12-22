@@ -8118,6 +8118,8 @@ $$ \iff $$
 
 Are not first-class. It is a set of patter match semantic notations.
 
+Must be linear.
+
 /*/ precedence (especially with more then one parameter, especially with =_= used) often changes the function.
 
 **** <<<As-pattern>>> :drill:
