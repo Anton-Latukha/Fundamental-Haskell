@@ -8155,6 +8155,8 @@ $$ \iff $$
 
 Are not first-class. It is a set of patter match semantic notations.
 
+/*/ precedence (especially with more then one parameter, especially with =_= used) often changes the function.
+
 **** <<<As-pattern>>> :drill:
 SCHT: <2020-02-12 Wed>
 :PROPERTIES:
