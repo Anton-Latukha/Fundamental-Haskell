@@ -8263,7 +8263,7 @@ f ~(a, b) = g a b -- Pattern match of (a, b) deferred to the last moment,
 -- the arguments would be computed and found, or error would be thrown.
 #+end_src
 
-Due to full laziness deferring everything to the runtime execution - the lazy pattern is one-size-fits all, analogous to =_=, and so it does not produce any checks during compilation.
+Due to full laziness deferring everything to the runtime execution - the lazy pattern is one-size-fits all, analogous to =_=, and so it does not produce any checks during compilation, and raises errors during runtime.
 
 ***** /*/
 
