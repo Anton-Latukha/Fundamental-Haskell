@@ -9051,6 +9051,8 @@ https://prime.haskell.org/
 
 Values consumed once or not used.
 
+=x^2= consumes =x= two times.
+
 * Give definitions
 
 ** <<<Const functor>>>
