@@ -8226,6 +8226,21 @@ case () of _
 
 Pattern matching in function definitions is realized with case expressions.
 
+*** <<<Guard>>> :drill:
+
+Check values against the predicate and use the first match definition:
+
+#+begin_src haskell
+f x
+  | predicate1 = definition1
+  | predicate2 = definition2
+  ...
+  | x < 0      = definitionN
+  ...
+  | otherwise  = definitionZ
+
+#+end_src
+
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
