@@ -8798,6 +8798,18 @@ Part of the syntax of the whole function declaration, has according scope.
 
 As part of whole declaration - can extend over definitions of the funtion (pattern matches, guards).
 
+Form:
+#+begin_src haskell
+f match1 = y
+f match2 = y
+f x =
+  | cond1 x = y
+  | cond2 x = y
+  | otherwise = y
+ where
+  y = ... x ...
+#+end_src
+
 **** /*/
 
 <<<Where clause>>>
