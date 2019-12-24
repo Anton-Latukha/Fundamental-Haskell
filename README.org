@@ -848,6 +848,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-applicative-vs-monad][<<<Good: Applicative vs Monad>>>]]
   - [[#good-statet-readert-writert][<<<Good: StateT, ReaderT, WriterT>>>]]
   - [[#good-working-with-monadtrans-and-lift][<<<Good: Working with MonadTrans and lift>>>]]
+  - [[#good-dont-mix-where-and-let][<<<Good: Don't mix Where and Let>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -10375,6 +10376,13 @@ From the =lift . pure = pure= follows that =MonadTrans= type can have a =pure= d
 
 Stacking of =MonadTrans= monads can result in a lot of chained =lift= and unwraps. There is many ways to cope with that but the most robust and common is to abstract representation with =newtype= on the =Monad= stack. This can reduce caining or remove the manual lifting withing the Monad.
 For perfect combination for contributors to be able to extend the code - keep the =Internal= module that has a raw representation.
+
+** <<<Good: Don't mix Where and Let>>>
+:PROPERTIES:
+:ID:       0287a360-05cd-41a3-b744-2ec5af34be6a
+:END:
+
+=let= and =where= create a recursive set of definitions with can explode, don't mix them togather in code.
 
 * Bad code :drill:
 :PROPERTIES:
