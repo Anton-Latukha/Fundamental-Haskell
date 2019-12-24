@@ -8763,13 +8763,14 @@ This possibilities can mix and match:
 :ID:       424f4e78-750c-4f67-b1f5-d76e398ca223
 :END:
 
-Set of cross-recursive lazy pattern bindings.
+/*/ expression is a set of cross-recursive lazy pattern bindings.
 
 Declarations permitted:
   * type signatures
   * function bindings
   * pattern bindings
 
+Form:
 #+begin_src haskell
 let
   b1
