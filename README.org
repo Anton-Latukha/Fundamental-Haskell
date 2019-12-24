@@ -8770,6 +8770,8 @@ Declarations permitted:
   * function bindings
   * pattern bindings
 
+It is an expression (macro) and that integrates in external lexical scope expression it applied in.
+
 Form:
 #+begin_src haskell
 let
