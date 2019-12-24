@@ -1201,6 +1201,7 @@ Most often:
 
 <<<Binds>>>
 <<<Binding>>>
+<<<Bindings>>>
 
 ** <<<Cartesian product>>> :drill:
 :PROPERTIES:
