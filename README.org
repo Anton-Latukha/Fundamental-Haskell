@@ -8724,6 +8724,21 @@ Training                --  Collect study and learning materials
 <<<Top-level module name>>>
 <<<Top-level module names>>>
 
+*** <<<import>>> :drill:
+:PROPERTIES:
+:ID:       3114f612-aa52-4a50-9378-c4697b0635b6
+:END:
+
+=import= statement by default imports identifiers from the other module, using hierarchical module name, brings into scope the identifiers to the global scope both into unqualified and qualifies by the hierarchical module name forms.
+
+This possibilities can mix and match:
+  * =<modName> ()= - import only instances of type classes.
+  * =<modName> (x, y)= - import only declared indentifiers.
+  * =qualified <modName>= - discards unqialified names, forse obligatory namespace for the imports.
+  * =hiding (x, y)= - skip import of declared identifies.
+  * =<modName> as <modName>= - renames module namespace.
+  * =<type/class> (..)= - import class & it's methods, or type, all its data constructors & field names.
+
 ** Computer science
 :PROPERTIES:
 :ID:       c197198c-c8c0-40ab-bfbf-f22c80f6f3b4
@@ -9038,21 +9053,6 @@ case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, inst
 When type constructor and data constructor have the same name.
 
 Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
-
-** <<<import>>> :drill:
-:PROPERTIES:
-:ID:       3114f612-aa52-4a50-9378-c4697b0635b6
-:END:
-
-=import= statement by default imports identifiers from the other module, using hierarchical module name, brings into scope the identifiers to the global scope both into unqualified and qualifies by the hierarchical module name forms.
-
-This possibilities can mix and match:
-  * =<modName> ()= - import only instances of type classes.
-  * =<modName> (x, y)= - import only declared indentifiers.
-  * =qualified <modName>= - discards unqialified names, forse obligatory namespace for the imports.
-  * =hiding (x, y)= - skip import of declared identifies.
-  * =<modName> as <modName>= - renames module namespace.
-  * =<type/class> (..)= - import class & it's methods, or type, all its data constructors & field names.
 
 ** <<<Haskell Language Report>>> :drill:
 
