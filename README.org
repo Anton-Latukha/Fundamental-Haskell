@@ -604,6 +604,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
         - [[#-156][/*/]]
       - [[#lazy-pattern][<<<Lazy pattern>>>]]
         - [[#-157][/*/]]
+      - [[#pattern-binding][<<<Pattern binding>>>]]
     - [[#smart-constructor][<<<Smart constructor>>>]]
     - [[#level-of-code][<<<Level of code>>>]]
       - [[#-158][/*/]]
@@ -8301,6 +8302,13 @@ Due to full laziness deferring everything to the runtime execution - the lazy pa
 
 <<<Lazy-pattern>>>
 <<<Lazy patterns>>>
+
+**** <<<Pattern binding>>> :drill:
+:PROPERTIES:
+:ID:       5fcc52b7-e84e-4434-9d84-0239f3122264
+:END:
+
+Entire LHS is a pattern, is a lazy pattern.
 
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
