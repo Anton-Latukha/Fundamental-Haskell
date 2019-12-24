@@ -849,6 +849,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-statet-readert-writert][<<<Good: StateT, ReaderT, WriterT>>>]]
   - [[#good-working-with-monadtrans-and-lift][<<<Good: Working with MonadTrans and lift>>>]]
   - [[#good-dont-mix-where-and-let][<<<Good: Don't mix Where and Let>>>]]
+  - [[#good-where-vs-let][<<<Good: Where vs. Let>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -10383,6 +10384,15 @@ For perfect combination for contributors to be able to extend the code - keep th
 :END:
 
 =let= and =where= create a recursive set of definitions with can explode, don't mix them togather in code.
+
+** <<<Good: Where vs. Let>>> :drill:
+:PROPERTIES:
+:ID:       6318ed75-8584-4f73-8ef8-6708521a7cd9
+:END:
+
+Let is self-recursive lazy pattern. It is checked and errors only at execution time. Binds only inside expression it is binded to.
+
+Where is a part of definition, scoped over definition implemetations and guards, not self-recursive.
 
 * Bad code :drill:
 :PROPERTIES:
