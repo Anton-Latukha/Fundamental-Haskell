@@ -8751,6 +8751,12 @@ This possibilities can mix and match:
   * =<modName> as <modName>= - renames module namespace.
   * =<type/class> (..)= - import class & it's methods, or type, all its data constructors & field names.
 
+*** <<<Let>>> :drill:
+:PROPERTIES:
+:ID:       424f4e78-750c-4f67-b1f5-d76e398ca223
+:END:
+
+Set of cross-recursive bindings.
 ** Computer science
 :PROPERTIES:
 :ID:       c197198c-c8c0-40ab-bfbf-f22c80f6f3b4
