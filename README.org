@@ -10377,7 +10377,7 @@ From the =lift . pure = pure= follows that =MonadTrans= type can have a =pure= d
 Stacking of =MonadTrans= monads can result in a lot of chained =lift= and unwraps. There is many ways to cope with that but the most robust and common is to abstract representation with =newtype= on the =Monad= stack. This can reduce caining or remove the manual lifting withing the Monad.
 For perfect combination for contributors to be able to extend the code - keep the =Internal= module that has a raw representation.
 
-** <<<Good: Don't mix Where and Let>>>
+** <<<Good: Don't mix Where and Let>>> :drill:
 :PROPERTIES:
 :ID:       0287a360-05cd-41a3-b744-2ec5af34be6a
 :END:
