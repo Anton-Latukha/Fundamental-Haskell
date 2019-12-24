@@ -8314,6 +8314,10 @@ Entire LHS is a pattern, is a lazy pattern.
 fib@(1:tfib)    = 1 : 1 : [ a+b | (a,b) <- zip fib tfib ]
 #+end_src
 
+***** /*/
+
+<<<Pattern bindings>>>
+
 *** <<<Smart constructor>>> :drill:
 SCHT: <2019-12-06 Fri>
 :PROPERTIES:
