@@ -8794,7 +8794,9 @@ in
 :ID:       db6c2ddb-9fb3-4416-81d5-bac6c8fad6a6
 :END:
 
-Part of the syntax of function declaration, has according scope.
+Part of the syntax of the whole function declaration, has according scope.
+
+As part of whole declaration - can extend over definitions of the funtion (pattern matches, guards).
 
 **** /*/
 
