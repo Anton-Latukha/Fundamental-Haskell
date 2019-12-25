@@ -2829,6 +2829,9 @@ lift :: m ~> t m
 #+end_src
 
 ********* <<<MonadIO>>> type class :drill:
+:PROPERTIES:
+:ID:       af50ee71-0b5d-4c55-912b-7ffdfdc217a1
+:END:
 
 /*/ - allows to lift IO action until reaching the IO monad layer at the top of the =Monad= stack (which is allways in the Haskell code that does IO).
 
@@ -8147,6 +8150,9 @@ $$ \iff $$
 :END:
 
 *** <<<Pattern match>>> :drill:
+:PROPERTIES:
+:ID:       fdc19b86-7e7d-465b-a6e6-0de994590325
+:END:
 
 Are not first-class. It is a set of patter match semantic notations.
 
@@ -8184,6 +8190,9 @@ f a@(x:_) = x:a -- Reuses structure without reconstruction
 <<<As patterns>>>
 
 **** <<<Wild-card>>> :drill:
+:PROPERTIES:
+:ID:       582d6116-1313-484e-a69e-7439ece1a28a
+:END:
 
 Matches anything and can not be binded. For matching someting that should pass not checked and is not used.
 
@@ -8231,6 +8240,9 @@ case () of _
 Pattern matching in function definitions is realized with case expressions.
 
 **** <<<Guard>>> :drill:
+:PROPERTIES:
+:ID:       9b4971e7-2d30-453d-abb8-44bb21c06c55
+:END:
 
 Check values against the predicate and use the first match definition:
 
@@ -8286,6 +8298,9 @@ Default in Haskell 2010.
 <<<Pattern guards>>>
 
 **** <<<Lazy pattern>>> :drill:
+:PROPERTIES:
+:ID:       82076e4d-b5fd-48e1-858b-1d15858661bb
+:END:
 
 Defers the pattern match directly to the last moment of need during execution of the code.
 
@@ -9132,6 +9147,9 @@ When type constructor and data constructor have the same name.
 Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
 
 ** <<<Haskell Language Report>>> :drill:
+:PROPERTIES:
+:ID:       6f26be1d-e057-4bcf-ad63-3e404e78db1f
+:END:
 
 Document that is a standart of language.
 
@@ -9145,6 +9163,9 @@ Document that is a standart of language.
 <<<Haskell 2010 Report>>>
 
 ** <<<Haskell'>>> :drill:
+:PROPERTIES:
+:ID:       e13a30ca-dc6a-4fb8-8a20-2476971bd70a
+:END:
 
 Current language development mod.
 
@@ -9155,6 +9176,9 @@ https://prime.haskell.org/
 <<<Haskell prime>>>
 
 ** <<<Linear>>> :drill:
+:PROPERTIES:
+:ID:       a1c01464-061f-46a0-b08f-4b98d95714d0
+:END:
 
 Values consumed once or not used.
 
@@ -9172,6 +9196,9 @@ Values consumed once or not used.
 One that has an option to fail.
 
 ** <<<Irrefutable>>> :drill:
+:PROPERTIES:
+:ID:       75553b01-1650-40f3-b87b-2e3d2afc9dc5
+:END:
 
 One that can not fail.
 
@@ -10372,6 +10399,9 @@ newtype WriterT w m a =
 =State= trait fully replaces =writer=.
 
 ** <<<Good: Working with MonadTrans and lift>>> :drill:
+:PROPERTIES:
+:ID:       052f4701-8343-4b6c-af42-b45818a00595
+:END:
 
 From the =lift . pure = pure= follows that =MonadTrans= type can have a =pure= defined with =lift=.
 
