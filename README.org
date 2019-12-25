@@ -6965,8 +6965,8 @@ SCHT: <2019-12-01 Sun>
 :END:
 
 #+begin_src haskell
-exmpl (f1 -> Pattern1) = c1
-exmpl (f1 -> Pattern2 a b) = g1 a b
+foo (f1 -> Pattern1) = c1
+foo (f1 -> Pattern2 a b) = g1 a b
 #+end_src
 (/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
 
@@ -6979,8 +6979,8 @@ Semantics:
 
 Additional possible usage:
 #+begin_src haskell
-exmpl a (f2 a -> Pattern3 b c) = g2 b c  -- only for function definitions
-exmpl ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data constructors and tuples
+foo a (f2 a -> Pattern3 b c) = g2 b c  -- only for function definitions
+foo ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data constructors and tuples
 #+end_src
 
 ***** <<<DatatypeContexts>>> :drill:
