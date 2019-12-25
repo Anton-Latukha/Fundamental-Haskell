@@ -4488,8 +4488,7 @@ SCHT: <2019-11-24 Sun>
 :DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:08]
 :END:
 
-/*/ - is a =_= or =_name= as a part of the evaluating expression.
-On evaluation of the /*/ GHC would show the derived type information to help fill in the gap.
+/*/ - is a =_= or =_name= in the expression. On evaluation GHC would show the derived type information which should be in place of the /*/. That information helps to fill in the gap.
 
 **** /*/
 
