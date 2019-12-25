@@ -1964,7 +1964,7 @@ SCHT: <2019-11-20 Wed>
 :DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:12]
 :END:
 
-Monad corresponds to functor laws and applicative laws and additionally:
+Monad corresponds to functor laws & applicative laws and additionally:
 
 ******* /*/
 <<<Monad laws>>>
