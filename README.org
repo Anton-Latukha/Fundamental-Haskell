@@ -3468,7 +3468,7 @@ SCHT: <2019-12-04 Wed>
 
 Isomorphic endomorphism.
 
-Corresponds to identity, reflexivity.
+Corresponds to identity, reflexivity, permutation.
 
 ****** /*/
 
