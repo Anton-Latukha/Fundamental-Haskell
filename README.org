@@ -10005,10 +10005,10 @@ SCHT: <2019-12-06 Fri>
 
 Function application on n levels beneath:
 #+begin_src haskell
-(fmap.fmap) function twoLevelStructure
+(fmap . fmap) function twoLevelStructure
 #+end_src
 
-How fmap.fmap typechecks:
+How =fmap . fmap= typechecks:
 #+begin_src haskell
 (.)         :: (b -> c) -> (a -> b) -> a -> c
 fmap        :: Functor f => (m -> n) -> f m -> f n
