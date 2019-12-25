@@ -2192,11 +2192,11 @@ SCHT: <2019-12-02 Mon>
 :END:
 
 Discard any resulting value of the action and sequence next action.
+Applicative has a similar operator.
 #+begin_src haskell
 (>>) :: m a -> m b -> m b
 (*>) :: f a -> f b -> f b
 #+end_src
-Applicative has a similar operator.
 
 ******* Monadic versions of list functions :drill:
 :PROPERTIES:
