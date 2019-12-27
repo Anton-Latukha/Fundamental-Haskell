@@ -5333,9 +5333,9 @@ SCHT: <2019-12-14 Sat>
 :DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:09]
 :END:
 
-/*/ means bing properly abstracted.
+/*/ means properly abstracted.
 
-The contrary of it - abstraction called unpure.
+If the contrary - abstraction is unpure.
 
 Also see: pure function.
 
