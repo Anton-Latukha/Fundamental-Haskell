@@ -4613,17 +4613,17 @@ With unlifted types Haskel type system directly manages data in the hardware.
 :END:
 
 **** <<<Cons cell>>> :drill:
-SCHT: <2019-12-09 Mon>
+SCHT: <2020-01-05 Sun>
 :PROPERTIES:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.7892
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:20]
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:58]
 :END:
 
 Cell that values may inhabit.
@@ -5649,17 +5649,17 @@ Expression, logical function that is/can produce a proposition.
 <<<wffs>>>
 
 ** <<<Fundamental theorem of algebra>>> :drill:
-SCHT: <2019-12-08 Sun>
+SCHT: <2020-01-05 Sun>
 :PROPERTIES:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 8.7082
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-04 Wed 23:03]
+:DRILL_AVERAGE_QUALITY: 3.182
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:58]
 :END:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -5708,17 +5708,17 @@ Meaning can be special for language speakers or human with particular knowledge.
 <<<Idiomatic>>>
 
 ** <<<Impredicative>>> :drill:
-SCHT: <2019-12-08 Sun>
+SCHT: <2020-01-06 Mon>
 :PROPERTIES:
 :ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 10.0669
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-04 Wed 23:03]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:58]
 :END:
 
 Self-referencing definition.
@@ -5898,17 +5898,17 @@ No beta reduction is possible.
 <<<Beta-normal form>>>
 
 *** <<<Calculus of constructions>>> :drill:
-SCHT: <2019-12-09 Mon>
+SCHT: <2020-01-05 Sun>
 :PROPERTIES:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:28]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:59]
 :END:
 
 Extends the Curry–Howard correspondence to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
@@ -6157,17 +6157,17 @@ $$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
 Shift
 
 ** <<<Permutation>>> :drill:
-SCHT: <2019-12-06 Fri>
+SCHT: <2020-02-18 Tue>
 :PROPERTIES:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
-:DRILL_LAST_INTERVAL: 23.3939
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 53.3381
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.001
+:DRILL_AVERAGE_QUALITY: 3.092
 :DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:27]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:57]
 :END:
 
 Bijective function from domain to itself.
@@ -6525,17 +6525,17 @@ For exampe - if fold over a dynamic array:
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 
 ** <<<Pragma>>> :drill:
-SCHT: <2019-12-06 Fri>
+SCHT: <2020-09-20 Sun>
 :PROPERTIES:
 :ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
-:DRILL_LAST_INTERVAL: 89.5155
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:56]
 :END:
 
 Pragma - instruction to the compiler that specifies how a compiler should process the code.
@@ -8357,17 +8357,17 @@ SCHT: <2020-09-18 Fri>
 Process/code placing extra rules & constraints on the construction of values.
 
 *** <<<Level of code>>> :drill:
-SCHT: <2019-12-06 Fri>
+SCHT: <2020-09-20 Sun>
 :PROPERTIES:
 :ID:       c0196ee9-7ddc-4b66-b2bb-0d52f1051d75
-:DRILL_LAST_INTERVAL: 89.5155
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.9
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-07 Sat 22:37]
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:57]
 :END:
 
 There are these levels of Haskell code:
@@ -9003,17 +9003,17 @@ Extends the Lambda calculus by introducing $$ \forall $$ (universal quantifier) 
 <<<Girard-Raynolds>>>
 
 *** <<<Tail call>>> :drill:
-SCHT: <2019-12-06 Fri>
+SCHT: <2020-04-19 Sun>
 :PROPERTIES:
 :ID:       0d5c9709-660d-47c7-b573-7dd06d9cb936
-:DRILL_LAST_INTERVAL: 49.4324
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 113.5462
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.364
-:DRILL_EASE: 2.38
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:23]
+:DRILL_AVERAGE_QUALITY: 3.334
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:56]
 :END:
 
 Final evaluation inside the function. Produces the function result.
