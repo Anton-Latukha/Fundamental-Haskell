@@ -6463,7 +6463,7 @@ In Haskell - abstract over data types.
 :DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:48]
 :END:
 
-Levity polymprphism is when polymorphism works with lifted and unlifted types.
+/*/ - extending polymorphism to works with unlifted and lifted types.
 
 *** <<<Parametric polymorphism>>> :drill:
 :PROPERTIES:
