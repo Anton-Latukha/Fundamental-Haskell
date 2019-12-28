@@ -4849,7 +4849,7 @@ TypeClass a => ...
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
 :END:
 
-What values inhabit data type
+Values that is a component of data type set.
 
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
