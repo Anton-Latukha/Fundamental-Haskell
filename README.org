@@ -4372,8 +4372,17 @@ Useful function is arbitrary - that autogenerates values.
 Depends on type and generates values of that type.
 
 **** <<<CoArbitrary type class>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:59]
 :END:
 
 Pseudogenerates a function basing on resulting type.
@@ -4845,8 +4854,17 @@ TypeClass a => ...
 <<<Contexts>>>
 
 *** <<<Inhabit>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:37]
 :END:
 
 Values that is a component of data type set.
@@ -7262,6 +7280,14 @@ Philosophical study of meaning.
 *** <<<Operational semantics>>> :drill:
 :PROPERTIES:
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:34]
 :END:
 
 Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
