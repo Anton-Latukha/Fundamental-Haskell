@@ -6399,6 +6399,14 @@ In Haskell - abstract over data types.
 *** <<<Levity polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:48]
 :END:
 
 Levity polymprphism is when polymorphism works with lifted and unlifted types.
@@ -7939,6 +7947,14 @@ SCHT: <2020-02-22 Sat>
 *** <<<Non-associative>>> :drill:
 :PROPERTIES:
 :ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:47]
 :END:
 
 /*/ - operations can't be chained. Often because the output type is incompatible with the input type.
@@ -8006,8 +8022,17 @@ Set S and two binary operators + \times:
 <<<Distributive>>>
 
 ** <<<Backpack>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:47]
 :END:
 
 On first compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, and process does not emitt any binary code. Storing the intermediate code in a special form that allows flexibily connect modules provided. That allows later to compile project with particular instanciations of the modules, major work being done by internal Cabal Backpack support and Backpack system that modifies the intermediate code to fit the module.
@@ -8977,17 +9002,17 @@ f x =
 :END:
 
 *** <<<Guerrilla patch>>> :drill:
-SCHT: <2019-12-26 Thu>
+SCHT: <2020-09-21 Mon>
 :PROPERTIES:
 :ID:       500e9e31-5960-4275-a8e3-3190b3b63f8f
-:DRILL_LAST_INTERVAL: 89.5285
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 268.496
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:12]
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:47]
 :END:
 
 /*/ changing code/applying patch sneakily - and possibility incompatibility with other at runtime.
@@ -9221,16 +9246,17 @@ Immidiate successor.
 Object that sends arrow.
 
 **** <<<Direct predecessor>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       4ddb51b6-c250-4a00-9029-ed90b86ca085
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:45]
 :END:
 
 Immidiate predecessor.
