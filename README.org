@@ -5659,7 +5659,7 @@ Funciton application has presedence higher then all infix operators/functions (v
 |  8 |          |                     | ^ ^^ **    |
 |  7 | */ `div` |                     |            |
 |  6 | +-       |                     |            |
-|  5 |          |                     | :, ++      |
+|  5 |          |                     | : , ++     |
 |  4 |          | <comparison> `elem` |            |
 |  3 |          |                     | &&         |
 |  2 |          |                     | OR         |
