@@ -10138,10 +10138,10 @@ print a = putStrLn (show a)
 :ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
 :END:
 
-foldr spine recursion intermediated by the folding
-foldl spine folding is unconditional, then solding starts.
+=foldr= spine recursion intermediated by the folding
+=foldl= spine folding is unconditional, then solding starts.
 
-So foldr can terminate at any point, while foldl unconditionally recurses across the spine, even if it infinite.
+So =foldr= can terminate at any point, while =foldl= unconditionally recurses across the spine, even if it infinite.
 
 ** <<<Good: Computation model>>> :drill:
 SCHT: <2020-09-18 Fri>
