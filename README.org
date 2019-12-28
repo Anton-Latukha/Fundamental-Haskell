@@ -2038,16 +2038,17 @@ Explanation:
 AKA it is a tacit description of a monad bind as endofunctor.
 
 ******* <<<Monad associativity law>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:15]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:25]
 :END:
 
 #+begin_src haskell
@@ -4760,8 +4761,17 @@ data NonEmpty a = a :| [a]
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 
 *** <<<Session type>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       4554aa14-760c-41f0-a9fc-69cc3f7fa66a
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:25]
 :END:
 
 /*/ - allows to check that behaviour conforms to the protocol.
@@ -7394,16 +7404,17 @@ Well-defined collection of distinct objects.
 <<<Set theory>>>
 
 *** <<<Closed set>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:13]
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:25]
 :END:
 
 Closed set - a set whose complement is an open set.
