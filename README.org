@@ -4766,7 +4766,8 @@ data NonEmpty a = a :| [a]
 
 /*/ - allows to check that behaviour conforms to the protocol.
 
-So far very complex not very productive (& well-established) topic.
+So far very complex, not very productive (or well-established) topic.
+
 *** <<<Binary tree>>> :drill:
 SCHT: <2020-02-27 Thu>
 :PROPERTIES:
