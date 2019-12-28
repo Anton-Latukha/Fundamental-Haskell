@@ -6450,13 +6450,13 @@ Parametric polymorphism in rank-1 types by type variables.
 
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
-It means that to have strict type inference - if `let` and `where` declarations a polymorphic - $\lambda$ declarations - should be not.
-So:
+/*/ to have strict type inference - if `let` and `where` declarations are polymorphic - $\lambda$ declarations - should be not.
+
+So this is illegal in Haskell:
 #+begin_src haskell
 foo :: (Int, Char)
 foo = (\f -> (f 1, f 'a')) id
 #+end_src
-Is illegal in Haskell.
 
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 
