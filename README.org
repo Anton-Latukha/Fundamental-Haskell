@@ -7264,7 +7264,7 @@ Philosophical study of meaning.
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
 :END:
 
-Properties, such as correctness, safety or security, are verified by constructing proofs from logical assertion s about execution and procedures.
+Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
 
 Good to solve in-point localized tasks.
 Process of abstraction.
