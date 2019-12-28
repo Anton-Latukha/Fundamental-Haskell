@@ -1802,8 +1802,17 @@ Only when =False= - perform an applicative computation.
 :END:
 
 ****** <<<Identity applicative>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       72602f6e-4290-4db5-bd26-f6abe614384d
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:13]
 :END:
 
 #+begin_src haskell
@@ -2031,6 +2040,14 @@ AKA it is a tacit description of a monad bind as endofunctor.
 ******* <<<Monad associativity law>>> :drill:
 :PROPERTIES:
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:15]
 :END:
 
 #+begin_src haskell
@@ -4290,8 +4307,17 @@ In most languages typing is name-based, not structural.
 <<<Structural typing>>>
 
 *** <<<Sum data type>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:11]
 :END:
 
 Algebraic data type formed by logical disjunction (OR '|').
@@ -5644,8 +5670,17 @@ Form of writing of operator or function in-between variables for application.
 For priorities see Fixity.
 
 *** <<<Fixity>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       b8e36421-2fbb-4c67-881d-e40e105f73c1
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:11]
 :END:
 
 Declares the presedence of action of a function/operator.
@@ -7278,16 +7313,17 @@ SCHT: <2020-01-01 Wed>
 Philosophical study of meaning.
 
 *** <<<Operational semantics>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:34]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:00]
 :END:
 
 Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
@@ -7359,6 +7395,14 @@ Well-defined collection of distinct objects.
 *** <<<Closed set>>> :drill:
 :PROPERTIES:
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:13]
 :END:
 
 Closed set - a set whose complement is an open set.
