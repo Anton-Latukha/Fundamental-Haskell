@@ -7805,7 +7805,7 @@ Property that determines how operators of the same precedence are grouped, (in c
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 
-In Haskell /*/ has influence when compounds have same fixity.
+In Haskell /*/ has influence on parsing when compounds have same fixity.
 
 **** /*/
 
