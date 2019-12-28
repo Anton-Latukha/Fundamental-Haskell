@@ -5643,6 +5643,9 @@ Funciton application has presedence higher then all infix operators/functions (v
 
 <<<Infixl>>>
 <<<Infixr>>>
+<<<Priority>>>
+<<<Precedence>>>
+
 *** <<<Well-formed formula>>> :drill:
 :PROPERTIES:
 :ID:       714fb9d5-19c8-44ba-9927-eccce436a1f3
