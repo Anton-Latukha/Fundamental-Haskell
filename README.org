@@ -1332,8 +1332,17 @@ From the name, in this Category:
   * morphisms are natural transformations between endofunctors
 
 *** <<<Functor>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:21]
 :END:
 
 /*/ full translation (map) of one category into another.
@@ -6485,8 +6494,17 @@ If it can be done to T, and there is subtype S - then it also can be done to S.
 $$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
 
 *** <<<Row polymorphism>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       18e7413e-72cc-4ab6-8c9e-1591f4b00606
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:22]
 :END:
 
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
@@ -7210,15 +7228,33 @@ Is not directed and not limited.
 <<<Relationship>>>
 
 ** <<<REPL>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:22]
 :END:
 
 Interactive CLI. Read-eval-print loop.
 
 ** <<<Semantics>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:23]
 :END:
 
 Philosophical study of meaning.
@@ -9985,8 +10021,17 @@ h (g (f i))
 #+end_src
 
 ** <<<Good: Point-free>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       62f8356a-69a2-46e9-ab0f-1a9b5bdfe797
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:25]
 :END:
 
 Use Tacit very carefully - it hides types and harder to change code where it is used.
