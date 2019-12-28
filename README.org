@@ -1211,8 +1211,17 @@ Most often:
 <<<Bindings>>>
 
 ** <<<Cartesian product>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:57]
 :END:
 
 $$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
@@ -1311,8 +1320,17 @@ Basic examples of /*/:
 <<<Abelian categories>>>
 
 *** <<<Composition>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:57]
 :END:
 
 Axiom of Category.
@@ -2279,8 +2297,17 @@ sum  :: (Foldable t, Num a)       => t    a  ->   a
 :END:
 
 ******** <<<liftM>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       10f01bcb-ef2b-45c5-b950-6f2cb56eb908
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:59]
 :END:
 
 Essentially a fmap.
@@ -3788,8 +3815,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:00]
 :END:
 
 /*/ is a family of morphisms parametrized by type (parametric polymorphism functions) between endofunctors (Functor, Applicative, Monad).
@@ -4106,8 +4142,17 @@ data [context =>] type typeVars1..n
 #+end_src
 
 *** <<<Dependent type>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:59]
 :END:
 
 When type and values have relation between them. Type has restrictions for values, value of a type variable has a result on the type.
@@ -4696,8 +4741,17 @@ Cell that values may inhabit.
 <<<Cons>>>
 
 **** <<<Leaf>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:00]
 :END:
 
  _
@@ -6446,6 +6500,14 @@ Parametric polymorphism in rank-1 types by type variables.
 **** <<<Let-bound polymorphism>>> :drill:
 :PROPERTIES:
 :ID:       f415a2f4-8f66-483d-9b75-70b3e5fe4b89
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:56]
 :END:
 
 It is property chosen for Haskell type system.
@@ -7008,6 +7070,14 @@ Allow tuple section syntax:
 ***** <<<TypeApplications>>> :drill:
 :PROPERTIES:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:58]
 :END:
 
 Allow type application syntax:
@@ -10523,6 +10593,14 @@ Number - =Sum=, =Product= form separate monoid categories.
 ** <<<Good: Free monad>>> :drill:
 :PROPERTIES:
 :ID:       e5c45f71-de00-48fb-bb31-a65a2893abdc
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:01]
 :END:
 
 The main case of usage of Free monads in Haskell:
