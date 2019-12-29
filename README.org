@@ -10134,8 +10134,17 @@ print a = putStrLn (show a)
 #+end_src
 
 ** <<<Good: Fold>>> :drill:
+SCHT: <2020-01-01 Wed>
 :PROPERTIES:
 :ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:41]
 :END:
 
 =foldr= spine recursion intermediated by the folding
