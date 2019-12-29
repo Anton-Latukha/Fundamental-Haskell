@@ -4791,7 +4791,7 @@ SCHT: <2020-09-18 Fri>
 
 Type system and algebra that also track the multiplicity of data.
 There are 3 general linear type groups:
- * 0 - exists only at type level and is not allowed to be used at value level. Aka `s` in ST-Trick.
+ * 0 - exists only at type level and is not allowed to be used at value level. Aka =s= in ST-Trick.
  * 1 - data that is not duplicated
  * 1< - all other data, that can be duplicated multiple times.
 
