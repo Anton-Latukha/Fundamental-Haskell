@@ -7179,7 +7179,8 @@ data Eq a => Set a = NilSet | ConsSet a (Set a)
 Considered misfeature. Deprecated. Going to be removed.
 
 **** How to make a GHC LANGUAGE extension
-In `libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs` add new constructor to the `Extension` type
+
+In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
 #+begin_src haskell
 data Extension
   = Cpp
