@@ -6599,7 +6599,7 @@ f1 = -- ...
 f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
 f2 = -- ...
 #+end_src
-By moving `forall` inside the function - we can achive higher-rank polymorphism.
+By moving =forall= inside the function - we can achive higher-rank polymorphism.
 
 From: https://news.ycombinator.com/item?id=8130861
 #+begin_src text
