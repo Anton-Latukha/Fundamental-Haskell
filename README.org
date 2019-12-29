@@ -1923,7 +1923,7 @@ SCHT: <2020-01-19 Sun>
 
 The Validation data type isomorphic to Either, but has accumulative Applicative on the Left side.
 Validation data type is not a monad. Validation is an example of, "An applicative functor that is not a monad."
-While Either monad on Left case just drops computation and returns this first Left. 
+While Either monad on =Left= case just drops computation and returns this first =Left=. 
 Monad needs to process the result of computation - it requires to be able to process all Left error statement cases for Validation, it is or non-terminaring Monad or one which is impossible to implement in polymorphic way with Validation.
 
 ***** <<<Monad>>> :drill:
