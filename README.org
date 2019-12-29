@@ -10208,7 +10208,7 @@ SCHT: <2020-01-26 Sun>
 :END:
 
 Product types can be tested as a product of random generators.
-Sum types require to implement generators with separate constructors, and picking one of them, use `oneof` or `frequency` to pick generators.
+Sum types require to implement generators with separate constructors, and picking one of them, use =oneof= or =frequency= to pick generators.
 
 ** <<<Good: Principle of Separation of concerns>>> :drill:
 :PROPERTIES:
