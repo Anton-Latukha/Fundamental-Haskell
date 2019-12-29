@@ -2155,7 +2155,7 @@ Nonstrict.
 join :: Monad m => m (m a) -> m a
 #+end_src
 Flattens two layers of structure into one.
-Join is a generalization of `concat`.
+Join is a generalization of =concat=.
 
 The way to express ordering in lambda calculus is to nest.
 
