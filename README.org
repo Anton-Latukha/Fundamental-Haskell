@@ -6512,7 +6512,7 @@ Parametric polymorphism in rank-1 types by type variables.
 
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
-/*/ to have strict type inference - if `let` and `where` declarations are polymorphic - $\lambda$ declarations - should be not.
+/*/ to have strict type inference - if =let= and =where= declarations are polymorphic - $\lambda$ declarations - should be not.
 
 So this is illegal in Haskell:
 #+begin_src haskell
