@@ -1903,9 +1903,9 @@ pure :: a -> M a
 :ID:       f85602e3-3339-4ab7-ac38-5025b8aa6828
 :END:
 
-`pure` is `Right`.
-Defaults to `Left`.
-And if there is two Left's - to Left of the first argument.
+=pure= is =Right=.
+Defaults to =Left=.
+And if there is two =Left='s - to Left of the first argument.
 
 ****** <<<Validation applicative>>> :drill:
 SCHT: <2020-01-19 Sun>
