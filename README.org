@@ -7188,7 +7188,7 @@ data Extension
   | Foo
 #+end_src
 
-`/main/DynFlags.hs` extend `xFlagsDeps`:
+=/main/DynFlags.hs= extend =xFlagsDeps=:
 #+begin_src haskell
 xFlagsDeps = [
   flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
