@@ -850,6 +850,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-working-with-monadtrans-and-lift][<<<Good: Working with MonadTrans and lift>>>]]
   - [[#good-dont-mix-where-and-let][<<<Good: Don't mix Where and Let>>>]]
   - [[#good-where-vs-let][<<<Good: Where vs. Let>>>]]
+  - [[#good-sometimes-the-proper-nature-algorithm-is-not-a-computation-way][<<<Good: Sometimes the proper nature algorithm is not a computation way>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -10703,6 +10704,17 @@ For perfect combination for contributors to be able to extend the code - keep th
 Let is self-recursive lazy pattern. It is checked and errors only at execution time. Binds only inside expression it is binded to.
 
 Where is a part of definition, scoped over definition implemetations and guards, not self-recursive.
+
+** <<<Good: Sometimes the proper nature algorithm is not a computation way>>> :drill:
+:PROPERTIES:
+:ID:       9ed1a3db-196a-4994-bf3f-372880a9cc72
+:END:
+
+#+begin_quote
+God does not care about our mathematical difficulties. He integrates empirically.
+#+end_quote
+
+Knowing math meaning love to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
 
 * Bad code :drill:
 :PROPERTIES:
