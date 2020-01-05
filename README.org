@@ -10716,6 +10716,8 @@ God does not care about our mathematical difficulties. He integrates empirically
 
 Knowing math meaning love to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
 
+Computation of nature is always a middle way between ideal theory behaviour and computation simplification.
+
 * Bad code :drill:
 :PROPERTIES:
 :ID:       e60a3084-2f70-4363-8f47-6df2e610d4ad
