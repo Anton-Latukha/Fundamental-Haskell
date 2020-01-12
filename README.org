@@ -3479,7 +3479,7 @@ $$ f^{-1, b \to a} \circ f^{a \to b} \equiv 1^a, \; f^{a \to b} \circ f^{-1, b \
   * function at least ones collapses a values of domain into one value in codomain
   * image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 
-Categories are isomorphic if there $$ R ∘ L = ID
+Categories are isomorphic if there $$ R ∘ L = ID $$
 
 ***** /*/
 
