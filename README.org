@@ -851,6 +851,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#good-dont-mix-where-and-let][<<<Good: Don't mix Where and Let>>>]]
   - [[#good-where-vs-let][<<<Good: Where vs. Let>>>]]
   - [[#good-the-proper-nature-algorithm-that-models-behaviour-of-many-objects-is-computation-heavy][<<<Good: The proper nature algorithm that models behaviour of many objects is computation heavy>>>]]
+  - [[#good-in-haskell-parameters-bound-by-lambda-declaration-instantiate-to-only-one-concrete-type][<<<Good: In Haskell parameters bound by lambda declaration instantiate to only one concrete type>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -10719,6 +10720,21 @@ God does not care about our mathematical difficulties. He integrates empirically
 Knowing math meaning love to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
 
 Computation of nature is always a middle way between ideal theory behaviour and computation simplification.
+
+** <<<Good: In Haskell parameters bound by lambda declaration instantiate to only one concrete type>>> 
+:PROPERTIES:
+:ID:       25061918-c9bb-42b8-a7a5-13e109f44c53
+:END:
+
+Because of let-bound polymorphism:
+
+This is illegal in Haskell:
+#+begin_src haskell
+foo :: (Int, Char)
+foo = (\f -> (f 1, f 'a')) id
+#+end_src
+
+Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 
 * Bad code :drill:
 :PROPERTIES:
