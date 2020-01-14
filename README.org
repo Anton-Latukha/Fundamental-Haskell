@@ -10615,7 +10615,7 @@ Number - =Sum=, =Product= form separate monoid categories.
 
 The main case of usage of Free monads in Haskell:
 
-Right away start implementation of a monad with a Free monad, with base monadic operations, then add custom operations.
+Start implementation of the monad from a Free monad, drafting the base monadic operations, then add custom operations.
 
 Gradually build on top of Free monad and try to find homomorphisms from monad to objects, and if only objects are needed - get rid of the free monad.
 
