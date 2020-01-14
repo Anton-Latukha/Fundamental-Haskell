@@ -6464,7 +6464,7 @@ In Haskell - abstract over data types.
 :DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:48]
 :END:
 
-/*/ - extending polymorphism to works with unlifted and lifted types.
+/*/ - extending polymorphism to work with unlifted and lifted types.
 
 *** <<<Parametric polymorphism>>> :drill:
 :PROPERTIES:
