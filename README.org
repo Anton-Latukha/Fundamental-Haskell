@@ -3066,7 +3066,7 @@ SCHT: <2019-12-16 Mon>
 :DRILL_LAST_REVIEWED: [2019-09-17 Tue 21:20]
 :END:
 
-Magma with associative property.
+Magma with associative property of operation.
 
 Defined in Haskell as:
 #+begin_src haskell
