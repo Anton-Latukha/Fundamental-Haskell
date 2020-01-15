@@ -4330,7 +4330,7 @@ Haskell definition:
 data [] a = [] | a : [a]
 #+end_src
 
-Definition is self-referrential (self-recursive), can be seen as anamorphism (unfold) of the =[]= (empty list, memory cell which is container of particular type) and =:= (cons operation, pointer). As such - they are can create non-terminating data type (and computation), in other words - infinite.
+Definition is self-referrential (self-recursive), can be seen as anamorphism (unfold) of the =[]= (empty list, memory cell which is container of particular type) and =:= (cons operation, pointer). As such - can create non-terminating data type (and computation), in other words - infinite.
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
