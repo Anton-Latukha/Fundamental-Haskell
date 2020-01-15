@@ -15,7 +15,12 @@
 
 Important notes on Haskell, category & related fields.
 
-GitHub&GitLab parse Org into HTML only partially. Good quality HTML export is in the `README.html`, it is hosted at https://blog.latukha.com/haskell-notes.
+Source code:
+ * GitHub: https://github.com/Anton-Latukha/haskell-notes
+ * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
+ * Web book: https://blog.latukha.com/haskell-notes
+
+GitHub & GitLab parse Org into HTML only partially. Good quality HTML export is in the =README.html=.
 
 This is complex Org notes file with LaTeX formulas.
 To get:
@@ -27,6 +32,7 @@ use capable editor.
 If something - =<<<This is a radio target>>>= - for =org-mode= linking.
 
 Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
+
 #+begin_src elisp
 ;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as '_Radio_targets_' when `org-descriptive-links` set
 ;;;; This is improvement of the code from: Tobias&glmorous: https://emacs.stackexchange.com/questions/19230/how-to-hide-targets
