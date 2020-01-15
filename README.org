@@ -4296,22 +4296,23 @@ Denotation:
 ( , , ... )
 #+end_src
 
-Data type that stores multiple ordered values withing a single value.
-Tuples by arity:
-  * empty, unit          - 0
-  * <<<tuple>>>, pair, <<<two-tuples>>>     - 2
-  * <<<thriple>>>, three-tuple - 3
+In Haskell: Data type that stores multiple ordered values withing a single value.
 
+#+caption: Sequence constructor naming by arity
+#+name:   tab:sequence-names
+| Name                   | Arity | Denotation |
+|------------------------+-------+------------|
+| Unit, empty            |     0 | =()=         |
+| Singleton              |     1 | =(_)=        |
+| <<<Tuple>>>, pair, <<<two-tuple>>> |     2 | =( , )=      |
+| <<<Triple>>>, three-tuple    |     3 | =( , , )=    |
+| Sequence, list         |     N | =( , , ...)= |
 
 ***** /*/
 
-Tuple
-Tuples
-Ordered pair
-Ordered pairs
-Ordered triple
-Ordered triples
-
+<<<Tuples>>>
+<<<Ordered pair>>>
+<<<Ordered triple>>>
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
