@@ -1079,6 +1079,8 @@ SCHT: <2020-03-16 Mon>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:27]
 :END:
 
+#+caption: Ancient Greek and Latin prefixes
+#+name: tab:ancient-greek-latin-prefixes
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
