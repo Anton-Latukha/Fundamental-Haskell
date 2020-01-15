@@ -285,6 +285,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#-70][/*/]]
       - [[#sequence][<<<Sequence>>>]]
         - [[#-71][/*/]]
+        - [[#list][<<<List>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
@@ -4308,6 +4309,28 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 <<<Tuples>>>
 <<<Ordered pair>>>
 <<<Ordered triple>>>
+
+***** <<<List>>>
+:properties:
+:ID:       935629ed-4dee-43ef-9eff-51de168656d7
+:end:
+
+The same type objects sequence.
+
+Denotation:
+#+begin_src haskell
+[]
+[ , ]
+[ , , ]
+[ , , ... ]
+#+end_src
+
+Haskell definition:
+#+begin_src haskell
+data [] a = [] | a : [a]
+#+end_src
+
+Definition is self-referrential (self-recursive), can be seen as anamorphism (unfold) of the =[]= (empty list, memory cell which is container of particular type) and =:= (cons operation, pointer).
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
