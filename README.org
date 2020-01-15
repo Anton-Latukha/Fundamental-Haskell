@@ -4300,10 +4300,10 @@ Enumerated collection of objects.
 
 Denotation:
 #+begin_src haskell
-() \newline
-( , ) \newline
-( , , ) \newline
-( , , ... ) \newline
+()
+( , )
+( , , )
+( , , ... )
 #+end_src
 
 More general mathematical denotation was not established, variants:
