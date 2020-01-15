@@ -1982,7 +1982,7 @@ ap == (<*>) -- + Monad requirement
 
 #+caption: Monad in mathematics and Haskell
 #+name: tab:monad-in-mathematics-haskell
-| Mathematics                                  | Haskell                                   | Math meaning                                                     |
+| Mathematics                                  | Haskell                                   | Mathematical meaning                                             |
 |----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
 | $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | endofunctor (in Haskell power set functor used) |
 | $$ \eta_{ID \to E} $$        | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
