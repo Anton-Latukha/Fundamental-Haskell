@@ -291,7 +291,6 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#structural-type-system][<<<Structural type system>>>]]
       - [[#-72][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
-    - [[#tuple][<<<Tuple>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
       - [[#-73][/*/]]
@@ -339,6 +338,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#inhabit][<<<Inhabit>>>]]
     - [[#sequence][<<<Sequence>>>]]
       - [[#-87][/*/]]
+      - [[#tuple][<<<Tuple>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-88][/*/]]
@@ -4371,17 +4371,6 @@ SCHT: <2020-01-01 Wed>
 
 Algebraic data type formed by logical disjunction (OR '|').
 
-*** <<<Tuple>>> :drill:
-:PROPERTIES:
-:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
-:END:
-
-Data type that stores multiple ordered values withing a single value.
-Tuples by arity:
-  * empty, unit          - 0
-  * pair, <<<two-tuples>>>     - 2
-  * <<<thriple>>>, three-tuple - 3
-
 *** <<<Type alias>>> :drill:
 SCHT: <2020-01-26 Sun>
 :PROPERTIES:
@@ -4983,6 +4972,17 @@ Ordered pair
 Ordered pairs
 Ordered triple
 Ordered triples
+
+**** <<<Tuple>>> :drill:
+:PROPERTIES:
+:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
+:END:
+
+Data type that stores multiple ordered values withing a single value.
+Tuples by arity:
+  * empty, unit          - 0
+  * pair, <<<two-tuples>>>     - 2
+  * <<<thriple>>>, three-tuple - 3
 
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
