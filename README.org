@@ -286,7 +286,6 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#-70][/*/]]
       - [[#sequence][<<<Sequence>>>]]
         - [[#-71][/*/]]
-        - [[#tuple][<<<Tuple>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
@@ -4297,6 +4296,11 @@ Denotation:
 ( , , ... )
 #+end_src
 
+Data type that stores multiple ordered values withing a single value.
+Tuples by arity:
+  * empty, unit          - 0
+  * <<<tuple>>>, pair, <<<two-tuples>>>     - 2
+  * <<<thriple>>>, three-tuple - 3
 
 
 ***** /*/
@@ -4308,16 +4312,6 @@ Ordered pairs
 Ordered triple
 Ordered triples
 
-***** <<<Tuple>>> :drill:
-:PROPERTIES:
-:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
-:END:
-
-Data type that stores multiple ordered values withing a single value.
-Tuples by arity:
-  * empty, unit          - 0
-  * pair, <<<two-tuples>>>     - 2
-  * <<<thriple>>>, three-tuple - 3
 
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
