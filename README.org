@@ -4306,7 +4306,7 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 | Singleton              |     1 | =(_)=        |
 | <<<Tuple>>>, pair, <<<two-tuple>>> |     2 | =( , )=      |
 | <<<Triple>>>, three-tuple    |     3 | =( , , )=    |
-| Sequence, list         |     N | =( , , ...)= |
+| Sequence         |     N | =( , , ...)= |
 
 ***** /*/
 
