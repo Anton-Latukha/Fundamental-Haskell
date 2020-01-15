@@ -10763,7 +10763,7 @@ Where is a part of definition, scoped over definition implemetations and guards,
 God does not care about our mathematical difficulties. He integrates empirically.
 #+end_quote
 
-Knowing math meaning love to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
+One who is found of mathematical meaning loves to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
 
 Computation of nature is always a middle way between ideal theory behaviour and computation simplification.
 
