@@ -332,7 +332,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#bound][<<<Bound>>>]]
       - [[#-84][/*/]]
     - [[#constructor][<<<Constructor>>>]]
-    - [[#-85][/*/]]
+      - [[#-85][/*/]]
     - [[#context][<<<Context>>>]]
       - [[#-86][/*/]]
     - [[#inhabit][<<<Inhabit>>>]]
@@ -4908,7 +4908,7 @@ SCHT: <2020-10-08 Thu>
 
 Also see: Constant
 
-*** /*/
+**** /*/
 
 <<<Constructors>>>
 
