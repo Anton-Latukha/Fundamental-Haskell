@@ -5799,6 +5799,8 @@ Declares the presedence of action of a function/operator.
 
 Funciton application has presedence higher then all infix operators/functions (virtually giving it a priority 10).
 
+#+caption: Haskell operators priority and fixity association
+#+name: tab:haskell-operator-priority-fixity-association
 |  P | L        | Non                 | R          |
 |----+----------+---------------------+------------|
 | 10 |          |                     | F.A.       |
