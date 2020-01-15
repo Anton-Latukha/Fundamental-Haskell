@@ -5937,8 +5937,8 @@ IO action can be evaluated multiple times.
 IO data type has unpure imperative actions inside. Haskell is pure Lambda calculus, and unpure IO integrates in the Haskell purely (type system abstracts IO unpurity inside IO data type).
 
 IO sequences effect computation one after another in order of needed computation, or occurence:
+
 #+begin_src haskell
-:{
 twoBinds :: IO ()
 twoBinds =
   putStrLn "First:" >>
@@ -5951,7 +5951,6 @@ twoBinds =
     ++ a ++ ".\nSecond "
     ++ b ++ ".")
 main = twoBinds
-:}
 #+end_src
 
 Sequencing is achieved by compilation of effects performing only while they recieve the sugared-in & passed around the =RealWorld= fake type value, that value in the every computation gets the new "value" and then passed to the next requestes computation. But special thing is about this parameter, this =RealWorld= type value passed, but never looked at. GHC realizes, since value is never used, - it means value and type can be equated to =()= and moreover reduced from the code, and sequencing stays.
