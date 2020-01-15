@@ -4306,6 +4306,11 @@ Denotation:
 ( , , ... ) \newline
 #+end_src
 
+More general mathematical denotation was not established, variants:
+$$ (n)_{n \in \mathbb{N}} $$
+$$ \omega \to X $$
+$$ \{ i:Ord \ | \ i < \alpha \} $$
+
 In Haskell: Data type that stores multiple ordered values withing a single value.
 
 #+caption: Sequence constructor naming by arity
