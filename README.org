@@ -234,9 +234,9 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
           - [[#-53][/*/]]
           - [[#hylomorphism][<<<Hylomorphism>>>]]
             - [[#-54][/*/]]
+        - [[#anamorphism-1][<<<Anamorphism>>>]]
       - [[#kernel][<<<Kernel>>>]]
         - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
-      - [[#anamorphism-1][<<<Anamorphism>>>]]
     - [[#object][<<<Object>>>]]
       - [[#-55][/*/]]
       - [[#terminal-object][<<<Terminal object>>>]]
@@ -3609,6 +3609,23 @@ Expanding and collapsing the structure.
 <<<Hylomorphic>>>
 <<<Hylomorphisms>>>
 
+***** <<<Anamorphism>>> :drill:
+SCHT: <2020-01-14 Tue>
+:PROPERTIES:
+:ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
+:DRILL_LAST_INTERVAL: 20.2075
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 5
+:DRILL_AVERAGE_QUALITY: 2.7
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:39]
+:END:
+
+Morphism from a coalgebra to the final coalgebra for that endofunctor.
+Is a function that generates a sequence by repeated application of the function to its previous result.
+
 **** <<<Kernel>>> :drill:
 SCHT: <2020-03-06 Fri>
 :PROPERTIES:
@@ -3648,23 +3665,6 @@ SCHT: <2020-01-07 Tue>
 
 Morphism of elements from the kernel.
 Complementary morphism of elements that make main morphism not monomorphic.
-
-**** <<<Anamorphism>>> :drill:
-SCHT: <2020-01-14 Tue>
-:PROPERTIES:
-:ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
-:DRILL_LAST_INTERVAL: 20.2075
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.7
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:39]
-:END:
-
-Morphism from a coalgebra to the final coalgebra for that endofunctor.
-Is a function that generates a sequence by repeated application of the function to its previous result.
 
 *** <<<Object>>> :drill:
 SCHT: <2020-01-21 Tue>
