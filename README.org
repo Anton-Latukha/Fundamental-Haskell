@@ -1003,7 +1003,8 @@ The set with this structure is also called an algebra.
 
 Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
 
-"Group-like structures":
+#+caption: Algebraic structures
+#+name: tab:algebraic-structure
 |                   | Closure | Associativity | Identity | Invertability | Commutativity |
 |-------------------+---------+---------------+----------+---------------+---------------|
 | Semigroupoid      |         | \check             |          |               |               |
