@@ -4952,7 +4952,7 @@ SCHT: <2020-01-01 Wed>
 
 Values that is a component of data type set.
 
-*** <<<Sequence>>>
+*** <<<Sequence>>> :drill:
 
 Enumerated collection of objects.
 
