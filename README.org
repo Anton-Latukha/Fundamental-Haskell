@@ -532,7 +532,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
   - [[#testing][<<<Testing>>>]]
     - [[#property-testing][<<<Property testing>>>]]
       - [[#function-property][<<<Function property>>>]]
-      - [[#property-testing-types][<<<Property testing types>>>]]
+      - [[#property-testing-type][<<<Property testing type>>>]]
       - [[#generator][<<<Generator>>>]]
         - [[#-137][/*/]]
         - [[#custom-generator][Custom generator]]
@@ -7735,15 +7735,15 @@ And tests cases come from generator.
 Property corresponds to the according law.
 In property testing you need to think additionally about generator and shrinking.
 
-**** <<<Property testing types>>>
+**** <<<Property testing type>>>
 
 #+caption: Property testing types
 #+name: tab:property-testing-type
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
-| Whole set of values      | Exhaustive property test             | Randomised property test             |                           |
-| Special subset of values | Exhaustive specialised property test | Randomised specialised property test |                           |
+| Whole set of values      | Exhaustive property test             | Randomised property test             | One element of a set      |
+| Special subset of values | Exhaustive specialised property test | Randomised specialised property test | One element of a set      |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 
 **** <<<Generator>>>
