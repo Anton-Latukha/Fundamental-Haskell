@@ -230,11 +230,10 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
       - [[#catamorphism][<<<Catamorphism>>>]]
         - [[#-52][/*/]]
         - [[#catamorphism-law][<<<Catamorphism law>>>]]
-        - [[#anamorphism][<<<Anamorphism>>>]]
-          - [[#-53][/*/]]
           - [[#hylomorphism][<<<Hylomorphism>>>]]
-            - [[#-54][/*/]]
-        - [[#anamorphism-1][<<<Anamorphism>>>]]
+            - [[#-53][/*/]]
+        - [[#anamorphism][<<<Anamorphism>>>]]
+          - [[#-54][/*/]]
       - [[#kernel][<<<Kernel>>>]]
         - [[#kernel-homomorphism][<<<Kernel homomorphism>>>]]
     - [[#object][<<<Object>>>]]
@@ -3579,21 +3578,6 @@ Unique arrow from an initial algebra structure into different algebra structure.
 | cata-fusion  | =f . phi = phi . fmap f => f . cata phi = cata phi=               |
 | cata-compose | =eps :: f :~> g => cata phi . cata (In . eps) = cata (phi . eps)= |
 
-***** <<<Anamorphism>>> :drill:
-:PROPERTIES:
-:ID:       af6aef1b-b8f7-45d7-8f34-cf3517cdb8b1
-:END:
-
-Generalizes unfold.
-
-The catamorphism dual concept.
-
-/*/ increases the structure.
-
-****** /*/
-
-<<<Anamorphic>>>
-<<<Anamorphisms>>>
 
 ****** <<<Hylomorphism>>> :drill:
 :PROPERTIES:
@@ -3623,8 +3607,19 @@ SCHT: <2020-01-14 Tue>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:39]
 :END:
 
+Generalizes unfold.
+
+The catamorphism dual concept.
+
+/*/ increases the structure.
+
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
 Is a function that generates a sequence by repeated application of the function to its previous result.
+
+****** /*/
+
+<<<Anamorphic>>>
+<<<Anamorphisms>>>
 
 **** <<<Kernel>>> :drill:
 SCHT: <2020-03-06 Fri>
