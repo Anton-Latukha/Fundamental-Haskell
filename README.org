@@ -7736,6 +7736,9 @@ Property corresponds to the according law.
 In property testing you need to think additionally about generator and shrinking.
 
 **** <<<Property testing types>>>
+
+#+caption: Property testing types
+#+name: tab:property-testing-type
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
