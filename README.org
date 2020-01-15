@@ -28,7 +28,7 @@ If something - =<<<This is a radio target>>>= - for =org-mode= linking.
 
 Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
 #+begin_src elisp
-;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as 'Radio targets' when org-descriptive-links set
+;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as '_Radio_targets_' when `org-descriptive-links` set
 ;;;; This is improvement of the code from: Tobias&glmorous: https://emacs.stackexchange.com/questions/19230/how-to-hide-targets
 ;;;; There exists library created from the sample: https://github.com/talwrii/org-hide-targets
 (defcustom org-hidden-links-additional-re "\\(<<<\\)[[:print:]]+?\\(>>>\\)"
