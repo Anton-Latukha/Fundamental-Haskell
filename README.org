@@ -1980,6 +1980,8 @@ return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
+#+caption: Monad in mathematics and Haskell
+#+name: tab:monad-in-mathematics-haskell
 | Mathematics                                  | Haskell                                   | Math meaning                                                     |
 |----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
 | $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | endofunctor (in Haskell power set functor used) |
