@@ -284,61 +284,61 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to =_Radio targets_=:
     - [[#principal-type][<<<Principal type>>>]]
     - [[#product-data-type][<<<Product data type>>>]]
       - [[#-70][/*/]]
+      - [[#sequence][<<<Sequence>>>]]
+        - [[#-71][/*/]]
+        - [[#tuple][<<<Tuple>>>]]
     - [[#proxy-type][<<<Proxy type>>>]]
     - [[#static-typing][<<<Static typing>>>]]
     - [[#structural-type][<<<Structural type>>>]]
-      - [[#-71][/*/]]
-    - [[#structural-type-system][<<<Structural type system>>>]]
       - [[#-72][/*/]]
+    - [[#structural-type-system][<<<Structural type system>>>]]
+      - [[#-73][/*/]]
     - [[#sum-data-type][<<<Sum data type>>>]]
     - [[#type-alias][<<<Type alias>>>]]
     - [[#type-class][<<<Type class>>>]]
-      - [[#-73][/*/]]
+      - [[#-74][/*/]]
       - [[#arbitrary-type-class][<<<Arbitrary type class>>>]]
         - [[#arbitrary-function][<<<Arbitrary function>>>]]
       - [[#coarbitrary-type-class][<<<CoArbitrary type class>>>]]
-        - [[#-74][/*/]]
-      - [[#typeable-type-class][<<<Typeable type class>>>]]
         - [[#-75][/*/]]
+      - [[#typeable-type-class][<<<Typeable type class>>>]]
+        - [[#-76][/*/]]
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
-        - [[#-76][/*/]]
+        - [[#-77][/*/]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
     - [[#typed-hole][<<<Typed hole>>>]]
-      - [[#-77][/*/]]
-    - [[#type-inference][<<<Type inference>>>]]
       - [[#-78][/*/]]
+    - [[#type-inference][<<<Type inference>>>]]
+      - [[#-79][/*/]]
     - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
-      - [[#-79][/*/]]
+      - [[#-80][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
     - [[#unlifted-type][<<<Unlifted type>>>]]
-      - [[#-80][/*/]]
+      - [[#-81][/*/]]
     - [[#data-structure][<<<Data structure>>>]]
       - [[#cons-cell][<<<Cons cell>>>]]
       - [[#construct][<<<Construct>>>]]
-        - [[#-81][/*/]]
+        - [[#-82][/*/]]
       - [[#leaf][<<<Leaf>>>]]
       - [[#node][<<<Node>>>]]
     - [[#linear-type][<<<Linear type>>>]]
-      - [[#-82][/*/]]
+      - [[#-83][/*/]]
     - [[#nonempty-list-data-type][<<<NonEmpty list data type>>>]]
     - [[#session-type][<<<Session type>>>]]
     - [[#binary-tree][<<<Binary tree>>>]]
     - [[#bottom-value][<<<Bottom value>>>]]
-      - [[#-83][/*/]]
-    - [[#bound][<<<Bound>>>]]
       - [[#-84][/*/]]
-    - [[#constructor][<<<Constructor>>>]]
+    - [[#bound][<<<Bound>>>]]
       - [[#-85][/*/]]
-    - [[#context][<<<Context>>>]]
+    - [[#constructor][<<<Constructor>>>]]
       - [[#-86][/*/]]
-    - [[#inhabit][<<<Inhabit>>>]]
-    - [[#sequence][<<<Sequence>>>]]
+    - [[#context][<<<Context>>>]]
       - [[#-87][/*/]]
-      - [[#tuple][<<<Tuple>>>]]
+    - [[#inhabit][<<<Inhabit>>>]]
   - [[#declaration][<<<Declaration>>>]]
   - [[#differential-operator][<<<Differential operator>>>]]
     - [[#-88][/*/]]
@@ -4285,6 +4285,40 @@ C { r1 :: T1
 
 <<<Product type>>>
 
+**** <<<Sequence>>> :drill:
+
+Enumerated collection of objects.
+
+Denotation:
+#+begin_src haskell
+()
+( , )
+( , , )
+( , , ... )
+#+end_src
+
+
+
+***** /*/
+
+Tuple
+Tuples
+Ordered pair
+Ordered pairs
+Ordered triple
+Ordered triples
+
+***** <<<Tuple>>> :drill:
+:PROPERTIES:
+:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
+:END:
+
+Data type that stores multiple ordered values withing a single value.
+Tuples by arity:
+  * empty, unit          - 0
+  * pair, <<<two-tuples>>>     - 2
+  * <<<thriple>>>, three-tuple - 3
+
 *** <<<Proxy type>>> :drill:
 :PROPERTIES:
 :ID:       a895477f-99de-4a09-bc9d-dc2c86e0a0af
@@ -4951,38 +4985,6 @@ SCHT: <2020-01-01 Wed>
 :END:
 
 Values that is a component of data type set.
-
-*** <<<Sequence>>> :drill:
-
-Enumerated collection of objects.
-
-Denotation:
-#+begin_src haskell
-()
-( , )
-( , , )
-( , , ... )
-#+end_src
-
-**** /*/
-
-Tuple
-Tuples
-Ordered pair
-Ordered pairs
-Ordered triple
-Ordered triples
-
-**** <<<Tuple>>> :drill:
-:PROPERTIES:
-:ID:       fd6d5368-51bc-4577-a4e3-97b62b7a4442
-:END:
-
-Data type that stores multiple ordered values withing a single value.
-Tuples by arity:
-  * empty, unit          - 0
-  * pair, <<<two-tuples>>>     - 2
-  * <<<thriple>>>, three-tuple - 3
 
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
