@@ -1132,6 +1132,8 @@ SCHT: <2020-03-16 Mon>
 :ID:       49209cb4-a094-4b16-8803-884efd701706
 :END:
 
+#+caption: Application memory structural parts
+#+name: tab:application-memory-structural-parts
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
 | All not currently processing data | <<<Heap>>>   |
