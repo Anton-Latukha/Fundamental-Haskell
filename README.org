@@ -4662,7 +4662,7 @@ Type inference in Rank-2 is possible, but not higher.
 
 <<<Type ranks>>>
 <<<Rank type>>>
-<<<Rank types>>
+<<<Rank types>>>
 <<<Rank-1 type>>>
 <<<Rank-1 types>>>
 <<<Rank-2 type>>>
