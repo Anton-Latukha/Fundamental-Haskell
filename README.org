@@ -4293,12 +4293,13 @@ C { r1 :: T1
 Enumerated collection of objects.
 
 Denotation:
-#+begin_src haskell
-()
-( , )
-( , , )
-( , , ... )
-#+end_src
+$$
+() \newline
+( , ) \newline
+( , , ) \newline
+( , , ... ) \newline
+(n)_{n \in \mathbb{N}}
+$$
 
 In Haskell: Data type that stores multiple ordered values withing a single value.
 
