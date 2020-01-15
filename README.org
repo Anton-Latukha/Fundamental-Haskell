@@ -3579,13 +3579,14 @@ Unique arrow from an initial algebra structure into different algebra structure.
 :ID:       a1502d89-017c-41ce-ab89-a8b56f93489b
 :END:
 
-| Rule         | Haskell                                                        |
+#+caption: Catamorphism laws in Haskell
+#+name: tab:catamorphism-law-in-haskell
+| Rule name    | Haskell                                                        |
 |--------------+----------------------------------------------------------------|
 | cata-cancel  | =cata phi . InF = phi . fmap (cata phi)=                         |
 | cata-refl    | =cata InF = id=                                                  |
 | cata-fusion  | =f . phi = phi . fmap f => f . cata phi = cata phi=               |
 | cata-compose | =eps :: f :~> g => cata phi . cata (In . eps) = cata (phi . eps)= |
-
 
 ****** <<<Hylomorphism>>> :drill:
 :PROPERTIES:
