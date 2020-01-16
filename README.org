@@ -7310,7 +7310,7 @@ instance ...
 :ID:       f4b3cb1f-1860-49f0-bd56-8eddbd4bfe4d
 :END:
 
-=if= The type level information is complete
+=if= The type level information is complete (strongly connected graph)
 
   =then=
 
