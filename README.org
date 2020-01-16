@@ -7252,6 +7252,22 @@ Extension makes signatures feature more uniformal.
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
+***** <<<Type level declaration>>>
+
+#+begin_src haskell
+type ...
+newtype ...
+data ...
+class ...
+instance ...
+#+end_src
+
+****** /*/
+
+<<<Type level declarations>>>
+<<<Type-level declaration>>>
+<<<Type-level declarations>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
