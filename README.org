@@ -7395,6 +7395,22 @@ It is possible to find all strongly connected components (and that way also test
 
 <<<Strongly-connected>>>
 
+***** <<<Strongly connected component>>> :drill:
+:PROPERTIES:
+:ID:       220d953d-f39a-476d-88ed-93c1f73c846c
+:END:
+
+Full strongly connected subgraph of some graph.
+
+/*/ of a directed graph G is a subgraph that is strongly connected, and has property: no additional edges or vertices from G can be included in the subgraph without breaking its property of being strongly connected.
+
+****** /*/
+
+<<<SCC>>>
+<<<Strongly connected components>>>
+<<<Strongly-connected component>>>
+<<<Strongly-connected components>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
