@@ -7297,6 +7297,13 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
+***** <<<Kind level>>> :drill:
+:PROPERTIES:
+:ID:       22d0e2bf-e879-4e90-80c6-0892b939d9a6
+:END:
+
+Level of code where kinds & kind declarations are situated, infered and checked.
+
 ***** <<<Kind check>>> :drill:
 :PROPERTIES:
 :ID:       75185d70-0d08-4f13-b355-feaa559e3a76
