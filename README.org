@@ -7371,7 +7371,7 @@ Is always a higher-ranked type.
 :ID:       a510aee8-b732-4022-bd77-bb08f7383e04
 :END:
 
-Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
+Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness (strongly connected graph) and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
 
 In the future GHC would use other algorythm over/instead of CUSK.
 
