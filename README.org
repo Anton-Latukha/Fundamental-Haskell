@@ -7318,7 +7318,7 @@ instance ...
 
   =else=
 
-    Infer the missing type level part from the term level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the term level.
+    Infer the missing type level part from the term level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the term level (most basic example is polymorphic recursion).
 
 ****** /*/
 
