@@ -7281,7 +7281,10 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Type level declaration>>>
+***** <<<Type-level declaration>>> :drill:
+:PROPERTIES:
+:ID:       c345f226-b6e3-42ca-8ca4-cd8c454e3ae3
+:END:
 
 #+begin_src haskell
 type ...
@@ -7293,8 +7296,8 @@ instance ...
 
 ****** /*/
 
+<<<Type level declaration>>>
 <<<Type level declarations>>>
-<<<Type-level declaration>>>
 <<<Type-level declarations>>>
 
 **** How to make a GHC LANGUAGE extension
