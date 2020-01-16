@@ -503,6 +503,8 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
         - [[#undecidableinstances][<<<UndecidableInstances>>>]]
         - [[#viewpatterns][<<<ViewPatterns>>>]]
         - [[#datatypecontexts][<<<DatatypeContexts>>>]]
+      - [[#standalonekindsignatures][<<<StandaloneKindSignatures>>>]]
+        - [[#-129][/*/]]
       - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
   - [[#predicative][<<<Predicative>>>]]
   - [[#compositionality][<<<Compositionality>>>]]
@@ -7233,6 +7235,22 @@ data Eq a => Set a = NilSet | ConsSet a (Set a)
 -- ConsSet :: Eq a => a -> Set a -> Set a
 #+end_src
 Considered misfeature. Deprecated. Going to be removed.
+
+**** <<<StandaloneKindSignatures>>> :drill:
+:PROPERTIES:
+:ID:       e3ecf941-d6be-4b47-abdd-b08675bf367a
+:END:
+
+Type signatures for type-level declarations.
+
+< GHC 8.10.1 - type signatures were only for term level declarations.
+
+Extension makes signatures feature more uniformal.
+
+***** /*/
+
+<<<SAKS>>>
+<<<Standalone kind signatures>>>
 
 **** How to make a GHC LANGUAGE extension
 
