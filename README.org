@@ -7300,6 +7300,28 @@ instance ...
 <<<Type level declarations>>>
 <<<Type-level declarations>>>
 
+
+***** <<<Type check>>> :drill:
+:PROPERTIES:
+:ID:       f4b3cb1f-1860-49f0-bd56-8eddbd4bfe4d
+:END:
+
+=if= The type level information is complete
+
+  =then=
+
+    Generalize the types and check if type level consistent to term level.
+
+  =else=
+
+    Infer the missing type level part from the term level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the term level.
+
+****** /*/
+
+<<<Typecheck>>>
+<<<Typechecking>>>
+<<<Typechecks>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
