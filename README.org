@@ -7293,26 +7293,6 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Type level declaration>>> :drill:
-:PROPERTIES:
-:ID:       c345f226-b6e3-42ca-8ca4-cd8c454e3ae3
-:END:
-
-#+begin_src haskell
-type ...
-newtype ...
-data ...
-class ...
-instance ...
-#+end_src
-
-****** /*/
-
-<<<Type level declarations>>>
-<<<Type-level declaration>>>
-<<<Type-level declarations>>>
-
-
 ***** <<<Type check>>> :drill:
 :PROPERTIES:
 :ID:       f4b3cb1f-1860-49f0-bd56-8eddbd4bfe4d
@@ -8866,6 +8846,26 @@ There are these levels of Haskell code:
 :END:
 
 Level of code that works with data types.
+
+***** <<<Type level declaration>>> :drill:
+:PROPERTIES:
+:ID:       c345f226-b6e3-42ca-8ca4-cd8c454e3ae3
+:END:
+
+#+begin_src haskell
+type ...
+newtype ...
+data ...
+class ...
+instance ...
+#+end_src
+
+****** /*/
+
+<<<Type level declarations>>>
+<<<Type-level declaration>>>
+<<<Type-level declarations>>>
+
 
 **** <<<Term level>>> :drill:
 SCHT: <2020-09-18 Fri>
