@@ -7270,6 +7270,10 @@ data TypeRep a where
 
 Extension makes signatures feature more uniformal.
 
+Allows to set the order of quantification, order of variables in a kind. For example when using TypeApplications.
+
+Allows to set full kind of derivable class, solving situations with GADT return kind.
+
 ***** /*/
 
 <<<SAKS>>>
