@@ -7333,7 +7333,7 @@ instance ...
 
 Applying the type check to kind check:
 
-=if= The kind level information is complete
+=if= The kind level information is complete (strongly connected graph)
 
   =then=
 
