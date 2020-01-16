@@ -7349,6 +7349,7 @@ With =CUSKs= extension <<<kind>>> completeness happens agains "complete user-spe
 
 ****** /*/
 
+<<<Kindcheck>>>
 <<<Kind checks>>>
 
 ***** <<<Polymorphic recursion>>> :drill:
