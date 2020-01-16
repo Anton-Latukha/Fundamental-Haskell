@@ -5988,6 +5988,10 @@ Sequencing is achieved by compilation of effects performing only while they reci
 
 Kind -> Type -> Data
 
+*** /*/
+
+<<<Kinds>>>
+
 ** <<<Lambda calculus>>> :drill:
 :PROPERTIES:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
