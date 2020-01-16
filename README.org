@@ -7345,6 +7345,7 @@ Type of the parameter changes in recursive invocations of function.
 
 Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
 
+In the future GHC would use other algorythm over/instead of CUSK.
 
 ****** /*/
 
