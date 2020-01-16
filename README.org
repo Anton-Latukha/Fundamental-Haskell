@@ -7338,6 +7338,21 @@ Type of the parameter changes in recursive invocations of function.
 <<<Milner–Mycroft typability>>>
 <<<Milner–Mycroft calculus>>>
 
+***** <<<Complete user-specific kind signature>>> :drill:
+:PROPERTIES:
+:ID:       a510aee8-b732-4022-bd77-bb08f7383e04
+:END:
+
+Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
+
+
+****** /*/
+
+<<<CUSK>>>
+<<<CUSKs>>>
+<<<Complete user-specific kind signatures>>>
+<<<Complete, user-specific kind signature>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
