@@ -7293,27 +7293,6 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Type check>>> :drill:
-:PROPERTIES:
-:ID:       f4b3cb1f-1860-49f0-bd56-8eddbd4bfe4d
-:END:
-
-=if= The type level information is complete (strongly connected graph)
-
-  =then=
-
-    Generalize the types and check if type level consistent to term level.
-
-  =else=
-
-    Infer the missing type level part from the term level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the term level (most basic example is polymorphic recursion).
-
-****** /*/
-
-<<<Typecheck>>>
-<<<Typechecking>>>
-<<<Typechecks>>>
-
 ***** <<<Kind check>>> :drill:
 :PROPERTIES:
 :ID:       75185d70-0d08-4f13-b355-feaa559e3a76
@@ -8866,6 +8845,27 @@ instance ...
 <<<Type-level declaration>>>
 <<<Type-level declarations>>>
 
+
+***** <<<Type check>>> :drill:
+:PROPERTIES:
+:ID:       f4b3cb1f-1860-49f0-bd56-8eddbd4bfe4d
+:END:
+
+=if= The type level information is complete (strongly connected graph)
+
+  =then=
+
+    Generalize the types and check if type level consistent to term level.
+
+  =else=
+
+    Infer the missing type level part from the term level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the term level (most basic example is polymorphic recursion).
+
+****** /*/
+
+<<<Typecheck>>>
+<<<Typechecking>>>
+<<<Typechecks>>>
 
 **** <<<Term level>>> :drill:
 SCHT: <2020-09-18 Fri>
