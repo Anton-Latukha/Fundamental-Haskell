@@ -7382,6 +7382,19 @@ In the future GHC would use other algorythm over/instead of CUSK.
 <<<Complete user-specific kind signatures>>>
 <<<Complete, user-specific kind signature>>>
 
+***** <<<Strongly connected>>> :drill:
+:PROPERTIES:
+:ID:       e505d89b-4675-48d9-98be-1bda838a069d
+:END:
+
+If every vertex in a graph is reachable from every other vertex.
+
+It is possible to find all strongly connected components (and that way also test graph for strong connectivity), in linear time (=Θ(V+E)=).
+
+****** /*/
+
+<<<Strongly-connected>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
