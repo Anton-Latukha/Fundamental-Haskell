@@ -505,7 +505,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
         - [[#datatypecontexts][<<<DatatypeContexts>>>]]
       - [[#standalonekindsignatures][<<<StandaloneKindSignatures>>>]]
         - [[#-129][/*/]]
-        - [[#type-level-declaration][<<<Type-level declaration>>>]]
+        - [[#type-level-declaration][<<<Type level declaration>>>]]
           - [[#-130][/*/]]
         - [[#type-check][<<<Type check>>>]]
           - [[#-131][/*/]]
@@ -7293,7 +7293,7 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Type-level declaration>>> :drill:
+***** <<<Type level declaration>>> :drill:
 :PROPERTIES:
 :ID:       c345f226-b6e3-42ca-8ca4-cd8c454e3ae3
 :END:
@@ -7308,8 +7308,8 @@ instance ...
 
 ****** /*/
 
-<<<Type level declaration>>>
 <<<Type level declarations>>>
+<<<Type-level declaration>>>
 <<<Type-level declarations>>>
 
 
