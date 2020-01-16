@@ -7326,6 +7326,22 @@ instance ...
 <<<Typechecking>>>
 <<<Typechecks>>>
 
+***** <<<Kind check>>> :drill:
+:PROPERTIES:
+:ID:       75185d70-0d08-4f13-b355-feaa559e3a76
+:END:
+
+Applying the type check to kind check:
+
+=if= The kind level information is complete
+
+  =then=
+
+    Check if kind level consistent to term level.
+
+  =else=
+
+    Infer the missing kind level parts from the type level. There are certain situations and structures where ambiguity arises and is unsolvable from the information of the kind level.
 ***** <<<Polymorphic recursion>>> :drill:
 :PROPERTIES:
 :ID:       11fd02fd-e0b7-4e41-aad9-6881c980207d
