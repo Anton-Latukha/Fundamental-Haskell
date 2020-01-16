@@ -7358,6 +7358,8 @@ With =CUSKs= extension <<<kind>>> completeness happens agains "complete user-spe
 
 Type of the parameter changes in recursive invocations of function.
 
+Is always a higher-ranked type.
+
 ****** /*/
 
 <<<Milner–Mycroft typability>>>
