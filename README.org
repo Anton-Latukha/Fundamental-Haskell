@@ -7313,22 +7313,6 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Complete user-specific kind signature>>> :drill:
-:PROPERTIES:
-:ID:       a510aee8-b732-4022-bd77-bb08f7383e04
-:END:
-
-Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness (strongly connected graph) and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
-
-In the future GHC would use other algorythm over/instead of CUSK.
-
-****** /*/
-
-<<<CUSK>>>
-<<<CUSKs>>>
-<<<Complete user-specific kind signatures>>>
-<<<Complete, user-specific kind signature>>>
-
 ***** <<<Strongly connected>>> :drill:
 :PROPERTIES:
 :ID:       e505d89b-4675-48d9-98be-1bda838a069d
@@ -8846,6 +8830,22 @@ instance ...
 <<<Typecheck>>>
 <<<Typechecking>>>
 <<<Typechecks>>>
+
+****** <<<Complete user-specific kind signature>>> :drill:
+:PROPERTIES:
+:ID:       a510aee8-b732-4022-bd77-bb08f7383e04
+:END:
+
+Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness (strongly connected graph) and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
+
+In the future GHC would use other algorythm over/instead of CUSK.
+
+******* /*/
+
+<<<CUSK>>>
+<<<CUSKs>>>
+<<<Complete user-specific kind signatures>>>
+<<<Complete, user-specific kind signature>>>
 
 **** <<<Term level>>> :drill:
 SCHT: <2020-09-18 Fri>
