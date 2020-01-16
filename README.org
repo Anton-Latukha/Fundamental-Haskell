@@ -7313,21 +7313,6 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
-***** <<<Strongly connected>>> :drill:
-:PROPERTIES:
-:ID:       e505d89b-4675-48d9-98be-1bda838a069d
-:END:
-
-If every vertex in a graph is reachable from every other vertex.
-
-It is possible to find all strongly connected components (and that way also test graph for strong connectivity), in linear time (=Θ(V+E)=).
-
-Binary relation of being strongly connected is an equivalence relation.
-
-****** /*/
-
-<<<Strongly-connected>>>
-
 ***** <<<Strongly connected component>>> :drill:
 :PROPERTIES:
 :ID:       220d953d-f39a-476d-88ed-93c1f73c846c
@@ -9706,6 +9691,21 @@ One that has an option to fail.
 :END:
 
 One that can not fail.
+
+** <<<Strongly connected>>> :drill:
+:PROPERTIES:
+:ID:       e505d89b-4675-48d9-98be-1bda838a069d
+:END:
+
+If every vertex in a graph is reachable from every other vertex.
+
+It is possible to find all strongly connected components (and that way also test graph for strong connectivity), in linear time (=Θ(V+E)=).
+
+Binary relation of being strongly connected is an equivalence relation.
+
+*** /*/
+
+<<<Strongly-connected>>>
 
 * Give definitions
 
