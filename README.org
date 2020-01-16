@@ -7243,6 +7243,29 @@ Considered misfeature. Deprecated. Going to be removed.
 
 Type signatures for type-level declarations.
 
+#+begin_src haskell
+type <name_1> , ... , <name_n> :: <kind>
+#+end_src
+
+#+begin_src haskell
+type MonoTagged :: Type -> Type -> Type
+data MonoTagged t x = MonoTagged x
+
+type Id :: forall k. k -> k
+type family Id x where
+  Id x = x
+
+type C :: (k -> Type) -> k -> Constraint
+class C a b where
+  f :: a b
+
+type TypeRep :: forall k. k -> Type
+data TypeRep a where
+  TyInt   :: TypeRep Int
+  TyMaybe :: TypeRep Maybe
+  TyApp   :: TypeRep a -> TypeRep b -> TypeRep (a b)
+#+end_src
+
 < GHC 8.10.1 - type signatures were only for term level declarations.
 
 Extension makes signatures feature more uniformal.
