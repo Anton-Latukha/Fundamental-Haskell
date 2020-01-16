@@ -7322,6 +7322,18 @@ instance ...
 <<<Typechecking>>>
 <<<Typechecks>>>
 
+***** <<<Polymorphic recursion>>> :drill:
+:PROPERTIES:
+:ID:       11fd02fd-e0b7-4e41-aad9-6881c980207d
+:END:
+
+Type of the parameter changes in recursive invocations of function.
+
+****** /*/
+
+<<<Milner–Mycroft typability>>>
+<<<Milner–Mycroft calculus>>>
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
