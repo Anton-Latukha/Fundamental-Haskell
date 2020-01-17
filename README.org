@@ -24,9 +24,9 @@ GitHub & GitLab parse Org into HTML only partially. Good quality HTML export is 
 
 This is complex Org notes file with LaTeX formulas.
 To get:
-  * LaTeX formulas
-  * Interlinks
-  * Navigation
+  * LaTeX formulas: $$ {\displaystyle\left[{-\frac{\hbar^{2}}{2m}}\nabla^{2}+V(\vec{r},t)\right]\Psi({\vec{r}},t)=i\hbar{\partial\over\partial{t}}\Psi({\vec{r}},t),\quad\sum_{k,j}\left[-{\frac{\hbar^{2}}{\sqrt{a}}}{\frac{\partial}{\partial{q^{k}}}}\left({\sqrt{a}}a^{kj}{\frac{\partial}{\partial{q^{j}}}}\right)+V\right]\Psi+{\frac{\hbar}{i}}{\frac{\partial{\Psi}}{\partial{t}}}=0} $$
+  * Interlinks: <<<Interlinks>>>
+  * Navigation: (*Your* /Life/ in Plain $$ TeXt^{🄯} $$)
 use capable editor.
 
 If something - =<<<This is a radio target>>>= - for =org-mode= linking.
