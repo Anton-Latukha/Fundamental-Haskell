@@ -11367,32 +11367,34 @@ instance (MonadState s m) => MonadState s (ReaderT r m)
 **** Searching
 
 Text search:
-- =map= searches as text, finding =map=, =concatMap=, =mapM=
-- =con map= searches for the text "map" and "con" finding =concatMap=, but not =map=
+- =map= (=map=, =concatMap=, =mapM=)
+- =con map=, (=concatMap=, but not =map)=
 - =a= searches for the text "a"
 
 Type search:
-- =a -> a= searches by type, finding =id :: a -> a=
 - =:: a= searches for the type "a"
-
+- =a -> a= searches by type, finding =id :: a -> a=
 
 Text & type:
 - =id :: a -> a= searches for the text "id" and the type "a -> a"
 
 **** Scope
 
-By default, searches look at the [[http://hackage.haskell.org/platform][Haskell Platform]] and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords]]. However, all [[http://hackage.haskell.org/][Hackage]] packages are available to search. As some examples:
+Default searches at the [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
 
-With the set of packages you are searching, you can also restrict the set of modules searched:
+All [[http://hackage.haskell.org/][Hackage]] packages are available to search with:
 
-- =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
+By part of Hierarchical module name system (from big letter):
+
 - =fold +Data.Map= finds results in the =Data.Map= module
+- =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
+
+In packages (lower case):
 
 - =mode +cmdargs= searches only the "cmdargs" package
-- =file -base= searches the Haskell Platform, excluding the "base" package
 - =mode +platform +cmdargs= searches both the Haskell Platform and the "cmdargs" package
 - =count +missingh= searches only the "MissingH" package - all packages are written in lower-case
-
+- =file -base= searches the Haskell Platform, excluding the "base" package
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
