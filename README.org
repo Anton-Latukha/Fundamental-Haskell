@@ -11328,7 +11328,7 @@ Use pattern synonyms to provide a documented accessor set without exposing inter
 
 ** Constraints
 
-When you can not formulate the code, or do not want to folmulate with your constrain on the join of parts - it is simple and useful to write only in a needed constrain manner first. At some point of that you would need to start pick and satisfy constraints, you can do it one-by-one at a time.
+Working with code from the point of constraints is an axiomatic semantics approach. It should be used when you don't want or can not formulate the join points in code for types. With this approach you can not formulate the calculation processes, it is tedious (a lot of boilerplate and rewriting boilerplate into the result) but pretty relaxingly simple and somewhat useful to write only in a needed constrain manner first. At some point of that you would need to start pick and satisfy constraints, you can do it one-by-one at a time.
 
 =MonadError= constraints is =IOException=, not for the =String=. =IOException= vs =String=.
 
