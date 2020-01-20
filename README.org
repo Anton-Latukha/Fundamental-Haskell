@@ -11369,19 +11369,19 @@ instance (MonadState s m) => MonadState s (ReaderT r m)
 
 *** Hoogle
 
-**** Searching
+**** Search
 
-Text search:
-- =map= (=map=, =concatMap=, =mapM=)
-- =con map=, (=concatMap=, but not =map)=
-- =a= searches for the text "a"
+Text search (case insensitive):
+  * =a=
+  * =map=
+  * =con map=
 
 Type search:
-- =:: a= searches for the type "a"
-- =:: a -> a= (=a -> a=) searches by type, finding =id :: a -> a=
+  * =:: a=
+  * =:: a -> a=
 
 Text & type:
-- =id :: a -> a= searches for the text "id" and the type "a -> a"
+  * =id :: a -> a=
 
 **** Scope
 
@@ -11395,11 +11395,10 @@ By part of Hierarchical module name system (from big letter):
 - =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
 
 In packages (lower case):
-
-- =mode +cmdargs= searches only the "cmdargs" package
-- =mode +platform +cmdargs= searches both the Haskell Platform and the "cmdargs" package
-- =count +missingh= searches only the "MissingH" package - all packages are written in lower-case
-- =file -base= searches the Haskell Platform, excluding the "base" package
+  * =mode +platform=
+  * =mode +cmdargs= (only)
+  * =mode +platform +cmdargs=
+  * =file -base= (Haskell Platform, excluding the "base" package)
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
