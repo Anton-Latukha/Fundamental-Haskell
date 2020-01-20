@@ -11354,6 +11354,12 @@ For the class handled or known how to handle - writte a base case instance descr
 #+begin_src haskell
 instance (Monad m) => MonadReader r (ReaderT r m)
 #+end_src
+
+For others write recursive instance descriptions
+#+begin_src haskell
+instance (MonadError e m) => MonadError e (ReaderT r m)
+instance (MonadState s m) => MonadState s (ReaderT r m)
+#+end_src
 4. Code condensed into terse form.
 * Reference
 
