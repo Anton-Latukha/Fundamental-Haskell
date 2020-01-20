@@ -11373,14 +11373,14 @@ Text search:
 
 Type search:
 - =:: a= searches for the type "a"
-- =a -> a= searches by type, finding =id :: a -> a=
+- =:: a -> a= (=a -> a=) searches by type, finding =id :: a -> a=
 
 Text & type:
 - =id :: a -> a= searches for the text "id" and the type "a -> a"
 
 **** Scope
 
-Default searches at the [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
+Default scope is [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
 
 All [[http://hackage.haskell.org/][Hackage]] packages are available to search with:
 
