@@ -11345,7 +11345,9 @@ Main type detail annotation thread is in =main=, localization is inside function
 =MonadState= - =StateT=
 
 1. Set of constraints
-2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstract.
+
+2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstracted.
+
 3. Rest of constraints set shifts to source type.
 4. Code condensed into terse form.
 * Reference
