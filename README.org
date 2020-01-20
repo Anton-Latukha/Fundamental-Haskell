@@ -11349,6 +11349,11 @@ Main type detail annotation thread is in =main=, localization is inside function
 2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstracted.
 
 3. Rest of constraints set shifts to source type.
+
+For the class handled or known how to handle - writte a base case instance description.
+#+begin_src haskell
+instance (Monad m) => MonadReader r (ReaderT r m)
+#+end_src
 4. Code condensed into terse form.
 * Reference
 
