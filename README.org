@@ -11385,20 +11385,23 @@ Text & type:
 
 **** Scope
 
-Default scope is [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
+***** Default
+
+Scope is [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
 
 All [[http://hackage.haskell.org/][Hackage]] packages are available to search with:
 
-By part of Hierarchical module name system (from big letter):
+***** Hierarchical module name system (from big letter):
 
-- =fold +Data.Map= finds results in the =Data.Map= module
-- =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
+  * =fold +Data.Map= finds results in the =Data.Map= module
+  * =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
 
-In packages (lower case):
+***** Packages (lower case):
   * =mode +platform=
   * =mode +cmdargs= (only)
   * =mode +platform +cmdargs=
   * =file -base= (Haskell Platform, excluding the "base" package)
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
