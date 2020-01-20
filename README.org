@@ -11325,6 +11325,28 @@ Composit approach:
 Provide the set of constructors and also a set of predicates and set of accessors.
 Use pattern synonyms to provide a documented accessor set without exposing internal data type.
 
+** Constraints
+
+When you can not formulate the code, or do not want to folmulate with your constrain on the join of parts - it is simple and useful to write only in a needed constrain manner first. At some point of that you would need to start pick and satisfy constraints, you can do it one-by-one at a time.
+
+=MonadError= constraints is =IOException=, not for the =String=. =IOException= vs =String=.
+
+Reverse pluck =MonadReader= constraint with =runReader= on the object.
+
+*Move constraint restrictions you can not polymorph on into concrete type that has that constraint.*
+
+All other unsolved constraints move into the initial polymorphic variable.
+
+*is mixing transformers produce the same result?*
+
+Main type detail annotation thread is in =main=, localization is inside functions.
+
+=MonadState= - =StateT=
+
+1. Set of constraints
+2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstract.
+3. Rest of constraints set shifts to source type.
+4. Code condensed into terse form.
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
