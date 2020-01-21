@@ -5043,7 +5043,19 @@ SCHT: <2020-01-01 Wed>
 
 Values that is a component of data type set.
 
-*** <<<Maybe>>>
+*** <<<Maybe>>> :drill:
+
+#+begin_src haskell
+data Maybe
+  = Nothing
+  | Just a
+#+end_src
+
+Does not represent the information why =Nothing= happened.
+For error - use Either.
+Do not propagate /*/.
+
+Handle /*/ locally to where it is produced. =Nothing= does not hold useful info for debugging & short-circuits the processes. Do not expect code type being bug-free, do not return =Maybe= to end user since it would be impossible to debug, return something that preserves error information.
 
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
