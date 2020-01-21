@@ -5043,6 +5043,8 @@ SCHT: <2020-01-01 Wed>
 
 Values that is a component of data type set.
 
+*** <<<Maybe>>>
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :PROPERTIES:
@@ -9759,8 +9761,6 @@ Allows to separate and preserve information about happened, ex. error handling.
 *** /*/
 
 <<<Image>>>
-
-** <<<Maybe>>>
 
 ** <<<Inverse>>>
 
