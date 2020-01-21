@@ -11387,9 +11387,9 @@ Main type detail annotation thread is in =main=, localization is inside function
 
 =MonadState= - =StateT=
 
-*** Hoogle
+** Hoogle
 
-**** Search
+*** Search
 
 Text search (case insensitive):
   * =a=
@@ -11403,20 +11403,20 @@ Type search:
 Text & type:
   * =id :: a -> a=
 
-**** Scope
+*** Scope
 
-***** Default
+**** Default
 
 Scope is [[http://hackage.haskell.org/platform][Haskell Platform]] (and [[http://haskell.org/haskellwiki/Keywords][Haskell keywords)]].
 
 All [[http://hackage.haskell.org/][Hackage]] packages are available to search with:
 
-***** Hierarchical module name system (from big letter):
+**** Hierarchical module name system (from big letter):
 
   * =fold +Data.Map= finds results in the =Data.Map= module
   * =file -System= excludes results from modules such as =System.IO=, =System.FilePath.Windows= and =Distribution.System=
 
-***** Packages (lower case):
+**** Packages (lower case):
   * =mode +platform=
   * =mode +cmdargs= (only)
   * =mode +platform +cmdargs=
