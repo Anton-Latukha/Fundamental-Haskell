@@ -11429,7 +11429,7 @@ All [[http://hackage.haskell.org/][Hackage]] packages are available to search wi
 :ID:       bfe7e9bf-1683-433d-949f-0c4240226074
 :end:
 
-Well known historical even in Haskell: https://github.com/quchen/articles/blob/master/applicative_monad.md.
+Well known event in Haskell history: https://github.com/quchen/articles/blob/master/applicative_monad.md.
 
 Math justice was restored with a RETroactive CONtinuity. Invented in computer science term Applicative (lax monoidal functor) become a superclass of Monad.
 
