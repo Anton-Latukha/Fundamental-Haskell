@@ -11337,9 +11337,9 @@ Use pattern synonyms to provide a documented accessor set without exposing inter
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
 
 + Helps to form the type level code (aka join points of the code).
-+ Used to pile up constraints/types first. At some point you would pick and satisfy constraints, you can do it one-by-one at a time.
-- You can not formulate the term level and calculation processes, you just get the type hints from it.
-- It is tedious (a lot of boilerplate and rewriting boilerplate into the result) but pretty relaxing
++ Uses the piling up of constraints/types information. At some point pick and satisfy constraints, can be done one at a time.
+- Provides hints through type level formulation for term level calculations, does not formulate the term level.
+- Tedious method (a lot of boilerplate and rewriting it) but pretty simple and relaxing.
 
 1. Set of constraints.
 
