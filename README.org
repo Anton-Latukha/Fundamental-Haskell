@@ -11366,20 +11366,20 @@ Very strong Haskell type system makes possible to work with code from the top do
 instance (Monad m) => MonadReader r (ReaderT r m)
 #+end_src
 
-3.b. For others write recursive instance descriptions
+3.b. For others write recursive instance descriptions:
+
+All other unsolved constraints move into the initial polymorphic variable.
+
 #+begin_src haskell
 instance (MonadError e m) => MonadError e (ReaderT r m)
 instance (MonadState s m) => MonadState s (ReaderT r m)
 #+end_src
+
 4. Code condensed into terse form.
 
 =MonadError= constraints is =IOException=, not for the =String=. =IOException= vs =String=.
 
 Reverse pluck =MonadReader= constraint with =runReader= on the object.
-
-*Move constraint restrictions you can not polymorph on into concrete type that has that constraint.*
-
-All other unsolved constraints move into the initial polymorphic variable.
 
 *Are mixing the transformers produce the same result?*
 
