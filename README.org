@@ -6338,6 +6338,8 @@ Library of combinators to provide Haskell (functional language without mutation)
 
 Any Haskell expression can't return nothing.
 
+Also see: Maybe.
+
 ** <<<Operation>>> :drill:
 SCHT: <2020-06-07 Sun>
 :PROPERTIES:
