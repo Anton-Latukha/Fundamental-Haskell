@@ -11334,12 +11334,30 @@ Use pattern synonyms to provide a documented accessor set without exposing inter
 
 ** Constraints
 
-Working with code from the point of constraints. An axiomatic semantics approach.
+Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
 
-+ It should be used when you don't want or can not formulate the join points in code for types.
-- With this approach you can not formulate the calculation processes
++ Helps to form the type level code (aka join points of the code).
++ Used to pile up constraints/types first. At some point you would pick and satisfy constraints, you can do it one-by-one at a time.
+- You can not formulate the term level and calculation processes, you just get the type hints from it.
 - It is tedious (a lot of boilerplate and rewriting boilerplate into the result) but pretty relaxing
-+ Useful to write only in a needed constraints/types first. At some point of that you would need to start pick and satisfy constraints, you can do it one-by-one at a time.
+
+1. Set of constraints.
+
+2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstracted.
+
+3. Rest of constraints set shifts to source type.
+
+3.a. For the class handled or known how to handle - writte a base case instance description.
+#+begin_src haskell
+instance (Monad m) => MonadReader r (ReaderT r m)
+#+end_src
+
+3.b. For others write recursive instance descriptions
+#+begin_src haskell
+instance (MonadError e m) => MonadError e (ReaderT r m)
+instance (MonadState s m) => MonadState s (ReaderT r m)
+#+end_src
+4. Code condensed into terse form.
 
 =MonadError= constraints is =IOException=, not for the =String=. =IOException= vs =String=.
 
@@ -11354,24 +11372,6 @@ All other unsolved constraints move into the initial polymorphic variable.
 Main type detail annotation thread is in =main=, localization is inside functions.
 
 =MonadState= - =StateT=
-
-1. Set of constraints.
-
-2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstracted.
-
-3. Rest of constraints set shifts to source type.
-
-For the class handled or known how to handle - writte a base case instance description.
-#+begin_src haskell
-instance (Monad m) => MonadReader r (ReaderT r m)
-#+end_src
-
-For others write recursive instance descriptions
-#+begin_src haskell
-instance (MonadError e m) => MonadError e (ReaderT r m)
-instance (MonadState s m) => MonadState s (ReaderT r m)
-#+end_src
-4. Code condensed into terse form.
 
 *** Hoogle
 
