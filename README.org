@@ -11389,6 +11389,8 @@ Reverse pluck =MonadReader= constraint with =runReader= on the object.
 
 =MonadState= - =StateT=
 
+** Monad transformers and their type classes
+
 ** Layering transformers
 
 Mix of the the monad transformers is functionality is the same, but the form is different. Surrounding handling functions would need to be different. 
