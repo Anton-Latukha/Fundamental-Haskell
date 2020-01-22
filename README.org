@@ -11381,11 +11381,13 @@ instance (MonadState s m) => MonadState s (ReaderT r m)
 
 Reverse pluck =MonadReader= constraint with =runReader= on the object.
 
-*Are mixing the transformers produce the same result?*
-
 Main type detail annotation thread is in =main=, localization is inside functions.
 
 =MonadState= - =StateT=
+
+** Layering transformers
+
+Mix of the the monad transformers is functionality is the same, but the form is different. Surrounding handling functions would need to be different. 
 
 ** Hoogle
 
