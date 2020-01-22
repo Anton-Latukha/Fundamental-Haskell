@@ -11379,13 +11379,13 @@ instance (MonadError e m) => MonadError e (ReaderT r m)
 instance (MonadState s m) => MonadState s (ReaderT r m)
 #+end_src
 
-4. Code condensed into terse form.
+4. Repeat from 1 until considered done.
+
+5. Code condensed into terse form.
 
 =MonadError= constraints is =IOException=, not for the =String=. =IOException= vs =String=.
 
 Reverse pluck =MonadReader= constraint with =runReader= on the object.
-
-Main type detail annotation thread is in =main=, localization is inside functions.
 
 =MonadState= - =StateT=
 
