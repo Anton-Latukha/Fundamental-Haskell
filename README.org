@@ -11360,16 +11360,19 @@ Very strong Haskell type system makes possible to work with code from the top do
 
 2. When it is needed or convenient, single constraint gets a little more realistically concrete/abstracted.
 
+Main type detail annotation thread can happen in =main= or special wrapper function, localization is inside functions.
+
 3. Rest of constraints set shifts to source type.
 
 3.a. For the class handled or known how to handle - writte a base case instance description.
+
 #+begin_src haskell
 instance (Monad m) => MonadReader r (ReaderT r m)
 #+end_src
 
 3.b. For others write recursive instance descriptions:
 
-All other unsolved constraints move into the initial polymorphic variable.
+All other unsolved constraints move into the source polymorphic variable.
 
 #+begin_src haskell
 instance (MonadError e m) => MonadError e (ReaderT r m)
