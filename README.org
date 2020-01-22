@@ -920,6 +920,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
 - [[#drafts][Drafts]]
   - [[#exception-handling][Exception handling]]
   - [[#constraints][Constraints]]
+  - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
   - [[#layering-transformers][Layering transformers]]
   - [[#hoogle][Hoogle]]
     - [[#search][Search]]
