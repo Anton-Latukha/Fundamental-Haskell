@@ -920,6 +920,7 @@ Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
 - [[#drafts][Drafts]]
   - [[#exception-handling][Exception handling]]
   - [[#constraints][Constraints]]
+  - [[#layering-transformers][Layering transformers]]
   - [[#hoogle][Hoogle]]
     - [[#search][Search]]
     - [[#scope-1][Scope]]
