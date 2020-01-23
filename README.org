@@ -9761,13 +9761,6 @@ Full strongly connected subgraph of some graph.
 
 <<<Image>>>
 
-** <<<Inverse function>>>
-
-$$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
-
-/*/ $$ \iff $$ function is bijective.
-Otherwise - partial inverse
-
 ** <<<Inverse morphism>>> :drill:
 SCHT: <2020-02-12 Wed>
 :properties:
@@ -11431,6 +11424,13 @@ Allows to separate and preserve information about happened, ex. error handling.
 1. Is a permutation where two elements are out of order.
 
 2. See Inverse
+
+** <<<Inverse function>>>
+
+$$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
+
+/*/ $$ \iff $$ function is bijective.
+Otherwise - partial inverse
 
 * Reference
 
