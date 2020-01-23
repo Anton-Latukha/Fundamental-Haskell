@@ -9761,24 +9761,6 @@ Full strongly connected subgraph of some graph.
 
 <<<Image>>>
 
-** <<<Inverse morphism>>> :drill:
-SCHT: <2020-02-12 Wed>
-:properties:
-:ID:       97593115-a31b-4016-8de4-9356b4a89991
-:DRILL_LAST_INTERVAL: 91.3411
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.778
-:DRILL_EASE: 2.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:28]
-:end:
-
-For $$ f: x \to y $$:
-$$ \exists g \ : \ g \circ f = 1^{x}^{} $$ - $$ g $$ is left inverse of $$ f $$.
-$$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
-
 ** <<<Invertible>>>
 ** <<<Invertibility>>>
 ** <<<Partial inverse>>>
@@ -11431,6 +11413,24 @@ $$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
 
 /*/ $$ \iff $$ function is bijective.
 Otherwise - partial inverse
+
+** <<<Inverse morphism>>> :drill:
+SCHT: <2020-02-12 Wed>
+:properties:
+:ID:       97593115-a31b-4016-8de4-9356b4a89991
+:DRILL_LAST_INTERVAL: 91.3411
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.778
+:DRILL_EASE: 2.72
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:28]
+:end:
+
+For $$ f: x \to y $$:
+$$ \exists g \ : \ g \circ f = 1^{x}^{} $$ - $$ g $$ is left inverse of $$ f $$.
+$$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
 
 * Reference
 
