@@ -13,7 +13,7 @@
 
 * Introduction
 
-Important notes on Haskell, category & related fields.
+Important notes on Haskell, category theory & related fields, terms and recommendations.
 
 Source code:
  * GitHub: https://github.com/Anton-Latukha/haskell-notes
