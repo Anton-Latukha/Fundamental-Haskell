@@ -6100,7 +6100,7 @@ $$ \lambda x y.x^2 + y^3 $$
 
 <<<Lambda abstraction>>>
 
-**** <<<Anonymous lambda function>>>
+**** <<<Anonymous lambda function>>> :drill:
 :properties:
 :ID:       c3a9e8dd-b5e9-44ff-88c5-e83d00330964
 :end:
