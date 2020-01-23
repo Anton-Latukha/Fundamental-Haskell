@@ -9761,12 +9761,6 @@ Full strongly connected subgraph of some graph.
 
 <<<Image>>>
 
-** <<<Inversion>>>
-
-1. Is a permutation where two elements are out of order.
-
-2. See Inverse
-
 ** <<<Inverse function>>>
 
 $$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
@@ -11431,6 +11425,12 @@ Allows to separate and preserve information about happened, ex. error handling.
 3. For operation: element that allows reversing operation, having an element that with the dual produces the identity element.
 
 4. See Inversion.
+
+** <<<Inversion>>>
+
+1. Is a permutation where two elements are out of order.
+
+2. See Inverse
 
 * Reference
 
