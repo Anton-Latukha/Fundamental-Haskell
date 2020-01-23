@@ -15,10 +15,10 @@
 
 Important notes on Haskell, category theory & related fields, terms and recommendations.
 
-Source code:
+Resources:
+ * Web book: https://blog.latukha.com/haskell-notes
  * GitHub: https://github.com/Anton-Latukha/haskell-notes
  * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
- * Web book: https://blog.latukha.com/haskell-notes
 
 GitHub & GitLab parse Org into HTML only partially.
 
