@@ -9773,13 +9773,6 @@ Full strongly connected subgraph of some graph.
 
 *** <<<FuncitonalDependencies>>>
 
-** <<<GHC optimize keys>>>
-
-*** <<<-foptimal-applicative-do>>>
-
-$$ O(n^3) $$
-Always finds optimal reduction into <*> for ApplicativeDo do notation.
-
 ** <<<GHC check keys>>>
 
 *** <<<-Wno-partial-type-signatures>>>
@@ -11431,6 +11424,13 @@ Dump desugarer output.
 
 <<<Desugar>>>
 <<<GHC desugar>>>
+
+** <<<GHC optimize keys>>>
+
+*** <<<-foptimal-applicative-do>>>
+
+$$ O(n^3) $$
+Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
 * Reference
 
