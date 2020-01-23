@@ -6233,9 +6233,13 @@ SCHT: <2019-12-31 Tue>
 :DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
 :end:
 
-Classical type system for the Lambda calculus with Parametric polymorphism and Type inference.
-Where types marked as polymorphic variables, and overall type inference is possible all over the code.
-Also known as Damas–Milner or Damas–Hindley–Milner system.
+Classical type system for the Lambda calculus with Parametric polymorphism and Type inference. Types marked as polymorphic variables, which enables type inference over the code.
+
+**** /*/
+
+<<<Hindley-Milner>>>
+<<<Damas-Milner>>>
+<<<Damas–Hindley–Milner>>>
 
 *** <<<Reduction>>> :drill:
 SCHT: <2020-01-11 Sat>
