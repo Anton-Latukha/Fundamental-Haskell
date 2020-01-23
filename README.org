@@ -20,14 +20,13 @@ Resources:
  * GitHub: https://github.com/Anton-Latukha/haskell-notes
  * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
 
-GitHub & GitLab parse Org into HTML only partially.
+This is a complex Org markup file with LaTeX formulas.
+GitHub & GitLab only partially parse Org into HTML.
 
-This is complex Org notes file with LaTeX formulas.
-To get full view:
+To get the full view:
+  * Outline navigation
   * LaTeX formulas: $$ {\displaystyle\left[{-\frac{\hbar^{2}}{2m}}\nabla^{2}+V(\vec{r},t)\right]\Psi({\vec{r}},t)=i\hbar{\partial\over\partial{t}}\Psi({\vec{r}},t),\quad\sum_{k,j}\left[-{\frac{\hbar^{2}}{\sqrt{a}}}{\frac{\partial}{\partial{q^{k}}}}\left({\sqrt{a}}a^{kj}{\frac{\partial}{\partial{q^{j}}}}\right)+V\right]\Psi+{\frac{\hbar}{i}}{\frac{\partial{\Psi}}{\partial{t}}}=0} $$
   * Interlinks: <<<Interlinks>>>
-  * Navigation: (*Your* /Life/ in Plain $$ TeXt^{🄯} $$)
-use capable viewer/editor.
 
 If something - =<<<This is a radio target>>>= - for =org-mode= linking.
 
