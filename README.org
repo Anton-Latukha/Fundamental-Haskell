@@ -1252,17 +1252,17 @@ Most often:
 <<<Bindings>>>
 
 ** <<<Cartesian product>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
 :end:
 
 $$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
@@ -1317,17 +1317,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2020-01-02 Thu>
+SCHT: <2020-02-08 Sat>
 :properties:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 7.6921
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 15.9226
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.917
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:38]
+:DRILL_AVERAGE_QUALITY: 3.077
+:DRILL_EASE: 2.1
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
@@ -1361,17 +1361,17 @@ Basic examples of /*/:
 <<<Abelian categories>>>
 
 *** <<<Composition>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:57]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:10]
 :end:
 
 Axiom of Category.
@@ -1391,17 +1391,17 @@ From the name, in this Category:
   * morphisms are natural transformations between endofunctors
 
 *** <<<Functor>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:21]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
 :end:
 
 /*/ full translation (map) of one category into another.
@@ -1861,17 +1861,17 @@ Only when =False= - perform an applicative computation.
 :end:
 
 ****** <<<Identity applicative>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-01 Sat>
 :properties:
 :ID:       72602f6e-4290-4db5-bd26-f6abe614384d
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.43
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:13]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:07]
 :end:
 
 #+begin_src haskell
@@ -2099,17 +2099,17 @@ Explanation:
 AKA it is a tacit description of a monad bind as endofunctor.
 
 ******* <<<Monad associativity law>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-02 Sun>
 :properties:
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.6346
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:25]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:20]
 :end:
 
 #+begin_src haskell
@@ -2340,17 +2340,17 @@ sum  :: (Foldable t, Num a)       => t    a  ->   a
 :end:
 
 ******** <<<liftM>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       10f01bcb-ef2b-45c5-b950-6f2cb56eb908
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:59]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
 :end:
 
 Essentially a fmap.
@@ -3420,17 +3420,17 @@ $$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
 Predicate
 
 ****** <<<Right identity of a predicate>>> :drill:
-SCHT: <2019-12-28 Sat>
+SCHT: <2020-10-10 Sat>
 :properties:
 :ID:       3ed093c4-db04-4e82-91b4-b01398b39e84
-:DRILL_LAST_INTERVAL: 90.2063
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 261.4179
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.8
 :DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:35]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 22:57]
 :end:
 
 $$  P(a,e)=a \; | \; \exists e \in S, \forall a \in S $$
@@ -3855,17 +3855,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-01-27 Mon>
 :properties:
 :ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
 :DRILL_LAST_INTERVAL: 3.86
 :DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 /*/ is a family of morphisms parametrized by type (parametric polymorphism functions) between endofunctors (Functor, Applicative, Monad).
@@ -4182,17 +4182,17 @@ data [context =>] type typeVars1..n
 #+end_src
 
 *** <<<Dependent type>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       f40f1feb-3a1d-4987-b585-6d8d6080d307
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:59]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
 :end:
 
 When type and values have relation between them. Type has restrictions for values, value of a type variable has a result on the type.
@@ -4323,6 +4323,9 @@ C { r1 :: T1
 <<<Product type>>>
 
 **** <<<Sequence>>> :drill:
+:PROPERTIES:
+:ID:       ce72c132-c2e8-4d14-bac6-4b399735c7fa
+:END:
 
 Enumerated collection of objects.
 
@@ -4450,17 +4453,17 @@ In most languages typing is name-based, not structural.
 <<<Structural typing>>>
 
 *** <<<Sum data type>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:11]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:25]
 :end:
 
 Algebraic data type formed by logical disjunction (OR '|').
@@ -4530,17 +4533,17 @@ Useful function is arbitrary - that autogenerates values.
 Depends on type and generates values of that type.
 
 **** <<<CoArbitrary type class>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       a8ad8f53-2ad9-414d-8c6b-8df9d0cac80e
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:59]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:10]
 :end:
 
 Pseudogenerates a function basing on resulting type.
@@ -4827,20 +4830,22 @@ Cell that values may inhabit.
 <<<Cons>>>
 
 **** <<<Leaf>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:00]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:19]
 :end:
 
+#+begin_src text
  _
+#+end_src
 
 **** <<<Node>>> :drill:
 SCHT: <2020-07-26 Sun>
@@ -5031,22 +5036,25 @@ TypeClass a => ...
 <<<Contexts>>>
 
 *** <<<Inhabit>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:37]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:24]
 :end:
 
 Values that is a component of data type set.
 
 *** <<<Maybe>>> :drill:
+:PROPERTIES:
+:ID:       0ea257ed-8b3e-49a3-9aae-400156d62955
+:END:
 
 #+begin_src haskell
 data Maybe
@@ -5849,17 +5857,17 @@ Form of writing of operator or function in-between variables for application.
 For priorities see Fixity.
 
 *** <<<Fixity>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-02 Sun>
 :properties:
 :ID:       b8e36421-2fbb-4c67-881d-e40e105f73c1
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 9.6346
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:11]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 Declares the presedence of action of a function/operator.
@@ -6053,17 +6061,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-06 Thu>
 :properties:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 7.4884
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 14.0183
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.75
-:DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:44]
+:DRILL_AVERAGE_QUALITY: 2.778
+:DRILL_EASE: 1.8
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:13]
 :end:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
@@ -6220,17 +6228,17 @@ Translating the evaluation of a multiple argument function (or a tuple of argume
 <<<Curry>>>
 
 *** <<<Hindley–Milner type system>>> :drill:
-SCHT: <2019-12-31 Tue>
+SCHT: <2020-06-24 Wed>
 :properties:
 :ID:       67b414eb-6659-455f-bbb5-cb507c643567
-:DRILL_LAST_INTERVAL: 78.5923
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 152.4691
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_AVERAGE_QUALITY: 3.333
 :DRILL_EASE: 1.94
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:06]
 :end:
 
 Classical type system for the Lambda calculus with Parametric polymorphism and Type inference. Types marked as polymorphic variables, which enables type inference over the code.
@@ -6603,17 +6611,17 @@ Abstracting over data types by parameter.
 Types:
 
 **** <<<Rank-1 polymorphism>>> :drill:
-SCHT: <2020-01-02 Thu>
+SCHT: <2020-02-08 Sat>
 :properties:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
-:DRILL_LAST_INTERVAL: 7.7509
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 16.1064
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 2.916
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.076
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:39]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 Parametric polymorphism in rank-1 types by type variables.
@@ -6749,17 +6757,17 @@ If it can be done to T, and there is subtype S - then it also can be done to S.
 $$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
 
 *** <<<Row polymorphism>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-01 Sat>
 :properties:
 :ID:       18e7413e-72cc-4ab6-8c9e-1591f4b00606
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 8.9861
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
+:DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:22]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:20]
 :end:
 
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
@@ -6923,17 +6931,17 @@ Enable the definition of further constraints on individual class methods.
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
 
 ***** <<<DeriveFunctor>>> :drill:
-SCHT: <2019-12-28 Sat>
+SCHT: <2020-10-20 Tue>
 :properties:
 :ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
-:DRILL_LAST_INTERVAL: 90.2063
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 270.5287
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:34]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 22:57]
 :end:
 
 Automatic deriving of instances for the Functor type class.
@@ -7365,17 +7373,17 @@ xFlagsDeps = [
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
 
 ** <<<Predicative>>> :drill:
-SCHT: <2020-01-02 Thu>
+SCHT: <2020-02-10 Mon>
 :properties:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 8.2604
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 17.7681
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:39]
+:DRILL_AVERAGE_QUALITY: 3.182
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 Non-self-referencing definition.
@@ -7536,17 +7544,17 @@ Is not directed and not limited.
 <<<Relationship>>>
 
 ** <<<REPL>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:22]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:11]
 :end:
 
 Interactive CLI. Read-eval-print loop.
@@ -7568,17 +7576,17 @@ SCHT: <2020-01-23 Thu>
 Philosophical study of meaning.
 
 *** <<<Operational semantics>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-02 Sun>
 :properties:
 :ID:       df2cb6cf-0eb7-4756-945e-a08d7246245b
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:00]
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:13]
 :end:
 
 Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
@@ -7648,17 +7656,17 @@ Well-defined collection of distinct objects.
 <<<Set theory>>>
 
 *** <<<Closed set>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-01 Sat>
 :properties:
 :ID:       33bc1a45-7af7-4320-ac6a-2bc785b7afd9
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.1096
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:25]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
 :end:
 
 Closed set - a set whose complement is an open set.
@@ -8262,20 +8270,20 @@ Set S and two binary operators + \times:
 <<<Distributive>>>
 
 ** <<<Backpack>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:47]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:24]
 :end:
 
-On first compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, and process does not emitt any binary code. Storing the intermediate code in a special form that allows flexibily connect modules provided. That allows later to compile project with particular instanciations of the modules, major work being done by internal Cabal Backpack support and Backpack system that modifies the intermediate code to fit the module.
+On 1-st compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, the process does not emitt any binary code and stores the intermediate code in a special form that allows flexibily connect modules provided. Which allows later to compile project with particular instanciations of the modules. Major work of this process being done by internal Cabal /*/ support and /*/ system that modifies the intermediate code to fit the module.
 
 ** <<<Nullary>>> :drill:
 :properties:
@@ -8326,17 +8334,17 @@ Purely abtract & theoretical logical object (idea) that has a Boolean value.
 <<<Propositions>>>
 
 **** <<<Atomic proposition>>> :drill:
-SCHT: <2020-01-02 Thu>
+SCHT: <2020-06-01 Mon>
 :properties:
 :ID:       ce77faac-95af-4b60-804c-52bc8ce125bc
-:DRILL_LAST_INTERVAL: 49.5809
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 129.0591
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:45]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
 :end:
 
 Logically undividable unit. Does not contain logical connectives.
@@ -8477,17 +8485,17 @@ $$ \lor $$
 Summs cardinalities.
 
 *** <<<Predicate>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:28]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
 :end:
 
 Function with Boolean codomain.
@@ -9576,17 +9584,17 @@ Immidiate successor.
 Object that sends arrow.
 
 **** <<<Direct predecessor>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-02 Sun>
 :properties:
 :ID:       4ddb51b6-c250-4a00-9029-ed90b86ca085
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.648
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:45]
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:13]
 :end:
 
 Immidiate predecessor.
@@ -10327,17 +10335,17 @@ print a = putStrLn (show a)
 #+end_src
 
 ** <<<Good: Fold>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-02 Sun>
 :properties:
 :ID:       e646277c-54f3-47c4-b721-b3721acc6a6f
-:DRILL_LAST_INTERVAL: 4.0
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.352
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.5
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 18:41]
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:10]
 :end:
 
 =foldr= spine recursion intermediated by the folding
@@ -10427,17 +10435,17 @@ h (g (f i))
 #+end_src
 
 ** <<<Good: Point-free>>> :drill:
-SCHT: <2020-01-01 Wed>
+SCHT: <2020-02-03 Mon>
 :properties:
 :ID:       62f8356a-69a2-46e9-ab0f-1a9b5bdfe797
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 11.0911
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
+:DRILL_EASE: 2.7
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 16:25]
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
 :end:
 
 Use Tacit very carefully - it hides types and harder to change code where it is used.
