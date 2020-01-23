@@ -9763,10 +9763,6 @@ Full strongly connected subgraph of some graph.
 
 ** <<<Invertible>>>
 ** <<<Invertibility>>>
-** <<<Partial inverse>>>
-
-/*/ when function is now bijective. When bijective see inverse function.
-
 ** <<<Define LANGUAGE pragma options>>>
 
 *** <<<ExistentialQuantification>>>
@@ -11431,6 +11427,10 @@ SCHT: <2020-02-12 Wed>
 For $$ f: x \to y $$:
 $$ \exists g \ : \ g \circ f = 1^{x}^{} $$ - $$ g $$ is left inverse of $$ f $$.
 $$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
+
+** <<<Partial inverse>>>
+
+/*/ when function is now bijective. When bijective see inverse function.
 
 * Reference
 
