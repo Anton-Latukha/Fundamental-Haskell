@@ -9773,17 +9773,6 @@ Full strongly connected subgraph of some graph.
 
 *** <<<FuncitonalDependencies>>>
 
-** <<<GHC debug keys>>>
-
-*** <<<-ddump-ds>>>
-
-Dump desugarer output.
-
-**** /*/
-
-<<<Desugar>>>
-<<<GHC desugar>>>
-
 ** <<<GHC optimize keys>>>
 
 *** <<<-foptimal-applicative-do>>>
@@ -11431,6 +11420,17 @@ Allows to abstract-away the structures of pattern matching.
 
 <<<Pattern synonym>>>
 <<<Pattern synonyms>>>
+
+** <<<GHC debug keys>>>
+
+*** <<<-ddump-ds>>>
+
+Dump desugarer output.
+
+**** /*/
+
+<<<Desugar>>>
+<<<GHC desugar>>>
 
 * Reference
 
