@@ -28,9 +28,11 @@ To get the full view:
   * LaTeX formulas: $$ {\displaystyle\left[{-\frac{\hbar^{2}}{2m}}\nabla^{2}+V(\vec{r},t)\right]\Psi({\vec{r}},t)=i\hbar{\partial\over\partial{t}}\Psi({\vec{r}},t),\quad\sum_{k,j}\left[-{\frac{\hbar^{2}}{\sqrt{a}}}{\frac{\partial}{\partial{q^{k}}}}\left({\sqrt{a}}a^{kj}{\frac{\partial}{\partial{q^{j}}}}\right)+V\right]\Psi+{\frac{\hbar}{i}}{\frac{\partial{\Psi}}{\partial{t}}}=0} $$
   * Interlinks: <<<Interlinks>>>
 
-If something - =<<<This is a radio target>>>= - for =org-mode= linking.
+, please refere to Org mode capable viewer/editor, or to the web book.
 
-Elisp snippet for you to prettify =<<<Radio targets>>>= to _Radio targets_:
+Note about markup: =<<<This is a radio target>>>= - for dynamic =org-mode= linking.
+
+To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio targets>>>= to _Radio targets_:
 
 #+begin_src elisp
 ;;;; 2019-06-12: NOTE: Prettify '<<<Radio targets>>>' to be shown as '_Radio_targets_' when `org-descriptive-links` set
