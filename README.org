@@ -9743,16 +9743,6 @@ Full strongly connected subgraph of some graph.
 
 ** <<<Gen>>>
 
-** <<<ST-Trick monad>>>
-
-ST is like a lexical scope, where all the variables/state disappear when the function returns
-https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
-https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
-
-*** /*/
-
-<<<ST-Trick>>>
-
 ** <<<Lax monoidal functor>>>
 
 ** <<<Tensorial strength>>>
@@ -11431,6 +11421,16 @@ All [[http://hackage.haskell.org/][Hackage]] packages are available to search wi
   * =mode +cmdargs= (only)
   * =mode +platform +cmdargs=
   * =file -base= (Haskell Platform, excluding the "base" package)
+
+** <<<ST-Trick monad>>>
+
+ST is like a lexical scope, where all the variables/state disappear when the function returns
+https://wiki.haskell.ohttps://www.schoolofhaskell.com/school/to-infinity-and-beyond/older-but-still-interesting/deamortized-strg/Monad/ST
+https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh
+
+*** /*/
+
+<<<ST-Trick>>>
 
 * Reference
 
