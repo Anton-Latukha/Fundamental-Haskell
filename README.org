@@ -9773,19 +9773,6 @@ Full strongly connected subgraph of some graph.
 
 *** <<<FuncitonalDependencies>>>
 
-*** <<<PatternSynonyms>>>
-:properties:
-:ID:       5b29fb7d-11a2-4c8f-a993-39f97e5cc93d
-:end:
-
-Enables pattern synonym declaration, which always begins with the =pattern= word.
-Allows to abstract-away the structures of pattern matching.
-
-**** /*/
-
-<<<Pattern synonym>>>
-<<<Pattern synonyms>>>
-
 ** <<<GHC debug keys>>>
 
 *** <<<-ddump-ds>>>
@@ -11431,6 +11418,19 @@ $$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
 ** <<<Partial inverse>>>
 
 /*/ when function is now bijective. When bijective see inverse function.
+
+** <<<PatternSynonyms>>>
+:properties:
+:ID:       5b29fb7d-11a2-4c8f-a993-39f97e5cc93d
+:end:
+
+Enables pattern synonym declaration, which always begins with the =pattern= word.
+Allows to abstract-away the structures of pattern matching.
+
+*** /*/
+
+<<<Pattern synonym>>>
+<<<Pattern synonyms>>>
 
 * Reference
 
