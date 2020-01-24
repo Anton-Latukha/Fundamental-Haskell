@@ -937,6 +937,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#concentrating][Concentrating]]
     - [[#deferring][Deferring]]
   - [[#monadic-error-handling][Monadic Error handling]]
+  - [[#functions][Functions]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11531,6 +11532,15 @@ Defer state to the last step of the program, or to external system.
 (>>=) :: m a -> (a -> m b) -> m b -- λA.E ∨ A - computes and drops if error value happens.
 catch :: c a -> (e -> c a) -> c a -- λE.E ∨ A - handles "errors" as "normal" values and stops when an "error" is finally handled.
 #+end_src
+
+** Functions
+
+Total function uses domain fully, but takes only part of the codomain.
+Function allows to collapse domain values into codomain value. Meaning the function allows to loose the information.
+So total function is a computation that looses the information or into bigger codomains.
+That is why the function has a directionality, and inverse total process is partially possible.
+
+Directionality and invertability are terms.
 
 * Reference
 
