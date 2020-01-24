@@ -4328,7 +4328,7 @@ C { r1 :: T1
 :ID:       ce72c132-c2e8-4d14-bac6-4b399735c7fa
 :END:
 
-Enumerated collection of objects.
+Enumerated (ordered) set.
 
 Denotation:
 #+begin_src haskell
