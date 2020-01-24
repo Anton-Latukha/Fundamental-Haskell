@@ -931,6 +931,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#stream][Stream]]
+  - [[#computational-trinitarianism][Computational trinitarianism]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11455,6 +11456,55 @@ Draft: Stream is infinite sequence that forgets the previous objects, and number
 a = (cycle [Nothing, Nothing, Just "Fizz"])
 b = (cycle [Nothing, Nothing, Nothing, Nothing, Just "Buzz"])
 #+end_src
+
+** Computational trinitarianism
+
+Taken from: https://ncatlab.org/nlab/show/computational+trinitarianism
+
+Under the statements:
+
+  * propositions as types
+
+  * programs as proofs
+
+  * relation between type theory and category theory
+
+the following notions are equivalent:
+
+    A proof of a proposition. (In logic.)
+
+    A program with output some type. (In type theory and computer science.)
+
+    A generalized element of an object. (In category theory.)
+
+
+| [[https://ncatlab.org/nlab/show/logic][logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][type theory]]                                    |
+|-----------------------------------+-----------------------------------------------------------------+------------------------------------------------|
+| [[https://ncatlab.org/nlab/show/true][true]]                              | [[https://ncatlab.org/nlab/show/terminal+object][terminal object]]/[[https://ncatlab.org/nlab/show/%28-2%29-truncated+object][(-2)-truncated object]]                           | [[https://ncatlab.org/nlab/show/h-level+0][h-level 0]]-[[https://ncatlab.org/nlab/show/type][type]]/[[https://ncatlab.org/nlab/show/unit+type][unit type]]                       |
+| [[https://ncatlab.org/nlab/show/false][false]]                             | [[https://ncatlab.org/nlab/show/initial+object][initial object]]                                                  | [[https://ncatlab.org/nlab/show/empty+type][empty type]]                                     |
+| [[https://ncatlab.org/nlab/show/proposition][proposition]]                       | [[https://ncatlab.org/nlab/show/%28-1%29-truncated+object][(-1)-truncated object]]                                           | [[https://ncatlab.org/nlab/show/h-proposition][h-proposition]], [[https://ncatlab.org/nlab/show/mere+proposition][mere proposition]]                |
+| [[https://ncatlab.org/nlab/show/proof][proof]]                             | [[https://ncatlab.org/nlab/show/generalized+element][generalized element]]                                             | [[https://ncatlab.org/nlab/show/program][program]]                                        |
+| [[https://ncatlab.org/nlab/show/cut+rule][cut rule]]                          | [[https://ncatlab.org/nlab/show/composition][composition]] of [[https://ncatlab.org/nlab/show/classifying+morphisms][classifying morphisms]] / [[https://ncatlab.org/nlab/show/pullback][pullback]] of [[https://ncatlab.org/nlab/show/display+maps][display maps]] | [[https://ncatlab.org/nlab/show/substitution][substitution]]                                   |
+| [[https://ncatlab.org/nlab/show/cut+elimination][cut elimination]] for [[https://ncatlab.org/nlab/show/implication][implication]]   | [[https://ncatlab.org/nlab/show/counit][counit]] for hom-tensor adjunction                                | [[https://ncatlab.org/nlab/show/beta+reduction][beta reduction]]                                 |
+| introduction rule for [[https://ncatlab.org/nlab/show/implication][implication]] | [[https://ncatlab.org/nlab/show/unit][unit]] for hom-tensor adjunction                                  | [[https://ncatlab.org/nlab/show/eta+conversion][eta conversion]]                                 |
+| [[https://ncatlab.org/nlab/show/logical+conjunction][logical conjunction]]               | [[https://ncatlab.org/nlab/show/product][product]]                                                         | [[https://ncatlab.org/nlab/show/product+type][product type]]                                   |
+| [[https://ncatlab.org/nlab/show/disjunction][disjunction]]                       | [[https://ncatlab.org/nlab/show/coproduct][coproduct]] ([[https://ncatlab.org/nlab/show/%28-1%29-truncation][(-1)-truncation]] of)                                  | [[https://ncatlab.org/nlab/show/sum+type][sum type]] ([[https://ncatlab.org/nlab/show/bracket+type][bracket type]] of)                     |
+| [[https://ncatlab.org/nlab/show/implication][implication]]                       | [[https://ncatlab.org/nlab/show/internal+hom][internal hom]]                                                    | [[https://ncatlab.org/nlab/show/function+type][function type]]                                  |
+| [[https://ncatlab.org/nlab/show/negation][negation]]                          | [[https://ncatlab.org/nlab/show/internal+hom][internal hom]] into [[https://ncatlab.org/nlab/show/initial+object][initial object]]                                | [[https://ncatlab.org/nlab/show/function+type][function type]] into [[https://ncatlab.org/nlab/show/empty+type][empty type]]                  |
+| [[https://ncatlab.org/nlab/show/universal+quantification][universal quantification]]          | [[https://ncatlab.org/nlab/show/dependent+product][dependent product]]                                               | [[https://ncatlab.org/nlab/show/dependent+product+type][dependent product type]]                         |
+| [[https://ncatlab.org/nlab/show/existential+quantification][existential quantification]]        | [[https://ncatlab.org/nlab/show/dependent+sum][dependent sum]] ([[https://ncatlab.org/nlab/show/%28-1%29-truncation][(-1)-truncation]] of)                              | [[https://ncatlab.org/nlab/show/dependent+sum+type][dependent sum type]] ([[https://ncatlab.org/nlab/show/bracket+type][bracket type]] of)           |
+| [[https://ncatlab.org/nlab/show/equivalence][equivalence]]                       | [[https://ncatlab.org/nlab/show/path+space+object][path space object]]                                               | [[https://ncatlab.org/nlab/show/identity+type][identity type]]                                  |
+| [[https://ncatlab.org/nlab/show/equivalence+class][equivalence class]]                 | [[https://ncatlab.org/nlab/show/quotient][quotient]]                                                        | [[https://ncatlab.org/nlab/show/quotient+type][quotient type]]                                  |
+| [[https://ncatlab.org/nlab/show/induction][induction]]                         | [[https://ncatlab.org/nlab/show/colimit][colimit]]                                                         | [[https://ncatlab.org/nlab/show/inductive+type][inductive type]], [[https://ncatlab.org/nlab/show/W-type][W-type]], [[https://ncatlab.org/nlab/show/M-type][M-type]]                 |
+| higher [[https://ncatlab.org/nlab/show/induction][induction]]                  | [[https://ncatlab.org/nlab/show/%28infinity%2C1%29-colimit][higher colimit]]                                                  | [[https://ncatlab.org/nlab/show/higher+inductive+type][higher inductive type]]                          |
+| [[https://ncatlab.org/nlab/show/completely+presented+set][completely presented set]]          | [[https://ncatlab.org/nlab/show/discrete+object][discrete object]]/[[https://ncatlab.org/nlab/show/0-truncated+object][0-truncated object]]                              | [[https://ncatlab.org/nlab/show/h-level+2][h-level 2]]-[[https://ncatlab.org/nlab/show/type][type]]/[[https://ncatlab.org/nlab/show/preset][preset]]/[[https://ncatlab.org/nlab/show/h-set][h-set]]                    |
+| [[https://ncatlab.org/nlab/show/set][set]]                               | [[https://ncatlab.org/nlab/show/groupoid+object+in+an+%28infinity%2C1%29-category][internal 0-groupoid]]                                             | [[https://ncatlab.org/nlab/show/Bishop+set][Bishop set]]/[[https://ncatlab.org/nlab/show/setoid][setoid]]                              |
+| [[https://ncatlab.org/nlab/show/universe][universe]]                          | [[https://ncatlab.org/nlab/show/object+classifier][object classifier]]                                               | [[https://ncatlab.org/nlab/show/type+of+types][type of types]]                                  |
+| [[https://ncatlab.org/nlab/show/modality][modality]]                          | [[https://ncatlab.org/nlab/show/closure+operator][closure operator]], ([[https://ncatlab.org/nlab/show/idempotent+monad][idemponent]]) [[https://ncatlab.org/nlab/show/monad][monad]]                            | [[https://ncatlab.org/nlab/show/modal+type+theory][modal type theory]], [[https://ncatlab.org/nlab/show/monad+%28in+computer+science%29][monad (in computer science)]] |
+| [[https://ncatlab.org/nlab/show/linear+logic][linear logic]]                      | ([[https://ncatlab.org/nlab/show/symmetric+monoidal+category][symmetric]], [[https://ncatlab.org/nlab/show/closed+monoidal+category][closed]]) [[https://ncatlab.org/nlab/show/monoidal+category][monoidal category]]                           | [[https://ncatlab.org/nlab/show/linear+type+theory][linear type theory]]/[[https://ncatlab.org/nlab/show/quantum+computation][quantum computation]]         |
+| [[https://ncatlab.org/nlab/show/proof+net][proof net]]                         | [[https://ncatlab.org/nlab/show/string+diagram][string diagram]]                                                  | [[https://ncatlab.org/nlab/show/quantum+circuit][quantum circuit]]                                |
+| (absence of) [[https://ncatlab.org/nlab/show/contraction+rule][contraction rule]]     | (absence of) [[https://ncatlab.org/nlab/show/diagonal][diagonal]]                                           | [[https://ncatlab.org/nlab/show/no-cloning+theorem][no-cloning theorem]]                             |
+|                                   | [[https://ncatlab.org/nlab/show/synthetic+mathematics][synthetic mathematics]]                                           | [[https://ncatlab.org/nlab/show/domain+specific+embedded+programming+language][domain specific embedded programming language]]  |
 
 * Reference
 
