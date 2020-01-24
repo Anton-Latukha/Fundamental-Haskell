@@ -938,6 +938,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#deferring][Deferring]]
   - [[#monadic-error-handling][Monadic Error handling]]
   - [[#functions][Functions]]
+  - [[#void][Void]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11541,6 +11542,39 @@ So total function is a computation that looses the information or into bigger co
 That is why the function has a directionality, and inverse total process is partially possible.
 
 Directionality and invertability are terms.
+
+** Void
+
+A logically uninhabited data type.
+(Since asis of logic is tautologically True and Void value can not be adressed - there is a logical paradox with the Void)
+
+Is an object in Hask category, since:
+#+begin_src haskell
+:t (id :: Void -> Void)
+(id :: Void -> Void) :: Void -> Void
+#+end_src
+
+=id= exists.
+
+Also has:
+#+begin_src haskell
+-- Represents logical principle of explosion: from falsehood, anything follows.
+absurd :: Void -> a
+
+-- If Functor holds only Void - it holds no values.
+vacuous :: Functor f => f Void -> f a
+
+-- If Monad holds only Void - it holds no values.
+vacuousM :: Monad m => m Void -> m a
+#+end_src
+
+Type system corresponds to constructive logic and not to the classical logic.
+Classical logic answers the question "Is this actually true".
+Constuctive (Intuitionistic) logic answers the question "Is this provable".
+
+Gesign pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
+
+
 
 * Reference
 
