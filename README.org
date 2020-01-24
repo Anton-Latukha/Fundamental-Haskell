@@ -936,6 +936,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#minimizing][Minimizing]]
     - [[#concentrating][Concentrating]]
     - [[#deferring][Deferring]]
+  - [[#monadic-error-handling][Monadic Error handling]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11523,6 +11524,13 @@ Concentrate the state in one place.
 *** Deferring
 
 Defer state to the last step of the program, or to external system.
+
+** Monadic Error handling
+
+#+begin_src haskell
+(>>=) :: m a -> (a -> m b) -> m b -- λA.E ∨ A - computes and drops if error value happens.
+catch :: c a -> (e -> c a) -> c a -- λE.E ∨ A - handles "errors" as "normal" values and stops when an "error" is finally handled.
+#+end_src
 
 * Reference
 
