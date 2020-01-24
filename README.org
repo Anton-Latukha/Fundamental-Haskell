@@ -10724,6 +10724,7 @@ With Type Applicative every condition fails/succseeds independently. It needs a 
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 
 ** <<<Good: Haskell Package Versioning Policy>>>
+
 Version policy and dependency management.
 
 #+downloaded: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
@@ -11485,11 +11486,11 @@ Under the statements:
 
 the following notions are equivalent:
 
-    A proof of a proposition. (In logic.)
+  == proposition proof (Logic)
 
-    A program with output some type. (In type theory and computer science.)
+  == generalized element of an object (Category theory)
 
-    A generalized element of an object. (In category theory.)
+  == typed program with output (Type theory & Computer science)
 
 
 | [[https://ncatlab.org/nlab/show/logic][logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][type theory]]                                    |
