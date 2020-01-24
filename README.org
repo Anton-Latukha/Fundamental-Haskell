@@ -942,9 +942,11 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#constructive-proof][Constructive proof]]
   - [[#intuitionistic-logic][Intuitionistic logic]]
     - [[#-208][/*/]]
+  - [[#principle-of-explosion][Principle of explosion]]
+    - [[#-209][/*/]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-    - [[#-209][/*/]]
+    - [[#-210][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
 - [[#liturgy][Liturgy]]
@@ -11592,6 +11594,22 @@ Proposition considered =True= due to direct evidence of existence through constr
 *** /*/
 
 <<<Constructive logic>>>
+
+** Principle of explosion
+
+From asserted statement that contains contradiction - anything can be proven.
+Ancient principle of logic. Both in classical & intuitionistic logic.
+
+*** /*/
+
+<<<Ex falso quodlibet>>>
+<<<Ex falso sequitur quodlibet>>>
+<<<EFG>>>
+<<<Ex contradictione quodlibet>>>
+<<<Ex contradictione sequitur quodlibet>>>
+<<<ECQ>>>
+<<<Deductive explosion>>>
+<<<Pseudo-Scotus>>>
 
 * Reference
 
