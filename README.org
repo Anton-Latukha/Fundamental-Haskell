@@ -939,6 +939,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#monadic-error-handling][Monadic Error handling]]
   - [[#functions][Functions]]
   - [[#void][Void]]
+  - [[#constructive-proof][Constructive proof]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11575,6 +11576,10 @@ Constuctive (Intuitionistic) logic answers the question "Is this provable".
 Gesign pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
 
 
+
+** Constructive proof
+
+Method of proof that demonstrates the existence of a mathematical object by creating or providing a method for creating the object.
 
 * Reference
 
