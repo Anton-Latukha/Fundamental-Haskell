@@ -932,6 +932,10 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
   - [[#stream][Stream]]
   - [[#computational-trinitarianism][Computational trinitarianism]]
+  - [[#techniques-functional-programming-deals-with-the-state][Techniques functional programming deals with the state]]
+    - [[#minimizing][Minimizing]]
+    - [[#concentrating][Concentrating]]
+    - [[#deferring][Deferring]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11505,6 +11509,20 @@ the following notions are equivalent:
 | [[https://ncatlab.org/nlab/show/proof+net][proof net]]                         | [[https://ncatlab.org/nlab/show/string+diagram][string diagram]]                                                  | [[https://ncatlab.org/nlab/show/quantum+circuit][quantum circuit]]                                |
 | (absence of) [[https://ncatlab.org/nlab/show/contraction+rule][contraction rule]]     | (absence of) [[https://ncatlab.org/nlab/show/diagonal][diagonal]]                                           | [[https://ncatlab.org/nlab/show/no-cloning+theorem][no-cloning theorem]]                             |
 |                                   | [[https://ncatlab.org/nlab/show/synthetic+mathematics][synthetic mathematics]]                                           | [[https://ncatlab.org/nlab/show/domain+specific+embedded+programming+language][domain specific embedded programming language]]  |
+
+** Techniques functional programming deals with the state
+
+*** Minimizing
+
+Do not rely on state, try not to change the state. Use it only when it is very necessary.
+
+*** Concentrating
+
+Concentrate the state in one place.
+
+*** Deferring
+
+Defer state to the last step of the program, or to external system.
 
 * Reference
 
