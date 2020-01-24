@@ -930,6 +930,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
       - [[#-207][/*/]]
   - [[#ghc-optimize-keys][<<<GHC optimize keys>>>]]
     - [[#-foptimal-applicative-do][<<<-foptimal-applicative-do>>>]]
+  - [[#stream][Stream]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-208][/*/]]
@@ -11444,6 +11445,16 @@ Dump desugarer output.
 
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
+
+** Stream
+
+Draft: Stream is infinite sequence that forgets the previous objects, and numbers.
+
+=cycle= is one of stream functions.
+#+begin_src haskell
+a = (cycle [Nothing, Nothing, Just "Fizz"])
+b = (cycle [Nothing, Nothing, Nothing, Nothing, Just "Buzz"])
+#+end_src
 
 * Reference
 
