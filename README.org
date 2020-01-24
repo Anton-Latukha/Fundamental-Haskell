@@ -944,6 +944,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-208][/*/]]
   - [[#principle-of-explosion][Principle of explosion]]
     - [[#-209][/*/]]
+  - [[#universal-property][Universal property]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-210][/*/]]
@@ -11610,6 +11611,10 @@ Ancient principle of logic. Both in classical & intuitionistic logic.
 <<<ECQ>>>
 <<<Deductive explosion>>>
 <<<Pseudo-Scotus>>>
+
+** Universal property
+
+A property of some construction which boils down to (is manifestly equivalent to) the property that an associated object is a universal initial object of some (auxiliary) category.
 
 * Reference
 
