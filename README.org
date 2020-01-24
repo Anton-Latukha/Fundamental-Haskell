@@ -945,6 +945,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#principle-of-explosion][Principle of explosion]]
     - [[#-209][/*/]]
   - [[#universal-property][Universal property]]
+  - [[#yoneda-lemma][Yoneda lemma]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-210][/*/]]
@@ -11615,6 +11616,12 @@ Ancient principle of logic. Both in classical & intuitionistic logic.
 ** Universal property
 
 A property of some construction which boils down to (is manifestly equivalent to) the property that an associated object is a universal initial object of some (auxiliary) category.
+
+** Yoneda lemma
+
+Allows the embedding of any category into a category of functors (contravariant set-valued functors) defined on that category. It also clarifies how the embedded category, of representable functors and their natural transformations, relates to the other objects in the larger functor category.
+
+The Yoneda lemma suggests that instead of studying the (locally small) category C {\displaystyle {\mathcal {C}}} \mathcal{C} , one should study the category of all functors of C {\displaystyle {\mathcal {C}}} \mathcal{C} into S e t {\displaystyle \mathbf {Set} } \mathbf{Set} (the category of sets with functions as morphisms). S e t {\displaystyle \mathbf {Set} } \mathbf{Set} is a category we think we understand well, and a functor of C {\displaystyle {\mathcal {C}}} \mathcal{C} into S e t {\displaystyle \mathbf {Set} } \mathbf{Set} can be seen as a "representation" of C {\displaystyle {\mathcal {C}}} \mathcal{C} in terms of known structures. The original category C {\displaystyle {\mathcal {C}}} \mathcal{C} is contained in this functor category, but new objects appear in the functor category, which were absent and "hidden" in C {\displaystyle {\mathcal {C}}} \mathcal{C} . Treating these new objects just like the old ones often unifies and simplifies the theory.
 
 * Reference
 
