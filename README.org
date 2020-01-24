@@ -11423,7 +11423,7 @@ SCHT: <2020-02-12 Wed>
 :end:
 
 For $$ f: x \to y $$:
-$$ \exists g \ : \ g \circ f = 1^{x}^{} $$ - $$ g $$ is left inverse of $$ f $$.
+$$ \exists g \ : \ g \circ f = 1^{x} $$ - $$ g $$ is left inverse of $$ f $$.
 $$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
 
 ** <<<Partial inverse>>>
