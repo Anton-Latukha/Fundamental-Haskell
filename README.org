@@ -11463,7 +11463,10 @@ Dump desugarer output.
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
-** Stream
+** Stream :drill:
+:PROPERTIES:
+:ID:       da9e4972-1cef-48f6-9878-8ec79302b759
+:END:
 
 /*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
 
@@ -11654,7 +11657,6 @@ nix-shell --command 'ghcid --command=\'cabal v2-repl --repl-options=-fno-code --
 #+begin_src fish
 nix-shell --command "ghcid --command=\'cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j\' "
 #+end_src
-
 
 * Reference
 
