@@ -10327,7 +10327,7 @@ Generalises to corecursion.
 ** <<<Terminal coalgebra for an endofunctor>>>
 ** <<<Bisimulation>>>
 
-Systems are bisimilar if they have exact external behaviour so observer can not know which system it is.
+When systems have exact external behaviour so for observer they are the same.
 
 Binary relation between state transition systems that match each other's moves.
 
