@@ -10312,6 +10312,7 @@ Functors like these are called representable functors. An important goal in many
 ** <<<Corecursion>>>
 ** <<<Coinduction>>>
 ** <<<Initial algebra of an endofunctor>>>
+** <<<Terminal coalgebra for an endofunctor>>>
 * Citations
 
 "One of the finer points of the Haskell community has been
