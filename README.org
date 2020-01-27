@@ -10309,6 +10309,7 @@ We can generalize the previous example to any category C. To every pair X, Y of 
 
 Functors like these are called representable functors. An important goal in many settings is to determine whether a given functor is representable.
 
+** <<<Corecursion>>>
 * Citations
 
 "One of the finer points of the Haskell community has been
