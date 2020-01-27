@@ -9763,12 +9763,14 @@ Full strongly connected subgraph of some graph.
 <<<Strongly-connected component>>>
 <<<Strongly-connected components>>>
 
-** Stream :drill:
-:PROPERTIES:
+** <<<Stream>>> :drill:
+:properties:
 :ID:       da9e4972-1cef-48f6-9878-8ec79302b759
-:END:
+:end:
 
 /*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
+
+$$ E \ | \ X \to (X \times A + 1) $$, the set (or object) of streams on A (final coalgebra $$ A_{*} $$ of $$ E $$).
 
 =cycle= is one of stream functions.
 #+begin_src haskell
