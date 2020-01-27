@@ -10311,6 +10311,12 @@ Functors like these are called representable functors. An important goal in many
 
 ** <<<Corecursion>>>
 ** <<<Coinduction>>>
+
+/proper definition/
+
+/*/ dual to induction.
+Generalises to corecursion.
+
 ** <<<Initial algebra of an endofunctor>>>
 ** <<<Terminal coalgebra for an endofunctor>>>
 ** <<<Bisimulation>>>
