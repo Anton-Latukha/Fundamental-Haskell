@@ -10320,6 +10320,15 @@ Generalises to corecursion.
 ** <<<Initial algebra of an endofunctor>>>
 ** <<<Terminal coalgebra for an endofunctor>>>
 ** <<<Bisimulation>>>
+
+Systems are bisimilar if they have exact external behaviour so observer can not know which system it is.
+
+Binary relation between state transition systems that match each other's moves.
+
+*** /*/
+
+<<<Bisimilar>>>
+
 * Citations
 
 "One of the finer points of the Haskell community has been
