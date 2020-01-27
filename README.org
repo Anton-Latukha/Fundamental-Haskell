@@ -11465,7 +11465,7 @@ Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
 ** Stream
 
-Draft: Stream is infinite sequence that forgets the previous objects, and numbers.
+/*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
 
 =cycle= is one of stream functions.
 #+begin_src haskell
