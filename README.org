@@ -11473,6 +11473,14 @@ a = (cycle [Nothing, Nothing, Just "Fizz"])
 b = (cycle [Nothing, Nothing, Nothing, Nothing, Just "Buzz"])
 #+end_src
 
+Can be:
+  * indexed, timeless, with current object
+  * timed:
+  ** =[(timescale, event)]=
+  ** =[(realtime, event)]=
+
+Has amalgamation with Functional Reactive Programming.
+
 ** Computational trinitarianism
 
 Taken from: https://ncatlab.org/nlab/show/computational+trinitarianism
