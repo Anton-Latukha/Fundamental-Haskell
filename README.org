@@ -11335,6 +11335,25 @@ Composit approach:
 Provide the set of constructors and also a set of predicates and set of accessors.
 Use pattern synonyms to provide a documented accessor set without exposing internal data type.
 
+In GHC 8.8 the change was made:
+#+begin_quote
+The fail method of Monad has been removed in favor of the method of the same name in the MonadFail class.
+
+MonadFail(..) is now exported from the Prelude and Control.Monad modules.
+The MonadFailDesugaring language extension is now deprecated, as its effects are
+always enabled.
+#+end_quote
+
+So:
+#+begin_src haskell
+import           Control.Monad.Fail
+...
+class MonadFail m => MonadFile m
+...
+-- use error instead of fail
+Nothing     -> error ("Message " <> show x)
+#+end_src
+
 ** Constraints
 
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
