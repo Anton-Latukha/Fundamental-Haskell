@@ -4767,6 +4767,8 @@ g2 :: (forall a. Eq a => [a] -> a -> Bool) -> Int -> Int
 #+end_src
 f2, g2 - rank-2 types. Quantificator is on the left side of a \to. Quantificator shows that type on the left can be overloaded.
 
+Type inference in Rank-2 is possible, but not higher.
+
 #+begin_src haskell
 f3 :: ((forall a. a->a) -> Int) -> Bool -> Bool
 #+end_src
@@ -4778,7 +4780,6 @@ g :: Int -> Ord a => a -> a
 #+end_src
 f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
 
-Type inference in Rank-2 is possible, but not higher.
 
 **** /*/
 
