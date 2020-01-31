@@ -7378,6 +7378,28 @@ Allows to set full kind of derivable class, solving situations with GADT return 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
 
+***** <<<PartialTypeSignatures>>> :drill:
+
+Very healpful. Helps to solve type level, helps to establish type signatures and constraints.
+Allow to provide =_= in the type signatures to automatically infere-in the type information there.
+
+Wild cards:
+  * Type
+  #+begin_src haskell
+f :: _ -> _ -> a
+  #+end_src
+
+  * Constraint
+  #+begin_src haskell
+f :: _ => a -> b -> c
+  #+end_src
+
+  * Named
+  #+begin_src haskell
+f :: _x -> _x -> a
+  #+end_src
+allows to identify the same wildcard.
+
 **** How to make a GHC LANGUAGE extension
 
 In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
