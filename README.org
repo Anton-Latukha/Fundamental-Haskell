@@ -958,6 +958,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-211][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
+  - [[#performance-results-and-comparisons-of-types--solutions][Performance results and comparisons of types & solutions]]
 - [[#liturgy][Liturgy]]
 
 * Definitions
@@ -11743,6 +11744,9 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
     1.2. constructors+variables+repetitions < head
     1.3. \not type functions (type func application can expand to arbitrary size)
   2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
+
+** Performance results and comparisons of types & solutions
+[[Haskell performance][https://github.com/haskell-perf]]
 
 * Liturgy
 λειτ       <- λαός  /Laos/       the people
