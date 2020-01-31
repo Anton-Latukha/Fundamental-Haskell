@@ -4588,7 +4588,7 @@ coarbitrary :: CoArbitrary a => a -> Gen b -> Gen b
 
 Allows dynamic type checking in Haskell for a type.
 Shift a typechecking of type from compile time to runtime.
-/*/ types gets wrapped in the universal type, and shifts the type checks to runtime.
+/*/ type gets wrapped in the universal type, that shifts the type checks to runtime.
 
 Also allows:
   * Get the type of something at runtime (ex. print the type of something =typeOf=).
