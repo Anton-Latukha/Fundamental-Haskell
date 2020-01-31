@@ -7335,7 +7335,7 @@ data Eq a => Set a = NilSet | ConsSet a (Set a)
 #+end_src
 Considered misfeature. Deprecated. Going to be removed.
 
-**** <<<StandaloneKindSignatures>>> :drill:
+***** <<<StandaloneKindSignatures>>> :drill:
 :properties:
 :ID:       e3ecf941-d6be-4b47-abdd-b08675bf367a
 :end:
@@ -7373,7 +7373,7 @@ Allows to set the order of quantification, order of variables in a kind. For exa
 
 Allows to set full kind of derivable class, solving situations with GADT return kind.
 
-***** /*/
+****** /*/
 
 <<<SAKS>>>
 <<<Standalone kind signatures>>>
