@@ -11769,7 +11769,7 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
   2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
 
 ** Performance results and comparisons of types & solutions
-[[Haskell performance][https://github.com/haskell-perf]]
+[[https://github.com/haskell-perf][Haskell performance]]
 
 * Liturgy
 λειτ       <- λαός  /Laos/       the people
