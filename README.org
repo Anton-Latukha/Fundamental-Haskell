@@ -11047,8 +11047,6 @@ Instances for data type can differentiate by constraints & types of arguments. S
   - IncoherentInstances
   - ImpredicativeTypes
   - AllowAmbigiousTypes
-
-Mine addition:
   - UndecidableInstances - often
 
 * Useful functions to remember
