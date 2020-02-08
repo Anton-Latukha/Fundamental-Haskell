@@ -9907,6 +9907,13 @@ DSL used inside outer language.
 
 <<<eDSL>>>
 
+** <<<Turing machine>>> :drill:
+:PROPERTIES:
+:ID:       30386543-0e34-4d6c-8c83-34b5e919af28
+:END:
+
+Mathematical model of computation that defines abstract Turing machine. Abstract machine which manipulates symbols on a strip of tape, according to a table of rules.
+
 * Give definitions
 
 ** <<<Const functor>>>
