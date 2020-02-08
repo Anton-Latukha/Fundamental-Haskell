@@ -9856,6 +9856,8 @@ Tree of syntactic elements (each node denotes construct occurring in the source 
 
 "Abstract" since does not represent every detail of the syntax (ex. parentheses), but rather concentrates on structure and content.
 
+Widely used in compilers to check the code structure for accuracy and coherence.
+
 **** /*/
 
 <<<AST>>>
