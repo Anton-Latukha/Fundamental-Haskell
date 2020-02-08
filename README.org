@@ -9843,6 +9843,17 @@ Binary relation between state transition systems that match each other's moves.
 
 Tree of syntactic elements (each node denotes construct occurring in the source code) that represent the source code (or human language).
 
+*** <<<Abstract syntax tree>>> :drill:
+:PROPERTIES:
+:ID:       c79cc094-a057-42b1-aa3d-05304de57c2e
+:END:
+
+"Abstract" since does not represent every detail of the syntax (ex. parentheses), but rather concentrates on structure and content.
+
+**** /*/
+
+<<<AST>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
