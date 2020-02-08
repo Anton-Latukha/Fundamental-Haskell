@@ -9914,6 +9914,17 @@ DSL used inside outer language.
 
 Mathematical model of computation that defines abstract Turing machine. Abstract machine which manipulates symbols on a strip of tape, according to a table of rules.
 
+** <<<Turing complete>>>
+
+Set of action rules that can simulate any Turing machine.
+
+*** /*/
+
+<<<Turing incomplete>>>
+<<<Turing incompleteness>>>
+<<<Turing completeness>>>
+<<<Computationally universal>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
