@@ -9819,7 +9819,10 @@ Can be:
 
 Has amalgamation with Functional Reactive Programming.
 
-** <<<Bisimulation>>>
+** <<<Bisimulation>>> :drill:
+:PROPERTIES:
+:ID:       efecab45-bf59-4193-8672-a45d06493368
+:END:
 
 When systems have exact external behaviour so for observer they are the same.
 
