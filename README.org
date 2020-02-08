@@ -9915,7 +9915,7 @@ DSL used inside outer language.
 Two levels of embedding:
 
   * Shallow: DSL translates into Haskell directly
-  * Deep: Between DSL and Haskell there is a data structure that reflects the expression tree, AKA syntax tree.
+  * Deep: Between DSL and Haskell there is a data structure that reflects the expression tree, AKA stores the syntax tree.
 
 **** /*/
 
