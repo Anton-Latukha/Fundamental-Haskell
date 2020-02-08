@@ -5097,6 +5097,10 @@ Do not propagate /*/.
 
 Handle /*/ locally to where it is produced. =Nothing= does not hold useful info for debugging & short-circuits the processes. Do not expect code type being bug-free, do not return =Maybe= to end user since it would be impossible to debug, return something that preserves error information.
 
+***** /*/
+
+<<<Nodes>>>
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
