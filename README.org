@@ -9896,6 +9896,14 @@ Language design/fitted for particular domain of application. Mainly should be Tu
 <<<Domain-specific language>>>
 <<<DSL>>>
 
+*** <<<Embedded domain specific language>>>
+
+DSL used inside outer language.
+
+**** /*/
+
+<<<eDSL>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
