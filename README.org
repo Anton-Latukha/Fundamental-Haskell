@@ -9867,6 +9867,8 @@ Widely used in compilers to check the code structure for accuracy and coherence.
 
 An ordered, rooted syntax tree that represents the syntactic structure of a string according to some context-free grammar.
 
+"Concrete" since (in contrast to "abstract") - concretely reflects the syntax of the input language.
+
 **** /*/
 
 <<<Parse tree>>>
