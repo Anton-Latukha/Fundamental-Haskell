@@ -9975,6 +9975,16 @@ Set of action rules that can simulate any Turing machine.
 
 *** <<<GADTs>>>
 
+GADT is a generalization over parametric algebraic data types which allow explicitly denote the types (type matching) of the constructors and define data types using pattern matching on the left side of "data" statements.
+
+*** /*/
+
+<<<GADT>>>
+<<<Generalized algebraic data type>>>
+<<<First-class phantom data type>>>
+<<<Guarded recursive data type>>>
+<<<Equality-qualified data type>>>
+
 *** <<<GeneralizedNewTypeClasses>>>
 
 *** <<<FuncitonalDependencies>>>
