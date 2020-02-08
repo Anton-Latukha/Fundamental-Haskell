@@ -4115,7 +4115,7 @@ SCHT: <2020-01-05 Sun>
 :DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:00]
 :end:
 
-The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of Tensors in this basisis.
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of tensors in basisis.
 
 Denotation:
 Components for covariant basis denoted in the upper indices:
