@@ -9884,6 +9884,18 @@ Term is invented by Noam Chomsky.
 
 <<<CFG>>>
 
+** <<<Domain specific language>>> :drill:
+:PROPERTIES:
+:ID:       519f588a-5a5d-4426-b39f-671c2ae6f4f7
+:END:
+
+Language design/fitted for particular domain of application. Mainly should be Turing incomplete, since general-purpose language implies Turing completeness.
+
+*** /*/
+
+<<<Domain-specific language>>>
+<<<DSL>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
