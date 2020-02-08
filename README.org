@@ -1953,9 +1953,9 @@ It holds only to one value. The function does not exist and last parameter is a 
 -- f ~ Constant e
 type C = Constant
 instance Applicative C
-  where
-    pure :: a -> C e a
-    (<*>) :: C e (a -> b) -> C e a -> C e b
+ where
+  pure :: a -> C e a
+  (<*>) :: C e (a -> b) -> C e a -> C e b
 #+end_src
 
 ****** <<<Maybe applicative>>> :drill:
