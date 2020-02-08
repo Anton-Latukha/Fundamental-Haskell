@@ -9854,6 +9854,15 @@ Tree of syntactic elements (each node denotes construct occurring in the source 
 
 <<<AST>>>
 
+*** <<<Concrete syntax tree>>>
+
+An ordered, rooted syntax tree that represents the syntactic structure of a string according to some context-free grammar.
+
+**** /*/
+
+<<<Parse tree>>>
+<<<Derivation tree>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
