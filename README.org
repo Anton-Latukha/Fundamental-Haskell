@@ -810,6 +810,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#coinduction][<<<Coinduction>>>]]
   - [[#initial-algebra-of-an-endofunctor][<<<Initial algebra of an endofunctor>>>]]
   - [[#terminal-coalgebra-for-an-endofunctor][<<<Terminal coalgebra for an endofunctor>>>]]
+  - [[#tagless-final][<<<Tagless-final>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -10486,6 +10487,8 @@ Generalises to corecursion.
 
 ** <<<Initial algebra of an endofunctor>>>
 ** <<<Terminal coalgebra for an endofunctor>>>
+** <<<Tagless-final>>>
+
 * Citations
 
 "One of the finer points of the Haskell community has been
