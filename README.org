@@ -7317,7 +7317,7 @@ SCHT: <2020-01-03 Fri>
 
 #+begin_src haskell
 foo (f1 -> Pattern1) = c1
-foo (f1 -> Pattern2 a b) = g1 a b
+foo (fn -> Pattern2 a b) = g1 a b
 #+end_src
 (/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
 
