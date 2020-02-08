@@ -9874,7 +9874,10 @@ An ordered, rooted syntax tree that represents the syntactic structure of a stri
 <<<Parse tree>>>
 <<<Derivation tree>>>
 
-** <<<Context-free grammar>>>
+** <<<Context-free grammar>>> :drill:
+:PROPERTIES:
+:ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
+:END:
 
 Type of formal grammar that is: a set of production rules that describe all possible string is a given formal language.
 
