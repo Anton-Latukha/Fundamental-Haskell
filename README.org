@@ -9874,6 +9874,16 @@ An ordered, rooted syntax tree that represents the syntactic structure of a stri
 <<<Parse tree>>>
 <<<Derivation tree>>>
 
+** <<<Context-free grammar>>>
+
+Type of formal grammar that is: a set of production rules that describe all possible string is a given formal language.
+
+Term is invented by Noam Chomsky.
+
+*** /*/
+
+<<<CFG>>>
+
 * Give definitions
 
 ** <<<Const functor>>>
