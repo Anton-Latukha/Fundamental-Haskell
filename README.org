@@ -9912,6 +9912,11 @@ Language design/fitted for particular domain of application. Mainly should be Tu
 
 DSL used inside outer language.
 
+Two levels of embedding:
+
+  * Shallow: DSL translates into Haskell directly
+  * Deep: Between DSL and Haskell there is a data structure that reflects the expression tree, AKA syntax tree.
+
 **** /*/
 
 <<<eDSL>>>
