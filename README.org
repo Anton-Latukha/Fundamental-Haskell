@@ -711,6 +711,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#turing-machine][<<<Turing machine>>>]]
   - [[#turing-complete][<<<Turing complete>>>]]
     - [[#-190][/*/]]
+  - [[#tagless-final][<<<Tagless-final>>>]]
 - [[#give-definitions][Give definitions]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#identity-type][<<<Identity type>>>]]
@@ -810,7 +811,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#coinduction][<<<Coinduction>>>]]
   - [[#initial-algebra-of-an-endofunctor][<<<Initial algebra of an endofunctor>>>]]
   - [[#terminal-coalgebra-for-an-endofunctor][<<<Terminal coalgebra for an endofunctor>>>]]
-  - [[#tagless-final][<<<Tagless-final>>>]]
 - [[#citations][Citations]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -9944,6 +9944,21 @@ Set of action rules that can simulate any Turing machine.
 <<<Turing completeness>>>
 <<<Computationally universal>>>
 
+** <<<Tagless-final>>> :drill:
+:PROPERTIES:
+:ID:       08e3d23b-a5ee-4b80-a6c8-062dad701fc2
+:END:
+
+Method of embedding eDSL in a typed functional host language (Haskell). Alternative to the embedding as a (generalized) algebraic data type. For parsers of DLS expressions: (1/partial) evaluator, compiler, pretty printer, multi-pass optimizer.
+
+/*/ embedding is writing denotational semantics for the DSL in the host language.
+
+Approach can be used iff eDSL is typed. Only well-typed terms become embeddable, and host language can implemen also a eDSL type system. Approach that eDSL code interpretations are type-preserving.
+
+One of main pros of /*/ - extensibility: implementation of DSL can be used to analyze/evaluate/transform/pretty-print/compile and interpreters can be extended to more passes, optimizations, and new versions of DSL while keeping/using/reusing the old versions.
+
+Example fields of application: language-integrated queries, non-deterministic & probabilistic programming, delimiter continuation, computability theory, stream processsing, hardware description languages, generation of specialized numerical kernels, semantics of natural language.
+
 * Give definitions
 
 ** <<<Const functor>>>
@@ -10487,8 +10502,6 @@ Generalises to corecursion.
 
 ** <<<Initial algebra of an endofunctor>>>
 ** <<<Terminal coalgebra for an endofunctor>>>
-** <<<Tagless-final>>>
-
 * Citations
 
 "One of the finer points of the Haskell community has been
