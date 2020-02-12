@@ -3104,6 +3104,8 @@ To put even simplier - multifunctor is a functor that takes as an argument the p
 
 In Haskell there is only one category, Hask, so multifunctor in Haskell is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask $$ endofunctor.
 
+Any product in a category is a multifunctor.
+
 Code definition:
 #+begin_src haskell
 class Bifunctor f
