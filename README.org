@@ -3100,11 +3100,11 @@ Works over /N/ type arguments instead of one.
 
 To put simply - accepts multiple argumets, from that informatioin constructs source product category (Cartesian product) of categories, and is a functor from product category to target category.
 
-To put even simplier - multifunctor is a functor that takes as an argument the product of types.
+To put even simplier - functor that takes as an argument the product of types.
 
-In Haskell there is only one category, Hask, so multifunctor in Haskell is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask $$ endofunctor.
+In Haskell there is only one category, Hask, so in Haskell /*/ is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask $$ endofunctor.
 
-Any product in a category is a multifunctor.
+Any product or sum in a Cartesian category is a /*/.
 
 Code definition:
 #+begin_src haskell
