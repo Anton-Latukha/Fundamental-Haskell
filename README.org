@@ -107,6 +107,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
         - [[#lift][<<<Lift>>>]]
           - [[#-14][/*/]]
         - [[#power-set-functor-is-a-free-monad][<<<Power set functor is a free monad>>>]]
+      - [[#functorial][<<<Functorial>>>]]
       - [[#forgetful-functor][<<<Forgetful functor>>>]]
         - [[#-15][/*/]]
       - [[#identity-functor][<<<Identity functor>>>]]
@@ -1606,6 +1607,13 @@ SCHT: <2020-02-28 Fri>
 Since:
   * $$ \forall e \in S : \ \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \ \forall e \in S : \ \exists (e \to \{e\}) \equiv unit $$
   * $$ \forall \mathcal{P}(S) : \ \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \ \forall \mathcal{P}(S) : \ \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
+
+**** <<<Functorial>>> :drill:
+:PROPERTIES:
+:ID:       982baa45-e1f4-4878-be33-5ebb98e3295e
+:END:
+
+Corresponds to functor laws.
 
 **** <<<Forgetful functor>>> :drill:
 :properties:
