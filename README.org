@@ -3094,7 +3094,7 @@ To put simply - accepts multiple argumets, from that informatioin constructs sou
 
 To put even simplier - multifunctor is a functor that takes as an argument the product of types.
 
-In Haskell there is only one category, Hask, so multifunctor in Haskell is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow Hask \rightarrow Hask $$endofunctor.
+In Haskell there is only one category, Hask, so multifunctor in Haskell is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask $$ endofunctor.
 
 ***** /*/
 <<<Bifunctor>>>
