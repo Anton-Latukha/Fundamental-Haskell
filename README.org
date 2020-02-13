@@ -11931,6 +11931,11 @@ Any one-object category is /*/.
 
 $$ (a, ()) \sim a $$ up to unique isomorphism, which is called Lax monoidal functor.
 
+Algebraic data type construction can use:
+  * Type constructor
+  * 
+Product and coproduct are functorial.
+
 ** <<<Lax monoidal functor>>>
 
 ** <<<Const functor>>>
