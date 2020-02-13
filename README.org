@@ -11943,14 +11943,18 @@ Product and coproduct are functorial.
 Maps all objects of source category into one (fixed) object of source category, and all morphisms to identity morphism of that fixed object.
 
 #+begin_src haskell
-instance Functor (Const m)
+instance Functor (Const c)
  where
-  fmap _ (Const v) = Const v
+  fmap :: (a -> b) -> Const c a -> Const c b
+  fmap _ (Const c) = Const c
 #+end_src
 
-In Category theory denoted: $$ \Delta $$.
+In Category theory denoted:
+#+begin_src text
+Δ
+#+end_src
 
-Last time parameter that bears the type of source is proxy type.
+Last time parameter that bears the target type of lifted function and is a proxy type.
 
 * Reference
 
