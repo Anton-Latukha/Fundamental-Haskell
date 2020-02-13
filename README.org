@@ -11956,6 +11956,8 @@ In Category theory denoted:
 
 Last type parameter that bears the target type of lifted function (=b=) and is a proxy type.
 
+Analogy: the container that allways has an object attached to it, and everything that is put inside - changes the container type accordingly, and dissapears.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
