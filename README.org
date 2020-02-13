@@ -11939,6 +11939,19 @@ Product and coproduct are functorial.
 ** <<<Lax monoidal functor>>>
 
 ** <<<Const functor>>>
+
+Maps all objects of source category into one (fixed) object of source category, and all morphisms to identity morphism of that fixed object.
+
+#+begin_src haskell
+instance Functor (Const m)
+ where
+  fmap _ (Const v) = Const v
+#+end_src
+
+In Category theory denoted: $$ \Delta $$.
+
+Last time parameter that bears the type of source is proxy type.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
