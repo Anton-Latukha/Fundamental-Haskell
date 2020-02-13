@@ -973,6 +973,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#universal-property][Universal property]]
   - [[#yoneda-lemma][Yoneda lemma]]
   - [[#ghcid][GHCID]]
+  - [[#monoidal-category-functoriality-of-adts-profunctors][Monoidal category, functoriality of ADTs, Profunctors]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -11913,6 +11914,20 @@ nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --r
 nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
 
 #+end_src
+
+** Monoidal category, functoriality of ADTs, Profunctors
+
+Category equipped with tensor product.
+#+begin_src haskell
+<>
+#+end_src
+wich is a functor for /*/.
+
+Set category can be monoidal under both product (having terminal object) or coproduct (having initial object) operations, if according operation exist for all objects.
+
+Any one-object category is /*/.
+
+$$ (a, ()) \sim a $$ up to unique isomorphism, which is called Lax monoidal functor.
 
 ** <<<Lax monoidal functor>>>
 
