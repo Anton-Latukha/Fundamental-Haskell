@@ -714,7 +714,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-190][/*/]]
   - [[#tagless-final][<<<Tagless-final>>>]]
 - [[#give-definitions][Give definitions]]
-  - [[#const-functor][<<<Const functor>>>]]
   - [[#identity-type][<<<Identity type>>>]]
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
@@ -975,6 +974,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#ghcid][GHCID]]
   - [[#monoidal-category-functoriality-of-adts-profunctors][Monoidal category, functoriality of ADTs, Profunctors]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
+  - [[#const-functor][<<<Const functor>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -9993,7 +9993,6 @@ Example fields of application: language-integrated queries, non-deterministic & 
 
 * Give definitions
 
-** <<<Const functor>>>
 
 ** <<<Identity type>>>
 
@@ -11934,6 +11933,7 @@ $$ (a, ()) \sim a $$ up to unique isomorphism, which is called Lax monoidal func
 
 ** <<<Lax monoidal functor>>>
 
+** <<<Const functor>>>
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
