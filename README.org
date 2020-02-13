@@ -718,7 +718,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#identity-type][<<<Identity type>>>]]
   - [[#constant-type][<<<Constant type>>>]]
   - [[#gen][<<<Gen>>>]]
-  - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#tensorial-strength][<<<Tensorial strength>>>]]
   - [[#strong-monad][<<<Strong monad>>>]]
   - [[#weak-head-normal-form][<<<Weak head normal form>>>]]
@@ -974,6 +973,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#universal-property][Universal property]]
   - [[#yoneda-lemma][Yoneda lemma]]
   - [[#ghcid][GHCID]]
+  - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -9997,7 +9997,6 @@ Example fields of application: language-integrated queries, non-deterministic & 
 
 ** <<<Gen>>>
 
-** <<<Lax monoidal functor>>>
 
 ** <<<Tensorial strength>>>
 
@@ -11914,6 +11913,8 @@ nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --r
 nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
 
 #+end_src
+
+** <<<Lax monoidal functor>>>
 
 * Reference
 
