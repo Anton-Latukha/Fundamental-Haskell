@@ -11954,7 +11954,7 @@ In Category theory denoted:
 Δ
 #+end_src
 
-Last time parameter that bears the target type of lifted function and is a proxy type.
+Last type parameter that bears the target type of lifted function (=b=) and is a proxy type.
 
 * Reference
 
