@@ -11946,7 +11946,7 @@ Any algebraic data type is functorial.
 
 ** <<<Const functor>>>
 
-Maps all objects of source category into one (fixed) object of source category, and all morphisms to identity morphism of that fixed object.
+Maps all objects of source category into one (fixed) object of target category, and all morphisms to identity morphism of that fixed object.
 
 #+begin_src haskell
 instance Functor (Const c)
