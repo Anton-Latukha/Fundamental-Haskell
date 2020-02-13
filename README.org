@@ -4714,7 +4714,10 @@ SCHT: <2020-01-24 Fri>
 :ID:       9b49b7ac-d596-45c5-a551-cf2f9b3d6cb3
 :end:
 
-Name of data type.
+Name of the data type.
+
+Constructor that takes type as an argument and produces new type.
+
 
 *** <<<type declaration>>> :drill:
 SCHT: <2020-09-12 Sat>
