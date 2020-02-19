@@ -12041,6 +12041,7 @@ dimap ::    f          g     ->    h    -> (a' -> b')
 dimap = g . h . f
 #+end_src
 
+It is contravariant functor in the first argument, and covariant functor in the second argument.
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
