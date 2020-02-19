@@ -976,6 +976,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
+  - [[#profunctor][Profunctor]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -12011,6 +12012,8 @@ a \arrow[r] \arrow[rd] & b \arrow[d, "contravariant", dashed] \\
 \end{document}
 
 If arrows does not commute Contravatiant funtor anyway allows to construct transformation between these such arrows to other arrow.
+
+** Profunctor
 
 #+begin_src haskell
 (->) a b
