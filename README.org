@@ -12034,6 +12034,13 @@ b \arrow[r, "g"] & b'
 \end{tikzcd}
 \end{document}
 
+#+begin_src haskell
+dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
+dimap ::    f          g     -> (a -> b) -> (a' -> b') 
+dimap ::    f          g     ->    h    -> (a' -> b')
+dimap = g . h . f
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
