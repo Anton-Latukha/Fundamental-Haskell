@@ -976,6 +976,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
+  - [[#contravariant-functor][Contravariant functor]]
   - [[#profunctor][Profunctor]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -11979,7 +11980,8 @@ newtype Reader c a = Reader (c -> a)
   fmap = ( . )
 #+end_src
 
-Let's construct contravariant:
+** Contravariant functor
+
 #+begin_src haskell
 fmap :: (a -> b) -> Op c a -> Op c b
                 (a -> c) -> (b -> c)
