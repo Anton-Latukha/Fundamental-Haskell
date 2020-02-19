@@ -12042,6 +12042,12 @@ dimap = g . h . f
 #+end_src
 
 It is contravariant functor in the first argument, and covariant functor in the second argument.
+
+#+begin_src haskell
+dimap id <==> fmap
+(flip dimap) id <==> contramap
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
