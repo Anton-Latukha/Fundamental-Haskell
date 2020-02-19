@@ -975,6 +975,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#monoidal-category-functoriality-of-adts-profunctors][Monoidal category, functoriality of ADTs, Profunctors]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#const-functor][<<<Const functor>>>]]
+  - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -11964,6 +11965,11 @@ Last type parameter that bears the target type of lifted function (=b=) and is a
 
 Analogy: the container that allways has an object attached to it, and everything that is put inside - changes the container type accordingly, and dissapears.
 
+** <<<Arrow in Haskell>>>
+
+#+begin_src haskell
+(->) a b = a -> b
+#+end_src
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
