@@ -11995,6 +11995,12 @@ a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
 
 $$ (a \to b)^{C} = (a \leftarrow b)^{C^{op}} $$
 
+#+begin_src haskell
+class Contravariant f
+ where
+  contramap :: (b -> a) -> (f a -> f b)
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
