@@ -11978,6 +11978,12 @@ newtype Reader c a = Reader (c -> a)
   fmap = ( . )
 #+end_src
 
+Let's construct contravariant:
+#+begin_src haskell
+fmap :: (a -> b) -> Op c a -> Op c b
+                (a -> c) -> (b -> c)
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
