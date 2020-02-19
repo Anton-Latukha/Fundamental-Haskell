@@ -12016,6 +12016,10 @@ If arrows does not commute Contravatiant funtor anyway allows to construct trans
 (->) a b
 #+end_src
 
+$$ C^{op} \times C \to C $$
+
+It is called profunctor.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
