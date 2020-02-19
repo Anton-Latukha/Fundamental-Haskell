@@ -11993,6 +11993,8 @@ a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
 \end{tikzcd}
 \end{document}
 
+$$ (a \to b)^{C} = (a \leftarrow b)^{C^{op}} $$
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
