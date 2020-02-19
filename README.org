@@ -12020,6 +12020,10 @@ $$ C^{op} \times C \to C $$
 
 It is called profunctor.
 
+#+begin_src haskell
+dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
