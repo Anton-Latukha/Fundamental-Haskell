@@ -12024,6 +12024,16 @@ It is called profunctor.
 dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
 #+end_src
 
+So, profunctor in case of arrow:
+
+\begin{document}
+\usepackage{tikz-cd}
+\begin{tikzcd}
+a \arrow[d, "h"] & a' \arrow[l, "f"] \arrow[d, "profunctor", dashed] \\
+b \arrow[r, "g"] & b'                                       
+\end{tikzcd}
+\end{document}
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
