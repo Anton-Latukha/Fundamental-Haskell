@@ -12010,6 +12010,12 @@ a \arrow[r] \arrow[rd] & b \arrow[d, "contravariant", dashed] \\
 \end{tikzcd}
 \end{document}
 
+If arrows does not commute Contravatiant funtor anyway allows to construct transformation between these such arrows to other arrow.
+
+#+begin_src haskell
+(->) a b
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
