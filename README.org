@@ -12001,6 +12001,15 @@ class Contravariant f
   contramap :: (b -> a) -> (f a -> f b)
 #+end_src
 
+#  2020-02-19: NOTE: Update after package is used
+\begin{document}
+\usepackage{tikz-cd}
+\begin{tikzcd}
+a \arrow[r] \arrow[rd] & b \arrow[d, "contravariant", dashed] \\
+                       & c                                   
+\end{tikzcd}
+\end{document}
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
