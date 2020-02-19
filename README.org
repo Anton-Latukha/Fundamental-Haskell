@@ -11984,6 +11984,15 @@ fmap :: (a -> b) -> Op c a -> Op c b
                 (a -> c) -> (b -> c)
 #+end_src
 
+#  2020-02-19: NOTE: Update after package is used
+\begin{document}
+\usepackage{tikz-cd}
+\begin{tikzcd}
+a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
+                       & c                  
+\end{tikzcd}
+\end{document}
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
