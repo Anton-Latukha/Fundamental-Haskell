@@ -11970,6 +11970,14 @@ Analogy: the container that allways has an object attached to it, and everything
 #+begin_src haskell
 (->) a b = a -> b
 #+end_src
+Functorial in the last argument & called Reader functor.
+
+#+begin_src haskell
+newtype Reader c a = Reader (c -> a)
+
+  fmap = ( . )
+#+end_src
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
