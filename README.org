@@ -12071,6 +12071,8 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 \end{tikzcd}
 \end{document}
 
+, where in Category: $$ a $$ - argument of /*/, $$ b $$ - result, $$ z $$ - candidate, $$ ( a \Rightarrow b ) $$ - /*/.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
