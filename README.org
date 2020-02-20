@@ -10639,10 +10639,8 @@ SCHT: <2020-02-02 Sun>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:10]
 :end:
 
-=foldr= spine recursion intermediated by the folding
-=foldl= spine recursion is unconditional, then folding starts.
-
-=foldr= can terminate at any point, while =foldl= unconditionally recurses across the whole spine, if it infinite - infinitely.
+=foldr= spine recursion intermediated by the folding. Can terminate at any point.
+=foldl= spine recursion is unconditional, then folding starts. Unconditionally recurses across the whole spine, if it infinite - infinitely.
 
 ** <<<Good: Computation model>>> :drill:
 SCHT: <2020-09-18 Fri>
