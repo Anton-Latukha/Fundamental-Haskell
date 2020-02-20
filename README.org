@@ -8331,7 +8331,9 @@ SCHT: <2020-01-18 Sat>
 :DRILL_LAST_REVIEWED: [2020-01-14 Tue 11:28]
 :end:
 
-Operations can't be chained. Often because the output type is incompatible with the input type.
+Operations can't be chained.
+
+Often is the case when the output type is incompatible with the input type.
 
 *** <<<Basis>>> :drill:
 SCHT: <2020-08-07 Fri>
