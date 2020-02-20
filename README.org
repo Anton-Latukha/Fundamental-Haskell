@@ -6620,12 +6620,12 @@ SCHT: <2020-01-26 Sun>
 :end:
 
 #+begin_src haskell
-(.).(.) :: (b -> c) -> (a -> a1 -> b) -> a -> a1 -> c
+(.).(.) :: (b -> c) -> (a1 -> a2 -> b) -> a1 -> a2 -> c
 #+end_src
 
 Composition of compositions =(.).(.)=. Allows to compose-in a binary function =f1(c) (.).(.) f2(a,b)=.
 #+begin_src haskell
-\f g x y -> f (g x y)
+\ f g x y -> f (g x y)
 #+end_src
 
 **** /*/
