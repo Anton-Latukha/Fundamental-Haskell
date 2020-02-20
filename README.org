@@ -1415,17 +1415,17 @@ Basic examples of /*/:
 <<<Abelian categories>>>
 
 *** <<<Composition>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-03-22 Sun>
 :properties:
 :ID:       b3bc17d9-83e4-4862-a391-27e0b30e011e
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:10]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:27]
 :end:
 
 Axiom of Category.
@@ -1445,17 +1445,17 @@ From the name, in this Category:
   * morphisms are natural transformations between endofunctors
 
 *** <<<Functor>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-03-22 Sun>
 :properties:
 :ID:       8cb2d494-936a-4031-b1c1-7ee18caecf31
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:26]
 :end:
 
 /*/ full translation (map) of one category into another.
@@ -2401,17 +2401,17 @@ sum  :: (Foldable t, Num a)       => t    a  ->   a
 :end:
 
 ******** <<<liftM>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-03-22 Sun>
 :properties:
 :ID:       10f01bcb-ef2b-45c5-b950-6f2cb56eb908
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:27]
 :end:
 
 Essentially a fmap.
@@ -5129,17 +5129,17 @@ TypeClass a => ...
 <<<Contexts>>>
 
 *** <<<Inhabit>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-03-22 Sun>
 :properties:
 :ID:       3d5a5fec-312b-47a2-bcb7-8d87f6a2baf3
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:24]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:27]
 :end:
 
 Values that is a component of data type set.
@@ -7676,17 +7676,17 @@ Is not directed and not limited.
 <<<Relationship>>>
 
 ** <<<REPL>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-03-22 Sun>
 :properties:
 :ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:11]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:26]
 :end:
 
 Read-eval-print loop, aka interactive shell.
@@ -7728,17 +7728,17 @@ Good to solve in-point localized tasks.
 Process of abstraction.
 
 *** <<<Denotational semantics>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-07-02 Thu>
 :properties:
 :ID:       a21dabc0-cc1e-4225-b9f1-86a14e2b7a13
-:DRILL_LAST_INTERVAL: 70.7331
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 131.7758
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:29]
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:27]
 :end:
 
 Construction of mathematical objects (called denotations), that describe the meanings. In Haskell often abstractions that are ment (denotations), implemented directly in the code, sometimes exist over the code - allowing to reason and implement.
