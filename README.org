@@ -7689,7 +7689,7 @@ SCHT: <2020-02-03 Mon>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:11]
 :end:
 
-Interactive CLI. Read-eval-print loop.
+Read-eval-print loop, aka interactive shell.
 
 ** <<<Semantics>>> :drill:
 SCHT: <2020-03-15 Sun>
