@@ -6299,8 +6299,8 @@ Gives a ground to the equivalence of computer programs and mathematical proofs.
 |-------+-------------------------|
 | True  | () (any inhabited type) |
 | False | Void                    |
-| \land     | \times                       |
-| \lor     | Either a b              |
+| a \land b | a \times b                  |
+| a \lor b | Either a b              |
 | a \Rightarrow b | a \to b                   |
 
 **** /*/
