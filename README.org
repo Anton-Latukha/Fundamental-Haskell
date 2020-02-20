@@ -4558,17 +4558,17 @@ SCHT: <2020-02-03 Mon>
 Algebraic data type formed by logical disjunction (OR '|').
 
 *** <<<Type alias>>> :drill:
-SCHT: <2020-01-26 Sun>
+SCHT: <2021-01-02 Sat>
 :properties:
 :ID:       35a84a4d-afa8-44b1-aaf4-8fa258f5220c
-:DRILL_LAST_INTERVAL: 121.4785
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 316.8159
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:14]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:10]
 :end:
 
 Create new type constructor, and use all data structure of the base type.
@@ -5420,17 +5420,17 @@ Number of parameters of the function.
   * n-ary   - f(x,y,z..)
 
 *** <<<Bijection>>> :drill:
-SCHT: <2020-01-25 Sat>
+SCHT: <2020-03-19 Thu>
 :properties:
 :ID:       8366200a-a8ed-4c7b-baec-eb957d9f3d64
-:DRILL_LAST_INTERVAL: 10.7143
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_AVERAGE_QUALITY: 3.8
 :DRILL_EASE: 2.6
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:04]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:09]
 :end:
 
 Function is a complete one-to-one pairing of elements of domain and codomain (image).
@@ -7767,17 +7767,17 @@ Empirical process of studying something complex by finding and analyzing true st
 Good for examining interconnections.
 
 ** <<<Set>>> :drill:
-SCHT: <2020-01-26 Sun>
+SCHT: <2021-01-02 Sat>
 :properties:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
-:DRILL_LAST_INTERVAL: 121.4785
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 316.8159
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-27 Fri 20:13]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:09]
 :end:
 
 Well-defined collection of distinct objects.
@@ -10685,17 +10685,17 @@ Model the domain and types before thinking about how to write computations.
 :end:
 
 ** <<<Good: Arbitrary>>> :drill:
-SCHT: <2020-01-26 Sun>
+SCHT: <2020-05-18 Mon>
 :properties:
 :ID:       7c3cb682-9b20-471b-9483-7a22c3ec468d
-:DRILL_LAST_INTERVAL: 30.0746
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 87.1562
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.8
+:DRILL_AVERAGE_QUALITY: 3.727
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:04]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:10]
 :end:
 
 Product types can be tested as a product of random generators.
