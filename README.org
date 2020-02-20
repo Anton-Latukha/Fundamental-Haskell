@@ -3943,17 +3943,17 @@ $$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
-SCHT: <2020-01-27 Mon>
+SCHT: <2020-02-29 Sat>
 :properties:
 :ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 9.3103
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.25
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:14]
 :end:
 
 Family of morphisms parametrized by type (parametric polymorphism functions) between endofunctors (Functor, Applicative, Monad).
@@ -10846,17 +10846,17 @@ Where character is not present - discard the according processing of a parameter
 =(>> )= is an exception, it does the reverse. ignores the first parameter.
 
 ** <<<Good: About functions like {mapM, sequence}_>>> :drill:
-SCHT: <2020-01-28 Tue>
+SCHT: <2020-08-09 Sun>
 :properties:
 :ID:       03ad3fac-221c-42de-8b63-e7ccf645f183
-:DRILL_LAST_INTERVAL: 65.3219
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 170.0329
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:27]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:14]
 :end:
 
 Trailing =_= means ignoring the result.
