@@ -6698,7 +6698,7 @@ SCHT: <2020-01-18 Sat>
 :DRILL_LAST_REVIEWED: [2020-01-14 Tue 11:26]
 :end:
 
-/*/ - extending polymorphism to work with unlifted and lifted types.
+Extending polymorphism to work with unlifted and lifted types.
 
 *** <<<Parametric polymorphism>>> :drill:
 :properties:
