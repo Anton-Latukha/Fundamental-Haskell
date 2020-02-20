@@ -12062,6 +12062,15 @@ Hom set belongs to Set, but Set can be not part of category.
 
 In Set category $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$.
 
+Universal construction:
+
+\begin{document}
+\begin{tikzcd}
+z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted] \arrow[rd, "g"] &   \\
+(a \Rightarrow b) \arrow[r, dotted] & (a \Rightarrow b) \times a \arrow[r, "eval", dotted]       & b
+\end{tikzcd}
+\end{document}
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
