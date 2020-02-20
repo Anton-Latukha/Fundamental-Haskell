@@ -12056,6 +12056,12 @@ dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
 
+** Function object
+
+Hom set belongs to Set, but Set can be not part of category.
+
+In Set category $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
