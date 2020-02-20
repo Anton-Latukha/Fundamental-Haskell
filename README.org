@@ -12076,6 +12076,8 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 
 /*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
+Cartesian category should be closed under exponentiation.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
