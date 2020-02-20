@@ -981,6 +981,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
   - [[#contravariant-functor][Contravariant functor]]
   - [[#profunctor][Profunctor]]
+  - [[#function-object][Function object]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -12072,6 +12073,8 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 \end{document}
 
 , where in Category: $$ a $$ - argument of /*/, $$ b $$ - result, $$ z $$ - candidate, $$ ( a \Rightarrow b ) $$ - /*/.
+
+/*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
 * Reference
 
