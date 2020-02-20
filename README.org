@@ -3735,9 +3735,10 @@ Generalizes unfold.
 
 Dual concept to catamorphism.
 
-/*/ increases the structure.
+Increases the structure.
 
 Morphism from a coalgebra to the final coalgebra for that endofunctor.
+
 Is a function that generates a sequence by repeated application of the function to its previous result.
 
 ****** /*/
