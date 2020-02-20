@@ -3733,7 +3733,7 @@ SCHT: <2020-01-14 Tue>
 
 Generalizes unfold.
 
-The catamorphism dual concept.
+Dual concept to catamorphism.
 
 /*/ increases the structure.
 
