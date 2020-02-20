@@ -12063,7 +12063,7 @@ In Cartesian closed monoidal category.
 
 Hom set belongs to Set, but Set can be not part of category.
 
-In Set category $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$.
+In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$. So Set is special, Homs are also objects of it.
 
 Universal construction:
 
