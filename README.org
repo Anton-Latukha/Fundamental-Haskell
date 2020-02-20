@@ -5543,7 +5543,7 @@ SCHT: <2020-01-28 Tue>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:27]
 :end:
 
-Is a part with Name of the function and it's paramenters.
+Is a part with name of the function and it's paramenters.
 AKA: $$ f(x) $$
 
 *** <<<Function range>>> :drill:
