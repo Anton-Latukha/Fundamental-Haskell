@@ -6685,17 +6685,17 @@ In Haskell - abstract over data types.
 <<<Polymorphic>>>
 
 *** <<<Levity polymorphism>>> :drill:
-SCHT: <2020-01-18 Sat>
+SCHT: <2020-02-29 Sat>
 :properties:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.3103
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 11:26]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
 :end:
 
 Extending polymorphism to work with unlifted and lifted types.
@@ -6733,17 +6733,17 @@ Parametric polymorphism in rank-1 types by type variables.
 <<<Prenex polymorpism>>>
 
 **** <<<Let-bound polymorphism>>> :drill:
-SCHT: <2020-01-18 Sat>
+SCHT: <2020-02-29 Sat>
 :properties:
 :ID:       f415a2f4-8f66-483d-9b75-70b3e5fe4b89
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.3103
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:46]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:39]
 :end:
 
 It is property chosen for Haskell type system.
@@ -7298,17 +7298,17 @@ Allow tuple section syntax:
 #+end_src
 
 ***** <<<TypeApplications>>> :drill:
-SCHT: <2020-01-18 Sat>
+SCHT: <2020-03-01 Sun>
 :properties:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 10.3376
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 2
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:47]
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
 :end:
 
 Allow type application syntax:
@@ -10915,17 +10915,17 @@ SCHT: <2020-02-22 Sat>
 Typed holes help build code in complex situations.
 
 ** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
-SCHT: <2020-01-18 Sat>
+SCHT: <2020-04-19 Sun>
 :properties:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
-:DRILL_LAST_INTERVAL: 23.9096
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 59.4154
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.715
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:49]
+:DRILL_AVERAGE_QUALITY: 3.876
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
 :end:
 
 That is why infinite types throw infinite type error.
@@ -11084,17 +11084,17 @@ Maps - left-biased union.
 Number - =Sum=, =Product= form separate monoid categories.
 
 ** <<<Good: Free monad>>> :drill:
-SCHT: <2020-01-18 Sat>
+SCHT: <2020-02-29 Sat>
 :properties:
 :ID:       e5c45f71-de00-48fb-bb31-a65a2893abdc
-:DRILL_LAST_INTERVAL: 3.86
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 9.3103
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:55]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:38]
 :end:
 
 The main case of usage of Free monads in Haskell:
