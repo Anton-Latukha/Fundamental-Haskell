@@ -6350,17 +6350,17 @@ Classical type system for the Lambda calculus with Parametric polymorphism and T
 <<<Damas–Hindley–Milner>>>
 
 *** <<<Reduction>>> :drill:
-SCHT: <2020-01-11 Sat>
+SCHT: <2020-07-22 Wed>
 :properties:
 :ID:       11776f99-f2e5-46fd-a566-8e08060fd7f0
-:DRILL_LAST_INTERVAL: 58.9252
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 153.0287
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:48]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
 :end:
 
 Take out something from a structure, make simplier.
@@ -7081,17 +7081,17 @@ $$ C :> D $$, so in C we can talk about D.
 Synergizes with ConstraintKinds.
 
 ***** <<<FlexibleInstances>>> :drill:
-SCHT: <2020-01-12 Sun>
+SCHT: <2020-07-16 Thu>
 :properties:
 :ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 59.68
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 146.9918
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.365
+:DRILL_AVERAGE_QUALITY: 3.418
 :DRILL_EASE: 2.48
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:49]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
 :end:
 
 Allow type class instances types contain nested types.
@@ -7646,17 +7646,17 @@ So:
 <<<Referentially transparent>>>
 
 ** <<<Relation>>> :drill:
-SCHT: <2020-01-11 Sat>
+SCHT: <2020-08-12 Wed>
 :properties:
 :ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
-:DRILL_LAST_INTERVAL: 85.2825
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 173.9763
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_AVERAGE_QUALITY: 3.286
 :DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:32]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:30]
 :end:
 
 Relationship between two objects.
@@ -7742,17 +7742,17 @@ Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 *** <<<Axiomatic semantics>>> :drill:
-SCHT: <2020-01-11 Sat>
+SCHT: <2020-03-23 Mon>
 :properties:
 :ID:       18d65b73-cec0-49ed-868a-a97d73abe329
-:DRILL_LAST_INTERVAL: 15.0367
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 31.7425
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.125
-:DRILL_EASE: 2.04
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:03]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
 :end:
 
 Empirical process of studying something complex by finding and analyzing true statements about it.
@@ -7798,17 +7798,17 @@ Closed set - a set whose complement is an open set.
 Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
 
 *** <<<Power set>>> :drill:
-SCHT: <2020-01-14 Tue>
+SCHT: <2020-08-05 Wed>
 :properties:
 :ID:       fdf831a3-e05a-4bec-8849-1900ad7d9ce3
-:DRILL_LAST_INTERVAL: 62.0356
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 166.7517
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
 :end:
 
 For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
@@ -9666,17 +9666,17 @@ Expression that does not contain any free variables.
 <<<Ground formula>>>
 
 ** <<<Content word>>> :drill:
-SCHT: <2020-01-13 Mon>
+SCHT: <2020-08-02 Sun>
 :properties:
 :ID:       2392f66d-e924-49ef-bc22-93c844f74683
-:DRILL_LAST_INTERVAL: 60.9019
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 163.7043
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:49]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
 :end:
 
 Words that name objects of reality and their qualities.
@@ -10820,17 +10820,17 @@ There can be differnt Applicatives with different Monoid implementations.
 *** Create
 
 ** <<<Good: About operators =(<$ )= =( **>)= =(<* )= =(>> )= >>> :drill:
-SCHT: <2020-01-12 Sun>
+SCHT: <2020-03-26 Thu>
 :properties:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
-:DRILL_LAST_INTERVAL: 16.363
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 34.5423
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.556
 :DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:03]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:32]
 :end:
 
 Where character is not present - discard the according processing of a parameter.
