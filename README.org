@@ -12059,6 +12059,8 @@ dimap id <==> fmap
 
 ** Function object
 
+In Cartesian closed monoidal category.
+
 Hom set belongs to Set, but Set can be not part of category.
 
 In Set category $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$.
