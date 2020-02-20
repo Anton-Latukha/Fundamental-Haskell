@@ -7801,8 +7801,9 @@ SCHT: <2020-02-01 Sat>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:12]
 :end:
 
-Closed set - a set whose complement is an open set.
-Closed set is a form of Closed-form expression. Set can be closed in under a set of operations.
+1) Set which complements an open set.
+
+2) Is form of Closed-form expression. Set can be closed in under a set of operations.
 
 *** <<<Power set>>> :drill:
 SCHT: <2020-08-05 Wed>
