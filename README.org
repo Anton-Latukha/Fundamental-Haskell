@@ -6293,6 +6293,16 @@ Equivalence of {First-order logic, computer programming, Category theory}. They 
 
 Gives a ground to the equivalence of computer programs and mathematical proofs.
 
+#+caption: Table of basic correspondence
+#+name: tab:table-of-basic-correspondence
+| Logic | Type                    |
+|-------+-------------------------|
+| True  | () (any inhabited type) |
+| False | Void                    |
+| \land     | \times                       |
+| \lor     | Either a b              |
+| a \Rightarrow b | a \to b                   |
+
 **** /*/
 
 <<<Curry–Howard isomorphism>>>
