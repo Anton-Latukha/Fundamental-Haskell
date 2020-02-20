@@ -1678,17 +1678,17 @@ $$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
 <<<Endofunctors>>>
 
 **** <<<Applicative functor>>> :drill:
-SCHT: <2020-01-22 Wed>
+SCHT: <2020-09-02 Wed>
 :properties:
 :ID:       423ac24e-497b-4ab1-b1c5-99ed84ec6546
-:DRILL_LAST_INTERVAL: 69.6431
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 194.5828
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.7
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:08]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:45]
 :end:
 
 /*/ - Computer science term. Category theory name - lax monoidal functor. And in category $$ Set $$, and so in category $$ Hask $$ all applicatives and monads are strong (have tensorial strength).
@@ -2499,17 +2499,17 @@ f3 <=< f2 <=< f1 $ arg
 #+end_src
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2020-01-23 Thu>
+SCHT: <2020-03-13 Fri>
 :properties:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 9.44
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 21.6837
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.385
-:DRILL_EASE: 2.38
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:02]
+:DRILL_AVERAGE_QUALITY: 3.357
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
 :end:
 
 Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
@@ -3787,17 +3787,17 @@ Morphism of elements from the kernel.
 Complementary morphism of elements that make main morphism not monomorphic.
 
 *** <<<Object>>> :drill:
-SCHT: <2020-01-21 Tue>
+SCHT: <2020-05-02 Sat>
 :properties:
 :ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 26.9876
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 71.5171
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:50]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:45]
 :end:
 
 Absolute abstraction.
@@ -4520,17 +4520,17 @@ Mathematical type. They form into structural type system.
 <<<Structural>>>
 
 *** <<<Structural type system>>> :drill:
-SCHT: <2020-01-23 Thu>
+SCHT: <2020-03-15 Sun>
 :properties:
 :ID:       37dc5166-6ad1-468d-a3c2-d4144ac5bb83
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:04]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
 :end:
 
 Strict global hierarchy and relationships of types and their properties.
@@ -4999,17 +4999,17 @@ data NonEmpty a = a :| [a]
 :| - an infix data costructor that takes two (type) arguments. In other words :| returns a product type of left and right
 
 *** <<<Session type>>> :drill:
-SCHT: <2020-01-23 Thu>
+SCHT: <2020-03-15 Sun>
 :properties:
 :ID:       4554aa14-760c-41f0-a9fc-69cc3f7fa66a
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:05]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
 :end:
 
 /*/ - allows to check that behaviour conforms to the protocol.
@@ -7692,17 +7692,17 @@ SCHT: <2020-02-03 Mon>
 Interactive CLI. Read-eval-print loop.
 
 ** <<<Semantics>>> :drill:
-SCHT: <2020-01-23 Thu>
+SCHT: <2020-03-15 Sun>
 :properties:
 :ID:       f47d8882-a0eb-4956-9b87-56ac0c20d069
-:DRILL_LAST_INTERVAL: 9.43
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:05]
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
 :end:
 
 Philosophical study of meaning.
