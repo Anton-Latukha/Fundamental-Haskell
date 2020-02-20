@@ -7724,6 +7724,7 @@ SCHT: <2020-03-14 Sat>
 Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
 
 Good to solve in-point localized tasks.
+
 Process of abstraction.
 
 *** <<<Denotational semantics>>> :drill:
