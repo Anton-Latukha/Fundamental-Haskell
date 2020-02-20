@@ -3800,7 +3800,13 @@ SCHT: <2020-01-21 Tue>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:50]
 :end:
 
-Absolute abstraction. Point that has properties. Often abstracts mathematical structure.
+Absolute abstraction.
+
+Point.
+
+Can have properties.
+
+Often abstracts mathematical structure.
 
 **** /*/
 
