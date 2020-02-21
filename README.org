@@ -14,7 +14,7 @@
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
-(Socrates)/
+(Socrates by Plato)/
 
 Important notes on Haskell, category theory & related fields, terms and recommendations.
 
