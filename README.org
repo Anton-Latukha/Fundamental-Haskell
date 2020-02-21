@@ -3971,6 +3971,8 @@ a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ
 \end{tikzcd}
 \end{document}
 
+Compositions can be done in any right order, they abide the exchange law.
+
 **** /*/
 
 <<<Natural transformations>>>
