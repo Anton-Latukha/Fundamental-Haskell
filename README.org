@@ -12118,6 +12118,12 @@ Category where:
   * \Rightarrow morphism (1-cell) - functors
   * \Rightarrow 2-morphisms (2-cell) - natural transformations, homotopy between morphisms.
 
+\begin{document}
+\begin{tikzcd}
+a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt} &  & b
+\end{tikzcd}
+\end{document}
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
