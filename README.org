@@ -6300,6 +6300,8 @@ Equivalence of {First-order logic, computer programming, Category theory}. They 
 
 Gives a ground to the equivalence of computer programs and mathematical proofs.
 
+Lambek added analogue to Cartesian closed category, which can be used to model logic and type theory.
+
 #+caption: Table of basic correspondence
 #+name: tab:table-of-basic-correspondence
 | Logic | Type                    |
@@ -6313,6 +6315,7 @@ Gives a ground to the equivalence of computer programs and mathematical proofs.
 **** /*/
 
 <<<Curry–Howard isomorphism>>>
+<<<Curry-Howard-Lambek>>>
 
 *** <<<Currying>>> :drill:
 SCHT: <2020-03-12 Thu>
