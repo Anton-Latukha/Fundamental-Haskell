@@ -12124,6 +12124,9 @@ a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt}
 \end{tikzcd}
 \end{document}
 
+*** /*/
+<<<2-category>>>
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
