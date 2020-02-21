@@ -3932,6 +3932,8 @@ Also see: Natural transformation in Haskell
 **** /*/
 
 <<<Natural transformations>>>
+<<<Naturality condition>>>
+<<<Naturality>>>
 
 **** <<<Natural transformation component>>> :drill:
 :properties:
