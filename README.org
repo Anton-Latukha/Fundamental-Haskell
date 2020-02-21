@@ -3912,6 +3912,7 @@ trans :: F a -> G a
 
 Naturality condition: $$ \forall \ a \ \exists \ (F \ a \to G \ a) $$, or , analogous to parametric polymorphism in functions. Since /*/ in a category, stating $$ \forall (F \ a \to G \ a) $$
 Naturality condition means that all morphisms that take part in homotopy of source functor to target functor must exist, and that is the same, diagrams that take part in transformation, should commute, and different paths brins same result: if $$ \alpha $$ - natural transformation, $$ \alpha_{a} $$ natural transformation component - $$ G \ f \circ \alpha_{a} = \alpha_{b} \circ F \ f $$.
+Since /*/ are just a type of parametric polymorphic function - they can compose.
 
 /*/ ($$ \overrightarrow{\eta}^{\mathcal{D}} $$) is transforming : $$ \overrightarrow{\eta}^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} $$.
 /*/ abstraction creates higher-language of Category theory, allowing to talk about the composition and transformation of complex entities.
