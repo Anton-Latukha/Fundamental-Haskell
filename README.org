@@ -3960,7 +3960,7 @@ SCHT: <2020-02-29 Sat>
 
 Family of parametric polymorphism functions between endofunctors.
 
-In Hask is $$ F \ a \to G \ a $$ - repackages data into another container, never modifies the object content, it only if - can delete it, because is a lossy.
+In Hask is $$ F \ a \to G \ a $$. Can be analogued to repackaging data into another container, never modifies the object content, it only if - can delete it, because operation is lossy.
 
 *** <<<Hom set>>> :drill:
 :properties:
