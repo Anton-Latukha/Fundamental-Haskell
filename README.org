@@ -3941,6 +3941,21 @@ Also see: Natural transformation in Haskell
 
 Knowledge of /*/ forms a 2-category.
 
+Can be composed "vertically":
+
+\begin{document}
+\begin{tikzcd}
+a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\alpha} &  & b \\
+                                                                                                                                  &  & \Downarrow{\beta}  &  &  
+\end{tikzcd}
+\end{document}
+
+\begin{document}
+\begin{tikzcd}
+a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b
+\end{tikzcd}
+\end{document}
+
 **** /*/
 
 <<<Natural transformations>>>
