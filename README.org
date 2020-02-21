@@ -12199,6 +12199,8 @@ Category that escaped the Set theory and the equality definition (by using assoc
 
 But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
 
+Stacking groupoids is much more homogenous up to infinity, and forms base of the homotopy theory.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
