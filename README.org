@@ -3962,6 +3962,8 @@ Family of parametric polymorphism functions between endofunctors.
 
 In Hask is $$ F \ a \to G \ a $$. Can be analogued to repackaging data into another container, never modifies the object content, it only if - can delete it, because operation is lossy.
 
+Can be sees as ortogonal to functors.
+
 *** <<<Hom set>>> :drill:
 :properties:
 :ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
