@@ -12178,6 +12178,9 @@ $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
 
 So, it always the case that category is indicates as /*/ over =K=.
 
+*** /*/
+<<<Enriched>>>
+
 ** Lux
 
 Up to isomorphism.
