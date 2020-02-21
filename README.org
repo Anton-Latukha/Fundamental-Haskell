@@ -3917,7 +3917,7 @@ It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{
 
 Since it uses morphisms - it is structure-preserving transformation of one functor into another. Iy mostly a lossy transformation. Only existing morphisms cab make it exist.
 
-Existence of /*/ between two functors means they are somehow related.
+Existence of /*/ between two functors can be seen as some relation.
 
 Can be observed to be a "morphism of functors", especially in functor category.
 /*/ by $$ \overrightarrow{\eta}^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$, often written short $$ \overrightarrow{\eta}_{b} \circ F(\overrightarrow{f}) = G(\overrightarrow{f}) \circ \overrightarrow{\eta}_{a} $$.
