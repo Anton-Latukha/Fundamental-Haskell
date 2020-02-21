@@ -981,7 +981,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
   - [[#contravariant-functor][Contravariant functor]]
   - [[#profunctor][Profunctor]]
-  - [[#function-object][Function object]]
+  - [[#function-object-exponential][Function object, exponential]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-219][/*/]]
@@ -12076,7 +12076,7 @@ dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
 
-** Function object
+** Function object, exponential
 
 In Cartesian closed monoidal category.
 
