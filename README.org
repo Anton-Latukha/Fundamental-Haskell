@@ -12115,6 +12115,7 @@ Cartesian category should be closed under exponentiation.
 
 Category where:
   * object (0-cell) - category
+  * \Rightarrow morphism (1-cell) - functors
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
