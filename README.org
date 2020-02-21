@@ -12129,6 +12129,8 @@ a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt}
 \end{tikzcd}
 \end{document}
 
+Is Cartesian closed category.
+
 *** /*/
 <<<2-category>>>
 
