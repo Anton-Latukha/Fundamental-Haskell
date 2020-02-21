@@ -6304,13 +6304,13 @@ Lambek added analogue to Cartesian closed category, which can be used to model l
 
 #+caption: Table of basic correspondence
 #+name: tab:table-of-basic-correspondence
-| Logic | Type                    |
-|-------+-------------------------|
-| True  | () (any inhabited type) |
-| False | Void                    |
-| a \land b | a \times b                  |
-| a \lor b | Either a b              |
-| a \Rightarrow b | a \to b                   |
+| Logic | Type                    | Category  |
+|-------+-------------------------+-----------|
+| True  | () (any inhabited type) | Terminal  |
+| False | Void                    | Initial   |
+| a \land b | (a, b)                  | a \times b     |
+| a \lor b | Either a b              | a /     b |
+| a \Rightarrow b | a \to b                   | b^{a}        |
 
 **** /*/
 
