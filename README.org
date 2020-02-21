@@ -12174,6 +12174,8 @@ Has Hom objects, gets away Hom sets.
 
 $$ hom(x,y) \in K $$.
 
+As category is no longer small, may be called large.
+
 Hom objects are includedd in some monoidal category =K= , because multiplication operation allows composition of Hom objects: 
 
 $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
