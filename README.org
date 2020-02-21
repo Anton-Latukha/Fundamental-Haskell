@@ -12140,7 +12140,15 @@ Is Cartesian closed category.
 
 ** Enriched category
 
-One that contains Hom objects (replacing knowledge of Hom sets from Set). Hom objects are includedd in monoidal category (multiplication operation allowing composition of Hom objects).
+Has Hom objects getting rid of Hom sets from Set.
+
+$$ hom(x,y) \in K $$.
+
+Hom objects are includedd in some monoidal category =K= , because multiplication operation allows composition of Hom objects: 
+
+$$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
+
+So, it always the case that category is indicates as /*/ over =K=.
 
 ** Lux
 
