@@ -12111,6 +12111,10 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 
 Cartesian category should be closed under exponentiation.
 
+** Cat category
+
+Category where:
+  * object (0-cell) - category
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
