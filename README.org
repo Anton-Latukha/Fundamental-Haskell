@@ -3904,7 +3904,8 @@ $$ Set $$
 :ID:       8591d1eb-0f0f-4f0e-b46b-05a4262646da
 :end:
 
-/*/ ($$ \overrightarrow{\eta}^{\mathcal{D}} $$) is transforming : $$ \overrightarrow{\eta}^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} $$. Right there was seen that /*/ allows higher-language of Category theory, talking about the composition and transformation of complex theory entities.
+/*/ ($$ \overrightarrow{\eta}^{\mathcal{D}} $$) is transforming : $$ \overrightarrow{\eta}^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} $$.
+/*/ abstraction creates higher-language of Category theory, allowing to talk about the composition and transformation of complex entities.
 
 Roughly /*/ is:
 #+begin_src haskell
