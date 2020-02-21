@@ -3933,6 +3933,8 @@ In words: /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphi
 
 Also see: Natural transformation in Haskell
 
+Knowledge of /*/ forms a 2-category.
+
 **** /*/
 
 <<<Natural transformations>>>
