@@ -3915,7 +3915,7 @@ trans :: F a -> G a
 
 It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{C \to D}} $$ using existing morphisms in target category $$ \mathcal{D} $$.
 
-Since it uses morphisms - it is structure-preserving transformation of one functor into another. And since it uses only existing morphisms - it exists only when transformation is possible with existing morphisms.
+Since it uses morphisms - it is structure-preserving transformation of one functor into another. Iy mostly a lossy transformation. Only existing morphisms cab make it exist.
 
 Existence of /*/ between two functors means they are somehow related.
 
