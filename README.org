@@ -12140,7 +12140,7 @@ Is Cartesian closed category.
 
 ** Enriched category
 
-Has Hom objects getting rid of Hom sets from Set.
+Has Hom objects, gets away Hom sets.
 
 $$ hom(x,y) \in K $$.
 
