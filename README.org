@@ -12116,6 +12116,8 @@ Cartesian category should be closed under exponentiation.
 Category where:
   * object (0-cell) - category
   * \Rightarrow morphism (1-cell) - functors
+  * \Rightarrow 2-morphisms (2-cell) - natural transformations, homotopy between morphisms.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
