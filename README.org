@@ -12185,6 +12185,10 @@ So, it always the case that category is indicates as /*/ over =K=.
 
 Up to isomorphism.
 
+** Bicategory
+
+Enriched lux 2-category.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
