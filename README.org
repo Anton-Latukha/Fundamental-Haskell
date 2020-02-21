@@ -3911,6 +3911,7 @@ Roughly /*/ is:
 #+begin_src haskell
 trans :: F a -> G a
 #+end_src
+, while =a= is polymorphic variable.
 
 It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{C \to D}} $$ using existing morphisms in target category $$ \mathcal{D} $$.
 
