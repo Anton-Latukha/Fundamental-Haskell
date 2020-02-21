@@ -984,6 +984,8 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#function-object-exponential][Function object, exponential]]
   - [[#cat-category][Cat category]]
     - [[#-219][/*/]]
+  - [[#enriched-category][Enriched category]]
+  - [[#lux][Lux]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-220][/*/]]
