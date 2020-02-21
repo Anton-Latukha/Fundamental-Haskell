@@ -12195,6 +12195,8 @@ Up to isomorphism.
 
 Enriched lux 2-category.
 
+Category that escaped the Set theory and the equality definition (by using associativity and idintity "up to isomorphism" (and introducing associator, left/right unitor)).
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
