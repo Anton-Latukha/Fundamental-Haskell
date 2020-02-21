@@ -12132,6 +12132,10 @@ a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt}
 *** /*/
 <<<2-category>>>
 
+** Enriched category
+
+One that contains Hom objects (replacing knowledge of Hom sets from Set). Hom objects are includedd in monoidal category (multiplication operation allowing composition of Hom objects).
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
