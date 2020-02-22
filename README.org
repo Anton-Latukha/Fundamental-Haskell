@@ -977,7 +977,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#constructive-proof][Constructive proof]]
   - [[#intuitionistic-logic][Intuitionistic logic]]
     - [[#-219][/*/]]
-  - [[#principle-of-explosion][Principle of explosion]]
+  - [[#principle-of-explosion][<<<Principle of explosion>>>]]
     - [[#-220][/*/]]
   - [[#universal-property][Universal property]]
   - [[#yoneda-lemma][Yoneda lemma]]
@@ -12012,7 +12012,10 @@ Proposition considered =True= due to direct evidence of existence through constr
 
 <<<Constructive logic>>>
 
-** Principle of explosion
+** <<<Principle of explosion>>> :drill:
+:PROPERTIES:
+:ID:       0ef25f89-1023-480a-8f5f-e075960d9385
+:END:
 
 From asserted statement that contains contradiction - anything can be proven.
 Ancient principle of logic. Both in classical & intuitionistic logic.
