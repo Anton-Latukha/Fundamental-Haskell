@@ -968,7 +968,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#deferring][Deferring]]
   - [[#monadic-error-handling][Monadic Error handling]]
   - [[#functions][Functions]]
-  - [[#void][Void]]
+  - [[#void][<<<Void>>>]]
   - [[#constructive-proof][Constructive proof]]
   - [[#intuitionistic-logic][Intuitionistic logic]]
     - [[#-217][/*/]]
@@ -11921,7 +11921,7 @@ That is why the function has a directionality, and inverse total process is part
 
 Directionality and invertability are terms.
 
-** Void
+** <<<Void>>>
 
 Emptiness.
 
@@ -11929,7 +11929,7 @@ Can not be grasped, touched.
 
 A logically uninhabited data type.
 
-(Since asis of logic is tautologically True and Void value can not be adressed - there is a logical paradox with the Void)
+(Since basis of logic is tautologically True and Void value can not be addressed - there is a logical paradox with the Void).
 
 Is an object in Hask category, since:
 #+begin_src haskell
@@ -11955,9 +11955,7 @@ Type system corresponds to constructive logic and not to the classical logic.
 Classical logic answers the question "Is this actually true".
 Constuctive (Intuitionistic) logic answers the question "Is this provable".
 
-Gesign pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
-
-
+Design pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
 
 ** Constructive proof
 
