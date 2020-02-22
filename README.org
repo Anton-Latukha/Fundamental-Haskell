@@ -12206,9 +12206,9 @@ $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
 
 ** Bicategory
 
-Enriched lax 2-category.
+2-category that is enriched and lax.
 
-Category that escaped the Set theory and the equality definition (by using associativity and idintity "up to isomorphism" (and introducing associator, left/right unitor)).
+Large and the equality definition (by using associativity and idintity "up to isomorphism" (and introducing associator, left/right unitor)).
 
 But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
 
