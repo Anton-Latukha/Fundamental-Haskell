@@ -903,7 +903,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#datalist][Data.List]]
   - [[#datachar][Data.Char]]
   - [[#quickcheck-1][QuickCheck]]
-- [[#investigate][Investigate]]
 - [[#tools][Tools]]
   - [[#ghc-pkg][ghc-pkg]]
   - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
@@ -11361,7 +11360,6 @@ quickCheck :: Testable prop => prop -> IO ()
 quickCheck . verbose - run verbose mode
 #+end_src
 
-* Investigate
 * Tools :drill:
 :properties:
 :ID:       756dd451-6df6-4c86-8ff8-b431f2943685
