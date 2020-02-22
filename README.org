@@ -11988,15 +11988,19 @@ A logically uninhabited data type.
 
 (Since basis of logic is tautologically True and Void value can not be addressed - there is a logical paradox with the Void).
 
-Is an object in Hask category, since:
+Is an object includded into the Hask category, since:
 #+begin_src haskell
 :t (id :: Void -> Void)
 (id :: Void -> Void) :: Void -> Void
 #+end_src
 
-=id= exists.
+=id= for it exists.
 
-Also has:
+Type system corresponds to constructive logic and not to the classical logic.
+Classical logic answers the question "Is this actually true".
+Constuctive (Intuitionistic) logic answers the question "Is this provable".
+
+Also has functions:
 #+begin_src haskell
 -- Represents logical principle of explosion: from falsehood, anything follows.
 absurd :: Void -> a
@@ -12007,10 +12011,6 @@ vacuous :: Functor f => f Void -> f a
 -- If Monad holds only Void - it holds no values.
 vacuousM :: Monad m => m Void -> m a
 #+end_src
-
-Type system corresponds to constructive logic and not to the classical logic.
-Classical logic answers the question "Is this actually true".
-Constuctive (Intuitionistic) logic answers the question "Is this provable".
 
 Design pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
 
