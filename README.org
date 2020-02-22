@@ -11923,7 +11923,12 @@ Directionality and invertability are terms.
 
 ** Void
 
+Emptiness.
+
+Can not be grasped, touched.
+
 A logically uninhabited data type.
+
 (Since asis of logic is tautologically True and Void value can not be adressed - there is a logical paradox with the Void)
 
 Is an object in Hask category, since:
