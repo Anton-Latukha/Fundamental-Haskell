@@ -274,6 +274,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#coproduct][<<<Coproduct>>>]]
       - [[#-64][/*/]]
     - [[#free-object][<<<Free object>>>]]
+    - [[#internal-category][<<<Internal category>>>]]
   - [[#coalgebra][<<<Coalgebra>>>]]
   - [[#contravariant][<<<Contravariant>>>]]
     - [[#-65][/*/]]
@@ -984,13 +985,12 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#contravariant-functor][Contravariant functor]]
   - [[#profunctor][Profunctor]]
   - [[#function-object-exponential][Function object, exponential]]
-  - [[#cat-category][Cat category]]
+  - [[#cat-category][<<<Cat category>>>]]
     - [[#-220][/*/]]
   - [[#enriched-category][Enriched category]]
     - [[#-221][/*/]]
   - [[#lux][Lux]]
   - [[#bicategory][Bicategory]]
-  - [[#internal-category][<<<Internal category>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-222][/*/]]
@@ -4175,6 +4175,13 @@ General particular structure.
 In which structure, properties autofollows from definition, axioms.
 
 Also uses as a term when surcomstances of structures, rules, properties, axioms used coinside with the definition of a particular object \therefore form object of this type with the according properties and possibilities.
+
+*** <<<Internal category>>> :drill:
+:PROPERTIES:
+:ID:       d0492e1d-4e50-43dc-b9f6-6c59132b0eed
+:END:
+
+Category which is includded into a bigger category.
 
 ** <<<Coalgebra>>> :drill:
 :properties:
@@ -12149,7 +12156,7 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 
 Cartesian category should be closed under exponentiation.
 
-** Cat category
+** <<<Cat category>>>
 
 Category where:
   * object (0-cell) - category
@@ -12163,6 +12170,7 @@ a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt}
 Is Cartesian closed category.
 
 *** /*/
+<<<Cat>>>
 <<<2-category>>>
 
 ** Enriched category
@@ -12195,13 +12203,6 @@ Category that escaped the Set theory and the equality definition (by using assoc
 But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
 
 Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
-
-** <<<Internal category>>> :drill:
-:PROPERTIES:
-:ID:       d0492e1d-4e50-43dc-b9f6-6c59132b0eed
-:END:
-
-Category which is includded into a bigger category.
 
 * Reference
 
