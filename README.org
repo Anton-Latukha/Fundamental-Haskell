@@ -938,7 +938,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#exception-handling][Exception handling]]
   - [[#constraints][Constraints]]
   - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
-  - [[#layering-transformers][Layering transformers]]
+  - [[#layering-monad-transformers][Layering monad transformers]]
   - [[#hoogle][Hoogle]]
     - [[#search][Search]]
     - [[#scope-1][Scope]]
@@ -11709,7 +11709,7 @@ Reverse pluck =MonadReader= constraint with =runReader= on the object.
 
 ** Monad transformers and their type classes
 
-** Layering transformers
+** Layering monad transformers
 
 Different layering of the same monad transformers is functionality is the same, but the form is different. Surrounding handling functions would need to be different. 
 
