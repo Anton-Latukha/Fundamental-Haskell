@@ -989,6 +989,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-220][/*/]]
   - [[#lux][Lux]]
   - [[#bicategory][Bicategory]]
+  - [[#internal-category][Internal category]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-221][/*/]]
@@ -12179,6 +12180,10 @@ Category that escaped the Set theory and the equality definition (by using assoc
 But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
 
 Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
+
+** Internal category
+
+Category which is includded into a bigger category.
 
 * Reference
 
