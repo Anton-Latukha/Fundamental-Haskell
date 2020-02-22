@@ -918,6 +918,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
     - [[#6-optional-debugging][6. (optional) Debugging]]
   - [[#debugger][Debugger]]
+  - [[#ghcid][<<<GHCID>>>]]
 - [[#libs][Libs]]
   - [[#exceptions][Exceptions]]
     - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
@@ -975,7 +976,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-218][/*/]]
   - [[#universal-property][Universal property]]
   - [[#yoneda-lemma][Yoneda lemma]]
-  - [[#ghcid][GHCID]]
   - [[#monoidal-category-functoriality-of-adts-profunctors][Monoidal category, functoriality of ADTs, Profunctors]]
   - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#const-functor][<<<Const functor>>>]]
@@ -11534,6 +11534,31 @@ What been evaluated already
 :sprint name
 #+end_src
 
+** <<<GHCID>>>
+
+Commands to run the compile/check loop:
+
+=cabal= > =3.0= command:
+#+begin_src fish
+ghcid --command='cabal v2-repl --repl-options=-fno-code --repl-options=-fno-break-on-exception --repl-options=-fno-break-on-error --repl-options=-v1 --repl-options=-ferror-spans --repl-options=-j'
+#+end_src
+
+=cabal= < =3.0= command:
+#+begin_src fish
+ghcid --command='cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j'
+#+end_src
+
+=nix-shell= =cabal= > =3.0= command:
+#+begin_src fish
+nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --repl-options=-fno-break-on-exception --repl-options=-fno-break-on-error --repl-options=-v1 --repl-options=-ferror-spans --repl-options=-j" '
+#+end_src
+
+=nix-shell= =cabal= < =3.0= command:
+#+begin_src fish
+nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
+
+#+end_src
+
 * Libs :drill:
 :properties:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
@@ -11968,31 +11993,6 @@ A property of some construction which boils down to (is manifestly equivalent to
 Allows the embedding of any category into a category of functors (contravariant set-valued functors) defined on that category. It also clarifies how the embedded category, of representable functors and their natural transformations, relates to the other objects in the larger functor category.
 
 The Yoneda lemma suggests that instead of studying the (locally small) category C {\displaystyle {\mathcal {C}}} \mathcal{C} , one should study the category of all functors of C {\displaystyle {\mathcal {C}}} \mathcal{C} into S e t {\displaystyle \mathbf {Set} } \mathbf{Set} (the category of sets with functions as morphisms). S e t {\displaystyle \mathbf {Set} } \mathbf{Set} is a category we think we understand well, and a functor of C {\displaystyle {\mathcal {C}}} \mathcal{C} into S e t {\displaystyle \mathbf {Set} } \mathbf{Set} can be seen as a "representation" of C {\displaystyle {\mathcal {C}}} \mathcal{C} in terms of known structures. The original category C {\displaystyle {\mathcal {C}}} \mathcal{C} is contained in this functor category, but new objects appear in the functor category, which were absent and "hidden" in C {\displaystyle {\mathcal {C}}} \mathcal{C} . Treating these new objects just like the old ones often unifies and simplifies the theory.
-
-** GHCID
-
-Commands to run the compile/check loop:
-
-=cabal= > =3.0= command:
-#+begin_src fish
-ghcid --command='cabal v2-repl --repl-options=-fno-code --repl-options=-fno-break-on-exception --repl-options=-fno-break-on-error --repl-options=-v1 --repl-options=-ferror-spans --repl-options=-j'
-#+end_src
-
-=cabal= < =3.0= command:
-#+begin_src fish
-ghcid --command='cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j'
-#+end_src
-
-=nix-shell= =cabal= > =3.0= command:
-#+begin_src fish
-nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --repl-options=-fno-break-on-exception --repl-options=-fno-break-on-error --repl-options=-v1 --repl-options=-ferror-spans --repl-options=-j" '
-#+end_src
-
-=nix-shell= =cabal= < =3.0= command:
-#+begin_src fish
-nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
-
-#+end_src
 
 ** Monoidal category, functoriality of ADTs, Profunctors
 
