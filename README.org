@@ -4254,6 +4254,23 @@ $$ Hom(A,-): \ \mathcal{C} \to Set $$
 Hom-bifunctor:
 $$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
 
+*** <<<Enriched category>>> :drill:
+:PROPERTIES:
+:ID:       821d08ed-f6b4-44a3-ba6d-9dbb6dd22252
+:END:
+
+Has Hom objects, gets away Hom sets, category is no longer small, now may be called large.
+$$ hom(x,y) \in K $$.
+
+Called: /*/ over =K=.
+Hom objects are in monoidal category =K=, multiplication operation in which allows composition of Hom objects: 
+
+$$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
+
+**** /*/
+<<<Enriched>>>
+<<<Large category>>>
+
 ** <<<Coalgebra>>> :drill:
 :properties:
 :ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
@@ -12180,23 +12197,6 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 /*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
 Cartesian category should be closed under exponentiation.
-
-** <<<Enriched category>>> :drill:
-:PROPERTIES:
-:ID:       821d08ed-f6b4-44a3-ba6d-9dbb6dd22252
-:END:
-
-Has Hom objects, gets away Hom sets, category is no longer small, now may be called large.
-$$ hom(x,y) \in K $$.
-
-Called: /*/ over =K=.
-Hom objects are in monoidal category =K=, multiplication operation in which allows composition of Hom objects: 
-
-$$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
-
-*** /*/
-<<<Enriched>>>
-<<<Large category>>>
 
 ** Bicategory
 
