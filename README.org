@@ -12202,6 +12202,7 @@ $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
 
 *** /*/
 <<<Enriched>>>
+<<<Large category>>>
 
 ** Bicategory
 
