@@ -12206,7 +12206,7 @@ So, it always the case that category is indicates as /*/ over =K=.
 
 ** Bicategory
 
-Enriched lux 2-category.
+Enriched lax 2-category.
 
 Category that escaped the Set theory and the equality definition (by using associativity and idintity "up to isomorphism" (and introducing associator, left/right unitor)).
 
