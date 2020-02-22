@@ -263,7 +263,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
       - [[#natural-transformation-in-haskell][<<<Natural transformation in Haskell>>>]]
       - [[#cat-category][<<<Cat category>>>]]
         - [[#-59][/*/]]
-    - [[#hom-set][<<<Hom set>>>]]
     - [[#category-dual][<<<Category dual>>>]]
           - [[#-60][/*/]]
     - [[#thin-category][<<<Thin category>>>]]
@@ -990,6 +989,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#enriched-category][<<<Enriched category>>>]]
     - [[#-221][/*/]]
   - [[#bicategory][Bicategory]]
+  - [[#hom-set][<<<Hom set>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-222][/*/]]
@@ -4045,13 +4045,6 @@ Is Cartesian closed category.
 ***** /*/
 <<<Cat>>>
 <<<2-category>>>
-
-*** <<<Hom set>>> :drill:
-:properties:
-:ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
-:end:
-
-Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 *** <<<Category dual>>> :drill:
 SCHT: <2020-04-24 Fri>
@@ -12213,6 +12206,13 @@ Large and the equality definition (by using associativity and idintity "up to is
 But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
 
 Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
+
+** <<<Hom set>>> :drill:
+:properties:
+:ID:       ee713d7a-4b83-4e75-8338-5a3b69da24a9
+:end:
+
+Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
 
 * Reference
 
