@@ -12195,7 +12195,8 @@ So, it always the case that category is indicates as /*/ over =K=.
 
 ** <<<Lux>>>
 
-Up to isomorphism.
+Holds up to isomorphism.
+(upon the transformation can be used as the same)
 
 ** Bicategory
 
