@@ -982,7 +982,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#universal-property][Universal property]]
   - [[#yoneda-lemma][Yoneda lemma]]
   - [[#monoidal-category-functoriality-of-adts-profunctors][Monoidal category, functoriality of ADTs, Profunctors]]
-  - [[#lax-monoidal-functor][<<<Lax monoidal functor>>>]]
   - [[#const-functor][<<<Const functor>>>]]
   - [[#arrow-in-haskell][<<<Arrow in Haskell>>>]]
   - [[#contravariant-functor][Contravariant functor]]
@@ -12065,8 +12064,6 @@ Algebraic data type construction can use:
   * Coproduct
 
 Any algebraic data type is functorial.
-
-** <<<Lax monoidal functor>>>
 
 ** <<<Const functor>>>
 
