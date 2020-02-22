@@ -12140,12 +12140,10 @@ In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ S
 
 Universal construction:
 
-\begin{document}
 \begin{tikzcd}
 z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted] \arrow[rd, "g"] &   \\
 (a \Rightarrow b) \arrow[r, dotted] & (a \Rightarrow b) \times a \arrow[r, "eval", dotted]       & b
 \end{tikzcd}
-\end{document}
 
 , where in Category: $$ a $$ - argument of /*/, $$ b $$ - result, $$ z $$ - candidate, $$ ( a \Rightarrow b ) $$ - /*/.
 
