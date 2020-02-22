@@ -12159,9 +12159,12 @@ Cartesian category should be closed under exponentiation.
 ** <<<Cat category>>>
 
 Category where:
-  * object (0-cell) - category
-  * \Rightarrow morphism (1-cell) - functors
-  * \Rightarrow 2-morphisms (2-cell) - natural transformations, homotopy between morphisms.
+
+|   | Part       | Is                                         | #      |
+|---+------------+--------------------------------------------+--------|
+| * | object     | category                                   | 0-cell |
+| \Rightarrow | morphism   | functor                                    | 1-cell |
+| \Rightarrow | 2-morphism | natural transformation, morphisms homotopy | 2-cell |
 
 \begin{tikzcd}
 a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt} &  & b
