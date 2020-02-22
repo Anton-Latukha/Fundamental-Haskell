@@ -989,10 +989,11 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#lux][Lux]]
   - [[#bicategory][Bicategory]]
   - [[#internal-category][Internal category]]
-  - [[#pullback][Pullback]]
+  - [[#pullback][<<<Pullback>>>]]
+    - [[#-221][/*/]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-    - [[#-221][/*/]]
+    - [[#-222][/*/]]
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
   - [[#performance-results-and-comparisons-of-types--solutions][Performance results and comparisons of types & solutions]]
@@ -12189,9 +12190,15 @@ Stacking groupoids (category in which are morphisms are invertable) is much more
 
 Category which is includded into a bigger category.
 
-** Pullback
+** <<<Pullback>>> :drill:
+:PROPERTIES:
+:ID:       6c5bf63f-4c92-42c4-a8f2-de638e01effb
+:END:
 
 Subset of the cartesian product of two sets.
+
+*** /*/
+<<<Pullbacks>>>
 
 * Reference
 
