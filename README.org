@@ -990,7 +990,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-221][/*/]]
   - [[#lux][Lux]]
   - [[#bicategory][Bicategory]]
-  - [[#internal-category][Internal category]]
+  - [[#internal-category][<<<Internal category>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-222][/*/]]
@@ -12196,7 +12196,10 @@ But, paradoxically, forming from bicategories higher categories/stacking levels 
 
 Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
 
-** Internal category
+** <<<Internal category>>> :drill:
+:PROPERTIES:
+:ID:       d0492e1d-4e50-43dc-b9f6-6c59132b0eed
+:END:
 
 Category which is includded into a bigger category.
 
