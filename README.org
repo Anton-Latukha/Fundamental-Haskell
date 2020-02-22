@@ -12189,11 +12189,8 @@ Cartesian category should be closed under exponentiation.
 
 ** Enriched category
 
-Has Hom objects, gets away Hom sets.
-
+Has Hom objects, gets away Hom sets, category is no longer small, now may be called large.
 $$ hom(x,y) \in K $$.
-
-Category is no longer small, now may be called large.
 
 Called: /*/ over =K=.
 Hom objects are in monoidal category =K=, multiplication operation in which allows composition of Hom objects: 
