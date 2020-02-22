@@ -12193,13 +12193,12 @@ Has Hom objects, gets away Hom sets.
 
 $$ hom(x,y) \in K $$.
 
-As category is no longer small, may be called large.
+Category is no longer small, now may be called large.
 
-Hom objects are includedd in some monoidal category =K= , because multiplication operation allows composition of Hom objects: 
+Called: /*/ over =K=.
+Hom objects are in monoidal category =K=, multiplication operation in which allows composition of Hom objects: 
 
 $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
-
-So, it always the case that category is indicates as /*/ over =K=.
 
 *** /*/
 <<<Enriched>>>
