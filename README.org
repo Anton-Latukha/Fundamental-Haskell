@@ -11971,6 +11971,8 @@ The Yoneda lemma suggests that instead of studying the (locally small) category 
 
 ** GHCID
 
+Commands to run the compile/check loop:
+
 =cabal= > =3.0= command:
 #+begin_src fish
 ghcid --command='cabal v2-repl --repl-options=-fno-code --repl-options=-fno-break-on-exception --repl-options=-fno-break-on-error --repl-options=-v1 --repl-options=-ferror-spans --repl-options=-j'
