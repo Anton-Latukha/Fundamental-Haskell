@@ -987,7 +987,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#enriched-category][<<<Enriched category>>>]]
     - [[#-221][/*/]]
   - [[#bicategory][Bicategory]]
-  - [[#hom-set-1][<<<Hom-set>>>]]
+  - [[#hom-set][<<<Hom-set>>>]]
     - [[#hom-functor][<<<Hom-functor>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -12173,13 +12173,14 @@ SCHT: <2020-07-02 Thu>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:22]
 :end:
 
-Collection of all morphisms (and all their compositions) from object to object.
-
-Collection of morphisms is not nesessary a set, in practice - is.
+All morphisms from source object to target object.
 
 Denotation:
 $$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
 Denotation was not standartized.
+
+*** /*/
+<<<Hom set>>>
 
 *** <<<Hom-functor>>> :drill:
 SCHT: <2020-02-28 Fri>
