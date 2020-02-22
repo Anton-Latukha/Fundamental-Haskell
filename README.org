@@ -546,8 +546,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-142][/*/]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
-    - [[#hom-set-1][<<<Hom-set>>>]]
-      - [[#hom-functor][<<<Hom-functor>>>]]
     - [[#singleton][<<<Singleton>>>]]
     - [[#russells-paradox][<<<Russell's paradox>>>]]
   - [[#shrinking][<<<Shrinking>>>]]
@@ -990,6 +988,8 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
     - [[#-221][/*/]]
   - [[#bicategory][Bicategory]]
   - [[#hom-set][<<<Hom set>>>]]
+  - [[#hom-set-1][<<<Hom-set>>>]]
+    - [[#hom-functor][<<<Hom-functor>>>]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-222][/*/]]
@@ -7914,53 +7914,6 @@ For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of
 Denotation:
 $$ \mathcal{P(S)} $$
 
-*** <<<Hom-set>>> :drill:
-SCHT: <2020-07-02 Thu>
-:properties:
-:ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
-:DRILL_LAST_INTERVAL: 189.7248
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:22]
-:end:
-
-Collection of all morphisms (and all their compositions) from object to object.
-
-Collection of morphisms is not nesessary a set, but in practice - is.
-
-Denotation:
-$$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
-Denotation was not standartized.
-
-**** <<<Hom-functor>>> :drill:
-SCHT: <2020-02-28 Fri>
-:properties:
-:ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:DRILL_LAST_INTERVAL: 8.4538
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 27
-:DRILL_FAILURE_COUNT: 15
-:DRILL_AVERAGE_QUALITY: 2.593
-:DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
-:end:
-
-$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$
-Functor from the product of $$ \mathcal{C} $$ with its opposite category to the category of sets.
-
-Denotation variants:
-$$ H_A = \mathrm{Hom}(-, A) $$
-$$ h_A = {\cal \mathcal{C}}(-, A) $$
-$$ Hom(A,-): \ \mathcal{C} \to Set $$
-
-Hom-bifunctor:
-$$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
-
 *** <<<Singleton>>> :drill:
 SCHT: <2020-05-28 Thu>
 :properties:
@@ -12213,6 +12166,53 @@ Stacking groupoids (category in which are morphisms are invertable) is much more
 :end:
 
 Collection of all morphisms $$ hom^{\mathcal{C}}(a,b) \ | \ \forall ( a \to b ) \in \mathcal{C} $$.
+
+** <<<Hom-set>>> :drill:
+SCHT: <2020-07-02 Thu>
+:properties:
+:ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
+:DRILL_LAST_INTERVAL: 189.7248
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:22]
+:end:
+
+Collection of all morphisms (and all their compositions) from object to object.
+
+Collection of morphisms is not nesessary a set, in practice - is.
+
+Denotation:
+$$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
+Denotation was not standartized.
+
+*** <<<Hom-functor>>> :drill:
+SCHT: <2020-02-28 Fri>
+:properties:
+:ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
+:DRILL_LAST_INTERVAL: 8.4538
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 27
+:DRILL_FAILURE_COUNT: 15
+:DRILL_AVERAGE_QUALITY: 2.593
+:DRILL_EASE: 1.34
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
+:end:
+
+$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$
+Functor from the product of $$ \mathcal{C} $$ with its opposite category to the category of sets.
+
+Denotation variants:
+$$ H_A = \mathrm{Hom}(-, A) $$
+$$ h_A = {\cal \mathcal{C}}(-, A) $$
+$$ Hom(A,-): \ \mathcal{C} \to Set $$
+
+Hom-bifunctor:
+$$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
 
 * Reference
 
