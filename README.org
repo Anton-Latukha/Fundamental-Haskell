@@ -3949,7 +3949,7 @@ Knowledge of /*/ forms a 2-category.
 Can be composed "vertically":
 
 \begin{tikzcd}
-a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\alpha} &  & b \\
+a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=60] &  & \Downarrow{\alpha} &  & b \\
                                                                                                                                   &  & \Downarrow{\beta}  &  &  
 \end{tikzcd}
 
