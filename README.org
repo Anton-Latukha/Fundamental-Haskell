@@ -3946,31 +3946,24 @@ Knowledge of /*/ forms a 2-category.
 
 Can be composed "vertically":
 
-\begin{document}
 \begin{tikzcd}
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\alpha} &  & b \\
                                                                                                                                   &  & \Downarrow{\beta}  &  &  
 \end{tikzcd}
-\end{document}
 
-\begin{document}
 \begin{tikzcd}
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b
 \end{tikzcd}
-\end{document}
 
 And horizontally, aka "Godement product":
-\begin{document}
+
 \begin{tikzcd}
 a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, bend right] & \Downarrow{\alpha} & b \arrow[rr, "F_{2}" description, bend left] \arrow[rr, "G_{2}" description, bend right] & \Downarrow{\beta} & c
 \end{tikzcd}
-\end{document}
 
-\begin{document}
 \begin{tikzcd}
 a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ G_{1}" description, bend right] & \Downarrow{\beta * \alpha} & c
 \end{tikzcd}
-\end{document}
 
 Compositions can be done in any right order, they abide the exchange law.
 
