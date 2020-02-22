@@ -237,7 +237,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
         - [[#-49][/*/]]
       - [[#isomorphism][<<<Isomorphism>>>]]
         - [[#-50][/*/]]
-        - [[#lux][<<<Lux>>>]]
+        - [[#lax][<<<Lax>>>]]
       - [[#endomorphism][<<<Endomorphism>>>]]
         - [[#automorphism][<<<Automorphism>>>]]
           - [[#-51][/*/]]
@@ -3629,7 +3629,10 @@ Categories are isomorphic if there $$ R \circ L = ID $$
 <<<Isomorphic>>>
 <<<Isomorphisms>>>
 
-***** <<<Lux>>>
+***** <<<Lax>>> :drill:
+:PROPERTIES:
+:ID:       9b9057db-929d-4239-adf9-87c3ae5ee0c5
+:END:
 
 Holds up to isomorphism.
 (upon the transformation can be used as the same)
