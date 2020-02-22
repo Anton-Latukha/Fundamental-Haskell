@@ -4023,7 +4023,10 @@ In Hask is $$ F \ a \to G \ a $$. Can be analogued to repackaging data into anot
 
 Can be sees as ortogonal to functors.
 
-**** <<<Cat category>>>
+**** <<<Cat category>>> :drill:
+:PROPERTIES:
+:ID:       af015bd3-82ca-4dd4-95f5-314e93d6fa29
+:END:
 
 Category where:
 
