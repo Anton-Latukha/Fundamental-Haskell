@@ -989,7 +989,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#function-object-exponential][Function object, exponential]]
   - [[#enriched-category][Enriched category]]
     - [[#-221][/*/]]
-  - [[#lux][Lux]]
+  - [[#lux][<<<Lux>>>]]
   - [[#bicategory][Bicategory]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -12193,7 +12193,7 @@ So, it always the case that category is indicates as /*/ over =K=.
 *** /*/
 <<<Enriched>>>
 
-** Lux
+** <<<Lux>>>
 
 Up to isomorphism.
 
