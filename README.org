@@ -987,7 +987,7 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
   - [[#contravariant-functor][Contravariant functor]]
   - [[#profunctor][Profunctor]]
   - [[#function-object-exponential][Function object, exponential]]
-  - [[#enriched-category][Enriched category]]
+  - [[#enriched-category][<<<Enriched category>>>]]
     - [[#-221][/*/]]
   - [[#bicategory][Bicategory]]
 - [[#reference][Reference]]
@@ -12187,7 +12187,10 @@ z \arrow[d, "h", dotted]            & z \times a \arrow[d, "h \times 1", dotted]
 
 Cartesian category should be closed under exponentiation.
 
-** Enriched category
+** <<<Enriched category>>> :drill:
+:PROPERTIES:
+:ID:       821d08ed-f6b4-44a3-ba6d-9dbb6dd22252
+:END:
 
 Has Hom objects, gets away Hom sets, category is no longer small, now may be called large.
 $$ hom(x,y) \in K $$.
