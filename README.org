@@ -2090,8 +2090,6 @@ Mostly monads used for sequencing actions (computations) (that looks like impera
 
 Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe monad on Nothing drops chain of computation and returns Nothing.
 
-Internals of Monad are Haskell data types, and as such - they can be consumed any number of times.
-
 /*/ inherits the Applicative instance methods:
 #+begin_src haskell
 import Control.Monad (ap)
@@ -2099,7 +2097,6 @@ return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
-Internals of Monad are Haskell data types, and as such - they can be consumed any number of times.
 
 #+caption: Monad in mathematics and Haskell
 #+name: tab:monad-in-mathematics-haskell
@@ -2118,6 +2115,8 @@ Internals of Monad are Haskell data types, and as such - they can be consumed an
  \hline
 \end{tabular}
 \end{center}
+
+Internals of Monad are Haskell data types, and as such - they can be consumed any number of times.
 
 Composition of monadic types does not always results in monadic type.
 
