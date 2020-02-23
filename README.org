@@ -11989,6 +11989,7 @@ the following notions are equivalent:
 
 #+caption: Computational trinitarianism
 #+name: tab:computational-trinitarianism
+#+attr_latex: :environment longtable
 | [[https://ncatlab.org/nlab/show/logic][Logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][Category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][Type theory]]                                    |
 |-----------------------------------+-----------------------------------------------------------------+------------------------------------------------|
 | [[https://ncatlab.org/nlab/show/true][true]]                              | [[https://ncatlab.org/nlab/show/terminal+object][terminal object]]/[[https://ncatlab.org/nlab/show/%28-2%29-truncated+object][(-2)-truncated object]]                           | [[https://ncatlab.org/nlab/show/h-level+0][h-level 0]]-[[https://ncatlab.org/nlab/show/type][type]]/[[https://ncatlab.org/nlab/show/unit+type][unit type]]                       |
