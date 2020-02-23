@@ -2099,11 +2099,11 @@ ap == (<*>) -- + Monad requirement
 
 #+caption: Monad in mathematics and Haskell
 #+name: tab:monad-in-mathematics-haskell
-| Mathematics                                  | Haskell                                   | Mathematical meaning                                             |
-|----------------------------------------------+-------------------------------------------+------------------------------------------------------------------|
-| $$ E $$                                      | = <$> ∷ Functor f ⇒ (a → b) → f a → f b = | endofunctor (in Haskell power set functor used) |
-| $$ \eta_{ID \to E} $$        | = pure ∷ Applicative f ⇒ a → f a =        | unit (natural transformation for functors $$ ID \to \mathcal{P} $$) |
-| $$ \mu_{E \circ E \to E} $$  | = join ∷ Monad f ⇒ f (f a) → f a =        | join (natural transformation for functors $$ {\mathcal{P \circ P \to P}} $$)  |
+| Mathematics      | Haskell                                                                      | Mathematical meaning                                                   |
+|------------------+------------------------------------------------------------------------------+------------------------------------------------------------------------|
+| $$ E $$          | $$ \begin{verbatim} <$> :: Functor f \Rightarrow (a → b) \to f a \to f b \end{verbatim} $$ | endofunctor (in Haskell power set functor used)                        |
+| $$ \eta_{ID \to E} $$    | $$ \begin{verbatim} pure ∷ Applicative f \Rightarrow a \to f a \end{verbatim} $$         | unit (natural transformation for functors $$ ID \to \mathcal{P} $$)      |
+| $$ \mu_{E \circ E \to E} $$ | $$ \begin{verbatim} join :: Monad f \Rightarrow f (f a) → f a \end{verbatim} $$        | join (natural transformation for functors $$ {\mathcal{P \circ P \to P}} $$) |
 
 Composition of monadic types does not always results in monadic type.
 
