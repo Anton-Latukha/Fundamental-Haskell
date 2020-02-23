@@ -2097,21 +2097,20 @@ return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
-
 #+caption: Monad in mathematics and Haskell
 #+name: tab:monad-in-mathematics-haskell
 \begin{center}
  \begin{tabular}{|c|c|c|c|c|c|c|}
  \hline
- Mathematics & Meaning                                 & Cat./Fctr. sign     & Obj. sign              & Type                      & Haskell \\ [0.5ex] 
+ Mathematics  &  Meaning                                  &  Cat./Fctr. sign  &  Obj. sign: $ X \in C    &  Type                     & Haskell \\ [0.5ex] 
  \hline\hline
- $ Id $      & endofunctor "Id"                        & $ C \to C $         & $ X \to Id (X) $       & $ a \to a  $              & id \\ 
+ $ Id $       &  endofunctor "Id"                         &  $ C \to C $        &  $ X \to Id (X) $        &  $ a \to a  $               & id \\ 
  \hline
- $ E $       & endofunctor "monad"                     & $ C \to C $         & $ X \to E (X) $        & $ m \ a \to m \ b $       & fmap \\ 
+ $ E $        &  endofunctor "monad"                      &  $ C \to C $        &  $ X \to E (X) $         &  $ m \ a \to m \ b $        & fmap \\ 
  \hline
- $ \eta $    & natural transformation "unit"           & $ Id \to E $        & $ Id (X) \to E (X) $   & $ a \to m \ a $           & pure \\
+ $ \eta $        &  natural transformation "unit"            &  $ Id \to E $       &  $ Id (X) \to E (X) $    &  $ a \to m \ a $            & pure \\
  \hline
- $ \mu $     & natural transformation "multiplication" & $ E \circ E \to E $ & $ E (E(X)) \to E (X) $ & $ m \ (m \ a) \to m \ a $ & join \\
+ $ \mu $        &  natural transformation "multiplication"  &  $ E \circ E \to E $    &  $ E (E(X)) \to E (X) $  &  $ m \ (m \ a) \to m \ a $  & join \\
  \hline
 \end{tabular}
 \end{center}
