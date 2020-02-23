@@ -4206,7 +4206,7 @@ Also uses as a term when surcomstances of structures, rules, properties, axioms 
 
 Category which is includded into a bigger category.
 
-*** <<<Hom-set>>> :drill:
+*** <<<Hom set>>> :drill:
 SCHT: <2020-07-02 Thu>
 :properties:
 :ID:       69d139d5-3a8d-4a07-a5b3-44778cc0ce61
@@ -4226,8 +4226,15 @@ Denotation:
 $$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
 Denotation was not standartized.
 
+Hom sets belong to Set category.
+
+In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$. Set category is special, Hom sets are also objects of it.
+
+Category can include Set, and hom sets, or not.
+
 **** /*/
-<<<Hom set>>>
+<<<Hom-set>>>
+<<<Hom sets>>>
 
 **** <<<Hom-functor>>> :drill:
 SCHT: <2020-02-28 Fri>
@@ -12185,12 +12192,6 @@ dimap id <==> fmap
 
 Generalises the notion of function set to internal object, in Cartesian closed category.
 As also hom set to internal hom objects.
-
-Hom set belongs to Set.
-
-In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$. So Set is special, Homs are also objects of it.
-
-Category can have Set as internal category or not.
 
 Denotation:
 $$ b^{a} $$
