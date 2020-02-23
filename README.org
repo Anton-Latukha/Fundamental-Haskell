@@ -9,7 +9,9 @@
 #+options: toc:10
 #+options: p:nil
 #+options: \n:t
-#+LaTeX_HEADER: \usepackage{tikz,tikz-cd}
+#+latex: \tableofcontents
+#+latex_header: \usepackage{tikz,tikz-cd}
+#+latex_header: \usetikzlibrary{cd}
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 
 * Introduction
