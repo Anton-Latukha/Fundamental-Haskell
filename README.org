@@ -12218,13 +12218,16 @@ dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
 
-** Bicategory
+** Bicategory :drill:
+:PROPERTIES:
+:ID:       61463bc0-6e2f-434b-a2fc-5595f0919fb8
+:END:
 
 2-category that is enriched and lax.
 
-Large and the equality definition (by using associativity and idintity "up to isomorphism" (and introducing associator, left/right unitor)).
+For handling relaxed associativity - introduces associator, and for identity l -eft/right unitor.
 
-But, paradoxically, forming from bicategories higher categories/stacking levels of such categories - leads to special cases, differences of every level and difficulties.
+Forming from bicategories higher categories by stacking levels of abstraction of such categories - leads to explosion of special cases, differences of every level, and so overall difficulties.
 
 Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
 
