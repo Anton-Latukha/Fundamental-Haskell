@@ -11899,7 +11899,7 @@ Dump desugarer output.
 $$ O(n^3) $$
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
-** Computational trinitarianism
+** <<<Computational trinitarianism>>>
 
 Taken from: https://ncatlab.org/nlab/show/computational+trinitarianism
 
@@ -11919,8 +11919,9 @@ the following notions are equivalent:
 
   == typed program with output (Type theory & Computer science)
 
-
-| [[https://ncatlab.org/nlab/show/logic][logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][type theory]]                                    |
+#+caption: Computational trinitarianism
+#+name: tab:computational-trinitarianism
+| [[https://ncatlab.org/nlab/show/logic][Logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][Category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][Type theory]]                                    |
 |-----------------------------------+-----------------------------------------------------------------+------------------------------------------------|
 | [[https://ncatlab.org/nlab/show/true][true]]                              | [[https://ncatlab.org/nlab/show/terminal+object][terminal object]]/[[https://ncatlab.org/nlab/show/%28-2%29-truncated+object][(-2)-truncated object]]                           | [[https://ncatlab.org/nlab/show/h-level+0][h-level 0]]-[[https://ncatlab.org/nlab/show/type][type]]/[[https://ncatlab.org/nlab/show/unit+type][unit type]]                       |
 | [[https://ncatlab.org/nlab/show/false][false]]                             | [[https://ncatlab.org/nlab/show/initial+object][initial object]]                                                  | [[https://ncatlab.org/nlab/show/empty+type][empty type]]                                     |
@@ -11947,6 +11948,9 @@ the following notions are equivalent:
 | [[https://ncatlab.org/nlab/show/proof+net][proof net]]                         | [[https://ncatlab.org/nlab/show/string+diagram][string diagram]]                                                  | [[https://ncatlab.org/nlab/show/quantum+circuit][quantum circuit]]                                |
 | (absence of) [[https://ncatlab.org/nlab/show/contraction+rule][contraction rule]]     | (absence of) [[https://ncatlab.org/nlab/show/diagonal][diagonal]]                                           | [[https://ncatlab.org/nlab/show/no-cloning+theorem][no-cloning theorem]]                             |
 |                                   | [[https://ncatlab.org/nlab/show/synthetic+mathematics][synthetic mathematics]]                                           | [[https://ncatlab.org/nlab/show/domain+specific+embedded+programming+language][domain specific embedded programming language]]  |
+
+*** /*/
+<<<Trinitarism>>>
 
 ** Techniques functional programming deals with the state
 
