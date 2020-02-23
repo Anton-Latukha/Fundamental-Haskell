@@ -4314,10 +4314,7 @@ Category is no longer small, now may be called large.
 
 $$ hom(x,y) \in K $$.
 
-Called: /*/ over =K=.
-Hom objects are in monoidal category =K=, multiplication operation in which allows composition of Hom objects: 
-
-$$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
+Called: /*/ over =K= (whick holds hom objects).
 
 ****** /*/
 <<<Enriched>>>
