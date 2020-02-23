@@ -4046,6 +4046,19 @@ Is Cartesian closed category.
 <<<Cat>>>
 <<<2-category>>>
 
+***** Bicategory :drill:
+:PROPERTIES:
+:ID:       61463bc0-6e2f-434b-a2fc-5595f0919fb8
+:END:
+
+2-category that is enriched and lax.
+
+For handling relaxed associativity - introduces associator, and for identity l -eft/right unitor.
+
+Forming from bicategories higher categories by stacking levels of abstraction of such categories - leads to explosion of special cases, differences of every level, and so overall difficulties.
+
+Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
+
 *** <<<Category dual>>> :drill:
 SCHT: <2020-04-24 Fri>
 :properties:
@@ -12217,19 +12230,6 @@ It is contravariant functor in the first argument, and covariant functor in the 
 dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
-
-** Bicategory :drill:
-:PROPERTIES:
-:ID:       61463bc0-6e2f-434b-a2fc-5595f0919fb8
-:END:
-
-2-category that is enriched and lax.
-
-For handling relaxed associativity - introduces associator, and for identity l -eft/right unitor.
-
-Forming from bicategories higher categories by stacking levels of abstraction of such categories - leads to explosion of special cases, differences of every level, and so overall difficulties.
-
-Stacking groupoids (category in which are morphisms are invertable) is much more homogenous up to infinity, and forms base of the homotopy type theory.
 
 * Reference
 
