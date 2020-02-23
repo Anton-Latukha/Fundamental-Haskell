@@ -12185,9 +12185,11 @@ dimap id <==> fmap
 
 In Cartesian closed monoidal category.
 
-Hom set belongs to Set, but Set can be not part of category.
+Hom set belongs to Set.
 
 In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$. So Set is special, Homs are also objects of it.
+
+Category can have Set as internal category or not.
 
 Universal construction:
 
