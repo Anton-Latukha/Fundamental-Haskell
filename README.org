@@ -4289,7 +4289,7 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 <<<Hom object>>>
 <<<Hom objects>>>
 
-*** <<<Enriched category>>> :drill:
+***** <<<Enriched category>>> :drill:
 :PROPERTIES:
 :ID:       821d08ed-f6b4-44a3-ba6d-9dbb6dd22252
 :END:
@@ -4304,7 +4304,7 @@ Hom objects are in monoidal category =K=, multiplication operation in which allo
 
 $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
 
-**** /*/
+****** /*/
 <<<Enriched>>>
 <<<Large category>>>
 
