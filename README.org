@@ -2152,7 +2152,7 @@ ap == (<*>) -- + Monad requirement
 \begin{center}
  \begin{tabular}{|c|c|c|c|c|c|c|}
  \hline
- Mathematics  &  Meaning                                  &  Cat./Fctr. sign  &  Obj. sign: $ X \in C    &  Type                     & Haskell \\ [0.5ex] 
+ Math  &  Meaning                                  &  Cat/Fctr  &  $ X \in C $   &  Type                     & Haskell \\ [0.5ex] 
  \hline\hline
  $ Id $       &  endofunctor "Id"                         &  $ C \to C $        &  $ X \to Id (X) $        &  $ a \to a  $               & id \\ 
  \hline
