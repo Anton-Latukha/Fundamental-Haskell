@@ -12192,6 +12192,9 @@ In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ S
 
 Category can have Set as internal category or not.
 
+Denotation:
+$$ b^{a} $$
+
 Universal construction:
 
 \begin{tikzcd}
@@ -12200,7 +12203,7 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 \end{tikzcd}
 , where in Category: $$ b^{a} $$ - exponential object, \times - product bifunctor, $$ a $$ - argument of /*/, $$ b $$ - result, $$ c $$ - candidate, $$ b^{a} \equiv ( a \Rightarrow b ) $$ - /*/.
 
-/*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
+/*/ $$ b^{a} $$ (also as $$ (a \Rightarrow b) $$) represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
 *** /*/
 <<<Function object>>>
