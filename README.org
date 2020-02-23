@@ -12197,7 +12197,7 @@ Universal construction:
 c \arrow[d, "u" description, dotted] & c \times a \arrow[d, "u \times 1^{a}" description, dotted] \arrow[rd] \arrow[l] &   \\
 b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted] \arrow[l]                  & b
 \end{tikzcd}
-, where in Category: \times - product bifunctor, $$ a $$ - argument of /*/, $$ b $$ - result, $$ c $$ - candidate, $$ b^{a} \equiv ( a \Rightarrow b ) $$ - /*/.
+, where in Category: $$ b^{a} $$ - exponential object, \times - product bifunctor, $$ a $$ - argument of /*/, $$ b $$ - result, $$ c $$ - candidate, $$ b^{a} \equiv ( a \Rightarrow b ) $$ - /*/.
 
 /*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
