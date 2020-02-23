@@ -4266,7 +4266,9 @@ $$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
 :ID:       821d08ed-f6b4-44a3-ba6d-9dbb6dd22252
 :END:
 
-Has Hom objects, gets away Hom sets, category is no longer small, now may be called large.
+Uses Hom objects (exponential objects), which do not belong into Set category.
+Category is no longer small, now may be called large.
+
 $$ hom(x,y) \in K $$.
 
 Called: /*/ over =K=.
