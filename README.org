@@ -4284,7 +4284,7 @@ $$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
 Generalises the notion of function set to internal object.
 As also hom set to internal hom objects.
 
-Cartesian closed (monoidal) category allows /*/ preserve composition requirement - multiplication operation allows composition of Hom objects: 
+Cartesian closed (monoidal) category strictly required, as /*/ multiplicaton holds composition requirement: 
 
 $$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
 
