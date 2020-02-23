@@ -5558,7 +5558,7 @@ SCHT: <2020-03-19 Thu>
 May contain:
   * constants
   * variables
-  * operations (e.g., + − × ÷)
+  * operations (e.g., + − \times \div)
   * functions (e.g., nth root, exponent, logarithm, trigonometric functions, and inverse hyperbolic functions), but usually no limit.
 
 *** <<<RHS>>> :drill:
