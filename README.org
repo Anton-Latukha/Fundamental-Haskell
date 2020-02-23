@@ -12181,7 +12181,7 @@ dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
 
-** Function object, exponential
+** <<<Exponential object>>>
 
 In Cartesian closed monoidal category.
 
@@ -12200,6 +12200,9 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 /*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
 Cartesian category should be closed under exponentiation.
+*** /*/
+<<<Function object>>>
+<<<Internal hom>>>
 
 ** Bicategory
 
