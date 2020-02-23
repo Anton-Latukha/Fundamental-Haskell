@@ -5646,11 +5646,11 @@ Directionality and property of invariability emerge from one another.
 
 $$ y(x) = (zx^{2} + bx + 3 \ | \ b = 5) $$
 ^ ^    ^^    ^   ^
-| |    ||     \_Var\__Constant
-| |    | \__Bound__variable
-| |     \_Free variable
-|  \_Parameter
- \__Name__of__the__function
+| |    ||     \$$ \textsubscript{Var} $$\$$ \textsubscript{Constant} $$
+| |    | \$$ \textsubscript{Bound variable} $$
+| |     \$$ \textsubscript{Free variable} $$
+|  \$$ \textsubscript{Parameter} $$
+ \$$ \textsubscript{Name of the function} $$
 
 Lambda abstraction is a function.
 Function is a mathematical operation.
