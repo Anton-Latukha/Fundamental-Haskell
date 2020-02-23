@@ -12183,7 +12183,8 @@ dimap id <==> fmap
 
 ** <<<Exponential object>>>
 
-In Cartesian closed monoidal category.
+Generalises the notion of function set to internal object, in Cartesian closed category.
+As also hom set to internal hom objects.
 
 Hom set belongs to Set.
 
@@ -12201,7 +12202,6 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 
 /*/ $$ (a \Rightarrow b) $$ also called exponential, marked $$ b^{a} $$ that represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
 
-Cartesian category should be closed under exponentiation.
 *** /*/
 <<<Function object>>>
 <<<Internal hom>>>
