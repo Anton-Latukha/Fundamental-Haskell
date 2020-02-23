@@ -12211,6 +12211,9 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 *** /*/
 <<<Function object>>>
 <<<Internal hom>>>
+<<<Exponential objects>>>
+<<<Hom object>>>
+<<<Hom objects>>>
 
 ** Bicategory
 
