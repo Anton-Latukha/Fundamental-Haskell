@@ -4336,6 +4336,9 @@ Number of possible implementations for a given type signature.
 Disjunction, sum - adds cardinalities.
 Conjunction, product - multiplies cardinalities.
 
+**** /*/
+<<<Cardinalities>>>
+
 *** <<<Data constant>>> :drill:
 :properties:
 :ID:       c6fd80d7-4f2b-4c0e-a924-db0616cd126d
