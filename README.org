@@ -1199,37 +1199,6 @@ SCHT: <2020-03-16 Mon>
 <<<Greek prefix>>>
 <<<Latin prefix>>>
 
-** <<<Argument>>> :drill:
-SCHT: <2020-03-07 Sat>
-:properties:
-:ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
-:end:
-
-/arguere/ to make clear, to shine
-
-/*/ - evidence, proof, statement that results in system consequences.
-
-*** <<<Argument of a function>>> :drill:
-:properties:
-:ID:       42c01d98-580d-45c6-b602-119eb92b6b42
-:end:
-
-A value binded to the function parameter. Value/topic that the fuction would process/deal with.
-
-Also see <<<Argument>>>.
-
-**** /*/
-
-<<<Function argument>>>
-
 ** <<<Binary>>> :drill:
 SCHT: <2020-08-26 Wed>
 :properties:
@@ -8018,6 +7987,37 @@ While this word has two contradictory diametrically opposite usages, one was cho
 But it has... Both.
 
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
+
+*** <<<Argument>>> :drill:
+SCHT: <2020-03-07 Sat>
+:properties:
+:ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
+:end:
+
+/arguere/ to make clear, to shine
+
+/*/ - evidence, proof, statement that results in system consequences.
+
+**** <<<Argument of a function>>> :drill:
+:properties:
+:ID:       42c01d98-580d-45c6-b602-119eb92b6b42
+:end:
+
+A value binded to the function parameter. Value/topic that the fuction would process/deal with.
+
+Also see <<<Argument>>>.
+
+***** /*/
+
+<<<Function argument>>>
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
