@@ -7756,7 +7756,7 @@ SCHT: <2020-07-02 Thu>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:27]
 :end:
 
-Construction of mathematical objects (called denotations), that describe the meanings. In Haskell often abstractions that are ment (denotations), implemented directly in the code, sometimes exist over the code - allowing to reason and implement.
+Construction of objects, that describe/tag the meanings. In Haskell often abstractions that are ment (denotations), implemented directly in the code, sometimes exist over the code - allowing to reason and implement.
 
 /*/ are composable.
 
