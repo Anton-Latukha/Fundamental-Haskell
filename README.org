@@ -7899,6 +7899,19 @@ SCHT: <2020-08-26 Wed>
 
 Two of something.
 
+**** <<<Arbitrary>>> :drill:
+:properties:
+:ID:       3fd8d537-ab00-4989-bbde-5a62a34c3bfa
+:end:
+
+/arbitrarius/ uncertain
+
+Random, any one of.
+
+Used as: Any one with /this/ set of properties. (constraints, type, etc.).
+
+When there is a talk about any arbitrary value - in fact it is a talk about the generalization of computations over the set of properties.
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -8709,19 +8722,6 @@ On 1-st compilation - /*/ analyzes the abstract signatures without loading side 
 
 Takes no entries; has the arity of zero.
 Has the trivial domain.
-
-** <<<Arbitrary>>> :drill:
-:properties:
-:ID:       3fd8d537-ab00-4989-bbde-5a62a34c3bfa
-:end:
-
-/arbitrarius/ uncertain
-
-Random, any one of.
-
-Used as: Any one with /this/ set of properties. (constraints, type, etc.).
-
-When there is a talk about any arbitrary value - in fact it is a talk about the generalization of computations over the set of properties.
 
 ** Logic
 :properties:
