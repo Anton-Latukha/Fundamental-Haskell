@@ -1137,22 +1137,6 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
-** <<<Alpha equivalence>>> :drill:
-SCHT: <2020-09-18 Fri>
-:properties:
-:ID:       83ea3e34-0c72-4976-abaa-875767736cea
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:54]
-:end:
-
-Equivalence of a processes in expressions. If expressions have according parameters different, but the internal processes are literally the same process.
-
 ** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
@@ -5562,6 +5546,22 @@ SCHT: <2020-02-16 Sun>
 :end:
 
 Link together sequences, expressions.
+
+*** <<<Alpha equivalence>>> :drill:
+SCHT: <2020-09-18 Fri>
+:properties:
+:ID:       83ea3e34-0c72-4976-abaa-875767736cea
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:54]
+:end:
+
+Equivalence of a processes in expressions. If expressions have according parameters different, but the internal processes are literally the same process.
 
 ** <<<First-class>>> :drill:
 :properties:
