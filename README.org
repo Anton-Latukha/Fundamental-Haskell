@@ -7806,25 +7806,7 @@ Abstraction that leaks details that it is supposed to abstract away.
 
 <<<Leaky abstractions>>>
 
-*** <<<Axiomatic semantics>>> :drill:
-SCHT: <2020-03-23 Mon>
-:properties:
-:ID:       18d65b73-cec0-49ed-868a-a97d73abe329
-:DRILL_LAST_INTERVAL: 31.7425
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
-:end:
-
-Empirical process of studying something complex by finding and analyzing true statements about it.
-
-Good for examining interconnections.
-
-*** <<<Ambigram>>> :drill:
+**** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
 :ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
@@ -7848,6 +7830,24 @@ While this word has two contradictory diametrically opposite usages, one was cho
 But it has... Both.
 
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
+
+*** <<<Axiomatic semantics>>> :drill:
+SCHT: <2020-03-23 Mon>
+:properties:
+:ID:       18d65b73-cec0-49ed-868a-a97d73abe329
+:DRILL_LAST_INTERVAL: 31.7425
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.14
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
+:end:
+
+Empirical process of studying something complex by finding and analyzing true statements about it.
+
+Good for examining interconnections.
 
 *** <<<Argument>>> :drill:
 SCHT: <2020-03-07 Sat>
