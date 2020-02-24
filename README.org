@@ -4180,31 +4180,6 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 <<<Contravariant cofunctor>>>
 <<<Contravariant functor>>> - More inline term is Contravariant cofunctor
 
-** <<<Covariant>>> :drill:
-SCHT: <2020-03-01 Sun>
-:properties:
-:ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
-:DRILL_LAST_INTERVAL: 22.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
-:end:
-
-The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of tensors in basisis.
-
-Denotation:
-Components for covariant basis denoted in the upper indices:
-\( V_{i} = x \)
-
-*** /*/
-
-<<<Covariant functor>>>
-<<<Covariant cofunctor>>>
-
 ** <<<Data type>>> :drill:
 SCHT: <2020-07-22 Wed>
 :properties:
@@ -7965,6 +7940,31 @@ SCHT: <2020-08-07 Fri>
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see Category theory, or Euclidian geometry basis.
+
+****** <<<Covariant>>> :drill:
+SCHT: <2020-03-01 Sun>
+:properties:
+:ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
+:DRILL_LAST_INTERVAL: 22.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
+:end:
+
+The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of tensors in basisis.
+
+Denotation:
+Components for covariant basis denoted in the upper indices:
+\( V_{i} = x \)
+
+******* /*/
+
+<<<Covariant functor>>>
+<<<Covariant cofunctor>>>
 
 ***** <<<Commutativity>>> :drill:
 :properties:
