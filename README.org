@@ -7849,6 +7849,166 @@ Empirical process of studying something complex by finding and analyzing true st
 
 Good for examining interconnections.
 
+**** <<<Property>>> :drill:
+:properties:
+:ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
+:end:
+
+Something has a property in the real world, and in theory its property corresponds to the law/laws, axioms.
+
+In Haskell under property/law most often properties of algebraic structures.
+
+There property testing wich does what it says.
+
+***** /*/
+
+<<<Properties>>>
+
+***** <<<Associativity>>> :drill:
+:properties:
+:ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
+:end:
+
+Joined with common purpose.
+
+\( P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S \),
+
+/*/ - the operations can be grouped arbitrarily.
+
+Property that determines how operators of the same precedence are grouped, (in computer science also in the absence of parentheses).
+
+Etymology:
+Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
+
+In Haskell /*/ has influence on parsing when compounds have same fixity.
+
+****** /*/
+
+<<<Associative>>>
+<<<Associative law>>>
+<<<Associativity law>>>
+
+***** <<<Left associative>>> :drill:
+SCHT: <2020-05-31 Sun>
+:properties:
+:ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
+:DRILL_LAST_INTERVAL: 100.1276
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.917
+:DRILL_EASE: 2.96
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:17]
+:end:
+
+/*/ - the operations are grouped from the left.
+
+Example:
+In lambda expressions same level parts follow grouping from left to right.
+\( (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z \)
+
+****** /*/
+
+<<<Left associativity>>>
+<<<Left-associative>>>
+
+***** <<<Right associative>>> :drill:
+SCHT: <2020-02-22 Sat>
+:properties:
+:ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
+:DRILL_LAST_INTERVAL: 90.2063
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:34]
+:end:
+
+/*/ - the operations are grouped from the right.
+
+***** <<<Non-associative>>> :drill:
+SCHT: <2020-02-29 Sat>
+:properties:
+:ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
+:DRILL_LAST_INTERVAL: 8.9861
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
+:end:
+
+Operations can't be chained.
+
+Often is the case when the output type is incompatible with the input type.
+
+***** <<<Basis>>> :drill:
+SCHT: <2020-08-07 Fri>
+:properties:
+:ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
+:DRILL_LAST_INTERVAL: 225.56
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
+:end:
+
+\( \beta\alpha\sigma\iota\varsigma \) - stepping
+
+The initial point, unreducible axioms and terms that spawn a theory.
+AKA see Category theory, or Euclidian geometry basis.
+
+***** <<<Commutativity>>> :drill:
+:properties:
+:ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
+:end:
+
+\( \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) \)
+
+****** /*/
+
+<<<Commutative>>>
+<<<Commutative law>>>
+
+***** <<<Idempotence>>> :drill:
+:properties:
+:ID:       1c821458-dd2b-4112-aa32-416e27b161ba
+:end:
+
+First application gives a result. Then same operation can be applied multiple times without changing the result.
+Example: Start and Stop buttons on machines.
+
+****** /*/
+
+<<<Idempotent>>>
+<<<Idempotency>>>
+
+***** <<<Distributive property>>> :drill:
+:properties:
+:ID:       6ea04559-091b-4151-b190-e97a88bb317a
+:end:
+
+Set S and two binary operators + \times:
+
+  * \( x \times (y + z) = (x \times y) + (x \times z) \) - \times is left-distributive over +
+  * \( (y + z) \times x = (y \times x) + (z \times x) \) - \times is right-distributive over +
+  * left-&right-distributive - \times is distributive over +
+
+****** /*/
+
+<<<Distributive rule>>>
+<<<Distributive axiom>>>
+<<<Distributive law>>>
+<<<Distributive>>>
+
 *** <<<Argument>>> :drill:
 SCHT: <2020-03-07 Sat>
 :properties:
@@ -8467,166 +8627,6 @@ Special numbers where arithmetic wraps around in modular arithmetic.
 **** /*/
 
 <<<Moduli>>> - plural.
-
-** <<<Property>>> :drill:
-:properties:
-:ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
-:end:
-
-Something has a property in the real world, and in theory its property corresponds to the law/laws, axioms.
-
-In Haskell under property/law most often properties of algebraic structures.
-
-There property testing wich does what it says.
-
-*** /*/
-
-<<<Properties>>>
-
-*** <<<Associativity>>> :drill:
-:properties:
-:ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
-:end:
-
-Joined with common purpose.
-
-\( P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S \),
-
-/*/ - the operations can be grouped arbitrarily.
-
-Property that determines how operators of the same precedence are grouped, (in computer science also in the absence of parentheses).
-
-Etymology:
-Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
-
-In Haskell /*/ has influence on parsing when compounds have same fixity.
-
-**** /*/
-
-<<<Associative>>>
-<<<Associative law>>>
-<<<Associativity law>>>
-
-*** <<<Left associative>>> :drill:
-SCHT: <2020-05-31 Sun>
-:properties:
-:ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
-:DRILL_LAST_INTERVAL: 100.1276
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.917
-:DRILL_EASE: 2.96
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:17]
-:end:
-
-/*/ - the operations are grouped from the left.
-
-Example:
-In lambda expressions same level parts follow grouping from left to right.
-\( (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z \)
-
-**** /*/
-
-<<<Left associativity>>>
-<<<Left-associative>>>
-
-*** <<<Right associative>>> :drill:
-SCHT: <2020-02-22 Sat>
-:properties:
-:ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
-:DRILL_LAST_INTERVAL: 90.2063
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:34]
-:end:
-
-/*/ - the operations are grouped from the right.
-
-*** <<<Non-associative>>> :drill:
-SCHT: <2020-02-29 Sat>
-:properties:
-:ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
-:DRILL_LAST_INTERVAL: 8.9861
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
-:end:
-
-Operations can't be chained.
-
-Often is the case when the output type is incompatible with the input type.
-
-*** <<<Basis>>> :drill:
-SCHT: <2020-08-07 Fri>
-:properties:
-:ID:       c880a358-f545-4e2e-9c44-7c80ca038ac1
-:DRILL_LAST_INTERVAL: 225.56
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
-:end:
-
-\( \beta\alpha\sigma\iota\varsigma \) - stepping
-
-The initial point, unreducible axioms and terms that spawn a theory.
-AKA see Category theory, or Euclidian geometry basis.
-
-*** <<<Commutativity>>> :drill:
-:properties:
-:ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
-:end:
-
-\( \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) \)
-
-**** /*/
-
-<<<Commutative>>>
-<<<Commutative law>>>
-
-*** <<<Idempotence>>> :drill:
-:properties:
-:ID:       1c821458-dd2b-4112-aa32-416e27b161ba
-:end:
-
-First application gives a result. Then same operation can be applied multiple times without changing the result.
-Example: Start and Stop buttons on machines.
-
-**** /*/
-
-<<<Idempotent>>>
-<<<Idempotency>>>
-
-*** <<<Distributive property>>> :drill:
-:properties:
-:ID:       6ea04559-091b-4151-b190-e97a88bb317a
-:end:
-
-Set S and two binary operators + \times:
-
-  * \( x \times (y + z) = (x \times y) + (x \times z) \) - \times is left-distributive over +
-  * \( (y + z) \times x = (y \times x) + (z \times x) \) - \times is right-distributive over +
-  * left-&right-distributive - \times is distributive over +
-
-**** /*/
-
-<<<Distributive rule>>>
-<<<Distributive axiom>>>
-<<<Distributive law>>>
-<<<Distributive>>>
 
 ** <<<Backpack>>> :drill:
 SCHT: <2020-03-19 Thu>
