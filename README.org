@@ -1959,7 +1959,7 @@ return == pure
 ap == (<*>) -- + Monad requirement
 #+end_src
 
-#+LATEX: {\footnotesize
+#+latex: {\footnotesize
 #+caption: Monad in mathematics and Haskell
 #+name: tab--monad-in-mathematics-haskell
 | Math     | Meaning                                 | Cat/Fctr        | \( X \in C \)            | Type                      | Haskell |
@@ -1968,7 +1968,7 @@ ap == (<*>) -- + Monad requirement
 | \( E \)  | endofunctor "monad"                     | \( C \to C \)     | \( X \to E (X) \)        | \( m \ a \to m \ b \)       | fmap    |
 | \( \eta \)  | natural transformation "unit"           | \( Id \to E \)    | \( Id (X) \to E (X) \)   | \( a \to m \ a \)           | pure    |
 | \( \mu \)  | natural transformation "multiplication" | \( E \circ E \to E \) | \( E (E(X)) \to E (X) \) | \( m \ (m \ a) \to m \ a \) | join    |
-#+LATEX: }
+#+latex: }
 
 Internals of Monad are Haskell data types, and as such - they can be consumed any number of times.
 
