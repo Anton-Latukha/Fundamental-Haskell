@@ -11,7 +11,7 @@
 #+options: \n:t
 #+toc: headlines 10
 #+latex_class: book
-#+latex_class_options: [a4paper,14pt,oneside,draft]
+#+latex_class_options: [a4paper,14pt,oneside]
 #+latex: \setcounter{secnumdepth}{10}
 #+latex_header: \documentclass[11pt]{article}
 #+latex_header: \usepackage[utf8]{inputenc}
