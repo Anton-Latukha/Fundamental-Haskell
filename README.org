@@ -9748,6 +9748,22 @@ case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, inst
 **** /*/
 <<<Reserved words>>>
 
+*** <<<Haskell Language Report>>> :drill:
+:properties:
+:ID:       6f26be1d-e057-4bcf-ad63-3e404e78db1f
+:end:
+
+Document that is a standart of language.
+
+**** /*/
+<<<Report>>>
+<<<Haskell Report>>>
+<<<Haskell 98 Language Report>>>
+<<<Haskell 98 Report>>>
+<<<Haskell 1998 Language Report>>>
+<<<Haskell 2010 Language Report>>>
+<<<Haskell 2010 Report>>>
+
 ** Computer science
 :properties:
 :ID:       c197198c-c8c0-40ab-bfbf-f22c80f6f3b4
@@ -10062,21 +10078,8 @@ Allow adding type signatures to type class function instance declaration.
 
 
 
-** <<<Haskell Language Report>>> :drill:
-:properties:
-:ID:       6f26be1d-e057-4bcf-ad63-3e404e78db1f
-:end:
 
-Document that is a standart of language.
 
-*** /*/
-<<<Report>>>
-<<<Haskell Report>>>
-<<<Haskell 98 Language Report>>>
-<<<Haskell 98 Report>>>
-<<<Haskell 1998 Language Report>>>
-<<<Haskell 2010 Language Report>>>
-<<<Haskell 2010 Report>>>
 
 ** <<<Haskell'>>> :drill:
 :properties:
