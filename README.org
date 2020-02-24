@@ -7764,25 +7764,7 @@ Good to achive more broad approach/meaning.
 
 Also see Abstraction.
 
-*** <<<Axiomatic semantics>>> :drill:
-SCHT: <2020-03-23 Mon>
-:properties:
-:ID:       18d65b73-cec0-49ed-868a-a97d73abe329
-:DRILL_LAST_INTERVAL: 31.7425
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
-:end:
-
-Empirical process of studying something complex by finding and analyzing true statements about it.
-
-Good for examining interconnections.
-
-*** <<<Abstraction>>> :drill:
+**** <<<Abstraction>>> :drill:
 SCHT: <2020-02-28 Fri>
 :properties:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
@@ -7807,22 +7789,40 @@ Forgeting the details (axiomatic semantics). Simplified approach. Out of sight -
 
 It is a great did to name an abstraction (denotational semantics).
 
-**** /*/
+***** /*/
 
 <<<Abstractions>>>
 <<<Abstracting>>>
 <<<Abstract>>>
 
-**** <<<Leaky abstraction>>> :drill:
+***** <<<Leaky abstraction>>> :drill:
 :properties:
 :ID:       696ecb38-8f84-439e-8d4d-3cbb28b44c96
 :end:
 
 Abstraction that leaks details that it is supposed to abstract away.
 
-***** /*/
+****** /*/
 
 <<<Leaky abstractions>>>
+
+*** <<<Axiomatic semantics>>> :drill:
+SCHT: <2020-03-23 Mon>
+:properties:
+:ID:       18d65b73-cec0-49ed-868a-a97d73abe329
+:DRILL_LAST_INTERVAL: 31.7425
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.14
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:31]
+:end:
+
+Empirical process of studying something complex by finding and analyzing true statements about it.
+
+Good for examining interconnections.
 
 *** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
