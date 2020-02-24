@@ -10100,20 +10100,36 @@ Matrix of connection of odjects ={-1,0,1}=.
 Allow adding type signatures to type class function instance declaration.
 
 
+*** <<<Strongly connected>>> :drill:
 :properties:
+:ID:       e505d89b-4675-48d9-98be-1bda838a069d
 :end:
 
+If every vertex in a graph is reachable from every other vertex.
 
+It is possible to find all strongly connected components (and that way also test graph for strong connectivity), in linear time (=Θ(V+E)=).
 
+Binary relation of being strongly connected is an equivalence relation.
 
+**** /*/
 
+<<<Strongly-connected>>>
 
+**** <<<Strongly connected component>>> :drill:
 :properties:
+:ID:       220d953d-f39a-476d-88ed-93c1f73c846c
 :end:
 
+Full strongly connected subgraph of some graph.
 
+/*/ of a directed graph G is a subgraph that is strongly connected, and has property: no additional edges or vertices from G can be included in the subgraph without breaking its property of being strongly connected.
 
+***** /*/
 
+<<<SCC>>>
+<<<Strongly connected components>>>
+<<<Strongly-connected component>>>
+<<<Strongly-connected components>>>
 
 ** <<<Linear>>> :drill:
 :properties:
@@ -10127,37 +10143,6 @@ Values consumed once or not used.
 *** /*/
 
 <<<Linearity>>>
-
-** <<<Strongly connected>>> :drill:
-:properties:
-:ID:       e505d89b-4675-48d9-98be-1bda838a069d
-:end:
-
-If every vertex in a graph is reachable from every other vertex.
-
-It is possible to find all strongly connected components (and that way also test graph for strong connectivity), in linear time (=Θ(V+E)=).
-
-Binary relation of being strongly connected is an equivalence relation.
-
-*** /*/
-
-<<<Strongly-connected>>>
-
-*** <<<Strongly connected component>>> :drill:
-:properties:
-:ID:       220d953d-f39a-476d-88ed-93c1f73c846c
-:end:
-
-Full strongly connected subgraph of some graph.
-
-/*/ of a directed graph G is a subgraph that is strongly connected, and has property: no additional edges or vertices from G can be included in the subgraph without breaking its property of being strongly connected.
-
-**** /*/
-
-<<<SCC>>>
-<<<Strongly connected components>>>
-<<<Strongly-connected component>>>
-<<<Strongly-connected components>>>
 
 ** <<<Stream>>> :drill:
 :properties:
