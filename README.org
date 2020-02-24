@@ -3836,24 +3836,36 @@ Knowledge of /*/ forms a 2-category.
 
 Can be composed "vertically":
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=60] &  & \Downarrow{\alpha} &  & b \\
                                                                                                                                   &  & \Downarrow{\beta}  &  &  
 \end{tikzcd}
+\end{tikzpicture}
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b
 \end{tikzcd}
+\end{tikzpicture}
 
 And horizontally, aka "Godement product":
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, bend right] & \Downarrow{\alpha} & b \arrow[rr, "F_{2}" description, bend left] \arrow[rr, "G_{2}" description, bend right] & \Downarrow{\beta} & c
 \end{tikzcd}
+\end{tikzpicture}
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ G_{1}" description, bend right] & \Downarrow{\beta * \alpha} & c
 \end{tikzcd}
+\end{tikzpicture}
 
 Compositions can be done in any right order, they abide the exchange law.
 
@@ -3907,9 +3919,12 @@ Category where:
 | \Rightarrow | morphism   | functor                                    | 1-cell |
 | \Rightarrow | 2-morphism | natural transformation, morphisms homotopy | 2-cell |
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt} &  & b
 \end{tikzcd}
+\end{tikzpicture}
 
 Is Cartesian closed category.
 
@@ -4170,10 +4185,13 @@ Denotation:
 
 Universal construction:
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 c \arrow[d, "u" description, dotted] & c \times a \arrow[d, "u \times 1^{a}" description, dotted] \arrow[rd] &   \\
 b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted]                  & b
 \end{tikzcd}
+\end{tikzpicture}
 , where in Category: \( b^{a} \) - exponential object, \times - product bifunctor, \( a \) - argument of /*/, \( b \) - result, \( c \) - candidate, \( b^{a} \equiv ( a \Rightarrow b ) \) - /*/.
 
 /*/ \( b^{a} \) (also as \( (a \Rightarrow b) \)) represent exponentiation of cardinality of \( \forall b^{a} \) possiblities.
@@ -12257,10 +12275,13 @@ fmap :: (a -> b) -> Op c a -> Op c b
                 (a -> c) -> (b -> c)
 #+end_src
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
                        & c                  
 \end{tikzcd}
+\end{tikzpicture}
 
 \( (a \to b)^{C} = (a \leftarrow b)^{C^{op}} \)
 
@@ -12270,10 +12291,13 @@ class Contravariant f
   contramap :: (b -> a) -> (f a -> f b)
 #+end_src
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[r] \arrow[rd] & b \arrow[d, "contravariant", dashed] \\
                        & c                                   
 \end{tikzcd}
+\end{tikzpicture}
 
 If arrows does not commute Contravatiant funtor anyway allows to construct transformation between these such arrows to other arrow.
 
@@ -12293,10 +12317,13 @@ dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
 
 So, profunctor in case of arrow:
 
+#+options: tex:dvisvgm
+\begin{tikzpicture}
 \begin{tikzcd}
 a \arrow[d, "h"] & a' \arrow[l, "f"] \arrow[d, "profunctor", dashed] \\
 b \arrow[r, "g"] & b'                                       
 \end{tikzcd}
+\end{tikzpicture}
 
 #+begin_src haskell
 dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
