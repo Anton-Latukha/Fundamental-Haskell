@@ -55,6 +55,7 @@
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
+#+latex_header: \usepackage{fancyhdr}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
 
