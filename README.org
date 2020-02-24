@@ -9764,6 +9764,19 @@ Document that is a standart of language.
 <<<Haskell 2010 Language Report>>>
 <<<Haskell 2010 Report>>>
 
+*** <<<Haskell'>>> :drill:
+:properties:
+:ID:       e13a30ca-dc6a-4fb8-8a20-2476971bd70a
+:end:
+
+Current language development mod.
+
+https://prime.haskell.org/
+
+**** /*/
+
+<<<Haskell prime>>>
+
 ** Computer science
 :properties:
 :ID:       c197198c-c8c0-40ab-bfbf-f22c80f6f3b4
@@ -10081,18 +10094,12 @@ Allow adding type signatures to type class function instance declaration.
 
 
 
-** <<<Haskell'>>> :drill:
 :properties:
-:ID:       e13a30ca-dc6a-4fb8-8a20-2476971bd70a
 :end:
 
-Current language development mod.
 
-https://prime.haskell.org/
 
-*** /*/
 
-<<<Haskell prime>>>
 
 ** <<<Linear>>> :drill:
 :properties:
