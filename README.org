@@ -1140,6 +1140,24 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
+**** <<<Fundamental theorem of algebra>>> :drill:
+SCHT: <2020-02-28 Fri>
+:properties:
+:ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
+:DRILL_LAST_INTERVAL: 19.8547
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:53]
+:end:
+
+Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
+
+From this definition follows property that the field of complex numbers is algebraically closed.
+
 ** <<<Bind>>> :drill:
 SCHT: <2020-03-05 Thu>
 :properties:
@@ -5973,24 +5991,6 @@ Expression, logical function that is/can produce a proposition.
 <<<wff>>>
 <<<WFFS>>>
 <<<wffs>>>
-
-** <<<Fundamental theorem of algebra>>> :drill:
-SCHT: <2020-02-28 Fri>
-:properties:
-:ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 19.8547
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:53]
-:end:
-
-Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
-
-From this definition follows property that the field of complex numbers is algebraically closed.
 
 ** <<<Homotopy>>> :drill:
 :properties:
