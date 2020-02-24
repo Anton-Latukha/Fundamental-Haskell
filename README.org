@@ -1137,68 +1137,6 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
-** Ancient Greek and Latin prefixes :drill:
-SCHT: <2020-03-16 Mon>
-:properties:
-:ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
-:DRILL_LAST_INTERVAL: 113.2344
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:27]
-:end:
-
-#+caption: Ancient Greek and Latin prefixes
-#+name: tab:ancient-greek-latin-prefixes
-| Meaning                 | Greek prefix      | Latin prefix         |
-|-------------------------+-------------------+----------------------|
-| above, excess           | hyper-            | super-, ultra-       |
-| across, beyond, through | dia-              | trans-               |
-| after                   |                   | post-                |
-| again, back             |                   | re-                  |
-| against                 | anti-             | contra-, (in-, ob-)  |
-| all                     | pan               | omni-                |
-| around                  | peri-             | circum-              |
-| away or from            | apo-, ap-         | ab- (or de-)         |
-| bad, difficult, wrong   | dys-              | mal-                 |
-| before                  | pro-              | ante-, pre-          |
-| between, among          |                   | inter-               |
-| both                    | amphi-            | ambi-                |
-| completely or very      |                   | de-, ob-             |
-| down                    |                   | de-, ob-             |
-| four                    | tetra-            | quad-                |
-| good                    | eu-               | ben-, bene-          |
-| half, partially         | hemi-             | semi-                |
-| in, into                | en-               | il-, im-, in-, ir-   |
-| in front of             | pro-              | pro-                 |
-| inside                  | endo-             | intra-               |
-| large                   | macro-            | (macro-, from Greek) |
-| many                    | poly-             | multi-               |
-| not*                    | a-, an-           | de-, dis-, in-, ob-  |
-| on                      | epi-              |                      |
-| one                     | mono-             | uni-                 |
-| out of                  | ek-               | ex-, e-              |
-| outside                 | ecto-, exo-       | extra-, extro-       |
-| over                    | epi-              | ob- (sometimes)      |
-| self                    | auto-, aut-,auth- | ego-                 |
-| small                   | micro-            |                      |
-| three                   | tri-              | tri-                 |
-| through                 | dia-              | trans-               |
-| to or toward            | epi-              | ad-, a-, ac-, as-    |
-| two                     | di-               | bi-                  |
-| under, insufficient     | hypo-             | sub-                 |
-| with                    | sym-, syn-        | co-. com-, con-      |
-| within, inside          | endo-             | intra-               |
-| without                 | a-, an-           | dis- (sometimes)     |
-
-*** /*/
-
-<<<Greek prefix>>>
-<<<Latin prefix>>>
-
 ** <<<Binary>>> :drill:
 SCHT: <2020-08-26 Wed>
 :properties:
@@ -8009,6 +7947,68 @@ SCHT: <2020-08-02 Sun>
 :end:
 
 Words that name objects of reality and their qualities.
+
+*** Ancient Greek and Latin prefixes :drill:
+SCHT: <2020-03-16 Mon>
+:properties:
+:ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
+:DRILL_LAST_INTERVAL: 113.2344
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:27]
+:end:
+
+#+caption: Ancient Greek and Latin prefixes
+#+name: tab:ancient-greek-latin-prefixes
+| Meaning                 | Greek prefix      | Latin prefix         |
+|-------------------------+-------------------+----------------------|
+| above, excess           | hyper-            | super-, ultra-       |
+| across, beyond, through | dia-              | trans-               |
+| after                   |                   | post-                |
+| again, back             |                   | re-                  |
+| against                 | anti-             | contra-, (in-, ob-)  |
+| all                     | pan               | omni-                |
+| around                  | peri-             | circum-              |
+| away or from            | apo-, ap-         | ab- (or de-)         |
+| bad, difficult, wrong   | dys-              | mal-                 |
+| before                  | pro-              | ante-, pre-          |
+| between, among          |                   | inter-               |
+| both                    | amphi-            | ambi-                |
+| completely or very      |                   | de-, ob-             |
+| down                    |                   | de-, ob-             |
+| four                    | tetra-            | quad-                |
+| good                    | eu-               | ben-, bene-          |
+| half, partially         | hemi-             | semi-                |
+| in, into                | en-               | il-, im-, in-, ir-   |
+| in front of             | pro-              | pro-                 |
+| inside                  | endo-             | intra-               |
+| large                   | macro-            | (macro-, from Greek) |
+| many                    | poly-             | multi-               |
+| not*                    | a-, an-           | de-, dis-, in-, ob-  |
+| on                      | epi-              |                      |
+| one                     | mono-             | uni-                 |
+| out of                  | ek-               | ex-, e-              |
+| outside                 | ecto-, exo-       | extra-, extro-       |
+| over                    | epi-              | ob- (sometimes)      |
+| self                    | auto-, aut-,auth- | ego-                 |
+| small                   | micro-            |                      |
+| three                   | tri-              | tri-                 |
+| through                 | dia-              | trans-               |
+| to or toward            | epi-              | ad-, a-, ac-, as-    |
+| two                     | di-               | bi-                  |
+| under, insufficient     | hypo-             | sub-                 |
+| with                    | sym-, syn-        | co-. com-, con-      |
+| within, inside          | endo-             | intra-               |
+| without                 | a-, an-           | dis- (sometimes)     |
+
+**** /*/
+
+<<<Greek prefix>>>
+<<<Latin prefix>>>
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
