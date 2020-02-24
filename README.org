@@ -1137,31 +1137,6 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
-** <<<Ambigram>>> :drill:
-SCHT: <2020-06-21 Sun>
-:properties:
-:ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
-:DRILL_LAST_INTERVAL: 209.6274
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
-:end:
-
-ambi both
-γράμμα /grámma/ written character
-
-Object that from different points of view has the same meaning.
-
-While this word has two contradictory diametrically opposite usages, one was chosen (more frequent).
-
-But it has... Both.
-
-/TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
-
 ** Ancient Greek and Latin prefixes :drill:
 SCHT: <2020-03-16 Mon>
 :properties:
@@ -8035,6 +8010,31 @@ Abstraction that leaks details that it is supposed to abstract away.
 ***** /*/
 
 <<<Leaky abstractions>>>
+
+*** <<<Ambigram>>> :drill:
+SCHT: <2020-06-21 Sun>
+:properties:
+:ID:       bc8fb3d5-d6bf-46b3-bf5b-5955e8f05a67
+:DRILL_LAST_INTERVAL: 209.6274
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:end:
+
+ambi both
+γράμμα /grámma/ written character
+
+Object that from different points of view has the same meaning.
+
+While this word has two contradictory diametrically opposite usages, one was chosen (more frequent).
+
+But it has... Both.
+
+/TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
