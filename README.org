@@ -1062,48 +1062,6 @@ To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio 
 :ID:       68eb5f9c-7d07-4a32-9440-eb24e1399a7a
 :end:
 
-** <<<Abstraction>>> :drill:
-SCHT: <2020-02-28 Fri>
-:properties:
-:ID:       7875b659-d137-41df-b146-6fb73f090a4e
-:DRILL_LAST_INTERVAL: 19.8547
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:42]
-:end:
-
-abs away from, off (in absentia)
-tractus draw, haul, drag
-
-Purified generalization of process.
-
-Forgeting the details (axiomatic semantics). Simplified approach. Out of sight - out of mind.
-
-/*/ creates a new semantic level in which one can be absolutely precise (operational semantics).
-
-It is a great did to name an abstraction (denotational semantics).
-
-*** /*/
-
-<<<Abstractions>>>
-<<<Abstracting>>>
-<<<Abstract>>>
-
-*** <<<Leaky abstraction>>> :drill:
-:properties:
-:ID:       696ecb38-8f84-439e-8d4d-3cbb28b44c96
-:end:
-
-Abstraction that leaks details that it is supposed to abstract away.
-
-**** /*/
-
-<<<Leaky abstractions>>>
-
 ** <<<Algebra>>> :drill:
 SCHT: <2020-02-05 Wed>
 :properties:
@@ -8035,6 +7993,48 @@ SCHT: <2020-03-23 Mon>
 Empirical process of studying something complex by finding and analyzing true statements about it.
 
 Good for examining interconnections.
+
+*** <<<Abstraction>>> :drill:
+SCHT: <2020-02-28 Fri>
+:properties:
+:ID:       7875b659-d137-41df-b146-6fb73f090a4e
+:DRILL_LAST_INTERVAL: 19.8547
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:42]
+:end:
+
+abs away from, off (in absentia)
+tractus draw, haul, drag
+
+Purified generalization of process.
+
+Forgeting the details (axiomatic semantics). Simplified approach. Out of sight - out of mind.
+
+/*/ creates a new semantic level in which one can be absolutely precise (operational semantics).
+
+It is a great did to name an abstraction (denotational semantics).
+
+**** /*/
+
+<<<Abstractions>>>
+<<<Abstracting>>>
+<<<Abstract>>>
+
+**** <<<Leaky abstraction>>> :drill:
+:properties:
+:ID:       696ecb38-8f84-439e-8d4d-3cbb28b44c96
+:end:
+
+Abstraction that leaks details that it is supposed to abstract away.
+
+***** /*/
+
+<<<Leaky abstractions>>>
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
