@@ -6582,6 +6582,25 @@ Funciton application has presedence higher then all infix operators/functions (v
 <<<Priority>>>
 <<<Precedence>>>
 
+*** <<<Zero>>> :drill:
+SCHT: <2020-07-18 Sat>
+:properties:
+:ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
+:DRILL_LAST_INTERVAL: 232.4135
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:08]
+:end:
+
+/*/ is the value with which operation always yelds Zero value.
+\( zero, n \in C : \forall n, zero*n=zero \)
+
+/*/ is distinct from Identity value.
+
 ** <<<Permutation>>> :drill:
 SCHT: <2020-02-18 Tue>
 :properties:
@@ -8666,25 +8685,6 @@ Represents existence. Denoted as empty sequence.
 Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
 
 Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
-
-** <<<Zero>>> :drill:
-SCHT: <2020-07-18 Sat>
-:properties:
-:ID:       403807c4-a2de-47ca-bdee-96b8b47994c2
-:DRILL_LAST_INTERVAL: 232.4135
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:08]
-:end:
-
-/*/ is the value with which operation always yelds Zero value.
-\( zero, n \in C : \forall n, zero*n=zero \)
-
-/*/ is distinct from Identity value.
 
 ** <<<Backpack>>> :drill:
 SCHT: <2020-03-19 Thu>
