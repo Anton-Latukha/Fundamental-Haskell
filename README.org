@@ -3929,6 +3929,14 @@ Opposite preserves properties:
 <<<Dual category>>>
 <<<Dual>>>
 
+**** <<<Coalgebra>>> :drill:
+:properties:
+:ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
+:end:
+
+Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
+Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
+
 *** <<<Thin category>>> :drill:
 :properties:
 :ID:       130fbaa3-d9b8-43e6-8c29-b448b505d9d0
@@ -4153,14 +4161,6 @@ Called: /*/ over =K= (whick holds hom objects).
 ****** /*/
 <<<Enriched>>>
 <<<Large category>>>
-
-** <<<Coalgebra>>> :drill:
-:properties:
-:ID:       a48247a2-f844-4c4e-9f40-e8cac61bb209
-:end:
-
-Structures that are dual (in the category-theoretic sense of reversing arrows) to unital associative algebras.
-Every coalgebra, by vector space duality, reversing arrows - gives rise to an algebra. In finite dimensions, this duality goes in both directions. In infinite - it should be determined.
 
 ** <<<Contravariant>>> :drill:
 :properties:
