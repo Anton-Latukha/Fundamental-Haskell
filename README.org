@@ -26,7 +26,7 @@
 #+latex_header: \usetikzlibrary{cd}
 #+latex_header: \hypersetup{colorlinks=true,linkcolor=blue}
 #+latex_header: \usepackage{enumitem}
-#+latex_header: \setlistdepth{12}
+#+latex_header: \setlistdepth{10}
 #+latex_header: \setlist[itemize,1]{label=$\bullet$}
 #+latex_header: \setlist[itemize,2]{label=$\bullet$}
 #+latex_header: \setlist[itemize,3]{label=$\bullet$}
