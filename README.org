@@ -5415,6 +5415,20 @@ Expression that does not contain any free variables.
 
 <<<Ground formula>>>
 
+*** <<<Variable>>> :drill:
+:properties:
+:ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
+:end:
+
+A name for expression.
+
+Haskell has immutable variables.
+Except when you hack it with explicit funсtions.
+
+**** /*/
+
+<<<Variables>>>
+
 ** <<<First-class>>> :drill:
 :properties:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
@@ -8627,20 +8641,6 @@ Represents existence. Denoted as empty sequence.
 Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
 
 Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
-
-** <<<Variable>>> :drill:
-:properties:
-:ID:       1362e457-cca3-44c3-b5a4-24111d56d71c
-:end:
-
-A name for expression.
-
-Haskell has immutable variables.
-Except when you hack it with explicit funсtions.
-
-*** /*/
-
-<<<Variables>>>
 
 ** <<<Zero>>> :drill:
 SCHT: <2020-07-18 Sat>
