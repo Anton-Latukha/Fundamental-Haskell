@@ -5230,6 +5230,22 @@ SCHT: <2020-03-22 Sun>
 1. Abstract data type
 2. Algebraic data type
 
+*** <<<Concrete type>>> :drill:
+SCHT: <2020-07-22 Wed>
+:properties:
+:ID:       736674fb-45a3-4539-8774-7ccf419b5487
+:DRILL_LAST_INTERVAL: 210.3048
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
+:end:
+
+Fully defined type. Non-polymorphic type.
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
