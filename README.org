@@ -72,7 +72,7 @@ GitHub & GitLab only partially parse Org into HTML.
 
 To get the full view:
   * Outline navigation
-  * LaTeX formulas: $$ {\displaystyle\left[{-\frac{\hbar^{2}}{2m}}\nabla^{2}+V(\vec{r},t)\right]\Psi({\vec{r}},t)=i\hbar{\partial\over\partial{t}}\Psi({\vec{r}},t),\quad\sum_{k,j}\left[-{\frac{\hbar^{2}}{\sqrt{a}}}{\frac{\partial}{\partial{q^{k}}}}\left({\sqrt{a}}a^{kj}{\frac{\partial}{\partial{q^{j}}}}\right)+V\right]\Psi+{\frac{\hbar}{i}}{\frac{\partial{\Psi}}{\partial{t}}}=0} $$
+  * LaTeX formulas: \( {\displaystyle\left[{-\frac{\hbar^{2}}{2m}}\nabla^{2}+V(\vec{r},t)\right]\Psi({\vec{r}},t)=i\hbar{\partial\over\partial{t}}\Psi({\vec{r}},t),\quad\sum_{k,j}\left[-{\frac{\hbar^{2}}{\sqrt{a}}}{\frac{\partial}{\partial{q^{k}}}}\left({\sqrt{a}}a^{kj}{\frac{\partial}{\partial{q^{j}}}}\right)+V\right]\Psi+{\frac{\hbar}{i}}{\frac{\partial{\Psi}}{\partial{t}}}=0} \)
   * Interlinks: <<<Interlinks>>>
 
 , please refere to Org mode capable viewer/editor, or to the web book.
@@ -1372,12 +1372,12 @@ SCHT: <2020-02-03 Mon>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
 :end:
 
-$$ \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} $$.
-Operation, returns a set of all ordered pairs $$ (a, b) $$
+\( \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} \).
+Operation, returns a set of all ordered pairs \( (a, b) \)
 
 Any function, functor is a subset of Cartesian product.
 
-$$ \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} $$
+\( \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} \)
 
 Properties:
   * not associative
@@ -1411,16 +1411,16 @@ SCHT: <2020-06-17 Wed>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:37]
 :end:
 
-Category $$ \mathcal{C} $$ consists of the basis:
+Category \( \mathcal{C} \) consists of the basis:
 
 Primitives:
-  1. Objects - $$ a^{\mathcal{C}} $$. A node. Object of some type. Often sets, than it is Set category.
-  2. Arrows - $$ {(a,b)}^{\mathcal{C}} $$ (AKA morphisms mappings).
-  3. Arrow (morphism) composition - binary operation: $$ {(a, b)}^{\mathcal{C}} \circ {(b, c)}^{\mathcal{C}} \equiv {(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} $$. AKA principle of compositionality for arrows.
+  1. Objects - \( a^{\mathcal{C}} \). A node. Object of some type. Often sets, than it is Set category.
+  2. Arrows - \( {(a,b)}^{\mathcal{C}} \) (AKA morphisms mappings).
+  3. Arrow (morphism) composition - binary operation: \( {(a, b)}^{\mathcal{C}} \circ {(b, c)}^{\mathcal{C}} \equiv {(a, c)}^{\mathcal{C}} \ | \ \forall a, b, c \in \mathcal{C} \). AKA principle of compositionality for arrows.
 
 Properties (or axioms):
-  1. Associativity of morphisms: $$ {h} \circ ({g} \circ {f}) \equiv ({h} \circ {g}) \circ {f} \ \ | \ \ {f}_{a \to b}, {g}_{b \to c}, {h}_{c \to d} $$.
-  2. Every object has (two-sided) identity morphism ( & in fact - exactly one): $$ {1}_x \circ {f}_{a \to x} \equiv {f}_{a \to x}, \ \ {g}_{x \to b} \circ {1_x} \equiv {g}_{x \to b } \ \ | \ \ \forall x \ \exists {1}_{x}, \forall {f}_{a \to x},  \forall {g}_{x \to b} $$.
+  1. Associativity of morphisms: \( {h} \circ ({g} \circ {f}) \equiv ({h} \circ {g}) \circ {f} \ \ | \ \ {f}_{a \to b}, {g}_{b \to c}, {h}_{c \to d} \).
+  2. Every object has (two-sided) identity morphism ( & in fact - exactly one): \( {1}_x \circ {f}_{a \to x} \equiv {f}_{a \to x}, \ \ {g}_{x \to b} \circ {1_x} \equiv {g}_{x \to b } \ \ | \ \ \forall x \ \exists {1}_{x}, \forall {f}_{a \to x},  \forall {g}_{x \to b} \).
   3. Principle of compositionality.
 
 From these axioms, can be proven that there is exactly one identity morphism for every object.
@@ -1504,7 +1504,7 @@ Axiom of Category.
 :end:
 
 From the name, in this Category:
-  * objects of $$ End $$ are Endofunctors $$ E^{\mathcal{C \to C}} $$
+  * objects of \( End \) are Endofunctors \( E^{\mathcal{C \to C}} \)
   * morphisms are natural transformations between endofunctors
 
 *** <<<Functor>>> :drill:
@@ -1531,9 +1531,9 @@ Translating objects and morphisms (as input can take morphism or object).
 For Functor type class or fmap - see Power set functor.
 
 Functor properties (axioms):
-  * $$ F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{C}} $$ - every source object is mapped to object in target category
-  * $$ \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} $$ - every source morphism is mapped to target category morphism between corresponding objects
-  * $$ F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}} \circ \overrightarrow{f}^{\mathcal{C}}) = F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{f}^{\mathcal{C}}) \quad | \quad \forall y=\overrightarrow{f}^{\mathcal{C}}(x), \forall \overrightarrow{g}^{\mathcal{C}}(y) $$ - composition of morphisms translates directly (tautologically goes from other two)
+  * \( F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{C}} \) - every source object is mapped to object in target category
+  * \( \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} \) - every source morphism is mapped to target category morphism between corresponding objects
+  * \( F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}} \circ \overrightarrow{f}^{\mathcal{C}}) = F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{f}^{\mathcal{C}}) \quad | \quad \forall y=\overrightarrow{f}^{\mathcal{C}}(x), \forall \overrightarrow{g}^{\mathcal{C}}(y) \) - composition of morphisms translates directly (tautologically goes from other two)
 
 These axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
 
@@ -1565,11 +1565,11 @@ SCHT: <2020-04-07 Tue>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:31]
 :end:
 
-$$ \mathcal{P^{S \to P(S)}} $$
+\( \mathcal{P^{S \to P(S)}} \)
 
-/*/ - functor from set $$ S $$ to its power set $$ \mathcal{P}(S) $$.
+/*/ - functor from set \( S \) to its power set \( \mathcal{P}(S) \).
 
-Functor type class in Haskell defines a /*/ and allows to do function application inside type structure layers (denoted $$ f $$ or $$ m $$). IO is also such structure.
+Functor type class in Haskell defines a /*/ and allows to do function application inside type structure layers (denoted \( f \) or \( m \)). IO is also such structure.
 Power set is unique to the set, /*/ is unique to the category (data type).
 /*/ embodies in itself any endofunctor. It is easily seen from Haskell definition - that the /*/ is the polymorphic generalization over any endofunctor in a category. Application of a function to /*/ gives a particular endofunctor (see Hask category).
 
@@ -1676,8 +1676,8 @@ SCHT: <2020-02-28 Fri>
 :end:
 
 Since:
-  * $$ \forall e \in S : \ \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \ \forall e \in S : \ \exists (e \to \{e\}) \equiv unit $$
-  * $$ \forall \mathcal{P}(S) : \ \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \ \forall \mathcal{P}(S) : \ \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join $$
+  * \( \forall e \in S : \ \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \ \forall e \in S : \ \exists (e \to \{e\}) \equiv unit \)
+  * \( \forall \mathcal{P}(S) : \ \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \ \forall \mathcal{P}(S) : \ \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join \)
 
 **** <<<Functorial>>> :drill:
 :PROPERTIES:
@@ -1692,7 +1692,7 @@ Corresponds to functor laws.
 :end:
 
 Functor that forgets part or all of what defines structure in domain category.
-$$ F^{\mathbf {Grp} \to \mathbf {Set}} $$ that translates groups into their underlying sets.
+\( F^{\mathbf {Grp} \to \mathbf {Set}} \) that translates groups into their underlying sets.
 Constant functor is another example.
 
 ***** /*/
@@ -1716,7 +1716,7 @@ SCHT: <2020-02-22 Sat>
 Maps all category to itself. All objects and morphisms to themselves.
 
 Denotation:
-$$ 1^{\mathcal{C \to C}} $$
+\( 1^{\mathcal{C \to C}} \)
 
 **** <<<Endofunctor>>> :drill:
 SCHT: <2020-07-07 Tue>
@@ -1734,7 +1734,7 @@ SCHT: <2020-07-07 Tue>
 
 Is a functor which source (domain) and target (codomain) are the same category.
 
-$$ F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} $$
+\( F^{\mathcal{C \to C}}, E^{\mathcal{C \to C}} \)
 
 ***** /*/
 
@@ -1754,7 +1754,7 @@ SCHT: <2020-09-02 Wed>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:45]
 :end:
 
-/*/ - Computer science term. Category theory name - lax monoidal functor. And in category $$ Set $$, and so in category $$ Hask $$ all applicatives and monads are strong (have tensorial strength).
+/*/ - Computer science term. Category theory name - lax monoidal functor. And in category \( Set \), and so in category \( Hask \) all applicatives and monads are strong (have tensorial strength).
 
 /*/ - sequences functorial computations (plain functors can't).
 
@@ -2110,22 +2110,22 @@ SCHT: <2020-04-06 Mon>
 μόνος /monos/ sole
 μονάδα /monáda/ unit
 
-/*/ - monoid in endofunctor category with $$ \eta $$ (unit) and $$ \mu $$ (join) natural transformations.
+/*/ - monoid in endofunctor category with \( \eta \) (unit) and \( \mu \) (join) natural transformations.
 
-Monad on $$ \mathcal{C} $$ is $$ \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$:
-  * $$ E^{\mathcal{C \to C}} $$ - is an endofunctor
-  * two natural transformations, $$ 1^c \to E $$ and $$ E \circ E \to E $$:
-    * $$ \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) $$
-    * $$ \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) $$
+Monad on \( \mathcal{C} \) is \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \):
+  * \( E^{\mathcal{C \to C}} \) - is an endofunctor
+  * two natural transformations, \( 1^c \to E \) and \( E \circ E \to E \):
+    * \( \eta^{1^{\mathcal{C}} \to E} = {unit}^{Identity \to E}(x) = f^{ x \to E(x)}(x) \)
+    * \( \mu^{(E \circ E) \to E} = {join}^{(E \circ E) \to (Identity \circ E)}(x) = | y = E(x) | = f^{E (y) \to y}(y) \)
 
 where:
-  * $$ \mathcal{C} $$ is a category
-  * $$ 1^{\mathcal{C}} $$ denotes the $$ \mathcal{C} $$ identity functor
-  * $$ (E \circ E) $$ - endofunctor $$ \mathcal{C \to C} $$
+  * \( \mathcal{C} \) is a category
+  * \( 1^{\mathcal{C}} \) denotes the \( \mathcal{C} \) identity functor
+  * \( (E \circ E) \) - endofunctor \( \mathcal{C \to C} \)
 
-Definition with $$ \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} $$ (in Hask: ($$ \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} $$)) - is classic categorical, in Haskell minimal complete definition is $$ \{fmap, \, pure, \, (>>=)\} $$.
+Definition with \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \) (in Hask: (\( \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} \))) - is classic categorical, in Haskell minimal complete definition is \( \{fmap, \, pure, \, (>>=)\} \).
 
-If there is a structure $$ S $$, and a way of taking object $$ x $$ into $$ S $$ and a way of collapsing $$ S \circ S $$ - there probably a monad.
+If there is a structure \( S \), and a way of taking object \( x \) into \( S \) and a way of collapsing \( S \circ S \) - there probably a monad.
 
 Mostly monads used for sequencing actions (computations) (that looks like imperative programming), with ability to dependend on previous chains. Note if monad is commutative - it does not order actions.
 
@@ -2525,7 +2525,7 @@ SCHT: <2020-05-14 Thu>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:38]
 :end:
 
-Category $$ \mathcal{C} $$ comonad is a monad of opposite category $$ \mathcal{C}^{op} $$.
+Category \( \mathcal{C} \) comonad is a monad of opposite category \( \mathcal{C}^{op} \).
 
 ****** <<<Kleisli arrow>>> :drill:
 :properties:
@@ -2589,12 +2589,12 @@ SCHT: <2020-03-13 Fri>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
 :end:
 
-Category $$ \mathcal{C} $$, $$ 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 $$ monad over $$ \mathcal{C} $$.
+Category \( \mathcal{C} \), \( 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 \) monad over \( \mathcal{C} \).
 
-Kleisli category $$ \mathcal{C}_{T} $$ of $$ \mathcal{C} $$:
+Kleisli category \( \mathcal{C}_{T} \) of \( \mathcal{C} \):
 
-$$ \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) $$
-$$ \mathrm{Hom}_{\mathcal{C}_{T}}(x,y) \ = \ \mathrm{Hom}_{\mathcal{C}}(x,E(y)) $$
+\( \mathrm{Obj}(\mathcal{C}_{T}) \ = \ \mathrm{Obj}(\mathcal{C}) \)
+\( \mathrm{Hom}_{\mathcal{C}_{T}}(x,y) \ = \ \mathrm{Hom}_{\mathcal{C}}(x,E(y)) \)
 
 ****** <<<Special monad>>>
 :properties:
@@ -2935,7 +2935,7 @@ In type signatures of transformers =*T m= - =m= is already an extended monad, so
 
 Transformers have a light wrapper around the data that tags the modification with this transformer.
 
-Main monadic structure =m= is wrapped around the internal data (core is =a=). The structure that corresponds to the transformer creation properties (if it emitted by $$ \eta $$ of a transformer), goes into =m= . Open parameters go external to the =m=.
+Main monadic structure =m= is wrapped around the internal data (core is =a=). The structure that corresponds to the transformer creation properties (if it emitted by \( \eta \) of a transformer), goes into =m= . Open parameters go external to the =m=.
 
 #+begin_src haskell
 newtype ExceptT e m a =
@@ -2948,7 +2948,7 @@ newtype ReaderT r m a =
   ReaderT { runReaderT :: r -> m a }
 #+end_src
 
-This has an effect that on stacking monad transformers, =m= becomes monad stack, and every next transformer injects the transformer creation-specific properies $$ \eta $$ inside the stack, so out-most transformer has inner-most structure. Base monad is structurally the outermost.
+This has an effect that on stacking monad transformers, =m= becomes monad stack, and every next transformer injects the transformer creation-specific properies \( \eta \) inside the stack, so out-most transformer has inner-most structure. Base monad is structurally the outermost.
 
 ******* <<<MaybeT>>> :drill:
 :properties:
@@ -3055,7 +3055,7 @@ x = (undefined :: IO a)
 (lift x) :: MonadTrans t => t IO a  -- result is a proper expected product type
 #+end_src
 
-=lift= is a natural transformation $$ \eta $$ from an Identity monad (functor) with other monad as content into transformer monad (functor), with the preservation of the conteined monad:
+=lift= is a natural transformation \( \eta \) from an Identity monad (functor) with other monad as content into transformer monad (functor), with the preservation of the conteined monad:
 #+begin_src haskell
 -- Abstract monads with content as parameters. Define '~>' as a family of morphisms that translate one functor into another (natural transformation)
 type f ~> g = forall x. f x -> g x
@@ -3129,7 +3129,7 @@ empty :: f a    -- The identity element of <|>
 
 Do calculation, but ignore the value from the first argument.
 
-$$ *> \ \equiv \ >> $$
+\( *> \ \equiv \ >> \)
 
 **** <<<Monoidal functor>>> :drill:
 :properties:
@@ -3187,7 +3187,7 @@ To put simply - accepts multiple argumets, from that informatioin constructs sou
 
 To put even simplier - functor that takes as an argument the product of types.
 
-In Haskell there is only one category, Hask, so in Haskell /*/ is still $$ (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask $$ endofunctor.
+In Haskell there is only one category, Hask, so in Haskell /*/ is still \( (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask \) endofunctor.
 
 Any product or sum in a Cartesian category is a /*/.
 
@@ -3243,7 +3243,7 @@ Set with a binary operation which form a closure.
 :ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
 :end:
 
-The category of magmas, denoted $$ Mag $$, has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+The category of magmas, denoted \( Mag \), has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
 
 ***** /*/
 
@@ -3305,7 +3305,7 @@ mconcat = foldr mappend mempty
 #+end_src
 
 /*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
-For example to represent the whole non-negative integers with the one object and morphism "$$ 1 $$" is absolutely enough, composition operation is "$$ + $$".
+For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
 
 #+begin_src haskell
 import Data.Monoid
@@ -3385,7 +3385,7 @@ SCHT: <2020-10-08 Thu>
 :end:
 
 Commutativity property:
-$$ x \circ y = y \circ x $$
+\( x \circ y = y \circ x \)
 
 Opens a big abilities in concurrent and distributed processing.
 
@@ -3468,7 +3468,7 @@ General description: Arrow from source to target. Denotes something.
 
 On a level of objects: is probably structure-preserving map from one mathematical structure to another of the same type.
 
-Morphism is a generalization ($$ f(x*y) \equiv f(x) \diamond f(y) $$) of homomorphism ($$ f(x*y) \equiv f(x) * f(y) $$).
+Morphism is a generalization (\( f(x*y) \equiv f(x) \diamond f(y) \)) of homomorphism (\( f(x*y) \equiv f(x) * f(y) \)).
 Under morphism almost always is the meaning of homomorphism-like properties.
 
 Morphism can be anything.
@@ -3501,8 +3501,8 @@ similar form
 
 /*/ map between two algebraic structures of the same type, operation-preserving.
 
-$$ f_{x \to y} = f(a \star b) = f(a) \diamond f(b) $$,
-where $$ x,\ y $$ are sets with additonal algebraic structure that includes $$ \star, \diamond $$ accordingly; $$ a,\ b $$ are elements of set $$ x $$.
+\( f_{x \to y} = f(a \star b) = f(a) \diamond f(b) \),
+where \( x,\ y \) are sets with additonal algebraic structure that includes \( \star, \diamond \) accordingly; \( a,\ b \) are elements of set \( x \).
 
 /*/ sends identity morphisms to identity morphisms and inverses to inverses.
 
@@ -3517,7 +3517,7 @@ The concept of /*/ has been generalized under the name of morphism to many struc
 :ID:       8581e216-8d9d-479f-a58d-bd04882b5131
 :end:
 
-Identity morphism - or simply identity: $$ x \in C : \; id_{x}=1_{x} : x \to x $$
+Identity morphism - or simply identity: \( x \in C : \; id_{x}=1_{x} : x \to x \)
 Composed with other morphism gives same morphism.
 
 Corresponds to Reflexivity and Automorphism.
@@ -3554,8 +3554,8 @@ SCHT: <2020-09-18 Fri>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:54]
 :end:
 
-$$ P(e,a)=P(a,e)=a \ | \ \exists e \in S, \forall a \in S $$
-$$ P() $$ is commutative.
+\( P(e,a)=P(a,e)=a \ | \ \exists e \in S, \forall a \in S \)
+\( P() \) is commutative.
 
 Predicate
 
@@ -3573,7 +3573,7 @@ SCHT: <2020-02-15 Sat>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:33]
 :end:
 
-$$ \exists e \in S, \forall a \in S : \; P(e,a)=a $$
+\( \exists e \in S, \forall a \in S : \; P(e,a)=a \)
 
 Predicate
 
@@ -3591,7 +3591,7 @@ SCHT: <2020-10-10 Sat>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 22:57]
 :end:
 
-$$  P(a,e)=a \; | \; \exists e \in S, \forall a \in S $$
+\(  P(a,e)=a \; | \; \exists e \in S, \forall a \in S \)
 
 Predicate
 
@@ -3617,8 +3617,8 @@ id :: a -> a
 Maps one to one (uniquely), so invertable (always has inverse morphism), so preserves the information/structure.
 Domain can be equal or less to the codomain.
 
-$$ f^{X \to Y}, \ \forall x \in X \, \exists! y=f(x) \vDash f(x) \equiv f_{mono}(x) $$ - from homomorphism context
-$$ f_{mono} \circ g1 = f_{mono} \circ g2 \ \vDash \ g1 \equiv g2 $$ - from general morphism context
+\( f^{X \to Y}, \ \forall x \in X \, \exists! y=f(x) \vDash f(x) \equiv f_{mono}(x) \) - from homomorphism context
+\( f_{mono} \circ g1 = f_{mono} \circ g2 \ \vDash \ g1 \equiv g2 \) - from general morphism context
 Thus /*/ is left canselable.
 
 If /*/ is a function - it is injective. Initial set of /f/ is fully uniquely mapped onto the image of /f/.
@@ -3646,8 +3646,8 @@ SCHT: <2020-04-08 Wed>
 μορφή /morphe/ form
 
 /*/ is right canselable morphism.
-$$ f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) $$ - from homomorphism context
-$$ g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 $$ - from general morphism context
+\( f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) \) - from homomorphism context
+\( g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 \) - from general morphism context
 
 In Set category if /*/ is a function - it is surjective (image of it fully uses codomain)
 Codomain is a called a projection of the domain.
@@ -3673,13 +3673,13 @@ Almost equal, but not quite: =(Integer, Bool)= & =(Bool, Integer)= - but can be 
 
 Bijective homomorphism is also isomorphism.
 
-$$ f^{-1, b \to a} \circ f^{a \to b} \equiv 1^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv 1^b $$
+\( f^{-1, b \to a} \circ f^{a \to b} \equiv 1^a, \; f^{a \to b} \circ f^{-1, b \to a} \equiv 1^b \)
 
 2 reasons for non-isomorphism:
   * function at least ones collapses a values of domain into one value in codomain
   * image (of a function in codomain) does not fill-in codomain. Then isomorphism can exists for image but not whole codomain.
 
-Categories are isomorphic if there $$ R \circ L = ID $$
+Categories are isomorphic if there \( R \circ L = ID \)
 
 ***** /*/
 
@@ -3793,7 +3793,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 :ID:       05e166e2-23f3-4e1a-9e6e-fd9ce910b785
 :end:
 
-catamorphism $$ \circ $$ anamorphism
+catamorphism \( \circ \) anamorphism
 
 Expanding and collapsing the structure.
 
@@ -3849,10 +3849,10 @@ Kernel of a homomorphism is a number that measures the degree homomorphism fails
 It is a number of domain elements that fail injectivity:
   * elements not included into morphism
   * elements that collapse into one element in codomain
-thou Kernel $$ [ x | x \leftarrow 0 || x \ge 2 ] $$.
+thou Kernel \( [ x | x \leftarrow 0 || x \ge 2 ] \).
 
 Denotation:
-$$ \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} $$.
+\( \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} \).
 
 ***** <<<Kernel homomorphism>>> :drill:
 SCHT: <2020-03-01 Sun>
@@ -3915,7 +3915,7 @@ SCHT: <2020-03-06 Fri>
 
 One that recieves unique arrow from every object.
 
-$$ \exists ! : x \to 1 \ | \ \exists 1 \in \mathcal{C}, \ \forall x \in \mathcal{C}$$
+\( \exists ! : x \to 1 \ | \ \exists 1 \in \mathcal{C}, \ \forall x \in \mathcal{C}\)
 
 /*/ is an empty sequence =()= in Haskell.
 
@@ -3926,7 +3926,7 @@ Dual of initial object.
 Denotation:
 
 Category theory
-$$ 1 $$
+\( 1 \)
 
 Haskell
 #+begin_src haskell
@@ -3949,7 +3949,7 @@ SCHT: <2020-03-08 Sun>
 
 One that emits unique arrow into every object.
 
-$$ \exists ! : \varnothing \to x \ | \ \exists \varnothing \in \mathcal{C}, \ \forall x \mathcal{C} $$
+\( \exists ! : \varnothing \to x \ | \ \exists \varnothing \in \mathcal{C}, \ \forall x \mathcal{C} \)
 
 If initial object is =Void= (most frequently) - emitted arrows called absurd, because they can not be called.
 
@@ -3958,7 +3958,7 @@ Dual of terminal object.
 Denotation:
 
 Category theory:
-$$ \varnothing $$
+\( \varnothing \)
 
 Haskell:
 #+begin_src haskell
@@ -3982,7 +3982,7 @@ SCHT: <2020-03-31 Tue>
 Category in which objects are sets, morphisms are functions.
 
 Denotation:
-$$ Set $$
+\( Set \)
 
 *** <<<Natural transformation>>> :drill:
 :properties:
@@ -3995,26 +3995,26 @@ trans :: F a -> G a
 #+end_src
 , while =a= is polymorphic variable.
 
-Naturality condition: $$ \forall \ a \ \exists \ (F \ a \to G \ a) $$, or , analogous to parametric polymorphism in functions. Since /*/ in a category, stating $$ \forall (F \ a \to G \ a) $$
-Naturality condition means that all morphisms that take part in homotopy of source functor to target functor must exist, and that is the same, diagrams that take part in transformation, should commute, and different paths brins same result: if $$ \alpha $$ - natural transformation, $$ \alpha_{a} $$ natural transformation component - $$ G \ f \circ \alpha_{a} = \alpha_{b} \circ F \ f $$.
+Naturality condition: \( \forall \ a \ \exists \ (F \ a \to G \ a) \), or , analogous to parametric polymorphism in functions. Since /*/ in a category, stating \( \forall (F \ a \to G \ a) \)
+Naturality condition means that all morphisms that take part in homotopy of source functor to target functor must exist, and that is the same, diagrams that take part in transformation, should commute, and different paths brins same result: if \( \alpha \) - natural transformation, \( \alpha_{a} \) natural transformation component - \( G \ f \circ \alpha_{a} = \alpha_{b} \circ F \ f \).
 Since /*/ are just a type of parametric polymorphic function - they can compose.
 
-/*/ ($$ \overrightarrow{\eta}^{\mathcal{D}} $$) is transforming : $$ \overrightarrow{\eta}^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} $$.
+/*/ (\( \overrightarrow{\eta}^{\mathcal{D}} \)) is transforming : \( \overrightarrow{\eta}^{\mathcal{D}} \circ F^{\mathcal{C \to D}} = G^{\mathcal{C \to D}} \).
 /*/ abstraction creates higher-language of Category theory, allowing to talk about the composition and transformation of complex entities.
 
-It is a process of transforming $$ F^{\mathcal{C \to D}} $$ into $$ G^{\mathcal{C \to D}} $$ using existing morphisms in target category $$ \mathcal{D} $$.
+It is a process of transforming \( F^{\mathcal{C \to D}} \) into \( G^{\mathcal{C \to D}} \) using existing morphisms in target category \( \mathcal{D} \).
 
 Since it uses morphisms - it is structure-preserving transformation of one functor into another. Iy mostly a lossy transformation. Only existing morphisms cab make it exist.
 
 Existence of /*/ between two functors can be seen as some relation.
 
 Can be observed to be a "morphism of functors", especially in functor category.
-/*/ by $$ \overrightarrow{\eta}^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$, often written short $$ \overrightarrow{\eta}_{b} \circ F(\overrightarrow{f}) = G(\overrightarrow{f}) \circ \overrightarrow{\eta}_{a} $$.
-Notice that the $$ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) $$ depends on objects&morphisms of $$ \mathcal{C} $$.
+/*/ by \( \overrightarrow{\eta}^{\mathcal{D}}_{y^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) = G^{\mathcal{C \to D}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \circ \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \), often written short \( \overrightarrow{\eta}_{b} \circ F(\overrightarrow{f}) = G(\overrightarrow{f}) \circ \overrightarrow{\eta}_{a} \).
+Notice that the \( \overrightarrow{\eta}^{\mathcal{D}}_{x^{\mathcal{C}}}(\overrightarrow{(x,y)}^{\mathcal{C}}) \) depends on objects&morphisms of \( \mathcal{C} \).
 
-In words: /*/ depends on $$ F $$ and $$ G $$ functors, ability of $$ D $$ morphisms to do a homotopy of $$ F $$ to $$ G $$, and /*/:
-  * for every object in $$ \mathcal{C} $$ picks natural transformation component in $$ \mathcal{D} $$.
-  * for every morphism in $$ \mathcal{C} $$ picks the commuting diagram in $$ \mathcal{D} $$, called <<<naturality square>>>. 
+In words: /*/ depends on \( F \) and \( G \) functors, ability of \( D \) morphisms to do a homotopy of \( F \) to \( G \), and /*/:
+  * for every object in \( \mathcal{C} \) picks natural transformation component in \( \mathcal{D} \).
+  * for every morphism in \( \mathcal{C} \) picks the commuting diagram in \( \mathcal{D} \), called <<<naturality square>>>. 
 
 Also see: Natural transformation in Haskell
 
@@ -4054,7 +4054,7 @@ Compositions can be done in any right order, they abide the exchange law.
 :ID:       d71f0216-0581-481b-a941-7974ec27ee2c
 :end:
 
-$$ \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D}}(x) \ | \  x \in \mathcal{C} $$
+\( \overrightarrow{\eta}^{\mathcal{D}}(x) = F^{\mathcal{D}}(x) \to G^{\mathcal{D}}(x) \ | \  x \in \mathcal{C} \)
 
 ***** /*/
 
@@ -4076,7 +4076,7 @@ SCHT: <2020-02-29 Sat>
 
 Family of parametric polymorphism functions between endofunctors.
 
-In Hask is $$ F \ a \to G \ a $$. Can be analogued to repackaging data into another container, never modifies the object content, it only if - can delete it, because operation is lossy.
+In Hask is \( F \ a \to G \ a \). Can be analogued to repackaging data into another container, never modifies the object content, it only if - can delete it, because operation is lossy.
 
 Can be sees as ortogonal to functors.
 
@@ -4132,18 +4132,18 @@ SCHT: <2020-04-24 Fri>
 
 Category duality behaves like a logical inverse.
 
-Inverse $$ \mathcal{C} $$ = $$ \mathcal{C}^{op} $$ - inverts the direction of morphisms.
+Inverse \( \mathcal{C} \) = \( \mathcal{C}^{op} \) - inverts the direction of morphisms.
 
-Composition accordingly changes to the morphisms: $$ (g \circ f)^{op} = f^{op} \circ g^{op} $$
+Composition accordingly changes to the morphisms: \( (g \circ f)^{op} = f^{op} \circ g^{op} \)
 
-Any statement in the terms of $$ \mathcal{C} $$ in $$ \mathcal{C}^{op} $$ has the dual - the logical inverse that is true in $$ \mathcal {C}^{op} $$ terms.
+Any statement in the terms of \( \mathcal{C} \) in \( \mathcal{C}^{op} \) has the dual - the logical inverse that is true in \( \mathcal {C}^{op} \) terms.
 
 Opposite preserves properties:
-  * products: $$ (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} $$
+  * products: \( (\mathcal{C} \times \mathcal{D})^{op} \cong \mathcal{C}^{op} \times \mathcal{D}^{op} \)
 
-  * functors: $$ (F^{\mathcal{C} \to \mathcal{D}})^{op} \cong F^{\mathcal{C}^{op} \to \mathcal{D}^{op}} $$
+  * functors: \( (F^{\mathcal{C} \to \mathcal{D}})^{op} \cong F^{\mathcal{C}^{op} \to \mathcal{D}^{op}} \)
 
-  * slices: $$ (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) $$
+  * slices: \( (\mathcal{F} \downarrow \mathcal{G})^{op} \cong (\mathcal{G}^{op} \downarrow \mathcal{F}^{op}) \)
 
 ****** /*/
 
@@ -4161,7 +4161,7 @@ Opposite preserves properties:
 
 \forall Hom sets contain zero or one morphism.
 
-$$ f \equiv g \ | \ \forall x,y \ \forall f,g: x \to y $$
+\( f \equiv g \ | \ \forall x,y \ \forall f,g: x \to y \)
 
 A proset (preordered set).
 
@@ -4180,7 +4180,7 @@ A proset (preordered set).
 Establishes equality in morphisms that have same source and target.
 
 Draws the morphisms that are:
-$$ f = g \Rightarrow \{f, y\}: X \to Y $$
+\( f = g \Rightarrow \{f, y\}: X \to Y \)
 
 **** /*/
 
@@ -4219,9 +4219,9 @@ Universal construction:
 a & \underset{\pi_a}{\leftarrow} & c & \underset{\pi_b}{\rightarrow} & b
 \end{matrix}
 
-Pattern: $$ p: c \to a, \ q: c \to b $$
-Ranking: $$ \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} $$
-$$ c\prime $$ is another candidate.
+Pattern: \( p: c \to a, \ q: c \to b \)
+Ranking: \( \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} \)
+\( c\prime \) is another candidate.
 
 For sets - Cartesian product.
 
@@ -4245,9 +4245,9 @@ Universal constructuon:
 a & \underset{\iota_a}{\rightarrow} & c & \underset{\iota_b}{\leftarrow} & b
 \end{matrix}
 
-Pattern: $$ i: a \to c, \ j: b \to c $$
-Ranking: $$ \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} $$
-$$ c\prime $$ is another candidate.
+Pattern: \( i: a \to c, \ j: b \to c \)
+Ranking: \( \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} \)
+\( c\prime \) is another candidate.
 
 For sets - Disjoint union.
 
@@ -4293,12 +4293,12 @@ SCHT: <2020-07-02 Thu>
 All morphisms from source object to target object.
 
 Denotation:
-$$ hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) $$
+\( hom_{C}(X,Y) = (\forall f: X \to Y) = hom(X,Y) = C(X,Y) \)
 Denotation was not standartized.
 
 Hom sets belong to Set category.
 
-In Set category: $$ \exists! (a, b) \iff \exists! Hom $$, $$ \forall Hom \in \ Set $$. Set category is special, Hom sets are also objects of it.
+In Set category: \( \exists! (a, b) \iff \exists! Hom \), \( \forall Hom \in \ Set \). Set category is special, Hom sets are also objects of it.
 
 Category can include Set, and hom sets, or not.
 
@@ -4320,16 +4320,16 @@ SCHT: <2020-02-28 Fri>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
 :end:
 
-$$ hom:\mathcal{C}^{op} \times \mathcal{C} \to Set $$
-Functor from the product of $$ \mathcal{C} $$ with its opposite category to the category of sets.
+\( hom:\mathcal{C}^{op} \times \mathcal{C} \to Set \)
+Functor from the product of \( \mathcal{C} \) with its opposite category to the category of sets.
 
 Denotation variants:
-$$ H_A = \mathrm{Hom}(-, A) $$
-$$ h_A = {\cal \mathcal{C}}(-, A) $$
-$$ Hom(A,-): \ \mathcal{C} \to Set $$
+\( H_A = \mathrm{Hom}(-, A) \)
+\( h_A = {\cal \mathcal{C}}(-, A) \)
+\( Hom(A,-): \ \mathcal{C} \to Set \)
 
 Hom-bifunctor:
-$$ Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set $$
+\( Hom(-,-): \ \mathcal{C}^{op} \times \mathcal{C} \to Set \)
 
 **** <<<Exponential object>>> :drill:
 :PROPERTIES:
@@ -4341,10 +4341,10 @@ As also hom set to internal hom objects.
 
 Cartesian closed (monoidal) category strictly required, as /*/ multiplicaton holds composition requirement: 
 
-$$ \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) $$
+\( \circ:hom(y,z) \otimes hom(x,y) \to hom(x,z) \)
 
 Denotation:
-$$ b^{a} $$
+\( b^{a} \)
 
 Universal construction:
 
@@ -4352,9 +4352,9 @@ Universal construction:
 c \arrow[d, "u" description, dotted] & c \times a \arrow[d, "u \times 1^{a}" description, dotted] \arrow[rd] &   \\
 b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted]                  & b
 \end{tikzcd}
-, where in Category: $$ b^{a} $$ - exponential object, \times - product bifunctor, $$ a $$ - argument of /*/, $$ b $$ - result, $$ c $$ - candidate, $$ b^{a} \equiv ( a \Rightarrow b ) $$ - /*/.
+, where in Category: \( b^{a} \) - exponential object, \times - product bifunctor, \( a \) - argument of /*/, \( b \) - result, \( c \) - candidate, \( b^{a} \equiv ( a \Rightarrow b ) \) - /*/.
 
-/*/ $$ b^{a} $$ (also as $$ (a \Rightarrow b) $$) represent exponentiation of cardinality of $$ \forall b^{a} $$ possiblities.
+/*/ \( b^{a} \) (also as \( (a \Rightarrow b) \)) represent exponentiation of cardinality of \( \forall b^{a} \) possiblities.
 
 ***** /*/
 <<<Function object>>>
@@ -4371,7 +4371,7 @@ b^{a}                                & b^{a} \times a \arrow[r, "eval" descripti
 Uses Hom objects (exponential objects), which do not belong into Set category.
 Category is no longer small, now may be called large.
 
-$$ hom(x,y) \in K $$.
+\( hom(x,y) \in K \).
 
 Called: /*/ over =K= (whick holds hom objects).
 
@@ -4396,7 +4396,7 @@ The property of basis, in which if new basis is a linear combination of the prio
 
 Denotation:
 Components for contravariant basis denoted in the upper indices:
-$$ V^{i} = x $$
+\( V^{i} = x \)
 
 The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
 
@@ -4423,7 +4423,7 @@ The property of basis, in which if new basis is a linear combination of the prio
 
 Denotation:
 Components for covariant basis denoted in the upper indices:
-$$ V_{i} = x $$
+\( V_{i} = x \)
 
 *** /*/
 
@@ -4685,9 +4685,9 @@ Denotation:
 #+end_src
 
 More general mathematical denotation was not established, variants:
-$$ (n)_{n \in \mathbb{N}} $$
-$$ \omega \to X $$
-$$ \{ i:Ord \ | \ i < \alpha \} $$
+\( (n)_{n \in \mathbb{N}} \)
+\( \omega \to X \)
+\( \{ i:Ord \ | \ i < \alpha \} \)
 
 In Haskell: Data type that stores multiple ordered values withing a single value.
 
@@ -5455,10 +5455,10 @@ SCHT: <2020-09-18 Fri>
 :end:
 
 Denotation.
-$$ \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. $$
+\( \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. \)
 Last one is partial.
 
-$$ e^{t{\frac{d}{dx}}} $$ - Shift operator.
+\( e^{t{\frac{d}{dx}}} \) - Shift operator.
 
 *** /*/
 
@@ -5625,9 +5625,9 @@ SCHT: <2020-03-10 Tue>
 Full dependency of one quantity from another quantity.
 
 Denotation:
-$$ y = f(x) $$
-$$ f: X \to Y $$,
-where $$ X $$ is domain, $$ Y $$ is codomain.
+\( y = f(x) \)
+\( f: X \to Y \),
+where \( X \) is domain, \( Y \) is codomain.
 
 Directionality and property of invariability emerge from one another.
 #+begin_src haskell
@@ -5635,13 +5635,13 @@ Directionality and property of invariability emerge from one another.
    *      ->   *
 #+end_src
 
-$$ y(x) = (zx^{2} + bx + 3 \ | \ b = 5) $$
+\( y(x) = (zx^{2} + bx + 3 \ | \ b = 5) \)
 ^ ^    ^^    ^   ^
-| |    ||     \$$ \textsubscript{Var} $$\$$ \textsubscript{Constant} $$
-| |    | \$$ \textsubscript{Bound variable} $$
-| |     \$$ \textsubscript{Free variable} $$
-|  \$$ \textsubscript{Parameter} $$
- \$$ \textsubscript{Name of the function} $$
+| |    ||     \\( \textsubscript{Var} \)\\( \textsubscript{Constant} \)
+| |    | \\( \textsubscript{Bound variable} \)
+| |     \\( \textsubscript{Free variable} \)
+|  \\( \textsubscript{Parameter} \)
+ \\( \textsubscript{Name of the function} \)
 
 Lambda abstraction is a function.
 Function is a mathematical operation.
@@ -5706,7 +5706,7 @@ Denotation:
 f : X ⤖ Y
 #+end_src
 LaTeX needed to combine symbols:
-$$ \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y $$
+\( \newcommand*{\twoheadrghtarrowtail}{\mathrel{\rightarrowtail\kern-1.9ex\twoheadrightarrow}} f : X \twoheadrghtarrowtail Y \)
 
 Corersponds to isomorphism.
 
@@ -5803,7 +5803,7 @@ SCHT: <2020-08-02 Sun>
 :end:
 
 Is a part with name of the function and it's paramenters.
-AKA: $$ f(x) $$
+AKA: \( f(x) \)
 
 *** <<<Function range>>> :drill:
 :properties:
@@ -5866,9 +5866,9 @@ Function one-to-one injects from domain into codomain.
 Keeps distinct pairing of elements of domain and image.
 Every element in image coresponds to one element in domain.
 
-$$ \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b $$
+\( \forall a,b \in X, \; f(a)=f(b) \Rightarrow a=b \)
 
-$$ \exists (inverse \ function) \ | \ \forall (injective \ function) $$
+\( \exists (inverse \ function) \ | \ \forall (injective \ function) \)
 
 Denotion:
 #+begin_src text
@@ -5929,7 +5929,7 @@ Also see: pure function.
 
 *** <<<Pure function>>>
 
-Function that is pure $$ \equiv $$ referentially transparent function.
+Function that is pure \( \equiv \) referentially transparent function.
 
 *** <<<Sectioning>>> :drill:
 SCHT: <2020-05-31 Sun>
@@ -5963,10 +5963,10 @@ SCHT: <2020-03-07 Sat>
 
 Function uses codomain fully.
 
-$$ \forall y \in Y, \exists x \in X $$
+\( \forall y \in Y, \exists x \in X \)
 
 Denotation:
-$$ f : X \twoheadrightarrow Y $$
+\( f : X \twoheadrightarrow Y \)
 
 Corresponds to Epimorphism.
 
@@ -6017,7 +6017,7 @@ SCHT: <2020-07-21 Tue>
 :end:
 
 Source set of a function.
-$$ X $$ in $$ X \to Y $$.
+\( X \) in \( X \to Y \).
 
 *** <<<Codomain>>> :drill:
 SCHT: <2020-07-07 Tue>
@@ -6033,7 +6033,7 @@ SCHT: <2020-07-07 Tue>
 :DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
 :end:
 
-$$ Y $$ in $X \to Y$.
+\( Y \) in $X \to Y$.
 Codomain - target set of a function.
 
 *** <<<Open formula>>> :drill:
@@ -6142,13 +6142,13 @@ SCHT: <2020-05-23 Sat>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:24]
 :end:
 
-$$ f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} $$, $$ \mathcal{X} $$ is closed under $$ f $$, it is a trivial case when operation is legitimate for all values of the domain.
+\( f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} \), \( \mathcal{X} \) is closed under \( f \), it is a trivial case when operation is legitimate for all values of the domain.
 
 Operation on members of the domain always produces a members of the domain. The domain is closed under the operation.
 
 In the case when there is a domain values for which operation is not legitimate/not exists:
 
-$$ f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} $$, $$ \mathcal{X} $$ is closed under $$ f $$.
+\( f(x) = f^{\mathcal{V \to X}} \ | \ \mathcal{V \in X}, \forall x \in \mathcal{V} \), \( \mathcal{X} \) is closed under \( f \).
 
 **** /*/
 
@@ -6405,9 +6405,9 @@ Universal model of computation. Which means /*/ can implement any Turing machine
 Based on function abstraction and application by substituting variables and binding values.
 
 /*/ has lambda terms:
-   * variable ($$ x $$)
-   * application ($$ (ts) $$)
-   * abstraction (lambda function) ($$ (\lambda x . t) $$)
+   * variable (\( x \))
+   * application (\( (ts) \))
+   * abstraction (lambda function) (\( (\lambda x . t) \))
 
 *** /*/
 
@@ -6448,7 +6448,7 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
 :end:
 
 Function of Lambda calculus.
-$$ \lambda x y.x^2 + y^3 $$
+\( \lambda x y.x^2 + y^3 \)
  ^^ ^    ^
  || |     \__variable
  ||  \__variable
@@ -6675,7 +6675,7 @@ SCHT: <2020-06-23 Tue>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:38]
 :end:
 
-$$ (\lambda x.Mx) \xleftarrow[\eta]{} M $$
+\( (\lambda x.Mx) \xleftarrow[\eta]{} M \)
 
 #+begin_src haskell
 \ x -> g . f $ x
@@ -6763,7 +6763,7 @@ SCHT: <2020-05-25 Mon>
 :DRILL_LAST_REVIEWED: [2019-09-27 Fri 19:57]
 :end:
 
-$$ \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S $$
+\( \forall (a,b) \in S, \exists P(a,b)=f(a,b): S \times S \to S \)
 
 **** /*/
 
@@ -6791,7 +6791,7 @@ Denotation symbol/name for the operation.
 :end:
 
 Shift operator defined by Lagrange through Differential operator.
-$$ T^{t} \, = \, e^{t{\frac{d}{dx}}} $$
+\( T^{t} \, = \, e^{t{\frac{d}{dx}}} \)
 
 ***** /*/
 
@@ -7070,7 +7070,7 @@ SCHT: <2020-03-20 Fri>
 :end:
 
 /*/ allows type τ entities with polymorphic types that can contain type τ itself.
-$$ T = \forall X. X \to X : \; T \in X \vDash T \in T $$
+\( T = \forall X. X \to X : \; T \in X \vDash T \in T \)
 
 The most powerful form of parametric polymorphism.
 See: Impredicative.
@@ -7119,11 +7119,11 @@ Allows to declare usage of a Type and all of its Subtypes.
 T - Type
 S - Subtype of Type
 <: - subtype of
-$$ S <: T = S \le T $$
+\( S <: T = S \le T \)
 
 Subtyping is:
 If it can be done to T, and there is subtype S - then it also can be done to S.
-$$ S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} $$
+\( S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} \)
 
 *** <<<Row polymorphism>>> :drill:
 SCHT: <2020-03-10 Tue>
@@ -7275,7 +7275,7 @@ For GHC to pickup the patterns, the final statement must match one of these patt
   return $ E
 #+end_src
 
-When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic $$ O(n^2) $$ algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo $$ O(n^3) $$ algorithm that finds the optimal solution: =-foptimal-applicative-do=.
+When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic \( O(n^2) \) algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo \( O(n^3) \) algorithm that finds the optimal solution: =-foptimal-applicative-do=.
 
 Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
   * Allows use of do-notation with types that are an instance of Applicative and Functor
@@ -7345,7 +7345,7 @@ class C a where
 
 class C a => D a where ...
 #+end_src
-$$ C :> D $$, so in C we can talk about D.
+\( C :> D \), so in C we can talk about D.
 
 Synergizes with ConstraintKinds.
 
@@ -7859,8 +7859,8 @@ SCHT: <2020-08-23 Sun>
 
 Specifies the quantity of specimens.
 
-Two most common quantifiers $$ \forall $$ (Forall) and $$ \exists $$ (Exists).
-$$ \exists ! $$ - one and only one (exists only unique).
+Two most common quantifiers \( \forall \) (Forall) and \( \exists \) (Exists).
+\( \exists ! \) - one and only one (exists only unique).
 
 *** /*/
 
@@ -8082,10 +8082,10 @@ SCHT: <2020-08-05 Wed>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
 :end:
 
-For some set $$ \mathcal{S} $$, the power set ($$ \mathcal{P(S)} $$) is a set of all subsets of $$ \mathcal{S} $$, including $$ \{\} $$ & $$ \mathcal{S} $$ itself.
+For some set \( \mathcal{S} \), the power set (\( \mathcal{P(S)} \)) is a set of all subsets of \( \mathcal{S} \), including \( \{\} \) & \( \mathcal{S} \) itself.
 
 Denotation:
-$$ \mathcal{P(S)} $$
+\( \mathcal{P(S)} \)
 
 *** <<<Singleton>>> :drill:
 SCHT: <2020-05-28 Thu>
@@ -8423,7 +8423,7 @@ SCHT: <2020-07-18 Sat>
 :end:
 
 /*/ is the value with which operation always yelds Zero value.
-$$ zero, n \in C : \forall n, zero*n=zero $$
+\( zero, n \in C : \forall n, zero*n=zero \)
 
 /*/ is distinct from Identity value.
 
@@ -8482,7 +8482,7 @@ There property testing wich does what it says.
 
 Joined with common purpose.
 
-$$ P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S $$,
+\( P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S \),
 
 /*/ - the operations can be grouped arbitrarily.
 
@@ -8517,7 +8517,7 @@ SCHT: <2020-05-31 Sun>
 
 Example:
 In lambda expressions same level parts follow grouping from left to right.
-$$ (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z $$
+\( (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z \)
 
 **** /*/
 
@@ -8572,7 +8572,7 @@ SCHT: <2020-08-07 Fri>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
 :end:
 
-$$ \beta\alpha\sigma\iota\varsigma $$ - stepping
+\( \beta\alpha\sigma\iota\varsigma \) - stepping
 
 The initial point, unreducible axioms and terms that spawn a theory.
 AKA see Category theory, or Euclidian geometry basis.
@@ -8582,7 +8582,7 @@ AKA see Category theory, or Euclidian geometry basis.
 :ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
 :end:
 
-$$ \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) $$
+\( \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) \)
 
 **** /*/
 
@@ -8609,8 +8609,8 @@ Example: Start and Stop buttons on machines.
 
 Set S and two binary operators + \times:
 
-  * $$ x \times (y + z) = (x \times y) + (x \times z) $$ - \times is left-distributive over +
-  * $$ (y + z) \times x = (y \times x) + (z \times x) $$ - \times is right-distributive over +
+  * \( x \times (y + z) = (x \times y) + (x \times z) \) - \times is left-distributive over +
+  * \( (y + z) \times x = (y \times x) + (z \times x) \) - \times is right-distributive over +
   * left-&right-distributive - \times is distributive over +
 
 **** /*/
@@ -8806,7 +8806,7 @@ SCHT: <2020-04-23 Thu>
 Logical AND.
 
 Denotation:
-$$ \land $$
+\( \land \)
 
 Multiplies cardinalities.
 
@@ -8829,9 +8829,9 @@ SCHT: <2020-03-26 Thu>
 :DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:35]
 :end:
 
-Logical $$ OR $$
+Logical \( OR \)
 Denotation:
-$$ \lor $$
+\( \lor \)
 
 Summs cardinalities.
 
@@ -8850,9 +8850,9 @@ SCHT: <2020-02-03 Mon>
 :end:
 
 Function with Boolean codomain.
-$$ P: X \to \{ true, \ false \} $$ - /*/ on $$ X $$.
+\( P: X \to \{ true, \ false \} \) - /*/ on \( X \).
 
-Notation: $$ P(x) $$
+Notation: \( P(x) \)
 
 Almost always can include relations, quantifiers.
 
@@ -8878,11 +8878,11 @@ Difference between proposition, statement, expression:
 1. "2 + 3 = 5"
 2. "two plus three equals five"
 
-  * 1 & 2 are statements. Each of them is a collection of transmission symbols (linguistic objects) from a symbol systems $$ \equiv $$ expression. Each of them is expression that bears proposition (an idea resulting in a Boolean value) $$ \equiv $$ statement.
+  * 1 & 2 are statements. Each of them is a collection of transmission symbols (linguistic objects) from a symbol systems \( \equiv \) expression. Each of them is expression that bears proposition (an idea resulting in a Boolean value) \( \equiv \) statement.
 
-  * 1 & 2 represent the same proposition. Proposition from 1 $$ \equiv $$ proposition from 2.
+  * 1 & 2 represent the same proposition. Proposition from 1 \( \equiv \) proposition from 2.
 
-  * Statement 1 $$ \ne $$ statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" $$ \ne $$ statement "3 + 2 = 5".
+  * Statement 1 \( \ne \) statement 2. They are two different statements, written in different systems. And statement "2 + 3 = 5" \( \ne \) statement "3 + 2 = 5".
 
 **** /*/
 
@@ -8906,7 +8906,7 @@ SCHT: <2020-10-08 Thu>
 
 If and only if, exectly when, just.
 Denotation:
-$$ \iff $$
+\( \iff \)
 
 ** Haskell structures
 :properties:
@@ -9850,7 +9850,7 @@ SCHT: <2020-02-10 Mon>
 
 Is parametric polymorphism in programming.
 
-Extends the Lambda calculus by introducing $$ \forall $$ (universal quantifier) over types.
+Extends the Lambda calculus by introducing \( \forall \) (universal quantifier) over types.
 
 **** /*/
 
@@ -10103,7 +10103,7 @@ Full strongly connected subgraph of some graph.
 
 /*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
 
-$$ E \ | \ X \to (X \times A + 1) $$, the set (or object) of streams on A (final coalgebra $$ A_{*} $$ of $$ E $$).
+\( E \ | \ X \to (X \times A + 1) \), the set (or object) of streams on A (final coalgebra \( A_{*} \) of \( E \)).
 
 =cycle= is one of stream functions.
 #+begin_src haskell
@@ -10315,8 +10315,8 @@ Abstract structure that consists of partially ordered set, where every two eleme
 **** <<<Preorder>>>
 
 R^{X \to X} : Reflexive & Transitive:
-$$ aRa $$
-$$ aRb, bRc \Rightarrow aRc $$
+\( aRa \)
+\( aRb, bRc \Rightarrow aRc \)
 
 Generalization of equivalence relations partial orders.
 
@@ -10329,7 +10329,7 @@ Generalization of equivalence relations partial orders.
 
 ***** <<<Total preorder>>>
 
-$$ \forall a,b : a \le b \lor b \le a $$ \Rightarrow Total Preorder.
+\( \forall a,b : a \le b \lor b \le a \) \Rightarrow Total Preorder.
 
 **** <<<Partial order>>>
 
@@ -10359,8 +10359,8 @@ Studies algebraic structures.
 
 *** <<<Reflexivity>>>
 
-$$ R^{X \to X}, \forall x \in X : x R x $$
-Order theory: $$ a \le a $$
+\( R^{X \to X}, \forall x \in X : x R x \)
+Order theory: \( a \le a \)
 
 /*/ - each element is comparable to itself.
 
@@ -10373,7 +10373,7 @@ Corresponds to Identity and Automorphism.
 
 *** <<<Irreflexivity>>>
 
-$$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
+\( R^{X \to X}, \forall x \in X : \nexists R(x, x) \)
 
 **** /*/
 
@@ -10384,7 +10384,7 @@ $$ R^{X \to X}, \forall x \in X : \nexists R(x, x) $$
 
 *** <<<Transitivity>>>
 
-$$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
+\( \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc \)
 
 /*/ - the start of a chain of precedence relations must precede the end of the chain.
 
@@ -10395,7 +10395,7 @@ $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$
 
 *** <<<Symmetry>>>
 
-$$ \forall a,b \in X : (aRb \iff bRa) $$
+\( \forall a,b \in X : (aRb \iff bRa) \)
 
 **** /*/
 
@@ -10406,8 +10406,8 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 
 | Reflexive                  | Symmetric                        | Transitive                                      |
 |----------------------------+----------------------------------+-------------------------------------------------|
-| $$ \forall x \in X, \exists R : x R x $$ | $$ \forall a,b \in X : (aRb \iff bRa) $$ | $$ \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc $$ |
-| $$ a = a $$                | $$ a = b \iff b = a $$           | $$ a = b, b = c \Rightarrow a = c $$                      |
+| \( \forall x \in X, \exists R : x R x \) | \( \forall a,b \in X : (aRb \iff bRa) \) | \( \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc \) |
+| \( a = a \)                | \( a = b \iff b = a \)           | \( a = b, b = c \Rightarrow a = c \)                      |
 
 **** /*/
 
@@ -10416,8 +10416,8 @@ $$ \forall a,b \in X : (aRb \iff bRa) $$
 
 *** <<<Antisymmetry>>>
 
-$$ \forall a, b \in X : aRb, bRa \Rightarrow a = b $$ ~ $$ aRb, a \ne b \Rightarrow \nexists bRa $$.
-Antisymmetry does not say anything about $$ R(a,a) $$.
+\( \forall a, b \in X : aRb, bRa \Rightarrow a = b \) ~ \( aRb, a \ne b \Rightarrow \nexists bRa \).
+Antisymmetry does not say anything about \( R(a,a) \).
 
 /*/ - no two different elements precede each other.
 
@@ -10428,8 +10428,8 @@ Antisymmetry does not say anything about $$ R(a,a) $$.
 
 *** <<<Asymmetry>>>
 
-$$ \forall a,b \in X (aRb \Rightarrow \neg (bRa)) $$
-/*/ $$ \iff $$ Antisymmetric \land Irreflexive.
+\( \forall a,b \in X (aRb \Rightarrow \neg (bRa)) \)
+/*/ \( \iff \) Antisymmetric \land Irreflexive.
 Asymmetry \ne "not symmetric"
 Symmetric \land Asymmetric is only empty relation.
 
@@ -11935,7 +11935,7 @@ Allows to separate and preserve information about happened, ex. error handling.
 
 1. Inverse function
 
-2. In logic: $$ P \to Q \Rightarrow \neg P \to \neg Q $$, & same for category duality.
+2. In logic: \( P \to Q \Rightarrow \neg P \to \neg Q \), & same for category duality.
 
 3. For operation: element that allows reversing operation, having an element that with the dual produces the identity element.
 
@@ -11949,9 +11949,9 @@ Allows to separate and preserve information about happened, ex. error handling.
 
 ** <<<Inverse function>>>
 
-$$ f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} $$
+\( f_{x \to y} \circ ({f_{x \to y}})^{-1} = {1}_{x} \)
 
-/*/ $$ \iff $$ function is bijective.
+/*/ \( \iff \) function is bijective.
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
@@ -11968,9 +11968,9 @@ SCHT: <2020-02-12 Wed>
 :DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:28]
 :end:
 
-For $$ f: x \to y $$:
-$$ \exists g \ : \ g \circ f = 1^{x} $$ - $$ g $$ is left inverse of $$ f $$.
-$$ \exists g \ : \ f \circ g = 1^{y} $$ - $$ g $$ is right inverse of $$ f $$.
+For \( f: x \to y \):
+\( \exists g \ : \ g \circ f = 1^{x} \) - \( g \) is left inverse of \( f \).
+\( \exists g \ : \ f \circ g = 1^{y} \) - \( g \) is right inverse of \( f \).
 
 ** <<<Partial inverse>>>
 
@@ -12004,7 +12004,7 @@ Dump desugarer output.
 
 *** <<<-foptimal-applicative-do>>>
 
-$$ O(n^3) $$
+\( O(n^3) \)
 Always finds optimal reduction into <*> for ApplicativeDo do notation.
 
 ** <<<Computational trinitarianism>>>
@@ -12182,7 +12182,7 @@ Set category can be monoidal under both product (having terminal object) or copr
 
 Any one-object category is /*/.
 
-$$ (a, ()) \sim a $$ up to unique isomorphism, which is called Lax monoidal functor.
+\( (a, ()) \sim a \) up to unique isomorphism, which is called Lax monoidal functor.
 
 Product and coproduct are functorial, so, since:
 Algebraic data type construction can use:
@@ -12240,7 +12240,7 @@ a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
                        & c                  
 \end{tikzcd}
 
-$$ (a \to b)^{C} = (a \leftarrow b)^{C^{op}} $$
+\( (a \to b)^{C} = (a \leftarrow b)^{C^{op}} \)
 
 #+begin_src haskell
 class Contravariant f
@@ -12261,7 +12261,7 @@ If arrows does not commute Contravatiant funtor anyway allows to construct trans
 (->) a b
 #+end_src
 
-$$ C^{op} \times C \to C $$
+\( C^{op} \times C \to C \)
 
 It is called profunctor.
 
