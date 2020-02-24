@@ -8019,6 +8019,22 @@ Also see <<<Argument>>>.
 
 <<<Function argument>>>
 
+*** <<<Content word>>> :drill:
+SCHT: <2020-08-02 Sun>
+:properties:
+:ID:       2392f66d-e924-49ef-bc22-93c844f74683
+:DRILL_LAST_INTERVAL: 163.7043
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
+:end:
+
+Words that name objects of reality and their qualities.
+
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
 :properties:
@@ -9897,23 +9913,6 @@ Expression that does not contain any free variables.
 *** /*/
 
 <<<Ground formula>>>
-
-** <<<Content word>>> :drill:
-SCHT: <2020-08-02 Sun>
-:properties:
-:ID:       2392f66d-e924-49ef-bc22-93c844f74683
-:DRILL_LAST_INTERVAL: 163.7043
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
-:end:
-
-Words that name objects of reality and their qualities.
-
 
 ** <<<Graph theory>>>
 :properties:
