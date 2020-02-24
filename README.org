@@ -5143,6 +5143,23 @@ Handle /*/ locally to where it is produced. =Nothing= does not hold useful info 
 
 <<<Nodes>>>
 
+*** <<<ADT>>> :drill:
+SCHT: <2020-03-22 Sun>
+:properties:
+:ID:       9fdd9acf-b98d-469d-b34f-c4c007177135
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:48]
+:end:
+
+1. Abstract data type
+2. Algebraic data type
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
@@ -10462,23 +10479,6 @@ A specification of a data type like a stack or queue where the specification doe
 *** /*/
 
 <<<AbsDT>>>
-
-** <<<ADT>>> :drill:
-SCHT: <2020-03-22 Sun>
-:properties:
-:ID:       9fdd9acf-b98d-469d-b34f-c4c007177135
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:48]
-:end:
-
-1. Abstract data type
-2. Algebraic data type
 
 ** <<<Concrete type>>> :drill:
 SCHT: <2020-07-22 Wed>
