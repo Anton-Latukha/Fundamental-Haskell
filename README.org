@@ -1199,23 +1199,6 @@ SCHT: <2020-03-16 Mon>
 <<<Greek prefix>>>
 <<<Latin prefix>>>
 
-** <<<Application memory>>> :drill:
-:properties:
-:ID:       49209cb4-a094-4b16-8803-884efd701706
-:end:
-
-#+caption: Application memory structural parts
-#+name: tab:application-memory-structural-parts
-| Storage of                        | Block name    |
-|-----------------------------------+---------------|
-| All not currently processing data | <<<Heap>>>   |
-| Function call, local variables    | <<<Stack>>>  |
-| Static and global variables       | Static/Global |
-| Instructions                      | Binary code   |
-
-When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
-When stacked Stack frames exceed the Stack size - stack overflow happens.
-
 ** <<<Argument>>> :drill:
 SCHT: <2020-03-07 Sat>
 :properties:
@@ -9886,6 +9869,23 @@ Final evaluation inside the function. Produces the function result.
 :end:
 
 Not evaluated calculation. Can be dragged around, until be lazily evaluated.
+
+*** <<<Application memory>>> :drill:
+:properties:
+:ID:       49209cb4-a094-4b16-8803-884efd701706
+:end:
+
+#+caption: Application memory structural parts
+#+name: tab:application-memory-structural-parts
+| Storage of                        | Block name    |
+|-----------------------------------+---------------|
+| All not currently processing data | <<<Heap>>>   |
+| Function call, local variables    | <<<Stack>>>  |
+| Static and global variables       | Static/Global |
+| Instructions                      | Binary code   |
+
+When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
+When stacked Stack frames exceed the Stack size - stack overflow happens.
 
 ** <<<Ground expression>>> :drill:
 :properties:
