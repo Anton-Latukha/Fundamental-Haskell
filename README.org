@@ -1137,7 +1137,7 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
-** Ancient Greek and Latin prefixes :drill:
+* Ancient Greek and Latin prefixes :drill:
 SCHT: <2020-03-16 Mon>
 :properties:
 :ID:       773bbd3b-bf0f-41c2-a61b-9bb36381bd54
@@ -10213,11 +10213,11 @@ Two levels of embedding:
 
 Mathematical model of computation that defines abstract Turing machine. Abstract machine which manipulates symbols on a strip of tape, according to a table of rules.
 
-** <<<Turing complete>>>
+*** <<<Turing complete>>>
 
 Set of action rules that can simulate any Turing machine.
 
-*** /*/
+**** /*/
 
 <<<Turing incomplete>>>
 <<<Turing incompleteness>>>
