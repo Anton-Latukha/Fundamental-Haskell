@@ -56,6 +56,11 @@
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
 #+latex_header: \usepackage{fancyhdr}
+#+latex_header: \usepackage{booktabs}
+#+latex_header: \usepackage{xcolor}
+#+latex_header: \usepackage{colortbl}
+#+latex_header: \usepackage{siunitx}
+#+latex_header: \usepackage[table]{xcolor}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
 
