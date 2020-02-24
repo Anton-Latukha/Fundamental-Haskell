@@ -1171,6 +1171,26 @@ Example - 12-hour clock.
 
 <<<Clock arithmetic>>>
 
+**** <<<Modulus>>> :drill:
+SCHT: <2020-08-06 Thu>
+:properties:
+:ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
+:DRILL_LAST_INTERVAL: 167.6121
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:36]
+:end:
+
+Special numbers where arithmetic wraps around in modular arithmetic.
+
+***** /*/
+
+<<<Moduli>>> - plural.
+
 ** <<<Bind>>> :drill:
 SCHT: <2020-03-05 Thu>
 :properties:
@@ -8640,26 +8660,6 @@ SCHT: <2020-07-18 Sat>
 \( zero, n \in C : \forall n, zero*n=zero \)
 
 /*/ is distinct from Identity value.
-
-*** <<<Modulus>>> :drill:
-SCHT: <2020-08-06 Thu>
-:properties:
-:ID:       740ee455-cd6f-4ee2-8ba1-46841e8b010a
-:DRILL_LAST_INTERVAL: 167.6121
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:36]
-:end:
-
-Special numbers where arithmetic wraps around in modular arithmetic.
-
-**** /*/
-
-<<<Moduli>>> - plural.
 
 ** <<<Backpack>>> :drill:
 SCHT: <2020-03-19 Thu>
