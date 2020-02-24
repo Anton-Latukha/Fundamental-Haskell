@@ -8570,7 +8570,7 @@ main = do
 :ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
 :end:
 
-Replace number of functions with tuple of number of values
+Replace sequenced lambda functions into single function taking sequence/product of values as argument.
 
 ** <<<Unit>>> :drill:
 SCHT: <2020-06-30 Tue>
