@@ -80,6 +80,8 @@ Resources:
  * Web book: https://blog.latukha.com/haskell-notes
  * GitHub: https://github.com/Anton-Latukha/haskell-notes
  * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
+ * View PDF: https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf
+ * Download PDF: https://github.com/Anton-Latukha/haskell-notes/raw/master/README.pdf
 
 This is a complex Org markup file with LaTeX formulas.
 GitHub & GitLab only partially parse Org into HTML.
