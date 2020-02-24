@@ -8300,9 +8300,6 @@ Self-referencing definition.
 
 /Antonym - Predicative./
 
-** <<<Set>>> :drill:
-SCHT: <2021-01-02 Sat>
-:properties:
 *** <<<Context-free grammar>>> :drill:
 :PROPERTIES:
 :ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
@@ -8316,6 +8313,9 @@ Term is invented by Noam Chomsky.
 
 <<<CFG>>>
 
+** <<<Set>>> :drill:
+SCHT: <2021-01-02 Sat>
+:properties:
 :ID:       3065b5ef-e7af-41af-a46e-201ced7f3c28
 :DRILL_LAST_INTERVAL: 316.8159
 :DRILL_REPEATS_SINCE_FAIL: 7
