@@ -6061,24 +6061,6 @@ Part of function parameters applied.
 
 <<<Partially applied>>>
 
-*** <<<Infix>>> :drill:
-SCHT: <2020-08-06 Thu>
-:properties:
-:ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
-:DRILL_LAST_INTERVAL: 249.5633
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:14]
-:end:
-
-Form of writing of operator or function in-between variables for application.
-
-For priorities see Fixity.
-
 *** <<<Fixity>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
@@ -6663,6 +6645,24 @@ Shift operator defined by Lagrange through Differential operator.
 ***** /*/
 
 Shift
+
+*** <<<Infix>>> :drill:
+SCHT: <2020-08-06 Thu>
+:properties:
+:ID:       6de70cc8-f8a0-461f-ae1a-0a8ead07799b
+:DRILL_LAST_INTERVAL: 249.5633
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:14]
+:end:
+
+Form of writing of operator or function in-between variables for application.
+
+For priorities see Fixity.
 
 ** <<<Permutation>>> :drill:
 SCHT: <2020-02-18 Tue>
