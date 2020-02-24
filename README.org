@@ -1241,45 +1241,6 @@ Most often:
 <<<Binding>>>
 <<<Bindings>>>
 
-** <<<Cartesian product>>> :drill:
-SCHT: <2020-02-03 Mon>
-:properties:
-:ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
-:DRILL_LAST_INTERVAL: 10.7143
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
-:end:
-
-\( \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} \).
-Operation, returns a set of all ordered pairs \( (a, b) \)
-
-Any function, functor is a subset of Cartesian product.
-
-\( \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} \)
-
-Properties:
-  * not associative
-  * not commutative
-
-*** /*/
-
-<<<Cardinalities>>>
-
-*** <<<Pullback>>> :drill:
-:PROPERTIES:
-:ID:       6c5bf63f-4c92-42c4-a8f2-de638e01effb
-:END:
-
-Subset of the cartesian product of two sets.
-
-**** /*/
-<<<Pullbacks>>>
-
 ** <<<Category theory>>> :drill:
 SCHT: <2020-06-17 Wed>
 :properties:
@@ -8127,6 +8088,41 @@ Also 1-sequence.
 :end:
 
 If there exists normal set of all sets - it should contain itself, which makes it abnormal.
+
+*** <<<Cartesian product>>> :drill:
+SCHT: <2020-02-03 Mon>
+:properties:
+:ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
+:DRILL_LAST_INTERVAL: 10.7143
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
+:end:
+
+\( \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} \).
+Operation, returns a set of all ordered pairs \( (a, b) \)
+
+Any function, functor is a subset of Cartesian product.
+
+\( \sum{(elem \in (\mathcal{A} \times \mathcal{B}))}  = cardinality^{A \times B} \)
+
+Properties:
+  * not associative
+  * not commutative
+
+**** <<<Pullback>>> :drill:
+:PROPERTIES:
+:ID:       6c5bf63f-4c92-42c4-a8f2-de638e01effb
+:END:
+
+Subset of the cartesian product of two sets.
+
+***** /*/
+<<<Pullbacks>>>
 
 ** <<<Shrinking>>> :drill:
 :properties:
