@@ -5490,6 +5490,17 @@ SCHT: <2020-09-18 Fri>
 
 Equivalence of a processes in expressions. If expressions have according parameters different, but the internal processes are literally the same process.
 
+*** <<<Ground expression>>> :drill:
+:properties:
+:ID:       5030cc64-34d8-49d8-896d-fa6e4aeea4ac
+:end:
+
+Expression that does not contain any free variables.
+
+**** /*/
+
+<<<Ground formula>>>
+
 ** <<<First-class>>> :drill:
 :properties:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
@@ -9902,17 +9913,6 @@ Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 
 When even Main invoked - it work in Stack, and called Stack frame. Stack frame size for function calculated when it is compiled.
 When stacked Stack frames exceed the Stack size - stack overflow happens.
-
-** <<<Ground expression>>> :drill:
-:properties:
-:ID:       5030cc64-34d8-49d8-896d-fa6e4aeea4ac
-:end:
-
-Expression that does not contain any free variables.
-
-*** /*/
-
-<<<Ground formula>>>
 
 ** <<<Graph theory>>>
 :properties:
