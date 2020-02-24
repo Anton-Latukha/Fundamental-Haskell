@@ -1158,6 +1158,19 @@ Any non-constant single-variable polynomial with complex coefficients has at lea
 
 From this definition follows property that the field of complex numbers is algebraically closed.
 
+*** <<<Modular arithmetic>>> :drill:
+:properties:
+:ID:       dcfa0301-d300-4efd-97b5-510b705012cc
+:end:
+
+System for integers where numbers wrap around the certain values (single - /modulus/, plural - /moduli/).
+
+Example - 12-hour clock.
+
+**** /*/
+
+<<<Clock arithmetic>>>
+
 ** <<<Bind>>> :drill:
 SCHT: <2020-03-05 Thu>
 :properties:
@@ -8614,19 +8627,6 @@ SCHT: <2020-07-18 Sat>
 \( zero, n \in C : \forall n, zero*n=zero \)
 
 /*/ is distinct from Identity value.
-
-** <<<Modular arithmetic>>> :drill:
-:properties:
-:ID:       dcfa0301-d300-4efd-97b5-510b705012cc
-:end:
-
-System for integers where numbers wrap around the certain values (single - /modulus/, plural - /moduli/).
-
-Example - 12-hour clock.
-
-*** /*/
-
-<<<Clock arithmetic>>>
 
 *** <<<Modulus>>> :drill:
 SCHT: <2020-08-06 Thu>
