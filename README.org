@@ -12,7 +12,6 @@
 #+toc: headlines 10
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
-#+latex: \setcounter{secnumdepth}{10}
 #+latex_header: \documentclass[11pt]{article}
 #+latex_header: \usepackage[utf8]{inputenc}
 #+latex_header: \usepackage{fixltx2e}
@@ -56,6 +55,7 @@
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
+#+latex_header: \setcounter{secnumdepth}{100}
 
 * Introduction
 
