@@ -7912,6 +7912,13 @@ Used as: Any one with /this/ set of properties. (constraints, type, etc.).
 
 When there is a talk about any arbitrary value - in fact it is a talk about the generalization of computations over the set of properties.
 
+**** <<<Refutable>>> :drill:
+:properties:
+:ID:       3264958f-dfb9-4dcf-9f58-9a9a588d61c9
+:end:
+
+One that has an option to fail.
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -10113,13 +10120,6 @@ Values consumed once or not used.
 *** /*/
 
 <<<Linearity>>>
-
-** <<<Refutable>>> :drill:
-:properties:
-:ID:       3264958f-dfb9-4dcf-9f58-9a9a588d61c9
-:end:
-
-One that has an option to fail.
 
 ** <<<Irrefutable>>> :drill:
 :properties:
