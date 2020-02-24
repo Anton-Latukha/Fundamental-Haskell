@@ -1077,7 +1077,7 @@ SCHT: <2020-02-05 Wed>
 :end:
 
 al-jabr - assemble parts.
-A system of algebra based on given axioms.
+A system of parts based on given axioms (properties).
 
 ---
 
