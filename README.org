@@ -6048,30 +6048,6 @@ Natural transformation is a homotopy of functors.
 <<<Homotopies>>>
 <<<Homotopic>>>
 
-** <<<Idiom>>> :drill:
-SCHT: <2020-02-02 Sun>
-:properties:
-:ID:       bc244256-751d-4205-857e-368a45580884
-:DRILL_LAST_INTERVAL: 125.9435
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:40]
-:end:
-
-/*/ - something having a meaning that can not be derived from the conjoined meanings.
-Meaning can be special for language speakers or human with particular knowledge.
-
-/*/ can also mean applicative functor.
-
-*** /*/
-
-<<<Idioms>>>
-<<<Idiomatic>>>
-
 ** <<<Impredicative>>> :drill:
 SCHT: <2020-03-06 Fri>
 :properties:
@@ -8009,6 +7985,30 @@ SCHT: <2020-03-16 Mon>
 
 <<<Greek prefix>>>
 <<<Latin prefix>>>
+
+*** <<<Idiom>>> :drill:
+SCHT: <2020-02-02 Sun>
+:properties:
+:ID:       bc244256-751d-4205-857e-368a45580884
+:DRILL_LAST_INTERVAL: 125.9435
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:40]
+:end:
+
+/*/ - something having a meaning that can not be derived from the conjoined meanings.
+Meaning can be special for language speakers or human with particular knowledge.
+
+/*/ can also mean applicative functor.
+
+**** /*/
+
+<<<Idioms>>>
+<<<Idiomatic>>>
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
