@@ -1137,22 +1137,6 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 
 <<<Algebraic structures>>>
 
-** <<<Binary>>> :drill:
-SCHT: <2020-08-26 Wed>
-:properties:
-:ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
-:DRILL_LAST_INTERVAL: 269.6572
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:16]
-:end:
-
-Two of something.
-
 ** <<<Bind>>> :drill:
 SCHT: <2020-03-05 Thu>
 :properties:
@@ -7787,6 +7771,22 @@ While this word has two contradictory diametrically opposite usages, one was cho
 But it has... Both.
 
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
+
+**** <<<Binary>>> :drill:
+SCHT: <2020-08-26 Wed>
+:properties:
+:ID:       f6ddbc05-f514-49e1-8906-28e67eb0866c
+:DRILL_LAST_INTERVAL: 269.6572
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:16]
+:end:
+
+Two of something.
 
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
