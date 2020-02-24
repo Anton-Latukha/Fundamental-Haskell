@@ -82,6 +82,7 @@ Resources:
  * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
  * View PDF: https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf
  * Download PDF: https://github.com/Anton-Latukha/haskell-notes/raw/master/README.pdf
+ * LaTeX: https://github.com/Anton-Latukha/haskell-notes/raw/master/README.tex
 
 This is a complex Org markup file with LaTeX formulas.
 GitHub & GitLab only partially parse Org into HTML.
