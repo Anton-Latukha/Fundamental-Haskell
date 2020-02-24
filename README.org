@@ -8699,22 +8699,6 @@ Type =()= holds only self-representation constructor =()=, & constructor holds n
 
 Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
 
-** <<<Backpack>>> :drill:
-SCHT: <2020-03-19 Thu>
-:properties:
-:ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:25]
-:end:
-
-On 1-st compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, the process does not emitt any binary code and stores the intermediate code in a special form that allows flexibily connect modules provided. Which allows later to compile project with particular instanciations of the modules. Major work of this process being done by internal Cabal /*/ support and /*/ system that modifies the intermediate code to fit the module.
-
 ** <<<Nullary>>> :drill:
 :properties:
 :ID:       009d9f43-81a1-4e7e-a5be-ad706a704497
@@ -11775,6 +11759,22 @@ nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --g
 *** Pipes + Pipes Parse - modular, more primitive, theoretically driven
 
 ** JSON - aeson
+
+** <<<Backpack>>> :drill:
+SCHT: <2020-03-19 Thu>
+:properties:
+:ID:       bb77bcce-6d34-408e-bbc8-ad16e843eeb1
+:DRILL_LAST_INTERVAL: 27.8572
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:25]
+:end:
+
+On 1-st compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, the process does not emitt any binary code and stores the intermediate code in a special form that allows flexibily connect modules provided. Which allows later to compile project with particular instanciations of the modules. Major work of this process being done by internal Cabal /*/ support and /*/ system that modifies the intermediate code to fit the module.
 
 * Drafts
 
