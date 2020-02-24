@@ -7720,6 +7720,7 @@ SCHT: <2020-03-15 Sun>
 :end:
 
 Philosophical study of meaning.
+Meaning of symbols, words.
 
 *** <<<Operational semantics>>> :drill:
 SCHT: <2020-03-14 Sat>
