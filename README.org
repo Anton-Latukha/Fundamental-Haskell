@@ -6417,15 +6417,6 @@ SCHT: <2020-02-15 Sat>
 
 Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
 
-** <<<Nothing>>> :drill:
-:properties:
-:ID:       350c03dd-e563-4d42-b554-d38370619667
-:end:
-
-Any Haskell expression can't return nothing.
-
-Also see: Maybe.
-
 ** <<<Operation>>> :drill:
 SCHT: <2020-06-07 Sun>
 :properties:
@@ -12131,6 +12122,11 @@ vacuousM :: Monad m => m Void -> m a
 #+end_src
 
 Design pattern: use polymorphic data types and Void to get rid of possibilities when you need to.
+
+*** /*/
+<<<Nothing>>>, Haskell expressions can't return Void.
+
+Also see: Maybe.
 
 ** Constructive proof
 
