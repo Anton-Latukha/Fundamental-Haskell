@@ -5177,6 +5177,22 @@ Handle /*/ locally to where it is produced. =Nothing= does not hold useful info 
 
 <<<Nodes>>>
 
+*** <<<Expected type>>> :drill:
+SCHT: <2020-08-11 Tue>
+:properties:
+:ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
+:DRILL_LAST_INTERVAL: 209.7683
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:55]
+:end:
+
+Data type inferred from the text of the code.
+
 *** <<<ADT>>> :drill:
 SCHT: <2020-03-22 Sun>
 :properties:
@@ -5272,22 +5288,6 @@ SCHT: <2020-09-18 Fri>
 :end:
 
 For FP see Bind.
-
-** <<<Expected type>>> :drill:
-SCHT: <2020-08-11 Tue>
-:properties:
-:ID:       925824e3-ed7f-4e2f-ab3a-dd4700b0291c
-:DRILL_LAST_INTERVAL: 209.7683
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:55]
-:end:
-
-Data type inferred from the text of the code.
 
 ** <<<Expression>>> :drill:
 :properties:
