@@ -56,6 +56,9 @@
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
 #+latex_header: \usepackage{fancyhdr}
+#+latex_header: \setlength{\headheight}{15.2pt}
+#+latex_header: \pagestyle{fancy}
+#+latex_header: \pagestyle{headings,chapters,sections,subsections}
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{xcolor}
 #+latex_header: \usepackage{colortbl}
