@@ -5246,6 +5246,15 @@ SCHT: <2020-07-22 Wed>
 
 Fully defined type. Non-polymorphic type.
 
+*** <<<Type punning>>> :drill:
+:properties:
+:ID:       4dd36365-da34-489b-bd72-bf327bcb34b6
+:end:
+
+When type constructor and data constructor have the same name.
+
+Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
@@ -10046,14 +10055,10 @@ case, class, data, deriving, do,else, if, import, in, infix, infixl,infixr, inst
 *** /*/
 <<<Reserved words>>>
 
-** <<<Type punning>>> :drill:
 :properties:
-:ID:       4dd36365-da34-489b-bd72-bf327bcb34b6
 :end:
 
-When type constructor and data constructor have the same name.
 
-Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
 
 ** <<<Haskell Language Report>>> :drill:
 :properties:
