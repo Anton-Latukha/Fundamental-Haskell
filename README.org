@@ -1121,7 +1121,7 @@ The set with this structure is also called an algebra.
 Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
 
 #+caption: Algebraic structures
-#+name: tab:algebraic-structure
+#+name: tab--algebraic-structure
 |                   | Closure | Associativity | Identity | Invertability | Commutativity |
 |-------------------+---------+---------------+----------+---------------+---------------|
 | Semigroupoid      |         | \check             |          |               |               |
@@ -1961,7 +1961,7 @@ ap == (<*>) -- + Monad requirement
 
 #+LATEX: {\footnotesize
 #+caption: Monad in mathematics and Haskell
-#+name: tab:monad-in-mathematics-haskell
+#+name: tab--monad-in-mathematics-haskell
 | Math     | Meaning                                 | Cat/Fctr        | \( X \in C \)            | Type                      | Haskell |
 |----------+-----------------------------------------+-----------------+------------------------+---------------------------+---------|
 | \( Id \) | endofunctor "Id"                        | \( C \to C \)     | \( X \to Id (X) \)       | \( a \to a  \)              | id      |
@@ -3594,7 +3594,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 :end:
 
 #+caption: Catamorphism laws in Haskell
-#+name: tab:catamorphism-law-in-haskell
+#+name: tab--catamorphism-law-in-haskell
 | Rule name    | Haskell                                                        |
 |--------------+----------------------------------------------------------------|
 | cata-cancel  | =cata phi . InF = phi . fmap (cata phi)=                         |
@@ -4466,7 +4466,7 @@ More general mathematical denotation was not established, variants:
 In Haskell: Data type that stores multiple ordered values withing a single value.
 
 #+caption: Sequence constructor naming by arity
-#+name:   tab:sequence-names
+#+name: tab--sequence-names
 | Name                   | Arity | Denotation |
 |------------------------+-------+------------|
 | Unit, empty            |     0 | =()=         |
@@ -6298,7 +6298,7 @@ Gives a ground to the equivalence of computer programs and mathematical proofs.
 Lambek added analogue to Cartesian closed category, which can be used to model logic and type theory.
 
 #+caption: Table of basic correspondence
-#+name: tab:table-of-basic-correspondence
+#+name: tab--table-of-basic-correspondence
 | Logic | Type                    | Category  |
 |-------+-------------------------+-----------|
 | True  | () (any inhabited type) | Terminal  |
@@ -6561,7 +6561,7 @@ Declares the presedence of action of a function/operator.
 Funciton application has presedence higher then all infix operators/functions (virtually giving it a priority 10).
 
 #+caption: Haskell operators priority and fixity association
-#+name: tab:haskell-operator-priority-fixity-association
+#+name: tab--haskell-operator-priority-fixity-association
 |  P | L        | Non                 | R          |
 |----+----------+---------------------+------------|
 | 10 |          |                     | F.A.       |
@@ -8210,7 +8210,7 @@ SCHT: <2020-03-16 Mon>
 :end:
 
 #+caption: Ancient Greek and Latin prefixes
-#+name: tab:ancient-greek-latin-prefixes
+#+name: tab--ancient-greek-latin-prefixes
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
@@ -8534,7 +8534,7 @@ In property testing you need to think additionally about generator and shrinking
 **** <<<Property testing type>>>
 
 #+caption: Property testing types
-#+name: tab:property-testing-type
+#+name: tab--property-testing-type
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
@@ -9993,7 +9993,7 @@ Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 :end:
 
 #+caption: Application memory structural parts
-#+name: tab:application-memory-structural-parts
+#+name: tab--application-memory-structural-parts
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
 | All not currently processing data | <<<Heap>>>   |
@@ -12045,7 +12045,7 @@ the following notions are equivalent:
   == typed program with output (Type theory & Computer science)
 
 #+caption: Computational trinitarianism
-#+name: tab:computational-trinitarianism
+#+name: tab--computational-trinitarianism
 #+attr_latex: :environment longtable
 | [[https://ncatlab.org/nlab/show/logic][Logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][Category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][Type theory]]                                    |
 |-----------------------------------+-----------------------------------------------------------------+------------------------------------------------|
