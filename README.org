@@ -3707,100 +3707,6 @@ SCHT: <2020-03-01 Sun>
 Morphism of elements from the kernel.
 Complementary morphism of elements that make main morphism not monomorphic.
 
-*** <<<Object>>> :drill:
-SCHT: <2020-05-02 Sat>
-:properties:
-:ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
-:DRILL_LAST_INTERVAL: 71.5171
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:45]
-:end:
-
-Absolute abstraction.
-
-Point.
-
-Can have properties.
-
-Often abstracts sometging, for example some structure, maybe mathematical.
-
-**** /*/
-
-<<<Structure>>>
-<<<Structures>>>
-<<<Objects>>>
-
-**** <<<Terminal object>>> :drill:
-SCHT: <2020-03-06 Fri>
-:properties:
-:ID:       8d7de2b2-7609-481a-837e-9887e779446f
-:DRILL_LAST_INTERVAL: 26.9152
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
-:end:
-
-One that recieves unique arrow from every object.
-
-\( \exists ! : x \to 1 \ | \ \exists 1 \in \mathcal{C}, \ \forall x \in \mathcal{C}\)
-
-/*/ is an empty sequence =()= in Haskell.
-
-Called a /unit/, so recieves /terminal/ or /unit/ arrow.
-
-Dual of initial object.
-
-Denotation:
-
-Category theory
-\( 1 \)
-
-Haskell
-#+begin_src haskell
-()
-#+end_src
-
-**** <<<Initial object>>> :drill:
-SCHT: <2020-03-08 Sun>
-:properties:
-:ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
-:DRILL_LAST_INTERVAL: 104.916
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:26]
-:end:
-
-One that emits unique arrow into every object.
-
-\( \exists ! : \varnothing \to x \ | \ \exists \varnothing \in \mathcal{C}, \ \forall x \mathcal{C} \)
-
-If initial object is =Void= (most frequently) - emitted arrows called absurd, because they can not be called.
-
-Dual of terminal object.
-
-Denotation:
-
-Category theory:
-\( \varnothing \)
-
-Haskell:
-#+begin_src haskell
-Void
-#+end_src
-
 *** <<<Set category>>> :drill:
 SCHT: <2020-03-31 Tue>
 :properties:
@@ -7880,6 +7786,100 @@ Abstraction that leaks details that it is supposed to abstract away.
 ****** /*/
 
 <<<Leaky abstractions>>>
+
+***** <<<Object>>> :drill:
+SCHT: <2020-05-02 Sat>
+:properties:
+:ID:       db3c82b9-a7ed-42aa-afe0-18c71df636dc
+:DRILL_LAST_INTERVAL: 71.5171
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:45]
+:end:
+
+Absolute abstraction.
+
+Point.
+
+Can have properties.
+
+Often abstracts sometging, for example some structure, maybe mathematical.
+
+****** /*/
+
+<<<Structure>>>
+<<<Structures>>>
+<<<Objects>>>
+
+****** <<<Terminal object>>> :drill:
+SCHT: <2020-03-06 Fri>
+:properties:
+:ID:       8d7de2b2-7609-481a-837e-9887e779446f
+:DRILL_LAST_INTERVAL: 26.9152
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
+:end:
+
+One that recieves unique arrow from every object.
+
+\( \exists ! : x \to 1 \ | \ \exists 1 \in \mathcal{C}, \ \forall x \in \mathcal{C}\)
+
+/*/ is an empty sequence =()= in Haskell.
+
+Called a /unit/, so recieves /terminal/ or /unit/ arrow.
+
+Dual of initial object.
+
+Denotation:
+
+Category theory
+\( 1 \)
+
+Haskell
+#+begin_src haskell
+()
+#+end_src
+
+****** <<<Initial object>>> :drill:
+SCHT: <2020-03-08 Sun>
+:properties:
+:ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
+:DRILL_LAST_INTERVAL: 104.916
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:26]
+:end:
+
+One that emits unique arrow into every object.
+
+\( \exists ! : \varnothing \to x \ | \ \exists \varnothing \in \mathcal{C}, \ \forall x \mathcal{C} \)
+
+If initial object is =Void= (most frequently) - emitted arrows called absurd, because they can not be called.
+
+Dual of terminal object.
+
+Denotation:
+
+Category theory:
+\( \varnothing \)
+
+Haskell:
+#+begin_src haskell
+Void
+#+end_src
 
 **** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
