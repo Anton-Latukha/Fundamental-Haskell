@@ -51,7 +51,7 @@
 #+latex_header: \setlist[enumerate,10]{label=$\alph*.$}
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \usepackage{inputenc}
-#+PROPERTY: header-args:latex+ :exports results :fit yes
+# #+PROPERTY: header-args:latex+ :exports results :fit yes
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
 # Enable fancy page style package
