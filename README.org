@@ -69,7 +69,7 @@
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}
-# #+latex_header: \usepackage{geometry}
+#+latex_header: \usepackage{geometry}
 # #+latex_header: \geometry{a4paper, margin=0pt, left=20mm, right=10mm, top=15mm, bottom=15mm}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
