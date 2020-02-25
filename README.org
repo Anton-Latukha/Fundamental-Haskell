@@ -51,8 +51,6 @@
 #+latex_header: \setlist[enumerate,10]{label=$\alph*.$}
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \usepackage{inputenc}
-# #+PROPERTY: header-args:latex+ :packages '(("" "tikz"))
-# #+PROPERTY: header-args:latex+ :packages '(("" "tikz-cd"))
 #+PROPERTY: header-args:latex+ :exports results :fit yes
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
@@ -75,33 +73,6 @@
 # #+latex_header: \geometry{a4paper, margin=0pt, left=20mm, right=10mm, top=15mm, bottom=15mm}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
-#+latex_header: % Length to control the \fancyheadoffset and the calculation of \headline
-#+latex_header: % simultaneously
-# #+latex_header: \newlength\FHoffset
-# #+latex_header: \setlength\FHoffset{0mm}
-# #+latex_header: 
-# #+latex_header: \addtolength\headwidth{2\FHoffset}
-# #+latex_header: 
-# #+latex_header: \fancyheadoffset{\FHoffset}
-# #+latex_header: 
-# #+latex_header: % these lengths will control the headrule trimming to the left and right 
-# #+latex_header: \newlength\FHleft
-# #+latex_header: \newlength\FHright
-# #+latex_header: 
-# #+latex_header: % here the trimmings are controlled by the user
-# #+latex_header: \setlength\FHleft{0mm}
-# #+latex_header: \setlength\FHright{0mm}
-# #+latex_header: 
-# #+latex_header: % The new definition of headrule that will take into acount the trimming(s)
-# #+latex_header: \newbox\FHline
-# #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
-# #+latex_header:   \hspace*{\FHleft}%
-# #+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{\FHright}%
-# #+latex_header: }
-# #+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
-# #+latex_header: \renewcommand\headrule{\textwidth}
-# #+latex_header: \renewcommand\headrule{\copy\FHline}
-# #+latex_header: \renewcommand{\headrule}{\vbox to 0pt{\hboxto\headwidth{\dotfill}\vss}}
 #+latex_header: \fancyheadoffset{0mm}
 #+latex_header: \newbox\FHline
 #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
@@ -109,6 +80,7 @@
 #+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
 #+latex_header: }
 #+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
+
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
