@@ -75,7 +75,6 @@
 # #+latex_header: \geometry{a4paper, margin=0pt, left=20mm, right=10mm, top=15mm, bottom=15mm}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
-
 #+latex_header: % Length to control the \fancyheadoffset and the calculation of \headline
 #+latex_header: % simultaneously
 # #+latex_header: \newlength\FHoffset
@@ -103,6 +102,13 @@
 # #+latex_header: \renewcommand\headrule{\textwidth}
 # #+latex_header: \renewcommand\headrule{\copy\FHline}
 # #+latex_header: \renewcommand{\headrule}{\vbox to 0pt{\hboxto\headwidth{\dotfill}\vss}}
+#+latex_header: \fancyheadoffset{0mm}
+#+latex_header: \newbox\FHline
+#+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
+#+latex_header:   \hspace*{0mm}%
+#+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
+#+latex_header: }
+#+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
