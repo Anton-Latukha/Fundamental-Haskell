@@ -5184,6 +5184,17 @@ When type constructor and data constructor have the same name.
 
 Theoretically if person knows the rules - /*/ can be solved, because in Haskell type and data declaration have different places of use.
 
+*** <<<Kind>>> :drill:
+:properties:
+:ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
+:end:
+
+Kind -> Type -> Data
+
+**** /*/
+
+<<<Kinds>>>
+
 ** <<<Declaration>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
@@ -6048,17 +6059,6 @@ main = twoBinds
 #+end_src
 
 Sequencing is achieved by compilation of effects performing only while they recieve the sugared-in & passed around the =RealWorld= fake type value, that value in the every computation gets the new "value" and then passed to the next requestes computation. But special thing is about this parameter, this =RealWorld= type value passed, but never looked at. GHC realizes, since value is never used, - it means value and type can be equated to =()= and moreover reduced from the code, and sequencing stays.
-
-** <<<Kind>>> :drill:
-:properties:
-:ID:       56fd7e68-49b4-496f-bc0b-bcdd8ee3fa57
-:end:
-
-Kind -> Type -> Data
-
-*** /*/
-
-<<<Kinds>>>
 
 ** <<<Lambda calculus>>> :drill:
 :properties:
