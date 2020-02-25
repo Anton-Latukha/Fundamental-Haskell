@@ -54,13 +54,17 @@
 #+PROPERTY: header-args:latex+ :exports results :fit yes
 # #OPTIONS: tex:imagemagick
 # #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
+# Enable fancy page style package
 #+latex_header: \usepackage{fancyhdr}
 #+latex_header: \setlength{\headheight}{15.2pt}
+# Enable fancy page style: Documentation: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
 #+latex_header: \pagestyle{fancy}
+# Add complex heading
 #+latex_header: \pagestyle{headings,chapters,sections,subsections}
 #+latex_header: \setlength\marginparwidth{0mm}
 #+latex_header: \setlength\textwidth{455pt}
 #+latex_header: \setlength\textheight{661pt}
+# Footer center
 #+latex_header: \fancyfoot[C]{\thepage}
 #+latex_header: \setlength\footskip{0mm}
 #+latex_header: \usepackage{booktabs}
@@ -68,18 +72,23 @@
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}
+# Package aligns the geometry right
 #+latex_header: \usepackage{geometry}
 # #+latex_header: \geometry{a4paper, margin=0pt, left=20mm, right=10mm, top=15mm, bottom=15mm}
 #+latex_header: \geometry{bottom=28mm}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
+# Offset for header
 #+latex_header: \fancyheadoffset{0mm}
+# Calculate the box for the header
 #+latex_header: \newbox\FHline
 #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
 #+latex_header:   \hspace*{0mm}%
 #+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
 #+latex_header: }
+# Set rule for header line box
 #+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
+# Paragraph first line indentation
 #+latex_header: \setlength{\parindent}{0mm}
 
 * Introduction
