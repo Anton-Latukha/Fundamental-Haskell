@@ -61,8 +61,7 @@
 #+latex_header: \setlength\marginparwidth{0mm}
 #+latex_header: \setlength\textwidth{455pt}
 #+latex_header: \setlength\textheight{661pt}
-# #+latex_header: \fancyhead[R]{\thepage}
-#+latex_header: \fancyfoot[C]{}
+#+latex_header: \fancyfoot[C]{\thepage}
 #+latex_header: \setlength\footskip{0mm}
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{xcolor}
