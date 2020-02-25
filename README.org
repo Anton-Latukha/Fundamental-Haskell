@@ -3727,7 +3727,7 @@ Point.
 
 Can have properties.
 
-Often abstracts mathematical structure.
+Often abstracts sometging, for example some structure, maybe mathematical.
 
 **** /*/
 
