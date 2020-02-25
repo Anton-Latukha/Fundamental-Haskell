@@ -80,6 +80,7 @@
 #+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
 #+latex_header: }
 #+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
+#+latex_header: \setlength{\parindent}{0mm}
 
 * Introduction
 
