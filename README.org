@@ -1,7 +1,7 @@
 #+title: Fundamental Haskell notes
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
-#+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
-#+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+# #+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+# #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 #+startup: latexpreview
 #+startup: entitiespretty
 #+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
