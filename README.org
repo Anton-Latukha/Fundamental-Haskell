@@ -15,7 +15,6 @@
 #+toc: headlines 10
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
-#+latex_header: \documentclass[11pt]{article}
 #+latex_header: \usepackage[utf8]{inputenc}
 #+latex_header: \usepackage{fixltx2e}
 #+latex_header: \usepackage{float}
