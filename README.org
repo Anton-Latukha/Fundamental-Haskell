@@ -1,5 +1,6 @@
 #+title: Fundamental Haskell notes
 #+author: Anton Latukha
+#+creator: Self-published by Anton Latukha
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # #+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
 # #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
