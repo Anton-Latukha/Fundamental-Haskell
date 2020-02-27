@@ -95,6 +95,7 @@
 #+description: Fundamental notes on Haskell, Category theory and related fields.
 #+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
 #+latex_header: \usepackage{fancyvrb}  % Verbatim LaTeX handler&transformer, `minted` requires it.
+#+latex_header: \usepackage{fvextra}
 
 * Introduction
 
