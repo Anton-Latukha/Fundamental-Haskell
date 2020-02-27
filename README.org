@@ -2217,7 +2217,7 @@ getLine >>= \name -> putStrLn "age pls:"
 Also very neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
 And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
 #+begin_src haskell
-printOneOf ∷ Bool → IO ()
+printOneOf :: Bool -> IO ()
 printOneOf False = putStr "1"
 printOneOf  True = putStr "2"
 
@@ -2227,7 +2227,7 @@ quant = (>>=) (randomRIO (False, True))
 recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
 recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
 
-main ∷ IO ()
+main :: IO ()
 main = recursePrintOneOf (quant) $ printOneOf
 #+end_src
 
