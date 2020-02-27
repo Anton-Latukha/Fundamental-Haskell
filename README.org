@@ -94,10 +94,10 @@
 #+latex_header: \setlength{\parindent}{0mm}
 #+description: Fundamental notes on Haskell, Category theory and related fields.
 #+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
-#+latex_header: \usepackage{fancyvrb}  % Verbatim LaTeX handler&transformer, `minted` requires it.
-#+latex_header: \usepackage{fvextra}
-#+latex_header: \usepackage{minted}
-#+latex_header: \usemintedstyle{rainbow_dash}
+#+latex_header: \usepackage{fancyvrb}    % Verbatim LaTeX handler&transformer, `minted` requires it.
+#+latex_header: \usepackage{fvextra}    % Official extension to `fancyvrb`, can be used by `minted` in some cases.
+#+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
+#+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
 
 * Introduction
 
