@@ -95,47 +95,6 @@
 #+description: Fundamental notes on Haskell, Category theory and related fields.
 #+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
 #+latex_header: \usepackage{fancyvrb}  % Verbatim LaTeX handler&transformer, `minted` requires it.
-# #+latex_header: \usepackage{listings}
-# #+latex_header: \lstnewenvironment{common-lispcode}
-# #+latex_header: {\lstset{language={Lisp},basicstyle={\ttfamily\footnotesize},frame=single,breaklines=true}}
-# #+latex_header: {}
-# #+latex_header: \newcommand{\haskell}[1]{
-# #+latex_header: \lstset{
-# # #+latex_header:   columns=flexible,
-# #+latex_header:   abovecaptionskip={0.2in},            % Space above caption
-# #+latex_header:   basicstyle={\small\sffamily},
-# #+latex_header:   belowcaptionskip={0.2in},            % Space below caption
-# #+latex_header:   belowcaptionskip={\bigskipamount},
-# #+latex_header:   breakatwhitespace={true},         % sets if automatic breaks should only happen at whitespace
-# #+latex_header:   breakautoindent={true},
-# #+latex_header:   breakindent={20pt},
-# #+latex_header:   breaklines={true},                % sets automatic line breaking
-# #+latex_header:   captionpos={b},
-# #+latex_header:   commentstyle={\it\color{blue}},
-# #+latex_header:   emphstyle={\bf},
-# #+latex_header:   extendedchars={true},
-# #+latex_header:   fancyvrb={true},
-# #+latex_header:   fontadjust={true},
-# # #+latex_header:   identifierstyle={\color{identifierColor}},
-# #+latex_header:   inputencoding={utf8},
-# #+latex_header:   keywordstyle={\bfseries\rmfamily\color{purple}},
-# #+latex_header:   language={Haskell},
-# #+latex_header:   linewidth={\textwidth},
-# #+latex_header:   numbers={left},
-# #+latex_header:   numbersep={5pt},
-# #+latex_header:   numberstyle={\ttfamily\tiny\color[gray]{0.3}},
-# #+latex_header:   showspaces={false},               % show spaces adding particular underscores
-# #+latex_header:   showstringspaces={false},         % underline spaces within strings
-# #+latex_header:   showtabs={false},                 % show tabs within strings adding particular underscores
-# #+latex_header:   stepnumber={1},
-# #+latex_header:   stringstyle={\mdseries\rmfamily\color{violet}},
-# #+latex_header:   tabsize={2},
-# #+latex_header:   xleftmargin={2pt},
-# #+latex_header: }
-# #+latex_header: \lstinline{#1}
-# #+latex_header: }
-# #+latex_header: \newcommand{\haskell}[1]{\lstset{language={Haskell},basicstyle={\ttfamily\small}}\lstinline{#1}}
-# #+latex_header: \newcommand{\python}[1]{\lstset{language={Python},basicstyle={\ttfamily\small}}\lstinline{#1}}
 
 * Introduction
 
