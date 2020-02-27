@@ -97,6 +97,7 @@
 #+latex_header: \usepackage{fancyvrb}  % Verbatim LaTeX handler&transformer, `minted` requires it.
 #+latex_header: \usepackage{fvextra}
 #+latex_header: \usepackage{minted}
+#+latex_header: \usemintedstyle{rainbow_dash}
 
 * Introduction
 
