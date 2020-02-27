@@ -3305,11 +3305,11 @@ SCHT: <2020-03-13 Fri>
 Arrow between two objects inside a category.
 
 On a level under objects: is most often means a map (relation) that translates from one mathematical structure to another (called (somewhat) "structure-preserving", but that still means that translation can be lossy and irrevertable).
+Morphism can be anything.
 
 Morphism is a generalization (\( f(x*y) \equiv f(x) \diamond f(y) \)) of homomorphism (\( f(x*y) \equiv f(x) * f(y) \)).
 Under morphism almost always is the meaning of homomorphism-like properties.
 
-Morphism can be anything.
 
 Morphism needs to correspond to function requirements to be a function.
 
