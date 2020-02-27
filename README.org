@@ -96,6 +96,7 @@
 #+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
 #+latex_header: \usepackage{fancyvrb}  % Verbatim LaTeX handler&transformer, `minted` requires it.
 #+latex_header: \usepackage{fvextra}
+#+latex_header: \usepackage{minted}
 
 * Introduction
 
