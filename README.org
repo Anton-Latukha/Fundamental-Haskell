@@ -7885,6 +7885,17 @@ Haskell:
 Void
 #+end_src
 
+****** Value :drill:
+:PROPERTIES:
+:ID:       04e4ee4a-a53e-4ce6-b58c-5a315ff077d3
+:END:
+
+What object abstracts. Without object identity, so implies /*/ immutability.
+
+******* /*/
+Value semantics
+Values
+
 **** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
