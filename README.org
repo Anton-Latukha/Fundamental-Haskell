@@ -7811,7 +7811,9 @@ Point.
 
 Can have properties.
 
-Often abstracts sometging, for example some structure, maybe mathematical.
+Often abstracts something, for example some structure, maybe mathematical.
+
+Objects without process are in constant state.
 
 ****** /*/
 
