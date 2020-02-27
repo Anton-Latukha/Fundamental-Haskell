@@ -1267,7 +1267,7 @@ Primitives:
 
 Properties (or axioms):
   1. Associativity of morphisms: \( {h} \circ ({g} \circ {f}) \equiv ({h} \circ {g}) \circ {f} \ \ | \ \ {f}_{a \to b}, {g}_{b \to c}, {h}_{c \to d} \).
-  2. Every object has (two-sided) identity morphism ( & in fact - exactly one): \( {1}_x \circ {f}_{a \to x} \equiv {f}_{a \to x}, \ \ {g}_{x \to b} \circ {1_x} \equiv {g}_{x \to b } \ \ | \ \ \forall x \ \exists {1}_{x}, \forall {f}_{a \to x},  \forall {g}_{x \to b} \).
+  2. Every object has (two-sided) identity morphism (& in fact - exactly one): \( {1}_x \circ {f}_{a \to x} \equiv {f}_{a \to x}, \ \ {g}_{x \to b} \circ {1_x} \equiv {g}_{x \to b } \ \ | \ \ \forall x \ \exists {1}_{x}, \forall {f}_{a \to x},  \forall {g}_{x \to b} \).
   3. Principle of compositionality.
 
 From these axioms, can be proven that there is exactly one identity morphism for every object.
