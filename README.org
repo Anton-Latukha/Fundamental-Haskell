@@ -3302,9 +3302,7 @@ SCHT: <2020-03-13 Fri>
 :end:
 
 μορφή /morphe/ form
-Arrow between two objects in a category.
-
-General description: Arrow from source to target. Denotes something.
+Arrow between two objects inside a category.
 
 On a level of objects: is probably structure-preserving map from one mathematical structure to another of the same type.
 
