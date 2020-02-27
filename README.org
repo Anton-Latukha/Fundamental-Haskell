@@ -1,9 +1,8 @@
 #+title: Fundamental Haskell notes
 #+author: Anton Latukha
 #+creator: Self-published by Anton Latukha
-#+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
-#+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
-#+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+#+description: Fundamental notes on Haskell, Category theory and related fields.
+#+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
 #+startup: latexpreview
 #+startup: entitiespretty
 #+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
@@ -67,30 +66,27 @@
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}
-# Package aligns the geometry right
-#+latex_header: \usepackage{geometry}
-# #+latex_header: \geometry{a4paper, margin=0pt, left=20mm, right=10mm, top=15mm, bottom=15mm}
+#+latex_header: \usepackage{geometry}    # Package aligns the geometry right, probably required by other page offset packages
 #+latex_header: \geometry{bottom=28mm}
 #+latex_header: \setcounter{secnumdepth}{100}
 #+latex_header: \setcounter{tocdepth}{100}
-# Offset for header
-#+latex_header: \fancyheadoffset{0mm}
-# Calculate the box for the header
-#+latex_header: \newbox\FHline
+#+latex_header: \fancyheadoffset{0mm}    % Offset for header
+#+latex_header: \newbox\FHline    % Calculate the box for the header
 #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
 #+latex_header:   \hspace*{0mm}%
 #+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
 #+latex_header: }
-# Set rule for header line box
-#+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}
-# Paragraph first line indentation
-#+latex_header: \setlength{\parindent}{0mm}
-#+description: Fundamental notes on Haskell, Category theory and related fields.
-#+subtitle: Haskell handbook encyclopedia for learning and undersatanding fundamentals.
+#+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}    % Set rule for header line box
+#+latex_header: \setlength{\parindent}{0mm}    % Paragraph first line indentation
 #+latex_header: \usepackage{fancyvrb}    % Verbatim LaTeX handler&transformer, `minted` requires it.
 #+latex_header: \usepackage{fvextra}    % Official extension to `fancyvrb`, can be used by `minted` in some cases.
 #+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
 #+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
+# Enable MathJax
+#+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
+# Enable MathJax TiKz
+#+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+#+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 
 * Introduction
 
