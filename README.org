@@ -7889,6 +7889,7 @@ Void
 :PROPERTIES:
 :ID:       04e4ee4a-a53e-4ce6-b58c-5a315ff077d3
 :END:
+#  2020-02-27: NOTE: Org-mode seems to break on radio target having 'Value' value.
 
 What object abstracts. Without object identity, so implies /*/ immutability.
 
