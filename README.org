@@ -3304,9 +3304,9 @@ SCHT: <2020-03-13 Fri>
 μορφή /morphe/ form
 Arrow between two objects inside a category.
 
-On a level under objects: is most often means a map (relation) that translates from one mathematical structure to another (called (somewhat) "structure-preserving", but that still means that translation can be lossy and irrevertable).
 Morphism can be anything.
 
+In most usage, on a level under uder the objects: /*/ is most often means a map (relation) that translates from one mathematical structure (that source object represents) to another (that target object represents) (that is called (somewhat, somehow) "structure-preserving", but that phrase still means that translation can be lossy and irrevertable, so it is only bear reassemblence of preservation), and in the end the morphism can be anything and not hold to this conditions.
 
 Morphism is a generalization (\( f(x*y) \equiv f(x) \diamond f(y) \)) of homomorphism (\( f(x*y) \equiv f(x) * f(y) \)).
 Under morphism people almost always mean the meaning of homomorphism-like properties.
