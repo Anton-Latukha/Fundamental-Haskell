@@ -1160,8 +1160,8 @@ Algebraic structures include groups, rings, fields, and lattices. More complex s
 | Inverse Semigroup | \check       | \check             |          | \check             |               |
 | Monoid            | \check       | \check             | \check        |               |               |
 | Group             | \check       | \check             | \check        | \check             |               |
-| Abelian group     | \check       | \check             | \check        | \check             | \check             |
 | Ring              | \check       | \check             | \check        | \check             | under +       |
+| Abelian group     | \check       | \check             | \check        | \check             | \check             |
 
 **** /*/
 
