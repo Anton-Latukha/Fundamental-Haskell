@@ -7821,6 +7821,23 @@ Objects without process are in constant state.
 <<<Structures>>>
 <<<Objects>>>
 
+****** <<<Arrow>>> :drill:
+:PROPERTIES:
+:ID:       540e4db5-274a-4c09-b886-c81fa4d4f729
+:END:
+
+Second level of absolute abstraction.
+
+Arrow.
+
+Can have target, can have source. Both often are objects.
+
+Often abstracts process.
+
+Can have properties.
+******* /*/
+<<<Arrows>>>
+
 ****** <<<Terminal object>>> :drill:
 SCHT: <2020-03-06 Fri>
 :properties:
