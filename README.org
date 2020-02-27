@@ -23,7 +23,7 @@
 #+latex_header: \usepackage[normalem]{ulem}
 #+latex_header: \usepackage{marvosym}
 #+latex_header: \usepackage{wasysym}
-#+latex_header: \tolerance=1000
+#+latex_header: \tolerance={1000}
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usetikzlibrary{cd}
@@ -53,21 +53,14 @@
 #+latex_header: \setlist[enumerate,10]{label=$\alph*.$}
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \usepackage{inputenc}
-# #+PROPERTY: header-args:latex+ :exports results :fit yes
-# #OPTIONS: tex:imagemagick
-# #PROPERTY: header-args:latex+ :imagemagick yes :fit yes
-# Enable fancy page style package
-#+latex_header: \usepackage{fancyhdr}
-#+latex_header: \setlength{\headheight}{15.2pt}
-# Enable fancy page style: Documentation: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
-#+latex_header: \pagestyle{fancy}
-# Add complex heading
-#+latex_header: \pagestyle{headings,chapters,sections,subsections}
+#+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package
+#+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
+#+latex_header: \pagestyle{fancy}    % Enable fancy page style: Documentation: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+#+latex_header: \pagestyle{headings,chapters,sections,subsections}    % Add complex heading
 #+latex_header: \setlength\marginparwidth{0mm}
 #+latex_header: \setlength\textwidth{455pt}
 #+latex_header: \setlength\textheight{661pt}
-# Footer center
-#+latex_header: \fancyfoot[C]{\thepage}
+#+latex_header: \fancyfoot[C]{\thepage}    % Footer center
 #+latex_header: \setlength\footskip{0mm}
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{xcolor}
