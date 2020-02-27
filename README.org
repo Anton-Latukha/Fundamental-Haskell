@@ -7840,6 +7840,7 @@ Also alias in Category Theory for "morphism", thou theory emposes properties.
 
 ******* /*/
 <<<Arrows>>>
+<<<Process>>>
 
 ****** <<<Terminal object>>> :drill:
 SCHT: <2020-03-06 Fri>
