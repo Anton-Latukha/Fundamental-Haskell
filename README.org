@@ -3306,10 +3306,10 @@ Arrow between two objects inside a category.
 
 Morphism can be anything.
 
-In most usage, on a level under uder the objects: /*/ is most often means a map (relation) that translates from one mathematical structure (that source object represents) to another (that target object represents) (that is called (somewhat, somehow) "structure-preserving", but that phrase still means that translation can be lossy and irrevertable, so it is only bear reassemblence of preservation), and in the end the morphism can be anything and not hold to this conditions.
-
 Morphism is a generalization (\( f(x*y) \equiv f(x) \diamond f(y) \)) of homomorphism (\( f(x*y) \equiv f(x) * f(y) \)).
 Since general morphisms not so much often ment and discussed - under morphism people almost always really mean the meaning of homomorphism-like properties, hense they discuss the algebraic structures (types) and homomorphisms between them.
+
+In most usage, on a level under uder the objects: /*/ is most often means a map (relation) that translates from one mathematical structure (that source object represents) to another (that target object represents) (that is called (somewhat, somehow) "structure-preserving", but that phrase still means that translation can be lossy and irrevertable, so it is only bear reassemblence of preservation), and in the end the morphism can be anything and not hold to this conditions.
 
 Morphism needs to correspond to function requirements to be it.
 
