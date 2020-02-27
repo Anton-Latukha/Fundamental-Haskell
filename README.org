@@ -3311,7 +3311,7 @@ Under morphism almost always is the meaning of homomorphism-like properties.
 
 Morphism can be anything.
 
-If morphism corresponds to function requirements - then it is a function.
+Morphism needs to correspond to function requirements to be a function.
 
 **** /*/
 
