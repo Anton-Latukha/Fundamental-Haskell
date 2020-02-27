@@ -7835,6 +7835,9 @@ Can have target, can have source. Both often are objects.
 Often abstracts process.
 
 Can have properties.
+
+Also alias in Category Theory for "morphism", thou theory emposes properties.
+
 ******* /*/
 <<<Arrows>>>
 
