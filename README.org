@@ -7562,54 +7562,6 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 <<<Psi-combinator>>>
 <<<On-combinator>>>
 
-** <<<Quantifier>>> :drill:
-SCHT: <2020-08-23 Sun>
-:properties:
-:ID:       ac758691-4dc3-4e6c-9f18-59793263a845
-:DRILL_LAST_INTERVAL: 267.3
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:16]
-:end:
-
-Specifies the quantity of specimens.
-
-Two most common quantifiers \( \forall \) (Forall) and \( \exists \) (Exists).
-\( \exists ! \) - one and only one (exists only unique).
-
-*** /*/
-
-<<<Quantification>>>
-<<<Quantifiers>>>
-<<<Quantified>>>
-
-*** <<<Forall quantifier>>> :drill:
-SCHT: <2020-02-05 Wed>
-:properties:
-:ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
-:DRILL_LAST_INTERVAL: 67.5302
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:09]
-:end:
-
-Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
-ScopedTypeVariables
-RankNTypes
-ExistentialQuantification
-
-**** /*/
-
-<<<Forall>>>
-
 ** <<<Referential transparency>>> :drill:
 SCHT: <2020-02-09 Sun>
 :properties:
@@ -8143,6 +8095,54 @@ Non-self-referencing definition.
 ---
 
 /Antonym - Impredicative./
+
+**** <<<Quantifier>>> :drill:
+SCHT: <2020-08-23 Sun>
+:properties:
+:ID:       ac758691-4dc3-4e6c-9f18-59793263a845
+:DRILL_LAST_INTERVAL: 267.3
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:16]
+:end:
+
+Specifies the quantity of specimens.
+
+Two most common quantifiers \( \forall \) (Forall) and \( \exists \) (Exists).
+\( \exists ! \) - one and only one (exists only unique).
+
+***** /*/
+
+<<<Quantification>>>
+<<<Quantifiers>>>
+<<<Quantified>>>
+
+***** <<<Forall quantifier>>> :drill:
+SCHT: <2020-02-05 Wed>
+:properties:
+:ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
+:DRILL_LAST_INTERVAL: 67.5302
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:09]
+:end:
+
+Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
+ScopedTypeVariables
+RankNTypes
+ExistentialQuantification
+
+****** /*/
+
+<<<Forall>>>
 
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
