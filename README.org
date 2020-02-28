@@ -5350,16 +5350,6 @@ SCHT: <2020-02-29 Sat>
 
 Composable expression.
 
-** <<<First-class>>> :drill:
-:properties:
-:ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
-:end:
-
-Means /it/:
-  * Can be used as value.
-  * Passed as an argument.
-From 1&2 -> /it/ can include itself.
-
 ** <<<Function>>> :drill:
 SCHT: <2020-03-10 Tue>
 :properties:
@@ -7659,6 +7649,16 @@ Also see <<<Argument>>>.
 ****** /*/
 
 <<<Function argument>>>
+
+***** <<<First-class>>> :drill:
+:properties:
+:ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
+:end:
+
+Means /it/:
+  * Can be used as value.
+  * Passed as an argument.
+From 1&2 -> /it/ can include itself.
 
 *** <<<Denotational semantics>>> :drill:
 SCHT: <2020-07-02 Thu>
