@@ -8131,6 +8131,19 @@ Can be:
 
 Has amalgamation with Functional Reactive Programming.
 
+**** <<<Linear>>> :drill:
+:properties:
+:ID:       a1c01464-061f-46a0-b08f-4b98d95714d0
+:end:
+
+Values consumed once or not used.
+
+=x^2= consumes/uses =x= two times =(x*x)=.
+
+***** /*/
+
+<<<Linearity>>>
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -10286,19 +10299,6 @@ Full strongly connected subgraph of some graph.
 <<<Strongly connected components>>>
 <<<Strongly-connected component>>>
 <<<Strongly-connected components>>>
-
-** <<<Linear>>> :drill:
-:properties:
-:ID:       a1c01464-061f-46a0-b08f-4b98d95714d0
-:end:
-
-Values consumed once or not used.
-
-=x^2= consumes/uses =x= two times =(x*x)=.
-
-*** /*/
-
-<<<Linearity>>>
 
 ** <<<Tagless-final>>> :drill:
 :PROPERTIES:
