@@ -7505,26 +7505,6 @@ xFlagsDeps = [
 #+end_src
 It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
 
-** <<<Predicative>>> :drill:
-SCHT: <2020-02-10 Mon>
-:properties:
-:ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 17.7681
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 11
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 2.24
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
-:end:
-
-Non-self-referencing definition.
-
----
-
-/Antonym - Impredicative./
-
 ** <<<Compositionality>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
@@ -8143,6 +8123,26 @@ Values consumed once or not used.
 ***** /*/
 
 <<<Linearity>>>
+
+**** <<<Predicative>>> :drill:
+SCHT: <2020-02-10 Mon>
+:properties:
+:ID:       aee54dbf-2387-403e-9589-f93bcb416963
+:DRILL_LAST_INTERVAL: 17.7681
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 11
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.182
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
+:end:
+
+Non-self-referencing definition.
+
+---
+
+/Antonym - Impredicative./
 
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
