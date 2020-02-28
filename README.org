@@ -7559,29 +7559,6 @@ So:
 
 <<<Referentially transparent>>>
 
-** <<<Relation>>> :drill:
-SCHT: <2020-08-12 Wed>
-:properties:
-:ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
-:DRILL_LAST_INTERVAL: 173.9763
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 7
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.286
-:DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:30]
-:end:
-
-Relationship between two objects.
-By default it is not directed and not limited.
-In Set theory: some subset of a Cartesian product between sets of objects.
-
-*** /*/
-
-<<<Relations>>>
-<<<Relationship>>>
-
 ** <<<Semantics>>> :drill:
 SCHT: <2020-03-15 Sun>
 :properties:
@@ -7659,6 +7636,29 @@ Means /it/:
   * Can be used as value.
   * Passed as an argument.
 From 1&2 -> /it/ can include itself.
+
+**** <<<Relation>>> :drill:
+SCHT: <2020-08-12 Wed>
+:properties:
+:ID:       ab1fec36-4201-4970-a717-70d56aa09e1b
+:DRILL_LAST_INTERVAL: 173.9763
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.286
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:30]
+:end:
+
+Relationship between two objects.
+By default it is not directed and not limited.
+In Set theory: some subset of a Cartesian product between sets of objects.
+
+***** /*/
+
+<<<Relations>>>
+<<<Relationship>>>
 
 *** <<<Denotational semantics>>> :drill:
 SCHT: <2020-07-02 Thu>
