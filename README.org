@@ -10085,6 +10085,31 @@ SCHT: <2020-03-22 Sun>
 
 Read-eval-print loop, aka interactive shell.
 
+*** <<<Domain specific language>>> :drill:
+:PROPERTIES:
+:ID:       519f588a-5a5d-4426-b39f-671c2ae6f4f7
+:END:
+
+Language design/fitted for particular domain of application. Mainly should be Turing incomplete, since general-purpose language implies Turing completeness.
+
+**** /*/
+
+<<<Domain-specific language>>>
+<<<DSL>>>
+
+**** <<<Embedded domain specific language>>>
+
+DSL used inside outer language.
+
+Two levels of embedding:
+
+  * Shallow: DSL translates into Haskell directly
+  * Deep: Between DSL and Haskell there is a data structure that reflects the expression tree, AKA stores the syntax tree.
+
+***** /*/
+
+<<<eDSL>>>
+
 ** <<<Graph theory>>>
 :properties:
 :ID:       e8c25704-bba0-40b2-8ee1-a99014ba7a9f
@@ -10274,31 +10299,6 @@ An ordered, rooted syntax tree that represents the syntactic structure of a stri
 
 <<<Parse tree>>>
 <<<Derivation tree>>>
-
-** <<<Domain specific language>>> :drill:
-:PROPERTIES:
-:ID:       519f588a-5a5d-4426-b39f-671c2ae6f4f7
-:END:
-
-Language design/fitted for particular domain of application. Mainly should be Turing incomplete, since general-purpose language implies Turing completeness.
-
-*** /*/
-
-<<<Domain-specific language>>>
-<<<DSL>>>
-
-*** <<<Embedded domain specific language>>>
-
-DSL used inside outer language.
-
-Two levels of embedding:
-
-  * Shallow: DSL translates into Haskell directly
-  * Deep: Between DSL and Haskell there is a data structure that reflects the expression tree, AKA stores the syntax tree.
-
-**** /*/
-
-<<<eDSL>>>
 
 ** <<<Tagless-final>>> :drill:
 :PROPERTIES:
