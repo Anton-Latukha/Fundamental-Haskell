@@ -8336,6 +8336,19 @@ Set S and two binary operators + \times:
 
 Observable action.
 
+**** <<<Bisimulation>>> :drill:
+:PROPERTIES:
+:ID:       efecab45-bf59-4193-8672-a45d06493368
+:END:
+
+When systems have exact external behaviour so for observer they are the same.
+
+Binary relation between state transition systems that match each other's moves.
+
+***** /*/
+
+<<<Bisimilar>>>
+
 *** <<<Content word>>> :drill:
 SCHT: <2020-08-02 Sun>
 :properties:
@@ -10286,19 +10299,6 @@ Can be:
   ** =[(realtime, event)]=
 
 Has amalgamation with Functional Reactive Programming.
-
-** <<<Bisimulation>>> :drill:
-:PROPERTIES:
-:ID:       efecab45-bf59-4193-8672-a45d06493368
-:END:
-
-When systems have exact external behaviour so for observer they are the same.
-
-Binary relation between state transition systems that match each other's moves.
-
-*** /*/
-
-<<<Bisimilar>>>
 
 ** <<<Tagless-final>>> :drill:
 :PROPERTIES:
