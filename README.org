@@ -5214,13 +5214,6 @@ main = twoBinds
 
 Sequencing is achieved by compilation of effects performing only while they recieve the sugared-in & passed around the =RealWorld= fake type value, that value in the every computation gets the new "value" and then passed to the next requestes computation. But special thing is about this parameter, this =RealWorld= type value passed, but never looked at. GHC realizes, since value is never used, - it means value and type can be equated to =()= and moreover reduced from the code, and sequencing stays.
 
-** <<<Effect>>> :drill:
-:properties:
-:ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
-:end:
-
-Observable action.
-
 ** <<<Evaluation>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
@@ -8210,6 +8203,13 @@ Set S and two binary operators + \times:
 <<<Distributive axiom>>>
 <<<Distributive law>>>
 <<<Distributive>>>
+
+**** <<<Effect>>> :drill:
+:properties:
+:ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
+:end:
+
+Observable action.
 
 *** <<<Argument>>> :drill:
 SCHT: <2020-03-07 Sat>
