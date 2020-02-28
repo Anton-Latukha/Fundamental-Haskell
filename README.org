@@ -8069,6 +8069,14 @@ Type =()= holds only self-representation constructor =()=, & constructor holds n
 
 Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
 
+**** <<<Nullary>>> :drill:
+:properties:
+:ID:       009d9f43-81a1-4e7e-a5be-ad706a704497
+:end:
+
+Takes no entries (for example has the arity of zero).
+Has the trivial domain.
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -8760,14 +8768,6 @@ main = do
 :end:
 
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-
-** <<<Nullary>>> :drill:
-:properties:
-:ID:       009d9f43-81a1-4e7e-a5be-ad706a704497
-:end:
-
-Takes no entries (for example has the arity of zero).
-Has the trivial domain.
 
 ** Logic
 :properties:
