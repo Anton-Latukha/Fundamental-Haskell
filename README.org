@@ -8478,13 +8478,6 @@ Subset of the cartesian product of two sets.
 ***** /*/
 <<<Pullbacks>>>
 
-** <<<Shrinking>>> :drill:
-:properties:
-:ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
-:end:
-
-Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-
 ** <<<Spine>>> :drill:
 SCHT: <2020-07-07 Tue>
 :properties:
@@ -8730,6 +8723,13 @@ main = do
 1. Pick the right language/stack to implement features.
 2. How expensive breakage can be.
 3. Pick the right tools to test this.
+
+*** <<<Shrinking>>> :drill:
+:properties:
+:ID:       bebb2732-e73d-4d2b-92e1-090ffa883c77
+:end:
+
+Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
 
 ** <<<Uncurry>>> :drill:
 :properties:
