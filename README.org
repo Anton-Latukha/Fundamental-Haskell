@@ -7669,22 +7669,6 @@ Is not directed and not limited.
 <<<Relations>>>
 <<<Relationship>>>
 
-** <<<REPL>>> :drill:
-SCHT: <2020-03-22 Sun>
-:properties:
-:ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:26]
-:end:
-
-Read-eval-print loop, aka interactive shell.
-
 ** <<<Semantics>>> :drill:
 SCHT: <2020-03-15 Sun>
 :properties:
@@ -10084,6 +10068,22 @@ Set of action rules that can simulate any Turing machine.
 <<<Turing incompleteness>>>
 <<<Turing completeness>>>
 <<<Computationally universal>>>
+
+*** <<<REPL>>> :drill:
+SCHT: <2020-03-22 Sun>
+:properties:
+:ID:       f77f5734-1b15-4192-be41-f0ee8ac15441
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:26]
+:end:
+
+Read-eval-print loop, aka interactive shell.
 
 ** <<<Graph theory>>>
 :properties:
