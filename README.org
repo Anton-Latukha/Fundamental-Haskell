@@ -8077,6 +8077,37 @@ Haskell code always should recieve something back, hense nothing, emptiness, voi
 Takes no entries (for example has the arity of zero).
 Has the trivial domain.
 
+**** <<<Syntax tree>>> :drill:
+:PROPERTIES:
+:ID:       f4312216-c6b9-461f-bf8e-ef446a5cbcc1
+:END:
+
+Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular expression/implementation (or said).
+
+***** <<<Abstract syntax tree>>> :drill:
+:PROPERTIES:
+:ID:       c79cc094-a057-42b1-aa3d-05304de57c2e
+:END:
+
+"Abstract" since does not represent every detail of the syntax (ex. parentheses), but rather concentrates on structure and content.
+
+Widely used in compilers to check the code structure for accuracy and coherence.
+
+****** /*/
+
+<<<AST>>>
+
+***** <<<Concrete syntax tree>>>
+
+An ordered, rooted syntax tree that represents the syntactic structure of a string according to some context-free grammar.
+
+"Concrete" since (in contrast to "abstract") - concretely reflects the syntax of the input language.
+
+****** /*/
+
+<<<Parse tree>>>
+<<<Derivation tree>>>
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -10268,37 +10299,6 @@ Binary relation between state transition systems that match each other's moves.
 *** /*/
 
 <<<Bisimilar>>>
-
-** <<<Syntax tree>>> :drill:
-:PROPERTIES:
-:ID:       f4312216-c6b9-461f-bf8e-ef446a5cbcc1
-:END:
-
-Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular expression/implementation (or said).
-
-*** <<<Abstract syntax tree>>> :drill:
-:PROPERTIES:
-:ID:       c79cc094-a057-42b1-aa3d-05304de57c2e
-:END:
-
-"Abstract" since does not represent every detail of the syntax (ex. parentheses), but rather concentrates on structure and content.
-
-Widely used in compilers to check the code structure for accuracy and coherence.
-
-**** /*/
-
-<<<AST>>>
-
-*** <<<Concrete syntax tree>>>
-
-An ordered, rooted syntax tree that represents the syntactic structure of a string according to some context-free grammar.
-
-"Concrete" since (in contrast to "abstract") - concretely reflects the syntax of the input language.
-
-**** /*/
-
-<<<Parse tree>>>
-<<<Derivation tree>>>
 
 ** <<<Tagless-final>>> :drill:
 :PROPERTIES:
