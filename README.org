@@ -8108,6 +8108,29 @@ An ordered, rooted syntax tree that represents the syntactic structure of a stri
 <<<Parse tree>>>
 <<<Derivation tree>>>
 
+**** <<<Stream>>> :drill:
+:properties:
+:ID:       da9e4972-1cef-48f6-9878-8ec79302b759
+:end:
+
+/*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
+
+\( E \ | \ X \to (X \times A + 1) \), the set (or object) of streams on A (final coalgebra \( A_{*} \) of \( E \)).
+
+=cycle= is one of stream functions.
+#+begin_src haskell
+a = (cycle [Nothing, Nothing, Just "Fizz"])
+b = (cycle [Nothing, Nothing, Nothing, Nothing, Just "Buzz"])
+#+end_src
+
+Can be:
+  * indexed, timeless, with current object
+  * timed:
+  ** =[(timescale, event)]=
+  ** =[(realtime, event)]=
+
+Has amalgamation with Functional Reactive Programming.
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -10276,29 +10299,6 @@ Values consumed once or not used.
 *** /*/
 
 <<<Linearity>>>
-
-** <<<Stream>>> :drill:
-:properties:
-:ID:       da9e4972-1cef-48f6-9878-8ec79302b759
-:end:
-
-/*/ an infinite sequence that forgets previous objects, and remembers only currently relevant objects.
-
-\( E \ | \ X \to (X \times A + 1) \), the set (or object) of streams on A (final coalgebra \( A_{*} \) of \( E \)).
-
-=cycle= is one of stream functions.
-#+begin_src haskell
-a = (cycle [Nothing, Nothing, Just "Fizz"])
-b = (cycle [Nothing, Nothing, Nothing, Nothing, Just "Buzz"])
-#+end_src
-
-Can be:
-  * indexed, timeless, with current object
-  * timed:
-  ** =[(timescale, event)]=
-  ** =[(realtime, event)]=
-
-Has amalgamation with Functional Reactive Programming.
 
 ** <<<Tagless-final>>> :drill:
 :PROPERTIES:
