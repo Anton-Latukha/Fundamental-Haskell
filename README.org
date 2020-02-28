@@ -8046,6 +8046,29 @@ SCHT: <2020-03-07 Sat>
 
 Broader parent class.
 
+**** <<<Unit>>> :drill:
+SCHT: <2020-06-30 Tue>
+:properties:
+:ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
+:DRILL_LAST_INTERVAL: 168.3498
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:59]
+:end:
+
+Represents existence. Denoted as empty sequence.
+#+begin_src haskell
+()
+#+end_src
+
+Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
+
+Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-03-23 Mon>
 :properties:
@@ -8737,29 +8760,6 @@ main = do
 :end:
 
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-
-** <<<Unit>>> :drill:
-SCHT: <2020-06-30 Tue>
-:properties:
-:ID:       8c2d205c-140f-4aa6-bcd4-8563433879d9
-:DRILL_LAST_INTERVAL: 168.3498
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:59]
-:end:
-
-Represents existence. Denoted as empty sequence.
-#+begin_src haskell
-()
-#+end_src
-
-Type =()= holds only self-representation constructor =()=, & constructor holds nothing.
-
-Haskell code always should recieve something back, hense nothing, emptiness, void can not be theoretically addressed, practically constructed or recieved - unit in Haskell also has a role of a stub in place of emptiness, like in =IO ()=.
 
 ** <<<Nullary>>> :drill:
 :properties:
