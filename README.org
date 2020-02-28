@@ -5214,30 +5214,6 @@ main = twoBinds
 
 Sequencing is achieved by compilation of effects performing only while they recieve the sugared-in & passed around the =RealWorld= fake type value, that value in the every computation gets the new "value" and then passed to the next requestes computation. But special thing is about this parameter, this =RealWorld= type value passed, but never looked at. GHC realizes, since value is never used, - it means value and type can be equated to =()= and moreover reduced from the code, and sequencing stays.
 
-** <<<Differential operator>>> :drill:
-SCHT: <2020-09-18 Fri>
-:properties:
-:ID:       1ffad9d0-5207-422f-b979-8118bbcba152
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
-:end:
-
-Denotation.
-\( \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. \)
-Last one is partial.
-
-\( e^{t{\frac{d}{dx}}} \) - Shift operator.
-
-*** /*/
-
-<<<Differential>>>
-
 ** <<<Dispatch>>> :drill:
 SCHT: <2020-03-03 Tue>
 :properties:
@@ -6415,6 +6391,30 @@ Shift operator defined by Lagrange through Differential operator.
 ***** /*/
 
 Shift
+
+**** <<<Differential operator>>> :drill:
+SCHT: <2020-09-18 Fri>
+:properties:
+:ID:       1ffad9d0-5207-422f-b979-8118bbcba152
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
+:end:
+
+Denotation.
+\( \frac{d}{dx}, \, D, \, D_{x}, \, \partial_{x}. \)
+Last one is partial.
+
+\( e^{t{\frac{d}{dx}}} \) - Shift operator.
+
+***** /*/
+
+<<<Differential>>>
 
 *** <<<Infix>>> :drill:
 SCHT: <2020-08-06 Thu>
