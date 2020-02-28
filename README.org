@@ -5334,6 +5334,22 @@ Except when you hack it with explicit funсtions.
 
 <<<Variables>>>
 
+*** <<<Phrase>>> :drill:
+SCHT: <2020-02-29 Sat>
+:properties:
+:ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
+:DRILL_LAST_INTERVAL: 20.9226
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
+:end:
+
+Composable expression.
+
 ** <<<First-class>>> :drill:
 :properties:
 :ID:       b451a91d-1eb3-4c05-882f-23ea9a643a82
@@ -6546,22 +6562,6 @@ SCHT: <2020-02-18 Tue>
 Bijective function from domain to itself.
 
 Domain & permutation functions & function composition form a group.
-
-** <<<Phrase>>> :drill:
-SCHT: <2020-02-29 Sat>
-:properties:
-:ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
-:DRILL_LAST_INTERVAL: 20.9226
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.4
-:DRILL_EASE: 2.38
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
-:end:
-
-Composable expression.
 
 ** <<<Point-free>>> :drill:
 SCHT: <2020-05-25 Mon>
