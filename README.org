@@ -5214,22 +5214,6 @@ main = twoBinds
 
 Sequencing is achieved by compilation of effects performing only while they recieve the sugared-in & passed around the =RealWorld= fake type value, that value in the every computation gets the new "value" and then passed to the next requestes computation. But special thing is about this parameter, this =RealWorld= type value passed, but never looked at. GHC realizes, since value is never used, - it means value and type can be equated to =()= and moreover reduced from the code, and sequencing stays.
 
-** <<<Dispatch>>> :drill:
-SCHT: <2020-03-03 Tue>
-:properties:
-:ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
-:DRILL_LAST_INTERVAL: 23.8485
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
-:end:
-
-Sort-out & send.
-
 ** <<<Effect>>> :drill:
 :properties:
 :ID:       3168c887-3120-40d8-ba68-2d25bae7f37f
@@ -6535,6 +6519,22 @@ SCHT: <2020-04-29 Wed>
 :end:
 
 Binding name to expression.
+
+*** <<<Dispatch>>> :drill:
+SCHT: <2020-03-03 Tue>
+:properties:
+:ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
+:DRILL_LAST_INTERVAL: 23.8485
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
+:end:
+
+Sort-out & send.
 
 ** <<<Permutation>>> :drill:
 SCHT: <2020-02-18 Tue>
