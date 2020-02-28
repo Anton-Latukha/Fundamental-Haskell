@@ -8789,14 +8789,14 @@ instance Functor (Four' a) where
 
 instance (Arbitrary a, Arbitrary b) ⇒ Arbitrary (Four' a b) where
   arbitrary = do
-    a1 ← arbitrary
-    a2 ← arbitrary
-    a3 ← arbitrary
-    b ← arbitrary
+    a1 <- arbitrary
+    a2 <- arbitrary
+    a3 <- arbitrary
+    b <- arbitrary
     return (Four' a1 a2 a3 b)
 
 -- Wrapper around `prop_FunctorId`
-prop_AutoFunctorId ∷ Functor f ⇒ f a → Equal (f a)
+prop_AutoFunctorId :: Functor f => f a -> Equal (f a)
 prop_AutoFunctorId = prop_FunctorId T
 
 type Prop_AutoFunctorId f a
@@ -8804,20 +8804,20 @@ type Prop_AutoFunctorId f a
   → Equal (f a)
 
 -- Wrapper around `prop_AutoFunctorCompose`
-prop_AutoFunctorCompose ∷ Functor f ⇒ Fun a1 a2 → Fun a2 c → f a1 → Equal (f c)
+prop_AutoFunctorCompose :: Functor f => Fun a1 a2 -> Fun a2 c -> f a1 -> Equal (f c)
 prop_AutoFunctorCompose f1 f2 = prop_FunctorCompose (applyFun f1) (applyFun f2) T
 
 type Prop_AutoFunctorCompose structureType origType midType resultType
   = Fun origType midType
-  → Fun midType resultType
-  → structureType origType
-  → Equal (structureType resultType)
+  -> Fun midType resultType
+  -> structureType origType
+  -> Equal (structureType resultType)
 
 main = do
-  quickCheck $ eq $ (prop_AutoFunctorId ∷ Prop_AutoFunctorId (Four' ())Integer)
-  quickCheck $ eq $ (prop_AutoFunctorId ∷ Prop_AutoFunctorId (Four' ()) (Either Bool String))
-  quickCheck $ eq $ (prop_AutoFunctorCompose ∷ Prop_AutoFunctorCompose (Four' ()) String Integer String)
-  quickCheck $ eq $ (prop_AutoFunctorCompose ∷ Prop_AutoFunctorCompose (Four' ()) Integer String (Maybe Int))
+  quickCheck $ eq $ (prop_AutoFunctorId :: Prop_AutoFunctorId (Four' ())Integer)
+  quickCheck $ eq $ (prop_AutoFunctorId :: Prop_AutoFunctorId (Four' ()) (Either Bool String))
+  quickCheck $ eq $ (prop_AutoFunctorCompose :: Prop_AutoFunctorCompose (Four' ()) String Integer String)
+  quickCheck $ eq $ (prop_AutoFunctorCompose :: Prop_AutoFunctorCompose (Four' ()) Integer String (Maybe Int))
 #+end_src
 
 *** Write tests algorithm
