@@ -2195,10 +2195,10 @@ printOneOf :: Bool -> IO ()
 printOneOf False = putStr "1"
 printOneOf  True = putStr "2"
 
-quant ∷ (Bool → IO b) → IO b
+quant :: (Bool -> IO b) -> IO b
 quant = (>>=) (randomRIO (False, True))
 
-recursePrintOneOf ∷ Monad m ⇒ (t → m a) → t → m b
+recursePrintOneOf :: Monad m => (t -> m a) -> t -> m b
 recursePrintOneOf f x = (f x) >> (recursePrintOneOf f x)
 
 main :: IO ()
@@ -2786,7 +2786,7 @@ newtype MaybeT m a = MaybeT { runMaybeT :: m (Maybe a) }
 /*/ extends monads by injecting Either layer underneath monad, and processing that structure:
 
 #+begin_src haskell
-newtype EitherT e m a = EitherT { runEitherT ∷ m (Either e a) }
+newtype EitherT e m a = EitherT { runEitherT :: m (Either e a) }
 #+end_src
 
 =EitherT= of =either= package gets replaced by =ExceptT= of =transformers= or =mtl= packages.
