@@ -7930,6 +7930,31 @@ What object abstracts. Without any object external structure (aka identity in Ca
 Value semantics
 Values
 
+****** <<<Tensor>>> :drill:
+SCHT: <2020-02-05 Wed>
+:properties:
+:ID:       e165b708-fdd2-4062-be87-b65487de4a0e
+:DRILL_LAST_INTERVAL: 122.3776
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-10-06 Sun 02:02]
+:end:
+
+Object existing out of planes, thus it can translate objects from one plane into another.
+They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
+Tensor of rank 1 is a vector.
+
+Translatioin with tensor can be seen as functors.
+
+******* /*/
+
+<<<Tensors>>>
+<<<Tensorial>>>
+
 **** <<<Ambigram>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
@@ -8532,31 +8557,6 @@ _   :
     _  []
 
 #+end_src
-
-** <<<Tensor>>> :drill:
-SCHT: <2020-02-05 Wed>
-:properties:
-:ID:       e165b708-fdd2-4062-be87-b65487de4a0e
-:DRILL_LAST_INTERVAL: 122.3776
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-06 Sun 02:02]
-:end:
-
-Object existing out of planes, thus it can translate objects from one plane into another.
-They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
-Tensor of rank 1 is a vector.
-
-Translatioin with tensor can be seen as functors.
-
-*** /*/
-
-<<<Tensors>>>
-<<<Tensorial>>>
 
 ** <<<Testing>>> :drill:
 :properties:
