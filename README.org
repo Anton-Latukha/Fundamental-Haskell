@@ -6287,22 +6287,6 @@ SCHT: <2020-06-23 Tue>
 *** <<<Lambda expression>>>
 See Lambda calculus (Lambda terms) and Expression. In majority cases meaning some Lambda function.
 
-** <<<Lense>>> :drill:
-SCHT: <2020-02-15 Sat>
-:properties:
-:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
-:end:
-
-Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
-
 ** <<<Operation>>> :drill:
 SCHT: <2020-06-07 Sun>
 :properties:
@@ -9918,6 +9902,22 @@ https://prime.haskell.org/
 **** /*/
 
 <<<Haskell prime>>>
+
+*** <<<Lense>>> :drill:
+SCHT: <2020-02-15 Sat>
+:properties:
+:ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
+:DRILL_LAST_INTERVAL: 83.4613
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:end:
+
+Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
 
 ** Computer science
 :properties:
