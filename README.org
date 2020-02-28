@@ -10294,7 +10294,7 @@ Full strongly connected subgraph of some graph.
 
 Values consumed once or not used.
 
-=x^2= consumes =x= two times.
+=x^2= consumes/uses =x= two times =(x*x)=.
 
 *** /*/
 
