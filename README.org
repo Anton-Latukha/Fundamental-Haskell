@@ -1222,32 +1222,6 @@ Special numbers where arithmetic wraps around in modular arithmetic.
 
 <<<Moduli>>> - plural.
 
-** <<<Bind>>> :drill:
-SCHT: <2020-03-05 Thu>
-:properties:
-:ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
-:DRILL_LAST_INTERVAL: 143.9066
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
-:end:
-
-Establishing equality between two objects.
-
-Most often:
-  * equating variable to a value.
-  * equating parameter of a function to an argument (variable/value/function). This term often is equated to applying argument to a function, which includes \beta-reduction.
-
-*** /*/
-
-<<<Binds>>>
-<<<Binding>>>
-<<<Bindings>>>
-
 ** <<<Category theory>>> :drill:
 SCHT: <2020-06-17 Wed>
 :properties:
@@ -6535,6 +6509,32 @@ SCHT: <2020-07-18 Sat>
 \( zero, n \in C : \forall n, zero*n=zero \)
 
 /*/ is distinct from Identity value.
+
+*** <<<Bind>>> :drill:
+SCHT: <2020-03-05 Thu>
+:properties:
+:ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
+:DRILL_LAST_INTERVAL: 143.9066
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
+:end:
+
+Establishing equality between two objects.
+
+Most often:
+  * equating variable to a value.
+  * equating parameter of a function to an argument (variable/value/function). This term often is equated to applying argument to a function, which includes \beta-reduction.
+
+**** /*/
+
+<<<Binds>>>
+<<<Binding>>>
+<<<Bindings>>>
 
 ** <<<Permutation>>> :drill:
 SCHT: <2020-02-18 Tue>
