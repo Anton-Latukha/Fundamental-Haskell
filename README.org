@@ -5228,7 +5228,7 @@ SCHT: <2020-03-03 Tue>
 :DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
 :end:
 
-Send, transmission, reference.
+Sort-out & send.
 
 ** <<<Effect>>> :drill:
 :properties:
