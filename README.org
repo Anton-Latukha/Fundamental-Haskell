@@ -10274,7 +10274,7 @@ Binary relation between state transition systems that match each other's moves.
 :ID:       f4312216-c6b9-461f-bf8e-ef446a5cbcc1
 :END:
 
-Tree of syntactic elements (each node denotes construct occurring in the source code) that represent the source code (or human language).
+Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular expression/implementation (or said).
 
 *** <<<Abstract syntax tree>>> :drill:
 :PROPERTIES:
