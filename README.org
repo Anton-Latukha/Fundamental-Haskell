@@ -6056,6 +6056,13 @@ Lambda function that is not binded to any name.
 
 <<<Anonymous lambda function>>>
 
+**** <<<Uncurry>>> :drill:
+:properties:
+:ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
+:end:
+
+Replace sequenced lambda functions into single function taking sequence/product of values as argument.
+
 *** <<<\beta-reduction>>> :drill:
 SCHT: <2020-05-21 Thu>
 :properties:
@@ -8730,13 +8737,6 @@ main = do
 :end:
 
 Process of reducing coplexity in the test case - re-run with smaller values and make sure that the test still fails.
-
-** <<<Uncurry>>> :drill:
-:properties:
-:ID:       c24534d9-0a6b-4e76-9925-bc25496bbfdd
-:end:
-
-Replace sequenced lambda functions into single function taking sequence/product of values as argument.
 
 ** <<<Unit>>> :drill:
 SCHT: <2020-06-30 Tue>
