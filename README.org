@@ -5329,7 +5329,7 @@ Expression that does not contain any free variables.
 
 A name for expression.
 
-Saying: Haskell has immutable "variables" (term used in imperative programming sence). Read as: values (due to value semantics (see "Value")) are immutable, and Haskell expressions are functions (that are referentially transparent) are also, and since they binded to /*/, we say "/*"/ are immutable. (Except, when you hack Haskell with explicit funсtions.)
+Saying: =Haskell has immutable "variables"= (term used in imperative programming sence). Logically we see statement nonsensical in meaning, "variables" (something that changes) are not changing. It is due to programmers tend to speak in terms of imperative programming. Read as: In haskell values (due to value semantics (see "Value")) are immutable, and Haskell expressions are functions (that are referentially transparent - meaning itself immutable) are also, and since they bind to /*/, we say they symbols (according "/*")/ are immutable (inside scope area they binded in). (Except, when you hack Haskell with explicit funсtions.)
 
 **** /*/
 
