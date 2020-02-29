@@ -9084,13 +9084,14 @@ If and only if, exectly when, just.
 Denotation:
 \( \iff \)
 
-** <<<Haskell structure>>>
+** Haskell structure
 :properties:
 :ID:       f4eaf80a-e339-4205-801e-d956292d3b27
 :end:
 
 *** /*/
-<<<Haskell structures>>>
+Haskell structures
+
 *** <<<Pattern match>>> :drill:
 :properties:
 :ID:       fdc19b86-7e7d-465b-a6e6-0de994590325
