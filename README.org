@@ -8387,6 +8387,9 @@ SCHT: <2020-08-02 Sun>
 
 Words that name objects of reality and their qualities.
 
+*** /*/
+<<<Content words>>>
+
 *** Ancient Greek and Latin prefixes :drill:
 SCHT: <2020-03-16 Mon>
 :properties:
