@@ -9796,7 +9796,7 @@ Training                --  Collect study and learning materials
 <<<Top-level module name>>>
 <<<Top-level module names>>>
 
-*** <<<Where>>> :drill:
+*** <<<where>>> :drill:
 :properties:
 :ID:       db6c2ddb-9fb3-4416-81d5-bac6c8fad6a6
 :end:
