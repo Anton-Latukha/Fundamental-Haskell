@@ -9796,34 +9796,6 @@ Training                --  Collect study and learning materials
 <<<Top-level module name>>>
 <<<Top-level module names>>>
 
-*** <<<Let>>> :drill:
-:properties:
-:ID:       424f4e78-750c-4f67-b1f5-d76e398ca223
-:end:
-
-/*/ expression is a set of cross-recursive lazy pattern bindings.
-
-Declarations permitted:
-  * type signatures
-  * function bindings
-  * pattern bindings
-
-It is an expression (macro) and that integrates in external lexical scope expression it applied in.
-
-Form:
-#+begin_src haskell
-let
-  b1
-  bn
-in
-  c
-#+end_src
-
-**** /*/
-
-<<<Let expression>>>
-<<<Let expressions>>>
-
 *** <<<Where>>> :drill:
 :properties:
 :ID:       db6c2ddb-9fb3-4416-81d5-bac6c8fad6a6
@@ -9876,6 +9848,34 @@ This possibilities can mix and match:
   * =hiding (x, y)= - skip import of declared identifies.
   * =<modName> as <modName>= - renames module namespace.
   * =<type/class> (..)= - import class & it's methods, or type, all its data constructors & field names.
+
+**** <<<Let>>> :drill:
+:properties:
+:ID:       424f4e78-750c-4f67-b1f5-d76e398ca223
+:end:
+
+/*/ expression is a set of cross-recursive lazy pattern bindings.
+
+Declarations permitted:
+  * type signatures
+  * function bindings
+  * pattern bindings
+
+It is an expression (macro) and that integrates in external lexical scope expression it applied in.
+
+Form:
+#+begin_src haskell
+let
+  b1
+  bn
+in
+  c
+#+end_src
+
+***** /*/
+
+<<<Let expression>>>
+<<<Let expressions>>>
 
 *** <<<Haskell Language Report>>> :drill:
 :properties:
