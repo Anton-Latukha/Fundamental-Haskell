@@ -5219,7 +5219,7 @@ Sequencing is achieved by compilation of effects performing only while they reci
 :ID:       6ff3b474-8f28-4eb9-975a-312d37521cc6
 :end:
 
-Finite combination of symbols that is well-formed according to rules that depend on the context.
+Finite combination of symbols that is well-formed according to context-free grammar.
 
 *** /*/
 
