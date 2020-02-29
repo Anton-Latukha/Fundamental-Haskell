@@ -9487,7 +9487,7 @@ Hanging type instance from inconsistent code base.
 1) Supporting structure not fully present.
 2) Several implementations of instance present.
 
-*** <<<Undefined>>> :drill:
+*** <<<undefined>>> :drill:
 SCHT: <2020-08-04 Tue>
 :properties:
 :ID:       c2bc65ee-1d9b-4633-9aa1-780fa07752a8
