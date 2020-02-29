@@ -8557,45 +8557,6 @@ Subset of the cartesian product of two sets.
 ***** /*/
 <<<Pullbacks>>>
 
-** <<<Spine>>> :drill:
-SCHT: <2020-07-07 Tue>
-:properties:
-:ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
-:DRILL_LAST_INTERVAL: 224.8335
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
-:end:
-
-Is a chain of memory cells, each points to the both value of element and to the next memory cell.
-#+begin_src text
-Array:
-
-  :
- / \
-1   :
-   / \
-  2   :
-     / \
-    3  []
-
-1:2:3:[]
-
-Spine:
-  :
- / \
-_   :
-   / \
-  _   :
-     / \
-    _  []
-
-#+end_src
-
 ** <<<Testing>>> :drill:
 :properties:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
@@ -10198,6 +10159,45 @@ SCHT: <2020-07-26 Sun>
 #+begin_src text
  *
 / \
+#+end_src
+
+**** <<<Spine>>> :drill:
+SCHT: <2020-07-07 Tue>
+:properties:
+:ID:       9f1c254b-a3dd-4ba5-bdec-7b43be39d49f
+:DRILL_LAST_INTERVAL: 224.8335
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:16]
+:end:
+
+Is a chain of memory cells, each points to the both value of element and to the next memory cell.
+#+begin_src text
+Array:
+
+  :
+ / \
+1   :
+   / \
+  2   :
+     / \
+    3  []
+
+1:2:3:[]
+
+Spine:
+  :
+ / \
+_   :
+   / \
+  _   :
+     / \
+    _  []
+
 #+end_src
 
 ** <<<Graph theory>>>
