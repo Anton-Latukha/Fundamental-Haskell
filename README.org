@@ -7854,6 +7854,8 @@ Void
 
 What object abstracts. Without any object external structure (aka identity in Category Theory). So /*/ is immutable. Such herecy is called "Value semantics" and leads such things as referential transparency, functional programming and Haskell.
 
+(Except, when you hack Haskell with explicit low-level funсtions, and start to directly mute values - then you are on your own, Haskell paradigm does not expect that.)
+
 ******* /*/
 Value semantics
 Values
