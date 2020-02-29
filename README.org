@@ -7322,7 +7322,7 @@ Semantics:
   * /expression/ & /pattern/ share the scope, so also variables.
   * if (=(/expression/ :: t1 -> t2) && (/pattern/ :: t2)=)
       then
-        (ViewPattern =/expression/ -> /pattern/= =:: t1=) (return what originally was recieved into pattern match)
+        (ViewPattern =(/expression/ -> /pattern/)= =:: t1=) (return what originally was recieved into pattern match)
       else
         skip
 
