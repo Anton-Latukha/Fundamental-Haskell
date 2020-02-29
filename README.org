@@ -4831,77 +4831,6 @@ With unlifted types Haskel type system directly manages data in the hardware.
 
 <<<Unlifted types>>>
 
-*** <<<Data structure>>> :drill:
-:properties:
-:ID:       34418701-bc96-4c96-ab01-c59ec2ee5741
-:end:
-
-**** <<<Cons cell>>> :drill:
-SCHT: <2020-02-27 Thu>
-:properties:
-:ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
-:DRILL_LAST_INTERVAL: 18.8265
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
-:end:
-
-Cell that values may inhabit.
-
-**** <<<Construct>>> :drill:
-:properties:
-:ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
-:end:
-
-#+begin_src haskell
-(:) :: a -> [a] -> [a]
-#+end_src
-
-***** /*/
-
-<<<Cons>>>
-
-**** <<<Leaf>>> :drill:
-SCHT: <2020-03-22 Sun>
-:properties:
-:ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:25]
-:end:
-
-#+begin_src text
- _
-#+end_src
-
-**** <<<Node>>> :drill:
-SCHT: <2020-07-26 Sun>
-:properties:
-:ID:       44946197-24dd-48fd-810c-6af851f6a0cf
-:DRILL_LAST_INTERVAL: 213.8621
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
-:end:
-
-#+begin_src text
- *
-/ \
-#+end_src
-
 *** <<<Linear type>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
@@ -10199,6 +10128,77 @@ Two levels of embedding:
 ***** /*/
 
 <<<eDSL>>>
+
+*** <<<Data structure>>> :drill:
+:properties:
+:ID:       34418701-bc96-4c96-ab01-c59ec2ee5741
+:end:
+
+**** <<<Cons cell>>> :drill:
+SCHT: <2020-02-27 Thu>
+:properties:
+:ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
+:DRILL_LAST_INTERVAL: 18.8265
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.08
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
+:end:
+
+Cell that values may inhabit.
+
+**** <<<Construct>>> :drill:
+:properties:
+:ID:       09d6089a-5e26-4a2a-b805-23941be3e63e
+:end:
+
+#+begin_src haskell
+(:) :: a -> [a] -> [a]
+#+end_src
+
+***** /*/
+
+<<<Cons>>>
+
+**** <<<Leaf>>> :drill:
+SCHT: <2020-03-22 Sun>
+:properties:
+:ID:       8ca6b84c-9c42-4f2c-948e-39a94246ad14
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:25]
+:end:
+
+#+begin_src text
+ _
+#+end_src
+
+**** <<<Node>>> :drill:
+SCHT: <2020-07-26 Sun>
+:properties:
+:ID:       44946197-24dd-48fd-810c-6af851f6a0cf
+:DRILL_LAST_INTERVAL: 213.8621
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
+:end:
+
+#+begin_src text
+ *
+/ \
+#+end_src
 
 ** <<<Graph theory>>>
 :properties:
