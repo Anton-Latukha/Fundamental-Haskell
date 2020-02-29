@@ -5483,6 +5483,37 @@ Not combinators:
 #+end_src
 Informal broad meaning: referring to the style of organizing libraries centered around the idea of combining things.
 
+**** <<<\Psi-combinator>>> :drill:
+SCHT: <2020-07-27 Mon>
+:properties:
+:ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
+:DRILL_LAST_INTERVAL: 235.4952
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:04]
+:end:
+
+Transforms two of the same type, applying same mediate transformation, and then transforming those into the result.
+#+begin_src haskell
+import Data.Function (on)
+on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
+#+end_src
+
+#+begin_src text
+--\
+   * ---
+--/
+#+end_src
+
+***** /*/
+
+<<<Psi-combinator>>>
+<<<On-combinator>>>
+
 *** <<<Function application>>> :drill:
 SCHT: <2020-06-22 Mon>
 :properties:
@@ -7509,37 +7540,6 @@ If there exists composed idiomatic expression - it is unfull, unpure composition
 <<<Principe of compositionality>>>
 <<<Composition>>>
 <<<Compositional>>>
-
-** <<<\Psi-combinator>>> :drill:
-SCHT: <2020-07-27 Mon>
-:properties:
-:ID:       dd833dc5-91f9-4bec-aa5a-e292dfb387d8
-:DRILL_LAST_INTERVAL: 235.4952
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-05 Thu 01:04]
-:end:
-
-Transforms two of the same type, applying same mediate transformation, and then transforming those into the result.
-#+begin_src haskell
-import Data.Function (on)
-on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
-#+end_src
-
-#+begin_src text
---\
-   * ---
---/
-#+end_src
-
-*** /*/
-
-<<<Psi-combinator>>>
-<<<On-combinator>>>
 
 ** <<<Referential transparency>>> :drill:
 SCHT: <2020-02-09 Sun>
