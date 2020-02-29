@@ -9796,31 +9796,6 @@ Training                --  Collect study and learning materials
 <<<Top-level module name>>>
 <<<Top-level module names>>>
 
-*** <<<where>>> :drill:
-:properties:
-:ID:       db6c2ddb-9fb3-4416-81d5-bac6c8fad6a6
-:end:
-
-Part of the syntax of the whole function declaration, has according scope.
-
-As part of whole declaration - can extend over definitions of the funtion (pattern matches, guards).
-
-Form:
-#+begin_src haskell
-f match1 = y
-f match2 = y
-f x =
-  | cond1 x = y
-  | cond2 x = y
-  | otherwise = y
- where
-  y = ... x ...
-#+end_src
-
-**** /*/
-
-<<<Where clause>>>
-
 *** <<<Reserved word>>>
 :properties:
 :ID:       5d6b7d02-c0ac-436e-9691-f96eba56cbf2
@@ -9876,6 +9851,31 @@ in
 
 <<<Let expression>>>
 <<<Let expressions>>>
+
+**** <<<where>>> :drill:
+:properties:
+:ID:       db6c2ddb-9fb3-4416-81d5-bac6c8fad6a6
+:end:
+
+Part of the syntax of the whole function declaration, has according scope.
+
+As part of whole declaration - can extend over definitions of the funtion (pattern matches, guards).
+
+Form:
+#+begin_src haskell
+f match1 = y
+f match2 = y
+f x =
+  | cond1 x = y
+  | cond2 x = y
+  | otherwise = y
+ where
+  y = ... x ...
+#+end_src
+
+***** /*/
+
+<<<Where clause>>>
 
 *** <<<Haskell Language Report>>> :drill:
 :properties:
