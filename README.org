@@ -5221,6 +5221,8 @@ Sequencing is achieved by compilation of effects performing only while they reci
 
 Finite combination of symbols that is well-formed according to context-free grammar.
 
+Generally meaningless. Meaning gets derived from a context (and/or content words) and its congruency with whole of knowledge&expirience.
+
 *** /*/
 
 <<<Expressions>>>
