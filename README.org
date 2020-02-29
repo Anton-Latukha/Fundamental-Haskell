@@ -7320,7 +7320,11 @@ foo (fn -> Pattern2 a b) = g1 a b
 
 Semantics:
   * /expression/ & /pattern/ share the scope, so also variables.
-  * if /expression/ :: t1 -> t2 && /pattern/ :: t2, then (/expression/ \to /pattern/) :: t1.
+  * if (=(/expression/ :: t1 -> t2) && (/pattern/ :: t2)=)
+      then
+        (ViewPattern =/expression/ -> /pattern/= =:: t1=) (return what originally was recieved into pattern match)
+      else
+        skip
 
 /*/ are like pattern guards that can be nested inside of other patterns.
 /*/ are a convenient way to pattern-match algebraic data type.
