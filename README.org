@@ -143,7 +143,7 @@ To get the full view:
 
 Note about markup: =<<<This is a radio target>>>= - the dynamic linking.
 
-To prettify radio targets in =Emacs= with =Elisp= snippet to prettify =<<<Radio targets>>>= to _Radio targets_:
+Users of =Emacs= can prettify radio targets to see as simple hyper-links with this =Elisp= snippet:
 
 #+begin_src elisp
 ;;;;  2019-06-12: NOTE:
