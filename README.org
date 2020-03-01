@@ -3,6 +3,34 @@
 #+creator: Self-published by Anton Latukha
 #+description: Fundamental notes on Haskell, Category theory and related fields.
 #+subtitle: Encyclopedcal handbook for learning and undersatanding fundamentals
+#
+#
+#
+#+begin_src text
+
+                        _oo0oo_
+                        o88888o
+                       88" . "88
+                       (| -_- |)
+                       0\  =  /0
+                     ___/`---'\____
+                  .'  \|       |//  '.
+                 /  /|||   :    |||/\ \
+                |  _|\||| -:-  |||||   \
+               /   | \\    -  ///  |\   \
+               |   \_| ''\---/''   |/   |
+                \  .-\__  '-'  ___/-.  /
+              ___'. .'  /--.--\ `.  .'___
+           ."" '<  `.___\_<|>_/___.' >' "".
+          | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+          \  \ `_.   \_ __\ /__ _/   .-` /  /
+      =====`-.____`.___ \_____/___.-`___.-'=====
+                        `=---='
+
+#+end_src
+#
+#
+#
 #+startup: latexpreview
 #+startup: entitiespretty
 #+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
