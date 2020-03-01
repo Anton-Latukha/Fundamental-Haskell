@@ -1174,10 +1174,11 @@ SCHT: <2020-04-20 Mon>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:43]
 :end:
 
-The set with this structure is also called an algebra.
 /*/ includes axioms that must be satisfied and operations on the underlying (or "carrier") set.
 
 Algebraic structures include groups, rings, fields, and lattices. More complex structures can be defined by introducing multiple operations, different underlying sets, or by altering the defining axioms. Examples of more complex algebraic structures include vector spaces, modules, and algebras. 
+An underlying set with /*/ on top of it also called "an algebra".
+
 
 #+caption: Algebraic structures
 #+name: tab--algebraic-structure
