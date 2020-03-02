@@ -1047,6 +1047,7 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
     - [[#6-optional-debugging][6. (optional) Debugging]]
   - [[#debugger][Debugger]]
   - [[#ghcid][<<<GHCID>>>]]
+  - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#libs][Libs]]
   - [[#exceptions][Exceptions]]
     - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
@@ -11813,6 +11814,31 @@ nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --r
 nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
 
 #+end_src
+
+** Continuous integration platrorms (CIs) for Open Source Haskell projets
+
+Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
+
+#+name: 2020-02-29: Gabriel Gonzalez about the CIs for Haskell Opens Source projects
+#+caption: Source: https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057
+#+begin_quote
+Probably the biggest constraint is whether or not CI needs to test Windows or OS X, since build machines for those are harder to come by. We currently use AppVeyor for Windows builds and Travis for OS X builds since they are free. For Linux you can basically use any CI provider, but in this case I pay for a Linode VM which I use to host all Dhall-related infrastructure (i.e. all of the *.dhall-lang.org domains), so I reuse that to host Hydra for Nix-related CI so that I can use more parallelism and more efficient caching to test a wider range of GHC versions on a budget.
+
+For testing OS X and Windows platforms we use stack. The main reason we don't use Nix for either platform is that Nix only supports building release binaries on Linux (and even then it's still experimental).
+
+So the basic summary I can give is:
+
+    For testing everything other than cross-platform support: Nix + Linux is best in my opinion
+
+    ... because you get much more control and intelligent build caching, which is usually where most CI solutions fall short
+
+    For cross-platform support: stack + whatever CI provider provides free builds for that platform
+
+Also, if you ever can pay for your own NixOS VM and you want to reuse the setup I built, you can find the NixOS configuration for dhall-lang.org here:
+
+https://github.com/dhall-lang/dhall-lang/tree/master/nixops
+#+end_quote
+
 
 * Libs :drill:
 :properties:
