@@ -115,6 +115,7 @@
 # Enable MathJax TiKz
 #+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+#+keywords: Haskell,Org-mode,Org-drill,Category theory,Monad,Learning,Terms,Definitions,Theory,Dictionary,Encyclopedia,Handbook
 
 * Introduction
 
