@@ -5112,7 +5112,7 @@ SCHT: <2020-07-22 Wed>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
 :end:
 
-Fully defined type. Non-polymorphic type.
+Fully resolved, definitive, non-polymorphic type.
 
 *** <<<Type punning>>> :drill:
 :properties:
