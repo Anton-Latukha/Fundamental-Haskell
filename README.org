@@ -110,6 +110,8 @@
 #+latex_header: \usepackage{fvextra}    % Official extension to `fancyvrb`, can be used by `minted` in some cases.
 #+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
 #+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
+#+latex_header: \usepackage{caption}
+#+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
