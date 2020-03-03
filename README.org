@@ -54,7 +54,7 @@
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usetikzlibrary{cd}
-#+latex_header: \hypersetup{colorlinks=true,linkcolor=blue}
+#+latex_header: \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=cyan,}
 #+latex_header: \usepackage{enumitem}
 #+latex_header: \setlistdepth{10}
 #+latex_header: \setlist[itemize,1]{label=$\bullet$}
