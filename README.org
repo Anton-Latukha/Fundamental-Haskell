@@ -11821,11 +11821,10 @@ nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --g
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
 
-#+html: <caption class="t-above"><span class="quote-number">Quote 1:</span>2020-02-29: Gabriel Gonzalez about CIs for Haskell Opens Source projects</caption>
-#+html: <caption class="t-above"><span class="source-number">Source: </span><a>https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057</a></caption>
-#+latex: \caption{2020-02-29: Gabriel Gonzalez about CIs for Haskell Opens Source projects}
-#+latex: \source{https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057}
-#+caption[2020-02-29: Gabriel Gonzalez about CIs]: About CIs for Haskell Opens Source projects. Source: https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057
+The current state of affairs is best put in this quote:
+#+html: <caption class="t-above"><span class="quote-number">Quote 1:</span><a href="https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057">2020-02-29: Gabriel Gonzalez about CIs for Haskell Opens Source projects</a></caption>
+#+latex: \caption{\href{https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057}{2020-02-29: Gabriel Gonzalez about CIs for Haskell Opens Source projects}}
+#+caption: [[https://github.com/dhall-lang/dhall-haskell/issues/1678#issuecomment-592960057][2020-02-29: Gabriel Gonzalez about CIs for Haskell Opens Source projects]]
 #+name: quote--gonzales-ci
 #+begin_quote
 Probably the biggest constraint is whether or not CI needs to test Windows or OS X, since build machines for those are harder to come by. We currently use AppVeyor for Windows builds and Travis for OS X builds since they are free. For Linux you can basically use any CI provider, but in this case I pay for a Linode VM which I use to host all Dhall-related infrastructure (i.e. all of the *.dhall-lang.org domains), so I reuse that to host Hydra for Nix-related CI so that I can use more parallelism and more efficient caching to test a wider range of GHC versions on a budget.
