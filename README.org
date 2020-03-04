@@ -1313,7 +1313,7 @@ Category which:
   * has all kernel's and cokernels,
   * (it has all pullbacks and pushouts)
   * all monomorphism's and epimorphism's are normal.
-Abelian category is very stable; for example they are regular and they satisfy the snake lemma.
+Abelian category is a stable structure; for example it is regular and satisfy the snake lemma.
 The class of Abelian categories is closed under several categorical constructions.
 
 There is notion of Abelian monoid (AKS Commutative monoid) and Abelian group (Commutative group).
