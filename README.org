@@ -3787,6 +3787,7 @@ a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend ri
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b
 \end{tikzcd}
 
+
   * "horizontally" ("Godement product"):
 
 \begin{tikzcd}
@@ -3797,7 +3798,8 @@ a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, ben
 a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ G_{1}" description, bend right] & \Downarrow{\beta * \alpha} & c
 \end{tikzcd}
 
-Compositions can be done in any right order, they abide the exchange law.
+
+Vertical and horizontal compositions can be done in any order, they abide the exchange law.
 
 **** /*/
 
