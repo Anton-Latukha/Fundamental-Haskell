@@ -2524,7 +2524,7 @@ Given 3 dictionaries:
 Create a function that finds a person's email preferences based on either a full name or a nickname.
 #+begin_src haskell
 data MailPref = HTML | Plain
-data MailSystem = …
+data MailSystem = ...
 
 getMailPrefs :: MailSystem -> String -> Maybe MailPref
 getMailPrefs sys name =
@@ -2658,10 +2658,10 @@ runReader
 
 Usage:
 #+begin_src haskell
-data Env = …
+data Env = ...
 
 createEnv :: IO Env
-createEnv = …
+createEnv = ...
 
 f :: Reader Env a
 f = do
@@ -2675,13 +2675,13 @@ g = do
   pure a
 
 h :: Env -> a
-…  -- use env and produce the result
+...  -- use env and produce the result
 
 main :: IO ()
 main = do
   env <- createEnv
   a = runReader g env
-  …
+  ...
 #+end_src
 
 In Haskell under normal circumstances impure functions should not directy call impure functions.
@@ -3167,7 +3167,7 @@ do
   -- "Sum {getSum = 1}"
   show $ (Sum 1) <> (Sum 1) <> (Sum 1)
   -- "Sum {getSum = 3}"
-  -- …
+  -- ...
 #+end_src
 
 Also backwards - any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
@@ -4239,7 +4239,7 @@ Form:
 #+begin_src haskell
 data [context =>] type typeVars1..n
   = con1  c1t1..i
-  | …
+  | ...
   | conm  cmt1..q
   [deriving]
 #+end_src
@@ -4397,7 +4397,7 @@ Denotation:
 ()
 ( , )
 ( , , )
-( , , … )
+( , , ... )
 #+end_src
 
 More general mathematical denotation was not established, variants:
@@ -4415,7 +4415,7 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 | Singleton              |     1 | =(_)=        |
 | <<<Tuple>>>, pair, <<<two-tuple>>> |     2 | =( , )=      |
 | <<<Triple>>>, three-tuple    |     3 | =( , , )=    |
-| Sequence         |     N | =( , , …)= |
+| Sequence         |     N | =( , , ...)= |
 
 ***** /*/
 
@@ -4436,7 +4436,7 @@ Denotation:
 []
 [ , ]
 [ , , ]
-[ , , … ]
+[ , , ... ]
 #+end_src
 
 Haskell definition:
@@ -5025,7 +5025,7 @@ SCHT: <2020-08-07 Fri>
 Type constraints for polymorphic variables.
 Written before the main type signature, denoted:
 #+begin_src haskell
-TypeClass a => …
+TypeClass a => ...
 #+end_src
 
 **** /*/
@@ -6801,11 +6801,11 @@ There is a cases where higher-rank polymorphism than the a Ad hoc - is needed. F
 #+begin_src haskell
 -- ad-hoc polymorphism
 f1 :: forall a. MyType Class a => a -> String    ==    f1 :: MyType Class a => a  -> String
-f1 = -- …
+f1 = -- ...
 
 -- higher-rank polymorphism
 f2 :: Int -> (forall a. MyType Class a => a -> String) -> Int
-f2 = -- …
+f2 = -- ...
 #+end_src
 By moving =forall= inside the function - we can achive higher-rank polymorphism.
 
@@ -7053,7 +7053,7 @@ The only restriction on the context in a class declaration is that the class hie
 class C a where
   op :: D b => a -> b -> b
 
-class C a => D a where …
+class C a => D a where ...
 #+end_src
 \( C :> D \), so in C we can talk about D.
 
@@ -7075,7 +7075,7 @@ SCHT: <2020-07-16 Thu>
 
 Allow type class instances types contain nested types.
 #+begin_src haskell
-instance C (Maybe Int) where …
+instance C (Maybe Int) where ...
 #+end_src
 Implies TypeSynonymInstances.
 
@@ -7133,13 +7133,13 @@ SCHT: <2020-03-19 Thu>
 
 Enables expressions of the form:
 #+begin_src haskell
-\case { p1 -> e1; …; pN -> eN }
+\case { p1 -> e1; ...; pN -> eN }
 
 -- OR
 
 \case
   p1 -> e1
-  …
+  ...
   pN -> eN
 #+end_src
 
@@ -7171,7 +7171,7 @@ SCHT: <2020-03-14 Sat>
 Enable multi-way-if syntax.
 #+begin_src haskell
 if | guard1 -> code1
-   | …
+   | ...
    | guardN -> codeN
 #+end_src
 
@@ -7399,7 +7399,7 @@ Considered misfeature. Deprecated. Going to be removed.
 Type signatures for type-level declarations.
 
 #+begin_src haskell
-type <name_1> , … , <name_n> :: <kind>
+type <name_1> , ... , <name_n> :: <kind>
 #+end_src
 
 #+begin_src haskell
@@ -7466,7 +7466,7 @@ In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to
 data Extension
   = Cpp
   | OverlappingInstances
-  …
+  ...
   | Foo
 #+end_src
 
@@ -7474,7 +7474,7 @@ data Extension
 #+begin_src haskell
 xFlagsDeps = [
   flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
-  …
+  ...
   flagSpec "Foo"                 LangExt.Foo
 ]
 #+end_src
@@ -7871,7 +7871,7 @@ Object that from different points of view has the same meaning.
 
 While this word has two contradictory diametrically opposite usages, one was chosen (more frequent).
 
-But it has… Both.
+But it has... Both.
 
 /TODO: For merit of differentiating the meaning about different meaning referring to Tensor as object with many meanings./
 
@@ -9051,7 +9051,7 @@ SCHT: <2020-02-12 Wed>
 :end:
 
 #+begin_src haskell
-f list@(x, xs) = …
+f list@(x, xs) = ...
 #+end_src
 
 #+begin_src haskell
@@ -9126,9 +9126,9 @@ Check values against the predicate and use the first match definition:
 f x
   | predicate1 = definition1
   | predicate2 = definition2
-  …
+  ...
   | x < 0      = definitionN
-  …
+  ...
   | otherwise  = definitionZ
 #+end_src
 
@@ -9163,7 +9163,7 @@ addLookup l a1 a2
    | Just b1 <- lookup a1 l
    , Just b2 <- lookup a2 l
    = b1 + b2
-{-…other equations…-}
+{-...other equations...-}
 #+end_src
 Run functions, they must succeed. Then pattern match results to =b1=, =b2=. Only if successful - execute the equation.
 
@@ -9266,11 +9266,11 @@ Level of code that works with data types.
 :end:
 
 #+begin_src haskell
-type …
-newtype …
-data …
-class …
-instance …
+type ...
+newtype ...
+data ...
+class ...
+instance ...
 #+end_src
 
 ****** /*/
@@ -9452,32 +9452,32 @@ Codec                   -- Coders/Decoders for various data formats
     Audio
        Wav
        MP3
-       …
+       ...
     Compression
        Gzip
        Bzip2
-       …
+       ...
     Encryption
        DES
        RSA
        BlowFish
-       …
+       ...
     Image
        GIF
        PNG
        JPEG
        TIFF
-       …
+       ...
     Text
        UTF8
        UTF16
        ISO8859
-       …
+       ...
     Video
        Mpeg
        QuickTime
        Avi
-       …
+       ...
     Binary                 -- these are for encoding binary data into text
        Base64
        Yenc
@@ -9535,7 +9535,7 @@ Data
     Binary              -- Haskell binary I/O
     Digest
         MD5
-        …             -- others (CRC ?)
+        ...             -- others (CRC ?)
     Array               -- Haskell 98 Array library
         Unboxed
         IArray
@@ -9567,7 +9567,7 @@ Database
     ODBC
 
 Dotnet
-    …                 -- Mirrors the MS .NET class hierarchy
+    ...                 -- Mirrors the MS .NET class hierarchy
 
 Debug                   -- see also: Test
     Trace
@@ -9593,7 +9593,7 @@ Foreign
 
 GHC
     Exts                -- hslibs/lang/GlaExts
-    …
+    ...
 
 Graphics
     HGL
@@ -9622,7 +9622,7 @@ Graphics
        Xaw
 
 Hugs
-    …
+    ...
 
 Language
     Haskell             -- hslibs/hssource
@@ -9633,10 +9633,10 @@ Language
     HaskellCore
     Python
     C
-    …
+    ...
 
 Nhc
-    …
+    ...
 
 Numeric                 -- exports std. H98 numeric type classes
     Statistics
@@ -9666,7 +9666,7 @@ System                  -- Interaction with the "system"
     CPUTime             -- H98
     Directory           -- H98
     Exit                -- ( ExitCode(..), exitWith, exitFailure )
-    Environment         -- ( getArgs, getProgName, getEnv … )
+    Environment         -- ( getArgs, getProgName, getEnv ... )
     Info                -- info about the host system
     IO                  -- H98 + IOExts - IOArray - IORef
         Select
@@ -9708,7 +9708,7 @@ Text
         HughesPJ
         Wadler
         Chitil
-        …
+        ...
     HTML                -- HTML combinator lib
     XML
         Combinators
@@ -9719,7 +9719,7 @@ Text
         ReadP           -- a more efficient "ReadS"
         Parsec
         Hutton_Meijer
-        …
+        ...
 
 Training                --  Collect study and learning materials
     <name of the tutor>
@@ -9803,7 +9803,7 @@ f x =
   | cond2 x = y
   | otherwise = y
  where
-  y = … x …
+  y = ... x ...
 #+end_src
 
 ***** /*/
@@ -10771,7 +10771,7 @@ Any type of the kind Constraints can be used as a constraint.
   type instance Typ Bool b = Num b
 
   func :: Typ a b => a -> b -> b
-  func = …
+  func = ...
   #+end_src
 
 ** <<<Specialisation>>>
@@ -11339,7 +11339,7 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 :ID:       4ded4b6f-3593-4203-88a6-ce1b6f5fa71e
 :end:
 
-=let … in …= is a separate expression. In contrast, =where= is bound to a surrounding syntactic construct (namespace).
+=let ... in ...= is a separate expression. In contrast, =where= is bound to a surrounding syntactic construct (namespace).
 
 ** <<<Good: RankNTypes>>> :drill:
 :properties:
@@ -11654,7 +11654,7 @@ cachix use all-hies
 **** 2.2.a. Installation on NixOS distribution:
 
 #+begin_src nix
-{ config, pkgs, … }:
+{ config, pkgs, ... }:
 
 let
 
@@ -11836,7 +11836,7 @@ So the basic summary I can give is:
 
     For testing everything other than cross-platform support: Nix + Linux is best in my opinion
 
-    … because you get much more control and intelligent build caching, which is usually where most CI solutions fall short
+    ... because you get much more control and intelligent build caching, which is usually where most CI solutions fall short
 
     For cross-platform support: stack + whatever CI provider provides free builds for that platform
 
@@ -11960,9 +11960,9 @@ always enabled.
 So:
 #+begin_src haskell
 import           Control.Monad.Fail
-…
+...
 class MonadFail m => MonadFile m
-…
+...
 -- use error instead of fail
 Nothing     -> error ("Message " <> show x)
 #+end_src
