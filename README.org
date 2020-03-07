@@ -1038,8 +1038,8 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
   - [[#ghc-pkg][ghc-pkg]]
   - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
   - [[#integration-of-nixosnix-with-haskell-ide-engine-hie-and-emacs-spacemacs][Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)]]
-    - [[#1-install-the-cachix-httpsgithubcomcachixcachix][1. Install the Cachix: https://github.com/cachix/cachix]]
-    - [[#2-installation-of-hie-httpsgithubcominfinisilall-hiescached-builds][2. Installation of HIE: https://github.com/infinisil/all-hies/#cached-builds]]
+    - [[#1-install-the-cachix][1. Install the Cachix]]
+    - [[#2-installation-of-hie][2. Installation of HIE]]
       - [[#21-provide-cached-builds][2.1. Provide cached builds]]
       - [[#22a-installation-on-nixos-distribution][2.2.a. Installation on NixOS distribution:]]
       - [[#22b-installation-with-nix-package-manager][2.2.b. Installation with Nix package manager:]]
@@ -11641,9 +11641,13 @@ https://codesearch.aelve.com/
 :ID:       cd7eefc7-9fed-4ea0-8273-17ef478265f2
 :end:
 
-*** 1. Install the Cachix: https://github.com/cachix/cachix
+*** 1. Install the Cachix
 
-*** 2. Installation of HIE: https://github.com/infinisil/all-hies/#cached-builds
+Upstream doc: https://github.com/cachix/cachix
+
+*** 2. Installation of HIE
+
+Upstream doc: https://github.com/infinisil/all-hies/#cached-builds
 
 **** 2.1. Provide cached builds
 
