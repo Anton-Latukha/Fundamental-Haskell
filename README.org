@@ -42,6 +42,7 @@
 #+options: p:nil
 #+options: \n:t
 #+options: -:t
+#+options: e:t
 #+toc: headlines 10
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
