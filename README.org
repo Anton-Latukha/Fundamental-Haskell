@@ -37,7 +37,7 @@
 #+options: tags:nil
 #+options: stat:t
 #+options: H:10
-#+options: num:10
+#+options: num:t
 #+options: toc:10
 #+options: p:nil
 #+options: \n:t
