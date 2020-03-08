@@ -6,6 +6,7 @@
 #
 #
 #
+
 #+begin_src text
 
                         _oo0oo_
@@ -28,6 +29,7 @@
                         `=---='
 
 #+end_src
+
 #
 #
 #
