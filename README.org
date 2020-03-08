@@ -5585,7 +5585,6 @@ Application of an argument to /*/ produces a function that has =arity - 1=.
 **** /*/
 
 <<<HOF>>>
-<<<Higher order function>>>
 
 **** <<<Fold>>> :drill:
 SCHT: <2020-05-18 Mon>
