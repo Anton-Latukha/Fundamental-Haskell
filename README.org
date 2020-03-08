@@ -1147,9 +1147,9 @@ A system of parts based on given axioms (properties) and operations on them.
 
 ---
 
-1) Abstract algebra - the study of number systems and operations within them.
-2) Algebra - vector space over a field with a multiplication.
-3) Algebra - a set with its algebraic structure.
+1) Algebra - a set with its algebraic structure.
+2) Abstract algebra - the study of number systems and operations within them.
+3) Algebra - vector space over a field with a multiplication.
 
 *** /*/
 
