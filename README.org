@@ -1142,10 +1142,12 @@ SCHT: <2020-02-05 Wed>
 :DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:32]
 :end:
 
-al-jabr - assemble parts.
+الجبر /al-jabr/ assemble parts
+
 A system of parts based on given axioms (properties) and operations on them.
 
----
+
+Additional meanings:
 
 1) Algebra - a set with its algebraic structure.
 2) Abstract algebra - the study of number systems and operations within them.
