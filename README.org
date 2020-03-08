@@ -8965,7 +8965,7 @@ Function with Boolean codomain.
 
 Notation: \( P(x) \)
 
-Almost always can include relations, quantifiers.
+Im many cases includes relations, quantifiers.
 
 *** <<<Statement>>> :drill:
 SCHT: <2020-08-26 Wed>
