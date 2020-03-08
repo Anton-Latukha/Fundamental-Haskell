@@ -6009,10 +6009,6 @@ SCHT: <2020-02-06 Thu>
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
 
-Each dimension of the cube corresponds to a new way of making objects depend on other objects:
-  * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
-  * (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
-  * (Type class) - types depending on types, corresponding to type operators.
 ---
 
 \begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
@@ -6021,6 +6017,11 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   & \lambda \underline{\omega} \arrow[rr] &  & \lambda P \underline{\omega} \arrow[uu] \\
   \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur]\\
 \end{tikzcd}
+
+Each dimension of the cube corresponds to extensions (a new way of objects depending on objects):
+  * Polymorhic types - (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
+  * Type operations - (Type class) - types depending on types, corresponding to type operators.
+  * Depended types - (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
 
 **** /*/
 
