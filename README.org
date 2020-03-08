@@ -7844,10 +7844,11 @@ SCHT: <2020-02-05 Wed>
 :end:
 
 Object existing out of planes, thus it can translate objects from one plane into another.
-They can be tried to be described with knowledge existing inside planes, but representation would always be partial.
+/*/ can be tried to be described with knowledge existing inside planes (from projection on the plane), but representation would always be partial.
+
 Tensor of rank 1 is a vector.
 
-Translatioin with tensor can be seen as functors.
+Translations with tensor can be seen as functors.
 
 ******* /*/
 
