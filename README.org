@@ -49,8 +49,8 @@
 #+latex_header: \usepackage{fixltx2e}
 #+latex_header: \usepackage{float}
 #+latex_header: \usepackage[normalem]{ulem}
-#+latex_header: \usepackage{marvosym}
-#+latex_header: \usepackage{wasysym}
+#+latex_header: \usepackage{marvosym}    % Some symbols which probably not used in my book
+#+latex_header: \usepackage{wasysym}    % Some symbols which may be not used in my book
 #+latex_header: \tolerance=1000
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
