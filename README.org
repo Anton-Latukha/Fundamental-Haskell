@@ -6013,9 +6013,9 @@ SCHT: <2020-02-06 Thu>
 
 \begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
   & \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
-  \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] \\
-  & \lambda \underline{\omega} \arrow[rr] &  & \lambda P \underline{\omega} \arrow[uu] \\
-  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur]\\
+  \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] & & & {Polymorphic \ types} \\
+  & \lambda \underline{\omega} \arrow[rr] & & \lambda P \underline{\omega} \arrow[uu] & & & {Type \ opertations} \\
+  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] & & & 0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types}\\
 \end{tikzcd}
 
 Each dimension of the cube corresponds to extensions (a new way of objects depending on objects):
