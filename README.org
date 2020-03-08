@@ -8097,9 +8097,9 @@ SCHT: <2020-02-05 Wed>
 :end:
 
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
-ScopedTypeVariables
-RankNTypes
-ExistentialQuantification
+  * ScopedTypeVariables
+  * RankNTypes
+  * ExistentialQuantification
 
 ****** /*/
 
