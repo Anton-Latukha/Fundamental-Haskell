@@ -6013,6 +6013,14 @@ Each dimension of the cube corresponds to a new way of making objects depend on 
   * (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
   * (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
   * (Type class) - types depending on types, corresponding to type operators.
+---
+
+\begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
+  & \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
+  \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] \\
+  & \lambda \underline{\omega} \arrow[rr] &  & \lambda P \underline{\omega} \arrow[uu] \\
+  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur]\\
+\end{tikzcd}
 
 **** /*/
 
