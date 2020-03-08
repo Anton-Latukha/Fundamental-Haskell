@@ -5570,16 +5570,17 @@ SCHT: <2020-02-05 Wed>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:30]
 :end:
 
-Function arity > 1.
+Function that has arity > 1.
 
 ----
 
 Has function as a parameter.
-Evaluates into a function with =arity - 1=.
+Evaluates into a function that has =arity - 1=.
 
 **** /*/
 
 <<<HOF>>>
+<<<Higher order function>>>
 
 **** <<<Fold>>> :drill:
 SCHT: <2020-05-18 Mon>
@@ -7830,17 +7831,17 @@ Value semantics
 Values
 
 ****** <<<Tensor>>> :drill:
-SCHT: <2020-02-05 Wed>
+SCHT: <2021-01-01 Fri>
 :properties:
 :ID:       e165b708-fdd2-4062-be87-b65487de4a0e
-:DRILL_LAST_INTERVAL: 122.3776
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 298.9685
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-06 Sun 02:02]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 23:02]
 :end:
 
 Object existing out of planes, thus it can translate objects from one plane into another.
@@ -8083,17 +8084,17 @@ Two most common quantifiers \( \forall \) (Forall) and \( \exists \) (Exists).
 <<<Quantified>>>
 
 ***** <<<Forall quantifier>>> :drill:
-SCHT: <2020-02-05 Wed>
+SCHT: <2020-08-16 Sun>
 :properties:
 :ID:       922b622a-38c4-4079-a1e0-61ff010f7a10
-:DRILL_LAST_INTERVAL: 67.5302
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 160.3167
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.32
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:09]
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 23:04]
 :end:
 
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
