@@ -5575,7 +5575,7 @@ Function arity > 1.
 ----
 
 Has function as a parameter.
-Evaluates to function.
+Evaluates into a function with =arity - 1=.
 
 **** /*/
 
