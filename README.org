@@ -4519,17 +4519,17 @@ In most languages typing is name-based, not structural.
 <<<Structural typing>>>
 
 *** <<<Sum data type>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-04-08 Wed>
 :properties:
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:25]
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:52]
 :end:
 
 Algebraic data type formed by logical disjunction (OR '|').
@@ -6955,17 +6955,17 @@ import MultiParamTypeClasses
 #+end_src
 
 ***** <<<AllowAmbiguousTypes>>> :drill:
-SCHT: <2020-02-04 Tue>
+SCHT: <2020-09-16 Wed>
 :properties:
 :ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
-:DRILL_LAST_INTERVAL: 72.2722
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 191.5213
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
-:DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:29]
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:52]
 :end:
 
 Allow type signatures which appear that they would result in an unusable binding.
@@ -8422,17 +8422,17 @@ SCHT: <2020-03-16 Mon>
 <<<Latin prefix>>>
 
 *** <<<Idiom>>> :drill:
-SCHT: <2020-02-02 Sun>
+SCHT: <2021-01-17 Sun>
 :properties:
 :ID:       bc244256-751d-4205-857e-368a45580884
-:DRILL_LAST_INTERVAL: 125.9435
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 315.4885
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-09-29 Sun 22:40]
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:49]
 :end:
 
 /*/ - something having a meaning that can not be derived from the conjoined meanings of /*/ constituents.
@@ -8561,17 +8561,17 @@ Also 1-sequence.
 If there exists normal set of all sets - it should contain itself, which makes it abnormal.
 
 *** <<<Cartesian product>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-04-06 Mon>
 :properties:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
-:DRILL_LAST_INTERVAL: 10.7143
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 28.8322
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
+:DRILL_AVERAGE_QUALITY: 4.667
+:DRILL_EASE: 2.7
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:50]
 :end:
 
 \( \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} \).
@@ -8947,17 +8947,17 @@ Denotation:
 Summs cardinalities.
 
 *** <<<Predicate>>> :drill:
-SCHT: <2020-02-03 Mon>
+SCHT: <2020-04-08 Wed>
 :properties:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
-:DRILL_LAST_INTERVAL: 11.0911
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 30.8887
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:14]
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:51]
 :end:
 
 Function with Boolean codomain.
