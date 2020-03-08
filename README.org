@@ -5574,8 +5574,11 @@ Function that has arity > 1.
 
 ----
 
-Has function as a parameter.
-Evaluates into a function that has =arity - 1=.
+HOF is:
+  * function that accepts function as a parameter
+  * function that has more then one parameter.
+
+Application of an argument to /*/ produces a function that has =arity - 1=.
 
 **** /*/
 
