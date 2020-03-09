@@ -1879,17 +1879,17 @@ const <$> mkId xs <*> mkId xs'
 #+end_src
 
 ****** <<<Constant applicative>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2020-05-02 Sat>
 :properties:
 :ID:       9389eea3-10e3-410b-a6ef-a56d9ab7163e
-:DRILL_LAST_INTERVAL: 22.3868
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 53.7507
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:53]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
 :end:
 
 It holds only to one value. The function does not exist and last parameter is a phantom.
@@ -3367,17 +3367,17 @@ Composed with other morphism gives same morphism.
 Corresponds to Reflexivity and Automorphism.
 
 ***** <<<Identity>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2020-04-25 Sat>
 :properties:
 :ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
-:DRILL_LAST_INTERVAL: 22.0046
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 47.3759
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.556
 :DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:47]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:08]
 :end:
 
 Identity only possible with morphism. See Identity morphism.
@@ -3699,17 +3699,17 @@ Denotation:
 \( \operatorname{ker}T = \{ \mathbf{v} \in V:T(\mathbf{v}) = \mathbf{0}_{W} \} \).
 
 ***** <<<Kernel homomorphism>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2020-04-28 Tue>
 :properties:
 :ID:       e77c8ade-6668-48e3-aeae-3bf1209e31d8
-:DRILL_LAST_INTERVAL: 22.4426
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 50.2714
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.222
+:DRILL_AVERAGE_QUALITY: 3.3
 :DRILL_EASE: 2.24
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:02]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
 :end:
 
 Morphism of elements from the kernel.
@@ -6116,17 +6116,17 @@ No beta reduction is possible.
 <<<Beta-normal form>>>
 
 *** <<<Calculus of constructions>>> :drill:
-SCHT: <2020-03-03 Tue>
+SCHT: <2020-05-09 Sat>
 :properties:
 :ID:       6c93585b-5ba5-4a38-ae39-2f7dc718390b
-:DRILL_LAST_INTERVAL: 23.8485
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 60.7183
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.75
+:DRILL_AVERAGE_QUALITY: 3.8
 :DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:10]
 :end:
 
 Extends the Curry–Howard correspondence to the proofs in the full intuitionistic predicate calculus (includes proofs of quantified statements).
@@ -6513,17 +6513,17 @@ SCHT: <2020-04-29 Wed>
 Binding name to expression.
 
 *** <<<Dispatch>>> :drill:
-SCHT: <2020-03-03 Tue>
+SCHT: <2020-05-11 Mon>
 :properties:
 :ID:       aba69f2c-bd70-46eb-9cd3-a215fdd37737
-:DRILL_LAST_INTERVAL: 23.8485
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 62.8408
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.333
-:DRILL_EASE: 2.56
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:10]
 :end:
 
 Sort-out & send.
@@ -6684,17 +6684,17 @@ In Haskell - abstract over data types.
 <<<Polymorphic>>>
 
 *** <<<Levity polymorphism>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-04-01 Wed>
 :properties:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
-:DRILL_LAST_INTERVAL: 9.3103
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 22.7451
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:07]
 :end:
 
 Extending polymorphism to work with unlifted and lifted types.
@@ -6732,17 +6732,17 @@ Parametric polymorphism in rank-1 types by type variables.
 <<<Prenex polymorpism>>>
 
 **** <<<Let-bound polymorphism>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-03-31 Tue>
 :properties:
 :ID:       f415a2f4-8f66-483d-9b75-70b3e5fe4b89
-:DRILL_LAST_INTERVAL: 9.3103
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 21.9723
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.25
 :DRILL_EASE: 2.36
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:39]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:08]
 :end:
 
 It is property chosen for Haskell type system.
@@ -7297,17 +7297,17 @@ Allow tuple section syntax:
 #+end_src
 
 ***** <<<TypeApplications>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2020-04-03 Fri>
 :properties:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
-:DRILL_LAST_INTERVAL: 10.3376
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 25.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.2
 :DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
 :end:
 
 Allow type application syntax:
@@ -8276,17 +8276,17 @@ The inverse of a covariant transformation is a contravariant transformation. Whe
 <<<Contravariant functor>>> - More inline term is Contravariant cofunctor
 
 ****** <<<Covariant>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2020-05-05 Tue>
 :properties:
 :ID:       90eb2e6f-8695-446f-a7e8-ccac7f47dbee
-:DRILL_LAST_INTERVAL: 22.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 56.6607
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
 :end:
 
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis proportional for a descriptions of tensors in basisis.
@@ -11441,17 +11441,17 @@ Maps - left-biased union.
 Number - =Sum=, =Product= form separate monoid categories.
 
 ** <<<Good: Free monad>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-03-30 Mon>
 :properties:
 :ID:       e5c45f71-de00-48fb-bb31-a65a2893abdc
-:DRILL_LAST_INTERVAL: 9.3103
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 21.1996
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:38]
+:DRILL_EASE: 2.22
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:07]
 :end:
 
 The main case of usage of Free monads in Haskell:
