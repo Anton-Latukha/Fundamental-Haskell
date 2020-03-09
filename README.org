@@ -12483,6 +12483,17 @@ Same representation means they are type aliases, or it the compiler can infer th
 Directly shares the values from the source type to the target type.
 Conversion is free, there is no run-time computations.
 
+The function implementing the transition:
+#+begin_src haskell
+coerce :: Coercible a b => a -> b
+#+end_src
+
+Type class implementing the instances for transitions:
+#+begin_src haskell
+class a ~R# b => Coercible (a :: k0) (b :: k0)
+#+end_src
+When compiler detects types have same structure, type class instances coerse implementation for this pairs of types. This type class does not have regular instances; instead they are created on-the-fly during type-checking. Trying to manually declare an instance of Coercible is an error.
+
 *** /*/
 
 Coercible
