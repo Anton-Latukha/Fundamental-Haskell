@@ -6013,6 +6013,8 @@ SCHT: <2020-04-03 Fri>
 
 ---
 
+#+captions: \lambda-cube generalization of typed tystem from \lambda-calculus to calculus of constructions, and the tree degrees (axis) of expansion
+#+name: diag--lambda-cube
 \begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
   & \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
   \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] & & & {Polymorphic \ types} \\
