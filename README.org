@@ -110,6 +110,7 @@
 #+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
 #+latex_header: \usepackage{caption}
 #+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
+#+latex_header: \usepackage[LGR, LFE, LAE, T1]{fontenc}    % LGR - de-facto standard Greek font support in LaTeX. Also pdfTex uses T1 for latin, LuaTex uses. LFE, LAE are for Arabic font support.
 #+latex_header: \usepackage{mathtools}
 #+latex_header: \usepackage[utf8]{inputenc}
 # Enable MathJax
