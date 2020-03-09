@@ -6015,10 +6015,22 @@ SCHT: <2020-02-06 Thu>
   & \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
   \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] & & & {Polymorphic \ types} \\
   & \lambda \underline{\omega} \arrow[rr] & & \lambda P \underline{\omega} \arrow[uu] & & & {Type \ opertations} \\
-  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] & & & 0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types}\\
+  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] & & & 0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types} \\
 \end{tikzcd}
 
 Each dimension of the cube corresponds to extensions (a new way of objects depending on objects):
+
+| System of the cube | Logical System                             |
+|--------------------+--------------------------------------------|
+| \( \lambda\to \)         | (First Order) Propositional Calculus       |
+| \( \lambda2 \)           | Second Order Propositional Caculus         |
+| \( \lambda\omega \) | Weakly Higher Order Propositional Calculus |
+| \( \lambda \underline{\omega} \) | Higher Order Propositional Calculus        |
+| \( \lambda P \)         | (First Order) Predicate Logic              |
+| \( \lambda P 2 \)     | Second Order Predicate Calculus            |
+| \( \lambda P \undeline{\omega} \) | Weak Higher Order Predicate Calculus       |
+| \( \lambda C \)          | Calculus of Constructions                  |
+
   * Polymorhic types - (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
   * Type operations - (Type class) - types depending on types, corresponding to type operators.
   * Depended types - (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
