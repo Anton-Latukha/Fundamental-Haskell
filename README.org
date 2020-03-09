@@ -12479,6 +12479,7 @@ dimap id <==> fmap
 ** Coerce
 
 Operates under condition that source and target types have same representation.
+Same representation means they are type aliases, or it the compiler can infer that they have the same representation. 
 Directly shares the values from the source type to the target type.
 Conversion is free, there is no run-time computations.
 
