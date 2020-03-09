@@ -11177,7 +11177,7 @@ SCHT: <2020-03-26 Thu>
 Where character is not present - discard the according processing of a parameter.
 =(>> )= is an exception, it does the reverse. ignores the first parameter.
 
-*** <<<=*>=>>> :drill:
+*** <<<= *>=>>> :drill:
 SCHT: <2020-03-13 Fri>
 :properties:
 :ID:       52ea3b25-cfae-4a95-9703-6baa39159536
