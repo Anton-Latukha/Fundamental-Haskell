@@ -3259,8 +3259,17 @@ Monoid that has inverse for every element.
 <<<Groups>>>
 
 ******* <<<Commutative group>>> :drill:
+SCHT: <2020-03-13 Fri>
 :properties:
 :ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:25]
 :end:
 
 Commutative monoid that is a group.
