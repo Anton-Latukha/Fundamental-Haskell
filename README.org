@@ -3263,6 +3263,7 @@ Monoid that has inverse for every element.
 :properties:
 :ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
 :end:
+
 Group operation obeys the axiom of commutativity.
 
 ******** /*/
