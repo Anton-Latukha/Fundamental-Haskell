@@ -12567,6 +12567,11 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 ** Performance results and comparisons of types & solutions
 [[https://github.com/haskell-perf][Haskell performance]]
 
+** Literature
+
+  * GHC Team "GHC User’s Guide Documentation": https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf
+  * Stephen Diehl & contributors "What I Wish I Knew When Learning Haskell": http://dev.stephendiehl.com/hask/tutorial.pdf
+
 * Liturgy
 λειτ       <- λαός  /Laos/       the people
     ουργός <- ἔργο  /ergon/      work
