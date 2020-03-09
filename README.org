@@ -6032,7 +6032,7 @@ Each dimension of the cube corresponds to extensions (a new type of relation of 
 | \omega          | Type operation    | Type class, type families                 | Types depending on types |
 | P          | Dependent types   | Higher-rank polymorphism, dependent types | Types depending on terms |
 
-#+captions: Names of the typed systems on the \lambda-cube
+#+captions: \lambda-cube: Names of the type systems
 #+name: tab--lambda-calculus-names
 | Denotation             | Logical system                             |
 |------------------------+--------------------------------------------|
