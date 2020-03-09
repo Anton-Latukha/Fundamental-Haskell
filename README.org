@@ -6013,6 +6013,14 @@ SCHT: <2020-04-03 Fri>
 
 ---
 
+#+captions: \lambda-cube: degrees of generalizaitions of the type systems
+#+name: diag--lambda-cube-axis
+\begin{tikzcd}
+{Polymorphic \ types}
+& {Type \ opertations}
+0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types}
+\end{tikzcd}
+
 #+captions: The \lambda-cube. The generalization of type systems: from \lambda-Calculus to Calculus of Constructions
 #+name: diag--lambda-cube
 \begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
