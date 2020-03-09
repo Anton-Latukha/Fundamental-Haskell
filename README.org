@@ -12477,6 +12477,16 @@ dimap id <==> fmap
 (flip dimap) id <==> contramap
 #+end_src
 
+** Coerce
+
+Operates under condition that source and target types have same representation.
+Directly shares the values from the source type to the target type.
+Conversion is free, there is no run-time computations.
+
+*** /*/
+
+Coercible
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
