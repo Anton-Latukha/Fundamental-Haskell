@@ -6024,7 +6024,7 @@ SCHT: <2020-04-03 Fri>
 
 Each dimension of the cube corresponds to extensions (a new type of relation of objects depending on objects):
 
-#+captions: Three degrees of generalizations of typed systems
+#+captions: Three degrees of type systems generalizations
 #+name: tab--lambda-calculus-generalizations
 | Denotation | Name              | Programming                               | New type of relations    |
 |------------+-------------------+-------------------------------------------+--------------------------|
