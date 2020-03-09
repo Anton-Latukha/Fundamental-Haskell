@@ -1123,7 +1123,8 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
   - [[#haskell-98][Haskell-98]]
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
   - [[#performance-results-and-comparisons-of-types--solutions][Performance results and comparisons of types & solutions]]
-- [[#liturgy][Liturgy]]
+  - [[#literature][Literature]]
+- [[#λειτουργία][λειτουργία]]
 
 * Definitions
 :properties:
