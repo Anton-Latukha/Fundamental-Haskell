@@ -2467,11 +2467,10 @@ Useful: Creates monads from monad transformers.
 
 Bind: Applies internal value to the bound function.
 
-Code:
+Code: (see: coerce)
 #+begin_src haskell
 newtype Identity a = Identity { runIdentity :: a }
 
--- coerse is a function that directly moves data between type aliases
 instance Functor Identity where
   fmap     = coerce
 
