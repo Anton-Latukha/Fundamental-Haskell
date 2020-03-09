@@ -6035,6 +6035,8 @@ Each dimension of the cube corresponds to extensions (a new way of objects depen
 | \( \lambda P \undeline{\omega} \) | Weak Higher Order Predicate Calculus       |
 | \( \lambda C \)          | Calculus of Constructions                  |
 
+#+captions: Three degrees of generalizations of typed systems
+#+name: tab--lambda-calculus-generalizations
 | Denotation | Name              | Programming                               | New type of relations    |
 |------------+-------------------+-------------------------------------------+--------------------------|
 | 2          | Polymorphic types | First-class polymorphism of types         | Terms depending on types |
