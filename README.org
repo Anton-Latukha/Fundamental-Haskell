@@ -3264,7 +3264,7 @@ Monoid that has inverse for every element.
 :ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
 :end:
 
-Group operation obeys the axiom of commutativity.
+Commutative monoid that is a group.
 
 ******** /*/
 
