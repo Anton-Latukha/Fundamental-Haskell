@@ -3230,7 +3230,7 @@ SCHT: <2020-10-08 Thu>
 :DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:01]
 :end:
 
-Commutativity property:
+Operation that forms structure has commutativity property:
 \( x \circ y = y \circ x \)
 
 Opens a big abilities in concurrent and distributed processing.
