@@ -12577,11 +12577,11 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 
 λειτ       <- λαός  /Laos/       the people
     ουργός <- ἔργο  /ergon/      work
-λειτουργία          /leitourgia/ Traditional & moral value contributing to the community.
+λειτουργία          /leitourgia/ Moral value to contribute, give back to the community.
 
 The life is beautiful.
 For all humans that make the life have more uniqueness.
 
-This study would not be possible without mathematicians, Haskellers, scientists, creators, contributors. These people are the most fascinating in my life.
+This study would not be possible without the community: tearchers, mathematicians, Haskellers, scientists, creators, contributors. In my life these people are the most fascinating.
 
 Special accolades for the guys at Serokell. They were the force that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
