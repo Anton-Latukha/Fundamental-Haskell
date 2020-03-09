@@ -6016,10 +6016,10 @@ SCHT: <2020-04-03 Fri>
 #+captions: The \lambda-cube. The generalization of type systems: from \lambda-Calculus to Calculus of Constructions
 #+name: diag--lambda-cube
 \begin{tikzcd}[row sep=scriptsize,column sep=scriptsize]
-  & \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
-  \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] & & & {Polymorphic \ types} \\
-  & \lambda \underline{\omega} \arrow[rr] & & \lambda P \underline{\omega} \arrow[uu] & & & {Type \ opertations} \\
-  \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] & & & 0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types} \\
+& \lambda \omega \arrow[rr] \arrow[from=dd] & & \lambda C \\
+\lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] \\
+& \lambda \underline{\omega} \arrow[rr] & & \lambda P \underline{\omega} \arrow[uu] \\
+\lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] \\
 \end{tikzcd}
 
 Each dimension of the cube corresponds to extensions (a new type of relation of objects depending on objects):
