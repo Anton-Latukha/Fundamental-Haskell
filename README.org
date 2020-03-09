@@ -1209,17 +1209,17 @@ An underlying set with /*/ on top of it also called "an algebra".
 <<<Algebraic structures>>>
 
 **** <<<Fundamental theorem of algebra>>> :drill:
-SCHT: <2020-02-28 Fri>
+SCHT: <2020-04-23 Thu>
 :properties:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 19.8547
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 45.2687
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.25
+:DRILL_AVERAGE_QUALITY: 3.308
 :DRILL_EASE: 2.28
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:53]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -1296,17 +1296,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2020-02-08 Sat>
+SCHT: <2020-04-13 Mon>
 :properties:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 15.9226
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 34.6157
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.077
-:DRILL_EASE: 2.1
+:DRILL_AVERAGE_QUALITY: 3.214
+:DRILL_EASE: 2.2
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
 :end:
 
 Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
@@ -1663,17 +1663,17 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 <<<Applicative laws>>>
 
 ****** <<<Applicative identity law>>> :drill:
-SCHT: <2020-02-19 Wed>
+SCHT: <2020-09-07 Mon>
 :properties:
 :ID:       2e87e916-1501-4310-9887-e0bcf7b9e1ca
-:DRILL_LAST_INTERVAL: 82.146
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 181.9534
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:06]
+:DRILL_AVERAGE_QUALITY: 3.364
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
 :end:
 
 #+begin_src haskell
@@ -1742,17 +1742,17 @@ u <*> pure y = pure ($ y) <*> u
 ****** <<<liftA*>>>
 
 ******* <<<liftA>>> :drill:
-SCHT: <2020-02-18 Tue>
+SCHT: <2020-07-21 Tue>
 :properties:
 :ID:       8d9bbfb6-95d0-46c5-85bc-05c357721882
-:DRILL_LAST_INTERVAL: 52.5213
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 133.7192
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:05]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 Essentially a fmap.
@@ -1904,17 +1904,17 @@ instance Applicative C
 #+end_src
 
 ****** <<<Maybe applicative>>> :drill:
-SCHT: <2020-02-15 Sat>
+SCHT: <2020-10-16 Fri>
 :properties:
 :ID:       5929b239-fa46-40c6-9896-a2dabe40f619
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 221.1724
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
 :end:
 
 "There also can be no function at all."
@@ -2040,17 +2040,17 @@ Monad corresponds to functor laws & applicative laws and additionally:
 <<<Monad laws>>>
 
 ******* <<<Monad left identity law>>> :drill:
-SCHT: <2020-02-16 Sun>
+SCHT: <2020-08-20 Thu>
 :properties:
 :ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
-:DRILL_LAST_INTERVAL: 79.2671
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 164.0829
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.222
-:DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:06]
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.1
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 #+begin_src haskell
@@ -2994,17 +2994,17 @@ Do calculation, but ignore the value from the first argument.
 Functors between monoidal categories that preserves monoidal structure.
 
 **** <<<Fusion>>> :drill:
-SCHT: <2020-02-15 Sat>
+SCHT: <2020-10-24 Sat>
 :properties:
 :ID:       401d4ba1-4405-4ca7-a96c-c8fe8d22c3bf
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 228.9343
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 #+begin_src haskell
@@ -3249,17 +3249,17 @@ Opens a big abilities in concurrent and distributed processing.
 <<<Abelian monoid>>>
 
 ****** <<<Group>>> :drill:
-SCHT: <2020-02-13 Thu>
+SCHT: <2020-07-04 Sat>
 :properties:
 :ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
-:DRILL_LAST_INTERVAL: 47.6665
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 117.1166
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.75
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:05]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
 :end:
 
 Monoid that has inverse for every element.
@@ -3413,17 +3413,17 @@ SCHT: <2020-09-18 Fri>
 Predicate
 
 ****** <<<Left identity of a predicate>>> :drill:
-SCHT: <2020-02-15 Sat>
+SCHT: <2020-10-24 Sat>
 :properties:
 :ID:       1f08ecdc-8177-4f95-98c6-0c8858c54bf0
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 228.9343
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:33]
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
 :end:
 
 \( \exists e \in S, \forall a \in S : \; P(e,a)=a \)
@@ -3568,17 +3568,17 @@ Arrow from object to itself.
 Endomorphism forms a monoid (object exists and category requirements already in place).
 
 ***** <<<Automorphism>>> :drill:
-SCHT: <2020-02-24 Mon>
+SCHT: <2020-04-10 Fri>
 :properties:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
-:DRILL_LAST_INTERVAL: 16.073
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 32.146
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.3
+:DRILL_AVERAGE_QUALITY: 3.364
 :DRILL_EASE: 2.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:36]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 \alpha\upsilon\tau\omicron /auto/ self
@@ -3823,17 +3823,17 @@ Vertical and horizontal compositions can be done in any order, they abide the ex
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-04-01 Wed>
 :properties:
 :ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
-:DRILL_LAST_INTERVAL: 9.3103
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 22.7451
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:14]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:02]
 :end:
 
 Family of parametric polymorphism functions between endofunctors.
@@ -4077,17 +4077,17 @@ Category can include Set, and hom sets, or not.
 <<<Hom sets>>>
 
 **** <<<Hom-functor>>> :drill:
-SCHT: <2020-02-28 Fri>
+SCHT: <2020-03-20 Fri>
 :properties:
 :ID:       e2bb6ea3-2f94-47d8-b4ab-b09feb096d98
-:DRILL_LAST_INTERVAL: 8.4538
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 27
+:DRILL_LAST_INTERVAL: 11.3281
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 28
 :DRILL_FAILURE_COUNT: 15
-:DRILL_AVERAGE_QUALITY: 2.593
+:DRILL_AVERAGE_QUALITY: 2.643
 :DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 \( hom:\mathcal{C}^{op} \times \mathcal{C} \to Set \)
@@ -5249,17 +5249,17 @@ SCHT: <2020-07-11 Sat>
 Reducible expression.
 
 *** <<<Concatenate>>> :drill:
-SCHT: <2020-02-16 Sun>
+SCHT: <2020-10-26 Mon>
 :properties:
 :ID:       fd27911c-bf33-4510-91ff-afa1d4e7d2e1
-:DRILL_LAST_INTERVAL: 84.1054
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 230.7011
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 Link together sequences, expressions.
@@ -5307,17 +5307,17 @@ As you see in the code - Haskell variables (same names) hold different value at 
 <<<Variables>>>
 
 *** <<<Phrase>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-04-27 Mon>
 :properties:
 :ID:       a23fe978-1afc-4fc9-8dda-6bb49b9554a3
-:DRILL_LAST_INTERVAL: 20.9226
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 49.3773
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.455
 :DRILL_EASE: 2.38
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:57]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 Composable expression.
@@ -5994,17 +5994,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
-SCHT: <2020-02-06 Thu>
+SCHT: <2020-04-03 Fri>
 :properties:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 14.0183
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 25.2329
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.778
+:DRILL_AVERAGE_QUALITY: 2.9
 :DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:13]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:55]
 :end:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
@@ -6554,17 +6554,17 @@ SCHT: <2020-09-18 Fri>
 For FP see Bind.
 
 ** <<<Permutation>>> :drill:
-SCHT: <2020-02-18 Tue>
+SCHT: <2020-07-09 Thu>
 :properties:
 :ID:       af01cb45-6b61-4b9f-bac6-390a2ec82a5c
-:DRILL_LAST_INTERVAL: 53.3381
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 121.6109
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.092
+:DRILL_AVERAGE_QUALITY: 3.168
 :DRILL_EASE: 2.28
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:57]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 Bijective function from domain to itself.
@@ -6720,17 +6720,17 @@ Abstracting over data types by parameter.
 Types:
 
 **** <<<Rank-1 polymorphism>>> :drill:
-SCHT: <2020-02-08 Sat>
+SCHT: <2020-04-12 Sun>
 :properties:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
-:DRILL_LAST_INTERVAL: 16.1064
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 34.4677
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.076
+:DRILL_AVERAGE_QUALITY: 3.142
 :DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
 :end:
 
 Parametric polymorphism in rank-1 types by type variables.
@@ -7362,17 +7362,17 @@ Permit instances which may lead to type-checker non-termination.
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 
 ***** <<<ViewPatterns>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-03-28 Sat>
 :properties:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 13.552
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 18.7966
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.924
-:DRILL_EASE: 1.34
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:47]
+:DRILL_AVERAGE_QUALITY: 3.072
+:DRILL_EASE: 1.44
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
 :end:
 
 #+begin_src haskell
@@ -7537,17 +7537,17 @@ If there exists composed idiomatic expression - it is unfull, unpure composition
 <<<Compositional>>>
 
 ** <<<Referential transparency>>> :drill:
-SCHT: <2020-02-09 Sun>
+SCHT: <2021-01-18 Mon>
 :properties:
 :ID:       b7cbd6cd-5739-431a-9eae-5922e60dff81
-:DRILL_LAST_INTERVAL: 125.9435
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 315.4885
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-10-06 Sun 02:02]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
 :end:
 
 Given the same input return the same output.
@@ -7683,17 +7683,17 @@ Good to achive more broad approach/meaning.
 Also see Abstraction.
 
 **** <<<Abstraction>>> :drill:
-SCHT: <2020-02-28 Fri>
+SCHT: <2020-04-25 Sat>
 :properties:
 :ID:       7875b659-d137-41df-b146-6fb73f090a4e
-:DRILL_LAST_INTERVAL: 19.8547
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 46.8571
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:42]
+:DRILL_AVERAGE_QUALITY: 3.636
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 abs away from, off (in absentia)
@@ -8064,17 +8064,17 @@ Values consumed once or not used.
 <<<Linearity>>>
 
 **** <<<Predicative>>> :drill:
-SCHT: <2020-02-10 Mon>
+SCHT: <2020-04-19 Sun>
 :properties:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 17.7681
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 41.1865
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.182
-:DRILL_EASE: 2.24
+:DRILL_AVERAGE_QUALITY: 3.334
+:DRILL_EASE: 2.34
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:26]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
 :end:
 
 Non-self-referencing definition.
@@ -8230,17 +8230,17 @@ SCHT: <2020-02-22 Sat>
 /*/ - the operations are grouped from the right.
 
 ***** <<<Non-associative>>> :drill:
-SCHT: <2020-02-29 Sat>
+SCHT: <2020-03-29 Sun>
 :properties:
 :ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
-:DRILL_LAST_INTERVAL: 8.9861
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 19.9491
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 2.667
+:DRILL_AVERAGE_QUALITY: 3.0
 :DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:41]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 Operations can't be chained.
@@ -8803,17 +8803,17 @@ Process of reducing coplexity in the test case - re-run with smaller values and 
 :end:
 
 *** <<<Proposition>>> :drill:
-SCHT: <2020-02-13 Thu>
+SCHT: <2020-07-08 Wed>
 :properties:
 :ID:       8f814f63-6331-4179-abb5-264b9727ecf7
-:DRILL_LAST_INTERVAL: 48.4944
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 121.4785
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 13:04]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
 :end:
 
 Purely abtract & theoretical logical object (idea) that has a Boolean value.
@@ -9068,17 +9068,17 @@ Must be linear.
 /*/ precedence (especially with more then one parameter, especially with =_= used) often changes the function.
 
 **** <<<As-pattern>>> :drill:
-SCHT: <2020-02-12 Wed>
+SCHT: <2020-10-11 Sun>
 :properties:
 :ID:       a2d762f7-549b-4aa1-ba3e-183c2e757a35
-:DRILL_LAST_INTERVAL: 91.4436
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 215.8069
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.714
+:DRILL_EASE: 2.38
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 19:12]
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:57]
 :end:
 
 #+begin_src haskell
@@ -9168,17 +9168,17 @@ f x
 <<<Guards>>>
 
 **** <<<Pattern guard>>> :drill:
-SCHT: <2020-02-24 Mon>
+SCHT: <2020-04-09 Thu>
 :properties:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 16.3102
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 16
+:DRILL_LAST_INTERVAL: 30.9894
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 17
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.062
+:DRILL_AVERAGE_QUALITY: 3.117
 :DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:48]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
 :end:
 
 Allows check a list of pattern matches against functions, and then proceed.
@@ -9871,17 +9871,17 @@ https://prime.haskell.org/
 <<<Haskell prime>>>
 
 *** <<<Lense>>> :drill:
-SCHT: <2020-02-15 Sat>
+SCHT: <2020-10-24 Sat>
 :properties:
 :ID:       b8d107f0-cbf4-42cb-acb5-5d987de3c7d1
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 228.9343
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
 :end:
 
 Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
@@ -10036,17 +10036,17 @@ SCHT: <2020-08-23 Sun>
 Artificial way to make language easier to read and write.
 
 *** <<<System F>>> :drill:
-SCHT: <2020-02-10 Mon>
+SCHT: <2020-09-11 Fri>
 :properties:
 :ID:       a33a26ee-f5e0-4a70-b01e-dbf9b41b8681
-:DRILL_LAST_INTERVAL: 72.5959
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 185.8455
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.25
+:DRILL_AVERAGE_QUALITY: 4.2
 :DRILL_EASE: 2.56
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:07]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:57]
 :end:
 
 Is parametric polymorphism in programming.
@@ -10163,17 +10163,17 @@ Two levels of embedding:
 :end:
 
 **** <<<Cons cell>>> :drill:
-SCHT: <2020-02-27 Thu>
+SCHT: <2020-04-19 Sun>
 :properties:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
-:DRILL_LAST_INTERVAL: 18.8265
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 40.5335
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:56]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
 Cell that values may inhabit.
@@ -10948,17 +10948,17 @@ The more constrained system has more usefulness.
 Unconstrained means most flexible, but also most useless.
 
 ** <<<Good: Print>>> :drill:
-SCHT: <2020-02-15 Sat>
+SCHT: <2020-10-24 Sat>
 :properties:
 :ID:       1d0f6f0e-2d81-4c35-a9b3-a362557121f2
-:DRILL_LAST_INTERVAL: 83.4613
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 228.9343
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
 :end:
 
 #+begin_src haskell
@@ -12127,17 +12127,17 @@ Allows to separate and preserve information about happened, ex. error handling.
 Otherwise - partial inverse
 
 ** <<<Inverse morphism>>> :drill:
-SCHT: <2020-02-12 Wed>
+SCHT: <2020-11-12 Thu>
 :properties:
 :ID:       97593115-a31b-4016-8de4-9356b4a89991
-:DRILL_LAST_INTERVAL: 91.3411
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 248.4478
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.778
+:DRILL_AVERAGE_QUALITY: 3.8
 :DRILL_EASE: 2.72
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:28]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:57]
 :end:
 
 For \( f: x \to y \):
