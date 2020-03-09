@@ -6033,6 +6033,12 @@ Each dimension of the cube corresponds to extensions (a new way of objects depen
 | \( \lambda P \undeline{\omega} \) | Weak Higher Order Predicate Calculus       |
 | \( \lambda C \)          | Calculus of Constructions                  |
 
+| Denotation | Name              | Programming                               | New type of relations    |
+|------------+-------------------+-------------------------------------------+--------------------------|
+| 2          | Polymorphic types | First-class polymorphism of types         | Terms depending on types |
+| \omega          | Type operation    | Type class, type families                 | Types depending on types |
+| P          | Dependent types   | Higher-rank polymorphism, dependent types | Types depending on terms |
+
   * Polymorhic types - (First-class polymorphism) - terms allowed to depend on types, corresponding to polymorphism.
   * Type operations - (Type class) - types depending on types, corresponding to type operators.
   * Depended types - (Higher-rank polymorphism) - types depending on terms, corresponding to dependent types.
