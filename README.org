@@ -9466,7 +9466,7 @@ SCHT: <2020-03-26 Thu>
 :DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:38]
 :end:
 
-Hanging type instance from inconsistent code base.
+Hanging instance from inconsistent code base.
 1) Supporting structure not fully present.
 2) Several implementations of instance present.
 
