@@ -12586,6 +12586,7 @@ Moral value of people developed from the community to give back, improving the c
 The life is beautiful.
 For all humans that make the life have more uniqueness.
 
-This study would not be possible without the community: tearchers, mathematicians, Haskellers, scientists, creators, contributors. In my life these people are the most fascinating.
+This study and work would not be possible without the community: tearchers, mathematicians, Haskellers, scientists, creators, contributors. These sides of people are fascinating.
+
 
 Special accolades for the guys at Serokell. They were the force that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
