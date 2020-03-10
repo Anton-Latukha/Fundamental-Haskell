@@ -12575,7 +12575,7 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
   * GHC Team "GHC User’s Guide Documentation": https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf
   * Stephen Diehl & contributors "What I Wish I Knew When Learning Haskell": http://dev.stephendiehl.com/hask/tutorial.pdf
 
-* λειτουργία
+* Giving back
 
 λειτ       <- λαός  /Laos/       the people
     ουργός <- ἔργο  /ergon/             work
