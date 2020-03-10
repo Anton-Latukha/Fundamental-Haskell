@@ -5474,9 +5474,9 @@ on :: (b -> b -> c) -> (a -> b) -> a -> a -> c
 #+end_src
 
 #+begin_src text
---\
-   * ---
---/
+a--\b
+    * ---c
+a--/b
 #+end_src
 
 ***** /*/
