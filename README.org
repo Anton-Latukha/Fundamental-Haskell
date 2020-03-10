@@ -9452,7 +9452,7 @@ With =CUSKs= extension <<<kind>>> completeness happens agains "complete user-spe
 <<<Kindcheck>>>
 <<<Kind checks>>>
 
-*** <<<Orphan type instance>>> :drill:
+*** <<<Orphan instance>>> :drill:
 SCHT: <2020-03-26 Thu>
 :properties:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
