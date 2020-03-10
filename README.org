@@ -4438,7 +4438,7 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 :ID:       935629ed-4dee-43ef-9eff-51de168656d7
 :end:
 
-The same type objects sequence.
+Sequence of one type objects.
 
 Denotation:
 #+begin_src haskell
