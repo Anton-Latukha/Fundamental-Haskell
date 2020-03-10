@@ -52,8 +52,8 @@
 #+latex_header: \usepackage{wasysym}    % Some symbols which may be not used in my book
 #+latex_header: \tolerance=1000
 #+latex_header: \usepackage{tikz}
-#+latex_header: \usetikzlibrary{cd}
 #+latex_header: \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=cyan,}
+#+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usepackage{enumitem}
 #+latex_header: \setlistdepth{10}
 #+latex_header: \setlist[itemize,1]{label=$\bullet$}
