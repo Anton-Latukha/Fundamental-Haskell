@@ -12578,8 +12578,8 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 * λειτουργία
 
 λειτ       <- λαός  /Laos/       the people
-    ουργός <- ἔργο  /ergon/      work
-λειτουργία          /leitourgia/ Moral value to contribute, give back to the community.
+    ουργός <- ἔργο  /ergon/             work
+λειτουργία          /leitourgia/ public work
 
 The life is beautiful.
 For all humans that make the life have more uniqueness.
