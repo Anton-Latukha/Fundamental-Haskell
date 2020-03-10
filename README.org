@@ -785,7 +785,7 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
       - [[#kind-level][<<<Kind level>>>]]
         - [[#kind-check][<<<Kind check>>>]]
           - [[#-182][/*/]]
-    - [[#orphan-type-instance][<<<Orphan type instance>>>]]
+    - [[#orphan-instance][<<<Orphan instance>>>]]
     - [[#undefined][<<<undefined>>>]]
     - [[#hierarchical-module-name][<<<Hierarchical module name>>>]]
       - [[#-183][/*/]]
@@ -1004,7 +1004,7 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
   - [[#good-exception-vs-error][<<<Good: Exception vs Error>>>]]
   - [[#good-let-vs-where][<<<Good: Let vs. Where>>>]]
   - [[#good-rankntypes][<<<Good: RankNTypes>>>]]
-  - [[#good-orphan-type-instance][<<<Good: Orphan type instance>>>]]
+  - [[#good-orphan-instance][<<<Good: Orphan instance>>>]]
   - [[#good-smart-constructor][<<<Good: Smart constructor>>>]]
   - [[#good-thin-category][<<<Good: Thin category>>>]]
   - [[#good-recursion][<<<Good: Recursion>>>]]
@@ -1124,7 +1124,7 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
     - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
   - [[#performance-results-and-comparisons-of-types--solutions][Performance results and comparisons of types & solutions]]
   - [[#literature][Literature]]
-- [[#λειτουργία][λειτουργία]]
+- [[#giving-back][Giving back]]
 
 * Definitions
 :properties:
