@@ -93,6 +93,18 @@
 #+latex_header: \usepackage{mathtools}
 #+latex_header: \usepackage[utf8]{inputenc}
 #+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
+#+latex_header: \ifluatex
+#+latex_header:     % Lua(La)TeX
+#+latex_header:     %\usepackage{polyglossia}
+#+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
+#+latex_header:     \usepackage{fontspec}
+#+latex_header:     \defaultfontfeatures{Ligatures=TeX}
+#+latex_header:     \usepackage[]{unicode-math}
+#+latex_header: \else
+#+latex_header:     %default: pdf(La)TeX
+#+latex_header:     \usepackage{lmodern} % load vector font
+#+latex_header:     \usepackage[mathletters]{ucs}
+#+latex_header: \fi
 #+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note #2. Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
