@@ -48,6 +48,7 @@
 # #+toc: headlines 10    # Inserts TOC *here
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
+#+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note #2. Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 #+latex_header: \tolerance=1000
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
@@ -114,7 +115,6 @@
 #+latex_header: \usepackage[arabic,farsi,greek.ancient,english]{babel}
 #+latex_header: \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
 # #+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
-#+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note #2. Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
