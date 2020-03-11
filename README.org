@@ -79,6 +79,8 @@
 # #+latex_header: \setlist[enumerate,9]{label*=$\arabic*.$}
 # #+latex_header: \setlist[enumerate,10]{label*=$\arabic*.$}
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
+#+latex_header: \newlist{enumerate}{enumerate}{10}
+#+latex_header: \setlist[enumerate]{label*=\arabic*.}
 #+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package
 #+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
 #+latex_header: \pagestyle{fancy}    % Enable fancy page style: Documentation: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
