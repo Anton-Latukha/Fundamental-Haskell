@@ -108,6 +108,10 @@
 # #+html_head: \setmonofont{CMU Typewriter Text}%{Consolas}
 # #+html_head: \defaultfontfeatures{Ligatures={TeX}}
 
+# Trying to make universal preamble pdfTex LuaTex work
+# #+latex_header: \PassOptionsToPackage{greek.ancient,arabic,farsi,english}{babel}
+# #+latex_header: \usepackage{uni8}
+
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
