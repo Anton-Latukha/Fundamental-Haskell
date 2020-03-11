@@ -55,27 +55,27 @@
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usepackage{enumitem}
 #+latex_header: \setlistdepth{10}
-#+latex_header: \setlist[itemize,1]{label=$\bullet$}
-#+latex_header: \setlist[itemize,2]{label=$\bullet$}
-#+latex_header: \setlist[itemize,3]{label=$\bullet$}
-#+latex_header: \setlist[itemize,4]{label=$\bullet$}
-#+latex_header: \setlist[itemize,5]{label=$\bullet$}
-#+latex_header: \setlist[itemize,6]{label=$\bullet$}
-#+latex_header: \setlist[itemize,7]{label=$\bullet$}
-#+latex_header: \setlist[itemize,8]{label=$\bullet$}
-#+latex_header: \setlist[itemize,9]{label=$\bullet$}
-#+latex_header: \setlist[itemize,10]{label=$\bullet$}
-#+latex_header: \renewlist{itemize}{itemize}{10}
-#+latex_header: \setlist[enumerate,1]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,2]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,3]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,4]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,5]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,6]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,7]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,8]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,9]{label=$\alph*.$}
-#+latex_header: \setlist[enumerate,10]{label=$\alph*.$}
+# #+latex_header: \setlist[itemize,1]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,2]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,3]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,4]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,5]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,6]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,7]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,8]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,9]{label=$\bullet$}
+# #+latex_header: \setlist[itemize,10]{label=$\bullet$}
+# #+latex_header: \renewlist{itemize}{itemize}{10}
+# #+latex_header: \setlist[enumerate,1]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,2]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,3]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,4]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,5]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,6]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,7]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,8]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,9]{label*=$\arabic*.$}
+# #+latex_header: \setlist[enumerate,10]{label*=$\arabic*.$}
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package
 #+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
