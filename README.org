@@ -101,6 +101,13 @@
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 #+keywords: Haskell,Org-mode,Org-drill,Category theory,Functor,Applicative,Monad,Learning,Terms,Definitions,Theory,Book,Dictionary,Encyclopedia,Handbook,Philosophy,Philosophy of mathematics
 
+# Trying to make LuaTeX work
+# #+html_head: \usepackage{fontspec}
+# #+html_head: \setsansfont{CMU Sans Serif}%{Arial}
+# #+html_head: \setmainfont{CMU Serif}%{Times New Roman}
+# #+html_head: \setmonofont{CMU Typewriter Text}%{Consolas}
+# #+html_head: \defaultfontfeatures{Ligatures={TeX}}
+
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
