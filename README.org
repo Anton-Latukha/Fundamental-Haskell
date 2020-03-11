@@ -98,7 +98,7 @@
 #+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
 #+latex_header:     \usepackage{fontspec}
 #+latex_header:     \defaultfontfeatures{Ligatures=TeX}
-#+latex_header:     \usepackage{unicode-math}
+#+latex_header:     \usepackage{unicode-math}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:     \unimathsetup{math-style=TeX}    % Configures the unicode-math
 # #+latex_header:     \setmainfont[Ligatures=TeX]{Constantia}
 # #+latex_header:     \setsansfont{Calibri}
