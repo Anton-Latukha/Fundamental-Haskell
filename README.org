@@ -93,6 +93,8 @@
 #+latex_header: \usepackage{mathtools}
 #+latex_header: \usepackage[utf8]{inputenc}
 #+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
+
+#+latex_header: \usepackage{ifluatex}
 #+latex_header: \ifluatex
 #+latex_header:     % Lua(La)TeX
 #+latex_header:     %\usepackage{polyglossia}
