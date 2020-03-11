@@ -98,8 +98,8 @@
 #+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
 #+latex_header:     \usepackage{fontspec}
 #+latex_header:     \defaultfontfeatures{Ligatures=TeX}
-#+latex_header:     \usepackage[]{unicode-math}
-# #+latex_header:     \unimathsetup{math-style=TeX}
+#+latex_header:     \usepackage{unicode-math}
+#+latex_header:     \unimathsetup{math-style=TeX}    % Configures the unicode-math
 # #+latex_header:     \setmainfont[Ligatures=TeX]{Constantia}
 # #+latex_header:     \setsansfont{Calibri}
 # #+latex_header:     \setmonofont{Consolas}
