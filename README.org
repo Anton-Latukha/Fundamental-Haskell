@@ -2760,8 +2760,10 @@ Example type: =State st a=
 =State= describes functions that consume a state and produce a tuple of result and an updated state.
 
 Monad manages the state with the next process:
-#+downloaded: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/State_Monad_Bind.svg/1162px-State_Monad_Bind.svg.png @ 2019-07-17 20:01:27
-[[file:Book/1162px-State_Monad_Bind.svg_2019-07-17_20-01-27.png]]
+
+#+downloaded: https://upload.wikimedia.org/wikipedia/commons/8/87/State_Monad_Bind.svg @ 2020-03-11 18:28:08
+[[file:images/2020-03-11_18-28-08_State_Monad_Bind.svg]]
+
 Where:
   * f  - processsor making function
   * pA, pAB, pB - state processors
