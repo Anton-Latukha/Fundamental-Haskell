@@ -89,7 +89,6 @@
 #+latex_header: \usepackage{caption}
 #+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
 #+latex_header: \usepackage{mathtools}
-#+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
 
 #+latex_header: \usepackage{ifluatex}
 #+latex_header: \ifluatex
@@ -114,6 +113,7 @@
 #+latex_header: \fi
 #+latex_header: \usepackage[arabic,farsi,greek.ancient,english]{babel}
 #+latex_header: \usepackage[babel=true]{microtype}
+# #+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
 #+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note #2. Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
