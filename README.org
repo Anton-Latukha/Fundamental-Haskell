@@ -12576,9 +12576,9 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 
 * Giving back
 
-λειτ       <- λαός  /Laos/       the people
-    ουργός <- ἔργο  /ergon/             work
-λειτουργία          /leitourgia/ public work
+\textgreek{λειτ}       <- \textgreek{λαός}  /Laos/       the people
+    \textgreek{ουργός} <- \textgreek{ἔργο}  /ergon/             work
+\textgreek{λειτουργία}          /leitourgia/ public work
 
 Moral value of people developed from the community to give back, improving the community.
 
