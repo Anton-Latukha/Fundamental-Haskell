@@ -94,6 +94,7 @@
 #+latex_header: \usepackage[greek.ancient,arabic,farsi,english]{babel}
 #+latex_header: \usepackage{mathtools}
 #+latex_header: \usepackage[utf8]{inputenc}
+#+latex_header: \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}    % Allows to use textgreek command for literal greek text
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
