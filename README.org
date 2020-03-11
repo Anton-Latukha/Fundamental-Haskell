@@ -45,7 +45,7 @@
 #+options: \n:t
 #+options: -:t
 #+options: e:t
-#+toc: headlines 10
+# #+toc: headlines 10    # Inserts TOC *here
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
 # #+latex_header: \usepackage{marvosym}    % Some symbols which probably not used in my book
