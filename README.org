@@ -55,6 +55,8 @@
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usepackage{enumitem}
 #+latex_header: \setlistdepth{10}
+#+latex_header: \setcounter{secnumdepth}{10}
+#+latex_header: \setcounter{tocdepth}{10}
 # #+latex_header: \setlist[itemize,1]{label=$\bullet$}
 # #+latex_header: \setlist[itemize,2]{label=$\bullet$}
 # #+latex_header: \setlist[itemize,3]{label=$\bullet$}
@@ -93,8 +95,6 @@
 #+latex_header: \usepackage[table]{xcolor}
 #+latex_header: \usepackage{geometry}    % Package aligns the geometry right, probably required by other page offset packages
 #+latex_header: \geometry{bottom=28mm}
-#+latex_header: \setcounter{secnumdepth}{100}
-#+latex_header: \setcounter{tocdepth}{100}
 #+latex_header: \fancyheadoffset{0mm}    % Offset for header
 #+latex_header: \newbox\FHline    % Calculate the box for the header
 #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
