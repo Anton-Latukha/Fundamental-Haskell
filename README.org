@@ -102,6 +102,12 @@
 #+latex_header:     \usepackage{fontspec}
 #+latex_header:     \defaultfontfeatures{Ligatures=TeX}
 #+latex_header:     \usepackage[]{unicode-math}
+# #+latex_header:     \unimathsetup{math-style=TeX}
+# #+latex_header:     \setmainfont[Ligatures=TeX]{Constantia}
+# #+latex_header:     \setsansfont{Calibri}
+# #+latex_header:     \setmonofont{Consolas}
+# #+latex_header:     \setmathrm{Cambria Math}
+# #+latex_header:     \setmathfont{Cambria Math}
 #+latex_header: \else
 #+latex_header:     %default: pdf(La)TeX
 #+latex_header:     \usepackage{lmodern} % load vector font
