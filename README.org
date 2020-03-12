@@ -69,7 +69,6 @@
 #+latex_header: \fancyfoot[C]{\thepage}    % Footer center
 #+latex_header: \setlength\footskip{0mm}
 #+latex_header: \usepackage{booktabs}
-#+latex_header: \usepackage{xcolor}
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}
