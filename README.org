@@ -116,7 +116,6 @@
 #+latex_header: \else
 #+latex_header:     %default: pdf(La)TeX
 #+latex_header:     \usepackage{lmodern} % load vector font
-#+latex_header:     \usepackage[mathletters]{ucs}
 #+latex_header:     \usepackage[LFE,LAE,LGR,T1]{fontenc}    % LGR - de-facto standard Greek font support in LaTeX. Also pdfTex uses T1 for latin, LuaTex uses. LFE, LAE are for Arabic font support.
 #+latex_header:     \usepackage[utf8]{inputenc} % input encoding
 #+latex_header: \fi
