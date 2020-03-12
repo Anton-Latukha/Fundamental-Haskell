@@ -96,6 +96,14 @@
 #+latex_header:     %\usepackage{polyglossia}
 #+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
 #+latex_header:     \usepackage{fontspec}
+#+latex_header:     \setmainfont{XITS}[
+#+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+#+latex_header:       Extension = .otf,
+#+latex_header:       UprightFont = *-Regular,
+#+latex_header:       BoldFont = *-Bold,
+#+latex_header:       ItalicFont = *-Italic,
+#+latex_header:       BoldItalicFont = *-BoldItalic,
+#+latex_header:     ]
 #+latex_header:     \defaultfontfeatures{Ligatures=TeX}
 #+latex_header:     \usepackage{unicode-math}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:     \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
