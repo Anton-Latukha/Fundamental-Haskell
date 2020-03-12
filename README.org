@@ -5326,7 +5326,7 @@ A name for expression.
 
 There fequently can be heard: one of most notable Haskell properties is =Haskell has immutable "variables"= (and term here used in the sence that imperative programmers frequently use). Logically we see statement is contradictory with itself: "variables" - something that has change as a defining propery - are not changing; it is a nonsencical statement. Please, read the saying as: =Haskell has immutable values=, due to following the value semantics: see "Value". And Haskell expressions are functions (that are referentially transparent - meaning itself immutable) - and they are also values (hense term "functional programming" means - functions are first-class values). Since values bind to variables - people are wrongly mix-up terms and say their names (according "/*")/ are immutable.
 
-As you see in the code - Haskell variables (same names) hold different value at different time. Variables are reused, meaning "names are reused, binded to different values on scope changes/cycles, can be shadowed, and can have different values inside. But all values that Haskell holds - are, by the design of language, are treated immutable, any transformations Haskell resolves by creating new values, and frees the space by freeing-up from unneeded values.
+As you see in the code - Haskell variables (same names) hold different value at different time. Variables are reused, meaning "names are reused, binded to different values on scope changes/cycles, and can be shadowed. But all values that Haskell holds - are, by the design of the language, are treated immutable, any transformations Haskell resolves by creating new values, and frees the space by freeing-up from no longer needed values.
 
 **** /*/
 
