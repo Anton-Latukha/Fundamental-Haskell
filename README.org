@@ -73,7 +73,7 @@
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
-#+latex_header: \usepackage[table]{xcolor}
+#+latex_header: \usepackage[table]{xcolor}    % Docs: https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/xcolor/xcolor.pdf
 #+latex_header: \usepackage{geometry}    % Package aligns the geometry right, probably required by other page offset packages
 #+latex_header: \geometry{bottom=28mm}
 #+latex_header: \fancyheadoffset{0mm}    % Offset for header
