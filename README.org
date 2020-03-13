@@ -1070,7 +1070,6 @@ Users of =Emacs= can prettify radio targets to see as simple hyper-links with th
   - [[#quickcheck-1][QuickCheck]]
 - [[#tools][Tools]]
   - [[#ghc-pkg][ghc-pkg]]
-  - [[#search-over-the-haskell-packages-code-codesearch-from-aelve][Search over the Haskell packages code: Codesearch from Aelve]]
   - [[#integration-of-nixosnix-with-haskell-ide-engine-hie-and-emacs-spacemacs][Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)]]
     - [[#1-install-the-cachix][1. Install the Cachix]]
     - [[#2-installation-of-hie][2. Installation of HIE]]
@@ -11744,9 +11743,6 @@ List installed packages:
 #+begin_src fish
 ghc-pkg list
 #+end_src
-
-** Search over the Haskell packages code: Codesearch from Aelve
-https://codesearch.aelve.com/
 
 ** Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)
 :properties:
