@@ -108,11 +108,11 @@
 #+latex_header:     \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
 #+latex_header:     \usepackage{unicode-math}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:     \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
-#+latex_header:     \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
-#+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-#+latex_header:       Extension = .otf,
-#+latex_header:       BoldFont = XITSMath-Bold
-#+latex_header:     ]
+# #+latex_header:     \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
+# #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:       Extension = .otf,
+# #+latex_header:       BoldFont = XITSMath-Bold
+# #+latex_header:     ]
 #+latex_header: \else
 #+latex_header:     %default: pdf(La)TeX
 #+latex_header:     \usepackage{lmodern} % load vector font
