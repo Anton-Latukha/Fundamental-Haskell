@@ -88,7 +88,7 @@
 #+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
 #+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
 #+latex_header: \usepackage{caption}
-#+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
+# #+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
 #+latex_header: \usepackage{mathtools}
 
 #+latex_header: \usepackage{ifluatex}
