@@ -97,6 +97,14 @@
 #+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
 #+latex_header:     \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
 #+latex_header:     \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     \setmainfont{XITS}[
+# #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:       Extension = .otf,
+# #+latex_header:       UprightFont = *-Regular,
+# #+latex_header:       BoldFont = *-Bold,
+# #+latex_header:       ItalicFont = *-Italic,
+# #+latex_header:       BoldItalicFont = *-BoldItalic,
+# #+latex_header:     ]
 # #+latex_header:     \setmathrm{XITSMath-Regular}    # Fontspec setup
 # #+latex_header:     \setmainfont{XITS}[
 # #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
