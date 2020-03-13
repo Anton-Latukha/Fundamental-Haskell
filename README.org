@@ -51,6 +51,7 @@
 #+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note #2. Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 #+latex_header: \tolerance=1000
 # #+latex_header: \usepackage[ocgcolorlinks]{ocgx2}    # Make links colorful on view and black on print
+#+latex_header: \graphicspath{ {./images/}{./}{/home/pyro/org/haskell/}{/home/pyro/org/haskell/images/} }    % Folder prefix to search images in
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usepackage{enumitem}
