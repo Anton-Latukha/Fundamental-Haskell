@@ -122,6 +122,7 @@
 # #+latex_header:     Extension = .otf,
 # #+latex_header:     BoldFont = XITSMath-Bold
 # #+latex_header:   ]
+#+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
 #+latex_header: \else
 #+latex_header:   %default: pdf(La)TeX
 #+latex_header:   \usepackage{lmodern} % load vector font
