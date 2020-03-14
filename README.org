@@ -2816,8 +2816,11 @@ Example type: =State st a=
 
 Monad manages the state with the next process:
 
+#+caption: Process of passing the state inside State monad
+#+name: img--state-monad
 #+downloaded: https://upload.wikimedia.org/wikipedia/commons/8/87/State_Monad_Bind.svg @ 2020-03-11 18:28:08
-[[file:images/2020-03-11_18-28-08_State_Monad_Bind.svg]]
+#+attr_latex: :width 1\linewidth
+[[./images/statemonad.svg]]
 
 Where:
   * f  - processsor making function
