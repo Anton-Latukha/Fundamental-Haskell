@@ -1228,6 +1228,7 @@ An underlying set with /*/ on top of it also called "an algebra".
 
 #+caption: Algebraic structures
 #+name: tab--algebraic-structure
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 |                   | Closure | Associativity | Identity | Invertability | Commutativity |
 |-------------------+---------+---------------+----------+---------------+---------------|
 | Semigroupoid      |         | \check             |          |               |               |
@@ -2046,6 +2047,7 @@ ap == (<*>) -- + Monad requirement
 #+latex: {\footnotesize
 #+caption: Monad in mathematics and Haskell
 #+name: tab--monad-in-mathematics-haskell
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Math     | Meaning                                 | Cat/Fctr        | \( X \in C \)            | Type                      | Haskell |
 |----------+-----------------------------------------+-----------------+------------------------+---------------------------+---------|
 | \( Id \) | endofunctor "Id"                        | \( C \to C \)     | \( X \to Id (X) \)       | \( a \to a  \)              | id      |
@@ -3681,6 +3683,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 
 #+caption: Catamorphism laws in Haskell
 #+name: tab--catamorphism-law-in-haskell
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Rule name    | Haskell                                                        |
 |--------------+----------------------------------------------------------------|
 | cata-cancel  | =cata phi . InF = phi . fmap (cata phi)=                         |
@@ -4462,6 +4465,7 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 
 #+caption: Sequence constructor naming by arity
 #+name: tab--sequence-names
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Name                   | Arity | Denotation |
 |------------------------+-------+------------|
 | Unit, empty            |     0 | =()=         |
@@ -6081,6 +6085,7 @@ Each dimension of the cube corresponds to extensions (a new type of relation of 
 
 #+caption: Three degrees of type systems generalizations
 #+name: tab--lambda-calculus-generalizations
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Denotation | Name              | Programming                               | New type of relations    |
 |------------+-------------------+-------------------------------------------+--------------------------|
 | 2          | Polymorphic types | First-class polymorphism of types         | Terms depending on types |
@@ -6089,6 +6094,7 @@ Each dimension of the cube corresponds to extensions (a new type of relation of 
 
 #+caption: \lambda-cube: Names of the type systems
 #+name: tab--lambda-calculus-names
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Denotation             | Logical system                             |
 |------------------------+--------------------------------------------|
 | \( \lambda\to \)               | (First Order) Propositional Calculus       |
@@ -6233,6 +6239,7 @@ Lambek added analogue to Cartesian closed category, which can be used to model l
 
 #+caption: Table of basic correspondence
 #+name: tab--table-of-basic-correspondence
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Logic | Type                    | Category  |
 |-------+-------------------------+-----------|
 | True  | () (any inhabited type) | Terminal  |
@@ -6504,6 +6511,7 @@ Funciton application has presedence higher then all infix operators/functions (v
 
 #+caption: Haskell operators priority and fixity association
 #+name: tab--haskell-operator-priority-fixity-association
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 |  P | L        | Non                 | R          |
 |----+----------+---------------------+------------|
 | 10 |          |                     | F.A.       |
@@ -8469,6 +8477,7 @@ SCHT: <2020-03-16 Mon>
 
 #+caption: Ancient Greek and Latin prefixes
 #+name: tab--ancient-greek-latin-prefixes
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Meaning                 | Greek prefix      | Latin prefix         |
 |-------------------------+-------------------+----------------------|
 | above, excess           | hyper-            | super-, ultra-       |
@@ -8706,6 +8715,7 @@ In property testing you need to think additionally about generator and shrinking
 
 #+caption: Property testing types
 #+name: tab--property-testing-type
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 | Whole set of values      | Exhaustive property test             | Randomised property test             | One element of a set      |
@@ -10153,6 +10163,7 @@ Not evaluated calculation. Can be dragged around, until be lazily evaluated.
 
 #+caption: Application memory structural parts
 #+name: tab--application-memory-structural-parts
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Storage of                        | Block name    |
 |-----------------------------------+---------------|
 | All not currently processing data | <<<Heap>>>   |
@@ -12281,7 +12292,7 @@ the following notions are equivalent:
 
 #+caption: Computational trinitarianism
 #+name: tab--computational-trinitarianism
-#+attr_latex: :environment longtable
+#+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | [[https://ncatlab.org/nlab/show/logic][Logic]]                             | [[https://ncatlab.org/nlab/show/category+theory][Category theory]]                                                 | [[https://ncatlab.org/nlab/show/type+theory][Type theory]]                                    |
 |-----------------------------------+-----------------------------------------------------------------+------------------------------------------------|
 | [[https://ncatlab.org/nlab/show/true][true]]                              | [[https://ncatlab.org/nlab/show/terminal+object][terminal object]]/[[https://ncatlab.org/nlab/show/%28-2%29-truncated+object][(-2)-truncated object]]                           | [[https://ncatlab.org/nlab/show/h-level+0][h-level 0]]-[[https://ncatlab.org/nlab/show/type][type]]/[[https://ncatlab.org/nlab/show/unit+type][unit type]]                       |
