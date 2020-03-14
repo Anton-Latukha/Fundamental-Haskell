@@ -93,44 +93,44 @@
 
 #+latex_header: \usepackage{ifluatex}
 #+latex_header: \ifluatex
-#+latex_header:     % Lua(La)TeX
-#+latex_header:     %\setmainlanguage[spelling=new,babelshorthands=true]{german}
-#+latex_header:     \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
-#+latex_header:     \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
-#+latex_header:     \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
-#+latex_header:     \setsansfont{CMU Sans Serif}    % {Analog Arial}
-#+latex_header:     \setmonofont{CMU Typewriter Text}    % {Analog Consolas}
-# #+latex_header:     \setmainfont{XITS}[
-# #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:       Extension = .otf,
-# #+latex_header:       UprightFont = *-Regular,
-# #+latex_header:       BoldFont = *-Bold,
-# #+latex_header:       ItalicFont = *-Italic,
-# #+latex_header:       BoldItalicFont = *-BoldItalic,
-# #+latex_header:     ]
-# #+latex_header:     \setmathrm{XITSMath-Regular}    # Fontspec setup
-# #+latex_header:     \setmainfont{XITS}[
-# #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:       Extension = .otf,
-# #+latex_header:       UprightFont = *-Regular,
-# #+latex_header:       BoldFont = *-Bold,
-# #+latex_header:       ItalicFont = *-Italic,
-# #+latex_header:       BoldItalicFont = *-BoldItalic,
-# #+latex_header:     ]
-#+latex_header:     \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
-#+latex_header:     \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
-# #+latex_header:     \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
-# #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:       Extension = .otf,
-# #+latex_header:       BoldFont = XITSMath-Bold
-# #+latex_header:     ]
+#+latex_header:   % Lua(La)TeX
+#+latex_header:   %\setmainlanguage[spelling=new,babelshorthands=true]{german}
+#+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
+#+latex_header:   \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
+#+latex_header:   \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
+#+latex_header:   \setsansfont{CMU Sans Serif}    % {Analog Arial}
+#+latex_header:   \setmonofont{CMU Typewriter Text}    % {Analog Consolas}
+# #+latex_header:   \setmainfont{XITS}[
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     UprightFont = *-Regular,
+# #+latex_header:     BoldFont = *-Bold,
+# #+latex_header:     ItalicFont = *-Italic,
+# #+latex_header:     BoldItalicFont = *-BoldItalic,
+# #+latex_header:   ]
+# #+latex_header:   \setmathrm{XITSMath-Regular}    # Fontspec setup
+# #+latex_header:   \setmainfont{XITS}[
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     UprightFont = *-Regular,
+# #+latex_header:     BoldFont = *-Bold,
+# #+latex_header:     ItalicFont = *-Italic,
+# #+latex_header:     BoldItalicFont = *-BoldItalic,
+# #+latex_header:   ]
+#+latex_header:   \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
+#+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
+# #+latex_header:   \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     BoldFont = XITSMath-Bold
+# #+latex_header:   ]
 #+latex_header: \else
-#+latex_header:     %default: pdf(La)TeX
-#+latex_header:     \usepackage{lmodern} % load vector font
-#+latex_header:     \usepackage[LFE,LAE,LGR,T1]{fontenc}    % LGR - de-facto standard Greek font support in LaTeX. Also pdfTex uses T1 for latin, LuaTex uses. LFE, LAE are for Arabic font support.
-#+latex_header:     \usepackage[utf8]{inputenc} % input encoding
-#+latex_header:     \usepackage[arabic,farsi,greek.ancient,english]{babel}
-#+latex_header:     \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
+#+latex_header:   %default: pdf(La)TeX
+#+latex_header:   \usepackage{lmodern} % load vector font
+#+latex_header:   \usepackage[LFE,LAE,LGR,T1]{fontenc}    % LGR - de-facto standard Greek font support in LaTeX. Also pdfTex uses T1 for latin, LuaTex uses. LFE, LAE are for Arabic font support.
+#+latex_header:   \usepackage[utf8]{inputenc} % input encoding
+#+latex_header:   \usepackage[arabic,farsi,greek.ancient,english]{babel}
+#+latex_header:   \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
 #+latex_header: \fi
 #+latex_header: \usepackage{tabularx}
 #+latex_header: \usepackage{longtable}
