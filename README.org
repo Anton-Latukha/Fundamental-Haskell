@@ -137,7 +137,10 @@
 #+latex_header: \usepackage{tabu}
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{polyglossia}
+#+latex_header: \ifluatex    % Late stage LuaTeX setups
 #+latex_header: \usepackage{microtype}
+#+latex_header: \else
+#+latex_header: \fi
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
