@@ -152,10 +152,6 @@
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 #+keywords: Haskell,Org-mode,Org-drill,Category theory,Functor,Applicative,Monad,Learning,Terms,Definitions,Theory,Book,Dictionary,Encyclopedia,Handbook,Philosophy,Philosophy of mathematics
 
-# Trying to make universal preamble pdfTex LuaTex work
-# #+latex_header: \PassOptionsToPackage{greek.ancient,arabic,farsi,english}{babel}
-# #+latex_header: \usepackage{uni8}
-
 * Introduction
 
 /“Employ your time in improving yourself by other men's writings so that you shall come easily by what others have labored hard for.”
