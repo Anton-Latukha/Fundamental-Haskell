@@ -136,6 +136,7 @@
 #+latex_header: \usepackage{tabularx}
 #+latex_header: \usepackage{longtable}
 #+latex_header: \usepackage{tabu}
+#+latex_header: \usepackage{booktabs}
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
