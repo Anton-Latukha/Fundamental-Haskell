@@ -70,13 +70,13 @@
 #+latex_header: \setlength\textheight{661pt}    % Text height on the page, value was experimentally found by me
 #+latex_header: \fancyfoot[C]{\thepage}    % Footer center
 #+latex_header: \setlength\footskip{0mm}
+#+latex_header: \fancyheadoffset{0mm}    % Offset for header
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}    % Docs: https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/xcolor/xcolor.pdf
 #+latex_header: \usepackage{geometry}    % Package aligns the geometry right, probably required by other page offset packages
 #+latex_header: \geometry{bottom=28mm}
-#+latex_header: \fancyheadoffset{0mm}    % Offset for header
 #+latex_header: \newbox\FHline    % Calculate the box for the header
 #+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
 #+latex_header:   \hspace*{0mm}%
