@@ -123,6 +123,7 @@
 # #+latex_header:     BoldFont = XITSMath-Bold
 # #+latex_header:   ]
 #+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
 #+latex_header: \else
 #+latex_header:   %default: pdf(La)TeX
 #+latex_header:   \usepackage{lmodern} % load vector font
