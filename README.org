@@ -61,9 +61,9 @@
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \newlist{enumerate}{enumerate}{10}
 #+latex_header: \setlist[enumerate]{label*=\arabic*.}
-#+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package
+#+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
 #+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
-#+latex_header: \pagestyle{fancy}    % Enable fancy page style: Documentation: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+#+latex_header: \pagestyle{fancy}    % Enable fancy page style
 #+latex_header: \pagestyle{headings,chapters,sections,subsections}    % Add complex heading
 #+latex_header: \setlength\marginparwidth{0mm}
 #+latex_header: \setlength\textwidth{455pt}
