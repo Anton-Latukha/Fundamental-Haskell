@@ -146,6 +146,8 @@
 #+latex_header: \else
 #+latex_header: \fi
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
+# HACK: line below resets the pagestyle. Reset allows proper LaTeX preview generation in Emacs. Line gets removed before the export and added afterwards
+#+latex_header: \pagestyle{empty}
 
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
@@ -12643,5 +12645,3 @@ This study and work would not be possible without the community: tearchers, math
 
 Special accolades for the guys at Serokell. They were the force that got me inspired & gave resources to seriously learn Haskell and create this pocket guide.
 
-# HACK: line below resets the pagestyle. Reset allows proper LaTeX preview generation in Emacs. Line gets removed before the export and added afterwards
-#+latex_header: \pagestyle{empty}
