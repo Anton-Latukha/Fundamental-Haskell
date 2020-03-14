@@ -134,6 +134,7 @@
 #+latex_header: \usepackage[arabic,farsi,greek.ancient,english]{babel}
 #+latex_header: \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
 #+latex_header: \usepackage{tabularx}
+#+latex_header: \usepackage{longtable}
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
