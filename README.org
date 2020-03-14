@@ -2771,7 +2771,8 @@ h a = do
 #+end_src
 
 #+begin_src haskell
-runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation as a (result, accumulator) pair.
+runWriter :: Writer w a -> (a, w)  -- Unwrap a writer computation
+                                   -- as a (result, accumulator) pair.
                                    -- The inverse of writer.
 #+end_src
 
