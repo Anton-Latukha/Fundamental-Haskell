@@ -1203,6 +1203,7 @@ Additional meanings:
 :end:
 
 Composite from simple parts.
+
 Also: Algebraic data type.
 
 *** <<<Algebraic structure>>> :drill:
