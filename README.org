@@ -136,8 +136,8 @@
 #+latex_header: \usepackage{longtable}
 #+latex_header: \usepackage{tabu}
 #+latex_header: \usepackage{booktabs}
-#+latex_header: \usepackage{polyglossia}
 #+latex_header: \ifluatex    % Late stage LuaTeX setups
+#+latex_header: \usepackage{polyglossia}    % It is advisable to activate the languages after all packages havebeen loaded. Docs: http://mirrors.ctan.org/macros/latex/contrib/polyglossia/polyglossia.pdf
 #+latex_header: \usepackage{microtype}
 #+latex_header: \else
 #+latex_header: \fi
