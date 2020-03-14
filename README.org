@@ -48,21 +48,113 @@
 # #+toc: headlines 10    # Inserts TOC *here
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
+#+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note 2 Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 #+latex_header: \tolerance=1000
 # #+latex_header: \usepackage[ocgcolorlinks]{ocgx2}    % Make links colorful on view and black on print
 #+latex_header: \graphicspath{ {./images/}{./}{/home/pyro/org/haskell/}{/home/pyro/org/haskell/images/} }    % Folder prefix to search images in
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
 #+latex_header: \usepackage{enumitem}
+#+latex_header: \setlistdepth{10}
+#+latex_header: \setcounter{secnumdepth}{10}
+#+latex_header: \setcounter{tocdepth}{10}
+#+latex_header: \renewlist{enumerate}{enumerate}{10}
+#+latex_header: \newlist{enumerate}{enumerate}{10}
+#+latex_header: \setlist[enumerate]{label*=\arabic*.}
+#+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+#+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
+#+latex_header: \pagestyle{fancy}    % Enable fancy page style
+#+latex_header: \pagestyle{headings,chapters,sections,subsections}    % Add complex heading
+#+latex_header: \setlength\textwidth{455pt}
+#+latex_header: \setlength\textheight{661pt}    % Text height on the page, value was experimentally found by me
+#+latex_header: \fancyfoot[C]{\thepage}    % Footer center
+#+latex_header: \setlength\footskip{0mm}
+#+latex_header: \fancyheadoffset{0mm}    % Offset for header
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}    % Docs: https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/xcolor/xcolor.pdf
+#+latex_header: \usepackage{geometry}    % Package aligns the geometry right, probably required by other page offset packages
+#+latex_header: \geometry{bottom=28mm}
+#+latex_header: \newbox\FHline    % Calculate the box for the header
+#+latex_header: \setbox\FHline=\hbox{\hsize=\paperwidth%
+#+latex_header:   \hspace*{0mm}%
+#+latex_header:   \rule{\textwidth}{\headrulewidth}\hspace*{0mm}%
+#+latex_header: }
+#+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}    % Set rule for header line box
+#+latex_header: \setlength{\parindent}{0mm}    % Paragraph first line indentation
+#+latex_header: \usepackage{fancyvrb}    % Verbatim LaTeX handler&transformer, `minted` requires it.
+#+latex_header: \usepackage{fvextra}    % Official extension to `fancyvrb`, can be used by `minted` in some cases.
+#+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
+#+latex_header: \usemintedstyle{rainbow_dash}    % Theme that is most close my setup
+#+latex_header: \usepackage{caption}
+# #+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
 #+latex_header: \usepackage{mathtools}
+
+#+latex_header: \usepackage{ifluatex}
+#+latex_header: \ifluatex
+#+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
+#+latex_header:   \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
+#+latex_header:   \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
+#+latex_header:   \setsansfont{CMU Sans Serif}    % {Analog Arial}
+#+latex_header:   \setmonofont{CMU Typewriter Text}    % {Analog Consolas}
+# #+latex_header:   \setmainfont{XITS}[
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     UprightFont = *-Regular,
+# #+latex_header:     BoldFont = *-Bold,
+# #+latex_header:     ItalicFont = *-Italic,
+# #+latex_header:     BoldItalicFont = *-BoldItalic,
+# #+latex_header:   ]
+# #+latex_header:   \setmathrm{XITSMath-Regular}    % Fontspec setup
+# #+latex_header:   \setmainfont{XITS}[
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     UprightFont = *-Regular,
+# #+latex_header:     BoldFont = *-Bold,
+# #+latex_header:     ItalicFont = *-Italic,
+# #+latex_header:     BoldItalicFont = *-BoldItalic,
+# #+latex_header:   ]
+#+latex_header:   \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
+#+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
+# #+latex_header:   \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
+# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
+# #+latex_header:     Extension = .otf,
+# #+latex_header:     BoldFont = XITSMath-Bold
+# #+latex_header:   ]
+#+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{pdftexcmds}    % Extends LuaTeX with unofficial pdfTeX primitives support. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{shellesc}    % Primitives to handle shell escape. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{ifplatform}    % Controles the access file model depending on the platform. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{trimspaces}    % Remove unwanted spaces in the file paths. LuaTeX SVG pkg requires it.
+#+latex_header:   \usepackage{transparent}    % Maybe needed for SVGs created by Inkscape.
+#+latex_header:   \usepackage{svg}    % Extends LuaTeX with SVG. Docs: http://mirrors.ctan.org/graphics/svg/doc/svg.pdf
+#+latex_header: \else
+#+latex_header:   %default: pdf(La)TeX
+#+latex_header:   \usepackage{lmodern} % load vector font
+#+latex_header:   \usepackage[LFE,LAE,LGR,T1]{fontenc}    % LGR - de-facto standard Greek font support in LaTeX. Also pdfTex uses T1 for latin, LuaTex uses. LFE, LAE are for Arabic font support.
+#+latex_header:   \usepackage[utf8]{inputenc} % input encoding
+#+latex_header:   \usepackage[arabic,farsi,greek.ancient,english]{babel}
+#+latex_header:   \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
+#+latex_header: \fi
 #+latex_header: \usepackage{tabularx}
 #+latex_header: \usepackage{longtable}
 #+latex_header: \usepackage{tabu}
 #+latex_header: \usepackage{booktabs}
+# #+latex_header: \usepackage{titlesec}    % Format the heading and labels. Docs: http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.pdf
+# #+latex_header: \titlespacing{\subparagraph}{*1}{*1}{[hang]}
+#+latex_header: \ifluatex    % Late stage LuaTeX setups
+#+latex_header:   \usepackage{microtype}
+#+latex_header:   \usepackage{polyglossia}    % It is advisable to activate the languages after all packages have been loaded. Docs: http://mirrors.ctan.org/macros/latex/contrib/polyglossia/polyglossia.pdf
+#+latex_header:   \setdefaultlanguage[variant=us]{english}
+#+latex_header:   \setotherlanguage[variant=ancient]{greek}
+# #+latex_header:   \setotherlanguage[variant=classic]{latin}    %  2020-03-14: NOTE: Enabling Lating in Polyglossia v19.04 was going into Haskell source code blocks and breaking on Applicative <*>'s
+#+latex_header:   \setotherlanguage{arabic}    % Especially right-to-left languages must be activated after all packages loaded
+#+latex_header: \else
+#+latex_header: \fi
+# #+latex_header: \usepackage{indentfirst}
+# #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
