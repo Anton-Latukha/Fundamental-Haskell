@@ -8706,12 +8706,10 @@ In property testing you need to think additionally about generator and shrinking
 
 #+caption: Property testing types
 #+name: tab--property-testing-type
-|--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 |                          | Exhaustive                           | Randomized                           | Unit test (Single sample) |
 |--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 | Whole set of values      | Exhaustive property test             | Randomised property test             | One element of a set      |
 | Special subset of values | Exhaustive specialised property test | Randomised specialised property test | One element of a set      |
-|--------------------------+--------------------------------------+--------------------------------------+---------------------------|
 
 **** <<<Generator>>>
 #+begin_src text
