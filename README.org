@@ -137,6 +137,7 @@
 #+latex_header: \usepackage{tabu}
 #+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{polyglossia}
+#+latex_header: \usepackage{microtype}
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
