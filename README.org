@@ -93,8 +93,6 @@
 
 #+latex_header: \usepackage{ifluatex}
 #+latex_header: \ifluatex
-#+latex_header:   % Lua(La)TeX
-#+latex_header:   %\setmainlanguage[spelling=new,babelshorthands=true]{german}
 #+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
 #+latex_header:   \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
 #+latex_header:   \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
