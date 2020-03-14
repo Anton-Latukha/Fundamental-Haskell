@@ -153,6 +153,7 @@
 #+latex_header:   \setotherlanguage{arabic}    % Especially right-to-left languages must be activated after all packages loaded
 #+latex_header: \else
 #+latex_header: \fi
+# #+latex_header: \usepackage{indentfirst}
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 # Enable MathJax
