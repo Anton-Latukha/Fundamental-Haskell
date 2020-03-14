@@ -141,6 +141,7 @@
 #+latex_header: \setdefaultlanguage[variant=us]{english}
 #+latex_header: \setotherlanguage[variant=ancient]{greek}
 #+latex_header: \setotherlanguage[variant=classic]{latin}
+#+latex_header: \setotherlanguage{arabic}   % Especcially right-to-left languages must be activated after all packages loaded
 #+latex_header: \usepackage{microtype}
 #+latex_header: \else
 #+latex_header: \fi
