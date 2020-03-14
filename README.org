@@ -143,7 +143,7 @@
 #+latex_header:   \setotherlanguage{arabic}    % Especially right-to-left languages must be activated after all packages loaded
 #+latex_header: \else
 #+latex_header: \fi
-#+latex_header: \listfiles    % Debugging: lists the package version information into logs
+# #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
