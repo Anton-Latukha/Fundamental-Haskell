@@ -65,7 +65,6 @@
 #+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
 #+latex_header: \pagestyle{fancy}    % Enable fancy page style
 #+latex_header: \pagestyle{headings,chapters,sections,subsections}    % Add complex heading
-#+latex_header: \setlength\marginparwidth{0mm}
 #+latex_header: \setlength\textwidth{455pt}
 #+latex_header: \setlength\textheight{661pt}    % Text height on the page, value was experimentally found by me
 #+latex_header: \fancyfoot[C]{\thepage}    % Footer center
