@@ -118,7 +118,7 @@
 # #+latex_header:       ItalicFont = *-Italic,
 # #+latex_header:       BoldItalicFont = *-BoldItalic,
 # #+latex_header:     ]
-#+latex_header:     \usepackage{unicode-math}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
+#+latex_header:     \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:     \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
 # #+latex_header:     \setmathfont{XITSMath-Regular}[    % In fact loads XITSMath
 # #+latex_header:       Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
