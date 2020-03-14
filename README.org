@@ -139,7 +139,7 @@
 #+latex_header:   \usepackage{polyglossia}    % It is advisable to activate the languages after all packages have been loaded. Docs: http://mirrors.ctan.org/macros/latex/contrib/polyglossia/polyglossia.pdf
 #+latex_header:   \setdefaultlanguage[variant=us]{english}
 #+latex_header:   \setotherlanguage[variant=ancient]{greek}
-#+latex_header:   \setotherlanguage[variant=classic]{latin}
+# #+latex_header:   \setotherlanguage[variant=classic]{latin}
 #+latex_header:   \setotherlanguage{arabic}    % Especially right-to-left languages must be activated after all packages loaded
 #+latex_header: \else
 #+latex_header: \fi
