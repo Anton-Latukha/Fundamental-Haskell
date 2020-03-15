@@ -8848,7 +8848,7 @@ data Four' a b = Four' a a a b
 instance Functor (Four' a) where
   fmap f (Four' a b c d) = Four' a b c (f d)
 
-instance (Arbitrary a, Arbitrary b) ⇒ Arbitrary (Four' a b) where
+instance (Arbitrary a, Arbitrary b) => Arbitrary (Four' a b) where
   arbitrary = do
     a1 <- arbitrary
     a2 <- arbitrary
