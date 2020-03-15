@@ -184,8 +184,8 @@ Book comes in forms:
  - [[https://github.com/Anton-Latukha/haskell-notes][GitHub]]
  - [[https://gitlab.com/Anton.Latukha/haskell-notes][GitLab]]
 
-GitHub & GitLab only partially parse Org into HTML.
 This book is created using complex Org markup file with a lot of LaTeX and LaTeX formulas.
+Be aware - GitHub & GitLab only partially parse Org into HTML.
 
 To get the full view:
   * Outline navigation
