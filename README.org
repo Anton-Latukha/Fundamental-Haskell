@@ -104,6 +104,7 @@
 #+latex_header:   \newfontfamily\arabicfont[Script=Arabic]{Amiri}    % Good compatible Arabic font from creator of XITS
 #+latex_header:   \newfontfamily{\symbolfont}{XITS}    % And load XITS by the way
 #+latex_header:   \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}
+#+latex_header:   \newcommand{\caution}{\symbolfont{{{⚠}}}}
 # #+latex_header:   \setmainfont{XITS}[
 # #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
 # #+latex_header:     Extension = .otf,
