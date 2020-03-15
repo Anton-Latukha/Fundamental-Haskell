@@ -48,7 +48,7 @@
 # #+toc: headlines 10    # Inserts TOC *here
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
-# #+latex_header: \titleclass{\subsubparagraph}{straight}[\subparagraph]
+# #+latex_header: \titleclass{\subsubparagraph}{straight}[\subparagraph]    % This tried to add class header subsubhparagraph into the dance
 # #+latex_header: \newcounter{subsubparagraph}
 # #+latex_header: \renewcommand{\subsubparagraph}{\Alph{subsubparagraph}}
 #+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note 2 Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
