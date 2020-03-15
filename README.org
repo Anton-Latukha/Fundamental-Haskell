@@ -103,6 +103,7 @@
 #+latex_header:   \setmonofont{CMU Typewriter Text}    % {Analog Consolas}
 #+latex_header:   \newfontfamily\arabicfont[Script=Arabic]{Amiri}    % Good compatible Arabic font from creator of XITS
 #+latex_header:   \newfontfamily{\symbolfont}{XITS}    % And load XITS by the way
+#+latex_header:   \newcommand{\additional}{{\scriptsize +===}}
 #+latex_header:   \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}
 #+latex_header:   \newcommand{\caution}{\symbolfont{{{⚠}}}}
 #+latex_header:   \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}
