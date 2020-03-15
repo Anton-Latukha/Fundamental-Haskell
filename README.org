@@ -197,7 +197,7 @@ To get the full view:
 
 Note about the markup: =<<<This is a radio target>>>= - is the ancor for dynamic linking.
 
-Users of =Emacs= can prettify radio targets to see as simple hyper-links with this =Elisp= snippet:
+Users of =Emacs= can prettify radio targets to be shown as hyper-links with this =Elisp= snippet:
 
 #+begin_src elisp
 ;;;;  2019-06-12: NOTE:
