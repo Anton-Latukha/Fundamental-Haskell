@@ -98,6 +98,7 @@
 #+latex_header:   \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
 #+latex_header:   \setsansfont{CMU Sans Serif}    % {Analog Arial}
 #+latex_header:   \setmonofont{CMU Typewriter Text}    % {Analog Consolas}
+#+latex_header:   \newfontfamily\arabicfont[Script=Arabic]{Amiri}
 # #+latex_header:   \setmainfont{XITS}[
 # #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
 # #+latex_header:     Extension = .otf,
