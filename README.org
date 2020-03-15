@@ -171,13 +171,14 @@
 
 Important notes on Haskell, category theory & related fields, terms and recommendations.
 
-Resources:
- * Web book: https://blog.latukha.com/haskell-notes
- * GitHub: https://github.com/Anton-Latukha/haskell-notes
- * GitLab: https://gitlab.com/Anton.Latukha/haskell-notes
- * View PDF: https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf
- * Download PDF: https://github.com/Anton-Latukha/haskell-notes/raw/master/README.pdf
- * LaTeX: https://github.com/Anton-Latukha/haskell-notes/raw/master/README.tex
+Book comes in forms:
+ - [[https://blog.latukha.com/haskell-notes][Web book]]
+ - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.pdf][PDF]]
+ - [[https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf][PDF preview]]
+ - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.tex][LaTeX]]
+ - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.org][Source code in Org-mode]]
+ - [[https://github.com/Anton-Latukha/haskell-notes][GitHub]]
+ - [[https://gitlab.com/Anton.Latukha/haskell-notes][GitLab]]
 
 This is a complex Org markup file with LaTeX formulas.
 GitHub & GitLab only partially parse Org into HTML.
