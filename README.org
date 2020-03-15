@@ -2832,7 +2832,7 @@ Monad manages the state with the next process:
 #+name: img--state-monad
 #+downloaded: https://upload.wikimedia.org/wikipedia/commons/8/87/State_Monad_Bind.svg @ 2020-03-11 18:28:08
 #+attr_latex: :width 1\linewidth
-[[./images/statemonad.svg]]
+[[./images/StateMonadProcess.svg]]
 
 Where:
   * f  - processsor making function
