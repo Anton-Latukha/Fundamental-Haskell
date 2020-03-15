@@ -195,7 +195,7 @@ To get the full view:
 
 , please refere to Web book, PDF, LaTeX, of use Org-mode capable viewer/editor.
 
-Note about markup: =<<<This is a radio target>>>= - the dynamic linking.
+Note about the markup: =<<<This is a radio target>>>= - is the ancor for dynamic linking.
 
 Users of =Emacs= can prettify radio targets to see as simple hyper-links with this =Elisp= snippet:
 
