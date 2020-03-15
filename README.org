@@ -183,7 +183,7 @@ Important notes on Haskell, category theory & related fields, terms and recommen
 Book comes in forms:
  - [[https://blog.latukha.com/haskell-notes][Web book]]
  - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.pdf][PDF]]
- - [[https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf][PDF preview]]
+ - [[https://github.com/Anton-Latukha/haskell-notes/blob/master/README.pdf][Open in web PDF viewer]]
  - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.tex][LaTeX]]
  - [[https://github.com/Anton-Latukha/haskell-notes/raw/master/README.org][Source code in Org-mode]]
  - [[https://github.com/Anton-Latukha/haskell-notes][GitHub]]
