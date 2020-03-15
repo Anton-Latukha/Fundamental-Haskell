@@ -1202,10 +1202,11 @@ SCHT: <2021-01-29 Fri>
 
 \textenglish{ /al-jabr/ assemble parts}\textarabic{الجبر}
 
+
 A system of parts based on given axioms (properties) and operations on them.
 
 
----
+\{\footnotesize +===}
 
 Additional meanings:
 
@@ -5372,7 +5373,7 @@ Expression that does not contain any free variables.
 
 A name for expression.
 
----
+\additional
 
 There fequently can be heard: one of most notable Haskell properties is =Haskell has immutable "variables"= (and term here used in the sence that imperative programmers frequently use). Logically we see statement is contradictory with itself: "variables" - something that has change as a defining propery - are not changing; it is a nonsencical statement. Please, read the saying as: =Haskell has immutable values=, due to following the value semantics: see "Value". And Haskell expressions are functions (that are referentially transparent - meaning itself immutable) - and they are also values (hense term "functional programming" means - functions are first-class values). Since values bind to variables - people are wrongly mix-up terms and say their names (according "/*")/ are immutable.
 
@@ -5650,7 +5651,7 @@ SCHT: <2020-09-17 Thu>
 
 Function that has arity > 1.
 
-----
+\additional
 
 HOF is:
   * function that accepts function as a parameter
@@ -6085,7 +6086,7 @@ SCHT: <2020-04-03 Fri>
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
 
----
+\additional
 
 #+caption: \lambda-cube: degrees of generalizaitions of the type systems
 #+name: img--lambda-cube-axis
@@ -8175,7 +8176,7 @@ SCHT: <2020-04-19 Sun>
 
 Non-self-referencing definition.
 
----
+\additional
 
 /Antonym - Impredicative./
 
@@ -8587,7 +8588,7 @@ SCHT: <2020-03-06 Fri>
 
 Self-referencing definition.
 
----
+\additional
 
 /Antonym - Predicative./
 
