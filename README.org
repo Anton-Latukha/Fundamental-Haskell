@@ -1206,7 +1206,7 @@ SCHT: <2021-01-29 Fri>
 A system of parts based on given axioms (properties) and operations on them.
 
 
-\{\footnotesize +===}
+{\footnotesize +===}
 
 Additional meanings:
 
