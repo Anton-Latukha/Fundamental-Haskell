@@ -11505,7 +11505,7 @@ Does type class or type defined by you:
 | Type class | Type | Recommendation                                     |
 |------------+------+----------------------------------------------------|
 |            | \check    | {Type, instance} in the same module             |
-| \check          |      | {Typeclass & instance} in the same module          |
+| \check          |      | {Type class & instance} in the same module         |
 |            |      | {Define newtype wrap, its instances} in the same module |
 
 ** <<<Good: Smart constructor>>> :drill:
