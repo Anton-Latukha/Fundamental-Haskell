@@ -109,7 +109,7 @@
 #+latex_header:   \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}
 #+latex_header:   \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
-#+latex_header:   \setmathfont{Latin Modern Math}    % Latin Modern Math loaded by default, but let's show its load explicitly
+# #+latex_header:   \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
 #+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{pdftexcmds}    % Extends LuaTeX with unofficial pdfTeX primitives support. LuaTeX SVG pkg requires it.
