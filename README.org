@@ -2314,7 +2314,6 @@ main = recursePrintOneOf (quant) $ printOneOf
 <<<Monadic bind>>>
 <<<Monad bind>>>
 <<<Binder>>>
-<<<Binder function>>>
 
 ********* (>>=)
 
@@ -4650,8 +4649,6 @@ Type class makes a nice way for defining behaviour, properties over many types/o
 **** /*/
 
 <<<Type classes>>>
-<<<Typeclass>>>
-<<<Typeclasses>>>
 
 **** <<<Arbitrary type class>>> :drill:
 SCHT: <2020-10-11 Sun>
