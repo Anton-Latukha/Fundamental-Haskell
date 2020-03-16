@@ -6844,7 +6844,7 @@ SCHT: <2020-03-31 Tue>
 
 It is property chosen for Haskell type system.
 Haskell is based on Hindley-Milner type system, it is let-bound.
-To have strict type inference with /*/ - if =let= and =where= declarations are polymorphic - $\lambda$ declarations - should be not.
+To have strict type inference with /*/ - if =let= and =where= declarations are polymorphic - \lambda declarations - should be not.
 
 See: Good: In Haskell parameters bound by lambda declaration instantiate to only one concrete type.
 
