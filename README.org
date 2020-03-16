@@ -12022,53 +12022,58 @@ On 1-st compilation - /*/ analyzes the abstract signatures without loading side 
 
 ** Exception handling
 
-Exception must include all context information that may be useful.
-Store information in a form for further probable deeper automatic diagnostic.
-Sensitive data/dummies for it - can be useful during development.
-Sensitive data should be stripped from a program logging & exceptions.
-Exception system should be extendable, data storage & representation should be easily extendable.
-Exception system should allow easy exaustive checking of errors, since the different errors can happen.
-Exception system should be automatically well-documented and transparent.
-Exception system should have controllable breaking changes downstream.
-Exception system should allow complex composite (sets) exceptions.
-Exception system should be lightweight on the type signatures of other functions.
-Exception system should automate the collection of context for a exception.
-Exception system should have properties and according functions for particular types of errors.
+Ideal model:
+
+  + [X] Exception must include all context information that may be useful.
+  + [X] Store information in a form for further probable deeper automatic diagnostic.
+  + [X] Sensitive data/dummies for it - can be useful during development.
+  + [X] Sensitive data should be stripped from a program logging & exceptions.
+  + [X] Exception system should be extendable, data storage & representation should be easily extendable.
+  + [X] Exception system should allow easy exaustive checking of errors, since the different errors can happen.
+  + [X] Exception system should be automatically well-documented and transparent.
+  + [X] Exception system should have controllable breaking changes downstream.
+  + [X] Exception system should allow complex composite (sets) exceptions.
+  + [X] Exception system should be lightweight on the type signatures of other functions.
+  + [X] Exception system should automate the collection of context for a exception.
+  + [X] Exception system should have properties and according functions for particular types of errors.
 
 =String= is simple and convinient to throw exception, but really a mistake because it the most cumbersome choise:
-  + Any Exception instance can be converted to a =String= with either =show= or =displayException.=
-  - Does not include key debugging information in the error message.
-  - Does not allow developer to access/manage the Exception information.
-  - Exception messages need to be constructed ahead of time, it can not be internationalized, converted to some data/file format.
-  - Exception can have a sensitive information that can be useful for developer during work, but should not be logged/shown to end-user. Stripping it from =Strings= in the changing project is a hard task.
-  - Impossible to rely on this representation for further/deeper inspection.
-  - Impossible to have exhaustive checking - no knowledge no check, no warning if some cases are not handled.
+  + [X] Any Exception instance can be converted to a =String= with either =show= or =displayException.=
+  - [ ] Does not include key debugging information in the error message.
+  - [ ] Does not allow developer to access/manage the Exception information.
+  - [ ] Exception messages need to be constructed ahead of time, it can not be internationalized, converted to some data/file format.
+  - [ ] Exception can have a sensitive information that can be useful for developer during work, but should not be logged/shown to end-user. Stripping it from =Strings= in the changing project is a hard task.
+  - [ ] Impossible to rely on this representation for further/deeper inspection.
+  - [ ] Impossible to have exhaustive checking - no knowledge no check, no warning if some cases are not handled.
 
 Universal exception type:
-  + Able to inspect every possible error case with pattern match.
-  + Self-documenting. Shows the hierarchical system of all exceptions.
-  + Transparent. Ability to discern in current situation what exceptions can happen
-  - New exception constructor causes breaking change to downstream.
-  - Wrongly implies completeness. Untreated Errors can happen, different exception can arrive from the outside code.
+
+  + [X] Able to inspect every possible error case with pattern match.
+  + [X] Self-documenting. Shows the hierarchical system of all exceptions.
+  + [X] Transparent. Ability to discern in current situation what exceptions can happen
+  - [ ] New exception constructor causes breaking change to downstream.
+  - [ ] Wrongly implies completeness. Untreated Errors can happen, different exception can arrive from the outside code.
 
 Sum type must be separate, and product type structure over it.
 Separate exception type of 
 
 Individual exception types:
-  + Writing & seing & working with exactly what will go wrong because there is only one possible error for this type of exception. Pattern match happens only onconditions, constructors that should happen.
-  + Knowledge what exectly goes wrong allows wide usage of Either.
-  - It is hard to handle complex exceptions in the unitary system. Real wrorld can return not a particular case, but a set of cases {object not found, path is unreachable, access is denied}.
-  - Type signatures grow, and even can become complex, since every case of exception has its own type.
-  - Impure =throw= that users can/should use for your code must account for all your exception types.
+
+  + [X] Writing & seing & working with exactly what will go wrong because there is only one possible error for this type of exception. Pattern match happens only onconditions, constructors that should happen.
+  + [X] Knowledge what exectly goes wrong allows wide usage of Either.
+  - [ ] It is hard to handle complex exceptions in the unitary system. Real wrorld can return not a particular case, but a set of cases {object not found, path is unreachable, access is denied}.
+  - [ ] Type signatures grow, and even can become complex, since every case of exception has its own type.
+  - [ ] Impure =throw= that users can/should use for your code must account for all your exception types.
 
 Abstract exception type:
+
 Exception type entirely opague and inspectable only by accessor functions.
-  + Updating the internals without breaking the API
-  + Semi-automates the context of exception with passing it to accessors.
-  + Predicates can be applied to more than one constructor. Which are properties that allows to make complex exceptions much easier to handle.
-  - Not self-documenting.
-  - Possible options by design are hidden from the downstream, documentation must be kept.
-  - When you change the exception handling/throwing errors it does not shows to the downstream.
+  + [X] Updating the internals without breaking the API
+  + [X] Semi-automates the context of exception with passing it to accessors.
+  + [X] Predicates can be applied to more than one constructor. Which are properties that allows to make complex exceptions much easier to handle.
+  - [ ] Not self-documenting.
+  - [ ] Possible options by design are hidden from the downstream, documentation must be kept.
+  - [ ] When you change the exception handling/throwing errors it does not shows to the downstream.
 
 Composit approach:
 Provide the set of constructors and also a set of predicates and set of accessors.
