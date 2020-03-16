@@ -153,6 +153,9 @@
 #+latex_header: \usepackage[parfill]{parskip}
 #+latex_header: \usepackage{titlesec}
 
+#+latex_header: \titleformat{\paragraph}
+#+latex_header:   {\normalfont\normalsize\itshape}{\theparagraph}{1em}{}
+#+latex_header: \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{0ex plus .2ex}
 
 * Introduction
 
