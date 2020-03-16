@@ -9872,7 +9872,7 @@ Haskell has special meaning for:
 #+begin_src haskell
 case, class, data, deriving, do,else, if, import,
 in, infix, infixl, infixr, instance, let,
-of, module,newtype, then, type, where
+of, module, newtype, then, type, where
 #+end_src
 
 **** /*/
