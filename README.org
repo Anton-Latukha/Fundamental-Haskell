@@ -104,7 +104,6 @@
 #+latex_header: \usepackage{mathtools}
 
 #+latex_header: \usepackage{ifluatex}    % Allows sort environment for LuaTeX
-# #+latex_header: \ifluatex
 
 # Font setup
 #+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
@@ -132,9 +131,6 @@
 #+latex_header:   \usepackage{transparent}    % Maybe needed for SVGs created by Inkscape.
 #+latex_header:   \usepackage{svg}    % Extends LuaTeX with SVG. Docs: http://mirrors.ctan.org/graphics/svg/doc/svg.pdf
 
-# #+latex_header: \else
-# #+latex_header: \fi
-
 # Table packages
 #+latex_header: \usepackage{tabularx}    % Functions for calculation and fixation of the column width in the table. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/required/tools/tabularx.pdf
 #+latex_header: \usepackage{longtable}    % Support breaking long tables spanning several pages. Docs: http://mirrors.ctan.org/macros/latex/required/tools/longtable.pdf
@@ -144,7 +140,6 @@
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage[table]{xcolor}    % Docs: https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/xcolor/xcolor.pdf
 
-# #+latex_header: \ifluatex    % Late stage LuaTeX setups
 # Microtype
 #+latex_header:   \usepackage{microtype}    % A great package that enables auto- and manual typeset niceties and tweaking. Docs: http://mirrors.ctan.org/macros/latex/contrib/microtype/microtype.pdf
 #+latex_header: \DisableLigatures[>,<,|,=,-,$]{encoding= *, family= *}    % Specific ligatures to disable in fonts (just a start characters). Mostly Haskell-specific sumbols.
@@ -156,8 +151,6 @@
 # #+latex_header:   \setotherlanguage[variant=classic]{latin}    %  2020-03-14: NOTE: Enabling Lating in Polyglossia v19.04 was going into Haskell source code blocks and breaking on Applicative <*>'s
 #+latex_header:   \setotherlanguage{arabic}    % Especially right-to-left languages must be activated after all packages loaded
 
-# #+latex_header: \else
-# #+latex_header: \fi
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 # HTML setup
