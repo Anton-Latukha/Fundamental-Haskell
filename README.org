@@ -151,6 +151,8 @@
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 #+keywords: Haskell,Org-mode,Org-drill,Category theory,Functor,Applicative,Monad,Learning,Terms,Definitions,Theory,Book,Dictionary,Encyclopedia,Handbook,Philosophy,Philosophy of mathematics
 #+latex_header: \usepackage[parfill]{parskip}
+#+latex_header: \usepackage{titlesec}
+
 
 * Introduction
 
