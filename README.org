@@ -41,7 +41,7 @@
 #+options: num:t
 #+options: toc:10
 #+options: p:nil
-#+options: \n:t
+# #+options: \n:t
 #+options: -:t
 #+options: e:t
 # #+toc: headlines 10    # Inserts TOC *here
