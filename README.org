@@ -150,21 +150,22 @@
 #+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 #+keywords: Haskell,Org-mode,Org-drill,Category theory,Functor,Applicative,Monad,Learning,Terms,Definitions,Theory,Book,Dictionary,Encyclopedia,Handbook,Philosophy,Philosophy of mathematics
-#+latex_header: \usepackage[parfill]{parskip}
-#+latex_header: \usepackage{titlesec}
 
-#+latex_header: \titleformat{\paragraph}
+#### Setting headers typesetting
+#+latex_header: \usepackage[parfill]{parskip}   % Add spacer functions for paragraphs and headers. Docs: https://ctan.math.illinois.edu/macros/latex/contrib/parskip/parskip.pdf
+#+latex_header: \usepackage{titlesec}    % Easy formatting of headers. Docs: http://tug.ctan.org/tex-archive/macros/latex/contrib/titlesec/titlesec.pdf
+#+latex_header: \titleformat{\paragraph}    % Formatting the 'paragraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
-#+latex_header: \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-#+latex_header: \titleformat{\subparagraph}
+#+latex_header: \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}    % {add to left margin}{above}{below}
+#+latex_header: \titleformat{\subparagraph}    % Formatting the 'subparagraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{}
-#+latex_header: \titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-#+latex_header: \titleformat{\subsubparagraph}
+#+latex_header: \titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}    % {add to left margin}{above}{below}
+#+latex_header: \titleformat{\subsubparagraph}    % Formatting the 'subsubparagraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\thesubsubparagraph}{1em}{}
-#+latex_header: \titlespacing*{\subsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
-#+latex_header: \titleformat{\subsubsubparagraph}
+#+latex_header: \titlespacing*{\subsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}    % {add to left margin}{above}{below}
+#+latex_header: \titleformat{\subsubsubparagraph}    % Formatting the 'subsubsubparagraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\thesubsubsubparagraph}{1em}{}
-#+latex_header: \titlespacing*{\subsubsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+#+latex_header: \titlespacing*{\subsubsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}    % {add to left margin}{above}{below}
 
 
 
