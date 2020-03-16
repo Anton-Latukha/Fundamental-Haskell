@@ -83,7 +83,6 @@
 #+latex_header: \fancyfoot[C]{\thepage}    % Footer center
 #+latex_header: \setlength\footskip{0mm}
 #+latex_header: \fancyheadoffset{0mm}    % Offset for header
-#+latex_header: \usepackage{booktabs}
 #+latex_header: \usepackage{colortbl}
 #+latex_header: \usepackage{siunitx}
 #+latex_header: \usepackage[table]{xcolor}    % Docs: https://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/xcolor/xcolor.pdf
@@ -152,8 +151,6 @@
 #+latex_header: \usepackage{xltabular}    % Provides new table invironment 'xltabular', which is a combination of 'tabularx' and 'longtable'. Docs: http://mirrors.ctan.org/macros/latex/contrib/xltabular/xltabular-doc.pdf
 #+latex_header: \usepackage{tabu}    % UNMAINTAINED (creator dissapeared 2011). Finer treatment and sizing of tables. Environments 'tabu', 'longtabu' Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/tabu/tabu.pdf
 #+latex_header: \usepackage{booktabs}    % Allows finer typesetting of lines in tables. Docs: http://mirrors.ctan.org/macros/latex/contrib/booktabs/booktabs.pdf
-# #+latex_header: \usepackage{titlesec}    % Format the heading and labels. Docs: http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.pdf
-# #+latex_header: \titlespacing{\subparagraph}{*1}{*1}{[hang]}
 #+latex_header: \ifluatex    % Late stage LuaTeX setups
 #+latex_header:   \usepackage{microtype}    % A great package that enables auto- and manual typeset niceties and tweaking. Docs: http://mirrors.ctan.org/macros/latex/contrib/microtype/microtype.pdf
 
@@ -166,7 +163,6 @@
 
 #+latex_header: \else
 #+latex_header: \fi
-# #+latex_header: \usepackage{indentfirst}
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 #### HTML setup
