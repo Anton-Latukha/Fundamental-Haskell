@@ -6060,8 +6060,6 @@ Based on function abstraction and application by substituting variables and bind
 
 <<<Lambda term>>>
 <<<Lambda terms>>>
-<<<Lambda variable>>>
-<<<Lambda variables>>>
 
 *** <<<Lambda cube>>> :drill:
 SCHT: <2020-04-03 Fri>
