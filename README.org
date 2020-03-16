@@ -94,7 +94,7 @@
 # #+latex_header: \newcommand{\source}[1]{\caption*{Source: {#1}} }
 #+latex_header: \usepackage{mathtools}
 
-#+latex_header: \usepackage{ifluatex}
+#+latex_header: \usepackage{ifluatex}    % Allows sort environment for LuaTeX
 #+latex_header: \ifluatex
 #+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
 #+latex_header:   \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
