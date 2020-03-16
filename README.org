@@ -32,7 +32,7 @@
 
 #
 #
-#
+# Org-mode options for LaTeX
 #+startup: latexpreview
 #+startup: entitiespretty
 #+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
@@ -47,24 +47,24 @@
 #+options: e:t
 # #+toc: headlines 10    # Inserts TOC *here
 
-#### LaTeX Class
+# LaTeX Class
 #+latex_class: book
 #+latex_class_options: [a4paper,14pt,oneside]
 # #+latex_header: \titleclass{\subsubparagraph}{straight}[\subparagraph]    % This tried to add class header subsubhparagraph into the dance
 # #+latex_header: \newcounter{subsubparagraph}
 # #+latex_header: \renewcommand{\subsubparagraph}{\Alph{subsubparagraph}}
 
-#### LaTeX to PDF Conversion setup
+# LaTeX to PDF Conversion setup
 #+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note 2 Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 #+latex_header: \tolerance=1000
 
-#### Graphics setup
+# Graphics setup
 # #+latex_header: \usepackage[ocgcolorlinks]{ocgx2}    % Make links colorful on view and black on print
 #+latex_header: \graphicspath{ {./images/}{./}{/home/pyro/org/haskell/}{/home/pyro/org/haskell/images/} }    % Folder prefix to search images in
 #+latex_header: \usepackage{tikz}
 #+latex_header: \usepackage{tikz-cd}
 
-#### Trying to extend numbering and TOC
+# Trying to extend numbering and TOC
 #+latex_header: \usepackage{enumitem}
 #+latex_header: \setlistdepth{10}
 #+latex_header: \setcounter{secnumdepth}{10}
@@ -73,7 +73,7 @@
 #+latex_header: \newlist{enumerate}{enumerate}{10}
 #+latex_header: \setlist[enumerate]{label*=\arabic*.}
 
-#### Page layout
+# Page layout
 #+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
 #+latex_header: \setlength{\headheight}{15.2pt}    % Vertical size of the header box
 #+latex_header: \pagestyle{fancy}    % Enable fancy page style
@@ -94,7 +94,7 @@
 #+latex_header: \renewcommand\headrule{\vskip-.7\baselineskip\copy\FHline}    % Set rule for header line box
 #+latex_header: \setlength{\parindent}{0mm}    % Paragraph first line indentation
 
-#### Code highlighting
+# Code highlighting
 #+latex_header: \usepackage{fancyvrb}    % Verbatim LaTeX handler&transformer, `minted` requires it.
 #+latex_header: \usepackage{fvextra}    % Official extension to `fancyvrb`, can be used by `minted` in some cases.
 #+latex_header: \usepackage{minted}    % Python3 Pygments code highlighter, requires permission of LaTeX compiler for external tools
@@ -107,7 +107,7 @@
 #+latex_header: \usepackage{ifluatex}    % Allows sort environment for LuaTeX
 #+latex_header: \ifluatex
 
-#### Font setup
+# Font setup
 #+latex_header:   \usepackage{fontspec}    % Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fontspec/fontspec.pdf
 #+latex_header:   \defaultfontfeatures{Ligatures=TeX}    % Should be enablead and autoloaded by default for fonts. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX behaviour forASCII input of curly quotes and punctuation
 #+latex_header:   \setmainfont{CMU Serif}    % Computer Modern (mod Unicode extended) Serif {Analog Times New Roman}
@@ -123,7 +123,7 @@
 #+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
 # #+latex_header:   \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
 
-#### LuaTeX SVG setup
+# LuaTeX SVG setup
 #+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{pdftexcmds}    % Extends LuaTeX with unofficial pdfTeX primitives support. LuaTeX SVG pkg requires it.
@@ -133,7 +133,7 @@
 #+latex_header:   \usepackage{transparent}    % Maybe needed for SVGs created by Inkscape.
 #+latex_header:   \usepackage{svg}    % Extends LuaTeX with SVG. Docs: http://mirrors.ctan.org/graphics/svg/doc/svg.pdf
 
-#### pdfLaTeX setup
+# pdfLaTeX setup
 #+latex_header: \else
 #+latex_header:   %default: pdf(La)TeX
 #+latex_header:   \usepackage{lmodern} % load vector font
@@ -143,7 +143,7 @@
 #+latex_header:   \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
 #+latex_header: \fi
 
-#### Table packages
+# Table packages
 #+latex_header: \usepackage{tabularx}    % Functions for calculation and fixation of the column width in the table. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/required/tools/tabularx.pdf
 #+latex_header: \usepackage{longtable}    % Support breaking long tables spanning several pages. Docs: http://mirrors.ctan.org/macros/latex/required/tools/longtable.pdf
 #+latex_header: \usepackage{xltabular}    % Provides new table invironment 'xltabular', which is a combination of 'tabularx' and 'longtable'. Docs: http://mirrors.ctan.org/macros/latex/contrib/xltabular/xltabular-doc.pdf
@@ -155,7 +155,7 @@
 #+latex_header: \ifluatex    % Late stage LuaTeX setups
 #+latex_header:   \usepackage{microtype}    % A great package that enables auto- and manual typeset niceties and tweaking. Docs: http://mirrors.ctan.org/macros/latex/contrib/microtype/microtype.pdf
 
-#### Language setup
+# Language setup
 #+latex_header:   \usepackage{polyglossia}    % It is advisable to activate the languages after all packages have been loaded. Docs: http://mirrors.ctan.org/macros/latex/contrib/polyglossia/polyglossia.pdf
 #+latex_header:   \setdefaultlanguage[variant=us]{english}
 #+latex_header:   \setotherlanguage[variant=ancient]{greek}
@@ -166,15 +166,16 @@
 #+latex_header: \fi
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
-#### HTML setup
+# HTML setup
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
 #+html_head: <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
 #+html_head: <script src="http://tikzjax.com/v1/tikzjax.js"></script>
+# Engine searchable keywords
 #+keywords: Haskell,Org-mode,Org-drill,Category theory,Functor,Applicative,Monad,Learning,Terms,Definitions,Theory,Book,Dictionary,Encyclopedia,Handbook,Philosophy,Philosophy of mathematics
 
-#### Setting headers typesetting
+# Setting headers typesetting
 #+latex_header: \usepackage[parfill]{parskip}   % Add spacer functions for paragraphs and headers. Docs: https://ctan.math.illinois.edu/macros/latex/contrib/parskip/parskip.pdf
 #+latex_header: \usepackage{titlesec}    % Easy formatting of headers. Docs: http://tug.ctan.org/tex-archive/macros/latex/contrib/titlesec/titlesec.pdf
 #+latex_header: \titleformat{\paragraph}    % Formatting the 'paragraph'
