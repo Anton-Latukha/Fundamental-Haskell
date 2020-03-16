@@ -35,7 +35,6 @@
 # Org-mode options for LaTeX
 #+startup: latexpreview
 #+startup: entitiespretty
-#+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
 #+options: tags:nil
 #+options: stat:t
 #+options: H:10
@@ -167,6 +166,8 @@
 # #+latex_header: \listfiles    % Debugging: lists the package version information into logs
 
 # HTML setup
+# The theme
+#+setupfile: ./org-html-themes/setup/theme-readtheorg.setup
 # Enable MathJax
 #+html_head: <style type="text/css">div.MathJax_Display{display: inline-block !important; width: auto;}</style>
 # Enable MathJax TiKz
