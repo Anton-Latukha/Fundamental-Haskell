@@ -107,31 +107,8 @@
 #+latex_header:   \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}
 #+latex_header:   \newcommand{\caution}{\symbolfont{{{⚠}}}}
 #+latex_header:   \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}
-# #+latex_header:   \setmainfont{XITS}[
-# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:     Extension = .otf,
-# #+latex_header:     UprightFont = *-Regular,
-# #+latex_header:     BoldFont = *-Bold,
-# #+latex_header:     ItalicFont = *-Italic,
-# #+latex_header:     BoldItalicFont = *-BoldItalic,
-# #+latex_header:   ]
-# #+latex_header:   \setmathrm{XITSMath-Regular}    % Fontspec setup
-# #+latex_header:   \setmainfont{XITS}[
-# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:     Extension = .otf,
-# #+latex_header:     UprightFont = *-Regular,
-# #+latex_header:     BoldFont = *-Bold,
-# #+latex_header:     ItalicFont = *-Italic,
-# #+latex_header:     BoldItalicFont = *-BoldItalic,
-# #+latex_header:   ]
 #+latex_header:   \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
-# #+latex_header:   \setmathfont{Latin Modern Math}    % Latin Modern Math loaded by default, but let's show its load explicitly
-# #+latex_header:   \setmathfont{XITSMath-Regular}[    % STIXS standard font for ISO publications
-# #+latex_header:     Ligatures = TeX,    % Enablead and autoloaded by default. Additions provided by luaotfload(i.e., LuaTEX only) to emulate TEX’sbehaviour forASCII input of curly quotes and punctuation
-# #+latex_header:     Extension = .otf,
-# #+latex_header:     BoldFont = XITSMath-Bold
-# #+latex_header:   ]
 #+latex_header:   \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
 #+latex_header:   \usepackage{pdftexcmds}    % Extends LuaTeX with unofficial pdfTeX primitives support. LuaTeX SVG pkg requires it.
