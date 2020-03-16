@@ -126,10 +126,10 @@
 #+latex_header:   \usepackage[arabic,farsi,greek.ancient,english]{babel}
 #+latex_header:   \usepackage[babel=true]{microtype}    % Load after Babel. Micro typesetting details for perfect typesetting of languages. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/microtype/microtype.pdf
 #+latex_header: \fi
-#+latex_header: \usepackage{tabularx}
-#+latex_header: \usepackage{longtable}
-#+latex_header: \usepackage{tabu}
-#+latex_header: \usepackage{booktabs}
+#+latex_header: \usepackage{tabularx}    % Functions for calculation and fixation of the column width in the table. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/required/tools/tabularx.pdf
+#+latex_header: \usepackage{longtable}    % Support breaking long tables spanning several pages. Docs: http://mirrors.ctan.org/macros/latex/required/tools/longtable.pdf
+#+latex_header: \usepackage{tabu}    % UNMAINTAINED (creator dissapeared 2011). Finer treatment and sizing of tables. Environments 'tabu', 'longtabu' Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/tabu/tabu.pdf
+#+latex_header: \usepackage{booktabs}    % Allows finer typesetting of lines in tables. Docs: http://mirrors.ctan.org/macros/latex/contrib/booktabs/booktabs.pdf
 # #+latex_header: \usepackage{titlesec}    % Format the heading and labels. Docs: http://mirrors.ctan.org/macros/latex/contrib/titlesec/titlesec.pdf
 # #+latex_header: \titlespacing{\subparagraph}{*1}{*1}{[hang]}
 #+latex_header: \ifluatex    % Late stage LuaTeX setups
