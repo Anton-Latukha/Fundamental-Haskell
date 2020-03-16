@@ -166,6 +166,7 @@
 
 # Setting headers and text typesetting
 #+latex_header: \usepackage[parfill]{parskip}   % Add spacer functions for paragraphs and headers. Docs: https://ctan.math.illinois.edu/macros/latex/contrib/parskip/parskip.pdf
+# #+latex_header: \setlength{\parskip}{1em}    % Typeset of paragraph break
 #+latex_header: \usepackage{titlesec}    % Easy formatting of headers. Docs: http://tug.ctan.org/tex-archive/macros/latex/contrib/titlesec/titlesec.pdf
 #+latex_header: \titleformat{\paragraph}    % Formatting the 'paragraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
