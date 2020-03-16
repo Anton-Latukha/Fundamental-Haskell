@@ -159,6 +159,9 @@
 #+latex_header: \titleformat{\subparagraph}
 #+latex_header:   {\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{}
 #+latex_header: \titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+#+latex_header: \titleformat{\subsubparagraph}
+#+latex_header:   {\normalfont\normalsize\bfseries}{\thesubsubparagraph}{1em}{}
+#+latex_header: \titlespacing*{\subsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 
 * Introduction
