@@ -155,7 +155,7 @@
 
 #+latex_header: \titleformat{\paragraph}
 #+latex_header:   {\normalfont\normalsize\bfseries\slshape}{\theparagraph}{1em}{}
-#+latex_header: \titlespacing*{\paragraph}{0pt}{3.25em plus 1em minus .2em}{0em plus .2em}
+#+latex_header: \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 
 * Introduction
