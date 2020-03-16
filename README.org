@@ -103,10 +103,10 @@
 #+latex_header:   \setmonofont{CMU Typewriter Text}[Ligatures=ResetAll]    % {Analog Consolas}
 #+latex_header:   \newfontfamily\arabicfont[Script=Arabic]{Amiri}    % Good compatible Arabic font from creator of XITS
 #+latex_header:   \newfontfamily{\symbolfont}{XITS}    % And load XITS by the way
-#+latex_header:   \newcommand{\additional}{{\scriptsize +===}}
-#+latex_header:   \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}
-#+latex_header:   \newcommand{\caution}{\symbolfont{{{⚠}}}}
-#+latex_header:   \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}
+#+latex_header:   \newcommand{\additional}{{\scriptsize +===}}    % Separator from main to additional meaning.
+#+latex_header:   \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}    % Remember this infinitely.
+#+latex_header:   \newcommand{\caution}{\symbolfont{{{⚠}}}}    % Be aware.
+#+latex_header:   \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}    % Details that can be hard to follow.
 #+latex_header:   \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
 #+latex_header:   \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
 # #+latex_header:   \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
