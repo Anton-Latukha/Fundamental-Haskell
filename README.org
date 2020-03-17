@@ -11274,7 +11274,7 @@ There can be differnt Applicatives with different Monoid implementations.
 
 *** Create
 
-** <<<Good: About operators =(<$ )= =( **>)= =(<* )= =(>> )= >>> :drill:
+** Good: About operators =(<$ )= =( **>)= =(<* )= =(>> )= :drill:
 SCHT: <2020-03-26 Thu>
 :properties:
 :ID:       25e19a69-21f7-435a-b2ff-f1a489e9a159
