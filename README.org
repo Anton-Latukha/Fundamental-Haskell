@@ -11289,25 +11289,9 @@ SCHT: <2020-03-26 Thu>
 :end:
 
 Where character is not present - discard the according processing of a parameter.
-=(>> )= is an exception, it does the reverse. ignores the first parameter.
+=(>> )= is an exception, it does the reverse. ignores the first parameter, in fact =>> \equiv *>=.
 
-*** <<<= *>=>>> :drill:
-SCHT: <2020-03-13 Fri>
-:properties:
-:ID:       52ea3b25-cfae-4a95-9703-6baa39159536
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:10]
-:end:
-
-Do calculation, but ignore the value from the first argument.
-
-\( *> \ \equiv \ >> \)
+= *>= does the proper action: does calculation, but ignores the value from the first argument.
 
 ** <<<Good: About functions like {mapM, sequence}_>>> :drill:
 SCHT: <2020-08-09 Sun>
