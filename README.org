@@ -7860,6 +7860,7 @@ Absolute abstraction.
 
 Point that additionally can have properties.
 
+Often abstracts something, that is why it exposes external properties on abstracting something, for example some structure, maybe mathematical. In this book objects represent algebraic structures, as we are talking about Haskell and Category theory.
 
 Objects without process are in constant state.
 
