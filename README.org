@@ -7811,6 +7811,13 @@ Forgeting the details (axiomatic semantics). Simplified approach. Out of sight -
 
 It is a great did to name an abstraction (denotational semantics).
 
+The ideal abstractions are:
+  * integrative (global):
+    * nothing, void, emptiness - "none", initial object
+    * everything - "all", "existance", terminal object
+  * differential (local):
+    * point - "this", "is", "one", stasis
+    * chaos - "any", "of", "many", process
 ***** /*/
 
 <<<Abstractions>>>
