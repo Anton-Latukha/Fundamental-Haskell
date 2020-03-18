@@ -7821,6 +7821,10 @@ The ideal abstractions are:
 
 They are ideal - because they are the basis, the beginning. Because you can not express any other obstractions without these.
 
+\additional
+
+/This are the thoughts of autor of the book regarding basic abstractions in particular, there is ongoing philosophical discussion on topics like these./
+
 ***** /*/
 
 <<<Abstractions>>>
