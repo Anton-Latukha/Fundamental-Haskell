@@ -141,7 +141,7 @@
 
 # Microtype
 #+latex_header: \usepackage{microtype}    % A great package that enables auto- and manual typeset niceties and tweaking. Docs: http://mirrors.ctan.org/macros/latex/contrib/microtype/microtype.pdf
-#+latex_header: \DisableLigatures[>,<,|,=,-,$]{encoding= *, family= *}    % Specific ligatures to disable in fonts (just a start characters). Mostly Haskell-specific sumbols.
+#+latex_header: \DisableLigatures[>,<,|,=,-,$]{encoding = *, family = *}    % Specific ligatures to disable in fonts (just a start characters). Mostly Haskell-specific sumbols.
 
 # Language setup
 #+latex_header: \usepackage{polyglossia}    % It is advisable to activate the languages after all packages have been loaded. Docs: http://mirrors.ctan.org/macros/latex/contrib/polyglossia/polyglossia.pdf
