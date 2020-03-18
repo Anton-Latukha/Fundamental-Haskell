@@ -7823,7 +7823,7 @@ They are ideal - because they are the basis, the beginning. Because you can not 
 
 \additional
 
-/This are the thoughts of autor of the book regarding basic abstractions in particular, there is ongoing philosophical discussion on topics like these./
+/This is personal idea & the thought of autor of the book regarding basic abstractions particularly. Other definitions in the book basing on this are the proof that statement has some ground truth in it. There is ongoing philosophical discussion on the topics like these./
 
 ***** /*/
 
