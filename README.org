@@ -120,7 +120,7 @@
 # #+latex_header: \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
 
 # LuaTeX SVG setup
-#+latex_header: \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it.
+#+latex_header: \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it. Docs: http://mirrors.ctan.org/macros/latex/contrib/iftex/iftex.pdf
 #+latex_header: \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
 #+latex_header: \usepackage{pdftexcmds}    % Extends LuaTeX with unofficial pdfTeX primitives support. LuaTeX SVG pkg requires it.
 #+latex_header: \usepackage{shellesc}    % Primitives to handle shell escape. LuaTeX SVG pkg requires it.
