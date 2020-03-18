@@ -7858,7 +7858,7 @@ SCHT: <2020-05-02 Sat>
 
 Absolute abstraction.
 
-Point.
+Point that additionally can have properties.
 
 Can have properties.
 
