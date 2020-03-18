@@ -32,6 +32,7 @@
 
 #
 #
+#
 # Org-mode options for LaTeX
 #+startup: latexpreview
 #+startup: entitiespretty
@@ -178,7 +179,6 @@
 #+latex_header: \titleformat{\subsubsubparagraph}    % Formatting the 'subsubsubparagraph'
 #+latex_header:   {\normalfont\normalsize\bfseries}{\thesubsubsubparagraph}{1em}{}
 #+latex_header: \titlespacing*{\subsubsubparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}    % {add to left margin}{above}{below}
-
 
 
 * Introduction
