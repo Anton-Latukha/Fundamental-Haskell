@@ -11405,7 +11405,7 @@ SCHT: <2020-05-13 Wed>
 Even if there is types - define type synonims. They are free.
 That distinction with synonims, would allow TypeSynonymInstances, which would allow to create a diffrent type class instances and behaviour for different information.
 
-** <<<Good: Control.Monad.Error -> Control.Monad.Except>>> :drill:
+** Good: Use =Control.Monad.Except= instead of =Control.Monad.Error= :drill:
 :properties:
 :ID:       4ba41ec2-5115-4be9-9aa4-4892322db1e8
 :end:
