@@ -7818,6 +7818,9 @@ The ideal abstractions are:
   * differential (local):
     * point - "this", "is", "one", stasis
     * chaos - "any", "of", "many", process
+
+They are ideal - because they are the basis, the beginning. Because you can not express any other obstractions without these.
+
 ***** /*/
 
 <<<Abstractions>>>
