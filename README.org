@@ -7804,7 +7804,7 @@ SCHT: <2020-04-25 Sat>
 abs away from, off (in absentia)
 tractus draw, haul, drag
 
-Purified generalization of process.
+Purified generalization.
 
 Forgeting the details (axiomatic semantics). Simplified approach. Out of sight - out of mind.
 
