@@ -1260,20 +1260,22 @@ An underlying set with /*/ on top of it also called "an algebra".
 #+caption: Algebraic structures
 #+name: tab--algebraic-structure
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
-|                   | Closure | Associativity | Identity | Invertability | Commutativity |
-|-------------------+---------+---------------+----------+---------------+---------------|
-| Semigroupoid      |         | \check             |          |               |               |
-| Small Category    |         | \check             | \check        |               |               |
-| Groupoid          |         | \check             | \check        | \check             |               |
-| Magma             | \check       |               |          |               |               |
-| Quasigroup        | \check       |               |          | \check             |               |
-| Loop              | \check       |               | \check        | \check             |               |
-| Semigroup         | \check       | \check             |          |               |               |
-| Inverse Semigroup | \check       | \check             |          | \check             |               |
-| Monoid            | \check       | \check             | \check        |               |               |
-| Group             | \check       | \check             | \check        | \check             |               |
-| Ring              | \check       | \check             | \check        | \check             | under +       |
-| Abelian group     | \check       | \check             | \check        | \check             | \check             |
+|                       | Closure | Associativity | Identity | Invertability | Commutativity | Distributive |
+|-----------------------+---------+---------------+----------+---------------+---------------+--------------|
+| Semigroupoid          |         | \check             |          |               |               |              |
+| Small Category        |         | \check             | \check        |               |               |              |
+| Groupoid              |         | \check             | \check        | \check             |               |              |
+| Magma                 | \check       |               |          |               |               |              |
+| Quasigroup            | \check       |               |          | \check             |               |              |
+| Loop                  | \check       |               | \check        | \check             |               |              |
+| Semigroup             | \check       | \check             |          |               |               |              |
+| Inverse Semigroup     | \check       | \check             |          | \check             |               |              |
+| Monoid                | \check       | \check             | \check        |               |               |              |
+| Group                 | \check       | \check             | \check        | \check             |               |              |
+| Abelian group         | \check       | \check             | \check        | \check             | \check             |              |
+| Non-unital ring (rng) | \check + \times   | \check + \times         | \check +      | \check +           | \check +           | \check            |
+| Semiring (rig)        | \check + \times   | \check + \times         | \check + \times    | \check \times           | \check +           | \check            |
+| Ring                  | \check + \times   | \check + \times         | \check + \times    | \check + \times         | \check +           | \check            |
 
 **** /*/
 
