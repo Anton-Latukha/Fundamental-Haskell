@@ -7860,9 +7860,6 @@ Absolute abstraction.
 
 Point that additionally can have properties.
 
-Can have properties.
-
-Often abstracts something, for example some structure, maybe mathematical.
 
 Objects without process are in constant state.
 
