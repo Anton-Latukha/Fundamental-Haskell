@@ -1209,7 +1209,7 @@ SCHT: <2021-01-29 Fri>
 :DRILL_LAST_REVIEWED: [2020-03-08 Sun 23:22]
 :end:
 
-\textenglish{ /al-jabr/ assemble parts}\textarabic{الجبر}
+\textenglish{\arabicfont{الجبر} /al-jabr/ assemble parts}
 
 
 A system of parts based on given axioms (properties) and operations on them.
