@@ -3701,8 +3701,9 @@ SCHT: <2020-06-24 Wed>
 :DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:03]
 :end:
 
-κατά /kata/ downward
-μορφή /morphe/ form
+\textgrek{κατά} /kata/ downward
+
+\textgreek{μορφή} /morphe/ form
 
 Unique arrow from an initial algebra structure into different algebra structure.
 
