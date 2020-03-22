@@ -2336,7 +2336,7 @@ main = recursePrintOneOf (quant) $ printOneOf
 
 
 
-******* <<<Sequencing operator>>> (>>) == (*>): :drill:
+******* <<<Sequencing operator>>> =(>>) \equiv (*>)=: :drill:
 SCHT: <2020-06-09 Tue>
 :properties:
 :ID:       f8d9b6e3-b18c-4996-a86d-08107f8eec1f
