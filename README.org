@@ -2064,7 +2064,7 @@ where:
 
 Definition with \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \) (in Hask: (\( \{e \, :: \, f \, a \, \to \, f \, b, \ pure, \ join\} \))) - is classic categorical, in Haskell minimal complete definition is \( \{fmap, \, pure, \, (>>=)\} \).
 
-While /( T /) is mode classical Category theory notation, we used the /( E \equiv T /) substitution for purposes of notation being more understandable.
+While \( T \) is mode classical Category theory notation, we used the \( E \equiv T \) substitution for purposes of notation being more understandable.
 
 If there is a structure \( S \), and a way of taking object \( x \) into \( S \) and a way of collapsing \( S \circ S \) - there probably a monad.
 
