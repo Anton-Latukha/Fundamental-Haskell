@@ -2041,8 +2041,8 @@ SCHT: <2020-04-06 Mon>
 :DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:47]
 :end:
 
-μόνος /monos/ sole
-μονάδα /monáda/ unit
+\textgreek{μόνος} /monos/ sole
+\textgreek{μονάδα} /monáda/ unit
 
 /*/ - monoid in endofunctor category with \( \eta \) (unit) and \( \mu \) (join) natural transformations.
 
