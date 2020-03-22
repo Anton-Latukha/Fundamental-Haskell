@@ -2045,6 +2045,8 @@ SCHT: <2020-04-06 Mon>
 
 \textgreek{μονάδα} /monáda/ unit
 
+In loose terms, /*/ - is an ability built over structures that allows to compose functions that produce that structures.
+
 /*/ - lax monoid in endofunctor category, that relies on \( \eta \) (unit) and \( \mu \) (join) natural transformations to form an equivalent of identity.
 
 Monad on \( \mathcal{C} \) is \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \):
