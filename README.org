@@ -2047,7 +2047,7 @@ SCHT: <2020-04-06 Mon>
 
 In loose terms, /*/ - is an ability built over structures that allows to compose functions that produce that structures.
 
-Since it is possible to express unpure functions with equivalent pure functions that produce a structure, /*/ become widely used in Haskell for those cases also.
+Since it is possible to express unpure functions with equivalent pure functions that produce a structure, /*/ become widely used in Haskell for those cases also. /*/ with lazy evaluation also allows controll over the continuation of calculations by early terminations.
 
 /*/ - lax monoid in endofunctor category, that relies on \( \eta \) (unit) and \( \mu \) (join) natural transformations to form an equivalent of identity.
 
