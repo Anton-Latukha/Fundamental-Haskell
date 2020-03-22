@@ -3548,8 +3548,9 @@ id :: a -> a
 :ID:       18290d34-893c-42f0-bf4a-bb31f5e97711
 :end:
 
-μονο /mono/ only
-μορφή /morphe/ form
+\textgreek{μονο} /mono/ only
+
+\textgreek{μορφή} /morphe/ form
 
 Maps one to one (uniquely), so invertable (always has inverse morphism), so preserves the information/structure.
 Domain can be equal or less to the codomain.
