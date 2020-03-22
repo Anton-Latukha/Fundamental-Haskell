@@ -3669,7 +3669,7 @@ SCHT: <2020-04-10 Fri>
 :DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
-\textgreek{\alpha\upsilon\tau\omicron} /auto/ self
+\textgreek{αυτο} /auto/ self
 
 \textgreek{μορφή} /form/ form
 
