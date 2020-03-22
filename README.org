@@ -3603,8 +3603,9 @@ Codomain is a called a projection of the domain.
 :ID:       4a0635c3-9512-443a-8497-3c259032de55
 :end:
 
-ἴσος /isos/ equal
-μορφή /morphe/ form
+\textgreek{ἴσος} /isos/ equal
+
+\textgreek{μορφή} /morphe/ form
 
 Not equal, but equal for current intents and purposes.
 Morphism that has inverse.
