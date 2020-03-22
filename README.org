@@ -2326,13 +2326,15 @@ main = recursePrintOneOf (quant) $ printOneOf
 <<<Monad bind>>>
 <<<Binder>>>
 
-********* (>>=)
+#+begin_src haskell
+(>>=)
+>>=
+(=<<)
+=<<
+#+end_src
 
-********* >>=
 
-********* (=<<)
 
-********* =<<
 
 ******* <<<Sequencing operator>>> (>>) == (*>): :drill:
 SCHT: <2020-06-09 Tue>
