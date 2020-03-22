@@ -3430,8 +3430,10 @@ SCHT: <2020-05-12 Tue>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
 :end:
 
-ὁμός /homos/ same (was chosen becouse of initial Anglish mistranslation to "similar")
-μορφή /morphe/ form
+\textgreek{ὁμός} /homos/ same (was chosen becouse of initial Anglish mistranslation to "similar")
+
+\textgreek{μορφή} /morphe/ form
+
 similar form
 
 /*/ map between two algebraic structures of the same type, operation-preserving.
