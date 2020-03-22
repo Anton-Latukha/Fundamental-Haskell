@@ -2042,9 +2042,10 @@ SCHT: <2020-04-06 Mon>
 :end:
 
 \textgreek{μόνος} /monos/ sole
+
 \textgreek{μονάδα} /monáda/ unit
 
-/*/ - monoid in endofunctor category with \( \eta \) (unit) and \( \mu \) (join) natural transformations.
+/*/ - lax monoid in endofunctor category, that relies on \( \eta \) (unit) and \( \mu \) (join) natural transformations to form an equivalent of identity.
 
 Monad on \( \mathcal{C} \) is \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \):
   * \( E^{\mathcal{C \to C}} \) - is an endofunctor
