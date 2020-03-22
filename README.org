@@ -11476,7 +11476,7 @@ With Type Monad computation can return value that dependent from the previous co
 Version policy and dependency management.
 
 #+downloaded: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
-[[file:Good_code/pvp-decision-tree_2019-06-17_15-49-21.svg]]
+[[file:images/pvp-decision-tree_2019-06-17_15-49-21.svg]]
 
 *** /*/
 
