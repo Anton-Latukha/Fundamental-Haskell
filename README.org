@@ -3701,7 +3701,7 @@ SCHT: <2020-06-24 Wed>
 :DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:03]
 :end:
 
-\textgrek{κατά} /kata/ downward
+\textgreek{κατά} /kata/ downward
 
 \textgreek{μορφή} /morphe/ form
 
