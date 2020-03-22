@@ -3086,12 +3086,16 @@ fmap f . fmap g = fmap (f . g)
 
 /*/ - functor axiom that allows to greatly simplify computations.
 
-**** <<<=$>=>>> :drill:
+**** =$>= :drill:
 :properties:
 :ID:       b2e2a3bf-d31c-40cb-a7da-9f389190a773
 :end:
 
 Get & set a value inside Functor.
+
+***** /*/
+
+=<$=
 
 **** <<<Multifunctor>>> :drill:
 SCHT: <2020-03-16 Mon>
@@ -3133,10 +3137,6 @@ class Bifunctor f
 
 ***** /*/
 <<<Bifunctor>>>
-
-**** /*/
-
-<<<=<$=>>>
 
 *** <<<Hask category>>> :drill:
 :properties:
