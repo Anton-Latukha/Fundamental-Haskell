@@ -3580,8 +3580,9 @@ SCHT: <2020-04-08 Wed>
 :DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:44]
 :end:
 
-επι /epi/ on, over
-μορφή /morphe/ form
+\textgreek{επι} /epi/ on, over
+
+\textgreek{μορφή} /morphe/ form
 
 /*/ is right canselable morphism.
 \( f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) \) - from homomorphism context
