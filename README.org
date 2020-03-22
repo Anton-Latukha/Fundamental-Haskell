@@ -4074,7 +4074,9 @@ a & \underset{\pi_a}{\leftarrow} & c & \underset{\pi_b}{\rightarrow} & b
 \end{matrix}
 
 Pattern: \( p: c \to a, \ q: c \to b \)
+
 Ranking: \( \max{\sum^{\forall}{(!: c\prime \to c \ | \ p\prime = p \circ !, \ q\prime = q \circ !)}} \)
+
 \( c\prime \) is another candidate.
 
 For sets - Cartesian product.
