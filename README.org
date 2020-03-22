@@ -8024,7 +8024,8 @@ SCHT: <2020-06-21 Sun>
 :end:
 
 ambi both
-γράμμα /grámma/ written character
+
+\textgreek{γράμμα} /grámma/ written character
 
 Object that from different points of view has the same meaning.
 
