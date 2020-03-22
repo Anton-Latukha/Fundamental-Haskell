@@ -7726,7 +7726,7 @@ SCHT: <2020-03-07 Sat>
 :DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
 :end:
 
-/arguere/ to make clear, to shine
+/arguere/ make clearmake known, to prove, to shine
 
 /*/ - evidence, proof, statement that results in system consequences.
 
