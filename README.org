@@ -6796,7 +6796,7 @@ SCHT: <2020-09-18 Fri>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
 :end:
 
-πολύς /polús/ many
+\textgreek{πολύς} /polús/ many
 
 At once several forms.
 
