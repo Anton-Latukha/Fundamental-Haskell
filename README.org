@@ -3397,7 +3397,8 @@ SCHT: <2020-03-13 Fri>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:33]
 :end:
 
-μορφή /morphe/ form
+\textgreek{μορφή} /morphe/ form
+
 Arrow between two objects inside a category.
 
 Morphism can be anything.
