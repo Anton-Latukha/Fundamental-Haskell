@@ -7728,7 +7728,7 @@ SCHT: <2020-03-07 Sat>
 
 /arguere/ make clearmake known, to prove, to shine
 
-/*/ - evidence, proof, statement that results in system consequences.
+/*/ - evidence, proof, statement that results in consequencesin the system.
 
 ***** <<<Argument of a function>>> :drill:
 :properties:
