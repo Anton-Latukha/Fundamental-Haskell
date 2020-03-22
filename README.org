@@ -4101,7 +4101,7 @@ Dual is Coproduct.
 :ID:       3599f721-e345-40e4-8361-be4d0898d35a
 :end:
 
-Universal constructuon:
+Universal construction:
 
 \begin{matrix}
 && c\prime && \\
