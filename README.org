@@ -3648,8 +3648,9 @@ SCHT: <2020-04-20 Mon>
 :DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:13]
 :end:
 
-ενδο /endo/ internal
-μορφή /morphe/ form
+\textgreek{ενδο} /endo/ internal
+
+\textgreek{μορφή} /morphe/ form
 
 Arrow from object to itself.
 Endomorphism forms a monoid (object exists and category requirements already in place).
