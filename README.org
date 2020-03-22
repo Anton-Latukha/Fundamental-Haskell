@@ -3669,8 +3669,9 @@ SCHT: <2020-04-10 Fri>
 :DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
 :end:
 
-\alpha\upsilon\tau\omicron /auto/ self
-μορφή /form/ form
+\textgreek{\alpha\upsilon\tau\omicron} /auto/ self
+
+\textgreek{μορφή} /form/ form
 
 Isomorphic endomorphism.
 
