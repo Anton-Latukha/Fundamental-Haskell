@@ -4093,6 +4093,7 @@ Dual is Coproduct.
 :end:
 
 Universal constructuon:
+
 \begin{matrix}
 && c\prime && \\
 & {}^p\nearrow\phantom{{}^{p}} & {\tiny \phantom{!}}\uparrow{\tiny !} & \phantom{{}^q}\nwarrow^q& \\
@@ -4100,7 +4101,9 @@ a & \underset{\iota_a}{\rightarrow} & c & \underset{\iota_b}{\leftarrow} & b
 \end{matrix}
 
 Pattern: \( i: a \to c, \ j: b \to c \)
+
 Ranking: \( \max{\sum^{\forall}{(!: c \to c\prime \ | \ i\prime = ! \circ i, \ j\prime = ! \circ j)}} \)
+
 \( c\prime \) is another candidate.
 
 For sets - Disjoint union.
