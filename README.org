@@ -2047,6 +2047,8 @@ SCHT: <2020-04-06 Mon>
 
 In loose terms, /*/ - is an ability built over structures that allows to compose functions that produce that structures.
 
+Since it is possible to express unpure functions with equivalent pure functions that produce a structure, /*/ become widely used in Haskell for those cases also.
+
 /*/ - lax monoid in endofunctor category, that relies on \( \eta \) (unit) and \( \mu \) (join) natural transformations to form an equivalent of identity.
 
 Monad on \( \mathcal{C} \) is \( \{E^{\mathcal{C \to C}}, \, \eta, \, \mu\} \):
@@ -3234,6 +3236,7 @@ mconcat = foldr mappend mempty
 #+end_src
 
 /*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
+
 For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
 
 #+begin_src haskell
