@@ -3994,7 +3994,8 @@ a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, ben
 \end{tikzcd}
 
 \begin{tikzcd}
-a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ G_{1}" description, bend right] & \Downarrow{\beta * \alpha} & c
+a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ G_{1}" description, bend right] & \Downarrow{\beta * \alpha} & c \\
+;
 \end{tikzcd}
 
 
