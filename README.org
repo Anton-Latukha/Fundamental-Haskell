@@ -2220,6 +2220,16 @@ C \arrow[rrrr, "T^{2}" description, bend left=49] \arrow[rrrr, "T" description, 
 
 So, \( \mu * (\mu \circ I) = \mu * (I \circ \mu) \)
 
+Endomorphism level:
+
+\begin{tikzcd}
+                          &  & T^{3} \arrow[lldd, "I \circ \mu" description] \arrow[rrdd, "\mu \circ I"] &  &                           \\
+                          &  &                                                                           &  &                           \\
+T^{2} \arrow[rrdd, "\mu"] &  &                                                                           &  & T^{2} \arrow[lldd, "\mu"] \\
+                          &  &                                                                           &  &                           \\
+                          &  & T                                                                         &  &                          
+\end{tikzcd}
+
 ****** <<<Monad type class>>> :drill:
 :properties:
 :ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
