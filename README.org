@@ -2196,6 +2196,17 @@ Explanation:
 #+end_src
 AKA it is a tacit description of a monad bind as endofunctor.
 
+Diagram on category level:
+
+\begin{tikzcd}
+                                                                                                                                            &  & {} \arrow[dd, "I" description, Rightarrow] &  &                                                                                 &  & {} \arrow[dd, "\eta" description, Rightarrow] &  &   \\
+C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend right=49] \arrow[rrrrrrrr, "T" description, bend right=60] &  &                                            &  & C \arrow[rrrr, "Id", bend left=49] \arrow[rrrr, "T" description, bend right=49] &  &                                               &  & C \\
+                                                                                                                                            &  & {}                                         &  & {} \arrow[dd, "\mu" description, Rightarrow]                                    &  & {}                                            &  &   \\
+                                                                                                                                            &  &                                            &  &                                                                                 &  &                                               &  &   \\
+                                                                                                                                            &  &                                            &  & {}                                                                              &  &                                               &  &  
+
+\end{tikzcd}
+
 ******* <<<Monad associativity law>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
