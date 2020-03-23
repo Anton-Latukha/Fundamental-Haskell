@@ -2256,7 +2256,7 @@ C \arrow[rrrr, "T^{2}" description, bend left=49] \arrow[rrrr, "T" description, 
 
 \end{tikzcd}
 
-So, \( \mu * (\mu \circ I) = \mu * (I \circ \mu) \)
+So, \( \mu \circ (\mu \circ I) = \mu \circ (I \circ \mu) \)
 
 Endomorphism level:
 
