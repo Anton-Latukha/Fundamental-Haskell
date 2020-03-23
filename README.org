@@ -6230,6 +6230,7 @@ SCHT: <2020-04-03 Fri>
 \lambda 2 \arrow[ur] \arrow[rr, crossing over] & & \lambda P 2 \arrow[ur] \\
 & \lambda \underline{\omega} \arrow[rr] & & \lambda P \underline{\omega} \arrow[uu] \\
 \lambda \arrow[rr] \arrow[uu] \arrow[ur] & & \lambda P \arrow[uu, crossing over] \arrow[ur] \\
+;
 \end{tikzcd}
 
 Each dimension of the cube corresponds to extensions (a new type of relation of objects depending on objects):
