@@ -4052,7 +4052,8 @@ Category where:
 | \Rightarrow | 2-morphism | natural transformation, morphisms homotopy | 2-cell |
 
 \begin{tikzcd}
-a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt} &  & b
+a \arrow[rrrr, "F", bend left] \arrow[rrrr, "G", bend right] &  & \Downarrow{nt} &  & b \\
+;
 \end{tikzcd}
 
 Is Cartesian closed category.
