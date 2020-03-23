@@ -2258,7 +2258,7 @@ C \arrow[rrrr, "T^{2}" description, bend left=49] \arrow[rrrr, "T" description, 
                                                                                                                                                 &  & {}                                           &  & {} \arrow[dd, "\mu" description, Rightarrow]                                   &  & {}                                         &  &   \\
                                                                                                                                                 &  &                                              &  &                                                                                &  &                                            &  &   \\
                                                                                                                                                 &  &                                              &  & {}                                                                             &  &                                            &  &  \\
-
+;
 \end{tikzcd}
 
 So, \( \mu \circ (\mu \circ I) = \mu \circ (I \circ \mu) \)
