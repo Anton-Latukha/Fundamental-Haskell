@@ -12698,7 +12698,8 @@ So, profunctor in case of arrow:
 
 \begin{tikzcd}
 a \arrow[d, "h"] & a' \arrow[l, "f"] \arrow[d, "profunctor", dashed] \\
-b \arrow[r, "g"] & b'\\
+b \arrow[r, "g"] & b' \\
+;
 \end{tikzcd}
 
 #+begin_src haskell
