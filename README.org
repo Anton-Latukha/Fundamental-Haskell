@@ -2162,6 +2162,15 @@ C \arrow[rrrr, "Id" description, bend left=49] \arrow[rrrr, "T" description, ben
                                                                                                                                              &  &                                               &  &                                                                                &  &                                            &  &   \\
                                                                                                                                              &  &                                               &  & {}                                                                             &  &                                            &  &  
 \end{tikzcd}
+
+Diagram on endomorphism level:
+
+\begin{tikzcd}
+Id \circ T \arrow[rr, "\eta \circ I" description] \arrow[rrdd, no head, Rightarrow] &  & T^{2} \arrow[dd, "\mu" description] \\
+                                                                                    &  &                                     \\
+                                                                                    &  & T                                  
+\end{tikzcd}
+
 ******* <<<Monad right identity law>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
