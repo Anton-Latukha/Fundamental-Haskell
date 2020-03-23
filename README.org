@@ -2207,6 +2207,14 @@ C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend
 
 \end{tikzcd}
 
+Diagram on endomorphism level:
+
+\begin{tikzcd}
+T^{2} \arrow[dd, "\mu" description] &  & T \circ Id \arrow[ll, "I \circ \eta" description] \arrow[lldd, no head, Rightarrow] \\
+                                    &  &                                                                                     \\
+T                                   &  &                                                                                    
+\end{tikzcd}
+
 ******* <<<Monad associativity law>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
