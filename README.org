@@ -2068,6 +2068,14 @@ While \( T \) is mode classical Category theory notation, we used the \( E \equi
 
 If there is a structure \( S \), and a way of taking object \( x \) into \( S \) and a way of collapsing \( S \circ S \) - there probably a monad.
 
+Monad structure:
+
+\begin{tikzcd}
+                                                                                                                              &  & {} \arrow[d, "\eta" description, Rightarrow] &  &   \\
+C \arrow[rrrr, "Id" description, bend left=49] \arrow[rrrr, "E" description] \arrow[rrrr, "E^{2}" description, bend right=49] &  & {}                                           &  & C \\
+                                                                                                                              &  & {} \arrow[u, "\mu" description, Rightarrow]  &  &  
+\end{tikzcd}
+
 Mostly monads used for sequencing actions (computations) (that looks like imperative programming), with ability to dependend on previous chains. Note if monad is commutative - it does not order actions.
 
 Monad can shorten/terminate sequence of computations. It is implemented inside Monad instance. For example Maybe monad on Nothing drops chain of computation and returns Nothing.
