@@ -2393,6 +2393,7 @@ getLine >>= \name -> putStrLn "age pls:"
 
 Also a neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
 And use that partial bundle as a function - every evaluation of the function would trigger evaluation of internal Monad structure. Thumbs up. 
+
 #+begin_src haskell
 printOneOf :: Bool -> IO ()
 printOneOf False = putStr "1"
@@ -2438,6 +2439,7 @@ SCHT: <2020-06-09 Tue>
 
 Discard any resulting value of the action and sequence next action.
 Applicative has a similar operator.
+
 #+begin_src haskell
 (>>) :: m a -> m b -> m b
 (*>) :: f a -> f b -> f b
@@ -2524,6 +2526,7 @@ Lifts a function into monadic equivalent.
 :end:
 
 Monadic liftA2.
+
 #+begin_src haskell
 liftM2 :: Monad m => (a -> b -> c) -> m a -> m a -> m c
 #+end_src
@@ -2632,6 +2635,7 @@ Useful: Creates monads from monad transformers.
 Bind: Applies internal value to the bound function.
 
 Code: (see: coerce)
+
 #+begin_src haskell
 newtype Identity a = Identity { runIdentity :: a }
 
@@ -2667,6 +2671,7 @@ Zero: Nothing
 Plus: result in first occurence of Just else Nothing.
 
 Code:
+
 #+begin_src haskell
 data Maybe a = Nothing | Just a
 
@@ -2689,6 +2694,7 @@ Given 3 dictionaries:
  3. Email addresses to email preferences.
 
 Create a function that finds a person's email preferences based on either a full name or a nickname.
+
 #+begin_src haskell
 data MailPref = HTML | Plain
 data MailSystem = ...
@@ -2779,11 +2785,13 @@ Creates a read-only shared environment for computations.
 The =pure= function ignores the environment, while >>= passes the inherited environment to both subcomputations.
 
 Today it is defined though ReaderT transformer:
+
 #+begin_src haskell
 type Reader r = ReaderT r Identity   -- equivalent to ((->) e), (e ->)
 #+end_src
 
 Old definition was:
+
 #+begin_src haskell
 newtype Reader e a = Reader { runReader :: (e -> a) }
 #+end_src
@@ -2824,6 +2832,7 @@ runReader
 #+end_src
 
 Usage:
+
 #+begin_src haskell
 data Env = ...
 
