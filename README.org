@@ -3989,7 +3989,8 @@ a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend ri
   * "horizontally" ("Godement product"):
 
 \begin{tikzcd}
-a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, bend right] & \Downarrow{\alpha} & b \arrow[rr, "F_{2}" description, bend left] \arrow[rr, "G_{2}" description, bend right] & \Downarrow{\beta} & c
+a \arrow[rr, "F_{1}" description, bend left] \arrow[rr, "G_{1}" description, bend right] & \Downarrow{\alpha} & b \arrow[rr, "F_{2}" description, bend left] \arrow[rr, "G_{2}" description, bend right] & \Downarrow{\beta} & c \\
+;
 \end{tikzcd}
 
 \begin{tikzcd}
