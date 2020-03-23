@@ -2218,6 +2218,8 @@ C \arrow[rrrr, "T^{2}" description, bend left=49] \arrow[rrrr, "T" description, 
 
 \end{tikzcd}
 
+So, \( \mu * (\mu \circ I) = \mu * (I \circ \mu) \)
+
 ****** <<<Monad type class>>> :drill:
 :properties:
 :ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
