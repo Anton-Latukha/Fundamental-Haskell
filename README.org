@@ -2422,9 +2422,6 @@ main = recursePrintOneOf (quant) $ printOneOf
 =<<
 #+end_src
 
-
-
-
 ******* <<<Sequencing operator>>> =(>> ) \equiv ( *>)=: :drill:
 SCHT: <2020-06-09 Tue>
 :properties:
