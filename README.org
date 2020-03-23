@@ -2247,7 +2247,7 @@ C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend
                                                                                                                                             &  & {}                                         &  & {} \arrow[dd, "\mu" description, Rightarrow]                                       &  & {}                                           &  &   \\
                                                                                                                                             &  &                                            &  &                                                                                    &  &                                              &  &   \\
                                                                                                                                             &  &                                            &  & {}                                                                                 &  &                                              &  &  \\
-
+;
 \end{tikzcd}
 
 \( = \) to:
