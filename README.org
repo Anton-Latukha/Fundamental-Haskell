@@ -2150,8 +2150,18 @@ Explanation:
 >>= :: Monad f =>    f a  -> (a -> f b) -> f b
                   pure x >>=     f      == f x
 #+end_src
+
 Rule that >>= must get first argument structure internals and apply to the function that is the second argument.
 
+Diagram on category level:
+
+\begin{tikzcd}
+                                                                                                                                             &  & {} \arrow[dd, "\eta" description, Rightarrow] &  &                                                                                &  & {} \arrow[dd, "I" description, Rightarrow] &  &   \\
+C \arrow[rrrr, "Id" description, bend left=49] \arrow[rrrr, "T" description, bend right=49] \arrow[rrrrrrrr, "T" description, bend right=60] &  &                                               &  & C \arrow[rrrr, "T", bend left=49] \arrow[rrrr, "T" description, bend right=49] &  &                                            &  & C \\
+                                                                                                                                             &  & {}                                            &  & {} \arrow[dd, "\mu" description, Rightarrow]                                   &  & {}                                         &  &   \\
+                                                                                                                                             &  &                                               &  &                                                                                &  &                                            &  &   \\
+                                                                                                                                             &  &                                               &  & {}                                                                             &  &                                            &  &  
+\end{tikzcd}
 ******* <<<Monad right identity law>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
