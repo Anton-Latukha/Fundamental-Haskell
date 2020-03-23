@@ -2073,7 +2073,8 @@ Monad structure:
 \begin{tikzcd}
                                                                                                                               &  & {} \arrow[d, "\eta" description, Rightarrow] &  &   \\
 C \arrow[rrrr, "Id" description, bend left=49] \arrow[rrrr, "E" description] \arrow[rrrr, "E^{2}" description, bend right=49] &  & {}                                           &  & C \\
-                                                                                                                              &  & {} \arrow[u, "\mu" description, Rightarrow]  &  &  
+                                                                                                                              &  & {} \arrow[u, "\mu" description, Rightarrow]  &  &  \\
+
 \end{tikzcd}
 
 Mostly monads used for sequencing actions (computations) (that looks like imperative programming), with ability to dependend on previous chains. Note if monad is commutative - it does not order actions.
