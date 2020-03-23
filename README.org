@@ -2207,6 +2207,17 @@ C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend
                                                                                                                                             &  &                                            &  & {}                                                                                 &  &                                              &  &  
 \end{tikzcd}
 
+\( = \) to:
+
+\begin{tikzcd}
+                                                                                                                                                &  & {} \arrow[dd, "\mu" description, Rightarrow] &  &                                                                                &  & {} \arrow[dd, "I" description, Rightarrow] &  &   \\
+C \arrow[rrrr, "T^{2}" description, bend left=49] \arrow[rrrr, "T" description, bend right=49] \arrow[rrrrrrrr, "T" description, bend right=60] &  &                                              &  & C \arrow[rrrr, "T", bend left=49] \arrow[rrrr, "T" description, bend right=49] &  &                                            &  & C \\
+                                                                                                                                                &  & {}                                           &  & {} \arrow[dd, "\mu" description, Rightarrow]                                   &  & {}                                         &  &   \\
+                                                                                                                                                &  &                                              &  &                                                                                &  &                                            &  &   \\
+                                                                                                                                                &  &                                              &  & {}                                                                             &  &                                            &  &  
+
+\end{tikzcd}
+
 ****** <<<Monad type class>>> :drill:
 :properties:
 :ID:       3d4d8b32-1508-41b1-83a8-c0a910d8e1e8
