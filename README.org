@@ -2214,7 +2214,8 @@ Diagram on endomorphism level:
 \begin{tikzcd}
 T^{2} \arrow[dd, "\mu" description] &  & T \circ Id \arrow[ll, "I \circ \eta" description] \arrow[lldd, no head, Rightarrow] \\
                                     &  &                                                                                     \\
-T                                   &  &                                                                                    
+T                                   &  &                                                                                    \\
+
 \end{tikzcd}
 
 ******* <<<Monad associativity law>>> :drill:
