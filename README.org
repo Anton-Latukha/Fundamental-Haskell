@@ -11636,7 +11636,7 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 
 Can powerfully synergyze with ScopedTypeVariables.
 
-** <<<Good: Orphan instance>>> :drill:
+** <<<Good: Handling orphan instance>>> :drill:
 :properties:
 :ID:       8fb7360d-a105-4827-bba0-232e89c3558d
 :end:
