@@ -3979,8 +3979,7 @@ Can be composed
 
 \begin{tikzcd}
 a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend right] \arrow[rrrr, "H" description, bend right=60] &  & \Downarrow{\alpha} &  & b \\
-                                                                                                                                  &  & \Downarrow{\beta}  &  &  \\
-;
+                                                                                                                                  &  & \Downarrow{\beta}
 \end{tikzcd}
 
 \begin{tikzcd}
