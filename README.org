@@ -2255,7 +2255,7 @@ C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend
                                                                                                                                             &  &                                            &  & {}
 \end{tikzcd}
 
-\( = \) to:
+is \( = \) to:
 
 \begin{tikzcd}
                                                                                                                                                 &  & {} \arrow[dd, "\mu" description, Rightarrow] &  &                                                                                &  & {} \arrow[dd, "I" description, Rightarrow] &  &   \\
