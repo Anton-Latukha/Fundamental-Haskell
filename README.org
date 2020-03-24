@@ -6216,8 +6216,7 @@ SCHT: <2020-04-03 Fri>
 \begin{tikzcd}
 {Polymorphic \ types} \\
 & {Type \ opertations} \\
-0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types} \\
-;
+0 \arrow[uu] \arrow[ur] \arrow[rr] & & {Dependent \ types}
 \end{tikzcd}
 
 #+caption: The \lambda-cube. The generalization of type systems: from \lambda-Calculus to Calculus of Constructions
