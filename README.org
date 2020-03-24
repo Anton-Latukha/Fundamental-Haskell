@@ -55,7 +55,6 @@
 # #+latex_header: \renewcommand{\subsubparagraph}{\Alph{subsubparagraph}}
 
 # LaTeX to PDF Conversion setup
-#+latex_header: \usepackage[a-1b]{pdfx}   % Produce the PDF to according ISO standard. Can has issues with LuaTeX: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/pdfx/pdfx.pdf note 2 Dev recommends to use it right after documentclass, but since it uses iflatex, I think this is a good idea to keep it here.
 #+latex_header: \tolerance=1000
 
 # Graphics setup
@@ -116,8 +115,6 @@
 #+latex_header: \newcommand{\remember}{\symbolfont{{{\Large ♾}}}}    % Remember this infinitely.
 #+latex_header: \newcommand{\caution}{\symbolfont{{{⚠}}}}    % Be aware.
 #+latex_header: \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}    % Details that can be hard to follow.
-#+latex_header: \usepackage{unicode-math}    % Typesetting engine for math fonts. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/unicode-math/unicode-math.pdf
-#+latex_header: \unimathsetup{math-style=ISO}    % Configures the unicode-math. ISO italizes all letters, bold also
 # #+latex_header: \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
 
 # LuaTeX SVG setup
