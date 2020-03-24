@@ -4319,8 +4319,9 @@ Denotation:
 Universal construction:
 
 \begin{tikzcd}
-c \arrow[d, "u" description, dotted] & c \times a \arrow[d, "u \times 1^{a}" description, dotted] \arrow[rd] &   \\
-b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted]                  & b
+c \arrow[dd, "u", dotted] &  & c \times a \arrow[dd, "u \times 1^{a}", dotted] \arrow[rrdd, "g"] \arrow[ll] &  &   \\
+                          &  &                                                                              &  &   \\
+b^{a}                     &  & b^{a} \times a \arrow[rr, "eval", dotted] \arrow[ll]                         &  & b
 \end{tikzcd}
 
 , where in Category: \( b^{a} \) - exponential object, \times - product bifunctor, \( a \) - argument of /*/, \( b \) - result, \( c \) - candidate, \( b^{a} \equiv ( a \Rightarrow b ) \) - /*/.
