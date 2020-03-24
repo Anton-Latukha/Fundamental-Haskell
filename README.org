@@ -11142,6 +11142,17 @@ Generalises to corecursion.
 
 ** <<<Initial algebra of an endofunctor>>>
 ** <<<Terminal coalgebra for an endofunctor>>>
+** Continuation
+:PROPERTIES:
+:ID:       50ec8b91-640d-4fe3-8e68-00d5a4bd6d3d
+:END:
+
+*** Continuation passing style
+
+**** /*/
+
+CPS
+
 * Citations
 
 "One of the finer points of the Haskell community has been
