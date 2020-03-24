@@ -2214,8 +2214,7 @@ Diagram on category level:
 C \arrow[rrrr, "T" description, bend left=49] \arrow[rrrr, "T" description, bend right=49] \arrow[rrrrrrrr, "T" description, bend right=60] &  &                                            &  & C \arrow[rrrr, "Id", bend left=49] \arrow[rrrr, "T" description, bend right=49] &  &                                               &  & C \\
                                                                                                                                             &  & {}                                         &  & {} \arrow[dd, "\mu" description, Rightarrow]                                    &  & {}                                            &  &   \\
                                                                                                                                             &  &                                            &  &                                                                                 &  &                                               &  &   \\
-                                                                                                                                            &  &                                            &  & {}                                                                              &  &                                               &  &  \\
-;
+                                                                                                                                            &  &                                            &  & {}
 \end{tikzcd}
 
 Diagram on endomorphism level:
