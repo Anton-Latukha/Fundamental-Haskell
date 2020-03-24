@@ -3983,8 +3983,7 @@ a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "G" description, bend ri
 \end{tikzcd}
 
 \begin{tikzcd}
-a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b \\
-;
+a \arrow[rrrr, "F" description, bend left] \arrow[rrrr, "H" description, bend right=49] &  & \Downarrow{\beta\circ\alpha} &  & b
 \end{tikzcd}
 
 
