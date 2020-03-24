@@ -2179,8 +2179,7 @@ Diagram on endomorphism level:
 \begin{tikzcd}
 Id \circ T \arrow[rr, "\eta \circ I" description] \arrow[rrdd, no head, Rightarrow] &  & T^{2} \arrow[dd, "\mu" description] \\
                                                                                     &  &                                     \\
-                                                                                    &  & T                                  \\
-;
+                                                                                    &  & T
 \end{tikzcd}
 
 ******* <<<Monad right identity law>>> :drill:
