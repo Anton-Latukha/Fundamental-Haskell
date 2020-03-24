@@ -9691,6 +9691,8 @@ Hanging instance from inconsistent code base.
 2) Several implementations of instance present.
 Situation when module provides type class but does not provide instance for some publically used type.
 
+That allows/pushes to implement own version of instance. If upstream would add instance - now upstream instance and own instance exist. Locally that would create instance clash. Remotely, through modules usage - that should create inconsistancy problems in computations, since instances most probably not bisimilar.
+
 
 *** <<<undefined>>> :drill:
 SCHT: <2020-08-04 Tue>
