@@ -4320,8 +4320,7 @@ Universal construction:
 
 \begin{tikzcd}
 c \arrow[d, "u" description, dotted] & c \times a \arrow[d, "u \times 1^{a}" description, dotted] \arrow[rd] &   \\
-b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted]                  & b \\
-;
+b^{a}                                & b^{a} \times a \arrow[r, "eval" description, dotted]                  & b
 \end{tikzcd}
 
 , where in Category: \( b^{a} \) - exponential object, \times - product bifunctor, \( a \) - argument of /*/, \( b \) - result, \( c \) - candidate, \( b^{a} \equiv ( a \Rightarrow b ) \) - /*/.
