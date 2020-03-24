@@ -2274,8 +2274,7 @@ Endomorphism level:
                           &  &                                                                           &  &                           \\
 T^{2} \arrow[rrdd, "\mu"] &  &                                                                           &  & T^{2} \arrow[lldd, "\mu"] \\
                           &  &                                                                           &  &                           \\
-                          &  & T                                                                         &  &                          \\
-;
+                          &  & T
 \end{tikzcd}
 
 ****** <<<Monad type class>>> :drill:
