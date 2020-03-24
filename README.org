@@ -9689,6 +9689,8 @@ SCHT: <2020-03-26 Thu>
 Hanging instance from inconsistent code base.
 1) Supporting structure not fully present.
 2) Several implementations of instance present.
+Situation when module provides type class but does not provide instance for some publically used type.
+
 
 *** <<<undefined>>> :drill:
 SCHT: <2020-08-04 Tue>
