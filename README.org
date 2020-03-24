@@ -12670,8 +12670,7 @@ fmap :: (a -> b) -> Op c a -> Op c b
 
 \begin{tikzcd}
 a \arrow[r] \arrow[rd] & b \arrow[d, dashed] \\
-                       & c                  \\
-;
+                       & c
 \end{tikzcd}
 
 \( (a \to b)^{C} = (a \leftarrow b)^{C^{op}} \)
