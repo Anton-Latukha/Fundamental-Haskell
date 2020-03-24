@@ -12683,8 +12683,7 @@ class Contravariant f
 
 \begin{tikzcd}
 a \arrow[r] \arrow[rd] & b \arrow[d, "contravariant", dashed] \\
-                       & c                                   \\
-;
+                       & c
 \end{tikzcd}
 
 If arrows does not commute Contravatiant funtor anyway allows to construct transformation between these such arrows to other arrow.
