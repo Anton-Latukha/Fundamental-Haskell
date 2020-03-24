@@ -2270,9 +2270,9 @@ So, \( \mu \circ (\mu \circ I) = \mu \circ (I \circ \mu) \)
 Endomorphism level:
 
 \begin{tikzcd}
-                          &  & T^{3} \arrow[lldd, "\mu \circ I" description, bend right=49] \arrow[rrdd, "I \circ \mu" description, bend left=49] &  &                           \\
+                          &  & T^{3} \arrow[dd, "\mu \circ I" description, bend right=49] \arrow[dd, "I \circ \mu" description, bend left=49] &  &                           \\
                           &  &                                                                           &  &                           \\
-T^{2} \arrow[rrdd, "\mu" description] &  &                                                                           &  & T^{2} \arrow[lldd, "\mu" description] \\
+&  &  T^{2} \arrow[dd, "\mu" description]                                                                         &  &  \\
                           &  &                                                                           &  &                           \\
                           &  & T
 \end{tikzcd}
