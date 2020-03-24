@@ -117,6 +117,17 @@
 #+latex_header: \newcommand{\tricky}{\symbolfont{{{\Large ☡}}}}    % Details that can be hard to follow.
 # #+latex_header: \setmathfont{LatinModernMath-Regular}    % Latin Modern Math loaded by default, but let's show its load explicitly
 
+# Natural transformation arrow
+#+latex_header: \newcommand{\naturalto}{%
+#+latex_header:   \mathrel{\vbox{\offinterlineskip
+#+latex_header:     \mathsurround=0pt
+#+latex_header:     \ialign{\hfil##\hfil\cr
+#+latex_header:       \normalfont\scalebox{1.2}{.}\cr
+#+latex_header: %      \noalign{\kern-.05ex}
+#+latex_header:       $\longrightarrow$\cr}
+#+latex_header:   }}%
+#+latex_header: }
+
 # LuaTeX SVG setup
 #+latex_header: \usepackage{iftex}    % For detection of engines. LuaTeX SVG pkg requires it. Docs: http://mirrors.ctan.org/macros/latex/contrib/iftex/iftex.pdf
 #+latex_header: \usepackage{scrbase}    % For the definition and handling of options in key-value-syntax. LuaTeX SVG pkg requires it.
