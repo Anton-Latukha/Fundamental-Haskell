@@ -2272,7 +2272,7 @@ Endomorphism level:
 \begin{tikzcd}
                           &  & T^{3} \arrow[lldd, "I \circ \mu" description] \arrow[rrdd, "\mu \circ I"] &  &                           \\
                           &  &                                                                           &  &                           \\
-T^{2} \arrow[rrdd, "\mu"] &  &                                                                           &  & T^{2} \arrow[lldd, "\mu"] \\
+T^{2} \arrow[rrdd, "\mu" description] &  &                                                                           &  & T^{2} \arrow[lldd, "\mu" description] \\
                           &  &                                                                           &  &                           \\
                           &  & T
 \end{tikzcd}
