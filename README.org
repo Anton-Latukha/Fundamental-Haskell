@@ -803,74 +803,106 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#shrinking][<<<Shrinking>>>]]
   - [[#logic][Logic]]
     - [[#proposition][<<<Proposition>>>]]
-      - [[#-159][/*/]]
+      - [[#-157][/*/]]
       - [[#atomic-proposition][<<<Atomic proposition>>>]]
-        - [[#-160][/*/]]
+        - [[#-158][/*/]]
       - [[#compound-proposition][<<<Compound proposition>>>]]
-        - [[#-161][/*/]]
+        - [[#-159][/*/]]
       - [[#propositional-logic][<<<Propositional logic>>>]]
-        - [[#-162][/*/]]
+        - [[#-160][/*/]]
         - [[#first-order-logic][<<<First-order logic>>>]]
-          - [[#-163][/*/]]
+          - [[#-161][/*/]]
           - [[#second-order-logic][<<<Second-order logic>>>]]
             - [[#higher-order-logic][<<<Higher-order logic>>>]]
     - [[#logical-connective][<<<Logical connective>>>]]
-      - [[#-164][/*/]]
+      - [[#-162][/*/]]
       - [[#conjunction][<<<Conjunction>>>]]
       - [[#disjunction][<<<Disjunction>>>]]
     - [[#predicate][<<<Predicate>>>]]
     - [[#statement][<<<Statement>>>]]
-      - [[#-165][/*/]]
+      - [[#-163][/*/]]
     - [[#iff][<<<Iff>>>]]
   - [[#haskell-structure][Haskell structure]]
-    - [[#-166][/*/]]
+    - [[#-164][/*/]]
     - [[#pattern-match][<<<Pattern match>>>]]
       - [[#as-pattern][<<<As-pattern>>>]]
-        - [[#-167][/*/]]
+        - [[#-165][/*/]]
       - [[#wild-card][<<<Wild-card>>>]]
-        - [[#-168][/*/]]
+        - [[#-166][/*/]]
       - [[#case][<<<Case>>>]]
       - [[#guard][<<<Guard>>>]]
-        - [[#-169][/*/]]
+        - [[#-167][/*/]]
       - [[#pattern-guard][<<<Pattern guard>>>]]
-        - [[#-170][/*/]]
+        - [[#-168][/*/]]
       - [[#lazy-pattern][<<<Lazy pattern>>>]]
-        - [[#-171][/*/]]
+        - [[#-169][/*/]]
       - [[#pattern-binding][<<<Pattern binding>>>]]
-        - [[#-172][/*/]]
+        - [[#-170][/*/]]
     - [[#smart-constructor][<<<Smart constructor>>>]]
     - [[#level-of-code][<<<Level of code>>>]]
-      - [[#-173][/*/]]
+      - [[#-171][/*/]]
       - [[#type-level][<<<Type level>>>]]
         - [[#type-level-declaration][<<<Type level declaration>>>]]
-          - [[#-174][/*/]]
+          - [[#-172][/*/]]
         - [[#type-check][<<<Type check>>>]]
-          - [[#-175][/*/]]
+          - [[#-173][/*/]]
           - [[#complete-user-specific-kind-signature][<<<Complete user-specific kind signature>>>]]
-            - [[#-176][/*/]]
+            - [[#-174][/*/]]
       - [[#term-level][<<<Term level>>>]]
       - [[#compile-level][<<<Compile level>>>]]
-        - [[#-177][/*/]]
+        - [[#-175][/*/]]
       - [[#runtime-level][<<<Runtime level>>>]]
       - [[#kind-level][<<<Kind level>>>]]
         - [[#kind-check][<<<Kind check>>>]]
-          - [[#-178][/*/]]
+          - [[#-176][/*/]]
     - [[#orphan-instance][<<<Orphan instance>>>]]
     - [[#undefined][<<<undefined>>>]]
     - [[#hierarchical-module-name][<<<Hierarchical module name>>>]]
-      - [[#-179][/*/]]
+      - [[#-177][/*/]]
     - [[#reserved-word][<<<Reserved word>>>]]
-      - [[#-180][/*/]]
+      - [[#-178][/*/]]
       - [[#import][<<<import>>>]]
       - [[#let][<<<let>>>]]
-        - [[#-181][/*/]]
+        - [[#-179][/*/]]
       - [[#where][<<<where>>>]]
-        - [[#-182][/*/]]
+        - [[#-180][/*/]]
     - [[#haskell-language-report][<<<Haskell Language Report>>>]]
-      - [[#-183][/*/]]
+      - [[#-181][/*/]]
     - [[#haskell][<<<Haskell'>>>]]
-      - [[#-184][/*/]]
+      - [[#-182][/*/]]
     - [[#lense][<<<Lense>>>]]
+    - [[#pragma][<<<Pragma>>>]]
+      - [[#language-pragma][<<<LANGUAGE pragma>>>]]
+        - [[#language-option][<<<LANGUAGE option>>>]]
+          - [[#-183][/*/]]
+          - [[#useful-by-default][Useful by default]]
+          - [[#allowambiguoustypes][<<<AllowAmbiguousTypes>>>]]
+          - [[#applicativedo][<<<ApplicativeDo>>>]]
+          - [[#constrainedclassmethods][<<<ConstrainedClassMethods>>>]]
+          - [[#cpp][<<<CPP>>>]]
+          - [[#derivefunctor][<<<DeriveFunctor>>>]]
+          - [[#explicitforall][<<<ExplicitForAll>>>]]
+          - [[#flexiblecontexts][<<<FlexibleContexts>>>]]
+          - [[#flexibleinstances][<<<FlexibleInstances>>>]]
+          - [[#generalizednewtypederiving][<<<GeneralizedNewtypeDeriving>>>]]
+          - [[#implicitparams][<<<ImplicitParams>>>]]
+          - [[#lambdacase][<<<LambdaCase>>>]]
+          - [[#multiparamtypeclasses][<<<MultiParamTypeClasses>>>]]
+          - [[#multiwayif][<<<MultiWayIf>>>]]
+          - [[#overloadedstrings][<<<OverloadedStrings>>>]]
+          - [[#partialtypesignatures][<<<PartialTypeSignatures>>>]]
+          - [[#rankntypes][<<<RankNTypes>>>]]
+          - [[#scopedtypevariables][<<<ScopedTypeVariables>>>]]
+          - [[#tuplesections][<<<TupleSections>>>]]
+          - [[#typeapplications][<<<TypeApplications>>>]]
+          - [[#typesynonyminstances][<<<TypeSynonymInstances>>>]]
+          - [[#undecidableinstances][<<<UndecidableInstances>>>]]
+          - [[#viewpatterns][<<<ViewPatterns>>>]]
+          - [[#datatypecontexts][<<<DatatypeContexts>>>]]
+          - [[#standalonekindsignatures][<<<StandaloneKindSignatures>>>]]
+            - [[#-184][/*/]]
+          - [[#partialtypesignatures-1][<<<PartialTypeSignatures>>>]]
+        - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
   - [[#computer-science][Computer science]]
     - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
       - [[#monkey-patch][<<<Monkey patch>>>]]
@@ -7147,590 +7179,6 @@ For exampe - if fold over a dynamic array:
 
 So, if we use a function (* -o * -o -o *) in foldr - the fold will use the initial value only once.
 
-** <<<Pragma>>> :drill:
-SCHT: <2020-09-20 Sun>
-:properties:
-:ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:56]
-:end:
-
-Pragma - instruction to the compiler that specifies how a compiler should process the code.
-Pragma in Haskell have form:
-#+begin_src haskell
-{-# PRAGMA options #-}
-#+end_src
-
-*** <<<LANGUAGE pragma>>> :drill:
-SCHT: <2020-09-20 Sun>
-:properties:
-:ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
-:DRILL_LAST_INTERVAL: 269.6572
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
-:end:
-
-Controls what variations of the language are permitted.
-It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
-
-**** <<<LANGUAGE option>>>
-
-***** /*/
-
-<<<Language options>>>
-
-***** Useful by default :drill:
-:properties:
-:ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
-:end:
-
-#+begin_src haskell
-import EmptyCase
-import FlexibleContexts
-import FlexibleInstances
-import InstanceSigs
-import MultiParamTypeClasses
-#+end_src
-
-***** <<<AllowAmbiguousTypes>>> :drill:
-SCHT: <2020-09-16 Wed>
-:properties:
-:ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
-:DRILL_LAST_INTERVAL: 191.5213
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:52]
-:end:
-
-Allow type signatures which appear that they would result in an unusable binding.
-However GHC will still check and complain about a functions that can never be called.
-
-***** <<<ApplicativeDo>>> :drill:
-:properties:
-:ID:       cb3b5b66-06a8-4187-9606-631faefa7814
-:end:
-
-Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
-
-For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
-
-#+begin_src haskell
-  pure E
-  pure $ E
-  return E
-  return $ E
-#+end_src
-
-When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic \( O(n^2) \) algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo \( O(n^3) \) algorithm that finds the optimal solution: =-foptimal-applicative-do=.
-
-Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
-  * Allows use of do-notation with types that are an instance of Applicative and Functor
-  * In some monads, using the applicative operators is more efficient than monadic bind. For example, it may enable more parallelism.
-
-The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
-
-It is possible to see the actual translation by using =-ddump-ds=.
-
-***** <<<ConstrainedClassMethods>>> :drill:
-:properties:
-:ID:       301a3741-f96c-45a7-bb14-7e342167b62d
-:end:
-
-Enable the definition of further constraints on individual class methods.
-
-***** <<<CPP>>> :drill:
-:properties:
-:ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
-:end:
-
-Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
-
-***** <<<DeriveFunctor>>> :drill:
-SCHT: <2020-10-20 Tue>
-:properties:
-:ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
-:DRILL_LAST_INTERVAL: 270.5287
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-23 Thu 22:57]
-:end:
-
-Automatic deriving of instances for the Functor type class.
-For type power set functor is unique, its derivation inplementation can be autochecked.
-
-***** <<<ExplicitForAll>>> :drill:
-SCHT: <2020-09-18 Fri>
-:properties:
-:ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
-:end:
-
-Allow explicit forall quantificator in places where it is implicit by Haskell.
-
-***** <<<FlexibleContexts>>> :drill:
-:properties:
-:ID:       ab8dc15c-452a-4dd7-94fe-1e1c38fd0c1e
-:end:
-
-Ability to use complex constraints in class declaration contexts.
-The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
-#+begin_src haskell
-class C a where
-  op :: D b => a -> b -> b
-
-class C a => D a where ...
-#+end_src
-\( C :> D \), so in C we can talk about D.
-
-Synergizes with ConstraintKinds.
-
-***** <<<FlexibleInstances>>> :drill:
-SCHT: <2020-07-16 Thu>
-:properties:
-:ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
-:DRILL_LAST_INTERVAL: 146.9918
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 12
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.418
-:DRILL_EASE: 2.48
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
-:end:
-
-Allow type class instances types contain nested types.
-#+begin_src haskell
-instance C (Maybe Int) where ...
-#+end_src
-Implies TypeSynonymInstances.
-
-***** <<<GeneralizedNewtypeDeriving>>> :drill:
-SCHT: <2020-08-07 Fri>
-:properties:
-:ID:       96a23172-9aa7-4290-adfe-a18169dd4362
-:DRILL_LAST_INTERVAL: 225.56
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
-:end:
-
-Enable GHC’s =newtype= cunning generalised deriving mechanism.
-#+begin_src haskell
-newtype Dollars = Dollars Int
-  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
-#+end_src
-(In old Haskell-98 only Eq, Ord, Enum could been inherited.)
-
-***** <<<ImplicitParams>>> :drill:
-SCHT: <2020-07-04 Sat>
-:properties:
-:ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
-:DRILL_LAST_INTERVAL: 192.3251
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.625
-:DRILL_EASE: 2.62
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:30]
-:end:
-
-Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
-Sure thing this one can be puzzling as hell inside Haskell.
-
-***** <<<LambdaCase>>> :drill:
-SCHT: <2020-03-19 Thu>
-:properties:
-:ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
-:DRILL_LAST_INTERVAL: 126.7288
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
-:end:
-
-Enables expressions of the form:
-#+begin_src haskell
-\case { p1 -> e1; ...; pN -> eN }
-
--- OR
-
-\case
-  p1 -> e1
-  ...
-  pN -> eN
-#+end_src
-
-***** <<<MultiParamTypeClasses>>> :drill:
-:properties:
-:ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
-:end:
-
-Implies: ConstrainedClassMethods
-Enable the definitions of typeclasses with more than one parameter.
-#+begin_src haskell
-class Collection c a where
-#+end_src
-
-***** <<<MultiWayIf>>> :drill:
-SCHT: <2020-03-14 Sat>
-:properties:
-:ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
-:DRILL_LAST_INTERVAL: 35.4527
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 8
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.375
-:DRILL_EASE: 2.96
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:02]
-:end:
-
-Enable multi-way-if syntax.
-#+begin_src haskell
-if | guard1 -> code1
-   | ...
-   | guardN -> codeN
-#+end_src
-
-***** <<<OverloadedStrings>>> :drill:
-SCHT: <2020-07-26 Sun>
-:properties:
-:ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
-:DRILL_LAST_INTERVAL: 213.8621
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
-:end:
-
-Enable overloaded string literals (string literals become desugared via the =IsString= class).
-
-With overload, string literals has type:
-#+begin_src haskell
-(IsString a) => a
-#+end_src
-
-The usual string syntax can be used, e.g. =ByteString=, =Text=, and other variations of string-like types.
-Now they can be used in pattern matches as =char->integer= translations. To pattern match =Eq= must be derived.
-
-To use class =IsString= - import it from =GHC.Ext=.
-
-***** <<<PartialTypeSignatures>>> :drill:
-:properties:
-:ID:       4ac887da-6e23-4028-9924-3496787aa8d0
-:end:
-
-Partial type signature containins wildcards, placeholders (=_=, =_name=).
-Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
-
-As untuped expression, partly typed can not polymorphicly recurse.
-
--Wno-partial-type-signatures supresses infer warnings.
-
-***** <<<RankNTypes>>> :drill:
-SCHT: <2020-05-31 Sun>
-:properties:
-:ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
-:DRILL_LAST_INTERVAL: 157.7214
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 11:57]
-:end:
-
-Enable types of arbitrary rank.
-See Type rank.
-
-Implies ExplicitForAll.
-
-Allows =forall= quantifier:
-  * Left side of \to
-  * Right side of \to
-  * as argument of a constructor
-  * as type of a field
-  * as type of an implicit parameter
-  * used in pattern type signature of lexically scoped type variables
-
-***** <<<ScopedTypeVariables>>> :drill:
-:properties:
-:ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
-:end:
-
-By default type variables do not have a scope except inside type signatures where they are used.
-
-When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
-
-/*/ option provides the lexical scope inside the code block for type variables that have forall quantifier. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
-
-For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
-
-Implies ExplicitForAll.
-
-***** <<<TupleSections>>> :drill:
-SCHT: <2020-09-18 Fri>
-:properties:
-:ID:       30ae7849-e739-4718-b031-5566e8f82a67
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.5
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:54]
-:end:
-
-Allow tuple section syntax:
-#+begin_src haskell
-(, True)
-(, "I", , , "Love", , 1337)
-#+end_src
-
-***** <<<TypeApplications>>> :drill:
-SCHT: <2020-04-03 Fri>
-:properties:
-:ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
-:DRILL_LAST_INTERVAL: 25.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
-:end:
-
-Allow type application syntax:
-#+begin_src haskell
-read @Int 5
-
-:type pure @[]
-pure @[] :: a -> [a]
-
-:type (<*>) @[]
-(<*>) @[] :: [a -> b] -> [a] -> [b]
-
---
-
-instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
-
-λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
-#+end_src
-
-***** <<<TypeSynonymInstances>>> :drill:
-SCHT: <2020-06-20 Sat>
-:properties:
-:ID:       3989b294-f011-48c0-9998-be10bd75c541
-:DRILL_LAST_INTERVAL: 178.2614
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:35]
-:end:
-
-Now type synonim can have it's own type class instances.
-
-***** <<<UndecidableInstances>>> :drill:
-:properties:
-:ID:       71ac682f-292d-401a-bd61-0c28a707a950
-:end:
-
-Permit instances which may lead to type-checker non-termination.
-
-GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
-
-***** <<<ViewPatterns>>> :drill:
-SCHT: <2020-03-28 Sat>
-:properties:
-:ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 18.7966
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
-:DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.072
-:DRILL_EASE: 1.44
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
-:end:
-
-#+begin_src haskell
-foo (f1 -> Pattern1) = c1
-foo (fn -> Pattern2 a b) = g1 a b
-#+end_src
-(/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
-
-Semantics:
-  * /expression/ & /pattern/ share the scope, so also variables.
-  * if (=(/expression/ :: t1 -> t2) && (/pattern/ :: t2)=)
-      then
-        (ViewPattern =(/expression/ -> /pattern/)= =:: t1=) (return what originally was recieved into pattern match)
-      else
-        skip
-
-/*/ are like pattern guards that can be nested inside of other patterns.
-/*/ are a convenient way to pattern-match algebraic data type.
-
-Additional possible usage:
-#+begin_src haskell
-foo a (f2 a -> Pattern3 b c) = g2 b c  -- only for function definitions
-foo ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data constructors and tuples
-#+end_src
-
-***** <<<DatatypeContexts>>> :drill:
-SCHT: <2020-03-26 Thu>
-:properties:
-:ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
-:DRILL_LAST_INTERVAL: 113.3327
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.556
-:DRILL_EASE: 2.48
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:25]
-:end:
-
-Allow contexts in data types.
-#+begin_src haskell
-data Eq a => Set a = NilSet | ConsSet a (Set a)
-
--- NilSet :: Set a
--- ConsSet :: Eq a => a -> Set a -> Set a
-#+end_src
-Considered misfeature. Deprecated. Going to be removed.
-
-***** <<<StandaloneKindSignatures>>> :drill:
-:properties:
-:ID:       e3ecf941-d6be-4b47-abdd-b08675bf367a
-:end:
-
-Type signatures for type-level declarations.
-
-#+begin_src haskell
-type <name_1> , ... , <name_n> :: <kind>
-#+end_src
-
-#+begin_src haskell
-type MonoTagged :: Type -> Type -> Type
-data MonoTagged t x = MonoTagged x
-
-type Id :: forall k. k -> k
-type family Id x where
-  Id x = x
-
-type C :: (k -> Type) -> k -> Constraint
-class C a b where
-  f :: a b
-
-type TypeRep :: forall k. k -> Type
-data TypeRep a where
-  TyInt   :: TypeRep Int
-  TyMaybe :: TypeRep Maybe
-  TyApp   :: TypeRep a -> TypeRep b -> TypeRep (a b)
-#+end_src
-
-< GHC 8.10.1 - type signatures were only for term level declarations.
-
-Extension makes signatures feature more uniformal.
-
-Allows to set the order of quantification, order of variables in a kind. For example when using TypeApplications.
-
-Allows to set full kind of derivable class, solving situations with GADT return kind.
-
-****** /*/
-
-<<<SAKS>>>
-<<<Standalone kind signatures>>>
-
-***** <<<PartialTypeSignatures>>> :drill:
-:PROPERTIES:
-:ID:       2e2f62a0-a6ac-4046-969c-bcb6e4ff4810
-:END:
-
-Very healpful. Helps to solve type level, helps to establish type signatures and constraints.
-Allow to provide =_= in the type signatures to automatically infere-in the type information there.
-
-Wild cards:
-  * Type
-  #+begin_src haskell
-f :: _ -> _ -> a
-  #+end_src
-
-  * Constraint
-  #+begin_src haskell
-f :: _ => a -> b -> c
-  #+end_src
-
-  * Named
-  #+begin_src haskell
-f :: _x -> _x -> a
-  #+end_src
-allows to identify the same wildcard.
-
-**** How to make a GHC LANGUAGE extension
-
-In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
-#+begin_src haskell
-data Extension
-  = Cpp
-  | OverlappingInstances
-  ...
-  | Foo
-#+end_src
-
-=/main/DynFlags.hs= extend =xFlagsDeps=:
-#+begin_src haskell
-xFlagsDeps = [
-  flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
-  ...
-  flagSpec "Foo"                 LangExt.Foo
-]
-#+end_src
-It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
-
 ** <<<Compositionality>>> :drill:
 SCHT: <2020-06-21 Sun>
 :properties:
@@ -10126,6 +9574,590 @@ SCHT: <2020-10-24 Sat>
 :end:
 
 Library of combinators to provide Haskell (functional language without mutation) with the emulation of =get=-ters and =set=-ters of imperative language.
+
+*** <<<Pragma>>> :drill:
+SCHT: <2020-09-20 Sun>
+:properties:
+:ID:       92784b03-a83b-4599-9cd0-f2210dd5e177
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-27 Fri 12:56]
+:end:
+
+Pragma - instruction to the compiler that specifies how a compiler should process the code.
+Pragma in Haskell have form:
+#+begin_src haskell
+{-# PRAGMA options #-}
+#+end_src
+
+**** <<<LANGUAGE pragma>>> :drill:
+SCHT: <2020-09-20 Sun>
+:properties:
+:ID:       6f16cf30-77b4-4e31-af0a-11dd24ae48bf
+:DRILL_LAST_INTERVAL: 269.6572
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
+:end:
+
+Controls what variations of the language are permitted.
+It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html, which can be supplied.
+
+***** <<<LANGUAGE option>>>
+
+****** /*/
+
+<<<Language options>>>
+
+****** Useful by default :drill:
+:properties:
+:ID:       29c25dae-3a88-4fe1-acf3-4ebe568da284
+:end:
+
+#+begin_src haskell
+import EmptyCase
+import FlexibleContexts
+import FlexibleInstances
+import InstanceSigs
+import MultiParamTypeClasses
+#+end_src
+
+****** <<<AllowAmbiguousTypes>>> :drill:
+SCHT: <2020-09-16 Wed>
+:properties:
+:ID:       e5aaa672-dec3-4621-8429-9b5cdcaac069
+:DRILL_LAST_INTERVAL: 191.5213
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:52]
+:end:
+
+Allow type signatures which appear that they would result in an unusable binding.
+However GHC will still check and complain about a functions that can never be called.
+
+****** <<<ApplicativeDo>>> :drill:
+:properties:
+:ID:       cb3b5b66-06a8-4187-9606-631faefa7814
+:end:
+
+Enables an alternative in-depth reduction that translates the do-notation to the operators =<$>=, =<*>=, =join= as far as possible.
+
+For GHC to pickup the patterns, the final statement must match one of these patterns exactly:
+
+#+begin_src haskell
+  pure E
+  pure $ E
+  return E
+  return $ E
+#+end_src
+
+When the statements of do expression have dependencies between them, and ApplicativeDo cannot infer an Applicative type - GHC uses a heuristic \( O(n^2) \) algorithm to try to use <*> as much as possible. This algorithm usually finds the best solution, but in rare complex cases it might miss an opportunity. There is aslo \( O(n^3) \) algorithm that finds the optimal solution: =-foptimal-applicative-do=.
+
+Requires =ap = <*>=, =return = pure=, which is true for the most monadic types.
+  * Allows use of do-notation with types that are an instance of Applicative and Functor
+  * In some monads, using the applicative operators is more efficient than monadic bind. For example, it may enable more parallelism.
+
+The only way it shows up at the source level is that you can have a =do= expression with only Applicative or Functor constaint.
+
+It is possible to see the actual translation by using =-ddump-ds=.
+
+****** <<<ConstrainedClassMethods>>> :drill:
+:properties:
+:ID:       301a3741-f96c-45a7-bb14-7e342167b62d
+:end:
+
+Enable the definition of further constraints on individual class methods.
+
+****** <<<CPP>>> :drill:
+:properties:
+:ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
+:end:
+
+Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
+
+****** <<<DeriveFunctor>>> :drill:
+SCHT: <2020-10-20 Tue>
+:properties:
+:ID:       34a6dad7-515c-4b3c-afeb-da268b77c4e0
+:DRILL_LAST_INTERVAL: 270.5287
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-23 Thu 22:57]
+:end:
+
+Automatic deriving of instances for the Functor type class.
+For type power set functor is unique, its derivation inplementation can be autochecked.
+
+****** <<<ExplicitForAll>>> :drill:
+SCHT: <2020-09-18 Fri>
+:properties:
+:ID:       cde4229a-165c-4dfa-a3b5-22375f7924a6
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:51]
+:end:
+
+Allow explicit forall quantificator in places where it is implicit by Haskell.
+
+****** <<<FlexibleContexts>>> :drill:
+:properties:
+:ID:       ab8dc15c-452a-4dd7-94fe-1e1c38fd0c1e
+:end:
+
+Ability to use complex constraints in class declaration contexts.
+The only restriction on the context in a class declaration is that the class hierarchy must be acyclic.
+#+begin_src haskell
+class C a where
+  op :: D b => a -> b -> b
+
+class C a => D a where ...
+#+end_src
+\( C :> D \), so in C we can talk about D.
+
+Synergizes with ConstraintKinds.
+
+****** <<<FlexibleInstances>>> :drill:
+SCHT: <2020-07-16 Thu>
+:properties:
+:ID:       c59f794d-5687-4b96-9fd0-7df4b650ed2a
+:DRILL_LAST_INTERVAL: 146.9918
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.418
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:33]
+:end:
+
+Allow type class instances types contain nested types.
+#+begin_src haskell
+instance C (Maybe Int) where ...
+#+end_src
+Implies TypeSynonymInstances.
+
+****** <<<GeneralizedNewtypeDeriving>>> :drill:
+SCHT: <2020-08-07 Fri>
+:properties:
+:ID:       96a23172-9aa7-4290-adfe-a18169dd4362
+:DRILL_LAST_INTERVAL: 225.56
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
+:end:
+
+Enable GHC’s =newtype= cunning generalised deriving mechanism.
+#+begin_src haskell
+newtype Dollars = Dollars Int
+  deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
+#+end_src
+(In old Haskell-98 only Eq, Ord, Enum could been inherited.)
+
+****** <<<ImplicitParams>>> :drill:
+SCHT: <2020-07-04 Sat>
+:properties:
+:ID:       3ca7e2f5-0e70-474f-bb31-08186739efb1
+:DRILL_LAST_INTERVAL: 192.3251
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.625
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:30]
+:end:
+
+Allow definition of functions expecting implicit parameters. In the Haskell that has static scoping of variables allows the dynamic scoping, such as in classic Lisp or ELisp.
+Sure thing this one can be puzzling as hell inside Haskell.
+
+****** <<<LambdaCase>>> :drill:
+SCHT: <2020-03-19 Thu>
+:properties:
+:ID:       938047ce-f015-45e9-b5f8-b8e39fb456a7
+:DRILL_LAST_INTERVAL: 126.7288
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.2
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-11-13 Wed 20:50]
+:end:
+
+Enables expressions of the form:
+#+begin_src haskell
+\case { p1 -> e1; ...; pN -> eN }
+
+-- OR
+
+\case
+  p1 -> e1
+  ...
+  pN -> eN
+#+end_src
+
+****** <<<MultiParamTypeClasses>>> :drill:
+:properties:
+:ID:       5e34ea4e-cb1b-4359-968c-440f068b50ad
+:end:
+
+Implies: ConstrainedClassMethods
+Enable the definitions of typeclasses with more than one parameter.
+#+begin_src haskell
+class Collection c a where
+#+end_src
+
+****** <<<MultiWayIf>>> :drill:
+SCHT: <2020-03-14 Sat>
+:properties:
+:ID:       9b5af526-36f9-49e2-ae8c-ac9a5361b877
+:DRILL_LAST_INTERVAL: 35.4527
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 8
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.375
+:DRILL_EASE: 2.96
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:02]
+:end:
+
+Enable multi-way-if syntax.
+#+begin_src haskell
+if | guard1 -> code1
+   | ...
+   | guardN -> codeN
+#+end_src
+
+****** <<<OverloadedStrings>>> :drill:
+SCHT: <2020-07-26 Sun>
+:properties:
+:ID:       b09019e1-34d5-40f0-b866-504f3e1e4515
+:DRILL_LAST_INTERVAL: 213.8621
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:37]
+:end:
+
+Enable overloaded string literals (string literals become desugared via the =IsString= class).
+
+With overload, string literals has type:
+#+begin_src haskell
+(IsString a) => a
+#+end_src
+
+The usual string syntax can be used, e.g. =ByteString=, =Text=, and other variations of string-like types.
+Now they can be used in pattern matches as =char->integer= translations. To pattern match =Eq= must be derived.
+
+To use class =IsString= - import it from =GHC.Ext=.
+
+****** <<<PartialTypeSignatures>>> :drill:
+:properties:
+:ID:       4ac887da-6e23-4028-9924-3496787aa8d0
+:end:
+
+Partial type signature containins wildcards, placeholders (=_=, =_name=).
+Allows programmer to which parts of a type to annotate and which to infer. Also applies to constraint part.
+
+As untuped expression, partly typed can not polymorphicly recurse.
+
+-Wno-partial-type-signatures supresses infer warnings.
+
+****** <<<RankNTypes>>> :drill:
+SCHT: <2020-05-31 Sun>
+:properties:
+:ID:       54d784f9-d433-4ef8-a029-a6a6c6f61c18
+:DRILL_LAST_INTERVAL: 157.7214
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 11:57]
+:end:
+
+Enable types of arbitrary rank.
+See Type rank.
+
+Implies ExplicitForAll.
+
+Allows =forall= quantifier:
+  * Left side of \to
+  * Right side of \to
+  * as argument of a constructor
+  * as type of a field
+  * as type of an implicit parameter
+  * used in pattern type signature of lexically scoped type variables
+
+****** <<<ScopedTypeVariables>>> :drill:
+:properties:
+:ID:       5311b6b7-32e9-4ba9-a3fa-43b37df5988f
+:end:
+
+By default type variables do not have a scope except inside type signatures where they are used.
+
+When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
+
+/*/ option provides the lexical scope inside the code block for type variables that have forall quantifier. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
+
+For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
+
+Implies ExplicitForAll.
+
+****** <<<TupleSections>>> :drill:
+SCHT: <2020-09-18 Fri>
+:properties:
+:ID:       30ae7849-e739-4718-b031-5566e8f82a67
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:54]
+:end:
+
+Allow tuple section syntax:
+#+begin_src haskell
+(, True)
+(, "I", , , "Love", , 1337)
+#+end_src
+
+****** <<<TypeApplications>>> :drill:
+SCHT: <2020-04-03 Fri>
+:properties:
+:ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
+:DRILL_LAST_INTERVAL: 25.2548
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.2
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
+:end:
+
+Allow type application syntax:
+#+begin_src haskell
+read @Int 5
+
+:type pure @[]
+pure @[] :: a -> [a]
+
+:type (<*>) @[]
+(<*>) @[] :: [a -> b] -> [a] -> [b]
+
+--
+
+instance (CoArbitrary a, Arbitrary b) => Arbitrary (a -> b)
+
+λ> ($ 0) <$> generate (arbitrary @(Int -> Int))
+#+end_src
+
+****** <<<TypeSynonymInstances>>> :drill:
+SCHT: <2020-06-20 Sat>
+:properties:
+:ID:       3989b294-f011-48c0-9998-be10bd75c541
+:DRILL_LAST_INTERVAL: 178.2614
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.6
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:35]
+:end:
+
+Now type synonim can have it's own type class instances.
+
+****** <<<UndecidableInstances>>> :drill:
+:properties:
+:ID:       71ac682f-292d-401a-bd61-0c28a707a950
+:end:
+
+Permit instances which may lead to type-checker non-termination.
+
+GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
+
+****** <<<ViewPatterns>>> :drill:
+SCHT: <2020-03-28 Sat>
+:properties:
+:ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
+:DRILL_LAST_INTERVAL: 18.7966
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
+:DRILL_FAILURE_COUNT: 3
+:DRILL_AVERAGE_QUALITY: 3.072
+:DRILL_EASE: 1.44
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
+:end:
+
+#+begin_src haskell
+foo (f1 -> Pattern1) = c1
+foo (fn -> Pattern2 a b) = g1 a b
+#+end_src
+(/expression/ \to /pattern/): take what is came to match - apply the /expression/, then do /pattern/-match, and return what originally came to match.
+
+Semantics:
+  * /expression/ & /pattern/ share the scope, so also variables.
+  * if (=(/expression/ :: t1 -> t2) && (/pattern/ :: t2)=)
+      then
+        (ViewPattern =(/expression/ -> /pattern/)= =:: t1=) (return what originally was recieved into pattern match)
+      else
+        skip
+
+/*/ are like pattern guards that can be nested inside of other patterns.
+/*/ are a convenient way to pattern-match algebraic data type.
+
+Additional possible usage:
+#+begin_src haskell
+foo a (f2 a -> Pattern3 b c) = g2 b c  -- only for function definitions
+foo ((f,_), f -> Pattern4) = c2  -- variables can be bount to the left in data constructors and tuples
+#+end_src
+
+****** <<<DatatypeContexts>>> :drill:
+SCHT: <2020-03-26 Thu>
+:properties:
+:ID:       0ed5ea82-77f7-4b51-af7b-19a3f6426ec3
+:DRILL_LAST_INTERVAL: 113.3327
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.556
+:DRILL_EASE: 2.48
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:25]
+:end:
+
+Allow contexts in data types.
+#+begin_src haskell
+data Eq a => Set a = NilSet | ConsSet a (Set a)
+
+-- NilSet :: Set a
+-- ConsSet :: Eq a => a -> Set a -> Set a
+#+end_src
+Considered misfeature. Deprecated. Going to be removed.
+
+****** <<<StandaloneKindSignatures>>> :drill:
+:properties:
+:ID:       e3ecf941-d6be-4b47-abdd-b08675bf367a
+:end:
+
+Type signatures for type-level declarations.
+
+#+begin_src haskell
+type <name_1> , ... , <name_n> :: <kind>
+#+end_src
+
+#+begin_src haskell
+type MonoTagged :: Type -> Type -> Type
+data MonoTagged t x = MonoTagged x
+
+type Id :: forall k. k -> k
+type family Id x where
+  Id x = x
+
+type C :: (k -> Type) -> k -> Constraint
+class C a b where
+  f :: a b
+
+type TypeRep :: forall k. k -> Type
+data TypeRep a where
+  TyInt   :: TypeRep Int
+  TyMaybe :: TypeRep Maybe
+  TyApp   :: TypeRep a -> TypeRep b -> TypeRep (a b)
+#+end_src
+
+< GHC 8.10.1 - type signatures were only for term level declarations.
+
+Extension makes signatures feature more uniformal.
+
+Allows to set the order of quantification, order of variables in a kind. For example when using TypeApplications.
+
+Allows to set full kind of derivable class, solving situations with GADT return kind.
+
+******* /*/
+
+<<<SAKS>>>
+<<<Standalone kind signatures>>>
+
+****** <<<PartialTypeSignatures>>> :drill:
+:PROPERTIES:
+:ID:       2e2f62a0-a6ac-4046-969c-bcb6e4ff4810
+:END:
+
+Very healpful. Helps to solve type level, helps to establish type signatures and constraints.
+Allow to provide =_= in the type signatures to automatically infere-in the type information there.
+
+Wild cards:
+  * Type
+  #+begin_src haskell
+f :: _ -> _ -> a
+  #+end_src
+
+  * Constraint
+  #+begin_src haskell
+f :: _ => a -> b -> c
+  #+end_src
+
+  * Named
+  #+begin_src haskell
+f :: _x -> _x -> a
+  #+end_src
+allows to identify the same wildcard.
+
+***** How to make a GHC LANGUAGE extension
+
+In =libraries/ghc-boot-th/GHC/LanguageExtensions/Type.hs= add new constructor to the =Extension= type
+#+begin_src haskell
+data Extension
+  = Cpp
+  | OverlappingInstances
+  ...
+  | Foo
+#+end_src
+
+=/main/DynFlags.hs= extend =xFlagsDeps=:
+#+begin_src haskell
+xFlagsDeps = [
+  flagSpec "AllowAmbiguousTypes" LangExt.AllowAmbiguousTypes,
+  ...
+  flagSpec "Foo"                 LangExt.Foo
+]
+#+end_src
+It is for basic case. For testing, parser see further: https://blog.shaynefletcher.org/2019/02/adding-ghc-language-extension.html
 
 ** Computer science
 :properties:
