@@ -12706,8 +12706,9 @@ dimap :: (a' -> a) -> (b -> b') -> p a b -> p a' b'
 So, profunctor in case of arrow:
 
 \begin{tikzcd}
-a \arrow[d, "h"] & a' \arrow[l, "f"] \arrow[d, "profunctor", dashed] \\
-b \arrow[r, "g"] & b'
+a \arrow[dd, "h"] &  & a' \arrow[ll, "f"] \arrow[dd, "profunctor", dashed] \\
+                  &  &                                                     \\
+b \arrow[rr, "g"] &  & b'
 \end{tikzcd}
 
 #+begin_src haskell
