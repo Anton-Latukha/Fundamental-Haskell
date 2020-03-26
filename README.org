@@ -12747,6 +12747,17 @@ When compiler detects types have same structure, type class instances coerse imp
 
 Coercible
 
+** Functions and algebra
+
+\( \times \) ~ =( , )=
+\( + \) ~ =( | )=
+\( {}^{x} \) ~ =( x \to )=
+
+
+\( a^{b \ + \ c}^{} \) ~ =(B b | C c \to a)=
+
+\( a^{b^{c} }\) ~ =(c \to b \to a)=
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
