@@ -6388,13 +6388,13 @@ Lambek added analogue to Cartesian closed category, which can be used to model l
 #+caption: Table of basic correspondence
 #+name: tab--table-of-basic-correspondence
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
-| Logic | Type                    | Category  |
-|-------+-------------------------+-----------|
-| True  | () (any inhabited type) | Terminal  |
-| False | Void                    | Initial   |
-| a \land b | (a, b)                  | a \times b     |
-| a \lor b | Either a b              | a /     b |
-| a \Rightarrow b | a \to b                   | b^{a}        |
+| Logic | Type                    | Category |
+|-------+-------------------------+----------|
+| True  | () (any inhabited type) | Terminal |
+| False | Void                    | Initial  |
+| a \land b | (a, b)                  | a \times b    |
+| a \lor b | (a \vert b)                 | a \vert b    |
+| a \Rightarrow b | a \to b                   | b^{a}       |
 
 **** /*/
 
