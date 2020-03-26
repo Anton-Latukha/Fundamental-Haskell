@@ -12753,10 +12753,11 @@ Coercible
 \( + \) ~ =( | )=
 \( {}^{x} \) ~ =( x \to )=
 
-
-\( a^{b \ + \ c}^{} \) ~ =(B b | C c \to a)=
+\( a^{b \ + \ c}^{} \) ~ =( b | c \to a)=
+\( a^{b} \times a^{c} \) ~ =(b \to a, c \to a)=
 
 \( a^{b^{c} }\) ~ =(c \to b \to a)=
+\( a^{b \times c} \) ~ =((b, c) \to a)=
 
 * Reference
 
