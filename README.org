@@ -6396,6 +6396,14 @@ Lambek added analogue to Cartesian closed category, which can be used to model l
 | a \lor b | (a \vert b)                 | a \vert b    |
 | a \Rightarrow b | a \to b                   | b^{a}       |
 
+Algebra correspondence to types:
+
+\( a^{b \ + \ c}^{} \) ~ =( b | c \to a)=
+\( a^{b} \times a^{c} \) ~ =(b \to a, c \to a)=
+
+\( a^{b^{c} }\) ~ =(c \to b \to a)=
+\( a^{b \times c} \) ~ =((b, c) \to a)=
+
 **** /*/
 
 <<<Curry–Howard isomorphism>>>
@@ -12746,18 +12754,6 @@ When compiler detects types have same structure, type class instances coerse imp
 *** /*/
 
 Coercible
-
-** Functions and algebra
-
-\( \times \) ~ =( , )=
-\( + \) ~ =( | )=
-\( {}^{x} \) ~ =( x \to )=
-
-\( a^{b \ + \ c}^{} \) ~ =( b | c \to a)=
-\( a^{b} \times a^{c} \) ~ =(b \to a, c \to a)=
-
-\( a^{b^{c} }\) ~ =(c \to b \to a)=
-\( a^{b \times c} \) ~ =((b, c) \to a)=
 
 * Reference
 
