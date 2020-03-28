@@ -1572,6 +1572,8 @@ SCHT: <2020-08-17 Mon>
 fmap id == id
 #+end_src
 
+Every identity morphisms translates into identity morphism,
+
 ****** <<<Power set functor composition property>>> :drill:
 :properties:
 :ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
