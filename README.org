@@ -3049,7 +3049,7 @@ Allows to lift monadic actions into a larger context in a neutral way.
 
 =lift= takes monad and extends it with a transformer.
 
-In fact, for monad transformers - =lift= is a last stage of the =pure=, it follows from the lift law.
+In fact, for monad transformers - =lift= is a last stage of the =pure=, it follows from the lift property.
 
 Method:
 #+begin_src haskell
@@ -3153,7 +3153,7 @@ SCHT: <2020-06-30 Tue>
 
 Monoid over applicative. Has left catch property.
 
-Allows to run simolteniously several instances of a computation (or computations) and from them yeld one result by law from =(<|>) :: Type -> Type -> Type=.
+Allows to run simultaneously several instances of a computation (or computations) and from them yeld one result by property from =(<|>) :: Type -> Type -> Type=.
 
 Minimal complete definition:
 #+begin_src haskell
@@ -3812,7 +3812,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 :end:
 
 #+caption: Catamorphism properties in Haskell
-#+name: tab--catamorphism-law-in-haskell
+#+name: tab--catamorphism-property-in-haskell
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Rule name    | Haskell                                                        |
 |--------------+----------------------------------------------------------------|
@@ -3983,7 +3983,7 @@ a \arrow[rr, "F_{2} \circ F_{1}" description, bend left] \arrow[rr, "G_{2} \circ
 \end{tikzcd}
 
 
-Vertical and horizontal compositions can be done in any order, they abide the exchange law.
+Vertical and horizontal compositions can be done in any order, they abide the exchange property.
 
 **** /*/
 
@@ -7798,7 +7798,7 @@ Good for examining interconnections.
 :ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
 :end:
 
-Something has a property in the real world, and in theory its property corresponds to the law/properties, axioms.
+Something has a property in the real world, and in theory its property corresponds to the property/properties, axioms.
 
 In Haskell under property/law most often properties of algebraic structures.
 
