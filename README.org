@@ -1572,7 +1572,7 @@ SCHT: <2020-08-17 Mon>
 fmap id == id
 #+end_src
 
-****** <<<Power set functor composition law>>> :drill:
+****** <<<Power set functor composition property>>> :drill:
 :properties:
 :ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
 :end:
