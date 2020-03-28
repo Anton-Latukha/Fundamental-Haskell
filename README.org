@@ -283,7 +283,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#-7][/*/]]
       - [[#power-set-functor][<<<Power set functor>>>]]
         - [[#-8][/*/]]
-        - [[#power-set-functor-laws][<<<Power set functor laws>>>]]
+        - [[#power-set-functor-properties][<<<Power set functor properties>>>]]
           - [[#-9][/*/]]
           - [[#power-set-functor-identity-property][<<<Power set functor identity property>>>]]
           - [[#power-set-functor-composition-property][<<<Power set functor composition property>>>]]
@@ -379,7 +379,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#-30][/*/]]
         - [[#monoid][<<<Monoid>>>]]
           - [[#-31][/*/]]
-          - [[#monoid-laws][<<<Monoid laws>>>]]
+          - [[#monoid-properties][<<<Monoid properties>>>]]
             - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
             - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
             - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
@@ -1533,7 +1533,7 @@ Composed /*/ can lift functions through any layers of structures that belong to 
 <<<fmap>>>
 <<<Functor type class>>>
 
-***** <<<Power set functor laws>>> :drill:
+***** <<<Power set functor properties>>> :drill:
 SCHT: <2020-06-03 Wed>
 :properties:
 :ID:       653e04a0-f7b1-4c48-b0c1-e6c83bc6db7c
@@ -1547,11 +1547,11 @@ SCHT: <2020-06-03 Wed>
 :DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:15]
 :end:
 
-Type instance of functor should abide this laws:
+Type instance of functor should abide this properties:
 
 ****** /*/
 
-<<<Functor laws>>>
+<<<Functor properties>>>
 
 ****** <<<Power set functor identity property>>> :drill:
 SCHT: <2020-08-17 Mon>
@@ -1747,7 +1747,7 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 :end:
 
 ***** /*/
-<<<Applicative laws>>>
+<<<Applicative properties>>>
 
 ****** <<<Applicative identity law>>> :drill:
 SCHT: <2020-09-07 Mon>
@@ -2138,10 +2138,10 @@ SCHT: <2020-04-29 Wed>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:29]
 :end:
 
-Monad corresponds to functor laws & applicative laws and additionally:
+Monad corresponds to functor properties & applicative properties and additionally:
 
 ******* /*/
-<<<Monad laws>>>
+<<<Monad properties>>>
 
 ******* <<<Monad left identity law>>> :drill:
 SCHT: <2020-08-20 Thu>
@@ -3118,14 +3118,14 @@ class (Monad m) => MonadIO m where
   liftIO :: IO a -> m a
 #+end_src
 
-=liftIO= laws:
+=liftIO= properties:
 #+begin_src haskell
 liftIO . pure = pure
 
 liftIO (m >>= f) = liftIO m >>= (liftIO . f)
 #+end_src
 
-Which is identical laws to MonadTrans =lift.=
+Which is identical properties to MonadTrans =lift=.
 
 Since =lift= is one step, and liftIO all steps - all steps defined in terms of one step and all other steps, so the most frequent implementation is self-recursive =lift . liftIO=:
 
@@ -3341,7 +3341,7 @@ Also backwards - any single-object category is a monoid. Category has an identit
 <<<Monoidal>>>
 <<<Monoids>>>
 
-****** <<<Monoid laws>>> :drill:
+****** <<<Monoid properties>>> :drill:
 :properties:
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
 :end:
@@ -3811,7 +3811,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 :ID:       a1502d89-017c-41ce-ab89-a8b56f93489b
 :end:
 
-#+caption: Catamorphism laws in Haskell
+#+caption: Catamorphism properties in Haskell
 #+name: tab--catamorphism-law-in-haskell
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 | Rule name    | Haskell                                                        |
@@ -7798,7 +7798,7 @@ Good for examining interconnections.
 :ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
 :end:
 
-Something has a property in the real world, and in theory its property corresponds to the law/laws, axioms.
+Something has a property in the real world, and in theory its property corresponds to the law/properties, axioms.
 
 In Haskell under property/law most often properties of algebraic structures.
 
@@ -11793,7 +11793,7 @@ Where is a part of definition, scoped over definition implemetations and guards,
 God does not care about our mathematical difficulties. He integrates empirically.
 #+end_quote
 
-One who is found of mathematical meaning loves to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of laws of all particles.
+One who is found of mathematical meaning loves to apply it. But if we implement the "real" algorithms behind nature processes, we face the need to go through the computations of properties of all particles.
 
 Computation of nature is always a middle way between ideal theory behaviour and computation simplification.
 
