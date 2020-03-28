@@ -1797,6 +1797,7 @@ SCHT: <2020-02-22 Sat>
 :end:
 
 Internal function application doesn't change the structure around values.
+
 #+begin_src haskell
 pure f <*> pure x = pure (f x)
 #+end_src
