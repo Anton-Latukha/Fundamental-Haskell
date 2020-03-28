@@ -12589,6 +12589,8 @@ Proposition considered =True= due to direct evidence of existence through constr
 :END:
 
 If asserted statement contains some error or contradiction - anything can be proven trough it.
+The more there is an error - the easier logic chain arrives at any target.
+
 Ancient principle of logic. Both in classical & intuitionistic logic.
 
 *** /*/
