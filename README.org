@@ -7802,7 +7802,7 @@ Something has a property in the real world, and property always yealds an axiom 
 
 Meaningful abstraction denotation always defined through properties (axioms for that definition).
 
-Abstraction forms nicely around the boundaries where the particular properties spread. Properties inside abstraction may have emergence effect (combination of properties result into bigger property), so in that way abstracting them simplifies outside picture, as abstraction hides plethora of internal properties and shows only emergent properties.
+Abstraction forms nicely around the boundaries where the particular properties spread. Properties inside abstraction may have emergence effect (combination of properties result into bigger property), so in that way abstracting them simplifies outside picture, as abstraction hides plethora of internal properties and exposes only emergent properties.
 
 In Haskell under property/law most often properties of algebraic structures.
 
