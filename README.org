@@ -1607,6 +1607,7 @@ SCHT: <2020-09-18 Fri>
 #+begin_src haskell
 fmap :: (a -> b) -> (f a -> f b)
 #+end_src
+
 Functor takes function =a -> b= and returns a function =f a -> f b= this is called lifting a function.
 Lift does a function application through the data structure.
 
