@@ -1495,6 +1495,7 @@ Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with
 **** /*/
 
 <<<Functors>>>
+<<<Functorial>>>
 
 **** <<<Power set functor>>> :drill:
 SCHT: <2020-04-07 Tue>
