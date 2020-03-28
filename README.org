@@ -1578,9 +1578,13 @@ fmap id == id
 :end:
 
 #+begin_src haskell
-fmap (f.g) == fmap f . fmap g
+fmap (f . g) == fmap f . fmap g
 #+end_src
-In words, it is if several functions are composed and then fmap is applied on them - it should be the same as if functions was fmapped and then composed.
+
+Functor translates morphisms and their composition deterministicly (referentially transparent). So there is no difference:
+  a) or translate everything one-by-one and assemble at destination category.
+  b) or assemble everything in source cetegory and translate in one go once.
+
 
 ***** <<<Lift>>> :drill:
 SCHT: <2020-09-18 Fri>
