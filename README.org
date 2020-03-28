@@ -3176,26 +3176,6 @@ empty :: f a    -- The identity element of <|>
 
 Functors between monoidal categories that preserves monoidal structure.
 
-**** <<<Fusion>>> :drill:
-SCHT: <2020-10-24 Sat>
-:properties:
-:ID:       401d4ba1-4405-4ca7-a96c-c8fe8d22c3bf
-:DRILL_LAST_INTERVAL: 228.9343
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.6
-:DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:59]
-:end:
-
-#+begin_src haskell
-fmap f . fmap g = fmap (f . g)
-#+end_src
-
-/*/ - functor axiom that allows to greatly simplify computations.
-
 **** =$>= :drill:
 :properties:
 :ID:       b2e2a3bf-d31c-40cb-a7da-9f389190a773
