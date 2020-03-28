@@ -1581,11 +1581,13 @@ fmap id == id
 fmap (f . g) == fmap f . fmap g
 #+end_src
 
-Functor translates morphisms and their composition deterministicly (referentially transparent). So there is no difference:
-  a) or translate everything one-by-one and assemble at destination category.
-  b) or assemble everything in source cetegory and translate in one go once.
+Full transparency of composition translation.
+So order of composition and translation does not metter, the result is always the same.
 
-Composing and translating at once optimizes computation (see fusion).
+Including cases:
+  a) translate everything one-by-one and assemble at destination category.
+  b) assemble everything in source cetegory and translate in one go once.
+
 
 ***** <<<Lift>>> :drill:
 SCHT: <2020-09-18 Fri>
