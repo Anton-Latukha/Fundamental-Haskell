@@ -7798,7 +7798,8 @@ Good for examining interconnections.
 :ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
 :end:
 
-Something has a property in the real world, and in theory its property corresponds to the property/properties, axioms.
+Something has a property in the real world, and property yealds an axiom (law).
+
 
 In Haskell under property/law most often properties of algebraic structures.
 
