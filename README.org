@@ -1637,13 +1637,6 @@ Since:
   * \( \forall e \in S : \ \exists \{e\} \, \in \, {\mathcal{P}(S)} \ \vDash \ \ \forall e \in S : \ \exists (e \to \{e\}) \equiv unit \)
   * \( \forall \mathcal{P}(S) : \ \mathcal{P}(S) \in \mathcal{P}(S) \ \vDash \ \ \forall \mathcal{P}(S) : \ \exists (\mathcal{P}(\mathcal{P}(S)) \to \mathcal{P}(S)) \equiv join \)
 
-**** <<<Functorial>>> :drill:
-:PROPERTIES:
-:ID:       982baa45-e1f4-4878-be33-5ebb98e3295e
-:END:
-
-Corresponds to functor laws.
-
 **** <<<Forgetful functor>>> :drill:
 :properties:
 :ID:       f175e7f3-f5bc-4c5c-b351-9df5080720b1
