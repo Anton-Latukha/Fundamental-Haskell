@@ -8281,6 +8281,7 @@ Since property yealds the according law, family of unit tests for the property c
 Unit test cases come from generator, and test the law empirically, but repeatedly and automatically.
 
 **** <<<Function property>>>
+
 Property corresponds to the according law.
 In property testing you need to think additionally about generator and shrinking.
 
