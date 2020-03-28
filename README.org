@@ -1585,6 +1585,7 @@ Functor translates morphisms and their composition deterministicly (referentiall
   a) or translate everything one-by-one and assemble at destination category.
   b) or assemble everything in source cetegory and translate in one go once.
 
+Composing and translating at once optimizes computation (see fusion).
 
 ***** <<<Lift>>> :drill:
 SCHT: <2020-09-18 Fri>
