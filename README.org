@@ -1554,7 +1554,7 @@ Type instance of functor should abide this laws:
 
 <<<Functor laws>>>
 
-****** <<<Power set functor identity law>>> :drill:
+****** <<<Power set functor identity property>>> :drill:
 SCHT: <2020-08-17 Mon>
 :properties:
 :ID:       46aa6606-2ac1-477e-9632-e79143f4fe3b
