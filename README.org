@@ -1591,7 +1591,7 @@ Including cases:
   a) translate everything one-by-one and assemble at destination category.
   b) assemble everything in source cetegory and translate in one go once.
 
-Composing in source category and translating at once - is a much-much more effective computation (it is known under name of functor <<<fusion>>>).
+Composing in source category and translating at once - is a much-much more effective computation (known as "functor <<<fusion">>>).
 
 ***** <<<Lift>>> :drill:
 SCHT: <2020-09-18 Fri>
