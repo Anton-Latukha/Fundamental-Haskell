@@ -7800,6 +7800,7 @@ Good for examining interconnections.
 
 Something has a property in the real world, and property yealds an axiom (law).
 
+Meaningful abstraction denotation always defined through properties.
 
 In Haskell under property/law most often properties of algebraic structures.
 
