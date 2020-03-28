@@ -1580,12 +1580,12 @@ fmap id == id
 :ID:       a25f03e6-0423-41b5-92a1-26d84bd6243e
 :end:
 
+Full transparency of composition translation.
+So order of composition and translation does not metter, the result is always the same.
+
 #+begin_src haskell
 fmap (f . g) == fmap f . fmap g
 #+end_src
-
-Full transparency of composition translation.
-So order of composition and translation does not metter, the result is always the same.
 
 Including cases:
   a) translate everything one-by-one and assemble at destination category.
