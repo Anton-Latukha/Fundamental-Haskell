@@ -297,12 +297,12 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#-12][/*/]]
       - [[#applicative-functor][<<<Applicative functor>>>]]
         - [[#-13][/*/]]
-        - [[#applicative-law][<<<Applicative law>>>]]
+        - [[#applicative-property][<<<Applicative property>>>]]
         - [[#-14][/*/]]
-          - [[#applicative-identity-law][<<<Applicative identity law>>>]]
-          - [[#applicative-composition-law][<<<Applicative composition law>>>]]
-          - [[#applicative-homomorphism-law][<<<Applicative homomorphism law>>>]]
-          - [[#applicative-interchange-law][<<<Applicative interchange law>>>]]
+          - [[#applicative-identity-property][<<<Applicative identity property>>>]]
+          - [[#applicative-composition-property][<<<Applicative composition property>>>]]
+          - [[#applicative-homomorphism-property][<<<Applicative homomorphism property>>>]]
+          - [[#applicative-interchange-property][<<<Applicative interchange property>>>]]
         - [[#applicative-function][<<<Applicative function>>>]]
           - [[#lifta][<<<liftA*>>>]]
             - [[#lifta-1][<<<liftA>>>]]
@@ -319,11 +319,11 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
           - [[#validation-applicative][<<<Validation applicative>>>]]
         - [[#monad][<<<Monad>>>]]
           - [[#-15][/*/]]
-          - [[#monad-law][<<<Monad law>>>]]
+          - [[#monad-property][<<<Monad property>>>]]
             - [[#-16][/*/]]
-            - [[#monad-left-identity-law][<<<Monad left identity law>>>]]
-            - [[#monad-right-identity-law][<<<Monad right identity law>>>]]
-            - [[#monad-associativity-law][<<<Monad associativity law>>>]]
+            - [[#monad-left-identity-property][<<<Monad left identity property>>>]]
+            - [[#monad-right-identity-property][<<<Monad right identity property>>>]]
+            - [[#monad-associativity-property][<<<Monad associativity property>>>]]
           - [[#monad-type-class][<<<Monad type class>>>]]
             - [[#monadplus-type-class][<<<MonadPlus type class>>>]]
               - [[#-17][/*/]]
@@ -380,9 +380,9 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#monoid][<<<Monoid>>>]]
           - [[#-31][/*/]]
           - [[#monoid-properties][<<<Monoid properties>>>]]
-            - [[#monoid-left-identity-law][<<<Monoid left identity law>>>]]
-            - [[#monoid-right-identity-law][<<<Monoid right identity law>>>]]
-            - [[#monoid-associativity-law][<<<Monoid associativity law>>>]]
+            - [[#monoid-left-identity-property][<<<Monoid left identity property>>>]]
+            - [[#monoid-right-identity-property][<<<Monoid right identity property>>>]]
+            - [[#monoid-associativity-property][<<<Monoid associativity property>>>]]
           - [[#commutative-monoid][<<<Commutative monoid>>>]]
             - [[#-32][/*/]]
           - [[#group][<<<Group>>>]]
@@ -414,7 +414,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#-42][/*/]]
       - [[#catamorphism][<<<Catamorphism>>>]]
         - [[#-43][/*/]]
-        - [[#catamorphism-law][<<<Catamorphism law>>>]]
+        - [[#catamorphism-property][<<<Catamorphism property>>>]]
           - [[#hylomorphism][<<<Hylomorphism>>>]]
             - [[#-44][/*/]]
         - [[#anamorphism][<<<Anamorphism>>>]]
@@ -1741,7 +1741,7 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 <<<Applicatives>>>
 <<<Applicative functors>>>
 
-***** <<<Applicative law>>> :drill:
+***** <<<Applicative property>>> :drill:
 :properties:
 :ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
 :end:
@@ -1749,7 +1749,7 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 ***** /*/
 <<<Applicative properties>>>
 
-****** <<<Applicative identity law>>> :drill:
+****** <<<Applicative identity property>>> :drill:
 SCHT: <2020-09-07 Mon>
 :properties:
 :ID:       2e87e916-1501-4310-9887-e0bcf7b9e1ca
@@ -1767,7 +1767,7 @@ SCHT: <2020-09-07 Mon>
 pure id <*> v = v
 #+end_src
 
-****** <<<Applicative composition law>>> :drill:
+****** <<<Applicative composition property>>> :drill:
 SCHT: <2020-07-22 Wed>
 :properties:
 :ID:       74ed933d-bb1e-4169-919a-b3c491973011
@@ -1786,7 +1786,7 @@ Function composition works regularly.
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
 
-****** <<<Applicative homomorphism law>>> :drill:
+****** <<<Applicative homomorphism property>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
 :ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
@@ -1806,7 +1806,7 @@ Internal function application doesn't change the structure around values.
 pure f <*> pure x = pure (f x)
 #+end_src
 
-****** <<<Applicative interchange law>>> :drill:
+****** <<<Applicative interchange property>>> :drill:
 SCHT: <2020-03-17 Tue>
 :properties:
 :ID:       f3e40391-0f29-4689-852c-6fc7c3f57dfd
@@ -2124,7 +2124,7 @@ Composition of monadic types does not always results in monadic type.
 <<<Monads>>>
 <<<Monadic>>>
 
-****** <<<Monad law>>> :drill:
+****** <<<Monad property>>> :drill:
 SCHT: <2020-04-29 Wed>
 :properties:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
@@ -2143,7 +2143,7 @@ Monad corresponds to functor properties & applicative properties and additionall
 ******* /*/
 <<<Monad properties>>>
 
-******* <<<Monad left identity law>>> :drill:
+******* <<<Monad left identity property>>> :drill:
 SCHT: <2020-08-20 Thu>
 :properties:
 :ID:       2a41dd66-e0bf-4741-932f-9d28ae3a95c7
@@ -2187,7 +2187,7 @@ Id \circ T \arrow[rr, "\eta \circ I" description] \arrow[rrdd, no head, Rightarr
                                                                                     &  & T
 \end{tikzcd}
 
-******* <<<Monad right identity law>>> :drill:
+******* <<<Monad right identity property>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
 :ID:       c009e530-319b-4127-8ca3-c05faf4f86cd
@@ -2230,7 +2230,7 @@ T^{2} \arrow[dd, "\mu" description] &  & T \circ Id \arrow[ll, "I \circ \eta" de
 T
 \end{tikzcd}
 
-******* <<<Monad associativity law>>> :drill:
+******* <<<Monad associativity property>>> :drill:
 SCHT: <2020-03-14 Sat>
 :properties:
 :ID:       24c71ee3-c7b5-46ca-a9fa-6dff090cf836
@@ -3346,7 +3346,7 @@ Also backwards - any single-object category is a monoid. Category has an identit
 :ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
 :end:
 
-******* <<<Monoid left identity law>>> :drill:
+******* <<<Monoid left identity property>>> :drill:
 SCHT: <2020-10-11 Sun>
 :properties:
 :ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
@@ -3364,7 +3364,7 @@ SCHT: <2020-10-11 Sun>
 mempty <> x = x
 #+end_src
 
-******* <<<Monoid right identity law>>> :drill:
+******* <<<Monoid right identity property>>> :drill:
 :properties:
 :ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
 :end:
@@ -3373,7 +3373,7 @@ mempty <> x = x
 x <> mempty = x
 #+end_src
 
-******* <<<Monoid associativity law>>> :drill:
+******* <<<Monoid associativity property>>> :drill:
 :properties:
 :ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
 :end:
@@ -3806,7 +3806,7 @@ Unique arrow from an initial algebra structure into different algebra structure.
 <<<Catamorphic>>>
 <<<Catamorphisms>>>
 
-***** <<<Catamorphism law>>> :drill:
+***** <<<Catamorphism property>>> :drill:
 :properties:
 :ID:       a1502d89-017c-41ce-ab89-a8b56f93489b
 :end:
@@ -7829,8 +7829,8 @@ In Haskell /*/ has influence on parsing when compounds have same fixity.
 ****** /*/
 
 <<<Associative>>>
-<<<Associative law>>>
-<<<Associativity law>>>
+<<<Associative property>>>
+<<<Associativity property>>>
 
 ***** <<<Left associative>>> :drill:
 SCHT: <2020-05-31 Sun>
@@ -7963,7 +7963,7 @@ Components for covariant basis denoted in the upper indices:
 ****** /*/
 
 <<<Commutative>>>
-<<<Commutative law>>>
+<<<Commutative property>>>
 
 ***** <<<Idempotence>>> :drill:
 :properties:
@@ -7993,7 +7993,7 @@ Set S and two binary operators + \times:
 
 <<<Distributive rule>>>
 <<<Distributive axiom>>>
-<<<Distributive law>>>
+<<<Distributive property>>>
 <<<Distributive>>>
 
 **** <<<Effect>>> :drill:
