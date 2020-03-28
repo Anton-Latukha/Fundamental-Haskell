@@ -1789,17 +1789,17 @@ pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
 
 ****** <<<Applicative homomorphism law>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-09-18 Fri>
 :properties:
 :ID:       fe44ce3c-3912-48bd-8e60-367cc3ac3b20
-:DRILL_LAST_INTERVAL: 85.2825
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 173.9763
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.285
+:DRILL_AVERAGE_QUALITY: 3.374
 :DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:37]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 21:05]
 :end:
 
 Internal function application doesn't change the structure around values.
