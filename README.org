@@ -7798,9 +7798,9 @@ Good for examining interconnections.
 :ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
 :end:
 
-Something has a property in the real world, and property yealds an axiom (law).
+Something has a property in the real world, and property always yealds an axiom (law) for something.
 
-Meaningful abstraction denotation always defined through properties.
+Meaningful abstraction denotation always defined through properties (axioms for that definition).
 
 In Haskell under property/law most often properties of algebraic structures.
 
