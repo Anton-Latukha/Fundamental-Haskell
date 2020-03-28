@@ -1645,17 +1645,17 @@ Constant functor is another example.
 <<<Forgetful>>>
 
 **** <<<Identity functor>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-12-22 Tue>
 :properties:
 :ID:       9dbbb6a7-e9ae-4c29-8468-aa20fc143b84
-:DRILL_LAST_INTERVAL: 89.5155
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 268.7255
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.9
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:34]
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:18]
 :end:
 
 Maps all category to itself. All objects and morphisms to themselves.
@@ -4957,17 +4957,17 @@ SCHT: <2020-08-07 Fri>
 <<<Typed holes>>>
 
 *** <<<Type inference>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-12-24 Thu>
 :properties:
 :ID:       6e24ecce-be5d-4fcc-b167-649f710d1be8
-:DRILL_LAST_INTERVAL: 90.2063
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 270.7993
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:34]
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:18]
 :end:
 
 Automatic data type detection for expression.
@@ -7873,17 +7873,17 @@ In lambda expressions same level parts follow grouping from left to right.
 <<<Left-associative>>>
 
 ***** <<<Right associative>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-12-24 Thu>
 :properties:
 :ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
-:DRILL_LAST_INTERVAL: 90.2063
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 270.7993
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:34]
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:18]
 :end:
 
 /*/ - the operations are grouped from the right.
@@ -11189,17 +11189,17 @@ SCHT: <2020-09-18 Fri>
 Use data type aliases to deferentiate logic of values.
 
 ** <<<Good: Type wideness>>> :drill:
-SCHT: <2020-02-17 Mon>
+SCHT: <2021-01-28 Thu>
 :properties:
 :ID:       f84197b4-6d5d-4f8f-bb4d-3c6a1460a37b
-:DRILL_LAST_INTERVAL: 127.433
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 305.9666
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:00]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:16]
 :end:
 
 Wider the type the more it is polymorphic, means it has broader application and fits more types.
@@ -12584,8 +12584,17 @@ Proposition considered =True= due to direct evidence of existence through constr
 <<<Constructive logic>>>
 
 ** <<<Principle of explosion>>> :drill:
+SCHT: <2020-04-01 Wed>
 :PROPERTIES:
 :ID:       0ef25f89-1023-480a-8f5f-e075960d9385
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:13]
 :END:
 
 If asserted statement contains some error or contradiction - anything can be proven trough it.
