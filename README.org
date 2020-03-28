@@ -12588,7 +12588,7 @@ Proposition considered =True= due to direct evidence of existence through constr
 :ID:       0ef25f89-1023-480a-8f5f-e075960d9385
 :END:
 
-From asserted statement that contains contradiction - anything can be proven.
+If asserted statement contains some error or contradiction - anything can be proven trough it.
 Ancient principle of logic. Both in classical & intuitionistic logic.
 
 *** /*/
