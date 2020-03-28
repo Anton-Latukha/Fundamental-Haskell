@@ -1568,11 +1568,12 @@ SCHT: <2020-08-17 Mon>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:36]
 :end:
 
+Functor translates object & its identity morphism to target object & its identity morphism.
+
 #+begin_src haskell
 fmap id == id
 #+end_src
 
-Every identity morphisms translates into identity morphism,
 
 ****** <<<Power set functor composition property>>> :drill:
 :properties:
