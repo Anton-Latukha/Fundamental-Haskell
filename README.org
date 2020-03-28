@@ -8275,8 +8275,10 @@ Subset of the cartesian product of two sets.
 :end:
 
 *** <<<Property testing>>>
-Since property has a law, then family of that unit tests can be abstracted into the lambda function.
-And tests cases come from generator.
+
+Since property yealds the according law, family of unit tests for the property can be abstracted into the function that test the law.
+
+Unit test cases come from generator, and test the law empirically, but repeatedly and automatically.
 
 **** <<<Function property>>>
 Property corresponds to the according law.
