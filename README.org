@@ -7798,9 +7798,9 @@ Good for examining interconnections.
 :ID:       ead179a8-e4a5-46c1-a324-30e8e4dd15fd
 :end:
 
-Something has a property in the real world, and property always yealds an axiom (law) for something.
+Something has a property in the real world, and property always yealds an axiom (<<<law>>>) for something.
 
-Meaningful abstraction denotation always defined through properties (axioms for that definition).
+Meaningful abstraction denotation always defines through properties (axioms for that definition).
 
 Abstraction forms nicely around the boundaries where the particular properties spread. Properties inside abstraction may have emergence effect (combination of properties result into bigger property), so in that way abstracting them simplifies outside picture, as abstraction hides plethora of internal properties and exposes only emergent properties.
 
