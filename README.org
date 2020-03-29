@@ -1618,17 +1618,17 @@ Lift does a function application through the data structure.
 <<<Lifting>>>
 
 ***** <<<Power set functor is a free monad>>> :drill:
-SCHT: <2020-02-28 Fri>
+SCHT: <2020-09-14 Mon>
 :properties:
 :ID:       85146d1c-7cb7-4c9b-a998-791b33f1a518
-:DRILL_LAST_INTERVAL: 62.2874
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 168.9234
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.62
+:DRILL_AVERAGE_QUALITY: 4.111
+:DRILL_EASE: 2.72
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:28]
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:51]
 :end:
 
 Since:
@@ -4360,17 +4360,17 @@ For type to have sence the values must share some sence, properties.
 <<<Data types>>>
 
 *** <<<Actual type>>> :drill:
-SCHT: <2020-03-01 Sun>
+SCHT: <2021-03-12 Fri>
 :properties:
 :ID:       1325dd6d-8944-4226-a703-e5e7ecb90838
-:DRILL_LAST_INTERVAL: 139.9519
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 347.7805
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:51]
 :end:
 
 Data type recieved by ->inferring->compiling->execution.
@@ -4654,17 +4654,17 @@ let proxy2 = (ProxyValue :: Proxy List) -- a has kind `Type -> Type`
 #+end_src
 
 *** <<<Static typing>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-12-15 Tue>
 :properties:
 :ID:       3100b260-2b5c-40a7-bc27-2dc6e0f8f3c5
-:DRILL_LAST_INTERVAL: 89.9157
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 260.7555
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.8
 :DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:32]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:44]
 :end:
 
 Type check takes place at compile level, so compiled program already has expectations of types it should recieve.
@@ -5113,17 +5113,17 @@ SCHT: <2020-03-15 Sun>
 So far very complex, not very productive (or well-established) topic.
 
 *** <<<Binary tree>>> :drill:
-SCHT: <2020-02-27 Thu>
+SCHT: <2020-12-14 Mon>
 :properties:
 :ID:       8efc93b6-3518-40e7-9143-eb695b267bd4
-:DRILL_LAST_INTERVAL: 89.8047
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 260.4336
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.8
 :DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:43]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:50]
 :end:
 
 Tree where every element is a Leaf (structure stub, Nothing) or a Node (split of branches):
@@ -8767,17 +8767,17 @@ tail (_:xs)            = xs
 <<<Wildcards>>>
 
 **** <<<Case>>> :drill:
-SCHT: <2020-02-27 Thu>
+SCHT: <2020-10-09 Fri>
 :properties:
 :ID:       14309b50-3648-47ba-a4b1-eb5aa4bd7a3c
-:DRILL_LAST_INTERVAL: 90.4721
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 193.6103
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.3
+:DRILL_AVERAGE_QUALITY: 3.364
 :DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:33]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:45]
 :end:
 
 #+begin_src haskell
@@ -11502,17 +11502,17 @@ Portability :  portable | non-portable (<reason>)
 ***** Every function does one thing.
 
 ** <<<Good: Use Typed holes to progress the code>>> :drill:
-SCHT: <2020-02-22 Sat>
+SCHT: <2020-12-24 Thu>
 :properties:
 :ID:       27c029f7-9299-4d74-b2e3-5064b57dce4a
-:DRILL_LAST_INTERVAL: 89.9157
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 269.9269
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.9
+:DRILL_EASE: 3.0
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:33]
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:44]
 :end:
 
 Typed holes help build code in complex situations.
