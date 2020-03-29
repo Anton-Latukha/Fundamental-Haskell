@@ -4667,7 +4667,7 @@ SCHT: <2020-02-22 Sat>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:32]
 :end:
 
-Typechecking takes place at compile level.
+Type check takes place at compile level, so compiled program already has expectations of types it should recieve.
 
 *** <<<Structural type>>> :drill:
 :properties:
