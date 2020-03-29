@@ -5126,6 +5126,8 @@ SCHT: <2020-02-27 Thu>
 :DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:43]
 :end:
 
+Tree where every element is a Leaf (structure stub, Nothing) or a Node (split of branches):
+
 #+begin_src haskell
 data BinaryTree a
   = Leaf
