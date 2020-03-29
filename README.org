@@ -5128,8 +5128,8 @@ SCHT: <2020-02-27 Thu>
 
 #+begin_src haskell
 data BinaryTree a
-  = [[Leaf]]
-  | [[Node]] (BinaryTree a) a (BinaryTree a)
+  = Leaf
+  | Node (BinaryTree a) a (BinaryTree a)
 #+end_src
 
 *** <<<Bottom value>>> :drill:
