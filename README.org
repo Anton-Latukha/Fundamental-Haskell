@@ -6004,9 +6004,9 @@ SCHT: <2020-03-01 Sun>
 :DRILL_LAST_REVIEWED: [2019-12-28 Sat 17:27]
 :end:
 
-Repeated function application when sometimes same function gets called.
+Repeated function application when sometimes the same function gets called.
 
-Allows computation that may require indefinite amount of work.
+Allows computations that may require indefinite amount of work.
 
 **** /*/
 
