@@ -2734,17 +2734,17 @@ SCHT: <2020-09-18 Fri>
 When computation results in =Left= - drops other computations & returns the recieved =Left=.
 
 ******* <<<Error monad>>> :drill:
-SCHT: <2020-03-08 Sun>
+SCHT: <2020-06-17 Wed>
 :properties:
 :ID:       860961d0-78d3-4fdd-9845-3e1a2b800cf7
-:DRILL_LAST_INTERVAL: 29.0758
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 80.2492
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.143
+:DRILL_AVERAGE_QUALITY: 4.125
 :DRILL_EASE: 2.76
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 22:48]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:59]
 :end:
 
 Someting that can fail, throw exceptions.
@@ -5513,17 +5513,17 @@ SCHT: <2020-04-27 Mon>
 Composable expression.
 
 ** <<<Function>>> :drill:
-SCHT: <2020-03-10 Tue>
+SCHT: <2020-06-27 Sat>
 :properties:
 :ID:       e86b0dde-ef8f-447e-a966-7553784aab54
-:DRILL_LAST_INTERVAL: 31.0268
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.9157
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:01]
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 20:00]
 :end:
 
 Full dependency of one quantity from another quantity.
@@ -6397,17 +6397,17 @@ Algebra correspondence to types:
 <<<Curry-Howard-Lambek>>>
 
 *** <<<Currying>>> :drill:
-SCHT: <2020-03-12 Thu>
+SCHT: <2020-07-05 Sun>
 :properties:
 :ID:       4f8d7c52-f114-40ad-869e-e1ab4fdafc37
-:DRILL_LAST_INTERVAL: 33.0946
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 7
+:DRILL_LAST_INTERVAL: 97.96
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 8
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.286
-:DRILL_EASE: 2.86
+:DRILL_AVERAGE_QUALITY: 4.375
+:DRILL_EASE: 2.96
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:01]
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 20:00]
 :end:
 
 Translating the evaluation of a multiple argument function (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
@@ -7082,17 +7082,17 @@ If it can be done to T, and there is subtype S - then it also can be done to S.
 \( S <:T : \; f^{T \to X} \Rightarrow f^{S \to X} \)
 
 *** <<<Row polymorphism>>> :drill:
-SCHT: <2020-03-10 Tue>
+SCHT: <2020-05-09 Sat>
 :properties:
 :ID:       18e7413e-72cc-4ab6-8c9e-1591f4b00606
-:DRILL_LAST_INTERVAL: 19.2482
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 41.4414
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:19]
+:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_EASE: 2.18
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 20:00]
 :end:
 
 # NOTE: 2019-03-11: Currently WIP in https://github.com/ghc-proposals/ghc-proposals/pull/180 
@@ -7229,17 +7229,17 @@ Good to solve in-point localized tasks.
 Process of abstraction.
 
 **** <<<Argument>>> :drill:
-SCHT: <2020-03-07 Sat>
+SCHT: <2020-06-12 Fri>
 :properties:
 :ID:       56fadaf0-586a-4e26-a216-c39fcca004ea
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 75.2144
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
 :DRILL_AVERAGE_QUALITY: 4.0
 :DRILL_EASE: 2.7
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:59]
 :end:
 
 /arguere/ make clearmake known, to prove, to shine
@@ -7455,17 +7455,17 @@ Haskell
 #+end_src
 
 ****** <<<Initial object>>> :drill:
-SCHT: <2020-03-08 Sun>
+SCHT: <2020-11-21 Sat>
 :properties:
 :ID:       8d962644-6fcd-4152-b82a-fabb9ed38f6b
-:DRILL_LAST_INTERVAL: 104.916
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 236.6905
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.333
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:26]
+:DRILL_AVERAGE_QUALITY: 3.571
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:59]
 :end:
 
 One that emits unique arrow into every object.
@@ -7596,17 +7596,17 @@ One that has an option to fail.
 One that can not fail.
 
 **** <<<Superclass>>> :drill:
-SCHT: <2020-03-07 Sat>
+SCHT: <2020-06-15 Mon>
 :properties:
 :ID:       7585ab04-6e2e-4908-88c9-28cf2dc9a73e
-:DRILL_LAST_INTERVAL: 27.8572
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 77.833
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
+:DRILL_AVERAGE_QUALITY: 4.75
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-08 Sat 23:00]
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:59]
 :end:
 
 Broader parent class.
