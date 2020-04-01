@@ -1118,7 +1118,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#6-optional-debugging][6. (optional) Debugging]]
   - [[#ghc][GHC]]
   - [[#ghci][GHCI]]
-  - [[#debugging-in-ghci][Debugging in GHCI]]
+    - [[#debugging-in-ghci][Debugging in GHCI]]
   - [[#ghcid][<<<GHCID>>>]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
@@ -12061,7 +12061,7 @@ HIE tries to run =cabal= operations like on the non-Nix system. So it is a probl
 
 ** GHC
 ** GHCI
-** Debugging in GHCI
+*** Debugging in GHCI
 
 Provides:
   * set a breakpoints
