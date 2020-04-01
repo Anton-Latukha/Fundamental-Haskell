@@ -12267,6 +12267,21 @@ class MonadFail m => MonadFile m
 Nothing     -> error ("Message " <> show x)
 #+end_src
 
+*** Diversity in exceptions
+
+Exception cause: external or internal.
+
+Exceptions used by runtime system
+
+#+begin_src haskell
+div 1 0
+-- *** Exception: divide by zero
+#+end_src
+
+Exceptions used by programmers:
+  * Language feature
+  * Programmable (implemented at library level)
+
 ** Constraints
 
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
