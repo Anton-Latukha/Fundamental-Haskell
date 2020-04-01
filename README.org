@@ -11010,7 +11010,7 @@ Distinct from Exception.
 
 Expected but irregular situation.
 
-Distinct from Error. Also see <<<Exception vs Error>>>
+Distinct from Error. Also see [[Good: Exception vs Error]]
 
 *** /*/
 
