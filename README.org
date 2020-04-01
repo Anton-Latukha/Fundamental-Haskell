@@ -1015,7 +1015,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#continuation][Continuation]]
     - [[#continuation-passing-style][Continuation passing style]]
       - [[#-215][/*/]]
-- [[#citations][Citations]]
+- [[#citation][Citation]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
   - [[#good-type-wideness][<<<Good: Type wideness>>>]]
@@ -1104,7 +1104,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#datalist][Data.List]]
   - [[#datachar][Data.Char]]
   - [[#quickcheck-1][QuickCheck]]
-- [[#tools][Tools]]
+- [[#tool][Tool]]
   - [[#ghc-pkg][ghc-pkg]]
   - [[#integration-of-nixosnix-with-haskell-ide-engine-hie-and-emacs-spacemacs][Integration of NixOS/Nix with Haskell IDE Engine (HIE) and Emacs (Spacemacs)]]
     - [[#1-install-the-cachix][1. Install the Cachix]]
@@ -1121,7 +1121,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#debugging-in-ghci][Debugging in GHCI]]
   - [[#ghcid][<<<GHCID>>>]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
-- [[#libs][Libs]]
+- [[#library][Library]]
   - [[#exceptions][Exceptions]]
     - [[#exceptions---optionally-pure-extensible-exceptions-that-are-compatible-with-the-mtl][Exceptions - optionally pure extensible exceptions that are compatible with the mtl]]
     - [[#safe-exceptions---safe-simple-api-equivalent-to-the-underlying-implementation-in-terms-of-power-encourages-best-practices-minimizing-the-chances-of-getting-the-exception-handling-wrong][Safe-exceptions - safe, simple API equivalent to the underlying implementation in terms of power, encourages best practices minimizing the chances of getting the exception handling wrong.]]
@@ -1145,6 +1145,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#abstract-exception-type][Abstract exception type]]
     - [[#composit-approach][Composit approach]]
     - [[#the-changes-in-ghc-88][The changes in GHC 8.8]]
+    - [[#diversity-in-exceptions][Diversity in exceptions]]
   - [[#constraints][Constraints]]
   - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
   - [[#layering-monad-transformers][Layering monad transformers]]
@@ -11163,7 +11164,7 @@ Generalises to corecursion.
 
 CPS
 
-* Citations
+* Citation
 
 "One of the finer points of the Haskell community has been its propensity for recognizing abstract patterns in code which have well-defined, lawful representations in mathematics." (Chris Allen, Julie Moronuki - "Haskell Programming from First Principles" (2017))
 
@@ -11915,7 +11916,7 @@ quickCheck :: Testable prop => prop -> IO ()
 quickCheck . verbose - run verbose mode
 #+end_src
 
-* Tools :drill:
+* Tool :drill:
 :properties:
 :ID:       756dd451-6df6-4c86-8ff8-b431f2943685
 :end:
@@ -12142,7 +12143,7 @@ Also, if you ever can pay for your own NixOS VM and you want to reuse the setup 
 https://github.com/dhall-lang/dhall-lang/tree/master/nixops
 #+end_quote
 
-* Libs :drill:
+* Library :drill:
 :properties:
 :ID:       dfc5ca16-c4ee-4ef5-bee6-b44a4b29f51d
 :end:
