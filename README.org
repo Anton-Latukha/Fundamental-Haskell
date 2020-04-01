@@ -1135,7 +1135,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#pipes--pipes-parse---modular-more-primitive-theoretically-driven][Pipes + Pipes Parse - modular, more primitive, theoretically driven]]
   - [[#json---aeson][JSON - aeson]]
   - [[#backpack][<<<Backpack>>>]]
-- [[#drafts][Drafts]]
+- [[#draft][Draft]]
   - [[#exception-handling][Exception handling]]
     - [[#ideal-model][Ideal model]]
     - [[#universal-exception-type][Universal exception type]]
