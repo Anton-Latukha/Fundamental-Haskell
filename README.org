@@ -1091,7 +1091,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#good-where-vs-let][<<<Good: Where vs. Let>>>]]
   - [[#good-the-proper-nature-algorithm-that-models-behaviour-of-many-objects-is-computation-heavy][<<<Good: The proper nature algorithm that models behaviour of many objects is computation heavy>>>]]
   - [[#good-in-haskell-parameters-bound-by-lambda-declaration-instantiate-to-only-one-concrete-type][<<<Good: In Haskell parameters bound by lambda declaration instantiate to only one concrete type>>>]]
-  - [[#good-instance-is-a-good-structure-to-drew-a-type-line][<<<Good: Instance is a good structure to drew a type line>>>]]
+  - [[#good-instance-is-a-good-structure-to-drew-a-type-line][Good: Instance is a good structure to drew a type line]]
   - [[#good-mtl-vs-transformers][<<<Good: MTL vs. Transformers>>>]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
@@ -11820,9 +11820,9 @@ foo = (\f -> (f 1, f 'a')) id
 Lambda-bound function (i.e., one passed as argument to another function) cannot be instantiated in two different ways, if there is a let-bound polymorphism.
 
 
-** <<<Good: Instance is a good structure to drew a type line>>>
+** Good: Instance is a good structure to drew a type line
 
-Instances for data type can differentiate by constraints & types of arguments. So instance can preserve type boundary, and data type declaration can stay very polymorphic. If the need to extend the type boundaries arrive - the instances may extend, or new instances are created, while used data type still the same and unchanged.
+Instances for data type can differentiate by constraints & types of arguments. So instance can preserve type boundary, and data type declaration can stay very polymorphic. If the need to extend the type boundaries arrives - the instances may extend, or new instances are created, while used data type still the same and unchanged.
 
 ** <<<Good: MTL vs. Transformers>>> :drill:
 :PROPERTIES:
