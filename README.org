@@ -1137,6 +1137,12 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#backpack][<<<Backpack>>>]]
 - [[#drafts][Drafts]]
   - [[#exception-handling][Exception handling]]
+    - [[#ideal-model][Ideal model]]
+    - [[#universal-exception-type][Universal exception type]]
+    - [[#individual-exception-types][Individual exception types]]
+    - [[#abstract-exception-type][Abstract exception type]]
+    - [[#composit-approach][Composit approach]]
+    - [[#in-ghc-88-the-change-was-made][In GHC 8.8 the change was made:]]
   - [[#constraints][Constraints]]
   - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
   - [[#layering-monad-transformers][Layering monad transformers]]
@@ -12183,7 +12189,7 @@ On 1-st compilation - /*/ analyzes the abstract signatures without loading side 
 
 ** Exception handling
 
-Ideal model:
+*** Ideal model
 
   + [X] Exception must include all context information that may be useful.
   + [X] Store information in a form for further probable deeper automatic diagnostic.
@@ -12207,7 +12213,7 @@ Ideal model:
   - [ ] Impossible to rely on this representation for further/deeper inspection.
   - [ ] Impossible to have exhaustive checking - no knowledge no check, no warning if some cases are not handled.
 
-Universal exception type:
+*** Universal exception type
 
   + [X] Able to inspect every possible error case with pattern match.
   + [X] Self-documenting. Shows the hierarchical system of all exceptions.
@@ -12218,7 +12224,7 @@ Universal exception type:
 Sum type must be separate, and product type structure over it.
 Separate exception type of 
 
-Individual exception types:
+*** Individual exception types
 
   + [X] Writing & seing & working with exactly what will go wrong because there is only one possible error for this type of exception. Pattern match happens only onconditions, constructors that should happen.
   + [X] Knowledge what exectly goes wrong allows wide usage of Either.
@@ -12226,7 +12232,7 @@ Individual exception types:
   - [ ] Type signatures grow, and even can become complex, since every case of exception has its own type.
   - [ ] Impure =throw= that users can/should use for your code must account for all your exception types.
 
-Abstract exception type:
+*** Abstract exception type
 
 Exception type entirely opague and inspectable only by accessor functions.
   + [X] Updating the internals without breaking the API
@@ -12236,11 +12242,13 @@ Exception type entirely opague and inspectable only by accessor functions.
   - [ ] Possible options by design are hidden from the downstream, documentation must be kept.
   - [ ] When you change the exception handling/throwing errors it does not shows to the downstream.
 
-Composit approach:
+*** Composit approach
+
 Provide the set of constructors and also a set of predicates and set of accessors.
 Use pattern synonyms to provide a documented accessor set without exposing internal data type.
 
-In GHC 8.8 the change was made:
+*** In GHC 8.8 the change was made:
+
 #+begin_quote
 The fail method of Monad has been removed in favor of the method of the same name in the MonadFail class.
 
