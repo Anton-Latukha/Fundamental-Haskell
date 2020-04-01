@@ -1071,7 +1071,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#good-haskell-package-versioning-policy][<<<Good: Haskell Package Versioning Policy>>>]]
     - [[#-216][/*/]]
   - [[#good-linear-type][<<<Good: Linear type>>>]]
-  - [[#good-exception-vs-error][<<<Good: Exception vs Error>>>]]
+  - [[#good-exception-vs-error][Good: Exception vs Error]]
   - [[#good-let-vs-where][<<<Good: Let vs. Where>>>]]
   - [[#good-rankntypes][<<<Good: RankNTypes>>>]]
   - [[#good-handling-orphan-instance][<<<Good: Handling orphan instance>>>]]
@@ -11609,7 +11609,7 @@ Version policy and dependency management.
 :end:
 Linear types are great to control/minimize resource usage.
 
-** <<<Good: Exception vs Error>>> :drill:
+** Good: Exception vs Error :drill:
 :properties:
 :ID:       3d6d7f0f-252c-4cfb-b25c-18687fd762ca
 :end:
