@@ -1142,7 +1142,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#individual-exception-types][Individual exception types]]
     - [[#abstract-exception-type][Abstract exception type]]
     - [[#composit-approach][Composit approach]]
-    - [[#in-ghc-88-the-change-was-made][In GHC 8.8 the change was made:]]
+    - [[#the-changes-in-ghc-88][The changes in GHC 8.8]]
   - [[#constraints][Constraints]]
   - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
   - [[#layering-monad-transformers][Layering monad transformers]]
@@ -12247,7 +12247,7 @@ Exception type entirely opague and inspectable only by accessor functions.
 Provide the set of constructors and also a set of predicates and set of accessors.
 Use pattern synonyms to provide a documented accessor set without exposing internal data type.
 
-*** In GHC 8.8 the change was made:
+*** The changes in GHC 8.8
 
 #+begin_quote
 The fail method of Monad has been removed in favor of the method of the same name in the MonadFail class.
