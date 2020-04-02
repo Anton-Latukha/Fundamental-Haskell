@@ -12076,6 +12076,8 @@ Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purist
   + =-Wdodgy-imports=
   + =-Wunbanged-strict-patterns=
 
+=-Wall= turns on all warnings that indicate potentially suspicious code.
+
 ** GHCI
 *** Debugging in GHCI
 
