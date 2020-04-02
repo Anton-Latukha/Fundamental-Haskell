@@ -12082,7 +12082,7 @@ Additional to default settings it is useful to use =-W=, =-Wcompat=. =-Wall= is 
 
 =-Wcompat= turns on warnings that will be enabled by default in the future GHC releases, allows library authors make the code compatible in advance for future GHC releases.
 
-=-Werror= makes raises warnings into fatal errors, useful for CI.
+=-Werror= promotes warnings into fatal errors, may be useful for CI runs.
 
 =-w= turns off all warnings.
 
