@@ -12080,6 +12080,8 @@ Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purist
 
 =-Weverything= turns on all warnings supported by compiler.
 
+=-Wcompat= turns on warnings that will be enabled by default in the future GHC releases, allows library authors make the code compatible in advance for future GHC releases.
+
 ** GHCI
 *** Debugging in GHCI
 
