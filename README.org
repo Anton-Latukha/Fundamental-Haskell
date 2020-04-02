@@ -12078,6 +12078,8 @@ Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purist
 
 =-Wall= turns on all warnings that indicate potentially suspicious code.
 
+=-Weverything= turns on all warnings supported by compiler.
+
 ** GHCI
 *** Debugging in GHCI
 
