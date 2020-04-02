@@ -1117,6 +1117,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#5-be-pleased-writing-code][5. Be pleased writing code]]
     - [[#6-optional-debugging][6. (optional) Debugging]]
   - [[#ghc][GHC]]
+    - [[#ghc-code-check-flags][GHC code check flags]]
   - [[#ghci][GHCI]]
     - [[#debugging-in-ghci][Debugging in GHCI]]
   - [[#ghcid][<<<GHCID>>>]]
@@ -12060,6 +12061,21 @@ HIE tries to run =cabal= operations like on the non-Nix system. So it is a probl
 2. If HIE keeps getting ready, failing & restarting - check that the projects =ghc --version= is declared in your =all-hie= NixOS configuration.
 
 ** GHC
+
+*** GHC code check flags
+
+Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purists and 
+
+=-W= enables additional useful warnings:
+  + =-Wunused-binds=
+  + =-Wunused-matches=
+  + =-Wunused-foralls=
+  + =-Wunused-imports=
+  + =-Wincomplete-patterns=
+  + =-Wdodgy-exports=
+  + =-Wdodgy-imports=
+  + =-Wunbanged-strict-patterns=
+
 ** GHCI
 *** Debugging in GHCI
 
