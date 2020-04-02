@@ -12082,6 +12082,8 @@ Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purist
 
 =-Wcompat= turns on warnings that will be enabled by default in the future GHC releases, allows library authors make the code compatible in advance for future GHC releases.
 
+=-Werror= makes raises warnings into fatal errors, useful for CI.
+
 ** GHCI
 *** Debugging in GHCI
 
