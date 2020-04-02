@@ -12064,7 +12064,7 @@ HIE tries to run =cabal= operations like on the non-Nix system. So it is a probl
 
 *** GHC code check flags
 
-Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purists and 
+Additional to default settings it is useful to use =-W=, =-Wcompat=. =-Wall= is for purists and would raise noise. 
 
 =-W= turns on additional useful warnings:
   + =-Wunused-binds=
