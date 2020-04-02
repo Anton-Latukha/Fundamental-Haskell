@@ -12066,7 +12066,7 @@ HIE tries to run =cabal= operations like on the non-Nix system. So it is a probl
 
 Additionally to dafault settings it is useful to use =-W=, =-Wall= is for purists and 
 
-=-W= enables additional useful warnings:
+=-W= turns on additional useful warnings:
   + =-Wunused-binds=
   + =-Wunused-matches=
   + =-Wunused-foralls=
