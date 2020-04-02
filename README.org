@@ -12224,6 +12224,8 @@ Exceptions and their handling are for the boundaries that recieve external thing
 
 Its better to promote exceptions to just checking preconditions.
 
+Wraper with exception handler around function (=f=) call means that all untreated exception of function or its subfunctions would be caught by this wrapper into the scope where wrapper was used (one syntactic level above function =f=).
+
 *** Ideal model
 
   + [X] Exception must include all context information that may be useful.
