@@ -12230,6 +12230,7 @@ Laziness as exceptions are computations - means that some issues would be skippe
 
 Exception throw breaks purity, function was called buy returned a result.
 
+Try to raise and resolve all exceptions befor aquiring external IO resources. And release all resources when or before the exeption can happen.
 
 *** Ideal model
 
