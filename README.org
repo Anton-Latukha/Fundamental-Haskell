@@ -12228,6 +12228,8 @@ Wraper with exception handler around function (=f=) call means that all untreate
 
 Laziness as exceptions are computations - means that some issues would be skipped al togather, in parts that are/were not used would never throw exceptions, but also just as computations - exceptions would be raised at different times and states during computations.
 
+Exception throw breaks purity, function was called buy returned a result.
+
 
 *** Ideal model
 
