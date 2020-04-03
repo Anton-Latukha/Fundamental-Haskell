@@ -12232,6 +12232,8 @@ Exception throw breaks purity, function was called buy returned a result.
 
 Try to raise and resolve all exceptions befor aquiring external IO resources. And release all resources when or before the exeption can happen.
 
+With concurrency thread could be killed by other threads (that is called to raise an asyncronous exception in the thread).
+
 *** Ideal model
 
   + [X] Exception must include all context information that may be useful.
