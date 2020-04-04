@@ -12226,6 +12226,13 @@ Its better to promote exceptions to just checking preconditions.
 
 Wraper with exception handler around function (=f=) call means that all untreated exception of function or its subfunctions would be caught by this wrapper into the scope where wrapper was used (one syntactic level above function =f=).
 
+\begin{tikzcd}
+s \arrow[rd, "Handle/dispatch"'] &                                &                &                                                                            \\
+                                 & m \arrow[rd, "Eval \ inside"'] &                &                                                                            \\
+                                 &                                & ... \arrow[rd] &                                                                            \\
+                                 &                                &                & h \arrow[lluu, "To \ nearest \ exception \ monad"', dotted, bend right=49]
+\end{tikzcd}
+
 Laziness as exceptions are computations - means that some issues would be skipped al togather, in parts that are/were not used would never throw exceptions, but also just as computations - exceptions would be raised at different times and states during computations.
 
 Exception throw breaks purity, function was called buy returned a result.
