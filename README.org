@@ -12222,7 +12222,7 @@ On 1-st compilation - /*/ analyzes the abstract signatures without loading side 
 
 Process of exception handling has:
   * raising an exception
-  * handling an exception
+  * gathering information and handling an exception
   * ability to finish important sessions/actions independently of whether exception happened or not. That is why it is called guaranteed finalization of important processes.
 
 Exceptions and their handling are for the boundaries that recieve external things that are not under Haskell control. It is mainly an IO handling. The exception mechanism may be used for internal pure Haskell part - if it grew to complex to sort-out some situation try/catch mechanism can be used, but then avoid use of runtime system exceptions catch and sort programmically and generally avoid it.
