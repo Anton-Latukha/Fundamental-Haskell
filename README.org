@@ -12238,6 +12238,8 @@ s \arrow[rd, "Handle/dispatch"'] &                                &             
                                  &                                &                & h \arrow[lluu, "To \ nearest \ exception \ monad"', dotted, bend right=49]
 \end{tikzcd}
 
+Any monad that short-curcuits after some condition check of first argument - has that ability.
+
 Laziness as exceptions are computations - means that some issues would be skipped al togather, in parts that are/were not used would never throw exceptions, but also just as computations - exceptions would be raised at different times and states during computations.
 
 Exception throw breaks purity, function was called buy returned a result.
