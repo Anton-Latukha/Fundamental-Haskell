@@ -12254,6 +12254,12 @@ With concurrency thread could be killed by other threads (that is called to rais
   * No execution of continuation after throw, only handling.
   * Handle {,a}synchronous exceptions.
 
+*** =Control.Exception.Safe= main sets of functions
+
+  * =try*= - allows handle Either returning types, bridges the exception handling and basic Haskell computation.
+  * =handle*= - describes how to handle exception before the monadic action itself.
+  * =catch*= - describes how to handle the exception after the monadic action itself.
+
 *** Ideal model
 
   + [X] Exception must include all context information that may be useful.
