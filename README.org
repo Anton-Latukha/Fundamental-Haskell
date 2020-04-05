@@ -12270,6 +12270,7 @@ For asyncronous exceptions there are special function to catch them: =catchAsync
 
   * =bracket*= - computations to aquire and release resource and computation to run in between.
   * =finally= - allows to run declared computations afterward (even if an exception was raised).
+  * =onException= - run computations only if exception happened.
 
 *** Ideal model
 
