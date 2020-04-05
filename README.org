@@ -12262,6 +12262,8 @@ With concurrency thread could be killed by other threads (that is called to rais
 
 For asyncronous exceptions there are special function to catch them: =catchAsync= and =handleAsync=.
 
+=catch= and =handle= are to catch specific exception type.
+
 *** Ideal model
 
   + [X] Exception must include all context information that may be useful.
