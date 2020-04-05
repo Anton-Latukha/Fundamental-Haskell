@@ -10646,6 +10646,14 @@ One of main pros of /*/ - extensibility: implementation of DSL can be used to an
 
 Example fields of application: language-integrated queries, non-deterministic & probabilistic programming, delimiter continuation, computability theory, stream processsing, hardware description languages, generation of specialized numerical kernels, semantics of natural language.
 
+** <<<Prefix notation>>>
+
+Operators then their operands.
+
+*** /*/
+<<<Polish notation>>>
+<<<PN>>>
+
 * Give definitions
 
 
