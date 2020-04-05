@@ -12264,6 +12264,8 @@ For asyncronous exceptions there are special function to catch them: =catchAsync
 
 =catch= and =handle= are to catch specific exception type.
 
+=catches= allows to catch matching an elements in the list, and then handle them.
+
 *** Ideal model
 
   + [X] Exception must include all context information that may be useful.
