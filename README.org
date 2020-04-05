@@ -12266,6 +12266,9 @@ For asyncronous exceptions there are special function to catch them: =catchAsync
 
 =catches= , =catchesDeep= and =catchesAsync= allows to catch matching an elements in the list, and then handle them.
 
+*** Clean-up of actions/resources
+
+  * =bracket*= - computations to aquire and release resource and computation to run in between.
 
 *** Ideal model
 
