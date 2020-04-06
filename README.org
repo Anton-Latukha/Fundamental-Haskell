@@ -12392,7 +12392,6 @@ Exceptions used by programmers:
 
   * Ignore
   * Print
-  * Continue
   * Repeat
   * Stop
   * Substitute with default
