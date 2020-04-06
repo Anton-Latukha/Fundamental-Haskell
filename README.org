@@ -12394,7 +12394,7 @@ Exceptions used by programmers:
   * Ignore
   * Print
   * Repeat
-  * Wait, stop, halt, exit
+  * Wait, stop, exit
   * Substitute with default
   * Throw
   * Handle
