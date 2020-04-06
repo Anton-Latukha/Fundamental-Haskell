@@ -12388,6 +12388,19 @@ Exceptions used by programmers:
   * Language feature
   * Programmable (implemented at library level)
 
+*** Exception handling strategies
+
+  * Ignore
+  * Print
+  * Continue
+  * Repeat
+  * Stop
+  * Substitute with default
+  * Throw
+  * Handle
+  * Rethrow
+  * Emergency exit
+
 ** Constraints
 
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
