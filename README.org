@@ -1154,6 +1154,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#composit-approach][Composit approach]]
     - [[#the-changes-in-ghc-88][The changes in GHC 8.8]]
     - [[#diversity-in-exceptions][Diversity in exceptions]]
+    - [[#exception-handling-strategies][Exception handling strategies]]
   - [[#constraints][Constraints]]
   - [[#monad-transformers-and-their-type-classes][Monad transformers and their type classes]]
   - [[#layering-monad-transformers][Layering monad transformers]]
