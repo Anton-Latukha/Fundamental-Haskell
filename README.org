@@ -12411,6 +12411,8 @@ Exceptions raised as a result of an "external event", such as signal from anothe
 
 Are raised by =throwTo=. Are by termin and design should not be catched/handled, by default catching/handling functions are not catching them, if someone still wants to catch them - there are special function: =catchAsync=.
 
+Further reading: termin and apparatus were introduced by [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/asynch-exns.pdf]["Asynchronous Exceptions in Haskell" (Simon Marlow, Simon Peyton Jones, Andrew Moran, John Reppy)]].
+
 ** Constraints
 
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
