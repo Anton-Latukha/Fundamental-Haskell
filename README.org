@@ -12405,6 +12405,10 @@ Exceptions used by programmers:
   * Rethrow
   * Emergency exit
 
+*** Asynchronous exception
+
+Exceptions raised as a result of an "external event", such as signal from another thread.
+
 ** Constraints
 
 Very strong Haskell type system makes possible to work with code from the top down, an axiomatic semantics approach, from constraints into types.
