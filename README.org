@@ -3555,7 +3555,7 @@ where for \( f^{A \to B} \) - \( A, B \) are sets with additonal algebraic struc
 
 /*/ sends identity morphisms to identity morphisms and inverses to inverses.
 
-The concept of /*/ has been generalized under the name of morphism to many structures that either do not have an underlying set, or are not algebraic.
+The concept of /*/ has been generalized under the name of morphism to many structures that either do not have an underlying set, or are not algebraic, or do not preserve the operation.
 
 ***** /*/
 
