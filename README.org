@@ -1020,6 +1020,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#continuation-passing-style][Continuation passing style]]
       - [[#-217][/*/]]
   - [[#controlconcurrentasync][Control.Concurrent.Async]]
+  - [[#semilattice][Semilattice]]
 - [[#citation][Citation]]
 - [[#good-code][Good code]]
   - [[#good-type-aliasing][<<<Good: Type aliasing>>>]]
@@ -11201,6 +11202,9 @@ CPS
 ** Control.Concurrent.Async
 
 Good library for concurrency programming.
+
+
+** Semilattice
 
 * Citation
 
