@@ -7990,6 +7990,8 @@ Components for covariant basis denoted in the upper indices:
 
 \( \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) \)
 
+All processes that are independent from one-another, but on manifastation of their results - their combination result into something (create curcomstances for something) - are commutative.
+
 ****** /*/
 
 <<<Commutative>>>
