@@ -2988,7 +2988,7 @@ The wrapping and unwrapping by State/runState is implicit.
 Monad is not closed under compostion.
 Composition of monadic types does not always results in monadic type.
 
-Basic case: during implementation of monadic type composition, type =m T m a= arises, which does not allow to =join= transformation for the =m= monadic layers or to have a regular unit transformation.
+Basic case: during implementation of monadic composition, as a result type =m T m a= arises, which does not allow =join= transformation for the =m= monadic layers or to have a regular unit transformation.
 
 /*/ have desirable properies and can add them to monads. /*/ user their implementation to solve the compostion type layering and allow to attach desirable property to result.
 
