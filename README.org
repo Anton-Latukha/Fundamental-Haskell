@@ -8565,11 +8565,11 @@ SCHT: <2020-03-13 Fri>
 :DRILL_LAST_REVIEWED: [2019-12-04 Wed 01:26]
 :end:
 
+Extension of a propositional logic.
+
 Notation systems that use quantifiers, relations, variables over non-logical objects, allows the use of expressions that contain variables.
 
 Turing-complete.
-
-Extension of a propositional logic.
 
 ****** /*/
 
