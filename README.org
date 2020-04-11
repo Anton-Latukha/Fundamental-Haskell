@@ -8537,7 +8537,7 @@ Formed by connecting propositions by logical connectives.
 
 Studies propositions and argument flow.
 
-Distinquishes logically indivisible units (atomic propositions) and abstracts them as variables and constants of Boolean type properties.
+Distinquishes logically indivisible units (atomic propositions) and abstracts them as variable and constant values of Boolean type properties. Studies consequences of those value aguments (atomic proposition) on composed propositions.
 
 Not Turing-complete, impossible to construct an arbitrary loop.
 
