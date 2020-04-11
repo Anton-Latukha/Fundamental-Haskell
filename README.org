@@ -3887,17 +3887,17 @@ Is a function that generates a sequence by repeated application of the function 
 <<<Anamorphisms>>>
 
 **** <<<Kernel>>> :drill:
-SCHT: <2020-03-06 Fri>
+SCHT: <2021-03-02 Tue>
 :properties:
 :ID:       44aee181-f629-4047-abf5-f2ae438f2063
-:DRILL_LAST_INTERVAL: 139.8884
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 324.5411
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
+:DRILL_AVERAGE_QUALITY: 3.571
 :DRILL_EASE: 2.32
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:32]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-11 Sat 20:36]
 :end:
 
 Kernel of a homomorphism is a number that measures the degree homomorphism fails to meet injectivity (AKA be monomorphic).
@@ -6718,17 +6718,17 @@ SCHT: <2020-07-18 Sat>
 /*/ is distinct from Identity value.
 
 *** <<<Bind>>> :drill:
-SCHT: <2020-03-05 Thu>
+SCHT: <2021-04-06 Tue>
 :properties:
 :ID:       2e4ac590-3b8a-4c70-9229-a83d30f6b149
-:DRILL_LAST_INTERVAL: 143.9066
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 360.486
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-13 Sun 02:01]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-11 Sat 20:35]
 :end:
 
 Establishing equality between two objects.
