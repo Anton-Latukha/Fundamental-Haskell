@@ -2985,7 +2985,7 @@ The wrapping and unwrapping by State/runState is implicit.
 
 /*/ is a practical solution to the current functional programming situation that generally monads do not have composition ability. In other words many monads can not be composed.
 
-/*/ is a special monad that extends other monad with extra funcitonality, it is a convinience mechanism, the functionality itself always can be developed in some other way.
+/*/ is a special monad that extends other monad with extra funcitonality, it is a convinience mechanism, the functionality itself always can be developed in some other way. Sometimes transformers can make things way harder (especially profound for concurrency ([[https://www.youtube.com/watch?v=KZIN9f9rI34][Michael Snoyman - Monad Transformer State]])) then other ways of implementation, especially when transformers hold some structure information (state-like information, in ExceptT, StateT)
 
 Monad is not closed under compostion.
 Composition of monadic types does not always results in monadic type.
