@@ -3548,7 +3548,7 @@ SCHT: <2020-05-12 Tue>
 
 similar form
 
-/*/ map between two algebraic structures of the same type, operation-preserving.
+/*/ map between two algebraic structures of the same type that preserves the operations.
 
 \( f_{x \to y} = f(a \star b) = f(a) \diamond f(b) \),
 where \( x,\ y \) are sets with additonal algebraic structure that includes \( \star, \diamond \) accordingly; \( a,\ b \) are elements of set \( x \).
