@@ -8539,7 +8539,7 @@ Studies propositions and argument flow.
 
 Distinquishes logically indivisible units (atomic propositions) and abstracts them as variable and constant values of Boolean type properties. Studies consequences of those value aguments (atomic proposition) on composed propositions.
 
-Not Turing-complete, impossible to construct an arbitrary loop.
+Not Turing-complete, for example it is impossible to construct an arbitrary loop.
 
 ***** /*/
 
