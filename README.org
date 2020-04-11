@@ -8541,6 +8541,8 @@ Distinquishes logically indivisible units (atomic propositions) and abstracts th
 
 Invented by Aristotle.
 
+Classical system that lead humanity to profound advancement. The classical /*/ language thou is limited and so in modern day extensions (mainly First-order logic) are used in the sciences.
+
 Not Turing-complete, for example it is impossible to construct an arbitrary loop.
 
 ***** /*/
