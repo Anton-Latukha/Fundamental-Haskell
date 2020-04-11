@@ -2983,7 +2983,7 @@ The wrapping and unwrapping by State/runState is implicit.
 :ID:       1357bbcf-fbf7-4607-9044-4d6e26c513d5
 :end:
 
-/*/ is a practical solution to the current functional programming problem about composition of monads.
+/*/ is a practical solution to the current functional programming situation that generally monads do not have composition ability. In other words many monads can not be composed.
 
 Monad is not closed under compostion.
 Composition of monadic types does not always results in monadic type.
