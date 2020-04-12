@@ -2628,17 +2628,17 @@ f3 <=< f2 <=< f1 $ arg
 #+end_src
 
 ****** <<<Kleisli category>>> :drill:
-SCHT: <2020-03-13 Fri>
+SCHT: <2020-05-29 Fri>
 :properties:
 :ID:       4039e73f-073c-4930-9753-1af3fde66050
-:DRILL_LAST_INTERVAL: 21.6837
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 46.8802
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.357
-:DRILL_EASE: 2.24
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.1
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:46]
+:DRILL_LAST_REVIEWED: [2020-04-12 Sun 14:43]
 :end:
 
 Category \( \mathcal{C} \), \( 〈E, \overrightarrow{\eta}, \overrightarrow{\mu}〉 \) monad over \( \mathcal{C} \).
@@ -3496,17 +3496,17 @@ Example: set of same size square matricies of numbers with matrix operations for
 <<<Rings>>>
 
 *** <<<Morphism>>> :drill:
-SCHT: <2020-03-13 Fri>
+SCHT: <2020-11-21 Sat>
 :properties:
 :ID:       8d0a8700-c48a-4195-8bd2-52a1b3866d76
-:DRILL_LAST_INTERVAL: 109.8827
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 224.1607
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.04
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:33]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-11 Sat 21:17]
 :end:
 
 \textgreek{μορφή} /morphe/ form
