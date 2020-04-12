@@ -6679,19 +6679,19 @@ Funciton application has presedence higher then all infix operators/functions (v
 #+caption: Haskell operators priority and fixity association
 #+name: tab--haskell-operator-priority-fixity-association
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
-|  P | L        | Non                 | R          |
-|----+----------+---------------------+------------|
-| 10 |          |                     | F.A.       |
-|  9 | !!       |                     | .          |
-|  8 |          |                     | ^ ^^ **    |
-|  7 | */ div   |                     |            |
-|  6 | +-       |                     |            |
-|  5 |          |                     | : , ++     |
-|  4 |          | <comparison> elem   |            |
-|  3 |          |                     | &&         |
-|  2 |          |                     | OR         |
-|  0 |          |                     | $ $! seq   |
+|  P | L      | Non               | R        |
+|----+--------+-------------------+----------|
+| 10 |        |                   | F.A.     |
+|  9 | !!     |                   | .        |
+|  8 |        |                   | ^ ^^ **  |
+|  7 | */ div |                   |          |
+|  6 | +-     |                   |          |
+|  5 |        |                   | : , ++   |
+|  4 |        | <comparison> elem |          |
+|  3 |        |                   | &&       |
+|  2 |        |                   | OR       |
 |  1 | >> >>= |                   |          |
+|  0 |        |                   | $ $! seq |
 
 **** /*/
 
