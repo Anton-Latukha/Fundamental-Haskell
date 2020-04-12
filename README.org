@@ -6690,8 +6690,8 @@ Funciton application has presedence higher then all infix operators/functions (v
 |  4 |          | <comparison> elem   |            |
 |  3 |          |                     | &&         |
 |  2 |          |                     | OR         |
-|  1 |          |                     |            |
 |  0 |          |                     | $ $! seq   |
+|  1 | >> >>= |                   |          |
 
 **** /*/
 
