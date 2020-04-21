@@ -1207,6 +1207,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#profunctor][Profunctor]]
   - [[#coerce][Coerce]]
     - [[#-227][/*/]]
+  - [[#universalexistential-quantification][Universal/Existential quantification]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-228][/*/]]
