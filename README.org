@@ -12951,7 +12951,7 @@ Useful to be able to work with data from at external world that we do not know d
 
 Some information about existentially quantified type should be preserved to be able to transrofm it.
 
-
+Existential wrappers make possible from a function to return existentially quantified data. Wrapper allows to avoid unification with outer context and "escape" type variable.
 
 Additional reading: https://markkarpov.com/post/existential-quantification.html
 
