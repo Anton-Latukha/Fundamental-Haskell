@@ -12942,6 +12942,10 @@ Useful to be able to work with data from at external world that we do not know d
 
 Some information about existentially quantified type should be preserved to ba able to transrofm it.
 
+
+
+Additional reading: https://markkarpov.com/post/existential-quantification.html
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
