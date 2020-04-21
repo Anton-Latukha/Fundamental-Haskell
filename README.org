@@ -12931,6 +12931,8 @@ When compiler detects types have same structure, type class instances coerse imp
 
 Coercible
 
+** Universal/Existential quantification
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
