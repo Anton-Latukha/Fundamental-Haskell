@@ -12936,6 +12936,8 @@ Coercible
 \( \forall \) Universal quantifier - a general solution.
 \( \exists \) Existential quantifier - a local solution.
 
+Haskell existentials are always result in throwing aways type information.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
