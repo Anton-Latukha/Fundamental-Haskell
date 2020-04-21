@@ -12941,6 +12941,10 @@ Coercible
 \( \forall \) and \( \exists \) are tao-dual:
 \( \forall A_{}(x) \ : \ B \ \iff \exists B(x) \ : \ A \)
 
+In Haskell with RankNTypes types that have:
+\forall before \Rightarrow universal
+\forall after \Rightarrow existential
+
 Haskell existentials are always result in throwing aways type information.
 
 Useful to be able to work with data from at external world that we do not know definite type at compile time.
