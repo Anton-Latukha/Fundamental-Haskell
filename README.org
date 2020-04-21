@@ -7774,6 +7774,8 @@ Specifies the quantity of specimens.
 Two most common quantifiers \( \forall \) (Forall) and \( \exists \) (Exists).
 \( \exists ! \) - one and only one (exists only unique).
 
+Turns predicate into statement.
+
 ***** /*/
 
 <<<Quantification>>>
