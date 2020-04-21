@@ -12933,6 +12933,9 @@ Coercible
 
 ** Universal/Existential quantification
 
+\( \forall \) Universal quantifier - a general solution.
+\( \exists \) Existential quantifier - a local solution.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
