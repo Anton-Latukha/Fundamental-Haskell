@@ -12940,6 +12940,8 @@ Haskell existentials are always result in throwing aways type information.
 
 Useful to be able to work with data from at external world that we do not know definite type at compile time.
 
+Some information about existentially quantified type should be preserved to ba able to transrofm it.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
