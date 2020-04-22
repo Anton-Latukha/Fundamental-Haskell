@@ -3232,7 +3232,7 @@ Generalizes the concept of functor between categories, canonical morphisms betwe
 
 Any product or sum in a Cartesian category is a /*/.
 
-In Haskell there is only one category, Hask, so in Haskell /*/ is still \( (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask \) endofunctor.
+In Haskell there is only one category, Hask, so in Haskell /*/ is still endofunctor \( (Hask \times Hask) \rightarrow Hask \Rightarrow | (Hask \times Hask) \equiv Hask | \Rightarrow Hask \rightarrow Hask \).
 
 Code definition:
 #+begin_src haskell
