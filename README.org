@@ -7250,7 +7250,7 @@ SCHT: <2020-03-14 Sat>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:22]
 :end:
 
-Constructing proofs from logical assertions and verifying/checking/asserting things about execution and procedures their properties, such as correctness, safety or security.
+Constructing proofs from axiomatic semantics, verifying procedures and their properties.
 
 Good to solve in-point localized tasks.
 
