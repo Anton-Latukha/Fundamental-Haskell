@@ -3224,11 +3224,11 @@ SCHT: <2020-03-16 Mon>
 
 Functor that takes as an argument the product of types.
 
+Or if combine it with product - accepts multiple argumets, so from that constructs "source" product category (Cartesian product) of categories, and realizes a functor from product category to target category.
+
 Generalizes the concept of functor between categories, canonical morphisms between multicategories.
 
 Works over /N/ type arguments instead of one.
-
-To put simply - accepts multiple argumets, from that informatioin constructs source product category (Cartesian product) of categories, and is a functor from product category to target category.
 
 Any product or sum in a Cartesian category is a /*/.
 
