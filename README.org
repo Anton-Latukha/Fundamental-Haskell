@@ -7254,7 +7254,7 @@ Constructing proofs from axiomatic semantics, verifying procedures and their pro
 
 Good to solve in-point localized tasks.
 
-Process of abstraction.
+Process of working with abstractions.
 
 **** <<<Argument>>> :drill:
 SCHT: <2020-06-12 Fri>
