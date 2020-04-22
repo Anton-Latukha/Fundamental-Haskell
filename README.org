@@ -3228,7 +3228,7 @@ Works over /N/ type arguments instead of one.
 
 To put simply - accepts multiple argumets, from that informatioin constructs source product category (Cartesian product) of categories, and is a functor from product category to target category.
 
-To put even simplier - functor that takes as an argument the product of types.
+To simplify even more - functor that takes as an argument the product of types.
 
 Any product or sum in a Cartesian category is a /*/.
 
