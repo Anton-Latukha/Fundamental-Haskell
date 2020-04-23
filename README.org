@@ -5062,6 +5062,8 @@ Refers to an unspecified type in Haskell type signature.
 
 In Haskell parametric polymorphism keeps a naturality condition.
 
+In Haskell are always introduced with keyword =forall= explicit or implicit.
+
 *** <<<Unlifted type>>> :drill:
 SCHT: <2020-07-27 Mon>
 :properties:
