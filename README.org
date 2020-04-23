@@ -12960,6 +12960,8 @@ Because the consumer chooses the type the variable inside function body is quant
 
 If variable is existentially quantified - the type of it treated as it is already determined, and consumer can not reify it - consumer must accept and process the full existential type as it is.
 
+Since the consumer is not involved into the choosing of the type - the variable inside function body quantified universally.
+
 Haskell existentials are always result in throwing aways type information.
 
 Useful to be able to work with data from at external world that we do not know definite type at compile time.
