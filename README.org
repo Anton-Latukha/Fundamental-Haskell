@@ -9541,6 +9541,15 @@ f x =
 
 <<<Where clause>>>
 
+**** <<<forall>>> :drill:
+:properties:
+:ID:       e202163e-f38d-4bc7-9173-8f391b14d188
+:end:
+
+In Haskell type variables are always introduced with it, explicitly or implicitly.
+
+=forall= means that it will unify/fixed to any type that consumer may choose. 
+
 *** <<<Haskell Language Report>>> :drill:
 :properties:
 :ID:       6f26be1d-e057-4bcf-ad63-3e404e78db1f
