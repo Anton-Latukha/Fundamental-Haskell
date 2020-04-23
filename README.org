@@ -12977,6 +12977,8 @@ There are three general degrees how much type information for existential to pre
 
   * (low) - use existential variable as is, the use in the code would place it's own constrants (like =[a]=) and so the abilities to do something with that type variables.
   * (medium) - povide type class constraints.
+  * (high) - store existential in parameterized GADT, store type information in GADT constructors, do things and and then restore the type information on pattern match on main GADT constructor and get secondary type.
+
 Additional reading: https://markkarpov.com/post/existential-quantification.html
 
 * Reference
