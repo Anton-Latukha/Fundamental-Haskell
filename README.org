@@ -12967,7 +12967,7 @@ Since the consumer is not involved into the choosing of the type - the variable 
 
 Haskell existentials are always result in throwing aways type information.
 
-Useful to be able to work with data from at external world that we do not know definite type at compile time.
+Gives ability to work with data from at external world that we do not know definite type at compile time.
 
 Some information about existentially quantified type should be preserved to be able to transrofm it.
 
