@@ -12939,8 +12939,8 @@ Coercible
 \( \forall \) Universal quantifier - a general property exists. Global solution.
 \( \exists \) Existential quantifier - evidence means general property, a local solution.
 
-\( \forall \) and \( \exists \) are tao-dual:
 \( \forall A_{}(x) \ : \ B \ \iff \exists B(x) \ : \ A \)
+\( \forall \) and \( \exists \) are dualistic. Especially in Haskell universal type inside function structure has existential-like properties and backwards, existential type has universal-like properties inside function implementation.
 
 In Haskell with RankNTypes types that have:
 \forall before \Rightarrow universal
