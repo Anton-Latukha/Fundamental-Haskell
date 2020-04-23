@@ -12941,7 +12941,7 @@ Coercible
 
 \( \forall \) and \( \exists \) are dualistic. Especially in Haskell universal type inside function structure has existential-like properties and backwards, existential type has universal-like properties inside function implementation.
 
-In Haskell with RankNTypes types that have:
+Haskell RankNTypes option enables:
 ~forall ... =>~ - universal
 ~=> ... forall~ - existential
 
