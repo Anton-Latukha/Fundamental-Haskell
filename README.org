@@ -12936,8 +12936,8 @@ Coercible
 
 ** Universal/Existential quantification
 
-\( \forall \) Universal quantifier - a general solution.
 \( \exists \) Existential quantifier - a local solution.
+\( \forall \) Universal quantifier - a general property exists. Global solution.
 
 \( \forall \) and \( \exists \) are tao-dual:
 \( \forall A_{}(x) \ : \ B \ \iff \exists B(x) \ : \ A \)
