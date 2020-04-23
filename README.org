@@ -5059,9 +5059,7 @@ f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. T
 :ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
 :end:
 
-Refers to an unspecified type in Haskell type signature.
-
-In Haskell parametric polymorphism keeps a naturality condition.
+Refers to an unspecified parametric polymorphic type (maybe with ad-hoc polymorphism constraints) (keeps a naturality condition) in Haskell type signature.
 
 In Haskell are always introduced with keyword =forall= explicit or implicit.
 
