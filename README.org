@@ -12975,6 +12975,7 @@ Existential wrappers make possible from a function to return existentially quant
 
 There are three general degrees how much type information for existential to preserve:
 
+  * (low) - use existential variable as is, the use in the code would place it's own constrants (like =[a]=) and so the abilities to do something with that type variables.
 Additional reading: https://markkarpov.com/post/existential-quantification.html
 
 * Reference
