@@ -832,7 +832,6 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#-179][/*/]]
       - [[#where][<<<where>>>]]
         - [[#-180][/*/]]
-      - [[#forall][<<<forall>>>]]
     - [[#haskell-language-report][<<<Haskell Language Report>>>]]
       - [[#-181][/*/]]
     - [[#haskell][<<<Haskell'>>>]]
@@ -7801,6 +7800,10 @@ SCHT: <2020-08-16 Sun>
 :DRILL_LAST_REVIEWED: [2020-03-08 Sun 23:04]
 :end:
 
+In Haskell type variables are always introduced with it, explicitly or implicitly.
+
+=forall= means that it will unify/fixed to any type that consumer may choose. 
+
 Permits to not infer the type, but to use any that fits. The variant depends on the LANGUAGE option used:
   * ScopedTypeVariables
   * RankNTypes
@@ -9540,15 +9543,6 @@ f x =
 ***** /*/
 
 <<<Where clause>>>
-
-**** <<<forall>>> :drill:
-:properties:
-:ID:       e202163e-f38d-4bc7-9173-8f391b14d188
-:end:
-
-In Haskell type variables are always introduced with it, explicitly or implicitly.
-
-=forall= means that it will unify/fixed to any type that consumer may choose. 
 
 *** <<<Haskell Language Report>>> :drill:
 :properties:
