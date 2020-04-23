@@ -832,6 +832,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#-179][/*/]]
       - [[#where][<<<where>>>]]
         - [[#-180][/*/]]
+      - [[#forall][<<<forall>>>]]
     - [[#haskell-language-report][<<<Haskell Language Report>>>]]
       - [[#-181][/*/]]
     - [[#haskell][<<<Haskell'>>>]]
@@ -9464,6 +9465,7 @@ Training                --  Collect study and learning materials
 :end:
 
 Haskell has special meaning for:
+
 #+begin_src text
 case, class, data, deriving, do,else, if, import,
 in, infix, infixl, infixr, instance, let,
