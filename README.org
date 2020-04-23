@@ -12973,6 +12973,8 @@ Some information about existentially quantified type should be preserved to be a
 
 Existential wrappers make possible from a function to return existentially quantified data. Wrapper allows to avoid unification with outer context and "escape" type variable.
 
+There are three general degrees how much type information for existential to preserve:
+
 Additional reading: https://markkarpov.com/post/existential-quantification.html
 
 * Reference
