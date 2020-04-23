@@ -12952,6 +12952,7 @@ Haskell RankNTypes option enables:
 ~forall ... =>~ - universal
 
 If variable is universally quantified - the consumer of it can choose the type.
+
 ~=> ... forall~ - existential
 
 Haskell existentials are always result in throwing aways type information.
