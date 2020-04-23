@@ -12955,6 +12955,8 @@ If variable is universally quantified - the consumer of it can choose the type.
 
 ~=> ... forall~ - existential
 
+If variable is existentially quantified - the type of it treated as it is already determined, and consumer can not reify it - consumer must accept and process the full existential type as it is.
+
 Haskell existentials are always result in throwing aways type information.
 
 Useful to be able to work with data from at external world that we do not know definite type at compile time.
