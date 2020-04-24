@@ -12985,6 +12985,8 @@ Additional reading: https://markkarpov.com/post/existential-quantification.html
 
 Propagator is a monotone function between join-semilattices.
 
+Where semilattices are amount of information about individual values. As information on input gained - the information on output only grows.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
