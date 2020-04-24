@@ -12981,6 +12981,8 @@ There are three general degrees how much type information for existential to pre
 
 Additional reading: https://markkarpov.com/post/existential-quantification.html
 
+** Propagator
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
