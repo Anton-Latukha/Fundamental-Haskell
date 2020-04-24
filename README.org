@@ -12983,6 +12983,8 @@ Additional reading: https://markkarpov.com/post/existential-quantification.html
 
 ** Propagator
 
+Propagator is a monotone function between join-semilattices.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
