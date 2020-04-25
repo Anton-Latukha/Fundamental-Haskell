@@ -12989,6 +12989,8 @@ Where semilattices are amount of information about individual values. As informa
 
 Join-semilattice is a idempotent commutative monoid.
 
+If there is a system of nodes that each are join semilatice, and proparators are transformations that move information betwen them, and so transmit the information to all of them and bring the system into stable state. Number of times propagator with informaiton fired is not important - because it is idempotent. Order of propagators in the network firing is not important - it is commutative.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
