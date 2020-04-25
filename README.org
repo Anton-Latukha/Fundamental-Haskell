@@ -9951,9 +9951,9 @@ When there are internall type signatures provided in the code block (=where=, =l
 
 /*/ option provides the lexical scope inside the code block for type variables that have forall quantifier. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
 
-For details see: https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html
-
 Implies ExplicitForAll.
+
+See: [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#lexically-scoped-type-variables][GHC documentation]], [[https://ocharles.org.uk/guest-posts/2014-12-20-scoped-type-variables.html][explanation blogpost]], [[https://typeclasses.com/ghc/scoped-type-variables][typeclasses article]].
 
 ****** <<<TupleSections>>> :drill:
 SCHT: <2020-09-18 Fri>
