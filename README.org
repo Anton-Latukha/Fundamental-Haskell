@@ -9942,6 +9942,10 @@ Allows =forall= quantifier:
 
 By default type variables do not have a scope except inside type signatures where they are used.
 
+Extension allows:
+  * explicitly =forall= quantified type variables broad the scope to the internals of implementation.
+  * pattern type signatures can use =::= to denote a type signature within a pattern.
+
 When there are internall type signatures provided in the code block (=where=, =let=, etc.) they (main type description of a function and internal type descriptions) restrain one-another and become not trully polymorphic, which creates a bounding interdependency of types that GHC would complain about.
 
 /*/ option provides the lexical scope inside the code block for type variables that have forall quantifier. Because they are now lexiacally scoped - those type variables are used across internal type signatures.
