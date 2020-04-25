@@ -12987,6 +12987,8 @@ Propagator is a monotone function between join-semilattices.
 
 Where semilattices are amount of information about individual values. As information on input gained - the information on output only grows.
 
+Join-semilattice is a idempotent commutative monoid.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
