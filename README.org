@@ -1209,6 +1209,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#-227][/*/]]
   - [[#universalexistential-quantification][Universal/Existential quantification]]
     - [[#use-of-existentials][Use of existentials]]
+  - [[#propagator][Propagator]]
 - [[#reference][Reference]]
   - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
     - [[#-228][/*/]]
