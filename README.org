@@ -12993,6 +12993,8 @@ If there is a system of nodes that each are join semilatice, and proparators are
 
 Under side-condition for termination (provenance) (information fullness/volume, network becoming stationatry or passing some check) - the network terminates and give a deterministic answer.
 
+Provenance - a ad-hoc rules to determine the probability of recieving an close to trueth result from number of different approaches and informaiton sources. Also solves the contradictory data and raises the question of deciding between the contradictory world views: what is the least ... to get the most accurate estimates ....
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
