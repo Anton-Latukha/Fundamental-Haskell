@@ -13008,6 +13008,8 @@ GADTs are fit 5-10% of the code.
 
 Proving the easy targets & most needed ones allows much assurance and makes testing coverage more sufficcient.
 
+Liquid Haskell are useful and its refinment types. [[https://www.youtube.com/watch?v=vYh27zz9530][Ideas presentation]].
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
