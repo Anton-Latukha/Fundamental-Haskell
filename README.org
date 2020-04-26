@@ -11905,7 +11905,7 @@ Instances for data type can differentiate by constraints & types of arguments. S
 
 Default ot =mtl=.
 
-=Transformers= is Haskell-98, doesn't have funcitonal dependencies, lacks the monad classes, has manual lift of operations to the composite monad.
+=Transformers= is Haskell 98, doesn't have funcitonal dependencies, lacks the monad classes, has manual lift of operations to the composite monad.
 
 =MTL= extends =trasformers=, providing more instances, features and possibilities, may include alternative packages features as =mtl-tf=.
 
