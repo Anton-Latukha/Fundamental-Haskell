@@ -13048,9 +13048,9 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 <<<Applicative-Monad proposal>>>
 <<<AMP>>>
 
-** Haskell-98
+*** Haskell-98
 
-*** <<<Old instance termination rules>>>
+**** <<<Old instance termination rules>>>
 
   1. \forall class constraint (C t1 .. tn):
     1.1. type variables have occurances \le head
