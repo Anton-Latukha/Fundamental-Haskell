@@ -8035,7 +8035,7 @@ Example: Start and Stop buttons on machines.
 
 In algebra:
   * set S
-  * two binary operators + \times:
+  * two binary operators + \times
 
   * \( x \times (y + z) = (x \times y) + (x \times z) \) - \times is left-distributive over +
   * \( (y + z) \times x = (y \times x) + (z \times x) \) - \times is right-distributive over +
