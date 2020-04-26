@@ -13016,6 +13016,8 @@ You want confluence regardless of totality.
 
 Metaprogramming in Haskell is mainly done through Template Haskell wich is too hard and clunky to work with, due to hard syntax structure.
 
+Unproven Collatz conjecture is a classical computation halting problem. (If x_{i} is even => x_{i+1} = 3x_{i}+1, if odd => x_{i+1} = x_{i}/2.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
