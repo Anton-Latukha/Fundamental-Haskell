@@ -13062,6 +13062,8 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 *** [[https://github.com/Gabriel439/post-rfc/blob/master/sotu.md]["State of the Haskell ecosystem"]]
 (Gabriel Gonzalez & contributors)
 
+Good per-direction information on state of Haskell ecosystem.
+
 *** Performance results and comparisons of types & solutions
 [[https://github.com/haskell-perf][Haskell performance]]
 
