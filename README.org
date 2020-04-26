@@ -13075,8 +13075,8 @@ In 2002 "Haskell 98" had a minor revision. Next Haskell Report is "Haskell 2010"
 
 Good per-direction information on state of Haskell ecosystem.
 
-*** Performance results and comparisons of types & solutions
-[[https://github.com/haskell-perf][Haskell performance]]
+*** [[https://github.com/haskell-perf]["Haskell performance"]] tools, processes, comparisons, data, information, guides
+(community)
 
 ** Literature
 
