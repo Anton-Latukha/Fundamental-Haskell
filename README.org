@@ -1314,17 +1314,17 @@ An underlying set with /*/ on top of it also called "an algebra".
 <<<Algebraic structures>>>
 
 **** <<<Fundamental theorem of algebra>>> :drill:
-SCHT: <2020-04-23 Thu>
+SCHT: <2020-08-07 Fri>
 :properties:
 :ID:       c44040e1-2dcf-4f25-9dee-05fd95337dc2
-:DRILL_LAST_INTERVAL: 45.2687
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 13
+:DRILL_LAST_INTERVAL: 103.2126
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 14
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.308
+:DRILL_AVERAGE_QUALITY: 3.357
 :DRILL_EASE: 2.28
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:59]
 :end:
 
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
@@ -2588,8 +2588,17 @@ SCHT: <2020-05-14 Thu>
 Category \( \mathcal{C} \) comonad is a monad of opposite category \( \mathcal{C}^{op} \).
 
 ****** <<<Kleisli arrow>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       0210aefe-3d66-4279-be2d-d323eef71954
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
 :end:
 
 Morphism that while doing computation also adds monadic-able structure.
@@ -2662,8 +2671,17 @@ Kleisli category \( \mathcal{C}_{T} \) of \( \mathcal{C} \):
 :end:
 
 ******* <<<Identity monad>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       dda1f03b-a476-48eb-894b-06d18733297b
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:00]
 :end:
 
 Wraps data in the Identity constructor.
@@ -3396,8 +3414,17 @@ mempty <> x = x
 #+end_src
 
 ******* <<<Monoid right identity property>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
 :end:
 
 #+begin_src haskell
@@ -3581,17 +3608,17 @@ Composed with other morphism gives same morphism.
 Corresponds to Reflexivity and Automorphism.
 
 ***** <<<Identity>>> :drill:
-SCHT: <2020-04-25 Sat>
+SCHT: <2020-08-08 Sat>
 :properties:
 :ID:       ed19af1f-09b7-43a0-82d2-ab30e198ae54
-:DRILL_LAST_INTERVAL: 47.3759
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
+:DRILL_LAST_INTERVAL: 103.2795
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 10
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.556
+:DRILL_AVERAGE_QUALITY: 3.6
 :DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:08]
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:05]
 :end:
 
 Identity only possible with morphism. See Identity morphism.
@@ -3748,8 +3775,17 @@ Categories are isomorphic if there \( R \circ L = ID \)
 <<<Isomorphisms>>>
 
 ***** <<<Lax>>> :drill:
+SCHT: <2020-05-01 Fri>
 :PROPERTIES:
 :ID:       9b9057db-929d-4239-adf9-87c3ae5ee0c5
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :END:
 
 Holds up to isomorphism.
@@ -4247,8 +4283,17 @@ Dual is Product.
 <<<Coproducts>>>
 
 *** <<<Free object>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       5e1469b1-ce93-4f70-a820-2735857d3af7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
 :end:
 
 General particular structure.
@@ -4576,17 +4621,17 @@ SCHT: <2020-06-20 Sat>
 The most generic data type that still typechecks.
 
 *** <<<Product data type>>> :drill:
-SCHT: <2020-04-13 Mon>
+SCHT: <2021-04-26 Mon>
 :properties:
 :ID:       dcca9aba-08e0-4616-8bec-b803bf67f066
-:DRILL_LAST_INTERVAL: 140.2908
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 363.774
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-11-25 Mon 00:18]
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Is an algebraic data type respesentation of a product construction.
@@ -5078,8 +5123,17 @@ f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. T
 <<<Rank-3 types>>>
 
 *** <<<Type variable>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       6f31712e-d46b-4474-bd68-6b3bc2c90309
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:00]
 :end:
 
 Refers to an unspecified parametric polymorphic type (maybe with ad-hoc polymorphism constraints) (keeps a naturality condition) in Haskell type signature.
@@ -5521,8 +5575,17 @@ SCHT: <2020-09-18 Fri>
 Equivalence of a processes in expressions. If expressions have according parameters different, but the internal processes are literally the same process.
 
 *** <<<Ground expression>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       5030cc64-34d8-49d8-896d-fa6e4aeea4ac
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:05]
 :end:
 
 Expression that does not contain any free variables.
@@ -5672,8 +5735,17 @@ Corersponds to isomorphism.
 <<<Bijective function>>>
 
 *** <<<Combinator>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       bf7ce908-9d5d-4a00-ab02-e7b33edd2c76
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
 :end:
 
 Function without free variables.
@@ -5793,8 +5865,17 @@ Is a part with name of the function and it's paramenters.
 AKA: \( f(x) \)
 
 *** <<<Function range>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       15fbd0e9-f327-4065-872e-23713f79ec12
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 The range of a function refers to either the codomain or the image of the function, depending upon usage. Modern usage almost always uses range to mean image.
@@ -6002,8 +6083,17 @@ SCHT: <2020-07-21 Tue>
 /*/ - having variable arity (often up to indefinite).
 
 *** <<<Domain>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       61416c64-6cbf-4af4-9428-ad6f79e76701
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Source set of a function.
@@ -6185,8 +6275,17 @@ Part of function parameters applied.
 <<<Partially applied>>>
 
 *** <<<Well-formed formula>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       714fb9d5-19c8-44ba-9927-eccce436a1f3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Expression, logical function that is/can produce a proposition.
@@ -6216,8 +6315,17 @@ Natural transformation is a homotopy of functors.
 <<<Homotopic>>>
 
 ** <<<Lambda calculus>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       f484ba96-5cb1-45d2-9265-25130f62361c
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Universal model of computation. Which means /*/ can implement any Turing machine.
@@ -7541,8 +7649,17 @@ Void
 #+end_src
 
 ****** Value :drill:
+SCHT: <2020-05-01 Fri>
 :PROPERTIES:
 :ID:       04e4ee4a-a53e-4ce6-b58c-5a315ff077d3
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:00]
 :END:
 #  2020-02-27: NOTE: Org-mode seems to break on radio target having 'Value' value.
 
@@ -7697,8 +7814,17 @@ Takes no entries (for example has the arity of zero).
 Has the trivial domain.
 
 **** <<<Syntax tree>>> :drill:
+SCHT: <2020-05-01 Fri>
 :PROPERTIES:
 :ID:       f4312216-c6b9-461f-bf8e-ef446a5cbcc1
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:01]
 :END:
 
 Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular expression/implementation (or said).
@@ -7977,8 +8103,17 @@ The initial point, unreducible axioms and terms that spawn a theory.
 AKA see Category theory, or Euclidian geometry basis.
 
 ****** <<<Contravariant>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       d1f3dc34-f7b9-4284-b417-16b26860248a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:03]
 :end:
 
 The property of basis, in which if new basis is a linear combination of the prior basis, and the change of basis inverse-proportional for the description of a Tensors in this basisis.
@@ -8020,8 +8155,17 @@ Components for covariant basis denoted in the upper indices:
 <<<Covariant cofunctor>>>
 
 ***** <<<Commutativity>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       8d6b1e5e-a054-4757-b9a8-bb40c07d79fd
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:03]
 :end:
 
 \( \forall (a,b) \in S : \; P(a,b) \equiv P(b,a) \)
@@ -8347,8 +8491,17 @@ Properties:
   * not commutative
 
 **** <<<Pullback>>> :drill:
+SCHT: <2020-05-01 Fri>
 :PROPERTIES:
 :ID:       6c5bf63f-4c92-42c4-a8f2-de638e01effb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:00]
 :END:
 
 Subset of the cartesian product of two sets.
@@ -8648,8 +8801,17 @@ Turing-complete.
 Extension over first-order logic that quantifies over relations.
 
 ******* <<<Higher-order logic>>> :drill:
+SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       b72dbeaa-ea81-4442-956b-5ab009afa82d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:59]
 :end:
 
 Extension over second-order logic that uses additional quantifiers, stronger semantics.
@@ -9085,8 +9247,17 @@ instance ...
 <<<Typechecks>>>
 
 ****** <<<Complete user-specific kind signature>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       a510aee8-b732-4022-bd77-bb08f7383e04
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:01]
 :end:
 
 Type level declaration is considered to "have a CUSK" is it has enough syntatic information to warrant completeness (strongly connected graph) and start checking type level correspondence to term level, it is a ad-hock state ot type inferring.
@@ -9534,8 +9705,17 @@ of, module, newtype, then, type, where
 <<<Reserved words>>>
 
 **** <<<import>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       3114f612-aa52-4a50-9378-c4697b0635b6
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 =import= statement by default imports identifiers from the other module, using hierarchical module name, brings into scope the identifiers to the global scope both into unqualified and qualifies by the hierarchical module name forms.
@@ -9746,15 +9926,33 @@ The only way it shows up at the source level is that you can have a =do= express
 It is possible to see the actual translation by using =-ddump-ds=.
 
 ****** <<<ConstrainedClassMethods>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       301a3741-f96c-45a7-bb14-7e342167b62d
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Enable the definition of further constraints on individual class methods.
 
 ****** <<<CPP>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       4209a57c-e331-4c03-9386-b08d2cfd33d7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:00]
 :end:
 
 Enable [[https://en.wikipedia.org/wiki/C_preprocessor][C preprocessor]].
@@ -10660,8 +10858,17 @@ Immidiate predecessor.
 
 
 *** <<<Degree>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       51b34488-d123-4228-b806-5bb02ce0384e
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
 :end:
 
 Number of arrows of object.
@@ -10674,8 +10881,17 @@ Number of arrows of object.
 Number of ingoing arrows.
 
 **** <<<Outdegree>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       44e08d7b-af1a-4d4d-a9e2-1af7165ec7c7
+:DRILL_LAST_INTERVAL: 4.0
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.5
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:05]
 :end:
 
 Number of outgoinf arrows.
@@ -10696,8 +10912,17 @@ Allow adding type signatures to type class function instance declaration.
 
 
 *** <<<Strongly connected>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       e505d89b-4675-48d9-98be-1bda838a069d
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 If every vertex in a graph is reachable from every other vertex.
@@ -11756,8 +11981,17 @@ Many languages and Haskell have it all mixup. Here is table showing what belongs
 =let ... in ...= is a separate expression. In contrast, =where= is bound to a surrounding syntactic construct (namespace).
 
 ** <<<Good: RankNTypes>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       f13bc2c3-be6c-4bde-96c9-09c9447a1c94
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:04]
 :end:
 
 Can powerfully synergyze with ScopedTypeVariables.
@@ -11903,8 +12137,17 @@ newtype WriterT w m a =
 =State= trait fully replaces =writer=.
 
 ** <<<Good: Working with MonadTrans and lift>>> :drill:
+SCHT: <2020-05-01 Fri>
 :properties:
 :ID:       052f4701-8343-4b6c-af42-b45818a00595
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:03]
 :end:
 
 From the =lift . pure = pure= follows that =MonadTrans= type can have a =pure= defined with =lift=.
