@@ -13021,7 +13021,7 @@ Unproven Collatz conjecture is a classical computation halting problem. (If x_{i
 * Reference
 
 ** History
-** <<<Functor-Applicative-Monad Proposal>>> :drill:
+*** <<<Functor-Applicative-Monad Proposal>>> :drill:
 :properties:
 :ID:       bfe7e9bf-1683-433d-949f-0c4240226074
 :end:
@@ -13043,7 +13043,7 @@ Also, a side-kick - Alternative became a superclass of MonadPlus. Hense:
 
 Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/proposal/monad-of-no-return
 
-*** /*/
+**** /*/
 
 <<<Applicative-Monad proposal>>>
 <<<AMP>>>
