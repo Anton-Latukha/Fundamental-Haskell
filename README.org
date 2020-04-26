@@ -8028,7 +8028,7 @@ Example: Start and Stop buttons on machines.
 <<<Idempotent>>>
 <<<Idempotency>>>
 
-***** <<<Distributive property>>> :drill:
+***** <<<Distributive>>> :drill:
 :properties:
 :ID:       6ea04559-091b-4151-b190-e97a88bb317a
 :end:
