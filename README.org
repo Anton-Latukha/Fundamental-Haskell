@@ -3777,17 +3777,17 @@ Arrow from object to itself.
 Endomorphism forms a monoid (object exists and category requirements already in place).
 
 ***** <<<Automorphism>>> :drill:
-SCHT: <2020-04-10 Fri>
+SCHT: <2020-06-28 Sun>
 :properties:
 :ID:       fc880a3b-0339-4a6f-bffc-5d6c4c4eb1ae
-:DRILL_LAST_INTERVAL: 32.146
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 63.199
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.364
+:DRILL_AVERAGE_QUALITY: 3.417
 :DRILL_EASE: 2.0
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:53]
 :end:
 
 \textgreek{αυτο} /auto/ self
@@ -3868,17 +3868,17 @@ Expanding and collapsing the structure.
 <<<Hylomorphisms>>>
 
 ***** <<<Anamorphism>>> :drill:
-SCHT: <2020-04-04 Sat>
+SCHT: <2020-07-31 Fri>
 :properties:
 :ID:       731c7b76-f46b-478f-87c0-4c24cb3f8c5c
-:DRILL_LAST_INTERVAL: 44.0524
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 11
+:DRILL_LAST_INTERVAL: 96.0342
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 12
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 2.818
+:DRILL_AVERAGE_QUALITY: 2.917
 :DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:36]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:52]
 :end:
 
 Generalizes unfold.
@@ -4035,17 +4035,17 @@ Vertical and horizontal compositions can be done in any order, they abide the ex
 <<<Component of natural transformation>>>
 
 **** <<<Natural transformation in Haskell>>> :drill:
-SCHT: <2020-04-01 Wed>
+SCHT: <2020-06-23 Tue>
 :properties:
 :ID:       60c3a507-2342-4bad-bd8c-f16adb4e9fbb
-:DRILL_LAST_INTERVAL: 22.7451
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 57.5224
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:02]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:51]
 :end:
 
 Family of parametric polymorphism functions between endofunctors.
@@ -4743,17 +4743,17 @@ In most languages typing is name-based, not structural.
 <<<Structural typing>>>
 
 *** <<<Sum data type>>> :drill:
-SCHT: <2020-04-08 Wed>
+SCHT: <2020-07-25 Sat>
 :properties:
 :ID:       debb1f7b-bdbf-4984-8d92-ee34b63dd5dc
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:52]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:53]
 :end:
 
 Algebraic data type formed by logical disjunction (OR '|').
@@ -4997,17 +4997,17 @@ Automatic data type detection for expression.
 <<<Inferred>>>
 
 *** <<<Type class instance>>> :drill:
-SCHT: <2020-03-27 Fri>
+SCHT: <2021-01-31 Sun>
 :properties:
 :ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
-:DRILL_LAST_INTERVAL: 123.9772
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 279.6926
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.6
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:35]
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:49]
 :end:
 
 Block of implementations of functions, based on unique type class->type pairing.
@@ -5948,17 +5948,17 @@ Corresponds to Epimorphism.
 <<<Surjective function>>>
 
 *** <<<Unsafe function>>> :drill:
-SCHT: <2020-03-29 Sun>
+SCHT: <2021-02-16 Tue>
 :properties:
 :ID:       b48b82e3-f86c-4360-a568-727c2500d06c
-:DRILL_LAST_INTERVAL: 125.5079
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 296.1986
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:30]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:50]
 :end:
 
 Function that does not cover at least one edge case.
@@ -6216,17 +6216,17 @@ Based on function abstraction and application by substituting variables and bind
 <<<Lambda terms>>>
 
 *** <<<Lambda cube>>> :drill:
-SCHT: <2020-04-03 Fri>
+SCHT: <2020-06-12 Fri>
 :properties:
 :ID:       9ecad208-0bba-4d09-8906-5f5f76777182
-:DRILL_LAST_INTERVAL: 25.2329
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 10
+:DRILL_LAST_INTERVAL: 47.0089
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 11
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 2.9
-:DRILL_EASE: 1.8
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:55]
+:DRILL_AVERAGE_QUALITY: 3.091
+:DRILL_EASE: 1.9
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:52]
 :end:
 
 λ-cube shows the 3 dimentions of generalizations from simply typed Lambda calculus to Calculus of constructions.
@@ -6945,17 +6945,17 @@ In Haskell - abstract over data types.
 <<<Polymorphic>>>
 
 *** <<<Levity polymorphism>>> :drill:
-SCHT: <2020-04-01 Wed>
+SCHT: <2020-06-23 Tue>
 :properties:
 :ID:       cba719c7-40cf-4fbe-841f-b52909f552b7
-:DRILL_LAST_INTERVAL: 22.7451
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 57.5224
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.46
+:DRILL_AVERAGE_QUALITY: 3.8
+:DRILL_EASE: 2.56
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:07]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:51]
 :end:
 
 Extending polymorphism to work with unlifted and lifted types.
@@ -6993,17 +6993,17 @@ Parametric polymorphism in rank-1 types by type variables.
 <<<Prenex polymorpism>>>
 
 **** <<<Let-bound polymorphism>>> :drill:
-SCHT: <2020-03-31 Tue>
+SCHT: <2020-06-19 Fri>
 :properties:
 :ID:       f415a2f4-8f66-483d-9b75-70b3e5fe4b89
-:DRILL_LAST_INTERVAL: 21.9723
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 53.6783
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.25
-:DRILL_EASE: 2.36
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:08]
+:DRILL_AVERAGE_QUALITY: 3.6
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:51]
 :end:
 
 It is property chosen for Haskell type system.
@@ -7922,17 +7922,17 @@ SCHT: <2020-12-24 Thu>
 /*/ - the operations are grouped from the right.
 
 ***** <<<Non-associative>>> :drill:
-SCHT: <2020-03-29 Sun>
+SCHT: <2020-06-09 Tue>
 :properties:
 :ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
-:DRILL_LAST_INTERVAL: 19.9491
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 44.287
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_AVERAGE_QUALITY: 3.2
 :DRILL_EASE: 2.22
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:50]
 :end:
 
 Operations can't be chained.
@@ -8286,17 +8286,17 @@ Also 1-sequence.
 If there exists normal set of all sets - it should contain itself, which makes it abnormal.
 
 *** <<<Cartesian product>>> :drill:
-SCHT: <2020-04-06 Mon>
+SCHT: <2020-07-15 Wed>
 :properties:
 :ID:       1c2c6ec3-701a-4803-a73a-7564b4ffb298
-:DRILL_LAST_INTERVAL: 28.8322
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 80.2977
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.667
-:DRILL_EASE: 2.7
+:DRILL_AVERAGE_QUALITY: 4.75
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:50]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:52]
 :end:
 
 \( \mathcal{A} \times \mathcal{B} \equiv \sum^{\forall}{(a,b)} \ | \ \forall a \in \mathcal{A}, \forall b \in \mathcal{B} \).
@@ -8658,17 +8658,17 @@ Haskell kind:
 #+end_src
 
 **** <<<Disjunction>>> :drill:
-SCHT: <2020-03-26 Thu>
+SCHT: <2021-06-14 Mon>
 :properties:
 :ID:       beba897a-84ca-42c9-a094-ba48487c587b
-:DRILL_LAST_INTERVAL: 159.6473
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 413.9654
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:35]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:48]
 :end:
 
 Logical \( OR \)
@@ -8683,17 +8683,17 @@ Relates to:
   * (in categories) sum
 
 *** <<<Predicate>>> :drill:
-SCHT: <2020-04-08 Wed>
+SCHT: <2020-07-25 Sat>
 :properties:
 :ID:       6f4b0532-ca5f-4ec6-b827-bceb4afb0d3f
-:DRILL_LAST_INTERVAL: 30.8887
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
+:DRILL_LAST_INTERVAL: 89.5155
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 4
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
+:DRILL_EASE: 2.9
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:51]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:53]
 :end:
 
 Function with Boolean codomain.
@@ -8875,17 +8875,17 @@ f x
 <<<Guards>>>
 
 **** <<<Pattern guard>>> :drill:
-SCHT: <2020-04-09 Thu>
+SCHT: <2020-06-26 Fri>
 :properties:
 :ID:       4ab85a6a-7e60-47fb-996a-c4d5263c3f62
-:DRILL_LAST_INTERVAL: 30.9894
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 17
+:DRILL_LAST_INTERVAL: 60.9252
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 18
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.117
-:DRILL_EASE: 1.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
+:DRILL_AVERAGE_QUALITY: 3.222
+:DRILL_EASE: 2.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:53]
 :end:
 
 Allows check a list of pattern matches against functions, and then proceed.
@@ -9141,17 +9141,17 @@ With =CUSKs= extension <<<kind>>> completeness happens agains "complete user-spe
 <<<Kind checks>>>
 
 *** <<<Orphan instance>>> :drill:
-SCHT: <2020-03-26 Thu>
+SCHT: <2020-12-27 Sun>
 :properties:
 :ID:       9a4837d3-82e9-49f1-860d-e198013a60b5
-:DRILL_LAST_INTERVAL: 117.6412
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 244.6937
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_AVERAGE_QUALITY: 3.286
 :DRILL_EASE: 2.08
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:38]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:49]
 :end:
 
 Situation when module provides type class but does not provide instance for some publically used type.
@@ -9985,17 +9985,17 @@ Allow tuple section syntax:
 #+end_src
 
 ****** <<<TypeApplications>>> :drill:
-SCHT: <2020-04-03 Fri>
+SCHT: <2020-06-25 Thu>
 :properties:
 :ID:       d5912c99-9c72-44ad-8577-a02f7d31671f
-:DRILL_LAST_INTERVAL: 25.2548
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 59.5256
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.2
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:09]
+:DRILL_AVERAGE_QUALITY: 3.167
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:52]
 :end:
 
 Allow type application syntax:
@@ -10041,17 +10041,17 @@ Permit instances which may lead to type-checker non-termination.
 GHC has Instance termination rules regardless of FlexibleInstances FlexibleContexts.
 
 ****** <<<ViewPatterns>>> :drill:
-SCHT: <2020-03-28 Sat>
+SCHT: <2020-05-23 Sat>
 :properties:
 :ID:       cbd923fc-d36c-4953-a8dc-ca370eda11f0
-:DRILL_LAST_INTERVAL: 18.7966
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 27.0671
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.072
+:DRILL_AVERAGE_QUALITY: 3.134
 :DRILL_EASE: 1.44
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:00]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:49]
 :end:
 
 #+begin_src haskell
@@ -10244,17 +10244,17 @@ Point of mutual meeting. Code behind interface determines how data is consumed.
 Importable organizational unit.
 
 *** <<<Scope>>> :drill:
-SCHT: <2020-03-26 Thu>
+SCHT: <2021-06-14 Mon>
 :properties:
 :ID:       a2989c15-2adc-403a-add7-35855e9de65c
-:DRILL_LAST_INTERVAL: 159.6473
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 413.9654
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.2
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:25]
+:DRILL_AVERAGE_QUALITY: 4.333
+:DRILL_EASE: 2.62
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:48]
 :end:
 
 Area where binds are accessible.
@@ -11770,17 +11770,17 @@ Maps - left-biased union.
 Number - =Sum=, =Product= form separate monoid categories.
 
 ** <<<Good: Free monad>>> :drill:
-SCHT: <2020-03-30 Mon>
+SCHT: <2020-06-14 Sun>
 :properties:
 :ID:       e5c45f71-de00-48fb-bb31-a65a2893abdc
-:DRILL_LAST_INTERVAL: 21.1996
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 48.7167
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.0
-:DRILL_EASE: 2.22
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:07]
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:50]
 :end:
 
 The main case of usage of Free monads in Haskell:
@@ -12775,17 +12775,17 @@ Proposition considered =True= due to direct evidence of existence through constr
 <<<Constructive logic>>>
 
 ** <<<Principle of explosion>>> :drill:
-SCHT: <2020-04-01 Wed>
+SCHT: <2020-05-07 Thu>
 :PROPERTIES:
 :ID:       0ef25f89-1023-480a-8f5f-e075960d9385
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:13]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:51]
 :END:
 
 If asserted statement contains some error or contradiction - anything can be proven trough it.
