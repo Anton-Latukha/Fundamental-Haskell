@@ -9794,7 +9794,7 @@ Enable GHC’s =newtype= cunning generalised deriving mechanism.
 newtype Dollars = Dollars Int
   deriving (Eq, Ord, Show, Read, Enum, Num, Real, Bounded, Integral)
 #+end_src
-(In old Haskell-98 only Eq, Ord, Enum could been inherited.)
+(In old Haskell 98 only Eq, Ord, Enum could been inherited.)
 
 ****** <<<ImplicitParams>>> :drill:
 SCHT: <2020-07-04 Sat>
