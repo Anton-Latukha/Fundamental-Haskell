@@ -8041,6 +8041,8 @@ In algebra:
   * \( (y + z) \times x = (y \times x) + (z \times x) \) - \times is right-distributive over +
   * left-&right-distributive - \times is distributive over +
 
+If \times has commutative property - it is two-side distributive over +.
+
 ****** /*/
 
 <<<Distributive rule>>>
