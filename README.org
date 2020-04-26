@@ -13053,6 +13053,8 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 
 *** Haskell 98
 
+In 1998 first solid reference standartization of language was created. Main purpose is that implementors can be committed to rely and support Haskell 98 exactly as it is specified.
+
 **** <<<Old instance termination rules>>>
 
   1. \forall class constraint (C t1 .. tn):
