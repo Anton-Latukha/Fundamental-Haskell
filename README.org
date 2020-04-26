@@ -13012,6 +13012,8 @@ Liquid Haskell are useful and its refinment types. [[https://www.youtube.com/wat
 
 There is relatively rough idea that codata should use laziness and data should use strictness, which is not really true because there is a lot of cases where being lazy on strict data allows to tramendeusly shorten the computation for data.
 
+You want confluence regardless of totality.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
