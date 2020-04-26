@@ -13006,6 +13006,8 @@ Provenance - a ad-hoc rules to determine the probability of recieving an close t
 Dependent types are used in teoretically complex code, in 1-2% of it.
 GADTs are fit 5-10% of the code.
 
+Proving the easy targets & most needed ones allows much assurance and makes testing coverage more sufficcient.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
