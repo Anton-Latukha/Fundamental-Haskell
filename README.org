@@ -6985,7 +6985,7 @@ SCHT: <2020-04-12 Sun>
 :DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
 :end:
 
-Parametric polymorphism in rank-1 types by type variables.
+Parametric polymorphism by type variables of rank-1 types.
 
 ***** /*/
 
