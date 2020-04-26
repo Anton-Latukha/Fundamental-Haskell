@@ -8677,6 +8677,11 @@ Denotation:
 
 Summs cardinalities.
 
+Relates to:
+  * (in sets) union
+  * (in algebra) addition
+  * (in categories) sum
+
 *** <<<Predicate>>> :drill:
 SCHT: <2020-04-08 Wed>
 :properties:
