@@ -13048,7 +13048,7 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
 <<<Applicative-Monad proposal>>>
 <<<AMP>>>
 
-*** Haskell-98
+*** Haskell 98
 
 **** <<<Old instance termination rules>>>
 
