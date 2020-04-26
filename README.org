@@ -1405,17 +1405,17 @@ In majority of cases under object is a state and morphism is a change.
 <<<Categories>>>
 
 *** <<<Abelian category>>> :drill:
-SCHT: <2020-04-13 Mon>
+SCHT: <2020-07-11 Sat>
 :properties:
 :ID:       dfd74db1-0c16-430d-83b7-8dcc2fb16d34
-:DRILL_LAST_INTERVAL: 34.6157
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 76.1545
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 5
-:DRILL_AVERAGE_QUALITY: 3.214
+:DRILL_AVERAGE_QUALITY: 3.266
 :DRILL_EASE: 2.2
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:56]
 :end:
 
 Generalised category for homological algebra (having a possibility of basic constructions and techniques for it).
@@ -3460,17 +3460,17 @@ Monoid that has inverse for every element.
 <<<Groups>>>
 
 ******* <<<Commutative group>>> :drill:
-SCHT: <2020-04-22 Wed>
+SCHT: <2020-05-27 Wed>
 :properties:
 :ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
-:DRILL_LAST_INTERVAL: 11.1407
-:DRILL_REPEATS_SINCE_FAIL: 3
-:DRILL_TOTAL_REPEATS: 2
+:DRILL_LAST_INTERVAL: 31.1271
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
 :DRILL_FAILURE_COUNT: 0
 :DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.7
+:DRILL_EASE: 2.8
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-11 Sat 21:01]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:56]
 :end:
 
 Commutative monoid that is a group.
@@ -4530,17 +4530,17 @@ Type that take more types as arguments.
 <<<Higher-kinded data types>>>
 
 *** <<<newtype declaration>>> :drill:
-SCHT: <2020-04-12 Sun>
+SCHT: <2021-04-18 Sun>
 :properties:
 :ID:       f9bbca43-6672-48e8-8d1c-af323786efc2
-:DRILL_LAST_INTERVAL: 140.3838
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 357.4172
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.46
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:24]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.56
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
 :end:
 
 Create a new type from old type by attaching a new constructor, allowing type class instance declaration.
@@ -4611,8 +4611,17 @@ C { r1 :: T1
 <<<Product type>>>
 
 **** <<<Sequence>>> :drill:
+SCHT: <2020-04-30 Thu>
 :PROPERTIES:
 :ID:       ce72c132-c2e8-4d14-bac6-4b399735c7fa
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
 :END:
 
 Enumerated (ordered) set.
@@ -4651,8 +4660,17 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 <<<Ordered triple>>>
 
 ***** <<<List>>> :drill:
+SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       935629ed-4dee-43ef-9eff-51de168656d7
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
 :end:
 
 Sequence of one type objects.
@@ -6972,17 +6990,17 @@ Abstracting over data types by parameter.
 Types:
 
 **** <<<Rank-1 polymorphism>>> :drill:
-SCHT: <2020-04-12 Sun>
+SCHT: <2020-07-11 Sat>
 :properties:
 :ID:       5fc7f989-ce41-4150-8301-3328b30fd206
-:DRILL_LAST_INTERVAL: 34.4677
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 14
+:DRILL_LAST_INTERVAL: 76.346
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 15
 :DRILL_FAILURE_COUNT: 4
-:DRILL_AVERAGE_QUALITY: 3.142
-:DRILL_EASE: 2.14
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
+:DRILL_AVERAGE_QUALITY: 3.266
+:DRILL_EASE: 2.24
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:56]
 :end:
 
 Parametric polymorphism by type variables of rank-1 types.
@@ -8029,8 +8047,17 @@ Example: Start and Stop buttons on machines.
 <<<Idempotency>>>
 
 ***** <<<Distributivity>>> :drill:
+SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       6ea04559-091b-4151-b190-e97a88bb317a
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
 :end:
 
 In algebra:
@@ -8191,8 +8218,17 @@ Self-referencing definition.
 /Antonym - Predicative./
 
 *** <<<Context-free grammar>>> :drill:
+SCHT: <2020-04-30 Thu>
 :PROPERTIES:
 :ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
 :END:
 
 Type of formal grammar that is: a set of production rules that describe all possible string is a given formal language.
@@ -8621,8 +8657,17 @@ Extension over second-order logic that uses additional quantifiers, stronger sem
 Is more expressive, but model-theoretic properties are less well-behaved.
 
 *** <<<Logical connective>>> :drill:
+SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       0e5b50bc-8b00-463f-b9ad-f04fd3a525ac
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
 :end:
 
 Logical operation.
@@ -11601,17 +11646,17 @@ SCHT: <2020-12-24 Thu>
 Typed holes help build code in complex situations.
 
 ** <<<Good: Haskell allows infinite terms but not infinite types>>> :drill:
-SCHT: <2020-04-19 Sun>
+SCHT: <2020-09-28 Mon>
 :properties:
 :ID:       6299a8fe-2bb5-4d63-94a6-4aa8561027ad
-:DRILL_LAST_INTERVAL: 59.4154
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 154.9554
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.876
-:DRILL_EASE: 2.52
+:DRILL_AVERAGE_QUALITY: 4.001
+:DRILL_EASE: 2.62
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-02-20 Thu 22:37]
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
 :end:
 
 That is why infinite types throw infinite type error.
@@ -11760,8 +11805,17 @@ Assume that the functions would return the right result.
 
 
 ** <<<Good: Monoid>>> :drill:
+SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       fcafc131-d995-4712-8fa7-35ea6668cd27
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
 :end:
 
 =<>=:
