@@ -13014,6 +13014,8 @@ There is relatively rough idea that codata should use laziness and data should u
 
 You want confluence regardless of totality.
 
+Metaprogramming in Haskell is mainly done through Template Haskell wich is too hard and clunky to work with, due to hard syntax structure.
+
 * Reference
 
 ** <<<Functor-Applicative-Monad Proposal>>> :drill:
