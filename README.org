@@ -13057,13 +13057,13 @@ Work of unification continues under: https://gitlab.haskell.org/ghc/ghc/wikis/pr
     1.3. \not type functions (type func application can expand to arbitrary size)
   2. \forall functional dependencies, ⟨tvs⟩_left \to ⟨tvs⟩_right, of the class, every type variable in S(⟨tvs⟩_right) must appear in S(⟨tvs⟩_left), where S is the substitution mapping each type variable in the class declaration to the corresponding type in the instance head.
 
-** Performance results and comparisons of types & solutions
-[[https://github.com/haskell-perf][Haskell performance]]
-
 ** Resources
 
 *** [[https://github.com/Gabriel439/post-rfc/blob/master/sotu.md]["State of the Haskell ecosystem"]]
 (Gabriel Gonzalez & contributors)
+
+*** Performance results and comparisons of types & solutions
+[[https://github.com/haskell-perf][Haskell performance]]
 
 ** Literature
 
