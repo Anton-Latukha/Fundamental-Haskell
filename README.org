@@ -5041,7 +5041,7 @@ f3 - rannk3-type. Has rank-2 types on the left of a \to.
 f :: Int -> (forall a. a -> a)
 g :: Int -> Ord a => a -> a
 #+end_src
-f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell-98. They are supported in RankNTypes.
+f, g are rank 1. Quantifier appears to the right of an arrow, not to the left. These types are not Haskell 98. They are supported in RankNTypes.
 
 
 **** /*/
