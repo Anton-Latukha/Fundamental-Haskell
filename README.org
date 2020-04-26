@@ -8045,9 +8045,6 @@ If \times has commutative property - it is two-side distributive over +.
 
 ****** /*/
 
-<<<Distributive rule>>>
-<<<Distributive axiom>>>
-<<<Distributive property>>>
 <<<Distributive>>>
 
 **** <<<Effect>>> :drill:
