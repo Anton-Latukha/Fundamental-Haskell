@@ -71,6 +71,28 @@
 #+latex_header: \renewlist{enumerate}{enumerate}{10}
 #+latex_header: \newlist{enumerate}{enumerate}{10}
 #+latex_header: \setlist[enumerate]{label*=\arabic*.}
+#+latex_header: \setlist[itemize,1]{label=$\bullet$}
+#+latex_header: \setlist[itemize,2]{label=$\bullet$}
+#+latex_header: \setlist[itemize,3]{label=$\bullet$}
+#+latex_header: \setlist[itemize,4]{label=$\bullet$}
+#+latex_header: \setlist[itemize,5]{label=$\bullet$}
+#+latex_header: \setlist[itemize,6]{label=$\bullet$}
+#+latex_header: \setlist[itemize,7]{label=$\bullet$}
+#+latex_header: \setlist[itemize,8]{label=$\bullet$}
+#+latex_header: \setlist[itemize,9]{label=$\bullet$}
+#+latex_header: \setlist[itemize,10]{label=$\bullet$}
+#+latex_header: \renewlist{itemize}{itemize}{10}
+#+latex_header: \setlist[enumerate,1]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,2]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,3]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,4]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,5]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,6]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,7]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,8]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,9]{label=$\alph*.$}
+#+latex_header: \setlist[enumerate,10]{label=$\alph*.$}
+#+latex_header: \renewlist{enumerate}{enumerate}{10}
 
 # Page layout
 #+latex_header: \usepackage{fancyhdr}    % Enable fancy page style package. Docs: http://mirror.datacenter.by/pub/mirrors/CTAN/macros/latex/contrib/fancyhdr/fancyhdr.pdf
