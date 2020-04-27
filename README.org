@@ -8048,7 +8048,7 @@ In lambda expressions same level parts follow grouping from left to right.
 
 <<<Left-associative>>>
 
-***** <<<Right associative>>> :drill:
+****** <<<Right-associativity>>> :drill:
 SCHT: <2020-12-24 Thu>
 :properties:
 :ID:       74124ae3-4d72-48cc-856a-c0aaddbf49fc
