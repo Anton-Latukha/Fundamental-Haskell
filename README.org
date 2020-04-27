@@ -7459,6 +7459,28 @@ In Set theory: some subset of a Cartesian product between sets of objects.
 <<<Relations>>>
 <<<Relationship>>>
 
+**** <<<Context-free grammar>>> :drill:
+SCHT: <2020-04-30 Thu>
+:properties:
+:ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
+:end:
+
+A grammar (set of production rules) that describe all possible properly composed expressions in a formal language.
+
+Term is invented by Noam Chomsky.
+
+***** /*/
+
+<<<CFG>>>
+
 *** <<<Denotational semantics>>> :drill:
 SCHT: <2020-07-02 Thu>
 :properties:
@@ -8372,28 +8394,6 @@ Self-referencing definition.
 \additional
 
 /Antonym - Predicative./
-
-*** <<<Context-free grammar>>> :drill:
-SCHT: <2020-04-30 Thu>
-:properties:
-:ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
-:end:
-
-A grammar (set of production rules) that describe all possible properly composed expressions in a formal language.
-
-Term is invented by Noam Chomsky.
-
-**** /*/
-
-<<<CFG>>>
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
