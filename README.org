@@ -8024,7 +8024,7 @@ In Haskell /*/ has influence on parsing when compounds have same fixity.
 <<<Associative property>>>
 <<<Associativity property>>>
 
-***** <<<Left associative>>> :drill:
+****** <<<Left associative>>> :drill:
 SCHT: <2020-05-31 Sun>
 :properties:
 :ID:       ccf220ac-e213-44ce-9d1b-ccd87f8b9a9a
@@ -8044,7 +8044,7 @@ Example:
 In lambda expressions same level parts follow grouping from left to right.
 \( (\lambda x . x)(\lambda y . y)z \equiv ((\lambda x . x)(\lambda y . y))z \)
 
-****** /*/
+******* /*/
 
 <<<Left associativity>>>
 <<<Left-associative>>>
