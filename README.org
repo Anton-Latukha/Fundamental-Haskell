@@ -8014,6 +8014,26 @@ Meaning can be special for language speakers or human with particular knowledge.
 <<<Idioms>>>
 <<<Idiomatic>>>
 
+**** <<<Impredicative>>> :drill:
+SCHT: <2020-06-11 Thu>
+:properties:
+:ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
+:DRILL_LAST_INTERVAL: 74.2598
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 9
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 4.111
+:DRILL_EASE: 2.72
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:56]
+:end:
+
+Self-referencing definition.
+
+\additional
+
+/Antonym - Predicative./
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-07-01 Wed>
 :properties:
@@ -8374,26 +8394,6 @@ SCHT: <2021-01-05 Tue>
 
 <<<Greek prefix>>>
 <<<Latin prefix>>>
-
-*** <<<Impredicative>>> :drill:
-SCHT: <2020-06-11 Thu>
-:properties:
-:ID:       0f1f3bcf-df47-44de-8320-03ed8f18dc38
-:DRILL_LAST_INTERVAL: 74.2598
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 9
-:DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 4.111
-:DRILL_EASE: 2.72
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-03-29 Sun 19:56]
-:end:
-
-Self-referencing definition.
-
-\additional
-
-/Antonym - Predicative./
 
 ** <<<Set>>> :drill:
 SCHT: <2021-01-02 Sat>
