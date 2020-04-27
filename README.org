@@ -13075,7 +13075,7 @@ Also see: Maybe.
 
 ** Constructive proof
 
-Method that demonstrates object exisance by showing the process of its creation.
+Method that demonstrates object existance by showing the process of its creation.
 
 ** Intuitionistic logic
 
