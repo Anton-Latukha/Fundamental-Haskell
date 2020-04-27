@@ -8064,6 +8064,10 @@ SCHT: <2020-12-24 Thu>
 
 /*/ - the operations are grouped from the right.
 
+******* /*/
+
+<<<Right-associative>>>
+
 ***** <<<Non-associative>>> :drill:
 SCHT: <2020-06-09 Tue>
 :properties:
