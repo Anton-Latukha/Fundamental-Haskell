@@ -12597,7 +12597,7 @@ On 1-st compilation - /*/ analyzes the abstract signatures without loading side 
 
 ** DSL
 
-*** Ivory - eDSL, effectively produce C code
+*** [[https://github.com/GaloisInc/ivory]["Ivory"]] - eDSL, effectively produce C code
 
 * Draft
 
