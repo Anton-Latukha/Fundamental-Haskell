@@ -12595,6 +12595,8 @@ SCHT: <2020-07-06 Mon>
 
 On 1-st compilation - /*/ analyzes the abstract signatures without loading side modules, doing the type check with assumption that modules provide right type signatures, the process does not emitt any binary code and stores the intermediate code in a special form that allows flexibily connect modules provided. Which allows later to compile project with particular instanciations of the modules. Major work of this process being done by internal Cabal /*/ support and /*/ system that modifies the intermediate code to fit the module.
 
+** DSL
+
 * Draft
 
 ** Exception handling
