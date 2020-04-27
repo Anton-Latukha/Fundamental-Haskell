@@ -8086,6 +8086,10 @@ Operations can't be chained.
 
 Often is the case when the output type is incompatible with the input type.
 
+******* /*/
+
+<<<Non-associative>>>
+
 ***** <<<Basis>>> :drill:
 SCHT: <2020-08-07 Fri>
 :properties:
