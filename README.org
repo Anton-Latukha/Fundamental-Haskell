@@ -8068,7 +8068,7 @@ SCHT: <2020-12-24 Thu>
 
 <<<Right-associative>>>
 
-****** <<<Non-associative>>> :drill:
+****** <<<Non-associativity>>> :drill:
 SCHT: <2020-06-09 Tue>
 :properties:
 :ID:       ea9d8f41-bb29-49ca-9ae7-3c1bc92d0869
