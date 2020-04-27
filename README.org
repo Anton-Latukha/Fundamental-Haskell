@@ -7968,6 +7968,30 @@ Permits to not infer the type, but to use any that fits. The variant depends on 
 
 <<<Forall>>>
 
+**** <<<Idiom>>> :drill:
+SCHT: <2021-01-17 Sun>
+:properties:
+:ID:       bc244256-751d-4205-857e-368a45580884
+:DRILL_LAST_INTERVAL: 315.4885
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:49]
+:end:
+
+/*/ - something having a meaning that can not be derived from the conjoined meanings of /*/ constituents.
+Meaning can be special for language speakers or human with particular knowledge.
+
+/*/ can also mean applicative functor, people better stop making idiom from the term "idiom".
+
+***** /*/
+
+<<<Idioms>>>
+<<<Idiomatic>>>
+
 *** <<<Axiomatic semantics>>> :drill:
 SCHT: <2020-07-01 Wed>
 :properties:
@@ -8328,30 +8352,6 @@ SCHT: <2021-01-05 Tue>
 
 <<<Greek prefix>>>
 <<<Latin prefix>>>
-
-*** <<<Idiom>>> :drill:
-SCHT: <2021-01-17 Sun>
-:properties:
-:ID:       bc244256-751d-4205-857e-368a45580884
-:DRILL_LAST_INTERVAL: 315.4885
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.167
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-08 Sun 22:49]
-:end:
-
-/*/ - something having a meaning that can not be derived from the conjoined meanings of /*/ constituents.
-Meaning can be special for language speakers or human with particular knowledge.
-
-/*/ can also mean applicative functor, people better stop making idiom from the term "idiom".
-
-**** /*/
-
-<<<Idioms>>>
-<<<Idiomatic>>>
 
 *** <<<Impredicative>>> :drill:
 SCHT: <2020-06-11 Thu>
