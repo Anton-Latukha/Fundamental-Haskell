@@ -8133,7 +8133,7 @@ SCHT: <2020-12-24 Thu>
 :DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:18]
 :end:
 
-/*/ - the operations are grouped from the right.
+/*/ - the operations can be done in groups the direction of actions can be from the end towards the beginning.
 
 ******* /*/
 
