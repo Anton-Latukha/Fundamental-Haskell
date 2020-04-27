@@ -7481,6 +7481,10 @@ Term is invented by Noam Chomsky.
 
 <<<CFG>>>
 
+**** Constructive proof
+
+Method that demonstrates object existance by showing the process of its creation.
+
 *** <<<Denotational semantics>>> :drill:
 SCHT: <2020-07-02 Thu>
 :properties:
@@ -13072,10 +13076,6 @@ Design pattern: use polymorphic data types and Void to get rid of possibilities 
 <<<Nothing>>>, Haskell expressions can't return Void.
 
 Also see: Maybe.
-
-** Constructive proof
-
-Method that demonstrates object existance by showing the process of its creation.
 
 ** Intuitionistic logic
 
