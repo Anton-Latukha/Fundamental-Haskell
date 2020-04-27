@@ -8387,7 +8387,7 @@ SCHT: <2020-04-30 Thu>
 :DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
 :end:
 
-Type of formal grammar that is: a set of production rules that describe all possible string is a given formal language.
+A grammar (set of production rules) that describe all possible properly composed expressions in a formal language.
 
 Term is invented by Noam Chomsky.
 
