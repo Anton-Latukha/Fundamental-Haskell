@@ -8109,7 +8109,7 @@ SCHT: <2020-05-31 Sun>
 :DRILL_LAST_REVIEWED: [2020-02-20 Thu 23:17]
 :end:
 
-/*/ - the operations are grouped from the left.
+/*/ - the operations can be done in groups the direction of actions can be from the beginning towards the end.
 
 Example:
 In lambda expressions same level parts follow grouping from left to right.
