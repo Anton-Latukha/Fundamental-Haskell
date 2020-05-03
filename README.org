@@ -5283,8 +5283,9 @@ SCHT: <2020-03-27 Fri>
 
 A =_= non-value in the type or pattern match expression, placeholder, fits for enything.
 
+Denoted
 #+begin_src haskell
--- _ fits *.
+_
 #+end_src
 
 **** /*/
