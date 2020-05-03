@@ -8107,7 +8107,7 @@ Joined with a common purpose.
 
 \( P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S \),
 
-/*/ - the order (priority) of executions of actions can be arbitrary, they would produce the same result.
+/*/ - the order (priority) of executions of actions can be arbitrary, as long as resulted chained proces is the same - they would produce the same result.
 
 Property that determines how operators of the same precedence are grouped, (in computer science also in the absence of parentheses).
 
