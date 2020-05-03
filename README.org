@@ -2094,22 +2094,22 @@ SCHT: <2020-04-19 Sun>
 :end:
 
 The Validation data type isomorphic to Either, but has accumulative Applicative on the Left side.
-Validation data type is not a monad. Validation is an example of, "An applicative functor that is not a monad."
-While Either monad on =Left= case just drops computation and returns this first =Left=. 
-Monad needs to process the result of computation - it requires to be able to process all Left error statement cases for Validation, it is or non-terminaring Monad or one which is impossible to implement in polymorphic way with Validation.
+Validation data type does not have a monad implemented.
+For Either monad monad has simple implementation: =Left= case drops computation and returns =Left= value.
+Monad needs to process the result of computation - for Validation - it requires to be able to process all =Left= error statement cases for Validation, it is or non-terminaring Monad or one which is impossible to implement in polymorphic way with Validation.
 
 ***** <<<Monad>>> :drill:
-SCHT: <2020-04-06 Mon>
+SCHT: <2021-03-17 Wed>
 :properties:
 :ID:       b1faf835-213f-4336-86a9-8e331dd60986
-:DRILL_LAST_INTERVAL: 129.2024
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 6
+:DRILL_LAST_INTERVAL: 317.8379
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 7
 :DRILL_FAILURE_COUNT: 1
-:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_AVERAGE_QUALITY: 3.715
 :DRILL_EASE: 2.46
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-11-29 Fri 00:47]
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:09]
 :end:
 
 \textgreek{μόνος} /monos/ sole
@@ -4000,17 +4000,17 @@ Morphism of elements from the kernel.
 Complementary morphism of elements that make main morphism not monomorphic.
 
 *** <<<Set category>>> :drill:
-SCHT: <2020-03-31 Tue>
+SCHT: <2021-07-02 Fri>
 :properties:
 :ID:       c6c7f178-7b69-4154-83ed-34de9b102193
-:DRILL_LAST_INTERVAL: 165.4538
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 424.7199
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 03:21]
+:DRILL_AVERAGE_QUALITY: 4.167
+:DRILL_EASE: 2.52
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:08]
 :end:
 
 Category in which objects are sets, morphisms are functions.
@@ -5268,17 +5268,17 @@ data BinaryTree a
 #+end_src
 
 *** <<<Bottom value>>> :drill:
-SCHT: <2020-03-27 Fri>
+SCHT: <2021-07-21 Wed>
 :properties:
 :ID:       6a1419f1-74f8-4cab-9f50-6dd93c2b47bd
-:DRILL_LAST_INTERVAL: 161.39
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 444.3067
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
+:DRILL_AVERAGE_QUALITY: 4.5
+:DRILL_EASE: 2.76
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:34]
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:07]
 :end:
 
 A =_= non-value in the type or pattern match expression, placeholder, fits for enything.
@@ -5294,17 +5294,17 @@ _
 <<<Bottom values>>>
 
 *** <<<Bound>>> :drill:
-SCHT: <2020-03-31 Tue>
+SCHT: <2021-07-17 Sat>
 :properties:
 :ID:       31ef00a3-6d1e-4ee4-a0da-eac26238aace
-:DRILL_LAST_INTERVAL: 165.4538
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 440.1071
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_AVERAGE_QUALITY: 4.333
 :DRILL_EASE: 2.66
 :DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-10-18 Fri 02:42]
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:08]
 :end:
 
 Haskell /*/ type class means to have lowest value & highest value, so a bounded range of values.
@@ -7944,17 +7944,17 @@ Values consumed once or not used.
 <<<Linearity>>>
 
 **** <<<Predicative>>> :drill:
-SCHT: <2020-04-19 Sun>
+SCHT: <2020-08-11 Tue>
 :properties:
 :ID:       aee54dbf-2387-403e-9589-f93bcb416963
-:DRILL_LAST_INTERVAL: 41.1865
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 99.7537
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 3
-:DRILL_AVERAGE_QUALITY: 3.334
-:DRILL_EASE: 2.34
+:DRILL_AVERAGE_QUALITY: 3.462
+:DRILL_EASE: 2.44
 :DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:56]
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:09]
 :end:
 
 Non-self-referencing definition.
@@ -10749,17 +10749,17 @@ Two levels of embedding:
 :end:
 
 **** <<<Cons cell>>> :drill:
-SCHT: <2020-04-19 Sun>
+SCHT: <2020-07-27 Mon>
 :properties:
 :ID:       db0f5189-b0a4-4554-af3d-dae7145516c5
-:DRILL_LAST_INTERVAL: 40.5335
-:DRILL_REPEATS_SINCE_FAIL: 5
-:DRILL_TOTAL_REPEATS: 4
+:DRILL_LAST_INTERVAL: 85.2825
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.5
-:DRILL_EASE: 2.18
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 13:01]
+:DRILL_AVERAGE_QUALITY: 3.4
+:DRILL_EASE: 2.04
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-05-03 Sun 13:09]
 :end:
 
 Cell that values may inhabit.
