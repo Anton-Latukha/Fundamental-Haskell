@@ -8103,7 +8103,7 @@ There property testing wich does what it says.
 :ID:       0985ce00-f1cd-441b-9d49-7c02b51298bf
 :end:
 
-Joined with common purpose.
+Joined with a common purpose.
 
 \( P(a,P(b,c)) \equiv P(P(a,b),c) \ | \ \forall (a,b,c) \in S \),
 
