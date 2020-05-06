@@ -8455,6 +8455,8 @@ Simple version:
 
 For any non-empty sets, there exists another set that has exactly one element in common with each of them.
 
+... from more wide-known variant:
+
 Given any set X of pairwise disjoint non-empty sets, there exists at least one set C that contains exactly one element in common with each of the sets in X.
 
 *** <<<Closed set>>> :drill:
