@@ -9012,6 +9012,8 @@ Difference between proposition, statement, expression:
 
 Requirements of the proposition cannot be satisfied (antecedent part is false) \therefore proposition technically holds true.
 
+Is a good example of why Haskell uses total functions even for =if .. then .. else ..= statements.
+
 *** <<<Iff>>> :drill:
 SCHT: <2020-10-08 Thu>
 :properties:
