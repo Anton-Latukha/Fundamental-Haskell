@@ -9010,7 +9010,7 @@ Difference between proposition, statement, expression:
 :ID:       69784905-eb6e-4954-8956-cc90301396ed
 :end:
 
-Requirements (antecedent) of the statement cannot be satisfied \therefore value is true.
+Requirements of the proposition cannot be satisfied (antecedent part is false) \therefore proposition technically holds true.
 
 *** <<<Iff>>> :drill:
 SCHT: <2020-10-08 Thu>
