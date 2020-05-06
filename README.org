@@ -9028,6 +9028,8 @@ The =if= (requirement) part of the proposition.
 
 Nonsensical proposition that has {impossible, not full, false} premise and so impossible to definitely prove true nor false.
 
+Such proposition fall into paradox due to property of excluded middle in the classical logic.
+
 Requirements of the proposition (antecedent part) cannot be satisfied.
 
 
