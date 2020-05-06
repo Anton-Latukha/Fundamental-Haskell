@@ -9036,6 +9036,8 @@ Therefore "vacuous true/false" means: "considered as, but not proven".
 
 Is a good example of why Haskell uses total functions even for =if .. then .. else ..= statements.
 
+There is also =vacuous= function in Haskell, see Void.
+
 *** <<<Iff>>> :drill:
 SCHT: <2020-10-08 Thu>
 :properties:
