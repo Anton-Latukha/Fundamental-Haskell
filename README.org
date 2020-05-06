@@ -8459,6 +8459,10 @@ For any non-empty sets, there exists another set that has exactly one element in
 
 Given any set X of pairwise disjoint non-empty sets, there exists at least one set C that contains exactly one element in common with each of the sets in X.
 
+Most official formalization:
+
+For any set X of nonempty sets, there exists a choice function f defined on X.
+
 *** <<<Closed set>>> :drill:
 SCHT: <2020-06-03 Wed>
 :properties:
