@@ -8454,7 +8454,7 @@ Well-defined collection of distinct objects.
 
 Simple version:
 
-For any non-empty sets, there exists another set that has exactly one element in common with each of them.
+For any non-empty sets, exists a set with exactly one element in common with each of them.
 
 ... from more wide-known variant:
 
