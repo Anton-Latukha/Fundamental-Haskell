@@ -769,6 +769,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#-155][/*/]]
   - [[#set][<<<Set>>>]]
     - [[#-156][/*/]]
+    - [[#axiom-of-choice][<<<Axiom of choice>>>]]
     - [[#closed-set][<<<Closed set>>>]]
     - [[#power-set][<<<Power set>>>]]
     - [[#singleton][<<<Singleton>>>]]
