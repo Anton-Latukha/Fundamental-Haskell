@@ -9026,6 +9026,8 @@ The =if= (requirement) part of the proposition.
 :ID:       69784905-eb6e-4954-8956-cc90301396ed
 :end:
 
+Nonsensical proposition that has {impossible, not full, false} premise and so impossible to definitely prove true nor false.
+
 Requirements of the proposition (antecedent part) cannot be satisfied.
 
 
