@@ -11147,7 +11147,7 @@ Has close relation to Topology.
 
 *** <<<Lattice>>>
 
-Abstract structure that consists of partially ordered set which has a property of any two elements having unique supremum and infinum.
+Partially ordered set which has a property of any two elements having unique supremum and infinum.
 Most of partially ordered sets are not lattices.
 
 /*/ order-theory & algebraic.
