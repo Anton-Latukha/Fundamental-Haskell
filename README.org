@@ -9026,7 +9026,8 @@ The =if= (requirement) part of the proposition.
 :ID:       69784905-eb6e-4954-8956-cc90301396ed
 :end:
 
-Requirements of the proposition cannot be satisfied (antecedent part is false) \therefore proposition technically holds true.
+Requirements of the proposition (antecedent part) cannot be satisfied.
+
 
 Is a good example of why Haskell uses total functions even for =if .. then .. else ..= statements.
 
