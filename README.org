@@ -814,6 +814,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#statement][<<<Statement>>>]]
       - [[#-165][/*/]]
       - [[#antecedent][<<<Antecedent>>>]]
+      - [[#consequent][<<<Consequent>>>]]
       - [[#vacuous-truth][<<<Vacuous truth>>>]]
     - [[#iff][<<<Iff>>>]]
   - [[#haskell-structure][Haskell structure]]
@@ -9012,6 +9013,13 @@ Difference between proposition, statement, expression:
 :end:
 
 The =if= (requirement) part of the proposition.
+
+**** <<<Consequent>>> :drill:
+:properties:
+:ID:       bdccfe09-4160-4f5f-85d0-e1c9b15d1542
+:end:
+
+=else= (consequential) part of the proposition.
 
 **** <<<Vacuous truth>>> :drill:
 :properties:
