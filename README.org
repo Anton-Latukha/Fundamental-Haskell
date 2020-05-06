@@ -8451,6 +8451,8 @@ Well-defined collection of distinct objects.
 
 \( {\displaystyle \forall X\left[\varnothing \notin X\implies \exists f\colon X\rightarrow \bigcup X\quad \forall A\in X\,(f(A)\in A)\right]} \)
 
+Simple version:
+
 For any non-empty sets, there exists another set that has exactly one element in common with each of them.
 
 Given any set X of pairwise disjoint non-empty sets, there exists at least one set C that contains exactly one element in common with each of the sets in X.
