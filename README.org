@@ -9026,7 +9026,7 @@ The =if= (requirement) part of the proposition.
 :ID:       69784905-eb6e-4954-8956-cc90301396ed
 :end:
 
-Nonsensical proposition that has {impossible, not full, false} premise and as such - impossible to definitely prove true nor false inside the particular theory.
+Nonsensical proposition that has {impossible, not full, false} premise and as such - impossible to definitely prove true nor false (under currently given tools inside the particular theory).
 
 Such proposition fall into paradox due to property of excluded middle in the classical logic.
 
