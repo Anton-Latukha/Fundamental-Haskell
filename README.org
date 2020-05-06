@@ -8444,6 +8444,13 @@ Well-defined collection of distinct objects.
 <<<Sets>>>
 <<<Set theory>>>
 
+*** <<<Axiom of choice>>> :drill:
+:properties:
+:ID:       82ede893-3662-456f-ba2a-0cd1c9bab5a6
+:end:
+
+\( {\displaystyle \forall X\left[\varnothing \notin X\implies \exists f\colon X\rightarrow \bigcup X\quad \forall A\in X\,(f(A)\in A)\right]} \)
+
 *** <<<Closed set>>> :drill:
 SCHT: <2020-06-03 Wed>
 :properties:
