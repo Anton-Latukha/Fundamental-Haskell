@@ -983,7 +983,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
         - [[#total-preorder][<<<Total preorder>>>]]
       - [[#partial-order][<<<Partial order>>>]]
         - [[#-204][/*/]]
-    - [[#total-order][<<<Total order>>>]]
+      - [[#total-order][<<<Total order>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
@@ -11206,7 +11206,7 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 <<<Posets>>>
 
 
-*** <<<Total order>>>
+**** <<<Total order>>>
 
 ** <<<Universal algebra>>>
 
