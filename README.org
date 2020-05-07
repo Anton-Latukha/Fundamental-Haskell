@@ -8579,7 +8579,7 @@ Subset of the cartesian product of two sets.
 :ID:       bf259cf1-ca8e-49fd-9c20-cf3fbd2e597c
 :end:
 
-Modern set theory. Axiomatic system of which was formulated to free theory of paradoxes such as Russell's paradox and at the same time preserved the logical language of scientific works.
+Modern set theory. Axiomatic system free of paradoxes such as Russell's paradox and at the same time preserves the logical language of scientific works.
 
 **** /*/
 
