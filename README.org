@@ -984,6 +984,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#partial-order][<<<Partial order>>>]]
         - [[#-204][/*/]]
       - [[#total-order][<<<Total order>>>]]
+      - [[#chain][<<<Chain>>>]]
   - [[#universal-algebra][<<<Universal algebra>>>]]
   - [[#relation-1][<<<Relation>>>]]
     - [[#reflexivity][<<<Reflexivity>>>]]
