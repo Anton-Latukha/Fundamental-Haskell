@@ -11167,7 +11167,6 @@ Partially ordered set in which any two elements have unique supremum and infinum
 
 Most of partially ordered sets are not lattices.
 
-
 *** <<<Order>>>
 
 **** <<<Preorder>>>
