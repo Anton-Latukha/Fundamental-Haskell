@@ -11207,6 +11207,10 @@ Good example of /*/ is a genealogical descendancy. Only related people produce r
 
 **** <<<Total order>>>
 
+**** <<<Chain>>>
+
+Totally ordered set, aka sequence.
+
 ** <<<Universal algebra>>>
 
 Studies algebraic structures.
