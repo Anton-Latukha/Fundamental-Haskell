@@ -8572,6 +8572,17 @@ Subset of the cartesian product of two sets.
 ***** /*/
 <<<Pullbacks>>>
 
+*** Zermelo–Fraenkel set theory :drill:
+:properties:
+:ID:       bf259cf1-ca8e-49fd-9c20-cf3fbd2e597c
+:end:
+
+Modern set theory. Axiomatic system of which was formulated to free theory of paradoxes such as Russell's paradox and at the same time preserved the logical language of scientific works.
+
+**** /*/
+
+<<<ZFC>>>
+
 ** <<<Testing>>> :drill:
 :properties:
 :ID:       07ea5b8e-05ee-4824-b690-455ab4918d77
