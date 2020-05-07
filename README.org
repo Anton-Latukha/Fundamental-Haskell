@@ -11166,6 +11166,8 @@ Partially ordered set in which any two elements have unique supremum and infinum
 
 \( P = (X, \le ), \forall \{x_{1}, x_{2}\} \in X \ : \ \exists! \{inf, sup\}(\{x_{1},x_{2}\}) \)
 
+\( x \lor (y \land x) \ = \ (x \lor y) \land x \ = \ x \)
+
 Most of partially ordered sets are not lattices.
 
 *** <<<Order>>>
