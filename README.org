@@ -1158,6 +1158,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#ghci][GHCI]]
     - [[#debugging-in-ghci][Debugging in GHCI]]
   - [[#ghcid][GHCID]]
+  - [[#runghc][runghc]]
   - [[#packaging][Packaging]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
@@ -12627,6 +12628,12 @@ nix-shell --command 'ghcid --command="cabal v2-repl --repl-options=-fno-code --r
 nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --ghc-options=-fno-break-on-exception --ghc-options=-fno-break-on-error --ghc-options=-v1 --ghc-options=-ferror-spans --ghc-options=-j" '
 
 #+end_src
+
+** runghc
+
+Run Haskell code without first having to compile them.
+
+Official tool in GHC package.
 
 ** Packaging
 
