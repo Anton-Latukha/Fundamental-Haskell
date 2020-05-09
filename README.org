@@ -12645,6 +12645,10 @@ There is a number of good quality projects that export Cabal/Hackage to other pa
 
 *** cabal2nix
 
+*** hackage2nix
+
+Allows to clones info from Hackage and convert it into Nix language.
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
