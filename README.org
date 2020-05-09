@@ -12632,6 +12632,8 @@ nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --g
 
 Cabal in:
   * v1 generation of features used/uses own cabal (now legacy) methods of handling packages.
+  * v2 generation of features (current) uses Nix methods internally to handle packages.
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
