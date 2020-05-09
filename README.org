@@ -12643,6 +12643,8 @@ Cabal in:
 
 There is a number of good quality projects that export Cabal/Hackage to other packaging systems, big distribution systems and companies rely on them:
 
+*** cabal2nix
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
