@@ -1157,7 +1157,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#ghc-code-check-flags][GHC code check flags]]
   - [[#ghci][GHCI]]
     - [[#debugging-in-ghci][Debugging in GHCI]]
-  - [[#ghcid][<<<GHCID>>>]]
+  - [[#ghcid][GHCID]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
   - [[#exceptions][Exceptions]]
@@ -12602,7 +12602,7 @@ What been evaluated already
 :sprint name
 #+end_src
 
-** <<<GHCID>>>
+** GHCID
 
 Commands to run the compile/check loop:
 
