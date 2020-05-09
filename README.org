@@ -1158,6 +1158,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#ghci][GHCI]]
     - [[#debugging-in-ghci][Debugging in GHCI]]
   - [[#ghcid][GHCID]]
+  - [[#packaging][Packaging]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
   - [[#exceptions][Exceptions]]
@@ -12627,6 +12628,10 @@ nix-shell --command 'ghcid --command="cabal new-repl --ghc-options=-fno-code --g
 
 #+end_src
 
+** Packaging
+
+Cabal in:
+  * v1 generation of features used/uses own cabal (now legacy) methods of handling packages.
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
