@@ -12665,6 +12665,8 @@ Also created and maintained by =peti=, he uses it for OpenSUSE.
 Automatically translates Cabal/Stack project and dependencies into Nix code. Provides IFD (import from derivation) functions that minimize the amount of Nix code that is needed to be added.
 So it autogenerates Nix code hald way for your purposes.
 
+Project of IOHK and has an active big respectable team.
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
