@@ -1163,6 +1163,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#cabal2nix][cabal2nix]]
     - [[#hackage2nix][hackage2nix]]
     - [[#cabal2spec---cabal-to-rpm][cabal2spec - Cabal to RPM]]
+    - [[#haskellnix][haskell.nix]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
   - [[#exceptions][Exceptions]]
@@ -12658,6 +12659,11 @@ Is developed/resides/embedded in ~cabal2nix~ project.
 *** cabal2spec - Cabal to RPM
 
 Also created and maintained by =peti=, he uses it for OpenSUSE.
+
+*** haskell.nix
+
+Automatically translates Cabal/Stack project and dependencies into Nix code. Provides IFD (import from derivation) functions that minimize the amount of Nix code that is needed to be added.
+So it autogenerates Nix code hald way for your purposes.
 
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
