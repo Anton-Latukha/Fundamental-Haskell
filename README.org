@@ -12652,6 +12652,8 @@ There is a number of good quality projects that export Cabal/Hackage to other pa
 
 Created/maintained by =peti=.
 
+This tool runs on one compiler version.
+
 *** hackage2nix
 
 Allows to clones info from Hackage and convert it into Nix language.
