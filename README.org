@@ -12657,6 +12657,8 @@ Is developed/resides/embedded in ~cabal2nix~ project.
 
 *** cabal2spec - Cabal to RPM
 
+Also created and maintained by =peti=, he uses it for OpenSUSE.
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
