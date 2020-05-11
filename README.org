@@ -12648,9 +12648,12 @@ There is a number of good quality projects that export Cabal/Hackage to other pa
 
 *** cabal2nix
 
+Created/maintained by =peti=.
+
 *** hackage2nix
 
 Allows to clones info from Hackage and convert it into Nix language.
+Is developed/resides/embedded in ~cabal2nix~ project.
 
 *** cabal2spec - Cabal to RPM
 
