@@ -1947,9 +1947,7 @@ liftA2 f x y == pure f <*> x <*> y
 :ID:       ac1da978-3adc-447a-a20d-3f15f8cfd940
 :end:
 
-liftA2 (<*>) lifts a binary operation through the two layers (2x2). Pretty useful to remember it.
-
-It is just a two-layer Applicative.
+~liftA2 (<*>)~ is an applicative that lifts a binary operation over the two layers (2x2). Pretty useful to remember it.
 #+begin_src haskell
 liftA2 :: (  a        ->  b  ->  c ) -> f     a         ->  f    b   ->  f   c
 <*> ::    (f (a -> b) -> f a -> f b)
