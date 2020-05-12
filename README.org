@@ -3190,7 +3190,8 @@ x = (undefined :: IO a)
 
 =lift= is a natural transformation \( \eta \) from an Identity monad (functor) with other monad as content into transformer monad (functor), with the preservation of the conteined monad:
 #+begin_src haskell
--- Abstract monads with content as parameters. Define '~>' as a family of morphisms that translate one functor into another (natural transformation)
+-- Abstract monads with content as parameters. Define '~>' as a family of
+-- morphisms that translate one functor into another (natural transformation)
 type f ~> g = forall x. f x -> g x
 -- follows
 lift :: m ~> t m
