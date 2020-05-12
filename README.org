@@ -3175,7 +3175,9 @@ x = (undefined :: IO a)
 
 -- While the real type would be
 :t (pure x :: MaybeT IO (IO a))
-(pure x :: MaybeT IO (IO a)) :: MaybeT IO (IO a) -- This goes into a conflict of what type&kind (* -> *) transformer constructor awaits, and `m (m a)` is a layering we not interested in.
+(pure x :: MaybeT IO (IO a)) :: MaybeT IO (IO a)
+-- This goes into a conflict of what type&kind (* -> *) transformer constructor
+-- awaits, and `m (m a)` is a layering we not interested in.
 
 
 :t (lift x)
