@@ -1951,9 +1951,9 @@ liftA2 (<*>) lifts a binary operation through the two layers (2x2). Pretty usefu
 
 It is just a two-layer Applicative.
 #+begin_src haskell
-liftA2 :: Applicative f => (    a       ->  b  ->  c ) -> f      a        ->  f    b   ->  f    c
-<*> :: Applicative f =>    (f  (a -> b) -> f a -> f b)
-liftA2 (<*>) :: (Applicative f1, Applicative f2) =>      f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
+liftA2 :: (  a        ->  b  ->  c ) -> f     a         ->  f    b   ->  f   c
+<*> ::    (f (a -> b) -> f a -> f b)
+liftA2 (<*>) ::                        f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b)
 #+end_src
 
 ******* liftA2 (liftA2 (<*>)) :drill:
