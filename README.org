@@ -1959,7 +1959,7 @@ liftA2 (<*>) ::                        f1 (f2 (a -> b)) -> f1 (f2 a) -> f1 (f2 b
 :ID:       276bd112-3c4c-4c31-9650-28bce44786f9
 :end:
 
-liftA2 (<*>) 3-layer version.
+~liftA2 (<*>)~ 3-layer version.
 
 ******* <<<liftA3>>> :drill:
 SCHT: <2020-10-10 Sat>
