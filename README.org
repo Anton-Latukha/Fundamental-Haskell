@@ -7267,7 +7267,11 @@ By moving =forall= inside the function - we can achive higher-rank polymorphism.
 
 From: https://news.ycombinator.com/item?id=8130861
 #+begin_src text
-Higher-rank polymorphism is formalized using System F, and there are a few implementations of (incomplete, but decidable) type inference for it - see e.g. Daan Leijen's research page [1] about it, or my experimental implementation [2] of one of his papers. Higher-rank types also have some limited support in OCaml and Haskell.
+Higher-rank polymorphism is formalized using System F, and there are a few
+implementations of (incomplete, but decidable) type inference for it
+- see e.g. Daan Leijen's research page [1] about it, or my experimental
+implementation [2] of one of his papers. Higher-rank types also have some
+limited support in OCaml and Haskell.
 #+end_src
 
 Useful example aslo a ST-Trick monad.
