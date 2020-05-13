@@ -1262,6 +1262,8 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#haskell-performance-tools-processes-comparisons-data-information-guides]["Haskell performance" tools, processes, comparisons, data, information, guides]]
   - [[#literature][Literature]]
 - [[#giving-back][Giving back]]
+- [[#primitive-operation][<<<Primitive operation>>>]]
+  - [[#-232][/*/]]
 
 * Definitions
 :properties:
@@ -13581,3 +13583,13 @@ Special accolades for the guys at Serokell. They were the force that got me insp
 
 # HACK: line below resets the pagestyle. Reset allows proper LaTeX preview generation in Emacs. Line gets removed before the export and added afterwards
 #+latex_header: \pagestyle{empty}
+
+* <<<Primitive operation>>>
+
+Functions that can't be implemented in Haskell, and provided by GHC. Most probably through low-level programming.
+
+More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
+
+** /*/
+
+<<<PrimOps>>>
