@@ -8370,6 +8370,20 @@ Binary relation between state transition systems that match each other's moves.
 
 <<<Bisimilar>>>
 
+**** <<<Primitive operation>>>
+
+Operation that is axiomatic (can't be expressed from other given axioms of the system).
+
+In program languages it is most probably implemented by lower-level programming.
+
+In Haskell they are provided by GHC.
+
+More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
+
+***** /*/
+
+<<<PrimOps>>>
+
 *** <<<Content word>>> :drill:
 SCHT: <2020-08-02 Sun>
 :properties:
@@ -13498,20 +13512,6 @@ You want confluence regardless of totality.
 Metaprogramming in Haskell is mainly done through Template Haskell wich is too hard and clunky to work with, due to hard syntax structure.
 
 Unproven Collatz conjecture is a classical computation halting problem. (If x_{i} is even => x_{i+1} = 3x_{i}+1, if odd => x_{i+1} = x_{i}/2.
-
-** <<<Primitive operation>>>
-
-Operation that is axiomatic (can't be expressed from other given axioms of the system).
-
-In program languages it is most probably implemented by lower-level programming.
-
-In Haskell they are provided by GHC.
-
-More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
-
-*** /*/
-
-<<<PrimOps>>>
 
 * Reference
 
