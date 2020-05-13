@@ -1250,10 +1250,12 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#use-of-existentials][Use of existentials]]
   - [[#propagator][Propagator]]
   - [[#code-technics][Code technics]]
+  - [[#primitive-operation][<<<Primitive operation>>>]]
+    - [[#-231][/*/]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-      - [[#-231][/*/]]
+      - [[#-232][/*/]]
     - [[#haskell-98][<<<Haskell 98>>>]]
       - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
     - [[#great-moments-in-haskell-history-by-type-classes---history-of-haskell]["Great moments in Haskell history" (by Type Classes) - History of Haskell]]
@@ -1262,8 +1264,6 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#haskell-performance-tools-processes-comparisons-data-information-guides]["Haskell performance" tools, processes, comparisons, data, information, guides]]
   - [[#literature][Literature]]
 - [[#giving-back][Giving back]]
-- [[#primitive-operation][<<<Primitive operation>>>]]
-  - [[#-232][/*/]]
 
 * Definitions
 :properties:
@@ -13499,6 +13499,16 @@ Metaprogramming in Haskell is mainly done through Template Haskell wich is too h
 
 Unproven Collatz conjecture is a classical computation halting problem. (If x_{i} is even => x_{i+1} = 3x_{i}+1, if odd => x_{i+1} = x_{i}/2.
 
+** <<<Primitive operation>>>
+
+Functions that can't be implemented in Haskell, and provided by GHC. Most probably through low-level programming.
+
+More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
+
+*** /*/
+
+<<<PrimOps>>>
+
 * Reference
 
 ** History
@@ -13584,12 +13594,3 @@ Special accolades for the guys at Serokell. They were the force that got me insp
 # HACK: line below resets the pagestyle. Reset allows proper LaTeX preview generation in Emacs. Line gets removed before the export and added afterwards
 #+latex_header: \pagestyle{empty}
 
-* <<<Primitive operation>>>
-
-Functions that can't be implemented in Haskell, and provided by GHC. Most probably through low-level programming.
-
-More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
-
-** /*/
-
-<<<PrimOps>>>
