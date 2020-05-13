@@ -13501,7 +13501,11 @@ Unproven Collatz conjecture is a classical computation halting problem. (If x_{i
 
 ** <<<Primitive operation>>>
 
-Functions that can't be implemented in Haskell, and provided by GHC. Most probably through low-level programming.
+Operation that is axiomatic (can't be expressed from other given axioms of the system).
+
+In program languages it is most probably implemented by lower-level programming.
+
+In Haskell they are provided by GHC.
 
 More: [[https://gitlab.haskell.org/ghc/ghc/-/wikis/commentary/prim-ops][GHC Wiki/prim-ops]].
 
