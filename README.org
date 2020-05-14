@@ -3260,6 +3260,11 @@ some v = (:) <$> v <*> many v
 many v = some v <|> pure []
 #+end_src
 
+#+begin_src haskell
+some :: f a -> f [a]    -- One or more. Keep trying applying f to a until it succeeds at least once, and then keep doing it until it fails.
+more :: f a -> f [a]    -- Zero or more. Apply f to a as many times as you can until failure.
+#+end_src
+
 ****** /*/
 
 <<<Alternative>>>
