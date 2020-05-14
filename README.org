@@ -3267,6 +3267,14 @@ more :: f a -> f [a]    -- Zero or more. Apply f to a as many times as you can u
 
 So there in the process should be found a definitive case of failure termination rule or otherwise process would never terminate.
 
+To start understand intuitive difference:
+#+begin_src haskell
+> some Nothing
+Nothing
+> many Nothing
+Just []
+#+end_src
+
 ****** /*/
 
 <<<Alternative>>>
