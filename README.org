@@ -3254,6 +3254,12 @@ empty :: f a    -- The identity element of <|>
 (<|>) :: f a -> f a -> f a    -- Associative binary operation
 #+end_src
 
+Additional functions ~some~ and ~many~ defined (automatically derived) as the least solutions to the equations:
+#+begin_src haskell
+some v = (:) <$> v <*> many v
+many v = some v <|> pure []
+#+end_src
+
 ****** /*/
 
 <<<Alternative>>>
