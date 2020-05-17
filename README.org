@@ -12827,6 +12827,8 @@ Builders are the primitive atomic parsers of the library.
     Alternative
     Then mention where and how to customize even over that and example
 *** Error handling
+*** Shell expansion
+
 
 
 ** HTML - Lucid
