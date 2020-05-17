@@ -12807,8 +12807,8 @@ Setting that configure the primitive parser.
 
   * ~long~ - ~--key~
   * ~short~ - ~-k~
-  * ~help~ - info that is put into docs
-  * ~metavar~ - placeholder for the argument seen in the docs
+  * ~help~ - info that is put into docs. Does not affet the parsing.
+  * ~metavar~ - placeholder for the argument seen in the docs. Does not affect the parsing.
   * ~value~
   * ~showdefault~
 
