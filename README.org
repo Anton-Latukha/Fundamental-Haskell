@@ -3258,6 +3258,7 @@ Additional functions ~some~ and ~many~ defined (automatically derived) as the le
 #+begin_src haskell
 some v = (:) <$> v <*> many v
 many v = some v <|> pure []
+-- => some v = (:) <$> v <*> $ some v <|> pure []
 #+end_src
 
 #+begin_src haskell
