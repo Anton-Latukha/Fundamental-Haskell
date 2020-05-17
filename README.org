@@ -3288,6 +3288,8 @@ So ~some f~ runs ~f~ once, then "~many~" times, and conses the results. ~many f~
 
 Is it only useful for parsing? Let's see what it does for the instances in base: Maybe, [] and STM.
 
+First Maybe. Nothing means failure, so some Nothing fails as well and evaluates to Nothing while many Nothing succeeds and evaluates to Just []. Both some (Just ()) and many (Just ()) never return, because Just () never fails! In a sense they evaluate to Just (repeat ()).
+
 ****** /*/
 
 <<<Alternative>>>
