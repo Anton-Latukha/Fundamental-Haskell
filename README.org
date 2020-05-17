@@ -12810,8 +12810,8 @@ Setting that configure the primitive parser.
   * ~help~ - info that is put into docs. Does not affet the parsing.
   * ~helpDoc~ - same as ~help~, but with Doc type support.
   * ~metavar~ - placeholder for the argument seen in the docs. Does not affect the parsing.
-  * ~value~
-  * ~showdefault~
+  * ~value~ - value by default
+  * ~showdefault~ - in the docs
 
 Compose them with ~<>~.
 
