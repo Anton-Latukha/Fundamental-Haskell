@@ -12826,7 +12826,7 @@ Example:
           <> "And it would show default value in help message")
 #+end_src
 
-This example should be given to according builder that accepts it.
+This monoid should be given to according builder that accepts it.
 
 *** Builders
 
