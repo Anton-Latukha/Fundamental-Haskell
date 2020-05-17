@@ -12823,6 +12823,7 @@ Settings that configure the builder.
   * ~hidden~ - hide from brief info
   * ~internal~ - hide from descriptions
   * ~style~ - function to apply to descriptions
+  * ~command~ - add command as a ~subparser~ option.
 
 Compose them with ~<>~.
 
