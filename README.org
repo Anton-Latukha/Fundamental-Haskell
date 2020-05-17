@@ -1177,7 +1177,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#membrain---type-safe-memory-units][membrain - type-safe memory units]]
   - [[#parsers---megaparsec][Parsers - megaparsec]]
   - [[#clis---optparse-applicative][CLIs - optparse-applicative]]
-    - [[#attributesmodifiers][Attributes/modifiers]]
+    - [[#modifiers-attributes][Modifiers {Attributes}]]
     - [[#builders][Builders]]
     - [[#parsers][Parsers]]
     - [[#composing-and-more-complex-parsers][Composing and more complex parsers]]
