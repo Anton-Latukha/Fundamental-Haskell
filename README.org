@@ -3290,6 +3290,8 @@ Is it only useful for parsing? Let's see what it does for the instances in base:
 
 First Maybe. Nothing means failure, so some Nothing fails as well and evaluates to Nothing while many Nothing succeeds and evaluates to Just []. Both some (Just ()) and many (Just ()) never return, because Just () never fails! In a sense they evaluate to Just (repeat ()).
 
+For lists, [] means failure, so some [] evaluates to [] (no answers) while many [] evaluates to [[]] (there's one answer and it is the empty list). Again some [()] and many [()] don't return. Expanding the instances, some [()] means fmap (():) (many [()]) and many [()] means some [()] ++ [[]], so you could say that many [()] is the same as tails (repeat ()).
+
 ****** /*/
 
 <<<Alternative>>>
