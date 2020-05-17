@@ -12861,6 +12861,7 @@ Builders are the primitive atomic parsers of the library.
   * ~infoOption :: String -> Mod OptionFields (a -> a) -> Parser (a -> a)~
     Always stops binary and displays a message.
   * ~strOption :: IsString s => Mod OptionFields s -> Parser s~
+    Taking a String argument.
   * ~option :: ReadM a -> Mod OptionFields a -> Parser a~
     Definitions (if there are needed)
     Types of builders
