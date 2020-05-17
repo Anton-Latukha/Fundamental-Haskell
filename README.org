@@ -3292,6 +3292,8 @@ First Maybe. Nothing means failure, so some Nothing fails as well and evaluates 
 
 For lists, [] means failure, so some [] evaluates to [] (no answers) while many [] evaluates to [[]] (there's one answer and it is the empty list). Again some [()] and many [()] don't return. Expanding the instances, some [()] means fmap (():) (many [()]) and many [()] means some [()] ++ [[]], so you could say that many [()] is the same as tails (repeat ()).
 
+For STM, failure means that the transaction has to be retried. So some retry will retry itself, while many retry will simply return the empty list. some f and many f will run f repeatedly until it retries. I'm not sure if this is useful thing, but I'm guessing it isn't.
+
 ****** /*/
 
 <<<Alternative>>>
