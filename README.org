@@ -3286,6 +3286,8 @@ some f = do
 
 So ~some f~ runs ~f~ once, then "~many~" times, and conses the results. ~many f~ runs ~f~ "~some~" times, or "~alternative~'ly" just returns the empty list. The idea is that they both run ~f~ as often as possible until it "fails", and after that - compose the list of results. The difference is that ~some f~ fails if ~f~ fails immediately, while ~many f~ will succeed and "return" the empty list. But what this all means exactly depends on how <|> is defined.
 
+Is it only useful for parsing? Let's see what it does for the instances in base: Maybe, [] and STM.
+
 ****** /*/
 
 <<<Alternative>>>
