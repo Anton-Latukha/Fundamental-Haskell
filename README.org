@@ -12797,6 +12797,8 @@ https://github.com/dhall-lang/dhall-lang/tree/master/nixops
 
 ** CLIs - optparse-applicative
 
+Builds a shell API and parses tose command line options.
+
 Introduction (what library is for)
 Data model (diagram) -- sometimes seeing at once is better then a thousand words of explanation
 Shortly describe where is speccing happens & belongs, where is parsing happens & belongs, where one can custom hande parsed data on top of what is provided in lib. So now readers roughly know the data model and what are structural parts and where they are
