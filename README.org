@@ -1177,7 +1177,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#membrain---type-safe-memory-units][membrain - type-safe memory units]]
   - [[#parsers---megaparsec][Parsers - megaparsec]]
   - [[#clis---optparse-applicative][CLIs - optparse-applicative]]
-    - [[#attributes][Attributes]]
+    - [[#attributesmodifiers][Attributes/modifiers]]
     - [[#builders][Builders]]
     - [[#parsers][Parsers]]
     - [[#composing-and-more-complex-parsers][Composing and more complex parsers]]
@@ -12801,7 +12801,9 @@ Introduction (what library is for)
 Data model (diagram) -- sometimes seeing at once is better then a thousand words of explanation
 Shortly describe where is speccing happens & belongs, where is parsing happens & belongs, where one can custom hande parsed data on top of what is provided in lib. So now readers roughly know the data model and what are structural parts and where they are
 
-*** Attributes
+*** Attributes/modifiers
+
+Setting that configure the primitive parser.
 
   * ~long~ - ~--key~
   * ~short~ - ~-k~
