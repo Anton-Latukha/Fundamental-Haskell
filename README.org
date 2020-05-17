@@ -3275,6 +3275,15 @@ Nothing
 Just []
 #+end_src
 
+Perhaps it helps to see how some would be written with monadic do syntax:
+
+#+begin_src haskell
+some f = do
+  x <- f
+  xs <- many f
+  return (x:xs)
+#+end_src
+
 ****** /*/
 
 <<<Alternative>>>
