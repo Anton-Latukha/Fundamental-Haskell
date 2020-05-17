@@ -12814,6 +12814,18 @@ Setting that configure the primitive parser.
 
 Compose them with ~<>~.
 
+Example:
+#+begin_src haskell
+  (  long "example"
+  <> short "e"
+  <> metavar "ARGUMENT_HERE"
+  <> value "defaultVal"
+  <> showdefault
+  <> help "This would produce --example and -e keys for this parser."
+          <> "It has defaultVal if key was not used."
+          <> "And it would show default value in help message")
+#+end_src
+
 *** Builders
 
 Builders are the primitive atomic parsers of the library.
