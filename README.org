@@ -12841,30 +12841,30 @@ This monoid (~Mod f a~) should be given to according builder that accepts it.
 
 Builders are the primitive atomic parsers of the library.
 
-  * ~subparser :: Mod CommandFields a -> Parser a~
-    Command parser. The command modifier can be used to specify individual commands.
-  * ~strArgument :: IsString s => Mod ArgumentFields s -> Parser s~
-    To consume a string argument directly.
   * ~argument :: ReadM a -> Mod ArgumentFields a -> Parser a~
     General implemetation that uses given reader to parse direct argument.
+  * ~strArgument :: IsString s => Mod ArgumentFields s -> Parser s~
+    To consume a string argument directly.
+  * ~option :: ReadM a -> Mod OptionFields a -> Parser a~
+    General implementation. Allows to use the given reader.
   * ~flag :: a {default value} -> a {active value} -> Mod FlagFields a {option modifier} -> Parser a~
     Irrefutable \Rightarrow no termination for ~some~ or ~many~, for them use ~flag'~.
-  * ~flag' :: a {active value} -> Mod FlagFields a	{option modifier} -> Parser a~
-    Flag parser without a default value. Has sence in composite parser, or when requiring ~--on~ OR ~--off~ alternatives.
   * ~switch :: Mod FlagFields Bool -> Parser Bool~
     Macro for Boolean switch:
     #+begin_src haskell
     switch = flag False True
     #+end_src
     Irrefutable \Rightarrow no termination for ~some~ or ~many~, for them use ~flag'~
-  * ~abortOption :: ParseError -> Mod OptionFields (a -> a) -> Parser (a -> a)~
-    Always fails immediately.
+  * ~flag' :: a {active value} -> Mod FlagFields a	{option modifier} -> Parser a~
+    Flag parser without a default value. Has sence in composite parser, or when requiring ~--on~ OR ~--off~ alternatives.
   * ~infoOption :: String -> Mod OptionFields (a -> a) -> Parser (a -> a)~
     Always stops binary and displays a message.
   * ~strOption :: IsString s => Mod OptionFields s -> Parser s~
     Taking a String argument.
-  * ~option :: ReadM a -> Mod OptionFields a -> Parser a~
-    General implementation. Allows to use the given reader.
+  * ~abortOption :: ParseError -> Mod OptionFields (a -> a) -> Parser (a -> a)~
+    Always fails immediately.
+  * ~subparser :: Mod CommandFields a -> Parser a~
+    Command parser. The command modifier can be used to specify individual commands.
 
     Definitions (if there are needed)
     Types of builders
