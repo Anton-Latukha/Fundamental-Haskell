@@ -12854,7 +12854,7 @@ command argument --option optionArgument
   * ~flag :: a {default value} -> a {active value} -> Mod FlagFields a {option modifier} -> Parser a~
     Irrefutable \Rightarrow no termination for ~some~ or ~many~, for them use ~flag'~.
   * ~switch :: Mod FlagFields Bool -> Parser Bool~
-    Macro for Boolean switch:
+    Macro for Boolean flag:
     #+begin_src haskell
     switch = flag False True
     #+end_src
