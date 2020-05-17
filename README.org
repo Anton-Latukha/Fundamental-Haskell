@@ -12824,6 +12824,10 @@ Settings that configure the builder.
   * ~internal~ - hide from descriptions
   * ~style~ - function to apply to descriptions
   * ~command~ - add command as a ~subparser~ option.
+#+begin_src haskell
+sample :: Parser Sometype
+sample = subparser $ command "hello" $ info hello $ progDesc "Show greeting"
+#+end_src
 
 Compose them with ~<>~.
 
