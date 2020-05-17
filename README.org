@@ -12811,7 +12811,7 @@ Shortly describe where is speccing happens & belongs, where is parsing happens &
 
 *** Modifiers {Attributes}
 
-Setting that configure the primitive parser.
+Settings that configure the builder.
 
   * ~long~ - ~--key~
   * ~short~ - ~-k~
