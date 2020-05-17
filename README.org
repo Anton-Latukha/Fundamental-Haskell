@@ -12820,6 +12820,7 @@ Settings that configure the builder.
   * ~metavar~ - placeholder for the argument seen in the docs. Does not affect the parsing.
   * ~value~ - value by default
   * ~showdefault~ - in the docs
+  * ~hidden~ - hide from brief info
 
 Compose them with ~<>~.
 
