@@ -3294,6 +3294,9 @@ For lists, [] means failure, so some [] evaluates to [] (no answers) while many 
 
 For STM, failure means that the transaction has to be retried. So some retry will retry itself, while many retry will simply return the empty list. some f and many f will run f repeatedly until it retries. I'm not sure if this is useful thing, but I'm guessing it isn't.
 
+So, for Maybe, [] and STM many and some don't seem to be that useful. It is only useful if the applicative has some kind of state that makes failure increasingly likely when running the same thing over and over. For parsers this is the input which is shrinking with every successful match.
+
+
 ****** /*/
 
 <<<Alternative>>>
