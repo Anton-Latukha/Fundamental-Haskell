@@ -12827,7 +12827,7 @@ Example:
           <> "And it would show default value in help message")
 #+end_src
 
-This monoid should be given to according builder that accepts it.
+This monoid (~Mod f a~) should be given to according builder that accepts it.
 
 *** Builders
 
