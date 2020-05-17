@@ -12821,6 +12821,7 @@ Settings that configure the builder.
   * ~value~ - value by default
   * ~showdefault~ - in the docs
   * ~hidden~ - hide from brief info
+  * ~internal~ - hide from descriptions
 
 Compose them with ~<>~.
 
