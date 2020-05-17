@@ -3284,6 +3284,8 @@ some f = do
   return (x:xs)
 #+end_src
 
+So ~some f~ runs ~f~ once, then "~many~" times, and conses the results. ~many f~ runs ~f~ "~some~" times, or "~alternative~'ly" just returns the empty list. The idea is that they both run ~f~ as often as possible until it "fails", and after that - compose the list of results. The difference is that ~some f~ fails if ~f~ fails immediately, while ~many f~ will succeed and "return" the empty list. But what this all means exactly depends on how <|> is defined.
+
 ****** /*/
 
 <<<Alternative>>>
