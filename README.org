@@ -12768,6 +12768,35 @@ https://github.com/dhall-lang/dhall-lang/tree/master/nixops
 
 ** CLIs - optparse-applicative
 
+    Introduction (what library is for)
+    Data model (diagram) -- sometimes seeing at once is better then a thousand words of explanation
+    Shortly describe where is speccing happens & belongs, where is parsing happens & belongs, where one can custom hande parsed data on top of what is provided in lib. So now readers roughly know the data model and what are structural parts and where they are
+    Attributes
+        Definitions (if there are needed)
+        Everything that is not a definition
+    Builders
+        Definitions (if there are needed)
+        Types of builders
+        How they work
+        Builder examples with different attribute combinations. Better to give primitive stuff and be safe then to sorry
+    Parsers
+        Definitions (if there are needed)
+        How parsers are composed from attributes and builders
+        Examples (if there are needed)
+        Option readers
+        Running a parser
+    Composing and more complex parsers
+        Definitions (if there are needed)
+        Applicative on parsers
+            Examples of the use of parsers in the program and how they tie with surrounding data types
+        Alternative
+        Then mention where and how to customize even over that and example
+    Error handling
+    Shell expansion
+    ...
+    Rename "How it works" into "How library internally implemented"
+
+
 ** HTML - Lucid
 
 ** Web applications - Servant
