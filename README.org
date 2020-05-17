@@ -12835,6 +12835,8 @@ Builders are the primitive atomic parsers of the library.
 
   * ~subparser :: Mod CommandFields a -> Parser a~
   * ~strArgument :: IsString s => Mod ArgumentFields s -> Parser s~
+  * ~argument :: ReadM a -> Mod ArgumentFields a -> Parser a~
+  * ~flag :: a {default value} -> a {active value} -> Mod FlagFields a {option modifier} -> Parser a~
     Definitions (if there are needed)
     Types of builders
     How they work
