@@ -12870,10 +12870,6 @@ command argument --option optionArgument
   * ~subparser :: Mod CommandFields a -> Parser a~
     Command parser. The command modifier can be used to specify individual commands.
 
-    Definitions (if there are needed)
-    Types of builders
-    How they work
-    Builder examples with different attribute combinations. Better to give primitive stuff and be safe then to sorry
 *** Parsers
     Definitions (if there are needed)
     How parsers are composed from attributes and builders
