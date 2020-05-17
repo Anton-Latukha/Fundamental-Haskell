@@ -12814,6 +12814,12 @@ Builders are the primitive atomic parsers of the library.
     Types of builders
     How they work
     Builder examples with different attribute combinations. Better to give primitive stuff and be safe then to sorry
+*** Parsers
+    Definitions (if there are needed)
+    How parsers are composed from attributes and builders
+    Examples (if there are needed)
+    Option readers
+    Running a parser
 
 
 ** HTML - Lucid
