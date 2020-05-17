@@ -12822,6 +12822,7 @@ Settings that configure the builder.
   * ~showdefault~ - in the docs
   * ~hidden~ - hide from brief info
   * ~internal~ - hide from descriptions
+  * ~style~ - function to apply to descriptions
 
 Compose them with ~<>~.
 
