@@ -13734,6 +13734,7 @@ Good per-direction information on state of Haskell ecosystem.
   * "Category Theory for Programmers" (Bartosz Milewski & contributors): [[https://s3.amazonaws.com/milewski-ctfp-pdf/category-theory-for-programmers.pdf][PDF]]
   * <<<Nix manual>>>: [[https://nixos.org/nix/manual/][HTML]]
   * <<<Nixpkgs manual>>>: [[https://nixos.org/nixpkgs/manual/][HTML]]
+  * <<<Nixpkgs Haskell lib>>>: [[https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/lib.nix][source on the GitHub]]
 
 * Giving back
 
