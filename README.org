@@ -13732,6 +13732,7 @@ Good per-direction information on state of Haskell ecosystem.
   * "GHC User’s Guide Documentation" (GHC Team): [[https://downloads.haskell.org/~ghc/latest/docs/users_guide.pdf][PDF]]
   * "What I Wish I Knew When Learning Haskell" (Stephen Diehl & contributors): [[http://dev.stephendiehl.com/hask/tutorial.pdf][PDF]]
   * "Category Theory for Programmers" (Bartosz Milewski & contributors): [[https://s3.amazonaws.com/milewski-ctfp-pdf/category-theory-for-programmers.pdf][PDF]]
+  * <<<Nix manual>>>: [[https://nixos.org/nix/manual/][HTML]]
 
 * Giving back
 
