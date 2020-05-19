@@ -13759,5 +13759,4 @@ Special accolades for the guys at Serokell. They were the force that got me insp
 
 
 # HACK: line below resets the pagestyle. Reset allows proper LaTeX preview generation in Emacs. Line gets removed before the export and added afterwards
-#+latex_header: \pagestyle{empty}
 
