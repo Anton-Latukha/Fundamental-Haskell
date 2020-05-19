@@ -1162,6 +1162,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#ghcid][GHCID]]
   - [[#runghc][runghc]]
   - [[#packaging][Packaging]]
+    - [[#nix][Nix]]
     - [[#cabal2nix][cabal2nix]]
     - [[#hackage2nix][hackage2nix]]
     - [[#cabal2spec---cabal-to-rpm][cabal2spec - Cabal to RPM]]
@@ -12724,6 +12725,10 @@ Cabal in:
   * v2 generation of features (current) uses Nix methods internally to handle packages.
 
 There is a number of good quality projects that export Cabal/Hackage to other packaging systems, big distribution systems and companies rely on them:
+
+*** Nix
+
+Peter Simmons (~peti~) - the main creator maintainer maintainer of the Haskell stack and packages ("package set") in Nixpkgs. He is the central person that created most of the tooling and automation of importing Haskell into Nixpkgs.
 
 *** cabal2nix
 
