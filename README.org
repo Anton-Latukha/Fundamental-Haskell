@@ -2188,7 +2188,7 @@ ap == (<*>) -- + Monad requirement
 | Math     | Meaning                                 | Cat/Fctr        | \( X \in C \)            | Type                      | Haskell |
 |----------+-----------------------------------------+-----------------+------------------------+---------------------------+---------|
 | \( Id \) | endofunctor "Id"                        | \( C \to C \)     | \( X \to Id (X) \)       | \( a \to a  \)              | id      |
-| \( E \)  | endofunctor "monad"                     | \( C \to C \)     | \( X \to E (X) \)        | \( m \ a \to m \ b \)       | fmap    |
+| \( E \)  | endofunctor "monad"                     | \( C \to C \)     | \( X \to E (X) \)        | \( m \ a \to m \ b \)       | fmap f  |
 | \( \eta \)  | natural transformation "unit"           | \( Id \to E \)    | \( Id (X) \to E (X) \)   | \( a \to m \ a \)           | pure    |
 | \( \mu \)  | natural transformation "multiplication" | \( E \circ E \to E \) | \( E (E(X)) \to E (X) \) | \( m \ (m \ a) \to m \ a \) | join    |
 #+latex: }
