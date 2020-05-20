@@ -901,6 +901,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
           - [[#standalonekindsignatures][<<<StandaloneKindSignatures>>>]]
             - [[#-188][/*/]]
           - [[#partialtypesignatures-1][<<<PartialTypeSignatures>>>]]
+          - [[#typeoperators][<<<TypeOperators>>>]]
         - [[#how-to-make-a-ghc-language-extension][How to make a GHC LANGUAGE extension]]
   - [[#computer-science][Computer science]]
     - [[#guerrilla-patch][<<<Guerrilla patch>>>]]
@@ -10603,6 +10604,21 @@ f :: _ => a -> b -> c
 f :: _x -> _x -> a
   #+end_src
 allows to identify the same wildcard.
+
+****** <<<TypeOperators>>> :drill:
+:PROPERTIES:
+:ID:       2e1352a2-53d9-4c4d-b5d4-473353d0a87c
+:END:
+
+Allow type signature to hold operator names:
+
+#+begin_src haskell
+data a + b = Plus a b
+#+end_src
+
+---
+
+Implies	ExplicitNamespaces
 
 ***** How to make a GHC LANGUAGE extension
 
