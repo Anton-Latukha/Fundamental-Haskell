@@ -1170,6 +1170,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#cabal2spec---cabal-to-rpm][cabal2spec - Cabal to RPM]]
     - [[#nix-tools][nix-tools]]
     - [[#haskellnix][haskell.nix]]
+  - [[#emacsspacemacs][Emacs/Spacemacs]]
   - [[#continuous-integration-platrorms-cis-for-open-source-haskell-projets][Continuous integration platrorms (CIs) for Open Source Haskell projets]]
 - [[#library][Library]]
   - [[#exceptions][Exceptions]]
@@ -12776,6 +12777,10 @@ Automatically translates Cabal/Stack project and dependencies into Nix code. Pro
 So it autogenerates Nix code hald way for your purposes.
 
 Project of IOHK and has an active big respectable team.
+
+** Emacs/Spacemacs
+
+In Haskell programming ~spacemacs/jump-to-definition~ is your friend, let yourself - it will guide you.
 
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
