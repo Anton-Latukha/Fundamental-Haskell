@@ -12782,6 +12782,8 @@ Project of IOHK and has an active big respectable team.
 
 In Haskell programming ~spacemacs/jump-to-definition~ is your friend, let yourself - it will guide you.
 
+My (Anton-Latukha's) Spacemacs configuration for Haskell as at: https://github.com/Anton-Latukha/.spacemacs.d/blob/private/init.el. Look there for a ~Haskell~ keyword, there is layer configuration, and the init boot config inside ~(defun dotspacemacs/user-config ()~.
+
 ** Continuous integration platrorms (CIs) for Open Source Haskell projets
 
 Since Open Source projects mostly use free tiers of CIs, and different CIs have different features - there is a constant flux of how to construct the best possible integration pipeline for Haskell projects.
