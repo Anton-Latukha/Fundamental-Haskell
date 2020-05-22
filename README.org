@@ -1272,6 +1272,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#resources][Resources]]
     - [[#state-of-the-haskell-ecosystem]["State of the Haskell ecosystem"]]
     - [[#haskell-performance-tools-processes-comparisons-data-information-guides]["Haskell performance" tools, processes, comparisons, data, information, guides]]
+    - [[#data-haskell---2017-annotated-links-to-data-science--machine-learning-libraries-overviews-and-benchmarks-of-libraries][data Haskell - (2017) annotated links to data science & machine learning libraries, overviews and benchmarks of libraries]]
   - [[#literature][Literature]]
 - [[#giving-back][Giving back]]
 
@@ -13754,6 +13755,9 @@ Good per-direction information on state of Haskell ecosystem.
 
 *** [[https://github.com/haskell-perf]["Haskell performance"]] tools, processes, comparisons, data, information, guides
 (community)
+
+*** [[http://www.datahaskell.org/docs][data Haskell]] - (2017) annotated links to data science & machine learning libraries, overviews and benchmarks of libraries
+dataHaskell contributors
 
 ** Literature
 
