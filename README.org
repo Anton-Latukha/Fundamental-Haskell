@@ -3361,7 +3361,7 @@ Code definition:
 #+begin_src haskell
 class Bifunctor f
  where
-  bimap :: (a -> a') -> (b -> b') -> f a a' -> f a a'
+  bimap :: (a -> a') -> (b -> b') -> f a b -> f a' b'
   bimap f g = first f . second g
   first :: (a -> a') -> f a b -> f a' b
   first f = bimap f id
