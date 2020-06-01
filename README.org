@@ -13087,7 +13087,7 @@ The MonadFailDesugaring language extension is now deprecated, as its effects are
 always enabled.
 #+end_quote
 
-So:
+So instead of:
 #+begin_src haskell
 import           Control.Monad.Fail
 ...
@@ -13095,6 +13095,10 @@ class MonadFail m => MonadFile m
 ...
 -- use error instead of fail
 Nothing     -> error ("Message " <> show x)
+-- if compatibility fith old GHCs needed (ex. library)
+#if __GLASGOW_HASKELL__ < 880
+import           Control.Monad.Fail
+#endif
 #+end_src
 
 *** Diversity in exceptions
