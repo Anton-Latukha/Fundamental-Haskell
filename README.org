@@ -12163,18 +12163,6 @@ pure (a, b)
 With Type Applicative every condition fails/succseeds independently. It needs a boilerplate data constructor/value pattern matching code to work. And code you can write only for so many cases and types, so boilerplate can not be so flexible as Monad that allows polymorphism.
 With Type Monad computation can return value that dependent from the previous computation result. So abort or dependent processing can happen.
 
-** <<<Good: Haskell Package Versioning Policy>>>
-
-Version policy and dependency management.
-
-#+downloaded: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
-[[file:images/pvp-decision-tree_2019-06-17_15-49-21.svg]]
-
-*** /*/
-
-<<<PVP>>>
-<<<Good: PVP>>>
-
 ** <<<Good: Linear type>>> :drill:
 :properties:
 :ID:       820c915d-e3fe-4ff5-acb3-9ef205f70639
@@ -13771,6 +13759,18 @@ dataHaskell contributors
   * Nix manual: [[https://nixos.org/nix/manual/][HTML]]
   * Nixpkgs manual: [[https://nixos.org/nixpkgs/manual/][HTML]]
   * Nixpkgs Haskell lib: [[https://github.com/NixOS/nixpkgs/blob/master/pkgs/development/haskell-modules/lib.nix][source on the GitHub]]
+
+** <<<Good: Haskell Package Versioning Policy>>>
+
+Version policy and dependency management.
+
+#+downloaded: https://pvp.haskell.org/pvp-decision-tree.svg @ 2019-06-17 15:49:21
+[[file:images/pvp-decision-tree_2019-06-17_15-49-21.svg]]
+
+*** /*/
+
+<<<PVP>>>
+<<<Good: PVP>>>
 
 * Giving back
 
