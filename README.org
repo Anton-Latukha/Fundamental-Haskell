@@ -3455,7 +3455,7 @@ SCHT: <2020-08-06 Thu>
 
 Semigroup with identity element.
 
-Ideally fits as an accumulation class.
+Ideal ground for any accumulation class.
 
 #+begin_src haskell
 class Monoid m where
