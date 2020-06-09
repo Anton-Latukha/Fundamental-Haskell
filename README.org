@@ -3491,7 +3491,6 @@ do
   -- ...
 #+end_src
 
-Also backwards - any single-object category is a monoid. Category has an identity requirement and associativity of composition requirement, which makes it a free monoid. 
 
 ****** /*/
 
