@@ -3467,6 +3467,15 @@ mconcat = foldr mappend mempty
 #+end_src
 
 /*/ can be simplified to category with a single object, remember that monoid operation is a composition of morphisms operation in category.
+More generally in category theory terms:
+
+/*/ - the object \( M \) equipped with two arrows:
+
+\( \mu: \ M \ \otimes \ M \ \to M \) called multiplication or product, or tenzor product.
+\( \eta: \ I \ \to \ M \) called unit,
+
+so \((M, \ \mu, \ \eta )\). By its definition category (lets call it \( \mathb{C} \) should have \( \otimes \) and \( I \). Where \( \otimes: \ \mathb{C} \ \times \ \mathb{C} \ \to \ \mathb{C} \) is any operation that combines objects and stays (closed) inside category, so it may be even already category given operation of arrow composition. And \( I \) is an identity object of \( \otimes \) operation.
+
 Category with one object.
 
 For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
