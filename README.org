@@ -3494,6 +3494,8 @@ do
 And backwards connection.
 Any monoidal category can be isomorphically transformed into one-object bicategory, thou explaining or proving it is out of the current scope.
 
+Any monad is equivalent up to isomorphism to monoid.
+
 ****** /*/
 
 <<<Monoidal>>>
