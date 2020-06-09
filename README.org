@@ -3475,7 +3475,7 @@ More generally in category theory terms:
 
 so \((M, \ \mu, \ \eta )\). By its definition category (lets call it \( \mathb{C} \) should have \( \otimes \) and \( I \). Where \( \otimes: \ \mathb{C} \ \times \ \mathb{C} \ \to \ \mathb{C} \) is any operation that combines objects and stays (closed) inside category, so it may be even already category given operation of arrow composition. And \( I \) is an identity object of \( \otimes \) operation.
 
-Category with one object - always a monoid (composition, and there is only one object so it is always also the identity object).
+Category that has one object - always a free monoid (from definition of "Category" - composition, and there is only one object so it is always also the identity object).
 
 For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
 
