@@ -1391,19 +1391,6 @@ From this definition follows property that the field of complex numbers is algeb
 
 Set with a binary operation which form a closure.
 
-***** <<<Mag category>>> :drill:
-:properties:
-:ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
-:end:
-
-The category of magmas, denoted \( Mag \), has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
-
-****** /*/
-
-<<<MAG>>>
-<<<Magma category>>>
-<<<Category of magmas>>>
-
 ***** <<<Semigroup>>> :drill:
 SCHT: <2020-10-01 Thu>
 :properties:
@@ -4523,6 +4510,19 @@ Called: /*/ over =K= (whick holds hom objects).
 ****** /*/
 <<<Enriched>>>
 <<<Large category>>>
+
+*** <<<Mag category>>> :drill:
+:properties:
+:ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
+:end:
+
+The category of magmas, denoted \( Mag \), has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+
+**** /*/
+
+<<<MAG>>>
+<<<Magma category>>>
+<<<Category of magmas>>>
 
 ** <<<Data type>>> :drill:
 SCHT: <2020-07-22 Wed>
