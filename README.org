@@ -290,37 +290,56 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#algebraic-structure][<<<Algebraic structure>>>]]
       - [[#-1][/*/]]
       - [[#fundamental-theorem-of-algebra][<<<Fundamental theorem of algebra>>>]]
+      - [[#magma][<<<Magma>>>]]
+        - [[#mag-category][<<<Mag category>>>]]
+          - [[#-2][/*/]]
+        - [[#semigroup][<<<Semigroup>>>]]
+          - [[#-3][/*/]]
+          - [[#monoid][<<<Monoid>>>]]
+            - [[#-4][/*/]]
+            - [[#monoid-properties][<<<Monoid properties>>>]]
+              - [[#monoid-left-identity-property][<<<Monoid left identity property>>>]]
+              - [[#monoid-right-identity-property][<<<Monoid right identity property>>>]]
+              - [[#monoid-associativity-property][<<<Monoid associativity property>>>]]
+            - [[#commutative-monoid][<<<Commutative monoid>>>]]
+              - [[#-5][/*/]]
+            - [[#group][<<<Group>>>]]
+              - [[#-6][/*/]]
+              - [[#commutative-group][<<<Commutative group>>>]]
+                - [[#-7][/*/]]
+                - [[#ring][<<<Ring>>>]]
+                  - [[#-8][/*/]]
     - [[#modular-arithmetic][<<<Modular arithmetic>>>]]
-      - [[#-2][/*/]]
+      - [[#-9][/*/]]
       - [[#modulus][<<<Modulus>>>]]
-        - [[#-3][/*/]]
+        - [[#-10][/*/]]
   - [[#category-theory][<<<Category theory>>>]]
-    - [[#-4][/*/]]
+    - [[#-11][/*/]]
     - [[#abelian-category][<<<Abelian category>>>]]
-      - [[#-5][/*/]]
+      - [[#-12][/*/]]
     - [[#composition][<<<Composition>>>]]
-      - [[#-6][/*/]]
+      - [[#-13][/*/]]
     - [[#endofunctor-category][<<<Endofunctor category>>>]]
     - [[#functor][<<<Functor>>>]]
-      - [[#-7][/*/]]
+      - [[#-14][/*/]]
       - [[#power-set-functor][<<<Power set functor>>>]]
-        - [[#-8][/*/]]
+        - [[#-15][/*/]]
         - [[#power-set-functor-properties][<<<Power set functor properties>>>]]
-          - [[#-9][/*/]]
+          - [[#-16][/*/]]
           - [[#power-set-functor-identity-property][<<<Power set functor identity property>>>]]
           - [[#power-set-functor-composition-property][<<<Power set functor composition property>>>]]
         - [[#lift][<<<Lift>>>]]
-          - [[#-10][/*/]]
+          - [[#-17][/*/]]
         - [[#power-set-functor-is-a-free-monad][<<<Power set functor is a free monad>>>]]
       - [[#forgetful-functor][<<<Forgetful functor>>>]]
-        - [[#-11][/*/]]
+        - [[#-18][/*/]]
       - [[#identity-functor][<<<Identity functor>>>]]
       - [[#endofunctor][<<<Endofunctor>>>]]
-        - [[#-12][/*/]]
+        - [[#-19][/*/]]
       - [[#applicative-functor][<<<Applicative functor>>>]]
-        - [[#-13][/*/]]
+        - [[#-20][/*/]]
         - [[#applicative-property][<<<Applicative property>>>]]
-        - [[#-14][/*/]]
+        - [[#-21][/*/]]
           - [[#applicative-identity-property][<<<Applicative identity property>>>]]
           - [[#applicative-composition-property][<<<Applicative composition property>>>]]
           - [[#applicative-homomorphism-property][<<<Applicative homomorphism property>>>]]
@@ -340,23 +359,23 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
           - [[#either-applicative][<<<Either applicative>>>]]
           - [[#validation-applicative][<<<Validation applicative>>>]]
         - [[#monad][<<<Monad>>>]]
-          - [[#-15][/*/]]
+          - [[#-22][/*/]]
           - [[#monad-property][<<<Monad property>>>]]
-            - [[#-16][/*/]]
+            - [[#-23][/*/]]
             - [[#monad-left-identity-property][<<<Monad left identity property>>>]]
             - [[#monad-right-identity-property][<<<Monad right identity property>>>]]
             - [[#monad-associativity-property][<<<Monad associativity property>>>]]
           - [[#monad-type-class][<<<Monad type class>>>]]
             - [[#monadplus-type-class][<<<MonadPlus type class>>>]]
-              - [[#-17][/*/]]
+              - [[#-24][/*/]]
           - [[#functor---applicative---monad-progression][Functor -> Applicative -> Monad progression]]
           - [[#monad-function][<<<Monad function>>>]]
             - [[#return-function][<<<Return function>>>]]
             - [[#join-function][<<<Join function>>>]]
-              - [[#-18][/*/]]
+              - [[#-25][/*/]]
               - [[#join--fmap--][join . fmap == (=<<)]]
             - [[#bind-function][<<<Bind function>>>]]
-              - [[#-19][/*/]]
+              - [[#-26][/*/]]
             - [[#sequencing-operator---equiv--][<<<Sequencing operator>>> =(>> ) \equiv ( *>)=:]]
             - [[#monadic-versions-of-list-functions][Monadic versions of list functions]]
             - [[#liftm][<<<liftM*>>>]]
@@ -364,7 +383,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
               - [[#liftm2][<<<liftM2>>>]]
           - [[#comonad][<<<Comonad>>>]]
           - [[#kleisli-arrow][<<<Kleisli arrow>>>]]
-            - [[#-20][/*/]]
+            - [[#-27][/*/]]
           - [[#kleisli-composition][<<<Kleisli composition>>>]]
           - [[#kleisli-category][<<<Kleisli category>>>]]
           - [[#special-monad][<<<Special monad>>>]]
@@ -373,46 +392,27 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
             - [[#either-monad][<<<Either monad>>>]]
             - [[#error-monad][<<<Error monad>>>]]
             - [[#list-monad][<<<List monad>>>]]
-              - [[#-21][/*/]]
+              - [[#-28][/*/]]
             - [[#reader-monad][<<<Reader monad>>>]]
             - [[#writer-monad][<<<Writer monad>>>]]
             - [[#state-monad][<<<State monad>>>]]
           - [[#monad-transformer][<<<Monad transformer>>>]]
             - [[#maybet][<<<MaybeT>>>]]
             - [[#eithert][<<<EitherT>>>]]
-              - [[#-22][/*/]]
+              - [[#-29][/*/]]
             - [[#readert][<<<ReaderT>>>]]
             - [[#monadtrans-type-class][<<<MonadTrans>>> type class]]
                 - [[#monadio-type-class][<<<MonadIO>>> type class]]
-                  - [[#-23][/*/]]
+                  - [[#-30][/*/]]
         - [[#alternative-type-class][<<<Alternative type class>>>]]
-          - [[#-24][/*/]]
-      - [[#monoidal-functor][<<<Monoidal functor>>>]]
-      - [[#-25][=$>=]]
-        - [[#-26][/*/]]
-      - [[#multifunctor][<<<Multifunctor>>>]]
-        - [[#-27][/*/]]
-    - [[#hask-category][<<<Hask category>>>]]
-      - [[#-28][/*/]]
-    - [[#magma][<<<Magma>>>]]
-      - [[#mag-category][<<<Mag category>>>]]
-        - [[#-29][/*/]]
-      - [[#semigroup][<<<Semigroup>>>]]
-        - [[#-30][/*/]]
-        - [[#monoid][<<<Monoid>>>]]
           - [[#-31][/*/]]
-          - [[#monoid-properties][<<<Monoid properties>>>]]
-            - [[#monoid-left-identity-property][<<<Monoid left identity property>>>]]
-            - [[#monoid-right-identity-property][<<<Monoid right identity property>>>]]
-            - [[#monoid-associativity-property][<<<Monoid associativity property>>>]]
-          - [[#commutative-monoid][<<<Commutative monoid>>>]]
-            - [[#-32][/*/]]
-          - [[#group][<<<Group>>>]]
-            - [[#-33][/*/]]
-            - [[#commutative-group][<<<Commutative group>>>]]
-              - [[#-34][/*/]]
-              - [[#ring][<<<Ring>>>]]
-                - [[#-35][/*/]]
+      - [[#monoidal-functor][<<<Monoidal functor>>>]]
+      - [[#-32][=$>=]]
+        - [[#-33][/*/]]
+      - [[#multifunctor][<<<Multifunctor>>>]]
+        - [[#-34][/*/]]
+    - [[#hask-category][<<<Hask category>>>]]
+      - [[#-35][/*/]]
     - [[#morphism][<<<Morphism>>>]]
       - [[#-36][/*/]]
       - [[#homomorphism][<<<Homomorphism>>>]]
@@ -1383,6 +1383,254 @@ SCHT: <2020-08-07 Fri>
 Any non-constant single-variable polynomial with complex coefficients has at least one complex root.
 
 From this definition follows property that the field of complex numbers is algebraically closed.
+
+**** <<<Magma>>> :drill:
+:properties:
+:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
+:end:
+
+Set with a binary operation which form a closure.
+
+***** <<<Mag category>>> :drill:
+:properties:
+:ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
+:end:
+
+The category of magmas, denoted \( Mag \), has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
+
+****** /*/
+
+<<<MAG>>>
+<<<Magma category>>>
+<<<Category of magmas>>>
+
+***** <<<Semigroup>>> :drill:
+SCHT: <2020-10-01 Thu>
+:properties:
+:ID:       7e67196b-643c-4726-8a17-6207826764bb
+:DRILL_LAST_INTERVAL: 261.4179
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.8
+:DRILL_EASE: 2.9
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:56]
+:end:
+
+Magma with associative property of operation.
+
+Defined in Haskell as:
+#+begin_src haskell
+class Semigroup a where
+(<>) :: a -> a -> a
+#+end_src
+
+****** /*/
+
+<<<Semigroups>>>
+
+****** <<<Monoid>>> :drill:
+SCHT: <2020-08-06 Thu>
+:properties:
+:ID:       6593c8fb-adda-488b-b86f-9544f62868eb
+:DRILL_LAST_INTERVAL: 225.3206
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.4
+:DRILL_EASE: 2.66
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:39]
+:end:
+
+Semigroup with identity element.
+
+Ideal ground for any accumulation class.
+
+#+begin_src haskell
+class Monoid m where
+mempty :: m
+mappend :: m -> m -> m
+mappend = (<>)
+mconcat :: [m] -> m
+mconcat = foldr mappend mempty
+#+end_src
+
+More generally in category theory terms:
+
+/*/ - the object \( M \) equipped with two arrows:
+
+\( \mu: \ M \ \otimes \ M \ \to M \) called multiplication or product, or tenzor product.
+\( \eta: \ I \ \to \ M \) called unit,
+
+so \((M, \ \mu, \ \eta )\). By its definition category (lets call it \( \mathb{C} \) should have \( \otimes \) and \( I \). Where \( \otimes: \ \mathb{C} \ \times \ \mathb{C} \ \to \ \mathb{C} \) is any operation that combines objects and stays (closed) inside category, so it may be even already category given operation of arrow composition. And \( I \) is an identity object of \( \otimes \) operation.
+
+Category that has one object - always a free monoid (from definition of "Category" - composition, and there is only one object so it is always also the identity object).
+
+For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
+
+#+begin_src haskell
+import Data.Monoid
+do
+  show (mempty :: Num a => Sum a)
+  -- "Sum {getSum = 0}"
+  show $ Sum 1
+  -- "Sum {getSum = 1}"
+  show $ (Sum 1) <> (Sum 1) <> (Sum 1)
+  -- "Sum {getSum = 3}"
+  -- ...
+#+end_src
+
+And backwards connection.
+Any monoidal category can be isomorphically transformed into one-object bicategory, thou explaining or proving it is out of the current scope.
+
+Any monad is equivalent up to isomorphism to monoid.
+
+******* /*/
+
+<<<Monoidal>>>
+<<<Monoids>>>
+
+******* <<<Monoid properties>>> :drill:
+:properties:
+:ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
+:end:
+
+******** <<<Monoid left identity property>>> :drill:
+SCHT: <2020-10-11 Sun>
+:properties:
+:ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
+:DRILL_LAST_INTERVAL: 270.5287
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:58]
+:end:
+
+#+begin_src haskell
+mempty <> x = x
+#+end_src
+
+******** <<<Monoid right identity property>>> :drill:
+SCHT: <2020-05-01 Fri>
+:properties:
+:ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
+:DRILL_LAST_INTERVAL: 4.14
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 1
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.6
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
+:end:
+
+#+begin_src haskell
+x <> mempty = x
+#+end_src
+
+******** <<<Monoid associativity property>>> :drill:
+:properties:
+:ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
+:end:
+
+#+begin_src haskell
+x <> mempty = x (y <> z) = (x <> y) <> z
+mconcat = foldr (mempty <>)
+#+end_src
+
+Everything associative can be =mappend=.
+
+******* <<<Commutative monoid>>> :drill:
+SCHT: <2020-10-08 Thu>
+:properties:
+:ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
+:DRILL_LAST_INTERVAL: 268.457
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 3.0
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:01]
+:end:
+
+Operation that forms structure has commutativity property:
+\( x \circ y = y \circ x \)
+
+Opens a big abilities in concurrent and distributed processing.
+
+******** /*/
+
+<<<Abelian monoid>>>
+
+******* <<<Group>>> :drill:
+SCHT: <2020-07-04 Sat>
+:properties:
+:ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
+:DRILL_LAST_INTERVAL: 117.1166
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
+:end:
+
+Monoid that has inverse for every element.
+
+******** /*/
+
+<<<Groups>>>
+
+******** <<<Commutative group>>> :drill:
+SCHT: <2020-05-27 Wed>
+:properties:
+:ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
+:DRILL_LAST_INTERVAL: 31.1271
+:DRILL_REPEATS_SINCE_FAIL: 4
+:DRILL_TOTAL_REPEATS: 3
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_EASE: 2.8
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:56]
+:end:
+
+Commutative monoid that is a group.
+
+********* /*/
+
+<<<Abelian group>>>
+
+********* <<<Ring>>> :drill:
+SCHT: <2020-06-17 Wed>
+:properties:
+:ID:       437c3602-cfc2-4cd1-bdba-be9e0db9c8f8
+:DRILL_LAST_INTERVAL: 175.3075
+:DRILL_REPEATS_SINCE_FAIL: 6
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.42
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:23]
+:end:
+
+Commutative group under + & monoid under \times, + \times connected by distributive property.
+
++ and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
+
+Example: set of same size square matricies of numbers with matrix operations form a ring.
+
+********** /*/
+
+<<<Rings>>>
 
 *** <<<Modular arithmetic>>> :drill:
 :properties:
@@ -3392,254 +3640,6 @@ Haskell and Category concepts:
 **** /*/
 
 <<<Hask>>>
-
-*** <<<Magma>>> :drill:
-:properties:
-:ID:       c40ac83b-c730-4de5-915d-04d76c88398c
-:end:
-
-Set with a binary operation which form a closure.
-
-**** <<<Mag category>>> :drill:
-:properties:
-:ID:       f9b01a3c-7f8c-43da-94d0-83cca1158686
-:end:
-
-The category of magmas, denoted \( Mag \), has as objects - sets with a binary operation, and morphisms given by homomorphisms of operations (in the universal algebra sense).
-
-***** /*/
-
-<<<MAG>>>
-<<<Magma category>>>
-<<<Category of magmas>>>
-
-**** <<<Semigroup>>> :drill:
-SCHT: <2020-10-01 Thu>
-:properties:
-:ID:       7e67196b-643c-4726-8a17-6207826764bb
-:DRILL_LAST_INTERVAL: 261.4179
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.8
-:DRILL_EASE: 2.9
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:56]
-:end:
-
-Magma with associative property of operation.
-
-Defined in Haskell as:
-#+begin_src haskell
-class Semigroup a where
-(<>) :: a -> a -> a
-#+end_src
-
-***** /*/
-
-<<<Semigroups>>>
-
-***** <<<Monoid>>> :drill:
-SCHT: <2020-08-06 Thu>
-:properties:
-:ID:       6593c8fb-adda-488b-b86f-9544f62868eb
-:DRILL_LAST_INTERVAL: 225.3206
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.4
-:DRILL_EASE: 2.66
-:DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:39]
-:end:
-
-Semigroup with identity element.
-
-Ideal ground for any accumulation class.
-
-#+begin_src haskell
-class Monoid m where
-mempty :: m
-mappend :: m -> m -> m
-mappend = (<>)
-mconcat :: [m] -> m
-mconcat = foldr mappend mempty
-#+end_src
-
-More generally in category theory terms:
-
-/*/ - the object \( M \) equipped with two arrows:
-
-\( \mu: \ M \ \otimes \ M \ \to M \) called multiplication or product, or tenzor product.
-\( \eta: \ I \ \to \ M \) called unit,
-
-so \((M, \ \mu, \ \eta )\). By its definition category (lets call it \( \mathb{C} \) should have \( \otimes \) and \( I \). Where \( \otimes: \ \mathb{C} \ \times \ \mathb{C} \ \to \ \mathb{C} \) is any operation that combines objects and stays (closed) inside category, so it may be even already category given operation of arrow composition. And \( I \) is an identity object of \( \otimes \) operation.
-
-Category that has one object - always a free monoid (from definition of "Category" - composition, and there is only one object so it is always also the identity object).
-
-For example to represent the whole non-negative integers with the one object and morphism "\( 1 \)" is absolutely enough, composition operation is "\( + \)".
-
-#+begin_src haskell
-import Data.Monoid
-do
-  show (mempty :: Num a => Sum a)
-  -- "Sum {getSum = 0}"
-  show $ Sum 1
-  -- "Sum {getSum = 1}"
-  show $ (Sum 1) <> (Sum 1) <> (Sum 1)
-  -- "Sum {getSum = 3}"
-  -- ...
-#+end_src
-
-And backwards connection.
-Any monoidal category can be isomorphically transformed into one-object bicategory, thou explaining or proving it is out of the current scope.
-
-Any monad is equivalent up to isomorphism to monoid.
-
-****** /*/
-
-<<<Monoidal>>>
-<<<Monoids>>>
-
-****** <<<Monoid properties>>> :drill:
-:properties:
-:ID:       031cdf43-093d-4959-ac8b-f3e2ad35e7db
-:end:
-
-******* <<<Monoid left identity property>>> :drill:
-SCHT: <2020-10-11 Sun>
-:properties:
-:ID:       ab71d331-f6f3-4edc-b734-c05c2df9630a
-:DRILL_LAST_INTERVAL: 270.5287
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 13:58]
-:end:
-
-#+begin_src haskell
-mempty <> x = x
-#+end_src
-
-******* <<<Monoid right identity property>>> :drill:
-SCHT: <2020-05-01 Fri>
-:properties:
-:ID:       d048e3ea-ef53-4e33-ae78-88a60a07bacb
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:02]
-:end:
-
-#+begin_src haskell
-x <> mempty = x
-#+end_src
-
-******* <<<Monoid associativity property>>> :drill:
-:properties:
-:ID:       bd721cde-f8be-45a8-b098-6085d5254e2b
-:end:
-
-#+begin_src haskell
-x <> mempty = x (y <> z) = (x <> y) <> z
-mconcat = foldr (mempty <>)
-#+end_src
-
-Everything associative can be =mappend=.
-
-****** <<<Commutative monoid>>> :drill:
-SCHT: <2020-10-08 Thu>
-:properties:
-:ID:       ece84bf0-fff2-4bda-968c-473c7d7c959e
-:DRILL_LAST_INTERVAL: 268.457
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 3.0
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:01]
-:end:
-
-Operation that forms structure has commutativity property:
-\( x \circ y = y \circ x \)
-
-Opens a big abilities in concurrent and distributed processing.
-
-******* /*/
-
-<<<Abelian monoid>>>
-
-****** <<<Group>>> :drill:
-SCHT: <2020-07-04 Sat>
-:properties:
-:ID:       95a42c18-683b-4489-a2e9-e891e3fd9958
-:DRILL_LAST_INTERVAL: 117.1166
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-03-09 Mon 12:58]
-:end:
-
-Monoid that has inverse for every element.
-
-******* /*/
-
-<<<Groups>>>
-
-******* <<<Commutative group>>> :drill:
-SCHT: <2020-05-27 Wed>
-:properties:
-:ID:       778e3114-4600-4a39-a6d3-4f9955c61d66
-:DRILL_LAST_INTERVAL: 31.1271
-:DRILL_REPEATS_SINCE_FAIL: 4
-:DRILL_TOTAL_REPEATS: 3
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.8
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:56]
-:end:
-
-Commutative monoid that is a group.
-
-******** /*/
-
-<<<Abelian group>>>
-
-******** <<<Ring>>> :drill:
-SCHT: <2020-06-17 Wed>
-:properties:
-:ID:       437c3602-cfc2-4cd1-bdba-be9e0db9c8f8
-:DRILL_LAST_INTERVAL: 175.3075
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 4.0
-:DRILL_EASE: 2.42
-:DRILL_LAST_QUALITY: 4
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:23]
-:end:
-
-Commutative group under + & monoid under \times, + \times connected by distributive property.
-
-+ and \times are generalized binary operations of addition and multiplication. \times has no requirement for commutativity.
-
-Example: set of same size square matricies of numbers with matrix operations form a ring.
-
-********* /*/
-
-<<<Rings>>>
 
 *** <<<Morphism>>> :drill:
 SCHT: <2020-11-21 Sat>
