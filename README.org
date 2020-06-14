@@ -13747,6 +13747,8 @@ Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
 
 ***** Major breaking changes
 ***** (optional) API additions of functionality
+***** (optional) Other changes in the project, news
+
 *** Check ~cabal sdist~ build passes
 *** Think what new files can/should be included in ~.cabal~ ~extra-source-files~
 *** Update ~.cabal~ ~version:~
