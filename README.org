@@ -13702,6 +13702,10 @@ Unproven Collatz conjecture is a classical computation halting problem. (If x_{i
 
 ** Algorithm of the Hackage package release
 
+*** Form Git{Hub,Lab} pre-release
+
+Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
+
 
 * Reference
 
