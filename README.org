@@ -13743,6 +13743,8 @@ Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
 
 #+end_src
 
+**** Populate according to PVP
+
 *** Check ~cabal sdist~ build passes
 *** Think what new files can/should be included in ~.cabal~ ~extra-source-files~
 *** Update ~.cabal~ ~version:~
