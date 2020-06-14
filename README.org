@@ -1436,10 +1436,8 @@ Semigroup with identity element.
 Ideal ground for any accumulation class.
 
 #+begin_src haskell
-class Monoid m where
+class Semigroup m => Monoid m where
 mempty :: m
-mappend :: m -> m -> m
-mappend = (<>)
 mconcat :: [m] -> m
 mconcat = foldr mappend mempty
 #+end_src
