@@ -13714,6 +13714,15 @@ Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
 *** Update ~.cabal~ ~version:~
 *** Add a ~git tag <v>~
 *** ~git push --tags~
+*** Left (Remove git tag)
+
+#+begin_src fish
+set fork 'f'
+set ver '..'
+git tag -d $ver
+git push --delete $fork $ver
+#+end_src
+
 
 * Reference
 
