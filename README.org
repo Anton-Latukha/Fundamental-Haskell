@@ -13713,6 +13713,7 @@ Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
 *** Think what new files can/should be included in ~.cabal~ ~extra-source-files~
 *** Update ~.cabal~ ~version:~
 *** Add a ~git tag <v>~
+*** ~git push --tags~
 
 * Reference
 
