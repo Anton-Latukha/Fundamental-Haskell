@@ -13719,6 +13719,7 @@ Name it ~pre-x.x.x.x+1~, so determination of real number happens afterwards.
 
 *** Create git branch ~release x.x.x.x+1~
 *** Open-up ~git diff <lastVer>..HEAD~ on one side of the screen
+*** Open ~CHANGELOG.md~ on the other side of the screen
 *** Update ~CHANGELOG.md~
 *** Check ~cabal sdist~ build passes
 *** Think what new files can/should be included in ~.cabal~ ~extra-source-files~
