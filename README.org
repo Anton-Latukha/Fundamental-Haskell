@@ -13779,7 +13779,7 @@ https://hackage.haskell.org/packages/candidates/upload
 
 *** (careful) Be fully ready when you upload package release to Hackage, since upload is idempotant
 
-
+http://hackage.haskell.org/packages/upload
 * Reference
 
 ** History
