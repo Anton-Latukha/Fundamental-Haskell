@@ -13773,6 +13773,10 @@ git push --delete $fork $ver
 
 
 *** Make a ~cabal sdist~
+*** Upload package candidate to Hackage
+
+https://hackage.haskell.org/packages/candidates/upload
+
 * Reference
 
 ** History
