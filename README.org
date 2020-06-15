@@ -13771,11 +13771,14 @@ git tag -d $ver
 git push --delete $fork $ver
 #+end_src
 
-
 *** Make a ~cabal sdist~
+
 *** Upload package candidate to Hackage
 
 https://hackage.haskell.org/packages/candidates/upload
+
+*** (careful) Be fully ready when you upload package release to Hackage, since upload is idempotant
+
 
 * Reference
 
