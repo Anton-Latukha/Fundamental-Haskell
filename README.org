@@ -230,6 +230,16 @@ Book comes in forms:
 This book is created using complex Org markup file with a lot of LaTeX and LaTeX formulas.
 Be aware - GitHub & GitLab only partially parse Org into HTML.
 
+-----
+
+/Book became too popular (underground scene wibe here), to address that - it would go through proper cleaning of presonal Org-drill metadata./
+/Current book form reached limits of radio cross-linking scaling of the Emacs Org-mode, the book would migrate to Org-roam and gain even more representational possibilities/.
+/Book also needs to be published in form of the Anki card deck for Anki users. Did you know that Anki is direct development from Org-drill v1?/
+
+[[https://www.youtube.com/watch?v=nPtorZ2k7Ak][So in nearest time book source would go through big structural changes.]]
+
+-----
+
 To get the full view:
   * Outline navigation
   * LaTeX formulas:
