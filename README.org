@@ -1864,7 +1864,7 @@ SCHT: <2020-04-07 Tue>
 /*/ - functor from set \( S \) to its power set \( \mathcal{P}(S) \).
 
 Functor type class in Haskell defines a /*/ and allows to do function application inside type structure layers (denoted \( f \) or \( m \)). IO is also such structure.
-Power set is unique to the set, /*/ is unique to the category (data type).
+Power set is unique to the set, /*/ is unique to the data type (to the category also).
 /*/ embodies in itself any endofunctor. It is easily seen from Haskell definition - that the /*/ is the polymorphic generalization over any endofunctor in a category. Application of a function to /*/ gives a particular endofunctor (see Hask category).
 
 #+begin_src haskell
