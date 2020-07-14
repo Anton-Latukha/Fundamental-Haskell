@@ -1878,7 +1878,7 @@ Functor instance must be of kind =( * -> * )=, so instance for higher-kinded dat
 
 Composed /*/ can lift functions through any layers of structures that belong to Functor type class.
 
-/*/ can be used to filter-out error cases (Nothing & Left cases) in Maybe, Either and related types.
+/*/ can be used to filter-out the structure through strucure composition, for example - composition with error cases (Nothing & Left cases) in Maybe, Either and related types.
 
 ***** /*/
 
