@@ -1,4 +1,4 @@
-#+title: Fundamental Haskell notes
+#+title: Fundamental Haskell
 #+author: Anton Latukha
 #+creator: Self-published by Anton Latukha
 #+description: Fundamental notes on Haskell, Category theory and related fields.
