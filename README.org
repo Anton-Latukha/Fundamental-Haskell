@@ -236,7 +236,7 @@ Be aware - GitHub & GitLab only partially parse Org into HTML.
 
 /In work on the book, person basically reinvented the Zettelkasten. Since person arrived at the same design, I would recommend Zettelkasten to anyone./
 
-/Current book form also reached the limits radio cross-linking scaling of the Emacs Org-mode. Org-mode can not handle the book and cross-linkage of this size. The book would migrate into a most powerful proper Free Software Zettelkasten form there is - [[https://github.com/org-roam/org-roam][Org-roam]] - and in that transition book would gain even more versatility and possibilities/. 
+/Current book form also reached the limits of the radio cross-linking scaling of the Emacs Org-mode C-implemeted functions. The book would migrate into a most powerful proper Free Software Zettelkasten form there is - [[https://github.com/org-roam/org-roam][Org-roam]] - and in that transition book would gain even more versatility and possibilities/. 
 
 /Book also wants to be published in form of the Anki card deck for Anki users. Did you know that Anki is actually former Emacs Org-drill v1?/
 
