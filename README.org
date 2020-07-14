@@ -13797,6 +13797,30 @@ https://hackage.haskell.org/packages/candidates/upload
 *** (careful) Be fully ready when you upload package release to Hackage, since upload is idempotant
 
 http://hackage.haskell.org/packages/upload
+
+*** (optional) If docs not posted on Hackage
+
+Hackage packaging have internal specifics and can refulse to build docs, to generate docs locally and upload them:
+
+**** (optional) Nix-shell
+#+begin_src shell
+nix-shell
+#+end_src
+
+**** Upload docs
+#+begin_src shell
+set -e
+
+dir=$(mktemp -d /tmp/dist-docs.XXXXXX)
+trap 'rm -r "$dir"' EXIT
+
+# assumes cabal 2.4 or later
+cabal v2-haddock --builddir="$dir" --haddock-for-hackage --enable-doc
+
+# (pasting pass does not work) Enter _by hand_: account, password
+cabal upload -d --publish $dir/*-docs.tar.gz
+#+end_src
+
 * Reference
 
 ** History
