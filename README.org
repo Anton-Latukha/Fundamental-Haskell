@@ -8290,7 +8290,12 @@ SCHT: <2020-12-24 Thu>
 :DRILL_LAST_REVIEWED: [2020-03-28 Sat 19:18]
 :end:
 
-/*/ - the operations can be done in groups the direction of actions can be from the end towards the beginning.
+/*/ - the operations groups the actions from the end towards the beginning.
+
+Example:
+#+begin_src haskell
+[1,2,3] = 1 : 2 : 3 : [] = 1 : (2 : (3 : []))
+#+end_src
 
 ******* /*/
 
