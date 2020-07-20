@@ -12788,6 +12788,15 @@ There is a number of good quality projects that export Cabal/Hackage to other pa
 
 Currently Cabal migrated to use of v2 generation by default.
 
+Useful abilities:
+
+~exec~ - loads the GHC/GHCI env and launches the passed executable.
+
+~haddock~ - builds the documentaiton and places it into ~v1 -> dist~, ~v2 -> dist-newstyle~ directories.
+
+~sdist~ - run a thorough process, properly follow ~.cabal~ instructions, assemble mentioned files and generate a source distribution file ~.tar.gz~.
+
+~upload~ - upload source distribution file to Hackage.
 
 *** Nix
 
