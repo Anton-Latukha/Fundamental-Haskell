@@ -12786,6 +12786,8 @@ There is a number of good quality projects that export Cabal/Hackage to other pa
   * v1 generation of features used/uses own cabal (now legacy) methods of handling packages.
   * v2 generation of features (current) uses Nix-like methods internally to handle packages.
 
+Currently Cabal migrated to use of v2 generation by default.
+
 
 *** Nix
 
