@@ -12783,9 +12783,8 @@ Official tool in GHC package.
 There is a number of good quality projects that export Cabal/Hackage to other packaging systems, big distribution systems and companies rely on them:
 
 *** Cabal
-Cabal in:
   * v1 generation of features used/uses own cabal (now legacy) methods of handling packages.
-  * v2 generation of features (current) uses Nix methods internally to handle packages.
+  * v2 generation of features (current) uses Nix-like methods internally to handle packages.
 
 
 *** Nix
