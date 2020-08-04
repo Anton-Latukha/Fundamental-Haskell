@@ -3871,7 +3871,6 @@ SCHT: <2020-04-08 Wed>
 
 Term end-equating is more clear then =right-canselable=. Since "right" is collision between direction of composition (right to left), way it is drawn (left to right) and written \( C \to D \).
 
-Since there is collision between direction of composition (right to left)
 \( f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) \) - from homomorphism context
 \( g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 \) - from general morphism context
 
