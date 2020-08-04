@@ -3867,7 +3867,7 @@ SCHT: <2020-04-08 Wed>
 
 \textgreek{μορφή} /morphe/ form
 
-/*/ is end-canselable morphism. Since epimorphism covers target fully - \forall morphisms composed to its end (target) are fully operational in composition and so fully comparable between each other.
+/*/ is end-equating morphism. Since epimorphism covers target fully - \forall morphisms composed to its end (target) are fully active in composition and so fully comparable between each other.
 
 Term end-canselable is more clear then =right-canselable=.
 
