@@ -3869,7 +3869,7 @@ SCHT: <2020-04-08 Wed>
 
 /*/ is end-equating morphism. Since epimorphism covers target fully - \forall morphisms composed to its end (target) are fully active in composition and so fully comparable between each other.
 
-Term end-equating is more clear then =right-canselable=. Since "right" is collision between direction of composition (right to left), way it is drawn (left to right) and written \( C \to D \).
+Term end-equating is more direct and clear then =right-canselable=. Since "right" is collision between direction of composition (right to left) (and sometimes composition gets writted left to right), way it is drawn (left to right), and written \( C \to D \) (left to right).
 
 \( f^{X \to Y}, \forall y \in Y \, \exists f(x) \vDash f(x) \equiv f_{epi}(x) \) - from homomorphism context
 \( g_1 \circ f_{epi} = g_2 \circ f_{epi} \Rightarrow \; g_1 \equiv g_2 \) - from general morphism context
