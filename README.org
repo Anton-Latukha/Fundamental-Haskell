@@ -2477,17 +2477,17 @@ Composition of monadic types does not always results in monadic type.
 <<<Monadic>>>
 
 ****** <<<Monad property>>> :drill:
-SCHT: <2020-04-29 Wed>
+SCHT: <2021-05-15 Sat>
 :properties:
 :ID:       7829bf03-a14b-411b-8460-7a8781227b60
-:DRILL_LAST_INTERVAL: 125.5079
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 8
+:DRILL_LAST_INTERVAL: 282.7693
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 9
 :DRILL_FAILURE_COUNT: 2
-:DRILL_AVERAGE_QUALITY: 3.375
-:DRILL_EASE: 2.28
+:DRILL_AVERAGE_QUALITY: 3.333
+:DRILL_EASE: 2.14
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-12-25 Wed 12:29]
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:24]
 :end:
 
 Monad corresponds to functor properties & applicative properties and additionally:
@@ -4856,17 +4856,17 @@ In Haskell: Data type that stores multiple ordered values withing a single value
 <<<Ordered triple>>>
 
 ***** <<<List>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-15 Sat>
 :properties:
 :ID:       935629ed-4dee-43ef-9eff-51de168656d7
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:25]
 :end:
 
 Sequence of one type objects.
@@ -7172,16 +7172,17 @@ Composition of compositions =(.).(.)=. Allows to compose-in a binary function =f
 <<<Composition of compositions>>>
 
 *** <<<Swing>>> :drill:
+SCHT: <2020-08-09 Sun>
 :properties:
 :ID:       1d5d1b4c-2390-4ebd-b79c-23ed3deec10e
-:DRILL_LAST_INTERVAL: 0.0
-:DRILL_REPEATS_SINCE_FAIL: 1
-:DRILL_TOTAL_REPEATS: 12
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 13
 :DRILL_FAILURE_COUNT: 6
-:DRILL_AVERAGE_QUALITY: 2.917
-:DRILL_EASE: 2.52
-:DRILL_LAST_QUALITY: 2
-:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:20]
+:DRILL_AVERAGE_QUALITY: 2.923
+:DRILL_EASE: 2.38
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:27]
 :end:
 
 #+begin_src haskell
@@ -7615,17 +7616,17 @@ In Set theory: some subset of a Cartesian product between sets of objects.
 <<<Relationship>>>
 
 **** <<<Context-free grammar>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-15 Sat>
 :properties:
 :ID:       2d097ea7-25fb-4624-98fc-66d5c8711260
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:24]
 :end:
 
 A grammar (set of production rules) that describe all possible properly composed expressions in a formal language.
@@ -9040,17 +9041,17 @@ Extension over second-order logic that uses additional quantifiers, stronger sem
 Is more expressive, but model-theoretic properties are less well-behaved.
 
 *** <<<Logical connective>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-15 Sat>
 :properties:
 :ID:       0e5b50bc-8b00-463f-b9ad-f04fd3a525ac
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:25]
 :end:
 
 Logical operation.
@@ -12302,17 +12303,17 @@ Assume that the functions would return the right result.
 
 
 ** <<<Good: Monoid>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-15 Sat>
 :properties:
 :ID:       fcafc131-d995-4712-8fa7-35ea6668cd27
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.3873
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
-:DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
+:DRILL_AVERAGE_QUALITY: 4.0
+:DRILL_EASE: 2.46
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2020-08-05 Wed 12:24]
 :end:
 
 =<>=:
