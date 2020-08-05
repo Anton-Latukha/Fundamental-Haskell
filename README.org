@@ -1847,17 +1847,17 @@ Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with
 <<<Functorial>>> - something that has functor properties, and so also is a functor.
 
 **** <<<Power set functor>>> :drill:
-SCHT: <2020-04-07 Tue>
+SCHT: <2021-06-03 Thu>
 :properties:
 :ID:       1169dfd1-4e31-4789-a777-288fc9208094
-:DRILL_LAST_INTERVAL: 135.4761
-:DRILL_REPEATS_SINCE_FAIL: 6
-:DRILL_TOTAL_REPEATS: 5
+:DRILL_LAST_INTERVAL: 303.331
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.8
-:DRILL_EASE: 2.32
+:DRILL_AVERAGE_QUALITY: 3.667
+:DRILL_EASE: 2.18
 :DRILL_LAST_QUALITY: 3
-:DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:31]
+:DRILL_LAST_REVIEWED: [2020-08-04 Tue 19:31]
 :end:
 
 \( \mathcal{P^{S \to P(S)}} \)
