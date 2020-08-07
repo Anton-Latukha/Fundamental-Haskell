@@ -1297,6 +1297,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#optional-if-docs-not-posted-on-hackage][(optional) If docs not posted on Hackage]]
       - [[#optional-nix-shell][(optional) Nix-shell]]
       - [[#upload-docs][Upload docs]]
+  - [[#is-power-set-functor-is-a-bifunctor][Is power set functor is a bifunctor]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -13847,6 +13848,14 @@ cabal v2-haddock --builddir="$dir" --haddock-for-hackage --enable-doc
 cabal upload -d --publish $dir/*-docs.tar.gz
 #+end_src
 
+
+** Is power set functor is a bifunctor
+
+#+begin_src haskell
+  bimap :: (a1 -> a2) -> (b1 -> b2) -> f a1 b1 -> f a2 b2
+  fmap  :: (a -> b)                 -> f a     -> f b
+  fmap  :: (a -> b)   -> (Id -> Id) -> f a Id  -> f b Id
+#+end_src
 * Reference
 
 ** History
