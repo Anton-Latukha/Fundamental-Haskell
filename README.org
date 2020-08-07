@@ -4822,6 +4822,7 @@ SCHT: <2020-04-30 Thu>
 :END:
 
 Enumerated (ordered) set.
+Set with a strict order property.
 
 Denotation:
 #+begin_src haskell
