@@ -8436,17 +8436,17 @@ Example: Start and Stop buttons on machines.
 <<<Idempotency>>>
 
 ***** <<<Distributivity>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-18 Tue>
 :properties:
 :ID:       6ea04559-091b-4151-b190-e97a88bb317a
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:57]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-07 Fri 10:35]
 :end:
 
 In algebra:
@@ -9024,17 +9024,16 @@ Turing-complete.
 Extension over first-order logic that quantifies over relations.
 
 ******* <<<Higher-order logic>>> :drill:
-SCHT: <2020-04-30 Thu>
 :properties:
 :ID:       b72dbeaa-ea81-4442-956b-5ab009afa82d
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_LAST_INTERVAL: 0.0
+:DRILL_REPEATS_SINCE_FAIL: 1
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 3.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:59]
+:DRILL_LAST_QUALITY: 2
+:DRILL_LAST_REVIEWED: [2020-08-07 Fri 10:36]
 :end:
 
 Extension over second-order logic that uses additional quantifiers, stronger semantics.
