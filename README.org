@@ -4808,17 +4808,17 @@ C { r1 :: T1
 <<<Product type>>>
 
 **** <<<Sequence>>> :drill:
-SCHT: <2020-04-30 Thu>
+SCHT: <2020-08-18 Tue>
 :PROPERTIES:
 :ID:       ce72c132-c2e8-4d14-bac6-4b399735c7fa
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:58]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-07 Fri 10:47]
 :END:
 
 Enumerated (ordered) set.
@@ -8003,17 +8003,17 @@ Takes no entries (for example has the arity of zero).
 Has the trivial domain.
 
 **** <<<Syntax tree>>> :drill:
-SCHT: <2020-05-01 Fri>
+SCHT: <2020-08-18 Tue>
 :PROPERTIES:
 :ID:       f4312216-c6b9-461f-bf8e-ef446a5cbcc1
-:DRILL_LAST_INTERVAL: 4.14
-:DRILL_REPEATS_SINCE_FAIL: 2
-:DRILL_TOTAL_REPEATS: 1
+:DRILL_LAST_INTERVAL: 10.764
+:DRILL_REPEATS_SINCE_FAIL: 3
+:DRILL_TOTAL_REPEATS: 2
 :DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 5.0
+:DRILL_AVERAGE_QUALITY: 4.5
 :DRILL_EASE: 2.6
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:01]
+:DRILL_LAST_QUALITY: 4
+:DRILL_LAST_REVIEWED: [2020-08-07 Fri 10:49]
 :END:
 
 Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular composed expression/implementation.
