@@ -8368,7 +8368,7 @@ Denotation:
 Components for contravariant basis denoted in the upper indices:
 \( V^{i} = x \)
 
-The inverse of a covariant transformation is a contravariant transformation. Whenever a vector should be invariant under a change of basis, that is to say it should represent the same geometrical or physical object having the same magnitude and direction as before, its components must transform according to the contravariant rule.
+The inverse of a covariant transformation is a contravariant transformation. Good example of contravarint is: When a vector should stay absolute invariant even when basis changes, that is to say it represents the same geometrical or physical object having the same magnitude and direction as before - then those absolute invariant components relate to basis under the contravariant rule.
 
 ******* /*/
 
