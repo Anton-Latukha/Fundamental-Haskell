@@ -8016,7 +8016,7 @@ SCHT: <2020-05-01 Fri>
 :DRILL_LAST_REVIEWED: [2020-04-27 Mon 00:01]
 :END:
 
-Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular expression/implementation (or said).
+Tree of syntactic elements (each node denotes construct occurring in the language/source code) that represent the full particular composed expression/implementation.
 
 ***** <<<Abstract syntax tree>>> :drill:
 :PROPERTIES:
