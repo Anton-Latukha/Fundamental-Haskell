@@ -5611,6 +5611,8 @@ SCHT: <2020-05-20 Wed>
 :DRILL_LAST_REVIEWED: [2019-11-30 Sat 02:17]
 :end:
 
+There is only one way to "perform" an I/O action: bind it to ~Main.main~ of the program.
+
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
 Haskell standard uses monad for constructing and transforming IO actions.
 IO action can be evaluated multiple times.
