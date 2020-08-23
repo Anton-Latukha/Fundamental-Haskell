@@ -5612,6 +5612,7 @@ SCHT: <2020-05-20 Wed>
 :end:
 
 There is only one way to "perform" an I/O action: bind it to ~Main.main~ of the program.
+For function I/O it should be in IO monad and evaluated from ~Main.main~.
 
 Type for values whose evaluations has a posibility to cause side effects or return unpredictable result.
 Haskell standard uses monad for constructing and transforming IO actions.
