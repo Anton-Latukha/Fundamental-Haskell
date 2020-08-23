@@ -2800,7 +2800,8 @@ SCHT: <2020-06-09 Tue>
 :DRILL_LAST_REVIEWED: [2019-12-25 Wed 18:38]
 :end:
 
-Discard any resulting value of the action and sequence next action.
+Sequencing operator, analog to the semicolon (or newline) in imperative languages.
+Discard value result of the action, sequentially add next (compose with) next action.
 Applicative has a similar operator.
 
 #+begin_src haskell
