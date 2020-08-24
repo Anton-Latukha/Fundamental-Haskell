@@ -13891,6 +13891,9 @@ Essential properties:
   * Direction: In (readable), Out (writable) or both.
   * Status: open, semi-closed, closed.
     A good practice to close handlers with ~hClose~, aslo garbage collector at some point most probaly would remove unused handlers.
+  * Searchable: ~True | False~.
+  * Buffering type and always a buffer (even if buffer turned off - buffer is ~0~).
+
 * Reference
 
 ** History
