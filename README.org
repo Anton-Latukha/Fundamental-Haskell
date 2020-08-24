@@ -13890,7 +13890,7 @@ Essential properties:
 
   * Direction: In (readable), Out (writable) or both.
   * Status: open, semi-closed, closed.
-    It is possible and good practice to close handlers with ~hClose~.
+    A good practice to close handlers with ~hClose~, aslo garbage collector at some point most probaly would remove unused handlers.
 * Reference
 
 ** History
