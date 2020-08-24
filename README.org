@@ -13941,6 +13941,14 @@ If handle is managing:
 
   * input from a file - new non-output handls can be created.
 
+**** Opening files
+
+#+begin_src haskell
+withFile :: FilePath -> IOMode -> (Handle -> IO r) -> IO r
+#+end_src
+
+Allows to load the file and run code for it.
+
 * Reference
 
 ** History
