@@ -13893,6 +13893,8 @@ Essential properties:
     A good practice to close handlers with ~hClose~, aslo garbage collector at some point most probaly would remove unused handlers.
   * Searchable: ~True | False~.
   * Buffering type and always a buffer (even if buffer turned off - buffer is ~0~).
+  * Position (there are exceptions)
+
 
 * Reference
 
