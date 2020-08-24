@@ -296,6 +296,9 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
 =SCHT:= and metadata in =:properties:= - of my =org-drill= practices, please just run =org-drill-strip-all-data=.
 
 * Contents :TOC:noexport:
+:PROPERTIES:
+:ID:       5e228850-1b4f-49a7-bc88-faf6f518885d
+:END:
 - [[#introduction][Introduction]]
 - [[#definitions][Definitions]]
   - [[#algebra][<<<Algebra>>>]]
