@@ -13932,7 +13932,7 @@ data IOMode  -- manage
 
 **** File locking
 
-Implementations should enfirce locking as far as possible.
+Implementations should enforce locking as far as possible.
 
 Haskell uses ~multiple-reader | single-writer~ locking.
 
