@@ -13949,6 +13949,12 @@ withFile :: FilePath -> IOMode -> (Handle -> IO r) -> IO r
 
 Allows to load the file and run code for it.
 
+#+begin_src haskell
+openFile :: FilePath -> IOMode -> IO Handle
+#+end_src
+
+Directionality of these funciton are determined by IOMode.
+
 * Reference
 
 ** History
