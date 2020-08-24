@@ -13915,6 +13915,16 @@ Essential properties:
 
 For more info - learn this question in POSIX UNIX/Linux.
 
+**** IOMode
+
+#+begin_src haskell
+data IOMode  -- manage
+  = ReadMode  -- input
+  | WriteMode  -- output
+  | AppendMode  -- output
+  | ReadWriteMode  -- input/output
+#+end_src
+
 * Reference
 
 ** History
