@@ -13882,6 +13882,10 @@ type FilePath = String
 
 Contents & ~Show~ are OS dependent, hold enough data to debug.
 
+**** Handle
+
+A record used by Haskell runtime system to manage I/O external objects.
+
 * Reference
 
 ** History
