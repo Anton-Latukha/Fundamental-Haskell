@@ -13866,6 +13866,14 @@ cabal upload -d --publish $dir/*-docs.tar.gz
 
 **** IO a
 
+#+begin_src haskell
+data IO a
+#+end_src
+
+Main data type of the program run-time execution (IO).
+
+All actions should be added to ~Main.main IO ()~ to be executed.
+
 * Reference
 
 ** History
