@@ -13903,6 +13903,13 @@ Essential properties:
   * Buffering type and always a buffer (even if buffer turned off - buffer is ~0~).
   * Position (there are exceptions)
 
+**** Standart handlers
+
+  * ~stdin~
+  * ~stdout~
+  * ~stdin~
+
+For more info - learn this question in POSIX UNIX/Linux.
 
 * Reference
 
