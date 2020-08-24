@@ -13925,6 +13925,17 @@ data IOMode  -- manage
   | ReadWriteMode  -- input/output
 #+end_src
 
+**** File locking
+
+Implementations should enfirce locking as far as possible.
+
+Haskell uses ~multiple-reader | single-writer~ locking.
+
+If handle is managing:
+  * output to a file - no new handls can be allocated for that file.
+
+  * input from a file - new non-output handls can be created.
+
 * Reference
 
 ** History
