@@ -13886,6 +13886,11 @@ Contents & ~Show~ are OS dependent, hold enough data to debug.
 
 A record used by Haskell runtime system to manage I/O external objects.
 
+Essential properties:
+
+  * Direction: In (readable), Out (writable) or both.
+  * Status: open, semi-closed, closed.
+    It is possible and good practice to close handlers with ~hClose~.
 * Reference
 
 ** History
