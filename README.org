@@ -13897,6 +13897,8 @@ Contents & ~Show~ are OS dependent, hold enough data to debug.
 
 #+begin_src haskell
 data Handle
+  = FileHandle Filepath ...  -- for files
+  | DuplexHandle Filepath ...  -- for streams
 #+end_src
 
 Handle - a record used by Haskell runtime system to manage I/O external objects.
