@@ -13874,6 +13874,14 @@ Main data type of the program run-time execution (IO).
 
 All actions should be added to ~Main.main IO ()~ to be executed.
 
+**** FilePath
+
+#+begin_src haskell
+type FilePath = String
+#+end_src
+
+Contents & ~Show~ are OS dependent, hold enough data to debug.
+
 * Reference
 
 ** History
