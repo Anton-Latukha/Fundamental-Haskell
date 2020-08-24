@@ -13955,6 +13955,14 @@ openFile :: FilePath -> IOMode -> IO Handle
 
 Directionality of these funciton are determined by IOMode.
 
+**** hClose
+
+#+begin_src haskell
+hClose :: Handle -> IO ()
+#+end_src
+
+Close the handle.
+
 * Reference
 
 ** History
