@@ -13983,6 +13983,18 @@ hIsEOF :: Handle -> IO Bool
 isEOF :: IO Bool  -- works only on stdin
 #+end_src
 
+**** BufferMode
+
+Styles of buffers supported:
+
+  * Block-buffering: the write happens when buffer oveflows its size.
+  * Line-buffering: the write happens when "\n" encountered.
+  * No buffering: everything is written immidiately.
+
+Buffer also gets written when ~hflush~ is used or handle is closed.
+
+One should not flush less frequently then specified.
+One can flush buffers more frequently.
 * Reference
 
 ** History
