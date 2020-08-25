@@ -13916,6 +13916,10 @@ Essential properties:
   * Buffering type and always a buffer (even if buffer turned off - buffer is ~0~).
   * Position (there are exceptions)
 
+**** HandlePosn
+
+Position in the data object.
+
 **** Standart handlers
 
   * ~stdin~
