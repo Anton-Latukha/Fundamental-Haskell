@@ -14037,6 +14037,10 @@ getLibexecDir :: IO FilePath
 getSysconfDir :: IO FilePath
 #+end_src
 
+Cabal automatically generated module.
+
+~ghci~ would not load the module, since it was not generated, use ~cabal v2-repl~ to load it.
+
 * Reference
 
 ** History
