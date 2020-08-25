@@ -14023,6 +14023,20 @@ hSetBuffering :: Handle -> BufferMode -> IO ()
 hGetBuffering :: Handle -> IO BufferMode
 hFlush :: Handle -> IO ()
 #+end_src
+
+*** Cabal ~Paths_pkgname~
+
+#+begin_src haskell
+version :: Version
+
+getBinDir :: IO FilePath
+getLibDir :: IO FilePath
+getDynLibDir :: IO FilePath
+getDataDir :: IO FilePath
+getLibexecDir :: IO FilePath
+getSysconfDir :: IO FilePath
+#+end_src
+
 * Reference
 
 ** History
