@@ -14011,6 +14011,13 @@ One can flush buffers more frequently.
 
 The default buffering mode is implementation-dependent on the file system object which is attached to that handle. By default, physical files are block-buffered and terminals are line-buffered.
 
+**** Buffering operation
+
+#+begin_src haskell
+hSetBuffering :: Handle -> BufferMode -> IO ()
+hGetBuffering :: Handle -> IO BufferMode
+hFlush :: Handle -> IO ()
+#+end_src
 * Reference
 
 ** History
