@@ -13995,6 +13995,9 @@ Buffer also gets written when ~hflush~ is used or handle is closed.
 
 One should not flush less frequently then specified.
 One can flush buffers more frequently.
+
+The default buffering mode is implementation-dependent on the file system object which is attached to that handle. By default, physical files are block-buffered and terminals are line-buffered.
+
 * Reference
 
 ** History
