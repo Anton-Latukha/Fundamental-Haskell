@@ -13985,6 +13985,15 @@ isEOF :: IO Bool  -- works only on stdin
 
 **** BufferMode
 
+#+begin_src haskell
+data BufferMode
+ = NoBuffering    -- buffering is disabled if possible.
+ | LineBuffering  -- line-buffering should be enabled if possible.
+ | BlockBuffering (Maybe Int)
+                  -- block-buffering should be enabled if possible.
+                  -- Just - the size of the buffer, otherwise implementation-dependent.
+#+end_src
+
 Styles of buffers supported:
 
   * Block-buffering: the write happens when buffer oveflows its size.
