@@ -13979,7 +13979,7 @@ writeFile :: FilePath -> String -> IO ()
 appendFile :: FilePath -> String -> IO ()
 #+end_src
 
-**** Operation on handles
+**** Handle operation
 
 #+begin_src haskell
 hFileSize :: Handle -> IO Integer
