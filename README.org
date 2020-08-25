@@ -13985,6 +13985,8 @@ appendFile :: FilePath -> String -> IO ()
 hFileSize :: Handle -> IO Integer
 hIsEOF :: Handle -> IO Bool
 isEOF :: IO Bool  -- works only on stdin
+hGetPosn :: Handle -> IO HandlePosn
+hSetPosn :: HandlePosn -> IO ()
 #+end_src
 
 **** BufferMode
