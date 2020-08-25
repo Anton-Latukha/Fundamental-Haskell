@@ -13963,6 +13963,14 @@ hClose :: Handle -> IO ()
 
 Close the handle.
 
+**** Special cases
+
+#+begin_src haskell
+readFile :: FilePath -> IO String
+writeFile :: FilePath -> String -> IO ()
+appendFile :: FilePath -> String -> IO ()
+#+end_src
+
 * Reference
 
 ** History
