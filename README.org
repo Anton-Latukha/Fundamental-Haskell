@@ -13971,6 +13971,14 @@ writeFile :: FilePath -> String -> IO ()
 appendFile :: FilePath -> String -> IO ()
 #+end_src
 
+**** Operation on handles
+
+#+begin_src haskell
+hFileSize :: Handle -> IO Integer
+hIsEOF :: Handle -> IO Bool
+isEOF :: IO Bool  -- works only on stdin
+#+end_src
+
 * Reference
 
 ** History
