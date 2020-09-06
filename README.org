@@ -1316,6 +1316,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#handle-operation][Handle operation]]
       - [[#buffermode][BufferMode]]
       - [[#buffering-operation][Buffering operation]]
+    - [[#cabal-paths_pkgname][Cabal ~Paths_pkgname~]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
