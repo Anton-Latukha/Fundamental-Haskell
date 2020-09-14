@@ -13882,6 +13882,9 @@ cabal upload -d --publish $dir/*-docs.tar.gz
 ** IO
 
 *** Base IO Data types
+:PROPERTIES:
+:ID:       67f238bf-c61b-4894-a859-21e8d95e26c2
+:END:
 
 **** IO a
 
