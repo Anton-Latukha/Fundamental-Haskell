@@ -1845,8 +1845,8 @@ Translating objects and morphisms (as input can take morphism or object).
 For Functor type class or fmap - see Power set functor.
 
 Functor properties (axioms):
-  * \( F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{C}} \) - every source object is mapped to object in target category
-  * \( \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} \) - every source morphism is mapped to target category morphism between corresponding objects
+  * \( \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D}} \ \ | \ \ \forall \overrightarrow{(a, b)}^{\mathcal{C}} \) - every source morphism is mapped to target category morphism between corresponding objects.
+    From full mapping between morphism automaticaly comes property that all source object are mapped to some target objects in target categoty (\( F^{\mathcal{C \to D}}(a) \quad | \quad \forall a^{\mathcal{C}} \)),
   * \( F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}} \circ \overrightarrow{f}^{\mathcal{C}}) = F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{f}^{\mathcal{C}}) \quad | \quad \forall y=\overrightarrow{f}^{\mathcal{C}}(x), \forall \overrightarrow{g}^{\mathcal{C}}(y) \) - composition of morphisms translates directly (tautologically goes from other two)
 
 These axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
