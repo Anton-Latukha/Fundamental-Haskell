@@ -1836,24 +1836,26 @@ SCHT: <2020-07-21 Tue>
 :end:
 
 /*/ full translation (map) of one category into another.
-Translating objects and morphisms (as input can take morphism or object).
+Translating objects and morphisms (so as an input can take morphism or object of the source category).
 
+"Full translation" means every part gets represented in some shape or form, but at all does not means ideal translation. For example, all categories can be translated into (mapped onto) a single object monoidal category.
 /*/ - forgetful - discards part of the structure.
-/*/ - faithful - fully preserves all morphisms - injective on Hom-sets.
-/*/ - full - translation of morphisms fully covers all the morphisms between according objecs in the target categoty.
+/*/ - faithful - gives unique isomorphic (bijective) preservation of all source morphisms (injective on Hom-sets).
+/*/ - full - translation of morphisms fully covers all the morphisms between according objecs in the target categoty (functor analog of epimorphism).
 
-For Functor type class or fmap - see Power set functor.
+For Haskell Functor type class or ~fmap~ - see Power set functor.
 
-Functor properties (axioms):
+Definition (axiomatic properties):
+=Functor=:
   * \( \forall a^{\mathcal{C}} \ : \ \exists! F^{\mathcal{C \to D}}(a) \) - every source object is mapped to some object in the target category.
   * \( \forall \overrightarrow{(a, b)}^{\mathcal{C}} \ : \ \exists! \overrightarrow{(F^{\mathcal{C \to D}}(a),F^{\mathcal{C \to D}}(b))}^{\mathcal{D} }\) - every source morphism is mapped inside target to some morphism between corresponding objects.
 
 From those two tautologically goes:
   * \( \forall {x^{\mathcal{C}}}, y=\overrightarrow{f}^{\mathcal{C}}(x), \forall \overrightarrow{g}^{\mathcal{C}}(y) \ : \ F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}} \circ \overrightarrow{f}^{\mathcal{C}}) = F^{\mathcal{C \to D}}(\overrightarrow{g}^{\mathcal{C}}) \circ F^{\mathcal{C \to D}}(\overrightarrow{f}^{\mathcal{C}})\) - every composition in \( \mathcal{C} \) translates as a composition of according morphisms in \( \mathcal{D} \), in other words - composition translates directly.
 
-These axioms guarantee that composition of functors can be fused into one functor with composition of morphisms. This process called fusion.
+So, the composition of functors equal to one functor with composition of all morphisms. This process called functor fusion.
 
-In Haskell this axioms have form:
+In Haskell functor axioms have a form:
 #+begin_src haskell
 fmap id = id
 fmap (f . g) = fmap f . fmap g
