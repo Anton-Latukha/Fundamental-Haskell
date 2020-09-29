@@ -1859,6 +1859,12 @@ In Haskell functor axioms have a form:
 #+begin_src haskell
 fmap id = id
 fmap (f . g) = fmap f . fmap g
+-- OR free-forming functor laws more expicitly:
+(fmap id) a = id a -- Remaps all source objects (a) to object, in identity case maps all a to a
+(fmap f) a = (f a) -- Remaps all source objects using a functor defined from power set functor by applying a the funciton
+(fmap hof@((a -> b) -> c)) fun@(a -> b) = (hof fun) = (a -> b) -> c -- Because of polymorphicity - in Haskell morphisms are also can be objects for Hask category - `fmap` instantiated functor translates not only objects, but all morphisms to morphisms as well.
+(fmap (a -> b)) anything = ((a -> b) anything) -- On Hask subcategory (f x), this is an endofunctor: f a -> f b. 
+(fmap f) . (fmap g) = (fmap $ f . g) -- Composition law
 #+end_src
 
 Since /*/ is 1-1 mapping of initial objects - it is a memoizable dictionary with cardinality of initial objects. Also in Hask category functors are obviously endofunctors \therefore they are special kinds of containers for the parametric values (AKA product type). In Haskell product type /*/ are endofunctors from polymorphic type into a functor wrapper of a polymorphic type. 
