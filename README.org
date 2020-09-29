@@ -10156,11 +10156,15 @@ It has a set of allowed options: https://downloads.haskell.org/~ghc/latest/docs/
 :end:
 
 #+begin_src haskell
-import EmptyCase
-import FlexibleContexts
-import FlexibleInstances
-import InstanceSigs
-import MultiParamTypeClasses
+{-# LANGUAGE EmptyCase #-}
+{-# LANGUAGE FlexibleContexts #-}
+{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE InstanceSigs #-}
+{-# LANGUAGE MultiParamTypeClasses #-}
+{-# LANGUAGE BlockArguments    #-}
+{-# LANGUAGE LambdaCase        #-}
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE TypeApplications  #-}
 #+end_src
 
 ****** <<<AllowAmbiguousTypes>>> :drill:
