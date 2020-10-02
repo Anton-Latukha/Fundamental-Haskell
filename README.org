@@ -1858,9 +1858,10 @@ So, the composition of functors equal to one functor with composition of all mor
 In Haskell Hask functor axioms have a form:
 #+begin_src haskell
 fmap f id = id f :: (f -> f) -- All objects (f) in Hask can be mapped to Hask.
-(fmap id id) :: (a -> a)  -- fmap can map objects
+fmap id id :: (a -> a)  -- fmap can map objects. This is constructed identity endofunctor on Hask.
+fmap id :: (f a -> f a)  -- fmap can map objects, algebraic also (which includes funcitons (morphisms))
 (\ x -> fmap x id) :: (a -> b) -> (a -> b)
-(flip fmap id) :: (a -> b) -> (a -> b) -- & functions just as well, polymorphism means functions are also objects
+(flip fmap id) :: (a -> b) -> (a -> b) -- & functions (morphisms) just as well, polymorphism means functions are also simple type objects, and in Haskell functions are first class
 -- This is enough to prove fmap is a functor, composition property derives from this two
 #+end_src
 
@@ -1870,7 +1871,7 @@ fmap id = id
 fmap (f . g) = fmap f . fmap g
 -- OR free-forming functor laws more expicitly:
 (fmap id) a = id a -- Remaps all source objects (a) to object, in identity case maps all a to a
-(fmap f) a = (f a) -- Remaps all source objects using a functor defined from power set functor by applying a the funciton
+(fmap f) a = (f a) -- Remaps all source objects using a specialized functor by declaring a the funciton that does remapping of objects
 (fmap hof@((a -> b) -> c)) fun@(a -> b) = (hof fun) = (a -> b) -> c -- Because of polymorphicity - in Haskell morphisms are also can be objects for Hask category - `fmap` instantiated functor translates not only objects, but all morphisms to morphisms as well.
 (fmap (a -> b)) anything = ((a -> b) anything) -- On Hask subcategory (f x), this is an endofunctor: f a -> f b. 
 (fmap f) . (fmap g) = (fmap $ f . g) -- Composition law
