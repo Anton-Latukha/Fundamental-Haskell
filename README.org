@@ -1855,7 +1855,16 @@ From those two tautologically goes:
 
 So, the composition of functors equal to one functor with composition of all morphisms. This process called functor fusion.
 
-In Haskell functor axioms have a form:
+In Haskell Hask functor axioms have a form:
+#+begin_src haskell
+fmap f id = id f :: (f -> f) -- All objects (f) in Hask can be mapped to Hask.
+(fmap id id) :: (a -> a)  -- fmap can map objects
+(\ x -> fmap x id) :: (a -> b) -> (a -> b)
+(flip fmap id) :: (a -> b) -> (a -> b) -- & functions just as well, polymorphism means functions are also objects
+-- This is enough to prove fmap is a functor, composition property derives from this two
+#+end_src
+
+In Haskell type functor axioms have a form:
 #+begin_src haskell
 fmap id = id
 fmap (f . g) = fmap f . fmap g
@@ -2551,7 +2560,7 @@ Explanation:
                   pure x >>=     f      == f x
 #+end_src
 
-Rule that >>= must get first argument structure internals and apply to the function that is the second argument.
+Rule that ~>>=~ must get first argument structure internals and apply to the function that is the second argument.
 
 Diagram on category level:
 
