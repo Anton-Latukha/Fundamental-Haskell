@@ -1317,10 +1317,12 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#buffermode][BufferMode]]
       - [[#buffering-operation][Buffering operation]]
     - [[#cabal-paths_pkgname][Cabal ~Paths_pkgname~]]
+  - [[#lazy][<<<Lazy>>>]]
+    - [[#-231][/*/]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-      - [[#-231][/*/]]
+      - [[#-232][/*/]]
     - [[#haskell-98][<<<Haskell 98>>>]]
       - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
     - [[#great-moments-in-haskell-history-by-type-classes---history-of-haskell]["Great moments in Haskell history" (by Type Classes) - History of Haskell]]
@@ -1330,7 +1332,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#data-haskell---2017-annotated-links-to-data-science--machine-learning-libraries-overviews-and-benchmarks-of-libraries][data Haskell - (2017) annotated links to data science & machine learning libraries, overviews and benchmarks of libraries]]
   - [[#literature][Literature]]
   - [[#haskell-package-versioning-policy][<<<Haskell Package Versioning Policy>>>]]
-    - [[#-232][/*/]]
+    - [[#-233][/*/]]
 - [[#giving-back][Giving back]]
 
 * Definitions
@@ -14070,6 +14072,17 @@ getSysconfDir :: IO FilePath
 Cabal automatically generated module.
 
 ~ghci~ would not load the module, since it was not generated, use ~cabal v2-repl~ to load it.
+
+** <<<Lazy>>>
+
+Ways to pass arguments from function to function:
+
+  * Eager/inside-out evaluation: most languages use argument transmission "by-value". At call time argument expression is evaluated and that value is passed into the function. In this case function can bind the value and change it frevolously - that would not create a mutation outside the funciton, since the function recieved the copy of the initial argument value - so funciton can mutate local value, but that would not mutate a value of the external argument.
+
+  * Lazy (outside-in) evaluation - passing an argument by-name. Argument expressions don't evaluate at call time. When on execution of the function body a reference to the parameter is encountered - a coresponding expressions begins evaluation. Immutability allows to share the argument directly into the function.
+
+*** /*/
+<<<Laziness>>>
 
 * Reference
 
