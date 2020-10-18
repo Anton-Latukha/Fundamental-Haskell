@@ -1320,6 +1320,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#lazy][<<<Lazy>>>]]
     - [[#-231][/*/]]
   - [[#traversable][<<<Traversable>>>]]
+  - [[#fixed-point][<<<Fixed point>>>]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -14108,6 +14109,11 @@ class (Functor t, Foldable t) => Traversable t
   sequenceA = traverse id
 #+end_src
 
+** <<<Fixed point>>>
+
+A point in function where argument equals to the result.
+
+\( f(fix) = fix \)
 * Reference
 
 ** History
