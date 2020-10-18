@@ -14119,6 +14119,10 @@ That means no metter how many times it recurses on itself the result is the same
 
 \( f(f(f(...fix... = fix \)
 
+*** <<<Attractive fixed point>>>
+
+For function \( f \), =attractive fixed point= - is a fixed point \( x_0 \) for \( f \) such that for any value of \( x \) in the domain that is close enough to \( x_0 \), the recursive applition of \( f \) converges to \( x_0 \).
+
 * Reference
 
 ** History
