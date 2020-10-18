@@ -1323,6 +1323,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#fixed-point][<<<Fixed point>>>]]
     - [[#attractive-fixed-point][<<<Attractive fixed point>>>]]
     - [[#least-fixed-point][<<<Least fixed point>>>]]
+      - [[#fix][<<<Fix>>>]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -14142,6 +14143,7 @@ Fixed-point theorems mostly yield algorithms for the least fixed point. Least fi
 **** <<<Fix>>>
 
 Since Haskell does not allow infinite types, fixed point can not be expressed in the type signature, so the recoed type is used instead.
+A type is isomorphic to the recursively approaching the attactive fixed point process of the least fixed point 
 #+begin_src haskell
 newtype Fix f = Fix { unFix :: f (Fix f) }
 #+end_src
