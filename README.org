@@ -1322,6 +1322,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#traversable][<<<Traversable>>>]]
   - [[#fixed-point][<<<Fixed point>>>]]
     - [[#attractive-fixed-point][<<<Attractive fixed point>>>]]
+    - [[#least-fixed-point][<<<Least fixed point>>>]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -14127,6 +14128,10 @@ Not all fixed points are attractive.
 For function \( f \), =attractive fixed point= - is a fixed point \( x_0 \) for \( f \) such that for any value of \( x \) in the domain that is close enough to \( x_0 \), the recursive applition of \( f \) converges to \( x_0 \).
 
 Attractive fixed points are the special case of a wider mathematical concept of attractors.
+
+*** <<<Least fixed point>>>
+
+The fixed point smallest by order.
 
 * Reference
 
