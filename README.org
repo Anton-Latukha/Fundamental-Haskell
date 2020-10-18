@@ -14141,6 +14141,7 @@ Fixed-point theorems mostly yield algorithms for the least fixed point. Least fi
 
 **** <<<Fix>>>
 
+Since Haskell does not allow infinite types, fixed point can not be expressed in the type signature, so the recoed type is used instead.
 #+begin_src haskell
 newtype Fix f = Fix { unFix :: f (Fix f) }
 #+end_src
