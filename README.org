@@ -14114,6 +14114,11 @@ class (Functor t, Foldable t) => Traversable t
 A point in function where argument equals to the result.
 
 \( f(fix) = fix \)
+
+That means no metter how many times it recurses on itself the result is the same constant:
+
+\( f(f(f(...fix... = fix \)
+
 * Reference
 
 ** History
