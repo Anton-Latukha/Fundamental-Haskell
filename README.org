@@ -1324,10 +1324,11 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#attractive-fixed-point][<<<Attractive fixed point>>>]]
     - [[#least-fixed-point][<<<Least fixed point>>>]]
       - [[#fix][<<<Fix>>>]]
+  - [[#-232][]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
-      - [[#-232][/*/]]
+      - [[#-233][/*/]]
     - [[#haskell-98][<<<Haskell 98>>>]]
       - [[#old-instance-termination-rules][<<<Old instance termination rules>>>]]
     - [[#great-moments-in-haskell-history-by-type-classes---history-of-haskell]["Great moments in Haskell history" (by Type Classes) - History of Haskell]]
@@ -1337,7 +1338,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#data-haskell---2017-annotated-links-to-data-science--machine-learning-libraries-overviews-and-benchmarks-of-libraries][data Haskell - (2017) annotated links to data science & machine learning libraries, overviews and benchmarks of libraries]]
   - [[#literature][Literature]]
   - [[#haskell-package-versioning-policy][<<<Haskell Package Versioning Policy>>>]]
-    - [[#-233][/*/]]
+    - [[#-234][/*/]]
 - [[#giving-back][Giving back]]
 
 * Definitions
@@ -14148,6 +14149,9 @@ A type is isomorphic to the recursively approaching the attactive fixed point pr
 newtype Fix f = Fix { unFix :: f (Fix f) }
 #+end_src
 
+** 
+
+You can imagine that a non-recursive function holds values of the previous iteration.
 * Reference
 
 ** History
