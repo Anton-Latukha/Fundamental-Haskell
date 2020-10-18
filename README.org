@@ -1319,6 +1319,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#cabal-paths_pkgname][Cabal ~Paths_pkgname~]]
   - [[#lazy][<<<Lazy>>>]]
     - [[#-231][/*/]]
+  - [[#traversable][<<<Traversable>>>]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -14083,6 +14084,29 @@ Ways to pass arguments from function to function:
 
 *** /*/
 <<<Laziness>>>
+
+
+** <<<Traversable>>>
+
+Intuitively - ~fmap~ with effects.
+
+Traversable represents traversable structures.
+
+#+begin_src haskell
+class (Functor t, Foldable t) => Traversable t
+ where
+  {-# MINIMAL traverse | sequenceA #-}
+
+  -- | Map each element of a structure to an action, evaluate these actions
+  -- from left to right, and collect the results.
+  traverse :: Applicative f => (a -> f b) -> t a -> f (t b)
+  traverse f = sequenceA . fmap f
+
+  -- | Evaluate each action in the structure from left to right, and
+  -- collect the results.
+  sequenceA :: Applicative f => t (f a) -> f (t a)
+  sequenceA = traverse id
+#+end_src
 
 * Reference
 
