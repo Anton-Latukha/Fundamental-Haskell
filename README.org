@@ -14139,6 +14139,12 @@ The fixed point smallest by order.
 
 Fixed-point theorems mostly yield algorithms for the least fixed point. Least fixed points often have desirable properties that other fixed points do not have.
 
+**** <<<Fix>>>
+
+#+begin_src haskell
+newtype Fix f = Fix { unFix :: f (Fix f) }
+#+end_src
+
 * Reference
 
 ** History
