@@ -14137,6 +14137,8 @@ The fixed point smallest by order.
 
   * If any of fixed points exist - there can be the only one least fixed point, so it is always unique.
 
+Fixed-point theorems mostly yield algorithms for the least fixed point. Least fixed points often have desirable properties that other fixed points do not have.
+
 * Reference
 
 ** History
