@@ -14133,6 +14133,10 @@ Attractive fixed points are the special case of a wider mathematical concept of 
 
 The fixed point smallest by order.
 
+  * There may be no smallest fixed point - that means there is no fixed points at all.
+
+  * If any of fixed points exist - there can be the only one least fixed point, so it is always unique.
+
 * Reference
 
 ** History
