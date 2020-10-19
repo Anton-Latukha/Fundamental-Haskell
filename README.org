@@ -14152,6 +14152,17 @@ newtype Fix f = Fix { unFix :: f (Fix f) }
 ** 
 
 You can imagine that a non-recursive function holds values of the previous iteration.
+** <<<Conway's law>>>
+
+Design on the organization constraints it to effectively produce the software systems that constrained in the same places.
+
+Original wording (1964):
+#+begin_quote
+Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
+#+end_quote
+
+The software interface structure of a system will reflect the social organizational boundaries that produced it. Ex, if in development there is one person/team/department that is much harder to work/communicate with - with same functions in the software the API would be scarse and the most probably going through the one central point.
+
 * Reference
 
 ** History
