@@ -14163,6 +14163,8 @@ Any organization that designs a system (defined broadly) will produce a design w
 
 The software interface structure of a system will reflect the social organizational boundaries that produced it. Ex, if in development there is one person/team/department that is much harder to work/communicate with - with same functions in the software the API would be scarse and the most probably going through the one central point.
 
+And the contrary - the ways of establishing rules and communications in the company - also would be reflected. Even if company has a tree structure - there is always inordinate and internal undercarpet and open games and communication in it, which mens software structure would have difficulties implementing as a tree structure, and branches would get short-curcuited frequently, where is real-life communication channel, turning the software structure from tree into a semilattice, which is much harder to modularise and decouple.
+
 * Reference
 
 ** History
