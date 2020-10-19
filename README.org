@@ -14165,6 +14165,12 @@ The software interface structure of a system will reflect the social organizatio
 
 And the contrary - the ways of establishing rules and communications in the company - also would be reflected. Even if company has a tree structure - there is always inordinate and internal undercarpet and open games and communication in it, which mens software structure would have difficulties implementing as a tree structure, and branches would get short-curcuited frequently, where is real-life communication channel, turning the software structure from tree into a semilattice, which is much harder to modularise and decouple.
 
+** <<<F-algebra>>>
+
+Generalization of algebra, when it is defined on the Category theory.
+
+Transferring algebraic laws into morphisms eliminates quantification of elements from the axioms, and these algebraic laws may then be glued together in terms of a single functor F, the signature. 
+
 * Reference
 
 ** History
