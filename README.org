@@ -14169,7 +14169,7 @@ And the contrary - the ways of establishing rules and communications in the comp
 
 Generalization of algebra, when it is defined on the Category theory.
 
-Transferring algebraic laws into morphisms eliminates quantification of elements from the axioms, and these algebraic laws may then be glued together in terms of a single functor F, the signature. 
+Transferring algebraic laws into morphisms eliminates quantification of elements from the axioms, and these algebraic laws may then be glued together in terms of a single functor \( F \), the signature.
 
 * Reference
 
