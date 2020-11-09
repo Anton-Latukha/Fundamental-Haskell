@@ -6,7 +6,7 @@ Derived from Greek Diophantus of Alexandria (Διόφαντος ὁ Ἀλεξα�
 
 Due to computers built on transistor logic - every computer operates only with integers and so is a Diophantine machine, data is integer and every program is a diophantine solver for data.
 
-Fermat's Last Theorem (and proof - modularity theorem), and Alonzo Church proof of decision problem (Entscheidungsproblem) and Alan Turing proof of the halting problem, relate to unsolvability of some Diophantine equations.
+Fermat's Last Theorem (and proof - modularity theorem), and Alonzo Church proof of decision problem (Entscheidungsproblem) and Alan Turing proof of the [[file:20201109162750-halting_problem.org][halting problem]], relate to unsolvability of some Diophantine equations.
 
 Turing proved of nonexistence of the general algorithm that can take program and data and decide would it terminate.
 
