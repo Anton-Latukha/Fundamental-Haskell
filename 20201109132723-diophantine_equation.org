@@ -1,0 +1,15 @@
+#+title: Diophantine equation
+
+Polynomial equation of two or more integer unknowns.
+
+Derived from Greek Diophantus of Alexandria (Διόφαντος ὁ Ἀλεξανδρεύς) (~ 201-299 AD) mathematician, author of Arithmetica book series which delt with algebraic equations.
+
+Due to computers built on transistor logic - every computer operates only with integers and so is a Diophantine machine, data is integer and every program is a diophantine solver for data.
+
+Fermat's Last Theorem (and proof - modularity theorem), and Alonzo Church proof of decision problem (Entscheidungsproblem) and Alan Turing proof of the halting problem, relate to unsolvability of some Diophantine equations.
+
+Turing proved of nonexistence of the general algorithm that can take program and data and decide would it terminate.
+
+Church proved that there is no computable function which decides for two arbitrary λ-calculus expressions whether they are equivalent or not.
+
+Since there is a proofs that some Diophantine equations can not be solved - it is wrong/impossible to give estimate in what time such program can be writted.
