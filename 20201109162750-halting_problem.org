@@ -1,0 +1,7 @@
+#+title: Halting problem
+
+Some processes can loop and run forever.
+
+Is there is a universal way of determining that process would or would never terminate in advance?
+
+The answer - there does not exist universal way of determining the answer, proved by Alan Turing.
