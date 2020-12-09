@@ -1197,7 +1197,6 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
     - [[#membrain---type-safe-memory-units][membrain - type-safe memory units]]
   - [[#parsers---megaparsec][Parsers - megaparsec]]
   - [[#clis---optparse-applicative][CLIs - optparse-applicative]]
-    - [[#types][Types]]
     - [[#modifiers-attributes][Modifiers {Attributes}]]
     - [[#builders][Builders]]
     - [[#parsers][Parsers]]
@@ -2717,7 +2716,7 @@ SCHT: <2020-06-04 Thu>
 Is a monoid over monad, with additional rules.
 The precise set of rules (properties) not agreed upon. Class instances obey /monoid/ & /left zero/ rules, some additionally obey /left catch/ and others /left distribution/.
 
-Overall there /*/ currently reforms (MonadPlus reform proposal) in several smaller nad strictly defined type classes.
+/*/ currently reforms (MonadPlus reform proposal) into several smaller and strictly defined type classes.
 
 Subclass of an Alternative.
 
