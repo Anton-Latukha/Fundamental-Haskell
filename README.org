@@ -230,19 +230,6 @@ Book comes in forms:
 This book is created using complex Org markup file with a lot of LaTeX and LaTeX formulas.
 Be aware - GitHub & GitLab only partially parse Org into HTML.
 
------
-
-/Book becomes too popular (underground scene wibe). To address that - a proper Haskell book would "avoid success at all costs" and go through proper migrations, become free from presonal Org-drill metadata, to give clean learning materials for Haskell community./
-
-/In work on the book, person basically reinvented the Zettelkasten. Since person arrived at the same design, I would recommend Zettelkasten to anyone./
-
-/Current book form also reached the limits of the radio cross-linking scaling of the Emacs Org-mode C-implemeted functions. The book would migrate into a most powerful proper Free Software Zettelkasten form there is - [[https://github.com/org-roam/org-roam][Org-roam]] - and in that transition book would gain even more versatility and possibilities/. 
-
-/Book also wants to be published in form of the Anki card deck for Anki users. Did you know that Anki is actually former Emacs Org-drill v1?/
-
-/[[https://www.youtube.com/watch?v=nPtorZ2k7Ak][So in nearest time book source would go through big structural changes.]]/
-
------
 
 To get the full view:
   * Outline navigation
