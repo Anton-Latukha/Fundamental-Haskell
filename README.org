@@ -13205,6 +13205,7 @@ class MonadFail m => MonadFile m
 Nothing     -> error ("Message " <> show x)
 -- if compatibility fith old GHCs needed (ex. library)
 #if __GLASGOW_HASKELL__ < 880
+import           Prelude hiding (fail)
 import           Control.Monad.Fail
 #endif
 #+end_src
