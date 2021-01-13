@@ -6492,11 +6492,11 @@ SCHT: <2020-05-01 Fri>
 Expression, logical function that is/can produce a proposition.
 
 **** /*/
-<<<Well formed formula>>>
-<<<WFF>>>
-<<<wff>>>
-<<<WFFS>>>
-<<<wffs>>>
+Well formed formula
+WFF
+wff
+WFFS
+wffs
 
 ** <<<Homotopy>>> :drill:
 :properties:
