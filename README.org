@@ -2,7 +2,7 @@
 #+author: Anton Latukha
 #+creator: Self-published by Anton Latukha
 #+description: Fundamental notes on Haskell, Category theory and related fields.
-#+subtitle: Encyclopedcal handbook for learning and undersatanding fundamentals
+#+subtitle: Encyclopedical handbook for learning and understanding fundamentals
 #
 #
 #
