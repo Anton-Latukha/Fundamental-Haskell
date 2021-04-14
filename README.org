@@ -2683,8 +2683,8 @@ join $ f <$> a :: Monad f => (a -> f b) -> f a            -> f b
 :end:
 
 #+begin_src haskell
->>=         :: Monad f => f a -> (a -> f b) -> f b
-join . fmap :: Monad f => (a -> f b) -> f a -> f b
+=<<            :: Monad f => (a -> f b) -> f a -> f b
+join $ f <$> a :: Monad f => (a -> f b) -> f a -> f b
 #+end_src
 Nonstrict.
 
