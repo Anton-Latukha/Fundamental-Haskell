@@ -2658,7 +2658,7 @@ Nonstrict.
 join :: Monad m => m (m a) -> m a
 #+end_src
 
-Generales knowledge of =concat=.
+Generalized =concat=.
 
 Kleisli composition that flattens two layers of structure into one.
 
@@ -2671,7 +2671,6 @@ The way to express ordering in lambda calculus is to nest.
 ******** join . fmap == (=<<)
 
 #+begin_src haskell
--- b = f b
 <$>            :: Monad f => (a -> f b) -> f a -> f (f b)
 join           :: Monad f =>                      f (f a) -> f a
 join $ f <$> a :: Monad f => (a -> f b) -> f a            -> f b
