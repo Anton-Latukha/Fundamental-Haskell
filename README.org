@@ -2744,8 +2744,12 @@ Discard value result of the action, sequentially add next (compose with) next ac
 Applicative has a similar operator.
 
 #+begin_src haskell
-(>>) :: m a -> m b -> m b
-(*>) :: f a -> f b -> f b
+(*>)
+  :: Applicative f
+  => f a -> f b -> f b
+(>>)
+  :: Monad m
+  => m a -> m b -> m b
 #+end_src
 
 ******* Monadic versions of list functions :drill:
