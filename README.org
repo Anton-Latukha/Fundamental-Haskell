@@ -2758,7 +2758,18 @@ Applicative has a similar operator.
 :end:
 
 #+begin_src haskell
-sequence :: (Traversable t, Monad m) => t (m a) -> m (t a)
+sequenceA
+  :: ( Traversable t
+     , Applicative m
+     )
+  => t (m a)
+  -> m (t a)
+sequence
+  :: ( Traversable t
+     , Monad m
+     )
+  => t (m a)
+  -> m (t a)
 #+end_src
 
 Sequence gets the traversable of monadic computations and swaps it into monad computation of taverse. In the result the collection of monadic computations turns into one long monadic computation on traverse of data.
