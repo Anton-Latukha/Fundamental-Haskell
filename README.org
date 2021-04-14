@@ -2771,7 +2771,15 @@ Sequence gets the traversable of monadic computations and swaps it into monad co
 If some step of this long computation fails - monad fails.
 
 #+begin_src haskell
-mapM :: (Traversable t, Monad m) => (a -> m b) -> t a -> m (t b)
+traverse
+  :: ( Traversable t
+     , Applicative f
+     )
+  => (    a
+     -> f b
+     )
+  ->    t a
+  -> f (t b)
 #+end_src
 
 =mapM= gets the AMB function, then takes traversable data. Then applies AMB function to traversable data, and returns converted monadic traversable data.
