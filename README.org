@@ -2672,10 +2672,10 @@ The way to express ordering in lambda calculus is to nest.
 
 #+begin_src haskell
 -- b = f b
-fmap        :: Monad f => (a -> f b) -> f a -> f (f b)
-join        :: Monad f =>                      f (f a) -> f a
-join . fmap :: Monad f => (a -> f b) -> f a            -> f b
-flip    >>= :: Monad f => (a -> f b) -> f a            -> f b
+<$>            :: Monad f => (a -> f b) -> f a -> f (f b)
+join           :: Monad f =>                      f (f a) -> f a
+join $ f <$> a :: Monad f => (a -> f b) -> f a            -> f b
+=<<            :: Monad f => (a -> f b) -> f a            -> f b
 #+end_src
 
 ******* <<<Bind function>>> :drill:
