@@ -1,0 +1,535 @@
+#+description: Maybe define this
+
+* Give definitions
+
+
+** <<<Identity type>>>
+
+** <<<Constant type>>>
+
+** <<<Gen>>>
+
+
+** <<<Tensorial strength>>>
+
+** <<<Strong monad>>>
+
+** <<<Weak head normal form>>>
+
+*** /*/
+
+<<<WHNF>>>
+
+** <<<Function image>>>
+
+*** /*/
+
+<<<Image>>>
+
+** <<<Invertible>>>
+** <<<Invertibility>>>
+** <<<Define LANGUAGE pragma options>>>
+
+*** <<<ExistentialQuantification>>>
+
+*** <<<GADTs>>>
+
+GADT is a generalization over parametric algebraic data types which allow explicitly denote the types (type matching) of the constructors and define data types using pattern matching on the left side of "data" statements.
+
+*** /*/
+
+<<<GADT>>>
+<<<Generalized algebraic data type>>>
+<<<First-class phantom data type>>>
+<<<Guarded recursive data type>>>
+<<<Equality-qualified data type>>>
+
+*** <<<GeneralizedNewTypeClasses>>>
+
+*** <<<FuncitonalDependencies>>>
+
+** <<<GHC check keys>>>
+
+*** <<<-Wno-partial-type-signatures>>>
+
+Supresses PartialTypeSignatures wildcard infer warning.
+
+** <<<Generalised algebraic data types>>>
+
+LANGUAGE GADTs
+
+*** /*/
+
+<<<GADT>>>
+
+** <<<Order theory>>>
+
+Investigates in thepth the intuitive notion of order using binary relations.
+
+*** <<<Domain theory>>>
+
+Formalizes approximation and convergense.
+Has close relation to Topology.
+
+*** <<<Lattice>>>
+
+Partially ordered set in which any two elements have unique supremum and infinum.
+
+\( P = (X, \le ), \forall \{x_{1}, x_{2}\} \in X \ : \ \exists! \{inf, sup\}(\{x_{1},x_{2}\}) \)
+
+\( x \lor (y \land x) \ = \ (x \lor y) \land x \ = \ x \)
+
+Most of partially ordered sets are not lattices.
+
+*** <<<Order>>>
+
+**** <<<Preorder>>>
+
+R^{X \to X} : Reflexive & Transitive:
+\( aRa \)
+\( aRb, bRc \Rightarrow aRc \)
+
+Generalization of equivalence relations partial orders.
+
+/*/ Antisymmetric \Rightarrow Partial ordering.
+/*/ Symmetric \Rightarrow Equivalence.
+
+***** /*/
+
+<<<Preordered>>>
+
+***** <<<Total preorder>>>
+
+\( \forall a,b : a \le b \lor b \le a \) \Rightarrow Total Preorder.
+
+**** <<<Partial order>>>
+
+A binary relation must be reflexive, antisymmetric and transitive.
+
+Partial - not every elempents between them need to be comparable.
+
+Good example of /*/ is a genealogical descendancy. Only related people produce relation, not related do not.
+
+***** /*/
+
+<<<Partial orders>>>
+<<<Partially ordered set>>>
+<<<Partially ordered sets>>>
+<<<Poset>>>
+<<<Posets>>>
+
+
+**** <<<Total order>>>
+
+**** <<<Chain>>>
+
+Totally ordered set, aka sequence.
+
+** <<<Universal algebra>>>
+
+Studies algebraic structures.
+
+** <<<Relation>>>
+
+*** <<<Reflexivity>>>
+
+\( R^{X \to X}, \forall x \in X : x R x \)
+Order theory: \( a \le a \)
+
+/*/ - each element is comparable to itself.
+
+Corresponds to Identity and Automorphism.
+
+**** /*/
+
+<<<Reflexive>>>
+<<<Reflexive relation>>>
+
+*** <<<Irreflexivity>>>
+
+\( R^{X \to X}, \forall x \in X : \nexists R(x, x) \)
+
+**** /*/
+
+<<<Anti-reflexive>>>
+<<<Anti-reflexive relation>>>
+<<<Irreflexive>>>
+<<<Irreflexive relation>>>
+
+*** <<<Transitivity>>>
+
+\( \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc \)
+
+/*/ - the start of a chain of precedence relations must precede the end of the chain.
+
+**** /*/
+
+<<<Transitive>>>
+<<<Transitive relation>>>
+
+*** <<<Symmetry>>>
+
+\( \forall a,b \in X : (aRb \iff bRa) \)
+
+**** /*/
+
+<<<Symmetric>>>
+<<<Symmetric relation>>>
+
+*** <<<Equivalence>>>
+
+| Reflexive                  | Symmetric                        | Transitive                                      |
+|----------------------------+----------------------------------+-------------------------------------------------|
+| \( \forall x \in X, \exists R : x R x \) | \( \forall a,b \in X : (aRb \iff bRa) \) | \( \forall a,b,c \in X, \forall R^{X \to X} : (aRb \land bRc) \Rightarrow aRc \) |
+| \( a = a \)                | \( a = b \iff b = a \)           | \( a = b, b = c \Rightarrow a = c \)                      |
+
+**** /*/
+
+<<<Equivalent>>>
+<<<Equivalent relation>>>
+
+*** <<<Antisymmetry>>>
+
+\( \forall a, b \in X : aRb, bRa \Rightarrow a = b \) ~ \( aRb, a \ne b \Rightarrow \nexists bRa \).
+Antisymmetry does not say anything about \( R(a,a) \).
+
+/*/ - no two different elements precede each other.
+
+**** /*/
+
+<<<Antisymmetric>>>
+<<<Antisymmetric relation>>>
+
+*** <<<Asymmetry>>>
+
+\( \forall a,b \in X (aRb \Rightarrow \neg (bRa)) \)
+/*/ \( \iff \) Antisymmetric \land Irreflexive.
+Asymmetry \ne "not symmetric"
+Symmetric \land Asymmetric is only empty relation.
+
+**** /*/
+
+<<<Asymmetric>>>
+<<<Asymmetric relation>>>
+
+** <<<Cryptomorphism>>>
+
+Equivalent, interconvertable with no loss of information.
+
+*** /*/
+
+<<<Crypromorphic>>>
+
+** <<<Lexically scoped type variables>>>
+
+Enable lexical scope for forall quantifier defined type variables
+
+Implemented in ScopedTypeVariables
+
+** <<<Abstract data type>>>
+
+Several definitions here, reduce them.
+
+Data type mathematical model, defined by its semantics from the user point of view, listing possible values, operations on the data of the type, and behaviour of these operations.
+
+/*/ class of objects whose logical behaviour is defined by a set of values and set of operations (analogue to algebraic structure in mathematics).
+
+A specification of a data type like a stack or queue where the specification does not contain any implementation details at all, only the operations for that data type. This can be thought of as the contract of the data type. 
+
+*** /*/
+
+<<<AbsDT>>>
+
+** <<<Functional dependencies>>>
+
+** <<<MonoLocalBinds>>>
+
+** <<<KindSignatures>>>
+
+** <<<ExplicitNamespaces>>>
+
+** <<<Combinator pattern>>>
+
+** <<<Symbolic expression>>> :drill:
+SCHT: <2020-07-05 Sun>
+:properties:
+:ID:       62a62e62-5b76-42d5-a971-9b9d3f72ec8f
+:DRILL_LAST_INTERVAL: 74.283
+:DRILL_REPEATS_SINCE_FAIL: 5
+:DRILL_TOTAL_REPEATS: 12
+:DRILL_FAILURE_COUNT: 4
+:DRILL_AVERAGE_QUALITY: 3.584
+:DRILL_EASE: 2.76
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-22 Wed 12:34]
+:end:
+
+Nested tree data structure.
+
+Introduced & used in Lisp. Lisp code and data are /*/.
+
+/*/ in Lisp: Atom or expression of the form =(x . y)=, =x= and =y= are /*/.
+
+Modern abbriviated notation of /*/: =(x y)=.
+
+*** /*/
+
+<<<S-expression>>>
+<<<S-expressions>>>
+<<<Sexpression>>>
+<<<Sexpressions>>>
+<<<Sexp>>>
+<<<Sexps>>>
+<<<Sexpr>>>
+<<<Sexprs>>>
+
+** <<<Polynomial>>> :drill:
+:properties:
+:ID:       2d7eeed7-766f-4261-8976-dffc939794b0
+:end:
+
+Expression consisting of:
+  * variables
+  * coefficients
+  * addition
+  * substraction
+  * multiplication (including positive integer variable exponentiation)
+
+Polynomials form a ring. Polynomial ring.
+
+*** /*/
+
+<<<Polynomials>>>
+
+** <<<Data family>>>
+:properties:
+:ID:       a1a5a51c-bd64-41dd-8162-2bf25b9dccc4
+:end:
+
+Indexed form of data and newtype definitions.
+
+** <<<Type synonym family>>>
+:properties:
+:ID:       db5fa6be-f1fc-4baa-b31b-0b7520fe2b2a
+:end:
+
+Indexed form of type synonyms.
+
+** <<<Indexed type family>>>
+:properties:
+:ID:       db9d2215-e851-4257-90bb-26a03647663b
+:end:
+
+/*/ additional stucture in language that allows ad-hoc overloading of data types. AKA are to types as type class to methods.
+
+Variaties:
+  * data family
+  * type synonym families
+
+Defined by pattern matching the partial functions between types.
+Associates data types by type-level function defined by open-ended collection of valid instances of input types and corresponding output types.
+
+Normal type classes define partial functions from types to a collection of named values by pattern matching on the input types, while type families define partial functions from types to types by pattern matching on the input types. In fact, in many uses of type families there is a single type class which logically contains both values and types associated with each instance. A type family declared inside a type class is called an associated type.
+
+*** /*/
+
+<<<Type family>>>
+
+** <<<TypeFamilies>>>
+SCHT: <2019-07-17 Wed>
+:properties:
+:ID:       8bd84ba4-4ba0-4907-a19e-1312d2e4ab22
+:DRILL_LAST_INTERVAL: 3.86
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 2
+:DRILL_FAILURE_COUNT: 1
+:DRILL_AVERAGE_QUALITY: 2.5
+:DRILL_EASE: 2.36
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-13 Sat 00:12]
+:end:
+
+Allow use and definition of indexed type families and data families.
+
+/*/ are type-level programming.
+/*/ are overload data types in the same way that type classes overload functions.
+/*/ allow handling of dependent types. Before it Functional dependencies and GADTs were used to solve that.
+/*/ useful for generic programming, creating highly parametrised interfaces for libraries, and creating interfaces with enhanced static iformation (much like dependent types).
+
+Implies: MonoLocalBinds, KindSignatures, ExplicitNamespaces
+
+Two types of /*/ are:
+
+** <<<Error>>>
+:properties:
+:ID:       0f11555b-90c5-4374-8bb9-6e195cd2df39
+:end:
+
+Mistake in the program that can be resolved only by fixing the program.
+
+=error= is a sugar for =undefined=.
+
+Distinct from Exception.
+
+*** /*/
+
+<<<Errors>>>
+
+** <<<Exception>>>
+:properties:
+:ID:       06ad9cca-a768-498c-906a-dab3ff922217
+:end:
+
+Expected but irregular situation.
+
+Distinct from Error. Also see [[Good: Exception vs Error]]
+
+*** /*/
+
+<<<Exceptions>>>
+
+** <<<ConstraintKinds>>>
+SCHT: <2019-07-21 Sun>
+:properties:
+:ID:       39b1ef68-42be-4430-b7ca-c8a1fc511622
+:DRILL_LAST_INTERVAL: 3.855
+:DRILL_REPEATS_SINCE_FAIL: 2
+:DRILL_TOTAL_REPEATS: 5
+:DRILL_FAILURE_COUNT: 2
+:DRILL_AVERAGE_QUALITY: 3.0
+:DRILL_EASE: 2.32
+:DRILL_LAST_QUALITY: 3
+:DRILL_LAST_REVIEWED: [2019-07-17 Wed 22:59]
+:end:
+
+Constraints are just handled as types of a particular kind (Constraint).
+Any type of the kind Constraints can be used as a constraint.
+  * Anything which is already allowed in code as a constraint without /*/. Saturated applications to type classes, implicit parameter and equality constraints.
+  * Tuples, all of whose component types have kind Constraint.
+  #+begin_src haskell
+  type Some a = (Show a, Ord a, Arbitrary a) -- is of kind Constraint.
+  #+end_src
+  * Anything form of which is not yet known, but the user has declared for it to have kind Constraint (for which they need to import it from GHC.Exts):
+  #+begin_src haskell
+  Foo (f :: Type -> Constraint) = forall b. f b => b -> b -- is allowed
+  -- as well as examples involving type families:
+  type family Typ a b :: Constraint
+  type instance Typ Int  b = Show b
+  type instance Typ Bool b = Num b
+
+  func :: Typ a b => a -> b -> b
+  func = ...
+  #+end_src
+
+** <<<Specialisation>>>
+:properties:
+:ID:       a9e7fcd2-2334-4a4d-940f-b3c20268aec6
+:end:
+
+Turns ad hoc polymorphic function into compiled type-specific inmpementations.
+
+*** /*/
+
+<<<Specialise>>>
+<<<Specialize>>>
+<<<Specialization>>>
+
+** <<<Diagram>>>
+
+For categories C and J, a diagram of type J in C is a covariant functor D : J → C.
+
+** Cathegory theoretical <<<presheaf>>>
+
+For categories C and J, a J-presheaf on C is a contravariant functor D : C → J. 
+
+** Topological <<<presheaf>>>
+
+If X is a topological space, then the open sets in X form a partially ordered set Open(X) under inclusion. Like every partially ordered set, Open(X) forms a small category by adding a single arrow U → V if and only if U ⊆ V. Contravariant functors on Open(X) are called presheaves on X. For instance, by assigning to every open set U the associative algebra of real-valued continuous functions on U, one obtains a presheaf of algebras on X. 
+
+** <<<Diagonal functor>>>
+
+The diagonal functor is defined as the functor from D to the functor category D^C which sends each object in D to the constant functor at that object.
+
+** <<<Limit functor>>>
+
+For a fixed index category J, if every functor J → C has a limit (for instance if C is complete), then the limit functor C^J → C assigns to each functor its limit. The existence of this functor can be proved by realizing that it is the right-adjoint to the diagonal functor and invoking the Freyd adjoint functor theorem. This requires a suitable version of the axiom of choice. Similar remarks apply to the colimit functor (which is covariant). 
+
+** <<<Dual vector space>>>
+
+The map which assigns to every vector space its dual space and to every linear map its dual or transpose is a contravariant functor from the category of all vector spaces over a fixed field to itself.
+
+** <<<Fundamental group>>>
+
+Consider the category of pointed topological spaces, i.e. topological spaces with distinguished points. The objects are pairs (X, x0), where X is a topological space and x0 is a point in X. A morphism from (X, x0) to (Y, y0) is given by a continuous map f : X → Y with f(x0) = y0.
+
+To every topological space X with distinguished point x0, one can define the fundamental group based at x0, denoted π1(X, x0). This is the group of homotopy classes of loops based at x0. If f : X → Y is a morphism of pointed spaces, then every loop in X with base point x0 can be composed with f to yield a loop in Y with base point y0. This operation is compatible with the homotopy equivalence relation and the composition of loops, and we get a group homomorphism from π(X, x0) to π(Y, y0). We thus obtain a functor from the category of pointed topological spaces to the category of groups.
+
+In the category of topological spaces (without distinguished point), one considers homotopy classes of generic curves, but they cannot be composed unless they share an endpoint. Thus one has the fundamental groupoid instead of the fundamental group, and this construction is functorial.
+
+** <<<Algebra of continuous function>>>
+
+A contravariant functor from the category of topological spaces (with continuous maps as morphisms) to the category of real associative algebras is given by assigning to every topological space X the algebra C(X) of all real-valued continuous functions on that space. Every continuous map f : X → Y induces an algebra homomorphism C(f) : C(Y) → C(X) by the rule C(f)(φ) = φ ∘ f for every φ in C(Y).
+
+** <<<Tangent and cotangent bundle>>>
+
+The map which sends every differentiable manifold to its tangent bundle and every smooth map to its derivative is a covariant functor from the category of differentiable manifolds to the category of vector bundles.
+
+Doing this constructions pointwise gives the tangent space, a covariant functor from the category of pointed differentiable manifolds to the category of real vector spaces. Likewise, cotangent space is a contravariant functor, essentially the composition of the tangent space with the dual space above.
+
+** <<<Group action / representation>>>
+
+Every group G can be considered as a category with a single object whose morphisms are the elements of G. A functor from G to Set is then nothing but a group action of G on a particular set, i.e. a G-set. Likewise, a functor from G to the category of vector spaces, Vect_K, is a linear representation of G. In general, a functor G → C can be considered as an "action" of G on an object in the category C. If C is a group, then this action is a group homomorphism.
+
+** <<<Lie algebra>>>
+
+Assigning to every real (complex) Lie group its real (complex) Lie algebra defines a functor.
+
+** <<<Tensor product>>>
+
+If C denotes the category of vector spaces over a fixed field, with linear maps as morphisms, then the tensor product V ⊗ W defines a functor C × C → C which is covariant in both arguments.
+
+** <<<Forgetful functor>>>
+
+The functor U : Grp → Set which maps a group to its underlying set and a group homomorphism to its underlying function of sets is a functor.[8] Functors like these, which "forget" some structure, are termed forgetful functors. Another example is the functor Rng → Ab which maps a ring to its underlying additive abelian group. Morphisms in Rng (ring homomorphisms) become morphisms in Ab (abelian group homomorphisms).
+
+** <<<Free functor>>>
+
+Going in the opposite direction of forgetful functors are free functors. The free functor F : Set → Grp sends every set X to the free group generated by X. Functions get mapped to group homomorphisms between free groups. Free constructions exist for many categories based on structured sets. See free object.
+
+** <<<Homomorphism group>>>
+
+To every pair A, B of abelian groups one can assign the abelian group Hom(A, B) consisting of all group homomorphisms from A to B. This is a functor which is contravariant in the first and covariant in the second argument, i.e. it is a functor Abop × Ab → Ab (where Ab denotes the category of abelian groups with group homomorphisms). If f : A1 → A2 and g : B1 → B2 are morphisms in Ab, then the group homomorphism Hom(f, g): Hom(A2, B1) → Hom(A1, B2) is given by φ ↦ g ∘ φ ∘ f. See Hom functor.
+
+** <<<Representable functor>>>
+
+We can generalize the previous example to any category C. To every pair X, Y of objects in C one can assign the set Hom(X, Y) of morphisms from X to Y. This defines a functor to Set which is contravariant in the first argument and covariant in the second, i.e. it is a functor Cop × C → Set. If f : X1 → X2 and g : Y1 → Y2 are morphisms in C, then the group homomorphism Hom(f, g) : Hom(X2, Y1) → Hom(X1, Y2) is given by φ ↦ g ∘ φ ∘ f.
+
+Functors like these are called representable functors. An important goal in many settings is to determine whether a given functor is representable.
+
+** <<<Corecursion>>>
+** <<<Coinduction>>>
+
+/proper definition/
+
+/*/ dual to induction.
+Generalises to corecursion.
+
+** <<<Initial algebra of an endofunctor>>>
+** <<<Terminal coalgebra for an endofunctor>>>
+** Continuation
+:PROPERTIES:
+:ID:       50ec8b91-640d-4fe3-8e68-00d5a4bd6d3d
+:END:
+
+*** Continuation passing style
+
+**** /*/
+
+CPS
+
+** Control.Concurrent.Async
+
+Good library for concurrency programming.
+
+
+** Semilattice
