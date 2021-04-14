@@ -2688,9 +2688,9 @@ join $ f <$> a :: Monad f => (a -> f b) -> f a -> f b
 #+end_src
 Nonstrict.
 
-The most ubiqutous way to >>= something is to use Lambda function:
+The most ubiqutous way to ~=<<~ something is to use Lambda function:
 #+begin_src haskell
-getLine >>= \name -> putStrLn "age pls:"
+(\ name -> putStrLn "age pls:") =<< getLine
 #+end_src
 
 Also a neet way is to bundle and handle Monad - is to bundle it with bind, and leave applied partially.
