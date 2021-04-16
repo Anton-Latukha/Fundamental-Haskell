@@ -2020,7 +2020,7 @@ class Functor f => Applicative f
 
 =pure= - if a functor, identity Kleisli arrow, natural transformation.
 
-Composition of /*/ always produces /*/.
+Composition of /*/ always produces /*/. (/*/ are closed unders composition).
 
 =Control.Monad= has an old function =ap= that is old implementation of =<*>=:
 #+begin_src haskell
