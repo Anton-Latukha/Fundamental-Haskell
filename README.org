@@ -341,7 +341,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#applicative-functor][<<<Applicative functor>>>]]
         - [[#-19][/*/]]
         - [[#applicative-property][<<<Applicative property>>>]]
-        - [[#-20][/*/]]
+          - [[#-20][/*/]]
           - [[#applicative-identity-property][<<<Applicative identity property>>>]]
           - [[#applicative-composition-property][<<<Applicative composition property>>>]]
           - [[#applicative-homomorphism-property][<<<Applicative homomorphism property>>>]]
@@ -2038,7 +2038,7 @@ ap :: Monad m => m (a -> b) -> m a -> m b
 :ID:       e2527c05-e4d8-49e6-8648-02d49ab27c3a
 :end:
 
-***** /*/
+****** /*/
 <<<Applicative properties>>>
 
 ****** <<<Applicative identity property>>> :drill:
