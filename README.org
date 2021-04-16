@@ -2410,7 +2410,7 @@ ap == (<*>) -- + Monad requirement
 
 Internals of Monad are Haskell data types, and as such - they can be consumed any number of times.
 
-Composition of monadic types does not always results in monadic type.
+Contrary to applicative functors composition of which always produces applicative, composition of monads does not always results in monad. (Monads are not closed under composition).
 
 ****** /*/
 
