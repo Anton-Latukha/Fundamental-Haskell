@@ -2117,7 +2117,12 @@ On condition that internal order of evaluation is preserved - order of operands 
 u <*> pure y = pure ($ y) <*> u
 #+end_src
 
-This shows that argument order is important. Since applicative works with structure ~<>~ property is being associative, commutativity is not promised.
+This shows that argument order is important. Since applicative works with structure ~<>~ property is being associative, commutativity is not promised. So:
+#+begin_src haskell
+a <*> b /= b <*> a
+a *> b /= b <* a
+#+end_src
+In other words - not commutative.
 
 ***** <<<Applicative function>>>
 
