@@ -2094,6 +2094,17 @@ Right ((+20 . +10) (5)) ==
 Right ((+30) 5) ==
 Right 35
 #+end_src
+
+& also:
+#+begin_src haskell
+Right (+20) <*> (Right (+10) <*> Right (5)) ==
+Right (+20) <*> ((Right <> Right) (+10) (5)) ==
+(Right <> Right <> Right) ((+20) (15)) ==
+Right 35
+#+end_src
+
+Aka, ~{<*>, pure}~ represent ~{<>, ' ' (function application)}~ at the same time. How applicative operators applied inside of the Haskell expression - provides information how to compose the applicative structure as a monoid, and contents as a function application. Rules they apply by are just as they would be if to remove applicative operators and ~{applicative structures OR context}~ (depenting on what to stay).
+
 ****** <<<Applicative homomorphism property>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
