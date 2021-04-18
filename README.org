@@ -2073,7 +2073,7 @@ SCHT: <2020-07-22 Wed>
 :DRILL_LAST_REVIEWED: [2020-01-14 Tue 14:00]
 :end:
 
-Function composition works regularly.
+To compose functions contained within applicatives is the same as using normal function composition inside of an applicative, aka function composition works regularly.
 #+begin_src haskell
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
