@@ -2105,6 +2105,18 @@ Right 35
 
 Aka, ~{<*>, pure}~ represent ~{<>, ' ' (function application)}~ at the same time. How applicative operators applied inside of the Haskell expression - provides information how to compose the applicative structure as a monoid, and contents as a function application. Rules they apply by are just as they would be if to remove applicative operators and ~{applicative structures OR context}~ (depenting on what to stay).
 
+#+begin_src haskell
+pure (.) <*> au <*> bv <*> cw = au <*> (bv <*> cw)
+-- Contents applies:
+(.) u v w = u (v w)
+pure (.) <*> au <*> bv <*> cw = au <*> (bv <*> cw)
+-- Applicative structure applies:
+pure <> a <> b <> c = a <> (b <> c)
+#+end_src
+
+That is the essence of the law.
+
+
 ****** <<<Applicative homomorphism property>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
