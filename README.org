@@ -8214,6 +8214,8 @@ Any priority of execution of the parts of the operation chain would produce the 
 
 Property that determines how operators of the same precedence are grouped, (in computer science also in the absence of parentheses).
 
+In a classical general sence of /*/ (noncommutative associativity) - operation assignes/gives some (hidden) additional meaning to the operands order (positions), and their positioning also influence the result. In commutative case the result depends only on information of the operands.
+
 Etymology:
 Latin /associatus/ past participle of /associare/ "/join with/", from assimilated form of /ad/ "/to/" + /sociare/ "/unite with/", from /socius/ "/companion, ally/" from PIE /*sokw-yo-/, suffixed form of root /*sekw-/ "/to follow/".
 
