@@ -2078,6 +2078,22 @@ To compose functions contained within applicatives is the same as using normal f
 pure (.) <*> u <*> v <*> w = u <*> (v <*> w)
 #+end_src
 
+Explanation:
+#+begin_src haskell
+pure (.) <*> Right (+20) ==
+Right ((.) (+20))
+
+pure (.) <*> Right (+20) <*> Right (+10) ==
+(Right <> Right) ((.) (+20) (+10)) ==
+(Right <> Right) (+20 . +10) ==
+Right (+30)
+
+pure (.) <*> Right (+20) <*> Right (+10) <*> Right 5 ==
+Right ((.) (+20) (+10) (5)) ==
+Right ((+20 . +10) (5)) ==
+Right ((+30) 5) ==
+Right 35
+#+end_src
 ****** <<<Applicative homomorphism property>>> :drill:
 SCHT: <2020-09-18 Fri>
 :properties:
