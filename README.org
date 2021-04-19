@@ -2158,11 +2158,17 @@ u <*> pure y = pure ($ y) <*> u
 
 This shows that because ~<*>~ applies function to the argument - the order is important.
 In other words - it is not commutative. And to turn the application order in ~<*>~ the argument needs to be demoted (~$~).
+
+It works so:
 #+begin_src haskell
-a <*> b /= b <*> a
-a *> b /= b <* a
+uf <*> pure y
+(u <> pure) (f y)
+
+pure ($ y) <*> uf   -- `$` is infix operator, so it binds `y` as second argument: `(\ f y -> f $ y)`
+pure (($) y) <*> uf
+(pure <> u) (f $ y)
 #+end_src
-In other words - not commutative.
+
 
 ***** <<<Applicative function>>>
 
