@@ -6394,9 +6394,15 @@ SCHT: <2020-05-23 Sat>
 :DRILL_LAST_REVIEWED: [2019-11-24 Sun 02:24]
 :end:
 
+It is a property of \(\{f^{\mathcal{X \to X}}, \mathcal{X}\}\) (function & a set it operates on).
+
 \( f(x) = f^{\mathcal{X \to X}} \ | \ \forall x \in \mathcal{X} \), \( \mathcal{X} \) is closed under \( f \), it is a trivial case when operation is legitimate for all values of the domain.
 
 Operation on members of the domain always produces a members of the domain. The domain is closed under the operation.
+
+It is a powerful property. For example:
+ 1) it allows to apply algebra operations (\(\{*,/,+,-\}\)) without "does operation fits" to any numbers in the numbers in the \(\mathbb{R}\), because those operations are closed under the \(\mathbb{R}\), with a caveat of /small/ caveat of \(0\) for \(/\).
+ 2) it allows to apply and compose endofunctors on categories without thought or remorse of whenever that would work, since any combination of them works. Because ~fmap~ defined for all ~[]~ or for ~Maybe~ and does not changes structure. For example one can apply ~fmap~ to ~[Maybe a]~ to a list, or compose ~fmap~ of `Maybe` with ~fmap~ of ~[]~ (in Haskell just compoe twice ~fmap . fmap~) to work on the ~Maybe a~ values inside ~[]~. Again, because Haskell functors are endofunctors defined on the whole type which is polymorphic inside, so the definitions of Haskell endofunctors are closed in types they apply to.
 
 In the case when there is a domain values for which operation is not legitimate/not exists:
 
