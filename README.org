@@ -6771,7 +6771,7 @@ SCHT: <2020-06-24 Wed>
 :DRILL_LAST_REVIEWED: [2020-01-23 Thu 23:06]
 :end:
 
-Classical type system for the Lambda calculus with Parametric polymorphism and Type inference. Types marked as polymorphic variables, which enables type inference over the code.
+Classical type system for lambda calculus with parametric polymorphism and type inference. Types marked as polymorphic variables, which enables type inference over the code.
 
 **** /*/
 
