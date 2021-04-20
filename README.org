@@ -1262,7 +1262,7 @@ Additional meanings:
 1) Algebra - a set with its algebraic structure.
 2) Abstract algebra - the study of number systems and operations within them.
 3) Algebra - vector space over a field with a multiplication.
-4) In Haskell often means particular "implementation" on top of some (considered well-known or basis to the code by the code author) theory/principle/abstraction mechanism.
+4) In Haskell mosr often used as substitute to "particular implementation" on top of some (considered well-known or basis to the code by the code author) theory/principle/abstraction mechanism.
 
 *** /*/
 
