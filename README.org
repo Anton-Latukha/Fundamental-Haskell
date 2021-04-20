@@ -519,6 +519,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#type-class-inheritance][<<<Type class inheritance>>>]]
       - [[#derived-instance][<<<Derived instance>>>]]
         - [[#-70][/*/]]
+      - [[#type-class-functional-dependency][<<<Type class functional dependency>>>]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
@@ -5135,6 +5136,19 @@ Language options:
 <<<Derived>>>
 <<<Deriving>>>
 
+**** <<<Type class functional dependency>>> :drill:
+
+/*/ declares a promise of a relation that from one type would uniquly determine/determines another.
+
+\(X \to Y\) - "X determines Y".
+
+#+begin_src haskell
+class C a b | a -> b
+ where
+  ...
+#+end_src
+
+/*/ are used for multi-parameter type classes. As some multi-parameter type classes with their methods create undecidable situations when method signature & use can not infer all parameters for instance of the type class. Solution in the case when one of the parameters can be determined from the others - /*/ get declared, so (subordinate parameter) then for example can be the return type but none of the argument types of some of the methods, which allows type system to work propely.
 *** <<<Type constant>>> :drill:
 SCHT: <2020-06-23 Tue>
 :properties:
