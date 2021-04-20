@@ -5018,6 +5018,8 @@ Type system construct that adds a support of ad hoc polymorphism.
 
 Type class makes a nice way for defining behaviour, properties over many types/objects at once.
 
+Type classes with multiple parameters are relations on types.
+
 **** /*/
 
 <<<Type classes>>>
