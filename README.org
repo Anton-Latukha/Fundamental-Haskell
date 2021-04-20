@@ -10387,6 +10387,8 @@ Enable the definitions of typeclasses with more than one parameter.
 class Collection c a where
 #+end_src
 
+Multiparameter generalizes type classes with interpretation of them being relations on types.
+
 ****** <<<MultiWayIf>>> :drill:
 SCHT: <2020-08-05 Wed>
 :properties:
