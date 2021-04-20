@@ -520,6 +520,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#derived-instance][<<<Derived instance>>>]]
         - [[#-70][/*/]]
       - [[#type-class-functional-dependency][<<<Type class functional dependency>>>]]
+      - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-constant][<<<Type constant>>>]]
     - [[#type-constructor][<<<Type constructor>>>]]
     - [[#type-declaration][<<<type declaration>>>]]
@@ -527,7 +528,6 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
       - [[#-71][/*/]]
     - [[#type-inference][<<<Type inference>>>]]
       - [[#-72][/*/]]
-    - [[#type-class-instance][<<<Type class instance>>>]]
     - [[#type-rank][<<<Type rank>>>]]
       - [[#-73][/*/]]
     - [[#type-variable][<<<Type variable>>>]]
@@ -5149,6 +5149,22 @@ class C a b | a -> b
 #+end_src
 
 /*/ are used for multi-parameter type classes. As some multi-parameter type classes with their methods create undecidable situations when method signature & use can not infer all parameters for instance of the type class. Solution in the case when one of the parameters can be determined from the others - /*/ get declared, so (subordinate parameter) then for example can be the return type but none of the argument types of some of the methods, which allows type system to work propely.
+**** <<<Type class instance>>> :drill:
+SCHT: <2021-01-31 Sun>
+:properties:
+:ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
+:DRILL_LAST_INTERVAL: 279.6926
+:DRILL_REPEATS_SINCE_FAIL: 7
+:DRILL_TOTAL_REPEATS: 6
+:DRILL_FAILURE_COUNT: 0
+:DRILL_AVERAGE_QUALITY: 3.833
+:DRILL_EASE: 2.28
+:DRILL_LAST_QUALITY: 5
+:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:49]
+:end:
+
+Block of implementations of functions, based on unique type class->type pairing.
+
 *** <<<Type constant>>> :drill:
 SCHT: <2020-06-23 Tue>
 :properties:
@@ -5238,22 +5254,6 @@ Automatic data type detection for expression.
 <<<Infer>>>
 <<<Infers>>>
 <<<Inferred>>>
-
-*** <<<Type class instance>>> :drill:
-SCHT: <2021-01-31 Sun>
-:properties:
-:ID:       2408c5a2-39ba-4732-a4b2-347e87c268d6
-:DRILL_LAST_INTERVAL: 279.6926
-:DRILL_REPEATS_SINCE_FAIL: 7
-:DRILL_TOTAL_REPEATS: 6
-:DRILL_FAILURE_COUNT: 0
-:DRILL_AVERAGE_QUALITY: 3.833
-:DRILL_EASE: 2.28
-:DRILL_LAST_QUALITY: 5
-:DRILL_LAST_REVIEWED: [2020-04-26 Sun 23:49]
-:end:
-
-Block of implementations of functions, based on unique type class->type pairing.
 
 *** <<<Type rank>>> :drill:
 :properties:
