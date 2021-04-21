@@ -1215,6 +1215,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#-210][]]
   - [[#conways-law][<<<Conway's law>>>]]
   - [[#f-algebra][<<<F-algebra>>>]]
+  - [[#cabal-artifacts][Cabal artifacts]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -13610,6 +13611,7 @@ newtype Fix f = Fix { unFix :: f (Fix f) }
 ** 
 
 You can imagine that a non-recursive function holds values of the previous iteration.
+
 ** <<<Conway's law>>>
 
 Design on the organization constraints it to effectively produce the software systems that constrained in the same places.
@@ -13628,6 +13630,21 @@ And the contrary - the ways of establishing rules and communications in the comp
 Generalization of algebra, when it is defined on the Category theory.
 
 Transferring algebraic laws into morphisms eliminates quantification of elements from the axioms, and these algebraic laws may then be glued together in terms of a single functor \( F \), the signature.
+
+** Cabal artifacts
+
+  • ~packagedb/~ ­ project build ~cabal metadata~ package database.
+  • ~cache/~ ­ build plan package constraints solver artifacts. Hashes of external packages.
+  * ~*.hi~ ­ interface modules: type information, public exports, symbol table, etc.
+module guts of compiled Haskell modules.
+  * ~*.hie~ ­ interface extended file: module symbol data.
+  * ~*.hspp~ ­ preprocessor.
+  * ~cabal__macros.h~ ­ CPP-accessible preprocessor definitions.
+  * ~*.o~ ­ Compiled object files per module.
+  * ~*.ll~ ­ LLVM source file.
+  * ~*.bc~ ­ LLVM bytecode.
+  * ~*.s~ ­ Assembly.
+
 
 * Reference
 
