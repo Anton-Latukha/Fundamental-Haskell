@@ -1216,6 +1216,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#conways-law][<<<Conway's law>>>]]
   - [[#f-algebra][<<<F-algebra>>>]]
   - [[#cabal-artifacts][Cabal artifacts]]
+  - [[#hpack][~Hpack~]]
 - [[#reference][Reference]]
   - [[#history][History]]
     - [[#functor-applicative-monad-proposal][<<<Functor-Applicative-Monad Proposal>>>]]
@@ -13645,6 +13646,11 @@ module guts of compiled Haskell modules.
   * ~*.bc~ ­ LLVM bytecode.
   * ~*.s~ ­ Assembly.
 
+** ~Hpack~
+
+Cabal file generator YAML-format DSL that aims to reduce repetitions.
+
+DHall excels at doing the same.
 
 * Reference
 
