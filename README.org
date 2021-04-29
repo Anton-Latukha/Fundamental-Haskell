@@ -13634,17 +13634,16 @@ Transferring algebraic laws into morphisms eliminates quantification of elements
 
 ** Cabal artifacts
 
-  • ~packagedb/~ ­ project build ~cabal metadata~ package database.
-  • ~cache/~ ­ build plan package constraints solver artifacts. Hashes of external packages.
-  * ~*.hi~ ­ interface modules: type information, public exports, symbol table, etc.
-module guts of compiled Haskell modules.
-  * ~*.hie~ ­ interface extended file: module symbol data.
-  * ~*.hspp~ ­ preprocessor.
-  * ~cabal__macros.h~ ­ CPP-accessible preprocessor definitions.
-  * ~*.o~ ­ Compiled object files per module.
-  * ~*.ll~ ­ LLVM source file.
-  * ~*.bc~ ­ LLVM bytecode.
-  * ~*.s~ ­ Assembly.
+| ~packagedb/~      | project build ~cabal metadata~ package database.                                                          |
+| ~cache/~          | build plan package constraints solver artifacts. Hashes of external packages.                           |
+| ~*.hi~            | interface modules: type information, public exports, symbol table, other internals of compiled modules. |
+| ~*.hie~           | interface extended file: module symbol data.                                                            |
+| ~*.hspp~          | preprocessor.                                                                                           |
+| ~cabal_macros.h~  | CPP-accessible preprocessor definitions.                                                                |
+| ~*.o~             | Compiled object files per module.                                                                       |
+| ~*.ll~            | LLVM source file.                                                                                       |
+| ~*.bc~            | LLVM bytecode.                                                                                          |
+| ~*.s~             | Assembly.                                                                                               |
 
 ** ~Hpack~
 
