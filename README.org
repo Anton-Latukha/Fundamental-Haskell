@@ -1036,6 +1036,7 @@ Users of =Emacs= can prettify radio targets to be shown as hyper-links with this
   - [[#good-in-haskell-parameters-bound-by-lambda-declaration-instantiate-to-only-one-concrete-type][<<<Good: In Haskell parameters bound by lambda declaration instantiate to only one concrete type>>>]]
   - [[#good-instance-is-a-good-structure-to-drew-a-type-line][Good: Instance is a good structure to drew a type line]]
   - [[#good-mtl-vs-transformers][<<<Good: MTL vs. Transformers>>>]]
+  - [[#good-forget-error--use-fail-instead][Good: Forget ~error~ , use ~fail~ instead]]
 - [[#bad-code][Bad code]]
   - [[#bad-pragma][<<<Bad pragma>>>]]
     - [[#bad-dangerous-language-pragma-option][Bad: Dangerous LANGUAGE pragma option]]
@@ -11995,6 +11996,9 @@ Default ot =mtl=.
 =Transformers= is Haskell 98, doesn't have funcitonal dependencies, lacks the monad classes, has manual lift of operations to the composite monad.
 
 =MTL= extends =trasformers=, providing more instances, features and possibilities, may include alternative packages features as =mtl-tf=.
+
+** Good: Forget ~error~ , use ~fail~ instead
+
 
 * Bad code :drill:
 :properties:
