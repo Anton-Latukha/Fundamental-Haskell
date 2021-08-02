@@ -7021,10 +7021,10 @@ Funciton application has presedence higher then all infix operators/functions (v
 |  7 | */ div |                   |          |
 |  6 | +-     |                   |          |
 |  5 |        |                   | : , ++   |
-|  4 |        | <comparison> elem |          |
+|  4 | <$>    | <comparison> elem |          |
 |  3 |        |                   | &&       |
 |  2 |        |                   | OR       |
-|  1 | >> >>= |                   |          |
+|  1 | *> >>= |                   |          |
 |  0 |        |                   | $ $! seq |
 
 Any operator lacking a fixity declaration is assumed to be infixl 9.
