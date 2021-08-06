@@ -7015,7 +7015,7 @@ Funciton application has presedence higher then all infix operators/functions (v
 #+attr_latex: :mode table :environment tabu :width \linewidth :spread t :booktabs t
 |  P | L      | Non               | R        |
 |----+--------+-------------------+----------|
-| 10 |        |                   | F.A.     |
+| 10 | F.A.   |                   |          |
 |  9 | !!     |                   | .        |
 |  8 |        |                   | ^ ^^ **  |
 |  7 | */ div |                   |          |
