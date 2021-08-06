@@ -7023,7 +7023,7 @@ Funciton application has presedence higher then all infix operators/functions (v
 |  5 |            |                   | : , ++          |
 |  4 | <$>        | <comparison> elem |                 |
 |  3 | <\vert>        |                   | &&              |
-|  2 |            |                   | OR              |
+|  2 |            |                   | \vert\vert              |
 |  1 | *> >>= <&> |                   | <=< >=> \=<< <* |
 |  0 |            |                   | $ $! seq        |
 
