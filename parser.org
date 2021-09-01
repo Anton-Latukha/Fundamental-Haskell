@@ -42,3 +42,4 @@ Running parser combinators always consumes input and so - advances. To roll-back
 To name a parser part, use ~label~, it would be used when error report is constructed.
 
 ~parse~ is a synonym for ~runParser~.
+~parseTest~ prints the result to ~stdout~.
