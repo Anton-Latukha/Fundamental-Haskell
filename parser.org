@@ -1,2 +1,6 @@
 ~ParsecT e s m a~ (parser monad transformer) is a central data type in ~megaparsec~.
 
+~e~ - custom component of error messages, if not - ~Void~.
+~s~ - type of the input stream.
+~m~ - inner monad.
+~a~ - result of parsing that would be returned inside ~m~.
