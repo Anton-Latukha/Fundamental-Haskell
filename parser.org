@@ -23,7 +23,7 @@ Abstraction of tokens under parsing to =chunk= introduced for performance reason
 
 ~satisfy~ - filter that takes the predicate and returns things that are ~true~.
 
-Additional functions:
+Additional functions matching content:
   ~eof~
     To force consumption till ~EOF~:
     #+begin_src haskell
