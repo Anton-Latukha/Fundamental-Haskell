@@ -13,3 +13,5 @@ type Parsec a = ParsecT Void Text Identity a
 ~Token~ is an abstraction over ~{Text, ByteString, String, etc..}~.
 
 Abstraction of tokens under parsing to =chunk= introduced for performance reasons.
+
+Same parser can process different types of input streams, the ~Token~ abstraction handles that.
