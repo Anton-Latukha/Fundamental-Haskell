@@ -2,5 +2,5 @@
 
 ~e~ - custom component of error messages, if not - ~Void~.
 ~s~ - type of the input stream.
-~m~ - inner monad.
+~m~ - inner monad. Most often it would be ~Identity~.
 ~a~ - result of parsing that would be returned inside ~m~.
