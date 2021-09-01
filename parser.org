@@ -38,3 +38,5 @@ Additional functions matching content:
 Combinators/functions can be used with ~{many, some}~ for according effect. For cases ~{many, some} $ satisfy~ there are more performant ~takeWhile{,1}P~.
 
 Running parser combinators always consumes input and so - advances. To roll-back the try and be able to retry - use ~try~ combinator with ~<|>~.
+
+To name a parser part, use ~label~, it would be used when error report is constructed.
