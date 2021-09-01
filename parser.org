@@ -22,3 +22,11 @@ Abstraction of tokens under parsing to =chunk= introduced for performance reason
   returns: things that were ~Just~.
 
 ~satisfy~ - filter that takes the predicate and returns things that are ~true~.
+
+Additional functions:
+  ~eof~
+  ~newline~
+  ~single~
+  ~char~
+  ~tokens~
+  ~chunk~
