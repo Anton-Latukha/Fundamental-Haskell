@@ -1,2 +1,2 @@
-Parser monad transformer ParsecT is a central data type in ~megaparsec~.
+~ParsecT e s m a~ (parser monad transformer) is a central data type in ~megaparsec~.
 
