@@ -19,6 +19,6 @@ Abstraction of tokens under parsing to =chunk= introduced for performance reason
 ~token~ function takes:
   1. predicate (expanded into ~Maybe~);
   2. error information.
-returns: things that were ~Just~.
+  returns: things that were ~Just~.
 
 ~satisfy~ - filter that takes the predicate and returns things that are ~true~.
