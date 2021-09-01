@@ -25,6 +25,10 @@ Abstraction of tokens under parsing to =chunk= introduced for performance reason
 
 Additional functions:
   ~eof~
+    To force consumption till ~EOF~:
+    #+begin_src haskell
+    runParser $ ... <* eof.
+    #+end_src
   ~newline~
   ~single~
   ~char~
