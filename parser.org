@@ -9,3 +9,5 @@ Parser writing often starts over defining specialized data type, and so leveragi
 #+begin_src haskell
 type Parsec a = ParsecT Void Text Identity a
 #+end_src
+
+~Token~ is an abstraction over ~{Text, ByteString, String, etc..}~.
