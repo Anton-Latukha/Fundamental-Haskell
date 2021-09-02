@@ -51,3 +51,5 @@ parse
 #+end_src
 ~parseTest~ prints the result to ~stdout~.
 
+Lexing is a process of transforming raw input (~ByteString~ or ~Text~) into stream of sensible "tokens"(lexemes): ~{keyword, integer, command symbol, ...}~.
+
