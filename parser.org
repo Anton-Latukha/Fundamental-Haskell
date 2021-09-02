@@ -46,6 +46,9 @@ Additional functions matching content:
   ~hexadecimal~
 
   ~signed~
+
+  ~charLiteral~
+  ~stringLiteral~
   
 ** Parser consuming tokens
 
