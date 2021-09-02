@@ -91,7 +91,11 @@ lexeme = chunk <* emptySpaces
   emptySpaces = space ...
 #+end_src
 
-* Parsing everything togather
+* Debugging parser
+
+Use ~dbg~ (use as exactly the same as to ~labe~) to get the trace of the parser step.
+
+* Parsing everything together
 
 ~parse~ is a synonym for ~runParser~.
 #+begin_src haskell
