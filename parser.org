@@ -55,6 +55,14 @@ Lexing is a process of transforming raw input (~ByteString~ or ~Text~) into stre
 
 Space handler is defined over ~space~ function.
 
+#+begin_src haskell
+space :: MonadParsec e s m
+  => m () -- ^ what is a parser for space characters
+  -> m () -- ^ for line comment (maybe `skipLineComment`)
+  -> m () -- ^ for block comment (maybe `skipBlockComment`)
+  -> m ()
+#+end_src
+
 To handle whitespaces, in Haskell parsers it is generally considered that lexeme tail allows/consumes arbitrary amount of spaces and newlines. Of cource lexeme & whitespace behaviour depends on the language, but generally languages parsed have regular properties.
 
 So default lexeme implementation is:
