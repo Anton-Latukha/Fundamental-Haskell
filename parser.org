@@ -46,16 +46,6 @@ Running parser combinators always consumes input and so - advances. To roll-back
 ** Labeling parts & hiding
 
 To name a parser part, use ~label~, it would be used when error report is constructed.
-
-~parse~ is a synonym for ~runParser~.
-#+begin_src haskell
-parse
-  :: Parsec e s a -- ^ Parser to run
-  -> String            -- ^ Name of source file (just for reporting)
-  -> s            -- ^ Input for parser
-  -> Either (ParseErrorBundle s e) a
-#+end_src
-~parseTest~ prints the result to ~stdout~.
 To hide - use ~hidden~.
 
 * Lexing
@@ -76,7 +66,19 @@ To handle whitespaces, in Haskell parsers it is generally considered that lexeme
 
 So default lexeme implementation is:
 #+begin_src haskell
-lexeme = chunk <* emptySpace
+lexeme = chunk <* emptySpaces
  where
-  emptySpace = space ...
+  emptySpaces = space ...
 #+end_src
+
+* Parsing everything togather
+
+~parse~ is a synonym for ~runParser~.
+#+begin_src haskell
+parse
+  :: Parsec e s a -- ^ Parser to run
+  -> String            -- ^ Name of source file (just for reporting)
+  -> s            -- ^ Input for parser
+  -> Either (ParseErrorBundle s e) a
+#+end_src
+~parseTest~ prints the result to ~stdout~.
