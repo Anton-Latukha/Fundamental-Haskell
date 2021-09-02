@@ -37,6 +37,15 @@ Additional functions matching content:
   ~tokens~
   ~chunk~
 
+** Helpers
+  ~decimal~
+  ~integer~
+  ~float~
+  ~scientific~
+  ~octal~
+  ~hexadecimal~
+
+  ~signed~
 ** Parser consuming tokens
 
 Combinators/functions can be used with ~{many, some}~ for according effect. For cases ~{many, some} $ satisfy~ there are more performant ~takeWhile{,1}P~.
