@@ -42,4 +42,12 @@ Running parser combinators always consumes input and so - advances. To roll-back
 To name a parser part, use ~label~, it would be used when error report is constructed.
 
 ~parse~ is a synonym for ~runParser~.
+#+begin_src haskell
+parse
+  :: Parsec e s a -- ^ Parser to run
+  -> String            -- ^ Name of source file (just for reporting)
+  -> s            -- ^ Input for parser
+  -> Either (ParseErrorBundle s e) a
+#+end_src
 ~parseTest~ prints the result to ~stdout~.
+
