@@ -51,6 +51,8 @@ Additional functions matching content:
 
   ~charLiteral~
   ~stringLiteral~
+
+  ~choise~ is an alias of ~asum~
   
 ** Parser consuming tokens
 
