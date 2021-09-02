@@ -110,3 +110,13 @@ Constructing
 
 =term= - indivisible whole when associativity & precedence metters.
 
+Term parser is a ~<|>~ precedence sequence of parsers cheching for possible terms.
+
+Example:
+#+begin_src haskell
+nixExpr :: Parser NExpr
+nixExpr = keywords <|> nixLambda <|> nixExprAlgebra
+ where
+  keywords = nixLet <|> nixIf <|> nixAssert <|> nixWith
+
+#+end_src
