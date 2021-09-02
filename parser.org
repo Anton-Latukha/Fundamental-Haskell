@@ -57,7 +57,7 @@ Space handler is defined over ~space~ function.
 
 #+begin_src haskell
 space :: MonadParsec e s m
-  => m () -- ^ what is a parser for space characters
+  => m () -- ^ what is a parser for space characters (maybe `spaces`)
   -> m () -- ^ for line comment (maybe `skipLineComment`)
   -> m () -- ^ for block comment (maybe `skipBlockComment`)
   -> m ()
