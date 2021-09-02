@@ -53,3 +53,4 @@ parse
 
 Lexing is a process of transforming raw input (~ByteString~ or ~Text~) into stream of sensible "tokens"(lexemes): ~{keyword, integer, command symbol, ...}~.
 
+To handle whitespaces, in Haskell parsers it is generally considered that lexeme tail allows/consumes arbitrary amount of spaces and newlines. Of cource lexeme & whitespace behaviour depends on the language, but generally languages parsed have regular properties.
