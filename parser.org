@@ -10,6 +10,8 @@ Parser writing often starts over defining specialized data type, and so leveragi
 type Parsec a = ParsecT Void Text Identity a
 #+end_src
 
+* Tokens
+
 ~Token~ is an abstraction over ~{Text, ByteString, String, etc..}~.
 
 Same parser can process different types of input streams, the ~Token~ abstraction handles that.
@@ -50,6 +52,8 @@ parse
   -> Either (ParseErrorBundle s e) a
 #+end_src
 ~parseTest~ prints the result to ~stdout~.
+
+* Lexing
 
 Lexing is a process of transforming raw input (~ByteString~ or ~Text~) into stream of sensible "tokens"(lexemes): ~{keyword, integer, command symbol, ...}~.
 
