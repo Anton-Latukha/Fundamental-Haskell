@@ -98,3 +98,10 @@ parse
 
 =Expression= in parser (~megaparsec~) terms means a general knowledge of =expression algebra=.
 
+** Parsing process
+
+Constructing
+  * AST data type
+  * operator table
+  * term parser
+
