@@ -58,7 +58,7 @@ Additional functions matching content:
 
 Combinators/functions can be used with ~{many, some}~ for according effect. ~takeWhile{,1}P~ are more performant implementation of ~{many, some} $ satisfy~.
 
-Running parser combinators always consumes input and so - advances. To roll-back the try and be able to retry - use ~try~ combinator with ~<|>~.
+Running parser combinators always consumes input and so - parser point advances. To roll-back the try and be able to retry - use ~try~ combinator with ~<|>~.
 
 ~lookAhead~ & ~notFollowedBy~ are a dual pair that allows to do optional parsing.
 
