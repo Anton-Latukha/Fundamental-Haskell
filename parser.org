@@ -84,6 +84,8 @@ space :: MonadParsec e s m
 
 To handle whitespaces, in Haskell parsers it is generally considered that lexeme tail allows/consumes arbitrary amount of spaces and newlines. Of cource lexeme & whitespace behaviour depends on the language, but generally languages parsed have regular properties.
 
+Lexeme is a basic unit of meaning and keywords in language dictionary. Lexicon sonsists of lexemes.
+
 So default lexeme implementation is:
 #+begin_src haskell
 lexeme = chunk <* emptySpaces
