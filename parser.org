@@ -25,7 +25,7 @@ Abstraction of tokens under parsing to =chunk= introduced for performance reason
 
 ~satisfy~ - filter that takes the predicate and returns things that are ~true~.
 
-~optional~ - parse with a result or yeald ~Nothing~. In ~Nothing~ case should not consume input - if parser position is not rolled back - fails with error.
+~optional~ - parse with a result or yealds ~Nothing~. In ~Nothing~ case should not consume input - if parser position is not rolled back - fails with error.
 
 Additional functions matching content:
   ~eof~
