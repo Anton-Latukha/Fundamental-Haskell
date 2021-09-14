@@ -5,7 +5,7 @@
 ~m~ - inner monad. Most often it would be ~Identity~.
 ~a~ - result of parsing that would be returned inside ~m~.
 
-Parser writing often starts over defining specialized data type, and so leveraging type synonym:
+Parser writing often starts by defining specialized data type, and so leveraging type synonym:
 #+begin_src haskell
 type Parsec a = ParsecT Void Text Identity a
 #+end_src
