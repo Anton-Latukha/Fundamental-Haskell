@@ -130,3 +130,7 @@ nixExpr = keywords <|> nixLambda <|> nixExprAlgebra
   keywords = nixLet <|> nixIf <|> nixAssert <|> nixWith
 
 #+end_src
+
+* Testing
+
+Use ~hspec-megaparsec~.
