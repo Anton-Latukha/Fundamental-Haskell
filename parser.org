@@ -56,7 +56,7 @@ Additional functions matching content:
   
 ** Parser consuming tokens
 
-Combinators/functions can be used with ~{many, some}~ for according effect. For cases ~{many, some} $ satisfy~ there are more performant ~takeWhile{,1}P~.
+Combinators/functions can be used with ~{many, some}~ for according effect. ~takeWhile{,1}P~ are more performant implementation of ~{many, some} $ satisfy~.
 
 Running parser combinators always consumes input and so - advances. To roll-back the try and be able to retry - use ~try~ combinator with ~<|>~.
 
