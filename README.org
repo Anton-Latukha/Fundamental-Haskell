@@ -13366,7 +13366,7 @@ trap 'rm -r "$dir"' EXIT
 cabal v2-haddock --builddir="$dir" --haddock-for-hackage --enable-doc
 
 # (pasting pass does not work) Enter _by hand_: account, password
-cabal upload -d --publish $dir/*-docs.tar.gz
+cabal upload -d --publish "$dir/*-docs.tar.gz"
 #+end_src
 
 
