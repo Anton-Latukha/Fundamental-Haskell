@@ -13373,10 +13373,11 @@ cabal upload -d --publish "$dir/*-docs.tar.gz"
 ** Is power set functor is a bifunctor
 
 #+begin_src haskell
-  bimap :: (a1 -> a2) -> (b1 -> b2) -> f a1 b1 -> f a2 b2
-  fmap  :: (a -> b)                 -> f a     -> f b
-  fmap  :: (a -> b)   -> (Id -> Id) -> f a Id  -> f b Id
+bimap :: (a1 -> a2) -> (b1 -> b2) -> f a1 b1 -> f a2 b2
+fmap  :: (a -> b)                 -> f a     -> f b
+fmap  :: (a -> b)   -> (Id -> Id) -> f a Id  -> f b Id
 #+end_src
+
 ** IO
 
 *** Base IO Data types
@@ -13406,7 +13407,7 @@ Contents & ~Show~ are OS dependent, hold enough data to debug.
 
 #+begin_src haskell
 data Handle
-  = FileHandle Filepath ...  -- for files
+  = FileHandle   Filepath ...  -- for files
   | DuplexHandle Filepath ...  -- for streams
 #+end_src
 
